@@ -1,0 +1,118 @@
+{
+  "3": {
+    "code": "KG",
+    "name": "Keyboard- und Funkmikro-Gutschein"
+  },
+  "9": {
+    "code": "RW",
+    "name": "Radio Würmchen"
+  },
+  "10": {
+    "code": "AU",
+    "name": "Aufführungsgesellschaft"
+  },
+  "12": {
+    "code": "KA",
+    "name": "Karaoke"
+  },
+  "20": {
+    "code": "FZ",
+    "name": "Fahrzeuge"
+  },
+  "25": {
+    "code": "GV",
+    "name": "Geräteversicherungskonto"
+  },
+  "31": {
+    "code": "KS",
+    "name": "Kontenverwaltung"
+  },
+  "32": {
+    "code": "MU",
+    "name": "Musikergesellschaft"
+  },
+  "36": {
+    "code": "BR",
+    "name": "BRZG"
+  },
+  "38": {
+    "code": "PA",
+    "name": "Papa"
+  },
+  "39": {
+    "code": "HG",
+    "name": "Hausgemeinschaft"
+  },
+  "40": {
+    "code": "VE",
+    "name": "Verwandte"
+  },
+  "41": {
+    "code": "SG",
+    "name": "Karaoke-Sänger"
+  },
+  "46": {
+    "code": "PC",
+    "name": "PC"
+  },
+  "55": {
+    "code": "LE",
+    "name": "Lebenserhaltung"
+  },
+  "56": {
+    "code": "CS",
+    "name": "Computerspiele"
+  },
+  "58": {
+    "code": "RA",
+    "name": "Radio"
+  },
+  "61": {
+    "code": "GE",
+    "name": "Gesundheit"
+  },
+  "62": {
+    "code": "FI",
+    "name": "Finanzverwaltung"
+  },
+  "63": {
+    "code": "??",
+    "name": "Nicht zugeordnet"
+  },
+  "64": {
+    "code": "SP",
+    "name": "Spaßkonto"
+  },
+  "65": {
+    "code": "AR",
+    "name": "Arbeitszeit"
+  },
+  "66": {
+    "code": "BE",
+    "name": "Bareinnahmen"
+  },
+  "68": {
+    "code": "BA",
+    "name": "Barspesen"
+  },
+  "71": {
+    "code": "WF",
+    "name": "Wohnungsfixkosten"
+  },
+  "73": {
+    "code": "IN",
+    "name": "Internet"
+  },
+  "75": {
+    "code": "UR",
+    "name": "Urheberrechtskonto"
+  },
+  "76": {
+    "code": "EI",
+    "name": "Gerhard Eichberger"
+  },
+  "79": {
+    "code": "RM",
+    "name": "Radio-Würmchen-Musiksammlung"
+  }
+}

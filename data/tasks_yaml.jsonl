@@ -1,0 +1,30 @@
+{"name": "Abhalten BKDD Standup Meeting BREPGM", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-22, removed"}
+{"name": "Arbeitszeit absolvieren (Vormittag) BREPDZ", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-22, removed"}
+{"name": "Ausmachen Termin Kontrolle Zahnarzt", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-02, start=08:10, dur=10min, prio=1.845"}
+{"name": "Auswertung Blutdruckliste (Dr. Hariri)", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-04-29, start=16:00, dur=70min, prio=1.85"}
+{"name": "Auswertung Gesundenuntersuchung (Dr. Hariri)", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-04-10, start=13:00, dur=70min, prio=1.85"}
+{"name": "Bearb. Essensplan im BRZ BREPGM", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-22, removed"}
+{"name": "Befundbesprechung AKH (Neurochirurgische Ambulanz)", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-22, start=12:00, dur=60min, prio=1.845"}
+{"name": "Besuch Dixi-WC Ruthnergasse LENADT", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-04-01, removed"}
+{"name": "Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi) BREPZE", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-03, removed"}
+{"name": "Einkauf bei Ströck", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-03, start=10:04, dur=6min, prio=1.85"}
+{"name": "Einpacken Blutdruckmeßgerät, Befund MRT für Dr. Hariri", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-04-10, start=12:50, dur=10min, prio=1.85"}
+{"name": "Einpacken Blutdruckmeßgerät, evtl. Befunde für Dr. Hariri", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-04-29, start=15:50, dur=10min, prio=1.85"}
+{"name": "Einpacken für Nachbarschaftsfest", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-14, start=13:00, dur=90min, prio=1.845"}
+{"name": "Fahrt BRZG BRFAFA", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-22, removed"}
+{"name": "Fahrt von AKH ins BRZ", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-22, start=13:10, dur=30min, prio=1.845"}
+{"name": "Fahrt zu Befundbesprechung AKH (Neurochirurgische Ambulanz)", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-22, start=11:00, dur=60min, prio=1.845"}
+{"name": "Fahrt zu Klassentreffen (Brendl)", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-03, start=17:45, dur=15min, prio=1.85"}
+{"name": "Fahrt zu Nachbarschaftsfest", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-14, start=14:30, dur=30min, prio=1.845"}
+{"name": "Gesundenuntersuchung (7:30)", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-04-03, start=07:20, dur=51min, prio=1.85"}
+{"name": "Heimfahrt vom BRZ - Fahrt zu U4 Spittelau BRFAHF", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-03, removed"}
+{"name": "Heimfahrt von Klassentreffen", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-03, start=22:00, dur=45min, prio=1.85"}
+{"name": "Heimfahrt von Nachbarschaftsfest Seestadt", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-14, start=20:40, dur=30min, prio=1.845"}
+{"name": "Klassentreffen (Brendl)", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-05-03, start=18:00, dur=240min, prio=1.85"}
+{"name": "Kontrolle Augenarzt (Dr. Graziadei) (9:00)", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-10-14, start=16:10, dur=70min, prio=1.85"}
+{"name": "Kontrolle Augenarzt (Dr. Graziadei) (9:10)", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-03, start=09:00, dur=70min, prio=1.85"}
+{"name": "Laufen (Dixi-WC Ruthnergasse) GEGYLD", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-03, removed"}
+{"name": "Laufen (nach Augenarzt)", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-03, start=10:10, dur=30min, prio=1.845"}
+{"name": "Nachbarschaftsfest Seestadt inkl. Auf- und Abbau", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-14, start=15:00, dur=300min, prio=1.845"}
+{"name": "Rückbau Nachbarschaftsfest Seestadt", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-14, start=21:10, dur=50min, prio=1.81"}
+{"name": "Zusammenstellung Einkaufsliste für Ströck", "code": "", "source": "yaml_exceptions", "status": "needs_review", "notes": "first seen 2025-06-03, start=08:55, dur=5min, prio=1.85"}

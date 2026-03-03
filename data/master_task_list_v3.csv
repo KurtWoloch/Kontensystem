@@ -1,0 +1,1289 @@
+﻿tier;name;code;account_prefix;parent;list;priority;fixed_time;status;sources;source_count;variant_count;notes
+1;2 Mails an Verwandte;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;2 Mails Verwandte Mappen Kurti-Opa;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;2 Postings Zeiten Atariage;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Abbau Livestream;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Abendzer.;;LE;;;0;;active;access_Tab_Aufwandserfassung, window_logger_vb5;2;0;
+1;Abgabe Musikwunsch ISW;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Abgabe Wunsch Musikwelle;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Abhalten BKDD Standup Meeting;BREPGM;;;Liste_Arbeit;1.845;11:00;active;ablauf_planned, csv, old_cs, yaml_exceptions;4;1;seen 172x across Ablauf files
+1;Abhalten PKT Projekt Jour Fixe;BREPGM;;;Liste_Arbeit;1.84;10:00;active;ablauf_planned, csv, old_cs;3;1;seen 37x across Ablauf files
+1;Abheben Geld;;FI;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;2;
+1;Ablegen Gurgeltest;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Abschluss;BRALAB;;;Liste_Arbeit;1.84;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;1;seen 135x across Ablauf files
+1;Abschluss Die neue Normalität;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Abwiegen;LEMTAW;;;Liste_Morgentoilette;0;;active;ablauf_planned, old_cs;2;1;seen 319x across Ablauf files
+1;AE / Abr. Halbmon. / 16.-17.7.2020;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Abr. Mon. / 1.8.2020;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Abr. Mon. 8/2021;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Bearb. Kommentare Kontengebarung;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Druck Kommentare Kontengebarung;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Kommentare Kontengeb.;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Kommentare Kontengebarung;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Kommentare Kontengebarung / Window Logger;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Kommentare zur Kontengebarung 1. Hj. 2020;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Korr.lesen / Druck Kontengeb. 1. Hj. 2020;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Korr.lesen Kommentare Kontengebarung;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;AE / Taskliste;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aktienhandel;;PA;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;2;
+1;Aktualisierung Radiowerte;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aktualisierung Radiowertungen;;RA;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Amazon Women Spectrum;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Analyse Disassembly Astro Bomber;CSGAUM;;;Liste_Spiele;1.81;;active;ablauf_planned, csv;2;7;seen 122x across Ablauf files
+1;Analyse Disassembly Tour de France;CSGAUM;;;Liste_Spiele;1.81;;active;ablauf_planned, csv;2;1;seen 38x across Ablauf files
+1;Analyse Kartenaufbau Link;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Analyse Wellenformen Edi's Orgel;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;andere Aktivität;;;;;0;;active;access_Tab_Aufwandserfassung, window_logger_vb5;2;0;
+1;Anfrage Ersoy Mittagessen;LEMEAE;;;Liste_Morgentoilette;0;;active;ablauf_unplanned, old_cs;2;0;unplanned, seen 1x across Ablauf files
+1;Anhören / Eingabe 3-Groschen-Oper u.a.;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören / Eingabe Tonträger;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören Aufnahmen Teamgrillen;;MU;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Anhören Aufnahmen von Teamgrillen;;RW;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Anhören CD Tina / Druck Single-Covers;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören CD Tina / Eingabe Singles;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören CDs Tina / Eingabe Singles Boney M:;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören eigener Tonträger / Nachdruck Hüllen;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören Kass. Kar.gesang;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Anhören LP Bruckner Requiem u.a. mit Papa;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören Radiosender;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;3;seen 1x across Ablauf files
+1;Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer;RWMPMP;;;Liste_Morgentoilette;1.835;06:00;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;1;seen 141x across Ablauf files
+1;Anhören Radiosender / Tonträger / Ansehen Youtube-Videos;RWMPMP;;;Radio;1.826;;active;ablauf_planned, csv, old_cs;3;20;seen 1178x across Ablauf files
+1;Anhören RW KI;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;
+1;Anhören RW-Prg.;RWMPAR;RW;;;0;;active;ablauf_planned, access_Tab_Aufwandserfassung;2;3;seen 20x across Ablauf files
+1;Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer;RWMPAR;;;Radio;1.833;08:52;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;16;seen 187x across Ablauf files
+1;Anhören RW-Prg. Mit Papa;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören RW-Prg. mit Sati + Akif Ersoy;RWMPSE;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;seen 2x across Ablauf files
+1;Anhören RW-Prg. mit Sati Ersoy;RWMPSE;;;Liste_Putzen;1.84;09:30;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;1;seen 95x across Ablauf files
+1;Anhören RW-Programm;RWMPMP;RW;;;0;;active;ablauf_planned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;4;seen 1x across Ablauf files
+1;Anhören RW-Programm + Kassette mit Papa;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören RW-Programm mit Heinrich;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören RW-Programm mit Papa;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören RW-Prrg.;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Anhören Singles / Nachdruck Hüllen;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anhören Youtube-Videos mit Papa;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anleitung Putzfrau;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anmeldung bei Link;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anruf Musikwunsch Plattenkiste;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anruf von Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Anrufen Putzfrau;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Ansehen / Kommentieren Youtube-Videos;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;4;seen 2x across Ablauf files
+1;Ansehen alte CS-Projekte;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ansehen div. Youtube-Videos;;IN;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;1;
+1;Ansehen Fernsehsendungen;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ansehen Jason Lux Livestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ansehen Maps Moonwalker;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ansehen Theaterstück Ronald;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ansehen We are the world;;IN;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ansehen Youtube;RWRSMR;RA;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;2;
+1;Ansehen YOutube-Videos;RWMPAR;IN;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;4;520;seen 3x across Ablauf files
+1;Ansehen Zeit im Bild 1;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ansehen ZiB + Wetter;;RA;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Ansehen ZiB 1;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;1;
+1;Ansehen ZiB 1 + Wetter;RATVZI;RA;;Liste_nachmittags;0;19:30;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, old_cs;4;2;seen 250x across Ablauf files
+1;Ansehen ZiB 1 / 2;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ansehen ZiB 1 u.a.;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;1;
+1;Ansehen ZiB 1/2/Diskussionssendung;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ansehen ZiB 2;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;1;
+1;Anwendung der Zwischenraumzahnbürste;LEAZZZ;;;Liste_Abendzeremonie;0;;active;ablauf_planned, old_cs;2;1;seen 388x across Ablauf files
+1;Anwendung Zahnseide;LEAZZS;;;Liste_Abendzeremonie;0;;active;ablauf_planned, old_cs;2;0;seen 385x across Ablauf files
+1;Anziehen;LEMTAN;LE;;Liste_Morgentoilette;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, old_cs;4;6;seen 377x across Ablauf files
+1;Arbeitnehmerveranlagung für Papa;PAFIAV;;;Liste_nachmittags;0;;active;ablauf_planned, ablauf_unplanned, old_cs;3;10;seen 4x across Ablauf files
+1;Arbeitszeit absolvieren;BREPDZ;;;;0;;active;ablauf_planned, ablauf_unplanned;2;15;
+1;Arbeitszeit absolvieren (Nachmittag);BREPDZ;;;Liste_Arbeit;1.845;;active;csv, old_cs;2;0;
+1;Arbeitszeit absolvieren (Vormittag);BREPDZ;;;Liste_Arbeit;1.845;;active;csv, old_cs, yaml_exceptions;3;0;
+1;Asteroids;;CS;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;2;
+1;Aufbau Heimkaraoke;;KA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufbau Livestream;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufbau Vatertagsfeier;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufhängen Badewäsche;GEGYAB;;;Liste_Schwimmbad;1.846;;active;ablauf_planned, csv, old_cs;3;0;seen 100x across Ablauf files
+1;Aufnahme von Kontakt mit weiblichen Wesen;;PA;;;0;;retired;access_Tab_Wuensche, taskliste;2;0;wisher=Dr. Mayrhofer, status=wird überlegt
+1;Aufnehmen Die neue Normalität;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufräumen;WFARAR;WF;;Liste_untertags;1.81;;active;ablauf_planned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, csv, old_cs, taskliste;7;4;seen 249x across Ablauf files
+1;Aufräumen / div. WF-Aktivitäten;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufräumen / Vorbereitung Ruf Putzfrau;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufräumen mit Papa;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufschreiben Heimkaraoke;;KA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufsperren Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufstehen, Rasierer fasssen;LEMTAU;;;Liste_Morgentoilette;1.841;;active;ablauf_planned, csv, old_cs;3;1;seen 300x across Ablauf files
+1;Aufstellen 2 Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufwandserfassung;KSAAKO;KS;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5;5;3;
+1;Aufwandserfassung / Abrechnung;;KS;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;167;
+1;Aufwandserfassung / Bearb. Wnidow Logger;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aufwandserfassung und Abrechnung Kontensystem;KSAAKO;KS;;Liste_nachmittags;1.81;;active;ablauf_planned, access_Tab_Gewinnaktionen, csv, old_cs;4;14;seen 305x across Ablauf files
+1;Aufwaschen Küche;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ausfüllen Umfrage TIER;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Auskundschaftung Bauten südlich Siemens-Gelände;;AU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Auskundschaftung Kleingartenanlage Transit;;AU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ausmachen Arzttermine;GEMRNA;;;Liste_untertags;1.827;;active;ablauf_planned, csv, old_cs;3;9;seen 98x across Ablauf files
+1;Ausmachen Termin Zahnarzt;;GE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;
+1;Auspacken Einkauf;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Auspacken Essensplan;LEEPAU;;;Liste_mittags;1.84;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;3;seen 91x across Ablauf files
+1;Auspacken Küchengeräte;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Auspacken Teamgrillen;LEPOPO;MU;;;0;;active;ablauf_planned, access_Tab_Aufwandserfassung;2;0;seen 1x across Ablauf files
+1;Ausputzen Rasierer;LEMTAR;;;Liste_Morgentoilette;1.846;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;0;seen 380x across Ablauf files
+1;AUsrasten;;GE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;6;unplanned, seen 1x across Ablauf files
+1;Ausruhen;;GE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 10x across Ablauf files
+1;Aussortieren Küchengeräte + Unterlagen Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aussortieren und Wegwerfen seit 17.5.2022 nicht verwendeter Kleidung;WFREER;;;Liste_nachmittags;0;;active;ablauf_planned, old_cs;2;4;seen 32x across Ablauf files
+1;Aussuchen Musiktitel / Tonträger;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Aussuchen Radiosender;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;5;seen 1x across Ablauf files
+1;Auswertung Radioscans / Playlists;;RW;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;0;unplanned, seen 1x across Ablauf files
+1;Ausziehen;LEMTAZ;;;Liste_Morgentoilette;1.84;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;1;seen 760x across Ablauf files
+1;Autoririsierung Kreditkarte für 3D Secure-Zahlungen;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. auswendige Radioplaylist;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Badewanne mit Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Bearb. Bewertung der Dokumentationen;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Checklisten;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Checklisten / Taskliste u.a.;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Einkaufsliste;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 5x across Ablauf files
+1;Bearb. Essensdatenbank;;LE;;;0;;active;window_logger_vb5, windowlog_corrector;2;0;combo box item, account=LE
+1;Bearb. Essensplan;LEEPVO;LE;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;932;seen 14x across Ablauf files
+1;Bearb. Essensplan (Einlesen Einkaufsliste) LEEEL;;;;Liste_nachmittags;1.826;;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (Eintragen Protokoll);LEEPEP;;;Liste_nachmittags;1.826;;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (Ereignisse / gegessen / zu essen);LEEPGE;;;Lebenserhaltung;1.844;14:30;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste);LEEPLS;;;Lebenserhaltung;1.84;10:31;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (gegessen / Lokalsuche / Konsumation);LEEPLS;;;Lebenserhaltung;1.84;11:00;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (gegessen, zu essen);LEEPEP;;;Liste_Morgentoilette;1.84;08:56;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf);LEEPEP;;;Liste_Morgentoilette;1.84;;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (Kontrolle / zu essen / Korrektur);LEEPKO;;;Liste_nachmittags;1.83;;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (Nährwerte);LEEPGE;;;Liste_untertags;1.81;;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (Protokoll);LEEPPR;;;Liste_nachmittags;1.827;;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (Update Händlerangebote);LEEPUH;;;Liste_nachmittags;1.83;;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (Update Rotation);LEEPRO;;;Liste_nachmittags;1.83;;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (Update Wärme / Gewicht);LEEPUW;;;Liste_nachmittags;1.83;;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (Vorschläge Strake);LEEPVO;;;Liste_Schwimmbad;1.846;07:30;active;csv, old_cs;2;0;
+1;Bearb. Essensplan (Änderung Sollwerte);LEEPUH;;;Liste_Morgentoilette;1.84;;active;csv, old_cs;2;0;
+1;Bearb. Essensplan / Einkaufsliste;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;
+1;Bearb. Essensplan im BRZ;BREPGM;;;Liste_Arbeit;1.84;;active;ablauf_planned, csv, old_cs, yaml_exceptions;4;2;seen 78x across Ablauf files
+1;Bearb. Esssensplan;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Bearb. gegangene Strecken;FZSCLI;;;;0;;active;ablauf_planned, ablauf_unplanned;2;12;seen 1x across Ablauf files
+1;Bearb. Geldbörse;FIBGGB;;;Liste_untertags;1.826;;active;ablauf_planned, csv, old_cs;3;8;seen 492x across Ablauf files
+1;Bearb. Hörwerte / Radiobewertung;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Koordinaten Link;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Koordinaten Link / Tier;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Koordinaten Tier;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Koordinaten Tier / LINK;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Koordinaten Tier / Update Scooterauswertung;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Liste auswendig singbarer Titel;MUOWAS;;;Liste_untertags;1.829;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;1;seen 41x across Ablauf files
+1;Bearb. Liste Scooterfahrten;FZSCLI;;;Liste_untertags;1.828;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;15;seen 235x across Ablauf files
+1;Bearb. Mindestplanung Aufarbeitung Zeitrückstände;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Mindestplanung Zeitrückstand;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Ohrwürmer;RWOWCH;;;;0;;active;ablauf_planned, ablauf_unplanned;2;172;
+1;Bearb. Ohrwürmer (durchgenommene);RWOWDU;;;Liste_nachmittags;1.826;;active;csv, old_cs;2;0;
+1;Bearb. Ohrwürmer (durchzunehmende);RWOWDN;;;Liste_Schwimmbad;1.841;07:43;active;csv, old_cs;2;0;
+1;Bearb. Ohrwürmer (Liste auswendig singbarer Titel);MUOWAS;;;Liste_nachmittags;1.826;;active;csv, old_cs;2;0;
+1;Bearb. Ohrwürmer (Nachfassen aus alten Charts);RWOWTT;;;Liste_nachmittags;1.822;;active;csv, old_cs;2;0;
+1;Bearb. Ohrwürmer (Texte);MUOWTE;;;Liste_nachmittags;1.826;;active;csv, old_cs;2;0;
+1;Bearb. OpenStreetMaps;;IN;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5;3;0;
+1;Bearb. Play Card System;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Playlist;RWYTPL;RW;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5;5;45;seen 1x across Ablauf files
+1;Bearb. Playlist / Evaluation Hörwerte;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Playlist / Radiobewertung;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Playlist / RW-Datenbank;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Playlist / Update Hörwerte;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Playlist / Update Radiohörwerte;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Playlist / Update Wertungsfaktoren;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Playlist / Wertungsfaktoren;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Playlist / Wertungsfaktoren / Update RW-Prg.;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Playlists;RWMPAR;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;
+1;Bearb. Probenplan;;MU;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;3;unplanned, seen 4x across Ablauf files
+1;Bearb. Radiowertungen;;RA;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;
+1;Bearb. RW-Datenbank;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. RW-DB;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Scans / Mail Andrea;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Scooterkoord.;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Scooterkoordinaten;;FZ;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;0;unplanned, seen 1x across Ablauf files
+1;Bearb. Senderwertungen;RASCSW;;;Liste_nachmittags;0;;active;ablauf_planned, old_cs;2;4;seen 48x across Ablauf files
+1;Bearb. Taskliste / Planung;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. unbenannte Datei;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Bearb. Wertungsfaktoren / Korr. RW-PRg.;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Zeitrückstand;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb. Ähnlichkeiten;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearb.Ohrwürmer;RWOMCH;;;;0;;active;ablauf_planned, ablauf_unplanned;2;429;
+1;Bearb.Ohrwürmer(durchgenommen);MUOWDU;;;Liste_Morgentoilette;1.84;;active;csv, old_cs;2;0;
+1;Bearb.Ohrwürmer(Nachfassen aus alten Charts);RWOWTT;;;Liste_untertags;1.828;;active;csv, old_cs;2;0;
+1;Bearbeitung Aufgaben zu Papa's Pflege;PATATA;;;Liste_nachmittags;0;;active;ablauf_planned, old_cs;2;15;seen 11x across Ablauf files
+1;Bearbeitung Aufgaben zu Papa's Pflege (10' +);PATATA;;;Liste_untertags;1.826;;active;csv, old_cs;2;0;
+1;Bearbeitung Batterienpool;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Bewertung der Probleme;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Buch Champion's Mindset;GELICM;;;Liste_untertags;1.825;;active;ablauf_planned, ablauf_unplanned, csv;3;25;seen 282x across Ablauf files
+1;Bearbeitung Börsenkurse;FIAKBK;;;;0;;active;ablauf_planned, ablauf_unplanned;2;2;
+1;Bearbeitung Börsenkurse / Aktienhandel;FIAKBK;;;Liste_untertags;1.811;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;16;seen 339x across Ablauf files
+1;Bearbeitung Check- / Taskliste;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Check- und Taskliste;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Checklisten;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung div. Dokumentationen;;GE;;;0;;active;access_Tab_Aufwandserfassung, window_logger_vb5;2;0;
+1;Bearbeitung laufende Checklisten;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Liste Musikermappe;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Mails;;IN;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;0;unplanned, seen 1x across Ablauf files
+1;Bearbeitung Masken aus China;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Bearbeitung Musikumfrage Ö3;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Musikumfrage Ö3 / Antwort an Ö3;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Planung;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Planung für 21.3.2021;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Play Card System;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Bearbeitung Play Card System u.a.;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Playcard Analyzing\Ablauf Einlesen Playcard;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Playlist;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung PSR-60 ROM Disassembly;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung PSR-60 ROM Disassembly 1;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Repertoireliste Jive Aces;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Taskliste;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Taskliste / Checklisten;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Text Life on Miles;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Untersuchung der Prioritätenliste;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Untersuchung der Prioritätenliste / Taskliste;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Untersuchung der Prioritätenliste.doc;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Wertungsfaktoren;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bearbeitung Yamaha Playcard Songs in Videos;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Beendung Tranche Tonträgereingabe;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Begutachtung AKH-Befund Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Begutachtung Planungstool;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Begutachtung Unterlagen Kurti-Opa für Franzi;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Begutachtung Zeitplanung;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Beobachtung Kinderfahrzeug Spielplatz;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Beschriftung Kass. Kar.gesang;;KA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Beschwerde von Kindern über Pädephilie;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Besorgung Fahrscheine;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Besorgung Medikament für Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Besprechung Doku Prioritätenliste;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Besprechung Problemdokumentation;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bestellung Mittagessen;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;3;
+1;Besuch Dixi-WC Jägerstr.;LENADW;;;Liste_mittags;0;;active;ablauf_planned, old_cs;2;1;seen 19x across Ablauf files
+1;Besuch Dixi-WC Ruthnergasse;LENADT;;;;0;;active;ablauf_planned, yaml_exceptions;2;1;seen 29x across Ablauf files
+1;Besuch Dixi-WC Siemensstraße;LENADT;;;Liste_mittags;1.83;;active;ablauf_unplanned, old_cs;2;0;unplanned, seen 1x across Ablauf files
+1;Besuch Dr. Hariri;GEMRNA;GE;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, window_logger_vb5;4;6;
+1;Besuch Friseur;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 3x across Ablauf files
+1;Besuch Puls4-Show-Aufzeichnung;;AU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Besuch Schwimmbad;GEGYSB;GE;;Liste_Schwimmbad;1.846;07:50;active;ablauf_planned, access_Tab_Aufwandserfassung, csv, old_cs;4;8;seen 97x across Ablauf files
+1;Besuch von Fr. Strake;;WF;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;
+1;Besuch von Heinrich;;SG;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Bett machen;LEMTBM;;;Liste_Morgentoilette;0;;active;ablauf_planned, ablauf_unplanned, old_cs;3;1;seen 764x across Ablauf files
+1;Bewässerung Terrasse;WFTEBE;WF;;Liste_Morgentoilette;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, old_cs;4;18;seen 26x across Ablauf files
+1;Blutdruck messen;GEBMBM;GE;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;6;seen 298x across Ablauf files
+1;Boccia mit Kollegen;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Brennen / Cover Oster-Cd für Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;C-64 Juice;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Cashews fassen;LEMTTW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;
+1;Catloaf2600;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Christbaum aufputzen;;PA;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;
+1;Christbaumverabschiedung;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Datensicherung;PCDASI;KS;;Liste_nachmittags;1.8;;active;ablauf_planned, access_Tab_Aufwandserfassung, old_cs;3;1;seen 26x across Ablauf files
+1;Der Außentemperatur entsprechend anziehen;LEAUAZ;;Checkliste bei Fortgehen;Liste_Arbeit;75.0;;active;ablauf_planned, ablauf_unplanned, csv, kurtdoku, old_cs;5;3;seen 409x across Ablauf files
+1;Dichtungswechsel Dusche;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Diskussion Kontensystem u.a. Themen;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Diskussion Mails mit Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Diskussion mit Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;1;
+1;Diskussion mit Papa über Mails;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Diskussion Partenwunsch Franzi;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Diskussion RW-Prg. / Baden gehen;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Div. Diskussionen;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Div. Radioscans;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Div. Radioscans / Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Div. Surfen;INSUSU;IN;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5;4;176;unplanned, seen 16x across Ablauf files
+1;div. Surfen / Ansehen Youtube-Videos;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;0;seen 1x across Ablauf files
+1;Dokumentation Finanzanlagen;FIDOAK;;;Liste_nachmittags;1.804;;active;ablauf_planned, old_cs;2;0;seen 3x across Ablauf files
+1;Dokumentation Grundsätze der Ma'at;GEDOMA;;;Liste_nachmittags;0;;active;ablauf_planned, old_cs;2;1;seen 54x across Ablauf files
+1;Dokumentation Prioritätsliste;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung, taskliste;3;0;
+1;Doppelkeks fassen;LEMTTW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;
+1;Download / Versuche Speccy;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Download Amazon Women;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Druck Einladung für Puls4-Show-Aufzeichnung;;AU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Druck Text La Cucaracha;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Druck Text Moonlight Serenade;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Druckerreinigung;;PC;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Druckerwartung;;PC;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Durchführung Livestream;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Durchstöbern Keyboard-Registrierungen;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Duschen;LEMTDU;GE;;Liste_Morgentoilette;0;;active;ablauf_planned, access_Tab_Aufwandserfassung, old_cs;3;0;seen 277x across Ablauf files
+1;Eingabe + Anhören LP's;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eingabe + Anhören Tonträger;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eingabe / Anhören LP's;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eingabe / Anhören Singles v. Kurti-Opa u.a.;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eingabe gehörte Titel;;RW;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 2x across Ablauf files
+1;Eingabe gehörte Weihnachtskassette 1992;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eingabe LP Dreigroschenoper u.a.;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eingabe LP's;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eingabe Rest alte Singles / DB-Korr. CD Tina;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eingabe Teleworking SAP;BREPZE;;;Liste_Arbeit;1.842;;active;ablauf_planned, csv, old_cs;3;0;seen 135x across Ablauf files
+1;Eingabe Tonträger;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eingabe Zeiterfassung SAP;BREPZE;;;Liste_Arbeit;1.843;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;2;seen 223x across Ablauf files
+1;Eingeschlafen;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;unplanned, seen 1x across Ablauf files
+1;Einkauf;LEEKBI;LE;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;48;
+1;Einkauf bei Ströck;;;;;0;;active;ablauf_planned, yaml_exceptions;2;0;seen 1x across Ablauf files
+1;Einkauf Brot/Weckerln/süße Stücke;BREPZE;;;;0;;active;ablauf_planned, ablauf_unplanned;2;5;
+1;Einkauf Brot/Weckerln/süße Stücke (Der Mann Wien Mitte);BREPZE;;;Liste_Arbeit;1.841;;active;csv, old_cs;2;0;
+1;Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi);BREPZE;;;Liste_mittags;1.844;;active;csv, old_cs, yaml_exceptions;3;0;
+1;Einkurbeln Markise;;WF;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Einkurbeln Markisen;;WF;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;0;unplanned, seen 2x across Ablauf files
+1;Einlass / Koordination Sati;WFPUEL;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;
+1;Einlass / Koordination Sati Ersoy;WFPUEL;;;Lebenserhaltung;1.845;12:26;active;ablauf_planned, csv, old_cs;3;15;seen 94x across Ablauf files
+1;Einpacken;;BR;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 2x across Ablauf files
+1;Einpacken Baden;;GE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;3;
+1;Einpacken Blutdruckmeßgerät, Befund MRT für Dr. Hariri;;;;;0;;active;ablauf_planned, yaml_exceptions;2;0;seen 2x across Ablauf files
+1;Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-Stick;RWMPEP;;;Liste_Arbeit;1.84;;active;ablauf_planned, csv, old_cs;3;1;seen 90x across Ablauf files
+1;Einpacken für Einkauf;LEEKEP;LE;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;10;
+1;Einpacken für Einkauf (Essensdatenbank, Rucksack, Sackerln, Altbatterien, Notebook, 25%-Pickerln, USB-Stick);LEEKEP;;;Lebenserhaltung;1.84;;active;csv, old_cs;2;0;
+1;Einpacken für Schwimmbad;GEGYES;;;Liste_Schwimmbad;1.846;07:35;active;ablauf_planned, csv, old_cs;3;2;seen 86x across Ablauf files
+1;Einpacken Handy, Brille, Kabel;BRFAEP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;4;
+1;Einpacken Handy, Brille, Kabel (inkl. Laptop!), Handynetzteil, Power Bank, Headset, USB-Stick, Geld;BRFAEP;;;Liste_Arbeit;1.84;;active;csv, old_cs;2;0;
+1;Einpacken Kass. Für Fahrt;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einpacken Musik für Fahrt;RWRUEP;RW;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;0;unplanned, seen 1x across Ablauf files
+1;Einpacken Musik für Fahrt inkl. Player + Akkus;RWRUEP;;;Liste_Arbeit;1.84;09:33;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;8;seen 89x across Ablauf files
+1;Einpacken Playlist für Fahrt;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einpacken RW-Datenbank;;RW;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Einpacken RW-Prg. / Essensplan / Sicherung USB-Stick;RWMPEP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;2;seen 5x across Ablauf files
+1;Einpacken Tonträger für Fahrt;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einrichtung Lichterkette;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einräumen Anleitungen in Küche;;LE;;;0;;active;ablauf_unplanned, taskliste;2;0;unplanned, seen 1x across Ablauf files
+1;Einräumen gehörte Kassetten;;RW;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Einspielen 11 Titel aus 2009;;RM;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einspielen 2 Titel;;RM;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einspielen 3 Titel Internet;;RM;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einspielen 4 Titel aus Internet;;RM;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einspielen 7 Titel aus Jänner-Liste;;RM;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einspielen div. Titel;;RM;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einspielen neue Titel;;RM;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einspielung O sole mio;;RM;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Einst. Laptop / Musikwunsch DX-Wunschkonz.;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eintragen Zeiten Atariage;CSAAZE;;;Liste_Abendzeremonie;1.82;;active;ablauf_planned, old_cs;2;0;seen 52x across Ablauf files
+1;Eintragung Wohnungsaktivitäten;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einüben 4 Titel Keyboard / Bearb. Prg.;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einüben div. Titel;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Einüben Tulpen aus Amsterdam / Erforschung Voices;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Eis kaufen;BREPZE;LE;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;6;seen 1x across Ablauf files
+1;Entsorgung Altpapier;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;2;unplanned, seen 18x across Ablauf files
+1;Entsorgung Pizzakarton;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Erfassung Corona-Infektionen;;GE;;;0;;active;access_Tab_Aufwandserfassung, taskliste;2;0;
+1;Erfassung Corona-Zahlen;;GE;;;0;;active;access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen;2;0;
+1;Erfassung Keyboard-Registrierungen;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Erfassung Wünsche Jason Lux;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ermittlung Gesamtzeit für geplante Projekte;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ermittlung Gesamtzeiten;KSAEEG;;;Liste_untertags;1.83;;active;ablauf_planned, csv, old_cs;3;5;seen 22x across Ablauf files
+1;Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt);KSAEEG;;;Liste_untertags;1.829;;active;csv, old_cs;2;0;
+1;Ermittlung Musikwünsche für versch. Radiosender;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Erstellung Playback mit Vocal Remover;;;;Liste_untertags;1.81;;active;ablauf_planned, csv;2;4;seen 284x across Ablauf files
+1;Erstellung Programm für Teamgrillen;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Essen bestellen;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Essen fassen;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;2;
+1;Evaluation Hörwerte;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Evaluation Hörwerte / Radiosender;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Evaluation Hörwerte / Radiowertungen;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Experiment Portable John;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Experiment Powerbank;;PC;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Experiment Travel John;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Fahrt / Rückfahrt Zahnarzt mit TIER-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Fahrt BRZG;BRFAFA;;;Liste_Arbeit;1.84;08:59;active;ablauf_planned, csv, old_cs, yaml_exceptions;4;6;seen 86x across Ablauf files
+1;Fahrt mit Lime-Scooter Rennweg;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Fahrt TIER-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;3;
+1;Fahrt Tier-Scooter / Jump-Bike;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Fahrt TIER-Scooter zu Urologe+zurück;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Fahrt zu DZU mit TIER-Scootern;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Fahrt/Dienstz. BRZG;;BR;;;0;;active;access_Tab_Aufwandserfassung, window_logger_vb5;2;1;
+1;Fahrten mit TIER-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Faschingsfeier BRZ;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Feinschliff bei der Rasur;LEMTFR;;;Liste_Morgentoilette;1.84;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;1;seen 387x across Ablauf files
+1;Forge of Empires;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;42;
+1;Fortsetzung der Arbeit an Tetrinet für G7400;;CS;;;0;;retired;access_Tab_Wuensche, taskliste;2;0;wisher=Videopac-Forum-Members, status=suspendiert
+1;Fortsetzung der Arbeit an Titanic Rescue;;CS;;;0;;retired;access_Tab_Wuensche, taskliste;2;0;wisher=Atariage-Members, status=suspendiert
+1;Freischaltung Klar-App;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Frisieren;LEAUFR;;Checkliste bei Fortgehen;Checkliste bei Fortgehen;75.0;;active;ablauf_unplanned, kurtdoku, old_cs;3;0;unplanned, seen 1x across Ablauf files
+1;Frühstück;;LE;;;0;;active;ablauf_unplanned, window_logger_vb5;2;4;
+1;Frühstück fassen;LEMTFR;;;;0;;active;ablauf_planned, ablauf_unplanned;2;3;
+1;Frühstücken;LEMTFR;;;;0;;active;ablauf_planned, ablauf_unplanned;2;10;
+1;Frühstücken, dabei Tee machen, Bearb. Werbeprospekte;LEMTFR;;;Liste_Morgentoilette;0;;active;ablauf_planned, old_cs;2;0;seen 17x across Ablauf files
+1;Frühstücken, dabei Tee machen, Bearb. Werbeprospekte, Prüfung Terrasse;LEMTFR;;;Liste_Morgentoilette;1.845;;active;ablauf_planned, old_cs;2;0;seen 4x across Ablauf files
+1;Frühstücken, dabei Tee machen, Einpacken für BRZ;LEMTFR;;;Liste_Morgentoilette;0;;active;ablauf_planned, old_cs;2;0;seen 11x across Ablauf files
+1;Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte;LEMTFR;;;Liste_Morgentoilette;1.845;;active;ablauf_planned, csv;2;2;seen 185x across Ablauf files
+1;Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte, Prüfung Terrasse;LEMTFR;;;Liste_Morgentoilette;1.846;;active;ablauf_planned, csv;2;0;seen 34x across Ablauf files
+1;Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Einpacken für BRZ;LEMTFR;;;Liste_Morgentoilette;1.845;;active;ablauf_planned, csv;2;1;seen 73x across Ablauf files
+1;Führung Tagebuch, um schmerzhafte Situationen zu verarbeiten;GELIFT;;;Liste_untertags;1.815;;active;ablauf_planned, csv;2;8;seen 206x across Ablauf files
+1;G-Rally;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Geb.gutscheine für Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Geburtstagsfeier bei Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Geld abheben;LEMEGA;;;;0;;active;ablauf_planned, ablauf_unplanned;2;2;
+1;Geschirr abwaschen;LEMEGA;;;Lebenserhaltung;1.844;13:30;active;ablauf_planned, csv, old_cs;3;7;seen 171x across Ablauf files
+1;Gespräch mit Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Gesundenuntersuchung;;GE;;;0;;active;ablauf_planned, access_Tab_Aufwandserfassung;2;2;
+1;Getränk fassen;LEMTTW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;13;seen 6x across Ablauf files
+1;Gründung eines Karaoke-Forums;;AU;;;0;;retired;access_Tab_Wuensche, taskliste;2;0;wisher=Erwin Woloch, status=bei Ausflugskonto näher zu untersuchen
+1;Handlung Bettwäsche mit Papa;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Heimfahrt BRZG;;BR;;;0;;active;access_Tab_Aufwandserfassung, window_logger_vb5;2;1;
+1;Heimfahrt mit LINK-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;4;
+1;Heimfahrt vom BRZ - Fahrt zu U4 Spittelau;BRFAHF;;;Liste_mittags;0;;active;ablauf_planned, old_cs, yaml_exceptions;3;0;seen 31x across Ablauf files
+1;Heimfahrt vom BRZ inkl. Laufen;BRFAHF;;;Liste_Arbeit;1.84;;active;ablauf_planned, csv;2;1;seen 19x across Ablauf files
+1;Heimfahrt von Dixi-WC Jägerstr.;BRFAHD;;;Liste_mittags;0;;active;ablauf_planned, ablauf_unplanned, old_cs;3;2;seen 18x across Ablauf files
+1;Heimfahrt von DZU tw. Mit TIER-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Heimkaraoke (von mir als Veranstaltung angesetzt);KAVAHK;RW;;Liste_nachmittags;2.697;;active;access_Tab_Gewinnaktionen, old_cs;2;0;when=nach Wunschveranstaltung, offerable=True
+1;Heimkaraoke / Abbau;;KA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Hero Wars;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Hilfe Papa Schlauch;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Hinunterbringen schwarze Stellage;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Holundersaft fassen;LENATW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;seen 3x across Ablauf files
+1;Häferl waschen;LEMTHW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;0;seen 2x across Ablauf files
+1;Häferl waschen / Hustenbonbon fassen;LEMTHW;;;Liste_Morgentoilette;0;;active;ablauf_planned, ablauf_unplanned, old_cs;3;1;seen 348x across Ablauf files
+1;Häferl waschen, Hustenbonbon fassen;LEMTHW;;;Liste_Morgentoilette;0;7:40;active;ablauf_planned, ablauf_unplanned, old_cs;3;0;seen 17x across Ablauf files
+1;Hände waschen;;;Checkliste Abendzeremonie;Checkliste Abendzeremonie;70.0;;active;ablauf_unplanned, kurtdoku;2;0;unplanned, seen 3x across Ablauf files
+1;im Bett;;;;Liste_Abendzeremonie;0;;active;ablauf_planned, old_cs;2;1;seen 381x across Ablauf files
+1;Inventur Glühbirnen Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Jause;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, window_logger_vb5;4;1;
+1;Jause fassen;LEMTJF;;;Liste_Morgentoilette;1.844;09:00;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;69;seen 145x across Ablauf files
+1;JSSpeccy Amazon Women;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Kalk. Auftrag Heinrich;;SG;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;kaltes Mittagessen fassen;;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;
+1;Kokosmilch Drink fassen;LEMTJF;;;;0;;active;ablauf_planned, ablauf_unplanned;2;0;seen 1x across Ablauf files
+1;Kommentierung Video Bells of Bournville Green;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Kommentierung Youtube X-15;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Kommunikation mit Judith;PAWFAF;;;;0;;active;ablauf_planned, ablauf_unplanned;2;61;
+1;Kontrolle Programm Plattenkiste;RAMWKO;;;Liste_nachmittags;0;;active;ablauf_planned, old_cs;2;0;seen 9x across Ablauf files
+1;Kontrolle Zahnarzt;;GE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;
+1;Korr. Titel in Tonträger;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Korr. Window Logger;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Korr.lesen Bewertung der Probleme;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;1;
+1;Korrektur Essensplan;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;2;unplanned, seen 1x across Ablauf files
+1;Korrektur Gesamtzeit für geplante Projekte;;KS;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;1;
+1;Korrektur The Grindy Adventure;CSGAUM;;;Liste_Spiele;1.81;;active;ablauf_planned, ablauf_unplanned, csv;3;3;seen 423x across Ablauf files
+1;Korrekturlesen Dokumentation Tod Papa;PADOTO;;;Liste_nachmittags;0;;active;ablauf_planned, ablauf_unplanned, old_cs;3;1;seen 8x across Ablauf files
+1;Kurzfahrt Bird-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Ladung Akkus E-Zahnbürste;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Ladung Akkus El. Zahnbürste;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Laufen;GELADW;GE;;Liste_mittags;1.8;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, old_cs;4;47;seen 3x across Ablauf files
+1;Laufen / Scootersuche;GEGYLS;;;Liste_mittags;1.841;;active;ablauf_planned, ablauf_unplanned, csv;3;16;seen 150x across Ablauf files
+1;Laufen Dixi-WC Jägerstr.;GELADW;;;Liste_mittags;1.8;;active;ablauf_planned, old_cs;2;0;seen 19x across Ablauf files
+1;Lesen Anleitung Solar Shuttle;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Lesen Facebook-Postings 88.6;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Lesen Keyboard Manuals;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Lesen Mail Verwandte;;IN;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Lesen Mailantwort LINK;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Lesen Mails;;IN;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;4;
+1;Lesen Postings 88.6;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Lesen Service Manual Yamaha PC-100;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Lesen Wohnungsabrechnung;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Mail an Fabian Broich;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Mail an Hrn. Broich;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Mail an Jan;;IN;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Mail an Judith;PAWFAF;VE;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;4;14;
+1;Mail an Plattenkiste;;RA;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;5;
+1;Mail an W. Adams;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Mail an Wilton Adams;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Mail Musikwelle Nicki;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Mail Pirni Prg. Silvesterparty;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Mail Plattenkiste Kriminal-Tango;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Mail Plattenkiste Unchained melody;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Mail Text Life on Miles an Terry;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Mail Tier;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Mail W. Adams;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Mail Wunsch Plattenkiste;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Mailantwort an TIER;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Mailbearbeitung;INMABE;IN;;Liste_nachmittags;1.8;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, old_cs, taskliste;6;2;unplanned, seen 8x across Ablauf files
+1;Mailprüfung;INMAPR;;;Liste_Morgentoilette;0;;active;ablauf_planned, ablauf_unplanned, old_cs;3;12;seen 319x across Ablauf files
+1;Mails lesen;;BR;;;0;;active;ablauf_unplanned, window_logger_vb5;2;1;unplanned, seen 3x across Ablauf files
+1;MAME Channel F Centipede;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;MAME Channel F Pac-Man;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;3;
+1;MAME Jr. Pac-Man;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;59;
+1;MAME Jr., Pac-Man;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;MAME Klax;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;MAME Lode Runner;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;MAME Mario Bros.;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;4;
+1;MAME Masio Bros.;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;MAME Pengo;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;MAME Puzzled;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;MAME Time Pilot '84;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Mario Bros.;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Meldung Sozialbau Jalousienschaden;WFSBMJ;;;Liste_nachmittags;0;;active;ablauf_planned, old_cs;2;1;seen 14x across Ablauf files
+1;MESS Colecovision Steamroller;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;MESS MSX Time Pilot;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;MESS Spectrum Amazon Women;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Mist ausleeren;WFMAMA;WF;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;unplanned, seen 3x across Ablauf files
+1;Mittagesse;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;2;
+1;Mittagessen;LEMEGA;BR;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, window_logger_vb5;6;325;seen 1x across Ablauf files
+1;Mittagessen (?);LEMEME;;;Lebenserhaltung;1.845;12:30;active;csv, old_cs;2;0;
+1;Mittagessen (von Sati gekocht);LEMESE;;;Lebenserhaltung;1.845;12:30;active;csv, old_cs;2;0;
+1;Mittagessen fassen;LEMEME;;;;0;;active;ablauf_planned, ablauf_unplanned;2;32;
+1;Mittagspause BRZG;LEMEBR;;;Lebenserhaltung;1.845;12:30;active;ablauf_planned, csv, old_cs;3;32;seen 54x across Ablauf files
+1;Morgent. + Frst.;;LE;;;0;;active;access_Tab_Aufwandserfassung, window_logger_vb5;2;0;
+1;Mund ausspülen;LEAZMA;;;Liste_Abendzeremonie;0;;active;ablauf_planned, old_cs;2;0;seen 51x across Ablauf files
+1;Mund spülen;LEMTMS;;;Liste_Morgentoilette;0;;active;ablauf_planned, ablauf_unplanned, old_cs;3;1;seen 336x across Ablauf files
+1;Mund spülen / Teller waschen / Getränk fassen;LEMTTW;;;Liste_Morgentoilette;1.844;;active;ablauf_planned, csv, old_cs;3;6;seen 83x across Ablauf files
+1;Musikwunsch Musikwelle;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Musikwunsch Plattenkiste;;RA;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;1;
+1;Musikwunschaufgabe Musikwelle;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Mystery Lunch;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;13;
+1;Müllentsorgung;;LE;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;3;
+1;Müllentsorgung LEMÜMÜ;;;;Liste_Arbeit;1.836;10:09;active;ablauf_planned, csv, old_cs;3;0;seen 14x across Ablauf files
+1;Nacherfassung Radioscans;;RA;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung, window_logger_vb5;3;2;unplanned, seen 44x across Ablauf files
+1;Nachlesen Revision der Hörgewohnheiten und Musiktitel Herbst 2015.doc;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Nachlesen Source Code Pole Position Channel F;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Nachmittagsjause fassen;LENAJA;;;Lebenserhaltung;1.844;16:00;active;ablauf_planned, ablauf_unplanned, csv;3;63;seen 165x across Ablauf files
+1;Nachricht an Judith;PAWFAF;;;;0;;active;ablauf_planned, ablauf_unplanned;2;9;
+1;Nachspeise fassen;LEMEGA;;;;0;;active;ablauf_planned, ablauf_unplanned;2;2;
+1;Nachspielen unbwertete Titel für Papa;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Nachsurfen Hurensohn / Beleidigungen;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Nachtmahl;LEMTTW;LE;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, window_logger_vb5;5;10;
+1;Nachtmahl essen;LENATW;;Checkliste Lebenserhaltung;Checkliste Lebenserhaltung;70.0;;active;ablauf_planned, ablauf_unplanned, kurtdoku;3;5;
+1;Nachtmahl fassen;LENANA;;;Liste_nachmittags;1.844;;active;ablauf_planned, ablauf_unplanned, old_cs;3;77;seen 225x across Ablauf files
+1;Neustart Handy;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Nägel schneiden;LENSNS;LE;;Liste_untertags;1.84;08:50;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, csv, old_cs;5;0;seen 19x across Ablauf files
+1;Optimierung Wertungsfaktoren;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Papa heimführen;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Papiersortierung;PAA1SU;WF;;Liste_untertags;1.806;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, old_cs, taskliste;7;110;seen 138x across Ablauf files
+1;Papiersortierung (Altpapier)(10' +);WFPAAP;;;Liste_untertags;1.81;;active;csv, old_cs;2;0;
+1;Papiersortierung (gelesene Werbeprospekte);WFPAWP;;;Liste_untertags;1.809;;active;csv, old_cs;2;0;
+1;Papiersortierung (hereingekommene Papiere);WFPAEK;;;Liste_untertags;1.811;;active;csv, old_cs;2;0;
+1;PC aussaugen;;PC;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;PC herunterfahren;PCHFHF;;;Liste_Schwimmbad;1.846;07:48;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;1;seen 841x across Ablauf files
+1;PLanung;KSPLPL;KS;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;21;
+1;Planung / AE;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Planung / Aufwandserfassung;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Planung BRZ;BREPGM;;;Liste_Arbeit;1.84;;active;ablauf_planned, csv, old_cs;3;1;seen 230x across Ablauf files
+1;Planung Mittagessen;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;
+1;Plaudern mit Xandi's Schwester;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Posting Atariage;CSAAZE;CS;;;0;;active;ablauf_planned, access_Tab_Aufwandserfassung;2;1;seen 1x across Ablauf files
+1;Posting Jivestream Green Room;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Posting Musikwunsch Jive Aces Green Room;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Posting Youtube;;IN;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Posting Zeiten Atariage;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung, taskliste;3;0;
+1;Prod. Masken aus China;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Produktion Masken aus China;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Prüfung auf eventuell mitzunehmende Dinge;BRAUPR;;Checkliste bei Fortgehen;Liste_Arbeit;75.0;;active;ablauf_planned, csv, kurtdoku, old_cs;4;8;seen 47x across Ablauf files
+1;Prüfung Bewässerung Terrasse;WFTEBE;WF;;;0;;active;ablauf_planned, access_Tab_Aufwandserfassung;2;10;seen 38x across Ablauf files
+1;Prüfung Tasktool für Windows 10;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Rasieren, dabei div. Surfen, Bearb. Essensplan;LEMTRA;;;;0;;active;ablauf_planned, ablauf_unplanned;2;0;seen 1x across Ablauf files
+1;Rasieren, dabei Planung;LEMTRA;;;;0;;active;ablauf_planned, ablauf_unplanned;2;78;seen 2x across Ablauf files
+1;Recherche The Voice für Heinrich;;SG;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Reden mit Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Reinigung Waschmuschel;LEMTRW;;;Liste_Morgentoilette;0;;active;ablauf_planned, ablauf_unplanned, old_cs;3;0;seen 381x across Ablauf files
+1;Reinigung Zahnputzutensilien, Hände waschen;LEAZHW;;;Liste_Abendzeremonie;0;;active;ablauf_planned, old_cs;2;0;seen 381x across Ablauf files
+1;Reparatur Probe-Livestream;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Reparaturversuch Gartenschlauch;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Rest Betriebsausflug;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Reverse Engineering Playcard;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Reverse Engineering Yamaha Playcard;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Rückfahrt mit TIER-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan / Versand Theaterstück Ronald;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan / Wunsch Andon FM;RWMPSE;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;seen 2x across Ablauf files
+1;Scan 1. Seite KN-550 Registraturen;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan 88.6 Der Musiksender;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;3;
+1;Scan Andon FM;RWMPSE;;;;0;;active;ablauf_planned, ablauf_unplanned;2;5;seen 5x across Ablauf files
+1;Scan Anthony Miles Livestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Arabella Magic;RWRSMR;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;seen 3x across Ablauf files
+1;Scan Backlink Broadcast;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;2;seen 22x across Ablauf files
+1;Scan BBC Radio 2;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div, Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Livestreams + Radiosender;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radioscans;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radioscans + Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radiosender;;RA;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5;4;1;unplanned, seen 3x across Ablauf files
+1;Scan div. Radiosender + Livestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radiosender + Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radiosender + Streams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radiosender / Livestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radiosender / Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radiosender / Streams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radiosender / Update Radiobewertung;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radiosender / Update Radiowertung;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div. Radiosender u.a.;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan div.. Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Elsie Miles Livestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Grok'n Roll;RWMPAR;;;;0;;active;ablauf_planned, ablauf_unplanned;2;9;seen 15x across Ablauf files
+1;Scan Hannah Dorman Livestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan I101;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan i101 Radio;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;0;seen 1x across Ablauf files
+1;Scan Inn-Salzach-Welle;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Jack 2 Oxfordshire;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Jason Lux / Hannah Dorman Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Jason Lux Livestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Jivestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Kronehit;RWMPAR;RW;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;8;seen 22x across Ablauf files
+1;Scan Livestream Jason Lux / Hannah Doman;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Livestreams Jason Lux / Hannah Dorman;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Marcia & Marc Livestream;;RW;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 6x across Ablauf files
+1;Scan Mark Dennison Livestream;RWMPMP;RW;;;0;;active;ablauf_planned, access_Tab_Aufwandserfassung;2;0;seen 1x across Ablauf files
+1;Scan Museumsradio;RWRSMR;RA;;Radio;1.83;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, csv, old_cs;5;7;seen 164x across Ablauf files
+1;Scan OE24 Radio;RWRSMR;;;;0;;active;ablauf_planned, ablauf_unplanned;2;0;seen 2x across Ablauf files
+1;Scan OpenAIR;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;8;seen 12x across Ablauf files
+1;Scan Radio Arabella;RWMPMP;RA;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;4;4;seen 36x across Ablauf files
+1;Scan Radio Arabella / Bearb. Playlist;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;
+1;Scan Radio Burgenland;;RA;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;unplanned, seen 5x across Ablauf files
+1;Scan Radio Plattenkiste;RWRSPT;RA;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;4;5;
+1;Scan Radio Plattenkiste + Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Radio Plattenkiste / Jivestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Radio Plattenkiste / Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Radio Plattenkiste Faschingsparty;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Radio PM Events;RWMPAR;;;;0;;active;ablauf_planned, ablauf_unplanned;2;2;seen 14x across Ablauf files
+1;Scan Radio Salzburg;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Radio Salzburg / Jason Lux;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Radio Wien;RWMPAR;RA;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;4;seen 8x across Ablauf files
+1;Scan Radio Wien + Livestream J. Lux;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan ROck Antenne Österreich;RWRSMR;;;;0;;active;ablauf_planned, ablauf_unplanned;2;0;seen 1x across Ablauf files
+1;Scan RW KI;RWYTPL;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;seen 2x across Ablauf files
+1;Scan Spiel der Bosse Teil 2;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Stadtradio 1;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;seen 5x across Ablauf files
+1;Scan Stadtradio Krems;RWMPAR;RA;;;0;;active;ablauf_planned, access_Tab_Aufwandserfassung;2;1;seen 26x across Ablauf files
+1;Scan Sunny Black Livestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Technikum City;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Terry Miles / Sunny Black Livestreams;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Terry Miles Livestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan The Jive Aces Livestream;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan The Jive Aces Livestream u.a.;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Theaterstück Kurti-Opa;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Theaterstück Spiel der Bosse Teil 1;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scan Thinking Frequencies;RWMPMP;;;;0;;active;ablauf_planned, ablauf_unplanned;2;4;seen 20x across Ablauf files
+1;Scan Youtube;RWMPAR;RA;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;1;seen 1x across Ablauf files
+1;Schlauch anschließen;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scooterfahrt zu SCN / AKH;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Scootersuche;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;22;
+1;Scootersuche / -beobachtung;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scootersuche / -fahrt;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;7;
+1;Scootersuche / -geradestellung;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scootersuche / aufstellen;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scootersuche / Suche neuer Kebapstand;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Scootersuche 1P;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Serie von Singabenden bei Andrea Woloch, bei denen sämtliche schon gesungenen Lieder neu aufgenommen werden;;VE;;;0;;retired;access_Tab_Wuensche, taskliste;2;0;wisher=Andrea Woloch, status=verschoben und konsolidiert
+1;Sicherung MRT-Bilder von CD;;IN;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Soja-Drink fassen;LEMTTW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;3;seen 4x across Ablauf files
+1;Sortieren Papiere TFC;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Spaziergang;;GE;;;0;;active;access_Tab_Aufwandserfassung, window_logger_vb5;2;1;
+1;Speccy Amazon Women;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Spielen Evony - The King's Return;CSGAUM;;;Liste_Spiele;1.81;;active;ablauf_planned, csv;2;1;seen 5x across Ablauf files
+1;Spielen Forge of Empires;CSGAUM;;;Liste_Spiele;1.81;;active;ablauf_planned, csv;2;0;seen 8x across Ablauf files
+1;Spielen Kreuzungs-FGPA;;;;;0;;active;ablauf_planned, ablauf_unplanned;2;15;seen 181x across Ablauf files
+1;Spielen State of Survival;CSGAUM;;;Liste_Spiele;1.81;;active;ablauf_planned, ablauf_unplanned, csv;3;0;seen 15x across Ablauf files
+1;Spielen Taonga Island Farm;CSGAUM;;;Liste_Spiele;1.81;;active;ablauf_planned, csv;2;0;seen 5x across Ablauf files
+1;Sprachnachricht an Judith;PAWFAF;PA;;;0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung;3;37;
+1;Sprachnachrichten an Judith;;PA;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;
+1;Sprachnachrichten Judith;;PA;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;SSD-Check;;PC;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Start Teleworking BRZG;BRTWGF;;;Liste_Arbeit;1.842;10:48;active;ablauf_planned, csv, old_cs;3;1;seen 138x across Ablauf files
+1;Starten Youtube-Playlist;MUOWSP;;;Liste_Morgentoilette;0;;active;ablauf_planned, old_cs;2;0;seen 136x across Ablauf files
+1;Stella Alligator people;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Stella Kung Fu Master;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Stella Oystron;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Stella Smurf;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Suche / Aufrichten Tier-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Suche / Fahrt LINK-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Suche / Testfahrt Link-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Suche Bankkarte Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Suche Entsafter;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Suche Gartenwege;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Suche Kopfhörerkabel;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Suche Musikwunsch für Plattenkiste;RAMWSP;;;Liste_nachmittags;0;;active;ablauf_planned, old_cs;2;0;seen 7x across Ablauf files
+1;Suche verlorenes Handy;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Surfen / Posting AtariAge;;CS;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;
+1;Surfen / Scan Andon FM;RWMPAR;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;seen 1x across Ablauf files
+1;Surfen Andon FM;RWYTPL;;;;0;;active;ablauf_planned, ablauf_unplanned;2;21;seen 9x across Ablauf files
+1;Surfen AtariAge;;CS;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen;4;14;unplanned, seen 1x across Ablauf files
+1;Surfen Corona-Infektionen;;IN;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung, windowlog_corrector;3;0;
+1;Surfen Google MAps;;FZ;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;12;unplanned, seen 1x across Ablauf files
+1;Surfen Google Maps Bad Ischl;;IN;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Surfen Kinderfahrzeuge;;FZ;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;2;unplanned, seen 101x across Ablauf files
+1;Surfen Scootermaps u.a.;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Surfen Sharonimo;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Surfen Verkehrslage;;FZ;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Tausch Glühbirne Vorzimmer;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Tee fassen;LENATW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;16;seen 39x across Ablauf files
+1;Tee zubereiten;LENAJA;;;;0;;active;ablauf_planned, ablauf_unplanned;2;2;
+1;Teilnahme an falschem Faschingsgschnas;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Telefonat Andrea;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Telefonat mit Renate;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;2;
+1;Telefonate Franzi / Andrea / Papa Ahnenforschung;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Teleworking;;BR;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;5;unplanned, seen 5x across Ablauf files
+1;Teller waschen;LENATW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;3;seen 5x across Ablauf files
+1;Teller waschen / Getränk + Biovital fassen;LENATW;;;Lebenserhaltung;1.844;;active;ablauf_planned, csv;2;0;seen 49x across Ablauf files
+1;Teller waschen / Getränk fassen;LEMTTW;;;Liste_Morgentoilette;1.844;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;11;seen 455x across Ablauf files
+1;Teller waschen / Granatapfelsaft fassen;LEMTTW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;seen 2x across Ablauf files
+1;Termine in Kalender prüfen;LEMTTP;;Checkliste Morgen;Checkliste Morgen;70.0;;active;ablauf_planned, ablauf_unplanned, kurtdoku, old_cs;4;8;seen 360x across Ablauf files
+1;Test neue Lime-Scooter / Heimfahrt mit Link-Scooter;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Test Youtube-Streaming;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Texten Sing me brunshine;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Themen für Mittagessen;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Treffen mit Hausbesorger;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Uhren stellen;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Uhren umstellen;;WF;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 2x across Ablauf files
+1;Unterstützung Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Unterstützung Papa Corona-Impfung-Vormerkung;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Unterstützung Papa Covid-19-Impfung;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Unterstützung Papa Handy;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Unterstützung Papa Winamp;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Untersuchung Aufwand RW-Prg.;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Untersuchung Börsenkurse;;FI;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;1;unplanned, seen 5x across Ablauf files
+1;Untersuchung der Prioritätenliste;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Untersuchung Hörwerte für Radio-Würmchen-Programm Kurt+Papa;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Untersuchung Papa 2. Corona-Teilimpfung;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Untersuchung Planung;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Untersuchung Playcard-Format;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Untersuchung Playlist;;RW;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;3;unplanned, seen 5x across Ablauf files
+1;Untersuchung Pole Position Track Data;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Untersuchung Rentabilität Tagespässe;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Untersuchung Tonträger-Überschneidung mit Files;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Update Essensplan;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;3;
+1;Update Personenliste aus Rücklauf von Einladungen Begräbnis;PAPERL;;;Liste_nachmittags;1.803;;active;ablauf_planned, old_cs;2;0;seen 26x across Ablauf files
+1;Update Personenliste aus Rücklauf von Einladungen für House Cooling Party;PAPERL;;;Liste_nachmittags;1.802;;active;ablauf_planned, old_cs;2;0;seen 7x across Ablauf files
+1;Update Radiowertungen;;RA;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;0;unplanned, seen 3x across Ablauf files
+1;Update RW-Programm;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Update RW-Wertungsfaktoren;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Update Wertungsfaktoren;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Update Window Logger;;KS;;;0;;active;ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung;3;1;
+1;Vatertagskonzert;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Verabschiedung / Zahlung Sati Ersoy;WFPUZA;;;Liste_Putzen;1.84;09:38;active;ablauf_planned, csv, old_cs;3;1;seen 68x across Ablauf files
+1;Verbesserung RW-Prg.;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Versand Scans Dokumente Opa;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Versand Theaterstück an Verwandte;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Versand Theaterstück+Liste an Verwandte;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Versorgung Mitbringsel;LEPOPO;LE;Checkliste Ein Mitbringsel versorgen;Liste_mittags;60.0;14:00;active;ablauf_planned, access_Tab_Aufwandserfassung, csv, kurtdoku, old_cs;5;80;seen 164x across Ablauf files
+1;verstärkte Taxifahrten;;FZ;;;0;;retired;access_Tab_Wuensche, taskliste;2;0;wisher=Erwin Woloch, status=wird überlegt
+1;Versuch Anmeldung Kreditkarte 3D Secure;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Versuch Druckerrepatatur;;PC;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Versuch Fahrt TIER-Scooter / Entsperren 3D Secure Zahlung;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Versuch Reg. 3D Secure Kreditkartenzahlung;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;VG5000 Tortues;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;VICE;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5;3;0;
+1;VICE Action Fighter;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;VICE Airwolf;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;VICE Amazon Women;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;20;
+1;VICE Aquantor;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;VICE C-64 Juice;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;VICE Joust;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;VICE Lode Runner;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;VICE Space-Pilot;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;VICE Space-Pilot II;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;VICE Super Pipeline;;CS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Vorbereitung Besuch Dr. Hariri;GEMRNA;GE;;;0;;active;ablauf_planned, access_Tab_Aufwandserfassung;2;0;seen 1x across Ablauf files
+1;Vorbereitung Christbaumverabschiedung;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Vorbereitung Dokumente für Andrea u.a.;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Vorbereitung Einkaufsliste;LEEKEL;;;Lebenserhaltung;1.84;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;3;seen 56x across Ablauf files
+1;Vorbereitung Geburtstagsfeier;PAVEGF;;;;0;;active;ablauf_planned, ablauf_unplanned;2;5;seen 1x across Ablauf files
+1;Vorbereitung Livestream;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Vorbereitung Mittagessen;;LE;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;0;unplanned, seen 1x across Ablauf files
+1;Vorbereitung Nachtmahl;LENANA;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;
+1;Vorbereitung Playlist für Hören beim Frühstück;RWYTPL;;;Liste_Morgentoilette;1.837;;active;ablauf_planned, csv, old_cs;3;4;seen 338x across Ablauf files
+1;Vorbereitung Playlist für Hören unter der Dusche;RWYTPL;;;Liste_Morgentoilette;1.838;;active;ablauf_planned, csv, old_cs;3;17;seen 201x across Ablauf files
+1;Vorbereitung Playlist für Singen unter der Dusche;MUOWPL;;;Liste_Morgentoilette;1.837;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;2;seen 40x across Ablauf files
+1;Vorbereitung Youtube-Livestream;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Vorbereitung Youtube-Videos;;RW;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Vorbereitung zu scannende Unterlagen;;VE;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Vorbereitung Zähne putzen;LEAZVZ;;;Liste_Abendzeremonie;0;21:56;active;ablauf_planned, old_cs;2;0;seen 381x across Ablauf files
+1;Vorführung / Ausprobieren Luftmatratze;;FZ;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wasser fassen;LEMEGA;;;;0;;active;ablauf_planned, ablauf_unplanned;2;6;seen 17x across Ablauf files
+1;WC;LEMTWC;LE;;Liste_Morgentoilette;1.843;12:12;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, csv, old_cs, window_logger_vb5;6;38;seen 1873x across Ablauf files
+1;WC / Windeltest;LEMTWC;;;;0;;active;ablauf_planned, ablauf_unplanned;2;2;seen 1x across Ablauf files
+1;Wechsel Glühbirne Kabinett;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wechsel Leuchtmittel WC / Inventur Leuchtmittel;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Weiteren Tee fassen;LEMTTW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;8;
+1;Weiterentwicklung Checklisten;;KS;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;weiterer Tee fassen;LEMTTW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;3;
+1;Wertungserfassung 88.6;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wiederveranlagung Geld auf Girokonto;FIANWG;FI;;Liste_nachmittags;3.664;;active;access_Tab_Gewinnaktionen, old_cs;2;0;
+1;Windeltest;;FZ;;;0;;active;ablauf_unplanned, access_Tab_Aufwandserfassung;2;4;unplanned, seen 8x across Ablauf files
+1;Wohnung lüften;WFLULU;WF;Checkliste Morgen;Liste_nachmittags;70.0;13:00;active;ablauf_planned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, csv, kurtdoku, old_cs;6;12;seen 606x across Ablauf files
+1;Wunsch Jason Lux;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wunsch Musikwelle;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Wunsch nach Wunschbox;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;2;
+1;Wunsch Plattenkiste;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;1;
+1;Wunsch Radio Plattenkiste;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wunsch Wunschbox Musikwelle;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wunschabgabe ISW;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wunschabgabe Musikwelle;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wunschanruf Plattenkiste;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wunschaufgabe Musikwelle;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wunschmail an Plattenkiste;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wunschmail an Radio Plattenkiste;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wunschmail DX-Wunschkonzert;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wunschmail für Samstag-Abend Wunschkonzert;RAMWWW;;;Liste_nachmittags;0;;active;ablauf_planned, old_cs;2;0;seen 7x across Ablauf files
+1;Wunschmail Plattenkiste;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Wäsche aus Waschmaschine nehmen;LEWAWA;LE;;Liste_untertags;1.83;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, csv, old_cs;5;6;seen 134x across Ablauf files
+1;Wässerung Tröge mit Schlauch;;WF;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Zeiten sammeln;BREPZS;;;Liste_Arbeit;1.84;;active;ablauf_planned, ablauf_unplanned, csv, old_cs;4;2;seen 228x across Ablauf files
+1;Zubereitung Fischstäbchen;LENANA;;;;0;;active;ablauf_planned, ablauf_unplanned;2;1;seen 1x across Ablauf files
+1;Zubereitung Mittagessen;LEMEME;;;;0;;active;ablauf_planned, ablauf_unplanned;2;14;
+1;Zubereitung Nachtmahl;LENANA;;;;0;;active;ablauf_planned, ablauf_unplanned;2;11;seen 2x across Ablauf files
+1;Zubereitung Tee;LEMTTW;;;;0;;active;ablauf_planned, ablauf_unplanned;2;2;seen 1x across Ablauf files
+1;Zusammenstellung CD Papa;;PA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Zusammenstellung Einkaufsliste für Ströck;;;;;0;;active;ablauf_planned, yaml_exceptions;2;0;seen 1x across Ablauf files
+1;Zusammenstellung Programm Papa's Feier;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Zusammenstellung Repertoireliste Jive Aces;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Zusenden CURL-Aufruf an BRZ;;MU;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Zähne fluoridieren;LEAZZF;;;Liste_Abendzeremonie;0;;active;ablauf_planned, old_cs;2;0;seen 54x across Ablauf files
+1;Zähne putzen;GEMTZP;LE;Checkliste Abendzeremonie;Checkliste Abendzeremonie;70.0;;active;ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, kurtdoku, old_cs, window_logger_vb5;6;4;seen 531x across Ablauf files
+1;Überarbeitung Übersetzung The very big picture;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Übersetzen TVBP;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Übersetzung The very big picture;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Übersetzung TVBP;;BR;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+1;Übersiedeln (Mitteilung Adresswechsel);WFUZUS;;;Liste_untertags;1.811;;active;csv, old_cs;2;0;
+1;Überweisung Kirchenbeitrag / Pirni;;RA;;;0;;active;access_Tab_Aktionen, access_Tab_Aufwandserfassung;2;0;
+2;-1;;;;;0;;retired;window_logger_vb5;1;0;combo box item, account=
+2;0,25;;;;;0;;retired;window_logger_vb5;1;0;combo box item, account=
+2;0,5;;;;;0;;retired;window_logger_vb5;1;0;combo box item, account=
+2;1;;;;;0;;retired;window_logger_vb5;1;0;combo box item, account=
+2;30 Minuten sportliche Betätigung (Puls über 100);;;Checkliste Bewegung;Checkliste Bewegung;60.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Abendtoilette;;LE;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Abhalten BKDD Standup Meeting BRZ;BREPGM;;;Liste_untertags;0;11:00;active;old_cs;1;0;duration=20min
+2;Adventsingen;;MU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Aktienuntersuchung und -umschichtung;;FI;;;0;;needs_review;taskliste;1;0;
+2;Aktualisieren Finanzabrechnung;;FI;;;0;;needs_review;taskliste;1;0;
+2;Aktualisierung der Wohnungsinventur;;WF;;;0;;needs_review;taskliste;1;0;
+2;alle Finanzunterlagen aus Stoß auf Finanzstoß sortieren;;;Checkliste bei Unordnung in Finanzunterlagen;Checkliste bei Unordnung in Finanzunterlagen;55.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;Alle Gewinnanteile zu Versicherungen in Masterzettel übertragen;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Alle herausgenommenen Papiere wieder in Timer und andere Mappen einordnen;;;Checkliste jährliche Geldprüfung;Checkliste jährliche Geldprüfung;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;alle herumliegenden Papiere auf Stoß werfen;;;Checkliste bei Unordnung in Finanzunterlagen;Checkliste bei Unordnung in Finanzunterlagen;55.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;alle PSK-Kontoauszüge aus Finanzstoß auf PSK-Stoß sortieren;;;Checkliste bei Unordnung in Finanzunterlagen;Checkliste bei Unordnung in Finanzunterlagen;55.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;alle Unterlagen zu Bausparverträgen in Bausparmappe einordnen;;;Checkliste bei Unordnung in Finanzunterlagen;Checkliste bei Unordnung in Finanzunterlagen;55.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;alle Unterlagen zu Versicherungen aus Finanzstoß auf Versicherungsstoß sortieren;;;Checkliste bei Unordnung in Finanzunterlagen;Checkliste bei Unordnung in Finanzunterlagen;55.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;alle Unterlagen zu Wertpapierdepot in Wertpapiermappe einordnen;;;Checkliste bei Unordnung in Finanzunterlagen;Checkliste bei Unordnung in Finanzunterlagen;55.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;Am Monatsersten Sparkarte mitnehmen;;;Checkliste Geldprüfung;Checkliste Geldprüfung;75.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Anfrage an S-Bausparkasse wg. alten Beraterunterlagen von Mama und Papa (?);;;;Liste_nachmittags;1.646;;active;old_cs;1;0;duration=30min
+2;Anhören eigene Tonträger;;RW;;;0;;retired;window_logger_vb5;1;0;combo box item, account=RW
+2;Anhören Ö1-Sendungen;;TV;;;0;;retired;window_logger_vb5;1;0;combo box item, account=TV
+2;Anlagewerte ermitteln, die unter ihrer Benchmark liegen (die für ihre Laufzeit zu geringen Ertrag haben);;;Checkliste jährliche Geldprüfung;Checkliste jährliche Geldprüfung;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Annahme Facebook-Requests;;CS;;;0;;retired;window_logger_vb5;1;0;combo box item, account=CS
+2;Anpassung Dokumentationen an neue KS-Struktur;;KS;;;0;;needs_review;taskliste;1;0;
+2;Anschaffung eines neuen Akkus für das E-Quad;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Anschaffung eines RAID-Controllers;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Christian Steffek, status=verworfen (passt nicht zum Sicherungskonzept)
+2;Ansehen Livestreams von Musikern auf Twitch und Youtube (Mario Accordion, Chris Konz);;RA;;;0;;needs_review;taskliste;1;0;
+2;Ansehen und Eingabe der von Papa bekommenen Videokassetten;;RW;;;0;;needs_review;taskliste;1;0;
+2;Ansehen Youtube-Videos (the Lamb);RAYTTL;;;Liste_nachmittags;0;;retired;old_cs;1;0;duration=15min
+2;Ansehen Youtube-Videos über Elektrofahrzeuge;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Antwort Pirni;RAMAPI;;;Liste_nachmittags;1.646;;active;old_cs;1;0;duration=30min
+2;Antwort W. Adams (Lyrics);;MU;;;0;;needs_review;taskliste;1;0;
+2;Arbeit im Bundesrechenzentrum;;BR;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Arbeitszeit absolvieren (siehe Dokumentation BRZG);;;Checkliste BRZG;Checkliste BRZG;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Arztbesuch;;;Checkliste bekannte Beschwerden;Checkliste bekannte Beschwerden;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Aufarbeitung alter Mails;;IN;;;0;;needs_review;taskliste;1;0;
+2;Aufbereitung Dokumentation Ende 2020 für Bernhard;;KS;;;0;;needs_review;taskliste;1;0;
+2;Auflistung Ordner im Wohnzimmer;;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=60min
+2;Auflistung Papierstöße;;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=60min
+2;Aufnahme Katzenpeter geht und geht, Put in you, Was wird aus mir...;;MU;;;0;;needs_review;taskliste;1;0;
+2;Aufnahme Life on Miles;;MU;;;0;;needs_review;taskliste;1;0;
+2;Aufruf um Geldspende für WhyT / Net4u;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=WhyT (Herr Schönböck), status=erfüllt
+2;Aufräumen und Reinigungstätigkeiten;;WF;;;0;;needs_review;taskliste;1;0;
+2;Aufräumen Unterlagen Termin Corona-Test / AKH-Ambulanz / Gurgeltest;;GE;;;0;;needs_review;taskliste;1;0;
+2;Aufstehen (bekannt);;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Aufsuchen eines Psychologen;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Diana Griffin, Sweetdevil7, Toni Smojka, status=Termin ausgemacht
+2;Auftritt als Live-Musiker mit Keyboard (Schnitt);;MU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=nach Auftrittsvereinbarung, offerable=True
+2;Auftritt Robert;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Aufwandserfassung (60' pro Tag von insgesamt ', ab 4.12.2022 nachzuholen);;KS;;;0;;needs_review;taskliste;1;0;
+2;aus der großen Börse mindestens 50 Euro in die kleine Börse transferieren;;;Checkliste Aufstockung kleine Börse;Checkliste Aufstockung kleine Börse;75.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Aus Restlaufzeiten und Renditen für jeden Anlagewert Ertrag pro Jahr berechnen;;;Checkliste jährliche Geldprüfung;Checkliste jährliche Geldprüfung;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Ausborgen E-Rad;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Ausborgen E-Roller;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Ausborgen Segway (Praterstern);;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=bei Schönwetter, offerable=True
+2;Ausborgen von Karaoke-CD's für eine Einlage bei einer Party am 16.5.2007;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Christian Jindra, status=durchgeführt
+2;ausfährliche Mail an Renate wg. langem Telefonat (siehe Themen);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=30min
+2;ausführliche Inventarüberprüfung (ganze Wohnung);;WF;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Ausmachen Termin Kontrolle Zahnarzt;;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-05-02, start=08:10, dur=10min, prio=1.845
+2;Ausmisten Wohnungsunterlagen Papa (Rechnungen nur 10 Jahre lang aufheben) (60', Pri. 1,8);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=60min
+2;Aussortieren weiterer Hausrat;;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;Auswertung Blutdruckliste (Dr. Hariri);;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-04-29, start=16:00, dur=70min, prio=1.85
+2;Auswertung Gesundenuntersuchung (Dr. Hariri);;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-04-10, start=13:00, dur=70min, prio=1.85
+2;Außentemperatur prüfen (bekannt);;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Baden gehen;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Erwin Woloch, status=abgelehnt / verworfen
+2;Baden gehen (bei heißem Wetter);;GE;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=bei Temperatur ab 30°C, offerable=True
+2;Baden gehen (bei Schönwetter);;GE;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=bei Schönwetter, offerable=True
+2;Beantwortung Mail Robert Wehofer;;RW;;;0;;needs_review;taskliste;1;0;
+2;Bearb. 88.6-Wertungen und -Postings;;RW;;;0;;needs_review;taskliste;1;0;
+2;Bearb. Antrittsbericht Erw.vertretung Papa;;;;;0;;active;windowlog_corrector;1;0;window-to-activity mapping rule
+2;Bearb. Essensplan (Aufwertung nicht gekommene);LEEPAN;;;Liste_nachmittags;0;;retired;old_cs;1;0;duration=10min
+2;Bearb. Essensplan (Lebensmittel ohne forcierte Preise);LEEPFP;;;Liste_untertags;0;;retired;old_cs;1;0;duration=10min
+2;Bearb. Ohrwürmer (Charts);RWOWCH;;;Liste_nachmittags;0;;active;old_cs;1;0;duration=5min
+2;Bearb. Skripts;;RB;;;0;;retired;window_logger_vb5;1;0;combo box item, account=RB
+2;Bearb.Ohrwürmer (durchzunehmende aus Charts);RWOWDC;;;Liste_Abendzeremonie;0;;active;old_cs;1;0;duration=2min
+2;Bearb.Ohrwürmer (durchzunehmende aus Liste);RWOWDL;;;Liste_Abendzeremonie;0;;active;old_cs;1;0;duration=2min
+2;Bearb.Ohrwürmer (durchzunehmende);RWOWDN;;;;0;;active;old_cs;1;0;duration=5min
+2;Bearb.Ohrwürmer(Charts);RWOMCH;;;Liste_Morgentoilette;0;;active;old_cs;1;0;duration=9min
+2;Bearbeitung der Essensdatenbank;;LE;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Bearbeitung fällige Finanzpapiere;;FI;;;0;;needs_review;taskliste;1;0;
+2;Befundbesprechung AKH (Neurochirurgische Ambulanz);;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-05-22, start=12:00, dur=60min, prio=1.845
+2;Beginn eines eigenen Livestreams mit Live-Musik;;MU;;;0;;needs_review;taskliste;1;0;
+2;Benchmark-Werte berechnen (welche neu abschließbaren Anlagen haben zu Laufzeit besten Ertrag?);;;Checkliste jährliche Geldprüfung;Checkliste jährliche Geldprüfung;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Bereinigung nicht vorhandene / doppelte Titel in Ähnlichkeitsdatenbank;;RW;;;0;;needs_review;taskliste;1;0;
+2;Bereinigung Papa's Mails (Abmelden aller Newsletter, Löschen aller Mails);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=60min
+2;Bescheid über Freibetrag in der Arbeit abgeben;;;Checkliste bei Zusendung Finanzausgleich;Checkliste bei Zusendung Finanzausgleich;0;;active;kurtdoku;1;0;type=event, item_type=action
+2;Bescherung (Heiliger Abend);;MU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Beschriftung Handybilder;;AU;;;0;;needs_review;taskliste;1;0;
+2;Besuch Ampera-Treffen (bis 1/2013 abgerechnet);;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=nach Einladung, offerable=False
+2;Besuch Andrea / Franzi (mit Singen);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=wenn eingeladen, offerable=False
+2;Besuch Beer and Songs (nach 1. Besuch);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Bier&Brot Karaoke (Stand 28.2.2015);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=bei Veranstaltung, offerable=False
+2;Besuch Bierpub Remi Demi (Vorkalk.);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch des Favoritner Kultur-Kellers mit Live-Karaoke am 12.7.2007 (eventuell unter Nichtausnutzung des günstigen Wegs);;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Mama, status=in Prioritätenliste aufgenommen
+2;Besuch des TI-99-Treffens (abgerechnet bis März 2014);;CS;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=Mi., offerable=True
+2;Besuch diverser Mitarbeiterevents (Schätzung);;BR;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Donauinselfest;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=1x/Jahr, offerable=False
+2;Besuch Edmund Herzig;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=nie, offerable=False
+2;Besuch Erich's Karaoke (14. Bezirk);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Erich's Karaoke (22. Bezirk);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=wenn Veranstaltung stattfindet, offerable=False
+2;Besuch Erich's Karaoke (Prater) (aktuell);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=bei Veranstaltung, offerable=True
+2;Besuch Geburtstagsfeier Erwin's Schwestern;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Gerro's Karaoke und Musikclub (Vorkalk.) (Einpack. 19:35);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=Do., Fr., Sa., offerable=True
+2;Besuch Goleador (neuer Name);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Jonas-Karaoke;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke (abgerissenes!) Cantina Loco (Donauinsel) (bei Schönwetter);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=Sommer (wenn überhaupt), offerable=False
+2;Besuch Karaoke Babuder's (Vorkalk.);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Club Fragezeichen (Nachkalk. 29.2.2012);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Do bin i do bleib i;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Exzess;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Favoritner Kultur-Keller (Di.);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke im SOHO 3;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Inseltreff Barbados (Vorkalkulation);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Kais Asian Food (Gürtel);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Kistlalm (Vorkalkulation);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=Do.-Sa., offerable=True
+2;Besuch Karaoke Lemmon (Wochenende);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Mai Kai;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke MAYA (Vorkalkulation);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Reginas (Vorkalk.);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Ro:ses (Vorkalkulation);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Rotunde (nach 1.8.2014);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Schutzhaus (Stand 10.3.2012);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=bei Veranstaltung, offerable=False
+2;Besuch Karaoke Sing your song (Eschenbachg.);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke SOHO 1 (Millenium Tower) (Einpacken 19:00);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Strebersdorfer Platz'l;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Subway (19:50 Beginn Einpacken);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Sue & Laune;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Suppentopf (laut div. Nachkalk. komplett);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=nie (aufgelassen), offerable=False
+2;Besuch Karaoke Sylvesterpfad;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=31.12., offerable=False
+2;Besuch Karaoke Thego;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke Tivoli;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=Fr., offerable=True
+2;Besuch Karaoke Unikat (Nachkalk. 17.2.2011);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=Do. 19:30-23:15, offerable=True
+2;Besuch Karaoke Zum Wahnsinn (Vorkalk.);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke-Club (Cafe Kriemhild);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Karaoke4You (nach 1. Besuch);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Liederabend Kagraner Platz;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Live-Karaoke Favoritner Kultur-Keller;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Nan (Vorkalk.);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Nico's Karaoke;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Randy's Karaoke (aktuell);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=nie, offerable=True
+2;Besuch Rockpub;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=Mi., Do., offerable=True
+2;Besuch Terrassencafe Erdberg;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch von Christkindlmärkten;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch von Spielwarengeschäften;;CS;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch von Theaterstück in Volksheim;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Erwin Woloch, status=abgelehnt
+2;Besuch von Weihnachtsausstellungen;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Weihnachtsausstellung (Rathaus);;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Besuch Weihnachtskonzert;;AU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Bett machen (bekannt);;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Blutdruck messen (Forderung von Renate);GEBMBM;;;Liste_Morgentoilette;0;;active;old_cs;1;0;duration=2min
+2;Chat in MSN Messenger;;RW;;;0;;retired;window_logger_vb5;1;0;combo box item, account=RW
+2;Checkliste Abendzeremonie;;;Checkliste Lebenserhaltung;Checkliste Lebenserhaltung;70.0;;active;kurtdoku;1;0;type=named, item_type=sub_checklist_blocking
+2;Checkliste Apothekengang;;;Checkliste Termin Apothekengang;Checkliste Termin Apothekengang;65.0;;active;kurtdoku;1;0;type=named, item_type=sub_checklist_blocking
+2;Checkliste Arztbesuch;;;Checkliste bei Termin Arztbesuch;Checkliste bei Termin Arztbesuch;65.0;;active;kurtdoku;1;0;type=event, item_type=sub_checklist_blocking
+2;Checkliste bei Fortgehen;;;Checkliste Einkauf;Checkliste Einkauf;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Checkliste Bewegung;;;Checkliste Untertags;Checkliste Untertags;55.0;;active;kurtdoku;1;0;type=named, item_type=sub_checklist_blocking
+2;Checkliste Ein Mitbringsel versorgen;;;Checkliste Versorgung Mitbringsel;Checkliste Versorgung Mitbringsel;60.0;;active;kurtdoku;1;0;type=named, item_type=sub_checklist_blocking
+2;Checkliste Freizeit;;;Checkliste Untertags;Checkliste Untertags;55.0;;active;kurtdoku;1;0;type=named, item_type=sub_checklist_blocking
+2;Checkliste Geldprüfung;;;Checkliste bei Fortgehen;Checkliste bei Fortgehen;75.0;;active;kurtdoku;1;0;type=event, item_type=sub_checklist_blocking
+2;Checkliste Hausarbeit;;;Checkliste Untertags;Checkliste Untertags;55.0;;active;kurtdoku;1;0;type=named, item_type=sub_checklist_blocking
+2;Checkliste Heimkunft;;;Checkliste Einkauf;Checkliste Einkauf;65.0;;active;kurtdoku;1;0;type=named, item_type=sub_checklist_blocking
+2;Checkliste Morgen;;;Checkliste bei Aufstehen;Checkliste bei Aufstehen;65.0;;active;kurtdoku;1;0;type=event, item_type=sub_checklist_blocking
+2;Checkliste Nachmittag/Abend;;;Checkliste bei Aufstehen;Checkliste bei Aufstehen;65.0;;active;kurtdoku;1;0;type=event, item_type=sub_checklist_blocking
+2;Checkliste Untertags;;;Checkliste bei Aufstehen;Checkliste bei Aufstehen;65.0;;active;kurtdoku;1;0;type=event, item_type=sub_checklist_blocking
+2;Datensicherung (inkl. H:\Daten\Radio Würmchen\WAV's!);;PC;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Datensicherung PC;;PC;;;0;;needs_review;taskliste;1;0;
+2;der Außentemparatur entsprechend anziehen, evtl. Wäsche wechseln (bekannt);;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Disposition über getestete, abzugebende Dinge aus meinem Keller;RWREVK;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;div. Computerspiele;;CS;;;0;;retired;window_logger_vb5;1;0;combo box item, account=CS
+2;Div. HP-Aufgaben;;HP;;;0;;retired;window_logger_vb5;1;0;combo box item, account=HP
+2;Dokumentation des PC-Wechsels Sommer 2021;;PC;;;0;;needs_review;taskliste;1;0;
+2;Dokumentation Meine Anwendungen und ich Teil 2;;PC;;;0;;needs_review;taskliste;1;0;
+2;Durchführung anfallender Dokumentationen;;GE;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=immer, offerable=True
+2;Durchgehen des Liste der offenen Punkte;;;Checkliste Hausarbeit;Checkliste Hausarbeit;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Eingabe der Radioscans;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=solange Radioscans vorhanden, offerable=True
+2;Einkauf (?);LEEKBI;;;Liste_mittags;0;;active;old_cs;1;0;duration=60min
+2;Einkauf (BILLA Ederg.) / Laufen;LEEKBI;;;Lebenserhaltung;1.841;;active;csv;1;0;
+2;Einkaufszettel erstellen;;;Checkliste Einkauf;Checkliste Einkauf;0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Einladung meiner Eltern zum Essen zu meinem Geburtstag;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Papa, status=veraltet (Termin vorbei)
+2;Einladung zu einer Familienfeier (durch Papa);;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Irene+Seppi Unterberger, status=durchgeführt
+2;Einladung zu Martha's Geburtstagsfeier in Laxenburg am 24.8.2007;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Mama / Papa (Martha Woloch?), status=veraltet (Datum vorbei)
+2;Einordnen Vertragsinformationen zu Versicherungen;;FI;;;0;;needs_review;taskliste;1;0;
+2;Einpacken Blutdruckmeßgerät, evtl. Befunde für Dr. Hariri;;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-04-29, start=15:50, dur=10min, prio=1.85
+2;Einpacken für Nachbarschaftsfest;;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-06-14, start=13:00, dur=90min, prio=1.845
+2;Einstellung der Dokumentationen;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Dr. Hariri, status=verworfen
+2;Einstellung der Essensdatenbank;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Dr. Hariri, status=vorläufig verworfen
+2;Eintragen noch nie aufgeführter Titel in Probenplan;;MU;;;0;;needs_review;taskliste;1;0;
+2;Einziehung des Videos über das Teambuilding-Seminar im BRZ von YouTube;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Johann Brandstetter, status=durchgeführt
+2;Einüben neuer Keyboard-Titel;;MU;;;0;;needs_review;taskliste;1;0;
+2;Entwicklung Status-Dashboard (Ampel);;KS;;;0;;needs_review;taskliste;1;0;
+2;Ergänzung Lebensdokumentation um Ordnung der gesundheitsrelevanten Unterlagen;;LE;;;0;;needs_review;taskliste;1;0;
+2;Ergänzung Personendatenbank um Daten aus Kandidatenliste für Klassentreffen 2023 (sofern aktuell);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;Erträge zusammenzählen und Prozentwert über alle Anlagen zusammen berechnen;;;Checkliste jährliche Geldprüfung;Checkliste jährliche Geldprüfung;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;etwas zum Muttertag unternehmen;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Erwin Woloch, status=verworfen
+2;Eventuelle Medikamente nehmen;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Evtl. Medikament nehmen;;;Checkliste Abendzeremonie;Checkliste Abendzeremonie;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;evtl. Medikamente nehmen;GEMNMN;;;Liste_Morgentoilette;0;;retired;old_cs;1;0;duration=2min
+2;Experiment mit Spielzeugbuggy;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=immer, offerable=False
+2;Experimente mit Lego-Loks;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;externe Karaoke-Veranstaltung (bei € 230 Gage);;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Fahrt Li'l Motorized Beamer;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Fahrt mit ferngesteuertem Auto (Stand 22.9.2010);;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Fahrt mit RC-Gabelstapler;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Fahrt von AKH ins BRZ;;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-05-22, start=13:10, dur=30min, prio=1.845
+2;Fahrt zu Befundbesprechung AKH (Neurochirurgische Ambulanz);;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-05-22, start=11:00, dur=60min, prio=1.845
+2;Fahrt zu Klassentreffen (Brendl);;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-05-03, start=17:45, dur=15min, prio=1.85
+2;Fahrt zu Nachbarschaftsfest;;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-06-14, start=14:30, dur=30min, prio=1.845
+2;Fernsehen;;TV;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Finanzanlagendatenbank auf D-Platte sichern;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Finanzanlagenstand ausdrucken, lochen und in Timer einheften;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Finanzausgleichsformular ausfüllen und unterschreiben;;;Checkliste Finanzausgleich;Checkliste Finanzausgleich;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Finanzausgleichsformular zu Finanzamt bringen;;;Checkliste Finanzausgleich;Checkliste Finanzausgleich;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Finanzierung eines Lokals, das Tina eröffnen will;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Bettina Thebes, status=wartet auf Dokumentation seitens Tina
+2;Formular für Finanzausgleich besorgen oder aus Internet ausdrucken;;;Checkliste Finanzausgleich;Checkliste Finanzausgleich;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Formularbearbeitung;;RB;;;0;;retired;window_logger_vb5;1;0;combo box item, account=RB
+2;Formulartest;;RB;;;0;;retired;window_logger_vb5;1;0;combo box item, account=RB
+2;Fortsetzung bzw. Aktualisierung Wohnungsinventur;;WF;;;0;;needs_review;taskliste;1;0;
+2;Fortsetzung eventuell unterbrochener Projekte;;;Checkliste Hausarbeit;Checkliste Hausarbeit;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Friseursbesuch;;LE;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Funktionstest div. Kopfhörer (10');RWARTE;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;Funktionstest div. Mäuse (10');PCARTA;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;Funktionstest div. Tastaturen (10');PCARTA;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;Für alle Anlagewerte Restlaufzeit und Rendite berechnen und in aktuelle Abrechnung schreiben;;;Checkliste jährliche Geldprüfung;Checkliste jährliche Geldprüfung;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Für Finanzausgleich relevante Unterlagen zusammensammeln;;;Checkliste Finanzausgleich;Checkliste Finanzausgleich;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Geb.feier Erwin;;MU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Geschirr;;LE;;;0;;retired;window_logger_vb5;1;0;combo box item, account=LE
+2;Gesundenuntersuchung (7:30);;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-04-03, start=07:20, dur=51min, prio=1.85
+2;Gesundheit prüfen;;;Checkliste bei Auftreten von Gesundheitsproblemen;Checkliste bei Auftreten von Gesundheitsproblemen;70.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;Getränk am Lagerfeuer mit Christian Rolly;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Christian Rolly, status=geplant, noch kein Termin
+2;Getränk am Lagerfeuer mit Christian Rolly (. Peter Kremmel u.a.);;SG;;;0;;needs_review;taskliste;1;0;
+2;Getränk am Lagerfeuer, EInladung für Johnny Hanousek, Georg Richter, Erwin WOloch (?), CHristian Rolly, Alexander Pernold, Sabina Schuneritz, Gerry Milton, Alois Deutsch, Sigrid Schweinhammer (?), siehe https://www.facebook.com/kurt.woloch/posts/10159510369753413?comment_id=10159525908668413;;AU;;;0;;needs_review;taskliste;1;0;
+2;Gewinnanteilsbenachrichtigungen in Versicherungsmappe einordnen;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Hack Mangia (Tarantella);;CS;;;0;;needs_review;taskliste;1;0;
+2;Hausarzt anrufen;;;Checkliste dringender Arztbesuch;Checkliste dringender Arztbesuch;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Heim gehen;;;Checkliste Apothekengang;Checkliste Apothekengang;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Heimfahrt von der Firma;;;Checkliste BRZG;Checkliste BRZG;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Heimfahrt von Klassentreffen;;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-05-03, start=22:00, dur=45min, prio=1.85
+2;Heimfahrt von Nachbarschaftsfest Seestadt;;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-06-14, start=20:40, dur=30min, prio=1.845
+2;Heimkaraoke (wenn von Papa gewünscht);;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Heimkaraoke ohne Papa (?!) (nach Klärung, wie dies noch stattfinden könnte);;KA;;;0;;needs_review;taskliste;1;0;
+2;Heimweg vom Franz-Jonas-Platz zu Fuß;;GE;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Herunterfahren, Einpacken, Anziehen;BRALAB;;;Liste_Arbeit;1.84;;active;csv;1;0;
+2;Hineinstellen Computerzeitschriften auf Willhaben.at (um Platz zu schaffen);WFRECS;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;im Kalender bei aktuellem Datum „Geldnachbeschaffung“ notieren;;;Checkliste Geldbeschaffung;Checkliste Geldbeschaffung;75.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;in die Firma fahren;;;Checkliste BRZG;Checkliste BRZG;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Information weiterer Firmen, die mit Papa in Kontakt sind, über Tod (mit Einantwortungs- und Sterbeurkunde);;;;Liste_nachmittags;1.646;;active;old_cs;1;0;duration=30min
+2;Inventurprüfung Keller;;WF;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Jause essen;;;Checkliste Lebenserhaltung;Checkliste Lebenserhaltung;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;jeweils 10 Minuten vor der vollen Stunde 10 Minuten Pause machen;;;Checkliste Arbeit am PC;Checkliste Arbeit am PC;55.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;JS99;;;;;0;;active;windowlog_corrector;1;0;window-to-activity mapping rule
+2;Kalender lokalisieren;;;Checkliste Zahnarztbesuch anmelden 2;Checkliste Zahnarztbesuch anmelden 2;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;"Karaoke-Version von ""Just like that"" (tiefer)";;KA;;;0;;needs_review;taskliste;1;0;
+2;Karaoke-VIdeos Johnny Blue, Ein bißchen Frieden;;KA;;;0;;needs_review;taskliste;1;0;
+2;Kauf eines neuen Spielzeugfahrzeuges;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Keyboard-Übungen;;MU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Klassentreffen (Brendl);;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-05-03, start=18:00, dur=240min, prio=1.85
+2;Kleidungsinventur;;;Checkliste Sommerwäsche;Checkliste Sommerwäsche;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;kommentiertes Disassembly / Hackversuch Pole Position (C-64) (?);;CS;;;0;;needs_review;taskliste;1;0;
+2;Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung;PAWFAF;;;Liste_untertags;1.826;;active;csv;1;0;
+2;Konsolidierung Orange-Ordner;;OR;;;0;;needs_review;taskliste;1;0;
+2;Kontoauszugsmappe auf Platz geben;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Kontrolle Augenarzt (Dr. Graziadei) (9:00);;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-10-14, start=16:10, dur=70min, prio=1.85
+2;Kontrolle Augenarzt (Dr. Graziadei) (9:10);;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-06-03, start=09:00, dur=70min, prio=1.85
+2;Korrektur der Radioscans in der Radio-Würmchen-Datenbank;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=immer, offerable=True
+2;Korrektur The Grindy Adventure Kap.;;;;Liste_Morgentoilette;1.81;;active;old_cs;1;0;duration=10min
+2;"Kurt soll ""Über 7 Brücken mußt Du geh'n"" singen";;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=unbekannter Karaoke-Sänger, status=durchgeführt
+2;Kurt soll sich mit Windows Movie Maker beschäftigen;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Diana Griffin, status=verworfen
+2;Kurt soll sich mit YouTube beschäftigen;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Diana Griffin, status=verworfen
+2;Kurt soll von zu Hause ausziehen;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Ronald Unterberger, status=Untersuchung wäre extra Projekt
+2;"Kurt und Elfi sollen ""A whole new world"" singen";;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=unbekannter Karaoke-Sänger, status=verworfen, weil Lied Elfi nicht bekannt
+2;"Kurt+Elfi solle ""Endless love"" singen";;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=unbekannter Karaoke-Sänger, status=durchgeführt
+2;langsame Loslösung von den Eltern (statt schnelle);;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Toni Smojka, status=Untersuchung bei Eltern-Dokumentation
+2;Laufen (Dixi-WC Ruthnergasse);GEGYLD;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-06-03, removed
+2;Laufen (Dixi-WC Siemensstraße);GEGYLD;;;Liste_mittags;1.8;;active;old_cs;1;0;duration=30min
+2;Laufen (nach Augenarzt);;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-06-03, start=10:10, dur=30min, prio=1.845
+2;Liquidierung des Orange-Kontos und Konsolidierung der Ordner;;TV;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=einmalig, offerable=True
+2;Liste der offenen Punkte durchgehen;;;Checkliste Freizeit;Checkliste Freizeit;30.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Locher auf Platz geben;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;lose Kontoauszüge zu Wertpapierdepot in Kuverts einordnen;;;Checkliste bei Unordnung in Finanzunterlagen;Checkliste bei Unordnung in Finanzunterlagen;55.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;Lüftung Wohnung;;;Checkliste Nachmittag/Abend;Checkliste Nachmittag/Abend;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Mail an Justin (ClearSwipe) (30');;KA;;;0;;needs_review;taskliste;1;0;
+2;Mailantwort an Bernd Seiser;RAMABS;;;Liste_nachmittags;1.646;;active;old_cs;1;0;duration=30min
+2;Mailbearbeitung (60' pro Tag an freien Tagen von insgesamt ', ab 14.12.2022 nachzuholen);;IN;;;0;;needs_review;taskliste;1;0;
+2;Mailbearbeitung Papa (Abspeichern Ausgangsmail);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=60min
+2;Mapping Kersti in Magellan;;CS;;;0;;needs_review;taskliste;1;0;
+2;Medikament entgegennehmen und bezahlen;;;Checkliste Apothekengang;Checkliste Apothekengang;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Mittag essen;;;Checkliste Lebenserhaltung;Checkliste Lebenserhaltung;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Morgentoilette/Frühstück;;LE;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Nachbarschaftsfest Seestadt inkl. Auf- und Abbau;;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-06-14, start=15:00, dur=300min, prio=1.845
+2;Nachbereitung House Warming Party (Sprachnachricht an Judith);PAWFAF;;;Liste_nachmittags;1.84;;active;old_cs;1;0;duration=10min
+2;Nachbrennen Befund-CD von MRT-Untersuchung (bei nächster AKH-Befundbesprechung mitnehmen);;GE;;;0;;needs_review;taskliste;1;0;
+2;Nachladung der nicht verwendeten Akkus;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Nachladung nicht verwendeter Akkus;;RW;;;0;;needs_review;taskliste;1;0;
+2;Neuaufnahme Schweinefilet / Nicht schlecht;;MU;;;0;;needs_review;taskliste;1;0;
+2;Neubesprechung Anrufbeantworter Papa;;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=60min
+2;Neueinspielungen vom Computer vorgeschlagener Titel;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=immer, offerable=True
+2;Neueinspielungen von analogen Tonträgern;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Neuordnung der Prioritätsliste;;KS;;;0;;needs_review;taskliste;1;0;
+2;"Nichtbesuch bzw. Berücksichtigung der ""Flaute"" von Cafe Royal";;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Mama, status=obsolet (Lokal geschlossen)
+2;Ordination besuchen;;;Checkliste Arztbesuch;Checkliste Arztbesuch;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;PC herunterfahren und schlafen gehen. Gute Nacht!;;;Checkliste Abendzeremonie;Checkliste Abendzeremonie;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Planung im BRZ;BREPGM;;;Liste_untertags;0;;active;old_cs;1;0;duration=10min
+2;Post in Postkasten ausheben;;;Checkliste Heimkunft;Checkliste Heimkunft;60.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Produktion einer Radio-Würmchen-Sendung;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;"Produktion eines neuen Liedes ""Bootsfahrt""";;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Papa, status=durchgeführt
+2;"Produktion eines Videos zu ""Read 'em and weep"" von Barry Manilow";;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=ein YouTube-Benutzer, status=abgelehnt
+2;Produktion von Liedern für Papa (Geschenke);;EL;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=immer, offerable=False
+2;Projekt neues Keyboard (Einüben weiterer Titel);;MU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Prüfung auf auf der Heimfahrt zu erledigende Dinge;;;Checkliste BRZG;Checkliste BRZG;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Prüfung auf in der Firma zu erledigende Dinge;;;Checkliste BRZG;Checkliste BRZG;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Prüfung auf Lesestoff;;;Checkliste BRZG;Checkliste BRZG;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Prüfung Kalender auf Termine;;;Checkliste Hausarbeit;Checkliste Hausarbeit;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Prüfung Rückforderung Festnetzrechnung Papa (22.2. angerufen, 16.4. noch nicht eingetroffen);;PA;;;0;;needs_review;taskliste;1;0;
+2;Prüfung Strom- und Warmwasserechnungen (auch Papa);;PA;;;0;;needs_review;taskliste;1;0;
+2;Prüfung und Ausmachen Arzttermine (Gesundenuntersuchung, Zahnarzt, MRT);;GE;;;0;;needs_review;taskliste;1;0;
+2;Prüfung und Scannen der Computerspiel-Unterlagen;;CS;;;0;;needs_review;taskliste;1;0;
+2;PSK-Kontoauszüge in Kontoauszugsmappe einordnen;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;PSK-Kontostand in Finanzanlagendatenbank eingeben;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Radio hören (über Radio Würmchen-Limit im Schnitt);;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Radio-Würmchen-Datenbankkorrekturen / Einlistung neuer Tonträger;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=immer, offerable=True
+2;Rasieren (bekannt);;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Rasieren / Duschen;;LE;;;0;;retired;window_logger_vb5;1;0;combo box item, account=LE
+2;Rasieren, dabei Planung (C#-Programm);LEMTRA;;;Liste_Morgentoilette;0;;active;old_cs;1;0;duration=15min
+2;Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen);LEMTRA;;;Liste_Morgentoilette;1.84;;active;csv;1;0;
+2;Rasierer putzen (bekannt);;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Reinigung oder Ersatz der Tastatur des PC;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Papa, status=durchgeführt
+2;Restfinanzstoß in Finanzordner einordnen;;;Checkliste bei Unordnung in Finanzunterlagen;Checkliste bei Unordnung in Finanzunterlagen;55.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;Rezept vorweisen;;;Checkliste Apothekengang;Checkliste Apothekengang;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Rätselquiz auf Radio Krokofee;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Rückbau Nachbarschaftsfest Seestadt;;;;;0;;needs_review;yaml_exceptions;1;0;first seen 2025-06-14, start=21:10, dur=50min, prio=1.81
+2;Rückforderung OCT-Gebühr von Gesundheitskasse;;GE;;;0;;needs_review;taskliste;1;0;
+2;Sammlung fällige Versicherungsunterlagen;;FI;;;0;;needs_review;taskliste;1;0;
+2;Scan / Chat Jukebox-Heroes-Radio;;RW;;;0;;retired;window_logger_vb5;1;0;combo box item, account=RW
+2;Scan Doggo live;;;;;0;;active;windowlog_corrector;1;0;window-to-activity mapping rule
+2;Scan Radio Plattenkiste (Samstag-Abend Wunschkonzert);RWRSPD;;;Liste_nachmittags;0;;active;old_cs;1;0;duration=15min
+2;schnelle Inventarüberprüfung (ganze Wohnung);;WF;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Schwimmen (im Hausbad);;GE;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=immer, offerable=True
+2;Sendung auf Radio-MFL;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Sendung Radio-is-music-for-life;;RW;;;0;;retired;window_logger_vb5;1;0;combo box item, account=RW
+2;Sicherung Bilder aus großer Karte von Digitalkamera;;;;Liste_nachmittags;1.646;;active;old_cs;1;0;duration=30min
+2;Sicherung Bilder aus kleiner Karte von Digitalkamera;;;;Liste_nachmittags;1.646;;active;old_cs;1;0;duration=30min
+2;Sicherung Bilder aus Papa's neuerem Handy;;;;Liste_nachmittags;1.646;;active;old_cs;1;0;duration=30min
+2;Sommerwäsche aus dem Kasten geben;;;Checkliste Sommerwäsche;Checkliste Sommerwäsche;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Sommerwäsche in den Kasten geben;;;Checkliste Winterwäsche;Checkliste Winterwäsche;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Sommerwäsche waschen;;;Checkliste Winterwäsche;Checkliste Winterwäsche;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Sonstige aktualisierbare Werte in Finanzanlagendatenbank suchen und aktualisieren;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Sortieren und Einräumen der Finanzunterlagen;;FI;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=wenn Unterlagen vorhanden, offerable=True
+2;Sortierung Befunde;;GE;;;0;;needs_review;taskliste;1;0;
+2;Speichern Papa's Ausgangsmails + Nebenpostkörbe;;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=60min
+2;Spielen / Experiment mit Bigtrak;;FZ;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Spielen Spacebirdz;;CS;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=immer, offerable=True
+2;Sprachnachricht an Judith (zu Bruch mit Ersoy);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=6min
+2;Sprachnachricht an Judith (zu Entrümpelung und Renovierung);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=6min
+2;Sprachnachricht an Judith (zu Ressourcen sparen (Willhaben));;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=6min
+2;Sprachnachricht an Judith (zu Unterschied zwischen geerbtem und eigenem Geld);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=6min
+2;Sprachnachricht an Judith (zu Zeitmanagement und -mangel);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=6min
+2;Stand kleine und große Börse zählen und Stand in Finanzanlagendatenbank eingeben;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Stargate;;CS;;;0;;retired;window_logger_vb5;1;0;combo box item, account=CS
+2;Start Checkliste Lebenserhaltung;;;Checkliste Untertags;Checkliste Untertags;55.0;;active;kurtdoku;1;0;type=named, item_type=sub_checklist_spawn
+2;Stände von Gewinnanteilen in Finanzanlagendatenbank eingeben;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Supermarkt aufsuchen und nötige Dinge kaufen;;;Checkliste Einkauf;Checkliste Einkauf;0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Supradyn / Nachtmahl fassen;LENANA;;;Liste_nachmittags;1.844;;active;old_cs;1;0;duration=4min
+2;Surfen Bumper Car XL;;;;;0;;active;windowlog_corrector;1;0;window-to-activity mapping rule
+2;Surfen Modified Power Wheels;;IN;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Tagesgewand aus- und Nachtgewand anziehen;;;Checkliste Abendzeremonie;Checkliste Abendzeremonie;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Taonga: Die Inselfarm;;CS;;;0;;needs_review;taskliste;1;0;
+2;Team-Jour-Fixe;;BR;;;0;;retired;window_logger_vb5;1;0;combo box item, account=BR
+2;Teamfrühstück;;BR;;;0;;retired;window_logger_vb5;1;0;combo box item, account=BR
+2;Tee herrichten;;;Checkliste Abendzeremonie;Checkliste Abendzeremonie;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Teller waschen / Getränk + Supradyn fassen;LENATW;;;Liste_nachmittags;1.844;;active;old_cs;1;0;duration=3min
+2;Termin Apothekengang für nächste Öffnungszeit Apotheke notieren;;;Checkliste Apothekengang prüfen;Checkliste Apothekengang prüfen;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Termin Arztbesuch für nächste Ordinationszeit notieren;;;Checkliste Vorbereitung Arztbesuch;Checkliste Vorbereitung Arztbesuch;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Termin mit Zahnarzt zur Kontrolle ausmachen;;;Checkliste Zahnarztbesuch anmelden 2;Checkliste Zahnarztbesuch anmelden 2;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Termin Zahnarztbesuch anmelden 2 für nächste Öffnungszeit Zahnarzt notieren;;;Checkliste bei Termin Zahnarztbesuch anmelden;Checkliste bei Termin Zahnarztbesuch anmelden;65.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;Termin Zahnarztbesuch in Kalender notieren;;;Checkliste Zahnarztbesuch anmelden 2;Checkliste Zahnarztbesuch anmelden 2;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Termine für Medikamenteneinnahme eintragen;;;Checkliste Apothekengang;Checkliste Apothekengang;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Timer auf Platz geben;;;Checkliste monatliche Geldabrechnung;Checkliste monatliche Geldabrechnung;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Timer wieder auf Platz geben;;;Checkliste jährliche Geldprüfung;Checkliste jährliche Geldprüfung;52.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Treffen mit Richard Promberger;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=nach Terminvereinbarung, offerable=False
+2;Umbau Kontensystem auf Taskliste;;KS;;;0;;needs_review;taskliste;1;0;
+2;Umbau Window Logger auf Taskliste;;KS;;;0;;needs_review;taskliste;1;0;
+2;Umänderung Liste Disketten P111, P108, P136, P134 (?!);;PC;;;0;;needs_review;taskliste;1;0;
+2;ungeplante Aktivität (Sprachnachrichten o.ä.);;;;Liste_nachmittags;1.801;;active;old_cs;1;0;duration=10min
+2;Untersuchung Betriebssystem Creativision;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Madrigal (Luca), status=erledigt
+2;Untersuchung Sourcecode Pole Position (Atari 7800 / C64);;CS;;;0;;needs_review;taskliste;1;0;
+2;Update Clearswipe (Check auf Vorkommnisse);;KA;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=immer, offerable=True
+2;Update ClearSwipe: Erweiterung Swipe-Stop (für Justin) (?);;KA;;;0;;needs_review;taskliste;1;0;
+2;Update ClearSwipe: mehr Outline-Effekte (für Justin) (?);;KA;;;0;;needs_review;taskliste;1;0;
+2;Update ClearSwipe: Rate-Korrektur (für Dan) (?);;KA;;;0;;needs_review;taskliste;1;0;
+2;Update Inventur Wäsche;;LE;;;0;;needs_review;taskliste;1;0;
+2;Update Personenliste mit Daten aus Kandidatenliste (für Begräbnis);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;Update Personenliste mit Daten aus Kontaktstoß;;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=20min
+2;veraltete Kontoauszüge zu Wertpapierdepot aus Kuverts entfernen;;;Checkliste bei Unordnung in Finanzunterlagen;Checkliste bei Unordnung in Finanzunterlagen;55.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;Veranstaltung einer Karaoke-Party;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=1x/Monat, offerable=True
+2;Verarbeitung gerissene Unterhosen;;LE;;;0;;needs_review;taskliste;1;0;
+2;Verbesserung Abfrage ähnlicher Titel nach Kategorien (dauert zu lange);;RW;;;0;;needs_review;taskliste;1;0;
+2;Verbesserung Katzenspiel FreeBasic (Entfernen Grafik-DLL) (?);;CS;;;0;;needs_review;taskliste;1;0;
+2;Verbogene Chartsshow auf Radio Krokofee;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Vereinheitlichung OP-Liste / Checklisten / Gewinnaktionen / Wunschliste usw.;;KS;;;0;;needs_review;taskliste;1;0;
+2;Verkauf / Vergabe kaputter Geräte + Computerzeitschriften auf Willhaben.at;RWREAG;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;Versand Karaoke-Titel We are the world;;KA;;;0;;needs_review;taskliste;1;0;
+2;Verteilung Don't shut me down (C-64);;CS;;;0;;needs_review;taskliste;1;0;
+2;Verzweigung nach Checkliste Zahnarztbesuch anmelden 2;;;Checkliste bei Termin Zahnarztbesuch anmelden 2;Checkliste bei Termin Zahnarztbesuch anmelden 2;65.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;Vorbereitung House Warming Party;WFREVG;;;Liste_nachmittags;0;;retired;old_cs;1;0;duration=10min
+2;Warten auf 13:00;;;Checkliste Lebenserhaltung;Checkliste Lebenserhaltung;70.0;;active;kurtdoku;1;0;type=named, item_type=timer
+2;Warten auf 16:00;;;Checkliste Lebenserhaltung;Checkliste Lebenserhaltung;70.0;;active;kurtdoku;1;0;type=named, item_type=timer
+2;Warten auf 20:00;;;Checkliste Lebenserhaltung;Checkliste Lebenserhaltung;70.0;;active;kurtdoku;1;0;type=named, item_type=timer
+2;Warten auf 21:40;;;Checkliste Lebenserhaltung;Checkliste Lebenserhaltung;70.0;;active;kurtdoku;1;0;type=named, item_type=timer
+2;Warten mit der Psychotherapie, bis die Dokumentationen fertig sind;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Erwin Woloch, status=verworfen
+2;WC (wenn nötig);;;Checkliste Abendzeremonie;Checkliste Abendzeremonie;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;WC / Listen holen;;BR;;;0;;retired;window_logger_vb5;1;0;combo box item, account=BR
+2;WC-Besuch nach Bedarf (siehe WC);;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Wegräumen oder Wiederherstellung der Küchenuhr;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Papa, status=durchgeführt
+2;Wegwerfen eines eventuell unnötigen Papieres;;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Papa, status=verworfen
+2;Weihnachtsbaum aufputzen;;RW;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Weihnachtsbaum kaufen gehen;;MU;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Weihnachtsfeier des Betriebsrats;;BR;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Weihnachtsgeschenke;;EL;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Weihnachtskekse backen (Stand 24.12.2000);;LE;;;0;;active;access_Tab_Gewinnaktionen;1;0;when=Dezember, offerable=True
+2;weitere Papiersortierung (tw. mit Judith?);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=60min
+2;Weitere Prüfung Geräte aus meinem Keller / meiner Wohnung (Vorbereitung für Entsorgung);WFREPR;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;Weiterentwicklung ClearSwipe;;KA;;;0;;needs_review;taskliste;1;0;
+2;Wenn (Monat = 9 oder Monat = 12 oder Monat = 3 oder Monat = 6), Termin Friseur eintragen;;;Checkliste Hausarbeit;Checkliste Hausarbeit;50.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn BA-CA-Karte eingesteckt, Kontoauszug beheben;;;Checkliste bei Ausstieg Linien 30/31, Station Großjedlersdorf;Checkliste bei Ausstieg Linien 30/31, Station Großjedlersdorf;75.0;;active;kurtdoku;1;0;type=event, item_type=conditional
+2;Wenn bekannte Beschwerden, Verzweigung nach Checkliste bekannte Beschwerden;;;Checkliste Erwägung Arztbesuch;Checkliste Erwägung Arztbesuch;65.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Beschwerden nur mit rezeptflichtigen Medikamenten behandelbar, Checkliste Vorbereitung;;;Checkliste bekannte Beschwerden;Checkliste bekannte Beschwerden;65.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Einkaufsliste im Kalender vorhanden, Einkauf bei Anker;;;Checkliste BRZG;Checkliste BRZG;65.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn große Börse leer, Checkliste Geldbeschaffung;;;Checkliste Aufstockung kleine Börse;Checkliste Aufstockung kleine Börse;75.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn hohes Fieber, Verzweigung Checkliste dringender Arztbesuch;;;Checkliste Vorbereitung Arztbesuch;Checkliste Vorbereitung Arztbesuch;65.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn im Kalender „Geldnachbeschaffung“ notiert, 300 Euro von Sparkarte beheben;;;Checkliste bei Ausstieg Linien 30/31, Station Großjedlersdorf;Checkliste bei Ausstieg Linien 30/31, Station Großjedlersdorf;75.0;;active;kurtdoku;1;0;type=event, item_type=conditional
+2;Wenn in kleiner Börse unter 50 Euro vorhanden, Checkliste Aufstockung kleine Börse;;;Checkliste Geldprüfung;Checkliste Geldprüfung;75.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn innerhalb Ordinationszeit, Verzweigung nach Checkliste Arztbesuch;;;Checkliste Vorbereitung Arztbesuch;Checkliste Vorbereitung Arztbesuch;65.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn innerhalb Öffnungszeit Apotheke, Verzweigung nach Checkliste Apothekengang;;;Checkliste Apothekengang prüfen;Checkliste Apothekengang prüfen;65.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn innerhalb Öffnungszeit Zahnarzt, Verzweigung nach Checkliste Zahnarztbesuch anmelden 2;;;Checkliste bei Termin Zahnarztbesuch anmelden;Checkliste bei Termin Zahnarztbesuch anmelden;65.0;;active;kurtdoku;1;0;type=event, item_type=conditional
+2;Wenn Krankheit vorliegt, Checkliste Erwägung Arztbesuch;;;Checkliste bei Auftreten von Gesundheitsproblemen;Checkliste bei Auftreten von Gesundheitsproblemen;70.0;;active;kurtdoku;1;0;type=event, item_type=conditional
+2;Wenn Medikamente verschrieben, Checkliste Apothekengang;;;Checkliste Arztbesuch;Checkliste Arztbesuch;65.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Mitbringsel = Medikament, Verzweigung nach Versorgung Medikament;;;Checkliste Ein Mitbringsel versorgen;Checkliste Ein Mitbringsel versorgen;60.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Mitbringsel vorhanden, Checkliste Versorgung Mitbringsel;;;Checkliste Heimkunft;Checkliste Heimkunft;60.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Monat = 1 und Monatstag = 1, Checkliste jährliche Geldprüfung;;;Checkliste Hausarbeit;Checkliste Hausarbeit;50.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Monat = 4 und Monatstag = 4, Checkliste Finanzausgleich;;;Checkliste Hausarbeit;Checkliste Hausarbeit;50.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Monatstag = 1, Checkliste monatliche Geldabrechnung;;;Checkliste Hausarbeit;Checkliste Hausarbeit;50.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Nasenbohren weh tut und Wochentag = Sonntag, Fingernägel schneiden;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn nicht wiederbestellt, Termin Zahnarztbesuch anmelden (+ 6 Monate – 2 Wochen) eintragen;;;Checkliste bei Termin Zahnarztbesuch;Checkliste bei Termin Zahnarztbesuch;65.0;;active;kurtdoku;1;0;type=event, item_type=conditional
+2;Wenn Samstag, Checkliste Einkauf;;;Checkliste Untertags;Checkliste Untertags;55.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn sich Zehennägel verfangen, Termin Zehennägel schneiden (nächster Sonntag) eintragen;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Temparatur erstmals im Halbjahr unter 10 Grad, Checkliste Winterwäsche;;;Checkliste Hausarbeit;Checkliste Hausarbeit;50.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Temperatur erstmals im Jahr über 15 Grad, Checkliste Sommerwäsche;;;Checkliste Hausarbeit;Checkliste Hausarbeit;50.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Termin Friseur eingetragen, Friseur besuchen;;;Checkliste bei Heimfahrt mit Linie 30/31 über Franz-Jonas-Platz;Checkliste bei Heimfahrt mit Linie 30/31 über Franz-Jonas-Platz;75.0;;active;kurtdoku;1;0;type=event, item_type=conditional
+2;Wenn Termin Zehennägel schneiden eingetragen und Wochentag = Sonntag, Zehennägel schneiden;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn unbekannten Beschwerden, Checkliste Vorbereitung Arztbesuch durchführen;;;Checkliste Erwägung Arztbesuch;Checkliste Erwägung Arztbesuch;65.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn weitere Mitbringel vorhanden, Verzweigung nach Checkliste Versorgung Mitbringel;;;Checkliste Versorgung Mitbringsel;Checkliste Versorgung Mitbringsel;60.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Werktag, Checkliste BRZG;;;Checkliste Untertags;Checkliste Untertags;55.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Werktag, Vormittagsjause richten;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn wiederbestellt, Termin Zahnarztbesuch eintragen;;;Checkliste bei Termin Zahnarztbesuch;Checkliste bei Termin Zahnarztbesuch;65.0;;active;kurtdoku;1;0;type=event, item_type=conditional
+2;Wenn Wochentag <> Sonntag, Frühstücken;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Wochentag <> Sonntag, kurzer Duschvorgang;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Wochentag <> Sonntag, Zähne putzen oder bei Zeitmangel Mund spülen;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Wochentag = Sonntag, Frühstück;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Wochentag = Sonntag, langer Duschvorgang;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Wochentag = Sonntag, liegengebliebene Projekte aufräumen;;;Checkliste Hausarbeit;Checkliste Hausarbeit;50.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Wenn Wochentag = Sonntag, Zähne putzen;;;Checkliste Morgen;Checkliste Morgen;70.0;;active;kurtdoku;1;0;type=named, item_type=conditional
+2;Werbung von Post trennen;;;Checkliste Heimkunft;Checkliste Heimkunft;60.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;"Wiederbesuch des Lokals ""Jonas""";;;;;0;;retired;access_Tab_Wuensche;1;0;wisher=Mama, status=wurde Eintrag in Prioritätenliste
+2;Winterwäsche aus dem Kasten geben;;;Checkliste Winterwäsche;Checkliste Winterwäsche;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Winterwäsche in den Kasten geben;;;Checkliste Sommerwäsche;Checkliste Sommerwäsche;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Winterwäsche waschen;;;Checkliste Sommerwäsche;Checkliste Sommerwäsche;50.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Zahnarzt besuchen;;;Checkliste bei Termin Zahnarztbesuch;Checkliste bei Termin Zahnarztbesuch;65.0;;active;kurtdoku;1;0;type=event, item_type=action
+2;Zahnarztbesuch;;GE;;;0;;active;access_Tab_Gewinnaktionen;1;0;
+2;Zimmer lüften und Bett herrichten;;;Checkliste Abendzeremonie;Checkliste Abendzeremonie;70.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Zu Apotheke gehen;;;Checkliste Apothekengang;Checkliste Apothekengang;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Überprüfung Hotmail-Sicherheitsüberprüfung (Chello?);;;;Liste_nachmittags;1.8;;active;old_cs;1;0;duration=10min
+2;Überprüfung nächste Ordinationszeit des Arztes;;;Checkliste Vorbereitung Arztbesuch;Checkliste Vorbereitung Arztbesuch;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;Überprüfung, ob die Beschwerden und ihre Behandlung bekannt sind;;;Checkliste Erwägung Arztbesuch;Checkliste Erwägung Arztbesuch;65.0;;active;kurtdoku;1;0;type=named, item_type=action
+2;€ 15000 von Konto auf Sparverein transferieren;;FI;;;0;;active;access_Tab_Gewinnaktionen;1;0;

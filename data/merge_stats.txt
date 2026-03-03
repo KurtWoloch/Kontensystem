@@ -1,0 +1,461 @@
+Master Task List - Merge Statistics
+==================================================
+
+Raw entries across all sources: 14379
+After deduplication: 13210
+Dedup ratio: 1.1x
+
+Source Coverage:
+  ablauf_unplanned: 5786 unique tasks
+  access_Tab_Aufwandserfassung: 3685 unique tasks
+  ablauf_planned: 3350 unique tasks
+  access_Tab_Aktionen: 603 unique tasks
+  old_cs: 196 unique tasks
+  kurtdoku: 161 unique tasks
+  access_Tab_Gewinnaktionen: 131 unique tasks
+  csv: 110 unique tasks
+  taskliste: 80 unique tasks
+  window_logger_vb5: 44 unique tasks
+  access_Tab_Wuensche: 38 unique tasks
+  yaml_exceptions: 30 unique tasks
+  windowlog_corrector: 6 unique tasks
+
+Multi-source tasks (appear in 3+ sources):
+  [7] Aufräumen
+       Sources: ablauf_planned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, csv, old_cs, taskliste
+  [6] Mailbearbeitung
+       Sources: ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, old_cs, taskliste
+  [6] Wohnung lüften
+       Sources: ablauf_planned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, csv, kurtdoku, old_cs
+  [5] Bearb. Playlist
+       Sources: ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5
+  [5] Papiersortierung
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, old_cs, taskliste
+  [5] Versorgung Mitbringsel
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, csv, kurtdoku, old_cs
+  [5] WC
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, csv, old_cs, window_logger_vb5
+  [5] Zähne putzen
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, kurtdoku, old_cs, window_logger_vb5
+  [4] Ansehen YOutube-Videos
+       Sources: ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung
+  [4] Aufwandserfassung
+       Sources: ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5
+  [4] Aufwandserfassung und Abrechnung Kontensystem
+       Sources: ablauf_planned, access_Tab_Gewinnaktionen, csv, old_cs
+  [4] Bearb. Ohrwürmer (durchzunehmende)
+       Sources: ablauf_planned, ablauf_unplanned, csv, old_cs
+  [4] Besuch Schwimmbad
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, csv, old_cs
+  [4] Der Außentemperatur entsprechend anziehen
+       Sources: ablauf_planned, csv, kurtdoku, old_cs
+  [4] Div. Surfen
+       Sources: ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5
+  [4] Mittagessen
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, window_logger_vb5
+  [4] Nägel schneiden
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, csv, old_cs
+  [4] Prüfung auf eventuell mitzunehmende Dinge
+       Sources: ablauf_planned, csv, kurtdoku, old_cs
+  [4] Scan div. Radiosender
+       Sources: ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5
+  [4] Scan Museumsradio
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, csv, old_cs
+  [4] Scan Radio Arabella
+       Sources: ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung
+  [4] Surfen AtariAge
+       Sources: ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen
+  [4] Wäsche aus Waschmaschine nehmen
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, csv, old_cs
+  [3] Abhalten BKDD Standup Meeting
+       Sources: ablauf_planned, csv, old_cs
+  [3] Abhalten PKT Projekt Jour Fixe
+       Sources: ablauf_planned, csv, old_cs
+  [3] Abschluss
+       Sources: ablauf_planned, csv, old_cs
+  [3] Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer
+       Sources: ablauf_planned, csv, old_cs
+  [3] Anhören Radiosender / Tonträger / Ansehen Youtube-Videos
+       Sources: ablauf_planned, csv, old_cs
+  [3] Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer
+       Sources: ablauf_planned, csv, old_cs
+  [3] Anhören RW-Prg. mit Sati Ersoy
+       Sources: ablauf_planned, csv, old_cs
+  [3] Anhören RW-Programm
+       Sources: ablauf_planned, access_Tab_Aktionen, access_Tab_Aufwandserfassung
+  [3] Ansehen ZiB 1 + Wetter
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, old_cs
+  [3] Anziehen
+       Sources: ablauf_planned, access_Tab_Aufwandserfassung, old_cs
+  [3] Arbeitszeit absolvieren (Nachmittag)
+       Sources: ablauf_planned, csv, old_cs
+  [3] Arbeitszeit absolvieren (Vormittag)
+       Sources: ablauf_planned, csv, old_cs
+  [3] Aufhängen Badewäsche
+       Sources: ablauf_planned, csv, old_cs
+  [3] Aufstehen, Rasierer fasssen
+       Sources: ablauf_planned, csv, old_cs
+  [3] Ausmachen Arzttermine
+       Sources: ablauf_planned, csv, old_cs
+  [3] Auspacken Essensplan
+       Sources: ablauf_planned, csv, old_cs
+  [3] Ausputzen Rasierer
+       Sources: ablauf_planned, csv, old_cs
+  [3] Auswertung Radioscans / Playlists
+       Sources: ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung
+  [3] Ausziehen
+       Sources: ablauf_planned, csv, old_cs
+  [3] Bearb. Essensplan (Einlesen Einkaufsliste) LEEEL
+       Sources: ablauf_planned, csv, old_cs
+  [3] Bearb. Essensplan (Eintragen Protokoll)
+       Sources: ablauf_planned, csv, old_cs
+  [3] Bearb. Essensplan (Ereignisse / gegessen / zu essen)
+       Sources: ablauf_planned, csv, old_cs
+  [3] Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste)
+       Sources: ablauf_planned, csv, old_cs
+  [3] Bearb. Essensplan (gegessen / Lokalsuche / Konsumation)
+       Sources: ablauf_planned, csv, old_cs
+  [3] Bearb. Essensplan (gegessen, zu essen)
+       Sources: ablauf_planned, csv, old_cs
+  [3] Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf)
+       Sources: ablauf_planned, csv, old_cs
+  [3] Bearb. Essensplan (Kontrolle / zu essen / Korrektur)
+       Sources: ablauf_planned, csv, old_cs
+  ... and 78 more
+
+Total multi-source tasks (3+): 128
+
+Tasks with 6-char codes: 3061
+Tasks without codes: 10149
+
+Large task families (3+ variants):
+
+  'Bearb. Essensplan' (928 variants):
+    - Bearb. Essensplan
+    - Bearb. Essensplan (?)
+    - Bearb. Essensplan (Abgang Sati 10:12 -> 56')
+    - Bearb. Essensplan (Abklärungen mit Grok inkl. Mittagessen von Sati - Sati geht um 10:24)
+    - Bearb. Essensplan (Abklärungen mit Grok)
+    - Bearb. Essensplan (Abschluss KOrrektur Stützwerte nach Auflassung Restriktion)
+    - Bearb. Essensplan (Abschluß aktueller Plan / Generierung neuer Plan)
+    - Bearb. Essensplan (Abschluß Optimierung)
+    ... and 920 more
+
+  'Ansehen Youtube-Videos' (491 variants):
+    - Ansehen Youtube-Videos ("How to Let Go of Blaming and Take Full Responsibility for Yourself" Principle Number 8)
+    - Ansehen Youtube-Videos (1-click agent)
+    - Ansehen Youtube-Videos (10 Commodore 64 games suggested in...)
+    - Ansehen Youtube-Videos (100 MSX Cartridge Games)
+    - Ansehen Youtube-Videos (10c MCU hack)
+    - Ansehen Youtube-Videos (123-Transporter)
+    - Ansehen Youtube-Videos (12V Wiggle Car)
+    - Ansehen Youtube-Videos (12V Wiggle Car) RWMPMP (Fs.)
+    ... and 483 more
+
+  'Bearb.Ohrwürmer' (427 variants):
+    - Bearb.Ohrwürmer (Charts -8.11.2013)
+    - Bearb.Ohrwürmer (Charts 11.-25.11.2013)
+    - Bearb.Ohrwürmer (Charts 14.-28.6.2022)
+    - Bearb.Ohrwürmer (Charts 15.10.2021-14.6.2022)
+    - Bearb.Ohrwürmer (Charts 15.3.2013-)
+    - Bearb.Ohrwürmer (Charts 16.10.2015)
+    - Bearb.Ohrwürmer (Charts 20.2.-20.4.2024)
+    - Bearb.Ohrwürmer (Charts 21.9.2012)
+    ... and 419 more
+
+  'Mittagessen' (317 variants):
+    - Mittagessen
+    - Mittagessen (?)
+    - Mittagessen (Aangan Zustellung)
+    - Mittagessen (Aangan Zustellung) bei Papa
+    - Mittagessen (Aangan Zustellung) mit Papa
+    - Mittagessen (Abh. Citir Kebap) bei Papa
+    - Mittagessen (Abh. Schutzhaus) mit Papa
+    - Mittagessen (Akita Asian Cuisine Zustellung) mit Papa
+    ... and 309 more
+
+  'Bearb. Ohrwürmer' (171 variants):
+    - Bearb. Ohrwürmer
+    - Bearb. Ohrwürmer (?!)
+    - Bearb. Ohrwürmer (?)
+    - Bearb. Ohrwürmer (Charts 1.8.2023)
+    - Bearb. Ohrwürmer (Charts 10 / 2002) RWOWDN
+    - Bearb. Ohrwürmer (Charts 20.4.-20.5.2024)
+    - Bearb. Ohrwürmer (Charts 28.6.-26.7.2013)
+    - Bearb. Ohrwürmer (Charts 6.1.-17.2.2012)
+    ... and 163 more
+
+  'div. Surfen' (163 variants):
+    - div. Surfen (123-Transporter)
+    - div. Surfen (365-Euro-Jahreskarte)
+    - div. Surfen (3d Skiing)
+    - div. Surfen (?)
+    - div. Surfen (Abschleppen verwaister LINK-Scooter in Linz)
+    - div. Surfen (Andon Labs Themenstunden)
+    - div. Surfen (Atariage Dream)
+    - div. Surfen (Bestellung Buch / Kinderfahrzeuge)
+    ... and 155 more
+
+  'Papiersortierung' (105 variants):
+    - Papiersortierung
+    - Papiersortierung (A-B)
+    - Papiersortierung (A-K / A-E)
+    - Papiersortierung (Abgang Sati 10:23 -> Arbeit 9:09-10:23 = 1:14 = 74')
+    - Papiersortierung (alles mögliche)
+    - Papiersortierung (Altpapier) (10' +)
+    - Papiersortierung (Altpapier) (10' +) WFPAAP (Fs.)
+    - Papiersortierung (Altpapier) (10' +) WFPAAP (Fs.) (Fs.)
+    ... and 97 more
+
+  'Rasieren, dabei Planung' (79 variants):
+    - Rasieren, dabei Planung
+    - Rasieren, dabei Planung (C#-Programm - Start list funktioniert noch nicht!)
+    - Rasieren, dabei Planung (C#-Programm inkl. Korr. Aktivitätenliste)
+    - Rasieren, dabei Planung (C#-Programm)
+    - Rasieren, dabei Planung (C#-Programm) (fertig -> wird nun korrekt automatisch generiert!)
+    - Rasieren, dabei Planung (C#-Programm) (Korr. Dauern)
+    - Rasieren, dabei Planung (C#-Programm) , Ansehen Youtube-Videos, div. Surfen
+    - Rasieren, dabei Planung (C#-Programm) , Auschecken Andon FM, Bearb. Ohrwürmer (durchgenommen)
+    ... and 71 more
+
+  'Versorgung Mitbringsel' (79 variants):
+    - Versorgung Mitbringsel
+    - Versorgung Mitbringsel (AK-Zeitschrift)
+    - Versorgung Mitbringsel (angehörte CD's / Tierchen aus BRZ)
+    - Versorgung Mitbringsel (Anziehen neue Hose)
+    - Versorgung Mitbringsel (Auspacken Einkauf)
+    - Versorgung Mitbringsel (Auspacken Einkäufe)
+    - Versorgung Mitbringsel (Auspacken USB-C-Kabel)
+    - Versorgung Mitbringsel (Ausräumen Einkauf)
+    ... and 71 more
+
+  'Nachtmahl fassen' (76 variants):
+    - Nachtmahl fassen
+    - Nachtmahl fassen (2. Teil) (Banane)
+    - Nachtmahl fassen (2. Teil, Cashews + Kinder Riegel)
+    - Nachtmahl fassen (Banane)
+    - Nachtmahl fassen (Banane) / Zubereitung Kräutertee (Kamillentee aus, dann wieder normaler Getränkeplan)
+    - Nachtmahl fassen (Bauerngugelhupf + Chai Tee)
+    - Nachtmahl fassen (Bauerngugelhupf + Soja-Drink)
+    - Nachtmahl fassen (Bauerngugelhupf)
+    ... and 68 more
+
+  'Jause fassen' (68 variants):
+    - Jause fassen
+    - Jause fassen (2) (Sonnenblumenweckerl mit Gouda-Käse)
+    - Jause fassen (2. Teil)
+    - Jause fassen (?!)
+    - Jause fassen (ahead Meal Drink Choco)
+    - Jause fassen (Apfeltee + außerplanmäßiger Bauerngugelhupf)
+    - Jause fassen (Apfeltee + Candeblo)
+    - Jause fassen (Apfeltee)
+    ... and 60 more
+
+  'Nachmittagsjause fassen' (63 variants):
+    - Nachmittagsjause fassen
+    - Nachmittagsjause fassen (5-Uhr-Tee Earl Grey + Marmorgugelhupf)
+    - Nachmittagsjause fassen (Apfeltasche / Tee)
+    - Nachmittagsjause fassen (Apfeltee + Zucker)
+    - Nachmittagsjause fassen (Apfeltee)
+    - Nachmittagsjause fassen (Banane + Earl-Grey-Tee)
+    - Nachmittagsjause fassen (Banane)
+    - Nachmittagsjause fassen (Bauerngugelhupf + Apfeltee)
+    ... and 55 more
+
+  'Kommunikation mit Judith' (61 variants):
+    - Kommunikation mit Judith (Abhören + Beantworten Sprachnachricht Resi Pflegestation)
+    - Kommunikation mit Judith (Abhören Sprachnachricht wg. Resis Geburtstag)
+    - Kommunikation mit Judith (Abrechnung Renovierung / Besuch Porgy & Bess)
+    - Kommunikation mit Judith (Abrechnung Renovierung / Grippe - nur Textnachricht)
+    - Kommunikation mit Judith (Abrechnung Renovierung / Kongress)
+    - Kommunikation mit Judith (Abrechnung Renovierung / Rahmen Bild)
+    - Kommunikation mit Judith (Abrechnung Renovierung / Resi)
+    - Kommunikation mit Judith (Abrechnung Renovierung / Terrassenlampe)
+    ... and 53 more
+
+  'MAME Jr. Pac-Man' (54 variants):
+    - MAME Jr. Pac-Man
+    - MAME Jr. Pac-Man (10' + 20')
+    - MAME Jr. Pac-Man (10' + 9')
+    - MAME Jr. Pac-Man (11 + 14')
+    - MAME Jr. Pac-Man (11' + 17' + 14')
+    - MAME Jr. Pac-Man (11') / Mr. TNT (3')
+    - MAME Jr. Pac-Man (11') / Ms. Pac-Man (7') / Pooyan (11') .
+    - MAME Jr. Pac-Man (12') / Joust (13')
+    ... and 46 more
+
+  'Wertungseingabe' (53 variants):
+    - Wertungseingabe (10') / Aussuchen (7') Papa
+    - Wertungseingabe (10') / Aussuchen (8') / Wertungsbogen (17') / Wegräumen (5') Papa
+    - Wertungseingabe (10') / Aussuchen Tonträger (12') Papa
+    - Wertungseingabe (10') / Aussuchen TT (16') / Wertungsbogen (10') / Einräumen LP's (3') Papa
+    - Wertungseingabe (10') / Aussuchen TT (7') / Wertungsbogen (9') / Einräumen (2') TT P
+    - Wertungseingabe (10') / Aussuchen TT (8') / Wertungsbogen (11') für Papa
+    - Wertungseingabe (10') / Aussuchen Videokass. (8') Papa
+    - Wertungseingabe (10') / Wertungsbogen (14') / Aussuchen (1') Papa
+    ... and 45 more
+
+  'Laufen' (50 variants):
+    - Laufen
+    - Laufen (16:46-17:34)
+    - Laufen (2. Teil)
+    - Laufen (50' von F.J.Platz zu Spar)
+    - Laufen (51')
+    - Laufen (Apotheke u.a.)
+    - Laufen (dazw. Anruf von Heinrich)
+    - Laufen (Der Mann Obi)
+    ... and 42 more
+
+  'Wertungseing.' (46 variants):
+    - Wertungseing. (10') / Aussuchen (6') / Wertungb. (25') Papa
+    - Wertungseing. (10') / Aussuchen (6') / Wertungsbogen (10') Tonträger für Papa
+    - Wertungseing. (10') / Aussuchen (7') / Wertungsbogen (7') Tonträger für Papa
+    - Wertungseing. (10') / Aussuchen (9') / Wertungsbogen (20') Papa
+    - Wertungseing. (10') / Aussuchen Tonträger (11') / Wertungsbogen (9') Papa
+    - Wertungseing. (10') / Aussuchen Videokass. (6') / Wertungsbogen (4') für Papa
+    - Wertungseing. (11') / Aussuchen (10') / Wertungsbogen (5') Tonträger für Papa
+    - Wertungseing. (11') / Aussuchen (14') / Wertungsbogen (11') Papa
+    ... and 38 more
+
+  'Bearb. Playlist' (44 variants):
+    - Bearb. Playlist
+    - Bearb. Playlist (?)
+    - Bearb. Playlist (Abfrage zu Karaoke-Club-Stream)
+    - Bearb. Playlist (Aufbau Profile 12-06-06)
+    - Bearb. Playlist (Backling Broadcast)
+    - Bearb. Playlist (Bau Abfrage offene Musikwünsche)
+    - Bearb. Playlist (Eingabe gehörte Titel Kathreinstanz / Youtube)
+    - Bearb. Playlist (Eingabe Wertungen für Good Morning Vienna! / Generierung neuer Suggestion Pool)
+    ... and 36 more
+
+  'Einkauf' (44 variants):
+    - Einkauf
+    - Einkauf (?)
+    - Einkauf (Anker Franz-Jonas-Platz)
+    - Einkauf (Anker)
+    - Einkauf (BILLA Click & Collect)
+    - Einkauf (BILLA Ederg. / Trafik)
+    - Einkauf (BILLA Ederg.)
+    - Einkauf (BILLA Ederg.) (Suche nach Genmaitee) / Laufen
+    ... and 36 more
+
+  'Magellan Kersti' (43 variants):
+    - Magellan Kersti
+    - Magellan Kersti (12' + 33')
+    - Magellan Kersti (12' + 53' + 20')
+    - Magellan Kersti (127' + 7' + 35' + 49' + 8')
+    - Magellan Kersti (14' + 27')
+    - Magellan Kersti (15 + 31 + 30')
+    - Magellan Kersti (16' + 40')
+    - Magellan Kersti (17' + 44')
+    ... and 35 more
+
+  'Mapping Kersti Zauberschloß' (43 variants):
+    - Mapping Kersti Zauberschloß
+    - Mapping Kersti Zauberschloß (10' + 8' + 17' + 14')
+    - Mapping Kersti Zauberschloß (11 + 12 + 9 + 10)
+    - Mapping Kersti Zauberschloß (11' + 16' + 14')
+    - Mapping Kersti Zauberschloß (11' + 30' + 24')
+    - Mapping Kersti Zauberschloß (11' + 55')
+    - Mapping Kersti Zauberschloß (12 + 11' + 126')
+    - Mapping Kersti Zauberschloß (13' + 8' + 13')
+    ... and 35 more
+
+  'Sprachnachricht an Judith' (40 variants):
+    - Sprachnachricht an Judith
+    - Sprachnachricht an Judith (Abbauarbeiten)
+    - Sprachnachricht an Judith (Anwesenheit Bauarbeiter) PAKOSN
+    - Sprachnachricht an Judith (Aussortierung Kleidung)
+    - Sprachnachricht an Judith (Big Lion als Möbelpacker / Ergebnisse von Gespräch mit Sati) WFRESN
+    - Sprachnachricht an Judith (Delegieren)
+    - Sprachnachricht an Judith (Entrümpelung mehr als 2 Jahre lang nicht verwendeter Dinge)
+    - Sprachnachricht an Judith (Erbe u.a.)
+    ... and 32 more
+
+  'WC' (35 variants):
+    - WC
+    - WC (?)
+    - WC (Besuch Dixi-WC Ruthnerg.)
+    - WC (BREPWC
+    - WC (Dixi-WC Ruthnerg.)
+    - WC (Dixi-WC Siemensstr.)
+    - WC (Durchfall nach Kartoffelschmarrn)
+    - WC (fast vergeblich) -> Windeltest 68g
+    ... and 27 more
+
+  'Mittagspause BRZG' (33 variants):
+    - Mittagspause BRZG
+    - Mittagspause BRZG (+ 4 = 16 Luftminuten)
+    - Mittagspause BRZG (BMW Personalrestaurant)
+    - Mittagspause BRZG (Cibo Colorato mit Mehmet)
+    - Mittagspause BRZG (Dai Michele)
+    - Mittagspause BRZG (Great Amritsar mit Diana)
+    - Mittagspause BRZG (Hitomi Abholung, M13 Tori Teriyaki)
+    - Mittagspause BRZG (Honu Tiki Bowl alleine)
+    ... and 25 more
+
+  'Mittagessen fassen' (32 variants):
+    - Mittagessen fassen (Banane)
+    - Mittagessen fassen (BILLA Sandwich 185g mit Hühnerfilet, Paprika und Mais)
+    - Mittagessen fassen (Chef Bowl Döner)
+    - Mittagessen fassen (Doy-Doy)
+    - Mittagessen fassen (Döner Levent Pizza Vegetaria -> Funghi)
+    - Mittagessen fassen (Falafel mit Hummus)
+    - Mittagessen fassen (Gugelhupf)
+    - Mittagessen fassen (kalt - Nußbrot mit Butter)
+    ... and 24 more
+
+  'Bearbeitung Buch Champion's Mindset' (24 variants):
+    - Bearbeitung Buch Champion's Mindset
+    - Bearbeitung Buch Champion's Mindset (-> 284 von 426, 2 / 3 der Übung erledigt)
+    - Bearbeitung Buch Champion's Mindset (-> 330 / 426 Personen = 77% der Übung fertig)
+    - Bearbeitung Buch Champion's Mindset (-> 361 / 426 Datensätze von Übung fertig = 84% fertig)
+    - Bearbeitung Buch Champion's Mindset (-> Übung Satz 317 / 426 = 74,4%)
+    - Bearbeitung Buch Champion's Mindset (299 / 426 von Übung fertig = 70 %)
+    - Bearbeitung Buch Champion's Mindset (auf Fahrt)
+    - Bearbeitung Buch Champion's Mindset (bei Warten auf Pizza)
+    ... and 16 more
+
+  'Forge of Empires' (22 variants):
+    - Forge of Empires
+    - Forge of Empires (10' + 26')
+    - Forge of Empires (12' + 17')
+    - Forge of Empires (14' + 24')
+    - Forge of Empires (15)
+    - Forge of Empires (17 + 7' + 14')
+    - Forge of Empires (18 + 24')
+    - Forge of Empires (2 Sessions)
+    ... and 14 more
+
+  'Surfen Andon FM' (22 variants):
+    - Surfen Andon FM
+    - Surfen Andon FM (abgegebener Wunsch für "Never gonna give you up" by OpenAIR ziemlich ignoriert)
+    - Surfen Andon FM (Analyse Soundtrack Swap)
+    - Surfen Andon FM (Analyse Top Songs)
+    - Surfen Andon FM (Andrew Pappas hat meinen Tweet an Backlink Broadcast repostet)
+    - Surfen Andon FM (Backlink Broadcast kauft 8 neue Titel)
+    - Surfen Andon FM (Balances / Hörertweets)
+    - Surfen Andon FM (Bearb. Top Songs)
+    ... and 14 more
+
+  'Anhören Radiosender / Tonträger / Ansehen Youtube-Videos' (20 variants):
+    - Anhören Radiosender / Tonträger / Ansehen Youtube-Videos
+    - Anhören Radiosender / Tonträger / Ansehen Youtube-Videos (Eingabe 25.8. auf Youtube gehörte Titel)
+    - Anhören Radiosender / Tonträger / Ansehen Youtube-Videos (Eingabe 26.8.2025 auf RW gehörte Titel)
+    - Anhören Radiosender / Tonträger / Ansehen Youtube-Videos (Eingabe am 27.8. gehörte Titel)
+    - Anhören Radiosender / Tonträger / Ansehen Youtube-Videos (Eingabe am 28.8. gehörte Titel)
+    - Anhören Radiosender / Tonträger / Ansehen Youtube-Videos (Eingabe am 3.9. auf RW gehörter Titel)
+    - Anhören Radiosender / Tonträger / Ansehen Youtube-Videos (Eingabe am 30.8. auf RW gehörte Titel)
+    - Anhören Radiosender / Tonträger / Ansehen Youtube-Videos (Eingabe am 31.8. auf RW gehörte Titel)
+    ... and 12 more
+
+  'Planung' (20 variants):
+    - Planung
+    - Planung (3') / Aufwandserfassung
+    - Planung (Ausbesserung Liste Planungsaktivitäten)
+    - Planung (C#-Programm / normal)
+    - Planung (C#-Programm mit RooCode / Planungskorrekturen / Schedule exceptions)
+    - Planung (C#-Programm mit RooCode)
+    - Planung (C#-Programm u.a.)
+    - Planung (C#-Programm) LEMTRA
+    ... and 12 more

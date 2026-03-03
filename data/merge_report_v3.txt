@@ -1,0 +1,1339 @@
+Master Task List v3 - Tiered Merge Report
+=======================================================
+
+Total from v2 merge: 7916
+
+Tier 1 (Core - appears in 2+ sources): 813
+Tier 2 (Defined - single structured source): 475
+Tier 3 (Logged - one-off, reference only): 6628
+
+Reviewable list (Tier 1+2): 1288
+Reference list (Tier 3): 6628
+
+Account distribution (reviewable tasks with account prefix):
+  ??: 480
+  RA: 108
+  RW: 104
+  FZ: 75
+  CS: 69
+  MU: 64
+  KS: 64
+  AU: 62
+  LE: 48
+  WF: 38
+  PA: 33
+  GE: 27
+  BR: 23
+  VE: 19
+  IN: 17
+  KA: 14
+  PC: 11
+  FI: 10
+  RM: 8
+  SG: 4
+  TV: 3
+  RB: 3
+  EL: 2
+  HP: 1
+  OR: 1
+
+With 6-char code: 283
+Without code: 1005
+
+=======================================================
+TIER 1 - Core Tasks (813)
+=======================================================
+
+  [7 src] Aufräumen [WFARAR] (WF) ~4 variants
+  [7 src] Papiersortierung [PAA1SU] (WF) ~110 variants
+  [6 src] Mailbearbeitung [INMABE] (IN) ~2 variants
+  [6 src] Mittagessen [LEMEGA] (BR) ~325 variants
+  [6 src] WC [LEMTWC] (LE) ~38 variants
+  [6 src] Wohnung lüften [WFLULU] (WF) ~12 variants
+  [6 src] Zähne putzen [GEMTZP] (LE) ~4 variants
+  [5 src] Aufwandserfassung [KSAAKO] (KS) ~3 variants
+  [5 src] Bearb. Playlist [RWYTPL] (RW) ~45 variants
+  [5 src] Der Außentemperatur entsprechend anziehen [LEAUAZ] ~3 variants
+  [5 src] Nachtmahl [LEMTTW] (LE) ~10 variants
+  [5 src] Nägel schneiden [LENSNS] (LE)
+  [5 src] Scan Museumsradio [RWRSMR] (RA) ~7 variants
+  [5 src] Versorgung Mitbringsel [LEPOPO] (LE) ~80 variants
+  [5 src] Wäsche aus Waschmaschine nehmen [LEWAWA] (LE) ~6 variants
+  [4 src] Abhalten BKDD Standup Meeting [BREPGM]
+  [4 src] Abschluss [BRALAB]
+  [4 src] Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer [RWMPMP]
+  [4 src] Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer [RWMPAR] ~16 variants
+  [4 src] Anhören RW-Prg. mit Sati Ersoy [RWMPSE]
+  [4 src] Ansehen YOutube-Videos [RWMPAR] (IN) ~520 variants
+  [4 src] Ansehen ZiB 1 + Wetter [RATVZI] (RA) ~2 variants
+  [4 src] Anziehen [LEMTAN] (LE) ~6 variants
+  [4 src] Aufwandserfassung und Abrechnung Kontensystem [KSAAKO] (KS) ~14 variants
+  [4 src] Auspacken Essensplan [LEEPAU] ~3 variants
+  [4 src] Ausputzen Rasierer [LEMTAR]
+  [4 src] Ausziehen [LEMTAZ]
+  [4 src] Bearb. Essensplan im BRZ [BREPGM] ~2 variants
+  [4 src] Bearb. Liste auswendig singbarer Titel [MUOWAS]
+  [4 src] Bearb. Liste Scooterfahrten [FZSCLI] ~15 variants
+  [4 src] Bearbeitung Börsenkurse / Aktienhandel [FIAKBK] ~16 variants
+  [4 src] Besuch Dr. Hariri [GEMRNA] (GE) ~6 variants
+  [4 src] Besuch Schwimmbad [GEGYSB] (GE) ~8 variants
+  [4 src] Bewässerung Terrasse [WFTEBE] (WF) ~18 variants
+  [4 src] Div. Surfen [INSUSU] (IN) ~176 variants
+  [4 src] Eingabe Zeiterfassung SAP [BREPZE] ~2 variants
+  [4 src] Einpacken Musik für Fahrt inkl. Player + Akkus [RWRUEP] ~8 variants
+  [4 src] Fahrt BRZG [BRFAFA] ~6 variants
+  [4 src] Feinschliff bei der Rasur [LEMTFR]
+  [4 src] Jause (LE)
+  [4 src] Jause fassen [LEMTJF] ~69 variants
+  [4 src] Laufen [GELADW] (GE) ~47 variants
+  [4 src] Mail an Judith [PAWFAF] (VE) ~14 variants
+  [4 src] PC herunterfahren [PCHFHF]
+  [4 src] Prüfung auf eventuell mitzunehmende Dinge [BRAUPR] ~8 variants
+  [4 src] Scan div. Radiosender (RA)
+  [4 src] Scan Radio Arabella [RWMPMP] (RA) ~4 variants
+  [4 src] Scan Radio Plattenkiste [RWRSPT] (RA) ~5 variants
+  [4 src] Surfen AtariAge (CS) ~14 variants
+  [4 src] Teller waschen / Getränk fassen [LEMTTW] ~11 variants
+  [4 src] Termine in Kalender prüfen [LEMTTP] ~8 variants
+  [4 src] Vorbereitung Einkaufsliste [LEEKEL] ~3 variants
+  [4 src] Vorbereitung Playlist für Singen unter der Dusche [MUOWPL] ~2 variants
+  [4 src] Zeiten sammeln [BREPZS] ~2 variants
+  [3 src] Abhalten PKT Projekt Jour Fixe [BREPGM]
+  [3 src] Anhören Radiosender / Tonträger / Ansehen Youtube-Videos [RWMPMP] ~20 variants
+  [3 src] Anhören RW-Programm [RWMPMP] (RW) ~4 variants
+  [3 src] Ansehen div. Youtube-Videos (IN)
+  [3 src] Ansehen Youtube [RWRSMR] (RA) ~2 variants
+  [3 src] Arbeitnehmerveranlagung für Papa [PAFIAV] ~10 variants
+  [3 src] Arbeitszeit absolvieren (Vormittag) [BREPDZ]
+  [3 src] Aufhängen Badewäsche [GEGYAB]
+  [3 src] Aufstehen, Rasierer fasssen [LEMTAU]
+  [3 src] Aufwandserfassung / Abrechnung (KS) ~167 variants
+  [3 src] Ausmachen Arzttermine [GEMRNA] ~9 variants
+  [3 src] Auswertung Radioscans / Playlists (RW)
+  [3 src] Bearb. Essensplan [LEEPVO] (LE) ~932 variants
+  [3 src] Bearb. Geldbörse [FIBGGB] ~8 variants
+  [3 src] Bearb. OpenStreetMaps (IN)
+  [3 src] Bearb. Probenplan (MU) ~3 variants
+  [3 src] Bearb. Scooterkoordinaten (FZ)
+  [3 src] Bearbeitung Buch Champion's Mindset [GELICM] ~25 variants
+  [3 src] Bearbeitung Mails (IN)
+  [3 src] Bett machen [LEMTBM]
+  [3 src] Blutdruck messen [GEBMBM] (GE) ~6 variants
+  [3 src] Datensicherung [PCDASI] (KS)
+  [3 src] Dokumentation Prioritätsliste (KS)
+  [3 src] Duschen [LEMTDU] (GE)
+  [3 src] Eingabe Teleworking SAP [BREPZE]
+  [3 src] Einkauf [LEEKBI] (LE) ~48 variants
+  [3 src] Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi) [BREPZE]
+  [3 src] Einkurbeln Markisen (WF)
+  [3 src] Einlass / Koordination Sati Ersoy [WFPUEL] ~15 variants
+  [3 src] Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-Stick [RWMPEP]
+  [3 src] Einpacken für Einkauf [LEEKEP] (LE) ~10 variants
+  [3 src] Einpacken für Schwimmbad [GEGYES] ~2 variants
+  [3 src] Einpacken Musik für Fahrt [RWRUEP] (RW)
+  [3 src] Eis kaufen [BREPZE] (LE) ~6 variants
+  [3 src] Ermittlung Gesamtzeiten [KSAEEG] ~5 variants
+  [3 src] Frisieren [LEAUFR]
+  [3 src] Geschirr abwaschen [LEMEGA] ~7 variants
+  [3 src] Heimfahrt vom BRZ - Fahrt zu U4 Spittelau [BRFAHF]
+  [3 src] Heimfahrt von Dixi-WC Jägerstr. [BRFAHD] ~2 variants
+  [3 src] Häferl waschen / Hustenbonbon fassen [LEMTHW]
+  [3 src] Häferl waschen, Hustenbonbon fassen [LEMTHW]
+  [3 src] Korrektur Gesamtzeit für geplante Projekte (KS)
+  [3 src] Korrektur The Grindy Adventure [CSGAUM] ~3 variants
+  [3 src] Korrekturlesen Dokumentation Tod Papa [PADOTO]
+  [3 src] Laufen / Scootersuche [GEGYLS] ~16 variants
+  [3 src] Lesen Mails (IN) ~4 variants
+  [3 src] Mail an Plattenkiste (RA) ~5 variants
+  [3 src] Mailprüfung [INMAPR] ~12 variants
+  [3 src] Mittagspause BRZG [LEMEBR] ~32 variants
+  [3 src] Mund spülen [LEMTMS]
+  [3 src] Mund spülen / Teller waschen / Getränk fassen [LEMTTW] ~6 variants
+  [3 src] Musikwunsch Plattenkiste (RA)
+  [3 src] Müllentsorgung (LE) ~3 variants
+  [3 src] Müllentsorgung LEMÜMÜ
+  [3 src] Nacherfassung Radioscans (RA) ~2 variants
+  [3 src] Nachmittagsjause fassen [LENAJA] ~63 variants
+  [3 src] Nachtmahl essen [LENATW] ~5 variants
+  [3 src] Nachtmahl fassen [LENANA] ~77 variants
+  [3 src] PLanung [KSPLPL] (KS) ~21 variants
+  [3 src] Planung BRZ [BREPGM]
+  [3 src] Posting Zeiten Atariage (CS)
+  [3 src] Reinigung Waschmuschel [LEMTRW]
+  [3 src] Scan Kronehit [RWMPAR] (RW) ~8 variants
+  [3 src] Scan Radio Wien [RWMPAR] (RA) ~4 variants
+  [3 src] Scan Youtube [RWMPAR] (RA)
+  [3 src] Spielen State of Survival [CSGAUM]
+  [3 src] Sprachnachricht an Judith [PAWFAF] (PA) ~37 variants
+  [3 src] Start Teleworking BRZG [BRTWGF]
+  [3 src] Surfen Corona-Infektionen (IN)
+  [3 src] Untersuchung Playlist (RW) ~3 variants
+  [3 src] Update Radiowertungen (RA)
+  [3 src] Update Window Logger (KS)
+  [3 src] Verabschiedung / Zahlung Sati Ersoy [WFPUZA]
+  [3 src] VICE (CS)
+  [3 src] Vorbereitung Playlist für Hören beim Frühstück [RWYTPL] ~4 variants
+  [3 src] Vorbereitung Playlist für Hören unter der Dusche [RWYTPL] ~17 variants
+  [2 src] 2 Mails an Verwandte (VE)
+  [2 src] 2 Mails Verwandte Mappen Kurti-Opa (VE)
+  [2 src] 2 Postings Zeiten Atariage (CS)
+  [2 src] Abbau Livestream (MU)
+  [2 src] Abendzer. (LE)
+  [2 src] Abgabe Musikwunsch ISW (RA)
+  [2 src] Abgabe Wunsch Musikwelle (RA)
+  [2 src] Abheben Geld (FI) ~2 variants
+  [2 src] Ablegen Gurgeltest (BR) ~2 variants
+  [2 src] Abschluss Die neue Normalität (MU)
+  [2 src] Abwiegen [LEMTAW]
+  [2 src] AE / Abr. Halbmon. / 16.-17.7.2020 (KS)
+  [2 src] AE / Abr. Mon. / 1.8.2020 (KS)
+  [2 src] AE / Abr. Mon. 8/2021 (KS)
+  [2 src] AE / Bearb. Kommentare Kontengebarung (KS)
+  [2 src] AE / Druck Kommentare Kontengebarung (KS)
+  [2 src] AE / Kommentare Kontengeb. (KS)
+  [2 src] AE / Kommentare Kontengebarung (KS)
+  [2 src] AE / Kommentare Kontengebarung / Window Logger (KS)
+  [2 src] AE / Kommentare zur Kontengebarung 1. Hj. 2020 (KS)
+  [2 src] AE / Korr.lesen / Druck Kontengeb. 1. Hj. 2020 (KS)
+  [2 src] AE / Korr.lesen Kommentare Kontengebarung (KS)
+  [2 src] AE / Taskliste (KS)
+  [2 src] Aktienhandel (PA) ~2 variants
+  [2 src] Aktualisierung Radiowerte (RA)
+  [2 src] Aktualisierung Radiowertungen (RA)
+  [2 src] Amazon Women Spectrum (CS)
+  [2 src] Analyse Disassembly Astro Bomber [CSGAUM] ~7 variants
+  [2 src] Analyse Disassembly Tour de France [CSGAUM]
+  [2 src] Analyse Kartenaufbau Link (FZ) ~2 variants
+  [2 src] Analyse Wellenformen Edi's Orgel (MU)
+  [2 src] andere Aktivität
+  [2 src] Anfrage Ersoy Mittagessen [LEMEAE]
+  [2 src] Anhören / Eingabe 3-Groschen-Oper u.a. (RW)
+  [2 src] Anhören / Eingabe Tonträger (RW)
+  [2 src] Anhören Aufnahmen Teamgrillen (MU)
+  [2 src] Anhören Aufnahmen von Teamgrillen (RW)
+  [2 src] Anhören CD Tina / Druck Single-Covers (RW)
+  [2 src] Anhören CD Tina / Eingabe Singles (RW)
+  [2 src] Anhören CDs Tina / Eingabe Singles Boney M: (RW)
+  [2 src] Anhören eigener Tonträger / Nachdruck Hüllen (RW)
+  [2 src] Anhören Kass. Kar.gesang (RW) ~2 variants
+  [2 src] Anhören LP Bruckner Requiem u.a. mit Papa (RW)
+  [2 src] Anhören Radiosender [RWMPMP] ~3 variants
+  [2 src] Anhören RW KI [RWMPMP]
+  [2 src] Anhören RW-Prg. [RWMPAR] (RW) ~3 variants
+  [2 src] Anhören RW-Prg. Mit Papa (RW)
+  [2 src] Anhören RW-Prg. mit Sati + Akif Ersoy [RWMPSE]
+  [2 src] Anhören RW-Programm + Kassette mit Papa (RW)
+  [2 src] Anhören RW-Programm mit Heinrich (RW)
+  [2 src] Anhören RW-Programm mit Papa (RW)
+  [2 src] Anhören RW-Prrg. (RW) ~2 variants
+  [2 src] Anhören Singles / Nachdruck Hüllen (RW)
+  [2 src] Anhören Youtube-Videos mit Papa (RW)
+  [2 src] Anleitung Putzfrau (WF)
+  [2 src] Anmeldung bei Link (FZ)
+  [2 src] Anruf Musikwunsch Plattenkiste (RA)
+  [2 src] Anruf von Papa (PA)
+  [2 src] Anrufen Putzfrau (WF) ~2 variants
+  [2 src] Ansehen / Kommentieren Youtube-Videos [RWMPMP] ~4 variants
+  [2 src] Ansehen alte CS-Projekte (CS)
+  [2 src] Ansehen Fernsehsendungen (RA)
+  [2 src] Ansehen Jason Lux Livestream (RA)
+  [2 src] Ansehen Maps Moonwalker (CS)
+  [2 src] Ansehen Theaterstück Ronald (VE)
+  [2 src] Ansehen We are the world (IN)
+  [2 src] Ansehen Zeit im Bild 1 (RA)
+  [2 src] Ansehen ZiB + Wetter (RA)
+  [2 src] Ansehen ZiB 1 (RA)
+  [2 src] Ansehen ZiB 1 / 2 (RA)
+  [2 src] Ansehen ZiB 1 u.a. (RA)
+  [2 src] Ansehen ZiB 1/2/Diskussionssendung (RA)
+  [2 src] Ansehen ZiB 2 (RA)
+  [2 src] Anwendung der Zwischenraumzahnbürste [LEAZZZ]
+  [2 src] Anwendung Zahnseide [LEAZZS]
+  [2 src] Arbeitszeit absolvieren [BREPDZ] ~15 variants
+  [2 src] Arbeitszeit absolvieren (Nachmittag) [BREPDZ]
+  [2 src] Asteroids (CS) ~2 variants
+  [2 src] Aufbau Heimkaraoke (KA)
+  [2 src] Aufbau Livestream (MU)
+  [2 src] Aufbau Vatertagsfeier (MU)
+  [2 src] Aufnahme von Kontakt mit weiblichen Wesen (PA)
+  [2 src] Aufnehmen Die neue Normalität (MU)
+  [2 src] Aufräumen / div. WF-Aktivitäten (WF)
+  [2 src] Aufräumen / Vorbereitung Ruf Putzfrau (WF)
+  [2 src] Aufräumen mit Papa (WF)
+  [2 src] Aufschreiben Heimkaraoke (KA)
+  [2 src] Aufsperren Papa (PA)
+  [2 src] Aufstellen 2 Scooter (FZ)
+  [2 src] Aufwandserfassung / Bearb. Wnidow Logger (KS)
+  [2 src] Aufwaschen Küche (WF)
+  [2 src] Ausfüllen Umfrage TIER (FZ)
+  [2 src] Auskundschaftung Bauten südlich Siemens-Gelände (AU)
+  [2 src] Auskundschaftung Kleingartenanlage Transit (AU)
+  [2 src] Ausmachen Termin Zahnarzt (GE)
+  [2 src] Auspacken Einkauf (LE)
+  [2 src] Auspacken Küchengeräte (WF)
+  [2 src] Auspacken Teamgrillen [LEPOPO] (MU)
+  [2 src] AUsrasten (GE) ~6 variants
+  [2 src] Ausruhen (GE)
+  [2 src] Aussortieren Küchengeräte + Unterlagen Papa (PA)
+  [2 src] Aussortieren und Wegwerfen seit 17.5.2022 nicht verwendeter Kleidung [WFREER] ~4 variants
+  [2 src] Aussuchen Musiktitel / Tonträger (RW)
+  [2 src] Aussuchen Radiosender [RWMPMP] ~5 variants
+  [2 src] Autoririsierung Kreditkarte für 3D Secure-Zahlungen (FZ)
+  [2 src] Bearb. auswendige Radioplaylist (RW)
+  [2 src] Bearb. Badewanne mit Papa (PA) ~2 variants
+  [2 src] Bearb. Bewertung der Dokumentationen (KS)
+  [2 src] Bearb. Checklisten (KS)
+  [2 src] Bearb. Checklisten / Taskliste u.a. (KS)
+  [2 src] Bearb. Einkaufsliste (LE)
+  [2 src] Bearb. Essensdatenbank (LE)
+  [2 src] Bearb. Essensplan (Einlesen Einkaufsliste) LEEEL
+  [2 src] Bearb. Essensplan (Eintragen Protokoll) [LEEPEP]
+  [2 src] Bearb. Essensplan (Ereignisse / gegessen / zu essen) [LEEPGE]
+  [2 src] Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) [LEEPLS]
+  [2 src] Bearb. Essensplan (gegessen / Lokalsuche / Konsumation) [LEEPLS]
+  [2 src] Bearb. Essensplan (gegessen, zu essen) [LEEPEP]
+  [2 src] Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) [LEEPEP]
+  [2 src] Bearb. Essensplan (Kontrolle / zu essen / Korrektur) [LEEPKO]
+  [2 src] Bearb. Essensplan (Nährwerte) [LEEPGE]
+  [2 src] Bearb. Essensplan (Protokoll) [LEEPPR]
+  [2 src] Bearb. Essensplan (Update Händlerangebote) [LEEPUH]
+  [2 src] Bearb. Essensplan (Update Rotation) [LEEPRO]
+  [2 src] Bearb. Essensplan (Update Wärme / Gewicht) [LEEPUW]
+  [2 src] Bearb. Essensplan (Vorschläge Strake) [LEEPVO]
+  [2 src] Bearb. Essensplan (Änderung Sollwerte) [LEEPUH]
+  [2 src] Bearb. Essensplan / Einkaufsliste (LE)
+  [2 src] Bearb. Esssensplan (LE)
+  [2 src] Bearb. gegangene Strecken [FZSCLI] ~12 variants
+  [2 src] Bearb. Hörwerte / Radiobewertung (RW)
+  [2 src] Bearb. Koordinaten Link (FZ)
+  [2 src] Bearb. Koordinaten Link / Tier (FZ)
+  [2 src] Bearb. Koordinaten Tier (FZ)
+  [2 src] Bearb. Koordinaten Tier / LINK (FZ)
+  [2 src] Bearb. Koordinaten Tier / Update Scooterauswertung (FZ)
+  [2 src] Bearb. Mindestplanung Aufarbeitung Zeitrückstände (KS)
+  [2 src] Bearb. Mindestplanung Zeitrückstand (KS)
+  [2 src] Bearb. Ohrwürmer [RWOWCH] ~172 variants
+  [2 src] Bearb. Ohrwürmer (durchgenommene) [RWOWDU]
+  [2 src] Bearb. Ohrwürmer (durchzunehmende) [RWOWDN]
+  [2 src] Bearb. Ohrwürmer (Liste auswendig singbarer Titel) [MUOWAS]
+  [2 src] Bearb. Ohrwürmer (Nachfassen aus alten Charts) [RWOWTT]
+  [2 src] Bearb. Ohrwürmer (Texte) [MUOWTE]
+  [2 src] Bearb. Play Card System (MU)
+  [2 src] Bearb. Playlist / Evaluation Hörwerte (RW)
+  [2 src] Bearb. Playlist / Radiobewertung (RW)
+  [2 src] Bearb. Playlist / RW-Datenbank (RW)
+  [2 src] Bearb. Playlist / Update Hörwerte (RW)
+  [2 src] Bearb. Playlist / Update Radiohörwerte (RW)
+  [2 src] Bearb. Playlist / Update Wertungsfaktoren (RW)
+  [2 src] Bearb. Playlist / Wertungsfaktoren (RW)
+  [2 src] Bearb. Playlist / Wertungsfaktoren / Update RW-Prg. (RW)
+  [2 src] Bearb. Playlists [RWMPAR]
+  [2 src] Bearb. Radiowertungen (RA)
+  [2 src] Bearb. RW-Datenbank (RW)
+  [2 src] Bearb. RW-DB (RW)
+  [2 src] Bearb. Scans / Mail Andrea (VE)
+  [2 src] Bearb. Scooterkoord. (FZ)
+  [2 src] Bearb. Senderwertungen [RASCSW] ~4 variants
+  [2 src] Bearb. Taskliste / Planung (KS)
+  [2 src] Bearb. unbenannte Datei (LE)
+  [2 src] Bearb. Wertungsfaktoren / Korr. RW-PRg. (RW)
+  [2 src] Bearb. Zeitrückstand (KS)
+  [2 src] Bearb. Ähnlichkeiten (RA)
+  [2 src] Bearb.Ohrwürmer [RWOMCH] ~429 variants
+  [2 src] Bearb.Ohrwürmer(durchgenommen) [MUOWDU]
+  [2 src] Bearb.Ohrwürmer(Nachfassen aus alten Charts) [RWOWTT]
+  [2 src] Bearbeitung Aufgaben zu Papa's Pflege [PATATA] ~15 variants
+  [2 src] Bearbeitung Aufgaben zu Papa's Pflege (10' +) [PATATA]
+  [2 src] Bearbeitung Batterienpool (RW)
+  [2 src] Bearbeitung Bewertung der Probleme (KS)
+  [2 src] Bearbeitung Börsenkurse [FIAKBK] ~2 variants
+  [2 src] Bearbeitung Check- / Taskliste (KS)
+  [2 src] Bearbeitung Check- und Taskliste (KS)
+  [2 src] Bearbeitung Checklisten (KS)
+  [2 src] Bearbeitung div. Dokumentationen (GE)
+  [2 src] Bearbeitung laufende Checklisten (KS)
+  [2 src] Bearbeitung Liste Musikermappe (MU)
+  [2 src] Bearbeitung Masken aus China (MU) ~2 variants
+  [2 src] Bearbeitung Musikumfrage Ö3 (RA)
+  [2 src] Bearbeitung Musikumfrage Ö3 / Antwort an Ö3 (RA)
+  [2 src] Bearbeitung Planung (KS)
+  [2 src] Bearbeitung Planung für 21.3.2021 (KS)
+  [2 src] Bearbeitung Play Card System (MU) ~2 variants
+  [2 src] Bearbeitung Play Card System u.a. (MU)
+  [2 src] Bearbeitung Playcard Analyzing\Ablauf Einlesen Playcard (MU)
+  [2 src] Bearbeitung Playlist (RW)
+  [2 src] Bearbeitung PSR-60 ROM Disassembly (MU)
+  [2 src] Bearbeitung PSR-60 ROM Disassembly 1 (MU)
+  [2 src] Bearbeitung Repertoireliste Jive Aces (RA)
+  [2 src] Bearbeitung Taskliste (KS)
+  [2 src] Bearbeitung Taskliste / Checklisten (KS)
+  [2 src] Bearbeitung Text Life on Miles (MU)
+  [2 src] Bearbeitung Untersuchung der Prioritätenliste (KS)
+  [2 src] Bearbeitung Untersuchung der Prioritätenliste / Taskliste (KS)
+  [2 src] Bearbeitung Untersuchung der Prioritätenliste.doc (KS)
+  [2 src] Bearbeitung Wertungsfaktoren (RW)
+  [2 src] Bearbeitung Yamaha Playcard Songs in Videos (MU)
+  [2 src] Beendung Tranche Tonträgereingabe (RW)
+  [2 src] Begutachtung AKH-Befund Papa (PA)
+  [2 src] Begutachtung Planungstool (KS)
+  [2 src] Begutachtung Unterlagen Kurti-Opa für Franzi (VE)
+  [2 src] Begutachtung Zeitplanung (KS)
+  [2 src] Beobachtung Kinderfahrzeug Spielplatz (FZ)
+  [2 src] Beschriftung Kass. Kar.gesang (KA)
+  [2 src] Beschwerde von Kindern über Pädephilie (FZ)
+  [2 src] Besorgung Fahrscheine (FZ)
+  [2 src] Besorgung Medikament für Papa (PA)
+  [2 src] Besprechung Doku Prioritätenliste (KS)
+  [2 src] Besprechung Problemdokumentation (KS)
+  [2 src] Bestellung Mittagessen (LE) ~3 variants
+  [2 src] Besuch Dixi-WC Jägerstr. [LENADW]
+  [2 src] Besuch Dixi-WC Ruthnergasse [LENADT]
+  [2 src] Besuch Dixi-WC Siemensstraße [LENADT]
+  [2 src] Besuch Friseur (LE)
+  [2 src] Besuch Puls4-Show-Aufzeichnung (AU)
+  [2 src] Besuch von Fr. Strake (WF)
+  [2 src] Besuch von Heinrich (SG)
+  [2 src] Boccia mit Kollegen (BR)
+  [2 src] Brennen / Cover Oster-Cd für Papa (PA)
+  [2 src] C-64 Juice (CS)
+  [2 src] Cashews fassen [LEMTTW]
+  [2 src] Catloaf2600 (CS) ~2 variants
+  [2 src] Christbaum aufputzen (PA)
+  [2 src] Christbaumverabschiedung (MU) ~2 variants
+  [2 src] Dichtungswechsel Dusche (WF) ~2 variants
+  [2 src] Diskussion Kontensystem u.a. Themen (KS)
+  [2 src] Diskussion Mails mit Papa (PA)
+  [2 src] Diskussion mit Papa (PA)
+  [2 src] Diskussion mit Papa über Mails (PA)
+  [2 src] Diskussion Partenwunsch Franzi (VE)
+  [2 src] Diskussion RW-Prg. / Baden gehen (RW)
+  [2 src] Div. Diskussionen (KS)
+  [2 src] Div. Radioscans (RA)
+  [2 src] Div. Radioscans / Livestreams (RA)
+  [2 src] div. Surfen / Ansehen Youtube-Videos [RWMPMP]
+  [2 src] Dokumentation Finanzanlagen [FIDOAK]
+  [2 src] Dokumentation Grundsätze der Ma'at [GEDOMA]
+  [2 src] Doppelkeks fassen [LEMTTW]
+  [2 src] Download / Versuche Speccy (CS)
+  [2 src] Download Amazon Women (CS)
+  [2 src] Druck Einladung für Puls4-Show-Aufzeichnung (AU)
+  [2 src] Druck Text La Cucaracha (MU)
+  [2 src] Druck Text Moonlight Serenade (MU)
+  [2 src] Druckerreinigung (PC)
+  [2 src] Druckerwartung (PC)
+  [2 src] Durchführung Livestream (MU)
+  [2 src] Durchstöbern Keyboard-Registrierungen (MU)
+  [2 src] Eingabe + Anhören LP's (RW)
+  [2 src] Eingabe + Anhören Tonträger (RW)
+  [2 src] Eingabe / Anhören LP's (RW)
+  [2 src] Eingabe / Anhören Singles v. Kurti-Opa u.a. (RW)
+  [2 src] Eingabe gehörte Titel (RW)
+  [2 src] Eingabe gehörte Weihnachtskassette 1992 (RW)
+  [2 src] Eingabe LP Dreigroschenoper u.a. (RW)
+  [2 src] Eingabe LP's (RW)
+  [2 src] Eingabe Rest alte Singles / DB-Korr. CD Tina (RW)
+  [2 src] Eingabe Tonträger (RW)
+  [2 src] Eingeschlafen (LE)
+  [2 src] Einkauf bei Ströck
+  [2 src] Einkauf Brot/Weckerln/süße Stücke [BREPZE] ~5 variants
+  [2 src] Einkauf Brot/Weckerln/süße Stücke (Der Mann Wien Mitte) [BREPZE]
+  [2 src] Einkurbeln Markise (WF)
+  [2 src] Einlass / Koordination Sati [WFPUEL]
+  [2 src] Einpacken (BR)
+  [2 src] Einpacken Baden (GE) ~3 variants
+  [2 src] Einpacken Blutdruckmeßgerät, Befund MRT für Dr. Hariri
+  [2 src] Einpacken für Einkauf (Essensdatenbank, Rucksack, Sackerln, Altbatterien, Notebook, 25%-Pickerln, USB-Stick) [LEEKEP]
+  [2 src] Einpacken Handy, Brille, Kabel [BRFAEP] ~4 variants
+  [2 src] Einpacken Handy, Brille, Kabel (inkl. Laptop!), Handynetzteil, Power Bank, Headset, USB-Stick, Geld [BRFAEP]
+  [2 src] Einpacken Kass. Für Fahrt (RW)
+  [2 src] Einpacken Playlist für Fahrt (RW)
+  [2 src] Einpacken RW-Datenbank (RW)
+  [2 src] Einpacken RW-Prg. / Essensplan / Sicherung USB-Stick [RWMPEP] ~2 variants
+  [2 src] Einpacken Tonträger für Fahrt (RW)
+  [2 src] Einrichtung Lichterkette (WF)
+  [2 src] Einräumen Anleitungen in Küche (LE)
+  [2 src] Einräumen gehörte Kassetten (RW)
+  [2 src] Einspielen 11 Titel aus 2009 (RM)
+  [2 src] Einspielen 2 Titel (RM)
+  [2 src] Einspielen 3 Titel Internet (RM)
+  [2 src] Einspielen 4 Titel aus Internet (RM)
+  [2 src] Einspielen 7 Titel aus Jänner-Liste (RM)
+  [2 src] Einspielen div. Titel (RM)
+  [2 src] Einspielen neue Titel (RM)
+  [2 src] Einspielung O sole mio (RM) ~2 variants
+  [2 src] Einst. Laptop / Musikwunsch DX-Wunschkonz. (RA)
+  [2 src] Eintragen Zeiten Atariage [CSAAZE]
+  [2 src] Eintragung Wohnungsaktivitäten (WF)
+  [2 src] Einüben 4 Titel Keyboard / Bearb. Prg. (MU)
+  [2 src] Einüben div. Titel (MU)
+  [2 src] Einüben Tulpen aus Amsterdam / Erforschung Voices (MU)
+  [2 src] Entsorgung Altpapier (LE) ~2 variants
+  [2 src] Entsorgung Pizzakarton (LE)
+  [2 src] Erfassung Corona-Infektionen (GE)
+  [2 src] Erfassung Corona-Zahlen (GE)
+  [2 src] Erfassung Keyboard-Registrierungen (MU)
+  [2 src] Erfassung Wünsche Jason Lux (RW)
+  [2 src] Ermittlung Gesamtzeit für geplante Projekte (KS)
+  [2 src] Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt) [KSAEEG]
+  [2 src] Ermittlung Musikwünsche für versch. Radiosender (RW)
+  [2 src] Erstellung Playback mit Vocal Remover ~4 variants
+  [2 src] Erstellung Programm für Teamgrillen (MU)
+  [2 src] Essen bestellen (LE)
+  [2 src] Essen fassen (LE) ~2 variants
+  [2 src] Evaluation Hörwerte (RW)
+  [2 src] Evaluation Hörwerte / Radiosender (RW)
+  [2 src] Evaluation Hörwerte / Radiowertungen (RW)
+  [2 src] Experiment Portable John (FZ) ~2 variants
+  [2 src] Experiment Powerbank (PC)
+  [2 src] Experiment Travel John (FZ) ~2 variants
+  [2 src] Fahrt / Rückfahrt Zahnarzt mit TIER-Scooter (FZ)
+  [2 src] Fahrt mit Lime-Scooter Rennweg (FZ)
+  [2 src] Fahrt TIER-Scooter (FZ) ~3 variants
+  [2 src] Fahrt Tier-Scooter / Jump-Bike (FZ) ~2 variants
+  [2 src] Fahrt TIER-Scooter zu Urologe+zurück (FZ)
+  [2 src] Fahrt zu DZU mit TIER-Scootern (FZ)
+  [2 src] Fahrt/Dienstz. BRZG (BR)
+  [2 src] Fahrten mit TIER-Scooter (FZ) ~2 variants
+  [2 src] Faschingsfeier BRZ (BR)
+  [2 src] Forge of Empires (CS) ~42 variants
+  [2 src] Fortsetzung der Arbeit an Tetrinet für G7400 (CS)
+  [2 src] Fortsetzung der Arbeit an Titanic Rescue (CS)
+  [2 src] Freischaltung Klar-App (FZ)
+  [2 src] Frühstück (LE) ~4 variants
+  [2 src] Frühstück fassen [LEMTFR] ~3 variants
+  [2 src] Frühstücken [LEMTFR] ~10 variants
+  [2 src] Frühstücken, dabei Tee machen, Bearb. Werbeprospekte [LEMTFR]
+  [2 src] Frühstücken, dabei Tee machen, Bearb. Werbeprospekte, Prüfung Terrasse [LEMTFR]
+  [2 src] Frühstücken, dabei Tee machen, Einpacken für BRZ [LEMTFR]
+  [2 src] Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte [LEMTFR] ~2 variants
+  [2 src] Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte, Prüfung Terrasse [LEMTFR]
+  [2 src] Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Einpacken für BRZ [LEMTFR]
+  [2 src] Führung Tagebuch, um schmerzhafte Situationen zu verarbeiten [GELIFT] ~8 variants
+  [2 src] G-Rally (CS)
+  [2 src] Geb.gutscheine für Papa (PA)
+  [2 src] Geburtstagsfeier bei Papa (PA)
+  [2 src] Geld abheben [LEMEGA] ~2 variants
+  [2 src] Gespräch mit Papa (PA)
+  [2 src] Gesundenuntersuchung (GE) ~2 variants
+  [2 src] Getränk fassen [LEMTTW] ~13 variants
+  [2 src] Gründung eines Karaoke-Forums (AU)
+  [2 src] Handlung Bettwäsche mit Papa (WF)
+  [2 src] Heimfahrt BRZG (BR)
+  [2 src] Heimfahrt mit LINK-Scooter (FZ) ~4 variants
+  [2 src] Heimfahrt vom BRZ inkl. Laufen [BRFAHF]
+  [2 src] Heimfahrt von DZU tw. Mit TIER-Scooter (FZ)
+  [2 src] Heimkaraoke (von mir als Veranstaltung angesetzt) [KAVAHK] (RW)
+  [2 src] Heimkaraoke / Abbau (KA)
+  [2 src] Hero Wars (CS)
+  [2 src] Hilfe Papa Schlauch (WF)
+  [2 src] Hinunterbringen schwarze Stellage (WF)
+  [2 src] Holundersaft fassen [LENATW]
+  [2 src] Häferl waschen [LEMTHW]
+  [2 src] Hände waschen
+  [2 src] im Bett
+  [2 src] Inventur Glühbirnen Papa (PA)
+  [2 src] JSSpeccy Amazon Women (CS) ~2 variants
+  [2 src] Kalk. Auftrag Heinrich (SG)
+  [2 src] kaltes Mittagessen fassen
+  [2 src] Kokosmilch Drink fassen [LEMTJF]
+  [2 src] Kommentierung Video Bells of Bournville Green (RA)
+  [2 src] Kommentierung Youtube X-15 (MU)
+  [2 src] Kommunikation mit Judith [PAWFAF] ~61 variants
+  [2 src] Kontrolle Programm Plattenkiste [RAMWKO]
+  [2 src] Kontrolle Zahnarzt (GE)
+  [2 src] Korr. Titel in Tonträger (RW)
+  [2 src] Korr. Window Logger (KS)
+  [2 src] Korr.lesen Bewertung der Probleme (KS)
+  [2 src] Korrektur Essensplan (LE) ~2 variants
+  [2 src] Kurzfahrt Bird-Scooter (FZ)
+  [2 src] Ladung Akkus E-Zahnbürste (LE)
+  [2 src] Ladung Akkus El. Zahnbürste (LE)
+  [2 src] Laufen Dixi-WC Jägerstr. [GELADW]
+  [2 src] Lesen Anleitung Solar Shuttle (CS)
+  [2 src] Lesen Facebook-Postings 88.6 (RA)
+  [2 src] Lesen Keyboard Manuals (MU)
+  [2 src] Lesen Mail Verwandte (IN)
+  [2 src] Lesen Mailantwort LINK (FZ)
+  [2 src] Lesen Postings 88.6 (RA)
+  [2 src] Lesen Service Manual Yamaha PC-100 (MU)
+  [2 src] Lesen Wohnungsabrechnung (WF)
+  [2 src] Mail an Fabian Broich (FZ) ~2 variants
+  [2 src] Mail an Hrn. Broich (FZ) ~2 variants
+  [2 src] Mail an Jan (IN) ~2 variants
+  [2 src] Mail an W. Adams (RW) ~2 variants
+  [2 src] Mail an Wilton Adams (MU) ~2 variants
+  [2 src] Mail Musikwelle Nicki (RA)
+  [2 src] Mail Pirni Prg. Silvesterparty (RA)
+  [2 src] Mail Plattenkiste Kriminal-Tango (RA)
+  [2 src] Mail Plattenkiste Unchained melody (RA)
+  [2 src] Mail Text Life on Miles an Terry (RA)
+  [2 src] Mail Tier (FZ) ~2 variants
+  [2 src] Mail W. Adams (MU) ~2 variants
+  [2 src] Mail Wunsch Plattenkiste (RA)
+  [2 src] Mailantwort an TIER (FZ) ~2 variants
+  [2 src] Mails lesen (BR)
+  [2 src] MAME Channel F Centipede (CS) ~2 variants
+  [2 src] MAME Channel F Pac-Man (CS) ~3 variants
+  [2 src] MAME Jr. Pac-Man (CS) ~59 variants
+  [2 src] MAME Jr., Pac-Man (CS)
+  [2 src] MAME Klax (CS) ~2 variants
+  [2 src] MAME Lode Runner (CS) ~2 variants
+  [2 src] MAME Mario Bros. (CS) ~4 variants
+  [2 src] MAME Masio Bros. (CS) ~2 variants
+  [2 src] MAME Pengo (CS)
+  [2 src] MAME Puzzled (CS) ~2 variants
+  [2 src] MAME Time Pilot '84 (CS) ~2 variants
+  [2 src] Mario Bros. (CS)
+  [2 src] Meldung Sozialbau Jalousienschaden [WFSBMJ]
+  [2 src] MESS Colecovision Steamroller (CS) ~2 variants
+  [2 src] MESS MSX Time Pilot (CS)
+  [2 src] MESS Spectrum Amazon Women (CS)
+  [2 src] Mist ausleeren [WFMAMA] (WF)
+  [2 src] Mittagesse (LE) ~2 variants
+  [2 src] Mittagessen (?) [LEMEME]
+  [2 src] Mittagessen (von Sati gekocht) [LEMESE]
+  [2 src] Mittagessen fassen [LEMEME] ~32 variants
+  [2 src] Morgent. + Frst. (LE)
+  [2 src] Mund ausspülen [LEAZMA]
+  [2 src] Musikwunsch Musikwelle (RA)
+  [2 src] Musikwunschaufgabe Musikwelle (RA)
+  [2 src] Mystery Lunch (BR) ~13 variants
+  [2 src] Nachlesen Revision der Hörgewohnheiten und Musiktitel Herbst 2015.doc (RW)
+  [2 src] Nachlesen Source Code Pole Position Channel F (CS)
+  [2 src] Nachricht an Judith [PAWFAF] ~9 variants
+  [2 src] Nachspeise fassen [LEMEGA] ~2 variants
+  [2 src] Nachspielen unbwertete Titel für Papa (RW)
+  [2 src] Nachsurfen Hurensohn / Beleidigungen (FZ)
+  [2 src] Neustart Handy (BR)
+  [2 src] Optimierung Wertungsfaktoren (RW)
+  [2 src] Papa heimführen (PA)
+  [2 src] Papiersortierung (Altpapier)(10' +) [WFPAAP]
+  [2 src] Papiersortierung (gelesene Werbeprospekte) [WFPAWP]
+  [2 src] Papiersortierung (hereingekommene Papiere) [WFPAEK]
+  [2 src] PC aussaugen (PC)
+  [2 src] Planung / AE (KS)
+  [2 src] Planung / Aufwandserfassung (KS)
+  [2 src] Planung Mittagessen (LE)
+  [2 src] Plaudern mit Xandi's Schwester (CS)
+  [2 src] Posting Atariage [CSAAZE] (CS)
+  [2 src] Posting Jivestream Green Room (RA)
+  [2 src] Posting Musikwunsch Jive Aces Green Room (RA)
+  [2 src] Posting Youtube (IN)
+  [2 src] Prod. Masken aus China (MU)
+  [2 src] Produktion Masken aus China (MU)
+  [2 src] Prüfung Bewässerung Terrasse [WFTEBE] (WF) ~10 variants
+  [2 src] Prüfung Tasktool für Windows 10 (KS)
+  [2 src] Rasieren, dabei div. Surfen, Bearb. Essensplan [LEMTRA]
+  [2 src] Rasieren, dabei Planung [LEMTRA] ~78 variants
+  [2 src] Recherche The Voice für Heinrich (SG)
+  [2 src] Reden mit Papa (PA)
+  [2 src] Reinigung Zahnputzutensilien, Hände waschen [LEAZHW]
+  [2 src] Reparatur Probe-Livestream (MU)
+  [2 src] Reparaturversuch Gartenschlauch (WF)
+  [2 src] Rest Betriebsausflug (BR) ~2 variants
+  [2 src] Reverse Engineering Playcard (MU)
+  [2 src] Reverse Engineering Yamaha Playcard (MU)
+  [2 src] Rückfahrt mit TIER-Scooter (FZ)
+  [2 src] Scan / Versand Theaterstück Ronald (VE)
+  [2 src] Scan / Wunsch Andon FM [RWMPSE]
+  [2 src] Scan 1. Seite KN-550 Registraturen (MU)
+  [2 src] Scan 88.6 Der Musiksender (RA) ~3 variants
+  [2 src] Scan Andon FM [RWMPSE] ~5 variants
+  [2 src] Scan Anthony Miles Livestream (RA)
+  [2 src] Scan Arabella Magic [RWRSMR]
+  [2 src] Scan Backlink Broadcast [RWMPMP] ~2 variants
+  [2 src] Scan BBC Radio 2 (RA)
+  [2 src] Scan div, Livestreams (RA)
+  [2 src] Scan div. Livestreams (RA)
+  [2 src] Scan div. Livestreams + Radiosender (RA)
+  [2 src] Scan div. Radioscans (RA)
+  [2 src] Scan div. Radioscans + Livestreams (RA)
+  [2 src] Scan div. Radiosender + Livestream (RA)
+  [2 src] Scan div. Radiosender + Livestreams (RA)
+  [2 src] Scan div. Radiosender + Streams (RA)
+  [2 src] Scan div. Radiosender / Livestream (RA)
+  [2 src] Scan div. Radiosender / Livestreams (RA)
+  [2 src] Scan div. Radiosender / Streams (RA)
+  [2 src] Scan div. Radiosender / Update Radiobewertung (RA)
+  [2 src] Scan div. Radiosender / Update Radiowertung (RA)
+  [2 src] Scan div. Radiosender u.a. (RA)
+  [2 src] Scan div.. Livestreams (RA)
+  [2 src] Scan Elsie Miles Livestream (RA)
+  [2 src] Scan Grok'n Roll [RWMPAR] ~9 variants
+  [2 src] Scan Hannah Dorman Livestream (RA)
+  [2 src] Scan I101 (RA)
+  [2 src] Scan i101 Radio [RWMPMP]
+  [2 src] Scan Inn-Salzach-Welle (RA)
+  [2 src] Scan Jack 2 Oxfordshire (RA)
+  [2 src] Scan Jason Lux / Hannah Dorman Livestreams (RA)
+  [2 src] Scan Jason Lux Livestream (RA)
+  [2 src] Scan Jivestream (RA)
+  [2 src] Scan Livestream Jason Lux / Hannah Doman (RA)
+  [2 src] Scan Livestreams Jason Lux / Hannah Dorman (RA)
+  [2 src] Scan Marcia & Marc Livestream (RW)
+  [2 src] Scan Mark Dennison Livestream [RWMPMP] (RW)
+  [2 src] Scan OE24 Radio [RWRSMR]
+  [2 src] Scan OpenAIR [RWMPMP] ~8 variants
+  [2 src] Scan Radio Arabella / Bearb. Playlist [RWMPMP]
+  [2 src] Scan Radio Burgenland (RA)
+  [2 src] Scan Radio Plattenkiste + Livestreams (RA)
+  [2 src] Scan Radio Plattenkiste / Jivestream (RA)
+  [2 src] Scan Radio Plattenkiste / Livestreams (RA)
+  [2 src] Scan Radio Plattenkiste Faschingsparty (RA)
+  [2 src] Scan Radio PM Events [RWMPAR] ~2 variants
+  [2 src] Scan Radio Salzburg (RA)
+  [2 src] Scan Radio Salzburg / Jason Lux (RA)
+  [2 src] Scan Radio Wien + Livestream J. Lux (RA)
+  [2 src] Scan ROck Antenne Österreich [RWRSMR]
+  [2 src] Scan RW KI [RWYTPL]
+  [2 src] Scan Spiel der Bosse Teil 2 (VE)
+  [2 src] Scan Stadtradio 1 [RWMPMP]
+  [2 src] Scan Stadtradio Krems [RWMPAR] (RA)
+  [2 src] Scan Sunny Black Livestream (RA)
+  [2 src] Scan Technikum City (RA)
+  [2 src] Scan Terry Miles / Sunny Black Livestreams (RA)
+  [2 src] Scan Terry Miles Livestream (RA)
+  [2 src] Scan The Jive Aces Livestream (RA)
+  [2 src] Scan The Jive Aces Livestream u.a. (RA)
+  [2 src] Scan Theaterstück Kurti-Opa (VE)
+  [2 src] Scan Theaterstück Spiel der Bosse Teil 1 (VE)
+  [2 src] Scan Thinking Frequencies [RWMPMP] ~4 variants
+  [2 src] Schlauch anschließen (WF)
+  [2 src] Scooterfahrt zu SCN / AKH (FZ) ~2 variants
+  [2 src] Scootersuche (FZ) ~22 variants
+  [2 src] Scootersuche / -beobachtung (FZ)
+  [2 src] Scootersuche / -fahrt (FZ) ~7 variants
+  [2 src] Scootersuche / -geradestellung (FZ)
+  [2 src] Scootersuche / aufstellen (FZ)
+  [2 src] Scootersuche / Suche neuer Kebapstand (FZ)
+  [2 src] Scootersuche 1P (FZ)
+  [2 src] Serie von Singabenden bei Andrea Woloch, bei denen sämtliche schon gesungenen Lieder neu aufgenommen werden (VE)
+  [2 src] Sicherung MRT-Bilder von CD (IN)
+  [2 src] Soja-Drink fassen [LEMTTW] ~3 variants
+  [2 src] Sortieren Papiere TFC (RW)
+  [2 src] Spaziergang (GE)
+  [2 src] Speccy Amazon Women (CS)
+  [2 src] Spielen Evony - The King's Return [CSGAUM]
+  [2 src] Spielen Forge of Empires [CSGAUM]
+  [2 src] Spielen Kreuzungs-FGPA ~15 variants
+  [2 src] Spielen Taonga Island Farm [CSGAUM]
+  [2 src] Sprachnachrichten an Judith (PA)
+  [2 src] Sprachnachrichten Judith (PA)
+  [2 src] SSD-Check (PC)
+  [2 src] Starten Youtube-Playlist [MUOWSP]
+  [2 src] Stella Alligator people (CS) ~2 variants
+  [2 src] Stella Kung Fu Master (CS)
+  [2 src] Stella Oystron (CS) ~2 variants
+  [2 src] Stella Smurf (CS) ~2 variants
+  [2 src] Suche / Aufrichten Tier-Scooter (FZ)
+  [2 src] Suche / Fahrt LINK-Scooter (FZ) ~2 variants
+  [2 src] Suche / Testfahrt Link-Scooter (FZ) ~2 variants
+  [2 src] Suche Bankkarte Papa (PA)
+  [2 src] Suche Entsafter (PA)
+  [2 src] Suche Gartenwege (FZ)
+  [2 src] Suche Kopfhörerkabel (MU)
+  [2 src] Suche Musikwunsch für Plattenkiste [RAMWSP]
+  [2 src] Suche verlorenes Handy (FZ)
+  [2 src] Surfen / Posting AtariAge (CS)
+  [2 src] Surfen / Scan Andon FM [RWMPAR]
+  [2 src] Surfen Andon FM [RWYTPL] ~21 variants
+  [2 src] Surfen Google MAps (FZ) ~12 variants
+  [2 src] Surfen Google Maps Bad Ischl (IN)
+  [2 src] Surfen Kinderfahrzeuge (FZ) ~2 variants
+  [2 src] Surfen Scootermaps u.a. (FZ)
+  [2 src] Surfen Sharonimo (FZ)
+  [2 src] Surfen Verkehrslage (FZ)
+  [2 src] Tausch Glühbirne Vorzimmer (WF)
+  [2 src] Tee fassen [LENATW] ~16 variants
+  [2 src] Tee zubereiten [LENAJA] ~2 variants
+  [2 src] Teilnahme an falschem Faschingsgschnas (BR)
+  [2 src] Telefonat Andrea (VE) ~2 variants
+  [2 src] Telefonat mit Renate (LE) ~2 variants
+  [2 src] Telefonate Franzi / Andrea / Papa Ahnenforschung (VE)
+  [2 src] Teleworking (BR) ~5 variants
+  [2 src] Teller waschen [LENATW] ~3 variants
+  [2 src] Teller waschen / Getränk + Biovital fassen [LENATW]
+  [2 src] Teller waschen / Granatapfelsaft fassen [LEMTTW]
+  [2 src] Test neue Lime-Scooter / Heimfahrt mit Link-Scooter (FZ)
+  [2 src] Test Youtube-Streaming (MU)
+  [2 src] Texten Sing me brunshine (MU)
+  [2 src] Themen für Mittagessen (KS)
+  [2 src] Treffen mit Hausbesorger (WF)
+  [2 src] Uhren stellen (WF)
+  [2 src] Uhren umstellen (WF)
+  [2 src] Unterstützung Papa (PA) ~2 variants
+  [2 src] Unterstützung Papa Corona-Impfung-Vormerkung (PA)
+  [2 src] Unterstützung Papa Covid-19-Impfung (PA)
+  [2 src] Unterstützung Papa Handy (PA)
+  [2 src] Unterstützung Papa Winamp (PA)
+  [2 src] Untersuchung Aufwand RW-Prg. (RW)
+  [2 src] Untersuchung Börsenkurse (FI)
+  [2 src] Untersuchung der Prioritätenliste (KS)
+  [2 src] Untersuchung Hörwerte für Radio-Würmchen-Programm Kurt+Papa (RW)
+  [2 src] Untersuchung Papa 2. Corona-Teilimpfung (PA)
+  [2 src] Untersuchung Planung (KS)
+  [2 src] Untersuchung Playcard-Format (MU)
+  [2 src] Untersuchung Pole Position Track Data (CS)
+  [2 src] Untersuchung Rentabilität Tagespässe (FZ)
+  [2 src] Untersuchung Tonträger-Überschneidung mit Files (RW)
+  [2 src] Update Essensplan (LE) ~3 variants
+  [2 src] Update Personenliste aus Rücklauf von Einladungen Begräbnis [PAPERL]
+  [2 src] Update Personenliste aus Rücklauf von Einladungen für House Cooling Party [PAPERL]
+  [2 src] Update RW-Programm (RW)
+  [2 src] Update RW-Wertungsfaktoren (RW)
+  [2 src] Update Wertungsfaktoren (RW)
+  [2 src] Vatertagskonzert (MU)
+  [2 src] Verbesserung RW-Prg. (RW) ~2 variants
+  [2 src] Versand Scans Dokumente Opa (VE)
+  [2 src] Versand Theaterstück an Verwandte (VE)
+  [2 src] Versand Theaterstück+Liste an Verwandte (VE)
+  [2 src] verstärkte Taxifahrten (FZ)
+  [2 src] Versuch Anmeldung Kreditkarte 3D Secure (FZ)
+  [2 src] Versuch Druckerrepatatur (PC)
+  [2 src] Versuch Fahrt TIER-Scooter / Entsperren 3D Secure Zahlung (FZ)
+  [2 src] Versuch Reg. 3D Secure Kreditkartenzahlung (FZ)
+  [2 src] VG5000 Tortues (CS) ~2 variants
+  [2 src] VICE Action Fighter (CS) ~2 variants
+  [2 src] VICE Airwolf (CS) ~2 variants
+  [2 src] VICE Amazon Women (CS) ~20 variants
+  [2 src] VICE Aquantor (CS)
+  [2 src] VICE C-64 Juice (CS) ~2 variants
+  [2 src] VICE Joust (CS)
+  [2 src] VICE Lode Runner (CS)
+  [2 src] VICE Space-Pilot (CS)
+  [2 src] VICE Space-Pilot II (CS) ~2 variants
+  [2 src] VICE Super Pipeline (CS) ~2 variants
+  [2 src] Vorbereitung Besuch Dr. Hariri [GEMRNA] (GE)
+  [2 src] Vorbereitung Christbaumverabschiedung (MU)
+  [2 src] Vorbereitung Dokumente für Andrea u.a. (VE)
+  [2 src] Vorbereitung Geburtstagsfeier [PAVEGF] ~5 variants
+  [2 src] Vorbereitung Livestream (MU)
+  [2 src] Vorbereitung Mittagessen (LE)
+  [2 src] Vorbereitung Nachtmahl [LENANA]
+  [2 src] Vorbereitung Youtube-Livestream (MU)
+  [2 src] Vorbereitung Youtube-Videos (RW)
+  [2 src] Vorbereitung zu scannende Unterlagen (VE)
+  [2 src] Vorbereitung Zähne putzen [LEAZVZ]
+  [2 src] Vorführung / Ausprobieren Luftmatratze (FZ)
+  [2 src] Wasser fassen [LEMEGA] ~6 variants
+  [2 src] WC / Windeltest [LEMTWC] ~2 variants
+  [2 src] Wechsel Glühbirne Kabinett (WF)
+  [2 src] Wechsel Leuchtmittel WC / Inventur Leuchtmittel (WF)
+  [2 src] Weiteren Tee fassen [LEMTTW] ~8 variants
+  [2 src] Weiterentwicklung Checklisten (KS)
+  [2 src] weiterer Tee fassen [LEMTTW] ~3 variants
+  [2 src] Wertungserfassung 88.6 (RA)
+  [2 src] Wiederveranlagung Geld auf Girokonto [FIANWG] (FI)
+  [2 src] Windeltest (FZ) ~4 variants
+  [2 src] Wunsch Jason Lux (RA)
+  [2 src] Wunsch Musikwelle (RA) ~2 variants
+  [2 src] Wunsch nach Wunschbox (RA) ~2 variants
+  [2 src] Wunsch Plattenkiste (RA)
+  [2 src] Wunsch Radio Plattenkiste (RA)
+  [2 src] Wunsch Wunschbox Musikwelle (RA)
+  [2 src] Wunschabgabe ISW (RA)
+  [2 src] Wunschabgabe Musikwelle (RA)
+  [2 src] Wunschanruf Plattenkiste (RA)
+  [2 src] Wunschaufgabe Musikwelle (RA)
+  [2 src] Wunschmail an Plattenkiste (RA)
+  [2 src] Wunschmail an Radio Plattenkiste (RA)
+  [2 src] Wunschmail DX-Wunschkonzert (RA)
+  [2 src] Wunschmail für Samstag-Abend Wunschkonzert [RAMWWW]
+  [2 src] Wunschmail Plattenkiste (RA)
+  [2 src] Wässerung Tröge mit Schlauch (WF)
+  [2 src] Zubereitung Fischstäbchen [LENANA]
+  [2 src] Zubereitung Mittagessen [LEMEME] ~14 variants
+  [2 src] Zubereitung Nachtmahl [LENANA] ~11 variants
+  [2 src] Zubereitung Tee [LEMTTW] ~2 variants
+  [2 src] Zusammenstellung CD Papa (PA)
+  [2 src] Zusammenstellung Einkaufsliste für Ströck
+  [2 src] Zusammenstellung Programm Papa's Feier (MU)
+  [2 src] Zusammenstellung Repertoireliste Jive Aces (RA)
+  [2 src] Zusenden CURL-Aufruf an BRZ (MU)
+  [2 src] Zähne fluoridieren [LEAZZF]
+  [2 src] Überarbeitung Übersetzung The very big picture (BR)
+  [2 src] Übersetzen TVBP (BR)
+  [2 src] Übersetzung The very big picture (BR)
+  [2 src] Übersetzung TVBP (BR)
+  [2 src] Übersiedeln (Mitteilung Adresswechsel) [WFUZUS]
+  [2 src] Überweisung Kirchenbeitrag / Pirni (RA)
+
+=======================================================
+TIER 2 - Defined Tasks (475)
+=======================================================
+
+  -1 (from: window_logger_vb5)
+  0,25 (from: window_logger_vb5)
+  0,5 (from: window_logger_vb5)
+  1 (from: window_logger_vb5)
+  30 Minuten sportliche Betätigung (Puls über 100) (from: kurtdoku)
+  Abendtoilette (from: access_Tab_Gewinnaktionen)
+  Abhalten BKDD Standup Meeting BRZ [BREPGM] (from: old_cs)
+  Adventsingen (from: access_Tab_Gewinnaktionen)
+  Aktienuntersuchung und -umschichtung (from: taskliste)
+  Aktualisieren Finanzabrechnung (from: taskliste)
+  Aktualisierung der Wohnungsinventur (from: taskliste)
+  alle Finanzunterlagen aus Stoß auf Finanzstoß sortieren (from: kurtdoku)
+  Alle Gewinnanteile zu Versicherungen in Masterzettel übertragen (from: kurtdoku)
+  Alle herausgenommenen Papiere wieder in Timer und andere Mappen einordnen (from: kurtdoku)
+  alle herumliegenden Papiere auf Stoß werfen (from: kurtdoku)
+  alle PSK-Kontoauszüge aus Finanzstoß auf PSK-Stoß sortieren (from: kurtdoku)
+  alle Unterlagen zu Bausparverträgen in Bausparmappe einordnen (from: kurtdoku)
+  alle Unterlagen zu Versicherungen aus Finanzstoß auf Versicherungsstoß sortieren (from: kurtdoku)
+  alle Unterlagen zu Wertpapierdepot in Wertpapiermappe einordnen (from: kurtdoku)
+  Am Monatsersten Sparkarte mitnehmen (from: kurtdoku)
+  Anfrage an S-Bausparkasse wg. alten Beraterunterlagen von Mama und Papa (?) (from: old_cs)
+  Anhören eigene Tonträger (from: window_logger_vb5)
+  Anhören Ö1-Sendungen (from: window_logger_vb5)
+  Anlagewerte ermitteln, die unter ihrer Benchmark liegen (die für ihre Laufzeit zu geringen Ertrag haben) (from: kurtdoku)
+  Annahme Facebook-Requests (from: window_logger_vb5)
+  Anpassung Dokumentationen an neue KS-Struktur (from: taskliste)
+  Anschaffung eines neuen Akkus für das E-Quad (from: access_Tab_Gewinnaktionen)
+  Anschaffung eines RAID-Controllers (from: access_Tab_Wuensche)
+  Ansehen Livestreams von Musikern auf Twitch und Youtube (Mario Accordion, Chris Konz) (from: taskliste)
+  Ansehen und Eingabe der von Papa bekommenen Videokassetten (from: taskliste)
+  Ansehen Youtube-Videos (the Lamb) [RAYTTL] (from: old_cs)
+  Ansehen Youtube-Videos über Elektrofahrzeuge (from: access_Tab_Gewinnaktionen)
+  Antwort Pirni [RAMAPI] (from: old_cs)
+  Antwort W. Adams (Lyrics) (from: taskliste)
+  Arbeit im Bundesrechenzentrum (from: access_Tab_Gewinnaktionen)
+  Arbeitszeit absolvieren (siehe Dokumentation BRZG) (from: kurtdoku)
+  Arztbesuch (from: kurtdoku)
+  Aufarbeitung alter Mails (from: taskliste)
+  Aufbereitung Dokumentation Ende 2020 für Bernhard (from: taskliste)
+  Auflistung Ordner im Wohnzimmer (from: old_cs)
+  Auflistung Papierstöße (from: old_cs)
+  Aufnahme Katzenpeter geht und geht, Put in you, Was wird aus mir... (from: taskliste)
+  Aufnahme Life on Miles (from: taskliste)
+  Aufruf um Geldspende für WhyT / Net4u (from: access_Tab_Wuensche)
+  Aufräumen und Reinigungstätigkeiten (from: taskliste)
+  Aufräumen Unterlagen Termin Corona-Test / AKH-Ambulanz / Gurgeltest (from: taskliste)
+  Aufstehen (bekannt) (from: kurtdoku)
+  Aufsuchen eines Psychologen (from: access_Tab_Wuensche)
+  Auftritt als Live-Musiker mit Keyboard (Schnitt) (from: access_Tab_Gewinnaktionen)
+  Auftritt Robert (from: access_Tab_Gewinnaktionen)
+  Aufwandserfassung (60' pro Tag von insgesamt ', ab 4.12.2022 nachzuholen) (from: taskliste)
+  aus der großen Börse mindestens 50 Euro in die kleine Börse transferieren (from: kurtdoku)
+  Aus Restlaufzeiten und Renditen für jeden Anlagewert Ertrag pro Jahr berechnen (from: kurtdoku)
+  Ausborgen E-Rad (from: access_Tab_Gewinnaktionen)
+  Ausborgen E-Roller (from: access_Tab_Gewinnaktionen)
+  Ausborgen Segway (Praterstern) (from: access_Tab_Gewinnaktionen)
+  Ausborgen von Karaoke-CD's für eine Einlage bei einer Party am 16.5.2007 (from: access_Tab_Wuensche)
+  ausfährliche Mail an Renate wg. langem Telefonat (siehe Themen) (from: old_cs)
+  ausführliche Inventarüberprüfung (ganze Wohnung) (from: access_Tab_Gewinnaktionen)
+  Ausmachen Termin Kontrolle Zahnarzt (from: yaml_exceptions)
+  Ausmisten Wohnungsunterlagen Papa (Rechnungen nur 10 Jahre lang aufheben) (60', Pri. 1,8) (from: old_cs)
+  Aussortieren weiterer Hausrat (from: old_cs)
+  Auswertung Blutdruckliste (Dr. Hariri) (from: yaml_exceptions)
+  Auswertung Gesundenuntersuchung (Dr. Hariri) (from: yaml_exceptions)
+  Außentemperatur prüfen (bekannt) (from: kurtdoku)
+  Baden gehen (from: access_Tab_Wuensche)
+  Baden gehen (bei heißem Wetter) (from: access_Tab_Gewinnaktionen)
+  Baden gehen (bei Schönwetter) (from: access_Tab_Gewinnaktionen)
+  Beantwortung Mail Robert Wehofer (from: taskliste)
+  Bearb. 88.6-Wertungen und -Postings (from: taskliste)
+  Bearb. Antrittsbericht Erw.vertretung Papa (from: windowlog_corrector)
+  Bearb. Essensplan (Aufwertung nicht gekommene) [LEEPAN] (from: old_cs)
+  Bearb. Essensplan (Lebensmittel ohne forcierte Preise) [LEEPFP] (from: old_cs)
+  Bearb. Ohrwürmer (Charts) [RWOWCH] (from: old_cs)
+  Bearb. Skripts (from: window_logger_vb5)
+  Bearb.Ohrwürmer (durchzunehmende aus Charts) [RWOWDC] (from: old_cs)
+  Bearb.Ohrwürmer (durchzunehmende aus Liste) [RWOWDL] (from: old_cs)
+  Bearb.Ohrwürmer (durchzunehmende) [RWOWDN] (from: old_cs)
+  Bearb.Ohrwürmer(Charts) [RWOMCH] (from: old_cs)
+  Bearbeitung der Essensdatenbank (from: access_Tab_Gewinnaktionen)
+  Bearbeitung fällige Finanzpapiere (from: taskliste)
+  Befundbesprechung AKH (Neurochirurgische Ambulanz) (from: yaml_exceptions)
+  Beginn eines eigenen Livestreams mit Live-Musik (from: taskliste)
+  Benchmark-Werte berechnen (welche neu abschließbaren Anlagen haben zu Laufzeit besten Ertrag?) (from: kurtdoku)
+  Bereinigung nicht vorhandene / doppelte Titel in Ähnlichkeitsdatenbank (from: taskliste)
+  Bereinigung Papa's Mails (Abmelden aller Newsletter, Löschen aller Mails) (from: old_cs)
+  Bescheid über Freibetrag in der Arbeit abgeben (from: kurtdoku)
+  Bescherung (Heiliger Abend) (from: access_Tab_Gewinnaktionen)
+  Beschriftung Handybilder (from: taskliste)
+  Besuch Ampera-Treffen (bis 1/2013 abgerechnet) (from: access_Tab_Gewinnaktionen)
+  Besuch Andrea / Franzi (mit Singen) (from: access_Tab_Gewinnaktionen)
+  Besuch Beer and Songs (nach 1. Besuch) (from: access_Tab_Gewinnaktionen)
+  Besuch Bier&Brot Karaoke (Stand 28.2.2015) (from: access_Tab_Gewinnaktionen)
+  Besuch Bierpub Remi Demi (Vorkalk.) (from: access_Tab_Gewinnaktionen)
+  Besuch des Favoritner Kultur-Kellers mit Live-Karaoke am 12.7.2007 (eventuell unter Nichtausnutzung des günstigen Wegs) (from: access_Tab_Wuensche)
+  Besuch des TI-99-Treffens (abgerechnet bis März 2014) (from: access_Tab_Gewinnaktionen)
+  Besuch diverser Mitarbeiterevents (Schätzung) (from: access_Tab_Gewinnaktionen)
+  Besuch Donauinselfest (from: access_Tab_Gewinnaktionen)
+  Besuch Edmund Herzig (from: access_Tab_Gewinnaktionen)
+  Besuch Erich's Karaoke (14. Bezirk) (from: access_Tab_Gewinnaktionen)
+  Besuch Erich's Karaoke (22. Bezirk) (from: access_Tab_Gewinnaktionen)
+  Besuch Erich's Karaoke (Prater) (aktuell) (from: access_Tab_Gewinnaktionen)
+  Besuch Geburtstagsfeier Erwin's Schwestern (from: access_Tab_Gewinnaktionen)
+  Besuch Gerro's Karaoke und Musikclub (Vorkalk.) (Einpack. 19:35) (from: access_Tab_Gewinnaktionen)
+  Besuch Goleador (neuer Name) (from: access_Tab_Gewinnaktionen)
+  Besuch Jonas-Karaoke (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke (abgerissenes!) Cantina Loco (Donauinsel) (bei Schönwetter) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Babuder's (Vorkalk.) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Club Fragezeichen (Nachkalk. 29.2.2012) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Do bin i do bleib i (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Exzess (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Favoritner Kultur-Keller (Di.) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke im SOHO 3 (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Inseltreff Barbados (Vorkalkulation) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Kais Asian Food (Gürtel) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Kistlalm (Vorkalkulation) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Lemmon (Wochenende) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Mai Kai (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke MAYA (Vorkalkulation) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Reginas (Vorkalk.) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Ro:ses (Vorkalkulation) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Rotunde (nach 1.8.2014) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Schutzhaus (Stand 10.3.2012) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Sing your song (Eschenbachg.) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke SOHO 1 (Millenium Tower) (Einpacken 19:00) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Strebersdorfer Platz'l (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Subway (19:50 Beginn Einpacken) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Sue & Laune (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Suppentopf (laut div. Nachkalk. komplett) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Sylvesterpfad (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Thego (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Tivoli (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Unikat (Nachkalk. 17.2.2011) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke Zum Wahnsinn (Vorkalk.) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke-Club (Cafe Kriemhild) (from: access_Tab_Gewinnaktionen)
+  Besuch Karaoke4You (nach 1. Besuch) (from: access_Tab_Gewinnaktionen)
+  Besuch Liederabend Kagraner Platz (from: access_Tab_Gewinnaktionen)
+  Besuch Live-Karaoke Favoritner Kultur-Keller (from: access_Tab_Gewinnaktionen)
+  Besuch Nan (Vorkalk.) (from: access_Tab_Gewinnaktionen)
+  Besuch Nico's Karaoke (from: access_Tab_Gewinnaktionen)
+  Besuch Randy's Karaoke (aktuell) (from: access_Tab_Gewinnaktionen)
+  Besuch Rockpub (from: access_Tab_Gewinnaktionen)
+  Besuch Terrassencafe Erdberg (from: access_Tab_Gewinnaktionen)
+  Besuch von Christkindlmärkten (from: access_Tab_Gewinnaktionen)
+  Besuch von Spielwarengeschäften (from: access_Tab_Gewinnaktionen)
+  Besuch von Theaterstück in Volksheim (from: access_Tab_Wuensche)
+  Besuch von Weihnachtsausstellungen (from: access_Tab_Gewinnaktionen)
+  Besuch Weihnachtsausstellung (Rathaus) (from: access_Tab_Gewinnaktionen)
+  Besuch Weihnachtskonzert (from: access_Tab_Gewinnaktionen)
+  Bett machen (bekannt) (from: kurtdoku)
+  Blutdruck messen (Forderung von Renate) [GEBMBM] (from: old_cs)
+  Chat in MSN Messenger (from: window_logger_vb5)
+  Checkliste Abendzeremonie (from: kurtdoku)
+  Checkliste Apothekengang (from: kurtdoku)
+  Checkliste Arztbesuch (from: kurtdoku)
+  Checkliste bei Fortgehen (from: kurtdoku)
+  Checkliste Bewegung (from: kurtdoku)
+  Checkliste Ein Mitbringsel versorgen (from: kurtdoku)
+  Checkliste Freizeit (from: kurtdoku)
+  Checkliste Geldprüfung (from: kurtdoku)
+  Checkliste Hausarbeit (from: kurtdoku)
+  Checkliste Heimkunft (from: kurtdoku)
+  Checkliste Morgen (from: kurtdoku)
+  Checkliste Nachmittag/Abend (from: kurtdoku)
+  Checkliste Untertags (from: kurtdoku)
+  Datensicherung (inkl. H:\Daten\Radio Würmchen\WAV's!) (from: access_Tab_Gewinnaktionen)
+  Datensicherung PC (from: taskliste)
+  der Außentemparatur entsprechend anziehen, evtl. Wäsche wechseln (bekannt) (from: kurtdoku)
+  Disposition über getestete, abzugebende Dinge aus meinem Keller [RWREVK] (from: old_cs)
+  div. Computerspiele (from: window_logger_vb5)
+  Div. HP-Aufgaben (from: window_logger_vb5)
+  Dokumentation des PC-Wechsels Sommer 2021 (from: taskliste)
+  Dokumentation Meine Anwendungen und ich Teil 2 (from: taskliste)
+  Durchführung anfallender Dokumentationen (from: access_Tab_Gewinnaktionen)
+  Durchgehen des Liste der offenen Punkte (from: kurtdoku)
+  Eingabe der Radioscans (from: access_Tab_Gewinnaktionen)
+  Einkauf (?) [LEEKBI] (from: old_cs)
+  Einkauf (BILLA Ederg.) / Laufen [LEEKBI] (from: csv)
+  Einkaufszettel erstellen (from: kurtdoku)
+  Einladung meiner Eltern zum Essen zu meinem Geburtstag (from: access_Tab_Wuensche)
+  Einladung zu einer Familienfeier (durch Papa) (from: access_Tab_Wuensche)
+  Einladung zu Martha's Geburtstagsfeier in Laxenburg am 24.8.2007 (from: access_Tab_Wuensche)
+  Einordnen Vertragsinformationen zu Versicherungen (from: taskliste)
+  Einpacken Blutdruckmeßgerät, evtl. Befunde für Dr. Hariri (from: yaml_exceptions)
+  Einpacken für Nachbarschaftsfest (from: yaml_exceptions)
+  Einstellung der Dokumentationen (from: access_Tab_Wuensche)
+  Einstellung der Essensdatenbank (from: access_Tab_Wuensche)
+  Eintragen noch nie aufgeführter Titel in Probenplan (from: taskliste)
+  Einziehung des Videos über das Teambuilding-Seminar im BRZ von YouTube (from: access_Tab_Wuensche)
+  Einüben neuer Keyboard-Titel (from: taskliste)
+  Entwicklung Status-Dashboard (Ampel) (from: taskliste)
+  Ergänzung Lebensdokumentation um Ordnung der gesundheitsrelevanten Unterlagen (from: taskliste)
+  Ergänzung Personendatenbank um Daten aus Kandidatenliste für Klassentreffen 2023 (sofern aktuell) (from: old_cs)
+  Erträge zusammenzählen und Prozentwert über alle Anlagen zusammen berechnen (from: kurtdoku)
+  etwas zum Muttertag unternehmen (from: access_Tab_Wuensche)
+  Eventuelle Medikamente nehmen (from: kurtdoku)
+  Evtl. Medikament nehmen (from: kurtdoku)
+  evtl. Medikamente nehmen [GEMNMN] (from: old_cs)
+  Experiment mit Spielzeugbuggy (from: access_Tab_Gewinnaktionen)
+  Experimente mit Lego-Loks (from: access_Tab_Gewinnaktionen)
+  externe Karaoke-Veranstaltung (bei € 230 Gage) (from: access_Tab_Gewinnaktionen)
+  Fahrt Li'l Motorized Beamer (from: access_Tab_Gewinnaktionen)
+  Fahrt mit ferngesteuertem Auto (Stand 22.9.2010) (from: access_Tab_Gewinnaktionen)
+  Fahrt mit RC-Gabelstapler (from: access_Tab_Gewinnaktionen)
+  Fahrt von AKH ins BRZ (from: yaml_exceptions)
+  Fahrt zu Befundbesprechung AKH (Neurochirurgische Ambulanz) (from: yaml_exceptions)
+  Fahrt zu Klassentreffen (Brendl) (from: yaml_exceptions)
+  Fahrt zu Nachbarschaftsfest (from: yaml_exceptions)
+  Fernsehen (from: access_Tab_Gewinnaktionen)
+  Finanzanlagendatenbank auf D-Platte sichern (from: kurtdoku)
+  Finanzanlagenstand ausdrucken, lochen und in Timer einheften (from: kurtdoku)
+  Finanzausgleichsformular ausfüllen und unterschreiben (from: kurtdoku)
+  Finanzausgleichsformular zu Finanzamt bringen (from: kurtdoku)
+  Finanzierung eines Lokals, das Tina eröffnen will (from: access_Tab_Wuensche)
+  Formular für Finanzausgleich besorgen oder aus Internet ausdrucken (from: kurtdoku)
+  Formularbearbeitung (from: window_logger_vb5)
+  Formulartest (from: window_logger_vb5)
+  Fortsetzung bzw. Aktualisierung Wohnungsinventur (from: taskliste)
+  Fortsetzung eventuell unterbrochener Projekte (from: kurtdoku)
+  Friseursbesuch (from: access_Tab_Gewinnaktionen)
+  Funktionstest div. Kopfhörer (10') [RWARTE] (from: old_cs)
+  Funktionstest div. Mäuse (10') [PCARTA] (from: old_cs)
+  Funktionstest div. Tastaturen (10') [PCARTA] (from: old_cs)
+  Für alle Anlagewerte Restlaufzeit und Rendite berechnen und in aktuelle Abrechnung schreiben (from: kurtdoku)
+  Für Finanzausgleich relevante Unterlagen zusammensammeln (from: kurtdoku)
+  Geb.feier Erwin (from: access_Tab_Gewinnaktionen)
+  Geschirr (from: window_logger_vb5)
+  Gesundenuntersuchung (7:30) (from: yaml_exceptions)
+  Gesundheit prüfen (from: kurtdoku)
+  Getränk am Lagerfeuer mit Christian Rolly (from: access_Tab_Wuensche)
+  Getränk am Lagerfeuer mit Christian Rolly (. Peter Kremmel u.a.) (from: taskliste)
+  Getränk am Lagerfeuer, EInladung für Johnny Hanousek, Georg Richter, Erwin WOloch (?), CHristian Rolly, Alexander Pernold, Sabina Schuneritz, Gerry Milton, Alois Deutsch, Sigrid Schweinhammer (?), siehe https://www.facebook.com/kurt.woloch/posts/10159510369753413?comment_id=10159525908668413 (from: taskliste)
+  Gewinnanteilsbenachrichtigungen in Versicherungsmappe einordnen (from: kurtdoku)
+  Hack Mangia (Tarantella) (from: taskliste)
+  Hausarzt anrufen (from: kurtdoku)
+  Heim gehen (from: kurtdoku)
+  Heimfahrt von der Firma (from: kurtdoku)
+  Heimfahrt von Klassentreffen (from: yaml_exceptions)
+  Heimfahrt von Nachbarschaftsfest Seestadt (from: yaml_exceptions)
+  Heimkaraoke (wenn von Papa gewünscht) (from: access_Tab_Gewinnaktionen)
+  Heimkaraoke ohne Papa (?!) (nach Klärung, wie dies noch stattfinden könnte) (from: taskliste)
+  Heimweg vom Franz-Jonas-Platz zu Fuß (from: access_Tab_Gewinnaktionen)
+  Herunterfahren, Einpacken, Anziehen [BRALAB] (from: csv)
+  Hineinstellen Computerzeitschriften auf Willhaben.at (um Platz zu schaffen) [WFRECS] (from: old_cs)
+  im Kalender bei aktuellem Datum „Geldnachbeschaffung“ notieren (from: kurtdoku)
+  in die Firma fahren (from: kurtdoku)
+  Information weiterer Firmen, die mit Papa in Kontakt sind, über Tod (mit Einantwortungs- und Sterbeurkunde) (from: old_cs)
+  Inventurprüfung Keller (from: access_Tab_Gewinnaktionen)
+  Jause essen (from: kurtdoku)
+  jeweils 10 Minuten vor der vollen Stunde 10 Minuten Pause machen (from: kurtdoku)
+  JS99 (from: windowlog_corrector)
+  Kalender lokalisieren (from: kurtdoku)
+  Karaoke-Version von "Just like that" (tiefer) (from: taskliste)
+  Karaoke-VIdeos Johnny Blue, Ein bißchen Frieden (from: taskliste)
+  Kauf eines neuen Spielzeugfahrzeuges (from: access_Tab_Gewinnaktionen)
+  Keyboard-Übungen (from: access_Tab_Gewinnaktionen)
+  Klassentreffen (Brendl) (from: yaml_exceptions)
+  Kleidungsinventur (from: kurtdoku)
+  kommentiertes Disassembly / Hackversuch Pole Position (C-64) (?) (from: taskliste)
+  Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung [PAWFAF] (from: csv)
+  Konsolidierung Orange-Ordner (from: taskliste)
+  Kontoauszugsmappe auf Platz geben (from: kurtdoku)
+  Kontrolle Augenarzt (Dr. Graziadei) (9:00) (from: yaml_exceptions)
+  Kontrolle Augenarzt (Dr. Graziadei) (9:10) (from: yaml_exceptions)
+  Korrektur der Radioscans in der Radio-Würmchen-Datenbank (from: access_Tab_Gewinnaktionen)
+  Korrektur The Grindy Adventure Kap. (from: old_cs)
+  Kurt soll "Über 7 Brücken mußt Du geh'n" singen (from: access_Tab_Wuensche)
+  Kurt soll sich mit Windows Movie Maker beschäftigen (from: access_Tab_Wuensche)
+  Kurt soll sich mit YouTube beschäftigen (from: access_Tab_Wuensche)
+  Kurt soll von zu Hause ausziehen (from: access_Tab_Wuensche)
+  Kurt und Elfi sollen "A whole new world" singen (from: access_Tab_Wuensche)
+  Kurt+Elfi solle "Endless love" singen (from: access_Tab_Wuensche)
+  langsame Loslösung von den Eltern (statt schnelle) (from: access_Tab_Wuensche)
+  Laufen (Dixi-WC Ruthnergasse) [GEGYLD] (from: yaml_exceptions)
+  Laufen (Dixi-WC Siemensstraße) [GEGYLD] (from: old_cs)
+  Laufen (nach Augenarzt) (from: yaml_exceptions)
+  Liquidierung des Orange-Kontos und Konsolidierung der Ordner (from: access_Tab_Gewinnaktionen)
+  Liste der offenen Punkte durchgehen (from: kurtdoku)
+  Locher auf Platz geben (from: kurtdoku)
+  lose Kontoauszüge zu Wertpapierdepot in Kuverts einordnen (from: kurtdoku)
+  Lüftung Wohnung (from: kurtdoku)
+  Mail an Justin (ClearSwipe) (30') (from: taskliste)
+  Mailantwort an Bernd Seiser [RAMABS] (from: old_cs)
+  Mailbearbeitung (60' pro Tag an freien Tagen von insgesamt ', ab 14.12.2022 nachzuholen) (from: taskliste)
+  Mailbearbeitung Papa (Abspeichern Ausgangsmail) (from: old_cs)
+  Mapping Kersti in Magellan (from: taskliste)
+  Medikament entgegennehmen und bezahlen (from: kurtdoku)
+  Mittag essen (from: kurtdoku)
+  Morgentoilette/Frühstück (from: access_Tab_Gewinnaktionen)
+  Nachbarschaftsfest Seestadt inkl. Auf- und Abbau (from: yaml_exceptions)
+  Nachbereitung House Warming Party (Sprachnachricht an Judith) [PAWFAF] (from: old_cs)
+  Nachbrennen Befund-CD von MRT-Untersuchung (bei nächster AKH-Befundbesprechung mitnehmen) (from: taskliste)
+  Nachladung der nicht verwendeten Akkus (from: access_Tab_Gewinnaktionen)
+  Nachladung nicht verwendeter Akkus (from: taskliste)
+  Neuaufnahme Schweinefilet / Nicht schlecht (from: taskliste)
+  Neubesprechung Anrufbeantworter Papa (from: old_cs)
+  Neueinspielungen vom Computer vorgeschlagener Titel (from: access_Tab_Gewinnaktionen)
+  Neueinspielungen von analogen Tonträgern (from: access_Tab_Gewinnaktionen)
+  Neuordnung der Prioritätsliste (from: taskliste)
+  Nichtbesuch bzw. Berücksichtigung der "Flaute" von Cafe Royal (from: access_Tab_Wuensche)
+  Ordination besuchen (from: kurtdoku)
+  PC herunterfahren und schlafen gehen. Gute Nacht! (from: kurtdoku)
+  Planung im BRZ [BREPGM] (from: old_cs)
+  Post in Postkasten ausheben (from: kurtdoku)
+  Produktion einer Radio-Würmchen-Sendung (from: access_Tab_Gewinnaktionen)
+  Produktion eines neuen Liedes "Bootsfahrt" (from: access_Tab_Wuensche)
+  Produktion eines Videos zu "Read 'em and weep" von Barry Manilow (from: access_Tab_Wuensche)
+  Produktion von Liedern für Papa (Geschenke) (from: access_Tab_Gewinnaktionen)
+  Projekt neues Keyboard (Einüben weiterer Titel) (from: access_Tab_Gewinnaktionen)
+  Prüfung auf auf der Heimfahrt zu erledigende Dinge (from: kurtdoku)
+  Prüfung auf in der Firma zu erledigende Dinge (from: kurtdoku)
+  Prüfung auf Lesestoff (from: kurtdoku)
+  Prüfung Kalender auf Termine (from: kurtdoku)
+  Prüfung Rückforderung Festnetzrechnung Papa (22.2. angerufen, 16.4. noch nicht eingetroffen) (from: taskliste)
+  Prüfung Strom- und Warmwasserechnungen (auch Papa) (from: taskliste)
+  Prüfung und Ausmachen Arzttermine (Gesundenuntersuchung, Zahnarzt, MRT) (from: taskliste)
+  Prüfung und Scannen der Computerspiel-Unterlagen (from: taskliste)
+  PSK-Kontoauszüge in Kontoauszugsmappe einordnen (from: kurtdoku)
+  PSK-Kontostand in Finanzanlagendatenbank eingeben (from: kurtdoku)
+  Radio hören (über Radio Würmchen-Limit im Schnitt) (from: access_Tab_Gewinnaktionen)
+  Radio-Würmchen-Datenbankkorrekturen / Einlistung neuer Tonträger (from: access_Tab_Gewinnaktionen)
+  Rasieren (bekannt) (from: kurtdoku)
+  Rasieren / Duschen (from: window_logger_vb5)
+  Rasieren, dabei Planung (C#-Programm) [LEMTRA] (from: old_cs)
+  Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) [LEMTRA] (from: csv)
+  Rasierer putzen (bekannt) (from: kurtdoku)
+  Reinigung oder Ersatz der Tastatur des PC (from: access_Tab_Wuensche)
+  Restfinanzstoß in Finanzordner einordnen (from: kurtdoku)
+  Rezept vorweisen (from: kurtdoku)
+  Rätselquiz auf Radio Krokofee (from: access_Tab_Gewinnaktionen)
+  Rückbau Nachbarschaftsfest Seestadt (from: yaml_exceptions)
+  Rückforderung OCT-Gebühr von Gesundheitskasse (from: taskliste)
+  Sammlung fällige Versicherungsunterlagen (from: taskliste)
+  Scan / Chat Jukebox-Heroes-Radio (from: window_logger_vb5)
+  Scan Doggo live (from: windowlog_corrector)
+  Scan Radio Plattenkiste (Samstag-Abend Wunschkonzert) [RWRSPD] (from: old_cs)
+  schnelle Inventarüberprüfung (ganze Wohnung) (from: access_Tab_Gewinnaktionen)
+  Schwimmen (im Hausbad) (from: access_Tab_Gewinnaktionen)
+  Sendung auf Radio-MFL (from: access_Tab_Gewinnaktionen)
+  Sendung Radio-is-music-for-life (from: window_logger_vb5)
+  Sicherung Bilder aus großer Karte von Digitalkamera (from: old_cs)
+  Sicherung Bilder aus kleiner Karte von Digitalkamera (from: old_cs)
+  Sicherung Bilder aus Papa's neuerem Handy (from: old_cs)
+  Sommerwäsche aus dem Kasten geben (from: kurtdoku)
+  Sommerwäsche in den Kasten geben (from: kurtdoku)
+  Sommerwäsche waschen (from: kurtdoku)
+  Sonstige aktualisierbare Werte in Finanzanlagendatenbank suchen und aktualisieren (from: kurtdoku)
+  Sortieren und Einräumen der Finanzunterlagen (from: access_Tab_Gewinnaktionen)
+  Sortierung Befunde (from: taskliste)
+  Speichern Papa's Ausgangsmails + Nebenpostkörbe (from: old_cs)
+  Spielen / Experiment mit Bigtrak (from: access_Tab_Gewinnaktionen)
+  Spielen Spacebirdz (from: access_Tab_Gewinnaktionen)
+  Sprachnachricht an Judith (zu Bruch mit Ersoy) (from: old_cs)
+  Sprachnachricht an Judith (zu Entrümpelung und Renovierung) (from: old_cs)
+  Sprachnachricht an Judith (zu Ressourcen sparen (Willhaben)) (from: old_cs)
+  Sprachnachricht an Judith (zu Unterschied zwischen geerbtem und eigenem Geld) (from: old_cs)
+  Sprachnachricht an Judith (zu Zeitmanagement und -mangel) (from: old_cs)
+  Stand kleine und große Börse zählen und Stand in Finanzanlagendatenbank eingeben (from: kurtdoku)
+  Stargate (from: window_logger_vb5)
+  Start Checkliste Lebenserhaltung (from: kurtdoku)
+  Stände von Gewinnanteilen in Finanzanlagendatenbank eingeben (from: kurtdoku)
+  Supermarkt aufsuchen und nötige Dinge kaufen (from: kurtdoku)
+  Supradyn / Nachtmahl fassen [LENANA] (from: old_cs)
+  Surfen Bumper Car XL (from: windowlog_corrector)
+  Surfen Modified Power Wheels (from: access_Tab_Gewinnaktionen)
+  Tagesgewand aus- und Nachtgewand anziehen (from: kurtdoku)
+  Taonga: Die Inselfarm (from: taskliste)
+  Team-Jour-Fixe (from: window_logger_vb5)
+  Teamfrühstück (from: window_logger_vb5)
+  Tee herrichten (from: kurtdoku)
+  Teller waschen / Getränk + Supradyn fassen [LENATW] (from: old_cs)
+  Termin Apothekengang für nächste Öffnungszeit Apotheke notieren (from: kurtdoku)
+  Termin Arztbesuch für nächste Ordinationszeit notieren (from: kurtdoku)
+  Termin mit Zahnarzt zur Kontrolle ausmachen (from: kurtdoku)
+  Termin Zahnarztbesuch anmelden 2 für nächste Öffnungszeit Zahnarzt notieren (from: kurtdoku)
+  Termin Zahnarztbesuch in Kalender notieren (from: kurtdoku)
+  Termine für Medikamenteneinnahme eintragen (from: kurtdoku)
+  Timer auf Platz geben (from: kurtdoku)
+  Timer wieder auf Platz geben (from: kurtdoku)
+  Treffen mit Richard Promberger (from: access_Tab_Gewinnaktionen)
+  Umbau Kontensystem auf Taskliste (from: taskliste)
+  Umbau Window Logger auf Taskliste (from: taskliste)
+  Umänderung Liste Disketten P111, P108, P136, P134 (?!) (from: taskliste)
+  ungeplante Aktivität (Sprachnachrichten o.ä.) (from: old_cs)
+  Untersuchung Betriebssystem Creativision (from: access_Tab_Wuensche)
+  Untersuchung Sourcecode Pole Position (Atari 7800 / C64) (from: taskliste)
+  Update Clearswipe (Check auf Vorkommnisse) (from: access_Tab_Gewinnaktionen)
+  Update ClearSwipe: Erweiterung Swipe-Stop (für Justin) (?) (from: taskliste)
+  Update ClearSwipe: mehr Outline-Effekte (für Justin) (?) (from: taskliste)
+  Update ClearSwipe: Rate-Korrektur (für Dan) (?) (from: taskliste)
+  Update Inventur Wäsche (from: taskliste)
+  Update Personenliste mit Daten aus Kandidatenliste (für Begräbnis) (from: old_cs)
+  Update Personenliste mit Daten aus Kontaktstoß (from: old_cs)
+  veraltete Kontoauszüge zu Wertpapierdepot aus Kuverts entfernen (from: kurtdoku)
+  Veranstaltung einer Karaoke-Party (from: access_Tab_Gewinnaktionen)
+  Verarbeitung gerissene Unterhosen (from: taskliste)
+  Verbesserung Abfrage ähnlicher Titel nach Kategorien (dauert zu lange) (from: taskliste)
+  Verbesserung Katzenspiel FreeBasic (Entfernen Grafik-DLL) (?) (from: taskliste)
+  Verbogene Chartsshow auf Radio Krokofee (from: access_Tab_Gewinnaktionen)
+  Vereinheitlichung OP-Liste / Checklisten / Gewinnaktionen / Wunschliste usw. (from: taskliste)
+  Verkauf / Vergabe kaputter Geräte + Computerzeitschriften auf Willhaben.at [RWREAG] (from: old_cs)
+  Versand Karaoke-Titel We are the world (from: taskliste)
+  Verteilung Don't shut me down (C-64) (from: taskliste)
+  Verzweigung nach Checkliste Zahnarztbesuch anmelden 2 (from: kurtdoku)
+  Vorbereitung House Warming Party [WFREVG] (from: old_cs)
+  Warten auf 13:00 (from: kurtdoku)
+  Warten auf 16:00 (from: kurtdoku)
+  Warten auf 20:00 (from: kurtdoku)
+  Warten auf 21:40 (from: kurtdoku)
+  Warten mit der Psychotherapie, bis die Dokumentationen fertig sind (from: access_Tab_Wuensche)
+  WC (wenn nötig) (from: kurtdoku)
+  WC / Listen holen (from: window_logger_vb5)
+  WC-Besuch nach Bedarf (siehe WC) (from: kurtdoku)
+  Wegräumen oder Wiederherstellung der Küchenuhr (from: access_Tab_Wuensche)
+  Wegwerfen eines eventuell unnötigen Papieres (from: access_Tab_Wuensche)
+  Weihnachtsbaum aufputzen (from: access_Tab_Gewinnaktionen)
+  Weihnachtsbaum kaufen gehen (from: access_Tab_Gewinnaktionen)
+  Weihnachtsfeier des Betriebsrats (from: access_Tab_Gewinnaktionen)
+  Weihnachtsgeschenke (from: access_Tab_Gewinnaktionen)
+  Weihnachtskekse backen (Stand 24.12.2000) (from: access_Tab_Gewinnaktionen)
+  weitere Papiersortierung (tw. mit Judith?) (from: old_cs)
+  Weitere Prüfung Geräte aus meinem Keller / meiner Wohnung (Vorbereitung für Entsorgung) [WFREPR] (from: old_cs)
+  Weiterentwicklung ClearSwipe (from: taskliste)
+  Wenn (Monat = 9 oder Monat = 12 oder Monat = 3 oder Monat = 6), Termin Friseur eintragen (from: kurtdoku)
+  Wenn BA-CA-Karte eingesteckt, Kontoauszug beheben (from: kurtdoku)
+  Wenn bekannte Beschwerden, Verzweigung nach Checkliste bekannte Beschwerden (from: kurtdoku)
+  Wenn Beschwerden nur mit rezeptflichtigen Medikamenten behandelbar, Checkliste Vorbereitung (from: kurtdoku)
+  Wenn Einkaufsliste im Kalender vorhanden, Einkauf bei Anker (from: kurtdoku)
+  Wenn große Börse leer, Checkliste Geldbeschaffung (from: kurtdoku)
+  Wenn hohes Fieber, Verzweigung Checkliste dringender Arztbesuch (from: kurtdoku)
+  Wenn im Kalender „Geldnachbeschaffung“ notiert, 300 Euro von Sparkarte beheben (from: kurtdoku)
+  Wenn in kleiner Börse unter 50 Euro vorhanden, Checkliste Aufstockung kleine Börse (from: kurtdoku)
+  Wenn innerhalb Ordinationszeit, Verzweigung nach Checkliste Arztbesuch (from: kurtdoku)
+  Wenn innerhalb Öffnungszeit Apotheke, Verzweigung nach Checkliste Apothekengang (from: kurtdoku)
+  Wenn innerhalb Öffnungszeit Zahnarzt, Verzweigung nach Checkliste Zahnarztbesuch anmelden 2 (from: kurtdoku)
+  Wenn Krankheit vorliegt, Checkliste Erwägung Arztbesuch (from: kurtdoku)
+  Wenn Medikamente verschrieben, Checkliste Apothekengang (from: kurtdoku)
+  Wenn Mitbringsel = Medikament, Verzweigung nach Versorgung Medikament (from: kurtdoku)
+  Wenn Mitbringsel vorhanden, Checkliste Versorgung Mitbringsel (from: kurtdoku)
+  Wenn Monat = 1 und Monatstag = 1, Checkliste jährliche Geldprüfung (from: kurtdoku)
+  Wenn Monat = 4 und Monatstag = 4, Checkliste Finanzausgleich (from: kurtdoku)
+  Wenn Monatstag = 1, Checkliste monatliche Geldabrechnung (from: kurtdoku)
+  Wenn Nasenbohren weh tut und Wochentag = Sonntag, Fingernägel schneiden (from: kurtdoku)
+  Wenn nicht wiederbestellt, Termin Zahnarztbesuch anmelden (+ 6 Monate – 2 Wochen) eintragen (from: kurtdoku)
+  Wenn Samstag, Checkliste Einkauf (from: kurtdoku)
+  Wenn sich Zehennägel verfangen, Termin Zehennägel schneiden (nächster Sonntag) eintragen (from: kurtdoku)
+  Wenn Temparatur erstmals im Halbjahr unter 10 Grad, Checkliste Winterwäsche (from: kurtdoku)
+  Wenn Temperatur erstmals im Jahr über 15 Grad, Checkliste Sommerwäsche (from: kurtdoku)
+  Wenn Termin Friseur eingetragen, Friseur besuchen (from: kurtdoku)
+  Wenn Termin Zehennägel schneiden eingetragen und Wochentag = Sonntag, Zehennägel schneiden (from: kurtdoku)
+  Wenn unbekannten Beschwerden, Checkliste Vorbereitung Arztbesuch durchführen (from: kurtdoku)
+  Wenn weitere Mitbringel vorhanden, Verzweigung nach Checkliste Versorgung Mitbringel (from: kurtdoku)
+  Wenn Werktag, Checkliste BRZG (from: kurtdoku)
+  Wenn Werktag, Vormittagsjause richten (from: kurtdoku)
+  Wenn wiederbestellt, Termin Zahnarztbesuch eintragen (from: kurtdoku)
+  Wenn Wochentag <> Sonntag, Frühstücken (from: kurtdoku)
+  Wenn Wochentag <> Sonntag, kurzer Duschvorgang (from: kurtdoku)
+  Wenn Wochentag <> Sonntag, Zähne putzen oder bei Zeitmangel Mund spülen (from: kurtdoku)
+  Wenn Wochentag = Sonntag, Frühstück (from: kurtdoku)
+  Wenn Wochentag = Sonntag, langer Duschvorgang (from: kurtdoku)
+  Wenn Wochentag = Sonntag, liegengebliebene Projekte aufräumen (from: kurtdoku)
+  Wenn Wochentag = Sonntag, Zähne putzen (from: kurtdoku)
+  Werbung von Post trennen (from: kurtdoku)
+  Wiederbesuch des Lokals "Jonas" (from: access_Tab_Wuensche)
+  Winterwäsche aus dem Kasten geben (from: kurtdoku)
+  Winterwäsche in den Kasten geben (from: kurtdoku)
+  Winterwäsche waschen (from: kurtdoku)
+  Zahnarzt besuchen (from: kurtdoku)
+  Zahnarztbesuch (from: access_Tab_Gewinnaktionen)
+  Zimmer lüften und Bett herrichten (from: kurtdoku)
+  Zu Apotheke gehen (from: kurtdoku)
+  Überprüfung Hotmail-Sicherheitsüberprüfung (Chello?) (from: old_cs)
+  Überprüfung nächste Ordinationszeit des Arztes (from: kurtdoku)
+  Überprüfung, ob die Beschwerden und ihre Behandlung bekannt sind (from: kurtdoku)
+  € 15000 von Konto auf Sparverein transferieren (from: access_Tab_Gewinnaktionen)

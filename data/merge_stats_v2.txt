@@ -1,0 +1,89 @@
+Master Task List v2 - Merge Statistics
+==================================================
+
+Raw entries: 14379
+Annotation variants collapsed: 6749
+Final unique base tasks: 7916
+Compression ratio: 1.8x
+
+Top tasks by annotation variant count:
+  [ 932 variants] Bearb. Essensplan
+  [ 520 variants] Ansehen YOutube-Videos
+  [ 429 variants] Bearb.Ohrwürmer
+  [ 325 variants] Mittagessen
+  [ 176 variants] Div. Surfen
+  [ 172 variants] Bearb. Ohrwürmer
+  [ 167 variants] Aufwandserfassung / Abrechnung
+  [ 110 variants] Papiersortierung
+  [  80 variants] Versorgung Mitbringsel
+  [  78 variants] Rasieren, dabei Planung
+  [  77 variants] Nachtmahl fassen
+  [  69 variants] Jause fassen
+  [  63 variants] Nachmittagsjause fassen
+  [  61 variants] Kommunikation mit Judith
+  [  59 variants] MAME Jr. Pac-Man
+  [  53 variants] Wertungseingabe
+  [  48 variants] Einkauf
+  [  47 variants] Laufen
+  [  46 variants] Wertungseing.
+  [  45 variants] Bearb. Playlist
+  [  42 variants] Forge of Empires
+  [  42 variants] Magellan Kersti
+  [  42 variants] Mapping Kersti Zauberschloß
+  [  38 variants] WC
+  [  37 variants] Sprachnachricht an Judith
+  [  32 variants] Mittagessen fassen
+  [  32 variants] Mittagspause BRZG
+  [  25 variants] Bearbeitung Buch Champion's Mindset
+  [  22 variants] Scootersuche
+  [  21 variants] Surfen Andon FM
+
+Source coverage:
+  ablauf_unplanned: 3990
+  access_Tab_Aufwandserfassung: 2727
+  ablauf_planned: 913
+  access_Tab_Aktionen: 511
+  old_cs: 196
+  kurtdoku: 161
+  access_Tab_Gewinnaktionen: 131
+  csv: 110
+  taskliste: 80
+  window_logger_vb5: 44
+  access_Tab_Wuensche: 38
+  yaml_exceptions: 30
+  windowlog_corrector: 6
+
+With 6-char code: 1019
+Without code: 6897
+
+Multi-source tasks (3+): 130
+  [7] Aufräumen (ablauf_planned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, csv, old_cs, taskliste)
+  [7] Papiersortierung (ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, old_cs, taskliste)
+  [6] Mailbearbeitung (ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, old_cs, taskliste)
+  [6] Mittagessen (ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, window_logger_vb5)
+  [6] WC (ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, csv, old_cs, window_logger_vb5)
+  [6] Wohnung lüften (ablauf_planned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, csv, kurtdoku, old_cs)
+  [6] Zähne putzen (ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, kurtdoku, old_cs, window_logger_vb5)
+  [5] Aufwandserfassung (ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5)
+  [5] Bearb. Playlist (ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung, window_logger_vb5)
+  [5] Der Außentemperatur entsprechend anziehen (ablauf_planned, ablauf_unplanned, csv, kurtdoku, old_cs)
+  [5] Nachtmahl (ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, access_Tab_Gewinnaktionen, window_logger_vb5)
+  [5] Nägel schneiden (ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, csv, old_cs)
+  [5] Scan Museumsradio (ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, csv, old_cs)
+  [5] Versorgung Mitbringsel (ablauf_planned, access_Tab_Aufwandserfassung, csv, kurtdoku, old_cs)
+  [5] Wäsche aus Waschmaschine nehmen (ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, csv, old_cs)
+  [4] Abhalten BKDD Standup Meeting (ablauf_planned, csv, old_cs, yaml_exceptions)
+  [4] Abschluss (ablauf_planned, ablauf_unplanned, csv, old_cs)
+  [4] Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer (ablauf_planned, ablauf_unplanned, csv, old_cs)
+  [4] Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer (ablauf_planned, ablauf_unplanned, csv, old_cs)
+  [4] Anhören RW-Prg. mit Sati Ersoy (ablauf_planned, ablauf_unplanned, csv, old_cs)
+  [4] Ansehen YOutube-Videos (ablauf_planned, ablauf_unplanned, access_Tab_Aktionen, access_Tab_Aufwandserfassung)
+  [4] Ansehen ZiB 1 + Wetter (ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, old_cs)
+  [4] Anziehen (ablauf_planned, ablauf_unplanned, access_Tab_Aufwandserfassung, old_cs)
+  [4] Aufwandserfassung und Abrechnung Kontensystem (ablauf_planned, access_Tab_Gewinnaktionen, csv, old_cs)
+  [4] Auspacken Essensplan (ablauf_planned, ablauf_unplanned, csv, old_cs)
+  [4] Ausputzen Rasierer (ablauf_planned, ablauf_unplanned, csv, old_cs)
+  [4] Ausziehen (ablauf_planned, ablauf_unplanned, csv, old_cs)
+  [4] Bearb. Essensplan im BRZ (ablauf_planned, csv, old_cs, yaml_exceptions)
+  [4] Bearb. Liste auswendig singbarer Titel (ablauf_planned, ablauf_unplanned, csv, old_cs)
+  [4] Bearb. Liste Scooterfahrten (ablauf_planned, ablauf_unplanned, csv, old_cs)

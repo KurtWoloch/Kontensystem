@@ -1,0 +1,132 @@
+Kontokürzel;AKtionsname;Aktionstyp;Aktionsdatum;Einnahmen;Ausgaben;Verhältnis;Verhältnis gleichartige AKtionen;Zeitaufwand_pro_Tag;Anmerkung;Aufwand_pro_Aktion;Angebot_moeglich;Stueckelung;wann_moeglich;Attraktivitaet_gleitend;Rückstand;Rückstand_Arbeit;Nebenbeitaetigkeit;Bei_Bedarf
+AU;Besuch Weihnachtskonzert;;15.12.1999;-0,127;0;-0,127;50;;;;True;;;False;12980;;False;False
+KS;Aufwandserfassung und Abrechnung Kontensystem;;19.03.2022;1,81;0;1,81;100;;45 Minuten pro Tag + Rückstand (beliebig);60;True;;solange Rückstand vorhanden;False;0;0;False;False
+RW;Korrektur der Radioscans in der Radio-Würmchen-Datenbank;;;0,984;0;0,984;100;;;11;True;;immer;False;54639;;False;False
+AU;Besuch Bier&Brot Karaoke (Stand 28.2.2015);;28.02.2015;1,437;10;1,18;27;305;Terminliste auf: http://www.bbrecords.at;321;False;305;bei Veranstaltung;True;0;;False;False
+AU;Besuch Bierpub Remi Demi (Vorkalk.);;;0,438;2,5;0,38;27;255;;;False;;;False;;;False;False
+AU;Besuch Edmund Herzig;;23.02.2017;0;0;0;67;;unmöglich (verstorben!)(;;False;;nie;True;;;False;False
+AU;Besuch Beer and Songs (nach 1. Besuch);;07.06.2007;1,022;3;0,957;27;;;273;True;;;True;9000;;False;False
+AU;Besuch Donauinselfest;;25.06.2016;225,96;118,25;1,093;100;430;;430;False;430;1x/Jahr;True;0;;False;False
+IN;Surfen Modified Power Wheels;;12.05.2012;0,725;0;0,725;100;;;20;True;;;False;;;False;False
+AU;Besuch Karaoke Sing your song (Eschenbachg.);;30.06.2007;0,977;6;0,85;27;281;;;True;;;True;46560;;False;False
+AU;Besuch Karaoke SOHO 1 (Millenium Tower) (Einpacken 19:00);;20.05.2010;0,966;2,5;0,906;100;248;;;True;;;True;54236;;False;False
+AU;Besuch Karaoke Strebersdorfer Platz'l;;19.01.2006;0,889;2,5;0,836;27;278;;;False;;;True;;;False;False
+AU;Besuch Karaoke Subway (19:50 Beginn Einpacken);;16.06.2007;0,669;3;0,595;27;240;;;True;;;True;37900;;False;False
+AU;Besuch Karaoke Sue & Laune;;02.06.2007;1,033;2,5;0,967;27;225;;;True;;;True;38960;;False;False
+AU;Besuch Karaoke Sylvesterpfad;;31.12.2014;1,329;0;1,329;27;352;;352;False;352;31.12.;True;;;False;False
+AU;Besuch Karaoke Thego;;28.06.2007;0,311;3;0,209;100;175;;;True;;;True;2820;;False;False
+FZ;Fahrt mit RC-Gabelstapler;;15.05.2015;0,421;0;0,421;100;88;;88;True;88;;True;0;0;False;False
+RW;Heimkaraoke (von mir als Veranstaltung angesetzt);;24.05.2021;-0,316;-100;2,697;41;181;Mindestwert € 95, laut Papa max. € 100,-;181;True;178;nach Wunschveranstaltung;True;;;False;False
+AU;Besuch Karaoke Kistlalm (Vorkalkulation);;;0,555;3;0,498;27;313;Vorkalk. Aktualisiert 7.3.2012;;True;240;Do.-Sa.;True;;;False;False
+AU;Besuch Karaoke MAYA (Vorkalkulation);;;0,171;2,5;0,128;27;344;;;False;;;True;;;False;True
+AU;Besuch Randy's Karaoke (aktuell);;30.03.2013;1,37;2,5;1,318;27;286;wird am 20.4.2013 geschlossen;;True;;nie;True;;;False;False
+AU;Besuch Karaoke Club Fragezeichen (Nachkalk. 29.2.2012);;29.02.2012;0,52;3,5;0,432;27;236;;;True;236;;True;;;False;False
+AU;Besuch Karaoke Suppentopf (laut div. Nachkalk. komplett);;02.10.2013;0,506;3,88;0,455;27;404;;;False;;nie (aufgelassen);True;;;False;False
+AU;Besuch Karaoke Inseltreff Barbados (Vorkalkulation);;;0,533;3;0,46;27;244;;;False;;;True;;;False;True
+AU;Besuch Karaoke Ro:ses (Vorkalkulation);;;0,098;3;0,032;27;269;;;False;;;True;;;False;True
+AU;Besuch Karaoke im SOHO 3;;;0,056;59,8;-1,043;27;297;;;False;;;False;;;False;False
+AU;Besuch Erich's Karaoke (14. Bezirk);;10.02.2003;0,657;2,5;0,595;27;240;;;False;;;True;;;False;False
+AU;Besuch Erich's Karaoke (22. Bezirk);;06.11.2005;0;0;2,3;27;;1 fixe Veranstaltung, danach Absturz;;False;240;wenn Veranstaltung stattfindet;True;;;False;True
+AU;Besuch Erich's Karaoke (Prater) (aktuell);;01.05.2013;0,855;5;0,772;27;358;;;True;;bei Veranstaltung;True;;;False;True
+AU;Besuch Karaoke Exzess;;18.06.2007;0,524;3,5;0,381;100;145;ist das wirklich richtig kalkuliert?;;True;;;True;;;False;False
+AU;Besuch Geburtstagsfeier Erwin's Schwestern;;01.10.2021;0,099;25;-0,279;100;393;;;False;;;True;;;False;False
+MU;Auftritt als Live-Musiker mit Keyboard (Schnitt);;19.03.2015;-0,364;-250;1,344;27;930;1 fixe Veranstaltung, danach Absturz;60;True;60;nach Auftrittsvereinbarung;True;0;;False;False
+AU;Besuch Karaoke Tivoli;;22.05.2010;1,191;5;1,114;27;388;;;True;;Fr.;True;52355;;False;False
+KA;Update Clearswipe (Check auf Vorkommnisse);;03.01.2019;4,42;0;4,42;100;15;;15;True;15;immer;True;0;;False;False
+MU;Geb.feier Erwin;;19.03.2022;1,792;-250;1,955;100;;;;False;;;True;;;False;False
+RW;Radio-Würmchen-Datenbankkorrekturen / Einlistung neuer Tonträger;;06.01.2022;0,984;0;0,984;100;;;;True;;immer;False;67697;;False;False
+RW;Radio hören (über Radio Würmchen-Limit im Schnitt);;;2,241;0;2,241;100;;Nebenbeitätigkeit, Entscheidung über zu hörenden Content wird RW-intern gefällt;;True;;;False;;;True;False
+RW;Neueinspielungen vom Computer vorgeschlagener Titel;;10.03.2022;0,329;0;0,3286;100;;;;True;;immer;False;19119;;False;False
+RW;Neueinspielungen von analogen Tonträgern;;18.03.2022;0,099;0;0,0989;100;;;;True;;;True;;;False;False
+LE;Weihnachtskekse backen (Stand 24.12.2000);;21.12.2011;0,4;0;0,4;100;;;;True;;Dezember;True;0;;False;True
+MU;Adventsingen;;06.01.2022;0;0;0;100;39;;;True;;;True;0;;False;False
+AU;Besuch von Christkindlmärkten;;18.12.2013;0,127;0;0,127;100;;;;False;;;True;0;;False;False
+AU;Besuch von Weihnachtsausstellungen;;20.12.2006;0,2;0;0,2;100;;;;False;;;True;0;;False;False
+CS;Besuch von Spielwarengeschäften;;01.12.2005;0,12;0;0,12;100;;;;True;;;True;60;;False;False
+MU;Weihnachtsbaum kaufen gehen;;20.12.2012;0,2;0;0,2;100;;;;True;;;True;;;False;False
+RW;Weihnachtsbaum aufputzen;;24.12.2021;-1,16;0;-1,16;100;;;;False;;;True;0;;False;False
+MU;Bescherung (Heiliger Abend);;24.12.2021;-0,127;0;-0,127;100;86;;;False;;;True;0;;False;False
+RW;Sendung auf Radio-MFL;;23.01.2012;1,135;0;1,135;70;200;;;True;;;True;0;;False;False
+GE;Baden gehen (bei Schönwetter);;15.08.2019;0,57;0;0,57;100;280;;280;True;;bei Schönwetter;True;0;;False;True
+TV;Liquidierung des Orange-Kontos und Konsolidierung der Ordner;;;1,644;0;1,644;100;0;;;True;;einmalig;False;0;;False;False
+MU;Keyboard-Übungen;;06.01.2022;1,09;0;1,09;43;129;;;False;;;True;0;;False;False
+LE;Bearbeitung der Essensdatenbank;;;0,765;0;0,765;100;15;;;True;;;False;0;;False;False
+LE;Morgentoilette/Frühstück;;19.03.2022;1,8445;0;1,8445;0;;lebensnotwendig;;True;60;;False;;;False;False
+LE;Mittagessen;;19.03.2022;1,8445;0;1,8445;0;;lebensnotwendig;;True;30;;False;;;False;False
+LE;Jause;;19.03.2022;1,8445;0;1,8445;0;;lebensnotwendig;;True;;;False;;;False;False
+LE;Nachtmahl;;19.03.2022;1,8445;0;1,8445;0;;lebensnotwendig;;True;6;;False;;;False;False
+LE;Abendtoilette;;19.03.2022;1,8445;0;1,8445;0;;lebensnotwendig;;False;15;;True;;;False;False
+LE;Friseursbesuch;;01.12.2021;-0,272;0;-0,272;84;30;;;True;;;True;;;False;False
+FI;Wiederveranlagung Geld auf Girokonto;;01.08.2021;1,094;0;1,094;0;;Wert = (Kontenstand - 12469) / 11449;;True;;;False;0;;False;False
+FI;€ 15000 von Konto auf Sparverein transferieren;;;0;0;0;100;;;;True;;;False;60;;False;False
+FI;Sortieren und Einräumen der Finanzunterlagen;;31.12.2018;1,645;0;1,645;0;42;wenn Finanzunterlagen anfallen, insgesamt 1 Stunde pro Monat;30;True;;wenn Unterlagen vorhanden;False;0;0;False;False
+GE;Schwimmen (im Hausbad);;23.05.2022;1,664;0;1,664;0;36;"min. 30 Minuten, sollte täglich erfolgen, keine Ansammlung von Rückständen; modifiziert 4.8.2022 laut Dokumentation";30;True;0;immer;False;;;False;False
+GE;Zahnarztbesuch;;01.11.2021;-0,425;0;-0,425;75;;;;True;;;True;;;False;False
+WF;schnelle Inventarüberprüfung (ganze Wohnung);;;0,204;0;0,204;100;;;;True;;;False;60;;False;False
+WF;ausführliche Inventarüberprüfung (ganze Wohnung);;;-0,748;0;-0,748;56;;;;True;;;False;;;False;False
+WF;Inventurprüfung Keller;;;-1,238;0;-1,238;42;;;;True;;;False;;;False;False
+AU;Auftritt Robert;;11.09.2005;0;0;1,8;27;;;;False;;;True;;;False;False
+FZ;Experimente mit Lego-Loks;;04.02.2007;2,25;0;2,25;100;;;;False;;;True;0;;False;False
+FZ;Experiment mit Spielzeugbuggy;;15.05.2018;3,701;0;3,701;100;12;;;False;;immer;True;;;False;False
+FZ;Spielen / Experiment mit Bigtrak;;02.03.2013;0,744;0;0,744;100;29;;29;True;29;;True;0;;False;False
+FZ;Fahrt mit ferngesteuertem Auto (Stand 22.9.2010);;21.09.2014;0,778;0;0,778;61,1;90;;;True;;;True;;;False;False
+FZ;Fahrt Li'l Motorized Beamer;;15.08.2019;2,031;0;2,031;100;17;;15;True;15;;True;0;;False;False
+RW;Eingabe der Radioscans;;;0,984;0;0,984;100;;;;True;;solange Radioscans vorhanden;False;8;;False;False
+RW;Produktion einer Radio-Würmchen-Sendung;;28.09.2014;1;0;1;50;;;;True;;;True;0;;False;False
+RW;Veranstaltung einer Karaoke-Party;;02.02.2022;0,462;-100;1,638;27;464;1 fixe Veranstaltung, danach Absturz;60;True;60;1x/Monat;True;0;;False;False
+RW;externe Karaoke-Veranstaltung (bei € 230 Gage);;01.07.2003;0,333;-230;1,61;27;982;;;False;;;False;;;False;False
+RW;Heimkaraoke (wenn von Papa gewünscht);;01.06.2021;-0,2746;-100;2,495;41;219;"Mindestwert € 95,-; wird entsprechend erhöht, wenn Wünsche knapp aufeinander folgen";219;False;219;;True;;;False;True
+RW;Treffen mit Richard Promberger;;01.05.1993;0,3;0;0,3;67;;;;False;;nach Terminvereinbarung;True;0;;False;True
+MU;Projekt neues Keyboard (Einüben weiterer Titel);;22.09.2024;0,744;-1300;1,306;27;12287;enthält 10 Auftritte und 30 Keyboard-Übungen;60;False;60;;False;0;;False;False
+AU;Besuch Karaoke Rotunde (nach 1.8.2014);;01.08.2014;0,197;9,5;0,035;0;335;;297;True;297;;True;0;0;False;False
+FZ;Ausborgen Segway (Praterstern);;15.04.2015;1,7825;30;0,177;100;113;;113;True;113;bei Schönwetter;True;0;0;False;False
+IN;Surfen AtariAge;;13.03.2022;1,101;0;1,101;100;45;beliebig ausweitbar;45;True;;immer;False;;;False;False
+GE;Durchführung anfallender Dokumentationen;;20.03.2022;1,646;0;1,646;100;60;einmalige Aktion;60;True;60;immer;False;0;;False;False
+AU;Besuch Karaoke Reginas (Vorkalk.);;;0,687;2,5;0,64;27;317;;;False;;;False;;;False;False
+CS;Besuch des TI-99-Treffens (abgerechnet bis März 2014);;11.03.2014;0,497;15;0,167;100;270;Nachkalk. 1/2011;;True;;Mi.;True;0;;False;False
+AU;Besuch Nan (Vorkalk.);;;0,013;59,55;-1,437;27;302;;;True;;;False;120;;False;False
+AU;Besuch Karaoke4You (nach 1. Besuch);;03.06.2007;0,91;3,5;0,633;27;270;;;True;;;True;47689;;False;False
+AU;Besuch Karaoke Favoritner Kultur-Keller (Di.);;;0,114;68,05;-1,226;27;359;;;False;;;False;;;False;False
+AU;Besuch Rockpub;;13.06.2007;0,723;3;0,641;27;217;;;True;;Mi., Do.;True;;;False;False
+AU;Besuch Terrassencafe Erdberg;;15.06.2007;0,533;2,5;0,462;27;210;;;True;;;True;33400;;False;False
+CS;Spielen Spacebirdz;;01.10.2009;0,3;0;0,3;100;30;;30;True;;immer;True;-30;-30;False;False
+GE;Baden gehen (bei heißem Wetter);;15.08.2019;1,57;0;1,57;100;280;;280;True;;bei Temperatur ab 30°C;True;0;;False;True
+AU;Besuch Jonas-Karaoke;;17.12.2011;1,39;3;1,3175;27;247;derzeit keine Veranstaltung;;False;;;True;;;False;False
+AU;Besuch Goleador (neuer Name);;11.06.2007;0,224;2,5;0,167;100;261;;;True;;;True;;;False;False
+BR;Arbeit im Bundesrechenzentrum;;17.03.2022;1,8445;0;1,8428;0;;;;True;;;False;;;False;False
+AU;Besuch Karaoke Zum Wahnsinn (Vorkalk.);;;0,65;3;0,594;27;318;;;True;;;False;;;False;False
+AU;Besuch Andrea / Franzi (mit Singen);;28.06.2019;1,418;0;1,418;100;;;;False;;wenn eingeladen;True;0;;False;False
+BR;Weihnachtsfeier des Betriebsrats;;15.12.2005;-0,52;0;-0,517;100;677;Zahlung an MU noch nicht berücksichtigt;;False;;;True;;;False;False
+PC;Datensicherung (inkl. H:\Daten\Radio Würmchen\WAV's!);;25.04.2019;4,3;0;4,3;100;;;;True;;;True;0;;False;False
+WF;Papiersortierung;;17.03.2019;4,3;0;4,3;100;3;ohne Rückvergütung;160;True;;immer;True;0;;False;False
+BR;Besuch diverser Mitarbeiterevents (Schätzung);;18.12.2019;0,1;0;0,1;100;300;;;False;;;True;0;;False;False
+AU;Besuch Karaoke Unikat (Nachkalk. 17.2.2011);;17.02.2011;1,592;2,5;1,53;27;213;;213;True;;Do. 19:30-23:15;True;;;False;False
+RW;Rätselquiz auf Radio Krokofee;;22.02.2008;0,84;0;0,84;100;;;;False;;;True;19654;;False;False
+RW;Verbogene Chartsshow auf Radio Krokofee;;25.01.2008;0,75;0;0,75;100;;;;True;;;True;27809;;False;False
+AU;Besuch Karaoke Do bin i do bleib i;;03.02.2012;1,5;2,5;1,4297;27;213;;260;False;260;;True;;0;False;False
+FZ;Besuch Ampera-Treffen (bis 1/2013 abgerechnet);;18.12.2013;1,501;20;1,163;100;351;;;False;373;nach Einladung;True;;;False;False
+AU;Besuch Karaoke Babuder's (Vorkalk.);;;0,806;3;0,725;27;221;;;False;;;True;;0;False;False
+FZ;Ausborgen E-Rad;;21.08.2015;1,385;30;0,269;100;173;;;True;;;True;;;False;False
+FZ;Ausborgen E-Roller;;19.04.2018;2,423;45;1,049;100;277;;277;True;277;;True;0;;False;False
+FZ;Ansehen Youtube-Videos über Elektrofahrzeuge;;15.03.2022;0,3;0;0,3;0;60;;;True;;;False;;;False;False
+FZ;Kauf eines neuen Spielzeugfahrzeuges;;15.01.2015;-0,589;29,99;-0,945;0;515;modifiziert 4.8.2022 laut Dokumentation;60;True;60;;False;0;;False;False
+FZ;Anschaffung eines neuen Akkus für das E-Quad;;01.10.2019;2,176;2,4;1,713;60;12;"12' anteiliger Zeitaufw. Für Besorgung; 60' Fahrzeit pro Fahrt, auf die Ausgaben aufgerechnet werden";12;True;;;True;0;;False;True
+TV;Fernsehen;;;0,3;0;0,3;100;;;;True;;;False;315;;False;False
+WF;Aufräumen;;31.01.2022;3,25;0;1,8;0;;modifiziert 4.8.2022 laut Dokumentation;60;True;;immer;False;;;False;False
+AU;Besuch Karaoke-Club (Cafe Kriemhild);;;0,46532;3;0,4036;27;;laut Vorkalkulation;;True;;;True;47689;;False;False
+AU;Besuch Karaoke (abgerissenes!) Cantina Loco (Donauinsel) (bei Schönwetter);;15.06.2007;0;3;0;100;262;;;False;;Sommer (wenn überhaupt);False;0;;False;False
+FZ;Nachladung der nicht verwendeten Akkus;;25.04.2019;3,1;1;2,9;100;;;30;True;;;True;;;False;False
+AU;Besuch Live-Karaoke Favoritner Kultur-Keller;;13.07.2007;0,675;10;0,471;27;291;laut Vorkalkulation beim 13.7.2007;;True;;;True;47689;;False;False
+AU;Besuch Karaoke Schutzhaus (Stand 10.3.2012);;10.03.2012;1,047;5,5;0,938;27;300;;;False;;bei Veranstaltung;True;;;False;True
+AU;Besuch Karaoke Lemmon (Wochenende);;14.06.2007;1,131;3;1,051;27;224;;;True;;;True;29059;;False;False
+AU;Besuch Liederabend Kagraner Platz;;20.02.2003;0,68;0;0,68;27;;;;False;;;True;;;False;False
+AU;Besuch Karaoke Mai Kai;;17.06.2007;0,972;3;0,898;27;240;;;True;;;True;38260;;False;False
+AU;Besuch Nico's Karaoke;;27.06.2007;1,063;2,5;0,995;27;217;;;True;;;True;39080;;False;False
+AU;Besuch Gerro's Karaoke und Musikclub (Vorkalk.) (Einpack. 19:35);;09.03.2012;0,664;2,5;0,61;27;273;;;True;;Do., Fr., Sa.;True;;;False;False
+EL;Produktion von Liedern für Papa (Geschenke);;01.01.2018;-1;-167,45;1,805;100;300;;300;False;60;immer;False;0;;False;False
+AU;Besuch Karaoke Kais Asian Food (Gürtel);;10.07.2007;0,103;3,5;0,022;27;258;;0;True;0;;True;0;0;False;False
+EL;Weihnachtsgeschenke;;24.12.2006;0;200;0;100;;neutral, weil Eltern (?!);;True;;;True;0;;False;False
+AU;Besuch Weihnachtsausstellung (Rathaus);;20.12.2000;0,127;0;0,127;27;;;;True;;;True;36520;;False;False
+GE;Heimweg vom Franz-Jonas-Platz zu Fuß;;17.08.2022;1,026;0;1,026;0;41;;41;True;41;;False;0;0;False;False
+IN;Mailbearbeitung;;25.09.2022;1,647;0;1,647;100;120;;120;True;30;;False;0;0;False;False
+GE;Erfassung Corona-Zahlen;;08.10.2022;1,815;0;1,815;100;6;;6;True;6;;False;0;0;False;False

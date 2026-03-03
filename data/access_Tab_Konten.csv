@@ -1,0 +1,30 @@
+Kontennummer;Kontenkürzel;Kontenname;Kontenkategorie;zugehoeriges_Kreditkonto
+3;KG;Keyboard- und Funkmikro-Gutschein;5;
+9;RW;Radio Würmchen;2;
+10;AU;Aufführungsgesellschaft;2;
+12;KA;Karaoke;2;19
+20;FZ;Fahrzeuge;3;
+25;GV;Geräteversicherungskonto;7;
+31;KS;Kontenverwaltung;2;
+32;MU;Musikergesellschaft;2;
+36;BR;BRZG;4;
+38;PA;Papa;5;
+39;HG;Hausgemeinschaft;5;0
+40;VE;Verwandte;5;
+41;SG;Karaoke-Sänger;5;
+46;PC;PC;6;
+55;LE;Lebenserhaltung;7;
+56;CS;Computerspiele;2;
+58;RA;Radio;2;
+61;GE;Gesundheit;7;
+62;FI;Finanzverwaltung;7;
+63;??;Nicht zugeordnet;7;
+64;SP;Spaßkonto;7;
+65;AR;Arbeitszeit;7;
+66;BE;Bareinnahmen;7;
+68;BA;Barspesen;7;
+71;WF;Wohnungsfixkosten;3;
+73;IN;Internet;2;
+75;UR;Urheberrechtskonto;5;
+76;EI;Gerhard Eichberger;7;
+79;RM;Radio-Würmchen-Musiksammlung;3;

@@ -1,0 +1,21 @@
+Here's the command to run it yourself in PowerShell:
+
+& "C:\Program Files\Python311\python.exe" "C:\Users\kurt_\.openclaw\workspace\kontensystem\windowlog_corrector.py" "C:\Users\kurt_\Betrieb\Kontenverwaltung\Checklisten_Winlogger\Windowlog_bis_1Q_2023.txt" --date 21.01.2023 --summary
+The --summary flag gives you:
+
+Correction count — how many lines were changed and what rules fired
+Time summary — total minutes per activity (after corrections)
+Condensed daily view — the Aufwandserfassung-style block view with start/end/duration/account/activity
+Without --summary you just get the corrections report.
+
+You can also run it without --date to process the whole file, or with a different date. And with no arguments at all it prints the current rule list:
+
+& "C:\Program Files\Python311\python.exe" "C:\Users\kurt_\.openclaw\workspace\kontensystem\windowlog_corrector.py"
+The output goes to the console (which can be long), so you might want to pipe it to a file:
+
+& "C:\Program Files\Python311\python.exe" "C:\Users\kurt_\.openclaw\workspace\kontensystem\windowlog_corrector.py" "C:\Users\kurt_\Betrieb\Kontenverwaltung\Checklisten_Winlogger\Windowlog_bis_1Q_2023.txt" --date 21.01.2023 --summary > "$env:TEMP\corrector_output.txt"
+Then open %TEMP%\corrector_output.txt in Editor. The corrected Windowlog file itself is also written next to the input file (with _corrected_2023-01-21 in the name).
+
+better:
+& "C:\Program Files\Python311\python.exe" "C:\Users\kurt_\.openclaw\workspace\kontensystem\windowlog_corrector.py" "C:\Users\kurt_\Betrieb\Kontenverwaltung\Checklisten_Winlogger\Windowlog_bis_1Q_2023.txt" --date 21.01.2023 --summary > "C:\Users\kurt_\Betrieb\Kontenverwaltung\Checklisten_Winlogger\\corrector_output.txt"
+(only works in PowerShell, not in Cmd!)
