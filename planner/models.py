@@ -1,0 +1,55 @@
+"""
+models.py — Data classes for the reactive planner.
+"""
+from dataclasses import dataclass, field
+from datetime import datetime, time
+from enum import Enum
+from typing import Optional, List
+
+
+class RowType(Enum):
+    ACTIVITY = "activity"
+    WAIT = "wait"
+    WAIT_UNTIL_TOP_OF_HOUR = "wait_top"
+    START_LIST = "start_list"
+    STOP_LIST = "stop_list"
+    RESTART_LIST = "restart_list"
+
+
+@dataclass
+class CsvRow:
+    """One parsed row from Planungsaktivitaeten.csv."""
+    activity: str
+    minutes: int
+    list_name: str
+    priority: float
+    weekdays: str
+    starting_time: Optional[time]  # None if not set
+    dependencies: str
+    preceding_activity: str
+    row_type: RowType
+    target_list: str = ""        # for Start/Stop/Restart rows
+    original_line: int = 0       # 1-based line number in CSV (for debugging)
+
+
+@dataclass
+class ListState:
+    """Runtime state for one named list."""
+    name: str
+    rows: List[CsvRow] = field(default_factory=list)
+    current_index: int = 0
+    active: bool = False
+    wait_until: Optional[datetime] = None   # list is blocked until this time
+    current_activity: Optional[CsvRow] = None  # resolved front-of-queue item
+
+
+@dataclass
+class CompletedItem:
+    """A record of a completed (or skipped) activity."""
+    activity: str
+    list_name: str
+    priority: float
+    minutes: int
+    completed_at: datetime
+    skipped: bool = False
+    original_activity: str = ""  # original name before user edit (empty = unchanged)
