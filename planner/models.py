@@ -50,6 +50,7 @@ class CompletedItem:
     list_name: str
     priority: float
     minutes: int
-    completed_at: datetime
+    started_at: datetime          # when the activity started
+    completed_at: datetime        # when the activity ended
     skipped: bool = False
-    original_activity: str = ""  # original name before user edit (empty = unchanged)
+    original_activity: str = ""   # original name before user edit (empty = unchanged)

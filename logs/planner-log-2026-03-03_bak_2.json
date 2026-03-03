@@ -4,17 +4,14 @@
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
     "minutes": 1,
-    "started_at": "06:32:00",
     "completed_at": "06:32:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Rasieren, dabei Planung (Diskussion mit OpenClaw) LEMTRA",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 15,
-    "started_at": "06:46:00",
     "completed_at": "06:46:00",
     "skipped": false,
     "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA"
@@ -24,167 +21,134 @@
     "list": "Liste_Morgentoilette",
     "priority": 1.835,
     "minutes": 4,
-    "started_at": "12:24:00",
     "completed_at": "12:24:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 4,
-    "started_at": "12:56:00",
     "completed_at": "12:56:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Vorbereitung Playlist für Hören unter der Dusche RWYTPL",
     "list": "Liste_Morgentoilette",
     "priority": 1.838,
     "minutes": 8,
-    "started_at": "08:52:00",
     "completed_at": "08:52:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Feinschliff bei der Rasur LEMTFR",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 6,
-    "started_at": "08:10:00",
     "completed_at": "08:10:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Ausputzen Rasierer LEMTAR",
     "list": "Liste_Morgentoilette",
     "priority": 1.846,
     "minutes": 2,
-    "started_at": "08:18:00",
     "completed_at": "08:18:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Bearb.Ohrwürmer(durchgenommen) MUOWDU",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 3,
-    "started_at": "13:00:21",
-    "completed_at": "20:24:26",
-    "skipped": true,
-    "original_activity": ""
+    "completed_at": "13:00:21",
+    "skipped": true
   },
   {
     "activity": "Ausziehen LEMTAZ",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 1,
-    "started_at": "08:31:00",
     "completed_at": "08:31:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "WC LEMTWC",
     "list": "Liste_Morgentoilette",
     "priority": 1.839,
     "minutes": 5,
-    "started_at": "08:40:00",
     "completed_at": "08:40:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Abwiegen LEMTAW",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 1,
-    "started_at": "13:01:21",
-    "completed_at": "20:24:26",
-    "skipped": true,
-    "original_activity": ""
+    "completed_at": "13:01:21",
+    "skipped": true
   },
   {
     "activity": "Reinigung Waschmuschel LEMTRW",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 1,
-    "started_at": "08:43:00",
     "completed_at": "08:43:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Starten Youtube-Playlist MUOWSP",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 1,
-    "started_at": "13:01:49",
-    "completed_at": "20:24:26",
-    "skipped": true,
-    "original_activity": ""
+    "completed_at": "13:01:49",
+    "skipped": true
   },
   {
     "activity": "Duschen LEMTDU",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
     "minutes": 20,
-    "started_at": "09:11:00",
     "completed_at": "09:11:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Einschmieren GEMTES",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
     "minutes": 2,
-    "started_at": "13:03:00",
     "completed_at": "13:03:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Anziehen LEMTAN",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
     "minutes": 3,
-    "started_at": "09:15:00",
     "completed_at": "09:15:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Bett machen LEMTBM",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 3,
-    "started_at": "09:22:00",
     "completed_at": "09:22:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Vorbereitung Playlist für Hören beim Frühstück RWYTPL",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
     "minutes": 6,
-    "started_at": "09:25:00",
     "completed_at": "09:25:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte, Einlass Sati (9:28) LEMTFR",
     "list": "Liste_Morgentoilette",
     "priority": 1.845,
     "minutes": 25,
-    "started_at": "09:41:00",
     "completed_at": "09:41:00",
     "skipped": false,
     "original_activity": "Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFR"
@@ -194,49 +158,24 @@
     "list": "Liste_untertags",
     "priority": 1.835,
     "minutes": 15,
-    "started_at": "10:41:00",
     "completed_at": "10:41:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Termine in Kalender prüfen LEMTTP",
     "list": "Liste_untertags",
     "priority": 1.832,
     "minutes": 1,
-    "started_at": "07:15:00",
     "completed_at": "07:15:00",
-    "skipped": false,
-    "original_activity": ""
+    "skipped": false
   },
   {
     "activity": "Mailprüfung -> zu unsubscriben aus Junk-Mail-Ordner: LOTTO GLÜCKSKARTE, EDWAR ACHAPUMA CHO..., Max von smava, Ihre goldene Karte, Ihr Darlehen, NordVPN Team INMAPR",
     "list": "Liste_untertags",
     "priority": 1.832,
     "minutes": 2,
-    "started_at": "13:08:00",
     "completed_at": "13:08:00",
     "skipped": false,
     "original_activity": "Mailprüfung INMAPR"
-  },
-  {
-    "activity": "Mund spülen LEMTMS",
-    "list": "Nach_Fruehstueck",
-    "priority": 1.845,
-    "minutes": 2,
-    "started_at": "10:18:00",
-    "completed_at": "10:20:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Häferl waschen / Hustenbonbon fassen LEMTHW",
-    "list": "Nach_Fruehstueck",
-    "priority": 1.845,
-    "minutes": 2,
-    "started_at": "10:20:00",
-    "completed_at": "10:21:00",
-    "skipped": false,
-    "original_activity": ""
   }
 ]

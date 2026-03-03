@@ -1,90 +1,49 @@
 """
-main.py — Entry point for the reactive daily planner.
-
-Usage:
-  py planner/main.py
-
-The tool:
-  1. Shows a startup dialog to confirm day type (auto-detected).
-  2. Parses Planungsaktivitaeten.csv with correct encoding.
-  3. Initialises the reactive engine with Liste_Morgentoilette active.
-  4. Opens the main planner window.
+main.py — Entry point for the reactive planner.
 """
+import tkinter as tk
 import sys
 import os
-import tkinter as tk
-from tkinter import messagebox
+from datetime import datetime
 
-# Make sure we can import sibling modules regardless of cwd
-sys.path.insert(0, os.path.dirname(__file__))
-
-from csv_parser import parse_csv, CSV_PATH
-from engine import PlannerEngine
-from gui import PlannerGUI
 from startup_dialog import show_startup_dialog
 from day_context import DayContext
+from engine import PlannerEngine
+from gui import PlannerGUI
+from csv_parser import parse_csv
+
+ENGINE_DIR = os.path.dirname(__file__)
 
 
 def main():
-    # ── 1. Startup dialog ──────────────────────────────────────────────
+    # --- 1. Setup Context ---
     ctx = show_startup_dialog()
-    if ctx is None:
-        # User cancelled
+    if not ctx:
         sys.exit(0)
 
-    # ── 2. Parse CSV ───────────────────────────────────────────────────
-    try:
-        raw_lists = parse_csv(CSV_PATH)
-    except FileNotFoundError:
-        root = tk.Tk()
-        root.withdraw()
-        messagebox.showerror(
-            "CSV nicht gefunden",
-            f"Planungsaktivitaeten.csv wurde nicht gefunden:\n{CSV_PATH}"
-        )
-        sys.exit(1)
-    except Exception as exc:
-        root = tk.Tk()
-        root.withdraw()
-        messagebox.showerror("Fehler beim Lesen der CSV", str(exc))
-        sys.exit(1)
-
-    total_rows = sum(len(v) for v in raw_lists.values())
-    print(
-        f"[Planer] CSV geladen: {len(raw_lists)} Listen, "
-        f"{total_rows} Zeilen. Tagestyp: {ctx.describe()}"
-    )
-
-    # ── 3. Initialise engine ──────────────────────────────────────────
+    # --- 2. Load CSV and Initialize Engine ---
+    raw_lists = parse_csv()
     engine = PlannerEngine(raw_lists, ctx)
 
-    active = engine.get_active_lists()
-    print(f"[Planer] Aktive Listen beim Start: {[ls.name for ls in active]}")
+    # --- 3. Load today's log to restore state ---
+    today_log = os.path.join(ENGINE_DIR, "..", "logs",
+                             f"planner-log-{datetime.now().strftime('%Y-%m-%d')}.json")
+    done, skipped = engine.load_log(today_log)
+    if done or skipped:
+        print(f"[Planer] Restored from log: {done} done, {skipped} skipped.")
+
+    active = [ls.name for ls in engine.get_active_lists()]
+    print(f"[Planer] Active lists: {active}")
+
     best = engine.get_best_candidate()
     if best:
-        ls, row = best
-        print(f"[Planer] Erste Aufgabe: {row.activity!r} ({ls.name})")
+        print(f"[Planer] Next task: '{best[1].activity}' ({best[0].name})")
 
-    # ── 4. Main window ────────────────────────────────────────────────
+    # --- 4. Start GUI ---
+    # Note: Log is saved manually via the "Save Log" button.
+    # Closing the window does NOT auto-save to prevent data loss.
     root = tk.Tk()
-    root.configure(bg="#1e1e2e")
-
-    # Set a reasonable initial size and let user resize
-    root.geometry("920x580")
-    root.minsize(640, 460)
-
-    # Handle close: save log before exit
-    def on_close():
-        try:
-            path = engine.save_log()
-            print(f"[Planer] Log gespeichert: {path}")
-        except Exception as e:
-            print(f"[Planer] Warnung: Log konnte nicht gespeichert werden: {e}")
-        root.destroy()
-
-    root.protocol("WM_DELETE_WINDOW", on_close)
-
-    PlannerGUI(root, engine)
+    app = PlannerGUI(root, engine)
     root.mainloop()
 
 
