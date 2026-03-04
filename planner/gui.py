@@ -169,6 +169,12 @@ class PlannerGUI:
         )
         self.btn_save.pack(side=tk.RIGHT)
 
+        self.btn_report = tk.Button(
+            btn_frame, text="📊  Tagesbericht", bg=COLOR_LIST, fg=COLOR_FG,
+            command=self._on_report, **btn_cfg
+        )
+        self.btn_report.pack(side=tk.RIGHT, padx=(0, 6))
+
         # ── Status bar ────────────────────────────────────────────────
         self.status_bar = tk.Label(
             self.root, text="", font=("Segoe UI", 9),
@@ -785,6 +791,56 @@ class PlannerGUI:
     def _on_save_log(self):
         path = self.engine.save_log()
         messagebox.showinfo("Log gespeichert", f"Log gespeichert:\n{path}")
+
+    def _on_report(self):
+        """Generate and display the day report."""
+        # Save log first to ensure report has latest data
+        self.engine.save_log()
+
+        from day_report import generate_report
+        date_str = datetime.now().strftime("%Y-%m-%d")
+        report = generate_report(date_str)
+
+        if report is None:
+            messagebox.showerror(
+                "Fehler",
+                "Tagesbericht konnte nicht erstellt werden.\n"
+                "Projection- oder Log-Datei fehlt.")
+            return
+
+        # Save report file
+        import os
+        log_dir = os.path.join(os.path.dirname(__file__), "..", "logs")
+        report_path = os.path.join(log_dir, f"report-{date_str}.txt")
+        with open(report_path, "w", encoding="utf-8") as f:
+            f.write(report)
+
+        # Show in a scrollable dialog
+        dlg = tk.Toplevel(self.root)
+        dlg.title(f"Tagesbericht — {date_str}")
+        dlg.configure(bg=COLOR_BG)
+        dlg.geometry("750x600")
+
+        txt = tk.Text(
+            dlg, bg=COLOR_LIST, fg=COLOR_FG,
+            font=("Consolas", 9), wrap=tk.NONE,
+            relief=tk.FLAT, padx=10, pady=10
+        )
+        scroll_y = ttk.Scrollbar(dlg, orient=tk.VERTICAL, command=txt.yview)
+        scroll_x = ttk.Scrollbar(dlg, orient=tk.HORIZONTAL, command=txt.xview)
+        txt.configure(yscrollcommand=scroll_y.set,
+                      xscrollcommand=scroll_x.set)
+        scroll_y.pack(side=tk.RIGHT, fill=tk.Y)
+        scroll_x.pack(side=tk.BOTTOM, fill=tk.X)
+        txt.pack(fill=tk.BOTH, expand=True)
+
+        txt.insert(tk.END, report)
+        txt.config(state=tk.DISABLED)
+
+        tk.Label(
+            dlg, text=f"Gespeichert: {report_path}",
+            font=("Segoe UI", 8), bg=COLOR_BG, fg="#6c7086"
+        ).pack(pady=4)
 
 
     def _show_done_dialog(self, ls: ListState, row: CsvRow):
