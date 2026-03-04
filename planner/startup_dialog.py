@@ -58,6 +58,24 @@ class StartupDialog:
         frame = tk.Frame(self.win, bg=COLOR_PANEL, padx=16, pady=14)
         frame.pack(padx=20, pady=10, fill=tk.X)
 
+        # Work type selector (only meaningful Mon–Fri)
+        is_weekday = today.weekday() < 5
+        wt_frame = tk.Frame(frame, bg=COLOR_PANEL)
+        wt_frame.pack(anchor="w", pady=(0, 8))
+        tk.Label(
+            wt_frame, text="Arbeitstyp:",
+            font=("Segoe UI", 10), bg=COLOR_PANEL, fg=COLOR_FG
+        ).pack(side=tk.LEFT)
+        self.var_work_type = tk.StringVar(value="auto")
+        wt_combo = ttk.Combobox(
+            wt_frame, textvariable=self.var_work_type,
+            values=["auto", "Bürotag", "Teleworking"],
+            state="readonly" if is_weekday else "disabled",
+            width=14, font=("Segoe UI", 10)
+        )
+        wt_combo.pack(side=tk.LEFT, padx=(8, 0))
+        wt_combo.bind("<<ComboboxSelected>>", lambda *_: self._update_preview())
+
         # Feiertag checkbox
         self.var_feiertag = tk.BooleanVar(value=False)
         tk.Checkbutton(
@@ -119,10 +137,20 @@ class StartupDialog:
         self.win.protocol("WM_DELETE_WINDOW", self._on_cancel)
         self.root.wait_window(self.win)
 
+    def _work_type_key(self) -> str:
+        """Map combobox value to DayContext key."""
+        val = self.var_work_type.get()
+        if val == "Bürotag":
+            return "burotag"
+        elif val == "Teleworking":
+            return "teleworking"
+        return "auto"
+
     def _update_preview(self):
         ctx = DayContext.from_today(
             is_feiertag=self.var_feiertag.get(),
             is_urlaubstag=self.var_urlaubstag.get(),
+            work_type_override=self._work_type_key(),
         )
         self.lbl_preview.config(text=f"Tagestyp: {ctx.describe()}")
 
@@ -130,6 +158,7 @@ class StartupDialog:
         self.result = DayContext.from_today(
             is_feiertag=self.var_feiertag.get(),
             is_urlaubstag=self.var_urlaubstag.get(),
+            work_type_override=self._work_type_key(),
         )
         self.win.destroy()
 

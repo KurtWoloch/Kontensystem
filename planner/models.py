@@ -41,6 +41,9 @@ class ListState:
     active: bool = False
     wait_until: Optional[datetime] = None   # list is blocked until this time
     current_activity: Optional[CsvRow] = None  # resolved front-of-queue item
+    # Interruption tracking
+    pending_start: Optional[datetime] = None   # resume start time after interruption
+    continuation_count: int = 0                # how many times current item was interrupted
 
 
 @dataclass
@@ -54,3 +57,4 @@ class CompletedItem:
     completed_at: datetime        # when the activity ended
     skipped: bool = False
     original_activity: str = ""   # original name before user edit (empty = unchanged)
+    comment: str = ""             # optional user comment (skip reason, notes, etc.)

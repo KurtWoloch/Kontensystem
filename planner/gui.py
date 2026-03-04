@@ -48,6 +48,7 @@ class PlannerGUI:
         self._current: Optional[Tuple[ListState, CsvRow]] = None
 
         self._build_ui()
+        self.root.protocol("WM_DELETE_WINDOW", self._on_close)
         self._tick()
         self._refresh()
 
@@ -78,26 +79,19 @@ class PlannerGUI:
         self.lbl_daytype.pack(side=tk.RIGHT, pady=8)
         self.lbl_daytype.config(text=self.engine.ctx.describe())
 
-        # ── Main area: current task + queue ───────────────────────────
-        main_frame = tk.Frame(self.root, bg=COLOR_BG)
-        main_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=6)
-        main_frame.columnconfigure(0, weight=3)
-        main_frame.columnconfigure(1, weight=2)
-        main_frame.rowconfigure(0, weight=1)
-
-        # Left: current task panel
-        task_panel = tk.Frame(main_frame, bg=COLOR_PANEL, relief=tk.FLAT, bd=1)
-        task_panel.grid(row=0, column=0, sticky="nsew", padx=(0, 4))
+        # ── Current task panel (compact, full width) ─────────────────
+        task_panel = tk.Frame(self.root, bg=COLOR_PANEL, relief=tk.FLAT, bd=1)
+        task_panel.pack(fill=tk.X, padx=10, pady=(6, 0))
 
         self.lbl_task_name = tk.Label(
             task_panel, text="—", font=("Segoe UI", 16, "bold"),
-            bg=COLOR_PANEL, fg=COLOR_FG, wraplength=480,
-            justify=tk.LEFT, anchor="nw", padx=14, pady=10
+            bg=COLOR_PANEL, fg=COLOR_FG, wraplength=860,
+            justify=tk.LEFT, anchor="w"
         )
-        self.lbl_task_name.pack(fill=tk.BOTH, expand=True)
+        self.lbl_task_name.pack(fill=tk.X, padx=14, pady=(8, 2))
 
         meta_row = tk.Frame(task_panel, bg=COLOR_PANEL)
-        meta_row.pack(fill=tk.X, padx=14, pady=(0, 8))
+        meta_row.pack(fill=tk.X, padx=14, pady=(0, 6))
 
         self.lbl_list_name = tk.Label(
             meta_row, text="", font=("Segoe UI", 10),
@@ -117,12 +111,12 @@ class PlannerGUI:
         )
         self.lbl_start_time.pack(side=tk.RIGHT, padx=(0, 4))
 
-        # Right: queue panel
-        queue_panel = tk.Frame(main_frame, bg=COLOR_PANEL, relief=tk.FLAT, bd=1)
-        queue_panel.grid(row=0, column=1, sticky="nsew", padx=(4, 0))
+        # ── Queue panel (full width, below current task) ──────────────
+        queue_panel = tk.Frame(self.root, bg=COLOR_PANEL, relief=tk.FLAT, bd=1)
+        queue_panel.pack(fill=tk.BOTH, expand=True, padx=10, pady=(4, 6))
 
         tk.Label(
-            queue_panel, text="Warteschlange", font=("Segoe UI", 9, "bold"),
+            queue_panel, text="Tagesplan", font=("Segoe UI", 9, "bold"),
             bg=COLOR_PANEL, fg=COLOR_HEADER, anchor="w", padx=8, pady=4
         ).pack(fill=tk.X)
 
@@ -156,6 +150,12 @@ class PlannerGUI:
             command=self._on_skip, **btn_cfg
         )
         self.btn_skip.pack(side=tk.LEFT, padx=(0, 6))
+
+        self.btn_interrupt = tk.Button(
+            btn_frame, text="⏸  Unterbrechen", bg=COLOR_WAIT, fg="#1e1e2e",
+            command=self._on_interrupt, **btn_cfg
+        )
+        self.btn_interrupt.pack(side=tk.LEFT, padx=(0, 6))
 
         self.btn_adhoc = tk.Button(
             btn_frame, text="📝  Ungeplant", bg=COLOR_PAUSE, fg="#1e1e2e",
@@ -230,6 +230,8 @@ class PlannerGUI:
         ls, row = best
         # Strip 6-char task code at end for display
         display_name = _strip_task_code(row.activity)
+        if ls.continuation_count > 0:
+            display_name += "  (Fs.)"
 
         self.lbl_task_name.config(text=display_name, fg=COLOR_FG)
         self.lbl_list_name.config(text=ls.name)
@@ -244,38 +246,74 @@ class PlannerGUI:
             self.lbl_start_time.config(text="")
 
     def _update_queue(self):
+        # Preserve scroll position across redraws
+        scroll_pos = self.queue_listbox.yview()
         self.queue_listbox.delete(0, tk.END)
-        candidates = self.engine.get_all_candidates()
 
-        # Also show waiting lists
-        waits = {name: until for name, until in self.engine.get_wait_status()}
+        projection = self.engine.get_day_projection()
+        if not projection:
+            self.queue_listbox.insert(tk.END, "  (keine weiteren Einträge)")
+            return
 
-        for ls, row in candidates:
-            tag = "  ⏰" if row.starting_time else ""
-            entry = (
-                f"[{ls.name[:18]:<18}] "
-                f"{_strip_task_code(row.activity)[:35]:<35}"
-                f"  {row.minutes:>3}' p{row.priority:.2f}{tag}"
-            )
+        # Projection is already in chronological order (interleaved)
+        prev_list = None
+        for item in projection:
+            state = item['state']
+            est = item.get('est_start')
+            time_col = est.strftime('%H:%M') if isinstance(est, datetime) else '     '
+            end = item.get('est_end')
+            end_col = end.strftime('%H:%M') if isinstance(end, datetime) else '     '
+
+            name = _strip_task_code(item['activity'])
+            mins = item['minutes']
+            ln = item['list_name']
+
+            # Show list name tag when switching lists
+            list_tag = ""
+            if ln != prev_list:
+                list_tag = f"[{ln}]"
+                prev_list = ln
+
+            prefix = "▶ " if state == "current" else "  "
+            fixed = "⏰" if item.get('fixed_time') else "  "
+
+            entry = f"{prefix}{time_col}–{end_col}  {fixed} {name}  ({mins}')"
             self.queue_listbox.insert(tk.END, entry)
 
-        if waits:
-            self.queue_listbox.insert(tk.END, "")
-            self.queue_listbox.insert(tk.END, "── Wartend ──")
-            for name, until in waits.items():
-                remaining = int((until - datetime.now()).total_seconds() / 60) + 1
-                self.queue_listbox.insert(
-                    tk.END, f"  {name}: noch ~{remaining} Min."
-                )
+            # Color by state
+            if state == 'current':
+                self.queue_listbox.itemconfig(
+                    tk.END, fg=COLOR_ACCENT,
+                    selectforeground=COLOR_ACCENT)
+            elif state == 'scheduled':
+                self.queue_listbox.itemconfig(
+                    tk.END, fg=COLOR_WAIT,
+                    selectforeground=COLOR_WAIT)
+
+            # Show list tag on a separate subtle line if list changed
+            if list_tag:
+                # Insert the tag BEFORE the item — swap order
+                idx = self.queue_listbox.size() - 1
+                self.queue_listbox.insert(idx, f"  {list_tag}")
+                self.queue_listbox.itemconfig(
+                    idx, fg=COLOR_HEADER, selectforeground=COLOR_HEADER)
+
+        # Restore scroll position
+        self.queue_listbox.yview_moveto(scroll_pos[0])
 
     def _update_status(self):
         done = self.engine.items_done_today()
         skipped = self.engine.items_skipped_today()
         active = len(self.engine.get_active_lists())
         waits = len(self.engine.get_wait_status())
+        # Count remaining activities in projection
+        projection = self.engine.get_day_projection()
+        remaining = sum(1 for p in projection
+                        if not p.get('is_control') and p['state'] != 'current')
         self.status_bar.config(
             text=(
                 f"  Erledigt: {done}  |  Übersprungen: {skipped}  "
+                f"|  Offen: {remaining}  "
                 f"|  Aktive Listen: {active}  |  Wartend: {waits}"
             )
         )
@@ -296,8 +334,80 @@ class PlannerGUI:
         best = self.engine.get_best_candidate()
         if best:
             ls, row = best
-            self.engine.mark_skip(ls, row)
+            self._show_skip_dialog(ls, row)
+
+    def _show_skip_dialog(self, ls, row):
+        """Dialog to enter a reason before skipping."""
+        dlg = tk.Toplevel(self.root)
+        dlg.title("Aufgabe überspringen")
+        dlg.configure(bg=COLOR_BG)
+        dlg.resizable(False, False)
+        dlg.grab_set()
+
+        display = _strip_task_code(row.activity)
+        if ls.continuation_count > 0:
+            display += " (Fs.)"
+        tk.Label(
+            dlg, text=f"Überspringen: {display}",
+            font=("Segoe UI", 10, "bold"), bg=COLOR_BG, fg=COLOR_SKIP,
+            wraplength=500, justify=tk.LEFT
+        ).pack(anchor="w", padx=12, pady=(10, 6))
+
+        tk.Label(
+            dlg, text="Begründung (optional):",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(anchor="w", padx=12, pady=(4, 2))
+
+        comment_var = tk.StringVar(value="")
+        comment_entry = tk.Entry(
+            dlg, textvariable=comment_var, font=("Segoe UI", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, insertbackground=COLOR_FG,
+            width=50
+        )
+        comment_entry.pack(padx=12, pady=(0, 8))
+        comment_entry.focus_set()
+
+        btn_frame = tk.Frame(dlg, bg=COLOR_BG)
+        btn_frame.pack(pady=(4, 12))
+
+        def on_confirm():
+            dlg.destroy()
+            self.engine.mark_skip(ls, row,
+                                  comment=comment_var.get().strip())
             self._refresh()
+
+        def on_cancel():
+            dlg.destroy()
+
+        tk.Button(
+            btn_frame, text="  ⏭ Überspringen  ",
+            font=("Segoe UI", 11, "bold"),
+            bg=COLOR_SKIP, fg="#1e1e2e", relief=tk.FLAT,
+            cursor="hand2", command=on_confirm
+        ).pack(side=tk.LEFT, padx=4)
+
+        tk.Button(
+            btn_frame, text="  Abbrechen  ",
+            font=("Segoe UI", 11),
+            bg=COLOR_BTN, fg=COLOR_FG, relief=tk.FLAT,
+            cursor="hand2", command=on_cancel
+        ).pack(side=tk.LEFT, padx=4)
+
+        dlg.bind("<Return>", lambda e: on_confirm())
+        dlg.bind("<Escape>", lambda e: on_cancel())
+
+        dlg.update_idletasks()
+        x = self.root.winfo_x() + (self.root.winfo_width() - dlg.winfo_width()) // 2
+        y = self.root.winfo_y() + (self.root.winfo_height() - dlg.winfo_height()) // 2
+        dlg.geometry(f"+{x}+{y}")
+
+    def _on_interrupt(self):
+        """Interrupt the current task with another activity."""
+        self.engine.tick()
+        best = self.engine.get_best_candidate()
+        if best:
+            ls, row = best
+            self._show_interrupt_dialog(ls, row)
 
     def _on_adhoc(self):
         """Log an unplanned activity without advancing the current item."""
@@ -398,6 +508,19 @@ class PlannerGUI:
             font=("Segoe UI", 8, "italic"), bg=COLOR_BG, fg="#6c7086"
         ).pack(side=tk.LEFT, padx=(10, 0))
 
+        # Comment field
+        tk.Label(
+            dlg, text="Kommentar (optional):",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(anchor="w", padx=12, pady=(4, 2))
+
+        adhoc_comment_var = tk.StringVar(value="")
+        tk.Entry(
+            dlg, textvariable=adhoc_comment_var, font=("Segoe UI", 10),
+            bg=COLOR_LIST, fg=COLOR_FG, insertbackground=COLOR_FG,
+            width=60
+        ).pack(padx=12, pady=(0, 8))
+
         # Validation message
         lbl_error = tk.Label(
             dlg, text="", font=("Segoe UI", 9, "bold"),
@@ -437,7 +560,8 @@ class PlannerGUI:
                 return
 
             dlg.destroy()
-            self.engine.log_adhoc(activity, start_time, end_time)
+            self.engine.log_adhoc(activity, start_time, end_time,
+                                  comment=adhoc_comment_var.get().strip())
             self._refresh()
 
         def on_cancel():
@@ -466,6 +590,198 @@ class PlannerGUI:
         y = self.root.winfo_y() + (self.root.winfo_height() - dlg.winfo_height()) // 2
         dlg.geometry(f"+{x}+{y}")
 
+    def _show_interrupt_dialog(self, ls, row):
+        """Dialog to record an interruption of the current task."""
+        dlg = tk.Toplevel(self.root)
+        dlg.title("Aufgabe unterbrechen")
+        dlg.configure(bg=COLOR_BG)
+        dlg.resizable(False, False)
+        dlg.grab_set()
+
+        # Show what's being interrupted
+        display = _strip_task_code(row.activity)
+        if ls.continuation_count > 0:
+            display += " (Fs.)"
+        tk.Label(
+            dlg, text=f"Unterbreche: {display}",
+            font=("Segoe UI", 10, "bold"), bg=COLOR_BG, fg=COLOR_ACCENT,
+            wraplength=500, justify=tk.LEFT
+        ).pack(anchor="w", padx=12, pady=(10, 6))
+
+        # Interrupting activity name
+        tk.Label(
+            dlg, text="Unterbrechung durch:",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(anchor="w", padx=12, pady=(4, 2))
+
+        txt_var = tk.StringVar(value="")
+        txt_entry = tk.Entry(
+            dlg, textvariable=txt_var, font=("Segoe UI", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, insertbackground=COLOR_FG,
+            width=50
+        )
+        txt_entry.pack(padx=12, pady=(0, 8))
+        txt_entry.focus_set()
+
+        now = datetime.now()
+
+        # ── Interrupt start time ──────────────────────────────────────
+        start_frame = tk.Frame(dlg, bg=COLOR_BG)
+        start_frame.pack(fill=tk.X, padx=12, pady=(0, 4))
+
+        tk.Label(
+            start_frame, text="Unterbrochen um:",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(side=tk.LEFT)
+
+        start_h_var = tk.StringVar(value=f"{now.hour:02d}")
+        start_m_var = tk.StringVar(value=f"{now.minute:02d}")
+
+        tk.Spinbox(
+            start_frame, from_=0, to=23, width=3, format="%02.0f",
+            textvariable=start_h_var, font=("Consolas", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+        ).pack(side=tk.LEFT, padx=(8, 0))
+
+        tk.Label(
+            start_frame, text=":", font=("Consolas", 11),
+            bg=COLOR_BG, fg=COLOR_FG
+        ).pack(side=tk.LEFT)
+
+        tk.Spinbox(
+            start_frame, from_=0, to=59, width=3, format="%02.0f",
+            textvariable=start_m_var, font=("Consolas", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+        ).pack(side=tk.LEFT)
+
+        # ── Interrupt end / resume time ───────────────────────────────
+        end_frame = tk.Frame(dlg, bg=COLOR_BG)
+        end_frame.pack(fill=tk.X, padx=12, pady=(0, 8))
+
+        tk.Label(
+            end_frame, text="Fortgesetzt um:  ",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(side=tk.LEFT)
+
+        end_h_var = tk.StringVar(value=f"{now.hour:02d}")
+        end_m_var = tk.StringVar(value=f"{now.minute:02d}")
+
+        tk.Spinbox(
+            end_frame, from_=0, to=23, width=3, format="%02.0f",
+            textvariable=end_h_var, font=("Consolas", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+        ).pack(side=tk.LEFT, padx=(8, 0))
+
+        tk.Label(
+            end_frame, text=":", font=("Consolas", 11),
+            bg=COLOR_BG, fg=COLOR_FG
+        ).pack(side=tk.LEFT)
+
+        tk.Spinbox(
+            end_frame, from_=0, to=59, width=3, format="%02.0f",
+            textvariable=end_m_var, font=("Consolas", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+        ).pack(side=tk.LEFT)
+
+        # Comment field
+        tk.Label(
+            dlg, text="Kommentar (optional):",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(anchor="w", padx=12, pady=(4, 2))
+
+        int_comment_var = tk.StringVar(value="")
+        tk.Entry(
+            dlg, textvariable=int_comment_var, font=("Segoe UI", 10),
+            bg=COLOR_LIST, fg=COLOR_FG, insertbackground=COLOR_FG,
+            width=50
+        ).pack(padx=12, pady=(0, 8))
+
+        # Validation message
+        lbl_error = tk.Label(
+            dlg, text="", font=("Segoe UI", 9, "bold"),
+            bg=COLOR_BG, fg=COLOR_SKIP
+        )
+        lbl_error.pack(padx=12)
+
+        # Buttons
+        btn_frame = tk.Frame(dlg, bg=COLOR_BG)
+        btn_frame.pack(pady=(4, 12))
+
+        def on_confirm():
+            activity = txt_var.get().strip()
+            if not activity:
+                lbl_error.config(text="⚠ Bezeichnung darf nicht leer sein!")
+                return
+
+            try:
+                sh = int(start_h_var.get())
+                sm = int(start_m_var.get())
+                int_start = now.replace(hour=sh, minute=sm,
+                                        second=0, microsecond=0)
+            except ValueError:
+                int_start = now
+
+            try:
+                eh = int(end_h_var.get())
+                em = int(end_m_var.get())
+                int_end = now.replace(hour=eh, minute=em,
+                                      second=0, microsecond=0)
+            except ValueError:
+                int_end = now
+
+            if int_end < int_start:
+                lbl_error.config(
+                    text="⚠ Fortgesetzt darf nicht vor Unterbrochen liegen!")
+                return
+
+            dlg.destroy()
+            self.engine.interrupt_current(
+                ls, row, activity, int_start, int_end,
+                comment=int_comment_var.get().strip())
+            self._refresh()
+
+        def on_cancel():
+            dlg.destroy()
+
+        tk.Button(
+            btn_frame, text="  ✓ Erfassen  ",
+            font=("Segoe UI", 11, "bold"),
+            bg=COLOR_WAIT, fg="#1e1e2e", relief=tk.FLAT,
+            cursor="hand2", command=on_confirm
+        ).pack(side=tk.LEFT, padx=4)
+
+        tk.Button(
+            btn_frame, text="  Abbrechen  ",
+            font=("Segoe UI", 11),
+            bg=COLOR_BTN, fg=COLOR_FG, relief=tk.FLAT,
+            cursor="hand2", command=on_cancel
+        ).pack(side=tk.LEFT, padx=4)
+
+        dlg.bind("<Return>", lambda e: on_confirm())
+        dlg.bind("<Escape>", lambda e: on_cancel())
+
+        # Center on parent
+        dlg.update_idletasks()
+        x = self.root.winfo_x() + (self.root.winfo_width() - dlg.winfo_width()) // 2
+        y = self.root.winfo_y() + (self.root.winfo_height() - dlg.winfo_height()) // 2
+        dlg.geometry(f"+{x}+{y}")
+
+    def _on_close(self):
+        """Handle window close — prompt to save if there are unsaved changes."""
+        if self.engine.unsaved_changes:
+            answer = messagebox.askyesnocancel(
+                "Ungespeicherte Änderungen",
+                "Es gibt ungespeicherte Log-Einträge.\n\n"
+                "Möchten Sie das Log vor dem Beenden speichern?",
+                icon="warning"
+            )
+            if answer is None:
+                return  # Cancel — don't close
+            if answer:
+                path = self.engine.save_log()
+                print(f"[Planer] Log gespeichert: {path}")
+        self.root.destroy()
+
     def _on_save_log(self):
         path = self.engine.save_log()
         messagebox.showinfo("Log gespeichert", f"Log gespeichert:\n{path}")
@@ -479,13 +795,17 @@ class PlannerGUI:
         dlg.resizable(False, False)
         dlg.grab_set()
 
-        # Activity text (editable)
+        # Activity text (editable) — add "(Fs.)" suffix if continuation
+        display_activity = row.activity
+        if ls.continuation_count > 0:
+            display_activity = f"{row.activity} (Fs.)"
+
         tk.Label(
             dlg, text="Bezeichnung (bearbeiten falls nötig):",
             font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
         ).pack(anchor="w", padx=12, pady=(10, 2))
 
-        txt_var = tk.StringVar(value=row.activity)
+        txt_var = tk.StringVar(value=display_activity)
         txt_entry = tk.Entry(
             dlg, textvariable=txt_var, font=("Segoe UI", 11),
             bg=COLOR_LIST, fg=COLOR_FG, insertbackground=COLOR_FG,
@@ -497,9 +817,14 @@ class PlannerGUI:
 
         now = datetime.now()
 
-        # Default start time = last item's end time, or now
-        last_end = self.engine.last_completed_at()
-        default_start = last_end if last_end else now
+        # Use pending_start from interruption, else last completed time
+        if ls.pending_start:
+            default_start = ls.pending_start
+            start_hint = "(Vorgabe: nach Unterbrechung)"
+        else:
+            last_end = self.engine.last_completed_at()
+            default_start = last_end if last_end else now
+            start_hint = "(Vorgabe: Ende vorh. Aufgabe)"
 
         # ── Start time row ────────────────────────────────────────────
         start_frame = tk.Frame(dlg, bg=COLOR_BG)
@@ -531,7 +856,7 @@ class PlannerGUI:
         ).pack(side=tk.LEFT)
 
         tk.Label(
-            start_frame, text=f"(Vorgabe: Ende vorh. Aufgabe)",
+            start_frame, text=start_hint,
             font=("Segoe UI", 8, "italic"), bg=COLOR_BG, fg="#6c7086"
         ).pack(side=tk.LEFT, padx=(10, 0))
 
@@ -568,6 +893,20 @@ class PlannerGUI:
             end_frame, text="(Vorgabe: jetzt)",
             font=("Segoe UI", 8, "italic"), bg=COLOR_BG, fg="#6c7086"
         ).pack(side=tk.LEFT, padx=(10, 0))
+
+        # Comment field
+        tk.Label(
+            dlg, text="Kommentar (optional):",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(anchor="w", padx=12, pady=(4, 2))
+
+        comment_var = tk.StringVar(value="")
+        comment_entry = tk.Entry(
+            dlg, textvariable=comment_var, font=("Segoe UI", 10),
+            bg=COLOR_LIST, fg=COLOR_FG, insertbackground=COLOR_FG,
+            width=60
+        )
+        comment_entry.pack(padx=12, pady=(0, 8))
 
         # Validation message label
         lbl_error = tk.Label(
@@ -609,7 +948,8 @@ class PlannerGUI:
             dlg.destroy()
             self.engine.mark_done(ls, row, custom_time=done_time,
                                   custom_text=custom_text,
-                                  start_time=start_time)
+                                  start_time=start_time,
+                                  comment=comment_var.get().strip())
             self._refresh()
 
         def on_cancel():

@@ -27,14 +27,38 @@ class DayContext:
     """Holds all boolean flags that drive condition evaluation."""
 
     def __init__(self, weekday: int, is_feiertag: bool = False,
-                 is_urlaubstag: bool = False):
-        self.weekday = weekday          # 0=Mon … 6=Sun
+                 is_urlaubstag: bool = False,
+                 work_type_override: str = "auto"):
+        """
+        Args:
+            weekday: 0=Mon … 6=Sun
+            is_feiertag: public holiday
+            is_urlaubstag: vacation day
+            work_type_override: "auto" (derive from weekday),
+                                "burotag" (force office day),
+                                "teleworking" (force home office)
+        """
+        self.weekday = weekday
         self.is_feiertag = is_feiertag
         self.is_urlaubstag = is_urlaubstag
 
         self.is_wochenende = weekday in (5, 6)
-        self.is_burotag = (weekday in (0, 2)) and not (is_feiertag or is_urlaubstag)
-        self.is_teleworking = (weekday in (1, 3, 4)) and not (is_feiertag or is_urlaubstag)
+
+        # Work type: respect override on weekdays (Mon–Fri) when not holiday/vacation
+        off = is_feiertag or is_urlaubstag or self.is_wochenende
+        if off:
+            self.is_burotag = False
+            self.is_teleworking = False
+        elif work_type_override == "burotag":
+            self.is_burotag = True
+            self.is_teleworking = False
+        elif work_type_override == "teleworking":
+            self.is_burotag = False
+            self.is_teleworking = True
+        else:  # "auto" — original weekday logic
+            self.is_burotag = weekday in (0, 2)
+            self.is_teleworking = weekday in (1, 3, 4)
+
         self.is_putztag = weekday in (1, 4)   # Tuesday or Friday
         self.is_brz_geplant = self.is_burotag
 
@@ -45,8 +69,10 @@ class DayContext:
 
     @classmethod
     def from_today(cls, is_feiertag: bool = False,
-                   is_urlaubstag: bool = False) -> "DayContext":
-        return cls(date.today().weekday(), is_feiertag, is_urlaubstag)
+                   is_urlaubstag: bool = False,
+                   work_type_override: str = "auto") -> "DayContext":
+        return cls(date.today().weekday(), is_feiertag, is_urlaubstag,
+                   work_type_override)
 
     def _eval_single_condition(self, token: str) -> bool:
         """Evaluate one comma-split token (may be negated with 'nicht' or '!')."""
