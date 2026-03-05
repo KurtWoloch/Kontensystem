@@ -1,0 +1,96 @@
+Dokumentation der Hauptaktivitäten der Musikversorgung durch Radio Würmchen - Status Quo
+Stand: 23.11,2008
+
+Inhalt
+
+Inhalt	1
+Gegenstand der Dokumentation	1
+Einteilung der Struktur der Aktivitäten	1
+Beschreibung der Hauptaktivitäten der Musikversorgung von Radio Würmchen (per Ende 2005)	1
+Radioprotokolle (Radio hören)	1
+Das Radio-Würmchen-Programm (von der Festplatte)	2
+Auflisten und Anhören von Kassetten und anderen Tonträgern	2
+Internet-Radiosendungen machen	3
+Musikversorgung bei Autofahrten und Badebesuchen	4
+
+Gegenstand der Dokumentation
+
+Dieses Dokument befaßt sich mit den Hauptaktivitäten von Radio Würmchen, die mit der Musikversorgung zu tun haben, und zwar mit dem Status Quo. Es wird dabei versucht, aufzuzeigen, wie die damit zusammenhängenden Projekte funktioniert haben, bevor die große Krise Ende 2005 über mich hineinbrach und damit die Dokumentationen begannen. Teilweise werden aber auch spätere Stände beschrieben, wenn dies zweckmäßig ist.
+
+Einteilung der Struktur der Aktivitäten
+
+Im folgenden erfolgt eine kurze hierarchische Darstellung der Aktivitäten des Radio-Würmchen-Kontos, die in dieser Dokumentation beschrieben werden:
+
+Radio-Würmchen-Konto
+	Musikversorgung
+		Hauptaktivitäten
+		Radio hören
+		Radio Würmchen von der Festplatte hören
+			Anhören eigener Tonträger
+			Musikversorgung bei Autofahrten und Badebesuchen
+			Durchführung von Internet-Radiosendungen
+			
+Beschreibung der Hauptaktivitäten der Musikversorgung von Radio Würmchen (per Ende 2005)
+
+Radioprotokolle (Radio hören)
+
+Seit Sommer 1998 beschäftige ich mich mit dem, was kommerzielle Radiosender tun. Seit damals werden immer wieder sogenannte Radioprotokolle durchgeführt, aus denen hervorgeht, was auf einem bestimmten Radiosender zu welcher Zeit gespielt wurde. Ich habe auch eine Maßgröße für die "Rotation" eines Radiosenders entwickelt. Dies sollte die Anzahl der vorhandenen unterschiedlichen Titel sein.
+Diese Zahl geht davon aus, daß alle Titel gleich oft vorkommen und jeder Titel zufällig ausgewählt wird. Wir gehen davon aus, daß R die Zahl der vorhandenen Titel und N die Zahl der schon gespielten Titel ist.
+In diesem Fall ist für jeden Titel die Wahrscheinlichkeit, daß er gespielt wird, 1/R. Die Wahrscheinlichkeit, daß er nicht gespielt wird, ist daher 1-(1/R). Wenn nun N Titel gelaufen sind, ist die Wahrscheinlichkeit, daß der Titel immer noch nicht gespielt wurde, (1-1/R)^N. Für alle Titel zusammen kann man nun die Anzahl der verschiedenen Titel berechnen, die bis dahin gelaufen sein sollten, mit V=N*((1-1/R)^N). Tippt man dies in eine Zielwertsuche ein, in der V (Zahl der verschiedenen Titel) und N (Anzahl der Titel, die gelaufen sind) bekannt sind, kann man Rückschlüsse auf V ziehen. Die somit ermittelte Rotation von 88.6 liegt z.B. derzeit bei ca. 1900 Titeln und die von Radio Wien bei ca. 1400 Titeln.
+Im Moment zeichne ich meist auf, was ich alles im Radio höre, und zwar hauptsächlich in der Früh beim Rasieren und bei der Arbeit am PC. Dafür muß auch bestimmt werden, welcher Sender gehört wird. Dazu bewerte ich auch immer jedes gespielte Lied. Kenne ich das Lied, so wird die Bewertung aus der Radio-Würmchen-Datenbank ermittelt. Für einen unbekannten Titel liegt die Bewertung für 20 Punkte bei 0 und erhöht bzw. erniedrigt sich mit jedem Punkt darüber oder darunter um 0,1. Daraus errechnet sich dann der Durchschnitt der Bewertungen für einen Tag zu dieser Uhrzeit. Bei diesem Scan verwende ich das Radio-Würmchen-Programm zur Eingabe der gehörten Titel und ihrer Wertungen. Der Haken dabei ist, daß der Titel in der Tonträgerdatenbank eingetragen sein muß, um gescannt werden zu können. Dies erfordert bei unbekannten Titeln wieder einen Zusatzaufwand.
+Das Radio-Würmchen-Programm (von der Festplatte)
+
+Ich habe auch eine eigene Musiksammlung auf der Festplatte und ein dazugehöriges, selbstgeschriebenes Programm, das dazu dient, aus dieser Sammlung ein möglichst gutes Musikprogramm zu erzeugen. Dieses basiert auf der Idee, ein Internetradio zu machen, indem meine 600 Top-Songs enthalten sein sollten. Dazu gibt es auch ein Rotationsschema, das so funktioniert wie bei vielen Radiostationen, nämlich daß die am besten bewerteten Titel am häufigsten kommen und die schlechter bewerteten in absteigender Reihenfolge dann immer seltener. Die Bewertungen erfolgen dabei auf einer Skala von 0 (am schlechtesten) bis 40 (am besten), die eine umgekehrte Schulnotenskala von 1 bis 5 mit eingefügten Zehntelstellen darstellen. Das Rotationsschema basiert nun darauf, daß die Wertung eines Liedes mit einer zweiten Zahl zusammengezählt wird, die sich daraus ergibt, wie lange ein Lied schon nicht mehr gehört wurde. Und zwar steigt diese in den ersten Tagen in einer steilen Kurve an, die dann immer mehr verflacht. Die Lieder, die dann am höchsten in der daraus resultierenden Liste sind, sollten wieder gespielt werden. Davor wird aber noch eine 2. Zahl addiert, die umso höher ist, umso ähnlicher das Lied dem zuletzt gespielten ist. Dazu wird die Ähnlichkeits-Datenbank verwendet, wo sowohl ähnliche Titel als auch Kategoriezuordnungen enthalten sind. Die Kategoriezuordnungen haben hier eine Maximallänge von 50 Zeichen und sind im Klartext verfaßt, und die als 1. genannte Kategorie hat den größten Wert - jede nachfolgende ist um 20% weniger wert als die vorherige. Dadurch ergeben sich recht gute, teilweise auch unerwartete, Kombinationen und Abfolgen. Die genaue Kurve ist übrigens für Mama und Papa anders als meine eigene... die von Mama konzentriert sich mehr auf die am besten bewerteten Titel, und die von Papa bringt auch mehr von den unteren Plätzen - sie entspricht der ursprünglich im Radio Würmchen für die aktuellen Stunden verwendeten Formel und ist damit eine Multiplikation seiner Punkte mit den Tagen, seit der Titel zuletzt gehört wurde, das heißt, Papa's Kurve geht für 1 Jahr gerade nach oben und verflacht dann.
+Die Bewertungen in der Radio-Würmchen-Datenbank von mir und meinen Eltern stammen aus den Familienhitparaden, die es von 1991 bis 1993 gegeben hat, von den Aktuellen Stunden von Radio Würmchen, die es von 1993 bis Anfang 2002 gegeben hat, sowie von Bewertungen, die ich ab 2001 beim Radio und Tonträger hören eingegeben habe bzw. von meinen Eltern beim Vorspielen des Radio-Würmchen-Programms oder von Kassetten im Bad und anderswo abgefragt habe oder die sie selbst beim Hören von Radio Würmchen eingegeben haben.
+Weiters gibt es eine Ähnlichkeitsdatenbank, wo verschiedene Musiktitel miteinander in Beziehung gebracht werden und wo es auch zu jedem Titel die schon erwähnte Kategoriezuordnung gibt sowie Angaben darüber, wie gut ich persönlich den Titel kenne und was er mir bedeutet.
+Mit Hilfe des Radio-Würmchen-Programms werden nun auch die Kassetten für gemeinsame Fahrten ausgesucht, indem alle Titel auf jeder Kassette dafür herangezogen werden und eine Durchschnittswertung daraus gebildet wird.
+Um diese Aufgaben möglichst gut erfüllen zu können, gibt es eine zentrale Titelliste, mit der alle Wertungs- und Ähnlichkeitsdatensätze verknüpft sind, sowie die Angaben darüber, auf welchen Tonträgern sich welche Titel befinden, wobei hier auch die Texthefte und die Karaoke-Videos und -CD's erfaßt sind. Leider ist keine dieser Tabellen auch nur annähernd vollständig, und es ergibt sich daraus das ständige Ziel, die Vollständigkeit der Datenbank herbeizuführen bzw. sich ihr anzunähern. Besonderes Augenmerk liegt hier auf allen Tonträgern und Musikdateien, die ich besitze, sowie allen Musiktiteln, die ich kenne, und die normalerweise im Radio gespielt werden. Um dies zu erreichen, werden die Daten in der Radio-Würmchen-Datenbank laufend vervollständigt.
+
+Auf Grund der obigen Überlegungen wurde im April und Mai 2006 das Radio-Würmchen-Programm stark umgeschrieben, was hier nicht näher erläutert ist, da dies nach dem Stichtag für den "Status Quo" passiert ist.
+Auflisten und Anhören von Kassetten und anderen Tonträgern
+
+Beim Auflisten der Tonträger werden in einer bestimmten Reihenfolge alle Tonträger, von denen schon bekannt ist, welche Titel sie enthalten, in die Tonträgerdatenbank eingegeben. Stoße ich dabei aber auf Tonträger, deren Inhalt noch nicht beschriftet ist, werden diese bei dieser Aktivität auch angehört und beschriftet. Diese Tonträger befinden sich in einer eigenen Kiste.
+Die Eingaben erfolgen immer in ein Excel-Sheet in einem bestimmten Format, das dann mit einer Funktion in der Tonträger-Datenbank importiert wird, sobald es genug Einträge hat (mindestens 400). Dieses ist abgespeichert unter: C:\laufende Projekte\Radio Würmchen\TteingXX, wobei XX für die Nummer der Tranche steht.
+Wurde eine Tranche (ein Excel-Sheet mit mindestens 400 Titeln) frisch importiert, dann befinden sich in der Datenbank normalerweise etliche doppelte Titel, die aufgrund unterschiedlicher Schreibweisen des Titel, des Interpreten oder der Version nicht mit dem bestehenden Titel zusammengelegt wurden. Daher folgt auf jede importierte Tranche eine Bearbeitungsphase, bei der versucht wird, solche Inkonsistenzen durch Zusammenlegen der eigentlich gleichen Titel und Interpreten zu beheben.
+Per Ende Juni 2007 haben wir nun folgenden Stand an bereits eingegebenen Tonträgern:
+- komplette Eversweets-Serie (0 bis 156)
+- alle CD's und Abarten davon (Playback-, Maxi-, Doppel-CD's)
+- alle Kassetten aus den Schachteln mit Tonträgern (selbst aufgenommene bzw. kopierte)
+- alle Weihnachtskassetten ab 1986
+- alle sonstigen Kassetten (außer nicht komplett beschriftete und Mastertapes) von 1987 bis heute
+- alle historischen Kassetten von April bis Dezember 1986
+- alle gekauften MusiCassetten und andere Kassetten mit kommerzieller Musik, die sich im Wandkasten befinden 
+- die ersten 3 Videokassetten (nach Nummern)
+- ungefähr die ersten 40 LP's (wobei der Plattenschrank von links nach rechts durchgegangen wird)
+- die ersten 2-3 CD's von Tina
+Insgesamt sind bereits über 10000 Titel aus der Tonträgersammlung eingegeben.
+Internet-Radiosendungen machen
+
+Diese Möglichkeit hat sich erst 1998 aufgetan, als sowohl Privatradio als auch das Internet (in breiteren Kreisen) eingeführt wurde. Bis März 1998 durfte ja in Österreich nur der ORF Radiosendungen machen. Seit April 1998 gibt es nun auch Privat- und Hobbysender.
+Für mich war das selbst Internetradio machen 2001, als ich den PC gekauft habe und damit der Internetzugang zu Hause möglich war, noch ziemlich unrealistisch - man brauchte dazu einen Server, entsprechende Internetseiten, PHP-Scripts etc. etc. Mit der Zeit wurde die Sache aber einfacher. Zuerst entdeckte ich ein Programm namens Streamer, mit dem man im P2P-Verfahren im Prinzip von zu Hause aus Radiosendungen produzieren und senden konnte. Im Mai 2004 entdeckte ich dann Flatcast, mit dem das ganze noch einfacher und besser geht. Hier braucht man nur noch ein Plug-in für den Internet-Browser, das im Prinzip die komplette Sendetechnik übernimmt und alles, was entweder beim eingebauten Player oder beim Line-Eingang hineinkommt, auf Sendung bringt. Dazu gibt es noch einen netten Chat.
+Damit ist zwar kein 24-h-Sendebetrieb möglich (außer man läßt den PC durchlaufen), einzelne Sendungen können aber sehr wohl abgewickelt werden. Ich habe auch schon Gastsendungen bei DJ4DJs und bei Radio Krokofee gemacht, obwohl ich bei keinem dieser Sender fix dabei bin. Bei DJ4DJs kann man das auch gar nicht sein... hier geht es eher darum, für seinen eigenen Sender Werbung zu machen.
+Nachdem nun schon Sendungen durchgeführt wurden, und auch das Radio-Würmchen-Programm im Hinblick auf solche Sendungen erstellt wurde, scheint es vernünftig, sich damit auseinanderzusetzen, Internet-Radiosendungen zum ständigen Hobby zu machen. Bisher habe ich mich etwas davor gescheut, diesen Schritt zu wagen, aus Angst davor, daß mir dann zu wenig Zeit für andere Hobbies bleiben könnte. Nun ist aber das neue Kriterium eingeführt worden, daß ich die Dinge tun sollte, die mir am meisten Spaß machen, und andere streichen sollte.
+
+Es wurden nun bereits einige Sendeformate ausprobiert:
+- Rätselquiz (eine Verballhornung der Rätsel- und Quizshows auf Radio Krokofee)
+- Verkehrte Chartsshow (eine Version von Tina's Chartsshow mit anderen Regeln)
+- Online-Hochzeit für Tina und Achim (Simulation einer Hochzeit)
+- DJ4DJs (90- bis 120-minütige Sendung mit Vorstellung des Moderators)
+- Hochzeitsbildsendung (Sendung mit Bildern von Tina's und Achim's Hochzeit)
+- Antwortsendung (Sendung mit musikalischen Antworten auf einige Fragen der letzten Monate)
+- Sondersendung zu einem bestimmten Thema (z.B. Sturmsendung bei Sturmschäden)
+Je nach Sendeformat gab es hierbei verschiedene Verhältnisse zwischen Einnahmen und Ausgaben. 
+Für die Abhaltung einer solchen Sendung sind im Prinzip folgende Dinge nötig:
+- PC mit Internetanschluß und Musik-Player samt Musiktiteln auf der Festplatte
+- Mischpult
+- Mikrofon
+- Player für sonstige Tonträger (Kassetten, Schallplatten) samt entsprechenden Wandlern
+- Sonstige Tonträger (Kassette, Schallplatten, evtl. Videokassetten)
+Wie oft letzten Endes eine solche Sendung angesetzt wird, steht noch nicht fest, dies muß dann in der Praxis mit der Priorisierung erarbeitet werden. Prinzipiell ergeben die bereits durchgeführten Sendungen aber ein positives Ergebnis (mit einem Einnahmen-/Ausgabenverhältnis von 1,4-1,5), so daß die Durchführung weiterer Sendungen von Zeit zu Zeit erstrebenswert ist.
+Musikversorgung bei Autofahrten und Badebesuchen
+
+Seit 1997, als der Opel Astra, das derzeitige Auto meiner Eltern, gekauft wurde, der auch serienmäßig über ein Kassettenradio verfügt, habe ich bei gemeinsamen Ausflügen auch Kassetten zur Musikuntermalung mitgenommen. Die Technik, wie diese Kassetten ausgesucht wurden, wurde im Laufe der Zeit verfeinert. Zuerst habe ich nur eine Liste von Musiktiteln ausgegeben, die gespielt werden sollten, und dann die Kassetten ausgesucht, auf denen sich diese Titel befanden. Ab 2002 habe ich dann aber, ebenso wie beim privaten Anhören von Tonträgern, begonnen, für diese Auswertung immer alle auf jeder Kassette befindlichen Aufnahmen heranzuziehen. Dies wurde bis 2006 über eine Funktion der Access-Datenbank unterstützt, danach über eine Funktion des Radio-Würmchen-VB-Programms.
+Für die Musikversorgung wurde meinen Eltern immer ein bestimmter Betrag verrechnet, der dann aber gegen die Autokosten gegengerechnet wurde. Der genaue Betrag ist nicht relevant, da er ohnehin neu berechnet werden soll.
+Ab 2002 gab es dann auch neue Arten von "Sendungen", die je nach Ort "Radio Neue Donau", "Radio Alte Donau" usw. genannt wurden. Bei diesen Sendungen wurde von mir normalerweise nicht moderiert, aber ein Kassettenrecorder mitgenommen und damit meist ganze Kassetten oder zumindest Kassettenseiten abgespielt. Dabei waren zum Unterschied zu den Autofahrten auch Neuvorstellungen zulässig, das heisst, bei manchen Titeln, die von meinen Eltern noch nicht bewertet waren, fragte ich dann meine Elten nach ihren Bewertungen. Auch dafür wurde wieder ein gewisser Beitrag verrechnet, der mit dem für die Musikversorgung im Auto teilweise identisch war.
+	- 4 -
+

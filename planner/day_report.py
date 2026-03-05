@@ -48,22 +48,113 @@ def fmt_minutes(mins):
     return f"{m}m"
 
 
+def _generate_projection_for_date(date_str, log_data):
+    """Generate a projection for a past date using its log and weekday.
+
+    This creates a fresh PlannerEngine with the correct DayContext,
+    finds the earliest start time from the log, and runs the
+    projection simulation.
+
+    Returns a list of projection dicts (same format as projection JSON),
+    or None on failure.
+    """
+    from day_context import DayContext
+    from csv_parser import parse_csv
+    from engine import PlannerEngine
+
+    try:
+        dt = datetime.strptime(date_str, "%Y-%m-%d")
+    except ValueError:
+        print(f"ERROR: Invalid date format: {date_str}")
+        return None
+
+    weekday = dt.weekday()
+
+    # Auto-detect work type from weekday (same logic as DayContext)
+    # Mon(0), Wed(2) = Bürotag; Tue(1), Thu(3), Fri(4) = Teleworking
+    if weekday in (0, 2):
+        work_type = "burotag"
+    elif weekday in (1, 3, 4):
+        work_type = "teleworking"
+    else:
+        work_type = "auto"
+
+    ctx = DayContext(weekday=weekday, work_type_override=work_type)
+
+    # Find earliest start time from log (skip after-midnight entries)
+    earliest = None
+    for entry in log_data:
+        raw = entry.get("started_at", "")
+        try:
+            t = datetime.strptime(raw, "%H:%M:%S")
+            if t.hour < 5:
+                continue  # after-midnight tail
+            candidate = dt.replace(hour=t.hour, minute=t.minute,
+                                   second=0, microsecond=0)
+            if earliest is None or candidate < earliest:
+                earliest = candidate
+        except ValueError:
+            continue
+
+    if earliest is None:
+        print(f"ERROR: No valid start times found in log for {date_str}")
+        return None
+
+    print(f"[Report] Generating projection for {date_str} "
+          f"(weekday={weekday}, start={earliest.strftime('%H:%M')})")
+
+    raw_lists = parse_csv()
+    engine = PlannerEngine(raw_lists, ctx, session_date=dt)
+    projection = engine.get_day_projection(start_time=earliest)
+
+    # Convert to serializable format (same as save_initial_projection)
+    data = []
+    for item in projection:
+        est_start = item.get('est_start')
+        est_end = item.get('est_end')
+        data.append({
+            'activity': item['activity'],
+            'list_name': item['list_name'],
+            'minutes': item['minutes'],
+            'priority': item['priority'],
+            'fixed_time': (item['fixed_time'].strftime('%H:%M')
+                           if item.get('fixed_time') else None),
+            'est_start': (est_start.strftime('%H:%M')
+                          if isinstance(est_start, datetime) else None),
+            'est_end': (est_end.strftime('%H:%M')
+                        if isinstance(est_end, datetime) else None),
+            'state': item['state'],
+        })
+
+    # Save it so it doesn't need regeneration next time
+    proj_path = os.path.join(LOG_DIR, f"projection-{date_str}.json")
+    os.makedirs(LOG_DIR, exist_ok=True)
+    with open(proj_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"[Report] Projection saved: {proj_path} ({len(data)} items)")
+
+    return data
+
+
 def generate_report(date_str):
     proj_path = os.path.join(LOG_DIR, f"projection-{date_str}.json")
     log_path = os.path.join(LOG_DIR, f"planner-log-{date_str}.json")
 
-    projection = load_json(proj_path)
     log_data = load_json(log_path)
-
-    if not projection:
-        print(f"ERROR: No projection found for {date_str}")
-        print(f"  Expected: {proj_path}")
-        return None
 
     if not log_data:
         print(f"ERROR: No log found for {date_str}")
         print(f"  Expected: {log_path}")
         return None
+
+    projection = load_json(proj_path)
+
+    if not projection:
+        print(f"No projection found for {date_str} — generating from log...")
+        projection = _generate_projection_for_date(date_str, log_data)
+        if not projection:
+            print(f"ERROR: Could not generate projection for {date_str}")
+            return None
 
     lines = []
     lines.append(f"{'='*65}")
@@ -291,6 +382,10 @@ def generate_report(date_str):
 
 
 def main():
+    # Ensure stdout can handle Unicode (box-drawing chars, etc.)
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
     if len(sys.argv) > 1:
         date_str = sys.argv[1]
     else:

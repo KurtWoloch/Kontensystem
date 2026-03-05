@@ -1,0 +1,121 @@
+Dokumentation Kauf eines Funkmikrofones
+Von Kurt Woloch, Stand: 5.3.2015
+Sicherheitsstatus: geheim, Zielgruppe: meine Eltern und ich
+
+Ziel und Gegenstand dieser Dokumentation	1
+Der Gutschein und das Funkmikrofon, die Vorgeschichte und weitere Umstände	1
+Ablauf der Aktion	2
+Marktübersicht	2
+Kauf und Ausprobieren des Mikrofons	3
+Der Anmeldungsversuch	3
+Batterieverbrauch und Akkuregelung	4
+Verrechnung im Kontensystem	5
+Das KF-Konto	5
+Das KG-Konto	5
+Ziel und Gegenstand dieser Dokumentation
+
+In dieser Dokumentation geht es um den Kauf eines neuen Funkmikrofones, der von Papa bei meiner Geburtstagsfeier im Oktober 2014 initiiert wurde. Da vom Keyboard-Gutschein bisher € 666 übrig geblieben sind, wird dieses Guthaben zum Kauf des Funkmikrofones weiter verwendet. Dies ist auch der Grund dafür, warum das Funkmikrofon und das Keyboard ihr eigenes Konto haben.
+
+Der Kauf des Funkmikrofones wurde bereits in einer gemeinsamen Dokumentation mit dem Keyboardkauf geplant, aber da es Unstimmigkeiten über die Anzahl der zu kaufenden Funkmikrofone gab, wurde die vorige Dokumentation vor dem Kauf der Funkmikrofone abgeschlossen. Nachdem nun der Kauf des Keyboards und das Einüben des ersten Programmes damit erledigt ist, soll hier der eigentliche Kauf des Funkmikrofons näher ausgeführt werden.
+Der Gutschein und das Funkmikrofon, die Vorgeschichte und weitere Umstände
+
+Zu Weihnachten 2013 bekam ich von Papa einen Gutschein über ein neues Keyboard um bis zu € 1000,- geschenkt. Da dies relativ plötzlich erfolgte, wurde dieser Gutschein erst zu Weihnachten 2014 eingelöst und von Mama mit den vollen € 1000,- ausgezahlt.
+
+Am 29.12.2014 begannen die Recherchen für den Keyboardkauf, und am 5.1.2015 erfolgte der Kauf des Keyboards, das allerdings nur € 315,- kostete. Es wurden einige Wochen später noch € 19,- für ein Verbindungskabel zum Mischpult ausgegeben, aber die restlichen € 666,- waren noch übrig.
+
+Die Idee zum Kauf von Funkmikrofonen kam Papa am 27.10.2014 bei meiner Geburtstagsfeier, die nach 9 Jahren erstmals wieder als Karaoke-Party durchgeführt wurde. Bei dieser Party nahm Willi, als er zum Singen an die Reihe kam, das Mikrofon und setzte sich damit gegenüber dem Schirm, auf dem der Text ablief, womit das Mikrofonkabel durch das ganze Zimmer gespannt war. Mama versuchte dann, das Kabel so zu legen, dass es nicht mehr gespannt war, worauf Papa meinte "Da müssen wir uns wohl Funkmikrofone kaufen". Ich fragte daraufhin: "So, müssen wir das?", und Papa zog daraufhin in Erwägung, sie mir zu Weihachten zu schenken. Diese Idee wurde dann in den nächsten Monaten weiter verfolgt, ich wollte aber nicht, dass die Weihnachtsgeschenke einander "überholen", da zuerst eigentlich das Keyboard gekauft werden sollte, für das ich den Gutschein schon zu Weihnachten 2013 bekommen hatte. Aus diesem Grund machte ich dann auch mehr Druck dahinter, erst einmal den Keyboardkauf durchzuführen, bevor der Kauf der Funkmikrofone in Angriff genommen wird. Trotzdem verzögerte sich die Arbeit am Keyboard-Projekt durch diverse andere Dinge, die zu tun waren, noch bis nach Weihnachten 2014, so dass es nicht dazu kam, dass die Funkmikrofone zu Weihnachten 2014 unter dem Gabentisch gelegen wären, nicht einmal als Gutschein.
+
+Nach erfolgtem Keyboardkauf wurde das Thema Funkmikrofone am 11.1.2015 wieder angesprochen. Prinzipiell ist Mama der Meinung, dass wir keine Funkmikrofone brauchen bzw. dass sie keine braucht, aber Papa ist der Meinung, dass damit verhindert werden sollte, dass Mama wieder über irgendetwas stürzt und sich eventuell noch etwas bricht, so wie es im Sommer 2004 mit meinen Krücken der Fall war, als ich nach meinem Elektroroller-Unfall im Krankenstand war und sie mir das Essen in die Wohnung brachte. 
+
+Dieser "Nutzen" ist nun sehr schwammig, so dass es für mich unmöglich ist, über Funkmikrofone eine Vorkalkulation zu erstellen. Die Wahrscheinlichkeit, dass jemand über ein gespanntes Kabel stolpert, wenn ich keine Funkmikrofone bekomme, ist nicht bekannt. Man könnte höchstens versuchen, die Anzahl der Veranstaltungen dafür heranzuziehen, bei denen die Funkmikrofone voraussichtlich verwendet werden, aber auch dies ist schwierig zu bestimmen. Im Jahr 2014 gab es einige Veranstaltungen, bei denen Funkmikrofone eingesetzt werden hätten können, und zwar 8x Heimkaraoke (davon aber nur eines in den letzten 4 Monaten), eine Karaoke-Party zum Geburtstag und 2 Auftritte mit Keyboard (Papa's Geburtstag und Heinrich's Hochzeit). Bei den Proben von "Helmi's Nightmare" war ich nicht für die Mikrofonierung zuständig. Dies macht insgesamt 11 Veranstaltungen. Ich schätze aber, dass es im Jahr 2015 eher weniger werden, da sich durch die Veränderungen in der Prioritätenliste eine Verringerung der Heimkaraoke-Veranstaltungen ergeben hat. Das Minimum wären aber wahrscheinlich 4 Heimkaraoke (Ostern, Muttertag, Mama's Geburtstag, Weihnachten) sowie ein Auftritt mit Keyboard (Papa's Geburtstag), also 5 Veranstaltungen, wobei ich hoffe, dass es eher mehr werden.
+
+Da der Weihnachtstermin, der ursprünglich dazu gedacht war, mir die Funkmikrofone zu schenken, versäumt wurde, ist Mama auf die Idee gekommen, die Funkmikrofone in den Gutschein, um den das Keyboard gekauft wurde, zu integrieren.
+
+Bisher habe ich mich auch schon flüchtig im Internet nach Funkmikrofonen umgesehen. Nachdem ich bisher mit Shure SM-58-Mikrofonen gearbeitet habe, wäre mein logischer Schritt gewesen, auch die Funkmikrofone von dieser Firma zu nehmen, damit die Klangqualität möglichst identisch ist. Auf der Homepage von Klangfarbe habe ich solche Mikrofone zum Stückpreis von ca. € 400-450 gesehen. Komischerweise sind sie bei einem deutschen Versandhändler mit € 260 pro Stück aber wesentlich billiger, und ich habe dieses Modell in den Tagen darauf auf der Klangfarbe-Homepage auch nicht mehr gefunden (vielleicht auch, weil ich nicht richtig danach gesucht habe).
+
+Nun hat Papa gemeint, es würde möglicherweise ausreichen, nur ein Funkmikrofon zu kaufen, aber Mama hat dazu gemeint, wenn, dann solle man gleich zwei kaufen, da Duette gesungen werden und sonst einer über ein Funkmikrofon singen würde und der andere nicht. Am 18.1. hat sie diese Meinung allerdings wieder revidiert. 2 Funkmikrofone zu € 450 würden das Budget übersteigen, das nach dem Kauf des Keyboards vom Gutschein noch übrig bleibt. Mama hat mir hier angeboten, noch einmal € 500 zuzuschießen. Auf meinen Bericht hin, dass ich nun auch im rechten Auge einen Fleck habe, hat Papa die Planung der Funkmikrofone dann ganz fallen lassen. Dies bedeutet, dass ich mir nun nicht sicher war, was es nun wirklich werden soll. Wie schon erwähnt sind die Funkmikrofone ein Anliegen von Papa und nicht meines.
+
+Der Kauf der Funkmikrofone wurde auf jeden Fall erst nach der vollständigen Inbetriebnahme des Keyboards in Angriff genommen und auch dann eher mit niedriger Priorität verfolgt.
+Ablauf der Aktion
+
+Die Aktion "Kauf eines neuen Funkmikrofones" gliederte sich in mehrere Teile:
+
+- Marktübersicht, welche Hersteller und Modelle in Frage kommen
+- Ansehen einiger Modelle bei Händlern und Einholen von Erkundigungen
+- Vergleich der angesehenen Modelle und Bestimmung des zu kaufenden Modells
+- Kauf des ausgewählten Modells und eventuell nötigen Zubehörs
+- Inbetriebnahme des neuen Funkmikrofons mit Duchlesen der Anleitung und eventuell Ausprobieren der Funktionen
+Marktübersicht
+
+Es wurden bereits einige informelle Erhebungen durchgeführt, siehe dazu die Ausführungen über die Internet-Recherchen oben, die aber noch nicht besonders systematisch waren.
+
+Beim Abholen des beim Musikuniversum bestellten Kabels für das Keyboard wurde erfragt, dass es dort Funkmikrofone der Firma Audio Technica um € 290 pro Stück gibt, die angeblich eine gute Tonqualität haben. Es ist hier noch geplant, eine Marktübersicht durchzuführen, dann das Modell oder mögliche Modelle auszuwählen und bei einschlägigen Händlern zu besichtigen bzw. zu kaufen. Mit meinen Eltern habe ich mich darauf geeinigt, dass erst einmal ein Mikrofon (nicht zwei oder keines) gekauft wird.
+
+Ich habe dann bei Martin Heller angerufen, der bei Helmi's Nightmare Gitarre gespielt hat, und ihn gefragt, welche Funkmikrofone er verwendet, nachdem er professionell als Tontechniker arbeitet. Er verwendet Sennheiser-Mikrofone, die im 2,4 GHz-Band senden, und zwar mit einer sogenannten 935er-Kapsel, die für Rockmusik verwendet wird. Es gäbe auch eine Kondensator-Kapsel, die für Konsonanten besser geeignet wäre. Diese Mikrofone kosten allerdings pro Stück € 800-850. Günstige Mikrofone gäbe es von Line-6, die im 2,4-GHz-Band senden und 300-500 Euro kosten, was für nationalen Einsatz (in Österreich) auch ausreichen würde sowie für den Einsatz von bis zu 4 Mikrofonen gleichzeitig. Auf der Seite des deutschen Musikversandhändlers Thomann gäbe es auch eine Europakarte, die zeigt, welche Funkbänder für welches Land geeignet sind.
+
+Bei Thomann findet man das oben erwähnte Shure-Mikrofon, dies ist aber anscheinend ein neues Mikrofon namens GLXD24/SM58, kostet € 444,- und wird mit einem Lithium-Ionen-Akku geliefert, dessen genaue Laufzeit angezeigt wird. Günstiger wäre das Shure BLX24/SM58 S8 um € 298,- Hier ist aber der verwendete Frequenzbereich von 822-838 MHz in Österreich lizenzpflichtig, was zusätzlich € 53,- für 10 Jahre kostet. Besser wäre hier das BLX24/SM58 T11, das im Bereich von 863-865 MHz sendet und nicht lizenzpflichtig ist, allerdings sind hier nur 3 Systeme simultan möglich. Diese Modelle werden jeweils mit 2 Mignon-Batterien bzw. -Akkus betrieben.
+
+Von Line6 gibt es bei Thoman das XD-V55, das verschiedene Mikrofoncharakteristiken simulieren kann, unter anderem auch ein SM-58, um € 298. Noch günstiger wäre das XD-V35 um € 218, das keine umschaltbare Charakteristik hat, aber angeblich auf dem SM-58 basiert.
+
+Bei Klangfarbe gibt es im gesuchten Preisbereich das Shure GLXD24/SM58 ebenfalls um € 444,-, das BLX-24-R/SM-58 um € 398,-, das BLX-24/Beta-58 um € 344,-, das Audio Technica ATW-2120 um € 299,-, das Shure BLX-24/SM-58 um € 295,-, und das Audio Technica System-10 ATW-1102 um € 258,-, und noch etwas billigere Modelle von AKG um € 200 oder darunter, darunter auch Dual-Sets mit 2 Mikrofonen. Es gibt dagegen keine Mikrofone von Line6.
+
+Bei Amazon gibt es einige Geräte, die teilweise irritierend billig sind, z.B. das Auna VHF-1 Handmikrofon-Set um € 32,90 (es gibt auch ein Set mit 4 Handmikrofonen um € 79,90), etwas ernstzunehmender scheint hier schon das AKG WMS 40 Mini Vocal Set ISM2 zu sein. Diese kommen aber wahrscheinlich mit einem billigen Mikrofon, das mit einem SM-58 zumindest von der Geräuschentwicklung her nicht wirklich vergleichbar ist.
+
+Bei Conrad gibt es ebenfalls das AKG WMS 40 Mini Vocal Set ISM1, ISM2 oder ISM3 (worin sich diese unterscheiden, ist nicht genau erkennbar) um € 99,95, von Omnitronic (dem Hersteller meines Plattenspielers, mit dem ich soweit recht zufrieden bin) das WM-2402 Funkmikrofon (2 Stück um € 109,99), es gibt hier aber auch Shure-Mikrofone, z.B. das GLX-D24E/SM 58 um € 449,-, aber anscheinend keine billigeren Geräte dieser Marke.
+
+Bei Media Markt (laut Online-Shop) scheinen keine Funkmikrofone im Programm zu sein.
+Kauf und Ausprobieren des Mikrofons
+
+Mit den obigen Daten bewaffnet ging ich am 26.2.2014 zu Klangfarbe im Gasometer, um mir Funkmikrofone anzusehen. Der Verkäufer dort empfahl mir wieder Erwarten ein Sennheiser-Mikrofon und meinte, diese seien besser als die gleichpreisigen Shure-Mikrofone. Da er mir auch anbot, das Mikrofon innerhalb von 10 Tagen zurückgeben zu können, wenn ich nicht zufrieden wäre, kaufte ich dieses.
+
+Aufgrund der knappen Zeit las ich mir noch am gleichen Tag die Anleitung durch und probierte das Mikrofon aus. Die Klangqualität ist soweit in Ordnung, die Höhen sind nur etwas präsenter als bei den Shure-Kabelmikrofonen, aber das läßt sich wieder ausgleichen, indem man die Höhen am Mischpult um 1 Stufe zurück dreht, dann ist kaum noch ein Unterschied zu hören. Daher kann das Mikrofon von der Qualität her behalten werden.
+Der Anmeldungsversuch
+
+In der Anleitung ist auch zu lesen, dass das Mikrofon auf einer Frequenz sendet, für die man bei der zuständigen Behörde eine Lizenz einholen muss. Welche Behörde dies ist, findet man aber nicht genau. Ich suchte dann im Internet nach Anmeldeinformationen, und die Homepages von Grothusen (Importeur von Sennheiser) und Shure verweisen hier auf teilweise veraltete Internetseiten, auf denen auch keine genauen Informationen stehen. Ich rief daher am nächsten Tag noch einmal bei Klangfarbe an und erkundigte mich, wo man das Mikrofon anmelden müsse. Ich bekam die Auskunft, dass man auf jeder Post ein entsprechendes Formular bekommt.
+
+Daraufhin ging ich in die Post-Filiale Ecke Frauenstiftgasse / Brünner Straße, der Beamte dort wußte aber nichts davon, dass man ein solches Mikrofon anmelden müsse, und meinte, er wäre sich ziemlich sicher, dass mir nichts passieren würde, wenn ich es nicht anmelde. Er meinte aber, ich könne es noch bei der GIS versuchen.
+
+Bei der GIS (Gebühren Info Service) wußte man aber auch nichts und verwies mich an den ORF-Kundendienst weiter. Dort konnte man auch nur im Internet suchen und meinte, ich könne es beim Fernmeldebüro des BMVIT versuchen. Ich versuchte noch, dort anzurufen, aber es hob niemand ab, und es meldete sich auch kein Anrufbeantworter. Auf der BMVIT-Homepage stand auch keine Zeit, wann dieses Büro erreichbar sei.
+
+Meine Eltern und auch Alois Deutsch haben mir nun geraten, hier nichts weiter zu unternehmen, daher werde ich wohl die Sache auf sich beruhen lassen und das Mikrofon nicht anmelden. Ich denke, Schwierigkeiten kann es sowieso nur geben, wenn durch den Betrieb Störungen auftreten.
+Batterieverbrauch und Akkuregelung
+
+Prinzipiell waren beim Mikrofon 2 Alkali-Batterien der Firma GP beigepackt, ich setzte jedoch stattdessen Akkuzellen ein, die gerade am Tisch herumlagen. Diese werden dann wohl auch für die erste Veranstaltung eingesetzt, die ich damit bestreite. Insgesamt rechne ich derzeit mit ca. 20-25 Nutzungsstunden pro Jahr, wobei der Stromverbrauch bei ca. 200 mA liegt und das Funkmikrofon somit mit einem Akkusatz ca. 8-10 Stunden, mit einem Batteriesatz ca. 10 Stunden auskommen sollte.
+
+Danach kommt es zu einer Änderung, weil ich bei der letzten Evaluation der Batterien und Akkus zum Schluß gekommen bin, dass es am besten ist, die Akkus mit der besten Kapazität für die meistbenutzten Geräte einzusetzen. Dies wären dann 4 Eneloop-Zellen, die ich gemeinsam mit 4 weiteren, die mein Vater zum Geburtstag bekommt, am 4.3.2015 gekauft habe. Es könnte zwar sein, dass tatsächlich die 4 ActivEnergy-Zellen, die ich vor einiger Zeit bei Hofer gekauft habe bzw. meine Eltern mitbringen ließ, eine bessere Kapazität haben, aber diese stecken derzeit in einem Langzeittest im Seifenspender, so dass sie wohl erst Anfang 2016 in ein anderes Gerät transferiert werden, ausser sie entladen sich schneller als erwartet.
+
+Der Endstand der Akkuverwendung wäre dann nach derzeitigem Stand der folgende:
+
+2 Eneloop-Akkus im Philips-Walky (ca. 20 Zyklen pro Jahr)
+2 Eneloop-Akkus im Funkmikrofon (2-2,5 Zyklen pro Jahr)
+4 ActivEnergy-Akkus in der Taschenlampe (2 Zyklen pro Jahr)
+3 goldene Varta-Zellen im Seifenspender (0,8 Zyklen pro Jahr)
+4 Uniross-Zellen werden bei Bedarf im Empfänger des ferngesteuerten Autos eingesetzt (Zahl der Zyklen schwer kalkulierbar)
+2 Nytech-Zellen in Aiwa-Walky für Einspielungen (0,3 Zyklen pro Jahr) *
+2 goldene Varta-Zellen im CD-Portable (0,x Zyklen pro Jahr) *
+1 goldene Varta-Zelle in Römischer Uhr *
+2 Nytech-Zellen als Reserve (?!)
+4 Duracell- + 2 GP-Batterien in Keyboard (ca. 0,25 Batteriesätze pro Jahr)
+
+Laut meinen Berechnungen sollten die mit * gekennzeichneten Geräte eigentlich mit Batterien betrieben werden, weil sich die Akkus gegenüber den Batterien hier laut meinen letzten Berechnungen nicht auszahlen, unter der Voraussetzung, dass sowohl Batterien als auch Akkus neu gekauft werden müßten. Es ist aber meiner Meinung nach besser, die vorhandenen Akkus zu verwenden als neue Batterien zu kaufen, vor allem wenn die verbliebenen neuen Alkali-Batterien laut diesem Plan im Keyboard landen und daher für die anderen Geräte tatsächlich Batterien gekauft werden müssten.
+
+Sollten sich bei manchen Geräten höhere Verbräuche zeigen (z.B. beim Keyboard), dann wird dieser Plan revidiert. Er könnte auch revidiert werden, wenn mir meine Eltern einen Strich durch die Rechnung machen und verlangen, dass ich mehr Batterien verwende (z.B. die billigen Tedi-Batterien, die Papa gekauft hat). Dies wird dann noch in einer eigenen Dokumentation geklärt, gemeinsam mit dem Leuchtmittelproblem, das im Moment auch offen ist.
+
+Andererseits hat mein Vater eben ohne mich zu fragen einen Teil meiner gesammelten Werbeprospekte entsorgt, die ich eigentlich noch sortieren wollte, so dass ich mir wohl auch etwas "Unvernünftigkeit" (aus Sicht meiner Eltern) leisten kann.
+
+Die Handhabung der Akkus im Funkmikrofon erfolgt so, dass diese fix im Funkmikrofon installiert und im Normalfall nicht herausgenommen werden. Aufgeladen werden sie entweder vor einer größeren Veranstaltung (Karaoke-Party oder Auftritt), wenn die Gesamtzeit der Veranstaltungen seit der letzten Ladung 8 Stunden erreicht hat oder die Batterieanzeige auf einen Strich zurückfällt.
+Verrechnung im Kontensystem
+
+Obwohl meine Eltern prinzipiell gemeint haben, dass sich Geschenke nicht rechnen müssen, wird es im Kontensystem zwei neue Konten geben, um das Projekt der Funkmikrofone und des Keyboards zu überwachen, allerdings wird dies nach etwas anderen Regeln abgerechnet als bisher. Diese Regeln sind bereits in der Dokumentation "Dokumentation neues Keyboard und Funkmikrofone" zu finden, so dass ich hier nur auf die spezifisch für das Funkmikrofon geltenden Punkte eingehen werde.
+Das KF-Konto
+
+Das KF-Konto enhält im Prinzip die "Geräteschulden" des Keyboards und des Funkmikrofons. Beim Funkmikrofon wird hier der Kaufpreis sowie der dazugehörige Zeitaufwand inklusive Ausprobieren, Anmeldeversuch und Schreiben dieser Dokumentation verrechnet. Einnahmen erfolgen bei der Verwendung des Funkmikrofons für Veranstaltungen (hauptsächlich Live-Musik und Karaoke), wobei bei Verwendung von Keyboard und Funkmikrofon insgesamt € 125 dem durchführenden Konto verrechnet werden, für Funkmikrofon ohne Keyboard (z.B. bei Karaoke) nur € 100,-. Dies entspricht einer Miete von € 25 pro Gerät zuzüglich € 75 für den Weg zu einem Vermieter, den ich sonst zurücklegen müßte, wenn ich die Dinge nicht selbst hätte. Das durchführende Konto ist das Karaoke-Konto für Heimkaraoke und Karaoke-Parties und das Musiker-Konto für Live-Musik. Die genaue hereinzubringende Summe kann noch nicht angegeben werden, da das Kontensystem immer noch über 8 Monate im Rückstand ist und die Verrechnung des Funkmikrofon-Kaufs schätzungsweise erst im August bis September 2015 erfolgen wird, es entsteht aber eine Belastung von über 300 Euro, womit mindestens 4 Veranstaltungen nötig sind, um den Kaufpreis hineinzubringen, eventuell auch mehr, wenn Keyboard und Funkmikrofon gleichzeitig verwendet werden.
+Das KG-Konto
+
+Für den Keyboard- und Funkmikro-Gutschein wird ein zweites Konto namens "Keyboardgutschein" (Kürzel KG) angelegt. Dieses dient dazu, sicherzustellen, dass das Restguthaben, das vom Gutschein nach dem Kauf von Keyboard und Funkmikrofonen verbleibt, nur für Zubehör zu diesen Geräten verwendet wird, also eventuell für zusätzliche Kabel oder auch Akkus, falls diese hauptsächlich für die neuen Geräte verwendet oder wegen diesen notwendig werden. Dieses Konto spiegelt im Prinzip den genauen Reststand des Gutscheins wieder.
+
+Hier wurden zunächst von den € 1000 für das Keyboard und das zugehörige Kabel insgesamt € 334 abgezogen, für das Funkmikrofon kommen weitere € 298 dazu, und für die Eneloop-Akkus kann ein Viertel des Kaufpreises der Packung angerechnet werden, das sind € 6,25. Damit verbleibt vom Gutschein ein Restbetrag von € 361,75, der noch für weiteres Zubehör verwendet werden kann, falls solches fällig wird, z.B. für weitere Akkus, was aber unwahrscheinlich ist.
+
+(Kurt Woloch, 6.3.2015)
+	- 1 -
+

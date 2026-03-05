@@ -1,0 +1,285 @@
+Dokumentation des Lebensbereiches "Fahrzeuge" von Kurt Woloch
+Stand: 13.11.2011
+Dokumentenstatus: intern, Zielgruppe: ich selbst, eventuell meine Eltern
+
+Gegenstand dieses Kontos / Bereiches	1
+Allgemeiner Status des Fahrzeugkontos	1
+Auflistung der verschiedenen Fahrzeuge und Aktionen	2
+Berechnung und Feststellung der Rentabilitäten	2
+Lego-Lokomotiven	2
+Spielzeugauto (Buggy)	2
+Bigtrak	2
+Ferngesteuerte Autos	2
+Li'l Motorized Beamer (Kinderelektrofahrzeug)	3
+Peg Santa Fe (Kinderelektrozug)	3
+Peg-Perego Corral T-Rex (Kinderquad)	3
+Elektro-Roller (100 W)	4
+Ausborgen eines Elektro-Rollers oder Elektrofahrrades	4
+Ausborgen eines Mopeds	4
+Ansehen von Videos über Fahrzeuge	5
+Surfen im Internet auf Foren über Elektro- und andere Fahrzeuge	5
+Ansehen und Beobachten von Elektro- und anderen Fahrzeugen bei Vergnügungsbetrieben oder in freier Wildbahn	5
+Berechnungen über die Leistungsfähigkeit verschiedener Fahrzeuge bzw. ihrer Motoren	5
+Überprüfung der derzeitigen Fahrten	5
+Überprüfung der Anschaffung von neuen Fahrzeugen	6
+Spielzeugfahrzeuge	6
+Ferngesteuerte Autos	6
+Kinder-Elektrofahrzeuge	6
+Elektro-Roller	6
+100-W-Roller	6
+Elektroroller (Boreem-Type)	7
+E-Bike:	7
+Elektro-Roller (Mopedform, als Fahrrad zugelassen):	7
+Sinclair C5	7
+Segway	7
+Elektro-Moped	7
+Benzin-Moped	8
+Mopedauto	8
+Auto	8
+Fazit der Rentabilitätsrechnungen	9
+Businessplan	9
+Disposition der vorhandenen Dinge und Schulden	9
+
+Gegenstand dieses Kontos / Bereiches
+
+Das Fahrzeugkonto beschäftigt sich im Prinzip mit Fahrzeugen aller Art, genauer gesagt mit Elektrofahrzeugen, Mopeds, Autos und auch Spielzeugfahrzeugen wie Lego-Loks, Bigtrak und ferngesteuerten Autos, und mit den Beschäftigungen mit diesen Fahrzeugen.
+Allgemeiner Status des Fahrzeugkontos
+
+Die Geschichte des Kontos war zwar in der ersten Version dieser Dokumentation vorhanden, wurde aber gestrichen, weil sie eigentlich nicht in eine aktuelle Dokumentation gehört.
+
+Das Fahrzeugkonto hat per 30.7.2008 einen Schuldenstand von € 7.346,60, das meiste davon stammt vom 3. Unfall, den ich mit dem Elektroroller im Juni 2004 hatte. Vor dem ersten Unfall konnte der Schuldenstand bereits auf ca. € 200 gedrückt werden. Die Endabrechnung für diesen Unfall ist erfolgt, der Schuldenstand hat sich dadurch aber bis auf € 10616,28 erhöht. Da diese Verschuldung auf normalem Wege nicht in einer vernünftigen Zeit wieder abtragbar ist, wurde beschlossen, das Konto auszugleichen, was zu der Reduktion auf den oben angegebenen Stand führt. Im Rahmen des Ausgleichs erfolgt jeden Monat eine Zahlung im Gegenwert von 5 Arbeitsstunden (im Jahr 2008 € 72,50) vom Radio-/Fernsehkonto, das im Moment das bestverdienende Konto ist, an das Fahrzeugkonto.
+Auflistung der verschiedenen Fahrzeuge und Aktionen
+
+Das Fahrzeugkonto war bzw. ist im wesentlichen für folgende Fahrzeuge zuständig (in der Reihenfolge, wie ich sie bekommen habe):
+
+- Lego-Lokomotiven
+- Spielzeugauto (Buggy)
+- Bigtrak
+- Ferngesteuerte Autos
+- Li'l Motorized Beamer (Kinderelektrofahrzeug)
+- Elektro-Roller
+- Peg-Perego Santa Fe (Kinderelektrozug)
+- Peg-Perego Corral T-Rex (Kinderquad)
+
+Weiters wurden und werden im Namen des Fahrzeugkontos folgende Aktionen durchgeführt:
+
+- Fahrten bzw. Spielen mit den oben genannten Fahrzeugen
+- Ausborgen von Mopeds, Elektro- und anderen Fahrzeugen
+- Ansehen von Videos über Fahrzeuge
+- Surfen im Internet auf Foren über Elektro- und andere Fahrzeuge
+- Ansehen und Beobachten von Elektro- und anderen Fahrzeugen, die bei Vergnügungsbetrieben oder in freier Wildbahn angetroffen werden
+- Berechnungen über die Leistungsfähigkeit verschiedener Fahrzeuge bzw. ihrer Motoren
+Berechnung und Feststellung der Rentabilitäten
+
+Die Berechnung der Rentabilitäten gehört eigentlich in ein Entwicklungsdokument, so dass sie hier weggelassen wurden. Es bleibt nur die allgemeine Beschreibung der Fahrzeuge und ihrer Verwendung.
+Lego-Lokomotiven
+
+Die Lego-Lokomotiven gibt es bereits, und sie werden nicht besonders stark verwendet, weil das Spielen damit nicht besonders reizvoll ist. Die ungefähren technischen Parameter dürften auch schon ausgelotet sein.
+Spielzeugauto (Buggy)
+
+Hier ist der Fall ähnlich gelagert wie bei den Lego-Lokomotiven, allerdings waren hier die Experimente meist kürzer.
+Bigtrak
+
+Auch dies ist, wie die vorher erwähnten Fahrzeuge, ein Spielzeug. Hier gibt es allerdings im Gegensatz zu diesen kleine Schwierigkeiten mit den Batterien: Der Buggy und die Lego-Lok verwenden Babyzellen, von denen im Moment Akkus vorhanden sind. Bigtrak braucht aber Monozellen, die zu diesem Zweck aus dem D-8334-Radiorekorder entnommen und nachher wieder zurückgegeben werden.
+Ferngesteuerte Autos
+
+Hier gab es im Jahr 2006 keine Fahrten. Hier kommt als weitere Schwierigkeit dazu, dass ferngesteuerte Autos zumindest zum Fahren einen Spezialakku erfordern, der im Moment nicht vorhanden ist und schätzungsweise ca. € 30-40 kosten würde. Eine andere Möglichkeit wäre das Redesign des Fahrzeuges, so dass sich die vorhandenen 6 Baby- oder die Mono-Akkus als Fahrakku nutzen lassen.
+
+Weiters wären für Sender- und Empfängerakku zusätzlich insgesamt 12 Mignonzellen erforderlich, von denen im Moment aber nur 4 funktionierende vorhanden sind (für den Sender könnten aber auch Batterien verwendet werden, da hier der Strombedarf nur schätzungsweise 62,5 mA beträgt). Es wurde aber eine entsprechende Aktion in die Prioritätenliste eingetragen, die erst einmal die Bestückung mit Akkus vorsieht, damit das Fahrzeug wieder genutzt werden kann.
+
+Nach der Durchführung der Neuausstattung wäre dann das in der ursprünglichen Version der Dokumentation errechnete E/A-Verhältnis für einzelne Fahrten einzutragen (bis die Akkus kaputt sind).
+
+Eine Fahrt dauert dann ca. 15 Minuten, bringt also 1-2 Spaßpunkte. Der Aufwand hierfür beträgt 15 Minuten für die Fahrt und 6 Minuten dafür, mit dem Auto hinunter zu gehen sowie 1,05 Minuten für die Aufladung, das sind insgesamt 0,3675 Stunden.
+Li'l Motorized Beamer (Kinderelektrofahrzeug)
+
+Dieses Fahrzeug ist das ältere Kinderelektrofahrzeug. Es wird mit 6 Monozellen betrieben, die im Moment auch wieder als Akkus vorhanden sind. Eine Verwendung von Batterien ist hier nicht besonders sinnvoll, da diese einen zu hohen Innenwiderstand haben und das Fahrzeug, wenn ich darauf fahre, schätzungsweise ungefähr 2 Ampere verbraucht, was bei Alkali-Batterien einen relativ großen Spannungsabfall zur Folge hat. Der Innenwiderstand für kontinuierliche Belastung liegt z.B. bei Duracell Plus-Batterien bereits nach 2 Ah bei 0,17 Ohm pro Zelle und nach 4 Ah Energieabgabe bei 0,25 Ohm pro Zelle, was einen Spannungsabfall auf 0,81 V zur Folge hätte. Nach 2 Ah läge die Spannung bei 1 V. Demgegenüber haben die vorhandenen Conrad-Akkus einen weit niedrigeren Innenwiderstand, der auch über die ganze Entladedauer weitgehend konstant bleiben dürfte (wie es bei Zellen mit geringer Selbstentladung üblich ist). Hier sind aber keine Hochstrom-Tests über längere Zeit vorgenommen worden, bisher sind die Zellen über längere Zeit nur im Radiorecorder mit einem maximalen Stromverbrauch von 100-120 mA im Einsatz gewesen und nur kurzfristig im Keyboard und im Li'l Motorized Beamer getestet worden, wo sie jedenfalls keine Probleme mit dem Stromverbrauch des Fahrzeugs (bis 5 A beim Anfahren) haben dürften.
+
+In den Jahren 2007-2010 wurde dieses Fahrzeug nicht verwendet, weil keine ausreichend starken Akkus zur Verfügung standen.
+Peg Santa Fe (Kinderelektrozug)
+
+Dieses Fahrzeug ist erst 2007 ins Haus gekommen, aber ich würde hier einmal davon optimistisch vom gleichen E/A-Verhältnis wie beim Spielzeugauto (Buggy) ausgehen, also 1,868. Hier ist wieder der spezielle Akku (im Moment Bleiakku 12V, 10 Ah) zu beachten, der über das orange Robbe-Ladegerät geladen werden sollte.
+Peg-Perego Corral T-Rex (Kinderquad)
+
+Das Peg-Perego Corral T-Rex ist ein Kinderelektroquad, das am 30.6.2011 bei Hofer in Klosterneuburg zum Eröffnungspreis von nur € 79,99 gekauft wurde. Bei diesem Fahrzeug lässt sich ohne weiters der ganze Akku mit einem erwachsenen Fahrer ausfahren (das sind dann ca. 40 Minuten oder 4 km Fahrtstrecke), ohne dass eine besondere Erhitzung der Motoren feststellbar wäre. Dadurch sind viel weitere Fahrten und damit auch vielfältigere Fahrstrecken möglich, so dass ich bis dato schon fast 50 Fahrten durchgeführt habe.
+
+Wir stellen hier eine Kalkulation für eine typische Fahrt mit diesem Fahrzeug auf. Dabei rechnen wir pro Fahrt normalerweise mit 3 Spaßpunkten, die sich aus einer Fahrzeit von 40 Minuten und einem Spaßwert von 4-5 Punkten pro Stunde herleiten. Der Zeitaufwand dafür beträgt knapp unter einer Stunde, also im Schnitt ca. 57 Minuten inkl. Hinunter- und Hinauftragen des Fahrzeuges und Aufladen des Akkus. Dabei werden schätzungsweise noch ca. 100 Wh an Strom verbraucht. Das beigelegte Ladegerät müsste sehr sparsam sein, was man daran merkt, dass bei vollgeladenem Akku der abgegebene Strom wahrscheinlich weit zurückgeht und dann auch das Gerät selbst sich kaum noch erwärmt, was bei Geräten mit konventionellem Trafo so eindeutig nicht der Fall ist. Bei derzeitigen Kosten von 17,5 Cent pro kWh ergibt dies 1,75 Cent für den Ladestrom.
+
+Hier nun die Kalkulation der variablen Kosten einer Fahrt:
+
+Einnahmen:
+
+3 Spaßpunkte à € 10,10...	€ 30,30
+
+Ausgaben:
+
+57 Minuten Arbeitszeit...	€ 14,73
+Ladestrom...		€   0,02
+Gesamtkosten...		€ 14,75
+
+Eine Fahrt erreicht damit ein E/A-Verhältnis von 30,30 / 14,75 = 2,054, was ziemlich gut ist. Mit diesem E/A-Verhältnis wurde eine Aktion "Fahrt mit dem E-Quad" in die Prioritätenliste eingetragen. Es ist aber nicht möglich, damit ins Büro zu fahren, weil das Ding doch etwas sperriger ist als der E-Roller. Dafür wird aber kein Unfallrisiko berücksichtigt, da das Ding auf Grund der geringen Höchstgeschwindigkeit von 6 km-/h hauptsächlich am Gehsteig gefahren wird und auch stabil auf 4 Rädern steht, so dass ich damit kaum umfallen kann wie bei einem Elektro-Roller. Der exponierteste Körperteil sind übrigens meine Knie, die nach links und rechts weiter abstehen als der weiteste Teil des Fahrzeuges.
+
+Übrigens wurde hier versucht, die Fehler zu vermeiden, die ich vor etlichen Jahren mit dem Elektrofahrrad gemacht habe, nämlich die vielen Fahrten gemeinsam mit Papa, die mir weniger Spaß gemacht haben als Fahrten alleine. Aus diesem Grund wurde zunächst die komplette Umgebung, die mit einer Akkuladung erreichbar ist, abgefahren und dann erst einige Fahrten mit Papa durchgeführt. Die bisherigen Ziele mit Papa waren dabei die Donauinsel (Parkplatz Floridsdorfer Brücke), der Donaupark (Parkplatz bei chinesischem Restaurant), der Kurpark Oberlaa (Parkplatz bei Musterhäusern), der Türkenschanzpark (Parkplatz bei der Sternwarte), die Wasserrutsche auf der Donauinsel (Parkplatz ebendort) und der Wasserpark (Parkplatz am Romaplatz). Es überwiegen aber ganz klar die Fahrten ohne Papa, und ich fahre damit manchmal auch zu Restaurants in der Nähe und, wenn ich an einem freien Tag einkaufe, auch zum Einkaufen. Damit besteht kein Zweifel daran, dass sich dieser Kauf rechnen sollte.
+
+Weiters versuche ich auch, den Akku nicht immer ganz zu entladen, so wie es beim Elektrofahrrad der Fall war, da ich den begründeten Verdacht habe, dass dessen Akku durch diese ständigen Tiefentladungen schnell abgenutzt war, und sich Akkus, die nicht immer so tief entladen werden, wesentlich öfter verwenden lassen sollten. Dies sieht man auch auf Kurven von Herstellern von Bleiakkus, von denen auch einer im E-Quad eingebaut ist.
+
+Generell hat sich dieses Fahrzeug als ziemlich zugkräftig herausgestellt, es ist z.B. in der Lage, mich die Auffahrt zur Fußgängerzone hinauf zu ziehen, was bisher bei keinem Fahrzeug der Fall war, auf dem ich selbst fahren konnte. Es scheint auch nach kleineren Verstärkungen am Hinterteil stark genug zu sein, um bei meinen ausgedehnten Fahrten keinen Schaden zu nehmen.
+Elektro-Roller (100 W)
+
+Dieser ist im Moment noch vorhanden, aber kaputt. Es wurde festgestellt, dass sich eine Reparatur nicht rechnet und das Fahrzeug daher zu entsorgen wäre, mit Ausnahme der Akkus, die aus dem Fahrzeug entfernt wurden und regelmäßig nachgeladen werden sollten.
+Ausborgen eines Elektro-Rollers oder Elektrofahrrades
+
+Diese Tätigkeit kam bei mir in den letzten Jahren ungefähr einmal pro Jahr vor. Der einzige mir bekannte Verleiher solcher Elektrofahrzeuge ist im Moment der Radverleih bei der Reichsbrücke, wo es mehrere Modelle von Elektro-Rollern (die wie Mopeds aussehen) und Elektrofahrrädern auszuborgen gibt.
+
+Hierbei gibt es gegenüber den Fahrzeugen, die ich selbst besitze, mehrere Hindernisse:
+- Es ist für das Fahrzeug eine Miete zu bezahlen
+- Es gibt einen Zeitaufwand für die Hin- und Rückfahrt zum Verleiher
+- Da das Fahrzeug nur stundenweise ausgeborgt wird, kann es nicht für sinnvolle Fahrten verwendet werden (wo etwas anderes dazwischen getan wird), da sonst für die verbrachten Stunden auch der relativ hohe Leihtarif zu entrichten wäre.
+Ausborgen eines Mopeds
+
+Diese Aktion ist seit der Mopedausweis-Pflicht, die im Sommer 2011 für alle eingeführt wurde, unrentabel und wurde daher aus der Prioritätenliste gestrichen.
+Ansehen von Videos über Fahrzeuge
+
+Diese Möglichkeit hat sich erst in den letzten Jahren mit dem Aufstieg von Youtube ergeben. Hier ergeben sich im Schnitt 2,6 Spaßpunkte pro Stunde. Dies ist wichtig für die Berechnung, wo bisher wie beim Internet-Surfen von nur 1,7 Punkten pro Stunde ausgegangen wurde.
+Surfen im Internet auf Foren über Elektro- und andere Fahrzeuge
+
+Auch hierfür gibt es schon Auswertungen, und das Surfen im Forum "Modified Power Wheels" befindet sich auch schon in der Prioritätenliste mit einem E/A-Verhältnis von 1,644, was ungefähr 97% von dem der Videos entspricht.
+Ansehen und Beobachten von Elektro- und anderen Fahrzeugen bei Vergnügungsbetrieben oder in freier Wildbahn
+
+Dies ist  etwas vergnüglicher als das Ansehen der Videos, da hier auf Grund der Umgebung Längen und Geschwindigkeiten besser geschätzt werden können. In freier Wildbahn findet man allerdings nur selten Kinderelektrofahrzeuge, etwas häufiger noch Mopeds, bei denen man aber auf Grund der Geschwindigkeit aus dem Stehen heraus kaum sinnvolle Messungen und Berechnungen machen kann.
+
+Bei den Vergnügungsbetrieben ergibt sich wieder die Problematik, dass man diese erst aufsuchen muss. Aus diesem Grund bin ich nie extra zu Vergnügungsbetrieben oder anderen Plätzen gegangen, um mir verschiedene Fahrzeuge anzusehen, sondern dies war fast immer ein Nebenprodukt zu einem Spaziergang oder sonstigen Vorhaben. Ein solches Erlebnis kann einen Spaziergang schon aufpeppen, aber es kann normalerweise nicht im vorhinein geplant werden, da man nicht damit rechnen kann, auf Fahrzeuge zu stoßen. Das gleiche gilt auch für das Ansehen von Kinder- und anderen Fahrzeugen in Geschäften, wo meist nicht damit gefahren wird.
+
+Aus diesem Grund gibt es zu diesem Punkt keine weiteren Berechnungen, und er wird auch nicht in die Prioritätenliste eingetragen.
+Berechnungen über die Leistungsfähigkeit verschiedener Fahrzeuge bzw. ihrer Motoren
+
+Diese Berechnungen können manchmal recht interessant sein, sie werden aber meist zusammen mit dem Ansehen von Videos oder mit anderen Experimenten durchgeführt und sind dann in deren Zeiten enthalten. Manchmal erfolgen sie auch nach Experimenten, um die dort gewonnenen Daten auszuwerten. Ich würde in diesem Fall die Berechnungen mit dem gleichen E/A-Verhältnis wie das Surfen in einschlägigen Internet-Foren annehmen. In die Prioritätenliste sollten diese Aktionen aber nicht eingetragen werden, weil sie meist auf eine andere Aktion folgen und nicht separat durchgeführt werden.
+Überprüfung der derzeitigen Fahrten
+
+Wir überprüfen als nächstes die Fahrten, die derzeit durchgeführt werden. Dies dient als Grundlage für die Entscheidung, welche der Fahrten eventuell mit einem eigenen Fahrzeug effizienter bzw. spaßbringender durchgeführt werden können und wo dies nicht sinnvoll ist.
+
+Die häufigsten Fahrten sind die Fahrten ins Bundesrechenzentrum. Davon gab es im Jahr 2005 schätzungsweise 223 Hin- und 223 Rückfahrten, also insgesamt 446 Fahrten. Alleine durch diese Fahrten rechnet sich die Jahreskarte der Wiener Linien.
+
+Zusätzlich zu diesen Fahrten gab es noch weitere 96 Fahrten (Hin- und Rückfahrten jeweils als eigene Fahrt gerechnet), die zum grösseren Teil zu Karaoke-Lokalen führten.
+
+Genauer können diese Fahrten wie folgt aufgegliedert werden:
+
+Karaoke-Lokalbesuche: 2+2+2+1+2+2+22+11+3+5+3+2+2+6+1 = 66
+88.6-Studio: 1 = 1
+88.6-Forumstreffen: 2 = 2
+Geburtstagsfeier Orange: 2 = 2
+Debugging bei Egon: 1 = 1
+Anwalt: 2+2 = 4
+Ausleihen E-Roller: 1 = 1
+ELAK-Feier: 2 = 2
+Kauf DVD-Brenner: 1 = 1
+Radiotreffen Ottimo: 2+2 = 4
+Plenum Orange: 2 = 2
+Sendung Orange: 2+2+2+2 = 8
+Besorgung Gameboy SP: 2 = 2
+
+Von den Karaoke-Lokalbesuchen erfolgen schätzungsweise 75% gemeinsam mit meiner Mutter, wodurch 17 Fahrten bleiben, auf denen eventuell ein eigenes Fahrzeug verwendet werden kann (ausser, sie kann mitfahren). Von den anderen Fahrten könnten ca. 25 dafür geeignet sein, vorausgesetzt, die Reichweite ist dafür ausreichend, und die Fahrt ist sinnvoll, was dann je nach Fahrzeug verschieden ist und noch bei den einzelnen Fahrzeugen geklärt werden sollte. Insgesamt ergeben sich hier im Normalfall 42 mögliche "sinnvolle" Fahrten, von denen aber noch weitere bei Schlechtwetter abzuziehen sind.
+Überprüfung der Anschaffung von neuen Fahrzeugen
+
+Bisher war nur vom Fahren mit existierenden Fahrzeugen die Rede. Es gibt aber natürlich auch die Möglichkeit, neue Fahrzeuge aller Art anzuschaffen. Diese könnten dann beispielsweise auch für "sinnvolle" Fahrten verwendet werden, was von den vorhandenen Fahrzeugen derzeit bei keinem der Fall ist.
+
+Wir wollen im folgenden verschiedene mögliche Fahrzeuge daraufhin untersuchen, wie sie sich in Bezug auf Kosten, Nutzen und Spaß verhalten, wenn sie neu angeschafft werden.
+Spielzeugfahrzeuge
+
+Es gibt einmal die Möglichkeit, bestimmte Spielzeugfahrzeuge anzuschaffen, wie z.B. den Buggy. Vor einigen Jahren wurde auch ein Set von 4 kleinen Formel-1-Autos angeschafft, von dem sich dann aber herausstellte, dass diese nur geradeaus fahren können.
+
+Derzeit sind mir keine bestimmten Fahrzeuge dieser Art bekannt, die angeschafft werden könnten.
+Ferngesteuerte Autos
+
+Diese sind üblicherweise schon etwas teurer, obwohl es auch billige Modelle gibt. Hier fehlt mir im Moment etwas die Übersicht, so dass ich hier keine Berechnung aufstellen möchte.
+Kinder-Elektrofahrzeuge
+
+Nachdem ich nun bereits den Elektro-Zug, den Li'l Motorized Beamer und das Corral T-Rex besitze, verspüre ich im Moment keine Lust, noch weitere Kinderfahrzeuge zu kaufen. Ich würde dann eher in die Richtung eines größeren Fahrzeugs für Erwachsene, z.B. eines Elektrofahrrades oder -rollers mit Sitz gehen.
+Elektro-Roller
+
+Auch Elektro-Roller gibt es in zahlreichen verschiedenen Ausführungen. Hier wurden allerdings nur die Berechnungen belassen, die zu einem rentablen Ergebnis geführt haben.
+100-W-Roller
+
+Dies habe ich bereits gehabt und damit einen Unfall gehabt. Diese Fahrzeuge sind auf Grund des nicht vorhandenen Sitzes und der ziemlich kleinen Räder relativ gefährlich, so dass ich kein weiteres Fahrzeug dieser Art mehr kaufen würde.
+Elektroroller (Boreem-Type)
+
+Die nächst größere Rollertype wäre der sogenannte "Boreem"-Roller aus China, der besonders in den Jahren 2002-2004 unter zahlreichen Typenbezeichnungen importiert und billig verkauft wurde, am Schluß zu Preisen unter € 200,-.Dieser Roller wurde auch zu Ostern 2004 kurz ausprobiert, aber wegen Mängeln und Unterschieden zum Prospekt wieder zurückgegeben.
+
+Hier kurz die technischen Daten...
+Motor: üblicherweise 250 W (es wurden aber schon Typen mit schwächerem Motor gesichtet)
+Theoretische Höchstgeschwindigkeit: normalerweise 25 km/h, praktisch: ca. 22 km/h (es gibt aber auch langsamere)
+Akkus: typischerweise 24V/12 Ah (auch hier gibt es Variationen, z.B. Typen mit 36V)
+
+Wenn der Akku gut ist und die Räder gut aufgepumpt sind, sollte sich hier eine Reichweite von ca.17 km (in 0,777 Stunden) ergeben, was leider nicht ausreicht, um damit in die Firma und zurück zu kommen. Man könnte aber versuchen, das Ladegerät mitzunehmen und im Büro aufzuladen.
+
+Bei der Berechnung hat sich gezeigt, dass dieser Roller mit einer Kostendeckung von nur 61,6% klar unrentabel ist.
+E-Bike:
+
+Das E-Bike stellt die nächst teurere Lösung dar, es wird immer wieder von diversen Händlern ab € 600,- angeboten, davon wäre noch eine Förderung von € 150 abzuziehen. Der Akku hat hier eine größere Reichweite von 35 km (angegeben waren eigentlich 70 km, aber dies ist wohl eine Angabe mit Mittreten) und ist ein Bleiakku, was eine geschätzte Lebensdauer von ca. 3500 km ergibt. Danach wäre das Rad selbst theoretisch noch funktionsfähig, ich bezweifle aber, ob es dann noch passende Akkus gibt, so dass ich vorsichtshalber davon ausgehen würde, dass auch dieses Fahrzeug nur so lange hält wie sein Akku.
+
+Im Rahmen der Dokumentation "Ermittlung sinnvoller Aktivitäten während Fahrten" wurde berechnet, dass es sich nicht rechnet, mit dem Elektrofahrrad statt mit öffentlichen Verkehrsmitteln zur Arbeit zu fahren. Da sich andere Fahrten erst recht nicht rechnen, wäre auch dieses Fahrzeug als unrentabel zu betrachten. Das E/A-Verhältnis dafür wurde mit 0,808, also einer Kostendeckung von 80,8% berechnet.
+Elektro-Roller (Mopedform, als Fahrrad zugelassen):
+
+Hier handelt es sich um einen Elektro-Roller, der aussieht wie ein relativ kleines Moped, aber als Fahrrad zugelassen und auch nur max. 25 km/h schnell ist. Ein solcher Roller kostet ungefähr € 1000,-.
+
+Auch hier kann man von einer Reichweite von ca. 35 km ausgehen, und auch dieses Fahrzeug wird mit Bleiakkus betrieben (in diesem Fall 48 V 12 Ah). Der Austausch dieser Akkus kostet schätzungsweise ca. € 150-200.
+Sinclair C5
+
+Dieses Fahrzeug würde im Prinzip einem Elektrofahrrad entsprechen. Hier kann die Rentabilität aber nicht genau berechnet werden, da dieses Fahrzeug schon lange nicht mehr erhältlich ist.
+Segway
+
+Diese Type von Fahrzeug ziehe ich nicht ernsthaft in Betracht, da sie ziemlich teuer ist (mehrere tausend Euro) und dabei ungefähr so unsicher wie ein Stand-Elektro-Roller, wie auch der kürzliche Tod des Besitzers der Firma Segway mit einem Segway-Roller beweist.
+Elektro-Moped
+
+Wir kommen nun in die Kategorie der Mopeds. Hier muss man nun die Verkehrsregeln beachten, so dass man etwas längere Fahrwege hat. Dafür ist ein Moped aber bei einer Höchstgeschwindigkeit von 45 km/h erheblich schneller als ein Elektrofahrrad oder ein gleichwertiger Roller. Weiters braucht man seit Sommer 2011 dafür auch zwingend einen Mopedausweis.
+
+Der Weg beträgt ins Bundesrechenzentrum 11,6 km bei einer geschätzten Durchschnittsgeschwindigkeit von 26,4 km/h, dies ergibt eine Wegzeit von 26,36 Minuten, dazu kommen ca. 7 Minuten für die Versorgung des Fahrzeugs, dies ergibt insgesamt 33,36 Minuten pro Weg.
+
+Der Rückweg beträgt 11,5 km bei einer geschätzten Durchschnittsgeschwindigkeit von 27,08 km/h, dies ergibt eine Wegzeit von 25,48 Minuten, dazu kommen ca. 7 Minuten für die Versorgung des Fahrzeugs, dies ergibt insgesamt 32,48 Minuten pro Weg.
+
+Insgesamt haben wir hier eine Fahrzeit von 65,84 Minuten hin und zurück. Den Spaßwert würde ich bei einer Höchstgeschwindigkeit von 45 km/h mit einem Spaßpunkt pro 11,25 km annehmen, das sind dann 2,053 Spaßpunkte für einen Hin- und Rückweg oder € 20,74 bei einem Spaßwert von € 10,10 pro Punkt.
+Benzin-Moped
+
+Für ein Benzin-Moped gilt im Prinzip die gleiche Fahrgeschwindigkeit bei gleichen Wegen, allerdings gibt es keine so geringe Reichweite - die Reichweite beträgt hier etwa 167 km, danach müssen 5 l Benzin nachgetankt werden (und gelegentlich etwas Öl). Wir schätzen die Kosten für Benzin und Öl auf insgesamt € 1,25 pro Liter, das sind € 0,0375 pro Kilometer.
+
+Es entfallen aber die "Versorgungskosten" für das Aufladen.
+
+Die Kosten für ein Benzin-Moped (sog. Baumarkt-Roller) liegen bei ca. € 1000. Hier ist wiederum eine Versicherung abzuschließen, die Kosten inkl. Service würde ich bei ca. € 330 pro Jahr ansetzen, die Kaufkosten wieder bei € 150.
+
+Die Reichweite eines Baumarkt-Rollers würde ich mit ca. 10000 km einschätzen. Da dazwischen kein Akkuwechsel anfällt, berechne ich hier die Kosten für die ganze Lebensdauer des Rollers (in diesem Fall 7,917 Jahre):
+Mopedauto
+
+Ein Mopedauto ist auf den ersten Blick von der Zulassung her ähnlich wie ein Moped, hat aber doch gewaltige Unterschiede, indem es vier Räder hat und vom Profil her fast einem Kleinwagen entspricht. Aus diesem Grund kann es auch das ganze Jahr über und nicht nur bei Schönwetter und warmen Temperaturen gefahren werden. Dies erhöht beträchtlich den Anteil der Fahrten, die damit gefahren werden können. Andererseits ist es auch viel teurer in der Anschaffung und im Unterhalt.
+
+Von den möglichen Fahrten her würde ich einmal schätzen, dass sämtliche Fahrten mit dem Mopedauto durchgeführt werden könnten, womit sich die Anzahl der gefahrenen Kilometer pro Jahr auf 11,55 * 542 = 6260 km erhöht.
+
+Ich würde den Kaufpreis eines Mopedautos mit ca. € 10,000 annehmnen. Die fahrbaren Kilometer würde ich mit 80000 annehmen, allerdings würde ich die Lebensdauer mit 11 Jahren begrenzen, so dass sich in der Praxis 68860 fahrbare Kilometer ergeben. Den Kaufaufwand würde ich wieder mit € 150 annehmen.
+
+Das Service kostet laut ARBÖ ca. € 300 pro 5000 km, das wären dann € 375,60 pro Jahr, dazu kommt der Zeitaufwand für die Serviceabwicklung mit ca. 2 Stunden, der die Kosten um 10% erhöht. Die Versicherung kommt auf schätzungsweise € 282 pro Jahr, der Dieselverbrauch beträgt ca. 3,5 l/100 km, das sind € 0,04 pro km.
+
+Im Dokument "Ermittlung sinnvoller Aktionen während Fahrten" wurde die Anschaffung eines Mopedautos mit den derzeitigen Fahrten mit öffentlichen Verkehrsmitteln, während denen noch eine Menge anderer Dinge getan werden können, verglichen, und festgestellt, dass im Vergleich dazu das Mopedauto unrentabel ist, so dass dessen Kauf nicht in Betracht gezogen wird.
+Auto
+
+Dies ist praktisch die "Königsklasse" der Transportmittel, die von den meisten Menschen verwendet wird.
+
+Ein Auto hat gegenüber einem Mopedauto die Vorteile, dass es größer und stärker ist, schneller fährt und mehr Personen Platz bietet. Da es schneller fährt, kann es auch auf Autobahnen gefahren werden. Es verbraucht aber auch mehr Treibstoff und somit mehr Geld.
+
+Die Anzahl der möglichen Fahrten würde ich gleich hoch schätzen wie beim Mopedauto, allerdings sind die Fahrten länger - der Weg zum BRZ würde mit einem Auto 12,1 km lang sein und 16 Minuten dauern, der Rückweg ist 11,1 km lang und dauert ebenfalls 16 Minuten (beides laut Google Maps). Daher würde ich die Anzahl der gefahrenen Kilometer pro Jahr auf 11,6 * 542 = 6287,2 km schätzen.
+Fazit der Rentabilitätsrechnungen
+
+Aus den Rentabilitätsrechnungen für die verschiedenen Fahrzeuge, die in der ursprünglichen Version dieser Dokumentation angestellt wurden, ergeben sich folgende Regeln:
+
+- Die vorhandenen Spielzeuge und Fahrzeuge sollten gelegentlich genutzt werden, die Aktivitäten dafür wurden in die Prioritätenliste eingetragen
+- Derzeit kommen keine Neukäufe von Fahrzeugen in Frage.
+Businessplan
+
+Nachdem das Fahrzeugkonto laut den letzten Dokumentationen nur noch "Gelegenheitsbeschäftigungen" mit Kinderelektrofahrzeugen und anderen Kleinigkeiten aufweist, läßt sich kein verläßlicher Businessplan erstellen. Das Konto befindet sich derzeit schon im Ausgleich und könnte auch geschlossen werden, falls es sich nicht rechnet.
+Disposition der vorhandenen Dinge und Schulden
+
+Die vorhandenen Fahrzeuge bleiben vorläufig in der Wohnung und werden gelegentlich weiter verwendet, wie von der Prioritätenliste vorgesehen.
+
+Der Schuldenstand wurde bereits oben angegeben und wird nun langsam ausgeglichen.
+2
+
+
+	- 1 -
+

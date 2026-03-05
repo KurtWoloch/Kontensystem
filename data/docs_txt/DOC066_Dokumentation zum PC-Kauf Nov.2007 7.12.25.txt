@@ -1,0 +1,640 @@
+Dokumentation zum PC-Kauf von Kurt Woloch im November 2007
+Stand: 7.11.2007
+
+Anlaß
+
+Komische Geräusche und Datensicherung
+
+Im September bis November 2007 kam es zu einigen Pannen am PC. Dies fing damit an, daß Papa (Erwin Woloch) Anfang September meldete, daß beim PC-Start komische Geräusche auftraten und er ihn darauf wieder ausgeschalten hat, worauf Windows nur in einer "Notversion" startete.
+Ich habe mich daraufhin entschlossen, nachdem der PC zuletzt schon im Juni 2005 aufgesetzt wurde und damals eine Datensicherung zwar geplant, aber nicht zu Ende geführt würde (die näheren Details würden hier den Rahmen sprengen), eine Sicherung aller Daten auf den Festplatten durchzuführen. Im Zuge dieser Sicherung fiel dann zunächst auf, daß die Probleme offensichtlich nicht bleibend waren. Nach Durchführung von HijackThis und Entfernung aller störenden Elemente mit diesem Programm funktionierte der PC aber recht gut. Die Sicherung wurde aber trotzdem zu Ende geführt, weil die letzte Sicherung schon so lange her war (tatsächlich wurden die meisten Daten, bis auf MP3- und WAV-Files, seit September 2004 nicht mehr gesichert, als die 160-GB-Festplatte getauscht wurde).
+Pannen beim MSN Messenger, Radio Würmchen, Defrag und Scandisk 
+
+Am 2.11.2007 gab Sweetdevil7 eine Flatcast-Internetradiosendung bei Jukebox-Heroes-Radio.de. Im Zuge dieser Sendung wollte ich einen Musikwunsch abgeben, wozu es in diesem Sender üblich ist, via MSN Messenger ein Fenster zu öffnen und dem DJ den Musikwunsch zu übermitteln. Dabei wurde ein Update dieses Programms erforderlich, was auf den ersten Blick funktionierte. Gleichzeitig entwickelte ich in Visual Basic 5 ein Programm zum Einlesen von Börsenkursen von der Internetseite Cortal Consors (das letztlich fehlschlug, weil die Seiten dort mit Javascript aufgebaut werden). Irgendwann an diesem Abend stürzte der PC dann ab, als er gerade dabei war, den ersten solchen Zugriff durchzuführen, und im Anschluß ließ sich der Dateimanager nicht mehr starten, was auch nach mehreren Startversuchen nicht mehr gelang. Ich versuchte daraufhin, Defrag C: durchzuführen, was das System wieder zum Laufen brachte, aber es war beim Defragmentieren und bei einem Scandisk-Lauf offensichtlich, daß es bei manchen Problemen der C-Platte leichte Probleme beim Zugriff gibt.
+Ich beschloß daraufhin, nachdem die C-Platte fertig defragmentiert war, auch die D-Platte zu defragmentieren, was leider ziemlich danebenging. Zuerst meldete Defrag einen Fehler, und daß ich Scandisk starten soll. Auf die Ausgabe von Scandisk achtete ich dann nicht ganz genau. Papa meldete aber am 5.11., daß es beim Radio-Würmchen-Programm einen komischen Fehler gab, wo sich ein und dasselbe Lied immer wiederholte. Die Ursache dafür ist darin zu suchen, daß ich Winamp auf "Repeat all" gestellt habe, weil das installierte Crossfade-Plugin den ganzen Rechner zum Absturz bringt, wenn Winamp ans Ende der Playlist kommt. Radio Würmchen stellt nun beim Start immer die ersten zwei zu spielenden Titel in die Playlist, wobei es anhand der Tabelle Tab_Files bestimmt, welche Titel als Musikdatei vorhanden sind. Ist nun ein solcher Titel nicht wirklich vorhanden, wird zwar der Eintrag in der Winamp-Playlist besetzt, aber die Datei kann nicht abgespielt werden, wodurch Winamp sie überspringt. Ist sie nun die letzte in der Liste, springt Winamp wieder an den Anfang der Liste zurück, wodurch das Radio-Würmchen-Programm aber wiederum keinen weiteren Titel in die Playlist stellt.
+Kurz gesagt war die Ursache für den Fehler also, daß eine erwartete Datei von Richard Clayderman nicht vorhanden war, was mich etwas erstaunte, ich dachte mir aber nichts weiter dabei und spielte die fehlende Datei von einer Sicherungs-CD wieder ein.
+Am Morgen des 6.11. schlug die Fortsetzung von Defrag wieder fehl, und ich führte erneut Scandisk durch, wobei diesmal ausgegeben wurde, daß Fehler entdeckt und korrigiert wurden. Beim anschließenden Start des Radio-Würmchen-Programms wurde offensichtlich, daß einige Musikdateien beschädigt wurden, sie enthielten statt der erwarteten Musiktitel Fragmente anderer Musiktitel. Nachdem von diesem Fehler 2 von 6 gespielten Titeln betroffen waren, wurde offensichtlich, daß die Daten auf der D-Platte (wo sich die gesamten Musiktiteln befinden) zu einem beträchtlichen Teil beschädigt wurden. Im Hauptordner der D-Platte befanden sich außerdem zahlreiche CHK-Dateien, die offensichtlich beschädigte und gerettete Musikdateien waren. Darauf dachte ich mir, frei nach einem Ausspruch meines Vaters im Sommer 2007: "Des muaß ma weghau'n. Alles."
+Nach dieser Erkenntnis befindet sich der PC nun in folgendem Zustand:
+- Die C-Platte weist leichte Funktionsstörungen auf
+- Die Daten auf der D-Platte sind teilweise verschwunden und teilweise korrupt
+- Auf dem Rechner ist immer noch (seit Juni 2001) Windows ME installiert.
+- Der PC ist für bestimmte Anwendungen zu langsam und/oder hat zuwenig Speicher.
+
+Im Detail ergeben sich dadurch folgende Problemstellungen:
+
+Problemstellung C-Platte
+Die C-Platte ist nun so alt wie der PC selbst, nämlich über 6 Jahre, hat 40 Gigabyte Speicherkapazität und enthält das Betriebssystem Windows ME. Sollte sie ganz kaputt gehen, womit nach den vorliegenden Funktionsstörungen früher oder später zu rechnen ist, müßte sie gegen eine neue Platte getauscht werden. Der Haken dabei ist, daß das BIOS nur maximal 128 Gigabyte-Festplatten unterstützt und fast alle heute erhältlichen Festplatten größer sind als das. Dies führt bereits bei der 160 GB großen D-Platte dazu, daß ein Dynamic Drive Overlay installiert werden mußte, damit sie unter Windows problemlos funktioniert. Dies könnte aber zu den Problemen mit Scandisk und Defrag geführt haben, die möglicherweise trotzdem nicht korrekt laufen. Wenn eine solche Platte als Boot-Partition verwendet wird, sind noch größere Probleme zu befürchten.
+
+Problemstellung D-Platte
+Wie bereits festgestellt, sind die Daten auf der D-Platte korrupt. Wenn die D-Platte daher überhaupt weiter verwendet wird, müßte sie neu formatiert und die gesamten Daten wieder aufgespielt werden (zumindest die, die benötigt werden, wie z.B. die Musikdateien), was einen beträchtlichen Zeitaufwand darstellen würde.
+
+Problemstellung Windows ME 
+Das installierte Betriebssystem Windows ME wird mittlerweile von zahlreichen neueren Programmen nicht mehr unterstützt. Dies fing an mit dem neuen Napster und setzt sich fort über Internet Explorer 7, Winamp 5.5, Yahoo Music Engine, Apple Quicktime (das nun mit iTunes gebündelt ist) und einige andere, deren Namen ich vergessen habe.
+Aus diesem Grund wäre es auch nicht mehr problemlos möglich, das Betriebssystem Windows ME so wie im Juni 2005 nochmals neu aufzusetzen, weil die Installation einiger wichtigen Programme, die aus dem Internet installiert werden, nun daran scheitern würde, daß davon keine Versionen für Windows ME mehr angeboten werden. Aus diesem Grund müßte eine neue C-Platte, wenn sie sich installieren läßt, unter dem neueren Windows XP installiert werden, wodurch es aber wieder ein Problem mit der Kompatibilität einiger anderer Programme sowie der D-Platte sowie mit dem Arbeitsspeicher kommen könnte.
+
+Problemstellung Arbeitsspeicher und -geschwindigkeit
+Mit dem Arbeitsspeicher und der Arbeitsgeschwindigkeit gibt es weniger Probleme als mit dem Betriebssystem, aber es treten im Internet Explorer beim Ansehen von verschiedenen Seiten Speicherprobleme auf, und wenn aus dem Internet PDF-Dateien geöffnet werden, funktioniert das nur bei der ersten Datei, bei den darauffolgenden Dateien stürzt Acrobat Reader, der die Dateien öffnen sollte, ab. Auch bei der Verwendung von MSN Messenger stößt der Arbeitsspeicher oft an seine Grenzen. Die Arbeitsgeschwindigkeit (Pentium III mit 800 MHz) fällt hauptsächlich beim Brennen und Ansehen von DVD's auf. Wenn man versucht, beim Ansehen einer DVD mit PowerCD etwas anderes zu machen (z.B. eine Access-Datenbank zu bearbeiten), bleibt die DVD "stecken" und das Programm muß mit dem Taskmanager beendet werden. Der DVD-Brenner wurde Anfang 2005 angeschafft, weil es keine CD-Brenner mehr zu kaufen gab, und paßt eigentlich nicht zum System, weil in den Systemvoraussetzungen ein Minimum von einem 1 GHz-Prozessor angegeben wird. Das mitgelieferte Programm PlexTools funktioniert auch nicht, und mit einem anderen Programm (DeepBurner) funktioniert das Brennen von DVD's nur in "Häppchen"... der Brenner brennt auch in der langsamsten Einstellung schneller, als der PC Daten liefern kann, wodurch das Brennen immer wieder ausgesetzt wird, während der Puffer wieder aufgefüllt wird. Dank BURN-Proof-Technologie des Brenners hat dies keine negativen Folgen, ist aber sicher trotdem nicht optimal.
+Problemstellung Kartenleser
+In einem Gespräch am 4.11.2007 erwähnte Papa den Wunsch, mit dem PC auch Speicherkarten seiner Digitalkamera direkt bearbeiten zu können, da der Anschluß der Kamera relativ umständlich ist.
+
+Analyse der möglichen Alternativen
+
+Man kann nun argumentieren, daß der Kauf eines neuen PC's nicht die einzige Alternative ist. Es gibt natürlich auch noch andere Möglichkeiten, die anstehenden Probleme zu lösen, die im folgenden kurz umrissen werden:
+
+Neuformatierung und -Bespielung der D-Platte
+Es wäre möglich, die D-Platte neu zu formatieren und zu bespielen. Es ist aber nicht 100%-ig sicher, ob diese Platte nicht doch defekt ist, und die C-Platte hat ziemlich sicher auch ein Problem, so daß diese Lösung nicht unbedingt für langfristige Besserung sorgen würde.
+
+Neuformatierung der C-Platte und Installation von Windows XP
+Es wäre eventuell möglich, die C-Platte neu zu formatieren und Windows XP darauf zu installieren, wobei zusätzlich auch, wie oben geschildert, die D-Platte neu formatiert werden müßte. Das Problem ist, daß Windows XP tendenziell noch mehr Speicher braucht als Windows ME und somit die Speicherplatz- und Geschwindigkeitsprobleme, so wie das Problem der Speicherkarten, nicht gelöst wären.
+
+Installation einer neuen C-Platte und Aufsetzen von Windows XP
+Auch bei dieser Lösung müßte die D-Platte ebenfalls neu formatiert werden. Eine neue C-Platte wäre zwar nicht kaputt, wird aber möglicherweise vom BIOS nicht korrekt unterstützt. Auch hier ergäben sich, wie oben erwähnt, die Speicherplatz- und Geschwindigkeitsprobleme. 
+
+Austausch des Motherboards samt CPU und Grafikkarte und Installation einer neuen C-Platte mit Windows XP
+Dies wäre schon eine relativ langfristige Lösung, hat aber den Nachteil, daß die Komponenten einzeln gekauft werden müßten, was eventuell teurer als der Kauf eines Komplettsystems käme. Außerdem wäre hier noch der Aufwand des Zusammenbaus samt dem Risiko, dabei etwas kaputt zu machen. Das Problem der D-Platte wäre damit trotzdem nicht gelöst (außer, diese wird mit ausgetauscht), ebenso gibt es weiterhin keine Kartenleser am Gerät.
+
+Kauf eines neuen PC
+Dies ist die letzte und radikalste Möglichkeit. Hierbei wird der komplette PC neu gekauft, wobei noch verwendbare Komponenten des PC's weiterverwendet werden, so sie für den neuen PC noch brauchbar sind. Dies betrifft alle nicht direkt im PC eingebauten Dinge, also Monitor, Drucker, Scanner und USB-Hub, sowie auch DVD-Brenner, Soundkarte und eventuell Netzwerkkarte (für den Chello-Internetzugang). Hiermit werden alle oben beschriebenen Probleme gelöst. Es kann hier nur Probleme mit der Inkompatibilität älterer Geräte geben, allerdings gibt es für die meisten oben genannten Geräte für Windows XP und Windows Vista.
+
+Man könnte natürlich fragen, warum einige dieser Schritte nicht schon früher getan wurden. Die Antwort dafür ist, daß ursprünglich geplant war, zuerst das PC-Konto zu dokumentieren, um im Zuge der Dokumentation dann festzustellen, welche Anforderungen an den PC gestellt werden, ob er diese noch erfüllen kann oder ob Änderungen nötig sind. Dabei wären wahrscheinlich eine der folgenden Varianten herausgekommen:
+- Neuaufsetzen des PC's mit Windows XP (nach Datensicherung)
+- Erweiterung mit verschiedenen Zusatzgeräten (z.B. externe Festplatte, Kartenleser etc.)
+- Neukauf eines PC's
+
+Durch die oben dargestellten Probleme ist es nun aber notwendig, schnell etwas zu tun, da das Arbeiten am PC zwar mit Einschränkungen (gesamter Inhalt der D-Platte momentan nicht verläßlich vorhanden und verwendbar) noch möglich, aber bald mit weiteren Fehlern zu rechnen ist (wie z.B. kompletter Ausfall der C-Platte).
+
+Im Prinzip ist der Zeitpunkt im Moment aus folgenden Gründen gut, jetzt den drastischen Schnitt zu machen und einen neuen PC zu kaufen:
+- Die D-Platte müßte sowieso neu formatiert und bespielt werden, der Aufwand ist auf dem alten und neuen PC gleich
+- Die C-Platte könnte demnächst bald kaputtgehen (wie oben dargestellt)
+- Geschwindigkeits- und Speicherprobleme wie oben dargestellt
+- Es wurde erst vor kurzem die Datensicherung fertiggestellt, so daß sich nicht das Problem ergibt, die Daten vor dem Neukauf eines PC oder einer anderen Änderung erst sichern zu müssen
+- Die Nachteile durch Windows ME werden immer offensichtlicher, so daß auch bei weiter funktionierender C-Platte früher oder später Windows XP aufgespielt werden müßte, wodurch sich das Risiko eines Verlustes nicht gesicherter Daten ergeben würde. Der Aufwand des Neuaufsetzens ist bei altem und neuem PC gleich hoch.
+
+In Summe kann gesagt werden, daß ohnehin früher oder später eine Reihe von Änderungen gemacht werden müßte, so daß der Aufwand in Summe gesehen wahrscheinlich am geringsten ist, wenn alle Probleme gleichzeitig durch Neukauf eines PC's gelöst und sämtliche Neuaufsetzungen gleich auf dem neuen PC durchgeführt werden, so daß ein Neuaufsetzen bzw. eine weitere Systemänderung wieder für längere Zeit nicht nötig ist.
+Bedarfsanalyse
+
+Nachdem wir nun im vorhergehenden Abschnitt festgestellt haben, daß der Kauf eines neuen PC's die beste Lösung ist, muß geklärt werden, was von einem neuen PC erwartet wird.
+Dafür soll einmal der Rahmen abgesteckt werden, in dem der PC derzeit verwendet wird. Dies tun wir am besten anhand der Liste der Konten im Kontensystem:
+
+Anwendungen des PC
+
+Amiga: eventuell Sicherung der Daten des Amiga (unsicher)
+Ausflugsgesellschaft: Verwaltung von Lokallisten und Singlisten
+Bundesrechenzentrum: Einstieg ins BRZ in Not- und Bedarfsfällen
+CD+G: Produktion von Karaoke-Titeln, Entwicklung des Autorensystems, Brennen von Karaoke-CD's
+Computerspiele: Spielen von alten und neuen Computerspielen; Verwaltung von Programm- und Spiellisten
+Eltern: Mitnutzung des PC's, Bearbeitung von Bildern der Digitalkameras über Speicherkarten, Scannen und Druck von Bildern und anderen Dokumenten, Nutzung des Radio-Würmchen-Programms, Internet surfen
+Fahrzeuggesellschaft: Einholen und Austausch von Informationen im Internet, Durchführung diverser Berechnungen
+Fernsehen: evtl. Planung des Fernsehprogramms über Internet
+Finanzen: Verwaltung der Finanzanlagen, Online-Banking und evtl. -Trading, Kalkulation neuer Anlagen
+Gesundheit: Schreiben diverser Dokumentationen und Protokolle vom Mittagessen
+Historische Aufnahmen: Inventarisierung der historischen Kassetten
+Hitparadenlistung: evtl. Führung einer Hitparadendatenbank
+Internet: Ansurfen diverser Seiten, Hören von Internet-Radio, Abspielen diverser Dateien, Verwaltung der Homepage
+Karaoke-Sänger: Produktion von Karaoke-CD's, -Playbacks und Texten, evtl. Aufnahme von Demo-CD's
+Karaoke-Videos: Brennen von Karaoke-CD's, Verwaltung und Druck der Karaoke-Videolisten
+Kontenverwaltung: Verfolgung und Kontrolle der Projekte inkl. Dokumentation, Vor- und Nachkalkulationen, Zeiterfassung etc.
+Lebenserhaltung: Führen der Essensdatenbank
+Literatur: evtl. Verwaltung des Lesestoffs
+Musiker: Verwaltung von Auftrittsprogrammen und -Erfolgen, Druck von Texten, Aufnahme von Musiktiteln, CD-Produktionen
+Radio Würmchen: Ein- und Abspielen von Musikdateien, Umwandlung von CD's in MP3's, Entwicklung der Musikdatenbank und des Abspielprogramms
+Textgesellschaft: Verwaltung der Texte, Eingabe und Druck von Texten
+Tonträgergesellschaft: Verwaltung der Tonträger und Vorschlag zu hörender Tonträger
+Wohnungsverwaltung: Führen der Wohnungsinventur, Dokumentationen und Mietberechnungen
+
+Normalerweise hätte in den Dokumentationen der oben genannten Bereiche festgestellt werden sollen, in welcher Form der PC jeweils dafür benötigt wird. Leider sind aber zur Zeit die meisten Bereiche noch nicht undokumentiert, so daß wir statt dessen die bisherige Nutzung des PC's durch diese Bereiche als Maßschnur herannehmen.
+
+Es werden vom PC daher von den einzelnen Bereichen folgende Ressourcen bzw. Programme benötigt:
+
+Anforderungen an den PC nach Kontenbereichen
+
+Amiga: 3 1/2"-Diskettenlaufwerk
+Ausflugsgesellschaft: MS Access, Drucker, MS Word
+Bundesrechenzentrum: MS Internet Explorer
+CD+G: Steinberg Wavelab, Steinberg Cubase, Roland VSC, Hercules Game Theater-Soundkarte, Visual Basic 5.0, TX Text Control, Plextor PX-716A DVD-Brenner (für CD's)
+Computerspiele: ordentlicher Prozessor und Grafikkarte, evtl. MS Sidewinder Joystick, MS Access, MS Internet Explorer, diverse Emulatoren und Spiele
+Eltern: Kartenleser, Scanner, Farbdrucker, MS Internet Explorer, Winamp, Visual Basic 5.0
+Fahrzeuggesellschaft: MS Internet Explorer, MS Excel
+Fernsehen: MS Internet Explorer
+Finanzen: MS Internet Explorer, MS Access, MS Excel
+Gesundheit: MS Word
+Historische Aufnahmen: MS Access, Visual Basic 5.0
+Hitparadenlistung: MS Internet Explorer
+Internet: MS Internet Explorer mit diversen Plugins (Quicktime, Flatcast, Flash, Adobe Acrobat Reader etc.), evtl. FTP-Programm, Chello-Netzwerkkarte
+Karaoke-Sänger: CD+G-Prenner, Wavelab, Cubase, MS Word, Visual Basic 5.0, Hercules Game Theater Soundkarte
+Karaoke-Videos: CD+G-Brenner, MS Access, MS Internet Explorer
+Kontenverwaltung: MS Access, MS Word, MS Excel, evtl. Visual Basic 5.0
+Lebenserhaltung: MS Access
+Literatur: MS Excel
+Musiker: MS Access, MS Word, Steinberg Cubase, Steinberg Wavelab, CD-Brenner, Hercules Game Theater Soundkarte
+Radio Würmchen: CDEx 130, CD-Laufwerk, DVD-Brenner, Winamp, Mp3Gain, MP3Trim, Visual Basic 5.0, MS Access, MS Excel
+Textgesellschaft: MS Access, MS Word
+Tonträgergesellschaft: MS Access, MS Excel, Visual Basic 5.0
+Wohnungsverwaltung: MS Access, Visual Basic 5.0, MS Word, MS Excel
+
+Daraus ergibt sich folgende konsolidierte Liste:
+
+Anforderungen an den PC (konsolidiert)
+
+Hardware:
+3 1/2"-Diskettenlaufwerk
+CD+G-Brenner  (2) / CD-Brenner (2) / CD-Laufwerk (1) / DVD-Brenner (1)
+Chello-Netzwerkkarte
+Farbdrucker (1) / Drucker (1)
+Hercules Game Theater Soundkarte (3)
+Kartenleser
+MS Sidewinder Joystick
+ordentlicher Prozessor und Grafikkarte
+Scanner
+
+Software:
+CDEx 130 (1)
+diverse Emulatoren und Spiele (1)
+FTP-Programm
+Mp3Gain
+MP3Trim
+MS Access (12)
+MS Excel (7)
+MS Internet Explorer (8), mit diversen Plugins (Quicktime, Flatcast, Flash, Adobe Acrobat Reader etc.) (1)
+MS Word (7)
+Roland VSC
+Steinberg Cubase (3)
+Steinberg Wavelab (3)
+TX Text Control
+Visual Basic 5.0 (8)
+Wavelab
+Winamp (2)
+
+
+Anmerkungen zu den Anforderungen an den PC
+
+Im folgenden kommen einige Anmerkungen zu den oben aufgelisteten Anforderungen an den PC, bei der Software gegliedert nach Programmgruppen:
+
+Hardware:
+
+3 1/2"-Diskettenlaufwerk: ist vor allem zum Abspielen alter Disketten nötig, auf denen sich z.B. die Musiktexte und alte Mails aus dem Bundesrechenzentrum befinden. Eine weitere Anwendung wäre der Dateiaustausch mit dem Amiga, wozu das Laufwerk zusätzlich 2DD-Disketten lesen und schreiben können sollte. Hier gibt es aber einige Probleme, indem bei vielen PC's heute kein solches Laufwerk mehr eingebeut ist. 
+
+CD+G-Brenner  (2) / CD-Brenner (2) / CD-Laufwerk (1) / DVD-Brenner (1):
+DVD-Brenner sind heute bei den meisten PC's eingebaut, aber nur die wenigsten können CD+G, also Karaoke-CD's brennen, was hin und wieder für mich und andere Personen nötig ist. Hier ist aber ein Plextor-Brenner vorhanden, es wäre nur darauf zu achten, daß sich dieser Brenner in einem neuen PC auch einbauen läßt.
+
+Chello-Netzwerkkarte: Dient zum Anschluß an das Internet mittels Kabelmodem. Einige moderne PC's enthalten bereits LAN-Karten, was eine Alternative sein könnte, wenn sich die MACID einstellen läßt. Nur um es hier festzuhalten: Die MACID der gegenwärtigen Karte läßt sich mit winipcfg ermitteln, sie beträgt entweder 00-E0-7D-A8-1A-52 oder 44-45-53-54-00-00. Der Computername im Netzwerk lautet: U9C0U7.
+
+Farbdrucker (1) / Drucker (1):
+Ich verwende den Drucker hauptsächlich in schwarzweiß, für einzelne Anwendungen (Duetttexte, Bilder) ist aber auch die Farbe nützlich. Hier sollten sich normalerweise keine Probleme ergeben, da es für den Drucker auch unter Windows XP und Vista Treiber gibt und er mittels USB an jeden modernen PC angeschlossen werden kann.
+
+Hercules Game Theater Soundkarte (3):
+Das wichtige an dieser Soundkarte ist vor allem das MIDI-Interface zum Anschluß des Keyboards und die mannigfaltigen Möglichkeiten der Tonmischung. Daher wäre es wichtig, diese Karte auch in einen neuen PC einbauen zu können, was ein Problem darstellen könnte. Die Anwendung dieser Spezialfunktionen umfaßt hauptsächlich Musikproduktionen von Musiktiteln oder Playbacks, in zweiter Linie auch Flatcast-Sendungen.
+
+Kartenleser: Dieser ist beim derzeitigen PC nicht vorhanden, aber bei vielen neuen PC's eingebaut und dient vor allem meinem Vater.
+
+MS Sidewinder Joystick: ist vorhanden und kann für Spiele per USB angeschlossen werden, wird aber selten verwendet. Daher sind hier keine Probleme zu erwarten.
+
+ordentlicher Prozessor und Grafikkarte: ist eventuell für neue Spiele nötig und wird vom derzeitigen PC so nicht erfüllt. Daher ist jede Verbesserung schon gut.
+
+Scanner: wird hauptsächlich von meinem Vater verwendet, und ist wieder ein USB-Gerät, für das es auch Treiber für Windows XP und Vista gibt.
+
+Software:
+
+CDEx 130: wird zum Rippen von CD's und Umwandeln von WAV auf MP3 verwendet. Eine aktuelle Version ist ohne Probleme im Internet zu beziehen.
+diverse Emulatoren und Spiele (1): sind hauptsächlich auch aus dem Internet und sollten zumindest unter Windows XP meist ohne Probleme laufen.
+
+FTP-Programm: ist evtl. zur Aktualisierung der Homepage nötig und läßt sich ohne Probleme im Internet finden.
+
+Mp3Gain, MP3Trim: dienen zur Anpassung der Lautstärken von MP3-Files und stammen aus dem Internet. Ich nehme an, diese Programme sollten auch unter XP oder Vista laufen.
+
+MS Access, Excel, Word: Dies sind die Bestandteile des Microsoft Office-Paketes. Im Moment wird noch Office 97 verwendet, weil dieses im Jahr 2001, als der PC installiert wurde, im BRZ und auch bei Orange 94,0 verwendet wurde. Hier ist unter dem neuen PC der Upgrade auf Office XP angedacht, das mittlerweile im BRZ verwendet wird. Diese Version liegt mir aber im Moment nicht vor, kann aber im BRZ beschafft werden.
+
+MS Internet Explorer (8), mit diversen Plugins (Quicktime, Flatcast, Flash, Adobe Acrobat Reader etc.) (1): Dies bekommt man auch im Internet, wobei wie schon erwähnt die Neuinstallation dieses Programmes unter Windows ME problematisch wäre, unter XP aber kein Problem darstellen sollte.
+
+Roland VSC: Dies ist eine Software, mit der MIDI-Files in guter Qualität abgespielt werden können, und die vor allem zur Musik- und Karaoke-Produktion verwendet wird. Sollte die aktuelle Version nicht unter XP oder Vista laufen, läßt sich über eMule wohl eine neue Version beschaffen.
+
+Steinberg Cubase / Wavelab: Diese Programme dienen zur Musikproduktion bzw. Wavelab auch zum Einspielen von Musik von analogen Tonträgern für das Radio-Würmchen-Programm. Diese Programme liegen in ziemlich alten Versionen (1999-2000) auf CD vor, wobei fraglich ist, ob diese Versionen unter Windows XP oder Vista noch funktionieren. Wenn nicht, ist zu überdenken, ob derartige Programme noch benötigt werden. Ohne diese Programme hat aber eventuell auch der Einbau der Soundkarte keinen Sinn.
+
+TX Text Control: Dies wird bei der Entwicklung des Autorensystems für Karaoke-CD's verwendet, wobei hier nicht sicher ist, ob die vorliegende Version auch unter Windows XP bzw. Vista verwendbar ist. Wenn nicht, könnte sich ein kleines Problem ergeben...
+
+Visual Basic 5.0: wird zur Entwicklung diverser Programme verwendet. Sollte dieses auf Windows XP bzw. Vista nicht laufen, kann der Umstieg auf Visual Basic 6.0 angedacht werden, das ziemlich sicher läuft und die unter VB 5.0 entwickelten Programme in der Regel 1:1 übernehmen kann.
+
+Winamp: dient hauptsächlich zum Abspielen der Musikdateien von Radio Würmchen. Die letzte erschienene Version davon, 5.5, läuft nicht mehr unter Windows ME, so daß ihre Installation wieder rückgängig gemacht wurde (dies ist auch ein Grund für den Umstieg auf einen neuen PC und ein neues Betriebssystem). Unter Windows XP bzw. Vista würde aber diese Version installiert werden, wobei sich dann die Frage ergibt, ob auch die Plugins (Crossfade und CD+G) und Zugriffe mittels Visual Basic noch funktionieren. Wenn nicht, wären hier wohl Umstellungsarbeiten erforderlich.
+
+Für den PC-Kauf relevante Anforderungen
+
+Nach Untersuchung aller Anforderungen werden nun diejenigen herausgesiebt, die für das Aussuchen des richtigen PC-Modells relevant sind:
+
+Betriebssystem: ist kaum relevant; fast alle neu erhältlichen PC's werden mit Windows Vista ausgeliefert. Es muß aber nicht dabei sein, da mir Jimmy geraten hat, stattdessen das bereits vorhandene Windows XP zu installieren.
+
+3 1/2"-Diskettenlaufwerk: dies wäre recht nützlich, ist aber nicht unbedingt unverzichtbar. Falls ein neuer PC kein solches enthält, kann noch im BRZ eine Kopieraktion gestartet werden, wobei alle Disketten auf die Festplatte gespielt und dann auf eine CD gebrannt werden. Für den Datenaustausch mit dem Amiga ist dies aber ungeeignet.
+Ich würde den Wert des Laufwerks folgendermaßen ansetzen:
+200 Disketten * 2 Minuten = 400 Minuten = 6,66666 Stunden * € 15 = € 100,-
++ Aufschlag für Amiga-Datentransport € 50.-
+Gesamt: € 150.-
+Es gäbe hier noch die Alternative eines USB-Diskettenlaufwerkes. Ein solches kostet ca € 60-70, wobei sich aber hier die Frage stellt, ob die 2DD-Disketten noch verwendbar sind. Dies sollte aber im Zuge der Dokumentation des Amiga-Kontos geklärt werden. Ich würde daher realistischerweise den Wert eines eingebauten Laufwerks mit ca. € 100 veranschlagen. Es gibt dann noch die Variante, daß eine Ausnehmung für ein solches Laufwerk vorhanden, aber nicht belegt ist (was bei den meisten angesehenen PC's so der Fall ist). In diesem Fall kann ein Laufwerk eingebaut werden, das aber extra zu kaufen (oder aus einem anderen PC auszubauen) ist. Dafür würde ich einen Wert von € 50.- veranschlagen.
+
+CD+G-Brenner  (2) / CD-Brenner (2) / CD-Laufwerk (1) / DVD-Brenner (1):
+Es ist relativ wichtig, den Plextor-DVD-Brenner einbauen zu können, da sonst keine CD+G gebrannt werden können. Da es aber auch externe Gehäuse für solche Brenner gibt (Kostenpunkt wieder ca. 70 Euro), wo der Brenner noch eingebaut werden müßte, würde ich diese Fähigkeit mit 110 Euro veranschlagen. Diese dürfte aber auch bei fast allen PC's vorhanden sein, da bei fast allen PC's ein leerer 5 1/4"-Einschub zu sehen ist.
+
+
+Chello-Netzwerkkarte: sollte sich normalerweise einbauen lassen, oder es ist ein LAN-Anschluß vorhanden, bei dem man eventuell (aber nicht unbedingt) die MACID einstellen muß. Da der Umbau auch Aufwand verursacht, würde ich beide Fälle ungefähr gleichsetzen, so daß es keinen Abschlag gibt, wenn die Karte nicht eingesetzt werden kann, aber eine andere, damit kompatible Karte vorhanden ist.
+
+Drucker, Scanner und Monitor sollten sich eigentlich verwenden lassen, da sie externe Geräte sind. Dieser Punkt braucht daher nicht berücksichtigt zu werden.
+
+Hercules Game Theater Soundkarte (3): Diese sollte in den PC eingesetzt werden können. Ist dies nicht der Fall, so kann eventuell ein externes USB-MIDI-Interface gekauft werden. Dies kostet aber ca. 33 Euro und bietet nicht die volle Funktionalität der Soundkarte. Daher würde ich die Fähigkeit, diese Soundkarte weiterverwenden zu können, wieder mit ca. 100 Euro veranschlagen. Dies hängt auch vom Typ der Karte ab... moderne PC's unterstützen nur PCI-, keine ISA-Karten. Laut Internet ist diese Soundkarte aber eine PCI-Karte, so daß hier zumindest auf den ersten Blick keine Inkompatibilitäten zu befürchten sind. Ansonsten sollte sich in jedem PC noch ein freier PCI-Kartenslot finden, um die Karte unterzubringen.
+
+Kartenleser: Dieser ist in allen untersuchten PC's vorhanden und wird inkl. Beschaffungskosten mit 30 Euro berechnet.
+
+Prozessor und Grafikkarte: Diese waren beim jetzigen PC nicht der kritische Punkt. Beim Vergleich der Prozessoren und Grafikkarten kann daher dafür nur ein geringer Betrag angerechnet werden - ich würde das GB RAM auf der Grafikkarte ca. mit € 35.- berechnen (wenn vorhanden), beim Prozessor würde ich 1 GHz Leistung mit € 50.- berechnen, da es hier schon etwas mehr Probleme gibt (DVD brennen und abspielen).
+Bei dieser Berechnung bekommen die Quadcore-Rechner mit 4x2,4 GHz einen relativ klaren Vorsprung, es stellt sich aber die Frage, ob es einen Sinn macht, einen derartig schnellen Rechner zu kaufen. Christian Steffek meint aber dazu, dies gibt schon einen Sinn, wenn ich nur alle 6 Jahre einen PC kaufe, da in den nächsten 6 Jahren wahrscheinlich Programme entwickelt werden, die auch mehrere Prozessorkerne ausnützen.
+
+Hauptspeicher: Dieser ist schon wichtig, nachdem es schon Probleme damit gab. Ich würde daher das MB mit 3,5 Cent bzw. das GB Hauptspeicher mit € 35.- bewerten.
+
+Festplatte: Eine große Festplatte ist schon halbwegs wichtig, aber nicht unbedingt erforderlich. Da im Moment 200 GB vorhanden sind, wäre es schon nützlich, wenn die Festplatte eines neuen PC's mindestens so groß ist. Ich würde hier das GB mit 0,25 Euro bewerten.
+Hier stellt sich die Frage, ob es einen Sinn macht, einen PC zu kaufen, der 2 Festplatten eingebaut hat, da ja die Preise der Festplatten stetig sinken bzw. gleich teure Festplatten immer größere Kapazitäten aufweisen. Generell gesehen, arbeite ich jetzt aber auch mit 2 Festplatten, und eine zweite Festplatte sollte daher kein großes Hindernis darstellen. Ich habe aber für diesen Fall einen Abschlag von ca. 100 Euro eingerechnet, da normalerweise in einem PC dann keine dritte Festplatte mehr installiert werden kann. Hier liegt eine etwas andere Situation als 2001 vor, als die erste Festplatte eine Kapazität von 40 GB hatte, deren Erreichung für mich durchaus vorstellbar war, während die größten, jetzt in PC's verbauten Festplatten schon 500 GB haben, die wohl erheblich schwerer zu füllen sind, so daß 2 solche Platten, wenn sie in einem PC eingebaut sind, eigentlich für die nächsten 6 Jahre ausreichen sollten.
+
+Software:
+
+Die Software spielt beim PC-Kauf selbst keine Rolle. Bei fast allen neuen PC's liegt das Betriebssystem Windows Vista von Microsoft bei, meine Kollegen haben mir aber geraten, statt dessen Windows XP aufzuspielen, das ich schon auf CD habe. Ansonsten werde ich im wesentlichen versuchen, alle jetzt verwendeten Programme weiterzuverwenden, soweit sie auf Windows XP noch laufen. Diejenigen, die nicht laufen, müssen dann durch neuere Versionen oder andere Programme ersetzt werden, was aber nicht vorhergesehen werden kann. Jedenfalls gehört dies zur Installationsphase und nicht zur Kaufphase.
+
+Die entsprechenden Berechnungen befinden sich im Excel-Sheet F:\laufende Projekte\Vergleich neue PC.xls (F: ist der Crucial 256 MB-USB-Stick - siehe dazu die noch folgenden Ausführungen)
+
+Zu den einzubauenden Geräten wäre noch die Anzahl der Steckplätze interessant. Dazu die Belegung der Steckplätze auf meinem derzeitigen PC (von oben nach unten):
+
+ATI-Grafikkarte
+Frei
+Netzwerkkarte
+Frei
+Soundkarte
+Frei
+2 USB-Steckplätze
+
+Im Prinzip sind hier also 4 Steckplätze verbraucht, davon einer durch die Soundkarte, die wir für den neuen PC brauchen.
+Das DVD-Laufwerk und das Diskettenlaufwerk brauchen im Prinzip keine eigenen Steckplatz.
+
+Das heißt, wir bräuchten für die volle Erfüllung der Anforderungen folgendes:
+- mindestens 1 freier Steckplatz für PC-Karten (bzw. 2, wenn keine Netzwerkkarte vorhanden ist)
+- 1 freier 3 1/2"-Einschub (für das Diskettenlaufwerk)
+- 1 freier 5 1/4"-Einschub (für den DVD-Brenner) (besser wären 2, um auch das 5 1/4"-Laufwerk anschließen zu können, aber davon kann ich wohl nur träumen)
+Diese technischen Daten sind bei Media Markt nicht angegeben. Es ist aber anzunehmen, daß ein PCI-Steckplatz in der Regel frei ist. Was die Einschübe für die Laufwerke betrifft, so läßt sich am Bild des PC's leicht erkennen, ob noch ein Disketten- bzw. ein DVD-Laufwerk Platz hat. Das Excel-Sheet wurde entsprechend ausgefüllt, wobei im Prinzip bei allen PC's Kartenleser vorhanden sind, dafür aber bei keinem ein Diskettenlaufwerk.
+
+Transportkosten:
+Je nach Entfernung des Händlers fallen Transportkosten in verschiedener Höhe an. Diese Kosten werden unter folgenden Voraussetzungen berechnet:
+- Fahrt Kurt von zu Hause zum Geschäft und zurück + 2. Fahrt zum Geschäft jeweils mit öffentlichen Verkehrsmitteln bzw. zu Fuß, wenn günstiger
+- Heimfahrt mit Papa und Auto.
+- Arbeitsstunde für Fahrzeit à € 14.-; für Autofahrten wird der gleiche Satz berechnet, tatsächlich sind hier 2 Personen (Papa+Kurt) die halbe Zeit unterwegs
+- Fahrschein à € 2,20 pro Strecke, jeweils 3x gerechnet
+- Autokosten € 0,39 pro Kilometer (amtliches Kilometergeld)
+
+Lieferzeit:
+Bei manchen, nicht lagernden PC's gibt es eine gewisse Lieferzeit. Pro Tag Lieferzeit fallen hier "Downtime"-Kosten an, die sich daraus berechnen, welche Anwendungen in dieser Zeit unmöglich sind. Diese setzen sich wie folgt zusammen:
+Radio Würmchen Kurt	0,6 Spaßpunkte...	€ 6,06
+Radio Würmchen Papa	€ 21,50 / 30,44	€ 0,71
+Radio Würmchen Mama	€ 21,50 / 30,44	€ 0,71
+PC-Nutzung Papa	€ 1 (Stundensatz) € 1,-
+Gesamt:					€ 8,48
+
+Diese Kosten werden mit der Anzahl der Tage multipliziert, die die Lieferzeit schätzungsweise umfaßt, und zum Kaufpreis dazugeschlagen.
+Planung des Ablaufs
+
+Im Prinzip kann der Vorgang "Neukauf eines PC's" in folgende Schritte zerlegt werden:
+- Feststellung des Schadens und daß ein neuer PC gekauft werden sollte (schon passiert)
+- Zusammenstellung der Anforderungen an einen neuen PC (in diesem Dokument passiert)
+- Aussuchen eines passenden PC's aus dem Internet und dazu passender Händler
+- Besuch einiger Händler, um sich über Möglichkeiten zu erkundigen und PC's "live" anzusehen
+- Kauf und Heimtransport des ausgewählten PC's beim ausgewählten Händler
+- Ausprobieren des neuen PC's mit dem vorinstallierten Betriebssystem (Vista), falls zutreffend
+- Wenn OK, Neuinstallation von Windows XP, davor Formatierung und Partitionierung der eingebauten Festplatte
+- Installation der für die verschiedenen Anwendungen notwendigen Programme, Anwendungen und Daten und falls erforderlich deren Anpassung an das neue System
+
+Im folgenden werden diese Schritte näher beschrieben:
+
+Feststellung des Schadens und daß ein neuer PC gekauft werden sollte
+
+Dies wurde bereits im Kapitel "Anlaß" erledigt.
+
+Zusammenstellung der Anforderungen an einen neuen PC
+
+Die Zusammenstellung der Anforderungen wurde bereits erledigt und ist in den vorangehenden Seiten zu lesen.
+
+Aussuchen eines passenden PC's aus dem Internet und dazu passender Händler
+Excel-Sheet
+
+Für das Aussuchen des passenden PC's wurde eine Excel-Tabelle geschaffen, die bereits oben beschrieben wurde. Ursprünglich wollte ich gleich zu einigen Händlern fahren und mir dort PC's anzusehen, aber meine Kollegen Christian und Marcel haben mich davon überzeugt, erst einmal im Internet nachzusehen.
+Ich habe daher aus dem Internet-Angebot von Niedermeyer und Media Markt alle PC's in diese Tabelle aufgenommen, zusammen mit den zum Vergleich relevanten Daten. Dabei habe ich für die in meinem PC noch intakten Komponenten jeweils die Leistungsmerkmale der derzeitigen Komponenten von denen des zu vergleichenden PC's abgezogen und mit den jeweiligen Euro-Werten multipliziert. Da bei dieser Vorgangsweise kein PC den Wert erreicht, den er kostet, habe ich dann den errechneten Wert durch den Preis des PC dividiert, was ein Preis-/Leistungsverhältnis ergibt. Hier ein Beispiel für den PC, der nach dem Vergleich in Führung liegt:
+
+Microstar Professional Q6600 360 1007CZ DBGP (Media Markt):
+Diskettenlaufwerk einbaubar: € 50 - Diskettenlaufwerk vorhanden: € 100 = - € 50
+Soundkarte einbaubar - Soundkarte vorhanden: € 0,-
+DVD-Brenner einbaubar - DVD-Brenner vorhanden: € 0.-
+Netzwerkkarte eingebaut (nicht mitgerechnet)
+Kartenleser: € 30.-
+Prozessor: Quadcore 2,4 GHz = 2,4 * 4 = 9,6 GHz - 0,8 GHz = 8,8 GHz * 50 = € 440.-
+Grafikkarte: 0,25 GB * 35 = € 8,75
+Hauptspeicher: (1 GB - 0,25 GB) * 35 = € 26,25
+Festplatte: (360 GB - 160 GB) * 0,25 = € 50,-
+Abschlag für evtl. unnötigen 9,6-GHz-Prozessor: - € 73,70
+Gesamt: -50+30+440+8,75+26,25+50-73,7 = € 431,30
+Tatsächlicher Preis: € 699.-
+Preis-/Leistungsverhältnis: € 431,30/€ 699.- = 61,7%
+
+Beim Vergleich der verschiedenen Angebote ist letztlich Hartlauer als Sieger herausgekommen, bei dem man einen ChilliGreen-PC selbst konfigurieren kann. Das Angebot ist so günstig, weil als Betriebssystem Linux dabei ist, was im Prinzip keine Rolle spielt, wenn ich danach sowieso Windows XP installiere. Ein Haken könnte nur sein, daß man entweder einen Kartenleser oder ein Diskettenlaufwerk, aber nicht beides, einbauen lassen kann. Möglicherweise läßt sich das Diskettenlaufwerk aber nachrüsten.
+Zu besuchende Händler
+
+Wie gesagt wurden in die Liste bereits sämtliche Angebote von Niedermeyer und Media Markt aufgenommen. Es wurden nun noch weitere Händler vorgeschlagen:
+DiTech (immer wieder bei Geizhals zu finden, Empfehlung von Marcel) -> OK
+Academia -> OK
+NRE -> OK
+Dell (ist nur Versandhändler, hat keine QuadCore-Prozessoren) -> OK
+Saturn -> OK (kommt nicht im Excel-Sheet vor, weil er die gleichen PC's anbietet wie Media Markt)
+Hartlauer -> OK (ist Sieger)
+Weiters bei Geizhals Händler nach PLZ suchen:
+7Rabbits -> OK
+Ecomtech -> OK
+VDS-Online -> OK
+CompAxis -> OK
+(Katzenbeißer hat keine PC's unter 1000 Euro)
+
+Fixkosten und deren Schätzung
+
+Bei der Berechnung ist noch ein gewisser Fixaufwand zu beachten. Dieser Fixaufwand rührt daher, daß der Kauf des PC's und seine Installation einen gewissen (vor allem Zeit-) Aufwand bedeuten, egal wie teuer der gekaufte CD ist. Dieser Aufwand wäre zum Kaufpreis zu addieren.
+Um diesen Aufwand zu untersuchen, folgt im Anschluß eine Aufstellung der Kosten, die beim letzten PC-Kauf im Juni 2001 angefallen sind. Damals herrschte bei mir ein Stundensatz von 145 öS.
+
+22.-25.5.: Sicherungsliste und Anfrage bei Gerry (inkl. Telefonkosten) S 144,84
+28.5.: Erkundigung und Besprechung (inkl. Elternkosten) S 577,59
+29.5.: Erkundigungen und Besprechung mit Eltern S 471,25
+30.5.-1.6.: Erkundigungen  S 145
+1.6.: Schreiben Dokumentation S 442,25
+1.6.: Vergleich Angebote S 145.-
+1.-2.6.: Ansehen verschiedene PC's und Zubehör S 923,16
+3.6.: Kalkulation 674,25
+4.6.: Diskussion 120,84
+5.6.:Kalkulation 700,84
+5.6.: Erkundigungen 135,33
+5.6.: Einkauf 157,08
+5.6.: Sicherung 265,83
+6.6.: Erkundigung / Kauf 296,5
+6.6.: Kalkulation 60,42
+8.6.: Kauf und Aufstellung 903,83
+8.6.: Besorgung Software 261,25
+9.-10.6.: Sicherung 1121,33
+10.6.: Aufbau+Installation 398,75
+10.6.: Test+Installation Soundkarte 253,75
+11.-12.6.: Ausprobieren Hardware 531,67
+13.-15.6.: Installation Soundkarte 67,67
+
+Gesamt: 8798,43
+
+Dieser Betrag sind ca. 25% der S 35000, die der PC damals gekostet hat. Der Betrag entspricht ca. 60,68 Arbeitsstunden. Im Vergleich dazu wurde das Projekte "neuer PC" diesmal mit nur 22,5 Stunden angesetzt.
+Dazu sind noch folgende Besonderheiten bei der Berechnung zu beachten:
+- Der Wert der Software wurde nur mit einem Bruchteil der tatsächlichen Kosten berechnet - es wurde, vom Arbeitsaufwand abgesehen, dem Bundesrechenzentrum jeweils ein Betrag von öS 20.- pro kopierter CD gutgeschrieben.
+- Es floss ein erheblicher Betrag an das Eltern-Konto, und zwar für alles, wo Papa mitgemacht hat. Dies inkludiert Erkundigungen bei den Händlern und auch Diskussionen beim Mittagessen.
+
+Der Rest der Berechnungen erfolgte so, wie es heute noch üblich ist.
+Im Prinzip kann man den Aufwand in folgende Teile aufteilen:
+Erkundigungen und Vorbesprechungen: 4540,77 = 31,32 h
+Kauf und Transport: 1357,41 = 9,36 h
+Sicherung Daten des alten PC: 1121,33 = 7,73 h
+Ausprobieren und Installation inkl. Besorgung der Software: 1513,09 = 10,44 h
+
+Zu diesem hohen Aufwand ist einmal zu sagen, daß damals das komplette System neu gekauft wurde, während heute viele Komponenten bereits vorhanden sind und weiterverwendet werden. Dadurch beläuft sich der Aufwand der neuen Investitionen nur auf € 500-€ 1000 gegenüber der umgerechneten € 2500 des alten PC's, die auch Soundkarte, CD-Brenner, Drucker und Monitor inkludierten, die zusammen S 17960, also mehr als die Hälfte des Gesamtaufwandes, ausmachten.
+Weiters war in dem Betrag auch die Sicherung der Daten des alten PC's enthalten, die in diesem Fall sowieso schon erfolgt ist und daher nicht mitzurechnen wäre (was auch ein Grund dafür ist, daß der PC-Neukauf jetzt durchgeführt wird).
+
+Aus diesem Grund würde ich die fixen Kosten für die gegenständliche PC-Anschaffung wie folgt kalkulieren:
+Schreiben der Dokumentation und Vergleich der verschiedenen angebotenen PC's: 12 Stunden
+Fahrt in verschiedene Lokale: 3,5 Stunden
+Einkauf des PC's: 2 Stunden
+Installation der Software und Einbau der vorhandenen Hardware: 10 Stunden
+Gesamt: 27,5 Stunden
+
+Dazu kommen noch diverse Nebenkosten für Hilfe von Papa bzw. Fahrtkosten:
+Hilfe von Papa: 1,5 Stunden
+Fahrtkosten zu Händlern (Fahrscheine): € 1,1 * 8 = € 8,8
+Autokosten (2x10 km): € 0,39 * 20 = € 7,8
+
+Gesamtaufwand: 29 Stunden * € 14,- + € 8,8 + € 7,8 = € 422,60
+
+Dieser Aufwand wäre bei der Einnahmen-/Ausgabenrechnung zum Kaufpreis des jeweiligen PC's zu addieren, wodurch sich das Verhältnis zwischen den verschiedenen PC's erheblich ändert.
+
+Um die verschiedenen PC's noch besser vergleichen zu können, werden in der Folge die Summe der Einnahmen des PC-Kontos im Jahr 2005 summiert und aufgelistet, um somit feststellen zu können, für welche Kontenbereiche der PC am meisten verwendet wurde. Diese Summe sollte ungefähr der Anzahl der Nutzungsstunden * 0,8 entsprechen:
+
+Kontenkürzel
+Summe Einn.
+AM
+€ 0,10
+AU
+€ 32,48
+BR
+€ 0,94
+CG
+€ 41,64
+CS
+€ 60,34
+EL
+€ 286,63
+ES
+€ 0,63
+FI
+€ 0,64
+FZ
+€ 6,03
+GE
+€ 4,63
+HA
+€ 21,87
+HL
+€ 0,53
+IN
+€ 554,97
+KV
+€ 50,41
+LE
+€ 208,70
+LI
+€ 31,44
+MT
+€ 5,76
+MU
+€ 51,87
+OR
+€ 9,49
+PC
+€ 10,94
+RW
+€ 326,89
+SG
+€ 20,31
+SP
+€ 68,68
+TT
+€ 55,56
+TV
+€ 7,61
+WV
+€ 12,20
+
+Dies ergibt eine Einnahmensumme von € 1871,29, wozu auch zu sagen ist, daß im Laufe des Jahres 2005 ca. 880 Euro an Schulden aufgelaufen sind, so daß der tatsächliche Finanzbedarf bei € 2750,77 lag, so daß die oben dargestellten Beträge mit dem Faktor 1,47 zu multiplizieren sind. Könnte nun eines dieser Konten nicht mehr bedient werden, würden die Einnahmen um den oben dargestellten Satz multipliziert mit 1,47 absinken. Da die Lebensdauer des letzten PC 6 Jahre betrug, sind die Sätze noch mit 6 zu multiplizieren, um den Gesamtschaden über die Lebensdauer des PC zu bekommen, wenn das betreffende Konto nicht serviciert werden kann. Man beachte hier auch, daß wir insgesamt über 6 Jahren mit Einnahmen von € 16500 rechnen, wovon der tatsächliche Kaufpreis des neuen PC nur einen Anteil von 3-6% ausmacht. Wie sich der Rest des Aufwandes zusammensetzt, wäre noch in der Dokumentation des PC-Kontos zu analysieren, die leider noch ausständig ist. Hier aber ein kurzer Abriß über die Ausgaben des PC-Kontos:
+
+Kontenkürzel
+Ausg.summe
+AR
+-€ 1.541,13
+BA
+-€ 164,86
+EL
+-€ 272,73
+GE
+-€ 5,57
+RW
+-€ 25,00
+SG
+-€ 41,00
+WV
+-€ 784,05
+
+Wie man hier sieht, ging der Großteil der Ausgaben für Arbeitszeit auf, gefolgt von der Wohnungsmiete, die ca. 28,5% der Kosten stellte. Nicht eingerechnet ist hier wohl der Internetzugang, der über das Internetkonto abgerechnet wurde. Dabei umfaßten die Arbeiten hauptsächlich Datensicherung sowie die Verwaltung der Sicherungs-CD's und in zweiter Linie den Umgang mit Pannen (DVD-Brenner-Schaden und Neuinstallation Windows ME) sowie die Dokumentation der Datenhaltung.
+
+Diese Berechnungen sind aber eigentlich für das Aussuchen des idealen PC's irrelevant. Was hier nur gezeigt wird, ist, daß es ziemlich wichtig ist, daß der neue PC auch alle Funktionen des bisherigen PC's ausführen kann, da sonst ein relativ großer Anteil der Einnahmen wegbricht, der nur schwer wieder ausgeglichen werden kann. Es macht daher keinen Sinn, die bisherige PC-Ausstattung in Teile aufzuteilen, die dann eventuell als unnötig verworfen werden. Was nur eventuell als unnötig abgeworfen werden kann, sind die 3 weiteren 5 1/4"-Einschübe, die im PC nie verwendet wurden, weil immer nur 2 Laufwerke darin steckten, sowie einige der PCI-Kartenslots. Deswegen würde es wohl ein kleinerer PC auch tun, und es braucht auf die Gehäusegröße keine Rücksicht genommen werden.
+
+Ansonsten können die Wertannahmen beibehalten werden, die oben bereits ausgeführt wurden.
+
+Am Ende dieser Phase werden noch zu den Kaufpreisen und Holkosten die geschätzten Fahrtkosten zum jeweiligen Händler addiert, wobei 3 öffentliche Fahrten und eine Fahrt mit dem Auto geschätzt wird. Dabei kommen vermutlich einige PC's als führend heraus, zusammen mit den Händlern, die sie verkaufen.
+Besuch einiger Händler, um sich über Möglichkeiten zu erkundigen und PC's "live" anzusehen
+
+Diese Phase folgt auf die Phase der Ermittlung der besten PC's per Internet. Dabei werden die Händler, die bei der Bewertungsphase als Sieger herausgekommen sind, besucht und über die angepeilten PC's näher ausgefragt. Das heißt in diesem Fall, daß ich Hartlauer in der SCN besuche (wo auch gute Parkplätze existieren), und einige Fragen stelle, wie z.B., ob es möglich ist, einen Kartenleser und ein Diskettenlaufwerk gleichzeitig einzubauen (vermutlich nicht, da dieser PC nur einen 3 1/2"-Slot hat), und ob auch Barzahlung möglich ist (sonst gibt es nämlich kleine Probleme) bzw. wie die Bestellung abgewickelt wird.
+Beim Besuch von Hartlauer in der SCN am 12.11.2007 hat sich leider herausgestellt, daß diese Filiale keine PC's führt, und mir wurde stattdessen die Filiale Hartlauer-Haus in der Meidlinger Hauptstraße empfohlen. Das Excel-Sheet wurde dementsprechend mit den Fahrtkosten und der Lieferzeit angepaßt.
+Danach war ich dann bei Media Markt, wo mehrere PC's, die meinen Anforderungen entsprechen würden, lagernd sind. Aufgrund des angepaßten Excel-Sheets wurde die Entscheidung bei Hartlauer zu kaufen, zu Gunsten von Media Markt revidiert.
+
+
+Kauf und Heimtransport des ausgewählten PC's beim ausgewählten Händler
+Ist durch Befragung der betreffenden Händler der richtige Händler und PC ausgesucht, dann wird der ausgewählte Händler erneut besucht und der ausgewählte PC bestellt bzw. gleich mitgenommen. Dazu hat Papa zugesagt, mir zu helfen, indem er mich und den PC mit dem Auto heimtransportiert. Zu Hause angekommen, wird der PC dann aufgestellt.
+Dieser Schritt ist für Donnerstag, 15.11.2007, geplant.
+
+Ausprobieren des neuen PC's mit dem vorinstallierten Betriebssystem (Vista), falls zutreffend
+Dies funktioniert natürlich nur bei einem PC, bei dem Vista dabei ist, was im Moment noch nicht bei allen der Fall ist. Hierbei wird der PC, bevor er geöffnet wird, an den vorhandenen Monitor und an den Verstärker angeschlossen und eingeschalten. Es sollte sich dann eine sinnvolle Ausgabe ergeben. Sollten sich dabei Diskrepanzen ergeben, wird der Händler kontaktiert.
+
+Wenn OK, Neuinstallation von Windows XP, davor Formatierung und Partitionierung der eingebauten Festplatte
+
+Dies entspricht der Empfehlung meiner Kollegen. Laut meinen Präferenzen wird der neue PC nur eine (aber große) Festplatte haben, die in zwei Partitionen zerlegt werden sollte: eine kleinere (ca. 20-25%) für das Betriebssystem und die Programme (entspricht C-Platte des alten Rechners) und eine größere für die Daten. Auf der Programmpartition, die auch die Bootpartition sein sollte, wird anschließend Windows XP von der CD installiert, die ich im Juni 2005 von Egon bekommen habe.
+
+Installation der Hardware und der für die verschiedenen Anwendungen notwendigen Programme, Anwendungen und Daten und falls erforderlich deren Anpassung an das neue System
+
+Bei diesem Punkt werden zuerst die Dinge in den PC eingebaut, die nicht mitgeliefert waren. Dies sind die Hercules Game Theater-Soundkarte, der Plextor DVD-Brenner, das 3 1/2"-Diskettenlaufwerk und eventuell die Chello-Netzwerkkarte.
+
+Danach wird die Software installiert. Am einfachsten wäre es wohl dabei, die Programme wieder zu installieren, die auf dem alten PC gelaufen sind. Hier sind jedoch einige Änderungen angezeigt:
+MS Office 97 wurde 2001 gewählt, weil dieses Office-Paket sowohl bei Orange 94,0 als auch im BRZ lief. Mittlerweile hat Orange 94,0 auf Linux umgestellt, und ich bin nicht mehr dort, und im BRZ wurde auf Office XP umgestellt, so daß ich auch auf diese Version umstellen könnte, vorausgesetzt, ich kann sie einfach bekommen.
+Bei Winamp wurde nicht auf die letzte Version (5.5) umgestellt, weil diese nicht auf Windows ME läuft. Auf dem neuen PC könnte unter Windows XP diese Version installiert werden. Dabei ergibt sich jedoch die Gefahr, daß sie eventuell mit dem Radio-Würmchen-Programm nicht mehr zusammenarbeitet.
+Ich werde wohl versuchen, bei Visual Basic 5.0 zu bleiben, wenn diese Version unter Windows XP noch läuft. Als Alternative dazu gibt es VB 6.0, das im allgemeinen läuft (auch im BRZ) und ohne weiteres die Weiterverwendung von VB5-Projekten erlaubt, aber eine installierte Runtime-DLL erfordert, so daß man einen eigenen Installer für diese Programme braucht oder die Runtime-DLL extra anbieten müßte (dies betrifft vor allem das CD+G-Autorensystem). Eine zweite Alternative wäre die Installation von MS Visual Studio Expres, das es bei Microsoft zum Gratisdownload gibt. Dabei wäre es aber wohl nötig, gröbere Umstellungen in allen Programmen durchzuführen.
+Bei Cubase und Wavelab erhebt sich ebenso die Frage, ob die Versionen, die ich davon habe, unter Windows XP noch laufen. Eventuell muß versucht werden, davon neuere Versionen zu bekommen, wobei die erste Quelle hier eMule wäre, wo man immer auch Software findet.
+Die anderen Programme können nach Bedarf in den vorhandenen oder auch in neuen Versionen installiert werden, je nachdem, was davon lauffähig ist. Davon sind aber nicht alle für eine Grundausstattung nötig. 
+
+Neben den Programmen werden auch bestimmte Daten installiert. Diese umfassen alle laufenden Projekte (von den entsprechenden Sicherungs-DVD's), oder zumindest die Entwicklungsversionen für das Radio-Würmchen-Programm, die Inventurverwaltung und das Kontensystem, weiters auch die dazugehörigen Datenbanken sowie die Sammlung von ca. 6500 MP3-Dateien, die auf diversen CD's gesichert sind, von denen ich hoffe, daß alle noch lesbar sind. Falls nicht, kann hier etwas vom BRZ-PC geholt werden, auf dem sich auch fast alle MP3-Files befinden.
+
+Hier eine Zusammenfassung der Grundausstattung:
+Software:
+- Betriebssystem (Windows XP)
+- Treiber für Drucker, Scanner und Soundkarte
+- DVD-Brennprogramm (zuerst PlexTools versuchen, dann evtl. DeepBurner)
+- MS Office 97 oder XP (mit Winword, Excel und Access)
+- MS Visual Basic 5.0 oder 6.0 bzw. Visual Studio Express
+- Winamp 5.5 (oder niedriger)
+Daten:
+- Die für Radio Würmchen nötigen Musikdateien (Musiksammlung)
+- Datenbanken für Inventurverwaltung, Kontensystem und Radio Würmchen
+- Diverse laufende Projekte (die aktuell bzw. laufend bearbeitet werden, z.B. Gesamtzeit für laufende Projekte)
+
+Wenn die Grundausstattung aufgespielt ist, gilt der neue PC als fertig installiert und kann für die Bearbeitung der laufenden Projekte herangezogen werden. Weitere erforderliche Programme werden dann, wie bereits erwähnt, nach Bedarf dazuinstalliert.
+Urheberrechtliches
+Da es beim neuen PC wahrscheinlich zur Neuinstallation von Programmen kommt, die man normalerweise bezahlen sollte, wären hier laut den derzeitigen Richtlinien Zahlungen für die verletzten Urheberrechte an das Herzensgut-Konto notwendig. Aus diesem Grund werden hier die Kosten der eventuell kostenpflichtigen Programme aufgeführt:
+
+Windows XP: € 130.- (Diese CD stammt von Egon, daher erfolgt die Zahlung dafür direkt an das derzeit verschuldete Karaoke-Sänger-Konto, womit ein Teil der Schulden abgedeckt wird)
+MS Office XP: € 330.-
+CDRWIN (aktuelle Version): € 21,-
+Wavelab 6: € 649,-
+Cubase: € 879,-
+TX Text Control (für Autorensystem): € 439.- (kleinste Version)
+
+Wie man hier sehen kann, sind die wirklich teuren Programme die, die nicht im Grundpaket enthalten sind. Die Gebühren dafür (außer für Windows XP) werden aber jeweils nur dann fällig, wenn auf eine neuere Version upgegradet wird.
+Umstiegsphase
+
+Bis der neue PC installiert ist, gilt die sogenannte "Umstiegsphase", in der der alte PC noch, aber eingeschränkt, verwendet wird. Diese Umstiegsphase dauert von Dienstag, 6.11.2007 bis zur vollständigen Neuinstallation des neuen PC's. Dabei gelten folgende Regeln:
+
+- Die D-Platte gilt als "kaputt", das heißt, die Nutzung der Daten von der D-Platte wird nach Möglichkeit gemieden. Alle dort befindlichen Daten sind "unsicher", das heißt, sie können verschwunden sein oder völlig andere Inhalte enthalten. Es ist auch tunlichst nichts frisches auf der D-Platte anzulegen. Daraus ergibt sich auch, daß das Radio-Würmchen-Musikprogramm von mir auf dem alten PC nicht mehr genutzt wird; das Streamen aus dem Internet und das Eingabe von im Radio gehörten Titeln ist aber möglich
+- Die C-Platte gilt als "gefährdet", das heißt, sie funktioniert zwar im Moment, könnte aber jederzeit ausfallen. Aus diesem Grund werden alle neu anfallenden Daten möglichst bald gesichert. Als Sicherungsmedium dient dabei der Crucial-256 MB-USB-Stick, sollte dieser übergehen, wird der Inhalt auf eine CDRW gebrannt. Neue Dokumentationen, die als "laufende Projekte" anfallen, werden überhaupt auf dem USB-Stick angelegt und haben dort ihr "Heim", bis der neue PC bezogen wird.
+- Papa darf im Internet surfen, es wurde ihm aber empfohlen, nichts auf die D-Platte zu speichern und das Radio-Würmchen-Programm nicht zu verwenden, weil die Integrität des Musikprogramms nicht gewährleistet ist.
+- Die Aktion "Einspielen neuer Titel in Radio Würmchen" gilt derzeit als "unmöglich", da die D-Platte, auf die die Titel normalerweise eingespielt werden, korrupt ist. Daher erhöhen sich auch die Rückstände für diese Aktion nicht, solange dieser Status aufrecht ist.
+- Die Aktion "Produktion einer Radio-Würmchen-Sendung" gilt derzeit als "unmöglich", da dabei eine größere Datenmenge anfallen würde, die anschließend auf der D-Platte gespeichert würde, diese gilt aber derzeit als "korrupt". Damit erhöhen sich auch für diese Aktion die Rückstände während der Umstiegsphase nicht.
+- Das gleiche gilt für alle Aktionen, die die Durchführung einer Flatcast-Sendung zum Inhalt hätten, bei denen normalerweise hauptsächlich Musik von der Festplatte gespielt würde, weil die D-Platte, wo sich die Musik befindet, im Moment korrupt ist.
+
+Bericht von der tatsächlichen Durchführung des Umstiegs
+
+Besuch bei Hartlauer und Media Markt
+
+Am Nachmittag des 12.11.2007 wurde Hartlauer in der SCN besucht und versucht, einen neuen PC anzusehen und zu bestellen. Leider führt diese Filiale keine PC's, und es wurde mir gesagt, die nächste Filiale, die PC's führt, wäre das Hartlauer-Haus in der Meidlinger Hauptstraße.
+Das bedeutete dann, daß ich es an einem anderen Tag wieder versuchen müßte. Dienstag fiel aus, am Mittwoch nach dem Bowling-Betriebsausflug wäre es eventuell möglich gewesen.
+Danach ging ich zu Media Markt und sah mir dort einige PC's an, wobei mir auffiel, daß es zumindest auf den ersten Blick mehrere Modelle gab, die meinen Vorstellungen entsprachen.
+Ich revidierte dann nocheinmal die Berechnung, indem ich berücksichtigte, wieviel mir dadurch verloren geht, daß ich auf die Lieferzeit des neuen PC's warten muß. Unter diesem Gesichtspunkt erschien es dann nicht mehr so attraktiv, den PC bei Hartlauer zu kaufen, und ich entschied mich stattdessen für Media Markt.
+
+Kauf bei Media Markt
+
+Am 15.11.2007 wurde Media Markt besucht, mit einer genauen Liste in der Hand, welche die PC's 1. Bis 5. Wahl wären (die aus dem Excel-Sheet erstellt wurde). Alle dort angebotenen PC's beinhalten aber Windows Vista als Betriebssystem, und der Verkäufer riet mir davon ab, Windows XP aufzuspielen, da es sich mit einigen der Komponenten im PC nicht vertragen würde. Einige der PC's, die zuerst in Frage gekommen wären, schieden dann noch aus, weil es nicht möglich war, ein 3 1/2-Zoll-Diskettenlaufwerk einzubauen. Beim 3. Oder 4. Modell war dies dann aber möglich, und so fiel meine Wahl auf einen Microstar-PC mit 2 GB RAM, Quadcore-Prozessor und 2x360 GB Festplatte.
+
+Auspacken und Erstinstallation
+
+Zu Hause angekommen, wurde der PC ausgepackt und installiert. Dabei gab es einmal eine Panne mit dem Monitor. Der PC hat nämlich einen Ausgang, wo der Monitorstecker hineinpaßt, tatsächlich aber kein Bild herauskommt. Das Bild kommt tatsächlich bei einem anderen Stecker heraus, an den dann ein Adapter angesteckt wird, an dem dann der Monitor angeschlossen wird. Bis ich das festgestellt hatte, hatte ich den PC aber schon mehrmals ein- und ausgeschaltet und damit die Erstinstallation von Windows Vista unterbrochen, so daß diese auch nicht mehr funktionierte, als ich sie dann durchlaufen ließ.
+
+Ich versuchte zunächst, Windows Vista von der Support-DVD zu installieren, was auch gelang, allerdings waren dann keine Treiber vorhanden, und ich konnte nicht ins Internet (was auch auf Grund der MACID der eingebauten Netzwerkkarte, die eine andere als beim alten PC war, scheiterte). Ich fand dann aber die richtige Lösung, mit der Support-DVD den Rechner zu starten und ein Recovery durchzuführen, wobei das komplette C- (und evtl. auch das D-) Laufwerk von der Recovery-Partition E: und den darauf gespeicherten GHOST-Dateien durchgeführt wurde. Danach war der Auslieferungszustand wiederhergestellt, und die eigentliche Installation konnte beginnen. Nachdem meine Kollegen mir geraten hatten, den PC zuerst einmal auszuprobieren, spielte ich nicht gleich Windows XP ein, sondern installierte erst einmal das mitgelieferte Vista. Auf den ersten Blick erschien dieses mir dann gar nicht so schlecht, es gab natürlich kleine Probleme bei der Umgewöhnung und vor allem am Anfang mit der Benutzerkontensteuerung, die ich schließlich ausschaltete. Weiters beschwerte sich Vista immer wieder darüber, daß ein Programm nicht richtig ausgeführt werden konnte.
+Jedenfalls schaffte ich es, noch am Tag des PC-Kaufes die MACID herauszufinden, bei der Chello-Hotline einstellen zu lassen und schließlich auch noch in einer Radio-Krokofee-Sendung aufzutauchen.
+
+Probleme bei den Programminstallationen
+
+Als nächstes versuchte ich, die wichtigsten Programme zu installieren, mit denen ich immer wieder arbeite, und kam zu folgenden Ergebnissen und Schwierigkeiten:
+MS Office: Mit dem PC war eine Versuchsversion von Office 2007 mitgeliefert, was recht angenehm war, da ich so am neuen PC die Dirlist-Datenbank öffnen konnte, in der sich die Informationen darüber befinden, welche Dinge sich auf welchen Daten-CD's befinden. Allerdings darf man mit dieser Versuchsversion nur 25 Dokumente öffnen, bevor sie abläuft. Außerdem ist sie nicht rückwärtskompatibel zum im BRZ eingesetzten Office XP.
+Ich versuchte also mangels Office XP das alte Office 97 zu installieren, was auch größtenteils gelang. Nur bei Word 97 mußte ich erst den richtigen Kompatibilitätsmodus finden. Ohne diesen ließ sich der Makrospeicher nicht öffnen; mit dem Kompatibilitätsmodus für Windows ME gab es dagegen immer wieder Speicherplatzprobleme. Im Kompatibilitätsmodus für Windows XP funktionierte es dann aber.
+Mit Access und Excel 97 gab es im Prinzip keine Probleme, außer mit der Zuordnung der Dateitypen, die immer noch auf Office 2007 verwiesen, aber ich schaffte es zumindest bei Access-Datenbanken, dies zu ändern.
+Visual Basic 5.0 machte (wieder Erwarten) keinerlei Probleme bei der Installation, verhält sich nur bei manchen Projekten etwas seltsam. So ist es mir z.B. passiert, daß sich eine Form plötzlich nicht mehr speichern ließ. Dies lag wahrscheinlich wieder an den Zugriffsrechten, die bei Windows Vista recht restriktiv gehandhabt werden. Bei anderen Projekten mußten die Pfade angepaßt werden, in denen sich die verschiedenen Komponenten befinden, auf die die Programme zugreifen.
+Im Zusammenhang mit dem Farbdrucker HP 930C ergab sich noch die kleine Besonderheit, daß er einerseits von Vista ohne zusätzlich zu installierende Treiber unterstützt wird, aber andererseits die Ausgabe der Seiten aus Word heraus nun in umgekehrter Reihenfolge (von der höchsten zur niedrigsten) erfolgt.
+Das Radio-Würmchen-Programm mußte etwas umgeschrieben werden, bevor es auf Vista lief, konnte aber dazu gebracht werden, anstandslos zu laufen, bis auf das Holen der ähnlichen Interpreten von Last.FM, wo es immer wieder zu Fehlermeldungen beim Einlesen der Internetseiten kommt. Ich habe dies dann so gelöst, daß in diesem Fall das Einlesen der ähnlichen Interpreten abgebrochen wird.
+Bei Winamp ist es so, daß ich zuerst versuchte, die am alten PC vorhandene Version einzusetzen, die aber immer wieder beim Hineinstellen von Files Fehler machte, indem die Dateinamen falsch übernommen wurde. Ich versuchte es dann mit der neuesten Version 5.5, die offensichtlich die erste ist, die unter Vista klaglos läuft und auch diesen Fehler nicht mehr hat. Dafür ist sie auch die erste, die unter ME nicht mehr läuft... sie arbeitet aber jedenfalls mit dem Radio-Würmchen-Programm zusammen und wurde daher dann auch im BRZ eingesetzt, zu Hause verzichtete ich allerdings vorläufig auf den Einsatz des Crossfade-Plugins.
+Weitere notwendige Änderungen im Radio-Würmchen-Programm betrafen den Aufruf von Winrar, da die Programmaufrufe unter Vista etwas anders funktionieren.
+Ich versuchte auch, das CD+G-Autorensystem KWCG einzuspielen, aber die Installation scheiterte an einer inkompatiblen Version der COMCAT.DLL (was eigentlich ironisch ist, da an einer Firma namens COMCAT schon einmal die Produktion einer CD+G gescheitert ist!), die sich auch nicht überschreiben ließ.
+Dann folgte das Einspielen der Musik. Ich ging meine ganze Sammlung an Daten-CD's durch, und das Einspielen ging weitgehend problemlos, es waren nur 3 Titel unlesbar. Allerdings waren auch einige CD's als ganzes unauffindbar, so daß am Schluß ca. 10% des Repertoires fehlten.
+Ich dachte mir nun, daß die fehlenden CD's vielleicht unter Papierstößen begraben waren, und begann mit der Papiersortierung, die sich letztendlich über einen Monat hinzog, und während der an der Installation des PC's keine weiteren großartigen Dinge verändert wurden.
+
+Probleme mit Viren und verschwundenen Programmen
+
+Während der Papiersortierungsphase traten noch verschiedene weitere Fehler auf. Zuerst beschwerte sich Windows Vista, daß verschiedene Systemdienste nicht ordentlich laufen und beendet werden mußten. Danach wurde meist berichtet, daß sich auf dem PC ein Jeefo.32-Virus befindet. Ich schenkte diesen Meldungen zunächst aber weiters keine Beachtung. Dies lag auch daran, daß bei Windows zwar ein Virenscanner, "Autoguard", dabei ist, dieser kann Fehler aber nur feststellen, behebt sie aber nicht. Ein Behebungsprogramm war zwar auch beigepackt, dieses meldete aber gleich beim ersten Start, daß es sich updaten muß, aber keine Updates finden kann. Als Lösung für dieses Problem wurde empfohlen, Antivirensoftware zu kaufen, aber dieser Empfehlung wollte ich nicht unbedingt nachkommen und hatte vor, den Virenschutz einzusetzen, den wir im BRZ bekommen haben.
+Nach einigen Wochen verwandelte sich das Icon für SafeGuard dann plötzlich in ein generisches Icon, und SafeGuard gab daraufhin keine Meldungen mehr aus. Das gleiche passierte mir auch mit einigen von Luca Antignano geschriebenen Handheld-Simulatoren, die ich in den "Games"-Ordner platzierte. Ein Nebeneffekt dieser Verstümmelung der ausführbaren Dateien war auch, daß die betroffenen Dateien ihren Besitzer so änderten, daß der Besitzer nicht herausgefunden werden konnte, und ich als Administrator nicht mehr das Recht hatte, die Datei zu löschen... oder war ich gar nicht mehr Administrator?
+Das gleiche passierte auch mit der ORF Ski Challenge, die sich automatisch im Games-Ordner installiert. Auch hier wurde die EXE-Datei im Laufe der Zeit verstümmelt und ließ sich dann nicht mehr starten. Bei der letzten Installation war es sogar so, daß ich das Spiel direkt nach der Installation spielte, und nach Beendigung eines Probelaufes, als ich zum Hauptmenü zurück wollte, war die EXE-Datei schon verstümmelt, und das Spiel stürzte ab.
+Ich versuchte, die Gründe für diese Abstürze herauszufinden und installierte zunächste einmal den BRZ-Virenscanner. Leider ist die CD mechanisch beschädigt und verträgt sich offensichtlich auch sonst nicht mit Windows Vista, so daß nur eine Systemwiederherstellung den PC wieder funktionsfähig machen konnte. Danach startete ich den Norton-Virenscanner, der mit dem Shockwave-Player mitinstalliert wurde, und dieser meldete ebenfalls einen Jeefo-Virus, dessen Eigenschaft es tatsächlich war, daß EXE-Dateien verstümmelt werden, indem die Ressourcendateien verschoben werden. Es wurden 3 solche Dateien gefunden, unter anderem AutoGuard, aber die Spiele waren nicht dabei.
+Danach lud ich aus dem Internet einen Eliminator für diesen Virus herunter und setzte ihn ein, worauf die vom Scan gefundenen Dateien nicht mehr infiziert waren, aber das Verschwinden von Dateien ging trotzdem weiter.
+Ich sah dann noch nach, ob der Games-Ordner unter Vista irgendwelche Besonderheiten hat, was tatsächlich der Fall ist - im Games-Ordner werden normalerweise nur Verknüpfungen auf alle Spiele gespeichert, die sich eigentlich in anderen Ordnern befinden. Diese Verknüpfungen werden von Vista automatisch im Zuge des Systemscans erstellt.
+Probleme mit dem Scanner
+
+Am Wochenende des 16.-17. Dezember eröffnete mir Papa, daß der Scanner nicht funktioniert. Ich hatte zwar die mit dem Scanner mitgelieferte CD auf dem PC installiert, aber nicht auf ihre Funktion überprüft. Beim Versuch, für Luca eine Postkarte einzuscannen, kam ich dann auch darauf, daß der Scanner nicht funktionierte und begann, der Sache auf den Grund zu gehen, zunächst einmal, indem ich versuchte, dafür Treiber von der HP-Homepage herunterzuladen. Dabei erfuhr ich leider daß dieser Ende 2001 gekaufte HP Scanjet 4400c unter Windows Vista nicht mehr unterstützt wird und daher, wie auf der HP-Homepage offen zugegeben wird, nicht funktioniert.
+Nun war es möglicherweise der Treiber des Scanners, der immer wieder abgestürzt ist und beendet wurde.
+
+Entschluß und Vorbereitung zur Installation von Windows XP
+
+Am 24.12.2007 war dann die Papiersortierung beendet, und ich ging laut Plan daran, die Installation des neuen PC's abzuschließen, was sich auf Grund der aufgetretenen Probleme aber etwas anders ausmachte als ursprünglich geplant. Ursprünglich hatte ich geplant, nur die noch fehlenden Musikstücke zu ergänzen, dann, als die Virenprobleme auftraten, plante ich, Vista noch einmal neu zu installieren. Nun, nachdem absehbar war, daß Papa's Scanner auf Vista nicht funktioniert, und auch die ORF Ski Challenge Probleme bereitete, kam ich zu der Einsicht, daß es doch besser sei, Windows XP statt Vista einzusetzen.
+Vor dieser Installation gab es eine Vorbereitungsphase, in der eine Sicherung der bisher angefallenen sowie weiterer Daten auf 2 DVD's gebrannt wurde. Diese Daten gliedern sich grob in 4 Gruppen:
+- Daten, die noch am Windows-ME-Rechner erstellt und nur am USB-Stick zwischengespeichert wurden, weil sie noch nicht zahlreich genug waren, um eine CD zu füllen
+- Daten, die seit der Installation des neuen Rechners auf diesem Rechner dazugekommmen sind
+- Windows-XP-Treiber für die im PC installierten Komponenten, das sind Chipset, Soundchip, Grafikkarte und LAN, sowie auch die Hercules Game-Theater-Soundkarte, die ich noch einbauen möchte
+- Ghost-Dateien, um im Falle eines Mißerfolges der XP-Installation den Auslieferungszustand des neuen PC's wiederherstellen zu können
+
+Die letzten beiden Punkte waren spezielle Vorsichtsmaßnahmen, die daher rührten, daß mir der Verkäufer bei Media Markt vom Einsatz von Windows XP abgeraten hatte, weil die Komponenten angeblich auf Vista zugeschnitten sind, so daß ich sicher gehen wollte, daß ich am Ende nicht mit einem PC dastehe, der überhaupt nicht mehr funktioniert oder sich nicht mehr so gut wiederherstellen läßt, wie er einmal war. Daher suchte ich, um diese Pleite zu vermeiden, schon vorher im Internet nach entsprechenden Treibern für die eingebauten und noch einzubauenden Komponenten, die ich auch fand und mitsicherte, damit sie dann bei der XP-Installation eingesetzt werden können.
+Die Ghost-Dateien waren so auf dem ausgelieferten PC in der 3. Partition "E" gespeichert, die auf FAT32 formatiert ist, und können mittels einer mitgelieferten Support-CD verwendet werden, um den Auslieferungszustand wiederherzustellen. Durch die Sicherung habe ich sichergestellt, daß dies auch dann möglich ist, wenn die genannte Partition gelöscht werden muß, weil sie sich z.B. mit Windows XP nicht verträgt.
+
+Einspielung von Windows XP, 1. Versuch
+
+Nachdem ich alle Sicherungen vorgenommen hatte, nahm ich die XP-CD zur Hand, die ich von Egon im Sommer 2005 bekommen hatte, und versuchte, das Betriebssystem zu installieren. Dummerweise stellte sich heraus, daß es sich bei dieser CD um die wahrscheinlich 1. Version von Windows XP handelte, die Ende 2001 noch vor dem ersten Service-Pack herausgekommen ist, und diese Version unterstützt leider nur Festplatten mit bis zu 128 GB. Nachdem im neuen PC aber 2 360-GB-Platten eingebaut sind, versuchte XP, eine davon auf 128 GB zu formatieren, nachdem die vorhandenen Partitionen als "unbekannt" ausgewiesen wurden, und kopierte dann einige Systemdateien. Danach folgte ein Neustart mit der Ankündigung, daß die Installation danach fortgesetzt wird, dazu kam es aber nicht, weil die CD stattdessen wieder von neuem startete. Nach Entfernung der CD fand das BIOS dann den Boot-Record nicht.
+Somit war die Installation fehlgeschlagen.
+
+Umstieg auf den alten PC und Wiederherstellung von Vista
+
+Nachdem die Installation von XP fehlgeschlagen war, versuchte ich, Vista wiederherzustellen, was aber auch nicht ohne Probleme funktionierte. Vista fand die Platte, die von XP falsch formatiert wurde, nicht mehr, und weigerte sich, auf einer anderen Platte zu installieren, weil dort kein Systemvolume vorhanden ist, wie die Fehlermeldung sagt. Dagegen half auch keine Neuformatierung und Neupartitionierung der 2. Platte, auch die Wiederherstellung des Auslieferungszustandes mittels Support-CD war nicht möglich, und auch einige durchgeführte Tricks fruchteten nichts... die C-Platte blieb für die Vista-Installation unbrauchbar, auch nachdem sie von der angebotenen Befehlszeile aus neu formatiert wurde, und Reparaturversuche mittels der Vista-Installations-CD mündeten in Fehlermeldungen, daß die Partitionstabelle beschädigt ist, mit anschließendem Abbruch, nachdem der PC 2 Stunden lang an dieser Tabelle gearbeitet hat.
+Nun wollte ich aber eigentlich sowieso nicht zu Vista zurückkehren, sondern eine möglichst aktuelle Version von XP (also Service Pack 2) haben. Daher rief ich meinen Kollegen Johann Brandstetter an und fragte ihn um Hilfe, und er bot mir an, mir am nächsten Arbeitstag eine solche CD zu kopieren. Nachdem dies aber am 25.12. war, und dazwischen noch 2 Tage lagen, rief ich dann die Chello-Hotline an und ließ mir das Kabelmodem wieder auf den alten PC umsetzen, um mit diesem ins Internet zu können.
+Dann aktivierte ich den alten PC wieder, indem ich Monitor und Drucker wieder an diesen anschloß (Tastatur und Maus sind doppelt vorhanden, da mit dem neuen PC neu mitgeliefert) und die wesentlichen Dateien, mit denen ich ständig arbeite, also Radio-Würmchen-Datenbanken und Kontensystem, aus der Sicherungs-DVD an ihren gewohnten Platz auf dem alten PC kopierte.
+Ich suchte dann im Internet nach weiteren Tipps, wie man den Fehler am neuen PC korrigieren kann. Den entscheidenden Tipp gab es dann auf der Microsoft-Homepage, wo beschrieben wird, wie mittels des Hilfsprogramms Diskpart von der Befehlszeile aus die fehlerhafte Partition von der C-Platte entfernt werden kann, worauf eine Installation von Vista wieder möglich war.
+Der Plan ist nun, die Installation von Vista mit allen nötigen Treibern abzuschließen und dann mit der CD von Jimmy die XP-Installation nochmals zu versuchen. Bis dahin wird wieder am alten PC gearbeitet, was auch nicht sehr stört, da im Moment ohnehin nur die Fortsetzung der Dokumentationen und danach die Korrektur der Radioscans ansteht (letzteres findet aber wohl ohnehin erst in einigen Tagen statt).
+2
+
+
+	- 1 -
+

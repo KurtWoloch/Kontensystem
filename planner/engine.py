@@ -27,11 +27,15 @@ LOG_DIR = os.path.join(os.path.dirname(__file__), "..", "logs")
 
 class PlannerEngine:
 
-    def __init__(self, raw_lists: Dict[str, List[CsvRow]], ctx: DayContext):
+    def __init__(self, raw_lists: Dict[str, List[CsvRow]], ctx: DayContext,
+                 session_date: Optional[datetime] = None):
         self.ctx = ctx
         self.log: List[CompletedItem] = []
         self._unsaved = False
         self.now = datetime.now() # Store current time at initialization
+        # session_date anchors log filenames to the day the session started,
+        # so saving after midnight still writes to the correct day's file.
+        self.session_date = (session_date or datetime.now()).date()
 
         # Build ListState objects from raw data
         self.lists: Dict[str, ListState] = {}
@@ -179,7 +183,9 @@ class PlannerEngine:
                 result.append((ls.name, ls.wait_until))
         return result
 
-    def get_day_projection(self) -> List[Dict]:
+    def get_day_projection(self,
+                           start_time: Optional[datetime] = None
+                           ) -> List[Dict]:
         """
         Simulate the engine forward with preemptive scheduling.
 
@@ -189,6 +195,12 @@ class PlannerEngine:
         is emitted, and the remaining duration becomes a "(Fs.)"
         continuation that competes normally with other candidates.
 
+        Args:
+            start_time: If set, use this as the simulation start
+                instead of datetime.now().  Used when generating the
+                initial projection on a restart (so it reflects the
+                real start of the day, not the restart time).
+
         Returns a chronologically ordered list of dicts:
           - 'activity', 'list_name', 'minutes', 'priority'
           - 'fixed_time': Optional[time]
@@ -196,7 +208,7 @@ class PlannerEngine:
           - 'state': 'current' | 'upcoming' | 'scheduled'
           - 'is_control': False
         """
-        now = datetime.now()
+        now = start_time if start_time else datetime.now()
         projection: List[Dict] = []
 
         class _SimList:
@@ -516,6 +528,22 @@ class PlannerEngine:
         skip_count = 0
         now = datetime.now()
 
+        def _parse_log_time(time_str: str) -> datetime:
+            """Parse HH:MM:SS from log, anchored to session_date.
+
+            Times between 00:00 and 04:59 are assumed to be
+            after-midnight continuations and placed on session_date + 1.
+            """
+            try:
+                t = datetime.strptime(time_str, "%H:%M:%S")
+            except ValueError:
+                return now
+            base = self.session_date
+            if t.hour < 5:
+                # After midnight — belongs to the next calendar day
+                base = self.session_date + timedelta(days=1)
+            return t.replace(year=base.year, month=base.month, day=base.day)
+
         log_by_list: Dict[str, List[Dict]] = {}
         for entry in log_data:
             list_name = entry.get("list")
@@ -528,18 +556,8 @@ class PlannerEngine:
             if list_name in self.lists:
                 continue  # handled by the list-matching loop below
             for entry in entries:
-                try:
-                    started_dt = datetime.strptime(
-                        entry.get("started_at", ""), "%H:%M:%S"
-                    ).replace(year=now.year, month=now.month, day=now.day)
-                except ValueError:
-                    started_dt = now
-                try:
-                    completed_dt = datetime.strptime(
-                        entry["completed_at"], "%H:%M:%S"
-                    ).replace(year=now.year, month=now.month, day=now.day)
-                except ValueError:
-                    completed_dt = now
+                started_dt = _parse_log_time(entry.get("started_at", ""))
+                completed_dt = _parse_log_time(entry.get("completed_at", ""))
                 self.log.append(CompletedItem(
                     activity=entry.get("activity", ""),
                     list_name=list_name,
@@ -646,21 +664,15 @@ class PlannerEngine:
                 log_entry = remaining.pop(match_idx)
 
                 # Parse completion time
-                try:
-                    completed_dt = datetime.strptime(
-                        log_entry["completed_at"], "%H:%M:%S"
-                    ).replace(year=now.year, month=now.month, day=now.day)
-                except ValueError:
-                    completed_dt = now
+                completed_dt = _parse_log_time(
+                    log_entry.get("completed_at", ""))
 
                 last_completed_at = completed_dt
 
                 # Parse start time (falls back to completed_dt if missing)
-                try:
-                    started_dt = datetime.strptime(
-                        log_entry.get("started_at", ""), "%H:%M:%S"
-                    ).replace(year=now.year, month=now.month, day=now.day)
-                except ValueError:
+                started_dt = _parse_log_time(
+                    log_entry.get("started_at", ""))
+                if started_dt == now and completed_dt != now:
                     started_dt = completed_dt
 
                 if log_entry["skipped"]:
@@ -701,8 +713,8 @@ class PlannerEngine:
 
     def _get_log_path(self) -> str:
         os.makedirs(LOG_DIR, exist_ok=True)
-        today = datetime.now().strftime("%Y-%m-%d")
-        return os.path.join(LOG_DIR, f"planner-log-{today}.json")
+        day_str = self.session_date.strftime("%Y-%m-%d")
+        return os.path.join(LOG_DIR, f"planner-log-{day_str}.json")
 
     # ------------------------------------------------------------------ #
     #  Internal helpers                                                    #

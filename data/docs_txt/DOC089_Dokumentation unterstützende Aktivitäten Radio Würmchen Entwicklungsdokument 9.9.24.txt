@@ -1,0 +1,540 @@
+Dokumentation unterstützende Aktivitäten Radio Würmchen Entwicklungsdokument
+Stand: 26.9.2009
+Dokumentenstatus: vertraulich, Zielgruppe: ich selbst und meine Eltern
+
+Inhalt
+
+Inhalt	1
+Wesen dieser Dokumentation	1
+Einteilung der Struktur der unterstützenden Aktivitäten	1
+Untersuchung der unterstützenden Aktivitäten von Radio Würmchen	2
+Repertoirepflege	2
+Karaoke-Aufnahmen	2
+Die Radio-Würmchen-Datenbank	2
+Änderungen in der Datenbank im April - Mai 2006	2
+Änderungen der Datenbankstruktur	3
+Änderungen des Visual-Basic-Programms	3
+Einbau von bisher getrennten Tabellen	4
+Rentabilität der verschiedenen Tätigkeiten	4
+Berechnungen für die Radioprotokolle (Entwicklungskosten)	5
+Berechnung für die Auflistung von Tonträgern	6
+Rentabilität von Neueingaben von Daten über Tonträger und andere Lieder:	6
+Alternativberechnung	10
+Berechnung für Einspielungen von Musiktiteln auf die Festplatte	10
+Kosten der Einspielungen	11
+Prioritätswerte für Einspielungen auf die Festplatte	11
+Berechnung der Einordnung von Tina's CD's	12
+Rechnungsmäßige Auswirkungen des neuen Radio-Würmchen-Programmes	13
+Berechnungsgrundlagen der Radioscans	13
+Rentabilität der Aufnahmen beim Karaoke	13
+Beschickung des Herzensgut-Konto von Radio Würmchen	14
+Besitztümer und Unterlagen von Radio Würmchen	15
+Zusammenfassung, Businessplan und Abrechnungsschätzungen	15
+Durchführungsbestimmungen	16
+
+Wesen dieser Dokumentation
+
+Diese Dokumentation befasst sich mit den unterstützenden Aktivitäten von Radio Würmchen, das sind die Aktivitäten, die nicht direkt Spaß bringen, sondern die Voraussetzungen dafür schaffen, dass Spaß bringende Aktivitäten durchgeführt werden können.
+In dieser Dokumentation wird versucht, die Rentabilität dieser unterstützenden Aktivitäten zu berechnen. Weiters wird die Umstellung der Radio-Würmchen-Datenbank behandelt, die im April bis Mai 2006 erfolgt ist.
+Einteilung der Struktur der unterstützenden Aktivitäten
+
+Im folgenden erfolgt eine kurze hierarchische Darstellung der Aktivitäten des Radio-Würmchen-Kontos:
+
+Radio-Würmchen-Konto
+	Musikversorgung
+		Unterstützende Tätigkeiten
+			Radio-Würmchen-Datenbank
+			Repertoirepflege
+			Karaoke-Aufnahmen
+		
+Untersuchung der unterstützenden Aktivitäten von Radio Würmchen
+Repertoirepflege
+
+Neben der Datenbank, die hauptsächlich Informationen über Musik enthält, wird auch ein Repertoire an Musikdateien auf der Festplatte (und parallel auf Sicherungsdatenträgern) unterhalten. Dieses untersteht direkt dem Radio-Würmchen-Konto, im Gegensatz zu physischen Tonträgern wie Kassetten, Schallplatten und CD's, die in eigene Konten ausgelagert sind. Dieses Repertoire an Musikdateien erfordert natürlich auch ein gewisses Ausmaß an Pflege, wie z.B. die Aufnahme neuer Titel, die Kontrolle der Qualität und eventuelle Korrekturen von Tags und Lautstärke sowie die korrekte Aufnahme der Titel in die Radio-Würmchen-Datenbank.
+Karaoke-Aufnahmen
+
+Bei den Karaoke-Veranstaltungen von Radio Würmchen (siehe unten) werden auch Aufnahmen, vor allem von meinem eigenen Gesang gemacht, die dann im Zuge der Musikversorgung vor allem von mir und meinen Eltern weiterverarbeitet werden.
+Die Radio-Würmchen-Datenbank
+
+Die Radio-Würmchen-Datenbank dient dazu, die Aktivitäten von Radio Würmchen hauptsächlich im Bereich der Tonträgersammlung und des Musik und Radio hörens zu unterstützen, indem mannigfaltige Daten über verschiedene Radiosender, Tonträger und Musiktitel und die Beziehung von verschiedenen Personen zur Musik gesammelt und bei Bedarf ausgewertet werden.
+Die Radio-Würmchen-Datenbank ist eine Konstruktion, die aus mehreren Access-Datenbanken und einem Visual-Basic-Programm besteht, das mit dieser Datenbank und anderen Dingen zusammenarbeitet. Grob gesagt beherrscht dieses Datenbanksystem die folgende Dinge:
+- Ausdruck von Listen für Karaoke und andere Dinge
+- Automatisches Abspielen einer Playlist und Vorschlag anderer, nicht als Datei vorhandener Titel, auf Grund des Musikgeschmacks der vorhandenen Personen
+- Eingabe des Musikgeschmacks verschiedener Personen durch Eingabe von Wertungen für einzelne Titel oder indirekter positiver oder negativer Äußerungen und Musikwünschen
+- Protokollierung des Musikprogramms verschiedener Radiostationen, sowohl laufend als auch als Nacherfassung
+- Unterstützung automatischer Titelausgaben in Flatcast-Sendungen
+- Vorschlagen von Tonträgern, die angehört werden sollten, je nach anwesenden Personen
+- Einordnung diverser Musiktitel nach verschiedenen Kriterien (Kategorisierung, Eingabe von Ähnlichkeitsbeziehungen)
+- Automatische Berechnung von Schätzwertungen für nicht bewertete Titel für verschiedene Personen auf Grund verschiedener Kriterien
+- Verwaltung des Repertoires an Musikdateien und deren Sicherung
+
+Die Beschreibung der aktuellen Datenbankstruktur wurde in eine eigene (technische und funktionelle) Datenbankdokumentation ausgelagert, da sie recht umfangreich ist.
+
+Änderungen in der Datenbank im April - Mai 2006
+
+Ab April 2006 kam ich durch den Abgang des Kollegen Ronald Baldauf, der bisher dafür zuständig war, in den Genuss, das Musikprogramm im Büro zu bestimmen. Da ich schon genug Erfahrung darin hatte, Musikprogramme auszusuchen und auch an die Geschmäcker anderer Leute anzupassen, dachte ich, es wäre eine interessante Aufgabe, dies auch im Büro zu tun. Leider hatte die Radio-Würmchen-Datenbank zu diesem Zeitpunkt eine relativ starre Struktur, die es nur erlaubte, Wertungen und Hördaten für mich und meine Eltern einzugeben, aber für niemand anderen. Ich dachte mir nun, es wäre wünschenswert, wenn das nicht nur für uns drei, sondern für beliebig viele Personen funktionieren würde, damit das Radio-Würmchen-Programm, das bisher nur zu Hause lief, auch im Büro eingesetzt werden könnte. Nebenbei wäre dies auch für meine Sendungen auf Radio Krokofee, die ich von Zeit zu Zeit durchführte, brauchbar.
+
+Auf Grund dieser Überlegungen wurde im April und Mai 2006 das Radio-Würmchen-Programm stark umgeschrieben, damit es nicht nur für mich und meine Eltern Musik aussuchen kann, sondern auch für andere Personen, unter anderem meine Kollegen und die Hörer von Radio Krokofee.
+Eine solche Erweiterung war mit der alten Programmstruktur relativ schwierig, da die Wertungstabelle nur Wertungen für mich und meine Eltern enthielt, und zwar jeweils als separates Feld.
+Es war daher auch nötig, relativ starke Änderungen in der Datenbankstruktur einzuführen.
+Änderungen der Datenbankstruktur
+
+Vergabe einer eindeutigen Titelnummer:
+Die Titelnummern von Tonträger- und Ähnlichkeitsdatenbank wurden vereinheitlicht und werden nun auch für die Wertungs- und Files-Datenbank verwendet. Leider kam es dabei auch zu Doppeleintragungen von leicht unterschiedlich geschriebenen Titeln, die teilweise erst korrigiert werden müssen.
+
+Als nächstes wurde die Wertungstabelle in ein neues Format gebracht.
+Das neue Format (TAB_WERTUNG_PRO_PERSON) hat pro Person und Titel einen eigenen Datensatz. Dieser enthält die (nun eindeutige) Titelnummer, die Personennummer (der ein Satz aus der neuen Tabelle TAB_PERSON zugeordnet ist), das letzte Hördatum, eine Bewertung und einen Bewertungsstatus.
+Dieser Status bedeutet: 0 = unbewertet, 1 = tatsächliche Wertung, 2 = virtuelle Wertung (Schätzwertung).
+Mit diesem neuen Format lassen sich nun beliebig viele Personen und ihre Wertungen in der Datenbank abbilden. Die virtuelle Wertung war bisher in einer eigenen Tabelle in der Datenbank Aehnlichtest.mdb abgelegt und wurde nun in die Hauptwertungstabelle integriert, was auch sinnvoll ist, da bei Vorliegen einer tatsächlichen Wertung keine virtuelle Wertung mehr vorhanden zu sein braucht.
+Änderungen des Visual-Basic-Programms
+
+Natürlich mußte nun das Radio-Würmchen-Programm so umgeschrieben werden, daß es mit dem neuen Datenbankformat umgehen kann, was auch in ca. 4-wöchiger Arbeit von Mitte April bis Mitte Mai 2006 passiert ist.
+Das Programm hat dabei auch zahlreiche weitere Funktionen bekommen, um viele Dinge über das Programm erledigen zu können, die man bisher in der Datenbank selbst eingetragen hat:
+
+In der Listbox für die einzelnen Personen kann man nun durch Eingabe eines Kürzels beliebige Personen aufnehmen. Es sind auch verschiedene Kontexte für zu Hause und im BRZG im Programm hardcodiert, die mit einer Combo-Box gewählt werden und jeweils relevante Personen anzeigen.
+
+Um die auf der Festplatte vorhandenen und auf CD gesicherten Files getrennt verwalten und im Bundesrechenzentrum eine Kopie der Sammlung anlegen zu können, wurde zur der bisherigen Tabelle TAB_FILES eine weiter Tabelle TAB_FILES_ON_CD gestellt. Die Datenbankstruktur wurde nun so geändert, daß TAB_FILES die auf dem jeweiligen Rechner vorhandenen Dateien auflistet, während TAB_FILES_ON_CD die auf CD und DVD gesicherten Files auflistet. In das Programm wurde nun eine Funktion "Dateiimport" gebaut, die von einer eingelegten CD nach Eingabe der Inventurnummer alle MP3-Files laut Tabelle TAB_FILES_ON_CD kopiert, auf der Festplatte ablegt und in die Tabelle TAB_FILES einträgt. Auch das Sichern der noch ungesicherten Files auf CD wurde automatisiert, leider aber nicht ohne anfängliche Fehler, diese sollten aber mittlerweile einigermaßen behoben sein.
+
+Eine weitere Funktion des Programms ist die Erfassung von Radioscans. Es wurde dazu das gerade gespielte Lied in eine Combo-Box gelegt. Diese kann nun nicht nur vom Programm gefüllt werden, sondern man kann auch nach Titeln suchen und dann in der Combo-Box aus den Suchergebnissen auswählen. Klickt man dann auf "gehört", so wird einerseits eingetragen, daß man den Titel gehört hat, eine etwaige Wertung wird eingetragen, ebenso wie neu eingegebene oder geänderte Kategorien. Dann wird auch eingetragen, daß der Titel am ausgewählten Sender gespielt wurde. Sind mehrere Personen angewählt, so wird natürlich für jede eingetragen, daß der Titel gehört wurde, und es wird auch ein entsprechender erzielter Wert ausgerechnet und mit eingetragen.
+
+Weiters habe ich auch, damit das Programm in einer Flatcast-Sendung automatisch reagieren kann, eine Anbindung an das Flatcast-Plugin programmiert. Das Programm kann nun bestimmte Schlüsselworte aus dem Chat lesen und so auch Musikwünsche automatisch erfüllen. Es findet auch selbst heraus, wenn Personen in den Chat kommen, die vorher nicht vorhanden waren, und berücksichtigt dann automatisch deren Musikgeschmack.
+
+Dann wurde auch noch die automatische Playlist etwas entkoppelt, indem nun bei Winamp die Playlist selbst ausgelesen wird. Dadurch erkennt das Programm, wenn man etwas anderes in den Winamp gezogen hat als es selbst vorgeschlagen hat, und trägt automatisch dieses Lied als gehört ein. Man kann nun auch - aber das funktioniert noch nicht perfekt - nur ein Lied vorschlagen und nicht gleich abspielen lassen. Diese Vorschläge werden dann bei Bedarf auch für Lieder abgegeben, die sich nicht auf der Festplatte befinden.
+
+Ebenfalls erweitert wurde die Schätzung der Wertungen. Bisher wurden hier nur die Ähnlichkeitsbeziehungen aus der Ähnlichkeitsdatenbank herangezogen. Nun untersucht der Programm auch etwaige konsistente Wertungen für verschiedene Kategorien, die für die Titel vergeben sind, und schätzt unbewertete Titel nach den Kategorien. Weiters übertragen sich abgegebene Wertungen auch auf andere Titel des gleichen Interpreten und auch ähnlicher Interpreten. Die Liste der ähnlichen Interpreten wird dazu von der Last.FM-Seite gelesen. Weiters untersucht das Programm für jede Person auch, wie stark seine Bewertungen mit dem von mir geschätzten Bekanntheitsgrad zusammenhängen. Gibt es einen solchen Zusammenhang, dann werden laut meiner Liste bekanntere Lieder entsprechend höher geschätzt als unbekanntere.
+Einbau von bisher getrennten Tabellen
+
+Es wurden im Zuge dieser Reorganisation auch einige der oben erwähnten bisher getrennten Tabellen in die Datenbank eingebaut, und zwar:
+- die Kategorisierungstabelle aus dem BRZ (die aber bisher nicht genutzt wird)
+- das Excel-Sheet mit den Fragebogenauswertungen (dessen Nutzung wieder fallen gelassen wurde)
+- die Excel-Sheets mit den Scans von Radio Krokofee
+- einige in der Firma angelegte Ö3-Playlists
+
+Für jedes dieser Dokumente wurden eigene Importroutinen geschrieben, die dazu dienen sollen, die jeweiligen Tabellen in eine entsprechende Form zu bringen. Für die Radio-Krokofee-Sheets wurde z.B. die Tabelle Scan benutzt, wo eingetragen ist, wie oft jeder Sender die Lieder gespielt hat und welche Musikwünsche waren. Damit kann nun mit der verfeinerten Schätzungsroutine für jeden Hörer, der in diesem Scan eingetragen ist (und das sind zig Hörer!) bei Bedarf zumindest ein ungefähres Profil geschätzt werden.
+
+Später sind dazu auch noch die abgegebenen Wertungen meiner Klassenkameraden in der Klassenhitparade sowie die meiner Verwandten in der Familienhitparade 1991 gekommen.
+
+Einige Dinge sind aber noch nicht ideal gelöst:
+Beim Scan von Radiosendern sollte automatisch die Gesamtwertung für einen gewissen Hörzeitraum berechnet und idealerweise auch die momentane "Güte" eines Radiosenders geschätzt werden. Dazu gibt es zwar in der Verknüpfungsdatenbank schon eine Auswertung, die aber noch nicht perfekt funktioniert.
+Weiters gibt es beim Radioscan noch ein Problem mit neuen Titeln: diese können zwar eingetragen werden, das Befüllen der neuen 3 Felder und der Ähnlichkeitsbeziehungen kann aber nicht über das Programm erfolgen. Hier sind noch Verbesserungen denkbar - vermutlich in einem Pop-Up-Schirm, da das existierende Fenster schon ziemlich überladen ist.
+
+Rentabilität der verschiedenen Tätigkeiten
+
+Der Zweck der Dokumentation sollte nun auch der sein, daß ich mir einmal im Klaren darüber werde, welche Aktionen von Radio Würmchen gewinnbringend und welche defizitär sind, und welche sich von den gewinnbringenden - falls sie sich nicht sofort bei der Aktion rechnen - schnell rechnen und welche langsam.
+Diese Berechnungen wurden teilweise bereits gestrafft, weil Papa sich gegen zu umfangreiche, schwer verständliche Kalkulationen ausgesprochen hat und diese daher bereits in der Gesamtdokumentation, aus der diese hier ausgelagert wurde, gekürzt wurden.
+
+Hier nun einige Daten über die Dauer verschiedener Vorgänge:
+ 
+Radioscan: Eintragen einer Spielzeit eines Titels, der bereits in der Radio-Würmchen-Datenbank ist: 20 Sekunden.
+Neueintragung eines Titels in die Radio-Würmchen-Datenbank mit Titel, Interpret und Kategorisierung: 1 Minute
+Eintragen ähnlicher Titel zu einem Titel: 1 Minute
+Für einen Radioscan ergeben sich im Schnitt bei einem Bekanntheitsgrad von 80% 21,25 Sekunden pro Titel.. Bei einer Rotation von 1000 Titeln beansprucht der Scan also 21250 Sekunden, das sind 5,9 Stunden. Die Kosten für einen Radioscan liegen damit bei 8,85 Cent pro Titel in der Rotation, bei 1000 Titeln also 8850 Cent oder 88,5 Euro.
+
+Eintragen der 3 neuen Felder: 22 Sekunden
+
+Eintragen der innerhalb einer Woche im Radio gehörten Titel (mit Bewertungskorrektur und Aufschreiben der Wertungen): 8 Minuten (insgesamt 38 Titel, davon 12 bekannt)
+
+Ermittlung der Durchschnittswerte für Radio hören: 7 Minuten pro gehörtem Tag (dieser Vorgang wird auf Grund von Änderungen in der Vorgangsweise nicht mehr durchgeführt)
+Eintragen einer gehörten Kassettenhälfte (mit 8 Titeln): 4 Minuten (ohne Kontrolle der Ähnlichkeitsdatenbank)
+Aussuchen einer Kassettenhälfte aus (bereits offener) Empfehlungsdatenbank (oder eines Liedes): 1 Minute
+Einspulen eines Liedes, das empfohlen wurde, aus einer Kassette: 37,5 Sekunden
+Aufbewahrung einer Kassette pro Jahr: 0,2 Euro = 20 Cent
+Rundfunkgebühr pro Monat (nur Radio): 6 Euro
+Zahlungen von Papa und Mama für Radio Würmchen: je 21,5 Euro pro Monat
+Datenbankkorrektur für 1 Kassette: durchschnittlich etwa 10 Minuten = € 2,50
+Neueingabe einer Kassette (mit 16 Titeln): ca. 13 Minuten (48 Sekunden pro Titel) = € 3,25
+Eintragen 26 Titel in Wertungsdatenbank mit Wertungen für Kurt, Papa und Mama: 15 Minuten (35 Sekunden pro Titel = € 0,144 pro Titel)
+Einspielung eines Titels von Kassette auf die Festplatte: 5-10 Euro
+Berechnungen für die Radioprotokolle (Entwicklungskosten)
+
+Bei der näheren Betrachtung des Radio hörens wäre einmal zu beachten, daß unbekannte Titel nicht ganz wertlos sind, da diese auch immer bekannt werden können, wenn man sie oft genug hört. Ob dies gut ist, ist wieder eine andere Frage.
+Nehmen wir als Beispiel einmal FM4, wo mir im Moment ca. 91% der Titel unbekannt sind, die gespielt werden. FM4 hat eine Rotation von 1200 Titeln, und ich schätze einmal, daß ein Titel nach durchschnittlich 6x gehört werden von "unbekannt" auf "bekannt" springt. In diesem Fall ist dann die Frage, was das bringt.
+In meinen letzten Aufzeichnungen wurden insgesamt ca. 23 Titel gehört mit einer Durchschnittsbewertung von 18,5 Punkten. Davon hatten die bekannten Titel eine Wertung von durchschnittlich 25 Punkten und die unbekannten eine Wertung von 17,87 Punkten.
+Man muß nun damit rechnen, daß pro 6 gehörter Titel einer davon bekannt wird und sich damit der gesamte Bekannheitsgrad um 0,083% erhöht. Dieses Lied hat dann 17,87 Punkte, und wir wollen nun errechnen, wieviel Gewinn es innerhalb von 5 Jahren einbringen kann.
+Heruntergebrochen auf die Fixkosten pro Stunde kostet ein im Radio gehörtes Lied (da ja 12 Titel pro Stunde gespielt werden) € 0,1875. Beim idealen Rotationswert von 1 Jahr liegt der Wert eines bekannt gewordenen Titels bei € 2,548. Damit hätte das Hören von FM4 einen zusätzlichen "Entdeckungswert" von € 5,096 pro Stunde.
+Dies wäre beim derzeitigen durchschnittlichen Wert von -0,15 folgendermaßen zu bewerten:
+Entdeckungswert: € 5,096 pro Stunde
+Eigentlicher Wert des Hörens: € -1,707 pro Stunde
+Kosten des Radiohörens: € -2,25
+Gesamtsumme: € 1,139 pro Stunde
+Dies ergibt gegenüber dem Hören von Kassetten immer noch einen ziemlich geringen Wert.
+ 
+Versuchen wir nun, das Radio hören für einen Sender durchzurechnen, wo fast alles gespielte bekannt ist, wie z.B. Radio Wien. Dieses hat eine Rotation von 1400 Titeln, einen Wertungsschnitt von 23,09 Punkten und 97% bekannte Titel. Unter Vernachlässigung der unbekannten Titel kommen wir hier auf einen idealen Rotationslevel von 76 Tagen. Daraus ergibt sich, daß Radio Wien idealerweise alle 76 Tage durchgehört wird, das heißt, 1400 Titel lang, oder knapp 120 Stunden lang. Das heißt, es sollte pro Tag 1,6 Stunden gehört werden.
+
+Es hat mittlerweile etliche Radioscans gegeben von so ziemlich allen Sendern, bei denen mir das meiste Repertoire bekannt ist, oder wo man das Programm im Internet abrufen kann, also: Radio Melange, 88.6 (in mindestens 4 Ausformungen), Radio Wien, Arabella, Orange 94,0 (hier liegen die Daten der AKM-Datenbank vor), Radio Niederösterreich, Ö3, Antenne Wien / Antenne Mix (mehrere Ausformungen), Kronehit und FM4. Zweck ist jeweils, die Rotation zu ermitteln, wie schon oben dargestellt. Diese Scans sind recht aufwändig (wie auch oben festgestellt), sie kosten pro 1000 Titel ca. € 88,50. Einfacher sind sie aber bei Sendern, wo man im Internet im Nachhinein die Playlist aufrufen kann, das sind Ö3, Radio Wien, FM4, NRJ (mittels eines eigenen Programmes, das ich entwickelt habe) und Kronehit. Hier lassen sich in ca. 1 Minute die Daten einer Sendestunde sammeln, das sind normalerweise ca. 12 Titel. Das heißt, das Sammeln kostet nur 2,08 Cent pro Titel, das sind 20,8 Euro pro 1000 Titel. Die Scans haben aber auch den Zweck, den Großteil der in den Sendern gespielten Musiktitel in der Ähnlichkeits-Datenbank zu erfassen, wodurch ein breites Musikrepertoire kategorisiert wurde, angefangen von unbekannteren Schlagern, die in den 80er-Jahren in der Ö3-Hitparade waren (und auf Radio Niederösterreich immer noch laufen) bis zu Rockklassikern (die auf 88.6 seit der "Revolution" häufig laufen). Infolge dessen sind derzeit in der Ähnlichkeitsdatenbank fast alle auf Mainstream-Sendern gespielten Titel enthalten, sowie noch etliche mehr, die ich kenne und von den diversen Kassetten und Internetradios stammen.
+
+Von Mitte Dezember 2005 bis Anfang Jänner 2006 lief ein Scan meines Personal Radios auf Last.FM - im neuen Format. Es gab hier 2 Hindernisse:
+1. das Programm umfaßt (wider Erwarten) einen relativ hohen Anteil an mir unbekannten Titeln (ca. 50%)
+2. ich versuche, die Kategorisierungen als Tagging auch in Last.FM einzubauen, um damit mitzuhelfen, Tag-Stationen zu bauen.
+Da wäre dann einmal zu berechnen, ob sich das auszahlt oder nicht.
+Die Bearbeitungsdauer für diesen Scan setzt sich wie folgt zusammen:
+10-20 Sekunden für Eintragung, daß Titel gehört wurde (durchschn. 15)
+22 Sekunden für Eintragung der 3 neuen Felder
+26 Sekunden für Übertragung der Tags (nur 10 Sekunden, wenn Tags schon vorhanden)
+wenn neuer Titel, 66 Sekunden für Aufnahme des neuen Datensatzes mit Kategorisierung und ähnlicher Titel
+
+Im Schnitt dauert dies ca. 90 Sekunden pro Titel, was Kosten von 36 Cent entspricht. Wichtig dabei ist aber auch die Eintragung der 3 neuen Felder, die langsam für alle 16000 Datensätze der Ähnlichkeitsdatenbank ausgefüllt werden sollten und vor allem angeben, ob ich das jeweilige Stück kenne, und wenn ja, wie gut.
+Berechnung für die Auflistung von Tonträgern
+
+Für die Neuaufnahme einer Kassette in die Inventur ergeben sich folgende Kosten:
+Eintragen in Inventur € 1.-
+Neueingabe in Liste € 3,25
+Datenbankkorrektur € 2,50
+Eintragen in Wertungsdatenbank (16 Titel) € 2,25
+Eintragen in Ähnlichkeitsdatenbank (mit neuen Feldern) (16 Titel zu je 142 Sekunden) € 9,47
+Gesamtsumme pro Kassette: € 18,47
+
+Es sollte nun für jeden Tonträger eine ideale Hörfrequenz geben, bei der er umgerechnet auf ein Jahr den größten Gewinn bringt. Wird er seltener gehört, so reduziert sich mit der Hörzahl auch der Gewinn, wird er aber öfters gehört, dann reduziert sich der Gewinn pro Hörereignis dadurch, dass die Titel durch oftmaliges Anhören fad werden, schneller, als durch das öftere Anhören kompensiert werden kann.
+ 
+Für eine Kassette, die 16 bekannte Titel mit je 20 Punkten Bewertung hat, liegt die ideale Hörfrequenz, bei der die Kassette den größten Gewinn pro Jahr bringt, zwischen 5 und 12 Monaten, der jährliche Gewinn liegt hier bei € 11,4. In diesem Fall sollte die Kassette ihre Ausgaben in ca. 1,53 Jahren einspielen..
+
+Nun ein praktisches Beispiel anhand der Kassette 9/1989. Diese hat 21 bewertete Titel mit einem Schnitt von 20,62 Punkten. Davon sind allerdings nur 9 bekannt (also ca. 43%). Die unbekannten haben einen Wertungsschnitt von 19,92 und die bekannten einen Schnitt von 21,56 Punkten.
+Die unbekannten erreichen nun immer den gleichen Schnitt beim Anhören von -0,08 Wertungspunkten, daher -0,08/1,42*2/21*12=-0,064 Spaßpunkte pro Stunde, egal wie oft die Kassette gehört wird - zumindest, bis sie bekannt ist. Wir können damit zu den normalen Kosten von € 2,62 € 0,65 als Negativspaßkosten dazurechnen. Das macht € 3,27. 
+Die restlichen 9 von 21 Titel (0,429 Stunden) sollten damit den ganzen Gewinn bringen.
+Hier ergibt sich eine optimale Anhörungsfrequenz von 1 Jahr mit einem Gewinn von € 3,77 pro Jahr. In diesem Fall ergibt sich für die ganze Kassette ein Durchschnittswert von 0,381 P, wenn sie zum Anhören an die Reihe kommt.
+Damit ergibt sich, daß sich die Investitionen von € 17,85 erst nach 4,73 Jahren rechnen.
+
+Noch ein Beispiel: Auf Tina's CD Nr. 10105 sind insgesamt 186 Titel enthalten, davon kenne ich 77, das sind ca. 41% (also ungefähr der gleiche Prozentsatz).
+
+Zu den Kosten der Anhörung wären noch anteilige Kosten für den Tonträger und seinen Kauf bzw. die Aufnahme dazuzurechnen. Diese sind allerdings schwierig zu berechnen.
+Rentabilität von Neueingaben von Daten über Tonträger und andere Lieder:
+
+Im Zuge der Inventur der Tonträger haben wir bereits die Aufwände analysiert, die im Zusammenhang mit der Datenerfassung entstehen, ebenso im Zusammenhang mit den Radioscans. Nun sind die Tonträger von den Radioprogrammen aber nicht streng getrennt, da bekannte kommerzielle Musiktitel in beiden auftreten. Daher sollte man einmal die Eingaben über Lieder etwas abgehoben von den einzelnen Tonträgern und Programmen, in denen sie vorkommen, betrachten.
+
+Prinzipiell werden über Musiktitel folgende Daten erhoben, die folgenden Zwecken dienen
+
+Datenfeld
+Zweck
+Eingabedauer (s)
+(Beschriftung)
+
+
+Titel, Zählwerk / Nummer, Interpret, evtl. Datum, Dauer
+Suche
+20
+(Tab. Tonträger)
+
+
+VorTitel, Titel
+Suche, Sortierung
+9
+VorInterpret, Interpret
+Suche, Sortierung, Schätzwertermittlung
+9
+(Tab. Titel in Tonträger)
+
+
+Tonträgernummer, Seite
+Suche
+9
+(Tab. Beziehungen)
+
+
+Dazu ähnliche Lieder
+Flow-Logik, Schätzwertermittlung
+15
+(Tab. Ähnlich)
+
+
+Kategorisierung
+Flow-Logik, Schätzwertermittlung
+20
+Bekanntheitsgrad K
+Sortierung, Schätzwertermittlung (für Tonträgeranhörung)
+5
+Bekannheitsgrad allg.
+Sortierung, Schätzwertermittlung
+9
+Bedeutung K
+Sortierung in persönliche Kategorien (?)
+9
+(Tab. Files / Files on CD)
+
+
+File (auf Festplatte)
+automatisches Abspielen in RW-Programm
+5 (automatisch)
+File (auf CD)
+Übertragen der Musikdateien und Sicherung
+2 (automatisch)
+(Tab. Wertung pro Person)
+
+
+Wertung pro Person
+Berechnung von Rotationen für Personen, Schätzwertermittlung für andere Lieder
+5
+Wertungsstatus
+feststellen, welche Lieder von welchen Personen schon bewertet wurden
+autom.
+Letztes Hördatum
+Berechnung von Rotationen für Personen
+5 (tw. Autom.)
+(Tab. Kategorien)
+
+
+Kategorien (einzeln)
+noch nicht klar ausmachbar
+180 (insg.)
+(Tab. Scan)
+
+
+Scandatum
+
+2 (autom.)
+Personen, die den Titel gehört haben
+
+
+Sender, die den Titel gespielt haben
+Angaben über positives und negatives Auffallen des Titels bei Personen
+5 (pro Event)
+
+Diese Daten werden im Rahmen von Radio Würmchen erhoben. Im Rahmen anderer Projekte (z.B. Musiker) werden noch weitere Daten erhoben, die derzeit im Rahmen von Radio Würmchen noch nicht integriert sind.
+
+Die Frage ist nun, welche Daten standardmäßig bei jedem Tonträger, der neu hineinkommt, aufgenommen werden sollten. Eventuell kann man hier noch nach Art des Tonträgers differenzieren.
+
+Dazu überlegen wir uns, wie die Nutzung von Tonträgern pro Jahr im Moment ungefähr (schätzungsweise) aussieht:
+Nutzung eines ganzen Tonträgers für Fahrten etc.: 40 h / 80 Tonträger pro Jahr
+Einspielung einer Aufnahme aus einem Tonträger: 360 Aufnahmen pro Jahr
+Anhören eines halben bzw. ganzen Tonträgers (bis Mai 2006): 194 Tonträger / 168 h pro Jahr (ab Mai 2006: 200 h pro Jahr inkl. Fahrten etc.)
+Anhören eines Liedes vom Tonträger für Musiker-Repertoire bzw. Textdruck: 20 Aufnahmen pro Jahr (durchschnittlich 3x gehört)
+(Anmerkung: Ab Mai 2006 wurden im Schnitt ca. 3200 Titel von Tonträgern gehört (zum Zweck des Anhörens, aber nicht für Einspielungen und Texte), das inkludiert ganze und auch teilweise angehörte Kassetten (das Hören von halben Kassetten während dem Duschen wurde zu Gunsten von Radio eingestellt). 
+
+Das heißt, es wird 274 x auf ganze Tonträger und 380 x auf einzelne Aufnahmen zugegriffen (nur von physischen Tonträgern, also nicht von der Festplatte). Ganze Tonträger werden meist auf Grund der Bewertungssumme ausgesucht, einzelne Tonträger entweder nach einem bestimmten Titel oder (meistens, weil so bestimmt wird, was eingespielt werden soll) nach der Bewertung. Prinzipiell kann man daher sagen, daß alle Daten, die zur Berechnung der virtuellen Wertungen verwendet werden, auch relevant für die Benutzung der Tonträger sind, das sind alle Daten außer den ausführlichen Kategorien (zu denen es noch keine Auswertung gibt) und den nur für Musikdateien relevanten Daten. Bei bereits "durchbewerteten" Tonträgern werden für mich und meine Eltern keine virtuellen Wertungen mehr benötigt, da mein System aber seit Mai 2006 in der Weise offen ist, daß jederzeit Personen dazukommen können, die dann natürlich die meisten Titel nicht bewertet haben, und für die dann Schätzwertungen erstellt werden, kann bei keiner Aufnahme der Nutzen einer solchen Wertung ausgeschlossen werden.
+
+Wenn also die Daten sowieso benötigt werden, ist es am sinnvollsten, sie gleich am Anfang zu erheben, da so die Nutzungsdauer am höchsten ist. Dies sollte daher bei jedem "frischen" Tonträger bei der Erstanhörung erfolgen, die alten Tonträger können nach dem bisherigen System nacherfaßt werden. Wie wir oben bereits berechnet haben, kostet die komplette Beschriftung und Erfassung einer Kassette mit 16 Titeln € 18,47. Bei insgesamt 800 Titeln pro Jahr, die hereinkommen, sind das € 923,50 pro Jahr, die für Titelerfassungen ausgegeben werden.
+Diese Kosten können wir nun nach verschiedenen Kriterien aufteilen.
+Teilen wir sie nach Suchvorgängen pro Jahr auf, dann kostet ein Suchvorgang (von 654 pro Jahr) € 1,41. Nach der angehörten Menge aufgeteilt, kommen wir bei 234,25 Stunden pro Jahr auf Kosten von € 3,94 pro Stunde oder € 0,25 pro gehörtem Titel.
+Wenn man die Hälfte der Kosten nach Suchvorgängen und die Hälfte nach Hörstunden aufteilt, dann kommt man auf Kosten von € 0,125 pro gehörtem Titel + € 0,71 pro Suchvorgang. Für einen ganzen Tonträger (1 Stunde) sind das dann € 2,71, für einen einzelnen Titel € 0,84, was nach einer gangbaren Methode aussieht. Per Ende 2006 sind noch nicht erfaßte "Altlasten" von ca. 18000-19000 Titeln vorhanden, das entspricht etwa dem Volumen von 23 Jahren. Im Jahr 2004 sind (noch inklusive der Nutzung auf Orange 94.0) 12 Kassettenmieten und 1778 einzelne Titel angefallen, dies entspricht ca.123 Hörstunden. Hier muß man aber berücksichtigen, daß etliche Eigentantiemen (Anhören von Radio-Würmchen-Tonträgern, z.B. Karaoke-Gesang) nicht verrechnet wurden.
+
+Bei dieser Gelegenheit können wir auch den Anteil der Miete an den Tonträgerkosten berechnen. Laut Reform der Wohnungsmietenberechnung kostet 1 Liter 1 Euro bei geschlossener und 1,4 Euro bei offener Unterbringung (per 1. Halbjahr 2006). Da ca. 20% der Tonträger offen untergebracht sind, kommen wir auf einen Schnitt von € 1,08 pro Liter. Eine Kassette ist 1,6 x 7 x 10,7 cm groß (Außenmaße der Hülle), das sind 0,12 Liter pro Kassette. Die Unterbringung einer Kassette kostet damit € 1,08 * 0,12 = € 0,13 pro Jahr. Im Schnitt können wir für die Gesamtmiete der Tonträgersammlung mit dem 1750-fachen Aufwand einer Kassette rechnen, das sind € 226,50 pro Jahr. Dies sind ca. 24,52% der Titelerfassungskosten. 
+
+Nicht eingerechnet ist hier noch der eigentliche Wert der Tonträger. Dieser kann hier nur geschätzt werden, und mehr zu tun, würde im Moment über den Geltungsbereich dieser Dokumentation hinausgehen. Wir schätzen zum Zweck der Gesamtberechnung hier den Wert eines Tonträgers mit € 1,50 pro Titel, der darauf ist, inklusive Beschaffungskosten. Wenn pro Jahr 800 Titel neu ins Repertoire kommen, entspricht dies Kosten von € 1200 pro Jahr. Zusammen mit den Kosten für Unterbringung und Einlistung der Tonträger ergibt dies € 2350 pro Jahr. Teilt man dies wie oben auf Hörstunden und Suchvorgänge auf, kommt man insgesamt auf € 1,80 pro Suchvorgang + € 5,02 pro Hörstunde. Dies entspricht für eine Stunde insgesamt € 6,82 und für einen einzelnen Titel € 2,11.
+
+Die Frage ist nun, wie oft eine Kassette tatsächlich angehört werden sollte. Wir haben oben bereits versucht, dies zu erörtern, und tun dies nun noch einmal an Hand eines Beispiels, und zwar der Kassette Eversweets 28. Dies ist eine meiner "besten" Kassetten. Hier sind alle Titel bekannt, die Durchschnittswertung liegt bei 25,4 Punkten.
+
+Wir können davon ausgehen, daß die bereits dargestellten Kosten einer Kassette sich aufteilen in einmalige Fixkosten (Kauf und Einlistung), jährliche Fixkosten (Unterbringung) und Kosten pro Anhörung. Die Kosten pro Anhörung sind direkt vom Spaßergebnis der jeweiligen Anhörung abzuziehen, während die jährlichen und einmaligen Fixkosten von der Anzahl der Anhörungen unabhängig ist. Um den jährlichen Gewinn einer Kassette je nach Anhörungsfrequenz zu ermitteln, müssen wir daher zunächst den Spaß je nach Anhörungsfrequenz ermitteln, vom Spaß jeder Anhörung die Fixkosten pro Anhörung abziehen und dann die entstehende Differenz mit der Anzahl der Anhörungen pro Jahr multiplizieren.
+Das ideale Ergebnis lautet hier:
+
+Anhörungsfrequenz (d)	Spaß pro Anhörung (P)		Wert pro Anhörung	Wert pro Jahr
+70			(5,4 + 2,28) * 1,5 / 7 = 1,646	16,62-2,66 = 13,96	13,96 * 365/70 = 72,80
+
+Nach dieser Berechnung wäre die optimale Anhörungsfrequenz für diese Kassette um die 70 Tage herum. Das Problem ist nur, es gibt viele Tonträger und nicht so viel Zeit, sie anzuhören. Daher liegt die Lösung nahe, daß Kassetten erst dann angehört werden, wenn sie vom Spaßwert her über den Radiosendern und über dem Radio-Würmchen-Programm liegen, das ist im Moment bei ca. mindestens 10,2-10,5 Punkten (je nach Tageszeit). In diesem Fall tritt eine Kassette mit 20 Punkten Bewertung, wenn alle Titel darauf bekannt sind, nur ca. 1x pro Jahr auf. Für die besprochene Kassette träte in diesem Falle ein Anhörungsrhythmus von 144 Tagen auf, wobei in diesem Fall aber zu beachten ist, dass es sich hier um kommerzielle Lieder handelt, die auch teilweise noch im Radio zu hören sind (in diesem Fall besonders auf Sendern, die von Bernd Sebor programmiert werden), so dass die tatsächliche Hörfrequenz für diese Kassette (so wie für alle, deren Programm sich mit dem Programm von Radiosendern überschneiden) wesentlich seltener ausfällt.
+Da im Moment nur ca. 36% des Gesamtrepertoires an Tonträgern eingegeben sind, und auch das Radio-Würmchen-Repertoire noch ansteigen wird, ist für die Zukunft mit einem Anstieg des Schwellenwertes zu rechnen, so dass dieser Zeitraum eher im Steigen begriffen sein wird. Dadurch werden aber auch noch einige Radiostunden durch Tonträger ersetzt werden, so dass die derzeitige Hördauer von 200 Stunden pro Jahr (das sind 32% des eingegebenen Materials) wohl noch ansteigen wird.
+Wir gehen hier einmal von 318 Hörstunden pro Jahr aus, bzw. daß jeder Tonträger (wenn alle eingegeben sind) im Schnitt alle 5 Jahre angehört wird. Der Spaß pro Anhörung beträgt dann 2 Spaßpunkte (pro Stunde); der Wert pro Anhörung beträgt € 20,20 - 2,66 = 17,54, das sind pro Jahr € 17,54 / 5 = € 3,51. Da wie bereits erwähnt die Erfassung einer Kassette € 18,47 kostet, rechnet sich diese durch die reguläre Anhörung erst in 5,26 Jahren, was ein eher langer Zeitraum ist.
+
+Nun gibt es aber außer dem Anhören noch weitere Einnahmen. Auch wenn jede diese Einnahmenarten die Einnahmen durch Anhören von Tonträgern nicht erreichen, können sie doch zu einer besseren und schnelleren Deckung beitragen. Dazu wäre deren Anteil zu berechnen, woraus sich wiederum ein geringerer Rentabilitätszeitraum ergeben könnte. Hierbei wäre zu beachten, daß der Wert der gehörten Titel jeweils unterschiedlich ist. Beim Hören von Tonträgern, wofür hier die Berechnung durchgeführt wurde, wird ein Tonträger geschlossen von einer Person (mir) angehört. Bei Radio Würmchen unterwegs hören meist mehrere Personen zu (meine Eltern und ich), wodurch der Gesamtspaß größer sein sollte. Beim Einspielen in den PC wird ein Lied danach noch öfters abgespielt, was in Summe auch einen größeren Spaßwert bringen sollte. Und beim Anhören von Tonträgern zwecks Einüben in das Musiker-Repertoire wird ein Titel danach meist noch öfters gespielt, und das vor einem größeren Publikum (20-50 Personen), so daß sich hier auch ein ansehnlicher Spaßgewinn ergeben sollte.
+Weiters wäre zu beachten, daß sowohl das Tonträgerkonto als auch Radio Würmchen einen Gewinn machen sollten. Geht der ganze Gewinn an das Tonträgerkonto (wovon es verschiedene gibt, je nach Art des Tonträgers), so bleibt Radio Würmchen kein Gewinn, und die Aktion kann nicht durchgeführt werden. Geht der ganze Gewinn am Anhören der Tonträger an Radio Würmchen, so macht das Tonträgerkonto keinen Gewinn, und die Inventarisierung und Kategorisierung der Tonträger rechnet sich nicht. Daher muß eine Zwischenlösung gefunden werden, wo beide Parteien damit "glücklich" werden. Aus derzeitiger Sicht ist es am besten, mit verschiedenen Gebührensätzen zu experimentieren und zu ermitteln, bei welchem Gebührensatz sich der größte Gewinn ergibt. Dafür relevant sind vorerst nur die Radio Würmchen zuzuordnenden Aktionen, also ohne die Benutzung des Musikerkontos, die wir einmal in die sonstigen Gebührensätze mit einrechnen.
+Wir berechnen erst einmal den idealen Gebührensatz für das Anhören einzelner Tonträger (Annahme: durchschnittliche Wertung von 20 Punkten, Berechnung anhand der logarithmischen Skala).
+Die Formeln für die Rechnung lauten folgendermaßen:
+Nötiger Spaßwert = 2 Punkte pro Stunde + Gebührensatz, also € 20,2 + G
+Hier folgen einige Nebenrechnungen, die in der Tabelle unten keinen Platz haben:
+Nötiger Zeitwert der Kassette Z = (20,2 + G) / 20,2 * 14, oder: 14 + (G / 202 * 140)
+Daraus resultierende Anzahl der Anhörungen pro Jahr: A = 1 / (1,15 ^ (Z - 10)
+Gewinn pro Jahr: Ge = A * G
+Der ideale Gebührensatz ergibt sich dann bei:
+
+Gebührensatz pro Kass. (Euro)	Nötiger Spaßwert (Zeitwert)	Anhörungen pro Jahr	Gewinn pro Jahr
+10,5				(10,5 + 20,2)			0,207			2,17
+			
+Aus dieser Rechnung kann man schließen, daß der ideale Gebührensatz ungefähr bei 10-11 Euro liegt. Dies wäre der Satz, den Radio Würmchen an den Inhaber des jeweiligen Tonträgers für eine komplette Anhörung bezahlen muß. Im Zweifelsfalle wäre hier lieber der einfachere und billigere Satz von € 10.- zu wählen.
+
+Für einzelne Lieder wäre hier ein Satz angebracht, der so bemessen ist, daß man sich im Laufe einer selbstgemachten Sendung leisten kann, auf Tonträger zuzugreifen. Dieser wurde grob geschätzt mit € 1,40 pro Lied. Damit hätten wir folgende Gesamteinnahmen pro Jahr:
+
+Nutzung eines ganzen Tonträgers für Fahrten etc.: 10 * 80 = 800
+Einspielung einer Aufnahme aus einem Tonträger: 1,4 * 360 = 504
+Anhören eines halben bzw. ganzen Tonträgers: 10 * 217 = 2170 (die 217 ergeben sich aus obiger Formel mit 0,217 * 1000 Tonträger / 10 Jahre)
+Anhören eines Liedes vom Tonträger für Musiker-Repertoire bzw. Textdruck: 4,2 * 20 = 84
+Gesamtsumme: € 3558 pro Jahr. Das sind 1,61x die Summe für das Anhören von Tonträgern alleine. Damit bringt jeder der 1000 "Normtonträger" € 3,558 pro Jahr ein. Von dieser Summe sind die Unterbringungskosten mit 15 Cent pro Tonträger und Jahr abzuziehen. Dies ergibt bei Erfassungskosten von € 18,47 pro Kassette einen Rentabilitätszeitraum von 5,42 Jahren, was immer noch ein relativ langer Zeitraum ist. 
+
+Wir können nun noch für 5 Jahre die Gesamtsumme des erwarteten Spaßes und der erwarteten Ausgaben berechnen. Dies hat den Zweck, eine Priorität für das Anhören von Kassetten in die Prioritätenliste zu bekommen. Die Alternative dazu wäre, die Neuaufnahme und das Anhören von Tonträgern als 2 verschiedene Aktionen mit voneinander getrennten Prioritäten zu behandeln. Das Anhören von Tonträgern wäre dann eine Nebenbei-Tätigkeit (ebenso wie das Radio hören), und getrennt vom Einlisten neuer Tonträger.
+
+Wir haben in 5 Jahren folgende Ausgaben pro Tonträger:
+Einlistung des Tonträgers: € 18,47
+Miete: € 0,15 * 5 = € 0,75
+Anhörungskosten: € 2,66 * 0,217 * 5 = € 2,89
+Gesamtausgaben: € 22,11
+
+Einnahmen:
+Spaß für Anhören der Kassette: (€ 10 + 20,2) * 0,217 * 5 = € 32,77
+Miete für andere Nutzungen der Kassette: € 19,90 (aus obigem Faktor hochgerechnet)
+Gesamteinnahmen: € 52,67
+
+Einnahmen-/Ausgabenverhältnis: 2,38 -> Prioritätswert: 70
+Alternativberechnung
+
+Anmerkung: Man kann dies alles auch ganz anders berechnen. Klammert man die Anforderung aus, dass sich das Tonträgerkonto für sich alleine gesehen rechnen soll, dann zählt der Gesamtgewinn von Radio Würmchen und dem Tonträgerkonto als Gesamtgewinn, der sich im Kontensystem ergibt. Die Priorität des Tonträger anhörens fällt dann, der derzeit gängigen Praxis entsprechend, ohnehin mit der des Radio hörens zusammen. (Was hier übrigens noch nicht sauber gelöst wurde, ist die Entscheidung, welchen anderen Tätigkeiten das Hören von Radio oder Tonträgern vorzuziehen ist, wenn diese Tätigkeiten nicht gleichzetig mit dem Hören möglich sind). Für die Priorität der Inventuraufnahme von Tonträgern wäre dann zu berechnen, was dieser Tonträger derzeit an Gewinn bringen würde. Dies ist aber nicht leicht feststellbar, weil es von der Bewertung und Bekanntheit der darauf befindlichen Aufnahmen abhängt. Man kann hier daher wieder nur mit einem Durchschnittswert von 20 Punkten pro Aufnahme rechnen. In diesem Fall ergibt sich schätzungsweise wieder der oben bereits berechnete Rentabilitätszeitraum von knapp über 5 Jahren, so dass ich nun grundsätzlich an dieser Berechnung und Prioritätseinstufung trotzdem nichts ändern würde, besonders, weil das Hören der Tonträger ohnehin schon direkt, also ohne Umweg über 2 Konten, berechnet wird.
+Berechnung für Einspielungen von Musiktiteln auf die Festplatte
+
+Wir widmen uns nun der Möglichkeit der Einspielung von Titeln auf die Festplatte für Radio Würmchen.
+Wir gehen einmal davon aus, daß das Einspielen eines kommerziellen Titels aus dem Internet ca. 3 Euro kostet, und das Einspielen eines selbst aufgenommenen Titels von Kassette (oder anderem Tonträger) ca. 7 Euro. Im Schnitt kommen wir damit auf 5 Euro.
+Für diese 5 Euro ist der Titel dann auf der Festplatte und kann automatisationsunterstützt angehört werden, das heißt, das PC-Programm weiß selbst, wann der Titel abgespielt werden soll und trägt ihn danach auch als gehört ein.
+Die Kosten für das Anhören von Radio Würmchen (wenn die Titel fertig auf der Festplatte vorliegen) betragen daher nur den Stundensatz für den PC mit 1 Euro und das Equipment von Radio Würmchen mit 81 Cent pro Stunde, insgesamt also € 1,81 pro Stunde, das sind bei 15 Titeln 12 Cent pro Titel.
+Da die Titel hier einzeln ausgewählt werden, ist es grundsätzlich hier besser, pro Titel zu rechnen anstatt pro Stunde.
+Die ideale Hörfrequenz für einen Titel mit 20 Punkten Bewertung beträgt in diesem Fall 142 Tage, womit sich ein Jahresgewinn von 91 Cent ergibt. Dieser Gewinn erhöht sich jeweils um den Faktor 1,16 für jeden zusätzlichen Punkt, mit dem das Lied bewertet ist.
+Um nun den gleichen Gewinnfaktor (zu den Einspielungskosten) zu erwirtschaften wie beim Band (65,6% pro Jahr), müßte der Gewinn pro Jahr im Schnitt 3,28 Euro betragen. Dies entspricht dem 3,82-fachen von 86 Cent, das heißt, um soviel höher müßte die Hörfrequenz liegen. Daraus ergibt sich, daß ein Lied, um eingespielt zu werden, mindestens 30 Punkte Bewertung haben sollte (oder knapp über 29), sonst rechnet sich die Einspielung nicht.
+Dazu wäre aber noch zu sagen, daß durch die Zusammenstellung der Playlist nach Ähnlichkeits-Kriterien das Hörerlebnis um ca. 0,25 Punkte pro Stunde aufgewertet wird, was bei Kassetten nicht der Fall ist. Damit sinkt die Grenze, ab der sich die Einspielung rentiert, auf 27 Punkte ab.
+So einfach ist es aber immer noch nicht. Wir müssen nun die Kosten von Einspielungen genau untersuchen.
+Wir nehmen einmal den Durchschnitt der letzten Einspielungen, die gemacht wurden:
+Kosten der Einspielungen
+
+Das Einspielen von 4 aufeinanderfolgenden Titeln aus Tonträgern hat insgesamt € 26 gekostet, also € 6,50 pro Titel. Darin enthalten ist auch die Kategorisierung der Titel.
+Dagegen stellt sich das Einspielen von CD oder aus dem Internet etwa so dar:
+Heraussuchen / Titeleingabe 1 Minute pro Titel
+Prüfanhörung und Kategorisierung 2,5 Minuten pro Titel
+Einordnen in den richtigen Ordner 2 Minuten pro Titel
+Gesamt 5,5 Minuten pro Titel = € 1,32
+Dazu kommen in jedem Fall noch Datensicherungskosten von € 0,24 pro Titel und Tantiemen.
+Die Tantiemen betrugen in der 1. Dezemberhälfte 2005 für insgesamt 22 Titel 25 Euro, also ca. € 1,14 pro Titel.
+Damit ergeben sich insgesamt Kosten von € 2,70 für einen Titel von CD oder Internet, und € 7,88 für einen Titel von Kassette. Die Faktoren von 65,6% pro Jahr liegen damit bei dem 2,06- bzw. dem 6,01-Fachen.Abzüglich der 2,5-Punkte-Verbesserung des Ähnlichkeitssystems bekommen wir hier Werte von mindestens 23 bzw. 30 Punkte für eine RW-Einspielung, was weit auseinandergeht.
+
+In der Praxis stimmt das aber nicht, weil dies einen Vergleich mit einer "idealen" Kassette bedeuten würde - und davon gibt es nicht so viele. Daher sollte es schon reichen, wenn sich die Investition in eine Neueinspielung in 5 Jahren rechnet. Das geschieht schon (nach Zinseszinsrechnung von 23,3% pro Jahr) bei einem Titel von CD bei Einnahmen von € 0,63 pro Jahr; bei Kassetten von € 1,84 pro Jahr. Erstere werden schon bei unterdurchschnittlichen Liedern (unter 20 Punkte) erreicht, letztere erfordern einen Punktewert von ca. 23-24 Punkten abzüglich der 2,5 Punkte Abschlag für den Ähnlichkeitsalgorythmus, also 21 Punkte.
+
+Es ist aber der geringeren Kosten von Einspielungen von CD und Internet Rechnung zu tragen, indem diese etwas bevorzugt werden. Dies geschieht, indem die Einspielung von Titeln aus dem Internet und von Tonträgern im Kontensystem verschiedene Prioritätsebenen bekommen, so daß die Einspielungen aus dem Internet bevorzugt werden. 
+Prioritätswerte für Einspielungen auf die Festplatte
+
+Wir unterscheiden im allgemeinen 2 Arten von Einspielungen - Einspielungen aus dem Internet oder von bereits vorhandenen Files, sowie Einspielungen von analogen Tonträgern (Kassetten, Schallplatten usw.).
+Wir klammern einmal die "gesammelte" Einspielung einer CD aus und berechnen die Kosten für die oben genannten Punkte nach den Erfahrungen der letzten Wochen:
+Eine Einspielung aus dem Internet bzw. von einer CD (wenn sie glückt) dauert insgesamt (mit Herausfinden der Titel, eventuellen Fehlversuchen und Anmeldung des Downloads) ca. 6 Minuten. Eine Einspielung von einem analogen Tonträger kostet ungefähr 4x soviel, also 24 Minuten. Bei einem Minutenpreis von € 0,25 ergibt dies Kosten von € 1,50 bzw. € 6 pro Titel (zuzüglich Tantiemen).
+Wir berechnen nun wiederum die Einnahmen, die sich in 5 Jahren ergeben. Das Repertoire von Radio Würmchen beträgt derzeit ca. 7800 Titel, die insgesamt € 883 pro Monat oder € 10600 pro Jahr einbringen - das sind € 1,36 pro Titel und Jahr. In 5 Jahren ergibt sich so ein Wert von € 6,79 pro Titel. Zu den Kosten von € 1,50 bzw. € 6.- für die Einspielung kommen jeweils noch Anhörungskosten von € 0,14 pro Titel und Anhörung, das ergibt bei angenommenen 1484 Stunden, die das Programm pro Jahr läuft, € 3117 an Anhörungskosten pro Jahr, das sind umgelegt auf die 7800 Titel im Programm € 0,40 pro Titel, in 5 Jahren sind das dann € 2,- pro Titel.
+Damit beträgt das Einnahmen-/Ausgabenverhältnis für Einspielungen vom Internet € 6,79 / (€ 2,- + 1,50) = 6,79 / 3,50 = 1,94.
+Für Einspielungen von analogen Tonträgern beträgt es: € 6,79 / (6 + 2,-) = 6,79 / 8 = 0,85. Daraus ergeben sich Prioritätswerte von 68 bzw. 49.
+Berechnung der Einordnung von Tina's CD's
+
+Ein weiteres offenes Projekt ist noch die Einordnung der 49 CD's, die ich von Tina bekommen habe. Von diesen ist im Moment erst eine eingeordnet, 2 weitere sind aufgelistet, aber noch nicht angehört oder weiter bearbeitet. Eine weitere ging verloren, und restlichen 45 warten noch auf eine Bearbeitung. Es stellt sich die Frage, wie ausführlich diese Bearbeitung sein sollte. Diese CD's wurden Radio Würmchen zugeordnet, weil es sich um MP3-Files handelt, und diese eher für Radio Würmchen am PC gedacht sind als für das normale Anhören direkt von der CD (was beim Eingehen der Wette auch noch nicht möglich war).
+
+Es wurden mit diesen CD's bereits folgende Aktionen getätigt:
+- jede CD hat eine Inventurnummer bekommen.
+- Jede CD ist in der zentralen Datenbank C:\laufende Projekte\PC\dirlist.mdb mit ihrem Inhalt gespeichert, so daß man in dieser Datenbank nach allen auf den CD's (und auch anderen CD's) enthaltenen Titeln suchen kann.
+
+Nach dem bisherigen Usus waren (im Laufe der Zeit) für jede CD folgende Aktionen geplant:
+- Übernahme in die jeweilige TTEing-Tranche (dazu gibt es bereits eine Funktion im Excel-Sheet)
+- Übernahme mit derjenigen TTEing-Tranche in die Tonträgerdatenbank
+- Kopie von der CD auf die Festplatte
+- Erstanhörung in ca. 11-12 Tranchen pro CD unterteilt. Dabei:
+- Eintragung jedes noch nicht vorhandenen Titels in die Bewertungsdatenbank
+- Bewertung jedes noch nicht bewerteten Titels
+- Ergänzung der Eintragungen in der Ähnlichkeitsdatenbank für jeden Titel:
+- Titel (Korrektur oder Neueintragung)
+- Kategorien
+- Ähnliche Titel
+- 3 neue Felder (siehe oben)
+
+Gesamtaufwand für die einzelnen Tätigkeiten:
+- Übernahme in das Excel-Sheet: incl. Titelkorrektur etwa 30 Minuten (grobe Schätzung)
+- Titelkorrekturen in der Tonträgerdatenbank: ca. 1 Stunde (Schätzung)
+- Kopie der CD auf die Festplatte: ca. 15 Minuten
+- Eintragung in die Bewertungsdatenbank und Bewertung: ca. 1 Stunde (30 Sekunden * 120 Titel - Rest sollte schon darin sein)
+- Eintragung in die Ähnlichkeitsdatenbank für Titel, Kategorien und ähnliche Titel: je ca. 1 Stunde (30 Sekunden * 120 Titel)
+- Eintragung der 3 neuen Felder in die Ähnlichkeitsdatenbank: ca. 66 Minuten (180 Titel * 22 Sekunden)
+- Korrektur des ID3-Tags jedes 2. Titels: ca. 90 Minuten (1 Minute pro Titel * 90)
+- Datensicherung auf der Festplatte (die genauen Regeln dafür werden noch beim PC-Konto erarbeitet): 35 Minuten (Schätzung)
+- Brennen einer Sicherungs-CD: 6 Minuten (+ € 1,- für Rohling)
+- Inventarisieren der Sicherungs-CD und Eintragen in die Files-Datenbank: ca. 10 Minuten
+
+Gesamtaufwand: 432 Minuten * 25 Cent = € 108 pro CD (= bei 180 Titeln ca. 60 Cent pro Titel)
+Nutzen dieser Einspielungen:
+Schätzungsweise ca. 75% der bekannten Titel (also ca. 60 pro CD) kommen dadurch so ins Radio-Würmchen-Repertoire, daß sie regelmäßig zu hören sind.
+Schätzungsweise beträgt die Durchschnittsbewertung von mir (Kurt) für jeden bekannten Titel auf der CD 20,8 Punkte und für jeden unbekannten Titel 19,6 Punkte. Das ergibt im Schnitt 20,08 Punkte.
+Bei der Erstanhörung ist zu beachten, daß hier im Schnitt kaum Punkte anfallen (so wie bei Radio Krokofee ohne die Charts, also 0,05/1,42*2=0,07 Spaßpunkte pro Stunde = 0,71 Euro pro Stunde = ca. 8,18 Euro pro CD).. Es verbleibt ein Restaufwand von € 108 - € 8,18 = € 99,82 pro CD.
+
+Nutzen: Das Repertoire von derzeit ca. 7800 Titeln wird um 180 erweitert. Dies sind 2,3%. Der Nutzen liegt daher für Papa und Mama bei 2,3% ihrer Gebühren, das sind pro Jahr 2,3% von 552 Euro = €12,70.
+Für Kurt kommen 54 bekannte Titel zum Repertoire dazu, dessen Anzahl an BEKANNTEN Titeln derzeit nicht genau geschätzt werden kann... aber es sind wahrscheinlich um die 3900. Daher ergibt das +1,38% von den jährlichen Einnahmen von € 1818 abzüglich Kosten von € 330,55, das heißt von € 1487,55, das ergibt € 20,60.
+Gesamtnutzen pro Jahr: € 33,30, Rechnung der Investition daher in 3,24 Jahren (ohne Berücksichtigung der Zinsen).
+
+Vom Ansatz, nur die mir bekannten Titel von den CD's zu überspielen, wurde wieder abgegangen, da für das Radio-Würmchen-Programm im Bundesrechenzentrum auch die mir unbekannten Titel nützlich sein können.
+Rechnungsmäßige Auswirkungen des neuen Radio-Würmchen-Programmes
+
+Wie wirkt sich die oben bereits funktionell skizzierte Umstellung des Radio-Würmchen-Programms rechnungsmäßig aus?
+Der Entwicklungsaufwand für die Programmänderung umfaßte schätzungsweise 120 Arbeitsstunden (der genaue Wert ist noch nicht ausgezählt), kostete also € 1800.-.
+Im Betrieb steht diesem Aufwand natürlich ein erhöhter Spaß gegenüber - seitens mir und auch seitens meiner Kollegen. Für den Spaß meiner Kollegen werde ich natürlich nicht kompensiert, mein eigener Spaß ist aber quantifizierbar.
+
+Vor der Einführung des Radio-Würmchen-Programms ergab sich für die zu Hause gehörten Titel ein Schnitt von 1,41061 (Gütewert). Dieser sank nach der Einführung von Radio Würmchen BRZ auf 1,0162. Da im BRZ auch der Musikgeschmack meiner Kollegen zu berücksichtigen ist, gefällt mir selbst das Musikprogramm dort nicht so gut wie zu Hause, aber immer noch besser als im Radio - der Schnitt liegt hier bei 0,551055.
+Daraus ergibt sich ein neuer Spaßwert für das Hören zu Hause von 1,4 Punkten pro Stunde und im BRZ von 0,8 Punkten pro Stunde.
+Wir hatten nun bisher folgende Ergebnisse:
+Zu Hause: 365,25 * 1 = 365,25 Spaßpunkte
+Nun haben wir:
+Zu Hause: 365,25 * 0,7 = 255,68 Spaßpunkte pro Jahr
+BRZG: 936,6 * 0,8 = 749,28 Spaßpunkte pro Jahr
+Gesamt: 1004,96 Spaßpunkte pro Jahr
+
+Dadurch ergeben sich zusätzliche Einnahmen von € 6461,07 pro Jahr.
+Zusätzliche Ausgaben betragen ca. 18 Minuten pro Arbeitstag für die Verwaltung des Musikprogramms. Dies ergibt pro Jahr 4014 Minuten, oder 66,9 Stunden, das ergibt Kosten von € 1003,5 pro Jahr, die aber immer noch weniger als ein Sechstel der zusätzlichen Einnahmen ausmachen.
+Weiters entsteht noch ein Zusatzaufwand für das Einspielen zusätzlicher Titel, der aber nicht all zu hoch ist, da die meisten Titel, die meine Kollegen mögen, kommerziell sind und damit aus dem Internet heruntergeladen werden können. Damit ergeben sich Kosten von ca. € 3 pro Arbeitstag oder € 669 pro Jahr.
+Berechnungsgrundlagen der Radioscans
+
+Die Radioscans sind, wie sich in den letzten Jahren herausgestellt hat, untrennbar mit dem Radio hören verbunden und werden auch währenddessen durchgeführt. Das heißt, je länger Radio gehört wird, umso mehr Scans werden auch durchgeführt. Der Aufwand für die Radioscans wurde nun bereits im Entwicklungsdokument für die Hauptaktivitäten von Radio Würmchen (hier speziell das Radio hören) berechnet und braucht daher hier nicht noch einmal wiederholt zu werden. Generell kann hier gesagt werden, dass die Korrektur der Radioscans die gleiche Priorität bekommt wie das Radio hören selbst, obwohl es hier einige Unschärfen gibt, indem die angenommene Hördauer von 3 Stunden pro Tag nicht wirklich eingehalten wird und auch schwankt, je nachdem, wie viel ich zu Hause bin und was ich tue.
+Rentabilität der Aufnahmen beim Karaoke
+
+Wie schon festgestellt, werden für das Tapedeck Mietbeträge berechnet. Diese liegen im Moment bei € 9,80 pro Stunde. Da sich in einer Stunde 15 Titel aufnehmen lassen, ergibt dies 65,3 Cent pro Titel. Dazu kommt noch der Kaufpreis der Kassetten. Diese kosten im Moment bei Media Markt 90 Cent pro Stück + Holkosten. Benötigt werden davon etwa 4 Stück pro Jahr. Wir setzen die Holkosten von Media Markt mit ca. 45 Minuten an, das sind € 10,50, die Lagerkosten pro Kassette mit € 0,15 pro Jahr und die Verzinsung mit 4,5%. Dann ermitteln wir die ideale Einkaufsmenge.
+4 Stück: € 3,60 + € 10,50 EK + € 0,15 * 4 * 0,5 = 0,30 Lager + 2,25% von € 14,10 (€ 0,32) = € 14,72 = € 3,68 pro Stück. Hier betragen die Einkaufskosten das 16,93-fache der Lager- und Zinskosten. Wir ziehen daraus die Wurzel, das ergibt 4,11, und multiplizieren die Menge mit dieser Wurzel, das ergibt 16 Stück.
+16 Stück (für 4 Jahre): € 14,40 + € 10,50 EK + € 0,15 * 16 * 2 = 4,80 Lager + 4,5% * 2 = 9% von € 24,90 (€ 2,24) = € 31,94 / 16 = € 2 pro Kassette. Wir haben hier nun einen Faktor von EK / (Lager + Zinsen) von 1,491. Wir erhöhen daher nocheinmal die Menge auf 20 Stück:
+20 Stück (für 5 Jahre): € 18.- + € 10,50 EK + € 0,15 * 20 * 2,5 = 7,50 Lager + 5,625 * 2,5 = 14,0625% von € 28,50 (€ 4,01) = € 40,01 / 20 = € 2 pro Kassette.
+Die ideale Einkaufsmenge liegt also bei 15-20 Stück, die Endkosten in diesem Fall bei € 2 pro Kassette. Dies ergibt pro Titel 12,5 Cent. Zusammen mit den 65,3 Cent Tapedeckmiete sind das 77,8 Cent pro aufgenommenem Titel.
+Wie ermitteln wir nun den Wert pro Titel? Wir sind in den bisherigen Berechnungen von € 1,50 pro Titel ausgegangen (ohne Kassette), was mehr wäre als die hier angegebenen Kosten. Dies wären mit Kassettenkosten € 1,625.
+Unter Nichtberücksichtigung der Tonträgerkosten beträgt die Einnahmen-/Ausgabenrelation für das Einlisten eines Tonträgers (was danach mit der Kassette passiert) bei € 52,67 / € 22,11 = 2,38. Rechnen wir hier die Rohkosten der Kassette hinzu mit 0,778 * 16 = € 12,448, so erhalten wir: € 52,67 / € 34,56 = 1,524. In diesem Fall wäre aber die Einnahmen-/Ausgaben-Relation der Aufnahme selbst nur 1. Wir sollten diese nun so ansetzen, daß die Summe der Relationen gleich ist. Wir berechnen hierzu den Kassettenwert KW pro Kassette, bei dem diese Relation gleich ist:
+E/A-Relation Anhören x = € 52,67 / (€ 22,11 + KW)
+E/A-Relation Aufnehmen x = KW / € 12,45
+Daraus ergibt sich: 0,019 KW^2 + 0,4198 KW - 12,45 = 0
+
+Näherungsweise wird für KW eine ideale Zahl von 16,85 ermittelt. Wir setzen daher den Wert einer Kassette mit 16 Liedern fest mit € 16,80, das sind € 1,05 pro Titel. Das sind 70% des bisher angenommenen Wertes von € 1,50 pro Titel. Mit diesem Wert rechnet sich sowohl die Aufnahme als auch das Anhören der so erzeugten Kassetten - es ergibt sich für das Aufnehmen noch ein Gewinn von € 0,272 pro Titel, oder € 2,18 für eine Karaoke-Veranstaltung.
+
+Wir sind bei dieser Berechnung von einem Wert von € 9,80 pro Stunde ausgegangen, die als Miete für das Tapedeck angenommen werden. Wir müssen nun berechnen, wie viele Nutzungsstunden pro Jahr nötig sind, damit sich das Tapedeck in einer vernünftigen Zeit rechnet.
+Das derzeit in Verwendung befindliche Tapedeck hatte einen Kaufpreis von € 169 (im Oktober 2003). Eine spezielle Dokumentation wurde (außer dem Schadensbericht für die letztlich mißlungene Reparatur seines Vorgängers) nicht angefertigt. Wenn wir mit einem Kaufaufschlag von 40% rechnen, kommen wir auf einen Gesamtpreis von € 236,60. Wir gehen von einem Abschreibungszeitraum von 5 Jahren aus und müssen noch eine Miete von € 26,33 für offene Aufbewahrung (€ 1,463/l bei einem Volumen von 5 * 3 * 1,2 = 18 l) hinzurechnen. Dies ergibt mit einer Abschreibungsrate von 1/23,22222 des Anfangspreises von € 1197,68 einen jährlichen Preis von € 26,33 + 51,57 = € 77,90 pro Jahr. Wenn wir € 9,80 Miete pro Stunde hineinbekommen, heißt dies, das Tapedeck muß mindestens 8 Stunden pro Jahr verwendet werden, um diese Kosten zu decken. Leider ist in letzter Zeit das Karaoke stark zurückgegangen, so daß nicht garantiert werden kann, daß dieser Wert erreicht wird. Das Tapedeck ist jedoch bereits gekauft, und diese Investition läßt sich nicht mehr rückgängig machen. Das Tapedeck ist auch im Radio-Würmchen-Konto, hat also kein eigenes Abrechnungskonto. Nehmen wir den bereits erfolgten Kauf als gegeben an, so können wir als Wert des gebrauchten Tapedecks ca. 50 Euro annehmen. Um das Tapedeck zu verkaufen, wäre aber ein Aufwand von ca. 2 Stunden und schätzungsweise 6 Euro Versandkosten nötig, so daß nur ein Restwert von ca. 15 Euro Erlös übrig bleiben. Dies wäre der Restwert des Tapedecks über die noch verbleibenden 19 Monate bis zur Endabschreibung.
+Dies ergibt mit der Miete einen Mietpreis von € 9,47 + 26,33 = € 35,80 pro Jahr. Unter diesen Bedingungen wären nur 3,65 Stunden Benutzung pro Jahr nötig, damit sich das Gerät rechnet. Es ist aber immer noch fraglich, ob diese erreicht werden, da es überhaupt fraglich ist, wie es mit dem Karaoke weiter geht.
+Ohne eine genauere Angabe, wie viel Karaoke in Zukunft gemacht wird, lassen sich hier aber keine zulässigen Prognosen erstellen. Im Moment sieht es hier eher düster aus... zumindest, bis einige wichtigere Tätigkeiten (mit höherer Priorität) erledigt sind, wie z.B. Karaoke-Lokalbesuche.
+
+Beschickung des Herzensgut-Konto von Radio Würmchen
+
+Das Herzensgut-Konto soll natürlich auch von Radio Würmchen gefüllt werden. Wie schon bei dessen Dokumentation im Kontensystem erwähnt, passiert dies hier hauptsächlich aus urheberrechtlichen Gründen.
+Wir vergleichen unser Radio-Würmchen-Programm zur Berechnung einer Monatspauschale mit Webshops, die ein sogenanntes "all-you-can-listen" anbieten, wo man um 10 Euro pro Monat beliebig viele Titel herunterladen und dann anhören kann. Dieses Angebot ist aber nur für eine Person gedacht. Zu den 10 Euro für die Musik kommen noch die Datentransferraten. Diese würden für die neu besorgten Titel für jede Person anfallen.
+Wir kämen hier auf: € 120 + € 15 für die Herunterlad-Bandbreite = € 135 pro Person und Jahr... für Papa und Mama gelten die Hälfte. Wenn man dies für mich, meine Eltern und 3 Kollegen im BRZ berechnet, kommt man auf € 135 * 5 = € 675 pro Jahr, oder € 56,25 pro Monat. Diese Pauschale wird ab Mai 2006 angewendet, indem sie monatlich vom Radio-Würmchen-Konto auf das Herzensgut-Konto gebucht wird.
+
+Anmerkung: Da das Kontensystem in Zukunft wesentlich "durchlässiger" gestaltet werden soll, ergibt sich die Frage, ob das Herzensgut-Konto in Zukunft überhaupt nötig ist. Diese Frage ist aber nicht hier, sondern in einer Revision des Kontensystems zu klären.
+
+Besitztümer und Unterlagen von Radio Würmchen
+
+Im folgenden werden die Besitztümer und Unterlagen von Radio Würmchen gemäß der Inventurdatenbank grob aufgelistet, soweit sie für die unterstützenden Aktivitäten relevant sind:
+
+- Rote Schachtel mit Audiozubehör (diverse alte Walkies, Kopfhörer usw.)
+- 2 Schachteln Batterien (eine im Wohnzimmer, eine im Kabinett)
+- Ganzes Fach links oben / unten in Wohnzimmer-Wandverbau (enthält Lötstation für Reparaturen)
+- Ganzes Kästchen vor der Küchentür (enthält Werkzeug für diverse Reparaturen)
+- Diverse Kabel (auf Kabelhaken im Kabinett und Strebe von 3er-Regal)
+- Diverse Kassetten mit Karaoke-Aufnahmen (in Schreibtisch und Kassettenracks)
+- 2 Lautsprecherboxen JBL (zum Hören von Radio Würmchen und PC-Verstärkung)
+- diverse Leerkassetten (für Aufnahmen, werden dann evtl. auf andere Konten verschoben)
+- Diverse alte teilweise kaputte Walkys (lassen sich evtl. wiederverwenden)
+- Lötzeug (in Werkzeugkasten) zur Reparatur elektronischer Geräte
+- 2 Ordner mit Radio-Würmchen-Unterlagen
+- diverse Dateien auf der Festplatte
+
+Eine nähere Betrachtung verdienen noch die Papierordner und die Dateien auf dem PC, da sie jeweils komprimiert relativ viel Information enthalten.
+Die Papiere wurden auf Grund ihrer Fülle in 2 Ordner aufgeteilt. Einer enthält Unterlagen zu Karaoke-Parties und -Veranstaltungen, Radioprotokolle und -bewertungen, Unterlagen zum PC-Programm und Playlists für Sendungen u.a. Der andere Ordner enthält Unterlagen zu Sendungen mit Publikum, Lagerverwaltung, Collaborative Filtering und Diverses.
+
+Die Dateien auf der Festplatte und ihr Speicherort wurden bereits in der Hauptdokumentation beschrieben.
+
+Die Summe der Mieten für Radio-Würmchen-Gegenstände betragen pro Jahr (nach dem veralteten Abrechnungssystem) € 1023,96.
+
+Zusammenfassung, Businessplan und Abrechnungsschätzungen
+
+Da bei den unterstützenden Aktivitäten per Definition keine Einnahmen auftreten (diese treten nur bei den durch sie unterstützten Aktivitäten auf), werden hier nur die Ausgaben und der Zeitaufwand für diese Aktivitäten aufgelistet:
+
+Herunterladen von Titeln für Radio-Würmchen-Programm: € 669 / Jahr
+Urheberrechtsgebühren (an Herzensgut-Konto): € 675 / Jahr
+Einlisten der laufend anfallenden Tonträger (nach Aufarbeitung des Rückstandes): 
+€ 18,47 / 16 * 800 = € 923,50 (= 64,13 Arb.stunden)
+
+einmalige Ausgaben:
+Einlisten der restlichen Tonträger (ca. 18000 Titel):
+€ 18,47 / 16 * 18000 = € 20779 (= 1484 Arb.stunden)
+
+Dies ergibt insgesamt (nach Einlistung der restlichen Tonträger) € 2267,5 / Jahr, das entspricht ca. 157,5 Arbeitsstunden, oder 3 Stunden pro Woche. Dies ist der Aufwand, der weitgehend unabhängig vom Umfang der Musikversorgung jährlich auftritt. Der Aufwand, der direkt im Zusammenhang mit der Musikversorgung auftritt, wurde bereits im Entwicklungsdokument für die Musikversorgung berechnet.
+
+Dieser Aufwand entspricht ca. 5,5% der gesamten Freizeit und ist zusätzlich durch die Musikversorgung von Radio Würmchen zu tragen (was sich aber ausgeht).
+
+Durchführungsbestimmungen
+
+Bei der Fortsetzung der unterstützenden Aktivitäten ist nach den Prioritäten laut Dokumentation des Kontensystems vorzugehen, wobei aber Aktivitäten ein gewisser Vorrang einzuräumen ist, die auffallen würden, wenn sie über längere Zeit nicht durchgeführt werden.
+Aus diesem Grund sollte pro Werktag 1 Stunde mit Einspielungen für das Radio-Würmchen-Programm verbracht werden. Ebenso sollte bei Heimkaraoke-Veranstaltungen, wenn sie anfallen, weiter aufgenommen werden. Die restlichen unterstützenden Tätigkeiten können aber derzeit unterbleiben, bis sie laut der Prioritätenliste an die Reihe kommen (was im Moment nicht der Fall ist, da die Dokumentationen schwer rückständig sind). 
+	- 1 -
+

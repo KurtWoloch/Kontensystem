@@ -1,0 +1,2599 @@
+========================================================================
+DOC REF REPORT — Kontensystem Task Documentation Links
+========================================================================
+
+SUMMARY
+----------------------------------------
+Total tasks:              1293
+Documented (named/coded): 378 (29%)
+Mentioned (account only): 142 (10%)
+Undocumented:             773 (59%)
+
+Docs processed: 104
+Docs skipped (no txt):    3
+
+
+BREAKDOWN BY ACCOUNT PREFIX
+------------------------------------------------------------
+  Prefix    Total  Documented  Mentioned  Undocumented
+  -------- ------  ----------  ---------  ------------
+  (none)      480         192          0           288
+  AU           62          22          0            40
+  BR           23           6         17             0
+  CS           69          13          0            56
+  EL            2           2          0             0
+  FI           10           6          4             0
+  FZ           75          11          0            64
+  GE           27          10         17             0
+  HP            1           0          0             1
+  IN           18           6         12             0
+  KA           14           5          0             9
+  KS           66          11          0            55
+  LE           48          22         26             0
+  MU           64          11          0            53
+  OR            1           1          0             0
+  PA           33           8         25             0
+  PC           11           3          8             0
+  RA          110          10          0           100
+  RB            3           0          0             3
+  RM            8           0          0             8
+  RW          104          26          0            78
+  SG            4           0          4             0
+  TV            3           2          0             1
+  VE           19           2          0            17
+  WF           38           9         29             0
+
+
+TOP 30 DOCUMENTS BY TASK REFERENCES (named + coded)
+------------------------------------------------------------
+  DocID    Refs  Title
+  ------- -----  --------------------------------------------------
+  DOC101    195  Untersuchung der Prioritätenliste  (named=194, coded=1)
+  DOC103    195  Untersuchung der Prioritätenliste  (named=194, coded=1)
+  DOC105    194  Untersuchung der Prioritätenliste  (named=193, coded=1)
+  DOC106    194  Untersuchung der Prioritätenliste  (named=193, coded=1)
+  DOC107    180  KURTDOKU  (named=179, coded=1)
+  DOC099    172  Lebensdokumentation 8.9.27  (named=171, coded=1)
+  DOC100     32  Dokumentation des Todes von Erwin Woloch (V2)  (named=31, coded=1)
+  DOC047     16  Dokumentation Lebenserhaltung (Abrechnung) 7.09.28  (named=15, coded=1)
+  DOC046     15  Dokumentation Lebenserhaltung (Abrechnung) 10.08.6  (named=15, coded=0)
+  DOC030     13  Dokumentation der Psychotherapie von Kurt Woloch ab 31  (named=12, coded=1)
+  DOC005      9  Dokumentation des Ausflugskontos  (named=8, coded=1)
+  DOC006      9  Dokumentation des Ausflugskontos  (named=8, coded=1)
+  DOC003      8  Dokumentation des Ausflugskontos Entwicklungsdokument  (named=7, coded=1)
+  DOC067      8  Dokumentation zum PC-Kauf Nov.2007  (named=7, coded=1)
+  DOC008      7  Dokumentation BRZG 11.11.9  (named=7, coded=0)
+  DOC009      7  Dokumentation BRZG 7.6.16  (named=7, coded=0)
+  DOC056      7  Dokumentation Kauf neues Keyboard und Funkmikrofone  (named=7, coded=0)
+  DOC066      7  Dokumentation zum PC-Kauf Nov.2007 7.12.25  (named=6, coded=1)
+  DOC072      7  Dokumentation Lebensbereich Radio Würmchen 7.9.28  (named=6, coded=1)
+  DOC004      6  Dokumentation des Ausflugskontos Status Quo  (named=6, coded=0)
+  DOC039      6  Dokumentation des Kontensystems 14.8.6  (named=5, coded=1)
+  DOC077      6  Dokumentation Musikversorgung Radio Würmchen Hauptaktiv  (named=5, coded=1)
+  DOC068      5  Dokumentation Chattertreffen JBH Sommer 2010  (named=4, coded=1)
+  DOC075      5  Dokumentation Musikversorgung Radio Würmchen Hauptaktiv  (named=5, coded=0)
+  DOC079      5  Dokumentation Musikversorgung Radio Würmchen Hauptaktiv  (named=4, coded=1)
+  DOC014      5  Dokumentation des Eltern-Kontos 10.10.30  (named=5, coded=0)
+  DOC015      5  Dokumentation des Eltern-Kontos 10.10.30  (named=5, coded=0)
+  DOC029      5  Dokumentation aktueller Probleme 11.7.29  (named=4, coded=1)
+  DOC031      5  Dokumentation Gesundheitskonto 11.11.9  (named=5, coded=0)
+  DOC002      4  Dokumentation des Ausflugskontos 10.8.27  (named=4, coded=0)
+
+
+DOCUMENTED TASKS BY DOCUMENT (named/coded matches)
+========================================================================
+
+DOC101: Untersuchung der Prioritätenliste
+  (195 refs: named=194, coded=1)
+    [named]          Abendtoilette
+    [named]          Abendzer.
+    [named]  LEMTAW  Abwiegen
+    [named]          Aktienhandel
+    [named]          Aktienuntersuchung und -umschichtung
+    [named]          Aktualisieren Finanzabrechnung
+    [named]          Aktualisierung der Wohnungsinventur
+    [named]          Anhören Kass. Kar.gesang
+    [named]          Anruf von Papa
+    [named]          Anschaffung eines neuen Akkus für das E-Quad
+    [named]          Ansehen Livestreams von Musikern auf Twitch und Youtube (Mario Accordion, Chris Konz)
+    [named]  RWMPAR  Ansehen YOutube-Videos
+    [named]  RWRSMR  Ansehen Youtube
+    [named]          Ansehen Youtube-Videos über Elektrofahrzeuge
+    [named]          Ansehen Zeit im Bild 1
+    [named]          Ansehen und Eingabe der von Papa bekommenen Videokassetten
+    [named]          Antwort W. Adams (Lyrics)
+    [named]  LEAZZS  Anwendung Zahnseide
+    [named]  LEAZZZ  Anwendung der Zwischenraumzahnbürste
+    [named]  LEMTAN  Anziehen
+    [named]          Arbeit im Bundesrechenzentrum
+    [named]          Arztbesuch
+    [named]          Aufarbeitung alter Mails
+    [named]          Aufbereitung Dokumentation Ende 2020 für Bernhard
+    [named]          Aufnahme Katzenpeter geht und geht, Put in you, Was wird aus mir...
+    [named]          Aufnahme Life on Miles
+    [named]          Aufnahme von Kontakt mit weiblichen Wesen
+    [named]  WFARAR  Aufräumen
+    [named]          Aufräumen Unterlagen Termin Corona-Test / AKH-Ambulanz / Gurgeltest
+    [named]          Aufräumen und Reinigungstätigkeiten
+    [named]          Auftritt Robert
+    [named]  KSAAKO  Aufwandserfassung
+    [named]  KSAAKO  Aufwandserfassung und Abrechnung Kontensystem
+    [named]  GEMRNA  Ausmachen Arzttermine
+    [named]  LEMTAZ  Ausziehen
+    [named]          Baden gehen
+    [named]          Beantwortung Mail Robert Wehofer
+    [named]          Bearb. 88.6-Wertungen und -Postings
+    [named]  LEEPVO  Bearb. Essensplan
+    [named]  RWYTPL  Bearb. Playlist
+    [named]          Bearb. Ähnlichkeiten
+    [named]          Bearbeitung Mails
+    [named]          Bearbeitung Playlist
+    [named]          Bearbeitung Untersuchung der Prioritätenliste
+    [named]          Bearbeitung der Essensdatenbank
+    [named]          Beginn eines eigenen Livestreams mit Live-Musik
+    [named]          Bereinigung nicht vorhandene / doppelte Titel in Ähnlichkeitsdatenbank
+    [named]          Beschriftung Handybilder
+    [named]          Besorgung Medikament für Papa
+    [named]          Besuch Ampera-Treffen (bis 1/2013 abgerechnet)
+    [named]          Besuch Andrea / Franzi (mit Singen)
+    [named]          Besuch Bierpub Remi Demi (Vorkalk.)
+    [named]          Besuch Erich's Karaoke (22. Bezirk)
+    [named]          Besuch Goleador (neuer Name)
+    [named]          Besuch Jonas-Karaoke
+    [named]          Besuch Karaoke (abgerissenes!) Cantina Loco (Donauinsel) (bei Schönwetter)
+    [named]          Besuch Karaoke Babuder's (Vorkalk.)
+    [named]          Besuch Karaoke Do bin i do bleib i
+    [named]          Besuch Karaoke Exzess
+    [named]          Besuch Karaoke Lemmon (Wochenende)
+    [named]          Besuch Karaoke Reginas (Vorkalk.)
+    [named]          Besuch Karaoke SOHO 1 (Millenium Tower) (Einpacken 19:00)
+    [named]          Besuch Karaoke Unikat (Nachkalk. 17.2.2011)
+    [named]          Besuch Karaoke Zum Wahnsinn (Vorkalk.)
+    [named]          Besuch Karaoke im SOHO 3
+    [named]          Besuch Nan (Vorkalk.)
+    [named]          Besuch Randy's Karaoke (aktuell)
+    [named]  GEGYSB  Besuch Schwimmbad
+    [named]          Besuch Weihnachtskonzert
+    [named]          Besuch von Spielwarengeschäften
+    [named]          Besuch von Weihnachtsausstellungen
+    [named]  LEMTBM  Bett machen
+    [named]  PCDASI  Datensicherung
+    [named]          Datensicherung (inkl. H:\Daten\Radio Würmchen\WAV's!)
+    [named]          Datensicherung PC
+    [named]  INSUSU  Div. Surfen
+    [named]          Dokumentation Prioritätsliste
+    [named]          Durchführung anfallender Dokumentationen
+    [named]          Eingabe der Radioscans
+    [named]          Eingabe gehörte Titel
+    [named]          Einordnen Vertragsinformationen zu Versicherungen
+    [named]          Einpacken
+    [named]          Einräumen Anleitungen in Küche
+    [named]          Eintragen noch nie aufgeführter Titel in Probenplan
+    [named]          Einüben neuer Keyboard-Titel
+    [named]  BREPZE  Eis kaufen
+    [named]          Entwicklung Status-Dashboard (Ampel)
+    [named]          Erfassung Corona-Infektionen
+    [named]          Ergänzung Lebensdokumentation um Ordnung der gesundheitsrelevanten Unterlagen
+    [named]          Evaluation Hörwerte
+    [named]          Experiment mit Spielzeugbuggy
+    [named]          Experimente mit Lego-Loks
+    [named]          Fahrt Li'l Motorized Beamer
+    [named]  LEMTFR  Feinschliff bei der Rasur
+    [named]          Fernsehen
+    [named]          Forge of Empires
+    [named]          Fortsetzung bzw. Aktualisierung Wohnungsinventur
+    [named]          Fortsetzung der Arbeit an Titanic Rescue
+    [named]          Friseursbesuch
+    [named]          Frühstück
+    [named]  LEMTFR  Frühstück fassen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+    [named]          Getränk am Lagerfeuer mit Christian Rolly
+    [named]  LEMTTW  Getränk fassen
+    [named]          Gründung eines Karaoke-Forums
+    [named]          Hack Mangia (Tarantella)
+    [named]  KAVAHK  Heimkaraoke (von mir als Veranstaltung angesetzt)
+    [named]          Heimkaraoke (wenn von Papa gewünscht)
+    [named]          Hände waschen
+    [named]          Jause essen
+    [named]  LEMTJF  Jause fassen
+    [named]          Karaoke-VIdeos Johnny Blue, Ein bißchen Frieden
+    [named]          Karaoke-Version von "Just like that" (tiefer)
+    [named]          Kauf eines neuen Spielzeugfahrzeuges
+    [named]          Keyboard-Übungen
+    [named]          Kleidungsinventur
+    [named]          Konsolidierung Orange-Ordner
+    [named]          Korrektur der Radioscans in der Radio-Würmchen-Datenbank
+    [named]  GEGYLS  Laufen / Scootersuche
+    [named]          Liquidierung des Orange-Kontos und Konsolidierung der Ordner
+    [named]  INMABE  Mailbearbeitung
+    [named]          Mapping Kersti in Magellan
+    [named]  WFMAMA  Mist ausleeren
+    [named]          Mittag essen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEAZMA  Mund ausspülen
+    [named]          Müllentsorgung
+    [named]          Nachbrennen Befund-CD von MRT-Untersuchung (bei nächster AKH-Befundbesprechung mitnehmen)
+    [named]          Nachladung der nicht verwendeten Akkus
+    [named]          Nachladung nicht verwendeter Akkus
+    [named]  LEMTTW  Nachtmahl
+    [named]          Neuaufnahme Schweinefilet / Nicht schlecht
+    [named]          Neueinspielungen vom Computer vorgeschlagener Titel
+    [named]  PCHFHF  PC herunterfahren
+    [named]  PAA1SU  Papiersortierung
+    [named]          Planung Mittagessen
+    [named]          Posting Zeiten Atariage
+    [named]          Produktion von Liedern für Papa (Geschenke)
+    [named]          Projekt neues Keyboard (Einüben weiterer Titel)
+    [named]          Prüfung Rückforderung Festnetzrechnung Papa (22.2. angerufen, 16.4. noch nicht eingetroffen)
+    [named]          Prüfung Strom- und Warmwasserechnungen (auch Papa)
+    [named]          Prüfung und Scannen der Computerspiel-Unterlagen
+    [named]          Radio hören (über Radio Würmchen-Limit im Schnitt)
+    [named]          Radio-Würmchen-Datenbankkorrekturen / Einlistung neuer Tonträger
+    [named]  LEAZHW  Reinigung Zahnputzutensilien, Hände waschen
+    [named]          Rätselquiz auf Radio Krokofee
+    [named]          Rückforderung OCT-Gebühr von Gesundheitskasse
+    [named]          Scan Jason Lux / Hannah Dorman Livestreams
+    [named]  RWRSPT  Scan Radio Plattenkiste
+    [named]  RWMPAR  Scan Radio Wien
+    [named]          Scan div. Radiosender
+    [named]          Scan div. Radiosender + Livestream
+    [named]          Scan div. Radiosender + Livestreams
+    [named]          Scootersuche
+    [named]          Scootersuche / -geradestellung
+    [named]          Sendung auf Radio-MFL
+    [named]          Serie von Singabenden bei Andrea Woloch, bei denen sämtliche schon gesungenen Lieder neu aufgenommen werden
+    [named]          Sortieren und Einräumen der Finanzunterlagen
+    [named]          Sortierung Befunde
+    [named]          Spaziergang
+    [named]          Surfen AtariAge
+    [named]          Surfen Modified Power Wheels
+    [named]          Taonga: Die Inselfarm
+    [named]          Teleworking
+    [named]  LENATW  Teller waschen
+    [named]          Themen für Mittagessen
+    [named]          Treffen mit Richard Promberger
+    [named]          Umbau Kontensystem auf Taskliste
+    [named]          Umbau Window Logger auf Taskliste
+    [named]          Umänderung Liste Disketten P111, P108, P136, P134 (?!)
+    [named]          Untersuchung Sourcecode Pole Position (Atari 7800 / C64)
+    [named]          Untersuchung der Prioritätenliste
+    [named]          Update Clearswipe (Check auf Vorkommnisse)
+    [named]          Update Inventur Wäsche
+    [named]          Veranstaltung einer Karaoke-Party
+    [named]          Verarbeitung gerissene Unterhosen
+    [named]          Verbesserung Abfrage ähnlicher Titel nach Kategorien (dauert zu lange)
+    [named]          Verbogene Chartsshow auf Radio Krokofee
+    [named]          Versand Karaoke-Titel We are the world
+    [named]          Verteilung Don't shut me down (C-64)
+    [named]  LEAZVZ  Vorbereitung Zähne putzen
+    [named]          Weihnachtsgeschenke
+    [named]          Weiterentwicklung ClearSwipe
+    [named]  FIANWG  Wiederveranlagung Geld auf Girokonto
+    [named]          Zahnarztbesuch
+    [named]  GEMTZP  Zähne putzen
+    [named]          andere Aktivität
+    [named]          ausführliche Inventarüberprüfung (ganze Wohnung)
+    [named]          externe Karaoke-Veranstaltung (bei € 230 Gage)
+    [named]          schnelle Inventarüberprüfung (ganze Wohnung)
+    [named]          verstärkte Taxifahrten
+    [named]          € 15000 von Konto auf Sparverein transferieren
+
+DOC103: Untersuchung der Prioritätenliste
+  (195 refs: named=194, coded=1)
+    [named]          Abendtoilette
+    [named]          Abendzer.
+    [named]  LEMTAW  Abwiegen
+    [named]          Aktienhandel
+    [named]          Aktienuntersuchung und -umschichtung
+    [named]          Aktualisieren Finanzabrechnung
+    [named]          Aktualisierung der Wohnungsinventur
+    [named]          Anhören Kass. Kar.gesang
+    [named]          Anruf von Papa
+    [named]          Anschaffung eines neuen Akkus für das E-Quad
+    [named]          Ansehen Livestreams von Musikern auf Twitch und Youtube (Mario Accordion, Chris Konz)
+    [named]  RWMPAR  Ansehen YOutube-Videos
+    [named]  RWRSMR  Ansehen Youtube
+    [named]          Ansehen Youtube-Videos über Elektrofahrzeuge
+    [named]          Ansehen Zeit im Bild 1
+    [named]          Ansehen und Eingabe der von Papa bekommenen Videokassetten
+    [named]          Antwort W. Adams (Lyrics)
+    [named]  LEAZZS  Anwendung Zahnseide
+    [named]  LEAZZZ  Anwendung der Zwischenraumzahnbürste
+    [named]  LEMTAN  Anziehen
+    [named]          Arbeit im Bundesrechenzentrum
+    [named]          Arztbesuch
+    [named]          Aufarbeitung alter Mails
+    [named]          Aufbereitung Dokumentation Ende 2020 für Bernhard
+    [named]          Aufnahme Katzenpeter geht und geht, Put in you, Was wird aus mir...
+    [named]          Aufnahme Life on Miles
+    [named]          Aufnahme von Kontakt mit weiblichen Wesen
+    [named]  WFARAR  Aufräumen
+    [named]          Aufräumen Unterlagen Termin Corona-Test / AKH-Ambulanz / Gurgeltest
+    [named]          Aufräumen und Reinigungstätigkeiten
+    [named]          Auftritt Robert
+    [named]  KSAAKO  Aufwandserfassung
+    [named]  KSAAKO  Aufwandserfassung und Abrechnung Kontensystem
+    [named]  GEMRNA  Ausmachen Arzttermine
+    [named]  LEMTAZ  Ausziehen
+    [named]          Baden gehen
+    [named]          Beantwortung Mail Robert Wehofer
+    [named]          Bearb. 88.6-Wertungen und -Postings
+    [named]  LEEPVO  Bearb. Essensplan
+    [named]  RWYTPL  Bearb. Playlist
+    [named]          Bearb. Ähnlichkeiten
+    [named]          Bearbeitung Mails
+    [named]          Bearbeitung Playlist
+    [named]          Bearbeitung Untersuchung der Prioritätenliste
+    [named]          Bearbeitung der Essensdatenbank
+    [named]          Beginn eines eigenen Livestreams mit Live-Musik
+    [named]          Bereinigung nicht vorhandene / doppelte Titel in Ähnlichkeitsdatenbank
+    [named]          Beschriftung Handybilder
+    [named]          Besorgung Medikament für Papa
+    [named]          Besuch Ampera-Treffen (bis 1/2013 abgerechnet)
+    [named]          Besuch Andrea / Franzi (mit Singen)
+    [named]          Besuch Bierpub Remi Demi (Vorkalk.)
+    [named]          Besuch Erich's Karaoke (22. Bezirk)
+    [named]          Besuch Goleador (neuer Name)
+    [named]          Besuch Jonas-Karaoke
+    [named]          Besuch Karaoke (abgerissenes!) Cantina Loco (Donauinsel) (bei Schönwetter)
+    [named]          Besuch Karaoke Babuder's (Vorkalk.)
+    [named]          Besuch Karaoke Do bin i do bleib i
+    [named]          Besuch Karaoke Exzess
+    [named]          Besuch Karaoke Lemmon (Wochenende)
+    [named]          Besuch Karaoke Reginas (Vorkalk.)
+    [named]          Besuch Karaoke SOHO 1 (Millenium Tower) (Einpacken 19:00)
+    [named]          Besuch Karaoke Unikat (Nachkalk. 17.2.2011)
+    [named]          Besuch Karaoke Zum Wahnsinn (Vorkalk.)
+    [named]          Besuch Karaoke im SOHO 3
+    [named]          Besuch Nan (Vorkalk.)
+    [named]          Besuch Randy's Karaoke (aktuell)
+    [named]  GEGYSB  Besuch Schwimmbad
+    [named]          Besuch Weihnachtskonzert
+    [named]          Besuch von Spielwarengeschäften
+    [named]          Besuch von Weihnachtsausstellungen
+    [named]  LEMTBM  Bett machen
+    [named]  PCDASI  Datensicherung
+    [named]          Datensicherung (inkl. H:\Daten\Radio Würmchen\WAV's!)
+    [named]          Datensicherung PC
+    [named]  INSUSU  Div. Surfen
+    [named]          Dokumentation Prioritätsliste
+    [named]          Durchführung anfallender Dokumentationen
+    [named]          Eingabe der Radioscans
+    [named]          Eingabe gehörte Titel
+    [named]          Einordnen Vertragsinformationen zu Versicherungen
+    [named]          Einpacken
+    [named]          Einräumen Anleitungen in Küche
+    [named]          Eintragen noch nie aufgeführter Titel in Probenplan
+    [named]          Einüben neuer Keyboard-Titel
+    [named]  BREPZE  Eis kaufen
+    [named]          Entwicklung Status-Dashboard (Ampel)
+    [named]          Erfassung Corona-Infektionen
+    [named]          Ergänzung Lebensdokumentation um Ordnung der gesundheitsrelevanten Unterlagen
+    [named]          Evaluation Hörwerte
+    [named]          Experiment mit Spielzeugbuggy
+    [named]          Experimente mit Lego-Loks
+    [named]          Fahrt Li'l Motorized Beamer
+    [named]  LEMTFR  Feinschliff bei der Rasur
+    [named]          Fernsehen
+    [named]          Forge of Empires
+    [named]          Fortsetzung bzw. Aktualisierung Wohnungsinventur
+    [named]          Fortsetzung der Arbeit an Titanic Rescue
+    [named]          Friseursbesuch
+    [named]          Frühstück
+    [named]  LEMTFR  Frühstück fassen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+    [named]          Getränk am Lagerfeuer mit Christian Rolly
+    [named]  LEMTTW  Getränk fassen
+    [named]          Gründung eines Karaoke-Forums
+    [named]          Hack Mangia (Tarantella)
+    [named]  KAVAHK  Heimkaraoke (von mir als Veranstaltung angesetzt)
+    [named]          Heimkaraoke (wenn von Papa gewünscht)
+    [named]          Hände waschen
+    [named]          Jause essen
+    [named]  LEMTJF  Jause fassen
+    [named]          Karaoke-VIdeos Johnny Blue, Ein bißchen Frieden
+    [named]          Karaoke-Version von "Just like that" (tiefer)
+    [named]          Kauf eines neuen Spielzeugfahrzeuges
+    [named]          Keyboard-Übungen
+    [named]          Kleidungsinventur
+    [named]          Konsolidierung Orange-Ordner
+    [named]          Korrektur der Radioscans in der Radio-Würmchen-Datenbank
+    [named]  GEGYLS  Laufen / Scootersuche
+    [named]          Liquidierung des Orange-Kontos und Konsolidierung der Ordner
+    [named]  INMABE  Mailbearbeitung
+    [named]          Mapping Kersti in Magellan
+    [named]  WFMAMA  Mist ausleeren
+    [named]          Mittag essen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEAZMA  Mund ausspülen
+    [named]          Müllentsorgung
+    [named]          Nachbrennen Befund-CD von MRT-Untersuchung (bei nächster AKH-Befundbesprechung mitnehmen)
+    [named]          Nachladung der nicht verwendeten Akkus
+    [named]          Nachladung nicht verwendeter Akkus
+    [named]  LEMTTW  Nachtmahl
+    [named]          Neuaufnahme Schweinefilet / Nicht schlecht
+    [named]          Neueinspielungen vom Computer vorgeschlagener Titel
+    [named]  PCHFHF  PC herunterfahren
+    [named]  PAA1SU  Papiersortierung
+    [named]          Planung Mittagessen
+    [named]          Posting Zeiten Atariage
+    [named]          Produktion von Liedern für Papa (Geschenke)
+    [named]          Projekt neues Keyboard (Einüben weiterer Titel)
+    [named]          Prüfung Rückforderung Festnetzrechnung Papa (22.2. angerufen, 16.4. noch nicht eingetroffen)
+    [named]          Prüfung Strom- und Warmwasserechnungen (auch Papa)
+    [named]          Prüfung und Scannen der Computerspiel-Unterlagen
+    [named]          Radio hören (über Radio Würmchen-Limit im Schnitt)
+    [named]          Radio-Würmchen-Datenbankkorrekturen / Einlistung neuer Tonträger
+    [named]  LEAZHW  Reinigung Zahnputzutensilien, Hände waschen
+    [named]          Rätselquiz auf Radio Krokofee
+    [named]          Rückforderung OCT-Gebühr von Gesundheitskasse
+    [named]          Scan Jason Lux / Hannah Dorman Livestreams
+    [named]  RWRSPT  Scan Radio Plattenkiste
+    [named]  RWMPAR  Scan Radio Wien
+    [named]          Scan div. Radiosender
+    [named]          Scan div. Radiosender + Livestream
+    [named]          Scan div. Radiosender + Livestreams
+    [named]          Scootersuche
+    [named]          Scootersuche / -geradestellung
+    [named]          Sendung auf Radio-MFL
+    [named]          Serie von Singabenden bei Andrea Woloch, bei denen sämtliche schon gesungenen Lieder neu aufgenommen werden
+    [named]          Sortieren und Einräumen der Finanzunterlagen
+    [named]          Sortierung Befunde
+    [named]          Spaziergang
+    [named]          Surfen AtariAge
+    [named]          Surfen Modified Power Wheels
+    [named]          Taonga: Die Inselfarm
+    [named]          Teleworking
+    [named]  LENATW  Teller waschen
+    [named]          Themen für Mittagessen
+    [named]          Treffen mit Richard Promberger
+    [named]          Umbau Kontensystem auf Taskliste
+    [named]          Umbau Window Logger auf Taskliste
+    [named]          Umänderung Liste Disketten P111, P108, P136, P134 (?!)
+    [named]          Untersuchung Sourcecode Pole Position (Atari 7800 / C64)
+    [named]          Untersuchung der Prioritätenliste
+    [named]          Update Clearswipe (Check auf Vorkommnisse)
+    [named]          Update Inventur Wäsche
+    [named]          Veranstaltung einer Karaoke-Party
+    [named]          Verarbeitung gerissene Unterhosen
+    [named]          Verbesserung Abfrage ähnlicher Titel nach Kategorien (dauert zu lange)
+    [named]          Verbogene Chartsshow auf Radio Krokofee
+    [named]          Versand Karaoke-Titel We are the world
+    [named]          Verteilung Don't shut me down (C-64)
+    [named]  LEAZVZ  Vorbereitung Zähne putzen
+    [named]          Weihnachtsgeschenke
+    [named]          Weiterentwicklung ClearSwipe
+    [named]  FIANWG  Wiederveranlagung Geld auf Girokonto
+    [named]          Zahnarztbesuch
+    [named]  GEMTZP  Zähne putzen
+    [named]          andere Aktivität
+    [named]          ausführliche Inventarüberprüfung (ganze Wohnung)
+    [named]          externe Karaoke-Veranstaltung (bei € 230 Gage)
+    [named]          schnelle Inventarüberprüfung (ganze Wohnung)
+    [named]          verstärkte Taxifahrten
+    [named]          € 15000 von Konto auf Sparverein transferieren
+
+DOC105: Untersuchung der Prioritätenliste
+  (194 refs: named=193, coded=1)
+    [named]          Abendtoilette
+    [named]          Abendzer.
+    [named]  LEMTAW  Abwiegen
+    [named]          Aktienhandel
+    [named]          Aktienuntersuchung und -umschichtung
+    [named]          Aktualisieren Finanzabrechnung
+    [named]          Aktualisierung der Wohnungsinventur
+    [named]          Anhören Kass. Kar.gesang
+    [named]          Anruf von Papa
+    [named]          Anschaffung eines neuen Akkus für das E-Quad
+    [named]          Ansehen Livestreams von Musikern auf Twitch und Youtube (Mario Accordion, Chris Konz)
+    [named]  RWMPAR  Ansehen YOutube-Videos
+    [named]  RWRSMR  Ansehen Youtube
+    [named]          Ansehen Youtube-Videos über Elektrofahrzeuge
+    [named]          Ansehen Zeit im Bild 1
+    [named]          Ansehen und Eingabe der von Papa bekommenen Videokassetten
+    [named]          Antwort W. Adams (Lyrics)
+    [named]  LEAZZS  Anwendung Zahnseide
+    [named]  LEAZZZ  Anwendung der Zwischenraumzahnbürste
+    [named]  LEMTAN  Anziehen
+    [named]          Arbeit im Bundesrechenzentrum
+    [named]          Arztbesuch
+    [named]          Aufarbeitung alter Mails
+    [named]          Aufbereitung Dokumentation Ende 2020 für Bernhard
+    [named]          Aufnahme Katzenpeter geht und geht, Put in you, Was wird aus mir...
+    [named]          Aufnahme Life on Miles
+    [named]          Aufnahme von Kontakt mit weiblichen Wesen
+    [named]  WFARAR  Aufräumen
+    [named]          Aufräumen Unterlagen Termin Corona-Test / AKH-Ambulanz / Gurgeltest
+    [named]          Aufräumen und Reinigungstätigkeiten
+    [named]          Auftritt Robert
+    [named]  KSAAKO  Aufwandserfassung
+    [named]  KSAAKO  Aufwandserfassung und Abrechnung Kontensystem
+    [named]  GEMRNA  Ausmachen Arzttermine
+    [named]  LEMTAZ  Ausziehen
+    [named]          Baden gehen
+    [named]          Beantwortung Mail Robert Wehofer
+    [named]          Bearb. 88.6-Wertungen und -Postings
+    [named]  LEEPVO  Bearb. Essensplan
+    [named]  RWYTPL  Bearb. Playlist
+    [named]          Bearb. Ähnlichkeiten
+    [named]          Bearbeitung Mails
+    [named]          Bearbeitung Playlist
+    [named]          Bearbeitung Untersuchung der Prioritätenliste
+    [named]          Bearbeitung der Essensdatenbank
+    [named]          Beginn eines eigenen Livestreams mit Live-Musik
+    [named]          Bereinigung nicht vorhandene / doppelte Titel in Ähnlichkeitsdatenbank
+    [named]          Beschriftung Handybilder
+    [named]          Besorgung Medikament für Papa
+    [named]          Besuch Ampera-Treffen (bis 1/2013 abgerechnet)
+    [named]          Besuch Andrea / Franzi (mit Singen)
+    [named]          Besuch Bierpub Remi Demi (Vorkalk.)
+    [named]          Besuch Erich's Karaoke (22. Bezirk)
+    [named]          Besuch Goleador (neuer Name)
+    [named]          Besuch Jonas-Karaoke
+    [named]          Besuch Karaoke (abgerissenes!) Cantina Loco (Donauinsel) (bei Schönwetter)
+    [named]          Besuch Karaoke Babuder's (Vorkalk.)
+    [named]          Besuch Karaoke Do bin i do bleib i
+    [named]          Besuch Karaoke Exzess
+    [named]          Besuch Karaoke Lemmon (Wochenende)
+    [named]          Besuch Karaoke Reginas (Vorkalk.)
+    [named]          Besuch Karaoke SOHO 1 (Millenium Tower) (Einpacken 19:00)
+    [named]          Besuch Karaoke Unikat (Nachkalk. 17.2.2011)
+    [named]          Besuch Karaoke Zum Wahnsinn (Vorkalk.)
+    [named]          Besuch Karaoke im SOHO 3
+    [named]          Besuch Nan (Vorkalk.)
+    [named]          Besuch Randy's Karaoke (aktuell)
+    [named]  GEGYSB  Besuch Schwimmbad
+    [named]          Besuch Weihnachtskonzert
+    [named]          Besuch von Spielwarengeschäften
+    [named]          Besuch von Weihnachtsausstellungen
+    [named]  LEMTBM  Bett machen
+    [named]  PCDASI  Datensicherung
+    [named]          Datensicherung (inkl. H:\Daten\Radio Würmchen\WAV's!)
+    [named]          Datensicherung PC
+    [named]  INSUSU  Div. Surfen
+    [named]          Dokumentation Prioritätsliste
+    [named]          Durchführung anfallender Dokumentationen
+    [named]          Eingabe der Radioscans
+    [named]          Eingabe gehörte Titel
+    [named]          Einordnen Vertragsinformationen zu Versicherungen
+    [named]          Einpacken
+    [named]          Einräumen Anleitungen in Küche
+    [named]          Eintragen noch nie aufgeführter Titel in Probenplan
+    [named]          Einüben neuer Keyboard-Titel
+    [named]  BREPZE  Eis kaufen
+    [named]          Entwicklung Status-Dashboard (Ampel)
+    [named]          Erfassung Corona-Infektionen
+    [named]          Ergänzung Lebensdokumentation um Ordnung der gesundheitsrelevanten Unterlagen
+    [named]          Experiment mit Spielzeugbuggy
+    [named]          Experimente mit Lego-Loks
+    [named]          Fahrt Li'l Motorized Beamer
+    [named]  LEMTFR  Feinschliff bei der Rasur
+    [named]          Fernsehen
+    [named]          Forge of Empires
+    [named]          Fortsetzung bzw. Aktualisierung Wohnungsinventur
+    [named]          Fortsetzung der Arbeit an Titanic Rescue
+    [named]          Friseursbesuch
+    [named]          Frühstück
+    [named]  LEMTFR  Frühstück fassen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+    [named]          Getränk am Lagerfeuer mit Christian Rolly
+    [named]  LEMTTW  Getränk fassen
+    [named]          Gründung eines Karaoke-Forums
+    [named]          Hack Mangia (Tarantella)
+    [named]  KAVAHK  Heimkaraoke (von mir als Veranstaltung angesetzt)
+    [named]          Heimkaraoke (wenn von Papa gewünscht)
+    [named]          Hände waschen
+    [named]          Jause essen
+    [named]  LEMTJF  Jause fassen
+    [named]          Karaoke-VIdeos Johnny Blue, Ein bißchen Frieden
+    [named]          Karaoke-Version von "Just like that" (tiefer)
+    [named]          Kauf eines neuen Spielzeugfahrzeuges
+    [named]          Keyboard-Übungen
+    [named]          Kleidungsinventur
+    [named]          Konsolidierung Orange-Ordner
+    [named]          Korrektur der Radioscans in der Radio-Würmchen-Datenbank
+    [named]  GEGYLS  Laufen / Scootersuche
+    [named]          Liquidierung des Orange-Kontos und Konsolidierung der Ordner
+    [named]  INMABE  Mailbearbeitung
+    [named]          Mapping Kersti in Magellan
+    [named]  WFMAMA  Mist ausleeren
+    [named]          Mittag essen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEAZMA  Mund ausspülen
+    [named]          Müllentsorgung
+    [named]          Nachbrennen Befund-CD von MRT-Untersuchung (bei nächster AKH-Befundbesprechung mitnehmen)
+    [named]          Nachladung der nicht verwendeten Akkus
+    [named]          Nachladung nicht verwendeter Akkus
+    [named]  LEMTTW  Nachtmahl
+    [named]          Neuaufnahme Schweinefilet / Nicht schlecht
+    [named]          Neueinspielungen vom Computer vorgeschlagener Titel
+    [named]  PCHFHF  PC herunterfahren
+    [named]  PAA1SU  Papiersortierung
+    [named]          Planung Mittagessen
+    [named]          Posting Zeiten Atariage
+    [named]          Produktion von Liedern für Papa (Geschenke)
+    [named]          Projekt neues Keyboard (Einüben weiterer Titel)
+    [named]          Prüfung Rückforderung Festnetzrechnung Papa (22.2. angerufen, 16.4. noch nicht eingetroffen)
+    [named]          Prüfung Strom- und Warmwasserechnungen (auch Papa)
+    [named]          Prüfung und Scannen der Computerspiel-Unterlagen
+    [named]          Radio hören (über Radio Würmchen-Limit im Schnitt)
+    [named]          Radio-Würmchen-Datenbankkorrekturen / Einlistung neuer Tonträger
+    [named]  LEAZHW  Reinigung Zahnputzutensilien, Hände waschen
+    [named]          Rätselquiz auf Radio Krokofee
+    [named]          Rückforderung OCT-Gebühr von Gesundheitskasse
+    [named]          Scan Jason Lux / Hannah Dorman Livestreams
+    [named]  RWRSPT  Scan Radio Plattenkiste
+    [named]  RWMPAR  Scan Radio Wien
+    [named]          Scan div. Radiosender
+    [named]          Scan div. Radiosender + Livestream
+    [named]          Scan div. Radiosender + Livestreams
+    [named]          Scootersuche
+    [named]          Scootersuche / -geradestellung
+    [named]          Sendung auf Radio-MFL
+    [named]          Serie von Singabenden bei Andrea Woloch, bei denen sämtliche schon gesungenen Lieder neu aufgenommen werden
+    [named]          Sortieren und Einräumen der Finanzunterlagen
+    [named]          Sortierung Befunde
+    [named]          Spaziergang
+    [named]          Surfen AtariAge
+    [named]          Surfen Modified Power Wheels
+    [named]          Taonga: Die Inselfarm
+    [named]          Teleworking
+    [named]  LENATW  Teller waschen
+    [named]          Themen für Mittagessen
+    [named]          Treffen mit Richard Promberger
+    [named]          Umbau Kontensystem auf Taskliste
+    [named]          Umbau Window Logger auf Taskliste
+    [named]          Umänderung Liste Disketten P111, P108, P136, P134 (?!)
+    [named]          Untersuchung Sourcecode Pole Position (Atari 7800 / C64)
+    [named]          Untersuchung der Prioritätenliste
+    [named]          Update Clearswipe (Check auf Vorkommnisse)
+    [named]          Update Inventur Wäsche
+    [named]          Veranstaltung einer Karaoke-Party
+    [named]          Verarbeitung gerissene Unterhosen
+    [named]          Verbesserung Abfrage ähnlicher Titel nach Kategorien (dauert zu lange)
+    [named]          Verbogene Chartsshow auf Radio Krokofee
+    [named]          Versand Karaoke-Titel We are the world
+    [named]          Verteilung Don't shut me down (C-64)
+    [named]  LEAZVZ  Vorbereitung Zähne putzen
+    [named]          Weihnachtsgeschenke
+    [named]          Weiterentwicklung ClearSwipe
+    [named]  FIANWG  Wiederveranlagung Geld auf Girokonto
+    [named]          Zahnarztbesuch
+    [named]  GEMTZP  Zähne putzen
+    [named]          andere Aktivität
+    [named]          ausführliche Inventarüberprüfung (ganze Wohnung)
+    [named]          externe Karaoke-Veranstaltung (bei € 230 Gage)
+    [named]          schnelle Inventarüberprüfung (ganze Wohnung)
+    [named]          verstärkte Taxifahrten
+    [named]          € 15000 von Konto auf Sparverein transferieren
+
+DOC106: Untersuchung der Prioritätenliste
+  (194 refs: named=193, coded=1)
+    [named]          Abendtoilette
+    [named]          Abendzer.
+    [named]  LEMTAW  Abwiegen
+    [named]          Aktienhandel
+    [named]          Aktienuntersuchung und -umschichtung
+    [named]          Aktualisieren Finanzabrechnung
+    [named]          Aktualisierung der Wohnungsinventur
+    [named]          Anhören Kass. Kar.gesang
+    [named]          Anruf von Papa
+    [named]          Anschaffung eines neuen Akkus für das E-Quad
+    [named]          Ansehen Livestreams von Musikern auf Twitch und Youtube (Mario Accordion, Chris Konz)
+    [named]  RWMPAR  Ansehen YOutube-Videos
+    [named]  RWRSMR  Ansehen Youtube
+    [named]          Ansehen Youtube-Videos über Elektrofahrzeuge
+    [named]          Ansehen Zeit im Bild 1
+    [named]          Ansehen und Eingabe der von Papa bekommenen Videokassetten
+    [named]          Antwort W. Adams (Lyrics)
+    [named]  LEAZZS  Anwendung Zahnseide
+    [named]  LEAZZZ  Anwendung der Zwischenraumzahnbürste
+    [named]  LEMTAN  Anziehen
+    [named]          Arbeit im Bundesrechenzentrum
+    [named]          Arztbesuch
+    [named]          Aufarbeitung alter Mails
+    [named]          Aufbereitung Dokumentation Ende 2020 für Bernhard
+    [named]          Aufnahme Katzenpeter geht und geht, Put in you, Was wird aus mir...
+    [named]          Aufnahme Life on Miles
+    [named]          Aufnahme von Kontakt mit weiblichen Wesen
+    [named]  WFARAR  Aufräumen
+    [named]          Aufräumen Unterlagen Termin Corona-Test / AKH-Ambulanz / Gurgeltest
+    [named]          Aufräumen und Reinigungstätigkeiten
+    [named]          Auftritt Robert
+    [named]  KSAAKO  Aufwandserfassung
+    [named]  KSAAKO  Aufwandserfassung und Abrechnung Kontensystem
+    [named]  GEMRNA  Ausmachen Arzttermine
+    [named]  LEMTAZ  Ausziehen
+    [named]          Baden gehen
+    [named]          Beantwortung Mail Robert Wehofer
+    [named]          Bearb. 88.6-Wertungen und -Postings
+    [named]  LEEPVO  Bearb. Essensplan
+    [named]  RWYTPL  Bearb. Playlist
+    [named]          Bearb. Ähnlichkeiten
+    [named]          Bearbeitung Mails
+    [named]          Bearbeitung Playlist
+    [named]          Bearbeitung Untersuchung der Prioritätenliste
+    [named]          Bearbeitung der Essensdatenbank
+    [named]          Beginn eines eigenen Livestreams mit Live-Musik
+    [named]          Bereinigung nicht vorhandene / doppelte Titel in Ähnlichkeitsdatenbank
+    [named]          Beschriftung Handybilder
+    [named]          Besorgung Medikament für Papa
+    [named]          Besuch Ampera-Treffen (bis 1/2013 abgerechnet)
+    [named]          Besuch Andrea / Franzi (mit Singen)
+    [named]          Besuch Bierpub Remi Demi (Vorkalk.)
+    [named]          Besuch Erich's Karaoke (22. Bezirk)
+    [named]          Besuch Goleador (neuer Name)
+    [named]          Besuch Jonas-Karaoke
+    [named]          Besuch Karaoke (abgerissenes!) Cantina Loco (Donauinsel) (bei Schönwetter)
+    [named]          Besuch Karaoke Babuder's (Vorkalk.)
+    [named]          Besuch Karaoke Do bin i do bleib i
+    [named]          Besuch Karaoke Exzess
+    [named]          Besuch Karaoke Lemmon (Wochenende)
+    [named]          Besuch Karaoke Reginas (Vorkalk.)
+    [named]          Besuch Karaoke SOHO 1 (Millenium Tower) (Einpacken 19:00)
+    [named]          Besuch Karaoke Unikat (Nachkalk. 17.2.2011)
+    [named]          Besuch Karaoke Zum Wahnsinn (Vorkalk.)
+    [named]          Besuch Karaoke im SOHO 3
+    [named]          Besuch Nan (Vorkalk.)
+    [named]          Besuch Randy's Karaoke (aktuell)
+    [named]  GEGYSB  Besuch Schwimmbad
+    [named]          Besuch Weihnachtskonzert
+    [named]          Besuch von Spielwarengeschäften
+    [named]          Besuch von Weihnachtsausstellungen
+    [named]  LEMTBM  Bett machen
+    [named]  PCDASI  Datensicherung
+    [named]          Datensicherung (inkl. H:\Daten\Radio Würmchen\WAV's!)
+    [named]          Datensicherung PC
+    [named]  INSUSU  Div. Surfen
+    [named]          Dokumentation Prioritätsliste
+    [named]          Durchführung anfallender Dokumentationen
+    [named]          Eingabe der Radioscans
+    [named]          Eingabe gehörte Titel
+    [named]          Einordnen Vertragsinformationen zu Versicherungen
+    [named]          Einpacken
+    [named]          Einräumen Anleitungen in Küche
+    [named]          Eintragen noch nie aufgeführter Titel in Probenplan
+    [named]          Einüben neuer Keyboard-Titel
+    [named]  BREPZE  Eis kaufen
+    [named]          Entwicklung Status-Dashboard (Ampel)
+    [named]          Erfassung Corona-Infektionen
+    [named]          Ergänzung Lebensdokumentation um Ordnung der gesundheitsrelevanten Unterlagen
+    [named]          Experiment mit Spielzeugbuggy
+    [named]          Experimente mit Lego-Loks
+    [named]          Fahrt Li'l Motorized Beamer
+    [named]  LEMTFR  Feinschliff bei der Rasur
+    [named]          Fernsehen
+    [named]          Forge of Empires
+    [named]          Fortsetzung bzw. Aktualisierung Wohnungsinventur
+    [named]          Fortsetzung der Arbeit an Titanic Rescue
+    [named]          Friseursbesuch
+    [named]          Frühstück
+    [named]  LEMTFR  Frühstück fassen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+    [named]          Getränk am Lagerfeuer mit Christian Rolly
+    [named]  LEMTTW  Getränk fassen
+    [named]          Gründung eines Karaoke-Forums
+    [named]          Hack Mangia (Tarantella)
+    [named]  KAVAHK  Heimkaraoke (von mir als Veranstaltung angesetzt)
+    [named]          Heimkaraoke (wenn von Papa gewünscht)
+    [named]          Hände waschen
+    [named]          Jause essen
+    [named]  LEMTJF  Jause fassen
+    [named]          Karaoke-VIdeos Johnny Blue, Ein bißchen Frieden
+    [named]          Karaoke-Version von "Just like that" (tiefer)
+    [named]          Kauf eines neuen Spielzeugfahrzeuges
+    [named]          Keyboard-Übungen
+    [named]          Kleidungsinventur
+    [named]          Konsolidierung Orange-Ordner
+    [named]          Korrektur der Radioscans in der Radio-Würmchen-Datenbank
+    [named]  GEGYLS  Laufen / Scootersuche
+    [named]          Liquidierung des Orange-Kontos und Konsolidierung der Ordner
+    [named]  INMABE  Mailbearbeitung
+    [named]          Mapping Kersti in Magellan
+    [named]  WFMAMA  Mist ausleeren
+    [named]          Mittag essen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEAZMA  Mund ausspülen
+    [named]          Müllentsorgung
+    [named]          Nachbrennen Befund-CD von MRT-Untersuchung (bei nächster AKH-Befundbesprechung mitnehmen)
+    [named]          Nachladung der nicht verwendeten Akkus
+    [named]          Nachladung nicht verwendeter Akkus
+    [named]  LEMTTW  Nachtmahl
+    [named]          Neuaufnahme Schweinefilet / Nicht schlecht
+    [named]          Neueinspielungen vom Computer vorgeschlagener Titel
+    [named]  PCHFHF  PC herunterfahren
+    [named]  PAA1SU  Papiersortierung
+    [named]          Planung Mittagessen
+    [named]          Posting Zeiten Atariage
+    [named]          Produktion von Liedern für Papa (Geschenke)
+    [named]          Projekt neues Keyboard (Einüben weiterer Titel)
+    [named]          Prüfung Rückforderung Festnetzrechnung Papa (22.2. angerufen, 16.4. noch nicht eingetroffen)
+    [named]          Prüfung Strom- und Warmwasserechnungen (auch Papa)
+    [named]          Prüfung und Scannen der Computerspiel-Unterlagen
+    [named]          Radio hören (über Radio Würmchen-Limit im Schnitt)
+    [named]          Radio-Würmchen-Datenbankkorrekturen / Einlistung neuer Tonträger
+    [named]  LEAZHW  Reinigung Zahnputzutensilien, Hände waschen
+    [named]          Rätselquiz auf Radio Krokofee
+    [named]          Rückforderung OCT-Gebühr von Gesundheitskasse
+    [named]          Scan Jason Lux / Hannah Dorman Livestreams
+    [named]  RWRSPT  Scan Radio Plattenkiste
+    [named]  RWMPAR  Scan Radio Wien
+    [named]          Scan div. Radiosender
+    [named]          Scan div. Radiosender + Livestream
+    [named]          Scan div. Radiosender + Livestreams
+    [named]          Scootersuche
+    [named]          Scootersuche / -geradestellung
+    [named]          Sendung auf Radio-MFL
+    [named]          Serie von Singabenden bei Andrea Woloch, bei denen sämtliche schon gesungenen Lieder neu aufgenommen werden
+    [named]          Sortieren und Einräumen der Finanzunterlagen
+    [named]          Sortierung Befunde
+    [named]          Spaziergang
+    [named]          Surfen AtariAge
+    [named]          Surfen Modified Power Wheels
+    [named]          Taonga: Die Inselfarm
+    [named]          Teleworking
+    [named]  LENATW  Teller waschen
+    [named]          Themen für Mittagessen
+    [named]          Treffen mit Richard Promberger
+    [named]          Umbau Kontensystem auf Taskliste
+    [named]          Umbau Window Logger auf Taskliste
+    [named]          Umänderung Liste Disketten P111, P108, P136, P134 (?!)
+    [named]          Untersuchung Sourcecode Pole Position (Atari 7800 / C64)
+    [named]          Untersuchung der Prioritätenliste
+    [named]          Update Clearswipe (Check auf Vorkommnisse)
+    [named]          Update Inventur Wäsche
+    [named]          Veranstaltung einer Karaoke-Party
+    [named]          Verarbeitung gerissene Unterhosen
+    [named]          Verbesserung Abfrage ähnlicher Titel nach Kategorien (dauert zu lange)
+    [named]          Verbogene Chartsshow auf Radio Krokofee
+    [named]          Versand Karaoke-Titel We are the world
+    [named]          Verteilung Don't shut me down (C-64)
+    [named]  LEAZVZ  Vorbereitung Zähne putzen
+    [named]          Weihnachtsgeschenke
+    [named]          Weiterentwicklung ClearSwipe
+    [named]  FIANWG  Wiederveranlagung Geld auf Girokonto
+    [named]          Zahnarztbesuch
+    [named]  GEMTZP  Zähne putzen
+    [named]          andere Aktivität
+    [named]          ausführliche Inventarüberprüfung (ganze Wohnung)
+    [named]          externe Karaoke-Veranstaltung (bei € 230 Gage)
+    [named]          schnelle Inventarüberprüfung (ganze Wohnung)
+    [named]          verstärkte Taxifahrten
+    [named]          € 15000 von Konto auf Sparverein transferieren
+
+DOC107: KURTDOKU
+  (180 refs: named=179, coded=1)
+    [named]          30 Minuten sportliche Betätigung (Puls über 100)
+    [named]          Abendtoilette
+    [named]          Alle Gewinnanteile zu Versicherungen in Masterzettel übertragen
+    [named]          Alle herausgenommenen Papiere wieder in Timer und andere Mappen einordnen
+    [named]          Am Monatsersten Sparkarte mitnehmen
+    [named]          Anlagewerte ermitteln, die unter ihrer Benchmark liegen (die für ihre Laufzeit zu geringen Ertrag haben)
+    [named]  LEMTAN  Anziehen
+    [named]  BREPDZ  Arbeitszeit absolvieren
+    [named]          Arbeitszeit absolvieren (siehe Dokumentation BRZG)
+    [named]          Arztbesuch
+    [named]  WFARAR  Aufräumen
+    [named]          Aufstehen (bekannt)
+    [named]          Aus Restlaufzeiten und Renditen für jeden Anlagewert Ertrag pro Jahr berechnen
+    [named]          Außentemperatur prüfen (bekannt)
+    [named]          Benchmark-Werte berechnen (welche neu abschließbaren Anlagen haben zu Laufzeit besten Ertrag?)
+    [named]          Bescheid über Freibetrag in der Arbeit abgeben
+    [named]  LEMTBM  Bett machen
+    [named]          Bett machen (bekannt)
+    [named]          Checkliste Abendzeremonie
+    [named]          Checkliste Apothekengang
+    [named]          Checkliste Arztbesuch
+    [named]          Checkliste Bewegung
+    [named]          Checkliste Ein Mitbringsel versorgen
+    [named]          Checkliste Freizeit
+    [named]          Checkliste Geldprüfung
+    [named]          Checkliste Hausarbeit
+    [named]          Checkliste Heimkunft
+    [named]          Checkliste Morgen
+    [named]          Checkliste Nachmittag/Abend
+    [named]          Checkliste Untertags
+    [named]          Checkliste bei Fortgehen
+    [named]  LEAUAZ  Der Außentemperatur entsprechend anziehen
+    [named]          Durchgehen des Liste der offenen Punkte
+    [named]          Einkaufszettel erstellen
+    [named]          Erträge zusammenzählen und Prozentwert über alle Anlagen zusammen berechnen
+    [named]          Eventuelle Medikamente nehmen
+    [named]          Evtl. Medikament nehmen
+    [named]          Fernsehen
+    [named]          Finanzanlagendatenbank auf D-Platte sichern
+    [named]          Finanzanlagenstand ausdrucken, lochen und in Timer einheften
+    [named]          Finanzausgleichsformular ausfüllen und unterschreiben
+    [named]          Finanzausgleichsformular zu Finanzamt bringen
+    [named]          Formular für Finanzausgleich besorgen oder aus Internet ausdrucken
+    [named]          Fortsetzung eventuell unterbrochener Projekte
+    [named]          Friseursbesuch
+    [named]  LEAUFR  Frisieren
+    [named]          Frühstück
+    [named]  LEMTFR  Frühstücken
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Für Finanzausgleich relevante Unterlagen zusammensammeln
+    [named]          Für alle Anlagewerte Restlaufzeit und Rendite berechnen und in aktuelle Abrechnung schreiben
+    [named]          Geschirr
+    [named]          Gesundheit prüfen
+    [named]          Gewinnanteilsbenachrichtigungen in Versicherungsmappe einordnen
+    [named]          Hausarzt anrufen
+    [named]          Heim gehen
+    [named]          Heimfahrt von der Firma
+    [named]          Hände waschen
+    [named]          Jause essen
+    [named]          Kalender lokalisieren
+    [named]          Kleidungsinventur
+    [named]          Kontoauszugsmappe auf Platz geben
+    [named]          Liste der offenen Punkte durchgehen
+    [named]          Locher auf Platz geben
+    [named]          Lüftung Wohnung
+    [named]          Medikament entgegennehmen und bezahlen
+    [named]          Mittag essen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEMTMS  Mund spülen
+    [named]  LEMTTW  Nachtmahl
+    [named]  LENATW  Nachtmahl essen
+    [named]  LENSNS  Nägel schneiden
+    [named]          Ordination besuchen
+    [named]  PCHFHF  PC herunterfahren
+    [named]          PC herunterfahren und schlafen gehen. Gute Nacht!
+    [named]          PSK-Kontoauszüge in Kontoauszugsmappe einordnen
+    [named]          PSK-Kontostand in Finanzanlagendatenbank eingeben
+    [named]          Post in Postkasten ausheben
+    [named]          Prüfung Kalender auf Termine
+    [named]          Prüfung auf Lesestoff
+    [named]          Prüfung auf auf der Heimfahrt zu erledigende Dinge
+    [named]  BRAUPR  Prüfung auf eventuell mitzunehmende Dinge
+    [named]          Prüfung auf in der Firma zu erledigende Dinge
+    [named]          Rasieren (bekannt)
+    [named]          Rasierer putzen (bekannt)
+    [named]          Restfinanzstoß in Finanzordner einordnen
+    [named]          Rezept vorweisen
+    [named]          Sommerwäsche aus dem Kasten geben
+    [named]          Sommerwäsche in den Kasten geben
+    [named]          Sommerwäsche waschen
+    [named]          Sonstige aktualisierbare Werte in Finanzanlagendatenbank suchen und aktualisieren
+    [named]          Stand kleine und große Börse zählen und Stand in Finanzanlagendatenbank eingeben
+    [named]          Start Checkliste Lebenserhaltung
+    [named]          Stände von Gewinnanteilen in Finanzanlagendatenbank eingeben
+    [named]          Supermarkt aufsuchen und nötige Dinge kaufen
+    [named]          Tagesgewand aus- und Nachtgewand anziehen
+    [named]          Tee herrichten
+    [named]          Termin Apothekengang für nächste Öffnungszeit Apotheke notieren
+    [named]          Termin Arztbesuch für nächste Ordinationszeit notieren
+    [named]          Termin Zahnarztbesuch anmelden 2 für nächste Öffnungszeit Zahnarzt notieren
+    [named]          Termin Zahnarztbesuch in Kalender notieren
+    [named]          Termin mit Zahnarzt zur Kontrolle ausmachen
+    [named]          Termine für Medikamenteneinnahme eintragen
+    [named]  LEMTTP  Termine in Kalender prüfen
+    [named]          Timer auf Platz geben
+    [named]          Timer wieder auf Platz geben
+    [named]  LEPOPO  Versorgung Mitbringsel
+    [named]          Verzweigung nach Checkliste Zahnarztbesuch anmelden 2
+    [named]          WC (wenn nötig)
+    [named]          WC-Besuch nach Bedarf (siehe WC)
+    [named]          Warten auf 13:00
+    [named]          Warten auf 16:00
+    [named]          Warten auf 20:00
+    [named]          Warten auf 21:40
+    [named]          Wenn (Monat = 9 oder Monat = 12 oder Monat = 3 oder Monat = 6), Termin Friseur eintragen
+    [named]          Wenn BA-CA-Karte eingesteckt, Kontoauszug beheben
+    [named]          Wenn Beschwerden nur mit rezeptflichtigen Medikamenten behandelbar, Checkliste Vorbereitung
+    [named]          Wenn Einkaufsliste im Kalender vorhanden, Einkauf bei Anker
+    [named]          Wenn Krankheit vorliegt, Checkliste Erwägung Arztbesuch
+    [named]          Wenn Medikamente verschrieben, Checkliste Apothekengang
+    [named]          Wenn Mitbringsel = Medikament, Verzweigung nach Versorgung Medikament
+    [named]          Wenn Mitbringsel vorhanden, Checkliste Versorgung Mitbringsel
+    [named]          Wenn Monat = 1 und Monatstag = 1, Checkliste jährliche Geldprüfung
+    [named]          Wenn Monat = 4 und Monatstag = 4, Checkliste Finanzausgleich
+    [named]          Wenn Monatstag = 1, Checkliste monatliche Geldabrechnung
+    [named]          Wenn Nasenbohren weh tut und Wochentag = Sonntag, Fingernägel schneiden
+    [named]          Wenn Samstag, Checkliste Einkauf
+    [named]          Wenn Temparatur erstmals im Halbjahr unter 10 Grad, Checkliste Winterwäsche
+    [named]          Wenn Temperatur erstmals im Jahr über 15 Grad, Checkliste Sommerwäsche
+    [named]          Wenn Termin Friseur eingetragen, Friseur besuchen
+    [named]          Wenn Termin Zehennägel schneiden eingetragen und Wochentag = Sonntag, Zehennägel schneiden
+    [named]          Wenn Werktag, Checkliste BRZG
+    [named]          Wenn Werktag, Vormittagsjause richten
+    [named]          Wenn Wochentag <> Sonntag, Frühstücken
+    [named]          Wenn Wochentag <> Sonntag, Zähne putzen oder bei Zeitmangel Mund spülen
+    [named]          Wenn Wochentag <> Sonntag, kurzer Duschvorgang
+    [named]          Wenn Wochentag = Sonntag, Frühstück
+    [named]          Wenn Wochentag = Sonntag, Zähne putzen
+    [named]          Wenn Wochentag = Sonntag, langer Duschvorgang
+    [named]          Wenn Wochentag = Sonntag, liegengebliebene Projekte aufräumen
+    [named]          Wenn bekannte Beschwerden, Verzweigung nach Checkliste bekannte Beschwerden
+    [named]          Wenn große Börse leer, Checkliste Geldbeschaffung
+    [named]          Wenn hohes Fieber, Verzweigung Checkliste dringender Arztbesuch
+    [named]          Wenn im Kalender „Geldnachbeschaffung“ notiert, 300 Euro von Sparkarte beheben
+    [named]          Wenn in kleiner Börse unter 50 Euro vorhanden, Checkliste Aufstockung kleine Börse
+    [named]          Wenn innerhalb Ordinationszeit, Verzweigung nach Checkliste Arztbesuch
+    [named]          Wenn innerhalb Öffnungszeit Apotheke, Verzweigung nach Checkliste Apothekengang
+    [named]          Wenn innerhalb Öffnungszeit Zahnarzt, Verzweigung nach Checkliste Zahnarztbesuch anmelden 2
+    [named]          Wenn nicht wiederbestellt, Termin Zahnarztbesuch anmelden (+ 6 Monate – 2 Wochen) eintragen
+    [named]          Wenn sich Zehennägel verfangen, Termin Zehennägel schneiden (nächster Sonntag) eintragen
+    [named]          Wenn unbekannten Beschwerden, Checkliste Vorbereitung Arztbesuch durchführen
+    [named]          Wenn weitere Mitbringel vorhanden, Verzweigung nach Checkliste Versorgung Mitbringel
+    [named]          Wenn wiederbestellt, Termin Zahnarztbesuch eintragen
+    [named]          Werbung von Post trennen
+    [named]          Winterwäsche aus dem Kasten geben
+    [named]          Winterwäsche in den Kasten geben
+    [named]          Winterwäsche waschen
+    [named]  WFLULU  Wohnung lüften
+    [named]          Zahnarzt besuchen
+    [named]          Zahnarztbesuch
+    [named]          Zimmer lüften und Bett herrichten
+    [named]          Zu Apotheke gehen
+    [named]  GEMTZP  Zähne putzen
+    [named]          alle Finanzunterlagen aus Stoß auf Finanzstoß sortieren
+    [named]          alle PSK-Kontoauszüge aus Finanzstoß auf PSK-Stoß sortieren
+    [named]          alle Unterlagen zu Bausparverträgen in Bausparmappe einordnen
+    [named]          alle Unterlagen zu Versicherungen aus Finanzstoß auf Versicherungsstoß sortieren
+    [named]          alle Unterlagen zu Wertpapierdepot in Wertpapiermappe einordnen
+    [named]          alle herumliegenden Papiere auf Stoß werfen
+    [named]          andere Aktivität
+    [named]          aus der großen Börse mindestens 50 Euro in die kleine Börse transferieren
+    [named]          der Außentemparatur entsprechend anziehen, evtl. Wäsche wechseln (bekannt)
+    [named]          im Kalender bei aktuellem Datum „Geldnachbeschaffung“ notieren
+    [named]          in die Firma fahren
+    [named]          jeweils 10 Minuten vor der vollen Stunde 10 Minuten Pause machen
+    [named]          lose Kontoauszüge zu Wertpapierdepot in Kuverts einordnen
+    [named]          veraltete Kontoauszüge zu Wertpapierdepot aus Kuverts entfernen
+    [named]          Überprüfung nächste Ordinationszeit des Arztes
+    [named]          Überprüfung, ob die Beschwerden und ihre Behandlung bekannt sind
+
+DOC099: Lebensdokumentation 8.9.27
+  (172 refs: named=171, coded=1)
+    [named]          30 Minuten sportliche Betätigung (Puls über 100)
+    [named]          Abendtoilette
+    [named]          Alle Gewinnanteile zu Versicherungen in Masterzettel übertragen
+    [named]          Alle herausgenommenen Papiere wieder in Timer und andere Mappen einordnen
+    [named]          Am Monatsersten Sparkarte mitnehmen
+    [named]          Anlagewerte ermitteln, die unter ihrer Benchmark liegen (die für ihre Laufzeit zu geringen Ertrag haben)
+    [named]  LEMTAN  Anziehen
+    [named]  BREPDZ  Arbeitszeit absolvieren
+    [named]          Arbeitszeit absolvieren (siehe Dokumentation BRZG)
+    [named]          Arztbesuch
+    [named]  WFARAR  Aufräumen
+    [named]          Aufstehen (bekannt)
+    [named]          Aus Restlaufzeiten und Renditen für jeden Anlagewert Ertrag pro Jahr berechnen
+    [named]          Außentemperatur prüfen (bekannt)
+    [named]          Benchmark-Werte berechnen (welche neu abschließbaren Anlagen haben zu Laufzeit besten Ertrag?)
+    [named]          Bescheid über Freibetrag in der Arbeit abgeben
+    [named]  LEMTBM  Bett machen
+    [named]          Bett machen (bekannt)
+    [named]          Checkliste Abendzeremonie
+    [named]          Checkliste Apothekengang
+    [named]          Checkliste Arztbesuch
+    [named]          Checkliste Bewegung
+    [named]          Checkliste Ein Mitbringsel versorgen
+    [named]          Checkliste Freizeit
+    [named]          Checkliste Geldprüfung
+    [named]          Checkliste Hausarbeit
+    [named]          Checkliste Heimkunft
+    [named]          Checkliste Morgen
+    [named]          Checkliste Nachmittag/Abend
+    [named]          Checkliste Untertags
+    [named]          Checkliste bei Fortgehen
+    [named]  LEAUAZ  Der Außentemperatur entsprechend anziehen
+    [named]          Durchgehen des Liste der offenen Punkte
+    [named]          Einkaufszettel erstellen
+    [named]          Erträge zusammenzählen und Prozentwert über alle Anlagen zusammen berechnen
+    [named]          Eventuelle Medikamente nehmen
+    [named]          Evtl. Medikament nehmen
+    [named]          Fernsehen
+    [named]          Finanzanlagendatenbank auf D-Platte sichern
+    [named]          Finanzanlagenstand ausdrucken, lochen und in Timer einheften
+    [named]          Fortsetzung eventuell unterbrochener Projekte
+    [named]          Friseursbesuch
+    [named]  LEAUFR  Frisieren
+    [named]          Frühstück
+    [named]  LEMTFR  Frühstücken
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Für Finanzausgleich relevante Unterlagen zusammensammeln
+    [named]          Für alle Anlagewerte Restlaufzeit und Rendite berechnen und in aktuelle Abrechnung schreiben
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+    [named]          Gesundenuntersuchung
+    [named]          Gesundheit prüfen
+    [named]          Gewinnanteilsbenachrichtigungen in Versicherungsmappe einordnen
+    [named]          Hausarzt anrufen
+    [named]          Heim gehen
+    [named]          Heimfahrt von der Firma
+    [named]          Hände waschen
+    [named]          Jause essen
+    [named]          Kalender lokalisieren
+    [named]          Kleidungsinventur
+    [named]          Kontoauszugsmappe auf Platz geben
+    [named]          Liste der offenen Punkte durchgehen
+    [named]          Locher auf Platz geben
+    [named]          Lüftung Wohnung
+    [named]          Medikament entgegennehmen und bezahlen
+    [named]          Mittag essen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEMTMS  Mund spülen
+    [named]  LEMTTW  Nachtmahl
+    [named]  LENATW  Nachtmahl essen
+    [named]  LENSNS  Nägel schneiden
+    [named]          Ordination besuchen
+    [named]  PCHFHF  PC herunterfahren
+    [named]          PC herunterfahren und schlafen gehen. Gute Nacht!
+    [named]          PSK-Kontoauszüge in Kontoauszugsmappe einordnen
+    [named]          PSK-Kontostand in Finanzanlagendatenbank eingeben
+    [named]          Post in Postkasten ausheben
+    [named]          Prüfung Kalender auf Termine
+    [named]          Prüfung auf Lesestoff
+    [named]          Prüfung auf auf der Heimfahrt zu erledigende Dinge
+    [named]  BRAUPR  Prüfung auf eventuell mitzunehmende Dinge
+    [named]          Prüfung auf in der Firma zu erledigende Dinge
+    [named]          Rasieren (bekannt)
+    [named]          Rasierer putzen (bekannt)
+    [named]          Restfinanzstoß in Finanzordner einordnen
+    [named]          Rezept vorweisen
+    [named]          Sommerwäsche aus dem Kasten geben
+    [named]          Sommerwäsche in den Kasten geben
+    [named]          Sommerwäsche waschen
+    [named]          Sonstige aktualisierbare Werte in Finanzanlagendatenbank suchen und aktualisieren
+    [named]          Stand kleine und große Börse zählen und Stand in Finanzanlagendatenbank eingeben
+    [named]          Start Checkliste Lebenserhaltung
+    [named]          Stände von Gewinnanteilen in Finanzanlagendatenbank eingeben
+    [named]          Supermarkt aufsuchen und nötige Dinge kaufen
+    [named]          Tagesgewand aus- und Nachtgewand anziehen
+    [named]          Teamfrühstück
+    [named]          Tee herrichten
+    [named]          Termin Arztbesuch für nächste Ordinationszeit notieren
+    [named]          Termin Zahnarztbesuch anmelden 2 für nächste Öffnungszeit Zahnarzt notieren
+    [named]          Termin Zahnarztbesuch in Kalender notieren
+    [named]          Termin mit Zahnarzt zur Kontrolle ausmachen
+    [named]          Termine für Medikamenteneinnahme eintragen
+    [named]  LEMTTP  Termine in Kalender prüfen
+    [named]          Timer auf Platz geben
+    [named]          Timer wieder auf Platz geben
+    [named]  LEPOPO  Versorgung Mitbringsel
+    [named]          Verzweigung nach Checkliste Zahnarztbesuch anmelden 2
+    [named]          WC (wenn nötig)
+    [named]          WC-Besuch nach Bedarf (siehe WC)
+    [named]          Warten auf 13:00
+    [named]          Warten auf 16:00
+    [named]          Warten auf 20:00
+    [named]          Warten auf 21:40
+    [named]          Wenn (Monat = 9 oder Monat = 12 oder Monat = 3 oder Monat = 6), Termin Friseur eintragen
+    [named]          Wenn BA-CA-Karte eingesteckt, Kontoauszug beheben
+    [named]          Wenn Beschwerden nur mit rezeptflichtigen Medikamenten behandelbar, Checkliste Vorbereitung
+    [named]          Wenn Einkaufsliste im Kalender vorhanden, Einkauf bei Anker
+    [named]          Wenn Krankheit vorliegt, Checkliste Erwägung Arztbesuch
+    [named]          Wenn Medikamente verschrieben, Checkliste Apothekengang
+    [named]          Wenn Mitbringsel = Medikament, Verzweigung nach Versorgung Medikament
+    [named]          Wenn Mitbringsel vorhanden, Checkliste Versorgung Mitbringsel
+    [named]          Wenn Monat = 1 und Monatstag = 1, Checkliste jährliche Geldprüfung
+    [named]          Wenn Monat = 4 und Monatstag = 4, Checkliste Finanzausgleich
+    [named]          Wenn Monatstag = 1, Checkliste monatliche Geldabrechnung
+    [named]          Wenn Nasenbohren weh tut und Wochentag = Sonntag, Fingernägel schneiden
+    [named]          Wenn Samstag, Checkliste Einkauf
+    [named]          Wenn Temparatur erstmals im Halbjahr unter 10 Grad, Checkliste Winterwäsche
+    [named]          Wenn Temperatur erstmals im Jahr über 15 Grad, Checkliste Sommerwäsche
+    [named]          Wenn Termin Friseur eingetragen, Friseur besuchen
+    [named]          Wenn Termin Zehennägel schneiden eingetragen und Wochentag = Sonntag, Zehennägel schneiden
+    [named]          Wenn Werktag, Checkliste BRZG
+    [named]          Wenn Werktag, Vormittagsjause richten
+    [named]          Wenn Wochentag <> Sonntag, Frühstücken
+    [named]          Wenn Wochentag <> Sonntag, Zähne putzen oder bei Zeitmangel Mund spülen
+    [named]          Wenn Wochentag <> Sonntag, kurzer Duschvorgang
+    [named]          Wenn Wochentag = Sonntag, Frühstück
+    [named]          Wenn Wochentag = Sonntag, Zähne putzen
+    [named]          Wenn Wochentag = Sonntag, langer Duschvorgang
+    [named]          Wenn Wochentag = Sonntag, liegengebliebene Projekte aufräumen
+    [named]          Wenn bekannte Beschwerden, Verzweigung nach Checkliste bekannte Beschwerden
+    [named]          Wenn große Börse leer, Checkliste Geldbeschaffung
+    [named]          Wenn hohes Fieber, Verzweigung Checkliste dringender Arztbesuch
+    [named]          Wenn innerhalb Ordinationszeit, Verzweigung nach Checkliste Arztbesuch
+    [named]          Wenn innerhalb Öffnungszeit Zahnarzt, Verzweigung nach Checkliste Zahnarztbesuch anmelden 2
+    [named]          Wenn sich Zehennägel verfangen, Termin Zehennägel schneiden (nächster Sonntag) eintragen
+    [named]          Wenn weitere Mitbringel vorhanden, Verzweigung nach Checkliste Versorgung Mitbringel
+    [named]          Wenn wiederbestellt, Termin Zahnarztbesuch eintragen
+    [named]          Werbung von Post trennen
+    [named]          Winterwäsche aus dem Kasten geben
+    [named]          Winterwäsche in den Kasten geben
+    [named]          Winterwäsche waschen
+    [named]  WFLULU  Wohnung lüften
+    [named]          Zahnarzt besuchen
+    [named]          Zahnarztbesuch
+    [named]          Zimmer lüften und Bett herrichten
+    [named]          Zu Apotheke gehen
+    [named]  GEMTZP  Zähne putzen
+    [named]          alle Finanzunterlagen aus Stoß auf Finanzstoß sortieren
+    [named]          alle PSK-Kontoauszüge aus Finanzstoß auf PSK-Stoß sortieren
+    [named]          alle Unterlagen zu Bausparverträgen in Bausparmappe einordnen
+    [named]          alle Unterlagen zu Versicherungen aus Finanzstoß auf Versicherungsstoß sortieren
+    [named]          alle Unterlagen zu Wertpapierdepot in Wertpapiermappe einordnen
+    [named]          alle herumliegenden Papiere auf Stoß werfen
+    [named]          andere Aktivität
+    [named]          der Außentemparatur entsprechend anziehen, evtl. Wäsche wechseln (bekannt)
+    [named]          in die Firma fahren
+    [named]          jeweils 10 Minuten vor der vollen Stunde 10 Minuten Pause machen
+    [named]          lose Kontoauszüge zu Wertpapierdepot in Kuverts einordnen
+    [named]          veraltete Kontoauszüge zu Wertpapierdepot aus Kuverts entfernen
+    [named]          Überprüfung nächste Ordinationszeit des Arztes
+    [named]          Überprüfung, ob die Beschwerden und ihre Behandlung bekannt sind
+
+DOC100: Dokumentation des Todes von Erwin Woloch (V2)
+  (32 refs: named=31, coded=1)
+    [named]  PAFIAV  Arbeitnehmerveranlagung für Papa
+    [named]          Arztbesuch
+    [named]  KSAAKO  Aufwandserfassung
+    [named]          Baden gehen
+    [named]          Christbaumverabschiedung
+    [named]  PCDASI  Datensicherung
+    [named]  FIDOAK  Dokumentation Finanzanlagen
+    [named]          Einpacken
+    [named]          Essen bestellen
+    [named]          Fernsehen
+    [named]  LEAUFR  Frisieren
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]  LEMEGA  Geld abheben
+    [named]          Geschirr
+    [named]          Gesundenuntersuchung
+    [named]          Information weiterer Firmen, die mit Papa in Kontakt sind, über Tod (mit Einantwortungs- und Sterbeurkunde)
+    [named]  PAWFAF  Mail an Judith
+    [named]  INMABE  Mailbearbeitung
+    [named]          Mailbearbeitung Papa (Abspeichern Ausgangsmail)
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]          Müllentsorgung
+    [named]  PAWFAF  Nachricht an Judith
+    [named]  LEMTTW  Nachtmahl
+    [named]          Neubesprechung Anrufbeantworter Papa
+    [named]  PAA1SU  Papiersortierung
+    [named]          Speichern Papa's Ausgangsmails + Nebenpostkörbe
+    [named]  PAWFAF  Sprachnachricht an Judith
+    [named]          Sprachnachrichten an Judith
+    [named]          Teleworking
+    [named]          Untersuchung der Prioritätenliste
+    [named]          Update Personenliste mit Daten aus Kontaktstoß
+
+DOC047: Dokumentation Lebenserhaltung (Abrechnung) 7.09.28
+  (16 refs: named=15, coded=1)
+    [named]          Abendtoilette
+    [named]          Arztbesuch
+    [named]          Baden gehen
+    [named]          Bearbeitung der Essensdatenbank
+    [named]          Einpacken
+    [named]          Essen bestellen
+    [named]          Friseursbesuch
+    [named]          Frühstück
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEMTTW  Nachtmahl
+    [named]  GEMTZP  Zähne putzen
+    [named]          andere Aktivität
+
+DOC046: Dokumentation Lebenserhaltung (Abrechnung) 10.08.6
+  (15 refs: named=15, coded=0)
+    [named]          Abendtoilette
+    [named]          Arztbesuch
+    [named]          Baden gehen
+    [named]          Bearbeitung der Essensdatenbank
+    [named]          Einpacken
+    [named]          Essen fassen
+    [named]          Friseursbesuch
+    [named]          Frühstück
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEMTTW  Nachtmahl
+    [named]  GEMTZP  Zähne putzen
+    [named]          andere Aktivität
+
+DOC030: Dokumentation der Psychotherapie von Kurt Woloch ab 31
+  (13 refs: named=12, coded=1)
+    [named]          Adventsingen
+    [named]          Arbeit im Bundesrechenzentrum
+    [named]  LEMTAZ  Ausziehen
+    [named]          Baden gehen
+    [named]  PCDASI  Datensicherung
+    [named]          Frühstück
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Gesundenuntersuchung
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]          Stargate
+    [named]          Teamfrühstück
+    [named]          Weihnachtsgeschenke
+
+DOC005: Dokumentation des Ausflugskontos
+  (9 refs: named=8, coded=1)
+    [named]  LEMTAN  Anziehen
+    [named]  WFARAR  Aufräumen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEMTTW  Nachtmahl
+    [named]  PAA1SU  Papiersortierung
+    [named]          Spaziergang
+    [named]          andere Aktivität
+
+DOC006: Dokumentation des Ausflugskontos
+  (9 refs: named=8, coded=1)
+    [named]  LEMTAN  Anziehen
+    [named]  WFARAR  Aufräumen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEMTTW  Nachtmahl
+    [named]  PAA1SU  Papiersortierung
+    [named]          Spaziergang
+    [named]          andere Aktivität
+
+DOC003: Dokumentation des Ausflugskontos Entwicklungsdokument
+  (8 refs: named=7, coded=1)
+    [named]  LEMTAN  Anziehen
+    [named]  WFARAR  Aufräumen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  LEMTTW  Nachtmahl
+    [named]  PAA1SU  Papiersortierung
+    [named]          andere Aktivität
+
+DOC067: Dokumentation zum PC-Kauf Nov.2007
+  (8 refs: named=7, coded=1)
+    [named]  WFARAR  Aufräumen
+    [named]  PCDASI  Datensicherung
+    [named]          Fernsehen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  PAA1SU  Papiersortierung
+    [named]          Produktion einer Radio-Würmchen-Sendung
+
+DOC008: Dokumentation BRZG 11.11.9
+  (7 refs: named=7, coded=0)
+    [named]          Arbeit im Bundesrechenzentrum
+    [named]  KSAAKO  Aufwandserfassung
+    [named]          Jause essen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]          Team-Jour-Fixe
+    [named]          andere Aktivität
+
+DOC009: Dokumentation BRZG 7.6.16
+  (7 refs: named=7, coded=0)
+    [named]          Arbeit im Bundesrechenzentrum
+    [named]  KSAAKO  Aufwandserfassung
+    [named]          Frühstück
+    [named]          Jause essen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]          Teamfrühstück
+
+DOC056: Dokumentation Kauf neues Keyboard und Funkmikrofone
+  (7 refs: named=7, coded=0)
+    [named]          Christbaumverabschiedung
+    [named]  PCDASI  Datensicherung
+    [named]          Keyboard-Übungen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  PAA1SU  Papiersortierung
+    [named]          Weihnachtsgeschenke
+
+DOC066: Dokumentation zum PC-Kauf Nov.2007 7.12.25
+  (7 refs: named=6, coded=1)
+    [named]  PCDASI  Datensicherung
+    [named]          Fernsehen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]  PAA1SU  Papiersortierung
+    [named]          Produktion einer Radio-Würmchen-Sendung
+
+DOC072: Dokumentation Lebensbereich Radio Würmchen 7.9.28
+  (7 refs: named=6, coded=1)
+    [named]  PCDASI  Datensicherung
+    [named]          Fernsehen
+    [named]          Frühstück
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]  LEMTTW  Nachtmahl
+    [named]          Neueinspielungen von analogen Tonträgern
+    [named]          Produktion einer Radio-Würmchen-Sendung
+
+DOC004: Dokumentation des Ausflugskontos Status Quo
+  (6 refs: named=6, coded=0)
+    [named]  LEMTAN  Anziehen
+    [named]  WFARAR  Aufräumen
+    [named]  LEMTTW  Nachtmahl
+    [named]  PAA1SU  Papiersortierung
+    [named]          Spaziergang
+    [named]          andere Aktivität
+
+DOC039: Dokumentation des Kontensystems 14.8.6
+  (6 refs: named=5, coded=1)
+    [named]          Arbeit im Bundesrechenzentrum
+    [named]          Arztbesuch
+    [named]  KSAAKO  Aufwandserfassung
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+
+DOC077: Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten Entwicklungsdokument 9.9.20
+  (6 refs: named=5, coded=1)
+    [named]  KSAAKO  Aufwandserfassung
+    [named]          Baden gehen
+    [named]          Frühstück
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittag essen
+    [named]          Produktion einer Radio-Würmchen-Sendung
+
+DOC068: Dokumentation Chattertreffen JBH Sommer 2010
+  (5 refs: named=4, coded=1)
+    [named]  LEMTAN  Anziehen
+    [named]          Einpacken
+    [named]          Frühstück
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]  LEMEGA  Geld abheben
+
+DOC075: Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten 9.1.2
+  (5 refs: named=5, coded=0)
+    [named]  KSAAKO  Aufwandserfassung
+    [named]          Einpacken
+    [named]          Frühstück
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+
+DOC079: Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten Entwicklungsdokument
+  (5 refs: named=4, coded=1)
+    [named]          Baden gehen
+    [named]          Frühstück
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittag essen
+    [named]          Produktion einer Radio-Würmchen-Sendung
+
+DOC014: Dokumentation des Eltern-Kontos 10.10.30
+  (5 refs: named=5, coded=0)
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]          Weihnachtsgeschenke
+
+DOC015: Dokumentation des Eltern-Kontos 10.10.30
+  (5 refs: named=5, coded=0)
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]          Weihnachtsgeschenke
+
+DOC029: Dokumentation aktueller Probleme 11.7.29
+  (5 refs: named=4, coded=1)
+    [named]          Baden gehen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mario Bros.
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+
+DOC031: Dokumentation Gesundheitskonto 11.11.9
+  (5 refs: named=5, coded=0)
+    [named]          Abendtoilette
+    [named]          Arztbesuch
+    [named]          Baden gehen
+    [named]          Spaziergang
+    [named]          Zahnarztbesuch
+
+DOC002: Dokumentation des Ausflugskontos 10.8.27
+  (4 refs: named=4, coded=0)
+    [named]  LEMTAN  Anziehen
+    [named]  LEMTTW  Nachtmahl
+    [named]          Spaziergang
+    [named]          andere Aktivität
+
+DOC078: Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten Entwicklungsdokument 9.9.26
+  (4 refs: named=3, coded=1)
+    [named]  KSAAKO  Aufwandserfassung
+    [named]          Einpacken
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          andere Aktivität
+
+DOC024: Dokumentation Finanzverwaltung 7.5.29
+  (4 refs: named=4, coded=0)
+    [named]  LEMTAN  Anziehen
+    [named]          Arztbesuch
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+
+DOC017: Dokumentation Fahrzeug 10.9.22
+  (4 refs: named=4, coded=0)
+    [named]  KSAAKO  Aufwandserfassung
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]          Spaziergang
+
+DOC038: Dokumentation des Kontensystems 8.9.27
+  (4 refs: named=3, coded=1)
+    [named]          Arbeit im Bundesrechenzentrum
+    [named]          Arztbesuch
+    [named]  KSAAKO  Aufwandserfassung
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+
+DOC040: Dokumentation des Kontensystems 8.9.27
+  (4 refs: named=3, coded=1)
+    [named]          Arbeit im Bundesrechenzentrum
+    [named]          Arztbesuch
+    [named]  KSAAKO  Aufwandserfassung
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+
+DOC076: Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten 9.9.21
+  (4 refs: named=4, coded=0)
+    [named]  KSAAKO  Aufwandserfassung
+    [named]          Einpacken
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+
+DOC057: Dokumentation Musiker 10.8.29
+  (4 refs: named=4, coded=0)
+    [named]  LEMTAZ  Ausziehen
+    [named]          Einpacken
+    [named]          Keyboard-Übungen
+    [named]  LEMTTW  Nachtmahl
+
+DOC058: Dokumentation Musiker
+  (4 refs: named=4, coded=0)
+    [named]  LEMTAZ  Ausziehen
+    [named]          Einpacken
+    [named]          Keyboard-Übungen
+    [named]  LEMTTW  Nachtmahl
+
+DOC090: Dokumentation unterstützende Aktivitäten Radio Würmchen Entwicklungsdokument
+  (4 refs: named=3, coded=1)
+    [named]  PCDASI  Datensicherung
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Neueinspielungen von analogen Tonträgern
+    [named]          Produktion einer Radio-Würmchen-Sendung
+
+DOC028: Dokumentation aktueller Probleme 10.10.2
+  (4 refs: named=4, coded=0)
+    [named]          Frühstück
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]          Teamfrühstück
+
+DOC069: Dokumentation Datenbank Radio Würmchen 10.9.25
+  (3 refs: named=2, coded=1)
+    [named]  WFARAR  Aufräumen
+    [named]          Einpacken
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+
+DOC070: Dokumentation Datenbank Radio Würmchen 7.10.1
+  (3 refs: named=2, coded=1)
+    [named]  WFARAR  Aufräumen
+    [named]          Einpacken
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+
+DOC054: Dokumentation Literatur 8.10.24
+  (3 refs: named=2, coded=1)
+    [named]  KSAAKO  Aufwandserfassung
+    [named]          Fernsehen
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+
+DOC001: Dokumentation des Amiga-Kontos 11.1.26
+  (3 refs: named=3, coded=0)
+    [named]  PCDASI  Datensicherung
+    [named]          Einpacken
+    [named]          Fernsehen
+
+DOC065: Dokumentation zum Kauf eines tragbaren PC's Nov.2011
+  (3 refs: named=2, coded=1)
+    [named]  PCDASI  Datensicherung
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Team-Jour-Fixe
+
+DOC048: Dokumentation Literatur 10.8.28
+  (3 refs: named=3, coded=0)
+    [named]          Frühstück
+    [named]  PAA1SU  Papiersortierung
+    [named]          Spaziergang
+
+DOC049: Dokumentation Literatur 11.10.19
+  (3 refs: named=3, coded=0)
+    [named]          Frühstück
+    [named]  PAA1SU  Papiersortierung
+    [named]          Spaziergang
+
+DOC050: Dokumentation Literatur 11.11.12
+  (3 refs: named=3, coded=0)
+    [named]          Frühstück
+    [named]  PAA1SU  Papiersortierung
+    [named]          Spaziergang
+
+DOC051: Dokumentation Literatur 11.6.19
+  (3 refs: named=3, coded=0)
+    [named]          Frühstück
+    [named]  PAA1SU  Papiersortierung
+    [named]          Spaziergang
+
+DOC052: Dokumentation Literatur 11.6.4
+  (3 refs: named=3, coded=0)
+    [named]          Frühstück
+    [named]  PAA1SU  Papiersortierung
+    [named]          Spaziergang
+
+DOC053: Dokumentation Literatur 11.8.3
+  (3 refs: named=3, coded=0)
+    [named]          Frühstück
+    [named]  PAA1SU  Papiersortierung
+    [named]          Spaziergang
+
+DOC055: Dokumentation Literatur 9.8.14
+  (3 refs: named=3, coded=0)
+    [named]          Frühstück
+    [named]  PAA1SU  Papiersortierung
+    [named]          Spaziergang
+
+DOC025: Dokumentation Finanzverwaltung
+  (3 refs: named=3, coded=0)
+    [named]          Arztbesuch
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+
+DOC043: Dokumentation des Mittagessens an Arbeitstagen 11.11.18
+  (3 refs: named=2, coded=1)
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+
+DOC044: Dokumentation des Mittagessens an Arbeitstagen 8.10.23
+  (3 refs: named=2, coded=1)
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+
+DOC045: Dokumentation des Mittagessens an Arbeitstagen 8.10.5
+  (3 refs: named=2, coded=1)
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+
+DOC060: Dokumentation des Myslik-Kontos 11.1.1
+  (3 refs: named=3, coded=0)
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+    [named]          Weihnachtsgeschenke
+
+DOC036: Dokumentation Karaoke-Videos 10.10.9
+  (3 refs: named=3, coded=0)
+    [named]          Abendtoilette
+    [named]          Fernsehen
+    [named]  LEMTTW  Nachtmahl
+
+DOC022: Dokumentation Finanzverwaltung 13.5.18
+  (2 refs: named=2, coded=0)
+    [named]  LEMTAN  Anziehen
+    [named]          Arztbesuch
+
+DOC023: Dokumentation Finanzverwaltung 14.12.26
+  (2 refs: named=2, coded=0)
+    [named]  LEMTAN  Anziehen
+    [named]          Arztbesuch
+
+DOC012: Dokumentation Computerspiele 10.9.15
+  (2 refs: named=2, coded=0)
+    [named]  PCDASI  Datensicherung
+    [named]          Spaziergang
+
+DOC062: Dokumentation PC 10.12.28
+  (2 refs: named=2, coded=0)
+    [named]  PCDASI  Datensicherung
+    [named]          Fernsehen
+
+DOC063: Dokumentation PC 10.9.11
+  (2 refs: named=2, coded=0)
+    [named]  PCDASI  Datensicherung
+    [named]          Fernsehen
+
+DOC064: Dokumentation PC 11.7.18
+  (2 refs: named=2, coded=0)
+    [named]  PCDASI  Datensicherung
+    [named]          Fernsehen
+
+DOC089: Dokumentation unterstützende Aktivitäten Radio Würmchen Entwicklungsdokument 9.9.24
+  (2 refs: named=1, coded=1)
+    [named]  PCDASI  Datensicherung
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+
+DOC082: Dokumentation Radio Würmchen Karaoke 10.8.14
+  (2 refs: named=2, coded=0)
+    [named]          Einpacken
+    [named]  LEMTTW  Nachtmahl
+
+DOC093: Dokumentation Radio hören 11.11.9
+  (2 refs: named=2, coded=0)
+    [named]          Geschirr
+    [named]  LEMEGA  Geschirr abwaschen
+
+DOC042: Dokumentation des Mittagessens am Arbeitsplatz (Kurzfassung)
+  (2 refs: named=2, coded=0)
+    [named]          Mittagesse
+    [named]  LEMEGA  Mittagessen
+
+DOC083: Dokumentation Radio Würmchen Karaoke Entwicklungsdokument 10.8.14
+  (2 refs: named=2, coded=0)
+    [named]          Fernsehen
+    [named]  LEMTTW  Nachtmahl
+
+DOC021: Dokumentation der Veranlagung vom Oktober 2009
+  (2 refs: named=2, coded=0)
+    [named]          Arztbesuch
+    [named]          Bearbeitung der Essensdatenbank
+
+DOC026: Dokumentation der Veranlagung vom Oktober 2009
+  (2 refs: named=2, coded=0)
+    [named]          Arztbesuch
+    [named]          Bearbeitung der Essensdatenbank
+
+DOC013: Dokumentation zu Gate-Empire
+  (2 refs: named=1, coded=1)
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Stargate
+
+DOC037: Dokumentation Kauf eines Funkmikrofons
+  (2 refs: named=1, coded=1)
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+    [named]          Weihnachtsgeschenke
+
+DOC019: Dokumentation der Veranlagung vom Juli 2011
+  (1 refs: named=1, coded=0)
+    [named]  BRALAB  Abschluss
+
+DOC020: Dokumentation der Veranlagung vom Juli 2011
+  (1 refs: named=1, coded=0)
+    [named]  BRALAB  Abschluss
+
+DOC041: Dokumentation der Wohnungsverwaltung 13.7.28
+  (1 refs: named=1, coded=0)
+    [named]  LEMTAN  Anziehen
+
+DOC097: Dokumentation der Wohnungsverwaltung 8.9.28
+  (1 refs: named=1, coded=0)
+    [named]  LEMTAN  Anziehen
+
+DOC084: Dokumentation Radio Würmchen Karaoke Status Quo
+  (1 refs: named=1, coded=0)
+    [named]  LEMTTW  Nachtmahl
+
+DOC098: Dokumentation zur Papiersortierung November 2007
+  (1 refs: named=1, coded=0)
+    [named]  PAA1SU  Papiersortierung
+
+DOC018: Dokumentation Fahrzeug 11.11.9
+  (1 refs: named=1, coded=0)
+    [named]          Spaziergang
+
+DOC061: Dokumentation Orange 94.0 10.9.19
+  (1 refs: named=1, coded=0)
+    [named]          Fernsehen
+
+DOC092: Dokumentation Fernsehen 10.10.9
+  (1 refs: named=1, coded=0)
+    [named]          Fernsehen
+
+DOC035: Dokumentation des Karaoke-Sänger-Kontos 10.10.30
+  (1 refs: named=0, coded=1)
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+
+DOC080: Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten Status Quo
+  (1 refs: named=0, coded=1)
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+
+DOC081: Dokumentation Musikversorgung Radio Würmchen unterstützende Aktivitäten Status Quo
+  (1 refs: named=0, coded=1)
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+
+DOC088: Dokumentation unterstützende Aktivitäten Radio Würmchen 9.9.28
+  (1 refs: named=0, coded=1)
+    [coded]  RWARTE  Funktionstest div. Kopfhörer (10')
+
+DOC033: Dokumentation des Hitparadenlistungskontos 11.1.23
+  (1 refs: named=1, coded=0)
+    [named]          Keyboard-Übungen
+
+
+UNDOCUMENTED TASKS
+========================================================================
+Total undocumented: 773
+
+-- IN PLANNER (active, in_planner_csv=True) --
+  BREPGM        Abhalten BKDD Standup Meeting
+  BREPGM        Abhalten BKDD Standup Meeting BRZ
+  BREPGM        Abhalten PKT Projekt Jour Fixe
+  CSGAUM        Analyse Disassembly Astro Bomber
+  CSGAUM        Analyse Disassembly Tour de France
+                Anfrage an S-Bausparkasse wg. alten Beraterunterlagen von Mama und Papa (?)
+  RWMPMP        Anhören RW KI
+  RWMPAR        Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer
+  RWMPSE        Anhören RW-Prg. mit Sati + Akif Ersoy
+  RWMPSE        Anhören RW-Prg. mit Sati Ersoy
+  RWMPMP        Anhören Radiosender
+  RWMPMP        Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer
+  RWMPMP        Anhören Radiosender / Tonträger / Ansehen Youtube-Videos
+  RWMPMP        Ansehen / Kommentieren Youtube-Videos
+  RAMAPI        Antwort Pirni
+  BREPDZ        Arbeitszeit absolvieren (Nachmittag)
+  BREPDZ        Arbeitszeit absolvieren (Vormittag)
+  GEGYAB        Aufhängen Badewäsche
+                Auflistung Ordner im Wohnzimmer
+                Auflistung Papierstöße
+  LEMTAU        Aufstehen, Rasierer fasssen
+                Ausmisten Wohnungsunterlagen Papa (Rechnungen nur 10 Jahre lang aufheben) (60', Pri. 1,8)
+  LEEPAU        Auspacken Essensplan
+  LEMTAR        Ausputzen Rasierer
+                Aussortieren weiterer Hausrat
+  RWMPMP        Aussuchen Radiosender
+                Bearb. Essensplan (Einlesen Einkaufsliste) LEEEL
+  LEEPEP        Bearb. Essensplan (Eintragen Protokoll)
+  LEEPGE        Bearb. Essensplan (Ereignisse / gegessen / zu essen)
+  LEEPKO        Bearb. Essensplan (Kontrolle / zu essen / Korrektur)
+  LEEPGE        Bearb. Essensplan (Nährwerte)
+  LEEPPR        Bearb. Essensplan (Protokoll)
+  LEEPUH        Bearb. Essensplan (Update Händlerangebote)
+  LEEPRO        Bearb. Essensplan (Update Rotation)
+  LEEPUW        Bearb. Essensplan (Update Wärme / Gewicht)
+  LEEPVO        Bearb. Essensplan (Vorschläge Strake)
+  LEEPLS        Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste)
+  LEEPLS        Bearb. Essensplan (gegessen / Lokalsuche / Konsumation)
+  LEEPEP        Bearb. Essensplan (gegessen, zu essen)
+  LEEPEP        Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf)
+  LEEPUH        Bearb. Essensplan (Änderung Sollwerte)
+  BREPGM        Bearb. Essensplan im BRZ
+  FIBGGB        Bearb. Geldbörse
+  FZSCLI        Bearb. Liste Scooterfahrten
+  MUOWAS        Bearb. Liste auswendig singbarer Titel
+  RWOWCH        Bearb. Ohrwürmer
+  MUOWAS        Bearb. Ohrwürmer (Liste auswendig singbarer Titel)
+  RWOWTT        Bearb. Ohrwürmer (Nachfassen aus alten Charts)
+  MUOWTE        Bearb. Ohrwürmer (Texte)
+  RWOWDU        Bearb. Ohrwürmer (durchgenommene)
+  RWOWDN        Bearb. Ohrwürmer (durchzunehmende)
+  RWMPAR        Bearb. Playlists
+  RASCSW        Bearb. Senderwertungen
+  FZSCLI        Bearb. gegangene Strecken
+  RWOMCH        Bearb.Ohrwürmer
+  RWOWDC        Bearb.Ohrwürmer (durchzunehmende aus Charts)
+  RWOWDL        Bearb.Ohrwürmer (durchzunehmende aus Liste)
+  RWOWDN        Bearb.Ohrwürmer (durchzunehmende)
+  RWOWTT        Bearb.Ohrwürmer(Nachfassen aus alten Charts)
+  MUOWDU        Bearb.Ohrwürmer(durchgenommen)
+  PATATA        Bearbeitung Aufgaben zu Papa's Pflege
+  PATATA        Bearbeitung Aufgaben zu Papa's Pflege (10' +)
+  GELICM        Bearbeitung Buch Champion's Mindset
+  FIAKBK        Bearbeitung Börsenkurse
+  FIAKBK        Bearbeitung Börsenkurse / Aktienhandel
+                Bereinigung Papa's Mails (Abmelden aller Newsletter, Löschen aller Mails)
+  GEBMBM        Blutdruck messen (Forderung von Renate)
+  LEMTTW        Cashews fassen
+  RWREVK        Disposition über getestete, abzugebende Dinge aus meinem Keller
+  GEDOMA        Dokumentation Grundsätze der Ma'at
+  LEMTTW        Doppelkeks fassen
+  BREPZE        Eingabe Teleworking SAP
+  BREPZE        Eingabe Zeiterfassung SAP
+  LEEKBI        Einkauf (?)
+  LEEKBI        Einkauf (BILLA Ederg.) / Laufen
+  BREPZE        Einkauf Brot/Weckerln/süße Stücke
+  BREPZE        Einkauf Brot/Weckerln/süße Stücke (Der Mann Wien Mitte)
+  BREPZE        Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi)
+  WFPUEL        Einlass / Koordination Sati
+  WFPUEL        Einlass / Koordination Sati Ersoy
+  RWMPEP        Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-Stick
+  BRFAEP        Einpacken Handy, Brille, Kabel
+  BRFAEP        Einpacken Handy, Brille, Kabel (inkl. Laptop!), Handynetzteil, Power Bank, Headset, USB-Stick, Geld
+  RWRUEP        Einpacken Musik für Fahrt inkl. Player + Akkus
+  RWMPEP        Einpacken RW-Prg. / Essensplan / Sicherung USB-Stick
+  LEEKEP        Einpacken für Einkauf (Essensdatenbank, Rucksack, Sackerln, Altbatterien, Notebook, 25%-Pickerln, USB-Stick)
+  GEGYES        Einpacken für Schwimmbad
+  CSAAZE        Eintragen Zeiten Atariage
+                Ergänzung Personendatenbank um Daten aus Kandidatenliste für Klassentreffen 2023 (sofern aktuell)
+  KSAEEG        Ermittlung Gesamtzeiten
+  KSAEEG        Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt)
+                Erstellung Playback mit Vocal Remover
+  BRFAFA        Fahrt BRZG
+  LEMTFR        Frühstücken, dabei Tee machen, Bearb. Werbeprospekte
+  LEMTFR        Frühstücken, dabei Tee machen, Bearb. Werbeprospekte, Prüfung Terrasse
+  LEMTFR        Frühstücken, dabei Tee machen, Einpacken für BRZ
+  LEMTFR        Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte
+  LEMTFR        Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte, Prüfung Terrasse
+  LEMTFR        Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Einpacken für BRZ
+  PCARTA        Funktionstest div. Mäuse (10')
+  PCARTA        Funktionstest div. Tastaturen (10')
+  GELIFT        Führung Tagebuch, um schmerzhafte Situationen zu verarbeiten
+  BRFAHF        Heimfahrt vom BRZ - Fahrt zu U4 Spittelau
+  BRFAHF        Heimfahrt vom BRZ inkl. Laufen
+  BRALAB        Herunterfahren, Einpacken, Anziehen
+  WFRECS        Hineinstellen Computerzeitschriften auf Willhaben.at (um Platz zu schaffen)
+  LENATW        Holundersaft fassen
+  LEMTHW        Häferl waschen
+  LEMTHW        Häferl waschen / Hustenbonbon fassen
+  LEMTHW        Häferl waschen, Hustenbonbon fassen
+  LEMTJF        Kokosmilch Drink fassen
+  PAWFAF        Kommunikation mit Judith
+  PAWFAF        Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung
+  RAMWKO        Kontrolle Programm Plattenkiste
+  CSGAUM        Korrektur The Grindy Adventure
+  RAMABS        Mailantwort an Bernd Seiser
+  INMAPR        Mailprüfung
+  LEMEME        Mittagessen (?)
+  LEMESE        Mittagessen (von Sati gekocht)
+  LEMEBR        Mittagspause BRZG
+  LEMTTW        Mund spülen / Teller waschen / Getränk fassen
+                Müllentsorgung LEMÜMÜ
+  PAWFAF        Nachbereitung House Warming Party (Sprachnachricht an Judith)
+  LENAJA        Nachmittagsjause fassen
+  LEMEGA        Nachspeise fassen
+  LENANA        Nachtmahl fassen
+  WFPAAP        Papiersortierung (Altpapier)(10' +)
+  WFPAWP        Papiersortierung (gelesene Werbeprospekte)
+  WFPAEK        Papiersortierung (hereingekommene Papiere)
+  BREPGM        Planung BRZ
+  BREPGM        Planung im BRZ
+  LEMTRA        Rasieren, dabei Planung
+  LEMTRA        Rasieren, dabei Planung (C#-Programm)
+  LEMTRA        Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen)
+  LEMTRA        Rasieren, dabei div. Surfen, Bearb. Essensplan
+  LEMTRW        Reinigung Waschmuschel
+  RWMPSE        Scan / Wunsch Andon FM
+  RWMPSE        Scan Andon FM
+  RWRSMR        Scan Arabella Magic
+  RWMPMP        Scan Backlink Broadcast
+  RWMPAR        Scan Grok'n Roll
+  RWRSMR        Scan OE24 Radio
+  RWMPMP        Scan OpenAIR
+  RWRSMR        Scan ROck Antenne Österreich
+  RWYTPL        Scan RW KI
+  RWMPMP        Scan Radio Arabella / Bearb. Playlist
+  RWMPAR        Scan Radio PM Events
+  RWRSPD        Scan Radio Plattenkiste (Samstag-Abend Wunschkonzert)
+  RWMPMP        Scan Stadtradio 1
+  RWMPMP        Scan Thinking Frequencies
+  RWMPMP        Scan i101 Radio
+                Sicherung Bilder aus Papa's neuerem Handy
+                Sicherung Bilder aus großer Karte von Digitalkamera
+                Sicherung Bilder aus kleiner Karte von Digitalkamera
+  LEMTTW        Soja-Drink fassen
+  CSGAUM        Spielen Evony - The King's Return
+  CSGAUM        Spielen Forge of Empires
+                Spielen Kreuzungs-FGPA
+  CSGAUM        Spielen State of Survival
+  CSGAUM        Spielen Taonga Island Farm
+                Sprachnachricht an Judith (zu Bruch mit Ersoy)
+                Sprachnachricht an Judith (zu Entrümpelung und Renovierung)
+                Sprachnachricht an Judith (zu Ressourcen sparen (Willhaben))
+                Sprachnachricht an Judith (zu Unterschied zwischen geerbtem und eigenem Geld)
+                Sprachnachricht an Judith (zu Zeitmanagement und -mangel)
+  BRTWGF        Start Teleworking BRZG
+  MUOWSP        Starten Youtube-Playlist
+  RAMWSP        Suche Musikwunsch für Plattenkiste
+  LENANA        Supradyn / Nachtmahl fassen
+  RWMPAR        Surfen / Scan Andon FM
+  RWYTPL        Surfen Andon FM
+  LENATW        Tee fassen
+  LENAJA        Tee zubereiten
+  LENATW        Teller waschen / Getränk + Biovital fassen
+  LENATW        Teller waschen / Getränk + Supradyn fassen
+  LEMTTW        Teller waschen / Getränk fassen
+  LEMTTW        Teller waschen / Granatapfelsaft fassen
+  PAPERL        Update Personenliste aus Rücklauf von Einladungen Begräbnis
+  PAPERL        Update Personenliste aus Rücklauf von Einladungen für House Cooling Party
+                Update Personenliste mit Daten aus Kandidatenliste (für Begräbnis)
+  WFPUZA        Verabschiedung / Zahlung Sati Ersoy
+  RWREAG        Verkauf / Vergabe kaputter Geräte + Computerzeitschriften auf Willhaben.at
+  LEEKEL        Vorbereitung Einkaufsliste
+  LENANA        Vorbereitung Nachtmahl
+  RWYTPL        Vorbereitung Playlist für Hören beim Frühstück
+  RWYTPL        Vorbereitung Playlist für Hören unter der Dusche
+  MUOWPL        Vorbereitung Playlist für Singen unter der Dusche
+  LEMTWC        WC / Windeltest
+  LEMEGA        Wasser fassen
+  WFREPR        Weitere Prüfung Geräte aus meinem Keller / meiner Wohnung (Vorbereitung für Entsorgung)
+  LEMTTW        Weiteren Tee fassen
+  RAMWWW        Wunschmail für Samstag-Abend Wunschkonzert
+  BREPZS        Zeiten sammeln
+  LENANA        Zubereitung Fischstäbchen
+  LENANA        Zubereitung Nachtmahl
+  LEMTTW        Zubereitung Tee
+  LEAZZF        Zähne fluoridieren
+                ausfährliche Mail an Renate wg. langem Telefonat (siehe Themen)
+  RWMPMP        div. Surfen / Ansehen Youtube-Videos
+                im Bett
+                ungeplante Aktivität (Sprachnachrichten o.ä.)
+  LEMTTW        weiterer Tee fassen
+                Überprüfung Hotmail-Sicherheitsüberprüfung (Chello?)
+  WFUZUS        Übersiedeln (Mitteilung Adresswechsel)
+  CSAAZE  CS    Posting Atariage
+  LEPOPO  MU    Auspacken Teamgrillen
+          RA    Ansehen ZiB 1
+  RATVZI  RA    Ansehen ZiB 1 + Wetter
+  RWRSMR  RA    Scan Museumsradio
+  RWMPMP  RA    Scan Radio Arabella
+  RWMPAR  RA    Scan Stadtradio Krems
+  RWMPAR  RA    Scan Youtube
+  RWMPAR  RW    Anhören RW-Prg.
+  RWMPMP  RW    Anhören RW-Programm
+  RWRUEP  RW    Einpacken Musik für Fahrt
+  RWMPAR  RW    Scan Kronehit
+  RWMPMP  RW    Scan Mark Dennison Livestream
+  (217 tasks)
+
+-- NOT IN PLANNER --
+                -1
+                0,25
+                0,5
+                1
+  LEMEAE        Anfrage Ersoy Mittagessen
+                Anschaffung eines RAID-Controllers
+  RAYTTL        Ansehen Youtube-Videos (the Lamb)
+                Aufruf um Geldspende für WhyT / Net4u
+                Aufsuchen eines Psychologen
+                Ausborgen von Karaoke-CD's für eine Einlage bei einer Party am 16.5.2007
+                Ausmachen Termin Kontrolle Zahnarzt
+  WFREER        Aussortieren und Wegwerfen seit 17.5.2022 nicht verwendeter Kleidung
+                Auswertung Blutdruckliste (Dr. Hariri)
+                Auswertung Gesundenuntersuchung (Dr. Hariri)
+                Bearb. Antrittsbericht Erw.vertretung Papa
+  LEEPAN        Bearb. Essensplan (Aufwertung nicht gekommene)
+  LEEPFP        Bearb. Essensplan (Lebensmittel ohne forcierte Preise)
+  RWOWCH        Bearb. Ohrwürmer (Charts)
+  RWOMCH        Bearb.Ohrwürmer(Charts)
+                Befundbesprechung AKH (Neurochirurgische Ambulanz)
+  LENADW        Besuch Dixi-WC Jägerstr.
+  LENADT        Besuch Dixi-WC Ruthnergasse
+  LENADT        Besuch Dixi-WC Siemensstraße
+                Besuch des Favoritner Kultur-Kellers mit Live-Karaoke am 12.7.2007 (eventuell unter Nichtausnutzung des günstigen Wegs)
+                Besuch von Theaterstück in Volksheim
+                Einkauf bei Ströck
+                Einladung meiner Eltern zum Essen zu meinem Geburtstag
+                Einladung zu Martha's Geburtstagsfeier in Laxenburg am 24.8.2007
+                Einladung zu einer Familienfeier (durch Papa)
+                Einpacken Blutdruckmeßgerät, Befund MRT für Dr. Hariri
+                Einpacken Blutdruckmeßgerät, evtl. Befunde für Dr. Hariri
+                Einpacken für Nachbarschaftsfest
+                Einstellung der Dokumentationen
+                Einstellung der Essensdatenbank
+                Einziehung des Videos über das Teambuilding-Seminar im BRZ von YouTube
+                Fahrt von AKH ins BRZ
+                Fahrt zu Befundbesprechung AKH (Neurochirurgische Ambulanz)
+                Fahrt zu Klassentreffen (Brendl)
+                Fahrt zu Nachbarschaftsfest
+                Finanzierung eines Lokals, das Tina eröffnen will
+                Gesundenuntersuchung (7:30)
+  BRFAHD        Heimfahrt von Dixi-WC Jägerstr.
+                Heimfahrt von Klassentreffen
+                Heimfahrt von Nachbarschaftsfest Seestadt
+                JS99
+                Klassentreffen (Brendl)
+                Kontrolle Augenarzt (Dr. Graziadei) (9:00)
+                Kontrolle Augenarzt (Dr. Graziadei) (9:10)
+                Korrektur The Grindy Adventure Kap.
+  PADOTO        Korrekturlesen Dokumentation Tod Papa
+                Kurt soll "Über 7 Brücken mußt Du geh'n" singen
+                Kurt soll sich mit Windows Movie Maker beschäftigen
+                Kurt soll sich mit YouTube beschäftigen
+                Kurt soll von zu Hause ausziehen
+                Kurt und Elfi sollen "A whole new world" singen
+                Kurt+Elfi solle "Endless love" singen
+  GEGYLD        Laufen (Dixi-WC Ruthnergasse)
+  GEGYLD        Laufen (Dixi-WC Siemensstraße)
+                Laufen (nach Augenarzt)
+  GELADW        Laufen Dixi-WC Jägerstr.
+  WFSBMJ        Meldung Sozialbau Jalousienschaden
+  LEMEME        Mittagessen fassen
+                Nachbarschaftsfest Seestadt inkl. Auf- und Abbau
+                Nichtbesuch bzw. Berücksichtigung der "Flaute" von Cafe Royal
+                Produktion eines Videos zu "Read 'em and weep" von Barry Manilow
+                Produktion eines neuen Liedes "Bootsfahrt"
+                Reinigung oder Ersatz der Tastatur des PC
+                Rückbau Nachbarschaftsfest Seestadt
+                Scan Doggo live
+                Surfen Bumper Car XL
+                Untersuchung Betriebssystem Creativision
+  PAVEGF        Vorbereitung Geburtstagsfeier
+  WFREVG        Vorbereitung House Warming Party
+                Warten mit der Psychotherapie, bis die Dokumentationen fertig sind
+                Wegräumen oder Wiederherstellung der Küchenuhr
+                Wegwerfen eines eventuell unnötigen Papieres
+                Wiederbesuch des Lokals "Jonas"
+  LEMEME        Zubereitung Mittagessen
+                Zusammenstellung Einkaufsliste für Ströck
+                etwas zum Muttertag unternehmen
+  GEMNMN        evtl. Medikamente nehmen
+                kaltes Mittagessen fassen
+                langsame Loslösung von den Eltern (statt schnelle)
+                weitere Papiersortierung (tw. mit Judith?)
+          AU    Auskundschaftung Bauten südlich Siemens-Gelände
+          AU    Auskundschaftung Kleingartenanlage Transit
+          AU    Besuch Beer and Songs (nach 1. Besuch)
+          AU    Besuch Bier&Brot Karaoke (Stand 28.2.2015)
+          AU    Besuch Donauinselfest
+          AU    Besuch Edmund Herzig
+          AU    Besuch Erich's Karaoke (14. Bezirk)
+          AU    Besuch Erich's Karaoke (Prater) (aktuell)
+          AU    Besuch Geburtstagsfeier Erwin's Schwestern
+          AU    Besuch Gerro's Karaoke und Musikclub (Vorkalk.) (Einpack. 19:35)
+          AU    Besuch Karaoke Club Fragezeichen (Nachkalk. 29.2.2012)
+          AU    Besuch Karaoke Favoritner Kultur-Keller (Di.)
+          AU    Besuch Karaoke Inseltreff Barbados (Vorkalkulation)
+          AU    Besuch Karaoke Kais Asian Food (Gürtel)
+          AU    Besuch Karaoke Kistlalm (Vorkalkulation)
+          AU    Besuch Karaoke MAYA (Vorkalkulation)
+          AU    Besuch Karaoke Mai Kai
+          AU    Besuch Karaoke Ro:ses (Vorkalkulation)
+          AU    Besuch Karaoke Rotunde (nach 1.8.2014)
+          AU    Besuch Karaoke Schutzhaus (Stand 10.3.2012)
+          AU    Besuch Karaoke Sing your song (Eschenbachg.)
+          AU    Besuch Karaoke Strebersdorfer Platz'l
+          AU    Besuch Karaoke Subway (19:50 Beginn Einpacken)
+          AU    Besuch Karaoke Sue & Laune
+          AU    Besuch Karaoke Suppentopf (laut div. Nachkalk. komplett)
+          AU    Besuch Karaoke Sylvesterpfad
+          AU    Besuch Karaoke Thego
+          AU    Besuch Karaoke Tivoli
+          AU    Besuch Karaoke-Club (Cafe Kriemhild)
+          AU    Besuch Karaoke4You (nach 1. Besuch)
+          AU    Besuch Liederabend Kagraner Platz
+          AU    Besuch Live-Karaoke Favoritner Kultur-Keller
+          AU    Besuch Nico's Karaoke
+          AU    Besuch Puls4-Show-Aufzeichnung
+          AU    Besuch Rockpub
+          AU    Besuch Terrassencafe Erdberg
+          AU    Besuch Weihnachtsausstellung (Rathaus)
+          AU    Besuch von Christkindlmärkten
+          AU    Druck Einladung für Puls4-Show-Aufzeichnung
+          AU    Getränk am Lagerfeuer, EInladung für Johnny Hanousek, Georg Richter, Erwin WOloch (?), CHristian Rolly, Alexander Pernold, Sabina Schuneritz, Gerry Milton, Alois Deutsch, Sigrid Schweinhammer (?), siehe https://www.facebook.com/kurt.woloch/posts/10159510369753413?comment_id=10159525908668413
+          CS    2 Postings Zeiten Atariage
+          CS    Amazon Women Spectrum
+          CS    Annahme Facebook-Requests
+          CS    Ansehen Maps Moonwalker
+          CS    Ansehen alte CS-Projekte
+          CS    Asteroids
+          CS    Besuch des TI-99-Treffens (abgerechnet bis März 2014)
+          CS    C-64 Juice
+          CS    Catloaf2600
+          CS    Download / Versuche Speccy
+          CS    Download Amazon Women
+          CS    Fortsetzung der Arbeit an Tetrinet für G7400
+          CS    G-Rally
+          CS    Hero Wars
+          CS    JSSpeccy Amazon Women
+          CS    Lesen Anleitung Solar Shuttle
+          CS    MAME Channel F Centipede
+          CS    MAME Channel F Pac-Man
+          CS    MAME Jr. Pac-Man
+          CS    MAME Jr., Pac-Man
+          CS    MAME Klax
+          CS    MAME Lode Runner
+          CS    MAME Mario Bros.
+          CS    MAME Masio Bros.
+          CS    MAME Pengo
+          CS    MAME Puzzled
+          CS    MAME Time Pilot '84
+          CS    MESS Colecovision Steamroller
+          CS    MESS MSX Time Pilot
+          CS    MESS Spectrum Amazon Women
+          CS    Nachlesen Source Code Pole Position Channel F
+          CS    Plaudern mit Xandi's Schwester
+          CS    Speccy Amazon Women
+          CS    Spielen Spacebirdz
+          CS    Stella Alligator people
+          CS    Stella Kung Fu Master
+          CS    Stella Oystron
+          CS    Stella Smurf
+          CS    Surfen / Posting AtariAge
+          CS    Untersuchung Pole Position Track Data
+          CS    VG5000 Tortues
+          CS    VICE
+          CS    VICE Action Fighter
+          CS    VICE Airwolf
+          CS    VICE Amazon Women
+          CS    VICE Aquantor
+          CS    VICE C-64 Juice
+          CS    VICE Joust
+          CS    VICE Lode Runner
+          CS    VICE Space-Pilot
+          CS    VICE Space-Pilot II
+          CS    VICE Super Pipeline
+          CS    Verbesserung Katzenspiel FreeBasic (Entfernen Grafik-DLL) (?)
+          CS    div. Computerspiele
+          CS    kommentiertes Disassembly / Hackversuch Pole Position (C-64) (?)
+          FZ    Analyse Kartenaufbau Link
+          FZ    Anmeldung bei Link
+          FZ    Aufstellen 2 Scooter
+          FZ    Ausborgen E-Rad
+          FZ    Ausborgen E-Roller
+          FZ    Ausborgen Segway (Praterstern)
+          FZ    Ausfüllen Umfrage TIER
+          FZ    Autoririsierung Kreditkarte für 3D Secure-Zahlungen
+          FZ    Bearb. Koordinaten Link
+          FZ    Bearb. Koordinaten Link / Tier
+          FZ    Bearb. Koordinaten Tier
+          FZ    Bearb. Koordinaten Tier / LINK
+          FZ    Bearb. Koordinaten Tier / Update Scooterauswertung
+          FZ    Bearb. Scooterkoord.
+          FZ    Bearb. Scooterkoordinaten
+          FZ    Beobachtung Kinderfahrzeug Spielplatz
+          FZ    Beschwerde von Kindern über Pädephilie
+          FZ    Besorgung Fahrscheine
+          FZ    Experiment Portable John
+          FZ    Experiment Travel John
+          FZ    Fahrt / Rückfahrt Zahnarzt mit TIER-Scooter
+          FZ    Fahrt TIER-Scooter
+          FZ    Fahrt TIER-Scooter zu Urologe+zurück
+          FZ    Fahrt Tier-Scooter / Jump-Bike
+          FZ    Fahrt mit Lime-Scooter Rennweg
+          FZ    Fahrt mit RC-Gabelstapler
+          FZ    Fahrt mit ferngesteuertem Auto (Stand 22.9.2010)
+          FZ    Fahrt zu DZU mit TIER-Scootern
+          FZ    Fahrten mit TIER-Scooter
+          FZ    Freischaltung Klar-App
+          FZ    Heimfahrt mit LINK-Scooter
+          FZ    Heimfahrt von DZU tw. Mit TIER-Scooter
+          FZ    Kurzfahrt Bird-Scooter
+          FZ    Lesen Mailantwort LINK
+          FZ    Mail Tier
+          FZ    Mail an Fabian Broich
+          FZ    Mail an Hrn. Broich
+          FZ    Mailantwort an TIER
+          FZ    Nachsurfen Hurensohn / Beleidigungen
+          FZ    Rückfahrt mit TIER-Scooter
+          FZ    Scooterfahrt zu SCN / AKH
+          FZ    Scootersuche / -beobachtung
+          FZ    Scootersuche / -fahrt
+          FZ    Scootersuche / Suche neuer Kebapstand
+          FZ    Scootersuche / aufstellen
+          FZ    Scootersuche 1P
+          FZ    Spielen / Experiment mit Bigtrak
+          FZ    Suche / Aufrichten Tier-Scooter
+          FZ    Suche / Fahrt LINK-Scooter
+          FZ    Suche / Testfahrt Link-Scooter
+          FZ    Suche Gartenwege
+          FZ    Suche verlorenes Handy
+          FZ    Surfen Google MAps
+          FZ    Surfen Kinderfahrzeuge
+          FZ    Surfen Scootermaps u.a.
+          FZ    Surfen Sharonimo
+          FZ    Surfen Verkehrslage
+          FZ    Test neue Lime-Scooter / Heimfahrt mit Link-Scooter
+          FZ    Untersuchung Rentabilität Tagespässe
+          FZ    Versuch Anmeldung Kreditkarte 3D Secure
+          FZ    Versuch Fahrt TIER-Scooter / Entsperren 3D Secure Zahlung
+          FZ    Versuch Reg. 3D Secure Kreditkartenzahlung
+          FZ    Vorführung / Ausprobieren Luftmatratze
+          FZ    Windeltest
+          HP    Div. HP-Aufgaben
+          KA    Aufbau Heimkaraoke
+          KA    Aufschreiben Heimkaraoke
+          KA    Beschriftung Kass. Kar.gesang
+          KA    Heimkaraoke / Abbau
+          KA    Heimkaraoke ohne Papa (?!) (nach Klärung, wie dies noch stattfinden könnte)
+          KA    Mail an Justin (ClearSwipe) (30')
+          KA    Update ClearSwipe: Erweiterung Swipe-Stop (für Justin) (?)
+          KA    Update ClearSwipe: Rate-Korrektur (für Dan) (?)
+          KA    Update ClearSwipe: mehr Outline-Effekte (für Justin) (?)
+          KS    AE / Abr. Halbmon. / 16.-17.7.2020
+          KS    AE / Abr. Mon. / 1.8.2020
+          KS    AE / Abr. Mon. 8/2021
+          KS    AE / Bearb. Kommentare Kontengebarung
+          KS    AE / Druck Kommentare Kontengebarung
+          KS    AE / Kommentare Kontengeb.
+          KS    AE / Kommentare Kontengebarung
+          KS    AE / Kommentare Kontengebarung / Window Logger
+          KS    AE / Kommentare zur Kontengebarung 1. Hj. 2020
+          KS    AE / Korr.lesen / Druck Kontengeb. 1. Hj. 2020
+          KS    AE / Korr.lesen Kommentare Kontengebarung
+          KS    AE / Taskliste
+          KS    Anpassung Dokumentationen an neue KS-Struktur
+  KSPLEN  KS    Arbeit an Tagesplanung / Planer-Entwicklung
+          KS    Aufwandserfassung (60' pro Tag von insgesamt ', ab 4.12.2022 nachzuholen)
+          KS    Aufwandserfassung / Abrechnung
+          KS    Aufwandserfassung / Bearb. Wnidow Logger
+          KS    Bearb. Bewertung der Dokumentationen
+          KS    Bearb. Checklisten
+          KS    Bearb. Checklisten / Taskliste u.a.
+          KS    Bearb. Mindestplanung Aufarbeitung Zeitrückstände
+          KS    Bearb. Mindestplanung Zeitrückstand
+          KS    Bearb. Taskliste / Planung
+          KS    Bearb. Zeitrückstand
+          KS    Bearbeitung Bewertung der Probleme
+          KS    Bearbeitung Check- / Taskliste
+          KS    Bearbeitung Check- und Taskliste
+          KS    Bearbeitung Checklisten
+          KS    Bearbeitung Planung
+          KS    Bearbeitung Planung für 21.3.2021
+          KS    Bearbeitung Taskliste
+          KS    Bearbeitung Taskliste / Checklisten
+          KS    Bearbeitung Untersuchung der Prioritätenliste / Taskliste
+          KS    Bearbeitung Untersuchung der Prioritätenliste.doc
+          KS    Bearbeitung laufende Checklisten
+          KS    Begutachtung Planungstool
+          KS    Begutachtung Zeitplanung
+          KS    Besprechung Doku Prioritätenliste
+          KS    Besprechung Problemdokumentation
+          KS    Diskussion Kontensystem u.a. Themen
+          KS    Div. Diskussionen
+          KS    Ermittlung Gesamtzeit für geplante Projekte
+          KS    Korr. Window Logger
+          KS    Korr.lesen Bewertung der Probleme
+          KS    Korrektur Gesamtzeit für geplante Projekte
+  KSPLNA  KS    Nacherfassung Ablauf
+          KS    Neuordnung der Prioritätsliste
+  KSPLPL  KS    PLanung
+          KS    Planung / AE
+          KS    Planung / Aufwandserfassung
+          KS    Prüfung Tasktool für Windows 10
+          KS    Untersuchung Planung
+          KS    Update Window Logger
+          KS    Vereinheitlichung OP-Liste / Checklisten / Gewinnaktionen / Wunschliste usw.
+          KS    Weiterentwicklung Checklisten
+          MU    Abbau Livestream
+          MU    Abschluss Die neue Normalität
+          MU    Analyse Wellenformen Edi's Orgel
+          MU    Anhören Aufnahmen Teamgrillen
+          MU    Aufbau Livestream
+          MU    Aufbau Vatertagsfeier
+          MU    Aufnehmen Die neue Normalität
+          MU    Auftritt als Live-Musiker mit Keyboard (Schnitt)
+          MU    Bearb. Play Card System
+          MU    Bearb. Probenplan
+          MU    Bearbeitung Liste Musikermappe
+          MU    Bearbeitung Masken aus China
+          MU    Bearbeitung PSR-60 ROM Disassembly
+          MU    Bearbeitung PSR-60 ROM Disassembly 1
+          MU    Bearbeitung Play Card System
+          MU    Bearbeitung Play Card System u.a.
+          MU    Bearbeitung Playcard Analyzing\Ablauf Einlesen Playcard
+          MU    Bearbeitung Text Life on Miles
+          MU    Bearbeitung Yamaha Playcard Songs in Videos
+          MU    Bescherung (Heiliger Abend)
+          MU    Druck Text La Cucaracha
+          MU    Druck Text Moonlight Serenade
+          MU    Durchführung Livestream
+          MU    Durchstöbern Keyboard-Registrierungen
+          MU    Einüben 4 Titel Keyboard / Bearb. Prg.
+          MU    Einüben Tulpen aus Amsterdam / Erforschung Voices
+          MU    Einüben div. Titel
+          MU    Erfassung Keyboard-Registrierungen
+          MU    Erstellung Programm für Teamgrillen
+          MU    Geb.feier Erwin
+          MU    Kommentierung Youtube X-15
+          MU    Lesen Keyboard Manuals
+          MU    Lesen Service Manual Yamaha PC-100
+          MU    Mail W. Adams
+          MU    Mail an Wilton Adams
+          MU    Prod. Masken aus China
+          MU    Produktion Masken aus China
+          MU    Reparatur Probe-Livestream
+          MU    Reverse Engineering Playcard
+          MU    Reverse Engineering Yamaha Playcard
+          MU    Scan 1. Seite KN-550 Registraturen
+          MU    Suche Kopfhörerkabel
+          MU    Test Youtube-Streaming
+          MU    Texten Sing me brunshine
+          MU    Untersuchung Playcard-Format
+          MU    Vatertagskonzert
+          MU    Vorbereitung Christbaumverabschiedung
+          MU    Vorbereitung Livestream
+          MU    Vorbereitung Youtube-Livestream
+          MU    Weihnachtsbaum kaufen gehen
+          MU    Zusammenstellung Programm Papa's Feier
+          MU    Zusenden CURL-Aufruf an BRZ
+          RA    Abgabe Musikwunsch ISW
+          RA    Abgabe Wunsch Musikwelle
+          RA    Aktualisierung Radiowerte
+          RA    Aktualisierung Radiowertungen
+          RA    Anruf Musikwunsch Plattenkiste
+          RA    Ansehen Fernsehsendungen
+          RA    Ansehen Jason Lux Livestream
+          RA    Ansehen ZiB + Wetter
+          RA    Ansehen ZiB 1 / 2
+          RA    Ansehen ZiB 1 u.a.
+          RA    Ansehen ZiB 1/2/Diskussionssendung
+          RA    Ansehen ZiB 2
+          RA    Bearb. Radiowertungen
+          RA    Bearbeitung Musikumfrage Ö3
+          RA    Bearbeitung Musikumfrage Ö3 / Antwort an Ö3
+          RA    Bearbeitung Repertoireliste Jive Aces
+          RA    Div. Radioscans
+          RA    Div. Radioscans / Livestreams
+          RA    Einst. Laptop / Musikwunsch DX-Wunschkonz.
+          RA    Kommentierung Video Bells of Bournville Green
+  RAAFKO  RA    Konversation Andon FM / Thinking Frequencies
+          RA    Lesen Facebook-Postings 88.6
+          RA    Lesen Postings 88.6
+          RA    Mail Musikwelle Nicki
+          RA    Mail Pirni Prg. Silvesterparty
+          RA    Mail Plattenkiste Kriminal-Tango
+          RA    Mail Plattenkiste Unchained melody
+          RA    Mail Text Life on Miles an Terry
+          RA    Mail Wunsch Plattenkiste
+          RA    Mail an Plattenkiste
+          RA    Musikwunsch Musikwelle
+          RA    Musikwunsch Plattenkiste
+          RA    Musikwunschaufgabe Musikwelle
+          RA    Nacherfassung Radioscans
+          RA    Posting Jivestream Green Room
+          RA    Posting Musikwunsch Jive Aces Green Room
+          RA    Scan 88.6 Der Musiksender
+          RA    Scan Anthony Miles Livestream
+          RA    Scan BBC Radio 2
+          RA    Scan Elsie Miles Livestream
+          RA    Scan Hannah Dorman Livestream
+          RA    Scan I101
+          RA    Scan Inn-Salzach-Welle
+          RA    Scan Jack 2 Oxfordshire
+          RA    Scan Jason Lux Livestream
+          RA    Scan Jivestream
+          RA    Scan Livestream Jason Lux / Hannah Doman
+          RA    Scan Livestreams Jason Lux / Hannah Dorman
+  RASCRA  RA    Scan Radio Arabella
+          RA    Scan Radio Burgenland
+          RA    Scan Radio Plattenkiste + Livestreams
+          RA    Scan Radio Plattenkiste / Jivestream
+          RA    Scan Radio Plattenkiste / Livestreams
+          RA    Scan Radio Plattenkiste Faschingsparty
+          RA    Scan Radio Salzburg
+          RA    Scan Radio Salzburg / Jason Lux
+          RA    Scan Radio Wien + Livestream J. Lux
+          RA    Scan Sunny Black Livestream
+          RA    Scan Technikum City
+          RA    Scan Terry Miles / Sunny Black Livestreams
+          RA    Scan Terry Miles Livestream
+          RA    Scan The Jive Aces Livestream
+          RA    Scan The Jive Aces Livestream u.a.
+          RA    Scan div, Livestreams
+          RA    Scan div. Livestreams
+          RA    Scan div. Livestreams + Radiosender
+          RA    Scan div. Radioscans
+          RA    Scan div. Radioscans + Livestreams
+          RA    Scan div. Radiosender + Streams
+          RA    Scan div. Radiosender / Livestream
+          RA    Scan div. Radiosender / Livestreams
+          RA    Scan div. Radiosender / Streams
+          RA    Scan div. Radiosender / Update Radiobewertung
+          RA    Scan div. Radiosender / Update Radiowertung
+          RA    Scan div. Radiosender u.a.
+          RA    Scan div.. Livestreams
+          RA    Update Radiowertungen
+          RA    Wertungserfassung 88.6
+          RA    Wunsch Jason Lux
+          RA    Wunsch Musikwelle
+          RA    Wunsch Plattenkiste
+          RA    Wunsch Radio Plattenkiste
+          RA    Wunsch Wunschbox Musikwelle
+          RA    Wunsch nach Wunschbox
+          RA    Wunschabgabe ISW
+          RA    Wunschabgabe Musikwelle
+          RA    Wunschanruf Plattenkiste
+          RA    Wunschaufgabe Musikwelle
+          RA    Wunschmail DX-Wunschkonzert
+          RA    Wunschmail Plattenkiste
+          RA    Wunschmail an Plattenkiste
+          RA    Wunschmail an Radio Plattenkiste
+          RA    Zusammenstellung Repertoireliste Jive Aces
+          RA    Überweisung Kirchenbeitrag / Pirni
+          RB    Bearb. Skripts
+          RB    Formularbearbeitung
+          RB    Formulartest
+          RM    Einspielen 11 Titel aus 2009
+          RM    Einspielen 2 Titel
+          RM    Einspielen 3 Titel Internet
+          RM    Einspielen 4 Titel aus Internet
+          RM    Einspielen 7 Titel aus Jänner-Liste
+          RM    Einspielen div. Titel
+          RM    Einspielen neue Titel
+          RM    Einspielung O sole mio
+          RW    Anhören / Eingabe 3-Groschen-Oper u.a.
+          RW    Anhören / Eingabe Tonträger
+          RW    Anhören Aufnahmen von Teamgrillen
+          RW    Anhören CD Tina / Druck Single-Covers
+          RW    Anhören CD Tina / Eingabe Singles
+          RW    Anhören CDs Tina / Eingabe Singles Boney M:
+          RW    Anhören LP Bruckner Requiem u.a. mit Papa
+          RW    Anhören RW-Prg. Mit Papa
+          RW    Anhören RW-Programm + Kassette mit Papa
+          RW    Anhören RW-Programm mit Heinrich
+          RW    Anhören RW-Programm mit Papa
+          RW    Anhören RW-Prrg.
+          RW    Anhören Singles / Nachdruck Hüllen
+          RW    Anhören Youtube-Videos mit Papa
+          RW    Anhören eigene Tonträger
+          RW    Anhören eigener Tonträger / Nachdruck Hüllen
+          RW    Aussuchen Musiktitel / Tonträger
+          RW    Auswertung Radioscans / Playlists
+          RW    Bearb. Hörwerte / Radiobewertung
+          RW    Bearb. Playlist / Evaluation Hörwerte
+          RW    Bearb. Playlist / RW-Datenbank
+          RW    Bearb. Playlist / Radiobewertung
+          RW    Bearb. Playlist / Update Hörwerte
+          RW    Bearb. Playlist / Update Radiohörwerte
+          RW    Bearb. Playlist / Update Wertungsfaktoren
+          RW    Bearb. Playlist / Wertungsfaktoren
+          RW    Bearb. Playlist / Wertungsfaktoren / Update RW-Prg.
+          RW    Bearb. RW-DB
+          RW    Bearb. RW-Datenbank
+          RW    Bearb. Wertungsfaktoren / Korr. RW-PRg.
+          RW    Bearb. auswendige Radioplaylist
+          RW    Bearbeitung Batterienpool
+          RW    Bearbeitung Wertungsfaktoren
+          RW    Beendung Tranche Tonträgereingabe
+          RW    Chat in MSN Messenger
+          RW    Diskussion RW-Prg. / Baden gehen
+          RW    Eingabe + Anhören LP's
+          RW    Eingabe + Anhören Tonträger
+          RW    Eingabe / Anhören LP's
+          RW    Eingabe / Anhören Singles v. Kurti-Opa u.a.
+          RW    Eingabe LP Dreigroschenoper u.a.
+          RW    Eingabe LP's
+          RW    Eingabe Rest alte Singles / DB-Korr. CD Tina
+          RW    Eingabe Tonträger
+          RW    Eingabe gehörte Weihnachtskassette 1992
+          RW    Einpacken Kass. Für Fahrt
+          RW    Einpacken Playlist für Fahrt
+          RW    Einpacken RW-Datenbank
+          RW    Einpacken Tonträger für Fahrt
+          RW    Einräumen gehörte Kassetten
+          RW    Erfassung Wünsche Jason Lux
+          RW    Ermittlung Musikwünsche für versch. Radiosender
+          RW    Evaluation Hörwerte / Radiosender
+          RW    Evaluation Hörwerte / Radiowertungen
+          RW    Korr. Titel in Tonträger
+          RW    Mail an W. Adams
+          RW    Nachlesen Revision der Hörgewohnheiten und Musiktitel Herbst 2015.doc
+          RW    Nachspielen unbwertete Titel für Papa
+          RW    Optimierung Wertungsfaktoren
+          RW    Scan / Chat Jukebox-Heroes-Radio
+          RW    Scan Marcia & Marc Livestream
+          RW    Sendung Radio-is-music-for-life
+          RW    Sortieren Papiere TFC
+          RW    Untersuchung Aufwand RW-Prg.
+          RW    Untersuchung Hörwerte für Radio-Würmchen-Programm Kurt+Papa
+          RW    Untersuchung Playlist
+          RW    Untersuchung Tonträger-Überschneidung mit Files
+          RW    Update RW-Programm
+          RW    Update RW-Wertungsfaktoren
+          RW    Update Wertungsfaktoren
+          RW    Verbesserung RW-Prg.
+          RW    Vorbereitung Youtube-Videos
+          RW    Weihnachtsbaum aufputzen
+          TV    Anhören Ö1-Sendungen
+          VE    2 Mails Verwandte Mappen Kurti-Opa
+          VE    2 Mails an Verwandte
+          VE    Ansehen Theaterstück Ronald
+          VE    Bearb. Scans / Mail Andrea
+          VE    Begutachtung Unterlagen Kurti-Opa für Franzi
+          VE    Diskussion Partenwunsch Franzi
+          VE    Scan / Versand Theaterstück Ronald
+          VE    Scan Spiel der Bosse Teil 2
+          VE    Scan Theaterstück Kurti-Opa
+          VE    Scan Theaterstück Spiel der Bosse Teil 1
+          VE    Telefonat Andrea
+          VE    Telefonate Franzi / Andrea / Papa Ahnenforschung
+          VE    Versand Scans Dokumente Opa
+          VE    Versand Theaterstück an Verwandte
+          VE    Versand Theaterstück+Liste an Verwandte
+          VE    Vorbereitung Dokumente für Andrea u.a.
+          VE    Vorbereitung zu scannende Unterlagen
+  (556 tasks)

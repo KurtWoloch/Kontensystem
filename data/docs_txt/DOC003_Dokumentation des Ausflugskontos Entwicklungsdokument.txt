@@ -1,0 +1,474 @@
+Dokumentation des Ausflugskontos Entwicklungsdokument
+Stand: 6.4.2007
+
+Inhalt
+
+Inhalt	1
+Gegenstand der Dokumentation	1
+Zu klärende Probleme	1
+Untersuchung der Gesamtprofitabilität	2
+Abrechnung der Karaoke-Lokalbesuche	2
+Berechnung der Rentabilität des Aussuchens der zu singenden Karaoke-Titel	4
+Rentabilität der Anschaffung eines PDA	5
+Rentabilität des Mitnehmens eigener CD's	6
+Berechnung der fixen und variablen Kosten	9
+Handling der Lokalrotation	9
+Vergleich der Karaoke-Lokalbesuche mit Radio hören	10
+Besuch von Demonstrationen und ihre Sinnhaftigkeit	13
+Technik bei Karaoke-Veranstaltungen machen	13
+Businessplan	14
+Durchführungsbestimmungen	15
+
+
+Gegenstand der Dokumentation
+
+In diesem Dokument geht es darum, die verschiedenen Projekte und Aktivitäten des Ausflugskontos auf ihre Rentabilität zu untersuchen und auch weitere, angedachte Projekte dieses Kontos daraufhin zu untersuchen, ob sie sich rechnen könnten.
+
+Zu klärende Probleme
+
+In den letzten Monaten des Jahres 2005 haben die Karaoke-Lokalbesuche etwas Schieflage bekommen, und zwar aus folgenden Gründen:
+- Mama lud mich immer auf meine Konsumationen ein, was im Seabear zu Problemen führte, weil mein Vater sich hier vorstellte, daß ich meine Eltern einladen sollte, weil sie mir bei der Beaufsichtigung der Arbeiter in meiner Wohnung bei der Wohnungsrenovierung geholfen hatten.
+- Es gab immer mehr Lokale, die Mama wegen ihrem fortschreitendem Alter nicht mehr besuchen wollte, wo ich aber schon hingehen wollte. Dies ergab immer mehr Diskussionen über "schlechte" Lokale, die ich wegen Mama nicht besuchen konnte. Dann gab es Lokale, wo Mama wollte, dass Papa uns hinführt, da der Weg dorthin öffentlich zu mühsam oder relativ zur Strecke mit dem Auto zu lang ist (z.B. Nico, Karaoke-Club in der Sandgasse, Tivoli, Seabear).
+- Papa kam mit Vorschlägen, die auf verschiedenen Tätigkeiten meinerseits basierten. Zum Beispiel schlug er auf Grund der Tatsache, daß ich immer die Erfolge der gesungenen Lieder mitschrieb, die Anschaffung eines tragbaren Computers zum Mitschreiben und danach sogar die Anschaffung von mobilem Internet vor. Zu diesem Zeitpunkt war ich aber bemüht, möglichst viele Vorschläge von ihm in die Tat umzusetzen. Mit solchen Vorschlägen war ich aber überfordert, da sich das Ganze gleichzeitig auch rechnen sollte
+- Auf Grund der Tatsache, dass ich immer versuchen sollte, meine selbstproduzierten Karaoke-Videos zu "verkaufen", war ich eingeschränkt, was Gespräche mit anderen Karaoke-Sängern betraf und mußte versuchen, sie immer auf Distanz zu halten. Das Gleiche galt für die Tatsache, dass meine Eltern praktisch immer mit waren, was zur Folge hatte, daß ich mich eher zurückhielt, was Gespräche mit anderen Sängern betrifft, weil ich immer fürchtete, über alles, was ich mit anderen Leuten besprach, Rechenschaft ablegen zu müssen.
+
+Weiters soll in dieser Dokumentation folgendes hinterfragt werden:
+- Abrechnung der Besuche (Bildung der Spaßpunkte und Verrechnung mit Eltern)
+- Bewertung der Karaoke-Lokale und Bestimmung der Rotation nach dieser Bewertung
+- Rentabilitätsrechnung für die geführten und erzeugten Listen und Verwaltung dieser Listen
+- Eventuelle Automationsunterstützung der Listenerstellung und -verwendung durch einen PDA
+- Generelle Hinterfragung des Modus, nach dem derzeit die Lieder ausgesucht werden, die zu singen sind
+
+Untersuchung der Gesamtprofitabilität
+
+Das Ausflugskonto hat im Jahr 2005 etwa € 1297 Gewinn gemacht. Es gab ca. € 7492 an Spaßeinnahmen, das heißt, der Gewinn betrug 17,3% der Spaßeinnahmen - dies ist geringfügig schlechter als beim Internet-Konto und läuft auf eine Rentabilitätsrate von 20,9% heraus, das heißt, die Einnahmen betrugen 120,9% der Ausgaben.
+
+Der Gewinn beträgt gleichzeitig etwa 2,6% des Gesamtspaßes im Kontensystem.
+
+Für Mieten von Karaoke-CD's wurden € 1779 ausgegeben, davon wurden € 1354 vom Eltern-Konto rückvergütet, weil es sich um Nutzung von Karaoke-CD's durch Mama handelte.
+
+An die Wohnungsverwaltung wurden insgesamt ca. € 230 an Mietanteil gezahlt (das sind 3,07% des Spaßwertes) und an den PC € 30,46, was darauf schließen läßt, daß ca. 30-50 Stunden am PC gearbeitet wurde, was wiederum auf Verwaltungskosten von etwa € 576 herausläuft, das wären etwa 8% des Spaßwertes.
+
+Aus den Einnahmen und Ausgaben ergibt sich also, dass der Lebensbereich "Ausflüge" insgesamt Gewinne abwirft. Trotzdem ist es nötig, die verschiedenen Aspekte und Kostenarten sowie auch die neu vorgeschlagenen, bisher nicht durchgeführten Änderungen zu untersuchen.
+
+Abrechnung der Karaoke-Lokalbesuche
+
+Nachdem ich schon seit geraumer Zeit immer die Erfolge der einzelnen Lieder in den Karaoke-Lokalen untersuche, hat sich auch die Abrechnung daran angepaßt:
+
+Die Spaßpunkte setzten sich bis März 2006 aus folgenden Komponenten zusammen:
+- 0,01 Spaßpunkte pro Prozent Applaus für eigene Lieder (das sind von mir gesungene und/oder von mir selbst produzierte Karaoke-Titel; keine Doppelverrechnung! Also z.B. 15% Applaus = 0,15 Spaßpunkte
+- 3 Spaßpunkte pro 14 gesungener Karaoke-Titel (egal von wem) (dies entspricht jeweils ca. 1 Stunde)
+- 1 Spaßpunkt pro geführtem Gespräch mit Besuchern
+- 0,1 Spaßpunkte pro Stunde dazu, wenn moderiert wird; eventuell Bonus für eine gute Anlage
+- 0,07 Spaßpunkte pro Lied, das ich selbst singen konnte
+- Spaßpunkte für die Konsumation gemäß Essensdatenbank
+
+Mit der Reform des Kontensystems 2006 wurde aber der Abrechnungsmodus geändert - es liegt nun ein Schwerpunkt auf Erlebnissen und Stimmung. Daher lautet die adaptierte Aufstellung ungefähr so:
+- 1 Spaßpunkt pro "Erlebnis" (bei Bedarf können auch halbe Spaßpunkte vergeben werden)
+- 1 Spaßpunkt pro geführtes Gespräch mit Besuchern (gilt auch als Erlebnis)
+- eventuell Bonus für gute "Stimmung"... dieser muß aber nicht in allen Lokalen auftreten.
+- Spaßpunkte für die Konsumation gemäß Essensdatenbank
+
+Zu den Spaßwerten kommt noch die Gutschrift für das Nachtmahl, falls es das zu Hause eingesetzte Nachtmahl ersetzt, vom Lebenserhaltungskonto. Diese Gutschrift beträgt 2005 für ein Nachtmahl € 2,20, diese erhöht sich 2006 auf € 2,25 und 2007 auf € 2,30. 2010 wurde die Gutschrift gänzlich neu berechnet (mit der Schließung von Billa) und beträgt seit 14.7.2010 € 4,-. Die weiteren Gutschriften werden dann berechnet, wenn die entsprechenden Jahre im Kontensystem abgerechnet werden (derzeit wird das Jahr 2006 abgerechnet).
+
+Falls der Lokalbesuch dazu geführt hat, daß ich nach 0:30 ins Bett komme, wird wie im ganzen Kontensystem üblich für jede diese Zeit überschreitende halbe Stunde ein Spaßpunkt abgezogen (ohne Taktung, also minutengenau).
+
+Als Ausgaben haben wir die Arbeitszeit, das ist die Zeit vom Weggehen bis zum Heimkommen, inklusive Vor- und Nachbereitungen (Anziehen, Zusammensuchen von CD's, Auspacken der Unterlagen und CD's etc.), weiters Fahrscheine und Barspesen. Für Fahrscheine werden normalerweise € 2,20 (Stand 2010) pro Fahrt berechnet (diese gehen, da es sich um Synergieeffekte handelt, an das Herzensgut-Konto - siehe Dokumentation zu diesem).
+
+Für benutzte eigene Karaoke-CD's wird der vom Karaoke-Video-Konto vorgeschriebene Tarif für die jeweilige Anzahl von Liedern (siehe Dokumentation dieses Kontos) an dieses aufgeführt. Falls Mama mich eingeladen hat, geht die Konsumation an das Eltern-Konto, statt als Barausgaben angeführt zu werden.
+
+Wenn Mama einige oder alle der Titel gesungen hat, die von Karaoke-CD's stammen, wird von ihr ein entsprechender Anteil oder die ganze Summe vom Eltern-Konto auf das Aufführungskonto zurückverrechnet.
+
+Als Beispiel nun eine Berechnung eines Besuchs beim "Pockerl" in der Hauptallee, wo am 1.5.2010 Karaoke gemacht wurde:
+
+Insgesamt fielen dort 15 Spaßpunkte an, davon entfallen 3 Punkte auf die 5 von mir gesungenen Titel und 12 Punkte auf die von anderen gesungenen Titel. Karaoke-Teilnahme war von 16:05 bis 21:05, also 5 Stunden zu je 3 Spaßpunkten. Gesamtdauer des Ausflugs war von 15:25 bis 22:00, wobei wir von Papa hingeführt wurden, der dann aber wieder heimgefahren ist.
+
+Weiters wurde Jause und Nachtmahl dort eingenommen. Der genaue Stützungsbetrag für 2010 beträgt laut letztem Entwicklungsdokument zur Essensdatenbank € 2 für die Nachmittagsjause und € 4 für das Nachtmahl (ja, das ist mehr als früher!).
+
+Berechnung daher:
+
+Einnahmen:
+15 Spaßpunkte * 10,1					€ 151,50
+Stützung Konsumation durch Lebenserhaltungs-Bereich	€ 6,-
+Gesamt							€ 157,50
+
+Ausgaben:
+6,583h (15:25-22:00) * € 14,7 =				€ 96,77
+Fahrschein € 2,2	 					€ 2,20 (geht an Herzensgut-Konto)
+Konsumation 						€ 7,50 (der genaue Betrag ist nicht mehr bekannt)
+	(von Mama gezahlt, geht daher an Eltern-Konto)							
+Gesamtausgaben:						€ 106,47
+
+Hier ergibt sich nun die Schwierigkeit, wie wir Papa mit dem Auto verrechnen. Es war nicht mein Wunsch, mit dem Auto zu fahren. Wären wir mit dem Auto gefahren, wäre die Anfahrt schätzungsweise um 15 Minuten länger gewesen. Die Ausgaben hätten dann betragen:
+
+Ausgaben:
+6,83h (15:10-22:00) * € 14,7 =				€ 100,45
+Fahrschein € 2,2 * 2					€ 4,40 (geht an Herzensgut-Konto)
+Konsumation 						€ 7,50 (der genaue Betrag ist nicht mehr bekannt)
+	(von Mama gezahlt, geht daher an Eltern-Konto)							
+Gesamtausgaben:						€ 112,35
+
+Daher liegt der "Gewinn" durch das Auto bei € 5,88 und wäre an das Eltern-Konto oder das Fahrzeug-Konto (das noch zu dokumentieren ist) zu überweisen. Laut Google Maps war die gefahrene Route pro Weg ca. 10,8 km lang bei einer Autofahrzeit von 14 Minuten. Nach Papa's üblichem Tarif (Gisi-Tarif) würde er für beide Strecken daher, wenn man zusätzlich noch jeweils 5 Minuten Wegzeit von der Wohnung zum Auto und zurück verrechnet, 14 * 2 + 5 * 2 = 38 Minuten verrechnen, das entspricht € 6,33, dazu kommen € 10,80 für die Autokosten des Hin- und Rückwegs, macht insgesamt € 17,13. Mit dem Taxi würde diese Strecke inkl. Trinkgeld schätzungsweise ca. € 14-15 kosten.
+
+Zu den hier aufgezählten Einnahmen und Ausgaben kommt als Durchlauferposten noch die Miete für die verwendeten Karaoke-CD's. In diesem Fall handelt es sich um 5 Titel, die gesungen wurden, wovon 4 von Mama und einer von mir gesungen wurde (genaugenommen war ein Duett zwischen ihr und mir dabei, aber dieses geht auf sie, da sie es singen wollte). Der Tarif für 5 gesungene Titel beträgt per August 2010 € 25,-, also 5 Euro pro Lied. Davon müsste ein Titel vom Ausflugskonto gezahlt werden, das ergibt € 5,-.
+
+Für die Ermittlung der Rentabilität des Lokals sieht die Rechnung aber wieder anders aus, hier werden nämlich die Einnahmen und Kosten mit den Einnahmen und Kosten verglichen, die angefallen wären, wenn ich den Besuch nicht getätigt hätte. Dadurch fallen die Kosten für die Karaoke-CD's und die Fahrscheine aus der Rechnung heraus, da die Fahrscheine nicht wirklich einzeln gekauft wurden, sondern ich meine Jahreskarte verwendet habe, und für die Karaoke-CD's auch nicht tatsächlich eine Miete angefallen ist.
+
+Das Einnahmen-/Ausgabenverhältnis beträgt daher in diesem Fall € 157,50 / 107,95 = 1,459.
+Anmerkung: In der Prioritätenliste ist ein Besuch von Erich im Prater derzeit mit einem Einnahmen-/Ausgabenverhältnis von 2,05 eingetragen (ohne Angabe der betragsmäßigen Einnahmen und Ausgaben). Vergleichen mit dieser Zahl ist die neue Zahl um 29% schlechter, was auf die neue Abrechnungsmethode der Spaßpunkte zurückzuführen ist, die in diesem Fall weniger Spaßpunkte ergibt als die alte (wo vermutlich mit 4 Punkten pro Stunde gerechnet wurde).
+
+Die Lokalbewertung beträgt dann 1,459 * 20 = 29,18, gerundet 29 Punkte.
+
+Berechnung der Rentabilität des Aussuchens der zu singenden Karaoke-Titel
+
+Wie aus vergangenen Abrechnungen zu sehen ist, kostet die korrekte Erstellung einer Singliste im Schnitt ca. € 20,20... dies beinhaltet die Auswertung eines Abends in der Probendatenbank, die Vermischung mit den Daten und die Ausgabe einer neuen Liste mit 2 Seiten (inkl. Ähnlichkeitsdatenbank). Diese Liste umfaßt insgesamt 100 Titel, von denen dann im Schnitt etwa 60 auch gesungen werden... 30 von mir und 30 von anderen Sängern. Die von mir gesungenen Titel kosten daher je € 0,67.
+
+Die Erfassung im Karaoke-Lokal kostet etwa 12 Sekunden pro Titel. Wenn man annimmt, daß in einer durchschnittlichen 4-stündigen Karaoke-Veranstaltung 56 Titel gesungen werden, werden insgesamt 672 Sekunden, also 11,2 Minuten pro Veranstaltung, für das Mitschreiben verbraucht. Dazu kommen noch 2 Minuten, um die richtige Liste zu Hause zu suchen und einzustecken. Dies sind insgesamt 13,2 Minuten pro Veranstaltung, was einem Wert von € 3,23 entspricht. Es ist aber nicht sicher, ob das wirklich so gerechnet werden kann, da ja auch während des Mitschreibens die Karaoke-Veranstaltung im jeweiligen Lokal weiterläuft.
+
+Sei es, wie es sei... bei durchschnittlich 4 von mir gesungenen Titeln pro Veranstaltung kommen wir nun auf Gesamtkosten von € 1,48 pro gesungenem Titel.
+
+Bei den von mir besuchten Karaoke-Veranstaltungen beträgt der durchschnittliche Applaus 20%, was auf einen Spaßwert von 0,2 Punkten pro Lied, das entspricht € 2,02 pro Lied, hinausläuft.
+
+Der Spitzenapplaus wäre dann 40%, der Minimumapplaus 0%. Es ergibt sich also eine Bandbreite von 40%. Die Vorschläge, die beim PC herauskommen, erreichen dabei ca. 80% der möglichen Bandbreite, also insgesamt 32% Applaus - das wären 12% mehr als der Durchschnitt, das bringt also € 1,21 pro Lied.
+
+Das scheint sich insgesamt nicht zu rechnen. Dazu muß aber gesagt werden, daß auf jeden Fall irgendeine Möglichkeit notwendig ist, die Titel auszusuchen. Bis ca. ins Jahr 1999 habe ich mir zu diesem Zweck normalerweise die ganze Liste eines Lokals durchgesehen, nur werden die Listen immer länger, so daß dies immer aufwendiger wurde. Bei einer Liste von 2000 Titeln kann dies schon eine ganze Stunde dauern, und das pro Lokalbesuch, also € 14,70, das wären bei 4 gesungenen Liedern € 3,68 pro Lied, was wesentlich teurer ist. Fairerweise muß dazu gesagt werden, daß auch so noch die Liste nach bestimmten Titeln durchgesehen werden muß, die nicht alle vorhanden sind. Insgesamt werden im Laufe der 2 Listen 70 Titel in der Liste gesucht und davon dann 30 von mir gesungen. Das heißt, für jeden gesungenen Titel werden 2,33333 Titel gesucht, was je 20 Sekunden dauert, vorausgesetzt, die Liste ist in einem Teil alphabetisch sortiert. Insgesamt ergibt dies weitere 46,66666 Sekunden pro gesungenem Titel oder € 0,19. Dies erhöht die Gesamtkosten pro gesungenem Lied auf € 1,67. Dies ergibt immer noch weniger als die € 3,68 pro Lied, die sich beim Durchsehen der gesamten Liste einmal pro Abend ergeben.
+
+Dann ergibt sich natürlich noch die Frage, ob es sich überhaupt auszahlt, selbst zu singen. Dies dürfte aber schon der Fall sein, da jedes Lied 0,20 Punkte für Applaus und 0,07 Punkte für das Singen bringt, das sind insgesamt 0,27 Spaßpunkte, also € 2,73.
+
+Dann gäbe es da noch die Möglichkeit der Karaoke-Singliste, die früher für alle Lokale galt und dafür verwendet wurde, Lieder auszusuchen, die wieder gesungen werden sollten. In dieser Singliste wurde jedes gesungene Lied mit einer Wertung verzeichnet, wie sehr mir das Singen des Liedes gefallen hat (üblicherweise davon abhängig, wie gut ich es gebracht habe). Dann wird auf Grund einer Rotationslogik ermittelt, welche Lieder wann wieder gesungen werden sollten.
+
+Diese Singliste wirkt sich wahrscheinlich aber nur auf meinen Singspaß und nicht auf den Applaus aus. Untersuchungen beim Duo Kurt+Franz haben nämlich gezeigt, daß der Applaus nur zu ungefähr 10% davon abhängig ist, wie gut ein Lied gesungen wird... der Rest ist davon abhängig, welches Lied man singt.
+
+Hier kann davon ausgegangen werden, daß bei der Verwendung der Singliste das durchschnittliche Lied um 0,8 Gesamtpunkte besser ist, was zu einem Bonus von 0,075 Spaßpunkten pro Lied führt, verglichen mit einem "durchschnittlichen" Lied. Dazu kommt eine Anhebung des Applauses um 8%. Insgesamt führt dies zu einer Spaßausweitung von 0,155 Spaßpunkten gegenüber dem "Durchschnitt", dies entspricht € 1,57 pro Lied.
+Ein Haken ist hier jedoch, daß die Lieder, die nicht gefunden werden, an der Spitze der Liste stehen bleiben und beim nächsten Lokal wieder gesucht werden. Mit der Zeit sammeln sich dann an der Spitze der Liste die Lieder an, die es fast nirgendwo gibt.
+
+Die Bearbeitung dieser Singliste ist natürlich auch ein Aufwand, und zwar von 3 Minuten pro besuchtem Lokal (mit 4 gesungenen Titeln) - mehr, wenn der dazugehörige Zettel extra noch einmal gesucht werden muß. Dazu muß im jeweiligen Lokal das jeweilige selbst gesungene Lied notiert werden (evtl. auch mit Erfolg).. Dies nimmt ca. 12 Sekunden pro Lied in Anspruch. Dazu kommt noch das Aussuchen der in der Singliste enthaltenen Lieder aus der Liste im Lokal. Wenn wir wie oben von 2,3333 Suchvorgängen pro tatsächlich gesungenem Lied ausgehen, von denen jeder 20 Sekunden dauert, sind dies 46 Sekunden pro gesungenem Lied, oder bei 4 Liedern pro Abend 184 Sekunden, dies entspricht Kosten von € 0,75, also € 0,18 pro Lied. Insgesamt beläuft sich damit der Aufwand pro Lokalbesuch auf € 0,74 (Singlistenverwaltung) + € 0,75 (Heraussuchen aus Liste) + € 0,19 (Aufschreiben der gesungenen Titel) = € 1,68. Das sind € 0,42 pro Lied bei einem oben dargestellten Gewinn von € 1,57. Zum Vergleich: Bei Benutzung der bisherigen Empfehlungszettel hatten wir Kosten von € 1,67 pro Lied bei einem Ergebnis von € 1,21 pro Lied. Hier haben wir also einen Gewinn von € 1,15 pro Lied, oben dagegen einen Verlust von € 0,46 pro Lied. Insgesamt ist das hier dargestellte eigentlich ein erfolgversprechenderes Konzept als die ständigen Notizen über Erfolge aller Lieder.
+
+Daraus ergibt sich ein neues zeitsparendes Konzept für die Singliste:
+- Die Singliste wird immer in einer Länge von 50 Liedern ausgedruckt und kommt dort zum Einsatz, wo keine andere Singliste vorhanden bzw. diese schon ausgesungen ist.
+- Beim Kennenlernen jedes neuen Lokals wird nicht die Singliste eingesetzt, sondern wie oben beschrieben die Liste der bestbewerteten Lieder aus dem Probenplan.
+- Die Singliste wird immer von oben nach unten durchgegangen und die in einem Lokal nicht erhältlichen Lieder gestrichen, die dann auch im nächsten Lokal nicht gesucht werden, sondern erst wieder auf der nächsten Singliste.
+- Sind in einem Lokal 3 Lieder hintereinander nicht vorrätig, wird stattdessen eines aus der letzten aufgeschlagenen Seite der Liste genommen.
+- Bei den gesungenen Liedern wird daneben die evtl. neue Bewertung und das Lokal eingetragen.
+- Für Lokale, wo schon eigene Listen existieren, werden diese noch fertiggesungen und erst nach deren Beendigung auf die "allgemeine" Singliste umgestellt.
+
+Bei dieser Abrechnung gibt es allerdings einige Probleme und Unwägbarkeiten:
+- Beim Gewinn in Spaßpunkten durch das richtige Aussuchen von Liedern wurde nur mein Spaß berücksichtigt, nicht der des Publikums, der vermutlich auch vorhanden ist.
+- Es stellt sich die Frage, was ich in der Zeit tun sollte, die ich durch das Nicht-Mitschreiben der gesungenen Titel einspare, da ich oft nichts anderes zu tun weiß, während ich auf meinen nächsten Auftritt warte.
+- Das Protokoll der gesungenen Lieder dient auch zur Erfassung der angefallenen Spaßpunkte. Ohne dieses Protokoll fällt es schwerer, sich an angefallene Punkte zu erinnern.
+
+Rentabilität der Anschaffung eines PDA
+
+Nun noch die Überprüfung einer elektronischen Hilfe zur Eingabe der Erfolge in Lokalen (die eigentlich aufgelassen werden soll), sprich: eines PDA.
+
+Die Produktkategorie "PDA" ist allerdings in den letzten Jahren mit der Produktkategorie "Handy" zusammengewachsen, das heisst, statt den alten PDA's gibt es nun Handies mit Touchscreen. Diese gibt es allerdings auch schon ab € 89,90 bei Media Markt.
+
+Mit 40% Aufschlag für Beschaffungskosten käme man hier auf € 125,86. Die Lebensdauer des PDA's kann auf Grund der begrenzten Akkuhaltbarkeit und durch die übliche Abnutzung durch Erschütterungen beim Transport nur mit 2 Jahren angenommen werden, die Abschreibung beläuft sich damit auf 53,3% pro Jahr, aufgeteilt auf die Lokalbesuche. Unter der Annahme, daß pro Jahr ca. 50 Anlässe stattfinden, bei denen mitzuschreiben wäre, belaufen sich die Kosten pro Anlass auf:
+€ 125,86 * 0,533 / 50 =  € 1,34
+
+Dafür entfallen folgende Kosten:
+Pro Anlass 2 Minuten für Listen suchen und einstecken... € 0,49 (vorausgesetzt, es haben alle Listen im PDA Platz)
+Beim Eingeben des "besten" Anlasses (nach ca. 7,5 Anlässen) entfallen ca. 56 * 22 = 1232 Sekunden = 20,53 Minuten * 24,5 Cent = € 5,03 / 7,5 = € 0,67 pro Anlaß.
+
+Insgesamt ergibt das € 1,16 pro Anlaß, was leider immer noch unter den Kosten von € 1,34 liegt, womit der PDA nicht rentabel zu sein scheint.
+
+Dazu muss aber gesagt werden, dass eine andere Kategorie von tragbarem Computer, nämlich ein Netbook, eventuell doch rentabel sein könnte, wenn es nicht nur zur Eingabe von Titelerfolgen in Karaoke-Lokalen verwendet wird, sondern auch für andere Zwecke, wie z.B. für das Durchführen von Schreibarbeiten in der Schnellbahn (was sinnvoller sein könnte als das derzeitige Lesen von Prospekten und Bezirkszeitungen) oder für das Wiedergeben von Musik bei diversen Anlässen. In diesem Fall würde sich aus dem Ausflugs-Lebensbereich ein Deckungsbeitrag von € 33,50 pro Jahr ergeben, wenn man mit 50 Lokalbesuchen pro Jahr rechnet.
+
+Rentabilität des Mitnehmens eigener CD's
+
+Bleibt noch die Frage, bei welchen Kosten das Mitnehmen eigener CD's rentabel ist.
+
+Dazu betrachten wir kurz die Rotation der Titel in der Singliste mit und ohne eigene CD's.
+
+In der Singliste befinden sich derzeit ca. 1245 Titel. Nach einschlägigen Erfahrungen mit Radiostationen würde sich bei Verteilung gemäß Rotationsschema 8 eine Rotation von ca. 800 Titeln ergeben. Davon sind in einem durchschnittlichen Karaoke-Lokal 400 zu finden, ich habe auf CD weitere 100 davon. Daraus ergibt sich eine Erhöhung der Rotation von 25%, das ist eine Wertungsverbesserung von ca. 0,15 Punkten. Das ergibt pro 15 gesungene Lieder eine Verbesserung der Spaßwertung von 0,211 Punkten, das entspricht € 2,13, also € 0,142 pro Lied. Da sich die Verbesserung aber auf alle Lieder bezieht, davon aber tatsächlich nur 20% von meinen CD's gesungen werden, kann auf jedes von meinen CD's gesungen Lied die 5-fache Verbesserung angerechnet werden, folglich bringt jedes von meinen CD's gesungene Lied insgesamt € 0,71 ein. Das heißt, wenn der Tarif für ein gesungenes Lied im Rahmen der üblicherweise in Karaoke-Lokalen gesungenen Lieder unter € 0,71 liegt, dann zahlt es sich aus, von mitgebrachten CD's zu singen. Dies liegt wohlgemerkt weit unter dem Tarif, der derzeit vom Karaoke-Video-Konto verrechnet wird (der bei 5 gesungen Titeln z.B. bei € 5 pro Titel liegt). Andererseits handelt es sich bei den Zahlungen an das Karaoke-Konto um Papierbuchungen, die den Kontenstand im Kontensystem nicht wirklich beeinflussen, und damit treten auch nicht wirklich Mehrkosten auf. Die einzigen Kosten, die wirklich auftreten, sind 2-3 Minuten pro Lokalbesuch, um die CD's mitzunehmen, das entspricht € 0,49 bis € 0,74 pro Anlass. Damit kann ein Singen von eigenen CD's doch gerechtfertigt werden, wenn es angebracht erscheint.
+
+Änderungen mit der neuen Kontensystemsordnung:
+
+Mit der neuen Kontensystemsordnung treten für das Ausflugskonto folgende Änderungen ein:
+- Berechnung nach Stimmung und Erlebnispunkten statt bisherigen Spaßpunkten
+- Eingliederung der Lokalbesuchsliste in die allgemeine Tätigkeitenliste mit Prioritäten
+
+Zu der Berechnung nach Erlebnispunkten bestehen bereits einige Ergebnisse, da auch in der eigentlich karaokefreien Zeit ab April 2006 einzelne Ausnahmen gemacht wurden und dabei versucht wurde, bereits nach dem neuen System die Spaßpunkte zu ermitteln. Die oben stehende Rechnung für das "Pockerl" wurde bereits nach dem neuen System errechnet.
+
+Am 24.2.2007 erfolgte eine Besprechung mit meinen Eltern bezüglich der zukünftigen Durchführung der Karaoke-Lokalbesuche, aus der sich folgende Dinge ergeben:
+1. Papa ist in einem stärkeren Maße als bisher angenommen daran interessiert, auch Karaoke-Lokale zu besuchen.
+2. Es wurde genau ausgelotet, welche Aspekte von Karaoke-Lokalbesuchen für jeden positiv oder negativ wirken. Dabei ist herausgekommen, daß Mama viele Lokale eher als negativ ansieht und nur mir zuliebe mitgegangen ist, während ich wieder dachte, ihr einen Gefallen zu tun, wenn ich sie mitnehme.
+
+Aus diesen Erkenntnissen ergeben sich folgende Änderung in der Auswahl der zu besuchenden Karaoke-Lokale:
+
+1. Mama wird nicht mehr nach einer Bewertung für Lokale gefragt (diese Bewertungen tendieren dazu, revidiert zu werden)
+2. Das nächste zu besuchende Lokal wird nur noch auf Grund meiner Bewertung ausgesucht. Steht es fest, werden sowohl Mama als auch Papa gefragt, ob sie mitkommen wollen. Wollen sie das nicht, besuche ich das Lokal alleine, und es kommt als nächstes wieder ein anderes Lokal an die Reihe, mit dem sich das Spiel wiederholt.
+
+Herzensgut-Konto:
+
+Es wurde bereits weiter vorne angedacht, Gewinne aus dem Ausflugskonto für den Ausgleich anderer Konten zu verwenden. Als ein solcher Ausgleichsmechanismus wurde das Herzensgut-Konto geschaffen - nähere Beschreibung davon siehe Kontensystemsdokumentation. Es gibt beim Ausflugskonto auf jeden Fall einen Bereich, wo ich mir meiner Meinung nach "zu viel heraushole", und zwar handelt es sich um das Verhältnis meiner Konsumationen in einem Karaoke-Lokal zu der Verweildauer dort. Ich kann mich noch an die Kommentare von Hansi im Karaoke-Club erinnern, als ich dort gesungen habe: "Da sitzt er den ganzen Abend bei einem Getränk..." und "Normalerweise sollte der den doppelten Mitgliedsbeitrag zahlen". Und dabei wurde dort nicht wenig Mitgliedsbeitrag berechnet - am Schluß öS 200 pro Monat.
+
+Was ist nun eine "faire" Konsumation? Eine Richtlinie ist hier ein Bericht aus Amerika von Arbeitsplätzen, die in Lokale verlegt wurden - wo es Usus ist, pro Stunde irgendetwas zu bestellen, um für den Platz zu zahlen. Eine andere Richtlinie stammt von einem Auftritt mit Gerhard Steigerwald in einem Lokal in Schwechat, wo sich eine Gruppe von 14 Personen angesagt hatte, und der Kommentar des Wirts war "Das ist ein Tausender"... das heißt, von dieser Gruppe wurde eine Konsumation von 1000 öS angenommen, also ca. 71 öS pro Person. Nachdem ein alkoholfreies Getränk dort 14 öS kostete, wären das der Wert von 5 alkoholfreien Getränken pro Person. Daraus läßt sich ableiten, daß die Richtschnur aus Amerika ungefähr stimmen dürfte, wobei ich sie so abwandeln würde, daß pro angefangener Stunde ein Getränk konsumiert werden sollte bzw. dessen Gegenwert, wenn es nicht konsumiert wird, dem Herzensgut-Konto zugeschlagen wird. Für "schlechte" Lokale, die nicht das halten, was sie versprechen, kann aber davon abgegangen werden.
+
+Die Berechnung erfolgt folgendermaßen:
+
+Es wird die Aufenthaltsdauer in Stunden gerechnet, wobei zwischen Stunden unterschieden wird, wo Karaoke gemacht wurde, und wo es nicht gemacht wurde. Für Stunden, wo nicht Karaoke gemacht wurde, gilt ein Stundensatz von € 2,00 + Trinkgeld = € 2,20, das entspricht per Anfang 2007 dem durchschnittlichen Getränkepreis in einem "normalen" Lokal ohne Karaoke. Für Karaoke-Stunden wird der Durchschnitt der drei "Marktführer", was Karaoke-Lokale betrifft, genommen - dies wären im Moment Mai Kai, Sing Your Song und SOHO 1. Der Durchschnitt aus den Getränkepreisen dort beträgt € 2,63 + Trinkgeld = € 2,90.
+
+Zur tatsächlichen Aufenthaltszeit wird dann noch die "Taktung" durch angefangene Stunden gerechnet, wozu noch eine halbe Stunde dazu kommt, allerdings nur in dem Ausmaß, in dem von der Gesamtaufenthaltszeit Karaoke gemacht wurde. Diese Zeit kommt aber als Karaoke-Zeit dazu.
+
+Von der sich so ergebenden Summe wird die tatsächliche Konsumation samt Eintritten etc. abgezogen und der Rest dem Herzensgut-Konto zugeführt, von dem dann eventuelle Gefallen bezahlt werden, die ich den dort anwesenden Sängern oder Lokalbesitzern tue (wie z.B. das Mitbringen von CD's, das Kopieren von Karaoke-Titeln etc.).
+
+Beispiel:
+Besuch im Tivoli (5h):
+Ganze Zeit Karaoke -> 5,5h * 2,90 = € 15,95
+Tatsächliche Konsumation: € 1,50 + € 2,80 + Trinkgeld = € 5,-
+Daher an das Herzensgut-Konto abzuführen: € 10,95
+
+Beispiel 2:
+Besuch im Cafe Royal X: Ankunft 20h, Karaoke ab 20h30, Abgang 23h
+Nicht-Karaoke-Zeit: 0,5h * 2,20 = € 1,10
+Karaoke-Zeit: 2,5h * 2,90 = € 7,25
+Taktung: 0,5 h * 5/6 = 0,41666 h * 2,90 = € 1,21
+Gesamte Referenzkonsumation € 1,10 + 7,25 + 1,21 = € 9,56
+Tatsächliche Konsumation: (1 Getränk + 1 Toast + Trinkgeld) € 5,50
+Daher an das Herzensgut-Konto abzuführen: € 4,06
+
+Beispiel 3:
+Besuch in Sue & Laune's Karaoke-Club: Ankunft 21h, Karaoke ab 21h15, Abgang 23h30
+Nicht-Karaoke-Zeit: 0,25h * 2,20 = € 0,55
+Karaoke-Zeit: 2,25h * 2,90 = € 6,53
+Taktung: 0,5 h * 9/10 = 0,45 h * 2,90 = € 1,31
+Gesamte Referenzkonsumation: € 0,55 + 6,53 + 1,31 = € 8,39
+Tatsächliche Konsumation (1 Getränk + Trinkgeld): € 2,50
+Daher an das Herzensgut-Konto abzuführen: € 5,89
+
+Da sich beim Aufführungskonto schon ein Gewinn von über € 2000 angesammelt hat, wäre dieser an Hand verschiedener Lokalbesuche der Vergangenheit auf das Herzensgut-Konto zu überweisen, wobei natürlich nicht so genau gerechnet werden kann, was die Zeiten betrifft - aber ungefähr sollte es sich schon ausgehen.
+
+Für die ersten Lokalbesuche des Jahres 2006 wären z.B. folgende Beträge anzusetzen:
+Tivoli 7.1.2006: € 10.-
+Seabear 14.1.2006: € 10 - 5 = € 5.-
+HBB Strebersdorf 19.1.2006: € 10 - 6 = € 4.-
+Cafe Royal X 28.1.2006 (siehe oben): € 9,50 - 5 = € 4,50
+Niko 1.4.2006 (analog Royal X): € 7,50 - 2,50 = € 5,-
+
+Der Durchschnittsbetrag für 5 Lokalbesuche beträgt somit € 5,70 pro Besuch. Mit diesem Betrag können die Besuche der letzten Jahre abgerechnet werden, wobei soweit zurückgegangen wird, wie das Ausflugskonto im Plus ist. Dies ist nun seit 13.3.2004 der Fall. Seit diesem Datum gab es im Jahr 2004 25 und im Jahr 2005 48 Lokalbesuche. Dies sind insgesamt 73 Lokalbesuche, multipliziert mit € 5,70 ergibt das einen Betrag von € 416,10, der vom Ausflugskonto auf das Herzensgut-Konto zu überweisen ist. Dazu kommen € 28,5 für die bisherigen Besuche 2004, macht insgesamt € 455,60. Wenn wir annehmen, daß pro Jahr 48 Lokalbesuche möglich sind, sollte sich für ein solches Jahr ein Betrag von € 273,60 ergeben, den das Herzensgut-Konto vom Aufführungskonto bekommt. Über eventuelle zusätzliche Zahlungen aus anderen Titeln (wie z.B. für andere Karaoke-Sänger, denen ich ja einen Teil des Spaßes in Karaoke-Lokalen verdanke) wäre noch zu verhandeln.
+
+Anmerkung: beim Mittagessen am 3.3.2007 wurde von meinen Eltern Zweifel an dieser Vorgehensweise ausgesprochen. Ein Alternativvorschlag wäre wie folgt: Es wird erst einmal nichts auf das Herzensgut-Konto gebucht. Erst wenn es zu Anfragen bzw. Beschwerden von Lokalbesitzern und -Gästen kommt, erfolgt auf Grund der bereits getätigten Besuche eine Untersuchung, ob der Anfrage stattgegeben werden kann.
+
+Diese Vorgangsweise ist aber nicht von mir entwickelt worden. Trotzdem ist zu prüfen, ob die oben dargestellte Berechnung in der Praxis mit vertretbarem Aufwand durchgeführt werden kann.
+
+Die hier beschriebenen Ausgleichszahlungen sollten jedenfalls erst nach Fertigstellung aller Dokumentationen durchgeführt werden.
+
+Es stellt sich nun die Frage, wie die Karaoke-Lokalbesuche in die allgemeine Prioritätenliste eingewoben werden können. Im Prinzip wurde die Priorität ursprünglich nach dem bisherigen Einnahmen-/Ausgabenverhältnis eines Karaokebesuchs erstellt und in die Liste eingetragen. Es gibt aber auch hier Fixkosten, die zur Aufrechterhaltung des Ausflugskontos nötig sind. Diese Kosten umfassen die Wartung der Lokalliste, das Kennenlernen neuer Lokale (besonders die Mißerfolge, die dabei auftreten, wenn sich ein Lokaltipp als "Ente" herausstellt), die Aufbewahrung der für das Ausflugskonto relevanten Papiere und anderen Dinge usw.
+
+Berechnung der fixen und variablen Kosten
+
+Wir berechnen nun die Ausgaben, die unabhängig von einzelnen Lokalbesuchen aufgetreten sind:
+
+Miete 2005 											€ 212
+Lokalliste: 7,50 + 16,29 + 13,98 + 3,47 + 2,95 + 11,96 + 5,99 + 20,96 + 9,63 + 4,99 + 7,15 + 6,5 = 	€ 111,37
+Vorkalk.: 15,85 + 5,84 = 										€ 21,69
+Besuch Regina's (vergeblich) 									ca. € 14,-
+Aufräumen 											€ 2,43
+Mail Peter DVD-Player 										€ 6,08
+Papiersortierung: 15,16 + 12,04 =									€ 27,2
+Diskussion+Lokalliste: 64,94 + 3,55 + 4.67 + 8,02 + 2,43 =						€ 83,61
+Kontoführung: 44,84 + 21,86 + 4,11 =								€ 70,81
+Auskundschaftung Cantina Loco									€ 13,78
+Auskundschaftung CUBE 									€ 39,78
+Auskundschaftung Gusto, Ganymed, Blue Devil							€ 37,61
+Auskundschaftung 3 weitere Lokale 								€ 43,89
+Rotationsanalyse											€ 4,36
+Planung 												€ 5,56
+Auskundschaftung Veranstaltung Gotty								€ 11,56
+Singliste: 30,9 + 22,88 = 										€ 53,78
+Dokumentation und Diskussion: 									€ 65,06
+													
+Gesamt: 											€ 824,57
+
+Im Vergleich dazu gab es im 1. Halbjahr 2006, wo nur 5 Lokalbesuche stattfanden, folgende Fixkosten:
+
+Diverses 			€ 47,84
+Miete (für ganzes Jahr 2006) 	€ 225,21
+Forschung Heuriger Kagr. Platz	€ 8,57
+Dokumentation und Diskussion	€ 69,79
+Kontoführung (2x)		€ 23,08
+Ausgaben 2. Quartal		€ 31,14
+Gesamt				€ 357,79
+
+Rechnet man die Miete heraus, so ergeben sich im Jahr 2005 (für 48 Lokalbesuche) € 612,57 und im 1. Halbjahr 2006 (für 5 Besuche) € 132,58, das wären für 2 Halbjahre bei 10 Besuchen € 265,16. Der Wert von 2005 wäre aber mit 2,5% aufzuwerten, das ergibt € 627,88. Insgesamt bekommen wir hiermit € 9,54 pro Lokalbesuch + € 169,70 konstant + die Miete von € 225,21. Dies ergibt Fixkosten von € 394,91 pro Jahr (inkl. Miete), wobei die Miete unten noch weiter aufzuschlüsseln wäre.
+
+Die € 9,54 pro Lokalbesuch wären nun zu dem Ergebnis der einzelnen Besuche zu addieren, während die Fixkosten vom Besuch aller Lokale hereinkommen müssen, damit sich der ganze Lebensbereich rentiert.
+
+Das heißt, dass bei der Berechnung des Einnahmen-/Ausgabenverhältnis eine Pauschale von € 9,54 zu berücksichtigen ist, die den Ausgaben jedes Lokalbesuches hinzugefügt wird, um die Verwaltungskosten zu decken, die sich mit jedem Lokalbesuch ergeben
+
+Handling der Lokalrotation
+
+Bisher wurde die Rotation der Karaoke-Lokale so berechnet wie die Rotation der Titel bei Radio Würmchen, das heißt, die Bewertung der Lokale wurde wie die Bewertung eines Musikstückes in die Prioritätenliste eingegeben und mit dem Datum des letzten Besuches verrechnet.
+
+Leider ist das Schema von Radio Würmchen aber nicht 1:1 auf die Karaoke-Lokalbesuche umzulegen. Beim Hören von Musiktiteln erklingt immer genau wieder der gleiche Musiktitel, der Spaß macht. Bei Karaoke-Lokalbesuchen ist es aber nicht so. Meinen Untersuchungen zufolge haben die Karaoke-Titel über alle Lokale gerechnet ungefähr eine Rotation von 1100 Titeln. Das heißt, wenn man zweimal hintereinander in das gleiche Karaoke-Lokal geht, hört man nicht jedes Mal genau die gleichen Titel, sondern immer wieder verschiedene. Jeder Titel wiederholt sich erst durchschnittlich nach ca. 80 Karaoke-Stunden, das wäre bei einer Durchschnittsdauer von 4 Stunden pro Lokalbesuch 20 Lokalbesuche. Auch innerhalb des gleichen Lokales werden nicht immer die gleichen Titel gesungen. Hier ist die Rotation zwar geringer, bewegt sich aber immer noch um die 600 Titel (untersucht für Tivoli). Das heißt, dass es im Schnitt 8-9 Besuche im Tivoli dauert, bis die gleichen Titel sich wiederholen.
+
+Auch die einzelnen Karaoke-Sänger sind nicht immer die gleichen. Es gibt wohl Stammgäste, aber ich würde doch schätzen, dass die Rotation bei den Sängern über alle Abende gerechnet ungefähr doppelt so groß ist wie die Zahl von Sängern, die innerhalb eines Abends singen.
+
+ Schließlich treten die Spaßpunkte nicht über die ganze Dauer des Lokalbesuches auf, sondern ein bestimmter Teil des Besuches ist Fahrzeit. In der obigen Rechnung vom "Pockerl" war dies bei der Annahme, dass ich beide Strecken öffentlich gefahren wäre, zum Beispiel 110 von insgesamt 410 Minuten, das sind 27% der Gesamtdauer. Rechnet man hier noch die Pauschale von € 9,54 für Verwaltungskosten hinzu, die auch in das E/A-Verhältnis einfließt, dann entspricht diese einer zusätzlichen Zeit von 39 Minuten, so dass der Anteil der Zeit im Lokal auf 300 / 449 = ca. 67% absinkt.
+
+Dies wirkt sich alles darauf aus, welcher Zeitraum bzw. welcher Anteil an Spaßpunkten, die der Zeitentwertung unterliegen, wenn sie zu knapp hintereinander durchgeführt werden, für die Berechnung relevant ist.
+Wir fassen die Anteile der verschiedenen Spaßpunktbringer in den Karaoke-Lokalen wie folgt zusammen:
+
+Fahrtkosten: 	33% * 0 =	 0%
+Lokal selbst: 	10% * 100% = 	10%
+Gesungene Titel:	29% * 10% = 	2,9%
+Karaoke-Sänger:	28% * 50% = 	14%
+
+Gesamt:				26,9%
+
+Das heißt, die Rotation sollte bei Karaoke-Lokalbesuchen nur zu 27% in die Berechnung einfließen, während 63% der Spaßpunkte fix sind und sich nicht ändern. Dies hätte zur Folge, dass wenige Lokale öfters besucht werden, und einige schlechtere dafür überhaupt nicht mehr.
+
+Anmerkung: Diese Berechnung wurde wohl schon irgendwo einmal durchgeführt, da der Wert von 27 bereits in der Prioritätenliste eingetragen ist, er wurde nur bisher nicht richtig verrechnet. Dies wurde nun im Kontensystem richtiggestellt. Das Resultat ist, dass die geplanten Karaoke-Besuche in der Priorität etwas nach unten wandern und eine Karaoke-Party in der Prioritätsliste vor allen Lokalbesuchen kommt - aber hinter den Dokumentationen und den Tonträgerbearbeitungen.
+
+Vergleich der Karaoke-Lokalbesuche mit Radio hören
+
+Wir vergleichen nun das E/A-Verhältnis der Karaoke-Lokalbesuche mit dem von Radio hören und anderen Radio-Würmchen-Aktivitäten:
+
+Das Radio hören in den Zeiten, die mit den Lokalbesuchen in Konkurrenz stehen, ergibt laut aktueller Auswertung in der Radio-Würmchen-Datenbank einen Spaßwert von ca. 2,04 Spaßpunkten pro Stunde, ausser am Sonntag ab 19 Uhr und an Werktagen von 18-19 Uhr, wenn er bei ca. 2,4 Spaßpunkten pro Stunde liegt.
+
+Dies ergibt umgerechnet folgende E/A-Verhältnisse:
+
+Normaler Wert: 2,04 * 10,1 = 20,60 - 2,25 + 14,7 = 33,05; Ausgaben: € 14,70 -> E/A-Relation 2,249
+So. 19-21 Uhr und Werktags 18-19 Uhr: 2,4 * 10,1 = 24,24 - 2,25 + 14,7 = 36,69; Ausgaben: € 14,70 -> E/A-Relation 2,496
+
+Wir erreichen hier Einnahmen-Ausgaben-Relationen, von denen die Karaoke-Lokalbesuche nur träumen können, die derzeit bei E/A-Relationen von maximal 2 kursieren. Diese Relationen inkludieren auch das eventuelle Anhören des Radio-Würmchen-Programms oder diverser Tonträger, falls das Radioprogramm zu bestimmten Zeiten nicht attraktiv genug ist.
+
+Dazu wäre noch zu bemerken, dass die Prioritätswerte für Tonträger bzw. Radio Würmchen-Programm hören im Moment relativ hoch liegen, da diese Tätigkeit während der Durchführung der Dokumentationen mit Beschluß im Herbst 2009 zurückgefahren wurde. Hier könnte es, sobald die Dokumentationen fertig sind, zu einem teilweisen Absinken der Werte kommen. Das gleiche gilt allerdings auch für die Lokalbesuche, die in den letzten Jahren auch nur spärlich durchgeführt wurden. Auch hier könnte eine Intensivierung zu einem Absinken in der Prioritätsliste führen.
+
+Im Moment besteht im Kontensystem leider ein Rückstand von über 3 Jahren. Normalerweise folgt auf jeden Lokalbesuch eine Abrechnung des Besuches und darauf eine Korrektur der entsprechenden Lokalpriorität. Daraus ergibt sich, daß ein Lokal nicht wieder besucht werden kann, bevor der entsprechende Besuch abgerechnet wurde, was leider im Moment ziemlich lange dauert.
+
+Auf Grund dieser Erkenntnisse kann folgendes beschlossen werden:
+- Die Lokalbesuche werden grundsätzlich wieder aufgenommen, wobei auf die Prioritätssetzung geachtet werden sollte. Das heißt, es kann je nach Priorität zu mehr, aber auch weniger Lokalbesuchen kommen als bisher.
+- Solange ein Rückstand im Kontensystem besteht, ist mit dem Wiederbesuch eines Lokales immer zu warten, bis der letzte Besuch abgerechnet wurde. Daraus ergibt sich, daß am Anfang kein Lokal eine engere Rotation als 8 Monate hat. Dadurch wird wohl nicht mehr jede Woche ein Lokal besucht werden. Später kann es dann dazu kommen, daß durch die Verschlechterung der Einnahmen-/Ausgabenverhältnisse die Lokalbesuche nicht mehr öfters erfolgen.
+- Ausnahmen zu dieser Regel sind vorgesehen, in diesem Fall muss aber vor jedem Lokalbesuch zumindest eine Stunde an Kontensystems-Berechnungen durchgeführt werden.
+
+Berechnung der Stadtpläne auf Papier und der Fahrplanermittlung
+
+Ein Papier-Stadtplan (Buchplan) kostet im Moment ca. € 15.- (geschätzt) und wird ca. 1x pro Monat benötigt. Zu den Einkaufskosten kommen noch die Lagerkosten. Ein Buchplan ist 1,2x14x22 cm groß, belegt also 0,37 l. Das ergibt Mietkosten von € 0,38 pro Jahr. Dazu kommen Zinskosten für € 21.- (samt Beschaffungskosten) von 3% = € 0,63, insgesamt also € 1,01 pro Jahr.
+
+Eine Benutzung dauert etwa 2 Minuten und kostet damit € 0,49, dazu kommen 8,4 Cent für den Plan selbst = € 0,574 pro Benutzung. Soviel kostet es, im Plan eine Adresse zu finden (geschätzt). Stellen wir dies nun dem Internet gegenüber. Im Internet dauert es ca. 1 Minute und 18 Sekunden, eine Adresse zu finden. Dies entspricht Kosten von € 0,325 bei einem angenommenen Stundensatz von € 15. Der Nachteil hierbei ist allerdings, daß man die gefundene Adresse nicht so einfach mitnehmen kann... dafür müßte man die Internetseite ausdrucken, was pro Seite weitere 29 Cent kostet + Manipulation von 6 Sekunden ergibt insgesamt ca. € 0,315. Insgesamt, mit Ausdruck, kommt man so auf € 0,64 pro Adresse.
+
+Wir untersuchen nun den Unterschied zwischen Schätzungen und tatsächlich ermittelten optimalen Fahrplänen. In diesem Beispiel haben wir nach der Adresse Lange Gasse 50 (Beer & Songs) gesucht. Der augenscheinlich beste Weg dorthin geht so:
+- Linie 31 bis Schottenring
+- Linie U2 bis Rathaus
+- Von dort aus ca. 6 Minuten zu Fuß
+
+Fahrdauer: 10 Min. nach Großjedlersdorf + 4 Min. Wartezeit + 32 Min. Fahrzeit Linie 31 + 2 Min. Umsteigen + 3 Min. Wartezeit U2 + 6 Min. Gehzeit = 57 Minuten.
+
+Wir ermitteln nun die optimale Fahrtroute im Routenplaner der Wiener Linien.
+
+Es ergeben sich dabei 8 Routen die angezeigt werden, wovon allerdings 4 Routen unbrauchbar sind, so daß 4 sinnvolle übrig bleiben. Deren durchschnittliche errechnete Fahrtdauer beträgt 39 Minuten, allerdings sind für den Weg in die Wohnung und das Anziehen 3 Minuten dazuzurechnen. Da die Fahrten im Abstand von ca. 8 Minuten gesetzt sind, kommen noch einmal 4 Minuten Wartezeit auf die nächste Fahrt dazu. Damit kommen wir auf 39+4+3 = 46 Minuten Fahrzeit.
+
+Dazu kommt nun noch das Aussuchen der Fahrtroute. Dieses dauert 2 Minuten, weiters ist, damit die Fahrtroute auch nutzbar ist, diese auszudrucken. Ein Set mit 8 Fahrtrouten (von denen die Hälfte brauchbar ist) hat dabei 3 Seiten und verursacht damit Kosten von € 0,87 + 12 Sekunden. Gesamtkosten für das Aussuchen der Route daher: € 0,55 + 0,87 = € 1,42, dies entspricht bei einem Stundensatz von € 14,70 5,8 Minuten. Das heißt, wir erreichen hier einen Endaufwand von 46 + 5,8 = 51,8 Minuten. Dies ist kürzer als die "händisch" erstellte Route mit 57 Minuten und wäre daher bei neuern Routen durchzuführen.
+ 
+Die genommenen Fahrtrouten lauten:
+31A - S9 - U6 - 43;
+30A - S7 - U6 - 43;
+31A - S9 - U6 - 43;
+30A - S15 - U6 - 40 - 5
+
+Das heißt, 3 der 4 Fahrtrouten gleichen sich in den Abfahrtsstationen und -richtungen (30A und 31A fahren beide von Station Berzeliusgasse Richtung S-Bahn ab, und S7, S9 und S15 fahren alle von Station Siemensstraße Richtung Handelskai), so daß man die Kombination "Bus - Schnellbahn - U6 - 43" als sicher annehmen kann.
+
+In einer anderen Dokumentation wurde darüber hinaus errechnet, dass es keinen Sinn macht, einmal erstellte Fahrtrouten aufzuheben, weil sich der Fahrplan einer der vorgeschlagenen Linien wahrscheinlich bis zur nächsten Fahrt zum gleichen Ziel ändert und die Fahrtroute damit mehr an Effizienz verliert, als durch den ersparten Ausdruck der aktuellen Fahrtroute eingespart wird. Damit wird auch das Aufheben und Wiedersuchen der alten Fahrtrouten eingespart.
+
+Discobesuche:
+
+Ob mir Discobesuche heute noch Spaß machen würden, wäre erst einmal zu untersuchen. Einen Anhaltspunkt dafür könnte die Geburtstagsfeier von Christoph Löscher bieten, die ich am 3.11.2006 besucht habe, und die ab ca. 23h im wesentlichen einer Discoveranstaltung gleichkam.
+
+Diese Veranstaltung ergab ein E/A-Verhältnis von 1,0502, was eher ein dünner Gewinn ist. Solche Veranstaltungen sind daher nicht zu forcieren, ausser ich werde von jemand anderem dazu eingeladen.
+
+Besuche von Familienfeiern (und ihre Wichtigkeit):
+
+Einige Male pro Jahr kommt es vor, dass ich zu Familienfeiern eingeladen werde. Hier stellt sich dann die Frage, ob es Sinn macht, dorthin zu gehen. In der Lebensdokumentation wurde bereits ausgeführt, dass Familienfeiern und Verwandtenbesuche zum Leben dazugehören. Trotzdem ist es aber natürlich so, daß mir manche Personen mehr und manche weniger sympathisch sind. Weiters neigen meine Eltern dazu, eher viele Verwandtenbesuche durchzuführen und zu lancieren. Wie ich aber in einem Gespräch unter Kollegen herausgefunden habe, sind derartige Frequenzen durchaus üblich - auch Christian Steffek hat mit bestimmten Verwandten ca. alle 2 Wochen Kontakt. Dies ist ungefähr die Frequenz, in der wir von Bernhard Myslik besucht wurden, als er noch in Wien und in Ordnung war.
+Prinzipiell kann man nun Familienfeiern auch danach beurteilen, wie viel Spaß sie machen. Dies sollte in Zukunft - so noch möglich - auch passieren. Auf Grund der Tatsache, daß der Bewertungsmodus beim Kontensystem umgestellt wurde, können hier die Ergebnisse deutlich anders ausfallen als bisher.
+
+Hier einige Ergebnisse aus der Vergangenheit:
+
+Besuch von Fredi und Bernhard: Einnahmen € 8,42; Ausgaben € 5,58; Verhältnis 1,51
+Einladung von Fredi: Einnahmen € 48,15; Ausgaben € 32,38; Verhältnis 1,49
+Besuch von Horsti: Einnahmen € 14,81; Ausgaben € 9,83; Verhältnis 1,51
+
+Zu diesen Verhältnissen wäre anzumerken, daß hier pauschal mit 2 Spaßpunkten pro Stunde (€ 20,20) gegen einen Stundensatz von € 13,40 gerechnet wurde. Da der Stundensatz mittlerweile € 14,70 beträgt, würde dieses Verhältnis auf 20,2/14,7 = 1,374 absinken. Da aber der Verrechnungsmodus des Kontensystems umgestellt wurde, gibt es hier wahrscheinlich andere Ergebnisse. Diese wären aber erst anhand konkreter Berechnungen zu ermitteln.
+
+Als Übergangslösung wäre es daher anzuraten, vorläufig zu allen Feiern und Treffen mitzukommen, wo meine Eltern dabei sind, außer es handelt sich ausschließlich um Personen, die ich alle schon bei vorigen Treffen seit der Abrechnungsumstellung getroffen habe. Wenn es genug Ergebnisse diesbezüglich gibt, können dann weitere Entscheidungen getroffen werden.
+
+Besuch von Demonstrationen und ihre Sinnhaftigkeit
+
+Als Jugendlicher habe ich mich auch einmal angeschickt, Demonstrationen zu besuchen. Mein Vater vertrat aber die Meinung, daß man dort nur von der Polizei verprügelt wird (auch als Außenstehender) und verbot mir, dort hinzugehen. Ich war dann Zeuge einer etwas "harmloseren" Demonstration zur Öffnung der Carabelligasse und stelle mir vor, daß andere Demonstrationen ähnlich ablaufen. Ein demonstrationsähnliches Ereignis, bei dem ich auch war, war eventuell auch der Schülerstreik im Jahr 1987, wo sich Schüler vieler Wiener Schulen am Ballhausplatz einfanden, um gegen geplante Änderungen im Bildungssystem zu protestieren. So gesehen habe ich einige Demonstrationen mitgemacht und verspüre heute nicht mehr die Lust, Demonstrationen zu besuchen, da dabei zwar eine aufgebrachte, aber generell negative Stimmung herrscht, mit der ich mich eigentlich nicht umgeben möchte. Insofern kann das Besuchen von Demonstrationen als Hobby, Projekt oder Aktion fallen gelassen werden.
+
+Technik bei Karaoke-Veranstaltungen machen
+
+Dies ist wieder ein interessanteres Thema. Auf diesem Gebiet habe ich einige Erfahrung, da ich 1994-1996 für den Karaoke-Verein, Rührig und den Karaoke-Club als Techniker tätig war und danach auch noch gelegentlich. Leider bin ich immer mehr auf der Seite der Sänger als auf der Seite des Lokalbesitzers gestanden, so daß ich oft mit den Lokalbesitzern auf Kriegsfuß stand und von ihnen letzten Endes abserviert wurde. Etwas anders war die Situation dann ab 1996, als ich nicht mehr fix in einem Lokal, sondern nur noch gelegentlich für Karaoke-Veranstalter wie z.B. Klausi, Rudi oder Robert tätig war. Wenn man bei einer Karaoke-Veranstaltung die Technik macht, hat dies meist den Nachteil, dass man den ganzen Abend über bleiben muß und auch einmal mit dem jeweiligen Veranstalter weiter weg fahren muß und bei Auf- und Abbau helfen muß, was dann ziemlich lange dauern kann. Aus diesem Grund ist die Abrechnung dann letzten Endes bei solchen Veranstaltungen nicht immer positiv ausgefallen, auch wenn ich für den Technikerjob etwas bezahlt bekam (z.B. 500 öS bei Klausi). Zumindest ist die Abrechnung des letzten Technikerjobs bei Klausi in der Bast, der aber schon etwas länger her ist, negativ aufgefallen. Bei Robert Hickl, wo ich zeitweise auch als Sänger auftrete, ist dies unterschiedlich - manche Auftritte gehen positiv und manche negativ aus. Welche wie ausgehen, läßt sich aber nicht gut vorhersagen. Insgesamt läßt sich aber sagen, daß trotz Bezahlung die Arbeit als Techniker insgesamt weniger Spaß macht als das "unverbindliche" Aufsuchen von Karaoke-Lokalen. 
+
+Möglicherweise würde sich dies mit der neuen Abrechnungsmethode wieder ändern, es gibt aber noch keine Beweise dafür oder dagegen. Im Moment bekomme ich aber auch keine derartigen Jobs angeboten und bin auch eher nicht dazu geneigt, danach zu suchen. Eigentlich sollte nämlich der Auftritt als Karaoke-Techniker dazu dienen, daß meine selbst erstellten Karaoke-Playbacks verwendet werden. Da ich mich aber mittlerweile von diesem Ziel verabschiedet habe, und das neue Ziel die generelle Spaßmaximierung ist, tritt damit auch das Technik machen in den Hintergrund. Dazu kommt noch, daß sich der Job eines Karaoke-Technikers durch den Medienwechsel in letzter Zeit teilweise verändert hat... heute kann man Karaoke von der Festplatte machen, während man früher mit CD's, Bildplatten oder Videokassetten hantieren mußte. Da man die Files, die auf die Festplatte kommen, wiederum ohne große Schwierigkeiten aus dem Internet herunterladen kann (zumindest die bekanntesten Lieder), ist sozusagen die Einstiegsbarriere niedriger, denn man braucht sich nicht mehr mit speziellen Karaoke-CD's und Playern herumzuschlagen... für eine schlechte Karaoke-Veranstaltung reicht auch ein PC oder Laptop, ein Videobeamer oder Monitor, und ein Discomischpult samt Verstärker. Im Vergleich dazu habe ich es früher als einen Teil meiner Aufgabe angesehen, überhaupt zu erreichen, daß Karaoke mit einem vertretbaren finanziellen Aufwand (für die Technik) gemacht werden kann. Dies ist heute ziemlich überflüssig, da der finanzielle Aufwand dafür einfach nicht mehr so hoch ist. Ein weiterer Grund, Technik zu machen, war damals, dass ich auf meinen Videokassetten einige beliebte Titel als Eigenproduktionen hatte, die auf Karaoke-CD's nicht erhältlich waren, während heute so ziemlich alles, was gerne gesungen wird, auch kommerziell erhältlich ist. Damit fällt auch dieser Grund weg.
+
+Der letzte Grund, der einen Technikerjob heute etwas unattraktiv erscheinen läßt, ist, dass ich es finanziell nicht nötig habe, mir etwas als Karaoke-Techniker dazu zu verdienen, da mittlerweile genügend Geld vorhanden ist. Die Karaoke-Technik wäre auch wieder ein "inoffizieller" Beruf neben meinem eigentlichen als Programmierer im Bundesrechenzentrum, für den man eigentlich einen Gewerbeschein bräuchte, zumindest wenn er regelmäßíg ausgeübt wird.
+
+Aus all diesen genannten Gründen sollte ein Karaoke-Technikerjob derzeit nicht aktiv verfolgt werden. Falls ich aber einen solchen (für einzelne Veranstaltungen) angeboten bekomme (z.B. von Robert Hickl), werde ich diesen vermutlich schon annehmen.
+
+Besitztümer:
+
+Auch dem Ausflugskonto "gehören" verschiedene Dinge, die in meiner Wohnung versammelt sind, die hier kurz zusammengefaßt werden sollen:
+
+- Faschingsmaske (für Faschingsveranstaltungen)
+- Diktiergerät (für Außenaufnahmen)
+- 1. Lade von oben im Fernsehverbau (enthält diverse Stadt- und andere Pläne)
+- Nische im Schlafzimmer rechts oben (enthält verschiedene Taschen)
+- 3 Regenschirme (im Werkzeugkasten im Vorzimmer)
+- Schlauchboote samt Luftpumpe und Ruder (im Keller)
+- Luftmatratzen samt Fußpumpe (im Keller)
+- Schuhlöffel groß und Holzschale (im Vorzimmer)
+- Toilettetäschchen schwarz / grün (im Vorzimmer)
+- Blauer Schlafsack (zum Übernachten in fremden Wohnungen usw.)
+- Falschgeld-Detektiv (gehört zu AU, da am Donauinselfest bei Tombola gewonnen)
+- Schachtel rot-grün (enthält diverse Anhänger aus Bädern)
+- Stoß links hinten in Lade in Kommode mit Goldgriffen im Wohnzimmer (enthält Fotos von Karaoke-Besuchen)
+- Schachtel mit Schuhputzzeug (Vorzimmer)
+- Schachtel mit Mützen und Handschuhen (Vorzimmer)
+- Ordner mit Ausflugsunterlagen (in Ordnerregal im Kabinett)
+- Diverse Dateien am PC
+
+Hier fällt auf, dass dem Ausflugskonto auch Unterlagen für Badeausflüge zugerechnet wurden, diese unterstehen aber seit den Empfehlungen von Dr. Hariri aus dem Jahr 2007, Sport zu betreiben, dem Gesundheitskonto. Andererseits wurde die Mietberechnung sowieso geändert, und daher ist es für die Mietzahlungen nicht mehr besonders relevant, welche Dinge zu welchem Konto gehören.
+
+Hier noch näheres zu den Unterlagen im Ausflugsordner und zu den PC-Dateien:
+
+Im Ausflugsordner befinden sich hauptsächlich Karaoke-Listen diverser Veranstalter und Hersteller sowie Prospekte diverser Veranstalter, weiters Blätter mit Protokollen von Karaoke-Besuchen (wie oben beschrieben), historische Lokallisten, ausgedruckte Fahrpläne für Fahrten zu Karaoke-Lokalen und anderswohin sowie ein Ausdruck dieser Dokumentation.
+
+Auf der Festplatte befinden sich (in den Ordnern C:\laufende Projekte\Ausflüge und D:\Daten\Ausflugsgesellschaft) diverse Einzelscans, Lokalmenükarten, diverse Anhänge zu ausflugsrelevanten Mails, andere Angaben zu Karaoke-Lokalen und Rotationsuntersuchungen. Die Datenmenge ist dabei für heutige Verhältnisse mit insgesamt ca. 10 MB nicht besonders groß.
+
+Wie bereits oben angeführt, betragen die Mietkosten (Stand Ende 2005) ca. € 225 pro Jahr.
+
+Businessplan
+
+Wie sich das Ausflugskonto mit den neuen Berechnungsrichtlinien weiter entwickeln wird, kann noch nicht eindeutig gesagt werden. Dies hängt unter anderem davon ab, wie viele Karaoke-Lokalbesuche und andere Aktivitäten pro Jahr durchgeführt werden. Bisher haben wir die Karaoke-Lokalbesuche mit einem pro Woche begrenzt, es ist aber bei entsprechenden Erfolgen auch möglich, mehrere durchzuführen. Immerhin gab es während der "Spitzenzeit" im Jahr 1995, als ich auch selbst Technik machte, wöchentlich einen Abend bei Rührig bzw. im Karaoke-Verein und einen im Karaoke-Club und dazu noch weitere Abende in anderen Lokalen, also insgesamt bis zu 3 Lokalbesuche pro Woche. Und bei Urlauben auf Mallorca und Ibiza besuchten wir teilweise (so es so viele gab) jeden 2. Tag ein Karaoke-Lokal. Wir gehen aber hier davon aus, daß wie vor dem "Zusammenbruch" 1 Lokalbesuch pro Woche durchgeführt wird und damit der vorläufige neue Businessplan dem alten entspricht.
+Das bedeutet:
+
+Spaßeinnahmen pro Jahr: 741,78 Spaßpunkte = € 7492
+Ausgaben pro Jahr: 7492 - 1297 = € 6195 = 442,5 Arbeitsstunden
+
+Die 741,78 Spaßpunkte pro Jahr decken 18,64% der Solleinnahmen ab. Die 442,5 Arbeitsstunden pro Jahr entsprechen 8,48 Stunden pro Woche, das sind 15,4% der gesamten Freizeit.
+
+Durchführungsbestimmungen
+
+Die Ausführung der ausflugsrelevanten Aktivitäten erfolgt gemäß den Prioritätsrichtlinien des Kontensystems, das heißt, derzeit kommt vor den Karaoke-Lokalbesuchen ein dicker Block an noch durchzuführenden Dokumentationen und Radio-Würmchen-Datenbankbearbeitungen. Da diese beide über einen großen Rückstand verfügen, können die Karaoke-Lokalbesuche de facto erst wieder nach Beendigung dieser beiden Projekte aufgenommen werden, ausser sie steigen in der Priorität so hoch, dass sie über diesen beiden Projekten zu liegen kommen. Dies ist aber unwahrscheinlich.
+
+Jedem Karaoke-Lokal ist in der Prioritätsliste ein eigener Punkt gewidmet, der aber nur dann ausgeführt werden kann, wenn er noch nicht ausgeführt wurde. Wurde er ausgeführt, wird er inaktiv gesetzt und wartet auf die Nachkalkulation. Nach erfolgter Nachkalkulation wird dann das betreffende Lokal neu in die Prioritätenliste aufgenommen, wobei das Datum auf das letzte Besuchsdatum gesetzt und die Einnahmen-/Ausgabenrelation gemäß dem Ergebnis der Nachkalkulation entsprechend angepaßt wird. In Einzelfällen (wenn z.B. ein besuchtes Lokal nicht mehr existiert) wird der entsprechende Punkt auch gestrichen.
+
+Neu hinzukommende Lokale werden vor dem Erstbesuch anhand der vorhandenen Daten geschätzt und auch in die Prioritätenliste aufgenommen, allerdings ohne das zuletzt besuchte Datum zu belegen, was zur Folge hat, daß sie wie "ständige" Projekte behandelt werden. Nach dem Erstbesuch erfolgt dann entweder die Streichung oder die "normale" Aufnahme in die Prioritätenliste.
+
+Daraus ergibt sich, daß Lokale, deren letzter Besuch noch nicht abgerechnet wurde, nicht besucht werden können, bis diese Abrechnung erfolgt ist. Davon sind die meisten Karaoke-Lokale betroffen, da viele von ihnen zwischen Ende 2006 und August 2010 besucht wurden. Nicht besuchte Lokale können jeweils einmal besucht werden, wenn sie in der Prioritätenliste an entsprechender Stelle stehen, was aber im Moment auf Grund der oben dargestellten Berechnungsänderung bei den Prioritäten nicht der Fall ist.
+
+Was Familienfeiern und Einladungen betrifft, werden diese, wie schon erwähnt, besucht, um Daten zu sammeln, wenn bei dem entsprechenden Treffen mindestens eine Person erwartet wird, die noch bei keinem anderen, noch nicht nach dem neuen Schema abgerechneten Treffen war.
+
+
+	- 1 -
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,246 @@
+DOCUMENTATION INDEX
+================================================================================
+Generated: 2026-03-05 (corrected prefixes)
+Total documents: 107
+
+
+[AM] AM (1 docs)
+--------------------------------------------------------------------------------
+  DOC001        48.5 KB  2011-01-27  Dokumentation des Amiga-Kontos 11.1.26
+
+[AU] Aufführungsgesellschaft (6 docs)
+--------------------------------------------------------------------------------
+  DOC007        25.5 KB  2006-09-27  Dokumentation Karaoke-Lokalbesuche Kurt - Elfi
+             NOTE: Karaoke-Lokalbesuche
+  DOC005       112.5 KB  2007-04-06  Dokumentation des Ausflugskontos
+             NOTE: Original version
+  DOC006       112.5 KB  2007-04-07  Dokumentation des Ausflugskontos
+             NOTE: Duplicate folder (encoding variant)
+  DOC004        84.5 KB  2010-08-21  Dokumentation des Ausflugskontos Status Quo
+             NOTE: Status Quo
+  DOC003       122.5 KB  2010-08-27  Dokumentation des Ausflugskontos Entwicklungsdokument
+             NOTE: Entwicklungsdokument
+  DOC002        67.0 KB  2010-08-28  Dokumentation des Ausflugskontos 10.8.27
+
+[BR] BRZG (2 docs)
+--------------------------------------------------------------------------------
+  DOC009        49.0 KB  2007-06-28  Dokumentation BRZG 7.6.16
+  DOC008        46.5 KB  2011-11-09  Dokumentation BRZG 11.11.9
+
+[CG] CG (2 docs)
+--------------------------------------------------------------------------------
+  DOC010        46.0 KB  2012-07-21  Dokumentation CD+G-Konto 10.9.16
+  DOC011        46.0 KB  2015-01-03  Dokumentation CD+G-Konto 15.1.3
+
+[CS] Computerspiele (2 docs)
+--------------------------------------------------------------------------------
+  DOC013        96.0 KB  2008-11-06  Dokumentation zu Gate-Empire
+             NOTE: Game-specific doc
+  DOC012        56.0 KB  2010-09-17  Dokumentation Computerspiele 10.9.15
+
+[EL] EL (2 docs)
+--------------------------------------------------------------------------------
+  DOC014        53.0 KB  2010-10-30  Dokumentation des Eltern-Kontos 10.10.30
+             NOTE: Duplicate in subfolder
+  DOC015        53.0 KB  2010-10-30  Dokumentation des Eltern-Kontos 10.10.30
+
+[ES] ES (1 docs)
+--------------------------------------------------------------------------------
+  DOC016        35.0 KB  2010-11-01  Dokumentation des Kontos Erwins Schwestern 11.1.1
+
+[FI] Finanzverwaltung (8 docs)
+--------------------------------------------------------------------------------
+  DOC025       109.5 KB  2007-04-09  Dokumentation Finanzverwaltung
+             NOTE: Original version
+  DOC024        88.5 KB  2007-06-01  Dokumentation Finanzverwaltung 7.5.29
+  DOC021        32.0 KB  2009-10-05  Dokumentation der Veranlagung vom Oktober 2009
+  DOC026        32.0 KB  2009-10-05  Dokumentation der Veranlagung vom Oktober 2009
+             NOTE: Duplicate in root Finanz
+  DOC019        30.0 KB  2011-08-02  Dokumentation der Veranlagung vom Juli 2011
+             NOTE: Duplicate in Berechnungen subfolder
+  DOC020        30.0 KB  2011-08-02  Dokumentation der Veranlagung vom Juli 2011
+  DOC022        87.5 KB  2013-05-20  Dokumentation Finanzverwaltung 13.5.18
+  DOC023        83.5 KB  2014-12-30  Dokumentation Finanzverwaltung 14.12.26
+
+[FZ] Fahrzeuge (2 docs)
+--------------------------------------------------------------------------------
+  DOC017       152.5 KB  2010-10-09  Dokumentation Fahrzeug 10.9.22
+  DOC018        78.0 KB  2011-11-13  Dokumentation Fahrzeug 11.11.9
+
+[GE] Gesundheit (4 docs)
+--------------------------------------------------------------------------------
+  DOC030        93.5 KB  2010-09-25  Dokumentation der Psychotherapie von Kurt Woloch ab 31
+             NOTE: Psychotherapy documentation
+  DOC028        44.0 KB  2010-10-03  Dokumentation aktueller Probleme 10.10.2
+  DOC029        62.5 KB  2011-07-31  Dokumentation aktueller Probleme 11.7.29
+  DOC031        39.5 KB  2011-11-09  Dokumentation Gesundheitskonto 11.11.9
+
+[GV] Geräteversicherungskonto (1 docs)
+--------------------------------------------------------------------------------
+  DOC027        45.0 KB  2011-01-28  Dokumentation des Geräteversicherungskontos 11.1.27
+
+[HA] HA (1 docs)
+--------------------------------------------------------------------------------
+  DOC032        54.0 KB  2010-10-29  Dokumentation historische Aufnahmen 10.10.26
+
+[HL] HL (1 docs)
+--------------------------------------------------------------------------------
+  DOC033        42.5 KB  2011-01-26  Dokumentation des Hitparadenlistungskontos 11.1.23
+
+[IN] Internet (1 docs)
+--------------------------------------------------------------------------------
+  DOC034        45.5 KB  2009-05-18  Dokumentation Internet 9.5.17
+
+[KF] KF (1 docs)
+--------------------------------------------------------------------------------
+  DOC037        55.0 KB  2015-03-06  Dokumentation Kauf eines Funkmikrofons
+
+[KS] Kontenverwaltung (9 docs)
+--------------------------------------------------------------------------------
+  DOC038        78.5 KB  2008-09-27  Dokumentation des Kontensystems 8.9.27
+  DOC040        78.5 KB  2008-09-27  Dokumentation des Kontensystems 8.9.27
+             NOTE: Duplicate in Kontenverwaltung
+  DOC039        74.0 KB  2014-08-07  Dokumentation des Kontensystems 14.8.6
+  DOC106      2612.5 KB  2023-03-21  Untersuchung der Prioritätenliste
+             NOTE: Historical version 2022-2023
+  DOC102      1140.5 KB  2023-04-05  Untersuchung der Prioritätenliste 5.4.2023
+             NOTE: PDF version 2023-04-05
+  DOC104      1140.6 KB  2023-05-13  Untersuchung der Prioritätenliste
+             NOTE: PDF version
+  DOC105       449.5 KB  2024-10-02  Untersuchung der Prioritätenliste
+             NOTE: TXT version
+  DOC101      2317.5 KB  2026-01-18  Untersuchung der Prioritätenliste
+             NOTE: Priority list analysis (Gesundheit copy)
+  DOC103      2317.5 KB  2026-03-01  Untersuchung der Prioritätenliste
+             NOTE: Priority list analysis - current
+
+[KV] KV (1 docs)
+--------------------------------------------------------------------------------
+  DOC036       152.5 KB  2010-10-24  Dokumentation Karaoke-Videos 10.10.9
+
+[LE] Lebenserhaltung (9 docs)
+--------------------------------------------------------------------------------
+  DOC107       107.1 KB  2006-04-12  KURTDOKU
+             NOTE: Kurt's personal documentation checklist
+  DOC042        28.5 KB  2008-04-30  Dokumentation des Mittagessens am Arbeitsplatz (Kurzfassung)
+             NOTE: Kurzfassung
+  DOC099       175.0 KB  2008-09-27  Lebensdokumentation 8.9.27
+             NOTE: Life documentation
+  DOC045        37.0 KB  2008-10-08  Dokumentation des Mittagessens an Arbeitstagen 8.10.5
+  DOC047       125.5 KB  2008-10-09  Dokumentation Lebenserhaltung (Abrechnung) 7.09.28
+             NOTE: Abrechnung version
+  DOC044        48.0 KB  2008-11-02  Dokumentation des Mittagessens an Arbeitstagen 8.10.23
+  DOC046       133.0 KB  2010-08-06  Dokumentation Lebenserhaltung (Abrechnung) 10.08.6
+             NOTE: Abrechnung version
+  DOC043        38.0 KB  2011-11-18  Dokumentation des Mittagessens an Arbeitstagen 11.11.18
+  DOC041        97.0 KB  2013-07-28  Dokumentation der Wohnungsverwaltung 13.7.28
+             NOTE: Wohnungsverwaltung sub-doc
+
+[LI] LI (8 docs)
+--------------------------------------------------------------------------------
+  DOC054        59.0 KB  2009-08-09  Dokumentation Literatur 8.10.24
+  DOC055        49.5 KB  2009-08-15  Dokumentation Literatur 9.8.14
+  DOC048        51.0 KB  2010-08-28  Dokumentation Literatur 10.8.28
+  DOC052        53.5 KB  2011-06-04  Dokumentation Literatur 11.6.4
+  DOC051        54.5 KB  2011-06-19  Dokumentation Literatur 11.6.19
+  DOC053        53.5 KB  2011-08-04  Dokumentation Literatur 11.8.3
+  DOC049        54.0 KB  2011-11-12  Dokumentation Literatur 11.10.19
+  DOC050        54.0 KB  2011-11-12  Dokumentation Literatur 11.11.12
+
+[MT] MT (1 docs)
+--------------------------------------------------------------------------------
+  DOC059        43.5 KB  2010-11-01  Dokumentation des Musiktexte-Kontos 10.11.1
+
+[MU] Musikergesellschaft (3 docs)
+--------------------------------------------------------------------------------
+  DOC058        79.0 KB  2010-08-28  Dokumentation Musiker
+             NOTE: Original version
+  DOC057        81.5 KB  2010-09-11  Dokumentation Musiker 10.8.29
+  DOC056        98.5 KB  2015-02-03  Dokumentation Kauf neues Keyboard und Funkmikrofone
+             NOTE: Purchase doc
+
+[MY] MY (1 docs)
+--------------------------------------------------------------------------------
+  DOC060        35.5 KB  2011-01-23  Dokumentation des Myslik-Kontos 11.1.1
+
+[PA] Papa (1 docs)
+--------------------------------------------------------------------------------
+  DOC100       407.0 KB  2025-04-21  Dokumentation des Todes von Erwin Woloch (V2)
+             NOTE: Death documentation for Papa
+
+[PC] PC (6 docs)
+--------------------------------------------------------------------------------
+  DOC066       128.0 KB  2007-12-25  Dokumentation zum PC-Kauf Nov.2007 7.12.25
+  DOC067       161.5 KB  2008-01-04  Dokumentation zum PC-Kauf Nov.2007
+             NOTE: Original
+  DOC063        90.0 KB  2010-09-12  Dokumentation PC 10.9.11
+  DOC062        88.5 KB  2010-12-28  Dokumentation PC 10.12.28
+  DOC064        93.0 KB  2011-07-18  Dokumentation PC 11.7.18
+  DOC065        92.0 KB  2013-09-26  Dokumentation zum Kauf eines tragbaren PC's Nov.2011
+             NOTE: Laptop purchase
+
+[RA] Radio (4 docs)
+--------------------------------------------------------------------------------
+  DOC061        65.5 KB  2010-09-19  Dokumentation Orange 94.0 10.9.19
+             NOTE: Radio Orange
+  DOC092        41.0 KB  2010-10-09  Dokumentation Fernsehen 10.10.9
+  DOC091        34.5 KB  2011-11-09  Dokumentation Radio hören 11.11.9
+             NOTE: Duplicate in subfolder
+  DOC093        34.5 KB  2011-11-09  Dokumentation Radio hören 11.11.9
+
+[RW] Radio Würmchen (23 docs)
+--------------------------------------------------------------------------------
+  DOC072       389.5 KB  2008-09-28  Dokumentation Lebensbereich Radio Würmchen 7.9.28
+             NOTE: Largest RW doc
+  DOC080        44.5 KB  2008-12-29  Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten Status Quo
+             NOTE: Status Quo
+  DOC075        60.0 KB  2009-09-17  Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten 9.1.2
+  DOC079       147.5 KB  2009-09-19  Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten Entwicklungsdokument
+             NOTE: Entwicklungsdokument original
+  DOC073        49.5 KB  2009-09-21  Dokumentation Lebensbereich Radio Würmchen 8.10.18
+  DOC076        60.5 KB  2009-09-21  Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten 9.9.21
+  DOC077       146.5 KB  2009-09-21  Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten Entwicklungsdokument 9.9.20
+             NOTE: Entwicklungsdokument
+  DOC081        60.0 KB  2009-09-23  Dokumentation Musikversorgung Radio Würmchen unterstützende Aktivitäten Status Quo
+             NOTE: Status Quo
+  DOC090       287.5 KB  2009-09-24  Dokumentation unterstützende Aktivitäten Radio Würmchen Entwicklungsdokument
+             NOTE: Entwicklungsdokument original
+  DOC089       134.0 KB  2009-09-26  Dokumentation unterstützende Aktivitäten Radio Würmchen Entwicklungsdokument 9.9.24
+             NOTE: Entwicklungsdokument
+  DOC078        59.5 KB  2009-09-27  Dokumentation Musikversorgung Radio Würmchen Hauptaktivitäten Entwicklungsdokument 9.9.26
+             NOTE: Entwicklungsdokument
+  DOC088        72.0 KB  2009-09-30  Dokumentation unterstützende Aktivitäten Radio Würmchen 9.9.28
+  DOC071        53.5 KB  2009-10-01  Dokumentation Datenbank Radio Würmchen Status Quo
+             NOTE: Status Quo
+  DOC074        47.0 KB  2009-10-01  Dokumentation Lebensbereich Radio Würmchen 9.9.21
+  DOC068        30.0 KB  2010-08-04  Dokumentation Chattertreffen JBH Sommer 2010
+  DOC070       280.0 KB  2010-08-13  Dokumentation Datenbank Radio Würmchen 7.10.1
+  DOC082        52.5 KB  2010-08-14  Dokumentation Radio Würmchen Karaoke 10.8.14
+  DOC083        76.5 KB  2010-08-14  Dokumentation Radio Würmchen Karaoke Entwicklungsdokument 10.8.14
+             NOTE: Entwicklungsdokument
+  DOC084        47.5 KB  2010-08-14  Dokumentation Radio Würmchen Karaoke Status Quo
+             NOTE: Status Quo
+  DOC087        44.5 KB  2010-08-15  Dokumentation Radio Würmchen weitere Aktivitäten Status Quo
+             NOTE: Status Quo
+  DOC085        41.0 KB  2010-08-18  Dokumentation Radio Würmchen weitere Aktivitäten 10.8.18
+  DOC086        48.5 KB  2010-08-18  Dokumentation Radio Würmchen weitere Aktivitäten Entwicklungsdokument 10.8.15
+             NOTE: Entwicklungsdokument
+  DOC069       278.0 KB  2010-09-25  Dokumentation Datenbank Radio Würmchen 10.9.25
+
+[SG] Karaoke-Sänger (1 docs)
+--------------------------------------------------------------------------------
+  DOC035        67.0 KB  2010-11-01  Dokumentation des Karaoke-Sänger-Kontos 10.10.30
+
+[TT] TT (1 docs)
+--------------------------------------------------------------------------------
+  DOC094        41.5 KB  2010-09-20  Dokumentation Tonträger 10.9.19
+
+[WF] Wohnungsfixkosten (4 docs)
+--------------------------------------------------------------------------------
+  DOC098        24.5 KB  2007-11-17  Dokumentation zur Papiersortierung November 2007
+             NOTE: SMALLEST file
+  DOC097        99.0 KB  2008-09-28  Dokumentation der Wohnungsverwaltung 8.9.28
+  DOC095        43.5 KB  2025-07-21  Dokumentation der Hausratverwaltung 21.7.2025
+             NOTE: Recent 2025
+  DOC096        37.5 KB  2025-07-21  Dokumentation der Papier- und Datenverwaltung 21.7.2025
+             NOTE: Recent 2025

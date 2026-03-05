@@ -1,0 +1,569 @@
+Dokumentation des Lebenserhaltungskontos
+Stand: 6.8.2010
+
+Vorwort	1
+Grund für die Entwicklung des Kontos	2
+Abgrenzung zu anderen Konten	2
+Erfassung und Abrechnung der Lebenserhaltung im Kontensystem	2
+Essensdatenbank	2
+Zweck der Essensdatenbank	2
+Tabellen und Listen in der Essensdatenbank	2
+Tagesablauf der Essensdatenbank-Bearbeitung	3
+Bewertung neu aufgenommener Menüteile	3
+Auswertung für die Einkaufsliste	3
+Berücksichtigung von Speiseplänen	3
+Mehrfachportionen und Lagerhaltung	3
+Inhaltsstoffe	3
+Konsumationen in Karaoke-Lokalen	4
+Verwaltungsaufwand der Essensdatenbank	4
+Zeitaufwand für die Bewältigung der Essensdatenbank	4
+Durchführungsbestimmungen für die Essensdatenbank	5
+Entscheidung, in welchen Lokalen gegessen und eingekauft wird	5
+Referenzwerte	5
+Mittagessen	5
+Restliche Mahlzeiten (Nebenmahlzeiten)	6
+Geschirr abwaschen	6
+Kosten für Küche und Zubereitung der Mahlzeiten	7
+Kosten für Einkauf und Lagerung der Lebensmittel	7
+Sonderstellung des Lebenserhaltungskontos	11
+Stützung	11
+Berechnung des Stützungsbedarfs der Mahlzeiten	11
+Priorisierung und Kostendeckungsprinzip	12
+Businessplan	12
+Gesamtausgaben des Lebenserhaltungskontos	12
+Kleidung und Körperpflege:	12
+Miete für Wohnungsbereiche, die der Lebenserhaltung zugerechnet sind	13
+Zusammenfassung Einnahmen	14
+Spaßwerte	14
+Stützbeträge	14
+Zusammenfassung Ausgaben	14
+Zeitaufwand	14
+Barspesen	14
+Sonstige Aufwände	15
+Zusammenfassung Gesamtrechnung	15
+Typischerweise anfallende tägliche Abrechnungen des Lebenserhaltungskontos im Kontensystem	15
+Ablagen und Papier:	16
+Prioritätssetzung der Essensdatenbank-Bearbeitung und andere Lebenserhaltungs-Aktionen	16
+
+
+Vorwort
+
+Dies ist die Dokumentation des Lebenserhaltungskontos. Dieses Konto im Kontensystem beschäftigt sich mit lebenserhaltenden Tätigkeiten. Dazu zählen:
+- Körperpflege
+- Zähne putzen
+- Diverse Mahlzeiten
+- Einkauf von Lebensmitteln
+- Einkauf und Pflege von Kleidung
+- Friseur
+- Andere lebensnotwendige (persönliche) Ausgaben und Wege, so sie nichts mit anderen Bereichen zu tun haben.
+
+Grund für die Entwicklung des Kontos
+
+Der Bereich Lebenserhaltung war einer der letzten, wenn nicht sogar der letzte überhaupt, der ins Kontensystem hereingenommen wurde. Grund: Die oben angegebenen Tätigkeiten muß man sowieso durchführen, es ist daher keine Entscheidung möglich, sie z.B. weniger oft oder überhaupt nicht durchzuführen.
+Andererseits hat man aber z.B. in Kantinen und anderen Lokalen normalerweise die Entscheidung zwischen verschiedenen Speisen und Getränken, die man konsumieren kann. Jeder dieser Speisen und Getränke schmeckt mir natürlich unterschiedlich gut, und ich habe mir daher gedacht, daß es doch möglich sein sollte, meine Lebensqualität zu heben, indem ich mir gezielt aussuche, was ich esse und trinke. Nach Streitigkeiten mit meinen Eltern bezüglich meines Essens erschien es mir nötig, dieses Aussuchen durch eine Datenbank zu unterstützen, so wie sie bereits für die Musiktitel in meiner Sammlung existiert.
+
+Abgrenzung zu anderen Konten
+
+Dieses Konto grenzt sich von folgenden ähnlichen Konten folgendermaßen ab:
+
+Gesundheitskonto: beinhält alle Abrechnungen für gesundheitsrelevante und -fördernde Ausgaben. Dazu zählen alle Arztbesuche, Medikamente, Baden gehen etc. Diese zählen daher nicht zur Lebenserhaltung, obwohl sie auch lebensnotwendig sind.
+
+Wohnungsverwaltungskonto: beinhält alle Abrechnungen für Dinge in der Wohnung. Dazu zählt Telefon, Heizung, Miete, Strom, Wasser etc. Die Wohnung ist zwar auch lebensnotwendig, aber kein persönliches Ding.
+
+Ausflugskonto: beinhält alle Abrechnungen für Karaoke-Lokal- und andere Besuche. Bei diesen wird zwar meist auch etwas konsumiert, aber diese Konsumation ist nicht Hauptzweck der jeweiligen Aktion, so daß die Aktion nicht der Lebensverwaltung zuzurechnen ist.
+
+Erfassung und Abrechnung der Lebenserhaltung im Kontensystem
+
+Die grundlegenden Abläufe, die dem Lebenserhaltungskonto zugrunde liegen, sind bereits in der Lebensdokumentation beschrieben. 
+In dieser Dokumentation geht es daher hauptsächlich darum, wie der Bereich Lebenserhaltung im Kontensystem erfaßt und abgerechnet wird.
+
+Essensdatenbank 
+Zweck der Essensdatenbank
+
+Die Essensdatenbank wurde ins Leben gerufen, um die richtige Auswahl von Nahrung zu unterstützen und basiert auf der Idee, so wie andere Dinge auch das Essen von Speisen mit verschiedenen Spaßpunkten zu belegen und gegen die dafür benötigte Zeit abzurechnen. Je nachdem, wie gut mir etwas schmeckt, sollte diese Speise dann öfter oder seltener auf den Speiseplan kommen. Natürlich ist dabei auch die Ausgewogenheit der Ernährung zu berücksichtigen.
+Tabellen und Listen in der Essensdatenbank
+
+Das erste, was es in der Essensdatenbank gab, war eine Liste verschiedener Menüs und Menüteile mit Angaben darüber, welcher Kategorie sie angehören, wie gut sie mir schmecken und wann ich sie zuletzt gegessen habe. In die Essensdatenbank wurde eine Funktion eingebaut, die anhand des Zeitraumes seit dem letzten Vorkommen jeder Mahlzeit und der absoluten Wertung für dieses Gericht eine Wertung abgibt, wie gut mir dieses Gericht im Moment schmecken würde. 
+In der Tabelle "Händlerangebote" wurden dann die Angebote der verschiedenen Händler für eßbare Dinge notiert, und zwar mit Preis, Anzahl der Portionen etc. Dabei ist unter "Händler" sowohl ein Lebensmittel-Händler als auch ein Restaurant oder eine Kantine, die fertige Speisen anbietet, zu verstehen. Dazu kam dann noch die Tabelle "Angebotsdetails", die die Details zu jedem Angebot notiert, da ja manche Angebote aus mehreren Teilen bestehen, z.B. ein Menü. Wenn es z.B. in der Kantine Mohnnudeln mit Apfelmus gibt, und dazu noch eine Suppe, und ich trinke noch ein Glas Wasser dazu, sind das schon 4 Teile, zu denen es jeweils einen eigenen Eintrag in der Menü-Tabelle gibt. Dazu kam dann eine Abfrage, mit der aus mehrteiligen Händlerangeboten noch der Durchschnitt der Wertung, bzw. ein Gesamtwert errechnet werden kann, so daß die verschiedenen Menüs miteinander vergleichbar werden, auch wenn sie aus mehreren Teilen bestehen.
+ 
+Die Essendatenbank wird und wurde auch dazu verwendet, zu entscheiden, bei welchem Händler eingekauft bzw. bei welchem Restaurant zu Mittag gegessen werden sollte, was aber für die Händler wieder fallen gelassen wurde.
+Tagesablauf der Essensdatenbank-Bearbeitung
+
+Im Prinzip per Mai 2007 der Tagesablauf der Essensdatenbank-Bearbeitung (unter der Voraussetzung, daß sie in der Prioritätenliste an die Reihe kommt) so aus:
+1. in der Früh an Arbeitstagen Ausdruck bzw. Aktualisierung der Lokalbewertungsliste (Report 
+2. nach dem Heimkommen Bearbeitung der Essensliste, indem alle zum Mittagessen gegessenen Dinge eingetragen und durch Doppelklick (automatische Routine) mit einer Wertung versehen werden. Eventuell vorher Bewertung von neu aufgenommenen Menüteilen. Danach werden, falls das betreffende Lokal noch nicht vollständig erfasst ist, sofern bekannt weitere Angebote aus diesem Lokal in die Essensdatenbank eingebaut. Falls ein neues Lokal besucht wurde, werden zu diesem noch zusätzliche Daten wie Kollegenwartezeiten, Gehzeit und Wartezeit eingetragen.
+3. Samstag morgen: Entscheidung, was vom Billa eingekauft wird, wenn bestimmte Kategorien von Einkäufen (Tee, Marmelade) fällig werden
+Bewertung neu aufgenommener Menüteile
+
+Die Bewertung von neu aufgenommenen Menüteilen erfolgt normalerweise nach Geschmack, mit einer Schulnote von 1 bis 5. 1 ist die beste und 5 die schlechteste Note. Die Noten für Menüteile, die mir noch nicht bekannt sind, werden anhand der Noten ähnlicher Menüteile geschätzt. Es liegt aber in der Natur der Sache, daß prinzipiell manche Warengruppen mir besser schmecken als andere. Dazu später noch mehr.
+Auswertung für die Einkaufsliste
+
+Die Entscheidung für die Einkaufsliste erfolgt, indem ich die Liste "Abf_Essensliste K nach Kategorien" aufrufe, in der die verschiedenen Tee- und Marmeladesorten  nach momentaner Attraktivität sortiert sind. Aus dieser werden dann von oben kommend die passenden Waren herausgeschrieben, wobei je Kategorie 3 Stück aufgeschrieben wird, um zu berücksichtigen, dass nicht immer alles lagernd ist. Die nicht lagernden Angebote werden aber auch beim Einkauf im Kalender notiert und dann in der Essensdatenbank eingetragen, damit sie nicht noch einmal gesucht werden.
+Berücksichtigung von Speiseplänen
+
+Speisepläne zu berücksichtigen, rechnet sich nur, wenn die Wahrscheinlichkeit, dass das jeweilige Lokal am betreffenden Tag besucht wird, mindestens 50% beträgt. Da dies nach dem Umzug an meine neue Arbeitsplatzlokation in der Marxer Gasse 24 nicht mehr der Fall ist, werden derzeit keine Speisepläne berücksichtigt.
+Mehrfachportionen und Lagerhaltung
+
+Da es manche Dinge gibt, die länger haltbar sind und eigentlich aus mehreren Portionen bestehen, wie z.B. Mehrfachpackungen von Weckerln und Schokoladen, gibt es in der Datenbank auch die Möglichkeit, bei den Händlerangeboten Mehrfachportionen einzutragen, und zwar in der Spalte "Portionen". Dann läßt sich noch die Lebensdauer der Ware angeben, aber diese ist im Moment nicht auswertbar.
+Da sich dieBearbeitung der Essensdatenbank für die meisten Waren aber als unrentabel erwiesen hat, werden diese Mehrfachportionen derzeit nicht berücksichtigt.
+Inhaltsstoffe
+
+Die Essensdatenbank enthält noch eine Zusatzfunktion, die aber im Moment noch keine wirklich gute Auswertung zuläßt, und zwar ist das die Eintragung der Inhaltsstoffe der Lebensmittel.
+Dazu gibt es wieder eine eigene Tabelle mit möglichen Inhaltsstoffen und ihren Eigenschaften (z.B. Minimal- und Maximalwerte pro Tag). Es gibt dann noch eine eigene Maske, in der sich zu den Gerichten der Tabelle MENUES die darin enthaltenen Inhaltsstoffe erfassen lassen. Dies ist besonders relevant für die von meinem Vater wegen schrägen Inhaltsstoffen kritisierten Süßigkeiten. Zu diesem Zweck werden die Verpackungen der Süßigkeiten gesammelt und dann von den in der Datenbank noch nicht vorhandenen Süßigkeiten die Inhaltsstoffe eingetragen.
+Leider gibt es dazu aber keine Auswertung, die die so gewonnenen Daten in die Einkaufslisten einfließen lassen würde.
+Konsumationen in Karaoke-Lokalen
+
+Da auch in Karaoke-Lokalen etwas konsumiert wird, sind auch für einige Karaoke-Lokale die Angebote an Essen und Getränke hier eingetragen. In der Spalte "Händler" steht hier der Lokalname.
+Vor dem Besuch eines solchen Lokals wird dann in der Datenbank (meist mit der Abfrage "Wurst nach Händler sortiert") nachgesehen, welches Getränk und gegebenenfalls welche Speise, das bzw. die es in diesem Lokal gibt, im Moment an der Spitze der Liste steht und die jeweilige Ware zur Konsumation vorgemerkt.
+Verwaltungsaufwand der Essensdatenbank
+
+Wie sich aus dieser Beschreibung schon erahnen läßt, ist das Ganze ziemlich kompliziert. Auch die Bedienung der Datenbank ist nicht wirklich einfach. Daher mußte eine Grenze von 15 Minuten pro Tag eingezogen werden, die die Bearbeitung der Essensdatenbank pro Tag maximal dauern darf. Über dieser Zeit zahlt es sich nicht aus, die Essensdatenbank zu bearbeiten. 
+Aus diesem Grund wurden nach eingehenden Berechnungen einige Dinge gestrichen:
+- Sonderangebote bei Billa bleiben unberücksichtigt (außer, sie werden spontan wahrgenommen)
+- Von Tagesemüs werden immer nur, wie schon erwähnt, die günstigsten 3 eingegeben.
+- Die Menüs werden nur für Lokale berechnet, deren Besuchswahrscheinlichkeit für den Folgetag über 50% ligt.
+
+Wir untersuchen daher nun noch die Zeitaufwände für die einzelnen Bearbeitungsschritte der Essensdatenbank.
+Prinzipell läßt sich das Bearbeiten der Essensdatenbank, das oben schon genauer beschrieben wurde, in folgende Bearbeitungen zerteilen:
+1. Eintragung in die Hauptliste (mit vorheriger Ermittlung eines Schätzwertes) oder Update der Hauptliste
+2. Update der Hauptliste (wenn realer Wert eingetroffen ist)
+3. Eintragen der gegessenen Stücke eines Tages
+4. Eintragen von Menüs in die Händlerangebot-Liste
+5. Eintragen von Lebensmittel-Inhaltsstoffen
+6. Update der bekommenen und nicht bekommenen Waren in der Händlerangebots-Datenbank (gestrichen)
+7. Fahren der Abfrage und Aufschreiben der einzukaufenden Waren
+8. Suchen des richtigen Menüs in der Liste
+9. Eintragen von Aktionen von Billa in die Händlerangebots-Tabelle bzw. Update dieser Tabelle
+
+Zu einigen dieser Aktionen gibt es schon Zeitaufzeichnungen, deren Ergebnisse folgende Durchschnittswerte ergeben:
+
+Ad 3. Eingabe der gegessenen Stücke für 1 Tag (durchschnittlich 15,7 Stk. Pro Tag) 5'23" = 323" = 20,57 Sek./Stück
+Ad 4. Eintragung eines Menüs (von Steindl) 43 Sekunden
+Ad 6. Update der bekommenen und nicht bekommenen Stück: 30 Sekunden pro Stück
+Ad 7. Abfrage für Billa: 3 Stk. 145" (48" pro Weckerl); 2 Stk. 130" (65" pro Stück)
+Ad 8. Abfrage für Menü: 55" (für 1 Menü)
+Ad 9. Eintragen von neuen Angeboten ca. 1 Minute pro Angebot
+	Eintragen von Schätzwerten zu neuen Angeboten: ca. 20 Sekunden pro Schätzwert
+
+Zeitaufwand für die Bewältigung der Essensdatenbank
+
+Wir stellen nun daraus ein Mengengerüst auf, aus dem hervorgehen sollte, in welcher Zeit sich die Essensdatenbank insgesamt bewältigen läßt:
+Eingabe der gegessenen Stücke pro Tag: 5'23"
+Eintragung von 15 Menüvorschlägen pro Woche: 43 * 15 = 645 Sekunden = 10'45" pro Woche
+(Update der bekommenen und nicht bekommenen Stück entfällt wegen Unrentabilität)
+Abfrage für 5 Menüs pro Woche: 55 * 5 = 275 Sekunden = 4'35" pro Woche
+Montag: Abfrage von 4 Weckerln, 1 Brot und 2 süßen Stücken: 6 + 2 + 3 = 11 * 24 Sekunden = 264 Sekunden oder 4'24"
+Mittwoch: Abfrage von 5 Weckerln und 3 süßen Stücken: 7 + 4 = 11 -> 4'24"
+Samstag: Abfrage von 1 Apfelsorte, 1 Birnensorte, 3 Weckerln, 2 Wurstsorten, 2 süßen Stücken: 16 * 24 = 384 Sekunden = 6'24" (Eingabe der Angebote entfällt wegen Unrentabilität)
+Gesamtaufwand pro Woche: 2261" + 645" + 275" + 264" + 264" + 384" = 4093" = 1,137 Stunden. Dies ergibt bei einem Stundensatz von 15 Euro € 17,05 pro Woche an Kosten bei einer erzielbaren Verbesserung von ca. € 24,74 - ohne Schlupf für Eintragung neuer Lebensmittelangebote etc. Das heißt, die Bearbeitung der Essensdatenbank braucht jeden Fall ca. 70% des Gewinnes, wir haben somit eine Gewinnspanne von etwa 45%. Dies ist relativ niedrig, wenn man die Spanne damit vergleicht, daß bei manchen Karaoke-Lokalbesuchen 100% und mehr anfallen.
+Durchführungsbestimmungen für die Essensdatenbank
+
+Es wird pro Tag ein Zeitbudget von 15 Minuten angelegt, die für die Bearbeitung der Essensdatenbank und für die Weiterentwicklung der damit im Zusammenhang stehenden Programme verwendet werden.
+Prinzipiell werden hier folgende Dinge getan (absteigend sortiert nach Wichtigkeit):
+- Eintragen der Menüs vom Folgetag für die Tage, wo sie bereits bekannt sind und auch relativ sicher ist, daß im jeweiligen Lokal gegessen werden wird.
+- Eintragen aller zum Mittagessen gegessenen Menüs und Speisen
+- Eintragen der Inhaltsstoffe der gegessenen süßen Stücke
+- Umstellung der Abrechnungsmethode von Playwert5 auf Playwert8, angefangen mit der Liste der gegessenen Speisen
+- Graduelle Neukonzeption der Essensdatenbank (wird in einem eigenen Dokument dokumentiert)
+- Ermitteln der einzukaufenden Dinge auf Grund des alten Schemas, das dann allmählich erneuert wird
+
+Entscheidung, in welchen Lokalen gegessen und eingekauft wird
+
+Im Moment wird zweimal pro Woche (meist Montag und Mittwoch) bei Anker und einmal pro Woche in einem Supermarkt eingekauft. Bei Anker werden nur Weckerln, Brot und süße Stücke eingekauft, beim Supermarkt darüber hinaus alles, was man sonst noch braucht... es reicht, die anderen Dinge einmal pro Woche zu besorgen, da sie sich auch mindestens 1 Woche halten.
+Das Mittagessen wird im Moment entweder im Umkreis des BRZ ,bei meinen Eltern oder in einem umliegenden Lokal eingenommen. Die Entscheidung darüber erfolgt an Hand der Essensdatenbank durch Aufruf der Liste "Lokalbewertungen Kurt" durchgeführt, davor muss die Routine "Zusammenstellung_Essensplan" mit den richtigen Daten für den Tag, der berechnet werden soll, durchgeführt.
+
+Referenzwerte
+
+Nun kommen wir zu den Referenzwerten, die es laut Bestimmung von Mai 2006 geben sollte.
+Diese Referenzwerte gehen von einer "normalen" Versorgung mit Nahrung aus.
+Hier werden nur die Ergebnisse der Berechnung dargestellt, die eigentlichen Berechnungen (und vor allem verworfene Rechnungswege) befinden sich in einer älteren Version dieses Dokumentes und in Dokumenten zu seiner Überarbeitung.
+Die Referenzwerte geben hier vor allem an, wieviel eine Mahlzeit wert ist, wenn sie in einem anderen Zusammenhang eingenommen wird (z.B. in einem Karaoke-Lokal oder bei einer Karaoke-Party). Weiters geben sie einen "Stützungsbedarf" an, das ist der Anteil an Essenskosten, der nicht durch Spaß gedeckt ist (siehe unten).
+Mittagessen
+
+Derzeit gibt es für das Mittagessen keinen einheitlichen Referenzwert. Es wurden sowohl für zu Hause als auch das Büro zahlreiche Lokale in den Tabellen Tab_Lokale und Tab_Lokalwege eingetragen, zu denen sich wiederum zahlreiche Händlerangebote in der Datenbank befinden. Aus diesen Händlerangeboten wird für jeden Tag berechnet, welches Lokal zu besuchen wäre und was dort zu konsumieren wäre.
+
+Diese Händlerangebote entsprechen den Angeboten in den betreffenden Lokalen, wobei für jedes Angebot die Zusammensetzung ermittelt wurde. Die Zusammensetzung kann dabei aus Essensteilen und Essensgruppen bestehen. Ein Essensteil ist ein Teil des Essens, der sicher enthalten ist. Zu jedem Essensteil ist die Zutat und ihre Menge (in Stunden, die das Essen braucht) aufgelistet. Dann können in einem Angebot auch Essensgruppen enthalten sein. Eine Essensgruppe ist eine Menge von Zutaten oder Angebote, aus denen der Konsument eine Auswahl treffen darf. Ein Beispiel dafür ist beim Würstelstand, dass man als Gebäck entweder Semmel oder Brot und als Senf entweder süßen oder scharfen Senf nehmen darf. Trifft der Computer bei der Bewertung eines Angebotes auf eine Essensgruppe, wird daraus das beste Element ermittelt und ausgewählt. Dabei kann eine Essensgruppe sowohl einzelne Zutaten als auch ganze Angebote enthalten, die wieder in weitere Zutaten und eventuell auch weitere Essensgruppen untergliedert sind, so dass eine mehrfache Verschachtelung möglich ist.
+
+Eine Sonderstellung nehmen hier die Angebote der Eltern ein, da von meinen Eltern keine Preise vorgegeben wurden. Hier wurden daher selbst Preise errechnet nach dem Prinzip "was für alle das Beste ist". Daher gibt es bei den Händlerangeboten auch je 2 Preise; einen für meine Eltern und einen, der mir verrechnet wird. Der Preis für meine Eltern ist so gestaltet, dass bei der gegebenen Bewertung der Essensteile durch meine Eltern das Intervall, das von meiner Mutter vorgegeben wurde, und das bei jedem Angebot dazugeschrieben wurde, möglichst genau eingehalten wird. Es wird dann im Rahmen einer Essenssimulation, die sich normalerweise über das nächste Jahr erstreckt, die sogenannte Gesamtwohlfahrt errechnet, das heißt, die Summe aus den Gewinnen und Verlusten meiner Eltern und mir. Je nachdem, welcher Preis für ein bestimmtes Gericht verlangt wird, kommt dieses Gericht öfter oder seltener, und das beeinflußt die Gesamtwohlfahrt. Kommt das Gericht zu selten, sinkt die Auswahl, und das ist nicht gut. Kommt es zu oft, kann es keinen guten Wert entwickeln, weil es noch nicht lange genug her ist, dass seine Essensteile zuletzt gegessen wurden. Der optimale Abstand ist aber für jedes Gericht verschieden. Die Gesamtwohlfahrt ergibt auch keine lineare, sondern eher eine zerfurchte Kurve, was daran liegt, dass meine Eltern laut meiner Simulation normalerweise einen bestimmten Rhythmus hätten, in dem ein bestimmtes Gericht kommen würde, und je genauer sich das Intervall, in dem ich mir dieses Gericht wünsche, mit meinen Eltern übereinstimmt, umso besser ist das Ergebnis. Ideal ist es, wenn ich mir das Gericht genau an dem Tag wünsche, an dem meine Eltern es sowieso machen würden. Wünsche ich es mir kurz danach, stürzt das Ergebnis ab, weil meine Eltern es eben erst gegessen haben und nun, gemeinsam mit mir, schon wieder essen müssen. Wünsche ich es mir davor, dann erreicht es bei meinen Eltern keine so gute Wertung, weil es noch nicht so lange her ist, dass sie es zuletzt gegessen haben.
+
+Es wird nun für jedes Gericht mit der Essenssimulation der ideale Verkaufspreis ermittelt, indem alle Preise durchprobiert werden, wobei der Mindestpreis derjenige ist, bei dem das Gericht maximal so oft kommt, wie es meine Eltern normalerweise auch essen würden, und der Maximalpreis ist derjenige, bei dem das Gericht von mir überhaupt nicht mehr gewünscht wird. Bei manchen Gerichten ergibt sich auch bei diesem Maximalpreis der beste Wert. Bei vielen Gerichten liegt er aber zwischen diesen beiden Preisen.
+Restliche Mahlzeiten (Nebenmahlzeiten)
+
+Die restlichen Mahlzeiten werden in der Regel eingenommen, indem vorher gekaufte Zutaten zu einer Nebenmahlzeit zusammengestellt werden. Daher ermitteln wir hier die einzelnen Zeitaufwände und Kosten für diese Mahlzeiten.
+Geschirr abwaschen
+
+Der Aufwand des Geschirr abwaschens wurde am 16.7.2006 gestoppt und beläuft sich bei mir auf folgende Durchschnittszeiten:
+Häferl: 47 + 43 = Schnitt 45 Sekunden
+Küchenmesser: 18 + 24 = Schnitt 21 Sekunden
+Teller: 57 + 72 + 77 + 78 + 119 + 116 = Schnitt 87 Sekunden
+Messer: 16 + 28 = Schnitt 22 Sekunden
+Löffel klein: 25 + 29 = Schnitt 27 Sekunden
+Löffel groß: 34 + 38 = Schnitt 36 Sekunden
+Wassergläser: 74 / 3 = 25 Sekunden
+Teller (klein, auf Teekanne): 32 Sekunden
+Teekanne: 117 Sekunden
+Gesamt für 2 Tage: ca. 17,4 Minuten
+Diese Gesamtzeit steht im Widerspruch zu einer gestoppten Gesamtzeit von 36-47 Minuten inkl. Reinigung der Küchen-Arbeitsplatte, die aber nur wenige Minuten beansprucht.
+
+Anmerkung: Diese Stoppzeiten stimmen per August 2010 nicht mehr; das Geschirr abwaschen ist noch aufwendiger und gründlicher geworden, der Aufwand für einen Teller oder ein Glas bzw. Häferl beträgt nun je 3-4 Minuten. Insgesamt kann für 2 Tage nun mit einem Aufwand von 60 Minuten gerechnet werden.
+
+Zum Vergleich hier einige Zeiten, die bei Mama gestoppt wurden:
+Messer 2,7 + 5 = Schnitt 4,35 Sekunden (Kurt: 22)
+Gabel 2,7 + 7 + 5 + 7,5 + 8,5 = Schnitt 6,1 Sekunden (Kurt: um die 30?)
+Löffel 2,7 + 5 = Schnitt 4,35 Sekunden (Kurt: 32)
+Kochlöffel 7 + 8,5 = Schnitt 7,75 Sekunden (Kurt: kein Vergleich)
+Teller: (4 + 14) + 8 = Schnitt 13 Sekunden (Kurt: 87)
+Sieb: 10 + 7,5 = Schnitt 8,75 Sekunden (Kurt: kein Vergleich)
+Spachtel: 7 Sekunden (Kurt: Kein Vergleich)
+Reindel 26 Sekunden (Kurt: Kein Vergleich)
+Pfanne 23 + 25 = Schnitt 24 Sekunden (Kurt: Kein Vergleich)
+Deckel: 8 Sekunden (Kurt: Kein Vergleich)
+Wasserglas: 14 Sekunden (Kurt. 25 Sekunden)
+Pfanne (groß) 30 Sekunden (Kurt: Kein Vergleich)
+Schöpfer: 10 + 10 + 8 + 18 + 19 = Schnitt 13 Sekunden (Kurt: Kein Vergleich)
+Kochtopf: 1 Minute 17 Sekunden (Kurt: Kein Vergleich)
+(+ Vorbereitung 40 Sekunden + Rest versorgen 47 Sekunden + Herd putzen 58 Sekunden)
+Kosten für Küche und Zubereitung der Mahlzeiten
+
+Weiters müssen über die selbst zubereiteten Nebenmahlzeiten  auch die Kosten der Küche abgedeckt werden, die derzeit (Stand erstes Halbjahr 2006) pro Jahr betragen:
+€486,2 + €16,54 + 7% von (€ 5832,56 + 89% von € 8564,04), das sind € 1444,56 pro Jahr.
+
+Dies drückt sich aber nicht in den Referenzwerten aus, da die Referenzwerte nur die variablen Kosten, nicht die fixen Kosten berücksichtigen, die ja anfallen, egal ob eine Mahlzeit gemacht wird oder nicht.
+
+Die Zusammenstellung der Mahlzeiten dauert für:
+Werktag: Frühstück und Vormittagsjause (zusammen): 11 Minuten + Benutzung von: Teller, Messer, kleiner Löffel, großer Löffel, Teekessel (halb), Teehäferl = 16 Minuten incl. Geschirr abwaschen (nur Zubereitung)
+Wochenende: Frühstück ohne Vormittagsjause: 10 Minuten + Benutzung aller auch oben genannten Dinge = 16 Minuten incl. Geschirr abwaschen (nur Zubereitung)
+Nachmittagsjause: 2 Minuten + Benutzung von: Teller, Wasserglas = 4 Minuten incl. Geschirr abwaschen (nur Zubereitung)
+Nachtmahl: 6 Minuten + Benutzung von: Teller, Messer, Wasserglas = 9 Minuten incl. Geschirr abwaschen (nur Zubereitung)
+
+Aufgliederung des Frühstücks:
+Erstes Weckerl: 337 Sekunden + 80 Sekunden für 10 Bissen + Geschirr (Teller + Messer + Löffel klein) = 553 Sekunden
+Tee: 152 Sekunden + 60 Sekunden für Vorbereitung am Vorabend + 64 Sekunden für 8 Schlucke + Geschirr (Hälfte von Teekanne und Teller, 1 Häferl, Löffel groß) = 432 Sekunden
+Frühstück gesamt (inkl. Geschirr abwaschen): 985 Sekunden (16,42 Minuten)
+Kosten für Einkauf und Lagerung der Lebensmittel
+
+Wir kommen nun zum Einkaufen. Dies wurde im Sommer 2010 neu ermittelt, und es folgt daher der entsprechende Abschnitt aus der Dokumentation, die dazu angelegt wurde. Die ursprüngliche Stoppung dazu stammt aber aus dem Sommer 2005.
+
+Weg hinunter + Weg zum ersten Regal... 1'41" + 5'24" = 7'05"
+Kauf Bananen... 1'41"
+Kauf Birnen... 2'30"
+Kauf 3 Weckerln und 2 süße Stück (Feinkost)... 2'37" (31" pro Stk.)
+Kauf 2 Wurstsorten (mit Wartezeit)... 3'28" (108" pro Stück)
+Kauf Butter... 1'25"
+Anstellen an der Kassa und Bezahlen... 1'30"
+Einpacken... 50" (6 Stück, je 8 Sekunden)
+Heimweg... 0'13" + 5'24" = 5'37"
+Einräumen der Einkäufe... 1'23" (6 Stück, je 14 Sekunden)
+Gesamt... 28'06"
+
+Daraus ergibt sich ein ungefährer Zeitaufwand, der sich wie folgt darstellt:
+Fixkosten pro Einkauf: 7'05" + 1'30" + 5'37" = 14'12" (14,2 Minuten) (= € 3,48)
+Kauf von abgepackten Gut (Bananen, Butter) je 1'33" + 8 + 14 = 115 Sekunden (= € 0,47)
+Kauf von Stückgut (Birnen) je 2'30" + 8 + 14 = 172 Sekunden (= € 0,70)
+Kauf eines Weckerls bei Feinkost: (157+14+8) / 5 = 36 Sekunden (= € 0,15)
+Kauf einer Wurstsorte: (208 + 8 + 14) / 2 = 115 Sekunden (= € 0,47)
+
+Die Aufteilung der Fixkosten auf die einzelnen Waren ist nun eine schwierige Angelegenheit, weil dies abhängt von optimalen Einkaufsmengen, die je nach Ware verschieden sind und unter anderem von der Haltbarkeit der Waren, ihrem Einkaufspreis und ihrem Platzbedarf abhängen.
+
+Ein Weg, die Fixkosten aufzuteilen, wäre, die durchschnittliche Einkaufszeit und ihren Wert zu berechnen und durch den durchschnittlichen Wert der Einkäufe zu dividieren. Dies würde dann einen Aufschlag ergeben.
+Wenn wir z.B. das Angebot des Wiener Frühstücksservice betrachten, dann haben wir dort ein Angebot von 17 Weckerlsorten zu einem Durchschnittspreis von € 0,72 (inkl. Semmeln zu € 0,31), 8 Brotsorten ab € 1,30 für 500 g, und 10 Sorten von Plundergebäck und anderen süßen Stücken (wie sie Mama nennen würde) von € 0,65 bis € 1,60, Durchschnittspreis: € 1,25.
+
+Dazu kommt noch eine Liefergebühr von € 11,90 pro Monat, ein Aufwand für das Ausfüllen der Bestellung von schätzungsweise 23 Sekunden pro Zeile, und ein Aufwand für das Einräumen der Lieferung von schätzungsweise 14 Sekunden pro Stück.
+Die Liefergebühr kann man nun durch die gelieferten Stück dividieren. Das wären pro Monat:
+30 Weckerln, 5x500g Brot und 30 süße Stücke, insgesamt also 65 Stück zu je 18 Cent. Dazu kommen noch 15 Cent für das Bestellen und Einräumen der Bestellung pro Stück. Gesamtaufschlag insgesamt: € 0,33 pro Stück.
+
+Damit kommen wir für die beim Frühstücksservice angebotenen Dinge auf folgende Referenzwerte:
+Semmel: € 0,64 pro Stück
+Sonstiges Weckerl; € 1,08 pro Stück
+1/2 kg Brot: € 1,63
+süße Stücke: € 1,58
+
+Bei Billa ist nun das durchschnittliche Weckerl mit € 0,63 etwas billiger, Brot gibt es schon ab € 0,79 für 500g, und süße Stücke (z.B. Schokoladen) in der 3er-Packung schon um € 1,19, also um € 0,40 pro Portion (beim Frühstücksservice sind alles Einzelportionen).
+
+Wir können nun die Billa-Kosten so rechnen, daß wir die jeweils nötigen Einkäufe gemäß der Haltbarkeit der Lebensmittel aufteilen. Das heißt, alle Lebensmittel, die mindestens 1 Woche lang halten, bekommen einen Einkauf pro Woche angelastet. Die Lebensmittel, die nicht so lange halten (vor allem Weckerln), bekommen die anderen 2 Einkäufe pro Woche angelastet. Wir sprechen hier jeweils von den Fixkosten von 14,2 Minuten / € 3,48. Alle Dinge, die sich wesentlich länger halten als 1 Woche, sind verantwortlich für entsprechend weniger Einkäufe.
+Jeder Einkauf braucht aber mindestens € 3,48 + € 0,47 = € 3,95 (für jeweils 1 Ding).
+Wir betrachten zunächst die Dinge, die sich einige Monate lang halten. Diese kauft man laut meinen Berechnungen am sinnvollsten alle 3 Monate nach. Darunter fällt Schokolade, Marmelade und Honig.
+Wir können nun statistisch betrachten, wann was nachgekauft wurde:
+Honig: 30g pro Tag = 1 kg ca. jeden Monat
+Butter: 20g pro Tag = 1/4 kg alle 12,5 Tage
+Marmelade: 15g pro Tag = 450g ca. jeden Monat
+Tee: 1 Sackerl pro Tag = 25 Sackerln ca. alle 3 1/2 Wochen
+Butter hält sich hierbei ca. 1 Monat, Honig, Marmelade, Schokolade und Tee 3 Monate oder länger. Da sich ein Einkauf alle Monate extra für die Butter aber nicht rechnet, wird die Butter in den Wocheneinkauf hineingenommen.
+
+Wir berechnen nun einen 3-monatlichen Großeinkauf mit allen Dingen, die sich so lange halten.
+Man braucht dann in dieser Zeit:
+90 Stück Schokolade (in 30 Sorten) (!)
+3 Gläser Honig (zu je 6,80 Euro)
+3 Gläser Marmelade (zu je 2,20 Euro)
+4 Packungen Tee (zu je 2,20 Euro)
+
+In diesem Fall kommt man auf folgende Kosten:
+Schokolade: 30 * 0,47 = € 14,10
+Honig: 3 * 0,47 = € 1,41
+Marmelade: 3 * 0,47 = 1,41
+Tee: 4 * 0,47 = 1,88
+Fixkosten € 3,48
+Gesamtholkosten: € 22,28
+Gesamteinkaufswert: 90 * 0,4 + 3 * 6,8 + 3 * 2,2 + 4 * 2,2 = € 71,80
+Die Holkosten machen hier also immer noch einen Aufschlag von 31% aus.
+
+Die nächsten Dinge halten sich jeweils ca. 1 Woche, das sind Obst, Wurst und Brot. Hier kommt man auf einen Einkaufswert von durchschnittlich (1,11+1,66+1,36+1,99+1,59) / 2 + 1,39 + 1 (Brot) = € 6,25 pro Woche.
+Dafür braucht man 3,33333 Einkäufe pro Monat mit einem Einkaufswert von je € 8,15 (5 Einh. Brot, 4,33x Äpfel, 4,33x Birnen, 4,33x Bananen, 1,3x Schinken).
+Diese Einkäufe kosten insgesamt:
+Einkaufskosten € 11,60
+5 Einh. Brot... € 2,35
+4,33 Einh. Äpfel... € 2,56
+4,33 Einh. Birnen... € 3,03
+4,33 Einh. Bananen... € 2,33
+1,3 Einh. Schinken... € 0,61
+0,56 Einh. Butter... € 0,26
+Gesamt: € 22,74 / Einkaufswert € 27,43 = 83% Aufschlag
+
+Zuletzt haben wir noch die Weckerln, die sich nur 3 Tage halten. Für sie werden weitere 2 Einkäufe pro Woche geopfert. Diese kosten (pro Woche):
+Einkäufe... € 6,96
+Weckerln: € 0,15 * 7 = € 1,05
+Gesamtpreis für Einkauf: 1,05 + 6,96 = 8,01 (€ 1,14 pro Weckerl)
+Einkaufswert: ca. € 0,63 * 7 = € 4,41
+Aufschlag: € 8,01 / 4,41 = 182%
+
+Wir haben hier einen maximalen Aufschlag von 182%, was einen Gesamtpreis von € 1,77 pro Weckerl ergibt. Dies liegt weit über den € 1,08, die beim Frühstücksservice anfallen.
+
+Der Preis pro Weckerl läßt sich aber drücken, indem in diesem Fall nicht bei Billa, sondern bei Anker eingekauft wird. Dabei ist jedoch davon auszugehen, dass die Weckerln selbst wie beim Frühstücksservice € 0,72 pro Stück kosten. Die Fixkosten pro Einkauf sind aber geringer, sie entsprechen einer Einkaufszeit von ca. 6 Minuten, das sind € 1,47. Pro Woche ergibt dies dann Zusatzkosten von € 2,94 für einen Einkaufswert von € 5,04, wodurch der Aufschlag auf 58% und die Gesamtkosten pro Weckerl auf € 1,14 absinken, was nur noch um 6 Cent über den Kosten beim Frühstücksservice liegt.
+
+Wir berechnen hier einmal den Gesamteinkaufsaufwand pro Jahr. Wir haben hier:
+3-monatliche Großeinkäufe: € 22,28 * 4 = € 89,12
+wöchentlicher Einkauf: € 6,74 * 48,18 = € 324,93
+Einkäufe bei Anker (2x/Woche): € 1,47 * 104,36 = € 153,41
+Gesamt: € 567,46 / Jahr, dies entspricht bei einem Stundensatz von € 14,70 38,6 Stunden pro Jahr, oder ca. 44 Minuten pro Woche.
+
+Die dazugehörigen Kosten der Lebensmittel betragen:
+3-monatliche Großeinkäufe: € 71,80 * 4 = € 287,20
+wöchentlicher Einkauf: € 8,15 * 48,18 = € 392,72
+Einkäufe bei Anker (2x/Woche): € 2,52 * 104,36 = € 262,99
+Gesamt: € 942,91 / Jahr.
+
+Der Gesamtaufschlag beträgt somit ungefähr 60% auf den Einkaufspreis der Lebensmittel.
+
+Die Summe aus Lebensmittel- und Einkaufskosten beträgt dann € 1510,37 pro Jahr, das sind € 4,14 pro Tag.
+
+Bei der Berechnung der Referenzpreise ergibt sich nun ein Problem: Wie vielleicht aufgefallen ist, wurden bisher die Kosten der Lagerung der Lebensmittel entgegen der gegebenen Überschrift nicht berechnet. Dies liegt daran, dass es sich bei den Lagerkosten um Fixkosten handelt, die im Prinzip Teil der Kosten für Wohnungsmiete und Küchenausstattung sind, die sowieso anfallen, egal wie oft und wie lange diese Ausstattung genutzt wird.
+
+Das heißt, für die Entscheidung, welche Tätigkeiten durchgeführt werden sollen (ganz allgemein, nicht nur beim Essen), wären normalerweise nur die variablen Kosten der verschiedenen Tätigkeiten miteinander zu vergleichen, weil die fixen Kosten bei jeder Variante normalerweise ohnehin gleich sind. Dies trifft dann natürlich auch für die Entscheidung zu, was gegessen werden sollte und wo.
+
+Hier gibt es zwei Entscheidungen zu treffen:
+- Es sind Referenzpreise zu bilden, die zur Anwendung kommen, wenn ich eine Nebenmahlzeit "extern" einnehme.
+- Es wäre zu entscheiden, wie ich es künftig mit den Fertiggerichten und dem Essen bei meinen Eltern halte.
+
+Für die Referenzpreise wären die variablen Kosten des Essens heranzuziehen. Diese enthalten:
+- Einkaufspreis der Lebensmittel
+- Kosten der Zubereitung
+- Aufwand für das Holen dieses konkreten Lebensmittels aus dem Regal (aber nicht Fixkosten pro Einkauf wie z.B. Wegzeit)
+
+Der Einkaufspreis der Lebensmittel ist allerdings nicht nach dem günstigsten Angebot anzusetzen, sondern nach dem Preis, der sich ergibt, wenn man wie oben ermittelt nach dem inklusive Wegzeit günstigsten Verfahren einkauft.
+
+Dafür wären aus den Gesamtkosten die Fixpreise für die Einkäufe herauszurechnen. Diese ergeben sich wie folgt:
+3-monatliche Großeinkäufe: € 3,48 * 4 = € 13,92
+wöchentlicher Einkauf: € 3,48 * 48,18 = € 167,67
+Einkäufe bei Anker (2x/Woche): € 1,23 * 104,36 = € 128,36
+Gesamt: € 309,95 / Jahr, das sind 20,52% der Gesamtkosten.
+
+Die Arbeitszeit für das Essen ergibt sich pro Tag folgendermaßen:
+Frühstück: 9 Min.
+Jause: 2 Min.
+Abendessen: 6 Min.
+Geschirr abwaschen: 30 Min.
+Gesamt: 47 Min. = € 11,52
+Dazu kommen die Essenskosten mit 79,48% von € 4,14 pro Tag, das sind € 3,29 pro Tag.
+Die Gesamtsumme daraus ergibt € 14,81 pro Tag.
+
+Dies könnte man z.B. folgendermaßen aufteilen:
+
+Gesamtvolumen pro Tag:
+1 Weckerl mit Marmelade... € 3,-
+1 Brot mit Wurst... € 3,-
+1 süßes Stück... € 2,-
+1,72 Stück Obst á € 1,63 = € 2,81
+1 Tasse Tee... € 2,-
+2 Glas Wasser à € 1,- = € 2,-
+
+Daraus ergibt sich dann für die einzelnen Mahlzeiten:
+
+Frühstück: € 3,- + 2,- = € 5,-
+Obst Vormittagsjause (wenn eingenommen): € 1,63
+Nachmittagsjause: € 2,- + € 1,63 + € 1,- = € 4,63
+Abendessen: € 3,- + € 1,- = € 4,-
+
+Diese Referenzpreise werden den Aktionen gutgeschrieben, bei denen extern gegessen wird, das heißt, die Nebenmahlzeiten anderswo eingenommen werden
+
+Sonderstellung des Lebenserhaltungskontos 
+Stützung
+
+Das Lebenserhaltungskonto hat eine Sonderstellung, was die Geldversorgung betrifft. Alle anderen Konten sind im Prinzip von Einnahmen durch Spaß oder Bareinnahmen abhängig, weil sie nur für Dinge zuständig sind, die Spaß machen. Das Lebenserhaltungskonto hat aber Dinge zu versorgen, die lebensnotwendig sind und daher nicht unbedingt Spaß machen müssen. Aus diesem Grund wurde eine Regelung geschaffen, um für diese Dinge Mittel bereitzustellen. Diese Regelung basiert auf dem staatlichen Existenzminimum, das praktisch als die offizielle Summe gilt, die jemand monatlich zum Leben braucht. Dieses betrug für 2010 783 Euro pro Monat, das sind 9396 Euro pro Jahr, wobei aber darüber hinaus bei einer Pfändung 30% des Einkommens ungepfändet bleiben. Dazu kommen 19330,5 Euro Ersatz für 1315 Arbeitsstunden pro Jahr, die in diesem Rahmen nötig sind. Davon abgezogen wird aber ein bestimmter Spaßanteil am Essen. Auch wenn man davon ausgeht, daß immer das billigste gekauft wird, sollte ein Spaßwert von 1 Punkt pro Stunde Essen übrig bleiben. Dies sind bei 1 1/2 Stunden Essen pro Tag 1,5 Punkte pro Tag, also 547,88 Punkte pro Jahr, die € 5533,54 wert sind.
+Daraus ergibt sich eine Stützungssumme von € 9396+19330,5-5533,54 = 23192,96 Euro pro Jahr, die monatlich in einer Höhe von 1932,75 Euro ausgezahlt werden (Stand 2010). Dies erfolgt im Rahmen der Abendzeremonie des 15. jedes Monats, auf die in der Abrechnung im Kontensystem in der Regel die halbmonatliche Abrechnung erfolgt. Die Gutbuchung erfolgt vom Konto "nicht zugeordnet" als Gutschrift ohne Gegenbuchung.
+Eine andere Berechnungsweise ist das Entgelt für ein Pflegeheim, das pro Tag schätzungsweise 85,1 Euro ausmacht, womit Barauslagen und Arbeitsstunden abgegolten sein sollten. Dies ergibt pro Jahr € 31082,78, abzüglich der Spaßpunkte bleiben dann € 25549,24 übrig, das wären monatlich € 2129,10, also um ca. 10% mehr als unter der ersten Berechnung.
+Berechnung des Stützungsbedarfs der Mahlzeiten
+
+Wir berechnen einmal den Stützungsbedarf der Nebenmahlzeiten. Die Essdauer des Frühstücks beträgt ca. 10 Min. für das Weckerl, dazu kommen 4,5 Min. für den Tee.
+Bei der Vormittagsjause fallen schätzungsweise weitere 10 Minuten an, wenn sie eingenommen wird, was aber nur an ca. 61% der Tage der Fall ist, daher haben wir hier im Durchschnitt 6,1 Minuten Esszeit.
+Bei der Nachmittagsjause haben wir im Schnitt 10 Minuten für Obst, 5 Minuten für das süße Stück und 2,16 Minuten für ein Glas Wasser.
+Das Nachtmahl dauert nocheinmal 10 Minuten für das Wurstbrot und 2,16 Minuten für das Glas Wassser.
+Dies ergibt insgesamt 49,92 Minuten, aufgerundet 50. Rechnet man nun das durchschnittliche Essen mit 2 Spaßpunkten pro Stunde (was mittlerweile der Erfahrungswert ist), kommt man auf 1,67 Spaßpunkte. Dies entspricht € 16,87. Da wir oben berechnet haben, dass die Zubereitung der Nebenmahlzeiten insgesamt € 14,81 kostet, sind hier mit den Spaßwerten die Mahlzeiten komplett gedeckt, und es bleibt noch etwas Geld über, um die Fixkosten für die Küche und den Einkauf abzudecken, insgesamt € 2,06 pro Tag oder € 752,42 pro Jahr. Anders ausgedrückt haben wir ohne Berücksichtigung der fixen Kosten ein E/A-Verhältnis von 1,139.
+Anders sieht die Situation beim Mittagessen aus. Der Stützungsbedarf hängt hier davon ab, wo der Ausgangspunkt zum Essen ist. Die günstigste Möglichkeit scheint im Moment das "Standardmenü" bei meinen Eltern zu sein, das im Moment gerade getestet wird, und das 2,5 Spaßpunkte pro Stunde ergibt. Bei einer Essdauer von 0,642 Stunden ergibt dies € 16,21Einnahmen. Der Zeitaufwand beträgt hier 12 Minuten Wegzeit + Essen fassen + 38,42 Minuten Essen = 50,42 Minuten, das entspricht Kosten von € 12,38. Dazu kommt der Menüpreis von € 4,17, das ergibt in Summe € 16,55. Das heißt, wir haben hier nur einen Deckungsgrad von 97,9%, und es bleibt kein Spielraum für die Abdeckung eventueller Fixkosten.
+
+Ein noch größeres Problem ergibt sich in Verbindung mit der Prioritätsliste. In der Prioritätsliste hat die derzeit noch laufende Erstellung der Dokumentationen ein E/A-Verhältnis von 2,39, was nötig ist, um über der Einlistung neuer Tonträger zu liegen. Damit die verschiedenen Mahlzeiten aber an die Reihe kommen, müssten sie ein noch größeres E/A-Verhältnis aufweisen, im Moment ist dieses mit 2,442 festgesetzt, da knapp darunter noch ein Besuch bei Edmund Herzig liegt, der noch nicht durchgeführt wurde. Um dieses E/A-Verhältnis zu erreichen, ist aber eine kräftige Stützung nötig.
+
+Andererseits müsste diese Stützung kontenintern stattfinden, da das Essen im Rahmen des Lebenserhaltungskontos verrechnet wird, die Stützungsbeträge aber auch von dort kommen. Aus diesem Grund würden aber eventuelle Stützungsbeträge nicht in den Abrechnungen aufscheinen, so dass es keinen Sinn macht, sie überhaupt zu berechnen. Abgesehen davon wären diese Stützungsbeträge auch für andere lebenserhaltende Tätigkeiten notwendig,
+
+Andererseits sind in der Spanne, die das E/A-Verhältnis darstellt, nach aktueller Definition auch die Fixkosten enthalten.
+
+In der Essensdatenbank sind jedenfalls Stützungsbeträge vorgesehen, um dieses Manko auszugleichen. Diese Beträge werden pro Essstunde berechnet und reichen im Moment von € 38,42 für das Mittagessen am Wochenende bis zu € 56,30 für Arbeitstage, an denen das Mittagessen vom Büro aus angesteuert und danach auch wieder dorthin zurückgekehrt wird. Normalerweise gilt hier als "Essstunde" die gestoppte Portionsdauer. Eine Ausnahme bilden hier aber die Getränke, wo die Stützzeit auf Grund der enthaltenen Kalorien berechnet wird, was dazu führt, dass bestimmte Fruchtsäfte, Kakao und Milch eine höhere Stützzeit aufweisen als die Trinkzeit tatsächlich beträgt, während die von Tee geringer ausfällt. Auch Speiseeis ist davon betroffen und weist ebenfalls eine geringere Stützzeit aus, als der Portionsdauer entsprechen würde.
+
+Daran, dass das Mittagessen zu Hause wesentlich geringer gestützt ist als im Bundesrechenzentrum, ist schon ersichtlich, dass das Preis-/Leistungsverhältnis am Arbeitsplatz auch schlechter sein muss. Dies liegt unter anderem daran, dass beim Mittagessen zu Hause allerlei Synergieeffekte genutzt werden können, was beim Mittagessen vom Arbeitsplatz aus in dieser Form nicht möglich ist.
+
+Priorisierung und Kostendeckungsprinzip
+
+Da das Lebenserhaltungskonto gestützt wird, unterscheidet es sich von der Handhabung bei der Abrechnung in folgenden Punkten von anderen Konten:
+- Für die Priorisierung werden als Einnahmen die gesamten Lebensstunden herangezogen, die gemeinsam mit dem Gesundheitskonto "erwirtschaftet" werden. Dabei bekommen die verschiedenen lebenserhaltenden Tätigkeiten ihrer Wichtigkeit entsprechend die Kategoriewerte zugeordnet.
+- Für die Abrechnung im Kontensystem werden jedoch nur die tatsächlich aufgewendeten Stunden herangezogen, wobei als Einnahmen der Spaß beim Essen und die Stützungsbeträge dienen.
+
+Businessplan
+Gesamtausgaben des Lebenserhaltungskontos
+
+Außer der Essensdatenbank gibt es noch andere Aspekte des Essens, die beleuchtet werden sollten, nämlich den notwendigen Raum - die Küche - und die Abrechnung der essensrelevanten Dinge.
+Die Küche ist im Prinzip der Raum, wo alles essensrelevante stattfindet, und deren Kosten werden daher direkt vom Lebenserhaltungs-Konto abgebucht (die Aufteilung in der obigen Berechnung diente nur zur Illustration und zum Vergleich der Kosten einzelner Mahlzeiten mit anderen Möglichkeiten).
+Im Prinzip entfallen derzeit (Stand 2007) auf das LE-Konto allgemein 2420 Euro, darüber hinaus auf die Küche € 18,60, auf Körperpflege (siehe unten) € 32,12 und auf Wäsche € 164,80. Weiters auf WC-Gänge € 176,04 und auf WC € 13,57. Das sind insgesamt € 2825,13. Auf die Küche entfallen hiervon € 938,51, allerdings ohne die Küchengeräte, die hin und wieder erneuert und ausgetauscht werden müssen. Diese Kosten sollten im Prinzip durch die Lebenserhaltung gedeckt werden.
+Daneben ergeben sich ca. 48 Euro an Barspesen pro Woche für Essen, das sind pro Jahr 2054 Euro.
+Rechnet man hierzu die Kosten für Essen bei den Eltern, die aber im Moment nicht in bar bezahlt werden, kommt man laut Berechnung in der Lebensdokumentation bzw. hier derzeit auf € 2915 pro Jahr.
+Dazu kommt Zeitaufwand von 705 Stunden pro Jahr für Essen (in der Lebensdokumentation genau aufgesplittet).
+Ansonsten wäre zur Küche nur noch zu sagen, daß sie von den Eltern mit allen notwendigen Gegenständen für den Haushalt und auch Aussattung an Gewürzen und ähnlichem übernommen wurde, die ich aber bisher nie benötigt habe, und daß die Küche auch eine Wasserstelle hat, die von Zeit zu Zeit zu warten ist. Dies wird aber von der Wohnungsverwaltung erledigt.
+Kleidung und Körperpflege:
+
+Neben Essen beschäftigt sich das Lebenserhaltungskonto auch noch mit Kleidung und Körperpflege. Dies ist wieder in den Grundzügen schon in der Lebensdokumentation beschrieben worden. Kleidung sollte normalerweise von mir gekauft werden, aber irgendwie hat es sich anders ergeben, so daß die meiste Kleidung bisher von meiner Mutter gekauft wurde. Hier wäre aber dringend etwas dagegen zu tun.
+Zeitaufwand für Kleidung und Körperpflege (incl. Morgen- und Abendtoilette und Rasieren) sollte weitere 415 Stunden pro Jahr betragen, Geldaufwand ca. € 385,60 pro Jahr. Auch dies ist in der Lebensdokumentation detailliert aufgeschlüsselt.
+
+Hier noch einige aktuelle "technische Daten", die einem Gespräch mit Mama entnommen wurden (August 2006):
+Das Bügeln und Zusammenlegen eines Strickhemdes durch Mama dauert 4'20".
+Für einen Waschgang werden benötigt: 1 1/2 Stunden Waschzeit (+ Strom); 1 Becher Waschpulver, 1/2 Becher Calgon, 1 Verschlußkappe Weichspüler. Gesamtkosten für Waschmittel: € 8 für 45 Waschgänge (= 18 Cent pro Waschgang).
+Ein Waschgang = 5 kg Wäsche (Kurt) bzw. 3,5 kg Wäsche (Eltern). Es finden pro Woche 2 Waschgänge in der Eltern-Wohnung und einer bei Kurt statt. Eine Putzerei ist ca. 5x so teuer wie die Kosten (für Waschmittel).
+Arbeit pro Waschgang: 5' Herrichten und Sichtung der Wäsche, 0-5' Vorwaschen, 7' Aufhängen, 30-45' Bügeln + Abnehmen und Einsortieren durch Kurt, das sind insgesamt im Schnitt 52 Minuten. Bei einem derzeitigen Stundensatz für Mama von geschätzten € 10,92 (für 2008) ergibt dies € 9,46 pro Waschgang.
+Miete für Wohnungsbereiche, die der Lebenserhaltung zugerechnet sind
+
+Wir überprüfen nun gemäß den Dokumentationsrichtlinien die der Lebenserhaltung zugerechneten Bereiche in der Wohnung.
+Als erstes wäre ein Fixbereich zu berechnen, in dem ich selbst mich aufhalte. Ich bin zwar nicht immer in der Wohnung, belege aber, wenn ich anwesend bin, mit meiner Anwesenheit ca. 1 Quadratmeter. Die Miete für einen Quadratmeter wird hier berechnet mit (€ 17245,95 + 720) / 79,2 = € 226,84 pro Jahr, aufgerundet € 20 pro Monat.
+Daher sind für mich einmal € 20 pro Monat bzw. 240 Euro pro Jahr angesetzt.
+
+Kabinett:
+Hier fällt hauptsächlich das Bett auf, das mit Stellfläche + Platz zum Ein- und Aussteigen 2,15 x 1,5 m = 3,225 Quadratmeter belegt, das ergibt mit 20 multipliziert 64,5 Euro pro Monat oder 774 Euro pro Jahr, was sich nach einem vernünftigen Betrag anhört.
+Weiters zur Lebenserhaltung nötig ist der Kleiderkasten. Hier erfolgt die Berechnung nach der Stellfläche * 2 (mit Raum zum Entnehmen), das wären 62 * 61 * 2 cm, also 0,7564 Quadratmeter. Mit 20 multipliziert ergibt dies 15,128 Euro pro Monat, oder 181,5 Euro pro Jahr.
+Man könnte nun noch darüber diskutieren, wie es mit der Schaltuhr aussieht, da diese dazu verwendet wird, in der Nacht die richtige Zeit zu sehen. Die Schaltuhr steht offen herum und belegt 10 * 16 * 19 cm. Die Verkabelung wird hier nicht mitgerechnet, da die Schaltfunktion für die Lebenserhaltung nicht nötig ist. Somit kommen wir auf 3,04 Liter, das entspricht einer zusätzlichen Miete von € 4,26 pro Jahr. Weiters haben wir noch einen Ordner mit Lebenserhaltungsunterlagen, den wir als ganzes mitrechnen, also mit € 9 pro Jahr, da der Anteil der Lebenserhaltung an diesem Ordner nicht bekannt ist. Somit ergibt sich der Betrag für das Kabinett mit € 967,54.
+
+Das Badezimmer dient zu 100% der Lebenserhaltung bzw. Körperpflege. Ausnahme ist nur ein Kübel unter der Abwasch und einige Medikamente im Spiegelkasterl, die der Wohnungsverwaltung bzw. der Gesundheit dienen. Dafür lassen sich ca. 5% abziehen. Ansonsten ist das Badezimmer 3,58 m2 groß. Wenn wir dies mit dem üblichen Satz von 20 Euro pro m2 und Monat verrechnen, ergibt das 71,6 Euro pro Monat bzw. 859,2 Euro pro Jahr abzüglich 5% = 816,24 Euro pro Monat. In dieser Rechnung sind auch die Waschmaschine und die Wäschekiste, die zum Wäsche waschen dienen, enthalten.
+
+Im Schlafzimmer haben wir die 3 Wandkästen, die zur Lebenserhaltung dienen, da hier die Kleidung untergebracht ist. Allerdings ist der linke Kasten ausgeräumt, und von dem mittleren und rechten Kasten werden jeweils ca. 1/6 nicht zur Unterbringung der Wäsche verwendet.
+Mit geöffneter Türe ist jeder Kasten von der Grundfläche her 110 x 102 cm groß, dies ergibt bei 2 Kästen eine Fläche von 2,244 m2. Davon ziehen wir 1/6 ab und kommen auf 1,87 m2. Mit 20 multipliziert ergibt das Kosten von € 37,40 pro Monat, oder € 448,80 pro Jahr.
+
+Im Vorzimmer sind einige Dinge der Wohnungsverwaltung untergebracht (Werkzeugkasten), aber auch etliche Kleidung, vor allem Schuhe.
+Links vom Eingang ist ca. 1 m2 dadurch belegt, wovon aber die obersten 20% wegfallen. Rechts vom Eingang sind 2,85 m2 dadurch belegt (ohne ehemaligen Telefonkasten). Dies ergibt insgesamt 3,85 m2 * 20 = 77 Euro pro Monat abzüglich 20% = 61,6 Euro pro Monat, oder 739,2 Euro pro Jahr.
+
+Im WC dient offensichtlich das WC selbst der Lebenserhaltung. Hier rechnet man zweckmäßigerweise wieder den ganzen Raum abzüglich 10%, die der Wohnungsverwaltung dienen (Staubsauger, Sesselleisten). Das WC hat eine Fläche von 2,02 m2, das sind multipliziert mit 20 Euro abzüglich 10 % € 36,36 pro Monat, oder € 436,32 pro Jahr.
+
+Im Wohnzimmer gibt es nur wenige lebenserhaltende Dinge - meine Wintertuchent im Stauraum der Couch, einen Analogwecker im Wohnzimmer und die Anleitungen für Küchengeräte. Dazu kommen eventuell noch einige Dokumente und Unterlagen.
+Wir litern die Tuchent wieder aus und kommen auf 2,15 m * 80 cm * 25 cm, die der Stauraum maximal groß ist. Die Wintertuchent belegt davon 2/3, also 286,67 l. Da dieser Stauraum etwas schwer zu erreichen ist, nehmen wir 90% der Miete für geschlossen untergebrachte Gegenstände und kommen auf € 258 pro Jahr. Für die Dokumente berechnen wir eine Pauschale von € 9, da das Volumen wahrscheinlich 1 vollen Ordner nicht übersteigt. Damit kommen wir für das Wohnzimmer auf € 267 pro Jahr.
+
+Die Küche wird wiederum fast zur Gänze für Lebenserhaltung genutzt, nämlich zur Zubereitung von Essen. Nur ca. 10% sind für andere Zwecke gut, hauptsächlich Gesundheit (Medikamente) und Wohnungsverwaltung (Fetzen und Putzmittel). Daher kann man 90% der Küchenfläche der Lebenserhaltung zurechnen. Die Küche hat 6,81 m2, das heißt, wir kommen auf € 122,58 pro Monat oder € 1470,96 pro Jahr.
+
+Auf der Terrasse und im Keller sind keine lebenswichtigen Gegenstände.
+
+Mit allen Zimmern und der Pauschale für mich zusammen erreichen wir nun eine Gesamtsumme von € 5386,06 pro Jahr oder € 448,84 pro Monat (Stand 1. Halbjahr 2006). Mit Mieterhöhungen ist dieser Betrag entsprechend anzupassen.
+
+Anmerkungen von September 2008 hierzu: 
+- Die Mieten wurden hier nicht erhöht, da die Wohnungsmiete im 1. Halbjahr anläßlich der Abzahlung des Wohnungskredites auf € 429 gesenkt wurde.
+- Im Prinzip handelt es sich bei der Miete um monatlichen Fixkosten, die auch in dieser Höhe anfallen würden, wenn der von den Lebenserhaltungsdingen beanspruchte Platz höher oder geringer wäre. Aus diesem Grund kann die Verteilung dieser Mietzahlungen noch angepaßt werden. Wie sie angepaßt wird, wird noch in der Dokumentation der Wohnungsverwaltung erörtert.
+
+Zusammenfassung Einnahmen
+Spaßwerte
+
+Auf Grund der Essensdatenbank kann man, wie schon in der Tabelle aufgeführt, an einem Werktag mit 2,043 Spaßpunkten rechnen, an einem freien Tag mit 1,802 Spaßpunkten. Das ergibt im Schnitt 1,949 Spaßpunkte pro Tag, das entspricht € 19,69 pro Tag oder € 7190,8 pro Jahr.
+Stützbeträge
+Auf Grund der Stützbeträge (siehe oben) ergibt sich eine Stützungssumme von € 1878,91 pro Monat (Stand 28.9.2008). Das sind € 22546,92 pro Jahr.
+
+Zusammenfassung Ausgaben
+Zeitaufwand
+Der Zeitaufwand beträgt 705 Stunden pro Jahr für das Essen und 415 Stunden pro Jahr für Kleidung und Körperpflege. Dann haben wir noch die Bearbeitung der Essensdatenbank mit 91,31 Stunden pro Jahr. Dies ergibt 1411,31 Stunden, multipliziert mit dem Stundensatz von € 14,30 für 2008 ergibt dies € 20181,73 pro Jahr.
+Barspesen
+Die Barspesen betragen für das Essen derzeit € 2177,24 pro Jahr (€ 50,88 pro Woche Arbeitszeit).
+Dazu kommen noch die Barspesen für sonstige lebenserhaltende Dinge, diese betragen € 385,60 pro Jahr. Dies ergibt in Summe € 2562,84 pro Jahr.
+Sonstige Aufwände
+Hier wäre einmal das Mittagessen bei meinen Eltern zu erwähnen, das mit Elternversicherung € 1046,96 pro Jahr kostet.
+Weiters sind hier die Aufwände für die Wohnung, die mit € 5386,06 berechnet wurden (Stand 1. Halbjahr 2006), sich aber je nach Gewinn des Lebenserhaltungskontos noch ändern können. Dazu kommt theoretisch noch eine Abgeltung für Mama für einen Waschgang pro Woche, die € 463,84 pro Jahr ergibt, derzeit aber nicht bezahlt wird. Dazu kommen noch 91,31 Benutzungsstunden für den PC zu je 50 Cent, also € 45,66 für den PC.
+Dies ergibt insgesamt an sonstigen Aufwänden € 6942,52.
+Zusammenfassung Gesamtrechnung
+
+Aus obigen Ausführungen ergibt sich folgende Gesamtrechnung:
+
+Einnahmen:
+	Spaßwerte			€ 7190,8
+	Stützbeträge			€ 22546,92
+	Gesamt:				€ 29737,72
+
+Ausgaben:
+	Zeitaufwand			€ 20181,73
+	Barspesen			€ 2562,84
+	Sonstige Aufwände		€ 6942,52
+	Gesamt				€ 29687,09
+
+Wir haben somit Einnahmen von € 29737,72 bei Ausgaben von € 29687,09, das ergibt eine Einnahmen-/Ausgabenrelation von 1,0017. Das Lebenserhaltungskonto ist damit knapp gewinnbringend.
+
+
+Typischerweise anfallende tägliche Abrechnungen des Lebenserhaltungskontos im Kontensystem
+
+Morgentoilette+Frühstück: Spaßwerte für Essen (werden aus der Essensdatenbank ermittelt); Ausgaben für Zeitaufwand
+
+Mittagessen: Spaßwerte für Essen und evtl. Gespräche mit Kollegen während Essen; Ausgaben für Zeitaufwand; Barspesen für Menüpreis (incl. Essensmarken und Trinkgeld); bei Essen in Steindl-Kantine € 0,5 an BRZG für Suppe (Rabatt für BRZG-Bedienstete). Bei Mittagessen während ganztägiger Arbeitszeit wird die tatsächliche Essenszeit angenommen, die Differenz zu einer eventuell nur halbstündigen Mittagspause geht an das Herzensgut-Konto. Bei Mittagessen am Heimweg vom BRZ wird so gerechnet, wie wenn eine Rückkehr an den Arbeitsplatz erfolgt hätte, eventuelle Synergieeffekte mit dem Heimweg gehen wiederum an das Herzensgut-Konto.
+
+Mittagessen bei den Eltern: Spaßwerte für Essen; Ausgaben für Zeitaufwand. Eltern-Konto bekommt für das Menü (für 2006) eine Pauschale von € 6,90 an Werk- und Samstagen und € 7,90 an Sonn- und Feiertagen gutgebucht; dazu kommt der Versicherungsaufschlag von 1/9 dieser Summe (siehe Eltern-Konto). Dauert der Besuch bei den Eltern länger als 1 Stunde, weil Diskussionen durchgeführt werden, so wird der darüber hinausgehende Zeitaufwand bei einem anderen Konto verrechnet, über dessen Agenden diskutiert wird. Ab Mitte Juli 2010 wird an Stelle dieser einen Stunde die tatsächliche Essensdauer zuzüglich Wegzeit gerechnet. Die gutzuschreibende Summe wird auch angepaßt, sie beträgt ab Anfang 2008 auch an Werk- und Samstagen € 7,90, steigt mit 1.7.2009 auf € 8,10 und mit 15.7.2010 auf € 8,32 bzw. ab 6.8.2010, wenn ich mir das Menü selbst aussuche, auf € 12,20.
+
+Einkäufe: es wird der tatsächliche Zeit- und Geldaufwand verrechnet. Für Einkäufe bei Anker, die unterwegs erfolgen, werden 6 Minuten angerechnet, dies entspricht etwa dem durchschnittlichen Aufschlag bei der durchschnittlichen Einkaufsmenge dort. Bei Einkäufen in Supermärkten wird mit dem vollen Weg zu Billa Ederg. / Brünnerstr. Gerechnet; eventuelle Synergieeffekte mit anderen Aktionen wie Spaziergängen oder Elternbesuchen gehen an das Herzensgut-Konto.
+
+Jause und Nachtmahl: Hier wird unter dem Titel "Jause" bzw. "Nachtmahl" der angefallene Zeitaufwand sowie der Spaß für Jause und Nachtmahl verrechnet.
+
+WC-Besuche: werden nach tatsächlichem Zeitaufwand verrechnet (mit Arbeitszeit).
+
+Wird das Nachtmahl oder die Jause extern im Rahmen einer anderen Aktion eingenommen, so wird der Spaß für die Jause, wenn nur das Nachtmahl extern eingenommen wurde, mit der Abendzeremonie verrechnet. Für das Nachtmahl wird an die ausführenden Aktion eine Stützung von € 2,20 überwiesen (Stand 2005). Das gleiche gilt sinngemäß für andere Mahlzeiten.
+
+Friseursbesuche und ähnliches sind zu behandeln wie Einkäufe; Abrechnung erfolgt inkl. Trinkgeld.
+
+Ablagen und Papier:
+
+Beim Essenskonto treten praktisch mehrere Arten von Papieren auf:
+1. Menüpläne von Steindl und anderen Kantinen bzw. Lokalen (WIST)
+2. Speisekarten von Zustellservicen, die immer wieder hineinkommen
+3. Lebensmittelrechnungen
+4. Verpackungen von Süßigkeiten
+5. Sonstiges
+
+Mit diesen Dingen wird folgendermaßen verfahren:
+Die Menüpläne von Steindl und anderen Lokalen bleiben im offenen Stoß liegen und werden dann in die Lebenserhaltungsmappe einsortiert, sobald die Kontensystemsabrechnung des letzten Gültigkeitstages vorbei ist. Während sie im offenen Stoß sind, wird anhand dieser jeweils das Menü für den Folgetag ermittelt (wenn die entsprechenden Voraussetzungen gegeben sind).
+Speisekarten von Zustellservicen werden nach entsprechender Begutachtung in die Lebenserhaltungsmappe einsortiert, wobei aber vom gleichen Betrieb immer nur die letzte Karte aufbewahrt wird.
+Lebensmittelrechnungen werden 1 Monat aufgehoben und dann entsorgt, wobei der Einfachheit halber die Entsorgung nur einmal monatlich vorgesehen ist, wobei jeweils die Rechnungen vom Vormat und vom laufenden Monat aufbewahrt und die älteren Rechnungen entsorgt werden.
+Verpackungen von Süßigkeiten werden in einer Kiste unter meinem Bett gesammelt und dann gesammelt daraus die Inhaltsstoffe in den PC eingegeben (nach Prioritätsliste der Essensdatenbank-Bearbeitung).
+Sonstige Blätter werden je nach Bedarf in die Lebensmittelmappe eingeordnet. Dazu dienen folgende Unterordnungen, nach denen sortiert wird:
+Speisepläne: LE-SP
+Speisekarten von Zustellservices: LE-ZU
+Lebensmittelrechnungen: LE-RE (sollten nicht einsortiert werden)
+Verpackungen von Süßigkeiten: LE-SS (für süße Stücke - sollten nicht einsortiert, sondern in die Datenbank eingegeben und dann entsorgt werden)
+Sonstiges: LE-SO
+
+Daraus ergibt sich, daß es einen Lebenserhaltungsordner geben sollte mit Abteilungen für Speisepläne, Speisekarten und sonstiges.
+
+Prioritätssetzung der Essensdatenbank-Bearbeitung und andere Lebenserhaltungs-Aktionen
+
+Da die Lebenserhaltung ein lebensnotwendiger Bereich ist, ist die Priorität der dazu gehörigen Aktionen naturgemäß recht hoch einzuschätzen. Für die Mahlzeiten ist ein Wert von 74 anzusetzen, ebenso für die Morgen- und Abendtoilette. Die Essensdatenbank ist aber - wie oben ausführlich dargelegt - nicht unbedingt notwendig und rechnet sich nur unter verschiedenen Voraussetzungen. Daher ist die Priorität für die Bearbeitung der Essensdatenbank niedriger anzusetzen - mit etwa 59. Das heißt, sollte ein Tag mit Aktivitäten gefüllt werden, die eine höhere Priorität als 59 aufweisen, kann die Essensdatenbank an diesem Tag entfallen, da es nicht so wichtig ist, sie zu bearbeiten.
+Andere Aktivitäten der Lebenserhaltung wie z.B. Kauf von Gewand fallen zwar manchmal an, machen aber in Summe weniger als 10% der Bearbeitung der Lebenserhaltung aus, so daß sie nicht extra vorkalkuliert werden müssen, sondern im Bedarfsfall zu beachten wären.
+Eine Sonderstellung nimmt hier der Friseursbesuch ein, der halbwegs regelmäßig alle 3 Monate stattfinden sollte, aber nicht unbedingt auf den Tag genau eingeteilt sein muß. Hier bietet sich fürs erste (solange noch keine anderen Angebote anderer Konten vorhanden sind) eine Annahme eines Preis-/Leistungsverhältnis von 0,84 an, das bewirken sollte, daß nach 3 Monaten die Priorität über 50 steigt.
+
+Bis zu einer Lösung des Problems mit der starken Stützung des Mittagessens sollte genau mitgeschrieben werden, wie die Stimmung bei gemeinsamen Mittagessen ist und ob weitere Vorteile aus solchen entstanden sind (wie z.B. Gespräche). Es sollten auch genau die Zeiten erfaßt werden, die tatsächlich für das Mittagessen erforderlich waren und die nur geplaudert wurde.
+
+Diese Dokumentation wird eventuell ausgedehnt, falls Lebenssituationen auftreten, die dadurch nicht abgedeckt sind, und die mit der Lebenserhaltung zu tun haben. Im Prinzip sollten damit aber mindestens 90% aller solcher Situationen abgedeckt sein.
+	- 1 -
+

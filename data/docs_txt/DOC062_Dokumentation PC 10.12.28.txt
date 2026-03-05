@@ -1,0 +1,461 @@
+Dokumentation zum PC-Gerätekonto von Kurt Woloch
+Stand: 28.12.2010
+
+Gegenstand dieses Kontos	1
+Wie kam das PC-Konto zustande?	1
+Ursprünglicher Zweck des PC's	1
+Geschichte der PC's	2
+Geschichte der PC-Kontengebarung	2
+Anwendungen für den PC und Anforderungsprofil	2
+Anwendungen des PC	3
+Anforderungen an den PC nach Kontenbereichen	3
+Anforderungen an den PC (konsolidiert)	4
+Anmerkungen zu den Anforderungen an den PC	4
+Berechnung der Stundensätze, die zur Verrechnung kommen	6
+Schätzung der Fixkosten	6
+Berechnung der Stundensätze	6
+Aufbau des Dateisystems	7
+Datenträger mit alten Sicherungen	8
+Lagerung und Sicherung der Daten	8
+Entsorgung von Daten	9
+Mögliche zukünftige Projekte des PC-Kontos	9
+Abgrenzung des PC-Kontos gegenüber anderen Konten	9
+Anteile der Eltern an der PC-Anlage	9
+Geschenksperre für PC-Zwecke	10
+Besitztümer des PC-Kontos	12
+Eintragungen in die Prioritätsliste	12
+
+Gegenstand dieses Kontos
+
+Das PC-Konto ist im Prinzip ein Gerätekonto, das heißt, es dient zur Verwaltung eines Gerätes oder einer Gerätegruppe, in diesem Fall der PC's samt Zubehör. Gerätekonto heißt, dass es sich um ein Konto handelt, das die Aufgabe hat, eines oder mehrere Geräte für den Gebrauch zur Verfügung zu stellen und betriebsbereit zu halten. Es hat nicht die Aufgabe, selbst Aktionen durchzuführen, die Spaßpunkte bringen, sondern wird nur für solche Aktionen verrechnet. Die Einnahmen bezieht das PC-Konto durch Benützungsgebühren, die Ausgaben sind Arbeiten am PC oder Datensicherungen.
+Wie kam das PC-Konto zustande?
+
+Das PC-Konto ist im Prinzip so alt wie der erste PC, der in den Familienbesitz überging, das war der 286er-Laptop, den Papa vor seiner Pensionierung im Dezember 1994 aus seinem Büro mitbrachte. Da ich diesen auch benutzte, und ausserdem das Ziel der Anschaffung eines eigenen PC's hatte, wurde dieses Konto gegründet, um den PC und seine Benutzung zu verwalten und zu finanzieren.
+Ursprünglicher Zweck des PC's
+
+Der erste PC, der ins Haus kam, hatte folgende Zwecke:
+- Verwendung von Programmen, die nur am PC liefen
+- Datenaustausch mit Peter Kremmel für die Clubzeitung des 1st Vienna's Karaoke-Club
+
+Es wurde bereits im Oktober 1994, bevor der Laptop ins Haus kam, die Anschaffung eines PC's geplant. Diese hätte folgende Zwecke haben sollen:
+- Papa hätte darauf für seine Firma üben sollen bzw. Dinge tun sollen, die er bisher in der Firma am PC gemacht hat (dies war einige Monate vor seiner Pensionierung)
+- Ich hätte darauf CD's produzieren und brennen sollen, teilweise auch Karaoke-CD's und Auftragsproduktionen für Karaoke-Sänger und andere Interessierte
+Geschichte der PC's
+
+Wie schon erwähnt, wurde die Anschaffung eines PC's bereits im Oktober 1994 von Papa vorgeschlagen, dann aber nicht durchgeführt, weil sie mir selbst nicht so wichtig war. Mit dem Laptop, den Papa aus der Firma mitbrachte, war dies dann auch nicht nötig.
+
+Ende 1997 wurde dann ein Altgerät vom Bundesrechenzentrum, ein 386er-PC mit 25 MHz, angeschafft. Dies hätte nur eine Übergangslösung sein sollen, aber es kam dann anders, weil Mama im Müll eine Sammlung von hunderten 5 1/4 Zoll-Disketten fand, und Papa daraufhin von Bernhard Myslik ein passendes Laufwerk einbauen ließ. Dann meinte er "Es würde mich schon interessieren, was auf den ganzen Disketten drauf ist", was ich als Auftrag verstand, sie mir alle anzusehen. Dies ging aber auf Kosten des PC-Kontos. Infolge dessen wurden dann die hereinkommenden Nutzungsgebühren für das PC-Konto für das Ansehen der Disketten verbraucht, so dass bis ins Jahr 2000 hinein nicht genug Geld angespart werden konnte, um den geplanten Neukauf eines PC durchzuführen. Ich erhoffte mir davon eine erhöhte Nutzung durch Papa, aber er sah sich dann, als ich ihm die fertige Liste zeigte, nur einige wenige Programme an und meinte dann, er wolle sich nicht näher damit beschäftigen, weil die Beschäftigung mit dem PC (damals noch mit einem Röhrenmonitor)  nicht gut für die Augen wäre.
+
+Ende 2000 wurde dann ein weiteres Altgerät vom Bundesrechenzentrum angeschafft, diesmal ein Pentium 133. Ursprünglich war damit auch das Brennen und Abspielen von CD's geplant. Zu diesem Zweck bekam ich schon vor der Anschaffung des PC's von Wolfgang Lehfuß eine 1-GB-Festplatte und ein CD-ROM-Laufwerk geschenkt. Als ich ihn dann allerdings bat, mir diese Dinge einzubauen, erwies sich die Festplatte als kaputt. Das CD-ROM-Laufwerk überlebte auch nur einige Monate und wurde dann unbrauchbar (konnte keine CD's mehr lesen). Da sich nun auf der verbleibenden Festplatte nicht genug Platz befand, um eine komplette CD zwischenzuspeichern, wurde der Plan zum Brennen von CD's mit diesem Gerät wieder fallen gelassen. Trotzdem war dieses Gerät besser als der 386er-PC (bis auf die fehlende Unterstützung der 5 1/4 Zoll-Disketten, die mir aber nicht wirklich abging).
+
+Aufgrund der fehlenden Fähigkeiten des PC's wurde dann bereits im Juni 2001 ein neuer PC angeschafft, der nun wirklich CD's brennen konnte und auch genug Speicherplatz für neue Anwendungen bot. Dazu gab es auch einiges neues Zubehör, an dem sich Papa beteiligte, nämlich ein 15 Zoll-Flachschirm und ein Tintenstrahldrucker mit Fotoqualität.
+
+Schließlich wurde im Jahr 2007 ein weiterer neuer PC angeschafft, nachdem der PC aus dem Jahr 2001 für manche Anwendungen wie z.B. das Brennen und Ansehen von DVD's nicht mehr schnell genug war und mit 128 MB auch nicht genug Speicher hatte. Näheres dazu ist in der Dokumentation zu finden, die zu diesem PC-Kauf angelegt wurde.
+Geschichte der PC-Kontengebarung
+
+Nachdem jeder PC, den wir hatten, schneller war als der Amiga 500, wurde die Benutzungsgebühr pro Stunde auch immer etwas höher angesetzt als die vom Amiga. Bis ins Jahr 2001 wurden die hereinkommenden Benutzungsgebühren zuerst  für die Katalogisierung der 5 1/4-Zoll-Disketten, dann für das Lesen von Computerzeitschriften verwendet, die Mama brachte, und deren Lesen für sich alleine keinen Gewinn brachte. Im Jahr 2001 wurde dann der angesammelte Gewinn in die neue PC-Anlage investiert.
+
+Aufgrund der sinkenden Nutzung des Amiga stiegen die Benutzungsgebühren für den Amiga immer weiter an, und die für den PC wurden mit angehoben. Da diesen Gebühren aber bei weitem kein Aufwand in dieser Höhe entgegenstand, wurden in den Jahren nach 2001 mehrere tausend Euro an Guthaben angesammelt. Schließlich kam es am 26.3.2004 zu einer Abrechnung, wo das PC-Konto auf 0 gestellt wurde und die seit dem Jahr 2001 zuviel angesammelten Benutzungsgebühren wieder an die Konten verteilt wurden, von denen sie gekommen waren. Dadurch konnte z.B. das CD+G-Konto von den Schulden befreit werden, die durch die Produktion des Autorensystems KWCG angefallen waren, und die Schulden des Karaoke-Video-Kontos konnten von ca. 9000 auf 7200 Euro gesenkt werden. Seither werden nun viel niedrigere Benutzungsgebühren verrechnet, die sich am tatsächlichen Aufwand orientieren.
+Anwendungen für den PC und Anforderungsprofil
+
+Im folgenden wird der Rahmen abgesteckt, in dem der PC derzeit verwendet wird, indem für jeden Kontenbereich die PC-Anwendungen aufgelistet werden, die von dem jeweiligen Bereich durchgeführt werden:
+Anwendungen des PC
+
+Amiga: eventuell Sicherung der Daten des Amiga (unsicher)
+Ausflugsgesellschaft: Verwaltung von Lokallisten und Singlisten
+Bundesrechenzentrum: Einstieg ins BRZ in Not- und Bedarfsfällen
+CD+G: Produktion von Karaoke-Titeln, Weiterentwicklung des Autorensystems ClearSwipe, Brennen von Karaoke-CD's
+Computerspiele: Spielen von alten und neuen Computerspielen; Verwaltung von Programm- und Spiellisten
+Eltern: Mitnutzung des PC's, Bearbeitung von Bildern der Digitalkameras über Speicherkarten, Scannen und Druck von Bildern und anderen Dokumenten, Nutzung des Radio-Würmchen-Programms, Internet surfen
+Fahrzeuggesellschaft: Einholen und Austausch von Informationen im Internet, Durchführung diverser Berechnungen
+Fernsehen: evtl. Planung des Fernsehprogramms über Internet, Ansehen von Youtube- und anderen Videos
+Finanzen: Verwaltung der Finanzanlagen, Online-Banking und evtl. -Trading, Kalkulation neuer Anlagen
+Gesundheit: Schreiben diverser Dokumentationen
+Historische Aufnahmen: Inventarisierung der historischen Kassetten
+Hitparadenlistung: evtl. Führung einer Hitparadendatenbank
+Internet: Ansurfen diverser Seiten, Hören von Internet-Radio, Abspielen diverser Dateien, Verwaltung der Homepage
+Karaoke-Sänger: Produktion von Karaoke-CD's, -Playbacks und Texten, evtl. Aufnahme von Demo-CD's
+Karaoke-Videos: Brennen von Karaoke-CD's, Verwaltung und Druck der Karaoke-Videolisten
+Kontenverwaltung: Verfolgung und Kontrolle der Projekte inkl. Dokumentation, Vor- und Nachkalkulationen, Zeiterfassung etc.
+Lebenserhaltung: Führen der Essensdatenbank
+Literatur: evtl. Verwaltung des Lesestoffs
+Musiker: Verwaltung von Auftrittsprogrammen und -Erfolgen, Druck von Texten, Aufnahme von Musiktiteln, CD-Produktionen
+Radio Würmchen: Ein- und Abspielen von Musikdateien, Umwandlung von CD's in MP3's, Entwicklung der Musikdatenbank und des Abspielprogramms
+Textgesellschaft: Verwaltung der Texte, Eingabe und Druck von Texten
+Tonträgergesellschaft: Verwaltung der Tonträger und Vorschlag zu hörender Tonträger
+Wohnungsverwaltung: Führen der Wohnungsinventur, Dokumentationen und Mietberechnungen
+
+Es werden vom PC daher von den einzelnen Bereichen folgende Ressourcen bzw. Programme benötigt:
+Anforderungen an den PC nach Kontenbereichen
+
+Amiga: 3 1/2"-Diskettenlaufwerk
+Ausflugsgesellschaft: MS Access, Drucker, MS Word
+Bundesrechenzentrum: MS Internet Explorer
+CD+G: Steinberg Wavelab, Steinberg Cubase, Roland VSC, Hercules Game Theater-Soundkarte, Visual Basic 5.0,  Plextor PX-716A DVD-Brenner (für CD's)
+Computerspiele: ordentlicher Prozessor und Grafikkarte, evtl. MS Sidewinder Joystick, MS Access, MS Internet Explorer, diverse Emulatoren und Spiele
+Eltern: Kartenleser, Scanner, Farbdrucker, MS Internet Explorer, Winamp, Visual Basic 5.0
+Fahrzeuggesellschaft: MS Internet Explorer, MS Excel
+Fernsehen: MS Internet Explorer
+Finanzen: MS Internet Explorer, MS Access, MS Excel
+Gesundheit: MS Word
+Historische Aufnahmen: MS Access, Visual Basic 5.0, MS Excel
+Hitparadenlistung: MS Internet Explorer
+Internet: MS Internet Explorer mit diversen Plugins (Quicktime, Flatcast, Flash, Adobe Acrobat Reader etc.), evtl. FTP-Programm, Chello-Netzwerkkarte
+Karaoke-Sänger: CD+G-Brenner, Wavelab, Cubase, MS Word, Visual Basic 5.0, Hercules Game Theater Soundkarte
+Karaoke-Videos: CD+G-Brenner, MS Access, MS Internet Explorer
+Kontenverwaltung: MS Access, MS Word, MS Excel, evtl. Visual Basic 5.0
+Lebenserhaltung: MS Access
+Literatur: MS Excel
+Musiker: MS Access, MS Word, Steinberg Cubase, Steinberg Wavelab, CD-Brenner, Hercules Game Theater Soundkarte
+Radio Würmchen: CDEx, CD-Laufwerk, DVD-Brenner, Winamp, Mp3Gain, MP3Trim, Visual Basic 5.0, MS Access, MS Excel
+Textgesellschaft: MS Access, MS Word
+Tonträgergesellschaft: MS Access, MS Excel, Visual Basic 5.0
+Wohnungsverwaltung: MS Access, Visual Basic 5.0, MS Word, MS Excel
+
+Daraus ergibt sich folgende konsolidierte Liste:
+Anforderungen an den PC (konsolidiert)
+
+Hardware:
+3 1/2"-Diskettenlaufwerk
+CD+G-Brenner (2) / CD-Brenner (2) / CD-Laufwerk (1) / DVD-Brenner (1)
+Netzwerkkarte
+Farbdrucker (1) / Drucker (1)
+Hercules Game Theater Soundkarte (3)
+Kartenleser
+MS Sidewinder Joystick
+ordentlicher Prozessor und Grafikkarte
+Scanner
+
+Software:
+CDEx (1)
+diverse Emulatoren und Spiele (1)
+FTP-Programm
+Mp3Gain
+MP3Trim
+MS Access (12)
+MS Excel (7)
+MS Internet Explorer (8), mit diversen Plugins (Quicktime, Flatcast, Flash, Adobe Acrobat Reader etc.) (1)
+MS Word (7)
+Roland VSC
+Steinberg Cubase (3)
+Steinberg Wavelab (3)
+Visual Basic 5.0 (8)
+Wavelab
+Winamp (2)
+Anmerkungen zu den Anforderungen an den PC
+
+Im folgenden kommen einige Anmerkungen zu den oben aufgelisteten Anforderungen an den PC, bei der Software gegliedert nach Programmgruppen:
+
+Hardware:
+
+3 1/2"-Diskettenlaufwerk: ist vor allem zum Abspielen alter Disketten nötig, auf denen sich z.B. die Musiktexte und alte Mails aus dem Bundesrechenzentrum befinden. Eine weitere Anwendung wäre der Dateiaustausch mit dem Amiga, wozu das Laufwerk zusätzlich 2DD-Disketten lesen und schreiben können sollte. Im aktuellen PC wird diese Funktion in Form eines USB-Diskettenlaufwerkes realisiert. 
+
+CD+G-Brenner (2) / CD-Brenner (2) / CD-Laufwerk (1) / DVD-Brenner (1):
+DVD-Brenner sind heute bei den meisten PC's eingebaut, aber nur die wenigsten können CD+G, also Karaoke-CD's, brennen, was hin und wieder für mich und andere Personen nötig ist. Hier ist aber ein Plextor-Brenner vorhanden und wurde zu diesem Zweck auch eingebaut.
+
+Netzwerkkarte: ist im aktuellen PC eingebaut und auch für Chello, den derzeitigen Internetzugang, nutzbar.
+
+Farbdrucker (1) / Drucker (1):
+Ich verwende den Drucker hauptsächlich in schwarzweiß, für einzelne Anwendungen (Duetttexte, Bilder) ist aber auch die Farbe nützlich. Hier sollten sich normalerweise keine Probleme ergeben, da es für den Drucker auch unter Windows XP und Vista Treiber gibt und er mittels USB an jeden modernen PC angeschlossen werden kann.
+
+Hercules Game Theater Soundkarte (3):
+Das wichtige an dieser Soundkarte ist vor allem das MIDI-Interface zum Anschluß des Keyboards und die mannigfaltigen Möglichkeiten der Tonmischung. Daher wurde diese Karte auch in den neuen PC eingebaut. Die Anwendung dieser Spezialfunktionen umfaßt hauptsächlich Musikproduktionen von Musiktiteln oder Playbacks sowie Einspielungen von Titeln in das Radio-Würmchen-Programm.
+
+Kartenleser: Dieser ist beim neuen PC eingebaut, und dient vor allem meinem Vater zum Einlesen der Daten seiner Digitalkamera.
+
+MS Sidewinder Joystick: ist vorhanden und kann für Spiele per USB angeschlossen werden, wird aber selten verwendet.
+
+ordentlicher Prozessor und Grafikkarte: wird vom derzeitigen PC erfüllt.
+
+Scanner: wird hauptsächlich von meinem Vater verwendet, und ist wieder ein USB-Gerät, für das es auch Treiber für Windows XP gibt. Dies ist auch der Grund dafür, dass auf dem aktuellen PC Windows XP und nicht Windows Vista oder Windows 7 installiert ist, für diese Betriebssysteme gibt es nämlich für den Scanner keine Treiber mehr.
+
+Software:
+
+CDEx: wird zum Rippen von CD's und Umwandeln von WAV auf MP3 verwendet. Eine aktuelle Version ist ohne Probleme im Internet zu beziehen.
+diverse Emulatoren und Spiele (1): sind hauptsächlich auch aus dem Internet und laufen unter Windows XP meist ohne Probleme.
+
+FTP-Programm: ist evtl. zur Aktualisierung der Homepage nötig und läßt sich ohne Probleme im Internet finden.
+
+Mp3Gain, MP3Trim: dienen zur Anpassung der Lautstärken von MP3-Files und stammen aus dem Internet. In der Praxis wird nur MP3Trim verwendet.
+
+MS Access, Excel, Word: Dies sind die Bestandteile des Microsoft Office-Paketes. Im Moment wird noch Office 97 verwendet, weil dieses im Jahr 2001, als der PC installiert wurde, im BRZ und auch bei Orange 94,0 verwendet wurde. Eine neuere Version liegt bislang nicht vor, kann aber im BRZ beschafft werden.
+
+MS Internet Explorer (8) mit diversen Plugins (Quicktime, Flatcast, Flash, Adobe Acrobat Reader etc.) (1): Dies bekommt man auch im Internet, wobei die Installation dieses Programmes unter Windows XP kein Problem darstellt.
+
+Roland VSC: Dies ist eine Software, mit der MIDI-Files in guter Qualität abgespielt werden können, und die vor allem zur Musik- und Karaoke-Produktion verwendet wird. In der aktuellen Cubase-Version ist allerdings ein eigener Renderer enthalten, so dass dieses Programm nicht mehr nötig ist.
+
+Steinberg Cubase / Wavelab: Diese Programme dienen zur Musikproduktion bzw. Wavelab auch zum Einspielen von Musik von analogen Tonträgern für das Radio-Würmchen-Programm. Diese Programme wurden erfolgreich installiert, allerdings ist Cubase wegen der Inkompatibilität der alten Version eine neue Version, die die Projekte der alten Version nicht lesen kann. Die derzeit verwendete Version von Wavelab würde unter Vista oder Windows 7 auch nicht laufen.
+
+Visual Basic 5.0: wird zur Entwicklung diverser Programme verwendet und läuft auf Windows XP weiter einwandfrei.
+
+Winamp: dient hauptsächlich zum Abspielen der Musikdateien von Radio Würmchen. Die aktuelle Version davon läuft unter Windows XP problemlos, samt den aktuellen Versionen der von mir verwendeten Plugins (CD+G und Crossfade).
+
+Hier eine Zusammenfassung der Grundausstattung an Software und Daten:
+
+Software:
+- Betriebssystem (Windows XP)
+- Treiber für Drucker, Scanner und Soundkarte
+- DVD-Brennprogramm (zuerst PlexTools versuchen, dann evtl. DeepBurner)
+- MS Office 97 oder XP (mit Winword, Excel und Access)
+- MS Visual Basic 5.0 oder 6.0 bzw. Visual Studio Express
+- Winamp (aktuelle Version)
+Daten:
+- Die für Radio Würmchen nötigen Musikdateien (Musiksammlung)
+- Datenbanken für Inventurverwaltung, Kontensystem und Radio Würmchen
+- Diverse laufende Projekte (die aktuell bzw. laufend bearbeitet werden, z.B. Gesamtzeit für laufende Projekte)
+Berechnung der Stundensätze, die zur Verrechnung kommen
+
+Insgesamt sind im Jahr 2005 Einnahmen von € 1871,29 und Schulden von ca. € 880 aufgelaufen, so daß der tatsächliche Finanzbedarf bei € 2750,77 lag. Dies ist die Grundlage für die Berechnung der Stundensätze.
+
+Der Großteil der Ausgaben ging im Jahr 2005 für Arbeitszeit auf, gefolgt von der Wohnungsmiete, die ca. 28,5% der Kosten stellte. Nicht eingerechnet ist hier wohl der Internetzugang, der über das Internetkonto abgerechnet wurde. Dabei umfaßten die Arbeiten hauptsächlich Datensicherung sowie die Verwaltung der Sicherungs-CD's und in zweiter Linie den Umgang mit Pannen (DVD-Brenner-Schaden und Neuinstallation Windows ME) sowie die Dokumentation der Datenhaltung.
+Schätzung der Fixkosten
+
+Im folgenden werden die Fixkosten des PC-Kontos ermittelt. Ein Teil dieser Kosten ist der Fixaufwand, der sich beim Kauf des PC's einmalig ergibt. Dieser Fixaufwand rührt daher, daß der Kauf des PC's und seine Installation einen gewissen (vor allem Zeit-) Aufwand bedeuten, egal wie teuer der gekaufte PC ist. Dieser Aufwand wäre dann zum Kaufpreis zu addieren.
+
+Da es beim neuen PC wahrscheinlich zur Neuinstallation von Programmen kommt, die man normalerweise bezahlen sollte, wären hier laut den derzeitigen Richtlinien Zahlungen für die verletzten Urheberrechte an das Herzensgut-Konto notwendig. Aus diesem Grund werden hier die Kosten der eventuell kostenpflichtigen Programme aufgeführt, die zu den eigentlichen Kosten des PC's dazugeschlagen werden:
+
+Windows XP: € 130.- (Diese CD stammt von Egon, daher erfolgt die Zahlung dafür direkt an das derzeit verschuldete Karaoke-Sänger-Konto, womit ein Teil der Schulden abgedeckt wird)
+MS Office XP: € 330.-
+CDRWIN (aktuelle Version): € 21,-
+Wavelab 6: € 649,-
+Cubase: € 879,-
+
+Wie man hier sehen kann, sind die wirklich teuren Programme die, die nicht im Grundpaket enthalten sind. Die Gebühren dafür (außer für Windows XP) werden aber jeweils nur dann fällig, wenn auf eine neuere Version upgegradet wird (was hier bei Cubase und Windows XP der Fall war).
+Berechnung der Stundensätze
+
+Die Gesamtkosten für den PC betragen:
+
+Alle 6 Jahre:
+
+Kauf- und Installationskosten € 1209,25
+Kaufpreis € 799,- (tatsächlicher Kaufpreis des letzten PC's)
+Urheberrechtskosten: € 2009,-
+Gesamt: € 4017,25
+
+Laufende Kosten pro Jahr: € 2750,77
+
+Pro Woche fallen dabei von meiner Seite ca. 47,29 Nutzungsstunden und von Papa ca. 7 Nutzungsstunden an, das sind insgesamt 54,29 Nutzungsstunden oder 7,76 Stunden pro Tag. Dies ergibt im Jahr 2832,8 Stunden.
+
+Rechnen wir nun die laufenden und einmaligen Kosten auf die Nutzungsstunden auf, so ergibt sich unter der Annahme des Zinssatzes von 3% zuzüglich zur Inflation folgendes:
+
+Abschreibung des PC's und der Umstiegskosten: Anfangskosten € 24719,14 -> pro Stunde / 95836,59 = € 0,26
+Deckung der laufenden Kosten: € 2750,77 / 2832,8 = € 0,97
+Gesamt nötig: € 1,23
+
+Wir berechnen nun den Anteil der variablen Kosten. Dazu ziehen wir zunächst die Fixkosten von den jährlichen Kosten ab.
+
+Die Miete beträgt € 842,22 pro Jahr und ist komplett aus den variablen Kosten herauszurechnen.
+
+Die verbleibenden jährlichen Kosten, die von der Menge der Benutzung abhängig sind, sind dann € 1908,55.
+
+Die Neuanschaffung des PC war teilweise auf Veraltung und teilweise auf Abnutzung zurückzuführen. Daher berechnen wir die Abschreibung des Kaufpreises nur zur Hälfte. Man kann dies auch so deuten, dass die Urheberrechtskosten nicht verrechnet werden, da sie nur eine Verschiebung zwischen verschiedenen Konten darstellt. Dies ergibt dann ungefähr eine Halbierung der Anschaffungskosten.
+
+Dies ergibt folgende Rechnung für die variablen Kosten:
+
+Abschreibung des PC's: € 0,26 / 2 = € 0,13
+Deckung der laufenden Kosten: € 1908,55 / 2832,8 = 0,67
+Dies ergibt insgesamt variable Kosten von € 0,80 pro Stunde (65% der Gesamtkosten). Dieser Stundensatz wäre in Zukunft zur Berechnung von Einnahmen-/Ausgabenverhältnissen bei Aktionen heranzuziehen, bei denen der PC verwendet wird. Tatsächlich zur Verrechnung kommen aber die oben genannten € 1,23 pro Stunde.
+
+Diese Beträge wären für alle Berechnungen ab 20.11.2006 (dem derzeitigen Stand) sowie als Berechnungsgrundlage für alle kommenden Dokumentationen zu verwenden.
+Aufbau des Dateisystems
+
+Der aktuelle PC hat im Moment folgenden Aufbau des Dateisystems:
+
+C: enthält das Betriebssystem und die zur täglichen Arbeit nötigen Programme. Alle Programme, die installiert werden müssen, werden hier installiert. Weiters enthält die C-Platte auch alle temporären Dateien wie z.B. die von Wavelab. 
+
+Die D-Platte enthält im Prinzip alle Arten von Daten, das sind auch Programme, solange sie sich in Entwicklung befinden. Sie kann auch Programme enthalten, die nicht installiert werden müssen und daher nicht auf C sitzen müssen.
+
+Von diesen Daten sind wiederum möglichst zeitnah Sicherungen auf der H-Platte anzulegen.
+
+Die C-Platte ist grob in folgende Bereiche aufgeteilt:
+- C:\Windows - enthält das Betriebssystem. Hier werden nur im Ausnahmefall Anwendungsprogramme verschoben, wie z.B. nötige Komponenten. Diese "entstehen" im Regelfall durch Installation der Programme, zu denen sie gehören, und sind dadurch gesichert, daß es vom Installationspaket des jeweiligen Programmes eine Sicherung auf CD oder auf der H-Platte geben sollte.
+- C:\Programme - enthält alle Programme, mit denen laufend gearbeitet oder gespielt wird. Diese sollten ebenso wie unter Punkt 1. erwähnt gesichert sein.
+- Die Anwendungsdatenordner sind ebenso, wie vom Betriebssystem vorgesehen, auf der C-Platte untergebracht.
+
+Die D-Platte enthält grob folgende Bereiche:
+
+1. D:\Daten\ - enthält im Prinzip alle Daten, an und mit denen laufend oder ständig gearbeitet wird. Dazu zählen Datenbanken, die ständig in Bearbeitung sind, wie z.B. die Radio-Würmchen-Datenbank, und auch laufende Projekte. Zu diesem Ordner sollte es einen Spiegelordner H:\Sicherung laufende Projekte geben, in dem möglichst aktuell der komplette Inhalt dieses Ordners gesichert ist.
+2. D:\Sicherung - enthält eine Sicherung der auf H: und C: befindlichen Daten, die noch nicht anderweitig gesichert sind.
+
+Die H-Platte ist hauptsächlich zur Speicherung von großen Datenmengen, die ständig verfügbar sein sollten, vorgesehen. Hierhin werden alle Projekte nach ihrer Fertigstellung verschoben, wenn die Daten weiter laufend verfügbar sein sollten, wie z.B. Musik für den Betrieb von Radio Würmchen, Karaoke-Playbacks für den Karaoke-Betrieb etc.
+
+Die H-Platte besteht aus folgenden Bereichen:
+1. H:\Sicherung Daten - enthält eine möglichst tagesaktuelle Sicherung des Ordners D:\Daten.
+2. H:\Sicherung Programme - enthält eine Sicherung aller Installationspakete zu Programmen, die noch nicht anderweitig gesichert sind
+3. H:\Daten - enthält alle Daten von Projekten, die nicht mehr laufend bearbeitet werden, also abgeschlossen sind.
+
+Weiters gibt es auf H:, soweit es der Platz erlaubt, noch weitere Ordner, die Kopien von bereits erstellten Sicherungs-CD's und DVD's enthalten, die auf den älteren PC-Systemen erstellt wurden.
+
+Daten, die in einem Stadium sind, wo sie sich ständig ändern, sind "laufende Projekte" und werden daher unter D:\Daten gespeichert. Daten, die durch die Nutzung nicht verändert werden, kommen auf H:\Daten.
+Sobald Daten unter laufenden Projekten abgeschlossen sind und nicht mehr verändert werden, werden sie auf H:\Daten und auf D:\Sicherung H kopiert... in letzterem Ordner bleiben sie bis zur weiteren Sicherung erhalten.
+Daten, die nur genutzt werden, befinden sich auf H:\Daten sowie eventuell auf D:\Sicherung, wenn sie noch nicht anderweitig gesichert wurden.
+Datenträger mit alten Sicherungen
+
+Bis November 2009 wurden folgende Datenträger zur Sicherung verwendet:
+
+5 1/4-Zoll-Disketten: Diese enthalten nur die in der Schule angefertigten Programme in BASIC und Turbo Pascal sowie zahlreiche gefundene Spiele und Anwendungsprogramme.
+
+3 1/2-Zoll-Disketten: Diese enthalten fast alle bis Juni 2001 angefallenen Daten sowie Kopien etlicher kommerzieller Programme.
+
+CD-R's: wurden hauptsächlich für MP3-Dateien verwendet, damit diese auch auf anderen Playern abspielbar sind, sowie für kleinere Datenmengen (Texte, Datenbanken, Excel-Sheets, Sourcecode) wegen der größeren Datensicherheit. Außerdem befinden sich alle vor der Anschaffung des DVD-Brenners gesicherten Daten auf CD's, weil noch nichts anderes verfügbar war.
+
+DVD's: wurden für größere Datenmengen und größere Dateien verwendet, die nicht so sicher gespeichert werden müssen, wie z.B. Sicherungen von abgeschlossenen Karaoke-Projekten (mit Playbacks), Musiker- und Playback-Projekten mit Audio-Daten, WAV-Dateien, Filme etc.
+
+CDRW's wurden eventuell eingesetzt, um noch nicht gesicherte Daten zwischenzusichern, bis genug davon zusammengekommen sind, um sie auf DVD zu sichern.
+Lagerung und Sicherung der Daten
+
+Im Moment nicht benötigte Daten werden je nach Größe und Häufigkeit der Benutzung auf der H-Platte und/oder auf anderen Datenträgern gelagert. Dies wurde schon oben besprochen. Eine Lagerung auf der H-Platte, nachdem Daten bereits gesichert sind, dient prinzipell der leichteren Auffindbarkeit der Daten und sollte nur für Daten erfolgen, die absehbar häufiger gebraucht werden, obwohl die Projekte, in denen sie erstellt wurden, schon abgeschlossen sind.
+Solche häufiger verwendeten Daten sind z.B. erfahrungsgemäß:
+- ältere Kontensystemsdaten von Vorjahren (KS)
+- ältere Radioscans (RW)
+- Musikstücke für Radio Würmchen
+- Karaoke-BIN-Dateien von CD's, die sich selbst noch im Aufbau befinden
+
+Ungefähr einmal pro Woche sollte eine Sicherungsaktion stattfinden, bei der die Daten in die oben angegebene Form gebracht werden, das heisst, bereits abgeschlossene Projekte werden von der D-Partition auf die H-Platte verschoben und alle ungesicherten Daten auf dem jeweils anderen Laufwerk gesichert. Dann werden alle Sicherungsordner in die Datensicherung auf der externen Festplatte integriert.
+
+Möglichst sollten aber sofort, nachdem Dateien gespeichert wurden oder Programme installiert wurden, auch die entsprechenden Sicherungen durchgeführt werden, so dass sich am besten nachvollziehen läßt, was sich jetzt geändert hat und wo es hingehört.
+
+Die Sicherungsaktion sollte normalerweise folgendermaßen ablaufen:
+
+1. Durchgehen der C-Partition und Eliminierung aller nicht vorgesehenen Ordner bzw. Neuordnung der Downloads auf D:\Daten\Downloads, von dort Weiterverteilung an die zuständigen Kontenbereiche, die Unterordner von D:\Daten haben. Gleichzeitig Sicherung auf H:\Sicherung D.
+2. Durchgehen von D:\Daten und Verlagerung der eigentlich schon abgeschlossenen Projekte auf H:\Daten bzw. Verschieben auf D:\Sicherung H.
+3. Sicherung der zu sichernden Dateien auf der externen Festplatte (Achtung! Dort werden die Dateien nicht nach Sicherungsdatum unterschieden!)
+
+Entsorgung von Daten
+
+Im Prinzip werden nur Daten entsorgt, von denen sich herausstellt, daß sie völlig unnütz sind, und zwar gleich nach ihrer Erstellung... z.B. DAT-Files, die beim Konvertieren von MP3+G nach WAV und umgekehrt entstehen. Alle anderen Dateien werden normalerweise gesichert, außer es handelt sich um Duplikate oder ungezippte Kopien von Dateien, die noch einmal in ZIP-Archiven existieren. Dies gilt aber nicht unbedingt für alte Versionen z.B. von Dokumenten, von denen nur die letzte Version gültig und relevant ist.
+Mögliche zukünftige Projekte des PC-Kontos
+
+Mögliche zukünftige Projekte hängen hauptsächlich zusammen mit der Sicherung alter Datenträger, das heißt, es wären die Inhalte der Disketten, CD's und DVD's auf der externen Festplatte zu sichern. Bei den 5 1/4-Zoll-Disketten scheitert dies aber im Moment daran, dass der 386er-PC, der diese als einziger abspielen kann, seit Ende 2009 unbrauchbar ist, weil die BIOS-Batterie leer wurde und damit die Daten über die Festplatte gelöscht wurden. Es ist bisher nicht gelungen, diese Daten wieder so einzustellen, dass die Festplatte wieder funktionieren würde. Würde dies gelingen, so wären für diese Sicherung alle 5 1/4-Zoll-Disketten auf 3 1/2-Zoll-Disketten umzukopieren, und diese wären dann mit dem externen Diskettenlaufwerk auf die externe Festplatte zu kopieren. Andere Formate können entweder über das externe Diskettenlaufwerk oder interne Laufwerke direkt gelesen werden.
+Es wird weiters angedacht, die Sicherung zu automatisieren, dafür wird allerdings ein weiteres Dokument angelegt, in dem erarbeitet wird, wie diese automatische Sicherung aussehen soll.
+Abgrenzung des PC-Kontos gegenüber anderen Konten
+
+Die Aufgabe des PC-Kontos ist es, den PC zur Verfügung zu stellen und die Daten der anderen Konten zu sichern. Dafür werden Nutzungsgebühren pro Stunde verrechnet. Die Datensicherung wird vom PC-Konto selbst aus den angefallenen Nutzungsgebühren finanziert. Alle Arbeiten am PC (ausser Wartung des PC's selbst) werden von den entsprechenden Kontenbereichen durchgeführt.
+Anteile der Eltern an der PC-Anlage
+
+Auf Grund der Sonderwünsche meines Vaters beim PC-Kauf im Sommer 2001 und anderer Tatsachen gehören folgende Dinge an der PC-Anlage ganz oder teilweise meinen Eltern:
+- Tintenstrahldrucker: hier halten meine Eltern einen Anteil von 60%, weil mein Vater einen Drucker mit Fotoqualität haben wollte
+- 15-Zoll-Flachbildschirm: hier halten meine Eltern einen Anteil von zwei Dritteln, weil mein Vater einen Flachbildschirm haben wollte, der damals noch ziemlich teuer war.
+- Scanner: gehört zur Gänze meinem Vater, der ihn sich im Jahr 2001 zu Weihnachten gewünscht und von mir geschenkt bekommen hat.
+
+Da mein Vater den PC mitbenutzt und auch immer wieder Ausdrucke darauf macht, wurde vereinbart, dass er für den Nachkauf oder die Nachfüllung der Tintenpatronen des Druckers zuständig ist und dies aus seiner eigenen Tasche finanziert. Im Rahmen des Kontensystems bekommt das Eltern-Konto vom PC-Konto dafür aber eine monatliche Tintenpauschale in der Höhe von derzeit € 17,96 gutgeschrieben, dafür wird allerdings vom Eltern-Konto zu Gunsten des PC-Kontos monatlich die PC-Nutzung verrechnet, und zwar werden so viele Blöcke zu jeweils einer Stunde verrechnet, wie das jeweilige Monat Tage hat.
+Geschenksperre für PC-Zwecke
+
+Zum 23. Geburtstag bekam ich von meinen Eltern Wertpapiere im Wert von öS 100,000 überschrieben, deren Wert für den Kauf eines PC bestimmt war. Es wurde allerdings in diesem Jahr dann kein PC gekauft, und als dann im Jahr 2001 ein PC gekauft wurde, waren die Preise vor allem für CD-Brenner so stark gesunken, dass der Betrag für den Kauf der Anlage nicht aufgebraucht wurde. Aus diesem Grund ist es meiner Auffassung nach bis zum Aufbrauchen der öS 100,000 nicht möglich, dass ich von meinen Eltern weitere Geschenke bekomme, die mit dem PC zu tun haben, da ich diese ja ohnehin aus dem noch offenen Restbetrag finanzieren könnte und daher die Dinge sonst "doppelt geschenkt" wären.
+
+Hier eine Aufstellung der Barausgaben, die für das PC-Konto seit dem 27.10.1994 tatsächlich geleistet wurden:
+
+27.10.1994-31.12.1994: öS 328.- (26 Leerdisketten)
+1995: öS 60,- (10 Leerdisketten)
+1996: keine Ausgaben
+1997: öS 130 (40 Leerdisketten)
+	öS 575 (Kauf Altgerät BRZ)
+	öS 500 (Kauf 5 1/4-Zoll-Laufwerk von Bernhard Myslik)
+1998: keine Barausgaben
+1999: keine Barausgaben
+2000: öS 767 (Kauf Altgerät BRZ)
+2001: öS 65 (CD-Rohlinge)
+	öS 130 (Tastatur)
+	öS 28450 (neuer PC inkl. Grafikkarte)
+Gesamtausgaben in öS: 31005
+
+Restbetrag: öS 68995,- = € 5014,06
+Barausgaben in Euro:
+2002: € 3,99 (Druckerpapier)	
+	€ 12,79 (CD-Rohlinge)
+2003: € 35,- (Netzteil)
+	€ 8,- (Maus)
+	€ 2,79 (Druckerpapier)
+2004: € 31,95 (Maus, Ordner und CD-Rohlinge)
+	€ 28,46 (CD-Rohlinge + Beschriftungsstift)
+	€ 3,99 (Druckerpapier)
+	€ 5,99 (CD-Rohlinge)
+2005: € 10,97 (CD-Rohlinge + Hüllen dazu)
+	€ 3,99 (Druckerpapier)	
+	€ 149,90 (DVD-Brenner)
+2006: € 5,99 (CD-Rohlinge)
+	€ 2,79 (Druckerpapier)
+
+Gesamt ausgegeben: € 306,60
+
+Restbetrag per Ende November 2006: € 4707,06
+
+Von diesem Betrag werden dann noch der Kaufpreis für den Microstar-PC mit ca. € 800 abgezogen, und es bleibt immer noch ein Rest von ca. € 3900 übrig. Hier stellt sich auch noch die Frage, ob in den öS 100,000 überhaupt das hier auch mitgerechnete Verbrauchsmaterial wie Papier und Rohlinge enthalten war, und ob es überhaupt zulässig ist, das Geld für weitere PC's (es wurden hier insgesamt 4 Stück aufgelistet!) zu verwenden, oder ob es für eine einzige Anlage verwendet werden sollte, und das Geld für weitere Anlagen dann aus Einnahmen kommen sollte, die mit der einen Anlage gemacht wurden.
+
+Hier würde sich dann auch die Frage stellen, wie weit diese "Einnahmen" zu rechnen sind. Ich habe z.B. beim Duo Kurt+Franz insgesamt ca. öS 100,000 verdient, wobei die Proben- und Auftrittspläne alle am PC erarbeitet wurden. Zählt dies als "mit dem PC verdientes Geld", oder dürfen hier nur Einnahmen gerechnet werden, die dem ursprünglichen Zweck entsprechen, nämlich, dass Leute zu mir kommen und ich ihnen Musik oder CD's produziere (eventuell auch Karaoke-CD's)? Zählen hier auch gedruckte Texte für z.B. Heinrich dazu oder nicht?
+
+Man müsste sich hierzu gerechterweise die Bareinnahmen ansehen, die während der Lebensdauer einer PC-Anlage mit den angestrebten Produkten gemacht wurden.
+
+Hier haben wir:
+
+2001: Auftrag Harald... öS 1050,-
+	weitere Aufträge... öS 350,-
+	CD... öS 250,-
+	Anteil für Karaoke Builder... öS 3180,-
+Gesamt: öS 4830 = € 351,01
+
+2002: CD Weit, weit weg... € 4,10
+	Playback-CD Dietmar / Willi: € 10,-
+	Auftrag Robert / Ramona: € 50,-
+	CD Willi / Wolfgang: € 3,-
+	div. weitere Aufträge: € 71,-
+	Stützung Heinrich: € 15,-
+	Div. Aufträge Heinrich u.a. inkl. Stützung: € 125,-
+	Weitere Aufträge: € 358,- (Gesamt 2002 somit € 636,10)
+2003: div. Aufträge € 430,- (bis 21.3.2003)
+	Verkauf Autorensystem € 90,-
+	CD Nur ein Lied Johnny: € 30,-
+	CD Heinrich: € 35,-
+	CD Horsti: € 9,-
+	Aufträge Robert, Horsti, Gotty: € 239,-
+	Andere Aufträge: € 22,- (Gesamt 2003 somit € 855,-)
+2004: Verkauf Autorensystem € 90,-
+	Auftrag Heinrich: € 32,-
+	CD Günter: € 30,-
+	CD's Robert / Johnny: € 19,-
+	CD Judith € 20,- (Gesamt 2004 somit € 191,-)
+2005: Karaoke-CD / Autorensystem € 120,-
+	div. Aufträge € 58,-
+	KWCG Zambo € 100,-
+	CD Heinrich € 10,- (Gesamt 2005 somit € 288,-)
+2006:  Verkauf KWCG € 100,-
+	Text Heinrich € 13,- (Gesamt 2006 somit bisher € 113,-)
+
+Die Gesamtsumme dieser Einnahmen beträgt € 2434,11. Bis November 2007 können die Einnahmen noch weitergezählt werden, dann wurde ein neuer PC angeschafft. So wie es hier aussieht, sind die Ausgaben für die PC-Anlage von umgerechnet € 2253,22 tatsächlich durch die Einnahmen der Aufträge gedeckt (womit ich nicht gerechnet hätte). Dazu muss allerdings auch gesagt werden, dass diese Einnahmen auch die Bezahlung meiner Arbeitszeit enthalten. Trotzdem wäre mit diesen Einnahmen eine Grundvoraussetzung dafür gegeben, dass das PC-Projekt seinem ursprünglichen Zweck zufolge seine Aufgabe erfüllt hat.
+
+Trotzdem heißt dies, dass der Ersatz verbrauchter PC-Komponenten bzw. PC's (der auch erfolgt ist) aus diesen Einnahmen gedeckt werden sollte und die öS 100,000 dafür nicht weiter angezapft werden sollten. Da mittlerweile fast die komplette Erstanlage "verbraucht" wurde bzw. als deren generellen Lebensdauer die Lebensdauer der Hauptkomponente (bis November 2007) angenommen werden kann, müssten die öS 100,000 nun eigentlich "eingefroren" sein bzw. der nicht verbrauchte Rest von ca. € 4700 (ohne Verbrauchsmaterial) - 5000 (mit Verbrauchsmaterial) sollte meinen Eltern wieder zurückgezahlt werden oder in ein allgemeines, nicht zweckgebundenes Geschenk umgewidmet werden.
+
+Laut Auskunft meiner Mutter wurde die Zweckwidmung des Geldes, das ich für die erste PC-Anlage nicht verbraucht habe, aber aufgehoben, das heisst, die max. € 5000 sind nicht zurückzuzahlen und auch nicht mehr für PC-Zwecke zu verwenden. Auch der neue PC unterliegt nicht mehr der Forderung, dass er die Barauslagen dafür einspielen sollte (obwohl ich dies im Rahmen des Kontensystems natürlich trotzdem anstrebe, aber dort können die Auslagen auch durch Spaß hereinkommen, nicht nur durch Bareinnahmen). Auch die Beschränkung, dass für die PC-Ausgaben dieses Geld an Stelle von neuen Geschenken heranzuziehen ist, gilt nicht mehr, da es sich nun um eine neue Anlage handelt.
+
+Mein Vater sieht dies wieder etwas anders. Laut ihm gilt die Zweckbindung des Geldes weiter, kann aber auch für weitere Anlagen und Ersatz von verbrauchten PC-Dingen verwendet werden. Weiters gilt auch für die neue PC-Anlage nicht mehr die Forderung, dass sie ihre Ausgaben durch Aufträge der ursprünglich vereinbarten Themenfelder wieder hineinbringen sollte, da sich meine Betätigungsfelder mittlerweile verändert haben und ich kaum noch Karaoke-Aufträge ausführe. Es ist laut ihm auch nicht ausgeschlossen, dass ich zwischendurch z.B. zum Geburtstag weitere Dinge für den PC geschenkt bekomme, obwohl ich noch genügend Guthaben von meinen Eltern haben sollte, um sie selbst davon zu kaufen. Diese Geschenke werden dann aber natürlich nicht in den Verbrauch von den öS 100,000,- eingerechnet.
+Besitztümer des PC-Kontos
+
+Das PC-Konto verfügt im Groben im Moment über folgende Besitztümer:
+- Blatt Installation unter Windows
+- Anteil an Papierordner mit Amiga- und PC-Unterlagen
+- Diverse Daten-CD's und DVD's (insgesamt 8 Schachteln voll)
+- Diverse PC-Zeitschriften und Handbücher
+- Ein Stoß Endlospapier
+- Diverse Schachteln mit PC-Zubehör (manche im Vorzimmer, manche im Schlafzimmerkasten, manche auf dem Glaskasten in meinem Zimmer)
+- 386er-PC samt 14-Zoll-Farbmonitor (im Schlafzimmer)
+- Pentium 133-PC (im Schlafzimmer)
+- Pentium III-PC (im Schlafzimmer)
+- Microstar-PC (im Kabinett)
+- Diverse Tastaturen und Mäuse (größtenteils im Schlafzimmer, bis auf jeweils eine, mit der gearbeitet wird)
+- USB-HUB
+- USB-Verlängerungskabel
+- Externe Seagate-Festplatte
+- Handscanner
+- Je 2 Boxen mit 3 1/2-Zoll- und 5 1/4-Zoll-PC-Disketten
+- Tintenstrahldrucker HP Deskjet 930C
+Unterbringung des PC's
+
+Der PC steht derzeit bei mir im Kabinett auf dem Computertisch. Er steht vor allem deswegen auf dem Tisch und nicht darunter (wie es z.B. im Bundesrechenzentrum der Fall ist), weil es Papa so haben möchte und ich mich dem gefügt habe, weil ich davor Angst habe, dass Papa den PC eventuell nicht verwenden würde, wenn er unter dem Tisch stünde, obwohl ich ihn dort lieber stehen hätte, weil dann wahrscheinlich die Lärmbelästigung geringer wäre. (Dieses Problem wäre eventuell noch mit Papa zu diskutieren)
+Eintragungen in die Prioritätsliste
+
+Die PC-Sicherung ist so in die Prioritätsliste einzutragen, dass sie mit gleitender Attraktivität ausgestattet ist und nach einer Woche ein E/A-Verhältnis von 1 erreicht. Danach sollte sie immer höher steigen, was dann zur Folge hat, dass irgendwann eine Datensicherung erfolgt, vorzugsweise aber dann, wenn gerade nichts wichtigeres zu tun ist, andererseits die Wichtigkeit der Datensicherung im Laufe der Zeit ansteigt, wenn sie nicht durchgeführt wird. Bei der aktuellen Situation der Prioritätsliste findet dann ca. alle 2 Monate eine Datensicherung statt.
+2
+
+
+	- 1 -
+

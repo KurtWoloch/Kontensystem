@@ -1,0 +1,41 @@
+Dokumentation der Veranlagung vom Oktober 2009
+Von Kurt Woloch, Stand 5.10.2009
+Dokumentenstatus: vertraulich; Zielgruppe: ich und eventuell meine Eltern, aber tunlichst niemand anderer!
+
+Dokumentation der Veranlagung vom Oktober 2009	1
+Ausgangssituation	1
+Angebote	1
+Berechnung	1
+Beschluss	2
+
+Ausgangssituation
+
+Nachdem der Sommer vorbei ist und auch die Bearbeitung der Essensdatenbank in der Intensität nachgelassen hat, habe ich nun wieder Zeit, mich um andere Dinge zu kümmern, wie z.B. anstehende Arztbesuche zur Kontrolle, die Arbeitnehmerveranlagung und auch eine eventuelle Neuveranlagung schlecht verzinst herumliegender Gelder.
+
+Da die Arzttermine fixiert bzw. durchgeführt wurden und die Arbeitnehmerveranlagung auch fertig ist, kommt nun die Finanzveranlagung an die Reihe. Hier hat sich gezeigt, dass am Girokonto derzeit ca. € 37000 und auf der Erträgnissparkarte ca. € 10500 vorhanden sind, so dass ein größerer Brocken zu veranlagen wäre.
+
+Ein Hindernis war noch aus dem Weg zu räumen, und zwar hatte ein Besuch im Karaoke-Lokal Tivoli in der Prioritätenliste eine höhere Priorität als die Finanzveranlagung. Dieses Problem wurde durch Besuch dieses Lokals gelöst.
+Angebote
+
+Es wurden nun einige Angebote eingeholt:
+
+- Die Bank Austria bietet derzeit eine 13-jährige Wohnbauanleihe mit 4% zum Kurs von 102,25 (per 5.10.2009) an.
+- Von der S-Versicherung kam ein Angebot mit Sektorkonditionen, das von einer Verzinsung von 4,55 verglichen mit einer Kest-pflichtigen Anlage ausgeht, was ca. 3,41% netto wären.
+- Die Beraterin bei der Versicherung riet Mama, ich solle nicht alle 35000 Euro in eine Versicherung stecken und schickte noch ein Alternativangebot, wo € 15000 in eine neue Versicherung fließen und um € 20000 eine bestehende aufgestockt wird. Diese läuft dann noch 8 Jahre, ist aber von der Verzinsung her um einiges schlechter (es kommen netto nur 3,2% heraus). Außerdem hätte die aufgestockte Versicherung dann einen Wert von € 40000, was noch über dem Wert liegt, den die neue Versicherung hätte.
+Berechnung
+
+Ich habe mir nun die Rendite dieser Angebote durchgerechnet (siehe Excel-Sheet "Vorkalkulation Veranlagung 9.10.05"), und bin zu folgendem Ergebnis gekommen:
+
+- Zeichnung der Wohnbauanleihe für die ersten 3000 Euro, wovon 2920 steuerbegünstigt sind: 4,47% netto bei 12,7 Jahren Laufzeit
+- Zeichnung weiterer Stück der Wohnbauanleihe, die nicht steuerbegünstigt sind: 3,49% bei 12,7 Jahren Laufzeit
+- Abschluß einer neuen Versicherung um € 35000: 3,42% (ohne Sektorkonditionen wären es 3,15%) bei 10 Jahren Laufzeit
+- Aufstockung des Einmalerlags  4/05/57872157: 3,16% bei 7,5 Jahren Restlaufzeit
+
+Wie man hier sieht, liegt der weitere Kauf der Wohnbauanleihe nur knapp über der Versicherung, wobei die Aufstockung gegenüber der neuen Versicherung aber deutlich abfällt. Ich bin dann noch auf die Idee gekommen, das Geld vom Girokonto auf die Sparkarte zu transferieren und so das ganze Geld in Wohnbauanleihen zu veranlagen, aber Mama hat gemeint, ich sollte nicht alles bei der Bank Austria veranlagen, weil dieser auf Grund der italienischen Eigentümer nicht so sehr zu trauen wäre wie der Ersten, die in österreichischem Besitz ist.
+
+Beschluss
+
+Daher wird wohl folgende Lösung herauskommen:
+- Vom Girokonto wandern € 35000 auf eine neue Versicherung.
+- Von der Sparkarte aus werden neue Wohnbauanleihen gekauft, und zwar - der Dokumentation der Finanzanlagen folgend - um € 9000 Nominale, so dass noch ca. € 1270 auf der Karte übrig bleiben sollten. Davon sind dann € 2920 steuerbegünstigt.
+- Das Angebot zur Aufstockung der alten Versicherung wird nicht angenommen.

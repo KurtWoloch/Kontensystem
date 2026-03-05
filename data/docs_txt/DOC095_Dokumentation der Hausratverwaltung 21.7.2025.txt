@@ -1,0 +1,82 @@
+Dokumentation der Hausratverwaltung
+Stand: 21.7.2025, von Kurt Woloch
+1. Gegenstand der Dokumentation
+Diese Dokumentation beschreibt die Verwaltung des Hausrats (z. B. Kleidung, Sitzgruppe, Karaoke-Sammlung, Schallplatten) in der Wohnung und im Keller. Ziel ist es, durchdachte Entscheidungen über Behalten, Entsorgen oder Spenden/Verkaufen zu treffen, ohne "Hals über Kopf"-Entscheidungen, und den Aufwand minimal zu halten.
+2. Zweck der Verwaltung
+* Schaffung von Übersicht und Klarheit über den Hausrat.
+* Bewertung von Gegenständen nach Nutzen, Aufwand, Präferenzen und sentimentalem Wert.
+* Unterstützung selbstbestimmter Entscheidungen, unabhängig von externen Erwartungen (z. B. Judiths Ausmistvorgabe).
+* Minimierung von Schuldgefühlen durch strukturierte Überlegungen.
+3. Ablauf der Verwaltung
+Die Verwaltung funktioniert so, dass jeder Gegenstand oder jede Gruppe von Gegenständen in Kategorien eingeteilt wird, die in einer Baumstruktur organisiert sind (ähnlich Wohnungsverwaltung, Seite 2). Jede Kategorie hat einen "Parent" (z. B. "Kleidung" > "Hemden").
+* Kategorien:
+o Kleidung (z. B. Hemden, Pullover, Handtücher, Socken)
+o Möbel (z. B. Sitzgruppe auf der Terrasse)
+o Medien (z. B. Karaoke-Videokassetten, Schallplatten)
+o Sonstiges (z. B. Dekoration, Werkzeug)
+* Vorgehensweise:
+1. Grobes Sortieren in Kategorien (30 Minuten pro Monat pro Kategorie).
+2. Bewertung nach Nutzen, Aufwand, Präferenzen und sentimentalem Wert (siehe Abschnitt 5).
+3. Entscheidung über Behalten, Entsorgen, Spenden oder Verkaufen.
+4. Dokumentation der Entscheidungen in einer Tabelle (siehe Abschnitt 7).
+4. Genauigkeit der Verwaltung
+* Grobes Sortieren reicht zunächst, um Übersicht zu schaffen. Detaillierte Prüfung nur bei Gegenständen, die aktiv stören oder Platzprobleme verursachen.
+* Emotionale Gegenstände (z. B. geerbte Kleidung) später sichten, um Belastung zu minimieren.
+5. Kosten und Nutzen
+* Kosten:
+o Zeit: 30 Minuten pro Monat pro Kategorie (ca. €0,12 pro 30 Sekunden, basierend auf Wohnungsverwaltung, Seite 6).
+o Lagerkosten: €1,50 pro Jahr pro Gegenstand (Wohnungsverwaltung, Seite 6).
+o Entsorgung/Verkauf: Geringer Aufwand für Spenden (z. B. Caritas) oder Inserate (z. B. Willhaben).
+* Nutzen:
+o Mehr Übersicht und mentale Klarheit.
+o Reduzierung von Schuldgefühlen durch selbstbestimmte Entscheidungen.
+o Potenzieller finanzieller Nutzen durch Verkauf (z. B. Schallplatten).
+6. Auswirkung emotionaler Faktoren
+* Gegenstände mit sentimentalem Wert (z. B. Kleidung von Vater) können Schuldgefühle auslösen, wenn sie entsorgt werden. Lege solche Gegenstände in einen "Erinnerungskarton" (max. 1 Karton), um Ballast zu reduzieren.
+* Plane nach der Sichtung emotionaler Gegenstände Zeit für Entspannung (z. B. Computerspiel).
+7. Entscheidungsprozess
+* Entscheidungsmodell:
+1. Nutzen: Hat der Gegenstand einen praktischen oder emotionalen Nutzen? (z. B. Wird die Sitzgruppe genutzt?)
+2. Aufwand: Wie viel Zeit/Energie kostet Behalten oder Entsorgen? (z. B. Lagerkosten vs. Verkaufsaufwand)
+3. Präferenzen: Passt der Gegenstand zu deinem Lebensstil? (z. B. Möchtest du die Terrasse aktiv nutzen?)
+4. Emotionale Verbindung: Hat der Gegenstand sentimentalen Wert? (z. B. Geerbte Kleidung)
+* Tabelle (Beispiel):
+Gegenstand
+Nutzen
+Aufwand
+Präferenzen
+Emotionale Verbindung
+Entscheidung
+Sitzgruppe
+Gering (ungenutzt)
+Gering (keine Pflege)
+Stört nicht
+Keine
+Behalten, später neu bewerten
+Karaoke-Videokassetten
+Keiner (kein Abspielgerät)
+Gering (Entsorgung)
+Nicht relevant
+Gering
+Entsorgen/Verkaufen
+Geerbte Hemden
+Potenziell (Ersatz)
+Gering (Rotation)
+Teilweise relevant
+Hoch
+Behalten, in Rotation bringen
+8. Aufbewahrung
+* Kleidung: In Kleiderschrank, ungenutzte Stücke rotieren (z. B. Hemden unten legen).
+* Möbel: An aktuellen Plätzen (z. B. Sitzgruppe auf Terrasse), solange sie nicht stören.
+* Medien: Im Keller, bis Entscheidung getroffen wird (z. B. Verkauf von Schallplatten).
+* Erinnerungskarton: Für sentimentale Gegenstände (max. 1 Karton).
+9. Entsorgung/Verkauf
+* Entsorgung: Abgenutzte oder nutzlose Gegenstände (z. B. defekte Videokassetten) über MA 48 entsorgen (https://www.wien.gv.at/umwelt/ma48/).
+* Spenden: Gut erhaltene Kleidung an Caritas oder Volkshilfe (https://www.caritas-wien.at/hilfe-angebote/armut-soziales/kleidersammlung/).
+* Verkauf: Sammlerstücke (z. B. Schallplatten) über Willhaben (https://www.willhaben.at).
+10. Rechenbeispiel
+* Kleidung (Hemden): Sichtung von 20 Hemden (1 Stunde, ca. €2,40 bei €0,12 pro 30 Sekunden). Nutzen: Übersicht, mögliche Rotation. Entscheidung: 5-6 behalten, ungenutzte sichten für Spende.
+* Sitzgruppe: Behalten kostet €1,50 pro Jahr (Lagerkosten). Verkauf (ca. 1 Stunde für Inserat, €2,40). Nutzen: Gering, da ungenutzt. Entscheidung: Behalten, später neu bewerten.
+
+	- 3 -
+

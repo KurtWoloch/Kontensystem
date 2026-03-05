@@ -1,0 +1,279 @@
+Dokumentation Finanzverwaltung
+Von Kurt Woloch, Stand: 29.5.2007
+
+Ziel und Gegenstand dieser Dokumentation	1
+Worum geht es bei der Finanzverwaltung?	1
+Übersicht über die Ausgaben und ihre Bewältigung	1
+Bargeld und ungebundene Sparformen	2
+Kleine Börse	2
+Karten	2
+Große Börse	2
+Girokonto	3
+Erträgnissparkarte	3
+Höher verzinste Sparformen	4
+BRZ-Sparverein	5
+Bausparvertrag	5
+Bundesanleihen	5
+Wohnbauanleihen	6
+Erlebensversicherungen	6
+Investmentfonds	7
+Aktienspekulationen	7
+Eltern-Guthaben	7
+Abrechnungen	7
+Regeln für Abrechnungen und Neuveranlagungen	8
+Stille Subberatertätigkeit für Mama	9
+Zahlungen für Finanzangelegenheiten an das Herzensgut-Konto	9
+Zeitschätzung	9
+Priorisierung	10
+Dokumente	10
+Mietenberechnung	10
+Businessplan	10
+
+Ziel und Gegenstand dieser Dokumentation
+Diese Dokumentation soll eine Ergänzung zu der Lebensdokumentation sein. Die Lebensdokumentation dokumentiert nur, wie etwas gemacht wird, geht aber teilweise nicht auf die Gründe dafür ein. In dieser Dokumentation sollen auch die Gründe beleuchtet bzw. errechnet werden, und auch geändert, dort wo eine Änderung sinnvoll erscheint.
+
+Worum geht es bei der Finanzverwaltung?
+Bei der Finanzverwaltung geht es darum, meine Finanzen zu verwalten, angefangen von täglichen Ausgaben über regelmäßige Zahlungen bis hin zu langfristigen Geldanlagen.
+
+Übersicht über die Ausgaben und ihre Bewältigung
+Die täglichen Ausgaben können mehr oder weniger hoch sein. Man kann hier von einem gewissen Durchschnitt mit einer Standardabweichung ausgehen.
+Im Jahr 2005 gab es an Ausgaben insgesamt € 12104,38. Dies umfaßt sämtliche Bereiche, wo Barauslagen zu tätigen waren. Von diesem Betrag entfallen € 9000,75 auf die Wohnung und Dinge, die mit der Wohnung zu tun haben (incl. Internet-Zugang). Die restlichen 3104 Euro entfielen auf andere Barauslagen. Hierzu ist nun zu beachten, daß die 9000 Euro in der Regel vom Girokonto bei der P.S.K. abgebucht wurden, während die 3104 Euro aus der "kleinen Börse" stammten.
+
+Bargeld und ungebundene Sparformen
+Kleine Börse
+Die "kleine Börse" ist eine Geldbörse, die ich immer mit mir herumtrage, und die einen Geldvorrat für sofortige und kleinere Ausgaben beinhält. Normalerweise geht dieser Vorrat irgendwann zur Neige und muß nachgefüllt werden. Die Nachfüllung erfolgt dann aus der Großen Börse.
+Damit dies richtig funktioniert, muß der Füllstand der kleinen Börse regelmäßig kontrolliert werden. Liegt dabei der Füllstand unter einem bestimmten Wert, sollte ein bestimmter Wert nachgefüllt werden
+Die Nachfüllinterwalle wurden so gewählt, daß nicht zu viel Zeit mit der Nachfüllung verbracht wird, andererseits aber nicht zu viel Geld in der kleinen Börse vorhanden ist, da hier das Verlustrisiko relativ hoch ist. Es wurde dabei für die kleine Börse mit einem Verlustrisiko von 5,84% pro Jahr und für die große Börse mit einem Einbruchsrisiko von 0,8% pro Jahr gerechet, was einer Negativverzinsung entspricht.
+Wir gehen weiters davon aus, daß ein Füllstand von 20 Euro normalerweise bei täglicher Kontrolle reichen sollte. Für jeden zusätzlichen Tag ohne Kontrolle kommt ein Wert von € 8,50 dazu.
+Eine Füllstandkontrolle (Geld nachzählen) dauert 23 Sekunden, das entspricht 8,95 Cent an Kosten, das Nachfüllen dauert 46 Sekunden, das entspricht 17,9 Cent an Kosten.
+Das ideale Nachfüllintervall liegt damit bei 1 Woche (Rundung von 8,03 Tagen), der Mindestfüllstand wurde mit 70 Euro berechnet. Der ideale Nachfüllbetrag in diesem Fall wurde mit 150 Euro berechnet.
+Die Regeln für die kleine Börse nocheinmal zusammengefaßt:
+
+- Jeden Samstag vor dem Mittagessen wird der Stand der kleinen Börse überprüft.
+- Ist der Stand unter 70 Euro, wird er um 150 Euro aufgefüllt (so dieser Betrag in der großen Börse vorhanden ist).
+- Sollte es (z.B. durch Auftritte) dazu kommen, daß der Stand über 220 Euro ansteigt, so werden mindestens 150 Euro aus der kleinen Börse in die große Börse getan... bei einem Stand von 370 Euro wird der kleinste durch 50 teilbare Betrag in die große Börse getan, der bewirkt, daß der Stand wieder unter 220 Euro sinkt.
+- 
+Karten
+Ich besitze einige Karten, von denen sich einige immer in der Geldbörse befinden und andere nur bei Bedarf mitgenommen werden:
+Billa-Kundenkarte:
+Bringt beim Einkaufen bei Billa oft kleine Rabatte, durchschnittlich ca. 40 Euro pro Jahr, oder 80 Cent pro Einkauf. Verwendung ca. 1x pro Woche, wird immer mitgenommen.
+BA/CA-Erfolgscard:
+Dient zum Abheben vom Erträgnissparbuch, wird (laut obiger Berechnung) 2,18 x pro Jahr verwendet und nur bei Bedarf mitgenommen.
+E-Card:
+Dient beim Arztbesuch zur Inanspruchnahme von Leistungen und wird immer mitgenommen.
+Fernwärme-Servicecard:
+Dient zur Inanspruchnahme verschiedener Leistungen der Fernwärme Wien und wird nur bei Bedarf mitgenommen.
+Große Börse
+Die Große Börse ist eine Geldbörse für etwas größere Beträge, die zu Hause aufbewahrt wird, und aus der - wie wir gesehen haben - die kleine Börse in Schritten von 150 Euro nachgefüllt wird. Die große Börse wird nun wiederum regelmäßig aus dem Girokonto bzw. aus dem Erträgnissparbuch (wo meist ein höheres Guthaben vorhanden ist, zu dessen Gründen wir unten noch kommen) nachgefüllt. Hier gelten die gleichen Prinzipien wie beim Nachfüllen der kleinen Börse, aber mit anderen Beträgen und Aufwänden.
+
+Die Verzinsung auf der ErfolgsCard bei der BA/CA beträgt im Moment 1,25% vor KEST, das sind nach KEST 0,9375%. Von der ErfolgsCard kann im Foyer der BA rund um die Uhr spesenfrei abgehoben werden, bis zu 1500 Euro pro Tag. Ein solcher Abhebevorgang dauert ca. 25 Minuten, wenn wir je 10 Minuten für den Hin- und Rückweg und 5 Minuten für den eigentlichen Vorgang berechnen. Analog zu den bisherigen Berechnungen ergeben sich folgende Regeln:
+- Wenn bei der Auffüllung der kleinen Börse bemerkt wird, daß die große Börse danach weniger als 150 Euro beinhält, so werden vom Erträgnissparbuch 1450 Euro abgehoben und in die große Börse gefüllt.
+- Sollte es durch wiederholte Auftritte oder ähnliches dazu kommen, daß sich in der großen Börse mehr als 1600 Euro befinden (150 + 1450), so werden 1450 Euro des Restbetrags auf den Sparverein (!) gelegt.  Sind mehr als 3050 Euro vorhanden, so wird der Betrag so gewählt, daß nach der Umbuchung der Stand von 1450 Euro unterschritten wird.
+
+Girokonto
+Ich habe auch ein Girokonto bei der P.S.K., wo einerseits regelmäßig mein Gehalt eintrifft, andererseits auch die meisten regelmäßigen Ausgaben bestritten werden, die im Zusammenhang mit der Wohnung anfallen. Dies sind:
+- Radio- und TV-Gebühr
+- Miete
+- Strom
+- Heizung und Warmwasser
+- Internetzugang
+- Telefonrechnung
+Manche dieser Ausgaben fallen monatlich an, andere alle 2 Monate.
+Insgesamt machten diese Ausgaben im Jahr 2006 ca. € 9000,75 aus, also 750 Euro pro Monat. Davon fallen ca. € 540 monatlich an (Miete und Internetzugang), der Rest fällt zwei- bis dreimonatlich an. Das heißt, es kann in einem Monat Ausgaben von bis zu € 540 + 3 * 210 = € 1170 geben.
+Das heißt, es sollte auf dem Girokonto immer ein Betrag von mindestens € 1200 vorhanden sein, um die Ausgaben für einen Monat tätigen zu können. Alles, was darüber hinaus geht, kann zugunsten lukrativerer Sparformen verschoben werden. Dazu kommen wir aber noch.
+
+Das Girokonto hat nun einige Vor- und Nachteile gegenüber dem Erträgnissparbuch:
+Vorteile:
+- Buchungen sind generell einfacher und billiger. Daueraufträge können nur vom Girokonto aus durchgeführt werden. Andere Einzelbuchungen kosten € 0,25, beim Erträgnissparbuch € 2,25.
+
+Nachteile:
+- Es fällt eine Kontoführungsgebühr von € 2,06 pro Quartal an
+- Abhebungen sind schwieriger - sie sind nur während der Schalteröffnungszeiten möglich und erfordern einen P.S.K.-Scheck, der ca. € 0,35 kostet
+- Das Girokonto ist nur mit 0,25% pro Jahr verzinst.
+
+Aus diesen Vor- und Nachteilen ergeben sich gewisse Präferenzen, von wo benötigte Beträge zu nehmen sind. Prinzipiell werden - wie schon erwähnt - die Abbuchungsaufträge aus dem Girokonto bedient, während die Abhebungen vom Erträgnissparbuch erfolgen. Ebenso erfolgen in der Regel die Abschlüsse neuer Sparprodukte, die durch Abbuchungen bedient werden, durch Abbuchung vom P.S.K.-Girokonto. Dadurch befindet sich am Girokonto im Schnitt ein wesentlich geringerer Betrag als am Erträgnissparbuch.
+Durch das Gehalt vom Bundesrechenzentrum ergibt sich derzeit ein Zulauf von ca. € 20000 pro Jahr auf das Girokonto. Nach Abzug der Daueraufträge bleiben davon € 11000 pro Jahr über, die anderen Veranlagungen zugeführt werden sollten.
+Die Kontoauszüge des Girokontos werden immer am 10. Jedes Monats und zu Quartalsende erstellt und zugeschickt und sollten dann nach Eintragung in die Anlagendatenbank in einen entsprechenden Hefter eingeordnet werden.
+
+Erträgnissparkarte
+Die Erträgnissparkarte ist eine ErfolgsCard bei der BA/CA, die ursprünglich dazu geschaffen wurde, die Erträgnisse der Wertpapiere aufzufangen, die in einem Wertpapierdepot bei der BA/CA liegen und meist jährlich ausschütten. Es hat sich aber auf Grund der einfachen Abhebemechanismen in letzter Zeit auch als für die standardmäßig verwendete Quelle für Bargeld entwickelt.
+Viele der Eigenschaften der Erträgnissparkarte wurden schon in den vorherigen Kapiteln erwähnt, so daß sie hier nicht nocheinmal wiederholt zu werden brauchen.
+Aufgrund der Tatsache, daß vom Erträgnissparbuch Tranchen von € 1450 in die große Börse übernommen werden, ergibt sich, daß dieser Betrag immer auf der Erträgnissparkarte vorhanden sein sollte. Alle darüber hinausgehenden Beträge können lukrativeren Anlageformen zugeführt werden.
+Durch Erträgnisse und Fälligstellungen der Wertpapiere, die auf dem Wertpapierdepot vorhanden sind, ergibt sich ein Zulauf von derzeit ca. € 17300 pro Jahr. Nach Abzug der € 3100, die für Barauslagen abgehoben werden, bleibt ein Betrag von € 14300, der anderen Veranlagungen zugeführt werden sollte.
+Die Kontoauszüge der Erträgnissparkarte müssen händisch durch Einstecken der Karte abgeholt werden. Werden sie nach einer bestimmten Zeit nicht abgeholt, werden sie auch automatisch erstellt und zugeschickt.
+
+Höher verzinste Sparformen
+Wir behandeln nun im Folgenden die höher verzinsten Sparformen, die dazu gut sind, momentan nicht benötigtes Geld zu "parken" bzw. "arbeiten" zu lassen. Wie oben bereits erwähnt, sollte einmal ein sofort verfügbarer "Polster" vorhanden sein, der, wenn man das P.S.K.-Girokonto und das Erträgnissparbuch zusammenzählt, sich schon auf € 2650 beläuft. Alle anderen Sparformen haben dann den Vorteil, daß sie besser verzinst sind, aber der Zugriff darauf schwieriger bzw. mit Nachteilen behaftet ist. Wir werden im Folgenden die einzelnen Typen von Sparformen, die in meinem Portfolio vorkommen, näher beleuchten.
+Davor noch einige generelle Bemerkungen:
+Ich habe mich dazu entschieden, für verschiedene Laufzeiten eine sogenannte "Benchmark" zu notieren, das ist ein Zinssatz, den ich jederzeit für eine Anlage dieser Laufzeit bekommen könnte. Diese Benchmark sind nach Laufzeiten gestaffelt - je höher die Laufzeit, umso größer auch der Zinssatz.
+Wenn nun für alle Positionen eine Laufzeit und ein Zinssatz ermittelt werden, so werden manche Zinssätze unter der Benchmark zu liegen kommen, das heißt, die Zinsen, die sie über den Rest ihrer Laufzeit bringen, liegen unter dem, was die Benchmark für diese Laufzeit wäre.
+In einem solchen Fall ist dann zu untersuchen, wieviel die Anlage im Moment bringen würde, wenn sie flüssig gemacht wird, und wieviel sie bis zum Ende der Laufzeit bringen würde. Daraus ergibt sich dann ein Prozentsatz von jetzt bis zum Ende der Laufzeit. Liegt dieser immer noch unter der Benchmark, so wäre diese Anlage zu verflüssigen und einer Neuanlage zuzuführen.
+Da nun eine gewisse Benchmark-Kurve vorliegt, erhebt sich die Frage, wie viel Geld in welchen Laufzeiten liegen sollte.
+Die Antwort darauf habe ich durch Umkehrung der Kurve angelegt, das heißt, ich betrachte, in welcher Zeit ich wieviel von meinem Vermögen dazu bekommen habe. Vor 10 Jahren hatte ich z.B. nur 800000 öS (also ca. 58000 Euro), daher ist 58000 Euro der Betrag, der in Laufzeiten über 10 Jahren zu veranlagen wäre (wenn es sich rechnet). Innerhalb des letzten Jahres sind ca. 20000-30000 Euro dazugekommen (der tatsächliche Betrag schwankt immer etwas), so daß 25000 Euro in Laufzeiten von bis zu 1 Jahr anzulegen wären, davon 12500 Euro in Laufzeiten unter 0,5 Jahren etc.
+Es ist weiters so, daß sich bei täglich fälligen Einlagen eine sogenannte "virtuelle Laufzeit" ergibt, das ist die Laufzeit, ab der es sich rechnet, einen bestimmten Betrag in diese Anlage zu transferieren. Diese Laufzeit schwankt aber je nach Betrag. Den Betrag kann man dann danach schätzen, wieviel jeweils pro Jahr bei einer gewissen Anlage anfällt.
+
+Wir wollen hier einmal ein Beispiel für PSK-Girokonto und Erträgnissparbuch berechnen. Wir haben hier eine Zinsdifferenz von 1,25 - 0,25 = 1% vor Kest, 0,75% nach KEST.
+Die Einlage eines Betrages, der auf dem Girokonto liegt, auf das Erträgnissparbuch dauert 35 Minuten und kostet € 0,25. Der umgekehrte Weg dauert 35 Minuten und kostet nichts. Wir haben hier also insgesamt Kosten von € 16,23 inkl. Wegzeit.
+Auf dem Girokonto bleiben jährlich 11000 Euro über. Werden diese jährlich abgeschöpft und übertragen, haben wir pro Jahr einen Zinsentgang von 6 Monaten * 0,75% * 11000 Euro = 41,25 Euro. Durch die bereits bekannte Wurzelmethode kommen wir auf einen Faktor von 1,6, das heißt, das Erträgnissparbuch hat gegenüber dem Girokonto eine virtuelle Laufzeit von 0,625 Jahren.
+
+Mit Stand 1.7.2006 gibt es für die verschiedenen Laufzeiten folgende Benchmark-Renditen, jeweils nach KEST:
+14 Jahre: 3,85% (Wohnbauanleihe der BA-CA)
+10 Jahre: 3,67% (10j. Erlebensversicherung mit Sektorkonditionen)
+9 Jahre: 3,16% (10j, Erlebensversicherung 9 Jahre behalten)
+8 Jahre: 3,00% (10j. Erlebensversicherung 8 Jahre behalten)
+4,78 Jahre: 2,94% (99-11 Wohnbaubank Wandelanleihe)
+täglich fällig (1 Woche): 2,63% (BRZ-Sparverein (ab Juni 2007))
+
+BRZ-Sparverein
+Ich habe einiges Geld beim BRZ-Sparverein "gelagert". Dieses bringt im Moment eine Verzinsung von 3,5% pro Jahr vor KEST, das sind nach KEST 2,63%. Dieses ist im Prinzip jederzeit fällig, aber von bestimmten Zugriffszeiten während der Arbeitszeit im BRZ abhängig. Jeder Zugriff ist dann wieder mit einem bestimmten Aufwand verbunden und dauert auch ca. 1 Woche:
+- Anmeldung des abzuhebenden Betrages (ca. 10 Minuten)
+- In der Folgewoche Behebung des abzuhebenden Betrages (ca. 10 Minuten)
+Für eine Einzahlung ist auch ca. 10 Minuten zu veranschlagen, wobei hier eine "Taktung" von 1 Woche gilt, das heißt, der eingezahlte Betrag wird erst im Schnitt 1/2 Woche nach Einzahlung verzinst, und die Verzinsung endet 1/2 Woche vor der Auszahlung.
+Die Verzinsung im BRZ-Sparverein liegt im Moment bei 3,5%, das ist 1/4% mehr als bei der Ing-DIBA. Da es sich dabei um einen Vorteil handelt, den ich als BRZ-Bediensteter genieße, sind bei Transaktionen Beträge auf den Herzensgut-Topf zu schreiben, die sich aus dem Mehraufwand ergeben, den eine Buchung zur DIBA erfordern würde:
+Normale Einzahlung: Aufwand 25 Min. + € 0,25 = € 5,96 - Aufwand im BRZ € 2,29 = € 3,67
+Normale Auszahlung: Aufwand 25 Min. + € 0,25 = € 5,96 - Aufwand im BRZ € 4,57 = € 1,59
+Weiters ist auch ab Juni 2007 die Zinsdifferenz zur Ing-DIBA, das sind 0,25% pro Jahr, auf das Herzensgut-Konto gutzuschreiben.
+
+Der BRZ-Sparverein stellt sozusagen die Benchmark für (fast) jederzeit fälliges Geld dar. Die nächsthöhere Benchmark wäre eine alte Wohnbaubank-Wandelanleihe mit 2,94%, die sich aber nur bedingt heranziehen läßt, da man solche alten Wohnbauanleihen in der Regel nicht nachkaufen kann.
+Die virtuelle Laufzeit gegenüber dem Erträgnissparbuch berechnet sich aus der Zinsdifferenz, der jährlich zu übertragenden Summe und dem Aufwand für die Geldübertragung und beträgt 0,441 Jahre oder 5,3 Monate. Da dies unter der virtuellen Laufzeit des Erträgnissparbuchs liegt, ist letzteres nicht als Referenz zu nehmen und daher nicht als Parkplatz für Geld zu verwenden, da der Sparverein im Normalfall lukrativer ist. Hier liegt aber eine logische Falle vor, die noch näher zu untersuchen wäre.
+
+Im Prinzip ist eine höhere virtuelle Laufzeit bei Veranlagungen mit etwa gleichem Ausstiegsaufwand aber Unsinn. Sie sagt nur aus, daß das Verschieben von Mitteln, die auf einem bestimmten Konto liegen, auf ein anderes Konto sich erst ab einer gewissen Laufzeit rechnet. Insofern ist sowohl bei Girokonto als auch Erträgnissparbuch und Sparverein von einer täglich fälligen Laufzeit auszugehen, da der Zugriffsaufwand im Endeffekt etwa gleich ist.
+Die Kontoauszüge des Sparvereins werden beim Betriebsrat zum Jahreswechsel hinterlegt und können dort abgeholt werden.
+
+Bausparvertrag
+Der Bausparvertrag war sozusagen die "Einstiegsdroge" in Sparformen, die mir meine Eltern schon in früher Kindheit gegeben haben, da sie selbst seit 1974 Bausparberater sind. Damals war Bausparen auch die beste Sparform, die es gab, mittlerweile gibt es aber einige andere, die ihm diesen Rang streitig machen.
+Ein Bausparvertrag hat normalerweise eine Laufzeit von 6 Jahren. Das eingezahlte Geld wird mit derzeit 3% vor KEST verzinst, allerdings kommt am Ende jedes Jahres eine staatliche Prämie für das vergangene Jahr hinzu. Diese beläuft sich auf maximal 3% der Einzahlung des vergangenen Jahres (wobei auch Vorauszahlungen möglich sind), und diese 3% unterliegen nicht der KEST. Dadurch ergibt sich insgesamt eine höhere Rendite, die im Detail auch davon abhängt, wann man die Einzahlungen leistet - für die Rendite am besten ist es normalerweise, die Einzahlungen am Jahresende zu tätigen, dies entspricht aber nicht den Sparbedingungen - Einzahlungen müssen immer spätestens in dem Monat getätigt werden, in dem sie "fällig" werden. Im Moment gibt sich dadurch im Moment im Optimalfall eine Verzinsung von etwas über 3,5%.
+Bei Kündigung eines Bausparvertrages muß die staatliche Prämie zurückgezahlt werden, so daß man einen um einiges niedrigeren Betrag herausbekommt.
+Die maximale Einzahlung pro Jahr, die mit einer staatlichen Prämie versehen wird, liegt derzeit bei 1000 Euro,
+Die Kontoauszüge des Bausparens werden einmal jährlich automatisch erstellt und zugesendet.
+
+Bundesanleihen
+Bundesanleihen sind Anleihen des Bundes, die mit einem bestimmten Prozentsatz zu einer bestimmten Laufzeit begeben werden. Ich habe einige solche Anleihen auf einem Wertpapierdepot bei der BA-CA. Üblicherweise kann man diese bei Begebung spesenfrei kaufen, und bei Fälligstellung spesenfrei verkaufen. Will man die Anleihen während der Laufzeit verkaufen oder kaufen (was jederzeit möglich ist), so muß man Börsenspesen von 0,75% des Umsatzes bezahlen, abgesehen davon, daß diese Papiere dann immer einen bestimmten Kurs haben, der, auf die Restlaufzeit umgerechnet, eventuell eine höhere oder niedrigere Rendite, verglichen mit der Ursprungsrendite, ergibt.
+Hier zeigt sich nun die Kunst der Berechnung der "Restrendite". Für mich relevant ist eigentlich nur die Rendite nach KEST, da die KEST ja abgezogen wird. Dies heißt, daß bei einem Papier mit höherem Prozentsatz die KEST stärker zu Buche schlägt als bei einem Papier mit niedrigerem Prozentsatz. Die Formel, mit der die korrekte Restrendite berechnet wird, ist jedenfalls eher kompliziert, und nur näherungsweise anwendbar.
+Man muß hier im Prinzip für verschiedene Prozentsätze ein Sparbuch simulieren, das eine bestimmte Rendite bringt, und mit dem Kurswert eröffnet wird und diesem Sparbuch die von den Anleihen ausgeschütteten Zinsen entnehmen. Dann sieht man sich den Endbetrag an. Ist dieser höher als der Nominalwert der Bundesanleihe, dann war der Prozentsatz zu hoch gewählt, ist er niedriger, zu tief. Über mehrere Näherungen kann man so die korrekte Restrendite der Anleihen ermitteln.
+Bei der Berechnung ist auch noch zu beachten, daß für das Wertpapierdepot eine Depotführungsgebühr anfällt, die vom Kurswert abhängig ist und ca. 0,25% des Kurswerts beträgt. Diese Gebühr ist aus dem Ertrag auch noch herauszurechnen, insbesondere, wenn die Papiere mit anderen Sparformen verglichen werden sollen.
+Es gibt zu den Anleihen keine gesonderten Kontoauszüge, der Kurswert und die Erträge werden einmal jährlich in der Ertragsaufstellung gedruckt, die ich automatisch zugestellt bekomme.
+
+Wohnbauanleihen
+Wohnbauanleihen ähnlen den Bundesanleihen, weisen aber folgende Differenzen auf:
+- Die ersten 4 Prozent Verzinsung sind KEST-frei, das heißt, es fällt keine KEST dafür an
+- Der Kauf von Wohnbauanleihen läßt sich in einem gewissen Rahmen (Sonderausgabentopf) von der Steuer absetzen. Dies hat aber zur Folge, daß die Bank (Austria) automatisch eine Bestätigung über den Kauf an das Finanzamt verschickt, die mit über 7 Euro vergebührt wird.
+- Werden Wohnbauanleihen nach weniger als 10 Jahren verkauft, so ist die Steuerabsetzung rückgängig zu machen, das heißt, die ersparten Steuern sind nachzuzahlen.
+- Wohnbauanleihen werden nicht vom Bund, sondern von einer Wohnbaubank begeben.
+
+Erlebensversicherungen
+Erlebensversicherungen sind wieder eine besondere "Sparform", die sich aus einem Polizzenangebot bei der S-Bausparkasse entwickelt hat, bei der eine solche Erlebensversicherung mit einer 10-jährigen Rente kombiniert wurde, so daß man am Anfang der Laufzeit einen Betrag einzahlte, dann jedes Jahr eine Ausschüttung aus dem Rentenanteil bekam und am Schluß aus der Erlebensversicherung wieder ungefähr den Betrag zurückbekam, den man eingezahlt hatte.
+Ich habe mir diese Kombination dann angesehen und bin zum Schluß gekommen, daß von den beiden miteinander kombinierten Polizzen die Erlebensversicherung die bessere Rendite bringt, und habe dann versucht, nur diese abzuschließen, was mir auch gelungen ist.
+Die Erlebensversicherung funktoiniert nun normalerweise so, daß man einen bestimmten Betrag einzahlt und nach 10 Jahren einen höheren Betrag wieder herausbekommt. Die Einzahlungen unterliegen zwar der Versicherungssteuer (4%?), die Erträge sind dann aber KEST-frei. Dadurch ergibt sich in Summe eine recht hohe Rendite.
+Vom Vermögensverlauf funktioniert dies so, daß am Anfang der Laufzeit ca. 7,22% von der Einzahlung abgezogen werden (Versicherungssteuer und Spesen), der verbleibende Betrag erhöht sich dann jährlich um einen Zinssatz, der jährlich festgelegt wird - im Moment 4,5%. Es gibt dann ab 1 Jahr nach der Einzahlung einen "Rückkaufswert", zu dem man die Versicherung zurückkaufen könnte, bei diesem ist aber noch ein Abzug von ca. 4% hineingerechnet, wenn die Versicherung nicht bis zum Ende der Laufzeit behalten wird.
+In jüngster Zeit hat sich aber durch eine gesetzliche Regelung der Rückkaufswert in den ersten Jahren verbessert, da er nicht mehr unter der Einzahlung abzüglich Versicherungssteuer liegen darf.
+Diese Erlebensversicherungen wurden bisher bei der S-Versicherung abgeschlossen, der Abschluß erfolgt im Normalfall über Mama (Elfriede Woloch) als Beraterin. Dabei wird aber meine eigene Beraternummer verwendet (3830).
+Von Erlebensversicherungen gibt es keine Kontoauszüge, es werden aber Gewinnbeteiligungsinformationen zu jedem Jahrestag des Laufzeitbeginns erstellt und automatisch zugeschickt. Diese wären dann in den Versicherungsordner einzuordnen, wobei jeweils die Polizze, eventuelle Aufstockungen und die 2 letzten Gewinnbeteiligungen aufbewahrt werden.
+
+Investmentfonds
+Investmentfonds sind ein Anlageinstrument, bei denen eine Fondsgesellschaft die Anlagen auf etliche verschiedene Papiere verteilt. Ich habe hier den sogenannten "Capital Invest Euro Bond", der im Prinzip Rentenwerte (also z.B. Bundesanleihen) aus Europa im Portfolio hat.
+Der Vorteil des Investmentfonds ist die Streuung, das heißt, das Verlustrisiko ist geringer, bei doch recht hohem Ertrag. Allerdings wird für den Kauf eines Fonds ein Ausgabeaufschlag von 3-4% verrechnet. Der Fonds hat dann jährliche Ausschüttungen und einen laufend angepaßten Kurs.
+Beim Investmentfonds wurde wieder die Technik der "virtuellen Laufzeit" angewendet, das heißt, es wird die Laufzeit als gegeben erachtet, bei der sich die Aufnahme eines Investmentfonds gegenüber anderen Papieren rechnet. Im Moment ist dies nur bei einer 4-jährigen Laufzeit der Fall. Bei kürzeren Laufzeiten (Behaltedauern) frißt der Ausgabeaufschlag einen so großen Teil der Ausschüttungen auf, daß andere Sparformen (z.B. das BAWAG-Treuesparbuch) rentabler sind.
+Die Investmentfonds scheinen wertmäßig ebenso im Wertpapierdepot auf wie die anderen Wertpapiere.
+
+Aktienspekulationen
+Im Sommer 2006 kam es zu einer neuen Art von Papieren, die zu meinem Wertpapierfonds hinzugefügt wurden. Es handelt sich dabei um eine Aktie der CA-Immo, die in Immobilien im Ostblock investiert. Diese Aktie hat sich bisher gut entwickelt. Der Kaufpreis lag bei € 21,46 pro Stück, aber per 1.6.2007 liegt das Papier bereits bei über € 23,50, das entspricht einem Gewinn von 9,5% in 10 Monaten, also über 11,4% pro Jahr. Auf Grund dieser hohen Rendite habe ich sozusagen "Blut geleckt" und begonnen, mich näher für Aktien zu interessieren, die ich bisher immer als zu risikoreich abgetan habe. Meine Kollegen Marcel Weber und Christian Steffek haben kürzlich auch begonnen, in Aktien zu investieren.
+Nun ist es bei Aktien so, daß die Aktienkurse oft innerhalb eines Tages stark steigen und fallen. Das Ausmaß, um das sie steigen und fallen, nennt man Volatilität, sich stark verändernde Aktien sind also sehr volatil. Daraus ergibt sich, daß man mit Aktien innerhalb von kurzer Zeit viel Geld verdienen kann, man muß aber auch viel öfter auf die Kurse achten als bei normalen Papieren, um Kursausschläge gewinnträchtig ausnutzen zu können.
+Daraus ergibt sich auch, daß es für Aktienspekulationen nicht ausreicht, einmal pro Woche am Donnerstag nachmittag den Bankberater aufzusuchen, um etwaige Käufe und Verkäufe zu tätigen, sondern es ist hier von Vorteil, per Internet Zugriffe auf die aktuellen Börsenkurse zu haben, um eventuelle günstige Ein- und Verkaufskurse, die sich während der Woche ergeben, möglichst sofort ausnützen zu können, bevor sich der Kurs wieder verschlechtert.
+Aus diesem Grund ist es für erfolgreiche Aktienspekulation notwendig, ein Wertpapierdepot zu haben, über das man auch per Internet Wertpapierhandelsaufträge geben kann.
+Am naheliegendsten wäre hier, das bereits vorhandene Wertpapierdepot bei der BA-CA zu nutzen. Es wurde auch schon versucht, dieses für den Online-Wertpapierhandel freizuschalten, was aber nicht funktioniert, weil ich dort kein Girokonto habe, sondern nur eine Sparkarte. Daher wäre es wohl nötig, irgendetwas neues abzuschließen, um online mit Wertpapieren handeln zu können.
+
+Im Moment läuft aber eine Beobachtungsfrist, in der festgestellt werden soll, ob es sich überhaupt lohnt, mit Aktien zu spekulieren. Daher ist dieses Kapitel bis zum Ende des Beobachtungszeitraums unvollständig.
+
+Eltern-Guthaben
+In den letzten Jahren hat mir meine Mutter als sogenanntes "vorgezogenes Erbteil" immer wieder Versicherungsaufstockungen eingezahlt und ähnliche Kapitalzuwendungen gemacht. Diese Zuwendungen hat mein Vater aber als zweckgebunden für die Altersversorgung meiner Eltern erklärt. Ich wiederum habe sie, auch wenn sie dies nicht sein sollten, als Geschenk angenommen und mit ihnen so verfahren, wie in meinem Kontensystem mit Geschenken allgemein verfahren wird, nämlich durch Gutschrift des Wertes auf das Eltern-Konto. Da dieses Konto praktisch einen Betrag darstellt, den ich meinen Eltern schulde, bin ich dazu übergegangen, das Eltern-Guthaben in meiner Finanzabrechnung als Negativposten darzustellen, so daß es von meinem Guthaben abgezogen wird und dieses entsprechend verringert.
+
+Abrechnungen
+Wir kommen nun zu den regelmäßigen Abrechnungen meines Guthabens. Diese Abrechnungen gab es einmal monatlich, sind aber mit einem relativ hohen Aufwand verbunden, daher wurde der Modus der Abrechnungen neu geordnet. 
+Im Prinzip gibt es eine Datenbank, in der alle Finanzanlagen gespeichert sind, und aus der die jeweiligen Werte errechnet werden können, ebenso wie die Gesamtsumme (dies geschieht automatisch in einem Report). Bei einer Abrechnung sind nun alle Werte durchzugehen und zu überprüfen, ob sie sich geändert haben.
+Wir skizzieren im folgenden den Ablauf einer solchen Datenbanksbearbeitung:
+- Öffnen der Datenbank
+- Zählen des Bestandes in großer und kleiner Börse
+- Überprüfung der Kontoauszüge für ErfolgsCard und Girokonto
+- Die Kurse für Wertpapier werden, so vorhanden, aus der Depotaufstellung im Internet (Online Banking) ermittelt
+- Die Kurse der Erlebensversicherungen werden so gelassen, wie sie beim Zusenden der Gewinnbeteiligungsinformationen eingesetzt wurden
+- Das Guthaben der Eltern wird aus dem Kontensytem genommen und als Negativposten eingesetzt.
+- Sind alle aktuellen Kurswerte ermittelt, wird der Report "Ber_Abrechnung" ausgeführt, der die Abrechnung generiert.
+
+Der ganze Vorgang der Abrechnung dauert knapp 25 Minuten, kostet also bei Annahme eines Stundensatzes von 15 Euro incl. PC € 6,44 incl. einem A4-Ausdruck der fertigen Liste, der 29 Cent kostet. Darin nicht enthalten sind die laufenden Arbeiten der Einordnung der Kontoauszüge und der Abrechnungen der Versicherungen.
+Zu letzterem ist zu sagen, daß ein solcher Vorgang jeweils ca. 5 Minuten beansprucht, das heißt, für jede zugesendete Gewinnbeteiligung und für jedes Set an Kontoauszügen werden 5 Minuten zur Bearbeitung benötigt. Dies entspricht € 1,25. Daraus ergeben sich folgende Kosten:
+Er-/Ablebensversicherungen: je € 1,25 jährlich (oder € 12,50 über die ganze Laufzeit verteilt) (derzeit * 15)
+Girokonto (16 Auszüge pro Jahr): € 20 jährlich
+Erträgnissparbuch (geschätzt 4 Auszüge pro Jahr): € 5 jährlich
+Sparverein (1 Auszug pro Jahr): € 1,25 jährlich
+Gesamt: € 45 pro Jahr, oder 3 Stunden zur Bearbeitung
+
+Die Abrechnung des Gesamtguthabens hat folgende Zwecke:
+- Es wird festgestellt, welche Guthaben schlecht verzinst "herumkriechen".
+- Es wird das Gesamtguthaben ermittelt, so daß man sehen kann, um wieviel sich dieses seit der letzten Abrechnung vermehrt oder verringert hat.
+
+Die Durchführung einer Abrechnung ist wahrscheinlich nur dann sinnvoll, wenn sich etwas gröberes ändert, also wenn ein Papier eine größere Summe ausgeschüttet hat, so daß sie neu zu veranlagen wäre. In diesem Fall kann mit einer solchen Abrechnung die sinnvollste nächste Veranlagung ermittelt werden. Nach erfolgter Veranlagung wäre es dann sinnvoll, noch eine Abrechnung zu machen, um den neuen Stand der Vermögensverhältnisse festzuhalten.
+
+Es stellt sich nun noch die Frage, ab welchem Betrag eine Neuveranlagung sinnvoll ist.
+Die Dauer einer Neuveranlagung beträgt ca. 6,65 Stunden, davon 4 Stunden mit PC. Dazu kommt noch die Betreuung der Anlage über ihre Laufzeit mit 50 Minuten. Damit kommen wir auf 7,483333 Arbeitsstunden und 4,83333 PC-Stunden, das macht insgesamt € 107,35.
+Im Schnitt stehen pro Jahr 27500 Euro zur Neuveranlagung an. 
+Die optimale Veranlagungssumme hängt nun davon ab, wie gut das Geld davor liegt.
+Für das Girokonto beträgt diese 13000 Euro. Das bedeutet, wenn am Girokonto mehr als 14200 Euro vorhanden sind, wären 13000 davon anzulegen (so daß 1200 wie oben dargestellt als Reserve verbleiben).
+Bei der Erfolgscard sind 14500 Euro anzulegen, sobald der Betrag von 16000 Euro überschritten wird.
+Beim Sparverein sollte der gesamte Betrag besser angelegt werden, sobald dessen Guthaben 22000 Euro überschreitet.
+
+Regeln für Abrechnungen und Neuveranlagungen
+Aus den oben genannten Dingen ergeben sich für die Veranlagung folgende Regeln:
+- Wenn ein Poststück hineinkommt, das mit Finanzen zu tun hat (z.B. Kontoauszug, Gewinnbeteiligungsinformation), werden die relevanten Daten daraus nach Möglichkeit in die Finanzanlagendatenbank eingegeben und danach die Papiere eingeordnet, um nicht unnötig herumzuliegen.
+- Stellt sich dabei heraus, daß einer der Schwellwerte (14200 Euro für Girokonto, 16000 Euro für Erfolgscard, 22000 Euro für Sparverein) überschritten wurde, wird eine Neuanlage eingeleitet. Dazu wird die Abrechnung aktualisiert, um die aktuellen Stände zu haben, und dann eine Anlageform ausgesucht, indem einige Alternativen berechnet und miteinander verglichen werden.
+- Zum Jahreswechsel wird an Hand der hereinkommenden Kontoauszüge und Abrechnungen ebenfalls eine neue Version der Abrechnung erstellt, sobald alle Kontoauszüge und Abrechnungen zum Jahreswechsel eingetroffen sind.
+- Wenn eine Neuveranlagung durchgeführt wird, wird danach eine weitere Abrechnung durchgeführt, um den neuen Stand dokumentiert zu haben.
+
+Stille Subberatertätigkeit für Mama
+Wie schon erwähnt, sind meine Eltern S-Berater, und empfangen in dieser Funktion Provisionen für die von ihnen abgeschlossenen Finanzprodukte. Da aber Nebeneinkünfte nur bis ca. 726 Euro steuerfrei sind, und in "fetten Jahren" die Provisionen diese Summe übersteigen, wurden sogenannte "Subkonten" angelegt. In den Spitzenzeiten der Beratertätigkeit in den 70er- und 80er-Jahren fungierten einige Verwandte als Subkonten und hatten die Aufgabe, Provisionszahlungen auf ihr Girokonto zu erhalten und an meine Eltern weiterzugeben (was die meisten auch taten, nur bei einer Tante gab es Schwierigkeiten, das Geld zu bekommen). Auch ich wurde als ein solches Subkonto angelegt. Meine Betreuernummer als Subkontoinhaber lautet 3830. Da ich eine solche Betreuernummer habe, gelte ich dem Sparkassensektor zugehörig und bin auch berechtigt, Lebensversicherungen zu Sektorkonditionen zu bekommen. Andererseits fällt mir auch die oben genannte Aufgabe zu.
+
+Zahlungen für Finanzangelegenheiten an das Herzensgut-Konto
+Wie schon erwähnt, fallen mir einige Vorteile zu... einer ist ein begünstigtes Girokonto für BRZ-Bedienstete, ein weiterer der Sparverein, ebenfalls im BRZ. Hier wurden die Zahlungen an das Herzensgut-Konto bereits oben erwähnt. Das Girokonto bringt gegenüber einem "Normalkonto", das pro Quartal durchschnittlich 10 Euro kostet, eine Ersparnis von 8 Euro, die vom Wohnungsverwaltungskonto ab der Abrechnung für August 2006 zusätzlich an das Herzensgut-Konto abzuführen wäre.
+Weiters fallen hier noch Zahlungen im Rahmen der hier erwähnten Subberatertätigkeit an. Im Prinzip bekomme ich im Rahmen dieser Provisionen, die eigentlich zu versteuern wären, aber ohne Abzug an meine Eltern abgeliefert werden. Da dies eigentlich Steuerhinterziehung ist, sollte dafür ein Ausgleich geschaffen werden, indem 40% dieser Provisionen vom Eltern-Konto abgezogen und dem Herzensgut-Konto zugeführt werden. Weiters sind die Sonderkonditionen, die ich von meinen Eltern bekomme, eigentlich auch "Vergünstigungen" gegenüber "normalen" Kunden. Auch dafür sollte ein Ausgleich geschaffen werden, indem die Differenz zwischen den Sonderkonditionen und den normalen Konditionen gebildet wird, und diese Differenz dem Herzensgut-Konto zugeführt wird.
+Hier ein Beispiel: Inklusive Sonderkonditionen bekomme ich derzeit 10-jährige Lebensversicherungen mit einem Bruttoertrag von 3,67% pro Jahr. Das beste, was ich dagegen ohne Sonderkonditionen abschließen könnte, wäre eine Wohnbauanleihe, die netto 3,41% pro Jahr bringt. Die 10-jährige Lebensversicherung bringt bei einer Einzahlung von 100% nach 10 Jahren 143,39%. Wir berechnen nun, wie hoch die Einzahlung sein müßte, damit die Rendite pro Jahr 3,41% beträgt. Diese Rendite ist in diesem Fall gegeben bei einer Einzahlung von 102,54%. Daher wären 2,54% der Einlage an das Herzensgut-Konto abzuführen, das sind z.B. bei einer Einzahlung von € 19000 € 482,60.
+Weiters erfolgen auf das Herzensgut-Konto noch die Zahlungen für die Vergünstigungen, die ich in Form des Sparvereins bekomme. Die sind bereits beim Sparverein näher dokumentiert.
+
+Zeitschätzung
+Hier noch eine Zeitschätzung auf Grund der oben angeführten Regeln. Wie lange dauert es, diese alle durchzuführen? (Alle Schätzungen pro Jahr)
+
+Abrechnungen: 2,08 * 2 + 1 = 5,16 * 25 Minuten = 129 Minuten
+Veranlagungen: 2,08 * 449 Minuten = 934 Minuten (inkl. Vorkalkulationen)
+Versorgung Gewinnbeteiligungen: 5 * 15 = 75 Minuten
+Versorgung Kontoauszüge: (16 + 1 + 4  + 1 + 1)  * 5 = 115 Minuten
+Prüfung Geldbörse: 23 Sekunden * 52 = 1196 Sekunden = 20 Minuten
+Nachfüllung Geldbörse: 46 Sekunden * 52 / 150 * 59,5 = 949 Sekunden = 16 Minuten
+Nachfüllung große Börse: 25 Minuten / 1450 * 3000 = 52 Minuten
+
+Gesamt: 1341 Minuten = 22,35 Stunden. Das heißt, es werden pro Monat ca. 1,86 Stunden oder pro Woche ca. 26 Minuten für die Finanzverwaltung verwendet. Dies entspricht einem Aufwand von ca. € 335,25 pro Jahr, das sind 0,136% des derzeitigen Gesamtvermögens, oder (die PC-Wartung mitgerechnet) 23,95 Stunden pro Jahr, das sind 0,46 Stunden pro Woche oder 0,83% meiner Freizeit.
+
+Priorisierung
+Auch für die Finanzverwaltung muß eine Priorisierung gefunden werden.
+Das Wegräumen der bekommenen Kontoauszüge etc. ist dabei Teil der Postverwaltung und sollte eine ziemlich hohe Priorisierung bekommen... ich würde einmal 80 für angebracht halten. Die Wiederveranlagung herumliegender Gelder wäre davon abhängig zu machen, wieviel Geld auf den einzelnen Konten herumliegt. Wenn dies genau den Schwellwert eines der Konten erreicht, so wäre bei der Aktion "Wiederveranlagung" mit einem Preis-/Leistungsverhältnis von 1 zu rechnen. Steigt die Summe über den Schwellwert, dann ergibt sich die Formel (Guthaben - Polster) / (Schwellwert - Polster), anhand der die Priorität für die Wiederveranlagung errechnet wird, wobei "Polster" der Betrag ist, der nach der Veranlagung am jeweiligen Konto stehenbleiben sollte.
+
+Dokumente
+Wie schon erwähnt, fallen bei der Finanzverwaltung einige Dokumente an. Teilweise werden diese auf Papier, teilweise im PC gehalten. Diese Dokumente und ihre Aufbewahrung werden hier noch einmal detailliert aufgelistet:
+PSK-Mappe: Dies ist eine goldgelbe Plastikmappe, die alle PSK-relevanten Unterlagen beinhält, insbesondere Schecks und Kontoauszüge (nicht A4-Zettel). Hier werden immer die aktuellen Kontoauszüge eingeordnet.
+Kontoauszüge der Sparkarte: Diese werden derzeit lose in einer Lade abgelegt, es wäre hier aber auf Grund der bisher angefallenen Menge daran zu denken, diese auch zu sortieren und geordnet abzulegen.
+Kontoauszüge des Sparvereins: Diese werden in einer kleinen braunen Sparverein-Mappe gesammelt.
+Depot- und Erträgnisaufstellungen (jährlich): werden in einer Wertpapiermappe gesammelt
+Versicherungsordner: enthält pro Versicherung eine Hülle mit allen dazu relevanten Daten (Angebot, Polizze, letzte Ausschüttungen usw. - siehe oben)
+Timer: Dieser wurde einmal von der Länderbank ausgegeben und enthält die gesammelten Finanzabrechnungen, die hier immer nach ihrem Ausdruck gelocht und eingeheftet werden.
+Finanzordner: enhält Prospekte für die gehaltenen Wertpapiere und andere Finanzunterlagen.
+
+Mietenberechnung
+Da per 1.5.2006 die Mietenberechnung reformiert wurde, sind auch für die Finanzverwaltung die zu zahlenden Mietanteile neu zu berechnen.
+Im Prinzip gibt es nicht viel, was die Finanzverwaltung an physischen Gegenständen in der Wohnung besitzt. Es gibt da einige Dokumentenmappen im Wohnzimmer, den Länderbank-Timer und eine Sektion in einem Ordner im Kabinett.
+Im Ordner im Kabinett ist meiner Erfahrung nach eher nur ein kleiner Teil dadurch belegt, ich würde die Miete dafür daher auf € 2,- schätzen.
+Der Platzbedarf in der Finanzlade beträgt ca. 26*10*11 cm, das ergibt einen Anteil von € 2,86.
+Hinter der Einfachtür der Kommode mit Goldgriffen ist ein Platz von 25*9*4 cm belegt, am linken Stoß hinter der Doppeltüre einer von etwas mehr als der Größe eines Ordners. Daraus ergibt sich ein weiterer Anteil von € 10,50 + € 0,9 = € 11,40.
+Addieren wir alle diese Anteile, bekommen wir einen Anteil von € 16,26 pro Jahr. Dieser wäre dann in Zukunft zu verrechnen.
+
+Businessplan
+Für das Finanzkonto ist es schwierig, einen Businessplan aufzustellen. Der Zeitaufwand wurde oben bereits mit € 335,25 festgestellt, bei den Einnahmen kommt es aber darauf an, was da alles hineinfällt. Da die Einnahmen vom bereits bestehenden Vermögen abhängen, lassen sie sich nicht so einfach mit den Ausgaben in Verbindung bringen. Aus diesem Grund wird hier auf die Aufstellung eines Businessplans verzichtet.
+	- 10 -
+

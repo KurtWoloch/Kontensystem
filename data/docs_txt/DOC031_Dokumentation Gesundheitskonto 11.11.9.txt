@@ -1,0 +1,111 @@
+Dokumentation Gesundheitskonto (Abrechnung)
+Stand: 9.11.2011, von Kurt Woloch
+
+Vorwort	1
+Gesundheitsmaßnahnen	1
+Bewegung	1
+Spaziergänge	1
+Badebesuche	2
+Arztbesuche	2
+Psychotherapie	2
+Finanzierung der Gesundheitsaufwände	2
+Abrechnungsmodus	2
+Businessplan	3
+Beispielkalkulationen	3
+Gesamtzeitaufwand pro Jahr	3
+Gesamtfinanzaufwand pro Jahr	3
+Anmerkungen zu den Kalkulationen	4
+Prioritätensetzung	4
+Abrechnung der Mieten	4
+
+Vorwort
+
+So wie jedes andere Konto braucht auch das Gesundheitskonto eine Dokumentation.
+Die wesentlichen Gesundheitsaspekte wurden bereits in der Lebensdokumentation beschrieben. Es gibt aber noch einige weitere Punkte, die meiner speziellen Situation entsprechen und nicht Allgemeingut sind.
+Gesundheitsmaßnahnen
+Bewegung 
+
+Folgende Bewegungspunkte treffen derzeit speziell auf mich zu:
+- Täglicher Spaziergang (und was man damit alles verbinden kann)
+- Baden gehen
+
+Zu beiden Punkten ist zu sagen, daß dies im Prinzip von Dr. Hariri nach meinem Nervenzusammenbruch im April 2006 verordnete Maßnahmen sind. Genau lauten sie:
+- 2-3x pro Woche schwimmen gehen
+- täglich mindestens 1/2 Stunde Sport betreiben (so daß der Puls über 100, bis 120 steigt)
+
+Das "Sport betreiben" habe ich anfangs versucht, durch Laufen zu erfüllen und dabei meinen Puls gestoppt. Ich bin dann darauf gekommen, daß dieser auch schon bei schnellerem Gehen über 100 ansteigt. Das heißt, ich versuche nun täglich einen mindestens halbstündigen Spaziergang durchzuführen. Komme ich von der Arbeit heim, findet dieser am Heimweg - meist von der Schnellbahnstation Siemensstraße weg - statt, sonst von zu Hause aus.
+2x pro Woche findet aber statt dem Spazierengehen eine "Wasserung" statt. Dies ist normalerweise ein Besuch im hauseigenen Schwimmbad, wenn dieses gesperrt ist, erfolgt stattdessen der Besuch eines Hallenbades. Dazu gibt es zwei sogenannte "Schwimmtage", die normalerweise jede Woche eingehalten werden und nur dann verlegt werden, wenn außerplanmäßig ein Schwimmgang an einem anderen Tag stattfindet oder das Schwimmen an einem vorgesehenen Schwimmtag nicht möglich ist.
+Spaziergänge
+
+Die Spaziergänge sind meist länger als 30 Minuten, weil sie sich nicht so genau abschätzen lassen, aber dafür wird normalerweise beim Heimfahren vom Bundesrechenzentrum nur der über die normale Heimfahrt hinausgehende Zeitaufwand gerechnet, das heißt, der Aufwand, der normalerweise nötig wäre, von der Schnellbahnstation heimzukommen, wird nicht in den Spaziergang mit eingerechnet, gilt aber trotzdem als Spaziergangszeit, womit wir hier wieder eine knappe Viertelstunde einsparen.
+Daraus ergibt sich, daß der Spaziergang an Arbeitstagen von der Schnellbahnstation Siemensstraße, Brünner Straße oder Floridsdorf heim führt, an freien Tagen aber von zu Hause aus gestartet wird. Die Route ist im Prinzip beliebig, sollte aber in den gesteckten Zeitrahmen passen und möglichst viel Frischluft enthalten, das heißt, nicht nur an Straßen entlang führen.
+
+Bei den Spaziergängen gibt es nun immer wieder interessante Nebeneffekte, da man sich z.B. auch mit dem Erforschen der Gegend beschäftigen kann, indem man immer wieder andere Wege nimmt. Es kommt auch immer wieder zu Sichtungen von Kinderelektrofahrzeugen am Weg. In diesem Fall werden diese natürlich verfolgt, und es wird versucht, technische Daten herauszubekommen. Dies wird näher beschrieben in der Dokumentation des Fahrzeugkontos.
+Badebesuche
+
+Wie schon erwähnt findet normalerweise 2x pro Woche statt dem Spaziergang ein Besuch im hauseigenen Schwimmbad, oder, wenn dieses geschlossen ist, ein Besuch in einem Hallenbad statt. Dabei erfolgt jeweils eine "Wasserung" zu 15 Minuten.
+
+Bei Badewetter (über 25°C) erfolgt aber einmal pro Woche der Besuch eines Sommerbades, der eventuell ganz oder teilweise zusammen mit meinen Eltern erfolgt und die Bewegung für diesen Tag sowie alle Badebesuche für diesen und die kommenden 6 Tage abdeckt. Wenn ich mit meinen Eltern gehe, bleiben wir meist von ca. 16-19h30 (Badeschluß in den städtischen Sommerbädern) im Bad und fahren dann wieder heim. Dazwischen erfolgen dann mehrere Wassergänge. Daneben erfolgt dann meist "Radio Alte Donau" (oder ähnlicher Name, je nach Badestelle), das beim Radio-Würmchen-Konto näher beschrieben wird und auch in dessen Zuständigkeitsbereich fällt.
+Arztbesuche
+
+Im Moment sollte regelmäßíg alle 6 Monate ein Zahnarztbesuch zur Kontrolle stattfinden, weiters Mundhygiene, wobei der jeweils nächste Termin dann von der durchführenden Assistentin vorgeschlagen wird, und einmal pro Jahr eine Kontrolle beim Augenarzt. Auch eine Durchuntersuchung sollte in regelmäßigen Abständen stattfinden.
+Finanzierung der Gesundheitsaufwände
+Abrechnungsmodus
+
+Das Gesundheitskonto bekommt im Moment 2 Stützungsbeträge pro Monat, nämlich vom Lebenserhaltungs- und vom Herzensgutes-Konto. Die Beträge dafür werden halbjährlich angepaßt und sind bei den jeweiligen Kommentaren zur Kontengebarung zu finden. In früheren Jahren war es so, daß die Gesundheitsausgaben komplett von Synergieeffekten bezahlt wurden, die nun im Herzensgut-Konto landen. Hintergrund war der, daß die Ausnützung von Synergieeffekten meist zu mehr Streß führt und daher der dadurch generierte Überschuß, wenn er nicht ausgenutzt werden soll, beim Gesundheitskonto am besten aufgehoben ist. Da nun das Herzensgut-Konto die Aufgabe übernimmt, Finanzströme aus Synergieeffekten aufzunehmen, sollte dieses zur Finanzierung der Gesundheitsmaßnahmen herhalten. Dazu gibt es pro Monat eine Pauschalbuchung vom Herzensgut-Konto auf das Gesundheitskonto, von dem dann alle weiteren Ausgaben getätigt werden. Die Ergebnisse der Synergieeffekte landen dafür auf dem Herzensgut-Konto.Ansonsten sieht die Abrechnung so aus wie jede andere auch: die gesundheitsrelevanten Aufwände und Barauslagen werden vom Gesundheitskonto im Laufe der normalen Abrechnung abgezogen. Werden gesundheitsrelevante Dinge von meinen Eltern besorgt, werden die dazugehörigen Gutschriften vorläufig in Höhe der Aufwände, also auch Zeitaufwände, auf das Eltern-Konto gebucht. Änderungen dazu werden eventuell noch beim Eltern-Konto dokumentiert.
+Businessplan
+Beispielkalkulationen
+
+Hier nun Beispielkalkulationen, aus denen für die verschiedenen Aktionen jeweils Aufwand und Spaßeinnahmen sowie der Stützungsbedarf hervorgehen:
+
+Badegang (Schwimmbad):
+Aufwand: 45 Minuten = € 11,63
+Einnahmen: 1 Spaßpunkt = € 10,10
+Stützungsbedarf: € 1,53 (E/A-Relation: 0,868)
+
+Spaziergang:
+Aufwand: 30 Minuten = € 7,25
+Einnahmen: keine
+Stützungsbedarf: € 7,25 (E/A-Relation: 0)
+Anmerkung: Beim Spazierengehen wird normalerweise Radio gehört, die Einnahmen dafür landen aber am Radio-/Fernsehkonto.
+
+Besuch Hallenbad:
+Aufwand: 2 Stunden = € 31,- + Fahrtkosten € 4,40 + Eintritt € 3,70 = € 39,1
+Einnahmen: 1 Spaßpunkt = € 10,1
+Stützungsbedarf: € 29 (E/A-Relation: 0,258)
+
+Besuch Sommerbad:
+Aufwand: 5 Stunden = € 77,50 + Fahrtkosten € 4,40 + Eintritt € 3,70 = € 85,6
+Einnahmen: 4 Spaßpunkte = € 40,4
+Stützungsbedarf: € 45,2 (E/A-Relation: 0,472)
+
+Zu letzterem ist aber zu bemerken, daß es bei Badewetter zu Hause auch heiß ist. Daher ist bei einer Temperatur von 30°C für das zuhause bleiben ein Negativspaß von 2 Spaßpunkten über die 5 Stunden anzunehmen, und die Stützungsdifferenz reduziert sich auf € 25,-.
+Gesamtzeitaufwand pro Jahr
+
+Zeitaufwand:
+12 Badegänge im Jahr zu je 5 Stunden = 60 Stunden
+4 Besuche von Hallenbädern im Jahr zu je 2 Stunden = 8 Stunden
+76 Badegänge (Schwimmbad) im Jahr zu je 0,75 Stunden = 57 Stunden
+273,25 Spaziergänge im Jahr zu je 0,5 Stunden = 136,63 Stunden
+2 Hausarztbesuche im Jahr zu je 80 Minuten = 2,67 Stunden
+4 Zahnarztbesuche im Jahr zu je 107 Minuten = 7,13 Stunden
+
+Gesamt: 271,43 Stunden = 0,743 Stunden pro Tag oder 5,201 Stunden pro Woche, das sind 9,46% meiner Freizeit.
+Gesamtfinanzaufwand pro Jahr
+
+12 Besuche von Sommerbädern im Jahr zu je € 3,70 = € 44,40
+4 Besuche von Hallenbädern pro Jahr zu je € 3,70 = € 14,80
+Fahrtkosten: 92 Hin- und Rückfahrten à € 4,40 = € 404,80
+Kosten von Mundhygiene: 2x € 90 = € 180,-
+
+Gesamt: € 644, das entspricht 41,55 Stunden.
+
+Zeit- und Finanzaufwand (umgerechnet auf die Zeit, die ich für das Verdienen des Gelds brauche) entsprechen insgesamt 312,98 Stunden pro Jahr, das sind 0,857 Stunden pro Tag.
+Anmerkungen zu den Kalkulationen
+
+Zu den Badegängen kommen noch Nebenkosten wie z.B. Jause, Badehose etc. Da die Badehose aber meist nur auf die Terrasse zum Trocknen gehängt wird, läßt sich dieser Aufwand vernachlässigen. Die Jause nehme ich mir meist von zu Hause mit, so daß die Kosten auch ungefähr gleich sind wie wenn die Jause zu Hause eingenommen würde.
+Prioritätensetzung
+
+Was die Priorität der Gesundheitshandlungen betrifft, so werden die Spaziergänge bzw. Badebesuche fest in den Tagesablauf eingeplant, mit einer entsprechend hohen Standardpriorität, die aber etwas niedriger ist als die der Morgen- und Abendtoilette. Arztbesuche werden, so kein Termin ausgemacht ist, mit einer Priorität eingeordnet, die so beschaffen ist, daß sie ungefähr zum geplanten Zeitpunkt ausgeführt werden. Wurde mit einem Arzt ein Termin ausgemacht, dann ist die entsprechende Aktion direkt in den Tagesablauf einzuplanen.
+	- 4 -
+

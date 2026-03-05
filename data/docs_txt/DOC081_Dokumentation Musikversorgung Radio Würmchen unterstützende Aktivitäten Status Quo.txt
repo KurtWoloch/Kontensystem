@@ -1,0 +1,186 @@
+Dokumentation Musikversorgung Radio Würmchen unterstützende Aktivitäten Status Quo
+Stand: 23.9.2009, von Kurt Woloch
+Status: intern (nur zum privaten Gebrauch, auf Anfrage werden eventuell Auszüge dieser Dokumentation anderen Personen zur Verfügung gestellt)
+
+Inhalt
+
+Inhalt	1
+Wesen dieser Dokumentation	1
+Einteilung der Struktur der Aktivitäten	1
+Beschreibung der unterstützenden Aktivitäten der Musikversorgung von Radio Würmchen (Stand Ende 2005)	1
+Musikversorgung - unterstützende Aktivitäten	2
+Die Radio-Würmchen-Datenbank	2
+Repertoirepflege	3
+Karaoke-Aufnahmen	4
+Radioprotokolle	4
+Collaborative Filtering	4
+Auflisten von Kassetten und anderen Tonträgern	4
+Das Radio-Würmchen-Programm	5
+Einspielungen auf die Festplatte	5
+Aufnahmen beim Karaoke	6
+Die Personenliste	6
+Batterien und Akkus	6
+Besitztümer und Unterlagen von Radio Würmchen	6
+
+Wesen dieser Dokumentation
+
+Diese Dokumentation beschäftigt sich im wesentlichen mit den unterstützenden Aktivitäten zur Musikversorgung durch Radio Würmchen. Dies sind alle Aktivitäten, die nicht direkt Spaß bringen, sondern die Voraussetungen dafür schaffen, dass die Spaß bringenden Hauptaktivitäten stattfinden können. In dieser Dokumentation wird der Status Quo dieser Aktivitäten dargestellt, der bis Ende 2005 geherrscht hat, als die Dokumentationsserie begonnen hat. Dies kann jedoch nicht ganz einwandfrei passieren, da sich auch in den Jahren davor immer wieder etwas geändert hat, und auch danach wieder Änderungen vorgenommen wurden, obwohl die Dokumentation von Radio Würmchen noch nicht abgeschlossen ist.
+Einteilung der Struktur der Aktivitäten
+
+Im folgenden erfolgt eine kurze hierarchische Darstellung der Aktivitäten des Radio-Würmchen-Kontos, die für diese Dokumentation relevant sind:
+
+Radio-Würmchen-Konto
+	Musikversorgung
+		Unterstützende Tätigkeiten
+			Radio-Würmchen-Datenbank
+			Repertoirepflege
+			Karaoke-Aufnahmen
+		
+Beschreibung der unterstützenden Aktivitäten
+Die Radio-Würmchen-Datenbank
+
+Die Radio-Würmchen-Datenbank ist eine Konstruktion, die aus mehreren Access-Datenbanken und einem Visual-Basic-Programm besteht, das mit dieser Datenbank und anderen Dingen zusammenarbeitet. Grob gesagt beherrscht dieses Datenbanksystem die folgende Dinge:
+- Ausdruck von Listen für Karaoke und andere Dinge
+- Automatisches Abspielen einer Playlist und Vorschlag anderer, nicht als Datei vorhandener Titel, auf Grund des Musikgeschmacks von mir und meinen Eltern
+- Eingabe des Musikgeschmacks von mir und meinen Eltern durch Eingabe von Wertungen für einzelne Titel
+- Protokollierung des Musikprogramms verschiedener Radiostationen, sowohl laufend als auch als Nacherfassung
+- Vorschlagen von Tonträgern, die angehört werden sollten, je nach anwesenden Personen
+- Einordnung diverser Musiktitel nach verschiedenen Kriterien (Kategorisierung, Eingabe von Ähnlichkeitsbeziehungen)
+- Automatische Berechnung von Schätzwertungen für nicht bewertete Titel für meine Eltern und mich auf Grund der Ähnlichkeitsbeziehung zwischen den Titeln
+- Rudimentäre Verwaltung des Repertoires an Musikdateien
+
+Ende 2005 gab es nun verschiedene Datenbanken mit verschiedenen Titellisten, wobei einige davon auch Titelnummern hatten, aber unterschiedliche:
+Tontraeger.mdb:
+
+In dieser Datenbank befinden sich die Informationen über existierende physische Tonträger. Die Titel sind hier mit einem Verweis auf die Interpretennummer gespeichert, die Interpreten dazu stehen in einer eigenen Tabelle. Dazu gibt es auch noch eine Tabelle für Tonträger und Titelvorkommen in Tonträgern. In dieser Tabelle wurden seit ca. 1999 nicht nur die tatsächlichen Tonträger (Schallplatten, Kassetten und CD's), sondern auch Karaoke-Videokassetten und -CD's sowie Texthefte und ihre Inhalte gespeichert. Nicht gespeichert waren aber jegliche Titel, die auf keinem Tonträger vorhanden waren, inklusive Titel, die es nur auf der PC-Festplatte gab.
+Rw_bewertung.mdb: 
+
+Diese Datenbank enthielt ursprünglich nur eine einzige Tabelle, die alle Titel enthielt sowie die Wertungen von mir und meinen Eltern dazu sowie das Datum, an dem jeder den Titel zuletzt gehört hat. Da dies alles getrennte Felder jeweils eines Datensatzes waren, war es nicht gut möglich, die Tabelle auf beliebig viele Personen auszuweiten. Außerdem waren hier die Titel nicht nummeriert und nur als ein Textfeld gespeichert, so dass auch die Verknüpfung mit der Tonträgerdatenbank eher schwierig war, obwohl dies doch von verschiedenen Abfragen versucht wurde.
+Weiters gabe es noch Hilfstabellen, die zu Zeiten der Orange-94.0-Sendungen dazu dienten, passende Lieder zu den Zeitungsmeldungen herauszusuchen.
+Es gab in dieser Datenbank auch mannigfaltige Abfragen, um mit verschiedenen Kombinationen von Personen die jeweils besten abzuspielenden Titel auszugeben.
+RW_Aehnlichkeiten.mdb
+
+Diese Datenbank hieß früher RW_Aehnlichtest.mdb und diente dazu, testweise Ähnlichkeitsbeziehungen zwischen verschiedenen Liedern zu erfassen. Dazu bekam jeder Titel eine Titelnummer (aber eine andere als in der Tonträgerdatenbank, so er überhaupt in beiden Datenbanken enthalten war) und wurde dann verschiedenen anderen Titeln mit einer Zahl zugeordnet, die den musikalischen "Abstand" zwischen den beiden Titeln enthielt. Durch eine Statistik konnte dann aber festgestellt werden, dass die von mir als ähnlich bezeichneten Titel auch tatsächlich ähnliche Bewertungen von mir und meinen Eltern bekamen, so dass das Konzept so ausgeweitet wurde, dass "virtuelle Wertungen" für noch nicht bewertete Titel erstellt wurden, die einem gewichteten Schnitt der bereits bewerteten ähnlichen Titel entsprachen. Diese virtuellen Wertungen wurden in einer eigenen Tabelle in dieser Datenbank abgelegt. Etwas später begann ich auch, Stichwörter an die verschiedenen Titel zu vergeben. Damit begann ich im Zuge der Arbeiten am CD-Archiv von Orange 94.0, als dieses noch nicht im Keller war, sondern in einem Regal vor dem Studio. Ich nahm hier im Prinzip eine Kategorisierung ("Tagging") vor, einige Jahre bevor diese auch im Internet, z.B. bei Last.FM, aufkam.
+
+Weiters ist hier auch die Scan-Tabelle zu finden, die ein Protokoll über alle gespielten Titel eines Radiosenders enthält. Diese wurde ursprünglich nur dazu verwendet, verschiedene Radiosender zu "scannen", das heisst, festzustellen, welche Titel dort wann gespielt wurden. Auch anhand der Kategorien wurde dann versucht, ähnliche Titel zu finden, wobei meist eine größere Menge ähnlicher Titel gefunden wurde, die aber nicht so genau "gestimmt" haben wie bei der händischen Zuordnung. 
+Auch hier gab es wieder mannigfaltige Abfragen und Funktionen, um die virtuellen Wertungen und ähnliches zu erstellen.
+
+Die Bewertung für unbekannte Titel, die sich auch nicht in der Wertungsdatenbank befinden, im Rahmen der Radioprotokolle wurde schon erwähnt. Es gibt hier aber das Problem, zu unterscheiden, ob ich einen Titel schon kenne oder nicht, da sonst auch bei unbekannten Titeln die Wertung suggerieren würde, daß es interessant wäre, ihn wieder anzuhören.
+Aus diesem Grund habe ich Ende 2005 in die Ähnlichkeitsdatenbank 3 neue Felder eingefügt... eines für einen Bekanntheitswert zwischen 1 (kenne ich in- und auswendig) und 5 (kenne ich überhaupt nicht). Das zweite enthält den "offiziellen Status", also eine Schätzung dafür, wie bekannt ein Lied in der Öffentlichkeit ist (mit einem Prozentwert zwischen 0 und 100). Das dritte enthält die persönliche Bedeutung für mich, also z.B. "ferner liefen", wenn ich ein Lied zwar im Radio hörte, mich aber nicht genau erinnern kann, wann, oder Ereignisse, die ich mit dem Lied oder mit der Aufnahme verbinde.
+Alle Lieder, bei denen ich als Bekanntheitswert "5,0" eintrage, gelten als mir unbekannt.
+Eine Sonderstellung haben noch die Traditionals, die als Bekanntheitswert "4,5" eingetragen haben. Dies bedeutet, es handelt sich um ein bekanntes Volkslied, Kinderlied etc. (kann auch englisch sein), zu dem mir aber keine "offizielle" Originalversion bekannt ist. Wenn ich ein solches Lied höre, erkenne ich es schon, egal wer es singt, aber ich kenne die Version nicht. Ausgenommen sind hier aber Lieder, die zwar Allgemeingut sind, aber trotzdem einen eindeutigen Originalinterpreten haben, wie z.B: "Ana hat immer das Bummerl" von Horst Chmela. Hier bekommen alle Versionen davon, die ich nicht kenne, 5,0. Bei der Bedeutung dazu wird dann "Standard" eingetragen.
+
+Außer den Radioscans gab es Ende 2005 noch andere Ausformungen von Daten über Songs, wie z.B.:
+1. Radioscans im Excel-Format (teilweise mit weiterführenden Daten, z.B. welcher Moderator was gespielt hat, was Wünsche waren und wer sich was gewünscht hat und wie)
+2. Top-Listen verschiedener Sender (z.B. Antenne Wien, Ö3) in verschiedenen Formaten (das ist normalerweise eine nach Plätzen sortierte Liste)
+3. Diverse Hitparaden von Ö3 und anderswo (Hit wähl mit, Hörercharts)
+4. Bewertungen in der Musiker-Probenplandatenbank (siehe dort), diese enthalten auch die Wertungen im Rahmen der Klassenhitparaden
+5. Eine Kategorisierungsliste in Excel, die recht detaillierte Daten zu vielen bekannten Liedern enthält
+6. Die Wertungen, die im Rahmen der "aktuellen Stunde" eingegeben wurden
+7. Die Wertungen der BV-Hitparade (derzeit nur auf Papier)
+8. Die Scans in der Ähnlichkeitsdatenbank (tw. mit Angaben, was Wünsche waren)
+9. Einige Abzüge von Wertungen von Last.FM- und Launchcast-Usern
+10. Die Strichliste mit den Wünschen für die Schülerdisco in der Ödenburger Straße 1990
+11. Eine Strichliste mit Wünschen der BRZ-Mitarbeiter für eine nicht zustande gekommene Disco
+12. Einen Riesenscan von Shoutcast mit einigen hunderttausend gespielten Titeln auf hunderten Sendern aus dem Jahr 2001
+13. Etliche Notizen über Erfolge von Liedern in Karaoke-Lokalen (größtenteils nur auf Papier).
+
+Dazu gibt es noch diverse Musikdatenbanken, wo Musikstücke, Interpreten oder Titel mit Kategorien und Wertungen versehen sind oder miteinander über Ähnlichkeitslisten in Verbindung gesetzt wurden, die teilweise auch in eigene Datenbanken kopiert wurden (wie z.B. ähnliche Titel und Interpreten aus Launchcast, alle Kategorisierungen auf Launchcast, bevor Launchcast umgestellt wurde, alle Kategorisierungen von Radio.Sonicnet etc.).
+All dies ließe sich irgendwie auswerten, und miteinander in Verbindung bringen. Teilweise wurde das dann ab 2006 beim neuen Radio-Würmchen-Programm getan, mit dem die Punkte 5., 6., 8. und teilweise auch 4. in einem Datenbankverband verknüpft wurden - dies ist aber der Stand, bevor dieses Programm erstellt wurde.
+Repertoirepflege
+
+Neben der Datenbank, die hauptsächlich Informationen über Musik enthält, wird auch ein Repertoire an Musikdateien auf der Festplatte (und parallel auf Sicherungsdatenträgern) unterhalten. Dieses untersteht direkt dem Radio-Würmchen-Konto, im Gegensatz zu physischen Tonträgern wie Kassetten, Schallplatten und CD's, die in eigene Konten ausgelagert sind. Dieses Repertoire an Musikdateien erfordert natürlich auch ein gewisses Ausmaß an Pflege, wie z.B. die Aufnahme neuer Titel, die Kontrolle der Qualität und eventuelle Korrekturen von Tags sowie die korrekte Aufnahme der Titel in die Radio-Würmchen-Datenbank. Ende 2005 wurde dies aber nur rudimentär unterstützt, das heißt, es mussten z.B. die neu aufgenommenen Titel händisch gesichert werden.
+Karaoke-Aufnahmen
+
+Bei den Karaoke-Veranstaltungen von Radio Würmchen werden auch Aufnahmen vor allem von meinem eigenen Gesang gemacht, die dann im Zuge der Musikversorgung vor allem von mir und meinen Eltern angehört und weiterverarbeitet werden.
+Radioprotokolle
+
+Seit Sommer 1998 beschäftige ich mich mit dem, was kommerzielle Radiosender tun. Seit damals werden immer wieder sogenannte Radioprotokolle durchgeführt, aus denen hervorgeht, was auf einem bestimmten Radiosender zu welcher Zeit gespielt wurde. Ich habe auch eine Maßgröße für die "Rotation" eines Radiosenders entwickelt. Dies sollte die Anzahl der vorhandenen unterschiedlichen Titel sein.
+Diese Zahl geht davon aus, daß alle Titel gleich oft vorkommen und jeder Titel zufällig ausgewählt wird. Wir gehen davon aus, daß R die Zahl der vorhandenen Titel und N die Zahl der schon gespielten Titel ist.
+In diesem Fall ist für jeden Titel die Wahrscheinlichkeit, daß er gespielt wird, 1/R. Die Wahrscheinlichkeit, daß er nicht gespielt wird, ist daher 1-(1/R). Wenn nun N Titel gelaufen sind, ist die Wahrscheinlichkeit, daß der Titel immer noch nicht gespielt wurde, (1-1/R)^N. Für alle Titel zusammen kann man nun die Anzahl der verschiedenen Titel berechnen, die bis dahin gelaufen sein sollten, mit V=N*((1-1/R)^N). Tippt man dies in eine Zielwertsuche ein, in der V (Zahl der verschiedenen Titel) und N (Anzahl der Titel, die gelaufen sind) bekannt sind, kann man Rückschlüsse auf V ziehen. Die somit ermittelte Rotation von 88.6 lag z.B. Ende 2005 bei ca. 1900 Titeln und die von Radio Wien bei ca. 1400 Titeln.
+Ende 2005 wurden jedenfalls nacheinander immer wieder verschiedene Radiosender "gescannt", aber dies war nicht in einen Gesamtverband eingebaut, aus dem ermittelt werden könnte, welcher Sender nun gehört werden sollte.
+Collaborative Filtering
+
+Unter Collaborative Filtering versteht man das Aussuchen von Musik (oder anderer Dinge) aufgrund von Untersuchungen des Musikgeschmacks verschiedener Personen. Dabei gibt es eine Sammlung von Musiktiteln, wovon eine Person jeweils eine bestimmte Menge bewertet hat, es aber noch viele andere gibt, die dieser noch nicht bewertet hat. Für diese unbewerteten Titel wird nun versucht, eine Bewertung zu schätzen, indem die bereits vorhandenen Bewertungen dieser Person mit den Bewertungen anderer Personen für die gleichen Musiktitel verglichen werden und festgestellt wird, welche anderen Personen zur gegebenen Person in einem positiven statistischen Zusammenhang stehen. Danach werden die anderen Titeln, die die Personen mit positivem Zusammenhang zur gegebenen Person bewertet haben, so auf die gegebene Person umgelegt, daß eine geschätzte Wertung herauskommt, die angibt, wie gut diese noch unbewerteten Lieder der gegebenen Person gefallen müßten.
+Ein anderer Weg, solche Wertungen zu erreichen, ist, die Eigenschaften der Musikstücke selbst, wie Tempo, Musikrichtung usw. miteinander zu vergleichen und anhand dessen diejenigen Titel auszuwählen, die den von einer Person gut bewerteten Titeln ähnlich sind.
+Auf Grund der Ähnlichkeit der Titel lassen sich dann auch Musikmixes zusammenstellen, bei denen die einzelnen aufeinanderfolgenden Titel einander ähnlich sind.
+In diesem Zusammenhang wurden immer wieder verschiedene Methoden ausprobiert, aber keine davon erreichte so richtig den Durchbruch, was meine Sammlung betraf.
+Auflisten von Kassetten und anderen Tonträgern
+
+Beim Auflisten der Tonträger werden in einer bestimmten Reihenfolge alle Tonträger, von denen schon bekannt ist, welche Titel sie enthalten, in die Tonträgerdatenbank eingegeben. Stoße ich dabei aber auf Tonträger, deren Inhalt noch nicht beschriftet ist, werden diese bei dieser Aktivität auch angehört und beschriftet. Diese Tonträger befinden sich in einer eigenen Kiste.
+Die Eingaben erfolgen immer ein Excel-Sheet in einem bestimmten Format, das dann mit einer Funktion in der Tonträger-Datenbank importiert wird, sobald es genug Einträge hat (über 400). Dieses ist abgespeichert unter: C:\laufende Projekte\Radio Würmchen\TteingXX, wobei XX für die Nummer der Tranche steht... Ende Juni 2007 lief Tranche 14.
+Wurde eine Tranche (ein Excel-Sheet mit mindestens 400 Titeln) frisch importiert, dann befinden sich in der Datenbank normalerweise etliche doppelte Titel, die aufgrund unterschiedlicher Schreibweisen des Titels, des Interpreten oder der Version nicht mit dem bestehenden Titel zusammengelegt wurden. Daher folgt auf jede importierte Tranche eine Bearbeitungsphase, bei der versucht wird, solche Inkonsistenzen durch Zusammenlegen der eigentlich gleichen Titel und Interpreten zu beheben.
+Per Ende Juni 2007 (der Stand per Ende 2005 läßt sich nicht mehr rekonstruieren) haben wir nun folgenden Stand an bereits eingegebenen Tonträgern:
+- komplette Eversweets-Serie (0 bis 156)
+- alle CD's und Abarten davon (Playback-, Maxi-, Doppel-CD's)
+- alle Kassetten aus den Schachteln mit Tonträgern (selbst aufgenommene bzw. kopierte)
+- alle Weihnachtskassetten ab 1986
+- alle sonstigen Kassetten (außer nicht komplett beschriftete und Mastertapes) von 1987 bis Juni 2007
+- alle historischen Kassetten von April bis Dezember 1986
+- alle gekauften MusiCassetten und andere Kassetten mit kommerzieller Musik, die sich im Wandkasten befinden 
+- die ersten 3 Videokassetten (nach Nummern)
+- ungefähr die ersten 40 LP's (wobei der Plattenschrank von links nach rechts durchgegangen wird)
+- die ersten 2-3 CD's von Tina
+Insgesamt sind bereits über 10000 Titel aus der Tonträgersammlung eingegeben.
+Das Radio-Würmchen-Programm
+
+Ich habe auch eine eigene Musiksammlung auf der Festplatte und ein dazugehöriges, selbstgeschriebenes Programm, das dazu dient, aus dieser Sammlung ein möglichst gutes Musikprogramm zu erzeugen. Dieses basiert auf der Idee, ein Internetradio zu machen, in dem meine 600 Top-Songs enthalten sein sollten. Dazu gibt es auch ein Rotationsschema, das so funktioniert wie bei vielen Radiostationen, nämlich daß die am besten bewerteten Titel am häufigsten kommen und die schlechter bewerteten in absteigender Reihenfolge dann immer seltener. Die Bewertungen erfolgen dabei auf einer Skala von 0 (am schlechtesten) bis 40 (am besten), die eine umgekehrte Schulnotenskala von 1 bis 5 mit eingefügten Zehntelstellen darstellen. Das Rotationsschema basiert nun darauf, daß die Wertung eines Liedes mit einer zweiten Zahl zusammengezählt wird, die sich daraus ergibt, wie lange ein Lied schon nicht mehr gehört wurde. Und zwar steigt diese in den ersten Tagen in einer steilen Kurve an, die dann immer mehr verflacht. Die Lieder, die dann am höchsten in der daraus resultierenden Liste sind, sollten wieder gespielt werden. Davor wird aber noch eine 2. Zahl addiert, die umso höher ist, umso ähnlicher das Lied dem zuletzt gespielten ist. Dazu wird die Ähnlichkeits-Datenbank verwendet, wo sowohl ähnliche Titel als auch Kategoriezuordnungen enthalten sind. Die Kategoriezuordnungen haben hier eine Maximallänge von 50 Zeichen und sind im Klartext verfaßt, und die als 1. genannte Kategorie hat den größten Wert - jede nachfolgende ist um 20% weniger wert als die vorherige. Dadurch ergeben sich recht gute, teilweise auch unerwartete, Kombinationen und Abfolgen. Die genaue Kurve ist übrigens für Mama und Papa anders als meine eigene... die von Mama konzentriert sich mehr auf die am besten bewerteten Titel, und die von Papa bringt auch mehr von den unteren Plätzen - sie entspricht der ursprünglich im Radio Würmchen für die aktuellen Stunden verwendeten Formel und ist damit eine Multiplikation seiner Punkte mit den Tagen, seit der Titel zuletzt gehört wurde, das heißt, seine Kurve geht für 1 Jahr gerade nach oben und verflacht dann.
+Die Bewertungen in der Radio-Würmchen-Datenbank von mir und meinen Eltern stammen aus den Familienhitparaden, die es von 1991 bis 1993 gegeben hat, von den Aktuellen Stunden von Radio Würmchen, die es von 1993 bis Anfang 2002 gegeben hat, sowie von Bewertungen, die ich ab 2001 beim Radio und Tonträger hören eingegeben habe bzw. von meinen Eltern beim Vorspielen des Radio-Würmchen-Programms abgefragt habe oder die sie selbst beim Hören von Radio Würmchen oder der Unterwegs-Sendungen ein- bzw. bekanntgegeben haben.
+Weiters gibt es eine Ähnlichkeitsdatenbank, wo verschiedene Musiktitel miteinander in Beziehung gebracht werden und wo es auch zu jedem Titel die schon erwähnte Kategoriezuordnung gibt sowie Angaben darüber, wie gut ich persönlich den Titel kenne und was er mir bedeutet.
+Mit Hilfe des Radio-Würmchen-Programms werden nun auch die Kassetten für gemeinsame Fahrten ausgesucht, indem alle Titel auf jeder Kassette dafür herangezogen werden und eine Durchschnittswertung daraus gebildet wird.
+Um diese Aufgaben möglichst gut erfüllen zu können, gibt es eine zentrale Titelliste, mit der alle Wertungs- und Ähnlichkeitsdatensätze verknüpft sind, sowie die Angaben darüber, auf welchen Tonträgern sich welche Titel befinden, wobei hier auch die Texthefte und die Karaoke-Videos und -CD's erfaßt sind. Leider ist keine dieser Tabellen auch nur annähernd vollständig, und es ergibt sich daraus das ständige Ziel, die Vollständigkeit der Datenbank herbeizuführen bzw. sich ihr anzunähern. Besonderes Augenmerk liegt hier auf allen Tonträgern und Musikdateien, die ich besitze, sowie allen Musiktiteln, die ich kenne, und die normalerweise im Radio gespielt werden. Um dies zu erreichen, werden die Daten in der Radio-Würmchen-Datenbank laufend vervollständigt.
+Einspielungen auf die Festplatte
+
+Für das Radio-Würmchen-Programm werden immer wieder frische Titel auf die Festplatte eingespielt, damit diese auch automatisiert gehört werden können. Dabei gibt es immer wieder Auswertungen, wieviele Titel Papa noch "fehlen". Auf Grund der Tatsache, daß alle Titel, die länger als 1 Jahr nicht gelaufen sind, die gleiche Bewertung für den Zeitraum haben, gibt es eine bestimmte Bewertungsgrenze, unter der Papa keine Titel mehr zu hören bekommt. Diese lag Ende 2005 bei ca. 22 Punkten, ist aber per 20.9.2009 bereits auf 30-31 Punkte angestiegen. Die "fehlenden" Titel liegen bei Papa über dieser Grenze und würden daher für Papa gespielt, wenn sie auf der Festplatte wären. (Der Fokus liegt hier auf Papa, da er am meisten von allen Familienmitgliedern Radio Würmchen hört) Hierbei handelt es sich per Ende 2005 um unter 2000 Titel. Da man annehmen kann, daß die Grenze noch weiter steigen wird, wäre in der Praxis ca. die Hälfte davon noch einzuspielen, also knapp 1000 Titel. Bereits eingespielt wurden alle Titel, die Papa über "sehr gut" (Wertung über 36 Punkte) bewertet hat so wie alle mit "sehr gut" (Wertung 36 Punkte), die er bis ca. Juni 2000 zuletzt auf Radio Würmchen gehört hat. Es sind noch ca. 200 "sehr gute" einzuspielen, danach fällt die Wertung relativ schnell auf "gut", aber dazwischen befinden sich dann auch noch nicht von ihm bewertete Titel, deren Wertung besser als "gut" ist.
+Aufnahmen beim Karaoke
+
+Wie bereits vorher erwähnt, werden bei Heimkaraoke-Veranstaltungen auch normalerweise Aufnahmen von meinem Gesang hergestellt. Diese erfolgen (zumindest im Moment noch) auf Audiokassetten.
+
+Besitztümer und Unterlagen von Radio Würmchen
+
+Im folgenden werden die Besitztümer und Unterlagen von Radio Würmchen gemäß der Inventurdatenbank grob aufgelistet:
+
+- Discokugel Disco Light (Geschenk von Karaokesängerin Eva Staber, wird evtl. für Radio-Würmchen-Veranstaltungen verwendet)
+- Rote Schachtel mit Audiozubehör (diverse alte Walkies, Kopfhörer usw.)
+- 2 Schachteln Batterien (eine im Wohnzimmer, eine im Kabinett)
+- 1 Paar graue Boxen im Wohnzimmer (zur wohnungsweiten Verbreitung der Radio-Würmchen-Musik)
+- Phonowagerl (zum Platzieren des Mischpults bei Karaoke-Parties)
+- Klavierstuhl (zum Sitzen bei Karaoke-Parties und Heimkaraoke)
+- Graues Stockerl (zum Unterbringen der Karaoke-CD's bei Karaoke-Parties und Heimkaraoke)
+- Ganzes Fach links oben / unten in Wohnzimmer-Wandverbau (enthält Lötstation für Reparaturen)
+- Ganzes Kästchen vor der Küchentür (enthält Werkzeug für diverse Reparaturen)
+- Diverse Sesselschoner (für Karaoke-Partygäste)
+- Diverse Kabel (auf Kabelhaken im Kabinett und Strebe von 3er-Regal)
+- Diverse Kassetten mit Karaoke-Aufnahmen (in Schreibtisch und Kassettenracks)
+- 2 Lautsprecherboxen JBL (zum Hören von Radio Würmchen und PC-Verstärkung)
+- Steckdose im Bad (zum Anstecken des Radiorecorders)
+- Schachtel mit Shure-Mikrofonen (für Karaoke und Sendungen)
+- Gästeschlapfen (für Karaoke-Partygäste)
+- Ersatzteil für alten JVC-Videorecorder (für Karaoke)
+- Weiße Gartensessel (für Karaoke-Partygäste)
+- Silver-Radiorecorder (wird als Ladehalterung für Akkus verwendet)
+- 3 Akkuladegeräte (zum Laden von Akkus in Batteriegröße) inkl. Solarladegerät
+- diverse Leerkassetten (für Aufnahmen, werden dann evtl. auf andere Konten verschoben)
+- Swingcan (zum Auflockern von Parties - war Geschenk von Partygast)
+- Diverse alte tw. kaputte Walkys (lassen sich evtl. wiederverwenden)
+- 2 weiße Lautsprecherboxen (davon eine für Radio Würmchen im BRZ)
+- 2 D-8334-Recorder (einer für Aufnahmen, einer für Hören von Radio und Kassetten)
+- 2 Holzboxen (Reserve)
+- Lötzeug (in Werkzeugkasten) zur Reparatur elektronischer Geräte
+- Sparschwein in Korb (zum Sammeln von Spenden bei Karaoke-Parties)
+- Karton mit altem JVC-Videorecorder (in Keller)
+- 2 Reserve-Kleiderhaken (für Karaoke-Partygäste)
+- Hi-Fi-Geräte: Verstärker, Hi-Fi-Videorecorder, Tapedeck (wie oben beschrieben)
+- Kassettenersatzhülle (für zerbrochene Kassettenhüllen)
+- Kiste mit Akkus und Batterien (siehe oben)
+- Ordner mit Radio-Würmchen-Unterlagen
+- diverse Dateien auf der Festplatte
+
+Hier fällt auf, daß relativ viele Dinge für Karaoke und -Parties gedacht sind.
+Eine nähere Betrachtung verdienen noch die Papierordner und die Dateien auf dem PC, da sie jeweils komprimiert relativ viel Information enthalten.
+
+Die Dateien auf der Festplatte sind einzuteilen in Daten, Programme (bzw. Datenbanken) und Musik. Die Musik liegt in MP3-Format vor, im Ordner D:\Daten\Radio Würmchen\Musik. Die Entwicklungsversion des Radio-Würmchen-Programms befindet sich auf C:\Entwicklung\Radio Würmchen. Die Datenbanken, die ständig in Verwendung sind, befinden sich auf C:\laufende Projekte\Radio Würmchen, und die Daten, die abgeschlossen sind (wie z.B. fertige Scans) sind auf D:\Daten\Radio Würmchen.
+
+Die Summe der Mieten für Radio-Würmchen-Gegenstände betragen pro Jahr (nach dem veralteten Abrechnungssystem) € 1023,96.
+	- 1 -
+

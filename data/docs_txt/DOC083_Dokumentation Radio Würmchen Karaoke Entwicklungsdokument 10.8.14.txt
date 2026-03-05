@@ -1,0 +1,345 @@
+Dokumentation Radio Würmchen Karaoke Entwicklungsdokument
+Stand: 14.8.2010
+
+Inhalt
+
+Inhalt	1
+Wesen dieser Dokumentation	1
+Einteilung der Struktur der Aktivitäten	1
+Zu behandelnde Themen aus der Dokumentation der bisherigen Hobbies	1
+Rentabilität der verschiedenen Tätigkeiten	2
+Karaoke	2
+Heimkaraoke	2
+Karaoke-Parties	3
+Externe Veranstaltungen	5
+Aufnahmen beim Karaoke	6
+Rentabilität der eigenen Karaoke-Anlage	6
+Rentabilität einer zweiten Karaoke-Anlage im Wohnzimmer	7
+Beschickung des Herzensgut-Konto von den Karaoke-Veranstaltungen	7
+Mietzahlungen	8
+Zusammenfassung, Businessplan und Abrechnungsschätzungen	8
+Durchführungsbestimmungen	8
+
+Wesen dieser Dokumentation
+
+Diese Dokumentation ist ein Entwicklungsdokument für die Karaoke-Aktivitäten von Radio Würmchen. Hier soll festgestellt werden, ob es möglich ist, die Karaoke-Projekte rentabel weiter zu betreiben.
+Einteilung der Struktur der Aktivitäten
+
+Im folgenden erfolgt eine kurze hierarchische Darstellung der Aktivitäten des Radio-Würmchen-Kontos, die für diese Dokumentation relevant sind:
+
+Radio-Würmchen-Konto
+	Musikversorgung
+		Unterstützende Tätigkeiten
+			Karaoke-Aufnahmen
+	Karaoke
+		Hauptaktivitäten
+			Heimkaraoke
+			Karaoke-Parties
+			Externe Karaoke-Veranstaltungen
+		
+Zu behandelnde Themen aus der Dokumentation der bisherigen Hobbies
+
+Aus der Dokumentation der bisherigen Hobbies sind folgende Hobbies und andere Themen, die mit Karaoke zu tun haben, zwecks Behandlung und Untersuchung an Radio Würmchen übergeben worden:
+- Karaoke-Aufnahmen (sind eine unterstützende Aktivität)
+- Karaoke allgemein
+- Vorteil einer eigenen Karaoke-Anlage gegenüber einer ausgeborgten
+
+Rentabilität der verschiedenen Tätigkeiten
+
+Mit Anfang 2006 sahen die Rentabilitätsberechnungen für die verschiedenen Formen von Karaoke-Veranstaltungen so aus:
+Heimkaraoke
+
+Einnahmen:
+Spaßwerte (24 Lieder) 5,143 Punkte = 	€ 51,94
+Anteil von Eltern: 2 * € 59,-		€ 118,-
+Zusatzspaß an Singen (8 Lieder) 0,56 P. =	€ 5,66
+Gesamteinnahmen:			€ 175,6 (ohne Papierbuchungen: € 57,6)
+
+Ausgaben:
+Miete für Videos und Player		€ 108,-
+Miete für Amiga-Monitor			€ 12,-
+Arbeitszeit (2 Stunden 25 Minuten)	€ 33,83
+Gesamtausgaben				€ 153,83 (ohne Papierbuchungen: € 33,83)
+
+Dies ergab eine Einnahmen-/Ausgabenrelation von 1,141.
+Ohne die Buchungen von und zu anderen Konten lag die Relation bei 1,703.
+
+Hier ist nun zu beachten, dass gewisse variable Kosten aber doch auftreten, da sich bestimmte Dinge mit der Zeit abnutzen. Diese sind allerdings nicht so hoch wie die hier dargestellten Gesamtkosten. Manche davon sind auch intern:
+
+Videorecorder: Dieser nutzt sich mit jeder eingelegten und abgespielten Kassette ab. Aus meinen bisherigen Erfahrungen würde ich hier mit einer Lebensdauer von ca. 10000 abgespielten Titeln rechnen, wenn nach jedem Titel die Kassette gewechselt wird. Der Videorecorder hat öS 3500 gekostet, das wären ca. € 254,34, oder aufgeteilt auf 10000 Titel 2,54 Cent pro Titel. Da bei einem Heimkaraoke normalerweise 24 Titel gesungen werden, ergibt dies Gesamtkosten von € 0,61 für den Videorecorder.
+
+Amiga-Monitor. Hier könnte man stattdessen wahrscheinlich auch einen LCD-Fernseher verwenden, deren Kosten heute bei ungefähr € 200 liegen. Die Lebensdauer würde ich, da als erstes der Schalter kaputt gegangen ist, mit ca. 3000 Ein- und Ausschaltungen annehmen, das wären in diesem Fall € 0,07 pro Veranstaltung.
+
+Videokamera: wird zum Einstellen der Titel verwendet. Ich würde hier nochmals die Kosten des Videorecorders ansetzen, also € 0,61.
+
+Karaoke-CD-Player: Dieser war zwar teurer als der Videorecorder, ist aber auch auf häufigen Wechsel der CD ausgelegt, so dass ich die gleichen Kosten wie bei Videorecorder und Kamera zusammen annehmen würde. Da jeder Titel nur auf einem der beiden Geräte abgespielt wird, erhöht dies die Kosten nicht zusätzlich.
+
+Abnutzung der Software: hier würde ich für die Wiederbeschaffung eines Einzeltitels € 3,13 annehmen, wobei ein Titel nach ca. 50 Abspielungen kaputt geht (gilt aber nur für Videokassetten). Daher kostet jeder abgespielte Titel von der Abnutzung her 6,26 Cent, das sind dann bei 24 Titeln insgesamt € 1,50 pro Veranstaltung.
+
+Tapedeck: würde ich wie den Videorecorder berechnen, wird aber durch die Karaoke-Aufnahmen bezahlt, so dass es nicht in die Gesamtkosten des Heimkaraoke einfließt. Es werden auch nur 8 Titel aufgenommen, so dass wir hier auf variable Kosten von ca. € 0,20 kommen.
+
+Es ergeben sich daher die folgenden tatsächlichen variablen Kosten, wobei die Arbeitszeit dem aktuellen Stundensatz von € 14,70 angepasst wurde:
+
+Karaoke-Software			€ 1,50
+Amiga-Monitor				€ 0,07
+Video- und CD-Player samt Kamera	€ 1,22
+Arbeitszeit (2 Stunden 25 Minuten)	€ 35,53
+Gesamtausgaben (variable Kosten)		€ 38,32
+
+Bei den oben angesetzten Einnahmen von € 175,60 ergibt dies ein E/A-Verhältnis von 4,58, was hochprofitabel ist. Das heißt mit anderen Worten, es ergibt sich ein Cash-Flow von € 137,28, der dafür verwendet werden kann, die diversen Schulden der Geräte und Karaoke-Videos bzw. -CD's abzuzahlen. Der Grundsatz, dass die verschiedenen Aktionen im Prinzip kostendeckend sein sollten, ist bei der oben dargestellten Rechnung im Prinzip auch erfüllt, wenn auch nur knapp. Allerdings trifft dies nur zu, wenn meine Eltern bereit sind, ihren Anteil von € 118.- (oder € 116,-) auch weiterhin zu zahlen. Letzten Gesprächen vom Sommer 2010 zu Folge sind sie aber dazu bereit.
+
+Langfristig könnte der Anteil der Eltern nach Abzahlung der Schulden des Karaoke-Video-Kontos dann abgesenkt werden, die Einnahmen sollten aber mindestens bei € 91,23 verbleiben, was einer Senkung des Eltern-Anteils auf € 33,63 oder € 17 pro Person entsprechen würde. Die Attraktivität des Heimkaraoke ist vorläufig NICHT als gleitend anzunehmen.
+Karaoke-Parties
+
+Beispielkalkulation für eine Party unter der Annahme von 4 Gästen (das ist etwa der Durchschnitt), 3 Familienmitgliedern und den schon genannten Durchschnittszeiten:
+
+Einnahmen:
+Grundspaß (3,5 h * 3 P = 			10,5 P)
+Singspaß 8 L				0,56 P
+Spaß an eigenen Liedern (Applaus) 	1,5 P
+Spaß Konsumation 			0,5P
+Spaß an vor- und nachherigem Reden 	5,5 P
+Gesamtspaß 				18,56 P	€ 187,46
+Support Nachtmahl (siehe Lebenserhaltung)		€ 2,20
+Anteil Eltern (2 * 59 Euro)			€ 118.-
+Wert gemachter Aufnahmen auf Kassette		€ 12,-
+Anteil Karaoke-Sänger (von mitgebrachten Titeln)	€ 18,82
+Spenden (€ 6 * 4)				€ 24,-
+Gesamteinnahmen				€ 362,48 (ohne Papiereinnahmen € 211,46)
+
+Ausgaben:
+PC-Nutzung für Einladung und Personenliste 1,5h	€ 1,50
+Einladung und Personenliste (1,5 h)		€ 21,-
+Telefon 30 Minuten à 29 Cent			€ 8,70
+Telefon 8 Minuten à 36 Cent			€ 2,88
+Vorbereitung (Inventur + Anruf) 1/4 h		€ 3,50
+7 Kopien von Anmeldezetteln à 29 Cent		€ 2,03
+Arbeitszeit für eigentliche Party (17-23h)		€ 84,-
+Miete Karaoke-Videos und -Player			€ 108,-
+Miete für Tapedeck und Videorecorder		€ 16,-
+Miete Amiga-Monitor				€ 12,-
+Anteil Miete (21 Sitzstunden)			€ 15,77
+Anteil Miete für reservierte Flächen		€ 52,88
+Vergütung Bewirtungsmaterial Eltern		€ 10,58
+Vergütung Bewirtung Eltern			€ 9,-
+Versicherungsanteil Eltern			€ 2,18
+Kontensystemsbuchungen				€ 3,60
+Arbeitszeit Abbau (45')				€ 10,50
+Gesamtausgaben					€ 364,12 (ohne Papierausgaben € 119.-)
+
+Hier fällt das E/A-Verhältnis ohne Papierbuchungen schon geringer aus. Die tatsächlichen variablen Kosten gestalten sich aber etwas anders.
+Bei den Einnahmen muss man hier den Anteil der Karaoke-Sänger herausnehmen, da diese normalerweise über kein Guthaben verfügen, um diesen Anteil bezahlen zu können.
+Bei den Ausgaben muss man die Hälfte der PC-Nutzung (also € 0,75) tatsächlich verrechnen, von den Telefongebühren bleiben ca. 10 Cent pro Minute übrig, die Anmeldezettel kosten ungefähr die Hälfte des hier dargestellten Betrages, also € 1,02.
+Die Karaoke-Software und Player wird wie schon oben verrechnet, nur hier für 38 gespielte Titel aus dem eigenen Repertoire und 50 Titel, die am Player gespielt wurden. Dies ergibt insgesamt € 2,38 für Software + € 2,54 für Player = € 4,92 pro Veranstaltung.
+Tapedeck wird wieder wie oben verrechnet, also € 0,20 für das Tapedeck. Beim Amiga-Monitor würde ich hier € 200 durch 10000 Betriebsstunden teilen, das ergibt € 0,02 pro Betriebsstunde oder € 0,08 insgesamt.
+Das Bewirtungsmaterial und die Bewirtung der Eltern treten insgesamt zu 80% auf, da auch die Arbeitszeit meiner Mutter ja real auftritt. Nur beim Einkaufen ergeben sich hier Synergieeffekte, die man berücksichtigen kann.
+
+Dies ergibt insgesamt folgende Berechnung der variablen Einnahmen und Kosten:
+
+Einnahmen:
+Grundspaß (3,5 h * 3 P = 			10,5 P)
+Singspaß 8 L				0,56 P
+Spaß an eigenen Liedern (Applaus) 	1,5 P
+Spaß Konsumation 			0,5P
+Spaß an vor- und nachherigem Reden 	5,5 P
+Gesamtspaß 				18,56 P	€ 187,46
+Support Nachtmahl (siehe Lebenserhaltung)		€ 2,20
+Anteil Eltern (2 * 59 Euro)			€ 118.-
+Wert gemachter Aufnahmen auf Kassette		€ 12,-
+Spenden (€ 6 * 4)				€ 24,-
+Gesamteinnahmen				€ 343,66
+
+Ausgaben:
+PC-Nutzung für Einladung und Personenliste 1,5h	€ 0,75
+Einladung und Personenliste (1,5 h)		€ 22,05
+Telefon 38 Minuten à 10 Cent			€ 3,80
+Vorbereitung (Inventur + Anruf) 1/4 h		€ 3,68
+7 Kopien von Anmeldezetteln à 14,5 Cent		€ 1,02
+Arbeitszeit für eigentliche Party (17-23h)		€ 88,20
+Abnutzung Karaoke-Software und Player		€ 4,92
+Abnutzung von Tapedeck				€ 0,20
+Abnutzung Amiga-Monitor			€ 0,08
+Vergütung Bewirtungsmaterial Eltern		€ 10,58
+Vergütung Bewirtung Eltern (ohne Synergieeff.)	€ 5,08
+Arbeitszeit Abbau (45')				€ 11,03
+Gesamtausgaben					€ 151,39
+
+Dies ergibt ein E/A-Verhältnis von 2,27. Dies liegt knapp über dem von täglichen Spaziergängen und diversen Lokalbesuchen. Karaoke-Parties sind daher grundsätzlich im Rahmen des Möglichen, sollten aber erst wieder angesetzt werden, nachdem die Dokumentationen und die Einlistung aller Tonträger sowie die Neuüberprüfung der Telefonkosten abgeschlossen sind. Die Attraktivität der Karaoke-Parties ist bis zu diesem Zeitpunkt NICHT als gleitend anzunehmen.
+Externe Veranstaltungen
+
+Hier wieder die Abrechung einer externen Veranstaltung zum Preis von Anfang 2006:
+
+Einnahmen:
+Grundspaß (5 h * 3,1 P = 			15,3 P)
+Singspaß 8 L				0,56 P
+Spaß an eigenen Liedern (Applaus) 	1,6 P
+Spaß Konsumation 			0,5P
+Spaß an vor- und nachherigem Reden 	2 P
+Nachtabschlag (4h) 			-8P
+Gesamtspaß 				11,96 P	€ 120,80
+Support Nachtmahl (siehe Lebenserhaltung)		€ 2,20
+Gage						€ 250,00
+Gesamteinnahmen				€ 373,00 (ohne Papierbuchungen: € 370,80)
+
+
+Ausgaben:
+Telefon 4 Minuten à 36 Cent			€ 1,44
+Vorbereitung (Inventur + Anruf) 1/4 h		€ 3,50
+9 Kopien von Anmeldezetteln à 29 Cent		€ 2,61
+Arbeitszeit für Veranstaltung (12 Stunden)		€ 168,-
+Miete Karaoke-Videos + Player			€ 120,-
+Anteil Videorecorder				€ 24,-
+Miete Amiga-Monitor				€ 12,-
+Miete Fernseher (Eltern)				€ 12,-
+Anteil Auto Eltern (2xTaxi 10 km)			€ 25,40
+Versicherungsanteil Eltern			€ 2,82
+Anteil Headset (Eltern)				€ 31,36
+Versicherungsanteil Eltern			€ 2,18
+Kontensystemsbuchungen				€ 4.-
+Gesamtausgaben					€ 409,31 (ohne Papierbuchungen: € 171,50)
+
+Hier übersteigen leider die Ausgaben die Einnahmen um ca. 10%. Ohne die Papierbuchungen ergibt sich allerdings ein E/A-Verhältnis von 2,16, was daran liegt, dass die Einnahmen hier größtenteils real auftreten, die Ausgaben aber mehrheitlich Papierbuchungen sind.
+
+Trotzdem wäre bei den variablen Kosten auch hier einiges dazuzurechnen:
+Die Telefonkosten wären wieder bei ca. 10 Cent anzusetzen.
+Die Anmeldezettel kosten wieder die Hälfte des oben angegebenen Betrages, also € 1,31.
+Für Karaoke-Videos sind hier 70 gespielte Titel anzusetzen, für den Player ebenfalls. Dies ergibt einen Abnutzungsschaden von € 4,38 für Software + € 3,56 für Player = € 7,94.
+Für den Amiga-Monitor wären hier 5 Stunden zu verrechnen, daher € 0,10, für den elterlichen Fernseher ebenfalls.
+Beim elterlichen Auto wären € 0,21 als variable Kosten anzusetzen, die Fahrzeit von meinem Vater tritt als tatsächlicher Aufwand auf, der mit ca. 1 Stunde und 40 Minuten inkl. Hilfe beim Transport bzw. Gehzeit anzusetzen wäre. Dies ergibt bei einem Tarif von € 10,- pro Stunde, den er bei der Hilfe für Gisi verrechnet, € 16,67 + € 8,40 = € 25,07, was nicht wesentlich unter den hier angenommenen Taxikosten liegt.
+
+Dies ergibt in Summe folgende Berechnung der variablen Kosten, wobei die Einnahmen gleich bleiben:
+
+Telefon 4 Minuten à 10 Cent			€ 0,40
+Vorbereitung (Inventur + Anruf) 1/4 h		€ 3,68
+9 Kopien von Anmeldezetteln à 14,5 Cent		€ 1,31
+Arbeitszeit für Veranstaltung (12 Stunden)		€ 176,4
+Abnutzung Karaoke-Videos + Player		€ 7,94
+Abnutzung Amiga-Monitor + Fernseher		€ 0,20
+Anteil Auto Eltern (2xTaxi 10 km)			€ 25,07
+Gesamtausgaben					€ 215,-
+
+Bei angenommenen Einnahmen von € 373,- ergibt sich hier ein E/A-Verhältnis von 1,735 unter der Voraussetzung, dass ich eine Gage von € 250 bekomme. Dieses Verhältnis ist im Vergleich zu anderen Tätigkeiten nicht besonders attraktiv. Es ergibt sich auch, dass ich bei einer solchen Veranstaltung Einnahmen von mindestens € 83,60 brauche, um wenigstens die variablen Kosten ersetzt zu bekommen. Im Moment müsste ich aber für eine externe Karaoke-Veranstaltung, damit sie in der Prioritätsliste an einer wählbaren Position landet, mindestens € 401,77 bekommen. Nachdem dies mehr als das Doppelte des Preises ist, der für Karaoke üblicherweise gezahlt wird (dieser lag 2005 bei ca. € 200), macht es im Moment keinen Sinn, externe Karaoke-Veranstaltungen anzubieten, wobei hier noch die Urheberrechtsproblematik mit meinem Repertoire und die Tatsache, dass ich meine Gage eigentlich auch noch versteuern sollte, zumindest wenn im größeren Maße Aufträge hereinkommen, zu berücksichtigen ist, die in den obigen Rechnungen überhaupt nicht vorkommt. Aus diesem Grund wäre im Moment von externen Karaoke-Veranstaltungen abzusehen.
+Aufnahmen beim Karaoke
+
+Die Aufnahmen beim Karaoke wurden bereits bei der Musikversorgung berechnet, deren Rentabilität ist daher dort zu finden.
+Rentabilität der eigenen Karaoke-Anlage
+
+Im folgenden wird die Rentabilität der eigenen Karaoke-Anlage herausgearbeitet.
+Dafür müssen wir uns nocheinmal vor Augen halten, was man alles zum Karaoke braucht:
+
+- Amiga-Monitor oder anderer Fernseher (meist schon zum Fernsehen vorhanden)
+- Karaoke-Videos und CD's (speziell für Karaoke)
+- Karaoke-Player (speziell für Karaoke; oder PC)
+- Karaoke-Listen (speziell angefertigt)
+- Karaoke-Anmeldezettel (speziell angefertigt)
+- Mischpult (ist auch für Musiker-Hobby vorhanden)
+- Verstärker und Boxen (ist schon von restlichem Radio Würmchen-Hobby vorhanden)
+- 3 Mikrofone (gemeinsam mit Musiker)
+- Tapedeck zum Aufnehmen der Lieder (Karaoke ist heute Hauptzweck, sonstige Zwecke müssen erst dokumentiert werden)
+- Videokamera zum Einspulen der Lieder auf Videokassetten (wird auch zum Videofilmen verwendet)
+
+Die speziell für Karaoke benötigten Dinge sind also Karaoke-Software, -Player, -Listen und -Anmeldezettel sowie das Tapedeck für die Aufnahme.
+Die Software wurde in ein eigenes Konto ausgelagert und wird dort noch dokumentiert, ebenso wie die Karaoke-Player und -Listen, die auch dort beheimatet sind. Die Anmeldezettel sind im Prinzip Verbrauchsmaterial. Das Tapedeck bleibt als eigene Investition, wurde aber bereits oben bei den Karaoke-Aufnahmen ansatzweise behandelt. Die anderen Geräte können einmal außer Acht gelassen werden, deren Mitverwendung für Karaoke wäre aber bei deren Dokumentation zu berücksichtigen. Betroffene Konten: Musiker (Mischpult und Mikrofone), Amiga (Monitor) und Konto, das die Videokamera verwaltet (dieses wäre noch zu bestimmen).
+
+Falls überhaupt keines der Geräte vorliegen würde, müßte man die Karaoke-Anlage für jede Veranstaltung ausborgen. Dies kostet:
+€ 145.- für den Player samt CD's
+€ 14.- für 2 Mikrofone
+€ 123.- für die Tonanlage
+€ 20.- für das TV-Gerät
+Das macht insgesamt € 302. Dazu kommt noch der Transport.
+Mit einem Taxi kostet die Fahrt nach Hagenbrunn, wo MSV stationiert ist (ca. 6 km außerhalb Wiens + 10 km innerhalb Wiens) inkl. Trinkgeld ca. € 26 pro Fahrt. Da 4 Fahrten nötig sind, kostet der Transport insgesamt nocheinmal € 104. Dazu kommen noch 2 Stunden Arbeitszeit für das Abholen und Zurückbringen der Anlage, das sind noch einmal € 29,40 Gesamtsumme: € 435,40. Für diese Summe kann man die Anlage für einen Tag mieten.
+
+Im Vergleich dazu die derzeitigen Kosten der Geräte, wenn man sie kauft:
+Player: € 70 (hier reicht ein billiger DVD-Player)
+50 CD's: € 1100 
+2 Mikrofone: € 200
+Tonanlage (Verstärker, Mischpult + Boxen, Kabel): € 700
+TV-Gerät: € 100 (in der vorhandenen Qualität)
+Erstellung der Listen (700 Titel): € 165 (incl. Papier und PC)
+Gesamt: € 2335
+
+Dazu kommen die Einkaufs- und Inbetriebnahmekosten von schätzungsweise 40% (€ 934 - ausgenommen Listen)
+Gesamtkosten: € 3269
+Vergleicht man dies mit den € 434 Kosten für das Ausborgen einer Anlage, dann kommt man zu dem Schluß, dass sich die Anlage nach 8 Veranstaltungen gerechnet hat... vorausgesetzt, man ist überhaupt bereit, soviel dafür auszugeben.
+
+Beim Selbstkauf sind aber noch die Mietkosten für den belegten Platz zu berücksichtigen. Auf Grund der vorhandenen Geräte können diese wie folgt geschätzt werden...
+Player € 30/Jahr
+2 Mikrofone € 30/Jahr
+Verstärker € 30/Jahr
+Boxen € 22/Jahr
+TV-Gerät € 90/Jahr
+CD's € 30/Jahr
+Gesamt € 232/Jahr
+
+Kombiniert man die Einkaufs- und Mietkosten mit verzinsten Abschreibungen über 5 Jahre, so bekommt man:
+€ 3269 * 5,062 / 23,22222 = € 712,59 Einkauf + Abschreibung
+€ 232 Miete
+Gesamt: € 944,59 pro Jahr.
+Das heißt, man braucht mindestens 3 Veranstaltungen pro Jahr über 5 Jahre hinweg, damit sich die Anlage rechnet. Dies scheint auch mit dem oben skizzierten Veranstaltungsablauf (derzeit nur Heimkaraoke) gegeben zu sein, so dass die Anlage hiermit gerechtfertigt wäre. Nachdem die Anlage auch bereits existiert, ist diese Rechnung auch nur bedingt relevant und bezieht sich daher nur auf eventuell nötige Reparaturen an verschiedenen Geräten.
+Rentabilität einer zweiten Karaoke-Anlage im Wohnzimmer
+
+Eine zweite Karaoke-Anlage im Wohnzimmer, wie sie Papa einmal vorgeschlagen hat, würde folgende Kosten aufwerfen:
+
+1 Mikrofon: € 110
+Mischpult, Verstärker und Boxen: € 700
+Tapedeck: € 170.-
+Gesamt: € 810.- + Beschaffungskosten € 324 = € 1134.- -> Abschreibung pro Jahr € 247,19
+
+Dazu kämen noch zusätzliche Mietzahlungen für die zusätzlichen Geräte:
+Mikrofon... € 15 / Jahr
+Mischpult... € 30 / Jahr
+Verstärker € 30 / Jahr
+Boxen € 22 / Jahr
+Tapedeck € 30 / Jahr
+Gesamt: € 127 pro Jahr
+
+Die Summe der Abschreibungen und Mieten, dividiert durch 11 Parties pro Jahr, ergeben pro Party € 34,02. Dies liegt über den Auf- und Abbaukosten von € 25,50 pro Party (für 1 3/4 Stunden) und rechnet sich somit nicht. Nicht eingerechnet ist hier noch das Risiko, daß es in den nächsten 5 Jahren nicht je 11 Parties geben könnte.
+Man könnte nun argumentieren, daß es vielleicht sinnvoll wäre, nicht alle Geräte neu zu beschaffen, sondern nur die billigeren, und die teureren weiter auf- und abzubauen. Das Problem dabei wäre dann nur, daß sich der Aufwand nicht proportional zu der Anzahl der Geräte reduziert, da bestimmte Verkabelungen immer 2 Geräte betreffen und abgebaut werden müssen, wenn nur eines der Geräte entfernt wird. Weiters bilden die Geräte im Wohnzimmer bei den Parties einen Turm, und es ist nicht so einfach, eines der Geräte aus dem Turm zu entfernen und ins Kabinett zu tragen. Aus diesem Grund muß auch dieser Vorschlag leider als unbrauchbar verworfen werden.
+Beschickung des Herzensgut-Konto von den Karaoke-Veranstaltungen
+
+Das Herzensgut-Konto nimmt im Prinzip Überschüsse aus Synergieeffekten auf. Solche Synergieeffekte treten aber bei der bisherigen Berechnungsart im Rahmen von Karaoke-Aktivitäten kaum auf. Eventuell wäre hier anzudenken, bei Gagen zu externen Karaoke-Veranstaltungen einen Teil an das Herzensgut-Konto abzuführen, auch bei Karaoke-Parties wäre eventuell ein kleiner Teil der Spenden dorthin abzuzweigen. Dies sollte aber im Einzelfall geklärt werden, da im Moment zumindest für die nächste Zukunft keine weiteren Karaoke-Parties und externe Veranstaltungen geplant sind.
+Mietzahlungen
+
+Für Karaoke-Veranstaltungen erfolgen keine speziellen Mietzahlungen, diese werden von Radio Würmchen allgemein erledigt.
+
+Zusammenfassung, Businessplan und Abrechnungsschätzungen
+
+Hier nun die einmaligen (noch offenen) und jährlichen geschätzen Einnahmen und Ausgaben aus den beschriebenen Projekten:
+
+Einnahmen:
+Heimkaraoke: 20,57 Spaßpunkte pro Jahr + € 472 aus Eltern-Anteilen = € 679,78
+
+Ausgaben:
+Heimkaraoke: € 153,83 * 4 = € 615,32
+
+Dies ergibt einen Cash-Flow für das Radio-Würmchen-Konto von € 64,46, mit dem die von Radio Würmchen selbst getätigten Investitionen (Geräte) und die Mietanteile mitfinanziert werden können.
+
+Die variablen Kosten (ohne Buchungen von und zu anderen Konten) betragen davon:
+
+Einnahmen:
+Heimkaraoke: € 57,6 * 4 = € 230,40
+
+Ausgaben:
+Heimkaraoke: € 33,83 * 4 = € 135,32
+
+Dies ergibt einen Cash-Flow für das Kontensystem insgesamt von € 95,08 pro Jahr, von dem etwaige Investitionen in Anlage, Software usw. sowie Zinsen bezahlt werden sollten.
+
+Insgesamt sollten durch das Karaoke pro Jahr somit ca. 20,57 Spaßpunkte auftreten und 9,67 Stunden verbraucht werden.
+
+Durchführungsbestimmungen
+
+Die verschiedenen möglichen Karaoke-Aktionen werden in die Prioritätsliste wie folgt aufgenommen:
+
+Heimkaraoke: E/A-Verhältnis 4,58, wenn von Eltern gewünscht (unter der Voraussetzung, dass sie der Verrechnung des bisher vereinbarten Anteiles von € 59 / Person zustimmen)
+
+Karaoke-Parties: E/A-Verhältnis 2,27, unter der Voraussetzung, dass meine Eltern auch hier der Verrechnung des bisher vereinbarten Anteiles von € 59 / Person zustimmen
+
+Externe Veranstaltungen: E/A-Verhältnis 1,735 bei € 250,- Gage.
+
+Nach aussen hin ist folgendes zu kommunizieren:
+
+Heimkaraoke: ist jederzeit möglich, wenn von meinen Eltern gewünscht (mit der bisherigen Pauschale von € 59,- pro Person)
+Karaoke-Parties: werden erst nach Fertigstellung der Dokumentations-, Telefon- und Tonträgerarbeiten fortgesetzt (mit der bisherigen Pauschale von € 59,- pro Person für meine Eltern)
+Externe Veranstaltungen: werden derzeit nicht aktiv beworben oder durchgeführt, ausser ich bekomme dafür mehr als € 400,- pro Veranstaltung (was unrealistisch ist).
+	- 8 -
+

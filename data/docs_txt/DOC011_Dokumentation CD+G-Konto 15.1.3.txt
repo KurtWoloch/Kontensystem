@@ -1,0 +1,103 @@
+Dokumentation zum CD+G-Konto von Kurt Woloch
+Stand: 19.9.2010
+Dokumentenstatus: intern, Zielgruppe: ich selbst, eventuell meine Eltern
+
+Gegenstand dieses Kontos	1
+Geschichte des CD+G-Kontos	1
+Derzeitige Betätigungsfelder des CD+G-Kontos	2
+Das Autorensystem ClearSwipe	2
+Aquisition neuer Karaoke-Titel	2
+Verkauf von Karaoke-CD's	3
+Businessplan	3
+Prioritätenliste	4
+PC-Dateien	4
+
+Gegenstand dieses Kontos
+
+Das CD+G-Konto wurde nach dem mit CD+G abgekürzten Standard CD+Graphics benannt, der sich mit der Speicherung von Grafiken auf Audio-CD's beschäftigt. Dabei werden die sogenannten Subcode-Channels mit Befehlen belegt, die jeweils eine auf einem Bildschirm dargestellte Grafik modifizieren. Diese Grafik stellt 16 von 4096 möglichen Farbtönen in einer Auflösung von 192x288 Pixeln zuzüglich eines unsichtbaren Bereiches, der für Scrolling verwendet wird, dar. Hauptsächlich wird dieser Standard für Karaoke-CD's verwendet.
+
+In meinem Fall beschäftigt sich dieses Konto aktuell mit einem selbstgeschriebenen Karaoke-Autorenprogramm namens ClearSwipe, weiters auch mit der Herstellung von Karaoke-Titeln im CD+G-Format und mit ihrer Beschaffung aus dem Internet.
+Geschichte des CD+G-Kontos
+
+Das CD+G-Konto hieß am Anfang "Karaoke-Verein" und wurde bei Besuchen des Karaoke-Vereins gefüttert. Da der Karaoke-Verein wirtschaftlich allerdings sehr eng mit MSV verflochten war, was wiederum der bekannteste Vertreiber und Händler für Karaoke-CD's in Österreich war und ist, wurde das Konto nach Auflösung des Karaoke-Vereins umbenannt in CD+G und erstreckte sich nun auf alle CD+G's. Das angesammelte Geld sollte dazu verwendet werden, das CD+G-Format zu erforschen, um eine Produktion von CD+G's zu ermöglichen.
+
+Im Zuge der ansonsten mißlungenen Produktion der Austro-Karaoke-CD im Jahr 1994 kam ich dann an die offizielle Spezifikation des CD+G-Standards von Philips und Sony. Was darin nur fehlte, war der Reed-Solomon-Code, den ich dann versuchte, in Universitätsbibliotheken und im Normierungsinstitut nachzulesen.
+
+Im Jahr 2001 war ich dann endlich soweit, dass ich mit der Entwicklung des CD+G-Autorensystems unter dem Namen KWCG anfangen konnte. Dies wurde auf Kosten des CD+G-Kontos entwickelt und kostete ca. öS 100.000, wovon ich einen kleinen Teil von Nick Gisburne für die Verkäufe von Karaoke Builder wieder zurück bekam.
+
+Der Rest wurde über einen Umweg ausgeglichen, und zwar bekam ich von Nick Gisburne Tipps, wo ich Karaoke-Titel herunterladen könne, einmal über eine Newsgroup und andererseits über einen Chat (obwohl ich letzteren, soweit ich mich erinnern kann, an Hand der Newsgroup kennen lernte). Dieses Herunterladen besorgte dann auch das CD+G-Konto und verkaufte die fertigen gebrannten CD+G's dann gewinnbringend an das Karaoke-Video-Konto. Am Ende dieser Aktion blieben zwar immer noch mehrere tausend Euro an Schulden zurück, diese konnten aber bei der teilweisen Rückzahlung der PC-Gebühren ausgeglichen werden. Ein Problem hatte nun nur das Karaoke-Video-Konto, das nach dieser Aktion immer noch Schulden von ca. € 7200 hatte. Aber zumindest aus damaliger Sicht gab es beim Karaoke-Video-Konto laufende Einnahmen in ausreichender Höhe, dass die Schulden im Laufe der Zeit wieder gedeckt werden könnten. Näheres dazu findet sich dann in der Dokumentation des Karaoke-Video-Kontos.
+
+In den Jahren danach gab es dann nur noch kleinere Arbeiten am Karaoke-Autorensystem, die durch sporadische Verkäufe desselben und auch durch weitere Aufnahme von Karaoke-Titeln in das Repertoire gedeckt wurden, die teilweise von Karaoke-Sängern und teilweise wieder aus dem Internet kamen.
+Derzeitige Betätigungsfelder des CD+G-Kontos
+
+Im Moment beschäftigt sich das CD+G-Konto mit folgenden Geschäftsbereichen:
+
+- Weiterentwicklung, Support und Verkauf des Autorensystems "ClearSwipe"
+- Produktion und Beschaffung neuer Karaoke-Titel für das Karaoke-Video-Konto
+- Verkauf von Karaoke-CD's
+Das Autorensystem ClearSwipe
+
+Das Autorensystem ClearSwipe ist praktisch ein vollwertiges Autorensystem für Karaoke-CD's im Format CD+G. Es hat zwar einige Fehler, die ärgerlichsten Fehler aus der Sicht der Kunden sind aber bei einem großen Bearbeitungsschub von Oktober 2009 bis März 2010 ausgebessert worden. Es verbleiben nur immer wieder auftretende "Hänger" beim Einfärben von Karaoke-Titeln.
+
+Eine genauere Beschreibung gibt es in der Anleitung zum Programm. Eine technische Dokumentation möchte ich mir hier ersparen, da sie ziemlich aufwändig herzustellen wäre.
+
+Das Programm ist im Prinzip fertig und verkaufbar. Die dazugehörige Homepage befindet sich auf http://clearswipe.webs.com, bis auf den Download der Demo-Version (siehe unten). Da sich auf Gratis-Webs-Accounts keine Dateien hosten lassen (ausser Bilder), wurde dafür ein eigener Account geöffnet, und zwar bei http://www.datafilehost.com/d/23c17937. Dort funktioniert das Hosten des Downloads ohne Probleme, allerdings muss die Datei öfter als alle 30 Tage heruntergeladen werden, um nicht gelöscht zu werden. Daher sollte grundsätzlich darauf geachtet werden, dass die Download-Seite mindestens alle 30 Tage betreten wird, damit er aktiv bleibt.
+
+Der Delete-Link ist erreichbar unter http://www.datafilehost.com/delete-23c1793710476214. 
+
+Generell sollte ich mehr mit dem Autorensystem "hinausgehen" und versuchen, es zu bewerben, so dass ich auch Käufer finde. Im Moment habe ich den Eindruck, es kauft deswegen niemand, weil es niemand kennt bzw. niemand weiß, dass es existiert.
+
+Das Dilemma dabei ist, dass dies wieder im Endeffekt eine Aktion wäre, die dazu dienen sollte, Geld zu verdienen, und dies sollte eigentlich mittlerweile nicht mehr mein Ziel sein, sondern diese sollte sein, Dinge zu tun, die mir Spaß machen. Deswegen schrecke ich eher davor zurück 
+
+ClearSwipe kann als Demo-Version also aus dem Internet heruntergeladen werden. Möchte jemand das Programm kaufen, dann schicke ich ihm persönlich per E-Mail eine persönliche Version, bei der die Einschränkungen der Demo-Version (Limitierung auf 1 Minute) freigeschalten sind, und bei der beim "Splash-Screen" der Name same Adresse bzw. E-Mail-Adresse des Käufers erscheint. Dies ist meine Art von "Kopierschutz". Die Bezahlung wird jeweils individuell mit dem Kunden vereinbart. Der Verkaufspreis für ClearSwipe beträgt im Moment € 70,-.
+
+Erwähnenswert wäre auch noch der Support des Autorensystems, der stattfindet, wenn ich mich mit Leuten über das Internet über das Programm unterhalte oder ihnen mit Rat und Tat beistehe. Diese Tätigkeit bringt normalerweise einen Spaßpunkt pro Supportfall, was zusätzlich zu den Verkaufspreisen des Autorensystems noch Gewinne hineinbringen kann.
+Aquisition neuer Karaoke-Titel
+
+Das CD+G-Konto ist auch zuständig für die Aquisition neuer Karaoke-Titel. Dabei werden die gewünschten Titel aus der Karaoke-Wunschliste aus dem Internet kopiert oder von anderen Karaoke-Sängern als Dateien geliefert, dann entsprechend aufbereitet und auf eine CD+G gebrannt. Diese CD+G wird dann zum "Markttarif" an das Karaoke-Video-Konto verkauft. Dabei sollte aber beachtet werden, dass diese Aktion nur dann möglich ist, wenn am Karaoke-Video-Konto auch genügend Guthaben vorhanden ist, um sie durchzuführen, da das Karaoke-Video-Konto sonst nicht in der Lage ist, die fertige CD+G zu kaufen.
+
+Bei dieser Aktion wird das Karaoke-Sänger-Konto, falls von Karaoke-Sängern für diesen Zweck Dateien gekommen sind, mit der Summe entschädigt, die normalerweise für die Nutzung der entsprechenden Menge an Karaoke-Titeln vom Karaoke-Video-Konto von anderen Kunden verlangt würde (siehe Tarif unten).
+
+Für das Herunterladen von Karaoke-Titeln sind mir im Moment 2 Quellen bekannt: die Newsgroup alt.binaries.sounds.karaoke und der IRC-Chat #cdg auf efnet. Ich bin aber nicht sicher, was in den letzten Jahren aus diesen Quellen geworden ist, da ich schon einige Jahre lang nichts mehr von dort herunter geladen habe.
+
+Der Chatkanal ist aber relativ schwierig aufzusetzen. Man muss dafür nämlich ein Dateisystem aufsetzen mit einigen Skripts (Ruction), damit andere Chatteilnehmer automatisiert Karaoke-Titel herunterladen können. Darunter sollten sich auch mindestens 5 komplette Karaoke-CD's befinden. Erst dann bekommt man eine "Voice" von einem Administrator und darf auch von anderen Karaoke-Titel herunterladen.
+
+Von dort wird dann versucht, die richtigen Titel herunter zu laden. Von den meisten Titeln gibt es mehrere Versionen, so dass ich versuche, alle in Frage kommenden Versionen herunter zu laden und zu testen. Die beste Version kommt dann auf die fertige CD+G.
+
+Schätzungsweise dauert die Aquisition eines Karaoke-Titels aus dem Chatkanal oder der Newsgroup insgesamt ca. 20 Minuten, was auf Kosten von ca. € 5,31 pro Titel herausläuft.
+
+Der Verkaufspreis für einen Titel, der sogenannte "Marktpreis", wird immer wieder neu berechnet und hängt auch davon ab, wieviel Wünsche der Titel auf sich vereinigen konnte. Meist liegt er aber zwischen 5 und 10 Euro pro Wunschstern. Dies bedeutet, dass Titel mit nur einem halben Wunschstern (das heisst, sie wurden nur von einem einzigen Karaoke-Sänger gesungen und nicht gewünscht) nicht attraktiv genug sind, um auf diese Weise ins Repertoire genommen zu werden.
+
+Schließlich werden auch Karaoke-Titel neu produziert. Dies erfolgt aber gewöhnlich durch das Karaoke-Video-Konto, das für diesen Zweck das Autorensystem vom CD+G-Konto "anmietet", und zwar zu einem festgesetzten Preis pro Titel, der im Moment € 8,21 beträgt, das sind 11,72% des Verkaufspreises des Autorensystems.
+Verkauf von Karaoke-CD's
+
+Hin und wieder kommt es auch vor, dass andere Leute Interesse an meinen Titeln haben. Dies können entweder selbst produzierte oder auch kopierte Karaoke-CD's sein. In diesem Fall ist das CD+G-Konto dafür zuständig, die Titel bzw. CD's herzustellen und zu verkaufen. Handelt es sich hierbei um Titel, die ich selbst noch nicht im Repertoire hatte, dann werden normalerweise die Titel auch an das Karaoke-Video-Konto verkauft.
+
+Alternativ können diese Aktionen auch durch das Karaoke-Sänger-Konto vorgenommen werden, wenn der Verkauf an Karaoke-Sänger erfolgt. In diesem Fall werden das Autorensystem und etwaige Playbacks, die direkt von den heruntergeladenen oder von Sängern bekommenen Karaoke-Dateien genommen werden (nicht von existierenden CD's) vom CD+G-Konto genommen, gegen Zahlung der entsprechenden Tantiemen.
+
+Derzeit beträgt der Tarif für verkaufte Karaoke-CD's € 17,50 für eine CD mit 2 Titeln darauf und € 2,50 für jeden weiteren Titel, der dazu kommt. Wird eine CD geschlossen kopiert, so kostet die Kopie € 22,-. Der gleiche Tarif gilt auch für das Ausborgen von Karaoke-CD's und -Videokassetten, aber mit einem Zusatztarif von € 10,- für einen Titel und einer Obergrenze von € 108,- pro Abend (das entspricht der Miete für die ganze Anlage).
+
+Näheres zu diesen Tarifen wird noch in der Dokumentation des Karaoke-Video-Kontos ermittelt.
+Businessplan
+
+Zum CD+G-Konto läßt sich kein Businessplan erstellen, da es in hohem Maße vom Karaoke-Video-Konto abhängig ist, das noch nicht dokumentiert wurde. Es ist auch nicht absehbar, wie gut sich das Autorensystem, zu dem nun die meiste Arbeit getan ist, in Zukunft verkaufen wird. Dies hängt auch davon ab, wie gut ich es bewerben werde.
+
+Hier nur noch einige Eckdaten:
+
+- Pro Jahr kommen bei vollem Karaoke-Betrieb (wie er bis zum Jahr 2005 geherrscht hat) ca. 200 neue Titel in die Wunschliste, die insgesamt 200 Wunschsterne auf sich vereinigen. Das heißt, der Kaufwert dieser Titel beträgt € 1000-2000, wenn die Wünsche alle erfüllt werden. Dies ist allerdings auch davon abhängig, dass das Karaoke-Video-Konto mindestens so viele Einnahmen macht, dass diese Ausgaben auch finanziert werden können, und dafür sieht es im Moment eher schlecht aus.
+- Im Jahr 2005 betrugen die Einnahmen und Ausgaben des CD+G-Kontos jeweils ca. € 1200 - € 1500, inklusive der Verkäufe meines Autorensystems und dem Supportspaß, der ca. 30% der Einnahmen brachte. Vom Karaoke-Video-Konto kamen auch ca. 30% der Einnahmen.
+Prioritätenliste
+
+Derzeit befindet sich in der Prioritätsliste kein Eintrag für das CD+G-Konto. Eventuell könnte man dort die Werbung für das Autorensystem eintragen, aber ich bin nicht sicher, wie hier das Einnahmen-/Ausgabenverhältnis aussehen könnte, so dass aus diesem Titel auch keine Eintragung in die Prioritätsliste möglich ist.
+
+Was aber eingetragen sollte, ist die regelmäßige Reaktivierung des Downloadlinks (freei.me-Account), damit dieser Account für meine Homepage aktiv bleibt.
+PC-Dateien
+
+Auch das CD+G-Konto hält verschiedene Dateien am PC. Abgesehen von der Dokumentation gibt es hier das Entwicklungsverzeichnis für das Autorensystem ClearSwipe sowie die Dateien zur Homepage, auf der es beworben wird.
+
+Abgesehen davon gibt es noch (von früher) etliche heruntergeladene und kopierte Karaoke-Dateien, die größtenteils auf CD's und DVD's gesichert sind (teilweise unter dem Titel "Not to burn" für Dateien, die nicht auf CD gebrannt werden sollten, weil es bessere Versionen gibt, und "Yet to burn" für Dateien, die noch gebrannt werden sollten).
+2
+
+
+	- 1 -
+

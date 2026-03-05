@@ -1,0 +1,83 @@
+
+CODE COVERAGE REPORT - KONTENSYSTEM ACTIVITIES (March 3-5, 2026)
+=====================================================================
+
+1. SUMMARY STATISTICS
+---------------------
+Total Active Logged Time: 1875 minutes
+Time Logged with Valid 6-Char Codes: 1441 minutes
+Time Logged without Codes (Uncoded/Unmatched): 426 minutes
+Time Logged with Invalid Prefix Codes: 8 minutes (Code: TVSCRA)
+**Code Coverage (Valid Codes / Total Time): 76.9%**
+
+Total Unique Uncoded Activities: 55
+    - Matchable to Master List: 18
+    - Unmatched (Requires New Code Assignment): 37
+    - Recurring Patterns (2+ occurrences): 8
+
+2. RANKED ACTIVITIES WITHOUT CODES (Top 30 by Total Time)
+-----------------------------------------------------------
+Rank | Minutes | Occurrences | Lists/Days | Activity Name (Truncated) | SUGGESTION/STATUS
+-----|---------|-------------|------------|---------------------------|--------------------
+1    | 39      | 14x         | ungeplant  | Bearb. Essensplan           | SUGGEST: LEEPVO (exact match)
+2    | 38      | 1x          | ungeplant  | Erweiterung Tagesplanung mit OpenClaw | UNMATCHED
+3    | 35      | 1x          | ungeplant  | Bearbeitung Tagesplaner mit OpenClaw | UNMATCHED
+4    | 26      | 2x          | ungeplant  | Bugfixing Tagesplanung mit OpenClaw | UNMATCHED
+5    | 23      | 1x          | ungeplant  | Nacherfassung Ablauf ca. 20:00-22:33 (in neuem Planungstool) | UNMATCHED
+6    | 23      | 1x          | ungeplant  | Verbesserung Tagesplaner mit OpenClaw | UNMATCHED
+7    | 20      | 1x          | ungeplant  | Lesen OpenClaw memories / Moltbook postings | UNMATCHED
+8    | 19      | 8x          | Liste_Morgentoilette, Liste_Morgentoilette, ... | Scan Radio Arabella | SUGGEST: RWMPMP (exact match)
+9    | 14      | 1x          | ungeplant  | Erweiterung Tagesplaner mit OpenClaw | UNMATCHED
+10   | 13      | 3x          | ungeplant  | Konversation mit Andrew Pappas / Thinking Frequencies | UNMATCHED
+11   | 11      | 1x          | ungeplant  | Diskussion mit OpenClaw / Bauen Tagesauswertung | UNMATCHED
+12   | 10      | 1x          | Liste_Arbeit | Arbeit mit OpenClaw an Moltbook-Bug (New Followers) in Heartbeat-Skrip | UNMATCHED
+13   | 9       | 2x          | Liste_Morgentoilette | Bearb. Essensplan (Fs.) | SUGGEST: LEEPVO (stripped match)
+14   | 8       | 1x          | ungeplant  | Surfen Andon FM / Tweet Thinking Frequencies | SUGGEST: RWYTPL (prefix match)
+15   | 8       | 1x          | ungeplant  | Arbeit an Tagesplaner mit OpenClaw | UNMATCHED
+16   | 8       | 1x          | ungeplant  | Korr. Tagesplanung mit OpenClaw | UNMATCHED
+17   | 7       | 1x          | ungeplant  | LE - Zubereitung Earl-Gray-Tee / Mini Schokokekse fassen | UNMATCHED
+18   | 6       | 1x          | ungeplant  | Bearb. Essensplan (H��ndlerangebote / Untersuchung offene Protoko | SUGGEST: LEEPVO (prefix match)
+19   | 6       | 1x          | ungeplant  | Tweet an Thinking Frequencies / Andrew Pappas | UNMATCHED
+20   | 6       | 2x          | ungeplant  | Surfen Moltbook | UNMATCHED
+21   | 5       | 1x          | ungeplant  | Bearb. Essensplan / Surfen Spaghetti in Buttersauce | SUGGEST: LEEPVO (prefix match)
+22   | 5       | 1x          | Liste_nach_Heimkunft | Auspacken Essensplan / Herunterfahren Laptop | SUGGEST: LEEPAU (prefix match)
+23   | 5       | 1x          | ungeplant  | Absetzen Moltbook-Message fǬr Heartbeat-Agenten | UNMATCHED
+24   | 5       | 1x          | ungeplant  | Diskussion mit OpenClaw (Umschreiben Planung) | UNMATCHED
+25   | 5       | 1x          | ungeplant  | Konversation mit Thinking Frequencies / Andon FM | UNMATCHED
+26   | 4       | 1x          | ungeplant  | Tweet an Thinking Frequencies (AI radio station) | UNMATCHED
+27   | 4       | 1x          | Lebenserhaltung | Teller waschen / Soja-Drink fassen | SUGGEST: LENATW (prefix match)
+28   | 4       | 1x          | Liste_Morgentoilette | Anh��ren div. Andon Labs-Stationen | UNMATCHED
+29   | 4       | 1x          | ungeplant  | Tweet an Thinking Frequencies | UNMATCHED
+30   | 4       | 4x          | ungeplant  | Surfen Andon FM | SUGGEST: RWYTPL (exact match)
+
+(Further 25 uncoded activities follow in the file, totaling 426 minutes.)
+
+3. SUGGESTED CODE ASSIGNMENTS (18 Matchable Items)
+-------------------------------------------------
+| Activity Name Pattern | Suggested Code | Match Method | Master Task Name |
+|-----------------------|----------------|--------------|------------------|
+| Bearb. Essensplan     | LEEPVO         | exact        | Bearb. Essensplan |
+| Scan Radio Arabella   | RWMPMP         | exact        | Scan Radio Arabella / Radio WǬrmchen / Tonträger / OhrwǬrmer |
+| Surfen Andon FM       | RWYTPL         | exact        | Vorbereitung Playlist fǬr Hören unter der Dusche |
+| MailprǬfung          | INMAPR         | exact        | MailprǬfung |
+| Bearb. Essensplan (Fs.) | LEEPVO         | stripped     | Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) |
+| Auspacken Essensplan / Herunterfahren Laptop | LEEPAU | prefix | Auspacken Essensplan |
+| Teller waschen / Soja-Drink fassen | LENATW | prefix | Teller waschen / Getränk + Medikament fassen |
+| WC                    | LEMTWC         | exact        | WC |
+| ... (10 more matches) ... |                |              |                  |
+
+4. RECURRING UNPLANNED PATTERNS REQUIRING CODES
+-------------------------------------------------
+The following recurring activities accounted for significant time and need permanent codes:
+- **Bearb. Essensplan** (39 min total, 14 occurrences): Should use **LEEPVO** or the most specific existing 'LEEP*' code.
+- **Scan Radio Arabella** (19 min total, 8 occurrences): Should use **RWMPMP**.
+- **Bugfixing Tagesplanung mit OpenClaw** (26 min total, 2 occurrences): Time spent on *fixing the planner* itself. **UNMATCHED**.
+- **Erweiterung/Verbesserung Tagesplanung mit OpenClaw** (38+23 min total, 2 occurrences): Pure metadata/tool maintenance. **UNMATCHED**.
+- **Konversation mit Andrew Pappas / Thinking Frequencies** (13 min total, 3 occurrences): Social/Knowledge work related to Radio Würmchen. **UNMATCHED**.
+- **Surfen Moltbook** (6 min total, 2 occurrences): Social research/browsing. **UNMATCHED**.
+
+5. RECOMMENDATIONS
+------------------
+1.  **Prioritize New Codes for Planning Work:** The most time-consuming uncoded activities relate directly to planning system maintenance ('Bugfixing Tagesplanung mit OpenClaw', 'Erweiterung Tagesplanung mit OpenClaw', etc.). These 4 activities total **122 minutes** and must receive new codes under the **KS** (Kontenverwaltung) or **PC** (PC) accounts. Suggestion: Create `KSPLAN` for planning maintenance or use `PCOCMB` for all OpenClaw/Moltbook related tool maintenance.
+2.  **Invalid Code Fix:** The activity logged with code **TVSCRA** (8 min) is invalid as 'TV' is not a known account prefix. This entry should be corrected to a known code or merged with another activity.
+3.  **Consolidate Social Research:** The 'Konversation mit Andrew Pappas' and 'Surfen Moltbook' activities should be formalized under the **RW** (Radio Würmchen) or **CS** (Computerspiele) accounts, respectively, if they are knowledge gathering for Radio Würmchen development.

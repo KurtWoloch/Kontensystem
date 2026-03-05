@@ -1,0 +1,223 @@
+Dokumentation Musikversorgung Radio Würmchen Entwicklungsdokument (Ergänzung)
+Stand: 27.9.2009
+Dokumentenstatus: vertraulich, Zielgruppe: ich (einzelne Inhalte werden evtl. überarbeitet einem größeren Kreis zugänglich gemacht)
+
+Inhalt
+
+Inhalt	1
+Ziel dieser Dokumentation	1
+Rentabilitätsberechnung für Badesendungen	1
+Einnahmen	1
+Ausgaben	2
+Andere Möglichkeiten	2
+Mögliche Ausgleichszahlungen seitens Eltern	3
+Vergleich bezüglich der Nebenbeitätigkeiten	3
+Korrektur wegen Aufmerksamkeitsdefizit	5
+
+Ziel dieser Dokumentation
+
+Diese Dokumentation ergänzt die Dokumentation von Radio Würmchen um 2 Fragen, die aufgetaucht sind, und die bei der ursprünglichen Dokumentation nicht behandelt wurden:
+- Wie sieht es mit der Rentabilität von Radio Würmchen unterwegs, insbesondere der Badesendungen, insgesamt aus?
+- Vergleich des Hörens von Radio / Radio Würmchen / Tonträgern mit Aktivitäten, während denen dies nicht möglich ist, und wie sich dies aus die Aktivitäten mit und ohne möglichem gleichzeitigen Content-Hören rechnungsmäßig auswirkt
+
+Anmerkung: In dieser Dokumentation ist oft von "Inhalt" die Rede, dies ist ein Sammelbegriff für alles, was man im Radio oder auf Tonträgern hören kann, also Musik, Informationssendungen und auch sonstige Aufnahmen, und ist eine Übersetzung des englischen Begriffes "Content", der normalerweise in diesem Sinne verwendet wird.
+
+Rentabilitätsberechnung für Badesendungen
+
+Bei Badesendungen besteht die Gesamtaktivität, die gesetzt wird, aus mehreren Einzelelementen, von denen jedes für sich gesehen zu wenig attraktiv wäre, um bestehen zu können. Diese Aktivitäten gehören normalerweise auch noch verschiedenen Lebensbereichen an:
+- Musik bzw. andere Tonträger hören (Radio Würmchen)
+- Schwimmen (Gesundheit)
+- Lesen (Literatur)
+
+Aus diesem Grund ist es interessant, wie die Gesamtaktivität rechnungsmäßig für mich aussieht.
+Einnahmen
+Man kann einmal davon ausgehen, dass ich im Rahmen von "Radio Alte Donau" oder ähnlichen Sendungen ca. 2 Stunden Inhalt pro Badetag höre (inklusive der Musik, die im Auto gespielt wird).
+Da ich diese aber gemeinsam mit meinen Eltern höre, erreicht dieser Inhalt nicht so einen hohen Wert, wie wenn ich alleine hören würde.
+
+Für den letzten Badetag im Sommer 2009 (den 10.9.2009) wurde ein Durchschnittswert von 0,99 Punkten erreicht. Dazu kommt die Aufwertungspauschale von 7,01 Punkten, was eine Summe von 8 Punkten ergibt. Wir multiplizieren dies mit 16 und erhalten 128 Punkte, das entspricht 1,28 Spaßpunkten pro Stunde oder Einnahmen von € 12,93. Bei 2 Stunden pro Badetag sind das € 25,86.
+
+Weiters werden im Laufe des Badetages 3 "Wasserungen" durchgeführt, die je 1 Spaßpunkt verursachen, somit ergeben sich 3 weitere Spaßpunkte = € 30,30.
+
+Daneben ist noch ca. 25 Minuten lang das Lesen von großformatigen Werbeprospekten möglich. Dieses ergibt 1,8 Spaßpunkte pro Stunde, also in diesem Fall 0,375 Spaßpunkte = € 3,79.
+
+Dazu kommt noch eine Stützung des Gesundheitskontos für das durchgeführte Schwimmen. Diese umfaßt ca. eine halbe Stunde Arbeitszeit, das ist ein Wert von € 7,20. Nachdem aber im Moment mit einem Aufwertungsfaktor von 2,7 gerechnet wird, müssen hier € 19,44 ausgeschüttet werden, damit sich die Aktion gegenüber anderen Aktionen in der Prioritätenliste durchsetzen kann.
+
+Weiters entfliehe ich mit dem Baden für ca. 4 Stunden der Hitze in meinem Zimmer (wenn es dort über 25°C hat), was einem Wert von weiteren 4 Spaßpunkten entspricht, um die mein Leben dort beeinträchtigt wäre, also nocheinmal € 40,40.
+
+Die Gesamteinnahmen betragen somit € 25,86 + € 30,30 + € 3,79 + € 19,44 + € 40,40 = € 119,79 pro Badetag.
+Ausgaben
+
+Als Ausgaben tritt in erster Linie die Zeit auf, die ich für den Badeausflug und die Vor- und Nachbereitungen dafür brauche:
+
+Ein durchschnittlicher Badeausflug dauert etwa von 15:55 (Abmarsch) bis 20:00, das sind 4 Stunden und 5 Minuten. Dazu kommen noch insgesamt 45 Minuten für die Eingabe der Bewertungen, das Heraussuchen der Kassetten und das Einpacken anderer Dinge wie Badezeug und Proviant.
+
+Somit beträgt der Gesamtaufwand 4 Stunden und 50 Minuten, also 4,83 Stunden. Dies ergibt bei einem Stundensatz von € 14,40 Kosten von € 69,60.
+
+Dazu kommen noch Nebenkosten für die benutzten Tonträger. Diese betragen normalerweise (wie im Entwicklungsdokument für die unterstützenden Aktivitäten berechnet) € 10 pro benutztem (ganz gespielten) Tonträger, also für 2 Stunden € 20,-. Tatsächlich wird noch etwas mehr gespielt, da meine Eltern auch ein Musikprogramm bekommen, während ich im Wasser bin und mir ein Eis kaufe, daher ist hier mit 50 Minuten mehr zu rechnen, das wären dann 2,83 Stunden, also € 28,30. Dies sind aber fiktive Kosten, da sie nur von einem Konto auf ein anderes gebucht werden, sie wirken sich daher nicht auf die Berechnung der Prioritäten aus.
+Weiters kommen noch Kosten für den Radiorecorder, der verwendet wird, und seine Batterien dazu. Die tatsächlichen Batteriekosten belaufen sich dabei auf ca. € 0,25 (für 0,2 Amperestunden aus 6 Monozellen). Die Kosten für den Radiorecorder sind minimal, obwohl sich auch dieser auch irgendwann abnutzt (nach mittlerweile über 21 Jahren und wohl mehreren tausend Betriebsstunden, die er im Einsatz ist). Ich würde diese Kosten mit maximal € 0,06 pro Badetag einschätzen.
+
+Die für die Priorisierung relevanten Gesamtausgaben betragen somit: € 69,60 + 0,25 + 0,06 = € 70,21.
+
+Das Einnahmen-/Ausgaben-Verhältnis dieser Aktivität liegt somit bei € 119,79 / € 70,21 = 1,706.
+Andere Möglichkeiten
+
+Es gäbe nun noch andere Möglichkeiten, die Badetage ohne meine Eltern zu gestalten.
+
+Eine Möglichkeit wäre, alleine baden zu gehen und auch Musik mitzunehmen (in diesem Falle wohl eher mittels eines tragbaren Kassettenspielers oder Radios, nachdem außer mir niemand die Musik zu hören braucht).
+In diesem Fall würde sich die Lesezeit auf 35 Minuten erhöhen, und für das Hören würde die Wertung von Radio gelten, die sich zu der Zeit, zu der baden gegangen wird, auf ca. 1,2 Punkte pro Stunde, somit auf 1,92 Spaßpunkte pro Stunde beläuft. Dafür müßte ich aber mit einer erhöhten Wegzeit von ca. 30 Minuten pro Weg (statt mit meinen Eltern zusammen 25 Minuten) rechnen. Außerdem könnten meine Eltern dann die Musik nicht hören (wobei sich aber die Frage stellt, ob das ein Nachteil ist).
+Die Einnahmen betrügen in diesem Fall:
+
+Musik... 3,84 Spaßpunkte * 10,1 = € 38,78
+Lesen... 1,05 Spaßpunkte * 10,1 = € 10,61
+Gesundheitszuschlag: € 19,44
+Wasserungen... 3 Spaßpunkte * 10,1 = € 30,3
+Hitzeabschlag... 4 Spaßpunkte * 10,1 = € 40,4
+Gesamt: € 139,53
+
+Ausgaben wären in diesem Fall:
+5 Stunden * 14,40 = € 72,-
+Verwendetes Gerät: € 0,31
+Gesamt: € 72,31
+
+Wir hätten hier ein Einnahmen-/Ausgabenverhältnis von 139,53 / 72,31 = 1,93, was um 13,1% besser ist als mit meinen Eltern zusammen.
+
+Weiters gäbe es noch die Möglichkeit, überhaupt keine Musik mitzunehmen. Dadurch würden die Spaßpunkte für die Musik wegfallen, allerdings auch 20 Minuten des Aufwandes, die dazu verwendet werden, die Wertungen einzutragen und die Kassetten herauszusuchen. Weiters würde sich hier die zur Verfügung stehende Lesezeit auf ca. 2 Stunden erhöhen, so dass in diesem Bereich mehr Spaßpunkte zu erwarten wären.
+Die Einnahmen betrügen in diesem Fall:
+
+Lesen... 3,6 Spaßpunkte * 10,1 = € 36,36
+Wasserungen... 3 Spaßpunkte * 10,1 = € 30,3
+Gesundheitszuschlag: € 19,44
+Hitzeabschlag... 4 Spaßpunkte * 10,1 = € 40,4
+Gesamt: € 126,50
+
+Ausgaben wären in diesem Fall:
+4,67 Stunden * 14,40 = € 67,20 (= Gesamtausgaben)
+
+Einnahmen-/Ausgabenverhältnis hier: € 126,50 / € 67,20 = 1,882.
+
+Wie man sieht, ist die Variante mit der Musik geringfügig besser als die ohne, so dass erstere vorzuziehen wäre.
+Mögliche Ausgleichszahlungen seitens Eltern
+
+Wir berechnen nun noch, ob es möglich wäre, eine Ausgleichszahlung meiner Eltern als Beitrag für die Abwicklung des Musikprogrammes vorzusehen.
+Diese müßte so hoch bemessen sein, dass damit das Einnahmen-/Ausgabenverhältnis von 1,93 erreicht wird.
+Das heißt, die Einnahmen müßten 193% der Ausgaben von € 70,21 betragen, das sind € 135,51. Da die tatsächlichen Einnahmen meinerseits nur € 119,79 betragen, wäre eine Ausgleichszahlung von € 15,72 pro Badetag nötig. Diese könnte man so argumentieren, dass für die Kassetten Kosten von € 28,33 auftreten und für den Radiorecorder samt Batterien € 0,31 sowie für das Aussuchen € 3,75 pro Badetag. Das wären Gesamtkosten von € 32,39 pro Badetag. Würden meine Eltern, nachdem wir zu dritt sind, 2/3 dieser Kosten bezahlen, dann käme man auf € 21,59 pro Badetag, was die nötige Ausgleichszahlung um den Faktor 1,374 übersteigen würde.
+
+Dazu muss aber gesagt werden, dass ich ja andererseits mit meinen Eltern mit dem Auto mitfahre, wofür ich meinerseits wieder einen Anteil zu zahlen hätte. Papa verrechnet normalerweise seinen Aufwand beim Autofahren mit € 10 pro Stunde + € 0,50 pro Kilometer (Gisi-Tarif). Zur Alten Donau werden nun ca. 5 Kilometer zurückgelegt, die Fahrzeit beträgt mit Gehweg ca. 20 Minuten. Dies ergibt für Hin- und Rückfahrt € 6,67 Arbeitszeit + € 2,50 Kilometergeld = € 9,17. Davon hätte ich ein Drittel zu begleichen, also € 3,06. Würde man dies allerdings vom Eltern-Anteil für die Musik von € 21,59 abziehen, bleibt immer noch ein Restanteil von € 18,56, der die nötige Ausgleichszahlung immer noch um 18,1% übersteigt. Was hier noch zu kläre wäre ist, wie viel meinen Eltern die Musik wirklich wert wäre.
+
+Vergleich bezüglich der Nebenbeitätigkeiten
+
+Als zweiten Punkt wollen wir nun vergleichen, wie sich die Bewertung von Aktionen, bei denen nebenbei das Hören von Content verschiedener Art möglich ist, von der Bewertung von solchen unterscheidet, wo es nicht möglich ist.
+
+Wir gehen hierbei von der Kalkulation des Radio hörens als Nebenbeiaktivität aus und wandeln diese dann für den Mindestwert ab, der sich beim Hörern von Tonträgern oder des Radio-Würmchen-Programmes ergibt.
+
+Das Radio hören hat einen Nennwert von € 27,86 + 5,41 und Nennausgaben von € 8,99 + 5,41, wobei der Nennwert genaugenommen je nach Stunde schwankt. Dabei wird 62,5% der Zeit für das Radio hören verbraucht.
+Das Hören des Radio-Würmchen-Programms und von Tonträgern hat zu der Zeit, wo das Radioprogramm nicht attraktiv genug ist, einen Nennwert von € 16,96 + 8,99 und Nennausgaben von € 1,38 + 4,03 (Aufpassen) + 8,99 (Aufwertung) (im Schnitt). Dabei werden € 37,5% der Zeit für das Zuhören verbraucht.
+
+Nun handelt es sich bei diesen Tätigkeiten um Tätigkeiten, die neben einer anderen Tätigkeit durchgeführt werden können.
+Wir nehmen diese andere Tätigkeit einmal mit einem Spaßwert von 2 Punkten pro Stunde an und berücksichtigen die Tatsache, dass es sich beim Radio hören um eine Nebenbei-Tätigkeit handelt:
+
+Gesamteinnahmen:
+Ursprüngliche Tätigkeit: 2 * 0,375 = 0,75 Punkte pro Stunde = € 7,58
+Radio hören: € 27,86
+Gesamt € 35,44
+
+Gesamtausgaben:
+Stunde am PC = € 15.-
+
+Insgesamt treten hier mit beiden Aktivitäten zusammen ca. 3,51 Spaßpunkte pro Stunde auf, und das Gesamt-E/A-Verhältnis liegt bei 35,44 / 15 = 2,363.
+
+Beim Hören von Tonträgern ergibt sich die folgende Rechnung:
+Gesamteinnahmen:
+Ursprüngliche Tätigkeit: 2 * 0,625 = 1,25 Punkte pro Stunde = € 12,63
+Tonträger hören: € 16,96
+Gesamt € 29,59
+
+Gesamtausgaben:
+Stunde am PC = € 15.-
+
+Die Spaßwerte liegen hier bei 2,93 Punkten pro Stunde, das E/A-Verhältnis bei 1,973.
+
+Die Tätigkeit alleine hätte ein E/A-Verhältnis von 20,20 / 15 = 1,347.
+
+Das würde heißen, damit eine Tätigkeit, bei der nichts nebenbei gehört werden kann, die Attraktivität der 2-Punkte-Tätigkeit, bei der dies möglich ist, erreicht, müßte sie 3,51 (+ 75,5% im Vergleich zur anderen Aktivität) bzw. 2,93 (+ 46,5%) Punkte pro Stunde bringen.
+
+Wir führen nun diese Berechnung für die höchsten Aktionen durch, die derzeit in der Prioritätsliste vorhanden sind.
+Die höchstplatzierte Aktion, bei der das Hören von Content nicht möglich ist, ist ein Besuch im "Tivoli", der derzeit in der Prioritätenliste mit einem E/A-Verhältnis von 2,701 gelistet ist.
+
+Das E/A-Verhältnis beläuft sich hier auf, wie nicht schwer zu erraten ist, 2,701, weil ja nichts anderes währenddessen getan werden kann.
+
+Die höchstplatzierte Aktion, bei der das Hören von Content nebenbei möglich ist, ist die Wiederveranlagung des Geldes am Girokonto, mit einem E/A-Verhältnis von 2,598.
+
+Wir berechnen hierfür wieder den Gesamtwert inkl. Radio bzw. Tonträger hören:
+
+Radio:
+Finanzanlagen: 15 * 2,598 * 0,375 = € 14,61
+Radio hören: € 27,86
+Gesamt € 42,47
+
+Gesamtausgaben:
+Stunde am PC = € 15.-
+
+Gesamt-E/A-Verhältnis = 42,47 / 15 = 2,832
+
+Tonträger:
+Finanzanlagen: 15 * 2,598 * 0,625 = € 24,36
+Tonträger hören: € 16,96
+Gesamt € 41,32
+
+Gesamtausgaben:
+Stunde am PC = € 15.-
+
+Gesamt-E/A-Verhältnis: 41,32 / 15 = 2,754
+
+Man sieht hier, dass sich das E/A-Verhältnis nicht so sehr gegenüber der ursprünglichen Aktitvät ohne Nebenbei-Aktivität verbessert hat. Trotzdem heißt dies im Prinzip, dass die nebenbeiaktivitätsfähigen Aktionen Vorrang bekommen sollten. Um wieviel, ist aber schwierig zu berechnen, weil sich dies auch laufend, je nach Güte des besten Radioprogrammes, ändert. Daher wäre vorläufig als allgemeine Richtlinie denkbar, dass Aktionen, die nicht "nebenbeifähig" sind, in Zeiten verlegt werden, wo sonst das Radio-Würmchen-Programm oder Tonträger gehört würden, also z.B. werktags von 20-22 Uhr abends. 
+Korrektur wegen Aufmerksamkeitsdefizit
+
+Die obige Berechnung wäre nun korrekt, wenn ich den ganzen gesendeten Inhalt des Radioprogrammes oder eines Tonträgers mitbekommen würde. Das ist jedoch nicht immer der Fall. Oft bin ich so auf die jeweilige Hauptaktivität konzentriert, dass ich etwas, was im Radio läuft (besonders eine Information, gespielte Musiktitel kenne ich meist schon) nicht mitbekomme. Dies passiert schätzungsweise mit ungefähr der Hälfte der gehörten Inhalte (ohne Musik). In diesem Fall trage ich dann zwar ein, wieviel der Inhalt ungefähr wert gewesen sein könnte, tatsächlich kann ich es aber nicht beurteilen, weil ich ihn nicht mitbekommen habe. Daher treten in diesem Fall die damit zusammenhängenden Spaßwerte auch nicht auf. Andererseits ist dadurch auch der Zeitanteil von 62,5%, der mit dem Radioprogramm verbracht wird, unrealistisch. Die Schätzung für die Radioscans liegt bei 13,3%, das heißt, daß damit 8 Minuten pro Stunde verbracht werden. Nimmt man nun das Aufpassen auf Radiosendungen dazu, so komme ich auf 30 bis maximal 50%, die ich beim Radio hören dieser Tätigkeit widme anstatt der Haupttätigkeit.
+
+Daher wäre die Berechnung entsprechend zu revidieren.
+
+Wir gehen einmal davon aus, dass ich von den gesendeten Inhalten ca. 50% mitbekomme. In diesem Fall sieht die Ausgabenstruktur so aus, dass von der Differenz von 13,3% auf 62,5% die Hälfte gestrichen werden kann, es verbleiben 37,9% der Zeit, die für das Radio hören verbraucht wird. Dafür müssen allerdings auch die beim Radio hören auftretenden Spaßpunkte auf die Hälfte reduziert werden.
+Analog verbleiben bei den Tonträgern 25,4% der Zeit, die dafür benötigt werden, und ebenfalls die Hälfte der ursprünglichen Spaßpunkte.
+
+Dadurch ergibt sich z.B. für die Wiederveranlagung des Geldes folgende Berechnung:
+
+Radio:
+Finanzanlagen: 15 * 2,598 * 0,621 = € 24,20
+Radio hören: € 27,86 / 2 = 13,93
+Gesamt € 38,13
+
+Gesamtausgaben:
+Stunde am PC = € 15.-
+
+Gesamt-E/A-Verhältnis = 38,13 / 15 = 2,542
+
+Tonträger:
+Finanzanlagen: 15 * 2,598 * 0,746 = € 29,07
+Tonträger hören: € 16,96 / 2 = 8,48
+Gesamt € 37,55
+
+Gesamtausgaben:
+Stunde am PC = € 15.-
+
+Gesamt-E/A-Verhältnis: 37,55 / 15 = 2,503
+
+Hier fällt nun auf, dass das resultierende E/A-Verhältnis nun unter dem liegt, das auftreten würde, wenn die Hauptaktivität ohne Nebenaktivität durchgeführt werden würde. Daraus ergibt sich, dass es in diesem Fall besser wäre, die Hauptaktivität durchzuführen, ohne dass dabei Radio, Radio Würmchen oder ähnliches gehört wird. Dies gilt aber nur für Hauptaktivitäten, deren E/A-Verhältnis (und damit deren Dringlichkeit) über einem gewissen Schwellwert liegt. Diesen Schwellwert wollen wir nun berechnen.
+
+Beim gesuchten Schwellwert ist das Ergebnis im E/A-Verhältnis gleich dem Ergebnis der Hauptaktivität ohne Hören von Inhalten. Wir setzen die Variable X als das E/A-Verhältnis der Hauptaktivität ein und bekommen folgende Gleichungen:
+Für Radio: X = (15 * X * 0,621 + 13,93) / 15
+Wir lösen nun diese Gleichung auf:
+X = (9,315 X + 13,93) / 15
+X = 0,621 X + 0,9287
+0,379 X = 0,9287
+X = 2,45
+
+Für Tonträger: X = (15 * X * 0,746 + 8,48) / 15
+X = 0,746 X + 0,5653
+0,254 X = 0,5653
+X = 2,23
+
+Das heißt, wenn die Hauptaktivität ein E/A-Verhältnis von 2,45 bzw. 2,23 und darüber aufweist, dann sollte daneben kein Radio oder Tonträger hören durchgeführt werden. Dies ist im Moment bei allen Aktivitäten, die eigentlich durchgeführt werden sollten (das sind vor allem die Dokumentationen, und in zweiter Linie die Aufwandserfassung des Kontensystems), der Fall. Wenn diese Aktivitäten aber erledigt sind, und andere Aktivitäten an die Reihe kommen, die etwas mit Musik zu tun haben (Einlistung weiterer Tonträger, Korrektur der Radioscans usw.), dann liegen diese unter dem Schwellwert, und es sollten nebenbei wieder Inhalte angehört werden.
+
+	- 1 -
+

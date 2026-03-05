@@ -1,0 +1,211 @@
+Dokumentation unterstützende Aktivitäten Radio Würmchen
+Stand: 29.9.2009
+Inhalt
+
+Inhalt	1
+Wesen dieser Dokumentation	1
+Einteilung der Struktur der Aktivitäten	1
+Beschreibung der unterstützenden Aktivitäten von Radio Würmchen	1
+Die Radio-Würmchen-Datenbank	1
+Tontraeger.mdb:	2
+Rw_bewertung.mdb:	2
+RW_Aehnlichkeiten.mdb:	2
+RW_Files.mdb:	2
+RW_Interpretenwertungen.mdb:	2
+RW_Verknuepfung.mdb:	2
+Das Radio-Würmchen-Programm	2
+Collaborative Filtering und Berechnung der Schätzwertungen	3
+Repertoirepflege	4
+Vorgang beim Hören von Radio und anderen Inhalten	4
+Die Werte in der Ähnlichkeitsdatenbank	4
+Musikdateien auf der Festplatte und ihre Einspielung	5
+Auflisten und Verwaltung von Kassetten und anderen Tonträgern	6
+Karaoke-Aufnahmen	7
+Radioprotokolle und ihre Korrektur	7
+Beschickung des Herzensgut-Kontos von Radio Würmchen	8
+Besitztümer und Unterlagen von Radio Würmchen	8
+Abrechnung	8
+
+Wesen dieser Dokumentation
+
+Diese Dokumentation beschreibt die unterstützenden Aktivitäten für die Musikversorgung des Radio-Würmchen-Kontos, das sind die Aktivitäten, die selbst keinen Spaß bringen, sondern dazu dienen, die Aktivitäten der Musikversorgung zu ermöglichen, die Spaß bringen.
+Einteilung der Struktur der Aktivitäten
+
+Im folgenden erfolgt eine kurze hierarchische Darstellung der Aktivitäten des Radio-Würmchen-Kontos, die für diese Dokumentation relevant sind:
+
+Radio-Würmchen-Konto
+	Musikversorgung
+		Unterstützende Tätigkeiten
+			Radio-Würmchen-Datenbank
+			Repertoirepflege
+			Karaoke-Aufnahmen
+		
+Beschreibung der unterstützenden Aktivitäten von Radio Würmchen
+
+Die Radio-Würmchen-Datenbank
+
+Die Radio-Würmchen-Datenbank ist eine Konstruktion, die aus mehreren Access-Datenbanken und einem Visual-Basic-Programm besteht, das mit dieser Datenbank und anderen Dingen zusammenarbeitet. Grob gesagt beherrscht dieses Datenbanksystem die folgende Dinge:
+- Ausdruck von Listen für Karaoke und andere Dinge
+- Automatisches Abspielen einer Playlist und Vorschlag anderer, nicht als Datei vorhandener Titel, auf Grund des Musikgeschmacks der vorhandenen Personen
+- Eingabe des Musikgeschmacks verschiedener Personen durch Eingabe von Wertungen für einzelne Titel oder indirekter positiver oder negativer Äußerungen und Musikwünschen
+- Protokollierung des Musikprogramms verschiedener Radiostationen, sowohl laufend als auch als Nacherfassung
+- Unterstützung automatischer Titelausgaben in Flatcast-Sendungen
+- Vorschlagen von Tonträgern, die angehört werden sollten, je nach anwesenden Personen
+- Einordnung diverser Musiktitel nach verschiedenen Kriterien (Kategorisierung, Eingabe von Ähnlichkeitsbeziehungen)
+- Automatische Berechnung von Schätzwertungen für nicht bewertete Titel für verschiedene Personen auf Grund verschiedener Kriterien
+- Verwaltung des Repertoires an Musikdateien und deren Sicherung
+
+Die detaillierte Funktion der Datenbank und der dazugehörigen Programme wurde in eine technische Datenbankdokumentation ausgelagert, hier soll es hauptsächlich darum gehen, wie mit ihr gearbeitet wird.
+
+Die Radio-Würmchen-Datenbank ist auf verschiedene Access-Datenbanken aufgeteilt, in denen sich jeweils einige Datenbanktabellen und dazugehörige Abfragen befinden, die logisch zueinander gehören.
+Tontraeger.mdb:
+
+In dieser Datenbank befinden sich die "Mastertabellen" für den Großteil der Datenbank sowie zusätzliche Tabellen über vorhandene (physische) Tonträger, Videokassetten und Texthefte. Weiters gibt es verschiedene Berichte, die vor allem zum Ausdruck der Karaoke-Listen dienen, und Prozeduren, die dazu dienen, mit Excel eingegebene Tonträgereingaben in die Datenbank zu überführen.
+Rw_bewertung.mdb: 
+
+Diese Datenbank dient vor allem dazu, die Bewertungen verschiedener Titel durch verschiedene Personen aufzunehmen.
+RW_Aehnlichkeiten.mdb:
+
+Diese Datenbank dient vor allem dazu, die Ähnlichkeiten zwischen verschiedenen Titeln in verschiedener Form zu speichern. Hauptformen sind eine Kategorisierung ("Tagging") und eine Liste ähnlicher Titel zu jedem Titel.
+Weiters ist hier auch die Scan-Tabelle zu finden, die ein Protokoll über alle gespielten Titel und Hörereignisse (ein Titel wird von einer Person gehört) enthält.
+RW_Files.mdb:
+
+In dieser Datenbank befindet sich hauptsächlich die Liste der Musikdateien im "Hauptrepertoire", die vom Radio-Würmchen-Programm aus automatisch spielbar sind.
+RW_Interpretenwertungen.mdb:
+
+In dieser Datenbank befinden sich die Ähnlichkeitsbeziehungen zwischen verschiedenen Interpreten sowie eventuelle Interpretenwertungen von Personen.
+RW_Verknuepfung.mdb:
+
+Diese Datenbank enthält keine eigentlichen Datenbanktabellen, hat aber alle Tabellen der anderen Datenbanken verknüpft, damit man diese vom Radio-Würmchen-Programm aus über ein JOIN aufrufen kann.
+Das Radio-Würmchen-Programm
+
+Ein guter Teil der Verwaltung der Radio-Würmchen-Datenbank erfolgt über das Radio-Würmchen-Programm, das etliche kompliziertere Funktionen unterstützt, die in einer Access-Datenbank nur schwer realisierbar wären, unter anderem das automatische Abspielen von Playlists je nach Musikgeschmack der Zuhörer. Dieses Programm ist normalerweise auch beim Hören von Radio oder Tonträgern offen und dient dann dazu, das laufende Programm mitzuschreiben. Dazu gibt es auch ein Rotationsschema, das so funktioniert wie bei vielen Radiostationen, nämlich daß die am besten bewerteten Titel am häufigsten kommen und die schlechter bewerteten in absteigender Reihenfolge dann immer seltener. Die Bewertungen erfolgen dabei auf einer Skala von 0 (am schlechtesten) bis 40 (am besten), die eine umgekehrte Schulnotenskala von 1 bis 5 mit eingefügten Zehntelstellen darstellt, und werden für jede Person getrennt erfasst. Das Rotationsschema basiert nun darauf, daß die Wertung eines Liedes mit einer zweiten Zahl zusammengezählt wird, die sich daraus ergibt, wie lange ein Lied schon nicht mehr gehört wurde. Und zwar steigt diese in den ersten Tagen in einer steilen Kurve an, die dann immer mehr verflacht. Die Lieder, die dann am höchsten in der daraus resultierenden Liste sind, sollten wieder gespielt werden. Davor wird aber noch eine 2. Zahl addiert, die umso höher ist, umso ähnlicher das Lied dem zuletzt gespielten ist. Dazu wird die Ähnlichkeits-Datenbank verwendet, wo sowohl ähnliche Titel als auch Kategoriezuordnungen enthalten sind. Die Kategoriezuordnungen haben hier eine Maximallänge von 50 Zeichen und sind im Klartext verfaßt, und die als 1. genannte Kategorie hat den größten Wert - jede nachfolgende ist um 20% weniger wert als die vorherige. Dadurch ergeben sich recht gute, teilweise auch unerwartete, Kombinationen und Abfolgen. Die genaue Kurve ist übrigens für Mama und Papa anders als meine eigene... die von Mama konzentriert sich mehr auf die am besten bewerteten Titel, und die von Papa bringt auch mehr von den unteren Plätzen - sie entspricht der ursprünglich im Radio Würmchen für die aktuellen Stunden verwendeten Formel und ist damit eine Multiplikation seiner Punkte mit den Tagen, seit der Titel zuletzt gehört wurde, das heißt, seine Kurve geht für 1 Jahr gerade nach oben und verflacht dann. Für andere Personen verwende ich normalerweise meine Kurve (Funktion Playwert8).
+Die Bewertungen in der Radio-Würmchen-Datenbank von mir und meinen Eltern stammen aus den Familienhitparaden, die es von 1991 bis 1993 gegeben hat, von den Aktuellen Stunden von Radio Würmchen, die es von 1993 bis Anfang 2002 gegeben hat, sowie von Bewertungen, die ich ab 2001 beim Radio und Tonträger hören eingegeben habe bzw. von meinen Eltern beim Vorspielen des Radio-Würmchen-Programms abgefragt habe oder die sie selbst beim Hören von Radio Würmchen eingegeben haben. Die Bewertungen anderer Leute wurden zum Teil abgefragt oder (wenn das Wertungssystem ihnen bekannt ist) freiwillig abgegeben. Bei den meisten Personen ausserhalb meiner Familie liegen aber nur relativ wenige Wertungen vor, aus denen die restlichen Wertungen geschätzt werden. Bei Internet-Radiosendungen wird dazu auch berücksichtigt, welche Titel oder Interpreten sich verschiedene Leute gewünscht haben, sowie, wie sie auf verschiedene Titel, die gespielt wurden, im Chat reagiert haben.
+Mit Hilfe des Radio-Würmchen-Programms werden auch die Kassetten für gemeinsame Fahrten ausgesucht, indem alle Titel auf jeder Kassette dafür herangezogen werden und eine Durchschnittswertung daraus gebildet wird.
+Um diese Aufgaben möglichst gut erfüllen zu können, gibt es eine zentrale Titelliste, mit der alle Wertungs- und Ähnlichkeitsdatensätze verknüpft sind, sowie die Angaben darüber, auf welchen Tonträgern sich welche Titel befinden, wobei hier auch die Texthefte, die Videokassetten und die Karaoke-Videos und -CD's erfaßt sind. Leider ist keine dieser Tabellen auch nur annähernd vollständig, und es ergibt sich daraus das ständige Ziel, die Vollständigkeit der Datenbank herbeizuführen bzw. sich ihr anzunähern. Besonderes Augenmerk liegt hier auf allen Tonträgern und Musikdateien, die ich besitze, sowie allen Musiktiteln, die ich kenne, und die normalerweise im Radio gespielt werden. Um dies zu erreichen, werden die Daten in der Radio-Würmchen-Datenbank laufend vervollständigt.
+Collaborative Filtering und Berechnung der Schätzwertungen
+
+Unter Collaborative Filtering versteht man das Aussuchen von Musik (oder anderer Dinge) aufgrund von Untersuchungen des Musikgeschmacks verschiedener Personen. Dabei gibt es eine Sammlung von Musiktiteln, wovon eine Person jeweils eine bestimmte Menge bewertet hat, es aber noch viele andere gibt, die diese Person noch nicht bewertet hat. Für diese unbewerteten Titeln wird nun versucht, eine Bewertung zu schätzen, indem die bereits vorhandenen Bewertungen dieser Person mit den Bewertungen anderer Personen für die gleichen Musiktitel verglichen werden und festgestellt wird, welche anderen Personen zur gegebenen Person in einem positiven statistischen Zusammenhang stehen. Danach werden die anderen Titeln, die die Personen mit positivem Zusammenhang zur gegebenen Person bewertet haben, so auf die gegebene Person umgelegt, daß eine geschätzte Wertung herauskommt, die angibt, wie gut diese noch unbewerteten Lieder der gegebenen Person gefallen müßten.
+Ein anderer Weg, solche Wertungen zu erreichen, ist, die Eigenschaften der Musikstücke selbst wie Tempo, Musikrichtung usw. miteinander zu vergleichen und anhand dessen diejenigen Titel auszuwählen, die den von einer Person gut bewerteten Titeln ähnlich sind.
+Auf Grund der Ähnlichkeit der Titel lassen sich dann auch Musikmixes zusammenstellen, bei denen die einzelnen aufeinanderfolgenden Titel einander ähnlich sind.
+
+In meiner Musikdatenbank verwende ich dieses Prinzip derzeit nur indirekt, und zwar indem ich nicht einzelne Personen herziehe (dazu habe ich zu wenige Daten), sondern insgesamt für jedes Lied an Hand meiner Erfahrung mit Karaoke, Live-Musik und Radio schätze, wie populär es ist. Stellt sich bei der Erstellung der Schätzwertungen für eine Person heraus, dass sie laut meiner Schätzung populäre Titel höher bewertet, bekommt sie auch für andere, unbewertete Titel entsprechend höhere Schätzwertungen, wenn sie populärer sind. Weiters werden für die Berechnung der Schätzwertungen noch ähnliche Titel laut der Ähnlichkeitsdatenbank, Auf- und Abwertungen bestimmter Kategorien und Beziehungen zwischen ähnlichen Interpreten (die aus der Last.FM-Datenbank eingelesen werden) herangezogen.
+Repertoirepflege
+
+Im folgenden erfolgt eine Beschreibung, wie ich das Gesamtrepertoire von Radio Würmchen verwalte. Darunter sind alle Bild- und Tonträger zu verstehen, die ich habe, aber auch Musikdateien auf der Festplatte und Titel, die ich im Radio höre oder sonst nur kenne. Die Bearbeitung aller dieser Inhaltskategorien hat gewisse Gemeinsamkeiten, so dass ich diese voranstellen möchte, um dann auf die Eigenheiten der verschiedenen Tonträgerarten einzugehen.
+Vorgang beim Hören von Radio und anderen Inhalten
+
+Die meiste Zeit, in der ich am PC arbeite, verbringe ich, während nebenbei das Radio läuft. Dabei wird nebenbei auch immer in der Radio-Würmchen-Datenbank mitgeschrieben, was alles an Musik läuft. Die meisten Titel, die im Radio gespielt werden, kenne ich auch schon, und sie sind auch schon vollständig und korrekt in der Radio-Würmchen-Datenbank eingetragen.
+
+Allerdings treten immer wieder Sonderereignisse wie z.B. Radionachrichten auf, diese werden dann mit dem Titel "Nachrichten" versehen, wobei der Interpret dann der jeweilige Radiosender ist. Ich gebe dann meist die Bewertung von 20 Punkten sowie eine Sonderwertung, die sich nur auf das jeweils gehörte Ereignis bezieht, ab. Das gleiche passiert mit anderen, immer wiederkehrenden Ereignissen wie z.B. Gewinnspielen, Werbung, Schlagzeilen, Wetter, Verkehr, Sport, Studiogästen, Anrufern, Musikwünschen usw. Bei Musikwünschen trage ich zusätzlich noch im Feld "Anmerkung für heute" die Bemerkung "Musikwunsch" oder "Musikwunsch (nur Interpret)" ein, je nachdem, ob der konkrete Titel gewünscht wurde oder nur etwas vom jeweiligen Interpreten. Wird der Musikwunsch vernünftig angesagt, so wird die Wunschansage selbst meist noch als zusätzliches Programmelement mit Sonderwertung eingetragen.
+
+Erkenne ich einen Titel nicht, dann versuche ich an Hand des Textes oder an Hand einer Playlist bzw. Trackservice, falls dies vorhanden ist, Titel und Interpret herauszufinden.
+
+Ist ein Titel noch nicht in der Datenbank eingetragen, dann wird er in die Felder unter der Combobox eingetragen, womit die Neuaufnahme in die Datenbank erfolgt, meist auch gleich mitsamt Kategorisierung, außer ich war beim Hören nicht am PC und trage nur den gehörten Titel nach, so dass ich mich nicht mehr genau daran erinnern kann, wie der Titel klang.
+
+Manchmal kommt es vor, dass ein Titel noch nicht kategorisiert ist. In diesem Fall trage ich die Kategorien zum Titel zusätzlich ein.
+
+Wurde ein Titel schon lange nicht mehr gehört, dann sehe ich vorsichtshalber auch in der Ähnlichkeitsdatenbank nach, ob er dort richtig repräsentiert ist, da in den letzten Jahren einige Kriterien (z.B. die Popularitätsschätzung) dazugekommen sind, die ich zusätzlich eingebe. Fällig ist dies auch, wenn ich einen gerade gespielten Titel aufrufe, und die Checkbox "unbekannt" nicht richtig gesetzt wird, also entweder bleibt sie leer, obwohl ich den Titel nicht kenne, oder sie bleibt gesetzt, obwohl ich den Titel kenne. In diesem Fall ist auch eine Korrektur oder überhaupt erst Eintragung in der Ähnlichkeitsdatenbank fällig. Dies passiert aber grundsätzlich nicht beim ersten, sondern erst beim wiederholten Hören eines unbekannten Titels. Ich tue es aber trotzdem, wenn ich einen Titel neu eintrage, den ich eigentlich schon kenne, der nur bisher in der Datenbank fehlt. In diesem Fall versuche ich, auch die Daten in der Ähnlichkeitsdatenbank gleich dazu einzutragen, da ich mir bekannte Titel möglichst gut repräsentiert haben möchte.
+
+Die meisten Titel, die ich höre, finden so ihren Weg in die Radio-Würmchen-Datenbank.
+Die Werte in der Ähnlichkeitsdatenbank
+
+In der Ähnlichkeitsdatenbank befinden sich hauptsächlich Beziehungen zwischen Musiktiteln. Jeder Musiktitel kann mit jedem anderen verbunden sein, und in der Praxis ist jeder Titel mit ca. 3 weiteren verbunden. Jede dieser Verbindungen trägt einen Wert von 20 bis 50, der die Distanz zwischen den beiden Titeln aufzeigt, und einen weiteren wählbaren Wert, wodurch die Ähnlichkeit besteht - das kann sein, dass beide vom gleichen Interpreten sind, dass sich Interpreten teilweise überschneiden, dass es sich (manchmal auch trotz unterschiedlichem Titel) um das gleiche Lied handelt (wie z.B. bei Versionen in verschiedenen Sprachen), oder dass ein Lied im anderen vorkommt (z.B. bei Mixes oder Medleys). Trifft nichts davon zu, wird "keine besondere" gewählt.
+
+Weiters befinden sich hier die Kategorisierung, die im Prinzip dem "Tagging" (Beschlagwortung) auf Last.FM entspricht, nur dass ich es einige Jahre früher eingeführt habe und deutsche Begriffe verwende. Oft verwendete Schlagworte sind z.B. Musikrichtungsangaben wie "Pop", "Rock", "Schlager", Tempoangaben wie "langsam" oder "schnell", Sängerangaben wie "weiblich" oder "instrumental" oder Taktartangaben wie "Beat", "16" oder "6/8", wodurch sich viele Musiktitel schon recht gut unterscheiden und einordnen lassen. Meine Spezialität ist hierbei, dass ich nicht versuche, jeden Titel in genau eine "Schublade" einzuordnen, sondern immer in mehrere verschiedene (wobei die als erstes genannten Kategorien den höchsten Wert beziehen), und eine Ähnlichkeit der Stücke dann dadurch bestimmt wird, in welchem Maß die vergebenen Kategorien übereinstimmen.
+
+Es wurden neben dem obligatorischen Anmerkungsfeld, das es bei mir in jeder Datenbanktabelle gibt, noch 3 weitere Felder eingeführt, die wie bereits oben beschrieben der Bekanntheitsgradeinschätzung dienen. Eines enthält einen persönlichen, auf mich bezogenen Bekanntheitswert zwischen 1 (kenne ich in- und auswendig) und 5 (kenne ich überhaupt nicht). Das zweite enthält den "offiziellen Status", also eine Schätzung dafür, wie bekannt ein Lied in der Öffentlichkeit ist (mit einem Prozentwert zwischen 0 und 100). Das dritte enthält die persönliche Bedeutung für mich, also z.B. "ferner liefen", wenn ich ein Lied zwar im Radio hörte, mich aber nicht genau erinnern kann, wann, oder Ereignisse, die ich mit dem Lied oder mit der Aufnahme verbinde.
+Alle Lieder, bei denen ich als Bekanntheitswert "5,0" eintrage, gelten als mir unbekannt.
+Eine Sonderstellung haben noch die Traditionals, die als Bekanntheitswert "4,5" eingetragen haben. Dies bedeutet, es handelt sich um ein bekanntes Volkslied, Kinderlied etc. (kann auch englisch sein), zu dem mir aber keine "offizielle" Originalversion bekannt ist. Wenn ich ein solches Lied höre, erkenne ich es schon, egal wer es singt, aber ich kenne die Version nicht. Ausgenommen sind hier aber Lieder, die zwar Allgemeingut sind, aber trotzdem einen eindeutigen Originalinterpreten haben, wie z.B. "Ana hat immer das Bummerl" von Horst Chmela. Hier bekommen alle Versionen davon, die ich nicht kenne, 5,0. Bei der Bedeutung dazu wird dann "Standard" eingetragen.
+
+Beim Hören bzw. Einspielen anderer Tonträger gehe ich im Prinzip ähnlich vor, wobei es nur einige Besonderheiten gibt, die im folgenden noch erörtert werden.
+Musikdateien auf der Festplatte und ihre Einspielung
+
+Neben der Datenbank, die hauptsächlich Informationen über Musik enthält, wird auch ein Repertoire an Musikdateien auf der Festplatte (und parallel auf Sicherungsdatenträgern) unterhalten. Dieses untersteht direkt dem Radio-Würmchen-Konto, im Gegensatz zu physischen Tonträgern wie Kassetten, Schallplatten und CD's, die in eigene Konten ausgelagert sind. Dieses Repertoire an Musikdateien erfordert natürlich auch ein gewisses Ausmaß an Pflege, wie z.B. die Aufnahme neuer Titel, die Kontrolle der Qualität und eventuelle Korrekturen von Tags und Lautstärke sowie die korrekte Aufnahme der Titel in die Radio-Würmchen-Datenbank.
+
+Für das Radio-Würmchen-Programm werden immer wieder frische Titel auf die Festplatte eingespielt, damit diese auch automatisiert gehört werden können. Die Bestimmung dieser Titel übernimmt das Radio-Würmchen-Programm, das bei jedem Start einer Playlist oder bei jedem Programmstart, bei dem Winamp schon läuft, im Logfile den höchstplatzierten Titel der Datenbank ausgibt, der derzeit noch nicht als Musikdatei im Repertoire ist. Dieser ändert sich je nach der Zusammensetzung der Hörer und anderen Voraussetzungen, die sich auch auf die Playlist selbst auswirken, wie z.B. ob bestimmte Kategorien bevorzugt oder benachteiligt werden, vom Wetter, der Tages- und Jahreszeit, und ob Schätzwertungen berücksichtigt werden oder nicht.
+
+Es läuft nun immer wieder die Aktion "Einspielungen ins Radio-Würmchen-Programm", wobei versucht wird, alle Titel, die seit der letzten Aktion vom Computer ausgegeben wurden, als Musikdatei verfügbar zu machen und ins Repertoire zu bringen. Dabei haben kommerzielle Titel Vorrang, weil diese schneller einzuspielen sind als Titel aus eigenen Tonträgern, die zuerst einmal überspielt werden müssen, und wo dann, zumindest bei Eigenaufnahmen, auch oft zeitaufwändige Korrekturen des Frequenzganges vorgenommen werden, was insgesamt pro Titel 15-30 Minuten dauert. Ansonsten konsultiere ich, wenn ein Titel nicht schon digital vorliegt, eMule, Canna Power, Rapidshare oder einen BitTorrent-Client, je nachdem, wo ich den gewünschten Titel finde. Manchmal kommt es auch vor, dass es unmöglich ist, ihn aufzutreiben (zumindest, ohne ihn auf CD oder digital zu kaufen), in diesem Falle wird er dann (meist im Versionsfeld) als "verschollen" gekennzeichnet, so dass er vom Radio-Würmchen-Programm nicht mehr als fehlend ausgeworfen wird.
+
+Das Endziel jeder Einspielung ist ein Titel im MP3-Format, der zunächst in den "incoming"-Ordner verschoben wird. Dort wird er dann mit MpTrim auf eine einheitliche Lautstärke gebracht und die Stille am Anfang und Ende abgeschnitten, dann werden im Winamp die ID3-Tags bearbeitet. Weiters wird auch der Dateiname korrigiert. Das richtige Format lautet Titel - Interpret.mp3, wobei ich englische Titel "normal" schreibe, also mit kleinen Anfangsbuchstaben, wo sie in normalem Englisch auch klein erscheinen, was meine Vorgangsweise von einer allgemein üblichen Vorgangsweise, bei englischen Titeln alle Anfangsbuchstaben groß zu schreiben, unterscheidet.
+Gleichzeitig werden auch die Daten in der Ähnlichkeitsdatenbank für diesen Titel vervollständigt, da es mein Ziel ist, alle Daten, die im "Stammrepertoire" sind, in der Ähnlichkeitsdatenbank möglichst vollständig repräsentiert zu haben, obwohl dies für einige sehr alte Einspielungen derzeit noch nicht zutrifft.
+
+Der Begriff "Stammrepertoire" kommt daher, dass es noch viele weitere Musikdateien gibt, die sich außerhalb dieses Stammrepertoires befinden. Größtenteils sind diese auf CD's oder DVD's vorhanden, die ich von außen bekommen habe, die aber auch auf die Festplatte kopiert wurden, um sie bei Bedarf leichter spielen zu können. Es treten auch, besonders bei Canna Power und Rapidshare, immer wieder Fälle auf, wo ich ein bestimmtes Lied nur als Teil eines ganzen Albums oder Doppelalbums bekomme, wovon ich dann aus Zeitgründen nur das gewünschte Lied sofort ins Stammrepertoire übernehme, der Rest kommt auf die "Warteliste", die sich größtenteils im "Download"-Ordner auf der Festplatte befindet, von wo sie auch bei Bedarf gespielt werden können, aber eben nicht automatisch. Es wird auch nur das Stammrepertoire ins Büro übertragen, die restlichen Titel sind dort nicht vorrätig.
+
+Weiters notiere ich auch immer im Kalender, wenn mir auffällt, dass bestimmte Titel, die schon im Stammrepertoire sind, gegenüber anderen besonders leise oder laut sind, grob falsche ID3-Tags haben, komisch klingen oder am Anfang oder Schluß abgeschnitten sind. Diese Titel versuche ich dann zu "korrigieren", was aber prioritätsmäßig hinter den Neueinspielungen kommt.
+
+Wenn dann noch Zeit bleibt, versuche ich in der verbleibenden Zeit Titel aus der Warteliste ins Stammrepertoire zu übernehmen, wobei sie den gleichen Korrektur- und Eintragungsvorgang mit mpTrim, Winamp und der Ähnlichkeitsdatenbank durchlaufen. Dieser Vorgang dauert pro Titel je nach Vollständigkeit der bereits vorhandenen Daten 2-4 Minuten und wird auch für "korrigierte" Titel durchgeführt.
+
+Mit jeweils 700 MB an neuen bzw. korrigierten Titeln wird dann eine MP3-CD gefüllt (gebrannt) und auch im Büro eingespielt. Dazu gibt es einige Spezialfunktionen im Radio-Würmchen-Programm, die diesen Vorgang weitgehend automatisieren. Der Vorgang der CD-Erstellung wird hier aber nicht genauer beschrieben, da er im Rahmen der noch nicht erfolgten PC-Dokumentation eventuell noch einer Revision unterzogen wird.
+Auflisten und Verwaltung von Kassetten und anderen Tonträgern
+
+Beim Auflisten der Tonträger werden in einer bestimmten Reihenfolge alle Tonträger, von denen schon bekannt ist, welche Titel sie enthalten, in die Tonträgerdatenbank eingegeben. Dies ist eine eigene Aktivität, die mit einer bestimmten Priorität in der Prioritätenliste eingetragen ist. Stoße ich dabei aber auf Tonträger, deren Inhalt noch nicht beschriftet ist, werden diese bei dieser Aktivität auch angehört und beschriftet, wobei beim Anhören das gleiche passiert wie beim Radio hören, nur dass ich hier versuche, möglichst jeden Titel auch gleich in der Ähnlichkeitsdatenbank einzutragen, damit eine möglichst genaue Schätzwertung für meine Eltern erstellt werden kann, die dann zum Aussuchen von Tonträgern für die Radio-Würmchen-Unterwegs-Sendungen verwendet wird.
+
+Die Eingaben erfolgen immer als Excel-Sheet in einem bestimmten Format, das dann mit einer Funktion in der Tonträger-Datenbank importiert wird, sobald es genug Einträge hat (über 400). Dieses ist abgespeichert unter: C:\laufende Projekte\Radio Würmchen\TteingXX, wobei XX für die Nummer der Tranche steht... derzeit läuft Tranche 14.
+Wurde eine Tranche (ein Excel-Sheet mit mindestens 400 Titeln) frisch importiert, dann befinden sich in der Datenbank normalerweise etliche doppelte Titel, die aufgrund unterschiedlicher Schreibweisen des Titel, des Interpreten oder der Version nicht mit dem bestehenden Titel zusammengelegt wurden. Daher folgt auf jede importierte Tranche eine Bearbeitungsphase, bei der versucht wird, solche Inkonsistenzen durch Zusammenlegen der eigentlich gleichen Titel und Interpreten zu beheben.
+
+Im Moment läuft diesbezüglich aber eine Art Sonderverarbeitung, da diese Korrektur erst vor einigen Jahren neu eingeführt wurde und die bisher in der Radio-Würmchen-Datenbank eingetragenen Titel nicht diesen Standard aufweisen. Daher wird vor der Eingabe weiterer Tonträger erst einmal versucht, die bereits in der Radio-Würmchen-Datenbank befindlichen Tonträger und Titel möglichst vollständig darzustellen, indem z.B. auch doppelte Titel zusammengelegt oder die Felder für die Bekanntheit gesetzt werden. Dabei wird aufsteigend pro Titelnummer vorgegangen. Es werden allerdings nur Aktionen getätigt, die möglich sind, ohne die Musik zu hören, es erfolgt also keine Kategorisierung oder Eintragung von Ähnlichkeitsbeziehungen, und es wird auch kein Satz in der Ähnlichkeitstabelle angelegt, wenn dieser noch nicht existiert (das ist der Fall, wenn bisher weder Kategorien noch Ähnlichkeitsbeziehungen eingegeben wurden). Eine Ausnahme bilden hier aber Titel, die mir offensichtlich bekannt, aber trotzdem noch nicht gut vertreten sind, und die ich selbst nicht auf Tonträgern habe. Diese versuche ich mir dann, wenn möglich, als Youtube-Video anzusehen und dabei die fehlenden Daten zu ergänzen.
+
+Auch beim Anhören bestehender Tonträger gelten die gleichen Regeln wie beim Hören von Radio bezüglich Eintragung der gehörten Titel. Normalerweise sind die Titel selbst bereits in der Datenbank eingetragen, da ich mir meist nur vom PC vorgeschlagene Tonträger anhöre, aber die richtigen Kategorisierungen oder Ähnlichkeitsbeziehungen fehlen oft noch, insbesondere, wenn ich den Tonträger seit seiner Eingabe noch nicht gehört habe.
+
+Per Ende Juni 2007 (seither wurden keine weiteren Tonträger mehr eingegeben, da der allgemeine Korrekturvorgang läuft) haben wir nun folgenden Stand an bereits eingegebenen Tonträgern:
+- komplette Eversweets-Serie (0 bis 156)
+- alle CD's und Abarten davon (Playback-, Maxi-, Doppel-CD's)
+- alle Kassetten aus den Schachteln mit Tonträgern (selbst aufgenommene bzw. kopierte)
+- alle Weihnachtskassetten ab 1986
+- alle sonstigen Kassetten (außer nicht komplett beschriftete und Mastertapes) von 1987 bis heute
+- alle historischen Kassetten von April bis Dezember 1986
+- alle gekauften MusiCassetten und andere Kassetten mit kommerzieller Musik, die sich im Wandkasten befinden 
+- die ersten 3 Videokassetten (nach Nummern)
+- ungefähr die ersten 40 LP's (wobei der Plattenschrank von links nach rechts durchgegangen wird)
+- die ersten 2-3 CD's von Tina
+Insgesamt sind bereits über 10000 Titel aus der Tonträgersammlung eingegeben.
+Karaoke-Aufnahmen
+
+Bei Heimkaraoke und Karaoke-Parties werden auch Aufnahmen, vor allem von meinem eigenen Gesang gemacht, die dann im Zuge der Musikversorgung vor allem von mir und meinen Eltern weiterverarbeitet werden (siehe obigen Abschnitt über die Eingabe von Tonträgern).
+Radioprotokolle und ihre Korrektur
+
+Seit Sommer 1998 beschäftige ich mich mit dem, was kommerzielle Radiosender tun. Seit damals werden immer wieder sogenannte Radioprotokolle durchgeführt, aus denen hervorgeht, was auf einem bestimmten Radiosender zu welcher Zeit gespielt wurde. Ich habe auch eine Maßgröße für die "Rotation" eines Radiosenders entwickelt. Dies sollte die Anzahl der vorhandenen unterschiedlichen Titel sein.
+Diese Zahl geht davon aus, daß alle Titel gleich oft vorkommen und jeder Titel zufällig ausgewählt wird. Wir gehen davon aus, daß R die Zahl der vorhandenen Titel und N die Zahl der schon gespielten Titel ist.
+In diesem Fall ist für jeden Titel die Wahrscheinlichkeit, daß er gespielt wird, 1/R. Die Wahrscheinlichkeit, daß er nicht gespielt wird, ist daher 1-(1/R). Wenn nun N Titel gelaufen sind, ist die Wahrscheinlichkeit, daß der Titel immer noch nicht gespielt wurde, (1-1/R)^N. Für alle Titel zusammen kann man nun die Anzahl der verschiedenen Titel berechnen, die bis dahin gelaufen sein sollten, mit V=N*((1-1/R)^N). Tippt man dies in eine Zielwertsuche ein, in der V (Zahl der verschiedenen Titel) und N (Anzahl der Titel, die gelaufen sind) bekannt sind, kann man Rückschlüsse auf V ziehen. Die somit ermittelte Rotation von 88.6 liegt z.B. derzeit bei ca. 1900 Titeln und die von Radio Wien bei ca. 1400 Titeln.
+
+Im Rahmen des Radio-Würmchen-Programmes wurde dieser Vorgang nun so gestaltet, dass ich in einem Arbeitsgang eintragen kann, was ich alles im Radio gehört habe, und auf welchem Sender es gespielt wurde, und gleichzeitig auch Wertungen und Kategorien vergeben kann, wie es oben bereits dargestellt wurde. Je nach Bedarf lassen sich die Daten dann verschieden auswerten, also z.B. entweder sender- oder hörerbezogen.
+
+Da aber bei der Erfassung immer wieder verschiedene Dinge danebengehen, ist von Zeit zu Zeit eine Korrektur der Erfassungen nötig, die wieder als eigene Aktion "Korrektur Radioscans" durchgeführt wird. Dabei werden die Scans noch einmal in der Scan-Datenbank durchgesehen, und eventuelle Fehler korrigiert, wie z.B. manchmal auftretende Eintragungen mit Titelnummer 0, oder dass Titel versehentlich doppelt als gehört eingetragen werden, obwohl sie nur einmal gespielt wurden, oder dass sie versehentlich als von falschen Personen (z.B. Papa) gehört eingetragen werden, die eigentlich nicht beteiligt waren, oder dass positive bzw. negative Wertungen mehrmals eingetragen oder dem falschen Titel zugeordnet werden. Diese Korrektur dauert im Schnitt etwas unter 1 Sekunde pro Datensatz, wobei die Dauer aber mit der Anzahl der Personen, die zu einem gewissen Zeitpunkt mitgehört haben, absinkt, das heißt, wenn es bei einer Jukebox-Heroes-Radio-Sendung 20 Hörer gab, braucht jeder einzelner Titel zur Korrektur wesentlich weniger als 20 Sekunden. Abgesehen davon werden die Scans dieser Sendungen, damit die Bilanz über Wünsche und Kicks stimmt, die sich stark auf das weitere Programm auswirkt, möglichst sofort nach der Sendung korrigiert und fallen damit aus den allgemeinen Korrekturvorgängen heraus.
+Beschickung des Herzensgut-Kontos von Radio Würmchen
+
+Die Beschickung des Herzensgut-Kontos wurde bereits bei den Hauptaktivitäten beschrieben. Grund dafür ist, dass meinem Rechtsverständnis nach das Anlegen von Privatkopien für eigene Zwecke erlaubt ist, und ich auch beim Herunterladen aus dem Internet niemandem etwas wegnehme. Der Ausgleich dafür hängt dann im Prinzip von der Anzahl der Hörer ab und wurde pauschaliert, hängt aber nicht davon ab, wie viele Titel neu eingespielt werden, da dies auch die Berechnung unnötig schwierig machen würde.
+
+Besitztümer und Unterlagen von Radio Würmchen
+
+Im folgenden werden die Besitztümer und Unterlagen von Radio Würmchen gemäß der Inventurdatenbank grob aufgelistet, soweit sie für die unterstützenden Tätigkeiten relevant sind:
+
+- Rote Schachtel mit Audiozubehör (diverse alte Walkies, Kopfhörer usw.)
+- 2 Schachteln Batterien (eine im Wohnzimmer, eine im Kabinett)
+- Ganzes Fach links oben / unten in Wohnzimmer-Wandverbau (enthält Lötstation für Reparaturen)
+- Ganzes Kästchen vor der Küchentür (enthält Werkzeug für diverse Reparaturen)
+- Diverse Kabel (auf Kabelhaken im Kabinett und Strebe von 3er-Regal)
+- Diverse Kassetten mit Karaoke-Aufnahmen (in Schreibtisch und Kassettenracks)
+- 2 Lautsprecherboxen JBL (zum Hören von Radio Würmchen und PC-Verstärkung)
+- diverse Leerkassetten (für Aufnahmen, werden dann evtl. auf andere Konten verschoben)
+- Diverse alte tw. kaputte Walkys (lassen sich evtl. wiederverwenden)
+- Lötzeug (in Werkzeugkasten) zur Reparatur elektronischer Geräte
+- Hi-Fi-Geräte: Verstärker, Hi-Fi-Videorecorder, Tapedeck (wie oben beschrieben)
+- Kassettenersatzhülle (für zerbrochene Kassettenhüllen)
+- 2 Ordner mit Radio-Würmchen-Unterlagen
+- diverse Dateien auf der Festplatte
+
+Eine nähere Betrachtung verdienen noch die Papierordner und die Dateien auf dem PC, da sie jeweils komprimiert relativ viele Information enthalten.
+Die Papiere wurden auf Grund ihrer Fülle in 2 Ordner aufgeteilt. Einer enthält Unterlagen zu Karaoke-Parties und -Veranstaltungen, Radioprotokolle und -bewertungen, Unterlagen zum PC-Programm und Playlists für Sendungen u.a. Der andere Ordner enthält Unterlagen zu Sendungen mit Publikum, Lagerverwaltung, Collaborative Filtering und Diverses.
+
+Die Dateien auf der Festplatte sind einzuteilen in Daten, Programme (bzw. Datenbanken) und Musik. Die Musik liegt in MP3-Format vor, im Ordner C:\Dokumente und Einstellungen\All Users\Dokumente\Eigene Musik. Die Entwicklungsversion des Radio-Würmchen-Programms befindet sich auf C:\laufende Projekte\Radio Würmchen\Playlistgenerator_Radioscans. Die Datenbanken, die ständig in Verwendung sind, befinden sich auf C:\laufende Projekte\Radio Würmchen, und die Daten, die abgeschlossen sind (wie z.B. fertige Scans) sind auf D:\Daten\Radio Würmchen oder auf Sicherungs-CD's bzw. DVD's, wenn sie schon älter sind.
+
+Die Summe der Mieten für Radio-Würmchen-Gegenstände betragen pro Jahr (nach dem veralteten Abrechnungssystem) € 1023,96, werden aber im Moment nicht so berechnet, da in der Wohnung kein Platzmangel vorliegt und auch bei Entfernung der fraglichen Gegenstände der freigewordene Platz nicht anderweitig nutzbar wäre.
+
+Abrechnung
+
+Die unterstützenden Aktivitäten von Radio Würmchen gelten gemäß ihrer Definition als Arbeit und werden daher auch mit den üblichen Stundensätzen verrechnet. Falls aber Tonträger in die Radio-Würmchen-Datenbank aufgenommen werden, die einem anderen Konto gehören, so wird die Arbeit dafür diesem anderen Konto angelastet, das dafür auch die Tantiemen bzw. Tonträgermieten gutgeschrieben kommt, wenn die Tonträger gehört werden. Werden Titel von Tonträgern anderer Konten aber als MP3-Dateien ins Standardrepertoire aufgenommen, dann gehen die Dateien in den Besitz von Radio Würmchen über, das heißt, für das Anhören der MP3-Dateien werden keine Tantiemen mehr an das Konto, dem der ursprüngliche Tonträger gehört, ausgeschüttet. Dafür bekommt dieses Konto bei der Einspielung Tantiemen, die dem einmaligen Hören jedes eingespielten Titels entsprechen, wobei gemäß dem Staffelsatz die Einspielungen für jeden Tag getrennt gerechnet werden.
+
+Diese Regelung könnte allerdings im Rahmen der Dokumentationen der anderen Konten, die Tonträger besitzen, noch revidiert werden, da diese Dokumentationen noch nicht erfolgt sind.
+	- 1 -
+

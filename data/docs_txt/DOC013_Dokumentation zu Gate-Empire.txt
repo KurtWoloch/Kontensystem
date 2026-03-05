@@ -1,0 +1,407 @@
+Dokumentation zu Gate-Empire
+Stand: 6.11.2008
+
+Dokumentation zu Gate-Empire	1
+Vorwort	1
+Wie kam ich zu Gate-Empire	1
+Das Spiel	2
+Missionen	2
+Arbeit	2
+Angriffe	2
+Erfahrungspunkte und Level	2
+Skills	2
+Bewaffnung	2
+Miniitems	3
+Gesundheit und Heilung	3
+Das Postamt	3
+Das Auktionshaus	3
+Nachrichten	3
+Globaler Chat und Allychat	3
+Wiki und Forum	3
+Allianzen	4
+Mein Spielverlauf	4
+Strategie	4
+Leerung meiner Allianz	4
+Langeweile und andere Skandale	4
+Suche nach einer neuen Allianz	5
+Krach bei den Desperados	5
+Das Gespräch mit Dr. Mayrhofer	7
+Der zweite Krach	7
+Diavola und der Ausstieg	10
+Themen, die sich aus dem Spiel ergeben	12
+Onlinespiele	12
+Zwischenmenschliche Beziehungen	13
+Teamfähigkeit (übertriebene Geschäftstüchtigkeit)	13
+Unterscheidungen, wo bzw. mit wem man über was sprechen kann	13
+
+Vorwort
+
+Bei Gate-Empire handelt es sich um ein Online-Spiel, das ich von Ende Juli 2008 bis Ende Oktober 2008 spielte. In diesem Dokument werde ich meine Zeit in diesem Online-Spiel und meine Eindrücke darüber festhalten.
+
+Wie kam ich zu Gate-Empire
+
+Gate-Empire wurde am Anfang im Chat von Jukebox-Heroes-Radio erwähnt, wo sich Diavola, eine mir bekannte Chatterin, die Filmmusik von "Stargate" wünschte. Im Forum von Jukebox-Heroes-Radio lud dann Colonel-Ice auch dazu ein, sich dem Spiel und seiner Allianz darin anzuschließen. Daraufhin wurde ich neugierig und beschloß, mir das Spiel einmal anzusehen. Ich fragte also im Chat, wie ich dorthin komme und meldete mich an. Ice nahm mich dann auch gleich in seine Allianz auf, obwohl ich die Aufnahmekriterien in diese Allianz, 75 Punkte zu haben, am Anfang nicht erfüllte. Dafür gab er mir auch eine zusätzliche Aufgabe. Er meinte, wenn ich in den nächsten 24 Stunden 30 Leute angreife, bekomme ich von ihm $ 3000 an Spielgeld. Jemand anderer in der Allianz zeigte sich aber kritisch und meinte, wer mich "angeschleppt" hätte, worauf ich erklärte, daß ich aus Jukebox-Heroes-Radio kam.
+
+Das Spiel
+
+Im Prinzip handelt es sich bei Gate-Empire um ein Online-Spiel, das man im Internet spielt. Dabei gibt man immer bestimmte Kommandos, die die eigene Spielfigur ausführen soll. Die Ausführung erfolgt dann selbständig und dauert meist eine gewisse Zeit, während der man selbst nichts tun muß.
+Folgende Aktionen kommen im Spiel vor, die Zeit brauchen:
+Missionen
+
+Missionen dauern 15 Minuten und sind meist die bestbezahlte Tätigkeit im Spiel. Man kann maximal 6 Missionen pro Tag machen und verdient dabei einen bestimmten Geldbetrag und bekommt auch Erfahrungspunkte dazu. Die Bezahlung hängt vom Level ab, auf dem man sich befindet. Weiters bekommt man auf den meisten Missionen ein Miniitem, das man aber nur nehmen kann ,wenn man im Rucksack noch keine 6 Miniitems hat. Es gibt 3 Typen von Missionen: Angriffs-, Spionage- und Erkundungsmissionen. Die Gewinnwahrscheinlichkeit bei Angriffsmissionen beträgt normalerweise 55%, bei den anderen Missionen kommt es auf die Bewaffnung an, die man hat.
+Ein Sonderfall der Missionen sind die Beförderungsmissionen, mit denen man sich im Rang verbessert. Diese dauern 33 Minuten, erfordern aber auch gewisse Skills und eine gewisse Bewaffnung, um gewonnen werden zu können.
+Arbeit
+
+Man kann seine Spielfigur für maximal 12 Stunden auf Arbeit schicken, wofür man einen bestimmten Stundenlohn bekommt, der vom eigenen Level abhängig ist. Dieser ist mit den Missionen verglichen aber vergleichsweise niedrig - man bekommt pro Stunde Arbeit etwa 1/10 des Geldes, das man bei einer Mission bekommt.
+Angriffe
+
+Man kann auch andere Spieler angreifen, aber nur solche, die maximal 15 Level vom eigenen Level entfernt sind. Ob man den Angriff gewinnt, hängt von den eigenen und gegnerischen Skills und der Bewaffnung ab. Die Höhe des Geldgewinns hängt im Gewinnfalle davon ab, wieviel Geld der Gegner gerade hat. Bei gut situierten Gegnern können aber schon einmal mehrere tausend Dollar herausspringen, aber das ist selten. Im Durchschnitt bekommt man damit aber zumindest mehr als beim Arbeiten.
+
+Weiters sind in Gate-Empire noch folgende Spielelemente zu finden:
+Erfahrungspunkte und Level
+
+Wie schon erwähnt, bekommt man mit jeder gewonnenen Mission eine bestimmte Zahl an Erfahrungspunkten. Für eine gewisse Zahl an solchen Punkten steigt man dann einen Level auf. Ist dieser Level durch 5 teilbar, bekommt man die Möglichkeit, eine Beförderungsmission durchzuführen und dadurch im Rang aufzusteigen.
+Skills
+
+Es gibt 5 "Skills", die man trainieren kann: Stärke, Ausdauer, Tarnung, Rhetorik und Geschicklichkeit. Man "skillt" jeweils um einen Punkt nach oben, der eine bestimmte Summe kostet. Nach dem Skillen erhöht sich der Preis für einen weiteren Punkt in dieser Kategorie um einen bestimmten Betrag. Die Skillpunkte werden zusammengezählt und ergeben einen Gesamtpunktestand, der auch die Reihung in der High-Score-Liste bestimmt. Der Skill "Rhetorik" wirkt sich darauf aus, wieviel Geld man für Missionen und Arbeit bekommt.
+Bewaffnung
+
+Es gibt auch bestimmte Waffen, die in 6 Kategorien eingeteilt werden, je nachdem wo man sie trägt. Diese kann man normalerweise beim Waffenhändler kaufen und verkaufen, wobei der Verkaufspreis die Hälfte des Kaufpreises beträgt. Je eine Waffe von jeder Kategorie kann man dann "anlegen", was zur Folge hat, daß bestimmte Skillpunkte, die pro Waffe unterschiedlich sind, zu den eigenen Skillpunkten dazu- oder hinweggezählt werden, was sich bei Angriffen auswirkt.
+
+Miniitems
+
+Wie schon erwähnt, bekommt man auf Missionen immer wieder Miniitems. Diese lassen sich entweder verkaufen, essen oder "vergenerieren". Essen lassen sich nur essbare Items, was zur Heilung dient und pro Item eine bestimmte Anzahl an Stärkepunkten zurückbringt. Der "Generator" hält bestimmte Rezepte bereit, mit denen man aus bis zu 4 Miniitems ein anderes Miniitem erzeugen kann, das meist entweder wertvoller ist oder mehr Stärkepunkt bringt als die Ausgangsitems zusammen.
+Gesundheit und Heilung
+
+Bei bestimmten Missionen und Angriffen verliert man Gesundheitspunkte. Eine Mission oder ein Angriff gilt automatisch als verloren, wenn man dabei 10 Gesundheitspunkte unterschreitet, ansonsten gilt sie bzw. er nur als verloren, wenn man dabei mehr Gesundheitspunkte verloren hat als der Gegner. Die Gesundheitspunkte werden danach langsam wieder regeneriert, und zwar um 15% des Ausgangswertes pro Stunde. Man kann auch Gesundheitspunkte durch Essen von Miniitems oder durch bezahlte Heilung regenerieren. Bei der bezahlten Heilung kostet jeder Gesundheitspunkt $ 0,50. Bei Heilung durch Geld oder Essen von Miniitems beginnt die Zeit bis zur nächsten automatischen Heilung aber neu zu laufen.
+Das Postamt
+
+Man kann anderen Spielern auch Waffen, Miniitems und Geld schicken. Es gibt aber für Geld ein "Importlimit", das jedem Spieler nur so viel Geld pro Tag auszupacken erlaubt, wie er an Arbeit pro Tag verdienen könnte. Ansonsten werden die Dinge in "Paketen" an den anderen Spieler geschickt, was jeweils 1 Stunde dauert. Einmal angekommen, kann ein Spieler das Paket auspacken. Das Paket kann aber auch beliebig lange im Posteingang verbleiben, was dazu verwendet werden kann, Waffen, Items und Geld zu "horten", ohne daß sie bei Angriffen verloren gehen können und ohne daß der Platz dafür beschränkt ist, dazu ist aber die Kooperation mit anderen Spielern nötig, da man sich selbst keine Poststücke schicken kann.
+Das Auktionshaus
+
+Diese Funktion war bei meinem Beitritt zu Gate-Empire noch nicht vorhanden. Man kann Items auch im Auktionshaus versteigern, wobei man wie bei eBay einen Startpreis eingibt, der von anderen geboten werden muß, um den Zuschlag zu bekommen. Andere müssen das aktuelle Gebot dann in Schritten von $ 0,50 überbieten, um den Zuschlag zu bekommen. Am Ende des Auktionszeitraumes (den Zeitraum kann man ab 1 Tag wählen) gehen die ersteigerten Dinge per Post an den Höchstbieter und das Geld dafür an den Versteigerer. Wurde aber auf eine Auktion nicht geboten, dann verschwindet sie, ohne daß der Versteigerer dafür irgendetwas bekommt. Man kann eine beliebige Kombination von Waffen und Miniitems, die man hat (außer im Posteingang) versteigern.
+Nachrichten
+
+Man kann anderen Spielern auch Nachrichten schicken, die nach ca. 1 Tag automatisch gelöscht werden. Man bekommt auch automatisch Nachrichten über den Erfolg bei Missionen und Angriffen, sowie über neu angekommene Pakete. In den Nachrichten über Missionen und Angriffe steht dann jeweils ein sogenannter Kampfbericht, in dem steht, wie man selbst und der Gegner sich geschlagen hat und wer gewonnen hat.
+Globaler Chat und Allychat
+
+Rechts unten auf der Seite befindet sich eine Shoutbox, die man zwischen "Global" und "Allianz" umschalten kann, und die rege benutzt wird und von den Spielern auch als "Globaler Chat" und "Allychat" bezeichnet wird.
+Wiki und Forum
+
+Es gibt zu Gate-Empire auch ein Wiki, wo unter anderem alle Waffen und Miniitems mit ihren Einkaufs- und Verkaufspreisen zu finden sind. Weiters gibt es zum Spiel ein Forum, zu jeder Ally auch, und viele Allianzen haben noch ein anderes, eigenes Forum, das vom Spiel selbst unabhängig ist.
+Allianzen
+
+Wie erwähnt, gibt es im Spiel auch Allianzen, die aus verschiedenen Spielern gebildet werden. Eine Allianz hat im Spiel eine eigene Seite, und es gibt auch eine Ally-High-Score-Liste, für die für jede Allianz eine Punktezahl berechnet wird, die sich mit einem bestimmten Schlüssel aus der Punktezahl der einzelnen Spieler in der Allianz ergibt. Normalerweise kann man keine Spieler der gleichen Allianz angreifen, und es gibt dann auch Bündnisse von Allianzen untereinander, auf die man achten sollte, weil man auch niemanden angreifen sollte, dessen Allianz einem Bündnis mit der eigenen Allianz angehört. Eine Allianz kann auch ein "Wing" einer anderen "Main"-Allianz sein, was darin resultiert, daß zwischen der Main und ihrem Wing ein Nichtangriffspakt besteht, aber auch alle Nichtangriffspakte zwischen Main-Allys auf ihre Wings übergehen. Dann gibt es noch größere Bündnisse zwischen Allianzen, die zur Folge haben, daß jeder Spieler, der einer dieser Allianzen angehört, keinen anderen Spieler einer dieser Allianzen angreifen darf.
+Weiters wird einander in Allianzen auch oft geholfen und auch sonst ein kollegiales Verhalten an den Tag gelegt, das ich nicht ganz verstanden habe, wie man noch sehen wird.
+Mein Spielverlauf
+Strategie
+
+Schon nach einigen Tagen hatte ich die fast optimale Strategie entwickelt, dieses Spiel zu spielen. Diese bestand daraus, auf jeden Fall an jedem Tag die 6 Missionen zu erfüllen und das Geld, das dafür hereinkommt, zum "Skillen" zu verwenden, wobei der oberste Skill (Stärke) der wichtigste ist. Daher wurde immer, wenn genügend Geld dafür vorhanden war, der oberste Punkt geskillt, für den Geld vorhanden war. Später wurden die Kaufpreise für Skills dann verändert, und die Strategie wurde so modifiziert, daß jeder Skill immer sowohl einen höheren Preis als auch einen höheren Punktewert haben mußte als der darunterliegende.
+Zu Zeiten, wo ich nicht am Computer war (Schlaf, Besprechungen, Fahrten) wurde die Spielfigur auf "Arbeit" geschickt, um auch in diesen Zeiten ein optimales Einkommen zu erzielen.
+Die Strategie, welche Spieler angegriffen wurden, wurde immer wieder modifiziert, ich verwendete aber die ganze Zeit über ein Excel-Sheet, um mir zu merken, welche Spieler beim Angreifen am meisten bringen und diese immer wieder anzugreifen. Ich berechnete auch immer den Wert, den ein Angriff mindestens bringen mußte, um lukrativer zu sein als Arbeit.
+Nebenbei versuchte ich auch, als das Auktionshaus eröffnet wurde, meine Items, die ich bei den Missionen bekam, dort zu versteigern, anstatt sie ans System zu verkaufen. Dies gab ich dann aber bald wieder auf, als ich bemerkte, daß viele der Items, die ich dort hineinstellte, von niemandem ersteigert wurden, obwohl ich nur den Preis verlangte, der auch vom System geboten wurde.
+Leerung meiner Allianz
+
+Wie schon erwähnt, wurde ich von Ice gleich zu Beginn in seine Allianz hineingesteckt. Diese Allianz bat auch immer um Spenden für den Ausbau der Allianz. Nach einigen Tagen hatte sie aber den höchsten Level erreicht, und Ice verließ plötzlich die Allianz, um eine neue zu gründen. Da er einer der Anführer der Allianz war, verschlechterte sich die Stimmung in der Allianz derart, daß in Folge fast die Hälfte der Allianzmitglieder das Spiel verließen, darunter die komplette Führungsriege. Als neuer Anführer wurde ein ahnungsloses Allianzmitglied eingesetzt.
+Silverone, der die Allianz gegründet hatte und den ich auch von Radio Krokofee schon kannte, stieg wenig später ganz aus dem Spiel aus. Diavola blieb zwar dabei, stieg aber aus der Allianz aus und trat keiner weiteren mehr bei. In der Folge wurde es dann in der Allianz ziemlich ruhig. Schließlich bekam die Allianz von "Stargate Commando" ein Angebot, ihr Wing zu werden, und so wurde sie umbenannt in "Stargate CommandoWin" (aufgrund einer Beschränkung der Namenslänge), und war fortan ein Wing von Stargate Commando.
+Zwischendurch bekam ich von Ice und Diavola immer wieder kleinere Pakete mit Geld und Waffen. Ice stattete mich auch gleich beim Einstieg in das Spiel mit einer Grundausstattung an Waffen aus.
+Langeweile und andere Skandale
+
+Nach einigen Tagen hatte ich alle Spielmöglichkeiten dieses Spieles ausgelotet und kam zu dem Schluß, daß es mir eigentlich nicht besonders viel Spaß machte. Nachdem Ice mich aber nun schon in seine Allianz aufgenommen hatte, traute ich mich nicht so einfach wieder auszusteigen. Auch als Ice selbst aus seiner Allianz ausstieg, blieb ich trotzdem dabei und auch in der Allianz, obwohl dies schon eine gute Gelegenheit für mich gewesen wäre, wieder mit dem Spiel aufzuhören.
+Mit der Zeit merkte ich dann, daß offensichtlich auch einigen anderen Spielern langweilig war, zumindest nach dem, was immer wieder im globalen Chat zu lesen war. Das Spiel war nämlich eine Alpha-Version, der noch einige Features hinzugefügt werden sollten. Besonders die Nr. 1 der Rangliste, Volfare, beschwerte sich darüber, daß nichts weiterging. Es gingen auch einige Gerüchte um, unter anderem, daß das ganze Spiel eine Art Schularbeit sei, die deshalb nicht verändert werden dürfte, weil sie irgendwann von einem Lehrer benotet wird.
+Weiters regte man sich darüber auf, daß auf der Seite Spenden gesammelt wurden, aber nichts im Spiel weiterentwickelt wurde. Angeblich gab es auch die Aussage, daß nie eine Beta-Version geplant war, und einige Spieler im Spiel fühlten sich nun "verarscht".
+Schließlich gab es eine Stellungnahme der beiden Entwickler des Spiels, Coolzero und Syado, die erklärten, daß der Server ca. € 70 pro Monat kostet, und daß sehr wohl Weiterentwicklungen geplant waren. Es wurde auch ein neuer Programmierer gesucht, der sich dann mit dem Nick Stefan F. im globalen Chat auch meldete. Auch sonst wurden einige Verbesserungen versucht, an denen u.a. auch Ice beteiligt war. So wurden die Gesundheitswerte der Kämpfe von den astronomischen Zahlen, die sie ursprünglich bei stärkeren Spielern waren, auf realistischere Werte zurückgenommen, und die Kaufpreise für die Skills wurden geringfügig angepaßt. Schließlich gab es auch neue Rezepte im Generator und auch einige neue Mini-Items, die man generieren konnte.
+Ich hatte mittlerweile auch mit meiner Psychotherapeutin, Dr. Mayrhofer, über das Spiel gesprochen und ihr gesagt, daß es mir eigentlich keinen besonderen Spaß machte und ich plante, aus dem Spiel auszusteigen, wenn die Beta-Version kommt.
+
+Anfang Oktober 2008 begann ich mich auch wieder für den Handel mit Miniitems zu interessieren und bot die Items, die ich bei Missionen bekam, wieder im Auktionshaus an. Grund dafür war auch ein persönliches Bündnis mit Pendergast, der es satt hatte, von mir täglich angegriffen zu werden, und mir $ 2000 anbot, wenn ich ihn nicht mehr angriff. Ich unterbreitete ihm dann die Vorstellung, er könnte die von mir in versteigerten Items "auffangen", wenn niemand anderer darauf bietet, und er sagte zu. Dafür bekam ich von ihm nie die zugesagten $ 2000. Jedenfalls dachte ich nun, mit dieser Unterstützung die Versteigerung meiner Items wieder wagen zu können. Ich steigerte nun auch auf Items mit, besonders auf solche, die unter dem Systempreis angeboten wurden, aber auch auf solche, die genau zum Systempreis angeboten wurden und keine Bieter hatten. Letzteres tat ich, um das Vertrauen in das Auktionshaus zu stärken. Aufgrund dieser Versteigerungen baute ich auch ein Lager an Miniitems auf, das ich bei Bedarf versteigern oder vergenerieren konnte. Nachdem dieses aus vielen Postzusendungen der Verkäufer der Items bestand, baute ich auch eine Excel-Liste der Items auf, wo ich dann auch vor hatte, nach und nach die verschiedenen möglichen Generatorrezepte einzutragen, um dann automatisiert feststellen zu können, welche Rezepte eventuell von meiner Sammlung abgedeckt werden können, und welche meiner Items völlig unbrauchbar sind und wieder abgestoßen werden sollten.
+Suche nach einer neuen Allianz
+
+Im Oktober 2008 wurde ich wieder einmal von einem anderen Spieler angegriffen, der dann aber seinen Angriff abbrach und mich darauf aufmerksam machte, daß meine Allianz sich aufgelöst hatte, was sich als wahr herausstellte, denn mir war schon aufgefallen, daß eine Zeile aus meiner Statusanzeige verschwunden war, und es handelte sich um die Zeile mit der Statusanzeige. Dieser Spieler bot mir dann an, in seine Allianz einzusteigen, ich erbot mir aber Bedenkzeit, da ich wußte, daß mich eigentlich Ice ins Spiel geholt hatte. Daher wollte ich Ice, wenn möglich, in seine Allianz nachfolgen. Ich dachte auch kurz darüber nach, das Spiel an diesem Punkt ganz zu verlassen, fühlte mich Ice gegenüber aber immer noch verpflichtet, und fragte ihn dann per privater Nachricht, ob er mich in seiner Allianz, den "Desperados", brauchen könnte, was er bejahte, und so wurde ich dort aufgenommen. Von Bigmack bekam ich dann auch bessere Waffen zugeschickt, als ich sie im Moment hatte, wofür ich ihm meine alten Waffen schickte. Bigmack trat dabei aber unter dem Nick "Robin Hood" auf, den er dann nocheinmal auf "Fuck Ju"  änderte. Ich sah mir dann auch das ganze Forum der "Desperados" durch und hinterließ hier und da Antworten auf die verschiedenen Beiträge.
+Krach bei den Desperados
+
+In der Allianz, in der ich nun war, war praktisch die Führungsschicht vertreten. Einerseits waren etliche Spieler daraus auf Spitzenplatzierungen in der High-Score-Liste zu finden, so auch Volfare, der die Nr. 1 der Liste und auch einer der drei Ansprechpartner in der Allianz war, andererseits hatten etliche Spieler daraus auch Administratorrechte für das Spiel, konnten also auch Dinge ändern wie z.B. die Werte der Skills und die Generatorrezepte, waren also sogenannte GOP's (Game Operator) oder sogar SGOP's (Super Game Operator).
+Kurz nach meinem Einstieg wurde es Volfare dann zuviel, und er bat Ice, der dafür offensichtlich die Rechte hatte, im Allianzchat, ihn zu löschen. Als Ice dieser Aufforderung aber nicht nachkam, begann Volfare, den Chat mit Schimpfwörtern zuzuschütten.
+Dann wurde bekannt daß Bigmack gelöscht worden war, da er als "Fuck Ju" weiter Game-Operator-Dienste ausführte, was für einen Game-Operator ein untauglicher Name war.
+Am Abend des Sonntag, 26.10.2008, erwähnte Volfare dann im globalen Chat, daß er gut für Miniitems zahlt, und zwar den 3-fachen Systempreis, aber nur für solche Items, die für Generatorrezepte brauchbar sind. Hintergrund war der, daß er ausprobieren wollte, wieviel die neuen Items wert waren, um dies in die Wiki-Seite einzutragen. Jedenfalls bot ich ihm an, ihm eine Liste meiner Items zu schicken, damit er nachsehen kann, ob er von mir welche brauchen könnte. Ich fertigte also aus meinem Excel-Sheet diese Liste an (sie enthielt 67 Items, davon 34 verschiedene) und schickte sie ihm. Er schickte mir weiters 2 Waffen, die mir noch auf die "Maximalausrüstung" gefehlt hatten und meinte dazu, ich solle ihm dafür mein altes "Zeug" schicken, worauf ich ihm dafür die 2 Waffen schickte, die durch seine neuen ersetzt wurden. Jedenfalls war Volfare meine Liste dann anscheinend zu viel zum Durchlesen, und er fragte mich, was ich für alles zusammen haben möchte. Ich schrieb dann, vom System bekäme ich $582, und er bot mir $2000 dafür an. Das ging alles relativ schnell, und ich wollte eigentlich schon schlafen gehen, so daß ich ihm sagte, ich würde die Items am Montag verschicken, womit er einverstanden war.
+Am Montag, dem 27.10.2008 in der Früh schickte ich ihm dann zuerst einmal die Items aus meinem Rucksack, damit wieder Platz für neue war, die ich bei den Missionen bekommen würde. Dabei fiel mir auf, daß die Liste, die ich Volfare geschickt hatte, leider nicht auf dem neuesten Stand war... eine "Banane" war schon verkauft, dafür gab es jetzt einen zusätzlichen "Würfel". Das sagte ich ihm dann auch gleich, um weitere Schwierigkeiten zu vermeiden. Als nächstes fiel mir dann auf, daß in einigen Paketen, wo laut meiner Liste Holz hätte sein sollen, nur leere Bilder waren. Ich entpackte ein solches Paket und hatte statt dem leeren Bild überhaupt kein zusätzliches Item im Rucksack. Damit hatte ich ein Problem, Volfare alle 8 Hölzer zu schicken, die ich laut Liste hatte, weil sich einige davon in Luft aufgelöst hatten. Volfare sagte mir dann, daß er das Holz als Administrator selbst aus der Datenbank gelöscht hatte, weil es doppelt vorhanden war, was Ice auch bestätigte. Er bot mir $ 100 als Schadenersatz an, wurde aber sauer, als ich nicht gleich zusagte. Ich meinte nämlich, ich hätte Volfare sowieso das ganze Holz geschickt, und diese Menge würde sich nun eben verringern.
+Dann fiel mir noch ein, daß ich bei einer Auktion mitgesteigert hatte, wo mehr als 6 Items angeboten wurden, und fürchtete, dieses Paket eventuell nicht auspacken zu können, was ich ihm auch so sagte.
+An diesem Punkt wurde es Volfare dann anscheinend zuviel. Ihm fiel plötzlich auf, daß wir eigentlich in der gleichen Allianz sind, was ich bestätigte. Es entwickelte sich das folgende Gespräch:
+
+(06:44) Wuermchen: 
+Aber ich bin schon davon ausgegangen, daß Du bereit warst, mit mir die Waffen zu tauschen, weil wir in der selben Ally sind.
+(06:46) Volfare: 
+Würmchen du verstehst den sinn ner ally nicht glaub ich! glaubst du mich interessiert dein geld, deine items oder was auch immer? das is mir latte. ich lach dich aus!
+(06:46) Volfare: 
+wenn du nicht magst, dann mag ich auch nicht
+(06:47) Wuermchen: 
+Ich dachte, Du brauchst meine Items, um die Wiki-Seite fertig zu machen?
+(06:48) Volfare: 
+pimmelkacke da wegen max 2000 rumzueiern. also ich war vorhin bissi angepisst. und nun auch wieder
+(06:48) Volfare: 
+ja und?
+(06:48) Wuermchen: 
+Tja... das tut mir leid. Ich habe leider eine Ader dafür, in Fettnäpfchen zu treten. Gehe auch deshalb in Psychotherapie.
+(06:48) Volfare: 
+500 isses wert ? willste deine allykollegen abziehen oder was?
+(06:49) Volfare: 
+Wurm also du bist schonmal ener, dem ich nicht helfe
+(06:50) Wuermchen: 
+Gut... soll ich Dir die weiteren Items dann noch schicken, oder nicht?
+(06:50) Volfare: 
+nope
+(06:50) Wuermchen: 
+OK, dann gehe ich jetzt rasieren und duschen
+(06:50) Volfare: 
+will ich nicht haben von dir. ich zahl lieber normal
+(06:51) Wuermchen: 
+Kann man die denn überhaupt alle kaufen? Ich dachte, man bekommt die nur auf Missis...
+(06:53) Wuermchen: 
+Ich werde das heute mit meiner Psychotherapeutin besprechen..
+(06:53) Volfare: 
+immer dieselbe scheisse ... neue member und scheisse...
+(06:53) Volfare: 
+ja genau, besser is
+(06:54) Volfare: 
+son mist musste nicht mit deine psychotante bequatschen. das is nen ding von selbstverständlichkeit.
+(06:54) Wuermchen: 
+Ich weiß... ich hätte dem Spiel hier überhaupt nicht beitreten sollen.
+(06:55) Volfare: 
+Würmchen? mal ne frage ? glaubst du mich interessiert geld noch hier?
+(06:55) Wuermchen: 
+Nein, nicht wirklich.
+(06:56) Volfare: 
+und nun? ich schick dir auch gerne 5000 statt 2000. aber wieso bist du so... ich weiss nicht
+(06:57) Volfare: 
+Würmchen jetzt despos! und glaubs mir, du kannst nur gewinnen
+(06:58) Wuermchen: 
+Wieso? Habe leider keine guten Manieren gelernt, was soziale Kontakte betrifft... und was für Dich selbstverständlich ist, ist es für mich leider nicht.
+(06:58) Volfare: 
+aber du musst teamfähig sein
+
+Ich erwiderte dann, daß ich es leider nicht bin, und daß ich eh schon versucht hatte, mich umzubringen, meine Kollegen mich aber daran gehindert hatten. Volfare versuchte mich dann, zu "erziehen" und mich in die "Familie" einzuführen. Er meinte, wenn man etwas gibt, kommt das vielfach zurück. Ich erwiderte, daß ich es leider von meinem Vater anders gemeint hatte... wenn ich etwas gebe, käme es nicht zurück, sondern die Leute wollten nur immer noch mehr und mehr von mir. Volfare meinte dann, ich sei ja kein schlechter, nur mißtrauisch.
+Etwas später gab es noch das folgende Gespräch zwischen Volfare und Ice:
+
+(07:08) ICE: 
+ich auch nicht, nur interessant^^
+(07:09) Volfare: 
+hmm, naja
+(07:10) ICE: 
+ciao
+(07:11) Volfare: 
+ICE 
+(07:12) Volfare: 
+wenns hier noch leute gibt, die auf zusammenhalt und son blödsin heiss sind ... Despos haben nen Forum. Und wir sind gar nicht so scheisse , wie ihr immer alle denkt
+
+Aufgrund dieses Chats schickte ich ihm dann die restlichen Items, die ich im Posteingang hatte, nicht. Ich bemerkte dann bei den Missionen, daß das ungültige Holz anscheinend im Rucksack ein Loch in der Form riß, daß für jedes entpackte ungültige Holz im Rucksack 1 Item weniger Platz hatte, das ich bei Missionen bekommen konnte, so daß die Größe des Rucksacks von 6 auf 4 Items schrumpfte.
+Das Gespräch mit Dr. Mayrhofer
+
+Am Nachmittag des 27.10. hatte ich dann wieder Psychotherapiestunde bei Dr. Mayrhofer, der ich von dem erzählte, was mir mit Volfare passiert war. Der Schwerpunkt lag hier meiner Meinung nach darauf, daß hier offensichtlich in der Ally ein bestimmtes Verhalten erwartet wurde, das ich nicht erfüllte, indem ich Volfare's Angebot annahm. Ich zeigte ihr auch einen Ausdruck des oben dargestellten Chats, und sie machte sich vor allem an Volfare's Sprache fest, die sie als "anal" bezeichnete, während ich eigentlich sehr höflich gewesen sei. Sie riet mir dann, nachzufragen, welches Verhalten eigentlich in einer Allianz erwartet wird, nachdem ich von Volfare den Vorwurf bekommen hatte, dieses nicht einzuhalten. Generell meinte sie, ich solle aus dem Spiel nicht aussteigen, weil es für mich ein gutes Training sei.
+Der zweite Krach
+
+Am Abend des Mittwoch, 29.10., ergab sich dann die Gelegenheit, diese Frage zu stellen, nachdem Volfare wieder im globalen Chat war. Ich versuchte ihn also zu fragen, wie ich mich richtig verhalten hätte sollen, aber er brachte im Ablauf dessen, was passiert war, einiges durcheinander, wie der folgende Ausschnitt aus dem Allianzchat dokumentiert:
+
+(19:10) Volfare: 
+ah lass sein, ich glaub du hast irgendwas total falsch verstanden
+(19:09) Volfare: 
+wieso drauf gekommen, das wusste ich, oder glaubst du ich schick dir sonst die ausrüstung?
+(19:10) Wuermchen: 
+Aber Du hast so getan, als hättest Du es erst bemerkt, nachdem wir vorher über den Preis für die Items verhandelt hatten, und Du bereit warst, mir 2000 dafür zu zahlen.
+(19:11) Volfare: 
+ja aber danach hab ich dir die ausrüstung geschickt. du solltest deine alte und die items senden. aber wie gesagt, is mir latte.
+(19:12) Wuermchen: 
+OK, gut. Das hatte ich so nicht verstanden.
+(19:12) Wuermchen: 
+Aber wenn Du willst, kann ich sie Dir immer noch schicken... die Liste hat sich nur wieder ein wenig verändert mittlerweile.
+(19:13) Volfare: 
+du hast noch geschrieben, du machst das morgens oder am nächsten tag, weil du pennen wolltest . und du hattest keine lust noch die dinger alle einzelnt zu senden. aber wie gesagt, scheissegal
+(19:13) Wuermchen: 
+Ja, richtig... und dann habe ich am nächsten Morgen damit begonnen, die ersten Items zu schicken, und dann bin ich draufgekommen, daß eines der beiden Hölzer gelöscht wurde...
+(19:14) Wuermchen: 
+und ich Dir daher nicht mehr soviel Holz schicken konnte wie ursprünglich ausgemacht...
+(19:15) Wuermchen: 
+und dann hast Du dich plötzlich aufgeregt, daß ich Dir die 2000 $ tatsächlich abgenommen hätte, die Du mir angeboten hast, und hast gemeint, Du brauchst meine Items nicht.
+(19:16) Volfare: 
+ja weil du nase auf einmal damit kamst, aber was anderes ausgemacht war. is mir wie gesagt scheissegal, ich bin darauf nicht angewiesen. und nun hab ich andere sachen zu tun
+(19:18) ICE: 
+wegen so einem scheiss macht ihr 3 tage so einen stress
+(19:18) Volfare: 
+wie gesagt , mir is das egal.
+(19:18) Wuermchen: 
+Tut mir leid, daß ich Streß gemacht habe... versuche nur zu lernen, wie ich mich in der Ally richtig verhalten soll.
+
+Ich fragte Ice dann, ob ich ihm eine längere private Nachricht schicken darf, und er willigte ein. Diese Nachricht las sich dann wie folgt:
+
+Hallo Ice!
+
+Ich entschuldige mich gleich einmal im Vorhinein, weil ich Dir diese PN schicke. Ich werde versuchen, es kurz zu machen, aber besonders kurz wird es wohl nicht werden...
+
+Ich weiß, daß Du es als einen "Scheiß" bezeichnet hast, was ich mit Volfare in der Shoutbox besprochen habe, aber für mich ist es sehr wichtig, weil ich ähnliches schon mit anderen Leuten erlebt habe. Ich habe das, was Montag früh gelaufen ist, auch am Montag nachmittag mit meiner Psychotherapeutin besprochen, und sie meinte, ich war eigentlich sehr höflich.
+
+Womit ich eigentlich ein Problem habe, ist, daß ich unsicher bin, wie ich mich in einer Ally richtig verhalten soll. Volfare hat da einige Andeutungen gemacht, ich bin mir aber trotzdem nicht sicher, worauf er hinaus will. Was mir auch Sorgen macht, ist, daß er gemeint hat "Neue Member und Scheiße"... so, als ob er deswegen keine neuen Member in der Ally haben möchte, weil sie dann immer Unsinn anzetteln.
+
+Nur zur Erklärung: Volfare hat mir am Sonntag abend 2 Waffen geschickt, die mir noch auf die "Maximalausrüstung" gefehlt haben und dazu gemeint, ich soll ihm dafür mein altes "Zeug" schicken, worunter ich eigentlich nur die Waffen verstanden habe, nicht die ganzen Miniitems, die ich habe. Davor war es so, daß er gemeint hat, er zahlt für Miniitems den 3-fachen Preis, den das System anbietet, aber nur für solche, die er für die Generatorversuche brauchen kann, um die Wiki-Seite zu vervollständigen. Daraufhin habe ich ihm eine Liste geschickt, was ich alles habe (wie gesagt, insgesamt 67 Items, davon 34 verschiedene), und anscheinend war ihm das zu viel zum Durchlesen, und er hat mich gefragt, was ich für alles zusammen haben möchte. Ich habe dann gesagt, vom System bekäme ich $582, und er hat mir $2000 dafür angeboten. Das ist alles relativ schnell gegangen, und ich wollte eigentlich schon schlafen gehen, so daß ich gesagt habe, ich würde die Items am Montag verschicken.
+
+Am Montag in der Früh habe ich ihm dann zuerst einmal die Items aus meinem Rucksack geschickt, damit wieder Platz für neue ist, die ich bei den Missis bekomme. Dabei ist mir aufgefallen, daß die Liste, die ich Volfare geschickt hatte, leider nicht auf dem neuesten Stand war... eine "Banane" war schon verkauft, dafür gab es jetzt einen zusätzlichen "Würfel". Das habe ich ihm gleich gesagt, um weitere Schwierigkeiten zu vermeiden. Als nächstes ist mir die Geschichte mit dem Holz aufgefallen, das gelöscht wurde. Bis dahin bin ich davon ausgegangen, daß alles Holz, was ich in meiner Liste hatte, auch vorhanden war. Ich möchte hier nicht alles wiederholen, Du hast es eh gelesen...
+dann ist mir noch eingefallen, daß ich bei einer Auktion mitgesteigert hatte, wo mehr als 6 Items angeboten wurden, und fürchtete, dieses Paket eventuell nicht auspacken zu können, was ich ihm auch so sagte. Da ist es ihm dann anscheinend zuviel geworden... mittlerweile habe ich mein Inventar nocheinmal durchgesehen und bemerkt, daß die Angst wohl unbegründet war... ich habe kein Paket im Posteingang mit mehr als 6 Items... wohl aber 2-3 Pakete, wo ein ungültiges "Holz" zusammen mit 1-2 anderen gültigen Items ist, die Teil der Liste waren. Und ich habe schon den Fehler gemacht, 1 Paket mit einem ungültigen "Holz" auszupacken, und hatte eventuell auch noch ein solches ungültiges Holz in meinem Rucksack, was nun zur Folge hat, daß in meinem Rucksack nur noch Platz für 4 Items ist, bevor Items auf Missionen zurückgelassen werden.
+Jedenfalls ist Volfare dann ziemlich ausfällig geworden (Du hast es eh mitgelesen... "neue Member und Scheisse" usw.), und das auch damit begründet, daß ich ihn "ausnehmen" will, anscheinend, indem ich die $2000 wirklich angenommen hätte, die er mir angeboten hat. Heute hat er es aber eher damit begründet, daß ich begonnen habe, herumzueiern wegen Items, die ich ihm nicht schicken könnte etc.
+
+Gut... nun habe ich leider einige Probleme. Wie ich heute gelesen habe, ist Volfare nicht wirklich bereit, darüber zu diskutieren, was ich falsch gemacht habe, und wie ich es besser machen könnte. Auch Du hast das, was wir diskutiert haben, als "Scheiss" bezeichnet. Die einzige, die anscheinend bereit ist, ausführlich mit mir darüber zu reden, ist meine Psychotherapeutin, und der bezahle ich auch relativ viel dafür (100 EUR pro Stunde). Ich würde Dir daher anbieten, Dir auch eine relativ große Summe dafür zu bezahlen, daß Du diese PN liest und Dich mit mir und meinen Problemen abgibst (in echt, nicht in Spielgeld).
+
+Was ich gerne wissen würde, wäre, wie ich mich in einer Ally richtig verhalten sollte. Da bin ich mir nämlich nicht sicher: hätte ich das Angebot von Volfare über $ 2000 von vornherein nicht annehmen sollen und ihm anbieten sollen, daß ich ihm die Items auch so schicke, weil er mir die Waffen geschickt hat? Oder hätte ich am besten überhaupt nicht reagieren sollen, als er im öffentlichen Chat gesagt hat, daß er gut für Items zahlt?
+
+Dann sind mir Zweifel gekommen, ob ich bei den "Desperados" wirklich gut aufgehoben bin. Wenn Volfare meint "Neue Member und Scheisse", mich also praktisch als Scheisse bezeichnet - und er ist immerhin einer der 3 Ansprechpartner der Ally - dann glaube ich nicht, daß ich in der Ally wirklich willkommen bin.
+
+Im Prinzip frage ich mich überhaupt, ob es einen Sinn hat, dieses Spiel hier noch weiterzuspielen. Ich weiß nämlich nicht, wo eigentlich das Spielziel liegt. Bisher lag es für mich darin, in der High-Score-Liste immer höher zu steigen. Aber Volfare hat mich nun ausgelacht, weil es mir um Geld geht... und Geld wird bei mir immer, sobald es möglich ist, verskillt, was mich in der High-Score-Liste wieder steigen läßt.
+
+Eigentlich habe ich nur versucht, es Dir möglichst recht zu machen. Du hast mich ja in das Spiel eingeführt, nachdem ich mich in Jukebox-Heroes-Radio dafür interessiert habe, und mich gleich in Deine damalige Ally aufgenommen (obwohl ich das offizielle Aufnahmelimit von 75 Punkten am Anfang nicht erreicht hatte) und mir dann im Prinzip die Aufgabe gestellt, möglichst viele Leute anzugreifen, "weil man nur so wirklich weiterkommt"... wenn ich mich richtig erinnere. Ich selbst wollte mir das Spiel eigentlich nur ansehen, und im Prinzip war es mir schon spätestens nach einigen Wochen fad, als ich mehr oder weniger alle Spielmöglichkeiten ausgelotet habe. Ich bin aber trotzdem dabei geblieben, um Dich und die Ally nicht zu enttäuschen, obwohl ich schon lange darüber nachgedacht habe, mit dem Spiel wieder aufzuhören.
+
+Ja... wenn Ihr zum Schluß kommt, daß ich auf Grund der Vorkommnisse, die in den letzten Tagen passiert sind, doch nicht in die Ally passe, könnt Ihr mich gerne wieder rauswerfen. Es würde mir auch nichts ausmachen, wenn Du mich aus dem ganzen Spiel rauswerfen (also meinen Account löschen) würdest, aber dafür gibt es wahrscheinlich keinen Grund.
+
+Ansonsten würde es mich freuen, wenn Du zu den von mir aufgeworfenen Punkten Stellung nehmen könntest. Wie gesagt, ich wäre auch bereit, Dich dafür zu bezahlen, daß Du Dich mit mir und dem "Scheiß", den ich schreibe, abgibst.
+
+Liebe Grüße
+Kurt (Wuermchen, DJ Würmchen auf Jukebox-Heroes-Radio)
+
+Diese Nachricht schickte ich an Ice. 
+Diavola und der Ausstieg
+
+Während ich auf eine Antwort von Ice auf meine Nachricht wartete, kam Diavola in den globalen Chat. Ich wünschte ihr einen guten Abend, und sie fragte, wie es mir geht. Ich erzählte ihr davon, daß ich in der Ally Probleme hatte, und führte dann noch aus, in welcher Ally ich bin, und daß ich innerhalb der Ally zu geschäftstüchtig gewesen sei. Daraufhin bekam ich von jemand anderem, der offensichtlich mitlas, eine private Nachricht, in der er mir anbot, in seine Allianz einzusteigen. Da kam ich dann darauf, daß ich das vielleicht nicht im öffentlichen Chat schreiben sollte, was ich dann auch so schrieb. Währenddessen regte sich Volfare im Allianzchat fürchterlich über die "Show" auf, die ich da abzog, und forderte mich auf, wenn ich Probleme habe, mich bei meiner Mutter auszuweinen, oder jemanden in der Allianz zu fragen, aber nicht im globalen Chat darüber zu schreiben.
+
+Ich beschloß dann, daß es keinen Sinn hatte, in diesem Spiel zu bleiben. Wenn ich in der Allianz bleiben würde, würde ich wohl über kurz oder lang wieder bei Volfare anecken. Und eine andere Allianz wollte ich mir nicht mehr suchen, weil mir das Spiel sowieso schon langweilig war. Ich schrieb Diavola dann im MSN Messenger an, und es ergab sich die folgende Diskussion:
+
+29.10.2008 21:09:32 Kurt: Gut, daß Du den Ally-Chat nicht lesen kannst... Volfare ärgert sich mächtig, daß ich das nun auch noch im Globalchat breitgetreten habe.
+29.10.2008 21:09:55 (L)SWEETDEVIL(6): lach
+29.10.2008 21:10:07 Kurt: Bei mir nicht lach... habe eine Menge Probleme.
+29.10.2008 21:10:28 (L)SWEETDEVIL(6): Kurt patricia sucht doch noch
+29.10.2008 21:10:29 Kurt: Ich stelle Dir mal das rein, was sich am Montag früh im Globalchat getan hat... 29.10.2008 21:10:39 Kurt: Ich suche aber nicht mehr nach einer neuen Ally...
+29.10.2008 21:10:57 (L)SWEETDEVIL(6): ich denke ich hör auch langsam auf
+29.10.2008 21:12:38 Kurt: meine alte (wo Ice ursprünglich drin war) hat sich letzte Woche aufgelöst, und ich habe den Fehler gemacht, der beizutreten, wo Ice jetzt ist.
+29.10.2008 21:12:58 Kurt: Und jetzt ist alles nur mehr Scheisse.
+29.10.2008 21:13:11 (L)SWEETDEVIL(6): achso das wusste ich ned
+29.10.2008 21:13:21 Kurt: Ich verwende das Wort so normalerweise nicht, aber ich bin in der Ally nur noch Scheisse, was ich sage, ist Scheisse etc.
+29.10.2008 21:13:28 Kurt: Auf so ein Spiel kann ich wirklich verzichten.
+29.10.2008 21:14:00 (L)SWEETDEVIL(6): würd ich auch kurt sowas musst du die ned antun
+29.10.2008 21:16:15 (L)SWEETDEVIL(6): ich spiel auch nur noch bisschen
+29.10.2008 21:16:53 Kurt: Ich bin jetzt dabei, meine ganzen Items und Waffen und das restliche Geld Ice zu schicken, dann werde ich meinen Account löschen.
+29.10.2008 21:17:28 (L)SWEETDEVIL(6): ok denke das iss eine gute entscheidung
+29.10.2008 21:25:45 (L)SWEETDEVIL(6): die haben auch im globalchat stress kurt lass die ihr ding machen denk die wissen den unterschied nimmer zwischen spiel und wirklichkeit
+29.10.2008 21:26:03 Kurt: Ja, das bekomme ich auch mit.
+
+Dann setzte ich ihr folgenden Ausschnitt aus dem Allianzchat in den Messenger:
+
+(21:32) Volfare: wurm weisst du was du hier gerade anleierst. ich hab dir gesagt is egal. was soll der mist? heul dich bei deiner mum aus. aber nicht im globalen
+(21:32) Volfare: das is scheisse , was du gerade abziehst
+
+29.10.2008 21:27:10 Kurt: (aus dem Allychat)
+29.10.2008 21:28:08 (L)SWEETDEVIL(6): tja würde sagen wie die anderen....n8 und schweigen zu deutsch ihr könnt mich mal
+29.10.2008 21:28:51 Kurt: Tut mir leid, aber ich halte das nicht länger aus... möchte meine Freizeit nicht mit so einem Quatsch vertun
+29.10.2008 21:30:00 (L)SWEETDEVIL(6): ja mach ruhig kurt es iss dein leben
+29.10.2008 21:30:40 (L)SWEETDEVIL(6): gibt genug anderes
+29.10.2008 21:31:02 (L)SWEETDEVIL(6): gehört der terror teddy auch dazu?
+29.10.2008 21:31:37 Kurt: Keine Ahnung... ist mir jetzt auch egal.
+29.10.2008 21:32:17 (L)SWEETDEVIL(6): ok ich wünsch dir trotzdem eine ruhige nacht und wiedersehn im radio
+29.10.2008 21:32:33 Kurt: Danke schön!
+29.10.2008 21:40:38 (L)SWEETDEVIL(6): so ich mach mal aus winke kurt und lass dich ned ärgern
+
+(Anmerkung: Diavola nennt sich auch Sweetdevil oder, mit richtigem Namen, Erika)
+
+Während ich mit Diavola chattete, ging auch der Allianzchat folgendermaßen weiter:
+
+(21:23) East: 
+was gehtn hier ab?^^
+(21:23) Wuermchen: 
+Ich habe genug.
+(21:23) Wuermchen: 
+Mir ist hier zuviel "Scheisse" unterwegs.
+(21:23) East: 
+wovon?
+(21:23) East: 
+aha...
+(21:24) Wuermchen: 
+Von diesem Spiel hier.
+(21:24) East: 
+och, von diesem Spiel habe ich schon lange genug...weiß auch nicht, warum ich überhaupt noch hier bin
+(21:26) Volfare: 
+dann lösch dich wurm
+(21:26) Volfare: 
+oder komm ausser pupertät raus
+(21:30) Wuermchen: 
+Letzteres versuche ich immer noch.. aber zumindest rede ich nicht dauernd von "Scheisse".
+(21:32) Volfare: 
+wurm weisst du was du hier gerade anleierst. ich hab dir gesagt is egal. was soll der mist? heul dich bei deiner mum aus. aber nicht im globalen
+(21:32) Volfare: 
+das is scheisse , was du gerade abziehst
+(21:33) Volfare: 
+und wegen dir bekommt fenix alles ab....
+(21:34) Volfare: 
+und ich will da heute auch nix mehr von hören. is mir wie gesagt egal. wenn du nen problem hast damit, dann rede mit einem aus der ally drüber
+
+(Anmerkung: fenix nahm zu diesem Zeitpunkt auch am globalen Chat teil und wurde von Volfare relativ unfreundlich behandelt.)
+
+Wenig später bekam ich von Ice folgende Antwort:
+
+"du darfst nicht alles so ernst sehen, an deiner stelle hätte ich volf gesagt, "du hast mir die ausrüstung geschenkt, also schenke ich dir die items"
+
+volf ist schnell erregbar, da musst du ganz cool bleiben, sowas was dir passiert ist, ist mir mit volf auch schon mal passiert, aber das war wieder schnell vergessen.
+
+in einer ally verhandelt man nicht, man schenkt es einem, so einfach ist es!
+
+du passt sehr gut in unsere ally, du bist aktiv, greifst an, nur du musst noch etwas teamfähiger werden und dich mehr beteiligen, z.b. deine meihnung im forum kundtun und stellung beziehen.
+
+ich hoffe du bleibst, mach volf einfach ein friedensangebot und gut isses, es gibt schlimmeres im leben."
+
+Zu diesem Zeitpunkt hatte ich aber schon den Entschluß gefaßt, aus dem Spiel auszusteigen, und ich schrieb zurück:
+
+"Tut mir leid, aber es geht nicht. Falls Du den Allychat mitliest... sorry, aber ich halte das nicht länger aus. Ich werde Dir jetzt meine restlichen Items schicken, dann aus der Ally austreten und meinen Account hier löschen.
+Tut mir leid, dass es so enden mußte!"
+
+Worauf Ice antwortete:
+
+"das finde ich echt schade, vlt sieht man sich mal wieder bei JBH
+ich wünsche dir alles beste"
+
+Ich begann dann, quasi als Abschiedsgeschenk, Ice mein ganzes Geld und alle Items und Waffen, die ich hatte, zu schicken. Volfare schickte mir noch die 6 Items, die ich ihm aus dem Rucksack geschickt hatte, zuzüglich eines, das er eigentlich bei mir ersteigert hatte, und ich schickte diese an Ice weiter. Während ich auf Volfare's Items wartete, sah ich mir noch einmal das Forum der Desperados an und fand darin einen Thread, in dem darüber nachgedacht wurde, neue Member anzuwerben. Ich postete dann in diesem Thread: "Ich wünsche Euch, daß Ihr Member findet, die nicht "scheisse" sind. Und tschüß!"
+
+Knapp bevor seine Items mich erreichten, postete Volfare im Allianzchat:
+
+(22:14) Volfare: 
+Wuermchen willst du dich nun löschen? habs gerade im Forum gelesen?
+(22:15) Wuermchen: 
+Ja... ich warte nur noch, daß Deine Items ankommen, die ich dann noch Ice schicke... dann bin ich weg.
+(22:16) LordRen: 
+darf man fragen wieso?
+(22:16) Volfare: 
+ja alles klar, dann werde ich dich jetzt nach und nach überall entfernen
+(22:16) Wuermchen: 
+Ja, aber ich werde hier nicht mehr antworten.
+(22:17) Wuermchen: 
+Sonst regt sich wieder jemand auf...
+(22:20) LordRen: 
+was war denn los volfare
+(22:20) Volfare: 
+kind
+(22:21) LordRen: 
+ok verstehe ^^
+
+Dann sagte Volfare noch im Allianzchat: "Bin gespannt, ob er sich jetzt wirklich löscht, oder ob wir eine neue Zielally haben". Ich wollte dann aus der Allianz austreten, aber als ich auf meine Allianzseite klickte, hatte mich Volfare schon aus ihr gelöscht. Ich löschte meinen Account daraufhin nicht, sondern gründete noch eine neue Ally namens "Neue Zielally". Bei dieser gab ich als Beschreibung ein: "Dies ist die neue Allianz, die sich Volfare gewünscht hat". Ich ließ keine Bewerbungen für die Allianz zu und schrieb als Bewerbungstext: "Bewerben können sich nur Personen, die mehr als 200 Jahre alt sind, eine blaue Hautfarbe haben und weniger als 600 Gramm wiegen. Mit einem Wort: es ist unmöglich, sich zu bewerben". In diesem Zustand verließ ich das Spiel.
+Themen, die sich aus dem Spiel ergeben
+
+Wir beleuchten im folgenden die Dinge, die ich aus dem Spiel gelernt habe bzw. Defizite, die ich darin erkannt habe, und an denen ich noch arbeiten sollte:
+Onlinespiele
+
+Dies war das erste Onlinespiel, das ich ausprobiert hatte. Ich kannte diese Spiele bisher nur vom Hörensagen (von meinem Kollegen Jimmy) und wußte daher, daß sie recht zeitintensiv werden können. Dies war im Prinzip auch bei diesem Spiel der Fall, für das ich pro Tag bis zu 2 Stunden aufwendete.
+Gleichzeitig machte mir das Spiel nicht besonders viel Spaß, was wohl bei allen Onlinespielen so sein dürfte. Ich schließe daraus, daß ich mich von derartigen Spielen in Zukunft eher fern halten sollte.
+Zwischenmenschliche Beziehungen
+
+Zumindest der letzte Krach mit Volfare hat mir gezeigt, daß es bei mir bei zwischenmenschlichen Beziehungen in gewisser Weise immer noch hapert. Konkret würde ich das vor allem in zwei Bereichen festmachen, die aber auch etwas ineinander verzahnt sind:
+Teamfähigkeit (übertriebene Geschäftstüchtigkeit)
+
+Wie schon Ronald bei der Familienfeier Anfang Oktober 2008 bemerkt hat, bin ich immer noch ziemlich geschäftstüchtig. Ein wesentliches Manko ist dabei, daß ich offensichtlich nicht unterscheiden kann, wem gegenüber ich beim Geschäftemachen "hart" sein soll und bei wem ich eher großzügig sein soll. Dies ist mir hier zum Verhängnis geworden, da Volfare sich wohl erwartet hat, daß ich innerhalb einer Allianz eher großzügig bin... das hat er wohl mit dem "Sinn einer Ally" gemeint.
+Unterscheidungen, wo bzw. mit wem man über was sprechen kann
+
+Ein weiteres Manko dürfte sein, daß ich mir oft nicht im klaren bin, in welchen Kreisen bzw. in welchem Kontext ich über welche Themen sprechen kann. Dr. Mayrhofer hat in diesem Zusammenhang an mir auch kritisiert, daß ich wieder über meinen geplanten Selbstmord geredet habe, der eigentlich Geschichte sein sollte, sowie darüber, wie ich bei meinen Eltern aufgewachsen bin. Volfare hat dann auch damit reagiert, daß er seinerseits mit meiner Mutter angefangen hat. Weiters war es wohl auch falsch, Diavola im globalen Chat, wo jeder mitlesen konnte, von meinen persönlichen Problemen zu erzählen.
+Dies hat wohl damit zu tun, daß ich, wie ich auch schon früher gegenüber Dr. Mayrhofer bemerkt habe, eher wenig zwischen verschiedenen Menschen unterscheide, was ihre Gefühle und ihre Stimmungen und meine Beziehung zu ihnen betrifft, was wohl daran liegt, daß meine Eltern lange Zeit die stärkste Schnittstelle zum "Rest der Welt" waren und ich meiner Mutter gegenüber meinte, schlechtes Verhalten einer Person gegenüber (z.B. in der Schule) mit besserem Verhalten anderen Personen gegenüber, die von der ersten Person aber nichts wissen, wieder ausgleichen zu müssen. Daher dachte ich, oder hatte zumindest immer das Gefühl, daß, wenn jemand auf mich böse ist, dies sofort für alle gilt, auch für solche Personen, die dazu eigentlich gar keinen Grund haben.
+
+Diesen Aspekt habe ich auch schon mit Dr. Mayrhofer besprochen, sowie wie man diesem Manko beikommen könnte. Meine Idee dazu, die von ihr auch gut aufgenommen wurde, basiert auf dem Buch "Sag nicht ja, wenn Du nein sagen willst", das ein Kapitel über den Aufbau eines Beziehungsnetzwerkes enthält, das sich auch damit beschäftigt, mit welchen Personen man über was sprechen kann. Dabei werden die verschiedenen Personen in 5 Gruppen von "A" bis "E" eingeteilt, wobei man mit der Gruppe "A" auch über die intimsten Dinge sprechen kann, mit "E"-Personen aber nur über ziemlich belanglose Dinge. Die anderen Personen landen dann auf "B", "C" oder "D".
+
+Da diese Betrachtung aber den Rahmen dieser Spieldokumentation sprengen würde, werde ich daraus eine eigene Dokumentation machen.

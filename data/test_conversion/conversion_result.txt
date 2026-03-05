@@ -1,0 +1,4 @@
+Conversion test result: SUCCESS
+Input: I:\Daten\Wohnungsverwaltung\Dokumentation zur Papiersortierung November 2007.doc
+Output: C:\Users\kurt_\.openclaw\workspace\kontensystem\data\test_conversion\Dokumentation zur Papiersortierung November 2007.txt
+Message: OK - 3690 bytes

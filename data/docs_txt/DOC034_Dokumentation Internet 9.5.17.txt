@@ -1,0 +1,115 @@
+Dokumentation Internet
+Stand: 28.6.2007
+
+Zweck und Geltungsbereich des Internet-Kontos	1
+Was ist das Internet?	1
+Aktivitäten des Internet-Kontos	1
+Regelmäßig angesurfte Internet-Seiten	1
+Internet-Radio	2
+Pläne und Karten im Internet	2
+Internetzugang	2
+Businessplan	2
+Planung des Beobachtungszeitraums	2
+Kategorisierung und Bewertung der Mails	3
+Spaßergebnisse der verschiedenen Internet-Seiten	3
+Prioritätssetzung	3
+Mietanteile	3
+
+Zweck und Geltungsbereich des Internet-Kontos
+
+Das Internet-Konto regelt alle Dinge, die mit Internetzugang und Internetsurfen zu tun haben, außer dem PC, auf dem der Internet-Zugang läuft (dafür ist das PC-Konto zuständig), aber inklusive dem Internetzugang.
+Was ist das Internet?
+
+Das Internet ist etwas relativ junges Netzwerk, das früher nur amerikanische Universitäten miteinander verbunden hat und erst um 1994 für Normalsterbliche geöffnet wurde. Im Prinzip ist es das geworden, was der Bildschirmtext schon ab 1981 hätte werden sollen, der sich aber nie auf breiter Basis durchgesetzt hat. Heute ist ein großer Teil von Heim- und Firmen-PC's zumindest zeitweise mit dem Internet verbunden und tauscht Daten aus.
+Mein erster Kontakt mit dem Internet war 1997 in einer Floridsdorfer Firma, wo wir uns das haben zeigen lassen. Ab 1998 hatte ich dann selbst im Bundesrechenzentrum einen Internet-Zugang, zu Hause habe ich ihn seit Juni 2001.
+Aktivitäten des Internet-Kontos
+
+Typischerweise werden über dieses Konto folgende Dinge abgerechnet:
+
+- Internet surfen: Hier werden Spaßpunkte verrechnet, als Ausgaben gibt es den Stundensatz für PC (siehe dort) und die Arbeitszeit.
+- Dinge aus dem Internet besorgen, z.B. Musik und Texte... in diesem Fall werden die Tantiemen dafür dem Internet-Konto gutgeschrieben. Dies erfolgt meist im Rahmen von Aktionen anderer Konten.
+- Providergebühren: werden dem Internetkonto von der Wohnungsverwaltungsgesellschaft (die alle Daueraufträge über das Bankkonto regelt) bei der halbmonatlichen Verrechnung verrechnet.
+- Anteilige Mieten (wie bei jedem Konto, siehe unten)
+- E-Mail-Verwaltung (siehe unten): hier wird Arbeitszeit und PC-Miete verrechnet.
+Regelmäßig angesurfte Internet-Seiten
+
+Im Moment werden folgende Internet-Surfen regelmäßig angesurft:
+- Lesen und bei Bedarf Beantwortung der E-Mail: http://www.hotmail.com
+- Seiten mit Börsenkursen: http://www.wienerboerse.at, http://de.finance.yahoo.com
+- Forum über Kinder-Elektrofahrzeuge: http://www.modifiedpowerwheels.com
+- Forum über alte Videospiele: http://www.atariage.com, http://www.videopac.org
+Hin und wieder werden auch noch folgende Seiten angesurft:
+- Yahoo-Groups: http://groups.yahoo.com/ballyalley, http://groups.yahoo.com/launchcast
+- Elektrorollerseite: http://www.electric-scooter-world.com, http://www.visforvoltage.com, http://www.scooterman.at
+- Radioforen: http://www.radionetz.at
+Dazu kamen seit Sommer 2008 folgende Seiten:
+- Videos (von Elektrofahrzeugen und anderen Dingen): http://www.youtube.com
+- Forum von Jukebox-Heroes-Radio: http://www.jukebox-heroes-radio.de
+- 88.6-Forum: http://www.radio886.at
+- aktuelle Nachrichten: http://www.orf.at
+- 
+
+An Sonntagen gibt es dann noch die Mail-Lösch-Aktion, wo ich alle E-Mails auf meinem Hotmail-Account, die älter als ca. 20 Tage sind, in eine Datenbank übertrage und dann aus Hotmail lösche. Diese Datenbank befindet sich auf C:\laufende Projekte\Internet\Mails\mails.mdb. Die dazugehörigen Anhänge werden im Ordner C:\laufende Projekte\Internet\Mails\Anhaenge verstaut. Die Mails-Datenbank sollte in regelmäßigen Abständen gesichert werden; in welchen, ist noch bei der PC-Dokumentation zu erarbeiten.
+Internet-Radio
+
+Dies ist Radio, das über Internet gehört werden kann (sog. "Streaming"). Nachdem dieses dem Radio-Würmchen-Konto zugeordnet wurde, wird es dort näher beschrieben.
+Pläne und Karten im Internet
+
+Im Internet findet man auch Stadtpläne und andere Karten, und es ist manchmal recht unterhaltsam, sich diese anzusehen, um zu sehen, wie bestimmte Gegenden, wo man "in natura" war, aus der Luft aussehen. Ein Beispiel für Satellitenfotos ist z.B. Google Maps. Google Earth bietet dann auch eine 3D-Darstellung dieser Karten, ist aber nur unter Windows XP lauffähig.
+Der Aufruf einer solchen Karte ist im Prinzip sinnvoll, wenn man einen Besuch in einer unbekannten Gegend plant, oder nach einem solchen Besuch, um das Ganze in einem Gesamtzusammenhang zu sehen. Bezüglich des Spaßgehaltes solcher Aktionen gibt es noch keine Erfahrungswerte, so daß nach dem nächsten Besuch einer Lokation eine Karte aufgerufen und der Spaßgehalt untersucht werden sollte. Im Falle von Andrea's Haus in Münchendorf scheitert dies leider daran, daß das hochauflösende Kartenmaterial knapp nördlich von Münchendorf aufhört.
+Internetzugang
+
+Mein Internetprovider ist derzeit (schon seit Anfang 2002) Chello. Hier gibt es um 49 Euro pro Monat einen Breitband- "Always on"-Anschluß mit unlimitiertem Datenvolumen.
+Dies wurde im Dezember 2007 auf den Tarif "Fun & Phone" geändert, der nur 29,90 Euro pro Monat kostet und in diesem Betrag auch eine Telefon-Grundgebühr enthält.
+Businessplan
+
+Da die Schätzung von Spaßwerten und Ausgaben auf Grund der neuen Kontensystems-Ordnung schwierig ist, folgt hier eine Auflistung der Ausgaben des 3. Quartals 2005 (dem letzten Quartal vor dem Beginn der Dokumentationsserie). Ein genauerer Businessplan wird dann nach Vorliegen der Spaßwerte für die aktuellen Surfziele erstellt.
+Im 3. Quartal 2005 hat sich ein Gewinn von 856,91 Euro ergeben, bei Spaßwerten von schätzungsweise 390 Punkten, das entspricht etwa € 3939. Das Internetkonto hat etwa 640 Euro an Ausgaben pro Jahr für den Internetzugang (die Kontokosten mit eingerechnet). Das Löschen von Mails hat in den letzten 5 Wochen im Schnitt € 12,29 gekostet, pro Jahr sind das also insgesamt € 641,06, das sind etwa 4,07% der Spaßwerte. Der Internetzugang kostet ebenfalls knapp über 4% der Spaßwerte, die PC-Miete schätzungsweise etwa € 840 (bei einer Annahme eines Stundensatzes von € 1), das wären 5,3% der Spaßwerte. Es gibt aber auch noch außertourliche Einnahmen von knapp über € 300 von Radio Würmchen für aus dem Internet besorgte Musikstücke.
+Insgesamt beträgt der Gewinn ungefähr 21,33% der Einnahmen, was ziemlich viel ist. Es ergibt sich ein Cash-Flow von über 3400 Euro pro Jahr, der eventuell abgeschöpft und in den Ausgleich anderer Konten gesteckt werden kann. Auf den Gesamtumsatz des Kontensystems gerechnet, kommen wir auf ca. 6,8% Gewinn durch das Internet-Konto alleine.
+Planung des Beobachtungszeitraums
+
+Da noch keine genaueren Aufzeichnungen über den Spaß, der beim Internetsurfen anfällt, existieren, wäre während eines Beobachtungszeitraums das Ansurfen der verschiedenen Seiten (begonnen mit den Mails) wieder zu versuchen und dabei zu notieren, in welchem Ausmaß Spaßpunkte anfallen. Diese werden dann hier aufgelistet und daraus die weitere Vorgehensweise ermittelt.
+
+Zur Ermittlung der Spaßpunkte ist es zweckmäßig, die gelesenen Dinge in Kategorien einzuteilen und Kommentare zu diesen Kategorien abzugeben. Es wird natürlich immer Dinge geben, die aus den Kategorien herausfallen, aber der Großteil davon sollte hier erfaßt sein.
+Kategorisierung und Bewertung der Mails
+
+OTS: Das sind Originaltexte vom Original-Text-Service, die ich mir durch meine Teilnahme beim Treffpunkt Radio eingehandelt habe. Diese sind im Normalfall recht uninteressant, und der Text unten ist immer der gleiche, so daß es keinen Sinn hat, diesen bei jeder Mail zu lesen. Diese Mails werden auch nicht aufgehoben, sondern stattdessen gelöscht.
+
+Junk-Mail-Klassifizierung: Dies sind Junk-Mails, die von Hotmail regelmäßig in ein Voting eingepackt werden, ob sie tatsächlich Junk sind, was in der Regel zutrifft. Auch diese Mails werden nicht gespeichert.
+
+Sendepläne von Sunshine Radio: sind eventuell ganz interessant, wenn noch nicht vorbei.
+
+Spaßergebnisse der verschiedenen Internet-Seiten
+
+Es wurde mittlerweile versucht, alle früher aufgesuchten Internetseiten zu besuchen und auf ihren Spaßgehalt zu untersuchen. Ergebnis:
+Mails: 0 Punkte pro Stunde
+Launchcast-Gruppe: 0,5 Punkte (Schätzung)
+Ballyalley: 1 Punkte (Schätzung)
+Weitere Seiten: 0,5-1 Punkte pro Stunde (Schätzung)
+Die aktuell genannten Internet-Seiten sind noch zu besuchen und zu bewerten.
+
+Es gab am 4.2.2009 einen weiteren Versuch nach dem Bewertungsschema der Radio-Würmchen-Programme, was folgendes Ergebnis (Durchschnittsbewertung) ergab:
+Atariage: 18,2 Punkte
+Youtube: 16,27 Punkte
+Jukebox-Heroes-Radio: 17,14 Punkte
+88.6-Forum: 13,33 Punkte
+ORF-Nachrichten: 19 Punkte
+ModifiedPowerWheels: 16,79 Punkte
+
+Schnitt über alle: ca. 17 Punkte
+
+Da 1 Radio-Würmchen-Punkt ca. 0,1 Spaßpunkten entspricht, erreichen wir hier also zwischen 1,33 Spaßpunkten pro Stunde (88.6-Forum) und 1,9 Spaßpunkten pro Stunde (ORF-Nachrichten). Dazu kommt jeweils noch 1 Spaßpunkt für jedes getätigte Posting. In der Woche vom 10.-16.5.2009 gab es z.B. insgesamt 7 Postings, von denen 6 auf das AtariAge-Forum entfielen. Dies ist auch das Forum, das von allen beim Lesen am meisten Spaß macht, und daraus entspringen auch immer wieder neue Spiele, die dann ausprobiert werden können (Spiele, die ich länger spiele, sind üblicherweise mit 2,5 Spaßpunkten pro Stunde oder mehr bewertet, also erheblich besser als alle Forumspostings). Gleichzeitig ergibt sich aus diesem Forum nicht all zu viel Lesearbeit... für die Themen, die mich interessieren, reichen ca. 2 Stunden pro Woche.
+
+Die Gesamtspaßpunkte für Atariage machen dann pro Woche aus: (2 * 1,82 + 6 = 9,64), das sind 9,64 Spaßpunkte in 2 Stunden, also 4,82 Spaßpunkte pro Stunde, was ziemlich viel ist (E/A-Verhältnis von 3,27). Bei den anderen Foren sieht es nicht so gut aus.
+
+Bei Modified Power Wheels gibt es z.B. ca. 2,05 Stunden pro Woche zu lesen, bei 1,53 Postings pro Woche, das ergibt 2,425 Spaßpunkte pro Stunde, oder ein E/A-Verhältnis von 1,644. 
+Bei JBH-Radio haben wir 2 Stunden pro Woche mit im Schnitt 2,63 Postings, das ergibt 3,029 Punkte pro Stunde oder ein E/A-Verhältnis von 2,053.
+Beim 88.6-Forum kommen wir auch auf geschätzte 2 Stunden pro Woche bei 2,877 Postings (im Schnitt), das sind 2,771 Punkte pro Stunde oder ein E/A-Verhältnis von 1,878.
+Prioritätssetzung
+
+Die Priorität für das Internet-Surfen wurde zwecks Datensammlung so gesetzt, wie es den "alten" Einnahmen von € 20,20 pro Stunde (2 Spaßpunkte) und Ausgaben von € 15 pro Stunde (Arbeitszeit + PC-Miete) entspricht. Dies ergibt ein Einnahmen-/Ausgabenverhältnis von 1,347.
+Mietanteile
+
+Im Moment sind in der Inventur keine Gegenstände enthalten, deren Kosten auf das Internet-Konto gebucht werden, das heißt, alle für das Internet relevanten Geräte gehören dem PC-Konto an und werden auch bei diesem verrechnet. Dieser Verrechnungsmodus wäre aber eventuell bei der Dokumentation des PC-Kontos zu überdenken.
+	- 1 -
+

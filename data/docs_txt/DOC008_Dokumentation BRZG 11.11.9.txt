@@ -1,0 +1,123 @@
+Dokumentation BRZG-Konto (Kürzel BR)
+Stand: 9.11.2011
+
+Vorwort	1
+Übersicht über den Erfassungsbereich des BRZG-Kontos	1
+Verrechnungen bezüglich des BRZG-Kontos	1
+Suppenanteil	1
+Druck, Kopier- und Telefonleistungen	2
+Abrechnung von Firmenveranstaltungen	2
+Leistungen von und für Kollegen	2
+Zahlungen an das Herzensgut-Konto und Synergieeffekte	2
+Vorgehensweise der Arbeit im Bundesrechenzentrum	2
+Regeln	2
+Essenspausen	3
+Tagesablauf im BRZ	3
+Anmerkung zur künftigen Anstellung im BRZ	3
+Dokumente, die zum BRZ-Konto gehören	4
+Berechnung der Mietsätze für BRZ-Materialien	4
+Herleitung des Stundensatzes, der für andere Konten verwendet wird	4
+Prioritätssetzung	4
+Businessplan	5
+
+Vorwort
+
+Das BRZG-Konto (Kürzel BR) verwaltet im Prinzip die Leistungszu- und abflüsse, die sich im Rahmen des Bundesrechenzentrums ergeben.
+Reguläre Arbeitszeit ist von diesem Konto ausgenommen, da sie zu dem Tarif bezahlt wird, der normalerweise im Kontensystem auch einer Arbeitsstunde entspricht, und es sich daher immer um ein Nullsummenspiel handelt.
+Übersicht über den Erfassungsbereich des BRZG-Kontos
+
+Im BRZG-Konto werden erfaßt:
+- außergewöhnliche Leistungen des BRZ an mich (nicht Geldprämien, sondern z.B. Ausdruck und Kopie privater Dinge etc., aber evtl. auch Sozialleistungen)
+- außergewöhnliche Leistungen meinerseits an das BRZ (z.B. unbezahlte Arbeit, Spielen bei Betriebsfeiern usw.)
+- Abrechnung von BRZ-Veranstaltungen, die außerhalb meiner Dienstzeit liegen
+
+Zu den "regulären" Leistungen des BRZ an die Mitarbeiter zählt das Gehalt, jährliche Prämien und der Essenszuschuß. Es gibt aber auch manche "irreguläre" Leistungen, die durch indirekte Subvention entstehen, wie z.B. Essensmarken und Betriebsausflüge.
+Verrechnungen bezüglich des BRZG-Kontos
+
+Derzeit finden folgende Verrechnungen bezüglich des BRZ-Kontos statt:
+Druck, Kopier- und Telefonleistungen
+
+Wenn ich vom BRZG aus (eher selten) Telefongespräche tätige, werden die Telefonkosten gemäß den Sätzen für zu Hause (siehe Wohnungsverwaltung) an das BRZG-Konto gutgeschrieben. Das gleiche passiert beim Kopieren oder Drucken von privaten Unterlagen, z.B. Karaoke-Anmeldungen.
+Abrechnung von Firmenveranstaltungen
+
+Firmenveranstaltungen, die in der Freizeit stattfinden, werden grundsätzlich wie normale Veranstaltungsbesuche abgerechnet - also mit Spaßwertberechnung, Berechnung des Zeitaufwandes und etwaigen Barausgaben. Ebenso kommt bei Konsumationen die Gutschrift des Lebenserhaltungskontos hinzu (siehe Dokumentation zu diesem). Findet die Veranstaltung nur teilweise in der Freizeit statt, so wird als Zeitaufwand der Anteil berechnet, der in der Freizeit stattfindet. Gibt es z.B. ein gemeinsames Mittagessen, das aber länger dauert als ein getrenntes, so wird versucht, das Lebenserhaltungskonto so zu stellen, wie wenn es das Mittagessen normal, zum üblichen Preis und mit der üblichen Dauer durchgeführt hätte. Der daraus resultierende Gewinn oder Verlust verbleibt dann im BRZG-Konto. Statt dieser Berechnung kann aber auch eine Gutschrift des Lebenserhaltungskonto für durchgeführtes Mittagessen (oder andere Mahlzeiten) zu einem Pauschalsatz erfolgen, was meist einfacher abzurechnen ist, insbesondere, wenn ein Mittagessen oder eine andere Mahlzeit im Rahmen einer anderen BRZ-Aktivität eingenommen wurde. Die Höhe dieser Gutschrift wird noch in der Dokumentation des Lebenserhaltungskontos bestimmt.
+
+Diese Veranstaltungen werden auch in die Aktivitätsliste im Kontensystem eingetragen, um zu bestimmen, ob sie wieder besucht werden sollen.
+Leistungen von und für Kollegen
+
+Nachdem kein Kollege ein eigenes Personenkonto hat, werden Leistungen von und für Kollegen (z.B. Kopieren oder Ausborgen von CD's) auch über dieses Konto abgerechnet. Dabei wird versucht, das zu verrechnen, was die gleiche Leistung auch am freien Markt gekostet hätte.
+Zahlungen an das Herzensgut-Konto und Synergieeffekte
+
+An Synergieeffekten werden im Moment die Fahrtkosten im Zusammenhang mit der Jahreskarte der Wiener Verkehrsbetriebe verrechnet. Dies funktioniert so, daß dem BRZ-Konto die vollen Kosten der Jahreskarte verrechnet werden, weil sich die Jahreskarte schon alleine für die Fahrten, die mit dem BRZ zusammenhängen, rechnet. Aus diesem Grund wird die Jahreskarte auch im Prinzip vom BRZ-Konto verwaltet. Zusätzliche Fahrten, die mit der Jahreskarte gemacht werden, sind aber Synergieeffekte und werden dem Herzensgut-Konto gutgeschrieben, und zwar in Höhe der Kosten eines Fahrscheins beim Fahrkartenautomat in Autobus oder Straßenbahn (derzeit € 2,20 pro Fahrtstrecke).
+Vorgehensweise der Arbeit im Bundesrechenzentrum
+
+Es folgt eine Dokumentation der generellen Vorgehensweise in der Arbeit im BRZG. Diese umfaßt keine fachspezifischen Dinge, nur einige normale Regeln.
+Regeln
+
+Im Moment ist eine Arbeit zu 75% der Normalarbeitszeit von 38,5 Stunden pro Woche vereinbart. Es gibt 25 Urlaubstage pro Jahr.
+
+Gemäß der "alten Regel" aus dem A-DM-OM-Team sollte ich an jedem Arbeitstag spätestens um 9:00 im Büro sein. Gelingt mir das nicht, so wäre der Teamleiter anzurufen und von der Verspätung zu verständigen. Unser jetziger Teamleiter, Michael Jiricek, nimmt es aber nicht so genau damit.
+
+Meist bleibe ich Montag und Dienstag ganztags, Mittwoch bis Freitag ca. halbtags im Büro. Halbtags heißt hier bis zum Mittagessen, wobei ich hier versuche, schon um 8:45 zu kommen, weil ich eine Mindestzeit von 3,75 Stunden pro Tag einhalten muß und meine Kollegen oft schon um 12:30 Mittagessen gehen wollen.
+
+Bei Arbeitszeiten über 6 Stunden wird automatisch eine halbe Stunde Mittagspause in Abzug gebracht. Diese wird auch dann verrechnet, wenn das Mittagessen eigentlich länger dauert. Allerdings wurden wir dazu angehalten, die Mittagspausen korrekt zu buchen, wenn sich absehen läßt, dass diese länger dauern. Meiner Erfahrung nach dauern diese immer länger, sobald ich zum Mittagessen das Haus verlasse. Einzige Ausnahmen waren früher ein Mittagessen bei der Steindl-Kantine, derzeit ist es eine Pizzabestellung oder eine Abholung von Essen vom Lokal "Hitomi". In allen anderen Fällen dauert die Mittagspause länger als 30 Minuten und ist somit zu buchen.
+
+Bin ich an einem Tag nicht in der Firma - sei es wegen Urlaub oder wegen einem Kurs - so ist ein Vertreter für die normalerweise von mir täglich durchgeführten Tätigkeiten zu bestimmen, die nicht bis zum Ende der Abwesenheit warten können. Dies betrifft im Moment im wesentlichen das Durchführen des Aendern-Skripts und die Kontrolle der Krankenhaus- und Todesmeldungen, die vom Hauptverband der Sozialversicherungsträger für das Bundespensionsamt hereinkommen (diese Dinge sollten aber mittelfristig ins automatische BUEP hineinkommen). Weiters sind alle Abwesenheitstage in einem bestimmten Excel-Sheet und im Groupwise-Kalender einzutragen. Sie sind auch im Vorhinein (!) der Zentralen Zeitbeauftragten mitzuteilen. (Ausnahme: Urlaube, die sowieso im SAP eingetragen werden)
+
+Was seit einigen Monaten noch im BRZ passiert, ist das kollektive Musikhören. Dies ist aber Teil von Radio Würmchen und daher beim Radio-Würmchen-Konto näher zu beleuchten.
+
+Auf den Fahrten vom und zum BRZ wird ab 10.11.2011 auch Radio gehört, siehe dazu auch die Dokumentation zum Radio hören beim TV-/Radiokonto.
+Essenspausen
+
+Ich esse normalerweise an den meisten Arbeitstagen gemeinsam mit einer Runde von Kollegen, zu denen meist die anderen BVA-PS-Mitarbeiter Christian Steffek und Marcel Weber gehören. Mit dieser Runde besuchen wir immer wieder verschiedene Lokale, wozu ich auch regelmäßig mittels der Essensdatenbank Vorschläge mache.
+Die Einnahme der Jause erfolgt normalerweise während der Arbeitszeit. 
+Tagesablauf im BRZ
+
+Generell gestaltet sich der Tagesablauf im BRZG meist so:
+Ankunft kurz vor 9:00 (manchmal auch etwas früher) (Abfahrt dazu spätestens 8:27 von Busstation Berzeliusgasse mit 31A-Bus, am Mittwoch-Freitag späteste Abfahrt um 8:10, um noch den Zug um 8:17 zu erreichen!)
+Durchlesen der eingelangten E-Mails
+War der letzte Arbeitstag der Monatsletzte, so folgt hier die Abschluß von Aufwandserfassung (im ITC) und Zeitkarte, in der folgenden Reihenfolge:
+- Korrekturen der täglichen Buchungen, so daß sie den Notizen im Groupwise-Kalender entsprechen, in 2 Schritten: 1. Korrektur auf halbe Stunden genau, 2. Korrektur der verbliebenen Rundungsfehler
+- Abgleich der Buchungen mit der Org-DB, wo normalerweise für BVA-PS-Tätigkeiten für jeden Monat extra Anhänge zu führen sind. Diese sind am Monatsende mit den jeweiligen korrekten Zeiten abzuschließen.
+- Abschluß der Zeitkarte im ESS.
+Beginn der normalen Arbeiten
+Achtung: Wenn der nächste Arbeitstag nicht in der Firma verbracht wird, sollte hier begonnen werden, eine Vertretung zu finden. Eventuell muß auch noch die Dokumentation der von der Vertretung zu übernehmenden Arbeiten aktualisiert werden. Kandidaten für die Vertretung sind in dieser Reihenfolge Marcel Weber, Christian Steffek und Johann Brandstetter. Es kommen natürlich nur Personen in Frage, die am angepeilten Arbeitstag auch anwesend sind.
+Um ca. 10:30 Jause essen (dabei weiter arbeiten.
+Am Dienstag ist um 14:00 Team-Jour-Fixe.
+12:00 WC-Gang, danach Holen und Kontrolle der eingelangten Listen mit Krankenhaus- und Todesmeldungen, danach Start des Aendern-Skript. Wenn dieses beendet ist, Mail der Ergebnisse an Johann Brandstetter, Kopie an Marcel Weber
+12:20 Zusammenräumen der Mailbox (Eliminieren der Junk-Mails). Danach Eintragen der durchgeführten Tätigkeiten in Groupwise-Kalender und IT-Controlling
+12:30 Essen mit Kollegen, davor evtl. Herunterfahren des PC, wenn Ende des Arbeitstages
+Montag ca. 17:30, Dienstag ca. 19:15 heimgehen - Heimkunft um ca. 18:30 bzw. 20:00. An Montagen und Mittwochen auf dem Heimweg Einkauf von Backwaren bei Anker (siehe Dokumentation des Lebenserhaltungskonto)
+Mittwoch bis Freitag: Heimfahrt nach dem Mittagessen (um 13:30 bis 14:00, je nach Lokal und Länge des Essens)
+Anmerkung zur künftigen Anstellung im BRZ
+
+In den ersten Jahren meiner Anstellung im BRZ war ich mir noch nicht sicher, ob dies für mich wirklich das Richtige ist, und ich habe auch noch versucht, in anderen Bereichen Fuß zu fassen (Karaoke, Musik), was mir aber nicht richtig gelungen ist. Mittlerweile ist aber bei mir die Ansicht gereift, daß die Computerprogrammierung auf jeden Fall zu meinen "Kernkompetenzen" zählt und ich daher dabei bleiben sollte.
+Dokumente, die zum BRZ-Konto gehören
+
+Zum BRZ gehören nun auch noch einige Dokumente, die im Laufe der Zeit anfallen. Dies sind:
+- dienstliche Dokumente wie Dienstvertrag
+- Betriebsrats- und Betriebszeitungen
+- Kursunterlagen
+- Arbeitsunterlagen
+Kurs- und Arbeitsunterlagen werden normalerweise am Arbeitsplatz aufbewahrt, die ersteren beiden Kategorien aber zu Hause. Für diese gibt es jeweils Mappen bzw. Ordner, je nachdem, wie viele davon angefallen sind.
+Herleitung des Stundensatzes, der für andere Konten verwendet wird
+
+Da der Stundensatz, der bei anderen Konten zur Abrechnung kommt, von meinem Gehalt beim Bundesrechenzentrum abgeleitet ist, folgt nun die Begründung und Herleitung dieses Stundensatzes.
+
+Der Stundensatz entsteht im Prinzip dadurch, daß das Gehalt, das ich bekomme, abzüglich der Geldaufwände dafür durch die aufgewendete Zeit dividiert wird.
+
+Als Gehalt wird hier das monatliche Nettogehalt samt regelmäßiger Prämien verrechnet (durch Addition aller Nettogehälter und Steuergutschriften des Vorjahres und Hochrechnung mit dem aktuellen Nettogehalt). Dazu kommt der Essenszuschuß und die anteilige Abfertigung (derzeitiger Abfertigungsanspruch geteilt durch die bisher zurückgelegte Dienstzeit + Kündigungsfrist von 3 Monaten). Von dieser Gesamtsumme wird der Kaufpreis der Jahreskarte und die Kontoführungsgebühr bei der P.S.K. abgezogen. Dies ergibt dann eine Nettosumme in Euro.
+Als Arbeitszeit gilt der vereinbarte Zeitaufwand multipliziert mit 223 Arbeitstagen (dies ist die Anzahl der Werktage pro Jahr abzüglich des Urlaubs), zuzüglich des Zeitaufwandes für die Fahrt. Von den 223 Arbeitstagen werden noch die Arbeitssuchtage abgezogen, die bei eventueller Kündigung anfallen. Dies sind 13 Urlaubstage dividiert durch die bisher zurückgelegte Arbeitszeit + Kündigungsfrist von 3 Monaten.
+
+Die ausführliche Berechnung befindet sich in einem Excel-Sheet auf: D:\Daten\Kontenverwaltung\Gehaltsberechnung ab 1.1.xxxx, wobei xxxx das laufende Jahr ist.
+
+Der so ermittelte Stundensatz wird bei den Kontensystemsberechnungen als Stundensatz herangezogen.
+Prioritätssetzung
+
+Die genaue Herleitung der Prioritätsberechnung ist leider verschollen, sie basiert aber auf dem Verhältnis zweier Sätze. Beim geringeren Satz wird nur mein Nettogehalt abzüglich aller Spesen gerechnet und durch den Gesamtaufwand inkl. Fahrten dividiert. Beim höheren Satz wird dagegen mein Bruttogehalt inkl. Dienstgeberanteil gerechnet, und von den Fahrzeiten nur die Anteile gerechnet, die nicht durch andere Aktivitäten wie Einkauf usw. gedeckt sind. Zu den Einnahmen sollte dann zusätzlich noch das Radio hören auf den Fahrten geschlagen werden. 
+Businessplan
+
+Da die reguläre Arbeitszeit im Bundesrechenzentrum bisher nicht abgerechnet wurde, und die Berechnung von der Definition her ein Nullsummenspiel sein sollte, erübrigt sich die Aufstellung eines Businessplans. Es wäre aber interessant, mitzuzählen, ob sich bei der täglichen Arbeit im Bundesrechenzentrum positive oder negative Spaßpunkte ergeben. Diese könnten dann in eine Berechnung eines Businessplanes einfließen.
+Diese Spaßpunkte sollten ab 10.11.2011 auf dem Zettel notiert werden, wo auch das gehörte Radioprogramm während Fahrten notiert wird.
+	- 1 -	- 1 -
+

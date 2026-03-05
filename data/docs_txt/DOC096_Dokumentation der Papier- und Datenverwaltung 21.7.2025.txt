@@ -1,0 +1,56 @@
+Dokumentation der Papier- und Datenverwaltung
+Stand: 21.7.2025, von Kurt Woloch
+1. Gegenstand der Dokumentation
+Diese Dokumentation beschreibt die Organisation und Verwaltung von Papieren (z. B. Finanzdokumente, Erbschaftsunterlagen) und digitalen Daten (z. B. Dateien auf dem PC) in der Wohnung. Ziel ist es, Ordnung zu schaffen, Daten zu sichern und den Aufwand minimal zu halten, um selbstbestimmte Entscheidungen zu treffen.
+2. Zweck der Verwaltung
+* Papiere: Schaffung von Übersicht, Entsorgung irrelevanter Dokumente, Sicherung wichtiger Unterlagen (z. B. für Steuer, Hausverwaltung).
+* Daten: Organisation von Dateien in einer klaren Struktur, Sicherung gegen Datenverlust, Löschung unnötiger Dateien.
+* Selbstbestimmung: Vermeidung von "Hals über Kopf"-Entscheidungen durch strukturierte, durchdachte Vorgehensweise.
+3. Ablauf der Verwaltung
+3.1. Papiere
+Die Verwaltung funktioniert so, dass jeder Papierstapel oder jede Gruppe von Papieren in Kategorien eingeteilt wird. Diese werden in einer Baumstruktur organisiert, ähnlich wie bei der Wohnungsverwaltung (z. B. Wohnung > Zimmer > Möbel). Jede Kategorie erhält einen "Parent" (z. B. "Finanzen" als Oberkategorie für Steuerdokumente).
+* Kategorien:
+o Finanzen/Erbschaft (z. B. Steuerdokumente, Erbschaftsunterlagen)
+o Wohnung/Hausverwaltung (z. B. Mietvertrag, Korrespondenz)
+o Persönliche Dokumente (z. B. Ausweise, Briefe)
+o Sonstiges (z. B. alte Rechnungen, Werbung)
+* Vorgehensweise:
+1. Grobes Sortieren in Kategorien (30 Minuten pro Woche).
+2. Priorisierung dringender Dokumente (z. B. Steuer, Fristen).
+3. Entsorgung veralteter Papiere (z. B. Rechnungen >7 Jahre, Altpapiersammlung MA 48).
+4. Digitalisierung wichtiger Dokumente (z. B. mit Adobe Scan).
+5. Aufbewahrung in beschrifteten Ordnern oder Mappen (z. B. im Wohnzimmer, wie in der Wohnungsverwaltung, Seite 8).
+3.2. PC-Daten
+Die Daten werden in einer Baumstruktur organisiert, die auf dem PC in Ordnern abgebildet wird. Jeder Ordner hat einen "Parent" (z. B. "Persönliches" > "Fotos").
+* Kategorien:
+o Persönliches (z. B. Fotos, Briefe)
+o Arbeit (z. B. Dokumente, E-Mails)
+o Erbschaft/Pflege (z. B. Unterlagen zu Vater)
+o Sonstiges (z. B. Downloads, temporäre Dateien)
+* Vorgehensweise:
+1. Grobes Verschieben von Dateien in Ordner (30 Minuten pro Woche).
+2. Sicherung wichtiger Dateien (z. B. auf externe Festplatte oder Google Drive).
+3. Löschung doppelter oder irrelevanter Dateien (z. B. mit CCleaner).
+4. Regelmäßiges Backup (monatlich).
+4. Genauigkeit der Verwaltung
+* Papiere: Grobes Sortieren reicht zunächst, detaillierte Prüfung nur bei dringenden Dokumenten (z. B. Steuer). Emotionale Papiere (z. B. Briefe von Vater) später sichten, um Belastung zu minimieren.
+* Daten: Fokus auf wichtige Dateien (z. B. Fotos, Erbschaftsunterlagen) für Sicherung. Unwichtige Dateien können später geprüft werden.
+5. Kosten und Nutzen
+* Kosten:
+o Zeit: 30 Minuten pro Woche pro Kategorie (ca. €0,12 pro 30 Sekunden, basierend auf Wohnungsverwaltung, Seite 6).
+o Material: Ordner/Mappen (€5-10), externe Festplatte (€50-100), Cloud-Speicher (z. B. Google Drive, ca. €2/Monat).
+* Nutzen: Mehr Übersicht, weniger Stress, Schutz vor Datenverlust, Erfüllung rechtlicher Anforderungen (z. B. Steuerdokumente).
+6. Auswirkung emotionaler Faktoren
+* Papiere und Daten, die mit dem Vater oder der Erbschaft zusammenhängen, können emotional belastend sein. Sichte diese in kleinen Schritten (z. B. 10 Minuten pro Sitzung) und plane anschließend Zeit für Entspannung (z. B. Computerspiel).
+* Entscheide selbst, welche Dokumente sentimentalen Wert haben (z. B. Briefe in Erinnerungskarton).
+7. Aufbewahrung
+* Papiere: In beschrifteten Ordnern oder Mappen im Wohnzimmer (wie in Wohnungsverwaltung, Seite 8).
+* Daten: In Ordnern auf dem PC, gesichert auf externer Festplatte oder Cloud.
+8. Entsorgung
+* Papiere: Veraltete Dokumente (z. B. Rechnungen >7 Jahre) in Altpapiersammlung (MA 48). Sensible Dokumente shreddern.
+* Daten: Doppelte oder irrelevante Dateien löschen (z. B. mit CCleaner).
+9. Rechenbeispiel
+* Papiere: Ein Stapel (100 Blatt) benötigt ca. 1 Stunde zum Sortieren (ca. €2,40 bei €0,12 pro 30 Sekunden). Nutzen: Übersicht, Erfüllung rechtlicher Anforderungen.
+* Daten: Sicherung von 10 GB Fotos (1 Stunde, ca. €2,40). Nutzen: Schutz vor Verlust, emotionale Sicherheit.
+	- 3 -
+

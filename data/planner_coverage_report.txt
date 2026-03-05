@@ -1,0 +1,444 @@
+======================================================================
+PLANNER CSV COVERAGE REPORT
+======================================================================
+
+Total master tasks:     1288
+Matched in planner CSV: 291  (22.6%)
+  - by code:            249
+  - by name:            42
+Not matched:            997
+
+----------------------------------------------------------------------
+BREAKDOWN BY STATUS
+----------------------------------------------------------------------
+  active                 290 / 1137  (25.5%)
+  needs_review             1 /   87  (1.1%)
+  retired                  0 /   64  (0.0%)
+
+----------------------------------------------------------------------
+BREAKDOWN BY TIER
+----------------------------------------------------------------------
+  Tier 1       241 /  813  (29.6%)
+  Tier 2        50 /  475  (10.5%)
+
+----------------------------------------------------------------------
+MATCHED TASKS BY LIST ASSIGNMENT
+----------------------------------------------------------------------
+
+  [(no list)]  (97 tasks)
+    Anhören RW KI [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Anhören RW-Prg. [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Anhören RW-Prg. mit Sati + Akif Ersoy [RWMPSE]  (method: code, csv: Anhören RW-Prg. mit Sati Ersoy)
+    Anhören RW-Programm [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Anhören Radiosender [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Ansehen / Kommentieren Youtube-Videos [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Ansehen YOutube-Videos [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Ansehen Youtube [RWRSMR]  (method: code, csv: Scan Museumsradio)
+    Ansehen ZiB 1  (method: name, csv: Ansehen ZiB 1 + Wetter)
+    Arbeitszeit absolvieren [BREPDZ]  (method: code, csv: Arbeitszeit absolvieren (Nachmittag))
+    Aufwandserfassung [KSAAKO]  (method: code, csv: Aufwandserfassung und Abrechnung Kontensystem)
+    Auspacken Teamgrillen [LEPOPO]  (method: code, csv: Versorgung Mitbringsel)
+    Aussuchen Radiosender [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Bearb. Essensplan [LEEPVO]  (method: code, csv: Bearb. Essensplan (Vorschläge Strake))
+    Bearb. Ohrwürmer [RWOWCH]  (method: name, csv: Bearb. Ohrwürmer (durchzunehmende))
+    Bearb. Playlist [RWYTPL]  (method: code, csv: Vorbereitung Playlist für Hören beim Frühstück)
+    Bearb. Playlists [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Bearb. gegangene Strecken [FZSCLI]  (method: code, csv: Bearb. Liste Scooterfahrten)
+    Bearb.Ohrwürmer [RWOMCH]  (method: name, csv: Bearb.Ohrwürmer(durchgenommen))
+    Bearb.Ohrwürmer (durchzunehmende) [RWOWDN]  (method: code, csv: Bearb. Ohrwürmer (durchzunehmende))
+    Bearbeitung Börsenkurse [FIAKBK]  (method: code, csv: Bearbeitung Börsenkurse / Aktienhandel)
+    Besuch Dr. Hariri [GEMRNA]  (method: code, csv: Ausmachen Arzttermine)
+    Blutdruck messen [GEBMBM]  (method: code, csv: Blutdruck messen)
+    Cashews fassen [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+    Datensicherung PC  (method: name, csv: Datensicherung)
+    Doppelkeks fassen [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+    Einkauf [LEEKBI]  (method: code, csv: Einkauf (BILLA Ederg.) / Laufen)
+    Einkauf Brot/Weckerln/süße Stücke [BREPZE]  (method: code, csv: Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi))
+    Einlass / Koordination Sati [WFPUEL]  (method: code, csv: Einlass / Koordination Sati Ersoy)
+    Einpacken Handy, Brille, Kabel [BRFAEP]  (method: code, csv: Einpacken Handy, Brille, Kabel (inkl. Laptop!), Handynetzteil, Power Bank, Headset, USB-Stick, Geld)
+    Einpacken Musik für Fahrt [RWRUEP]  (method: code, csv: Einpacken Musik für Fahrt inkl. Player + Akkus)
+    Einpacken RW-Prg. / Essensplan / Sicherung USB-Stick [RWMPEP]  (method: code, csv: Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-Stick)
+    Einpacken für Einkauf [LEEKEP]  (method: code, csv: Einpacken für Einkauf (Essensdatenbank, Rucksack, Sackerln, Altbatterien, Notebook, 25%-Pickerln, USB-Stick))
+    Eis kaufen [BREPZE]  (method: code, csv: Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi))
+    Forge of Empires  (method: name, csv: Spielen Forge of Empires)
+    Frühstück  (method: name, csv: Start list Nach_Fruehstueck)
+    Frühstück fassen [LEMTFR]  (method: code, csv: Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte)
+    Frühstücken [LEMTFR]  (method: code, csv: Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte)
+    Geld abheben [LEMEGA]  (method: code, csv: Geschirr abwaschen)
+    Getränk fassen [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+    Holundersaft fassen [LENATW]  (method: code, csv: Teller waschen / Getränk + Medikament fassen)
+    Häferl waschen [LEMTHW]  (method: code, csv: Häferl waschen / Hustenbonbon fassen)
+    Kokosmilch Drink fassen [LEMTJF]  (method: code, csv: Jause fassen)
+    Kommunikation mit Judith [PAWFAF]  (method: code, csv: Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung)
+    Mail an Judith [PAWFAF]  (method: code, csv: Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung)
+    Mittagesse  (method: name, csv: Mittagessen (?))
+    Mittagessen [LEMEGA]  (method: code, csv: Geschirr abwaschen)
+    Müllentsorgung  (method: name, csv: Müllentsorgung LEMÜMÜ)
+    Nachricht an Judith [PAWFAF]  (method: code, csv: Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung)
+    Nachspeise fassen [LEMEGA]  (method: code, csv: Geschirr abwaschen)
+    Nachtmahl [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+    Posting Atariage [CSAAZE]  (method: code, csv: Eintragen Zeiten Atariage)
+    Prüfung Bewässerung Terrasse [WFTEBE]  (method: code, csv: Prüfung Bewässerung Terrasse)
+    Rasieren, dabei Planung [LEMTRA]  (method: code, csv: Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen))
+    Rasieren, dabei div. Surfen, Bearb. Essensplan [LEMTRA]  (method: code, csv: Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen))
+    Scan / Wunsch Andon FM [RWMPSE]  (method: code, csv: Anhören RW-Prg. mit Sati Ersoy)
+    Scan Andon FM [RWMPSE]  (method: code, csv: Anhören RW-Prg. mit Sati Ersoy)
+    Scan Arabella Magic [RWRSMR]  (method: code, csv: Scan Museumsradio)
+    Scan Backlink Broadcast [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Scan Grok'n Roll [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Scan Kronehit [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Scan Mark Dennison Livestream [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Scan OE24 Radio [RWRSMR]  (method: code, csv: Scan Museumsradio)
+    Scan OpenAIR [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Scan ROck Antenne Österreich [RWRSMR]  (method: code, csv: Scan Museumsradio)
+    Scan RW KI [RWYTPL]  (method: code, csv: Vorbereitung Playlist für Hören beim Frühstück)
+    Scan Radio Arabella [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Scan Radio Arabella / Bearb. Playlist [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Scan Radio PM Events [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Scan Radio Wien [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Scan Stadtradio 1 [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Scan Stadtradio Krems [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Scan Thinking Frequencies [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Scan Youtube [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Scan i101 Radio [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Scootersuche  (method: name, csv: Laufen / Scootersuche)
+    Soja-Drink fassen [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+    Spaziergang  (method: name, csv: Spaziergang)
+    Spielen Kreuzungs-FGPA  (method: name, csv: Spielen Kreuzungs-FGPA)
+    Sprachnachricht an Judith [PAWFAF]  (method: code, csv: Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung)
+    Surfen / Scan Andon FM [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Surfen Andon FM [RWYTPL]  (method: code, csv: Vorbereitung Playlist für Hören beim Frühstück)
+    Tee fassen [LENATW]  (method: code, csv: Teller waschen / Getränk + Medikament fassen)
+    Tee zubereiten [LENAJA]  (method: code, csv: Nachmittagsjause fassen)
+    Teleworking  (method: name, csv: Start Teleworking BRZG)
+    Teller waschen [LENATW]  (method: code, csv: Teller waschen / Getränk + Medikament fassen)
+    Teller waschen / Granatapfelsaft fassen [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+    Vorbereitung Besuch Dr. Hariri [GEMRNA]  (method: code, csv: Ausmachen Arzttermine)
+    Vorbereitung Nachtmahl [LENANA]  (method: code, csv: Nachtmahl fassen)
+    WC / Windeltest [LEMTWC]  (method: code, csv: WC)
+    Wasser fassen [LEMEGA]  (method: code, csv: Geschirr abwaschen)
+    Weiteren Tee fassen [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+    Zubereitung Fischstäbchen [LENANA]  (method: code, csv: Nachtmahl fassen)
+    Zubereitung Nachtmahl [LENANA]  (method: code, csv: Nachtmahl fassen)
+    Zubereitung Tee [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+    div. Surfen / Ansehen Youtube-Videos [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    weiterer Tee fassen [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+
+  [Checkliste Abendzeremonie]  (1 tasks)
+    Zähne putzen [GEMTZP]  (method: code, csv: Zähne putzen)
+
+  [Checkliste Lebenserhaltung]  (1 tasks)
+    Nachtmahl essen [LENATW]  (method: code, csv: Teller waschen / Getränk + Medikament fassen)
+
+  [Checkliste Morgen]  (1 tasks)
+    Termine in Kalender prüfen [LEMTTP]  (method: code, csv: Termine in Kalender prüfen)
+
+  [Lebenserhaltung]  (13 tasks)
+    Bearb. Essensplan (Ereignisse / gegessen / zu essen) [LEEPGE]  (method: code, csv: Bearb. Essensplan (Ereignisse / gegessen / zu essen))
+    Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) [LEEPLS]  (method: code, csv: Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste))
+    Bearb. Essensplan (gegessen / Lokalsuche / Konsumation) [LEEPLS]  (method: code, csv: Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste))
+    Einkauf (BILLA Ederg.) / Laufen [LEEKBI]  (method: code, csv: Einkauf (BILLA Ederg.) / Laufen)
+    Einlass / Koordination Sati Ersoy [WFPUEL]  (method: code, csv: Einlass / Koordination Sati Ersoy)
+    Einpacken für Einkauf (Essensdatenbank, Rucksack, Sackerln, Altbatterien, Notebook, 25%-Pickerln, USB-Stick) [LEEKEP]  (method: code, csv: Einpacken für Einkauf (Essensdatenbank, Rucksack, Sackerln, Altbatterien, Notebook, 25%-Pickerln, USB-Stick))
+    Geschirr abwaschen [LEMEGA]  (method: code, csv: Geschirr abwaschen)
+    Mittagessen (?) [LEMEME]  (method: name, csv: Mittagessen (?))
+    Mittagessen (von Sati gekocht) [LEMESE]  (method: code, csv: Mittagessen (von Sati gekocht))
+    Mittagspause BRZG [LEMEBR]  (method: code, csv: Mittagspause BRZG)
+    Nachmittagsjause fassen [LENAJA]  (method: code, csv: Nachmittagsjause fassen)
+    Teller waschen / Getränk + Biovital fassen [LENATW]  (method: code, csv: Teller waschen / Getränk + Medikament fassen)
+    Vorbereitung Einkaufsliste [LEEKEL]  (method: code, csv: Vorbereitung Einkaufsliste)
+
+  [Liste_Abendzeremonie]  (10 tasks)
+    Anwendung Zahnseide [LEAZZS]  (method: code, csv: Anwendung Zahnseide)
+    Anwendung der Zwischenraumzahnbürste [LEAZZZ]  (method: code, csv: Anwendung der Zwischenraumzahnbürste)
+    Bearb.Ohrwürmer (durchzunehmende aus Charts) [RWOWDC]  (method: code, csv: Bearb.Ohrwürmer (durchzunehmende aus Charts))
+    Bearb.Ohrwürmer (durchzunehmende aus Liste) [RWOWDL]  (method: code, csv: Bearb.Ohrwürmer (durchzunehmende aus Liste))
+    Eintragen Zeiten Atariage [CSAAZE]  (method: code, csv: Eintragen Zeiten Atariage)
+    Mund ausspülen [LEAZMA]  (method: code, csv: Mund ausspülen)
+    Reinigung Zahnputzutensilien, Hände waschen [LEAZHW]  (method: code, csv: Bett machen)
+    Vorbereitung Zähne putzen [LEAZVZ]  (method: code, csv: Vorbereitung Zähne putzen)
+    Zähne fluoridieren [LEAZZF]  (method: code, csv: Zähne fluoridieren)
+    im Bett  (method: name, csv: im Bett)
+
+  [Liste_Arbeit]  (21 tasks)
+    Abhalten BKDD Standup Meeting [BREPGM]  (method: code, csv: Planung BRZ)
+    Abhalten PKT Projekt Jour Fixe [BREPGM]  (method: code, csv: Planung BRZ)
+    Abschluss [BRALAB]  (method: code, csv: Abschluss)
+    Arbeitszeit absolvieren (Nachmittag) [BREPDZ]  (method: code, csv: Arbeitszeit absolvieren (Nachmittag))
+    Arbeitszeit absolvieren (Vormittag) [BREPDZ]  (method: code, csv: Arbeitszeit absolvieren (Nachmittag))
+    Bearb. Essensplan im BRZ [BREPGM]  (method: code, csv: Planung BRZ)
+    Der Außentemperatur entsprechend anziehen [LEAUAZ]  (method: code, csv: Der Außentemperatur entsprechend anziehen)
+    Eingabe Teleworking SAP [BREPZE]  (method: code, csv: Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi))
+    Eingabe Zeiterfassung SAP [BREPZE]  (method: code, csv: Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi))
+    Einkauf Brot/Weckerln/süße Stücke (Der Mann Wien Mitte) [BREPZE]  (method: code, csv: Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi))
+    Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-Stick [RWMPEP]  (method: code, csv: Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-Stick)
+    Einpacken Handy, Brille, Kabel (inkl. Laptop!), Handynetzteil, Power Bank, Headset, USB-Stick, Geld [BRFAEP]  (method: code, csv: Einpacken Handy, Brille, Kabel (inkl. Laptop!), Handynetzteil, Power Bank, Headset, USB-Stick, Geld)
+    Einpacken Musik für Fahrt inkl. Player + Akkus [RWRUEP]  (method: code, csv: Einpacken Musik für Fahrt inkl. Player + Akkus)
+    Fahrt BRZG [BRFAFA]  (method: code, csv: Fahrt BRZG)
+    Heimfahrt vom BRZ inkl. Laufen [BRFAHF]  (method: code, csv: Heimfahrt vom BRZ inkl. Laufen)
+    Herunterfahren, Einpacken, Anziehen [BRALAB]  (method: code, csv: Abschluss)
+    Müllentsorgung LEMÜMÜ  (method: name, csv: Müllentsorgung LEMÜMÜ)
+    Planung BRZ [BREPGM]  (method: code, csv: Planung BRZ)
+    Prüfung auf eventuell mitzunehmende Dinge [BRAUPR]  (method: code, csv: Prüfung auf eventuell mitzunehmende Dinge)
+    Start Teleworking BRZG [BRTWGF]  (method: code, csv: Start Teleworking BRZG)
+    Zeiten sammeln [BREPZS]  (method: code, csv: Zeiten sammeln)
+
+  [Liste_Morgentoilette]  (36 tasks)
+    Abwiegen [LEMTAW]  (method: code, csv: Abwiegen)
+    Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Anziehen [LEMTAN]  (method: code, csv: Anziehen)
+    Aufstehen, Rasierer fasssen [LEMTAU]  (method: code, csv: Aufstehen, Rasierer fasssen)
+    Ausputzen Rasierer [LEMTAR]  (method: code, csv: Ausputzen Rasierer)
+    Ausziehen [LEMTAZ]  (method: code, csv: Ausziehen)
+    Bearb. Essensplan (gegessen, zu essen) [LEEPEP]  (method: code, csv: Bearb. Essensplan (Eintragen Protokoll))
+    Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) [LEEPEP]  (method: code, csv: Bearb. Essensplan (Eintragen Protokoll))
+    Bearb. Essensplan (Änderung Sollwerte) [LEEPUH]  (method: code, csv: Bearb. Essensplan (Update Händlerangebote))
+    Bearb.Ohrwürmer(durchgenommen) [MUOWDU]  (method: code, csv: Bearb.Ohrwürmer(durchgenommen))
+    Bett machen [LEMTBM]  (method: code, csv: Bett machen)
+    Bewässerung Terrasse [WFTEBE]  (method: code, csv: Prüfung Bewässerung Terrasse)
+    Blutdruck messen (Forderung von Renate) [GEBMBM]  (method: code, csv: Blutdruck messen)
+    Duschen [LEMTDU]  (method: code, csv: Duschen)
+    Feinschliff bei der Rasur [LEMTFR]  (method: code, csv: Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte)
+    Frühstücken, dabei Tee machen, Bearb. Werbeprospekte [LEMTFR]  (method: code, csv: Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte)
+    Frühstücken, dabei Tee machen, Bearb. Werbeprospekte, Prüfung Terrasse [LEMTFR]  (method: code, csv: Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte)
+    Frühstücken, dabei Tee machen, Einpacken für BRZ [LEMTFR]  (method: code, csv: Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte)
+    Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte [LEMTFR]  (method: code, csv: Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte)
+    Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte, Prüfung Terrasse [LEMTFR]  (method: code, csv: Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte)
+    Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Einpacken für BRZ [LEMTFR]  (method: code, csv: Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte)
+    Häferl waschen / Hustenbonbon fassen [LEMTHW]  (method: code, csv: Häferl waschen / Hustenbonbon fassen)
+    Häferl waschen, Hustenbonbon fassen [LEMTHW]  (method: code, csv: Häferl waschen / Hustenbonbon fassen)
+    Jause fassen [LEMTJF]  (method: code, csv: Jause fassen)
+    Mailprüfung [INMAPR]  (method: code, csv: Mailprüfung)
+    Mund spülen [LEMTMS]  (method: code, csv: Mund spülen)
+    Mund spülen / Teller waschen / Getränk fassen [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+    Rasieren, dabei Planung (C#-Programm) [LEMTRA]  (method: code, csv: Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen))
+    Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) [LEMTRA]  (method: code, csv: Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen))
+    Reinigung Waschmuschel [LEMTRW]  (method: code, csv: Reinigung Waschmuschel)
+    Starten Youtube-Playlist [MUOWSP]  (method: code, csv: Starten Youtube-Playlist)
+    Teller waschen / Getränk fassen [LEMTTW]  (method: code, csv: Teller waschen / Getränk fassen)
+    Vorbereitung Playlist für Hören beim Frühstück [RWYTPL]  (method: code, csv: Vorbereitung Playlist für Hören beim Frühstück)
+    Vorbereitung Playlist für Hören unter der Dusche [RWYTPL]  (method: code, csv: Vorbereitung Playlist für Hören beim Frühstück)
+    Vorbereitung Playlist für Singen unter der Dusche [MUOWPL]  (method: code, csv: Vorbereitung Playlist für Singen unter der Dusche)
+    WC [LEMTWC]  (method: code, csv: WC)
+
+  [Liste_Putzen]  (2 tasks)
+    Anhören RW-Prg. mit Sati Ersoy [RWMPSE]  (method: code, csv: Anhören RW-Prg. mit Sati Ersoy)
+    Verabschiedung / Zahlung Sati Ersoy [WFPUZA]  (method: code, csv: Verabschiedung / Zahlung Sati Ersoy)
+
+  [Liste_Schwimmbad]  (6 tasks)
+    Aufhängen Badewäsche [GEGYAB]  (method: code, csv: Aufhängen Badewäsche)
+    Bearb. Essensplan (Vorschläge Strake) [LEEPVO]  (method: code, csv: Bearb. Essensplan (Vorschläge Strake))
+    Bearb. Ohrwürmer (durchzunehmende) [RWOWDN]  (method: code, csv: Bearb. Ohrwürmer (durchzunehmende))
+    Besuch Schwimmbad [GEGYSB]  (method: code, csv: Besuch Schwimmbad)
+    Einpacken für Schwimmbad [GEGYES]  (method: code, csv: Einpacken für Schwimmbad)
+    PC herunterfahren [PCHFHF]  (method: code, csv: PC herunterfahren)
+
+  [Liste_Spiele]  (7 tasks)
+    Analyse Disassembly Astro Bomber [CSGAUM]  (method: code, csv: Korrektur The Grindy Adventure)
+    Analyse Disassembly Tour de France [CSGAUM]  (method: code, csv: Korrektur The Grindy Adventure)
+    Korrektur The Grindy Adventure [CSGAUM]  (method: code, csv: Korrektur The Grindy Adventure)
+    Spielen Evony - The King's Return [CSGAUM]  (method: code, csv: Korrektur The Grindy Adventure)
+    Spielen Forge of Empires [CSGAUM]  (method: code, csv: Korrektur The Grindy Adventure)
+    Spielen State of Survival [CSGAUM]  (method: code, csv: Korrektur The Grindy Adventure)
+    Spielen Taonga Island Farm [CSGAUM]  (method: code, csv: Korrektur The Grindy Adventure)
+
+  [Liste_mittags]  (6 tasks)
+    Auspacken Essensplan [LEEPAU]  (method: code, csv: Auspacken Essensplan)
+    Einkauf (?) [LEEKBI]  (method: code, csv: Einkauf (BILLA Ederg.) / Laufen)
+    Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi) [BREPZE]  (method: code, csv: Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi))
+    Heimfahrt vom BRZ - Fahrt zu U4 Spittelau [BRFAHF]  (method: code, csv: Heimfahrt vom BRZ inkl. Laufen)
+    Laufen / Scootersuche [GEGYLS]  (method: code, csv: Laufen / Scootersuche)
+    Versorgung Mitbringsel [LEPOPO]  (method: code, csv: Versorgung Mitbringsel)
+
+  [Liste_nachmittags]  (63 tasks)
+    Anfrage an S-Bausparkasse wg. alten Beraterunterlagen von Mama und Papa (?)  (method: name, csv: Anfrage an S-Bausparkasse wg. alten Beraterunterlagen von Mama und Papa (?))
+    Ansehen ZiB 1 + Wetter [RATVZI]  (method: code, csv: Ansehen ZiB 1 + Wetter)
+    Antwort Pirni [RAMAPI]  (method: code, csv: Antwort Pirni)
+    Auflistung Ordner im Wohnzimmer  (method: name, csv: Auflistung Ordner im Wohnzimmer)
+    Auflistung Papierstöße  (method: name, csv: Auflistung Papierstöße)
+    Aufwandserfassung und Abrechnung Kontensystem [KSAAKO]  (method: code, csv: Aufwandserfassung und Abrechnung Kontensystem)
+    Ausmisten Wohnungsunterlagen Papa (Rechnungen nur 10 Jahre lang aufheben) (60', Pri. 1,8)  (method: name, csv: Ausmisten Wohnungsunterlagen Papa (Rechnungen nur 10 Jahre lang aufheben) (60', Pri. 1,8))
+    Aussortieren weiterer Hausrat  (method: name, csv: Aussortieren weiterer Hausrat)
+    Bearb. Essensplan (Einlesen Einkaufsliste) LEEEL  (method: name, csv: Bearb. Essensplan (Einlesen Einkaufsliste) LEEEL)
+    Bearb. Essensplan (Eintragen Protokoll) [LEEPEP]  (method: code, csv: Bearb. Essensplan (Eintragen Protokoll))
+    Bearb. Essensplan (Kontrolle / zu essen / Korrektur) [LEEPKO]  (method: code, csv: Bearb. Essensplan (Kontrolle / zu essen / Korrektur))
+    Bearb. Essensplan (Protokoll) [LEEPPR]  (method: code, csv: Bearb. Essensplan (Protokoll))
+    Bearb. Essensplan (Update Händlerangebote) [LEEPUH]  (method: code, csv: Bearb. Essensplan (Update Händlerangebote))
+    Bearb. Essensplan (Update Rotation) [LEEPRO]  (method: code, csv: Bearb. Essensplan (Update Rotation))
+    Bearb. Essensplan (Update Wärme / Gewicht) [LEEPUW]  (method: code, csv: Bearb. Essensplan (Update Wärme / Gewicht))
+    Bearb. Ohrwürmer (Liste auswendig singbarer Titel) [MUOWAS]  (method: code, csv: Bearb. Ohrwürmer (Liste auswendig singbarer Titel))
+    Bearb. Ohrwürmer (Nachfassen aus alten Charts) [RWOWTT]  (method: code, csv: Bearb. Ohrwürmer (Nachfassen aus alten Charts))
+    Bearb. Ohrwürmer (Texte) [MUOWTE]  (method: code, csv: Bearb. Ohrwürmer (Texte))
+    Bearb. Ohrwürmer (durchgenommene) [RWOWDU]  (method: code, csv: Bearb. Ohrwürmer (durchgenommene))
+    Bearb. Senderwertungen [RASCSW]  (method: code, csv: Bearb. Senderwertungen)
+    Bearbeitung Aufgaben zu Papa's Pflege [PATATA]  (method: code, csv: Bearbeitung Aufgaben zu Papa's Pflege (10' +))
+    Bereinigung Papa's Mails (Abmelden aller Newsletter, Löschen aller Mails)  (method: name, csv: Bereinigung Papa's Mails (Abmelden aller Newsletter, Löschen aller Mails))
+    Datensicherung [PCDASI]  (method: code, csv: Datensicherung)
+    Disposition über getestete, abzugebende Dinge aus meinem Keller [RWREVK]  (method: code, csv: Disposition über getestete, abzugebende Dinge aus meinem Keller)
+    Dokumentation Finanzanlagen [FIDOAK]  (method: code, csv: Dokumentation Finanzanlagen / -kozept)
+    Dokumentation Grundsätze der Ma'at [GEDOMA]  (method: code, csv: Dokumentation Grundsätze der Ma'at)
+    Ergänzung Personendatenbank um Daten aus Kandidatenliste für Klassentreffen 2023 (sofern aktuell)  (method: name, csv: Ergänzung Personendatenbank um Daten aus Kandidatenliste für Klassentreffen 2023 (sofern aktuell))
+    Funktionstest div. Kopfhörer (10') [RWARTE]  (method: code, csv: Funktionstest div. Kopfhörer (10'))
+    Funktionstest div. Mäuse (10') [PCARTA]  (method: code, csv: Funktionstest div. Mäuse (10'))
+    Funktionstest div. Tastaturen (10') [PCARTA]  (method: code, csv: Funktionstest div. Mäuse (10'))
+    Hineinstellen Computerzeitschriften auf Willhaben.at (um Platz zu schaffen) [WFRECS]  (method: code, csv: Hineinstellen Computerzeitschriften auf Willhaben.at (um Platz zu schaffen))
+    Information weiterer Firmen, die mit Papa in Kontakt sind, über Tod (mit Einantwortungs- und Sterbeurkunde)  (method: name, csv: Information weiterer Firmen, die mit Papa in Kontakt sind, über Tod (mit Einantwortungs- und Sterbeurkunde))
+    Kontrolle Programm Plattenkiste [RAMWKO]  (method: code, csv: Kontrolle Programm Plattenkiste)
+    Mailantwort an Bernd Seiser [RAMABS]  (method: code, csv: Mailantwort an Bernd Seiser)
+    Mailbearbeitung [INMABE]  (method: code, csv: Mailbearbeitung)
+    Mailbearbeitung Papa (Abspeichern Ausgangsmail)  (method: name, csv: Mailbearbeitung Papa (Abspeichern Ausgangsmail))
+    Nachbereitung House Warming Party (Sprachnachricht an Judith) [PAWFAF]  (method: code, csv: Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung)
+    Nachtmahl fassen [LENANA]  (method: code, csv: Nachtmahl fassen)
+    Neubesprechung Anrufbeantworter Papa  (method: name, csv: Neubesprechung Anrufbeantworter Papa)
+    Scan Radio Plattenkiste (Samstag-Abend Wunschkonzert) [RWRSPD]  (method: code, csv: Scan Museumsradio (Samstag-Abend Wunschkonzert))
+    Sicherung Bilder aus Papa's neuerem Handy  (method: name, csv: Sicherung Bilder aus Papa's neuerem Handy)
+    Sicherung Bilder aus großer Karte von Digitalkamera  (method: name, csv: Sicherung Bilder aus großer Karte von Digitalkamera)
+    Sicherung Bilder aus kleiner Karte von Digitalkamera  (method: name, csv: Sicherung Bilder aus kleiner Karte von Digitalkamera)
+    Speichern Papa's Ausgangsmails + Nebenpostkörbe  (method: name, csv: Speichern Papa's Ausgangsmails + Nebenpostkörbe)
+    Sprachnachricht an Judith (zu Bruch mit Ersoy)  (method: name, csv: Sprachnachricht an Judith (zu Bruch mit Ersoy))
+    Sprachnachricht an Judith (zu Entrümpelung und Renovierung)  (method: name, csv: Sprachnachricht an Judith (zu Entrümpelung und Renovierung))
+    Sprachnachricht an Judith (zu Ressourcen sparen (Willhaben))  (method: name, csv: Sprachnachricht an Judith (zu Ressourcen sparen (Willhaben)))
+    Sprachnachricht an Judith (zu Unterschied zwischen geerbtem und eigenem Geld)  (method: name, csv: Sprachnachricht an Judith (zu Unterschied zwischen geerbtem und eigenem Geld))
+    Sprachnachricht an Judith (zu Zeitmanagement und -mangel)  (method: name, csv: Sprachnachricht an Judith (zu Zeitmanagement und -mangel))
+    Suche Musikwunsch für Plattenkiste [RAMWSP]  (method: code, csv: Suche Musikwunsch für Plattenkiste)
+    Supradyn / Nachtmahl fassen [LENANA]  (method: code, csv: Nachtmahl fassen)
+    Teller waschen / Getränk + Supradyn fassen [LENATW]  (method: code, csv: Teller waschen / Getränk + Medikament fassen)
+    Update Personenliste aus Rücklauf von Einladungen Begräbnis [PAPERL]  (method: code, csv: Update Personenliste aus Rücklauf von Einladungen für House Cooling Party)
+    Update Personenliste aus Rücklauf von Einladungen für House Cooling Party [PAPERL]  (method: code, csv: Update Personenliste aus Rücklauf von Einladungen für House Cooling Party)
+    Update Personenliste mit Daten aus Kandidatenliste (für Begräbnis)  (method: name, csv: Update Personenliste mit Daten aus Kandidatenliste (für Begräbnis))
+    Update Personenliste mit Daten aus Kontaktstoß  (method: name, csv: Update Personenliste mit Daten aus Kontaktstoß)
+    Verkauf / Vergabe kaputter Geräte + Computerzeitschriften auf Willhaben.at [RWREAG]  (method: code, csv: Verkauf / Vergabe kaputter Geräte + Computerzeitschriften auf Willhaben.at)
+    Weitere Prüfung Geräte aus meinem Keller / meiner Wohnung (Vorbereitung für Entsorgung) [WFREPR]  (method: code, csv: Weitere Prüfung Geräte aus meinem Keller / meiner Wohnung (Vorbereitung für Entsorgung))
+    Wohnung lüften [WFLULU]  (method: code, csv: Wohnung lüften)
+    Wunschmail für Samstag-Abend Wunschkonzert [RAMWWW]  (method: code, csv: Wunschmail für Samstag-Abend Wunschkonzert)
+    ausfährliche Mail an Renate wg. langem Telefonat (siehe Themen)  (method: name, csv: ausfährliche Mail an Renate wg. langem Telefonat (siehe Themen))
+    ungeplante Aktivität (Sprachnachrichten o.ä.)  (method: name, csv: ungeplante Aktivität (Sprachnachrichten o.ä.))
+    Überprüfung Hotmail-Sicherheitsüberprüfung (Chello?)  (method: name, csv: Überprüfung Hotmail-Sicherheitsüberprüfung (Chello?))
+
+  [Liste_untertags]  (24 tasks)
+    Abhalten BKDD Standup Meeting BRZ [BREPGM]  (method: code, csv: Planung BRZ)
+    Aufräumen [WFARAR]  (method: code, csv: Aufräumen)
+    Ausmachen Arzttermine [GEMRNA]  (method: code, csv: Ausmachen Arzttermine)
+    Bearb. Essensplan (Nährwerte) [LEEPGE]  (method: code, csv: Bearb. Essensplan (Ereignisse / gegessen / zu essen))
+    Bearb. Geldbörse [FIBGGB]  (method: code, csv: Bearb. Geldbörse)
+    Bearb. Liste Scooterfahrten [FZSCLI]  (method: code, csv: Bearb. Liste Scooterfahrten)
+    Bearb. Liste auswendig singbarer Titel [MUOWAS]  (method: code, csv: Bearb. Ohrwürmer (Liste auswendig singbarer Titel))
+    Bearb.Ohrwürmer(Nachfassen aus alten Charts) [RWOWTT]  (method: code, csv: Bearb. Ohrwürmer (Nachfassen aus alten Charts))
+    Bearbeitung Aufgaben zu Papa's Pflege (10' +) [PATATA]  (method: code, csv: Bearbeitung Aufgaben zu Papa's Pflege (10' +))
+    Bearbeitung Buch Champion's Mindset [GELICM]  (method: code, csv: Bearbeitung Buch Champion's Mindset)
+    Bearbeitung Börsenkurse / Aktienhandel [FIAKBK]  (method: code, csv: Bearbeitung Börsenkurse / Aktienhandel)
+    Ermittlung Gesamtzeiten [KSAEEG]  (method: code, csv: Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt))
+    Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt) [KSAEEG]  (method: code, csv: Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt))
+    Erstellung Playback mit Vocal Remover  (method: name, csv: Erstellung Playback mit Vocal Remover)
+    Führung Tagebuch, um schmerzhafte Situationen zu verarbeiten [GELIFT]  (method: code, csv: Führung Tagebuch, um schmerzhafte Situationen zu verarbeiten)
+    Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung [PAWFAF]  (method: code, csv: Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung)
+    Nägel schneiden [LENSNS]  (method: code, csv: Nägel schneiden)
+    Papiersortierung [PAA1SU]  (method: name, csv: Papiersortierung)
+    Papiersortierung (Altpapier)(10' +) [WFPAAP]  (method: code, csv: Papiersortierung (Altpapier)(10' +))
+    Papiersortierung (gelesene Werbeprospekte) [WFPAWP]  (method: code, csv: Papiersortierung (gelesene Werbeprospekte))
+    Papiersortierung (hereingekommene Papiere) [WFPAEK]  (method: code, csv: Papiersortierung (hereingekommene Papiere))
+    Planung im BRZ [BREPGM]  (method: code, csv: Planung BRZ)
+    Wäsche aus Waschmaschine nehmen [LEWAWA]  (method: code, csv: Wäsche aus Waschmaschine nehmen)
+    Übersiedeln (Mitteilung Adresswechsel) [WFUZUS]  (method: code, csv: Übersiedeln (Mitteilung Adresswechsel))
+
+  [Radio]  (3 tasks)
+    Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer [RWMPAR]  (method: code, csv: Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer)
+    Anhören Radiosender / Tonträger / Ansehen Youtube-Videos [RWMPMP]  (method: code, csv: Anhören Radiosender / Tonträger / Ansehen Youtube-Videos)
+    Scan Museumsradio [RWRSMR]  (method: code, csv: Scan Museumsradio)
+
+----------------------------------------------------------------------
+PLANNER CSV ORPHANS (87 activities with no master task match)
+----------------------------------------------------------------------
+  These CSV activities are not found in the master task list:
+
+  [Lebenserhaltung]  Start list Liste_mittags
+  [Lebenserhaltung]  WC [LEEKWC]
+  [Lebenserhaltung]  WC [BREPWC]
+  [Lebenserhaltung]  Wait
+  [Lebenserhaltung]  Wait
+  [Liste_Abendzeremonie]  Ausziehen [LEAZAU]
+  [Liste_Abendzeremonie]  Einschmieren [GEAZES]
+  [Liste_Abendzeremonie]  PC herunterfahren [LEAZHF]
+  [Liste_Abendzeremonie]  WC [LEAZWC]
+  [Liste_Abendzeremonie]  Zähne putzen [LEAZZP]
+  [Liste_Arbeit]  PC herunterfahren [PCHFAR]
+  [Liste_Arbeit]  Start list Liste_nach_Heimkunft
+  [Liste_Arbeit]  Stop list Liste_Spiele
+  [Liste_Arbeit]  Stop list Liste_untertags
+  [Liste_Arbeit]  Stop list Nach_Fruehstueck
+  [Liste_Arbeit]  Stop list Radio
+  [Liste_Arbeit]  WC [BREPWC]
+  [Liste_Arbeit]  WC [BRALWC]
+  [Liste_Morgentoilette]  Einschmieren [GEMTES]
+  [Liste_Morgentoilette]  Start list Liste_untertags
+  [Liste_Morgentoilette]  Start list Liste_untertags
+  [Liste_Morgentoilette]  Wait
+  [Liste_Morgentoilette]  Wait
+  [Liste_Morgentoilette]  Wait
+  [Liste_Morgentoilette]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_Spiele]  Wait
+  [Liste_mittags]  Restart list Lebenserhaltung
+  [Liste_mittags]  Restart list Liste_untertags
+  [Liste_mittags]  Stop list Lebenserhaltung
+  [Liste_mittags]  Stop list Liste_untertags
+  [Liste_mittags]  WC [BREPWC]
+  [Liste_mittags]  WC [BREPWC]
+  [Liste_nach_Heimkunft]  Restart list Liste_untertags
+  [Liste_nach_Heimkunft]  Restart list Radio
+  [Liste_nach_Heimkunft]  Start list Liste_nachmittags
+  [Liste_nachmittags]  Fortsetzung Projekt Petra+Heinz Conrads
+  [Liste_nachmittags]  Nachricht an Familie
+  [Liste_nachmittags]  Nachricht an Freunde
+  [Liste_nachmittags]  Papiersortierung PAA1SU
+  [Liste_nachmittags]  Pufferzeit
+  [Liste_nachmittags]  Pufferzeit
+  [Liste_nachmittags]  Stretching
+  [Liste_nachmittags]  Wäsche aus Waschmaschine nehmen [LEKLWM]
+  [Liste_nachmittags]  Yoga
+  [Liste_nachmittags]  weitere Papiersortierung (tw. mit Sati)
+  [Liste_untertags]  WC [MTMTWC]
+  [Nach_Fruehstueck]  Wait
+  [Nach_Fruehstueck]  Wait
+  [Nach_Fruehstueck]  Wait
+  [Nach_Fruehstueck]  Wait
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+  [Radio]  Wait until top of hour
+
+======================================================================
+Report generated for master_task_list_v4.jsonl
+======================================================================

@@ -1,0 +1,45 @@
+Dokumentation der Veranlagung vom Juli 2011
+Von Kurt Woloch, Stand 2.8.2011
+Dokumentenstatus: vertraulich; Zielgruppe: ich und eventuell meine Eltern, aber tunlichst niemand anderer!
+
+Dokumentation der Veranlagung vom Oktober 2009	1
+Ausgangssituation	1
+Angebote	1
+Berechnung	1
+Beschluss	2
+
+Ausgangssituation
+
+Mit dem Kontoauszug vom Juli 2011 hat sich gezeigt, dass am Girokonto wieder über 35000 Euro vorhanden sind, so dass wieder ein größerer Brocken zu veranlagen wäre.
+
+Es wurden bereits vor einiger Zeit die Angebote für neue Versicherungen geprüft, die aber nicht besonders attraktiv erschienen sind, so dass eine andere Lösung erwogen wurde.
+
+Diese Lösung besteht prinzipiell darin, bei der P.S.K. (BAWAG) ein weiteres Wertpapierdepot zu eröffnen, da dies eigentlich die Bank ist, bei der ich mein Girokonto habe.
+
+In den letzten Tagen sind aber einige andere Angebote eingelangt, so dass auch diese zu prüfen wären.
+Angebote
+
+Derzeit liegen folgende Angebote vor:
+
+- Verlängerung einer bestehenden Versicherung. Dies werde ich wahrscheinlich durchführen, ist aber unabhängig vom Girokonto, von dem dafür kein Guthaben nötig ist-
+- Abschluss einer neuen Versicherung. Hierzu kam von Herrn Weiß von der Ersten ein Angebot über einen etwas anderen Tarif als bisher, der aber noch näher zu evaluieren wäre.
+- Diese neue Versicherung basiert aber auf einer nachrangigen Anleihe der Ersten (ISIN AT000B005202), die prinzipiell auch direkt gekauft werden könnte. Allerdings wurde dies an der Wiener Börse überprüft, wo diese Anleihe nicht gehandelt wird, so dass es speziell von einem Wertpapierdepot von der Bank Austria oder P.S.K. aus schwierig werden könnte, hier etwas davon zu kaufen.
+- Laut Papa sollte es auch wieder attraktive Wohnbauanleihen geben, hierfür wäre aber das Wertpapierdepot nötig. Ich habe auch ein Angebot im Internet gefunden, und Papa hat mir dazu den aktuellen Kurs gebracht.
+- Mama hat mit Frau Traun von der Versicherung gesprochen, und diese wird ein weiteres Angebot schicken, das die Sektorkonditionen berücksichtigt, die ich normalerweise bekomme. Diese hat weiters angekündigt, dass im August 2011 voraussichtlich ein neues, höher verzinstes Versicherungsangebot erscheint, und uns geraten, darauf zu warten.
+Berechnung
+
+Ich habe mir nun die Rendite dieser Angebote durchgerechnet (siehe Excel-Sheet "Vorkalkulation Veranlagung 9.10.05"), und bin zu folgendem Ergebnis gekommen:
+
+- Abschluß der vorgeschlagenen Versicherung ohne Sektorkonditionen: 3,47% netto bei 15,25 Jahren Laufzeit
+- Abschluß der vorgeschlagenen Versicherung mit Sektorkonditionen (die Mama besorgt hat): 3,77%
+- Verlängerung der vorhandenen Versicherung: 3,0% netto (?!)
+- Abschluß Wohnbauanleihe: noch nicht bekannt (Angebote werden erst von Papa erfragt)
+- Direktkauf der nachrangigen Erste-Anleihe (abzüglich Depotgebühren): 3,81% netto
+- Bawag P.S.K. Wohnbauanleihe 3,625% 2011-2023/01 (bei Ausgabekurs von 102,78, der von Papa erfragt wurde): 3,11% netto
+
+Beschluss
+
+
+Da das neue Versicherungsangebot von der Struktur her von den bisherigen Versicherungen sehr verschieden ist, wird die alte Versicherung trotzdem zu den gegebenen Konditionen (3% netto) verlängert, da sich diese noch verbessern könnten, wenn es gelingen sollte, das Geld zu besseren Bedingungen anzulegen als sie derzeit herrschen.
+
+Das Angebot für eine neue Versicherung, besonders zu Sektorkonditionen, macht aber einen viel besseren Eindruck als die Wohnbauanleihe, die ich ursprünglich kaufen wollte. Daher wird von der Eröffnung eines Wertpapierdepots bei der P.S.K. vorläufig Abstand genommen und das auf dem Girokonto lagernde Geld in den neuen Versicherungstyp investiert. Dieser hat zwar einen anderen "Wettanteil" als die alten Versicherungen, sieht aber im Großen und Ganzen nicht unsicherer aus... wenn die Inflation unter dem angestrebten Wert bleibt, und die Erste Bank nicht pleite geht, liegt eine fixe Verzinsung statt der bisherigen variablen vor.

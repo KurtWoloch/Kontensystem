@@ -1,0 +1,468 @@
+Dokumentation des Lebensbereiches "Karaoke-Videos" von Kurt Woloch
+Stand: 24.10.2010
+Dokumentenstatus: intern, Zielgruppe: ich selbst, meine Eltern
+
+Gegenstand dieses Kontos / Bereiches	1
+Die Geschichte des Karaoke-Video-Kontos	1
+Die Anfänge (1992)	1
+Die Jahre der Kopieraktionen (1993-1995)	4
+Die ruhigen Jahre (1996-1999)	4
+Weitere Verschuldungen (2000-2001)	5
+Die große Kopieraktion aus dem Internet (2002)	5
+Der langsame Rückgang (2003-2005)	6
+Der Absturz (2006-2010)	8
+Die Videokassetten	9
+Berechnung von neuen Tarifen	11
+Tarif für Karaoke-Party	11
+Tarif für Heimkaraoke	12
+Tarif für Gesang in Karaoke-Lokalen	13
+Tarif für Abspielen von Videokassetten	13
+Vorkalkulation für verschiedene Aktionen	14
+Aufnahme neuer Titel ins Repertoire	14
+Umwandlung von Videokassettentiteln auf CD+G oder VCD	15
+Konsolidierung der Karaoke-Liste	15
+Aufnahme der neu gebrannten Karaoke-Titel auf der CD K10 in das Repertoire	16
+Aufnahme der von Egon gelieferten Titel in das Repertoire	16
+Aufnahme von Willi's Bildplatten in das Repertoire	16
+Aufnahme der Daten über die Videokassetten	17
+Businessplan	17
+Prioritätenliste	18
+Unterbringung des Materials	18
+PC- und Amiga-Dateien	18
+
+Gegenstand dieses Kontos / Bereiches
+
+Das Karaoke-Video-Konto verwaltet alle physischen Karaoke-Videokassetten, CD's, Video-CD's, Kassetten und auch einiges Zubehör, das notwendig ist, um diese abzuspielen und zu finden. Ausgenommen sind Files am Computer, die vom CD+G-Konto verwaltet werden, und Instrumentalversionen auf Singles, die nicht vom Karaoke-Video-Konto angeschafft wurden.
+Die Geschichte des Karaoke-Video-Kontos
+
+Nachdem das Karaoke-Video-Konto noch nie einen positiven Stand aufwies, soll hier ausführlich auf die Geschichte des Kontos eingegangen werden, sowie auf die Gründe, warum sich nie ein positives Ergebnis erzielen ließ.
+Die Anfänge (1992)
+
+Das Karaoke-Video-Konto wurde als eines der ersten Konten im Sommer 1992 gegründet. Die Grundlage dafür war, dass ich einmal auf die Idee kam, mir eine Karaoke-Anlage auszuborgen und bei einem Wirten damit Karaoke zu machen. Da das Ausborgen einer solchen Anlage damals öS 1500,- kostete, schlug Papa vor, ich solle von dem Wirten öS 2000,- verlangen, um meine Kosten wieder hinein zu bekommen. Dann fragte Papa, was ich von einem Heimkaraoke halten würde. Dabei hielt ich es dann für nötig, auch hier die Kosten, die mir dabei erwachsen, aufzurechnen, und danach zu trachten, dass sie durch Einnahmen gedeckt werden. In diesem Fall konnten die Kosten aber auf mehrere Veranstaltungen aufgeteilt werden, so wie es auch bei anderen Veranstaltern der Fall war, die am Anfang in eine Karaoke-Anlage investierten. Das Karaoke-Video-Konto wurde dann dafür geschaffen, diese Investitionen abzurechnen und zu kontrollieren, wie sie wieder hineinkommen.
+
+In den ersten Monaten fand einmal einige "Forschung" statt, wie ich es nannte. Es wurden einzelne Karaoke-Videos auf Videokassette am Amiga produziert, um zu sehen, was das für einen Aufwand verursacht, und es wurde bei verschiedenen Verleihern von Karaoke-Anlagen nach den Konditionen gefragt und auch recherchiert, wieviel neue Karaoke-Player und -CD's kosten würden.
+
+Diese Forschungskosten wurden bei der Gründung des Kontos einmal mit ca. öS 5000,- geschätzt und dem Konto angelastet. Danach wurde für Heimkaraoke-Veranstaltungen, die damals schon möglich waren, ein Tantiemensatz berechnet, der bei öS 6,50 pro gesungenem Lied lag. Gerechnet wurde hier mit 12 Heimkaraoke-Veranstaltungen pro Jahr (also einer pro Monat) mit jeweils 24 gesungenen Titeln. Diese Veranstaltungen hätten beim gegebenen Tantiemensatz die getätigten Ausgaben nach 5 Jahren wieder eingespielt.
+
+Zunächst wurde versucht, die Heimkaraoke-Veranstaltungen über das Karaoke-Video-Konto selbst abzurechnen, aber das funktionierte nicht, weil die Einnahmen zu niedrig waren, um den angestrebten Tantiemensatz zu erreichen. Daraufhin wurde beschlossen, Radio Würmchen als Veranstalter dazwischen zu schalten, ebenso wie die Karaoke-Veranstaltungen am Atoll durch Radio CD veranstaltet wurden, die wiederum den Karaoke-Club zur Veranstaltung des Karaokes engagierten.
+
+Weiters wurde beschlossen, das Karaoke-Video-Konto in zwei Konten aufzuteilen: ein Karaoke-Video-Konto und ein Karaoke-Video-Kreditkonto. Das Kreditkonto war sozusagen der Kreditträger, der am Anfang aufgenommen und dann langsam zurückgezahlt wurde. Das Karaoke-Video-Konto war dagegen immer positiv, nahm die ganzen Einnahmen auf und verteilte sie auf Kreditrückzahlungen und Anschaffungen.
+
+Und Anschaffungen waren auch weiter nötig, nachdem sich zu diesem Zeitpunkt nur 9 Titel im Karaoke-Video-Repertoire befanden. Allerdings begann ich gleich nach der Gründung des Kontos damit, diese Anschaffungen in sinnvolle Bahnen zu lenken.
+
+Dafür wurde erst einmal eine Wunschliste erstellt, in der die Titel eingetragen wurden, die ich bisher bei Karaoke-Veranstaltungen gehört habe, nachdem mir schon aufgefallen war, dass, auch wenn teilweise ein recht großes Repertoire an Karaoke-Titeln zur Verfügung stand (beim BASF-Karaoke-Wettbewerb z.B. an die 1200 Titel), am Ende doch immer wieder die gleichen daraus gesungen wurden.
+
+Ich trug also die Titel in die Wunschliste ein, indem ich die Listen der Pioneer-Bildplatten und der CD+G's des Karaoke-Clubs auf gesungene Titel durchging. Dazu kamen noch Titel, die sich in keiner der beiden Listen befanden, nach denen aber Karaoke-Sänger gefragt hatten. Jeder Titel bekam dabei eines oder mehrere Sternchen oder ein "E", wobei letzteres einem halben Sternchen entsprach. Diese Zeichen wurden nach folgendem Schema vergeben:
+
+- Wurde ein Lied nur einmal gesungen oder mehrmals, aber immer nur von einem Sänger, bekam es ein "E".
+- Wurde ein Lied von mehreren verschiedenen Sängern gesungen, bekame es ein Sternchen.
+- Lieder, die so oft gesungen wurden, dass sie im Schnitt bei jeder Karaoke-Veranstaltung mindestens einmal zu hören waren, bekamen zwei Sternchen.
+- Lieder, die von Sängern gewünscht wurden, oder nach denen gefragt wurde, ohne dass diese bei der gegebenen Veranstaltung im Repertoire waren, bekamen ein Sternchen pro Wunsch bzw. Anfrage. Diese Sternchen wurden zusätzlich zu den Sternchen für gesungene Titel vergeben, ausser die Wünscher waren die gleichen Personen, die die Titel auch sangen, wenn sie in anderen Lokalen vorhanden waren.
+
+Nach dieser Wunschliste wurde ermittelt, wie sich die Sternchen auf die im Karaoke-Club erhältlichen CD's und die beim BASF-Karaoke-Wettbewerb erhältlichen Bildplatten (von denen ich die Listen jeweils hatte) verteilten. Dann wurde jeweils ein möglicher Kauf eines CD+G-Players samt CD's und eines Bildplattenspielers samt Bildplatten gegenüber gestellt, wobei die optimale Zahl der zu kaufenden CD's bzw. Bildplatten ermittelt wurde, bei der sich das günstigste Verhältnis zwischen Gesamtausgaben und damit erfüllten Wunschsternchen ergeben würde. Das Ergebnis war bei beiden Varianten der Kauf von 10 CD's bzw. Bildplatten, wobei aber die CD's um einiges günstiger waren... auf CD+G kostete die Erfüllung eines Wunschsternchens öS 388,-, auf Bildplatte aber öS 1200.
+
+Nun ergab der Kauf des angepeilten Sets aus CD's und Player eine Summe von ca. öS 16000, was ein Mehrfaches der bisherigen Ausgaben bedeutet hätte, so dass dieser Plan vorläufig verworfen wurde.
+
+Der Wert von öS 388,- war aber eine Richtschnur dafür, wieviel eine Eigenproduktion von Karaoke-Titeln pro Wunschsternchen kosten durfte. Damals dauerte die Herstellung einer Einfärbung auf Videokassette ca. 1 Stunde, die Produktion eines Playbacks per MIDI dauerte 12 Stunden, wobei es auch noch eine kleine Schwierigkeit gab, wo man die Playbacks herbekommen konnte. Willi vom Karaoke-Club hatte aber einige Playback- und Instrumental-CD's und bot mir an, für mich interessante Titel daraus auf Kassette zu überspielen, aus denen ich dann meine Karaoke-Titel machen konnte.
+
+Ich produzierte aber in der Anfangszeit trotzdem immer wieder auch eigene Playbacks, wenn ich es für nötig hielt, wie z.B. "Why" von Annie Lennox, das aber nicht per MIDI, sondern mit dem Multitracker erstellt wurde und nur einen Bruchteil der Zeit für eine Vollproduktion brauchte. Ich wollte damit hauptsächlich im Karaoke-Club auftrumpfen, um dann eventuell meine Videos auch an Interessenten verkaufen zu können.
+
+Abgesehen von diesen "ungeplanten" Produktionen, die eigentlich nicht der Wunschliste entsprachen, gab es auch noch andere ungeplante Ausgaben, die durch meine Eltern zu Stande kamen, z.B. im Pro Markt, wo einige Karaoke-Playback-CD's angeboten wurden, so dass meine Mutter beschloß, gleich zwei davon (zu je öS 229,-) zu kaufen, während ich mich hier eher in Zurückhaltung übte, um das Budget nicht zu sehr zu strapazieren. Diese CD's wurden mir dann zum Geschenk gemacht, obwohl ich sie mir eigentlich nicht gewünscht hatte. Dies hatte zur Folge, dass das Karaoke-Video-Konto sie so übernehmen musste, wie wenn ich sie selbst gekauft hätte, nur dass die Kosten dafür meinen Eltern gutgeschrieben wurden.
+
+Dazu muss nämlich gesagt werden, dass meine Eltern sich weigerten, mir für das Heimkaraoke Bargeld zu geben, so wie ich es von einem Wirten bekommen hätte sollen. Als ich damit argumentierte, dass ich verschiedene Geräte hineinbringen müßte, meinte meine Mutter, diese Geräte müssten sich nicht rechnen, da sie Geschenke von meinen Eltern gewesen seien. Ich wollte das Ganze aber so rechnen, wie wenn ich sie selbst gekauft hätte, damit ich entsprechende Tantiemensätze berechnen und auch anderen Leuten verrechnen könnte, die von mir Karaoke-Videos kauften oder bei meinen Veranstaltungen mitmachten. Daher griff ich zu einem Trick. Um trotzdem Einnahmen verbuchen zu können, wurde das Eltern-Konto gegründet, auf das die Gegenwerte der Geschenke, die ich von meinen Eltern in den letzten 5 Jahren bekommen hatte, gutgebucht wurde, und von dem dann die Gebühren für das Heimkaraoke und andere Veranstaltungen abgebucht wurde, für die meine Eltern nicht in bar zahlen wollten. Geschenke an meine Eltern wurden dann auch von diesem Konto abgebucht.
+
+Dies hatte aber dummerweise zur Folge, dass alle Geschenke, die ich von meinen Eltern bekam, auch gegen meinen Willen, meinen Eltern im vollen Wert gutgebucht werden mussten und auf der anderen Seite Investitionen für das jeweils passende Konto darstellten. Auf diesem Weg kam es zu einigen Zwangsinvestitionen für das Karaoke-Video-Konto, die eigentlich so nicht geplant waren. Auf die Playback-CD's folgten, als endlich Karaoke-Videokassetten käuflich erhältlich wurden, einige Karaoke-Videokassetten von Doblinger, wo ich ursprünglich nur 3 Stück kaufen wollte, meine Mutter aber 3 weitere mitnahm. Insgesamt erhöhte sich der Schuldenstand des Karaoke-Video-Kontos durch die diversen Investitionen bis Ende 1992 auf ca. öS 12500. Die Tantiemen wurden linear dazu erhöht, stiegen also bis Ende 1992 auf öS 16,25 pro gesungenem Titel.
+
+Die eigentliche Planung sah dagegen etwas anders aus. Willi erzählte mir im November 1992, dass man sich beim Karaoke-Verein eine Anlage ausborgen und dann die CD's kopieren könne. Dies war dort auch relativ günstig. Für Mitglieder kostete das Ausborgen eines Players mit 10 CD's für eine Woche nur öS 500,-. Ich ging dann die Liste der dort vorhandenen CD's durch und erweiterte meine Wunschliste entsprechend, um dann ein neues Set von CD's zusammenzustellen, das ich mir dort ausborgen und daraus Titel kopieren würde, was nun schon wesentlich billiger kam als bei der bisherigen Rechnung - die Kosten konnten damit auf ca. öS 42 pro Wunschsternchen gesenkt werden (den genauen Wert weiß ich nicht mehr auswendig).
+
+Um zu diesem Ziel zu kommen, ohne neue Schulden zu machen und damit das Kreditkonto weiter explodieren zu lassen, legte ich mir ein Schema zurecht, nach dem ich die Investitionen des Karaoke-Video-Kontos in Zukunft tätigen wollte.
+
+Dieses Schema funktioniert so, dass am Ende jedes Monats eine Kreditrückzahlung erfolgte, die am Anfang so festgesetzt war, dass der nach der letzten Verschuldung aushaftende Betrag jeweils in 5 Jahren wieder hineinkommen sollte, später dann auf öS 500,- und noch später auf das Äquivalent des Wertes von 5 Arbeitsstunden festgesetzt wurde. Stieg das Konto über diesen Stand, war also die nächste Rückzahlung gesichert, konnte das Guthaben, das diesen Betrag überstieg, für Neuanschaffungen bzw. Neueinspielungen ins Repertoire genutzt werden. Nach einer solchen Beschaffungsaktion wurde das gesamte verbleibende Guthaben für die Kreditrückzahlung verwendet.
+
+Nachdem die geplante Kopieraktion beim Karaoke-Verein doch immer noch eine größere Investition in Höhe von ca. öS 2000,- war, hätte der Guthabenstand auf dem Karaoke-Video-Konto also mindestens öS 2500 betragen müssen, damit diese Aktion durchgeführt hätte werden können. Dazu kam es aber nie, weil meist schon weit vor Erreichen dieses Standes wieder andere kleinere Investitionen notwendig wurden, entweder weil ich sie für nötig hielt, oder Mama wieder auf eine Idee kam. Und laut der Regel musste nach der Durchführung einer solchen Investition der Restbetrag, der die öS 500 oder den jeweils nachher geltenden Betrag überstieg, zur Schuldentilgung verwendet werden. Manchmal waren die Investitionen allerdings auch so groß, dass kein Restbetrag überblieb, sondern noch weitere Schulden aufgenommen werden mussten.
+Die Jahre der Kopieraktionen (1993-1995)
+
+Auf der Einnahmenseite wurde im Jahr 1993 das System so umgestellt, dass nicht mehr ein Fixbetrag pro Lied verrechnet wurde, sondern die einzelnen Karaoke-Videokassetten zu einem jeweils für sie festgelegten Betrag vermietet wurden. Anfang 1993 vereinbarte ich nämlich mit Papa, dass er sich selbständig zum Üben verschiedene Karaoke-Videokassetten einzeln ausborgen durfte, die dann nach Tagen wie in einer Videothek verrechnet wurden.
+
+An größeren Ausgaben gab es 1993 eine Kopieraktion vom Karaoke-Club, in der insgesamt ca. 4 Stunden Karaoke-Material von Toemi-Karaoke-CD+G's überspielt wurden, was mir vorher von Peter Kremmel angeboten wurde, und wo meine Mutter mir dazu riet, das Angebot anzunehmen.
+
+Insgesamt stiegen im Jahr 1993 die Schulden des Karaoke-Video-Kontos auf öS 16365.
+
+Im Jahr 1994 begann ich dann, nachdem mich Karl-Heinz Hutterer vom Karaoke-Verein um Hilfe bat, nachdem Manfred die Miete für seine Anlage drastisch hinaufsetzen wollte, im Karaoke-Verein die Technik zu machen und dort auch meine Videos abzuspielen. Als der Karaoke-Verein dann bei Rührig im Mai 1995 ausgebootet wurde, machte ich für Rührig weiter die Technik, ebenfalls unter Einsatz meiner Videos. Ab Sommer 1995 machte ich dann auch im Karaoke-Club jede zweite Woche die Technik. In dieser Zeit gab es immer wieder weitere Investitionen in das Repertoire. Die größten davon waren zwei weitere Kopieraktionen, wo zunächst alle restlichen interessanten Titel der Toemi-Serie und auch einiger DKG-CD's von Peter, und bei der zweiten Aktion auch noch einige Titel aus der ACDG-Serie von JVC auf Videokassetten kopiert wurden.
+
+Bei den eigenen Titeln stellten sich im Jahr 1993 auch Änderungen ein. Während die ersten Karaoke-Titel noch mit Deluxe Paint 2 auf dem Amiga entwickelt wurden, schrieb ich dann eine Art Autorensystem in AmigaBasic, deren Ergebnis um einiges professioneller aussah. Dummerweise dauerte die Arbeit an einem Titel mit diesem System ca. 3,5 Stunden, und das System selbst kostete in der Entwicklung auch ca. öS 3800, was vom Karaoke-Video-Konto getragen wurde. Im Hinblick auf die geplante Produktion der Austro-Karaoke-CD wollte ich hier aber auch zeigen, was ich konnte. Manche Titel wünschte sich aber auch Mama zu bestimmten Anlässen, und in diesem Fall wurden die Produktionskosten abzüglich dem Anteil, den das Karaoke-Video-Konto auf Grund der Wunschsternchen selbst zu geben bereit war, vom Eltern-Konto abgezogen.
+
+Durch die wiederholten Investitionen in das Repertoire stiegen die Schulden des Karaoke-Video-Kontos bis ins Jahr 1995 weiter an und erreichten am 6.10.1995 einen vorläufigen Spitzenstand von öS 25481, der aber bis Ende 1995 wieder auf öS 24399 gedrückt werden konnte, obwohl Ende 1995 noch in einen CD+G-Player, den CD-Portable Aiwa XP-80G investiert wurde, der von Saturn um öS 1399,- inklusive einer Karaoke-CD abverkauft wurde.
+Die ruhigen Jahre (1996-1999)
+
+In den Jahren 1996 bis 1999 entspannte sich die Situation des Karaoke-Video-Kontos dann zusehends. Durch die Kopieraktionen und Käufe der Jahre 1992 bis 1995 umfasste das Repertoire nun bereits über 600 Titel, und so gab es dann keine weiteren großen Kopieraktionen mehr, es wurden nur wenige Titel auf Wunsch von Mama produziert und immer wieder bei den Karaoke-Parties, die ab 1996 monatlich stattfanden, einige Titel von CD's, die Karaoke-Sänger mitgebracht hatten, kopiert. Zwischendurch gab es nur eine größere Kopieraktion, als mir Günter Rolly alle seine Karaoke-CD's überließ und ich darauf einige Videokassetten voll kopierte, nachdem Papa unbedingt seine Frank-Sinatra-Titel haben wollte, die er dann aber nicht sang. Dafür wurde ich aber von Papa entschädigt, weil ich diese Kopieraktion eigentlich nicht durchführen wollte, Papa sie aber erzwungen hatte. Weiters wurden auch hin und wieder einzelne Karaoke-CD's neu gekauft, von denen die Mehrzahl aber von Mama gewünscht wurde, so dass die Kosten dafür weitgehend gedeckt waren.
+
+Die Karaoke-Parties sorgten auch trotz des Endes der Technikerjobs bei Rührig und beim Karaoke-Club für weitere Einnahmen, ebenso wie einige "externe" Karaoke-Veranstaltungen, die es auch einige Mal pro Jahr gab, und die hauptsächlich von Günther's kleinem Lokal und seiner Kantine im Tennisclub in Hietzing ausgingen.
+
+Damals wurde das Schema, nach dem die Tantiemen berechnet wurden, wieder leicht geändert, und zwar wurde davon ausgegangen, dass eine Kopieraktion von MSV durch Ausborgen einer Karaoke-Anlage und Kopieren der darauf enthaltenen, aber bei mir noch nicht vorhandenen und interessanten Titel durchgeführt und mit dieser Anlage auch eine Veranstaltung durchgeführt wurde. Es wurde weiters davon ausgegangen, dass sich diese Aktion normalerweise noch nicht rechnen würde, aber durch die gleichzeitig durchgeführte Veranstaltung dann doch, wobei die Kosten der Anlagemiete auf Karaoke-Video-Konto und Veranstaltung aufgeteilt werden würde. Der dabei entstehende Anteil für die Veranstaltung wurde dann als Tantiemen für die Veranstaltung verrechnet, aber vermindert entsprechend der nicht vorhandenen Titel der ausgeborgten Anlage. Diese Rechnung hatte eine Art Rabattstaffel zur Folge, wo die Tantiemen für die Veranstaltung mit der Anzahl der gesungenen Titel anstiegen, aber nicht linear. Die Rechnung war im Prinzip recht kompliziert, wurde aber über ein Excel-Sheet abgewickelt, so dass sie trotzdem nicht all zu zeitaufwendig durchzuführen war. Bei dieser Art, die Tantiemen zu berechnen, schwankten die Einnahmen am Anfang zwischen 5 und 10 Schilling pro gesungenem Titel, erhöhten sich aber im Laufe der Zeit bis auf das Doppelte davon.
+
+Auf Grund dieser Einnahmen konnte der Schuldenstand bis 1999 wieder stark gedrückt werden und erreichte am 23.8.1999 einen Tiefststand von öS 13731.
+Weitere Verschuldungen (2000-2001)
+
+Im Herbst 1999 kam es aber zu einer erneuten höheren Verschuldung. Diese wurde dadurch ausgelöst, dass Heinrich das Playback zu "Es lebe der Zentralfriedhof" überspielt haben wollte, das ich eigentlich für die Austro-Karaoke-CD produziert hatte, die bis dahin aber nicht fertiggestellt worden war. Da diese Produktion nun 5 Jahre in der Vergangenheit lag und bis dahin ein Minus am Karaoke-Club-Konto erzeugt hatte, das mangels Besuchen auf Grund des Austritts aus dem Karaoke-Club im Jahr 1996 nicht mehr getilgt werden konnte, entschloss ich mich dazu, das Karaoke-Club-Konto aufzulösen und die Schulden teilweise abzuschreiben, soweit sie die Herstellung der Clubzeitung betrafen. Der Teil, der die Austro-Karaoke-CD-Produktion betraf, wurde aber so gelöst, dass der Teil dieser Schulden, der noch nicht durch Wünsche von Mama getilgt worden war (die sich schon einige Titel aus der Austro-Karaoke-CD auf Video gewünscht hatte), an das Karaoke-Video-Konto "verkauft" wurde, indem die Playbacks an diese übergingen. Dadurch ergab sich eine Neuverschuldung von über öS 6000 zusätzlich zu einem Guthaben von öS 2500, das damals am Karaoke-Video-Hauptkonto vorhanden war und ebenfalls für diesen Ankauf verwendet wurde, wodurch die Verschuldung wieder auf knapp öS 20,000 anstieg.
+
+Am 1.4.2000 wurde dann die in Konkurs gegangene VHS-Gesellschaft zum Kaufpreis von öS 1800,- übernommen. Dieser Konkurs rührte daher, dass es Diskussionen zwischen mir und Papa über die Nutzung der Videokassetten gab. Diese Diskussinoen dauerten lange und brachten kein Ergebnis, weil die Nutzung der Videokassetten durch meine Eltern nicht besonders stark war. Durch die Finanzierung dieser Diskussionen geschwächt, wurde das VHS-Konto für zahlungsunfähig erklärt und mit dem Karaoke-Video-Konto zusammengelegt.
+
+Im Jahr 2001 konnte die Verschuldung wieder bis auf öS 10338,99 (Stand vom 30.9.2001) abgesenkt werden, aber danach standen wieder größere Ausgaben an.
+
+Zunächst bot mir Gerry an, mir als Dank für meine Karaoke-Party eine Wunsch-CD mit Wunschtiteln von mir zu brennen. Dafür wurde wieder die Wunschliste aktualisiert und dann die Wünsche für Gerry zusammengestellt.
+Die große Kopieraktion aus dem Internet (2002)
+
+Dann begann die große Kopieraktion aus dem Internet, die das ganze Jahr 2002 über dauerte. Für diese Kopieraktion gab es mehrere Gründe:
+
+Zunächst begann der CD+G-Player Mucken zu machen. Die Stromzufuhr über Netzadapter funktionierte nicht mehr, so dass man das Gerät nur noch über Batterien bzw. Akkus betreiben konnte. Weiters fiel dann auch die Suchfunktion aus, das heißt, man konnte die Titel auf der CD nicht mehr direkt anspringen, sondern musste die CD starten und dann mit schnellem Vorlauf bis zum gewünschten Titel vor gehen. Abgesehen davon konnte dieser Player auch keine Video-CD's abspielen, wie ich sie von Gerry kopiert bekommen hatte.
+
+Aus diesem Grund wurde von mir die Anschaffung eines neuen Players angedacht. Der Haken daran war nur, dass ich eigentlich nur einige wenige CD's hatte, für die ich ihn brauchte. Der Anteil der CD's an den insgesamt gespielten Karaoke-Titeln lag zum Zeitpunkt dieser Überlegungen (Ende 2001) bei ca. 20-30%. Damit sich die Anschaffung eines neuen Players rechnete, musste der Anteil aber höher sein.
+
+Dann bekam ich von Nick Gisburne, mit dem ich gemeinsam am Autorensystem KWCG arbeitete, den Tipp, dass es eine Newsgroup namens alt.binaries.sounds.karaoke gab, aus der man Karaoke-Titel im MP3+G-Format herunterladen könne. Dies schien mir eine günstige Möglichkeit zu sein, mein Repertoire stark aufzustocken.
+
+Weiters war durch die Arbeit am Karaoke-Autorensystem die Verschuldung des CD+G-Kontos stark angestiegen (auf ca. € 9000,-), und ich sah in der Aufstockung des Karaoke-Repertoires eine Möglichkeit, diese Schulden zu drücken. Das Schema sollte so laufen, dass die neuen CD's vom CD+G-Konto vorbereitet und gebrannt und die fertigen CD's dann zum Preis, der den Wunschsternchen entsprach, an das Karaoke-Video-Konto verkauft wurden. Dabei fiel jeweils ein Gewinn für das CD+G-Konto ab, da dieser Preis erheblich höher war als die CD-Produktionskosten inklusive Herunterladen der Titel.
+
+Dann wurde in meiner Rechnung die Höhe der Tantiemen, die für gesungene Karaoke-Videos zu zahlen waren, durch die Größe des Repertoires beschränkt. Je größer das Repertoire war, und je weniger Titel in der Wunschliste übrig waren, um so höher konnten meiner Rechnung nach die Tantiemen pro Lied steigen, und es war mein Ziel, endlich ein "vollwertiges" Repertoire anbieten zu können.
+
+Schließlich hatte Mama auch einem Freund von Willi, der einige gebrauchte Karaoke-Videokassetten auf meine Party mitbrachte, drei solche Kassetten abgekauft, wobei sie so vorging, dass sie die Titellisten auf der Kassette mit meiner Liste verglich und alle Titel herausschrieb, die wir noch nicht hatten (wie z.B. "Midnight train to Georgia" von Glady's Knight & the Pips). Daraus schloß ich, dass Mama mit der Größe meines Repertoires unzufrieden war und gerne noch viel mehr Titel gehabt hätte, auch solche, die eigentlich ziemlich unbekannt sind und von niemandem gesungen wurden.
+
+Aus diesen Gründen begann ich, eine große Herunterlad-Aktion zu starten. Ich nahm mir ein Gratisabo beim Newsserver Teranews, bei dem ich pro Tag 50 MB an Daten herunterladen konnte, und nutzte dann auch jeden Tag dieses Limit aus, um diverse Karaoke-Titel, unter anderem aus einer "Sound Choice Flood" und einer "DKG Flood" herunterzuladen. Bei diesen "Floods" wurden im Laufe einiger Monate alle Titel der jeweiligen Serie gepostet. Dazu fand ich in einem der Titel einen Hinweis auf einen Chatkanal, nämlich #cd+g auf efnet. Dort waren dann auch ausgefallenere Titel zu finden, obwohl damals die Verbreitung von Sound-Choice-Titeln dort ausdrücklich verboten war, später aber wieder erlaubt wurde.
+
+Anfang 2002 bekam ich auch meinen Breitband-Internetzugang, der es erst ermöglichte, eine solche Herunterlad-Aktion durchzuführen, da ich davor mit dem 56K-Modem doch nur ca. 10 MB pro Stunde durch die Leitung brachte und für jede Online-Minute zahlen musste. Diese Bandbreite war auch bis Ende 2001 mehr oder minder durch das Herunterladen von Musiktiteln von Audiogalaxy belegt, was aber Ende 2001 gestoppt wurde, weil das Guthaben auf dem Radio-Würmchen-Konto verbraucht war.
+
+Wie auch immer, aus diesen Quellen bezog ich im Laufe des Jahres 2002 tausende Titel, von denen die meisten auch auf CD gebrannt wurden, darunter fast alle Titel mit einem Wunschsternchen oder mehr, die auf kommerziellen Karaoke-CD+G's erhältlich waren, inklusive einiger Titel, die so in Österreich gar nicht auf Karaoke-CD's verkauft wurden. Dadurch erweiterte sich mein Repertoire von ca. 1100 auf über 2500 Titel, von denen nun über 60% auf CD's vorlagen.
+
+Da ich mit dieser Kopieraktion aber im Laufe eines Jahres jeden Tag ca. 1 Stunde beschäftigt war, und auch noch ein Gewinn für das CD+G-Konto abfallen sollte, entstanden aus dieser Kopieraktion hohe Kosten. Ein Bruchteil dieser Kosten konnte zwar durch den laufenden Betrieb und die Einnahmen aus den Karaoke-Veranstaltungen gedeckt werden, trotzdem erhöhten sich die Schulden des Karaoke-Video-Kontos insgesamt dadurch von € 1075,35 per 1.1.2002 auf € 9055,75 per 31.12.2002.
+
+Ende 2002 wurde die Kopieraktion eingestellt, nachdem alle verfügbaren Titel mit mehr als 0,7 Wunschsternchen in das Repertoire aufgenommen waren. Zu diesem Zeitpunkt befanden sich zwar auf der Festplatte noch mehrere hundert weitere Titel, die ich eigentlich vor gehabt hätte, zu brennen, aber diese kannte nur ich, und sie waren entweder nie oder nur von einem Sänger gesungen worden. Weiters bemerkte ich zu dieser Zeit, dass es nicht möglich war, die Tantiemen für die Karaoke-Videos weiter zu erhöhen, ohne an eine andere Grenze zu stoßen. Diese Grenze war die der Rentabilität - wenn die Tantiemen an das Karaoke-Video-Konto eine bestimmte Grenze überstieg, waren die Karaoke-Parties nicht mehr rentabel. Daher hatte es auch vorläufig keinen Sinn mehr, das Repertoire weiter zu erweitern. Abgesehen davon hatte es zu dieser Zeit auch gewisse Unstimmigkeiten mit bestimmten Karaoke-Sängern wie z.B. Ramona Klein (von mir vergebener Künstlername: Ramona Borit Klickl), wozu näheres noch in der Dokumentation des Karaoke-Sänger-Kontos zu finden ist.
+Der langsame Rückgang (2003-2005)
+
+Von 2003 bis 2005 wurden dann wieder relativ wenige neue Titel ins Repertoire aufgenommen. Mit der großen Kopieraktion waren weitere Kopien aus der mittlerweile aufgelassenen DKG-Serie nun nicht mehr nötig, da alle relevanten Titel daraus nun im Repertoire enthalten waren. Daher wurde als neue Referenz das Ausborgen einer Anlage bei MSV mit deutschen Bildplatten herangenommen. Auf Grund der Tatsache, dass es ein Rentabilitätslimit bei der Höhe der Tantiemen gab, wurde die Berechnung der Tantiemen nun aber wieder neu geregelt, und zwar wurde ein fixer Tantiemensatz pro Lied zuzüglich einer Miete für den Player verrechnet. Der fixe Tantiemensatz lag Anfang 2003 bei € 90,30 für 42 Titel (€ 2,15 pro Titel), die Miete für den Karaoke-Player für eine Party für 54 gespielte Titel bei € 58,12, was insgesamt € 148,42 pro Party ergab. In dieser Größenordnung blieben die Tantiemen dann ungefähr bis zum Jahr 2005. Diese Tantiemen wurden dann immer wieder nach oben oder unten angepaßt, je nachdem, ob die Veranstaltung Gewinne oder Verluste brachte. Die Tantiemen für wenige gespielte Titel, die meist bei Karaoke-Lokalbesuchen verrechnet wurde, unterlagen dem gleichen Mechanismus und waren dadurch eher im Steigen begriffen, wodurch sie Werte um die 10 Euro pro gesungenem Titel erreichten.
+
+Von der großen Kopieraktion hatte ich mir auch erhofft, dass mehr Leute meine Karaoke-Parties besuchen würden, wenn es mehr Auswahl gäbe. Dies passierte im Jahr 2002 auch, aber danach nahm die Anzahl der Besucher langsam ab. Ich bemühte mich zwar, in jedem Monat außer Dezember eine Karaoke-Party durchzuführen, aber im Sommer 2004 fielen auf Grund meines Krankenstandes nach dem Elektro-Roller-Unfall 2 Parties aus, und im Jahr 2005 ließ ich mich von den anwesenden Gästen der Party im Juni überreden, im Juli und August ebenfalls keine Party durchzuführen, worüber ich damals recht traurig war.
+
+Durch die sinkende Besucherzahl entfiel ein immer größerer Anteil an den Kosten auf meine Eltern, so dass sich deren Anteil für Karaoke-Parties und Heimkaraoke (der auf Grund eines Wunsches von Papa für beide Veranstaltungen immer gleich war) immer weiter erhöhte, er stieg z.B. im Laufe des Jahres 2005 von € 80,- für Papa und Mama zusammen auf € 118,-. Dafür wurde aber der Wunschwert für Heimkaraoke-Veranstaltungen, die sich meine Eltern von mir wünschten, von € 36,- auf € 28,- abgesenkt.
+
+Die sinkende Besucherzahl verbunden mit Finanzierungsschwierigkeiten am Karaoke-Sänger-Konto (näheres dazu bei der Dokumentation zum Karaoke-Sänger-Konto) drückte auch auf die Tantiemen, die leicht im Sinken begriffen waren und Ende 2005 nur noch € 76,16 für 42 gesungene Titel (€ 1,81 pro Titel) und € 63,24 für den Player (3 Stunden) betrug, was eine Summe von € 139,40 betrug (ein Rückgang von 6,1% gegenüber dem Wert von Anfang 2003).
+
+Auch von den externen Karaoke-Veranstaltungen musste ich mich verabschieden. Gab es im Jahr 2001 noch 6 solche Veranstaltungen (was das beste Jahr im Laufe meiner Karaoke-Karriere darstellte), so brachte das Jahr 2003 nur noch eine Veranstaltung, die auch bis heute die letzte bleiben sollte.
+
+Beim Heimkaraoke waren dafür die Tantiemen im Steigen begriffen. Sie stiegen von € 69,36 (Videos) + € 33,87 (Player) = € 103,23 (Gesamt) zu Ostern 2003 auf € 84,84 + € 48,14 = € 132,98 zu Weihnachten 2005, also um 28,8% an.
+
+Die Schulden konnten in den Jahren 2003 bis 2005 immer wieder abgebaut werden. Die Gesamtverschuldung fiel per Ende 2003 auf € 7731, per Ende 2004 auf € 6817,- (wobei 2004 auch wieder einige CD's neu ins Repertoire kamen) und per Ende 2005 auf € 4318,31.
+
+Ende 2005 wurden die Karaoke-Parties vorläufig eingestellt, da sie wieder defizitär geworden waren und ich die hohen Tantiemen und Anteile, die meinen Eltern verrechnet wurden, für utopisch hielt. Diese Anteile lagen unter anderem teilweise über den Kosten von neu gekauften, selbst zusammengestellten CD's von MSV, die mittlerweile angeboten wurden. Die Tantiemen für 24 gesungene Titel beim Heimkaraoke waren nun auch gleich hoch wie die für 42 gesungene Titel bei einer Karaoke-Party, wovon das Karaoke-Video-Konto aber weniger hatte, da bei einer Karaoke-Party auch immer einige Lieder von mitgebrachten CD's gesungen wurden und die Tantiemen für die gesungenen Titel anteilig auch auf die Karaoke-Sänger verteilt wurden, um die Schulden von deren Konto zu tilgen (siehe Dokumentation des Karaoke-Sänger-Kontos). Aus diesem Grund war ich der Meinung, es würde dem Karaoke-Video-Konto mehr bringen, wenn statt den Parties, die ohnehin nur noch mäßig besucht wurden, nur noch Heimkaraoke stattfinden würde.
+
+Papa kam auch immer wieder mit Vorschlägen für neue Investitionen, die das Karaoke-Video-Konto weiter belastet hätten, unter anderem wurde, als Willi mit einer DVD kam, die ich nicht abspielen konnte, die Anschaffung eines DVD-Players vorgeschlagen. Dann bot mir Otto an, Karaoke-Video-Kassetten auf Video-CD's zu überspielen. Dieses Angebot nahm ich im Herbst für die meistgesungene Videokassette, die sogenannte 5er-Kassette (von Music Sales), an, und als mir Otto die Kassette samt Video-CD zurückgab, meinte Papa: "In einem Jahr wirst Du wohl keine Bänder mehr haben". Darauf war ich leicht verzweifelt, da ich insgesamt 900 Titel auf Videokassetten hatte und das Überspielen auf Video-CD's für eine schlechte Lösung hielt, da es sich zu einem großen Teil um Kopien von bestehenden CD+G's handelte, die ich lieber als CD+G als als schlechte Kopie auf Video-CD gehabt hätte. Eine Übertragung auf CD in höherer Qualität hätte aber wieder einen größeren Aufwand erfordert, der bis zu weiteren € 4500 betragen hätte können.
+
+Auf Grund der gestiegenen Beiträge meiner Eltern kam ich auch zu dem Schluß, dass das Karaoke-Video-Konto eigentlich hauptsächlich von meinen Eltern gespeist wurde. Immerhin betrugen die Beiträge meiner Eltern zu Heimkaraoke, Karaoke-Parties und Singen von Karaoke-Titeln in Karaoke-Lokalen im Jahr 2005 ca. 75% der Einnahmen des Karaoke-Video-Kontos.
+Der Absturz (2006-2010)
+
+Auf Grund dieser und auch anderer Schwierigkeiten, die in den Dokumentationen anderer Lebensbereiche nachzulesen sind, beschloss ich zu Weihnachten 2005, mit der Dokumentationsserie anzufangen, deren Teil auch dieses Dokument ist, und während dem Schreiben der Dokumentationen die noch nicht dokumentierten Aktivitäten möglichst einzustellen. Weiters war mein Bestreben, alle Tätigkeiten der Prioritätsliste zu unterwerfen, in der die Karaoke-Parties aber nicht an besonders hoher Stelle kamen, weil sie nach damaliger Rechnung defizitär waren.
+
+Es kam auch, teilweise im Rahmen der ersten Dokumentationen, teilweise außerhalb, zu einer weiteren Tantiemenreform. Die Tantiemen für die Miete der kompletten Anlage wurden an die Kosten des Karaoke-Clubs angepaßt. Die Miete für die Kassetten und CD's samt Player kostete nun daher nur noch € 108,-. Auch die Tantiemen für eine geringere Zahl gesungener Titel wurde angepaßt, und zwar an die Preise für zusammenstellbare CD's von MSV. Diese Tarife durchliefen mehrere Schritte:
+
+Schritt 1 (ab Anfang 2006): 1 Titel € 10,-; 2 Titel € 19,50, 3 Titel € 23,-, 4 Titel € 26,50, 5-6 Titel € 30, jeder weitere Titel € 3,50.
+
+Schritt 2 (ab ca. November 2006): 1 Titel € 10,-; 2 Titel € 19,50, 3 Titel € 23,-, 4 Titel € 26,50, 5-6 Titel € 30, jeder weitere Titel bis 13 Titel € 3,50; 14-15 Titel € 57,50, jeder weitere Titel € 3,50
+
+Schritt 3 (ab Anfang 2009): 1 Titel € 10,-, 2 Titel € 17,50, jeder weitere Titel € 2,50.
+
+Da aus Dokumentationsgründen die Karaoke-Parties ab dem Jahr 2006 nicht mehr fortgeführt wurden, und auch die Lokalbesuche vorläufig eingestellt wurden, kam es zu einem starken Einnahmenrückgang beim Karaoke-Video-Konto. Der Ersatz der Karaoke-Parties durch Heimkaraoke funktionierte leider nicht so, wie ich ihn mir vorgestellt hatte. Im Jahr 2006 gab es noch 6x Heimkaraoke, was aber schon deutlich weniger war als vorher die Summe aus Karaoke-Parties und Heimkaraoke ausgemacht hatte (im Jahr 2005 insgesamt 8 Parties + 5 Heimkaraoke = 13 Veranstaltungen). Zu Ostern 2007 verschenkte Willi dann seinen Bildplattenspieler samt Bildplatten. Mama wünschte sich zu Ostern 2007 ein Heimkaraoke, und Papa wünschte sich daraufhin ein Plattenkaraoke. Ich versuchte, diese Wünsche so hinzubiegen, dass daraus 2 Veranstaltungen entstehen würden, ein Plattenkaraoke, bei dem nur von Bildplatten gesungen würde, und ein normales Heimkaraoke, bei dem das bisherige Repertoire gesungen würde. Dies hätte mir geholfen, die unvorhergesehene Investition in den Bildplattenspieler zu "verdauen". Aber nach diesem Vorschlag kam es zu einem Streit zwischen meinen Eltern, und so gab es am Ende zu Ostern 2007 gar kein Karaoke, und auch lange danach war die Anzahl an Heimkaraoke-Veranstaltungen stark reduziert. Im Jahr 2007 gab es letztlich nur 1x Heimkaraoke, im Jahr 2008 2x und im Jahr 2009 3x. Im Jahr 2010 gab es bisher 4x Heimkaraoke, wobei eine zusätzliche Veranstaltung am Vatertag angesetzt wurde, nachdem Papa etwas über Stammzellen hörte, denen das Singen gut tun soll, diese Anwandlung dürfte aber mittlerweile wieder verflogen sein, so dass ich mit Glück noch 2 weitere Veranstaltungen (im Oktober und zu Weihnachten 2010) durchbringen kann, wobei das zu Weihnachten aber auch noch nicht fest steht.
+
+Die Einnahmen aus Karaoke-Lokalbesuchen sind ebenfalls abgesunken, da die bis Ende 2005 üblichen wöchentlichen Karaoke-Lokalbesuche aufgegeben wurden und nur noch fallweise bzw. unregelmäßig stattgefunden haben. Im Juni bis August 2007 gab es eine Serie, wo fast jedes Wiener Lokal einmal besucht wurde, die aber im Sommer 2007 abriß. Seither gab es nur noch einzelne, fallweise Lokalbesuche.
+
+Zusätzliche Einnahmen haben sich in diesen Jahren nur aus den normalen VHS-Videokassetten ergeben, von denen 3 in die Radio-Würmchen-Datenbank aufgenommen wurden, die nun manchmal angesehen werden.
+
+Der Einnahmenrückgang ist im Karaoke-Video-Konto natürlich deutlich spürbar. Von 1.1.2006 bis 22.11.2006 gab es ca. € 850,- Einnahmen, und ich würde die Gesamteinnahmen von 2006 auf ca. € 1000,- schätzen, was nur einen Bruchteil der Einnahmen von 2005 darstellt. Die Kreditrückzahlungen im Wert von 5 Arbeitsstunden pro Monat können wahrscheinlich noch bis ca. Mitte 2007 aufrecht erhalten werden, danach liegen nicht genug Einnahmen vor, um die Rückzahlungen weiter zu finanzieren, und es werden die Einnahmen, die anfallen, jeweils am Monatsende zur Rückzahlung des Kredits herangezogen. Ob dies ausreicht, um die Zinsen der aushaftenden Kreditsumme abzudecken, wird sich weisen. Es kann auch dazu kommen, dass die Einnahmen nicht ausreichen und die Kreditsumme daher durch die anfallenden Zinsen wieder ansteigt. Ich bin aber zumindest zuversichtlich, dass es im Jahr 2010 zu keinem solchen Anstieg mehr kommt, da hier wieder Einnahmen von mindestens € 600,- vorliegen sollten.
+Die Videokassetten
+
+Wie schon erwähnt, hat das Karaoke-Video-Konto per 1.4.2000 das VHS-Konto übernommen, das für zahlungsunfähig erklärt wurde. Da der Besitzstand dieses Kontos etwas unklar ist, hier auch eine grobe Geschichte dieses Kontos, das eigentlich nicht viele Aktivitäten aufzuweisen hatte:
+
+Das Konto wurde am 14.7.1992 gegründet. Zunächst wurden die Videokassetten Nr. 39, 53 und 47 angekauft (die Kassette 53 war die Ur-Karaoke-Videokassette), dann wurden die Kassetten 44-47, 50 und 51 beschriftet.
+Im Jahr 1993 gab es keine Aktivitäten, das Jahr wurde mit einem Schuldenstand von etwas über öS 1109,- beendet.
+
+Im Jahr 1994 wurde die Muppets-Kaufkassette "Sing mit uns" in das Repertoire hinzugefügt. Dieses Jahr wurde mit einem Schuldenstand von öS 1395,- beendet.
+
+Im Jahr 1995 wurden die Videokassetten 54-58 und die Aufnahmen aus Mallorca beschriftet und in das Repertoire aufgenommen sowie der Song-Contest 1996 aufgenommen. In diesem Jahr gab es dann endlich auch Einnahmen, indem Titel aus den Videokassetten in der Heimversion der aktuellen Stunde gespielt wurden. Der Jahresendstand brachte eine Verschuldung von öS 1907,-.
+
+Im Jahr 1996 wurden die Aufnahmen aus Ibiza in das Repertoire aufgenommen. Der Schuldenstand am Jahresende betrug öS 2126,-.
+
+Im Jahr 1997 wurden die Aufnahmen aus Lignano in das Repertoire aufgenommen, zu einem ungewöhnlich hohen Kaufbetrag von öS 874,-, womit versucht wurde, die Ausgaben für den Urlaub selbst teilweise wieder hinein zu bekommen. Der Schuldenstand am Jahresende betrug öS 3067,-.
+
+Im Jahr 1998 wurden die beiden Videokassetten mit den Aufnahmen aus der Villa Prater in das Repertoire übernommen. Dies erfolgte zu hohen Lizenzkosten. Dies lag daran, dass es eigentlich verboten war, dort aufzunehmen (wie auch auf einem Schild dort stand), mein Vater machte es aber trotzdem, obwohl ich ihn auch aufforderte, nicht aufzunehmen, und schenkte mir zu allem Überfluß danach die Videokassetten davon.
+
+Bevor dies geschah, hoffte ich zunächst einmal, im Namen des VHS-Konto meinen Eltern die Videokassetten zu einem ziemlich hohen Preis verkaufen zu können, da es in der Villa Prater auch eine Videokassette von einem Wettbewerb zu kaufen gab, der dort abgehalten wurde, und der Kaufpreis dafür war ziemlich hoch (ich glaube, öS 500-600). Analog dazu berechnete ich auch den Kaufpreis für diese beiden Videokassetten, der dann insgesamt öS 840,- bzw. öS 1680,- betrug, also für alle zwei Kassetten zusammen öS 2520,-. Davon gingen öS 840,- an das Ausflugskonto, öS 840,- an das Musikerkonto, öS 240,- an das Kamera-Konto und öS 600,- an das Eltern-Konto (für die Aufnahme). Die kompletten zwei Kassetten wurden zwar in der "aktuellen Stunde" vorgestellt, was einiges an Einnahmen brachte, aber danach wurden nur noch einige Titel daraus wiederholt, da die meisten davon eine relativ schlechte Bewertung bekamen. Die Verschuldung am Jahresende betrug dann öS 4818,-.
+
+Im Jahr 1999 wurde im Rahmen der Liquidierung des Karaoke-Club-Kontos die Videokassette mit den Aufnahmen aus dem Karaoke-Club vom 1. Quartal 1992 in das Repertoire aufgenommen. Weiters gab es stundenlange Gespräche mit Papa darüber, wie es mit den Videokassetten weitergehen könnte, die als Arbeitszeit verbucht wurden. Die Verschuldung am Jahresende betrug öS 6296,-.
+
+Im Jahr 2000 wurde nach einem 1. Quartal mit öS 198,- an Einnahmen (was 11 gespielten Titeln entspricht) und keinen neuen Investitionen beschlossen, das VHS-Konto für zahlungsunfähig zu erklären. Der Schuldenstand betrug am 1.4.2000 öS 6254,11, davon wurden öS 1800,- vom Karaoke-Video-Konto übernommen, der Restbetrag von öS 4454,11 wurde dem Literaturkonto zugeführt, das damals als Ausgleichskonto fungierte.
+
+
+Das Karaoke-Video-Konto hat also vom VHS-Konto folgende 19 Kassetten "geerbt":
+Nr. 39, 44-47, 50, 51, 53-58 (insg. 12 Kass.)
+Karaoke 10.1.1992 Karaoke-Club (und weitere Abende dort)
+Kaufkassette "Muppets Sing mit uns"
+Aufnahmen aus Mallorca 1995, Ibiza 1996 und Lignano 1997
+Song-Contest 1996 (falls noch vorhanden)
+Villa Prater-Aufnahmen (1998)
+
+Von diesen Kassetten sind die Kassetten 39, 45 und 56 nicht mehr im Repertoire, da sie meine Eltern im Zuge der Besitzaufteilung bei ihrem Auszug im März 2001 in ihre Wohnung mitgenommen haben. Der Song-Contest 1996 wurde vermutlich wieder gelöscht. Daher verbleiben von den genannten 19 Kassetten nur 15 im Repertoire. Vor der Gründung des Kontensystems wurden bereits bei einer Beschriftungsaktion im Sommer 1989 die Videokassetten 1-38 beschriftet.  
+
+Welche Teile der genannten Videokassetten dem Karaoke-Video-Konto gehören, ist nicht ganz geklärt. Grob gesagt kann man die Rechte jeder Videokassette in folgende 4 Teile einteilen:
+
+- Bandmaterial (Leerkassette)
+- Inhalt
+- Beschriftung im Block und an der Kassette
+- Eintragung in der Radio-Würmchen-Datenbank
+
+Die leeren Videokassetten wurden größtenteils von meinen Eltern gekauft. Die Aufnahmen wurden teilweise auf mein Betreiben, teilweise auch auf das meiner Eltern gemacht. Die bereits im Repertoire befindlichen und noch vorhandenen Kassetten sind aber zum Großteil "meine" Geschichten. Eine 3-Stunden-Kassette hat im Jahr 1986 ca. öS 85,- gekostet, im Jahr 1992 ist der Preis dann auf öS 60-75 gefallen gewesen, und den heutigen Preis würde ich analog zum Preisverfall der Audiokassetten auf ca. € 4-5 schätzen.
+
+Die Beschriftungen wurden alle von mir vorgenommen, nämlich in einer Beschriftungsaktion im Sommer 1989. Soweit ich mich erinnern kann, hat die Beschriftung einer 3-Stunden-Kassette dabei ungefähr 1 Stunde gedauert, wobei sowohl die Eintragung im Block als auch ein ausführlicherer Beschriftungszettel bei der Kassette selbst angelegt wurde, der mehr ins Detail geht. Im Jahr 1989, als der Großteil der Beschriftungen gemacht wurde, wurde noch nicht so streng gerechnet, als Orientierung mag aber der Preis für die Bewerbungsschreiben herangezogen werden, die ich für Papa geschrieben habe, für die ich ca. 50-60 öS pro Stunde verlangt habe, je nachdem, ob ich dabei nebenbei Radio gehört habe (billiger) oder nicht (teurer). Bei den letzten Beschriftungen in den Jahren 1992-1995 lag dann mein Stundensatz bei ca. öS 100-120, und mittlerweile läge er bei geschätzten € 14,70.
+
+Die Eintragung in die Radio-Würmchen-Datenbank wurde schließlich bisher für 3 Kassetten erledigt, nämlich die ersten drei noch vorhandenen nach Nummern (Nr. 2, 3 und 6).
+
+Bei den Kassetten bis zur Nr. 29 wurde auch jeweils der Gesamtwert der Kassette in öS geschätzt und in den Block mit der Gesamtliste dazugeschrieben, es ist aber unbekannt, nach welchem Schema. Ich denke aber, es wurde je nach Kategorie des Inhaltes (Kinofilme, Aufnahmen vom Fernsehen, eigene Aufnahmen) ein bestimmter Wert pro Stunde angenommen. Für eine Kassette, auf der sich unter anderem die Kinofilme "Yellow Submarine" und "Gib dem Affen Zucker" befinden, wurde z.B. ein Wert von öS 420 angenommen, was € 30,52 entspricht. Dies halte ich in diesem Fall für einen realistischen Wert, da die aufpolierte Version von "Yellow Submarine" auf DVD um € 24 - € 30 und "Gib dem Affen Zucker" um ca. € 7,- verkauft wird. Bei zwei Kassetten (Nr. 40 und 47) sind auch Pay-per-view-Preise für bestimmte Abschnitte bzw. die ganze Kassette angegeben, die sich zwischen öS 30,- (für eine halbstündige Fernsehsendung) und öS 230,- (für eine ganze 4-Stunden-Kassette mit selbst aufgenommenem Material) bewegen. Zum Vergleich: Im Internet kann man heute bei RTLNow verschiedene Realitiy-TV-Sendungen wie z.B. "Rach, der Restauranttester" mit ca. 45 Minuten Länge um € 0,99 ansehen, Kinofilme mit 90-120 Minuten Länge bekommt man um € 1,99 zu sehen. Bei UPC kann man im "On-Demand"-Angebot Filme zwischen € 1,99 und € 3,99 (in HD € 4,99, was aber sicher für VHS-Kassetten nicht zutrifft!) ansehen. Solche Filme wurden bei mir anscheinend mit öS 40,- pro Vorführung bewertet, was auch ungefähr in den gleichen Rahmen passt. Manche kürzere Programme, wie z.B. Konzerte und Kindersendungen, sind bei UPC dagegen auch gratis.
+
+Laut Besprechung mit meinen Eltern ist die "Gütertrennung" bei den Videokassetten so erfolgt, dass mit meiner Beschriftung der Kassetten, die an meine Eltern gegangen sind, die Rechte meiner Eltern für Aufnahmen und Bandmaterial der Kassetten, die bei mir geblieben sind, abgegolten sind. Das heißt, für die Kassetten 1-58, von denen noch ca. die Hälfte vorhanden sind, wären die Beschriftungskosten von je 1 Arbeitsstunde pro Kassette nachzuverrechnen, und zwar zum heutigen Stundensatz, abzüglich der 12 Kassetten, die bereits auf Kosten des VHS-Kontos beschriftet wurden. Das ergibt € 14,7 * 46 = € 676,20 für die Kassetten 1-58, von denen insgesamt 32 Stück vorhanden sind. Die Vorgangsweise für die Kassetten mit den höheren Nummern und die nicht nummerierten Kassetten wäre noch zu überlegen, hier sollte aber zumindest der damalige Leerkassettenwert angesetzt werden, der auch für die Kassetten zu bezahlen wäre, die an meine Eltern gingen.
+
+Im Block mit der Auflistung der Videokassetten sind für die Kassetten 14-29 Werte von insgesamt durchschnittlich öS 305 pro Kassette angegeben. Diese Werte wurden im Jahr 1995 vergeben. Heute würde ich diesen Wert mit ca. € 26,64 pro Kassette annehmen (dieser Wert ergibt sich, wenn man die Beschriftungskosten für die Nummern 1-58 unter den 32 Kassetten aufteilt, die davon noch vorhanden sind).
+Berechnung von neuen Tarifen
+
+Wir wollen im folgenden versuchen, neue Tarife für die Nutzung der Karaoke-Videos und -CD's aufzustellen, die so gestaltet werden sollten, dass die daraus resultierenden Veranstaltungen nicht defizitär sind. Sie sollten ferner so gestaltet sein, dass, wenn die daraus resultierenden Veranstaltungen mit dem aus den Tarifen resultierendem E/A-Verhältnis in die Prioritätenliste eingetragen werden, sich die höchstmöglichen Einnahmen für das Karaoke-Video-Konto ergeben.
+
+Wir gehen für diese Berechnung von den Modellrechnungen aus, die in der Radio-Würmchen-Dokumentation zu den verschiedenen Arten von Karaoke-Veranstaltungen aufgestellt wurden:
+Tarif für Karaoke-Party
+
+Einnahmen:
+Grundspaß (3,5 h * 3 P = 			10,5 P)
+Singspaß 8 L				0,56 P
+Spaß an eigenen Liedern (Applaus) 	1,5 P
+Spaß Konsumation 			0,5P
+Spaß an vor- und nachherigem Reden 	5,5 P
+Gesamtspaß 				18,56 P	€ 187,46
+Support Nachtmahl (siehe Lebenserhaltung)		€ 2,20
+Anteil Eltern (2 * 59 Euro)			€ 118.-
+Wert gemachter Aufnahmen auf Kassette		€ 12,-
+Anteil Karaoke-Sänger (von mitgebrachten Titeln)	€ 18,82
+Spenden (€ 6 * 4)				€ 24,-
+Gesamteinnahmen				€ 362,48 (ohne Papiereinnahmen € 211,46)
+
+Ausgaben:
+PC-Nutzung für Einladung und Personenliste 1,5h	€ 1,50
+Einladung und Personenliste (1,5 h)		€ 21,-
+Telefon 30 Minuten à 29 Cent			€ 8,70
+Telefon 8 Minuten à 36 Cent			€ 2,88
+Vorbereitung (Inventur + Anruf) 1/4 h		€ 3,50
+7 Kopien von Anmeldezetteln à 29 Cent		€ 2,03
+Arbeitszeit für eigentliche Party (17-23h)		€ 84,-
+Miete Karaoke-Videos und -Player			€ 108,-
+Miete für Tapedeck und Videorecorder		€ 16,-
+Miete Amiga-Monitor				€ 12,-
+Anteil Miete (21 Sitzstunden)			€ 15,77
+Anteil Miete für reservierte Flächen		€ 52,88
+Vergütung Bewirtungsmaterial Eltern		€ 10,58
+Vergütung Bewirtung Eltern			€ 9,-
+Versicherungsanteil Eltern			€ 2,18
+Kontensystemsbuchungen				€ 3,60
+Arbeitszeit Abbau (45')				€ 10,50
+Gesamtausgaben					€ 364,12 (ohne Papierausgaben € 119.-)
+
+Der dunkelgrün markierte Ausgabensatz ist dabei der Teil, der durch die Karaoke-Videos veränderbar ist.
+
+Bei der oben dargestellten Rechung ergibt sich ein E/A-Verhältnis von 0,995. Bei diesem E/A-Verhältnis und dem derzeitigen Limit von 2,385 würde es über 35 Jahre dauern, bis eine Karaoke-Party stattfindet.
+
+Nimmt man den Ausgabensatz überhaupt weg, erhält man ein E/A-Verhältnis von € 362,48 / € 256,12 = 1,415. Bei diesem E/A-Verhältnis würde eine Karaoke-Party immer noch nur in Abständen von über 35 Jahren stattfinden. Es macht daher keinen Sinn, weiter zu versuchen, hier sinnvolle Tantiemen festzulegen, und wir bleiben daher am besten vorläufig bei dem oben beschriebenen Tarif.
+Tarif für Heimkaraoke
+
+Wir kopieren auch für Heimkaraoke wieder die Berechnung aus der Radio-Würmchen-Dokumentation:
+
+Einnahmen:
+Spaßwerte (24 Lieder) 5,143 Punkte = 	€ 51,94
+Anteil von Eltern: 2 * € 59,-		€ 118,-
+Zusatzspaß an Singen (8 Lieder) 0,56 P. =	€ 5,66
+Gesamteinnahmen:			€ 175,6 (ohne Papierbuchungen: € 57,6)
+
+Ausgaben:
+Miete für Videos und Player		€ 108,-
+Miete für Amiga-Monitor			€ 12,-
+Arbeitszeit (2 Stunden 25 Minuten)	€ 33,83
+Gesamtausgaben				€ 153,83 (ohne Papierbuchungen: € 33,83)
+
+Die grüne Zeile ist auch hier wieder die veränderliche.
+
+Ohne Änderungen kommen wir hier auf ein E/A-Verhältnis von 1,141. Bei diesem E/A-Verhältnis würde ein Heimkaraoke derzeit seltener als alle 35 Jahre statt finden.
+
+Ohne die grüne Zeile ergibt sich ein E/A-Verhältnis von 175,6 / 45,83 = 3,83. Bei diesem E/A-Verhältnis würde Heimkaraoke ständig stattfinden, allerdings hätte das Karaoke-Video-Konto dann keine Einnahmen.
+
+Man muss hier allerdings auch bedenken, dass 4 Veranstaltungen pro Jahr sowieso stattfinden, auch bei den bisherigen Tarifen, da sie von meinen Eltern gewünscht werden.
+
+Laut einer ebenfalls bei der Dokumentation von Radio Würmchen befindlichen Berechnung betragen die tatsächlichen variablen Kosten für das Abspielen von Karaoke-Videos und -CD's (Abnutzung) € 2,77 pro Heimkaraoke, so dass nur der Teil des Tarifes, der diese Kosten übersteigt, als Gewinn zu verbuchen ist.
+
+Wir versuchen nun, für verschiedene mögliche Tarife den Abstand zwischen Veranstaltungen, die Gesamtveranstaltungen pro Jahr und die daraus resultierenden Einnahmen zu ermitteln:
+
+Tarif (pro Heimkaraoke)	E/A-Verhältnis	Abstand (Tage)	Veranst./Jahr	Einnahmen/Jahr
+3			3,60		1		365		83,95
+4			3,524		1		365		448,95
+5			3,454		1		365		813,95
+6			3,388		3		121,7		393,09
+7			3,324		4		91,25		385,99
+8			3,262		9		40,56		212,13
+9			3,202		11		33,20		206,86
+
+Wie man hier sieht, ergibt sich der ideale Tantiemensatz bei € 5 pro Veranstaltung. Genau berechnet beträgt dieser € 5,56 für ein E/A-Verhältnis von 3,417. Dies würde € 0,23 (oder öS 3,19) pro gespieltem Lied entsprechen, also nur 5,15% der bisher verrechneten Summe. Die Durchführung der Heimkaraoke-Veranstaltungen hängt aber auch von meinen Eltern ab, die sich wahrscheinlich nicht vorstellen können, jeden Tag Heimkaraoke zu machen. Es wäre daher mit ihnen zu besprechen, wie oft sie sich eine Heimkaraoke-Veranstaltung vorstellen können. Bei größeren Intervallen, als sie hier dargestellt sind, wäre es dann wahrscheinlich besser, die Tantiemen so zu belassen, wie sie jetzt sind, und das Heimkaraoke wie bisher nur auf Wunsch stattfinden zu lassen, was dann wahrscheinlich wieder zu den üblichen 4 Veranstaltungen pro Jahr führen würde.
+
+Anmerkung: Die tatsächlich in der Prioritätenliste angewendete Formel unterscheidet sich von der hier dargestellten, so dass es wahrscheinlich öfter zu Heimkaraoke-Veranstaltungen kommen dürfte. Bei der tatsächlichen Formel fließen in das E/A-Verhältnis nämlich nur die variablen Kosten, nicht die Anteile an den fixen Kosten, ein, und es ergibt sich daher ein E/A-Verhältnis von 4,58 (ohne Wunschanteil der Eltern), das unabhängig von den Tarifen ist, die vom Karaoke-Video-Konto verrechnet werden. Diese Berechnungsweise hat sich erst in den letzten Monaten so entwickelt, aber ich halte sie für berechtigt, da beim Besuch eines Karaoke-Lokals, der hier zum Vergleich herangezogen wurde, fast alle Kosten variabel sind bzw. tatsächlich anfallen, während bei Heimkaraoke oder Karaoke-Parties die nötige Anlage samt Geräten bereits existiert und daher nur ein geringer Teil der anfallenden Kosten tatsächlich variabel ist.
+
+Der Eltern-Anteil am Heimkaraoke ist aber ab der nächsten zu verrechnenden Heimkaraoke-Veranstaltung (Weihnachten 2006) wieder fluktuierend zu berechnen, so dass er mit den Gewinnen und Verlusten des Radio Würmchen-Kontos beim Heimkaraoke bzw. mit den auftretenden Kosten steigt und fällt. Für das letzte abgerechnete Heimkaraoke am 12.10.2006 betrugen die tatsächlichen Kosten z.B. nur € 135, der Eltern-Anteil daran würde daher nur € 45 pro Person betragen, verrechnet wurden aber € 59 zuzüglich Wunschwert, also insgesamt € 146 statt € 90. Andererseits ist, um die Veranstaltung gewinnbringend zu halten, mindestens ein Elternwert von € 114 (inkl. Wunschwert) nötig, da mir selbst die Veranstaltung meinen Anteil von € 45,- nicht wert wäre, sondern nur € 21.
+
+Es wären also bei jeder Veranstaltung 2 Werte zu berechnen: einerseits der Gewinn laut Abrechnung, andererseits der Eltern-Anteil an den verrechneten Kosten. Von diesen beiden Werten wäre der höhere zu nehmen, und der Abstand der verrechneten Eltern-Anteile von diesem Wert um 20% zu reduzieren. War die Veranstaltung eine gewünschte Veranstaltung, reduziert sich der Wunschwert entsprechend, sonst der normale Eltern-Wert.
+
+Im Falle der vorigen Veranstaltung reduziert sich also der Wunschwert für die nächste Veranstaltung um (€ 146 - € 114) / 5 = € 6,40, gerundet € 6, von € 28 auf € 22.
+Tarif für Gesang in Karaoke-Lokalen
+
+Beim Tarif für den Gesang in Karaoke-Lokalen gibt es im Prinzip 2 Varianten:
+
+- Wir lassen die Tarife so, wie sie sind
+- Die Tarife werden massiv abgesenkt, und zwar auf € 0,70 pro gesungenem Lied
+
+Der Betrag von € 0,70 wurde in der Dokumentation des Ausflugskontos berechnet, er ist der Betrag, den mir selbst das Singen von eigenen CD's in Lokalen maximal wert ist.
+
+Wir vergleichen nun die beiden Varianten miteinander:
+
+Beim derzeitigen Tarif singt nur meine Mutter in Karaoke-Lokalen von meinen CD's. Wir gehen davon aus, dass, wenn pro Jahr 50 Lokalbesuche stattfinden, davon in 37,5 Lokalen meine CD's abspielbar sind, und sie in 28,125 Lokale mitkommt. Pro Lokal werden 4 Titel gesungen, was einen Tarif von € 22,50 (oder € 5,75 pro Titel) ergibt. Dies ergibt pro Jahr Einnahmen von € 22,50 * 28,125 = € 632,81.
+
+Wird der Tarif auf € 0,70 gesenkt, dann singe ich auch von meinen CD's, aber es ist damit zu rechnen, dass ich nur die Hälfte aller Titel von ihnen singe, also 2 Titel pro Lokalbesuch. Dies ergibt dann folgenden Titelumsatz:
+
+Ich selbst: 2 * 37,5 = 75 Titel pro Jahr
+Mama: 4 * 28,125 = 112,5 Titel pro Jahr
+Gesamt: 187,5 Titel pro Jahr * 0,70 = € 131,25.
+
+Wie man sieht, betragen die Gesamteinnahmen bei der zweiten Variante nur 20,7% der ersten Variante, auch wenn bei der zweiten Variante mehr Titel gesungen werden.
+
+Abgesehen davon hätten wir bei Annahme des niedrigen Tarifes eventuell auch kleine Probleme damit, bei Heimkaraoke-Veranstaltungen den höheren Tarif zu verrechnen.
+Tarif für Abspielen von Videokassetten
+
+Der Tarif für das Abspielen von Videokassetten könnte davon abhängig gemacht werden, in welchem Zusammenhang sie abgespielt werden. Beim Karaoke werden die Videos bzw. Playbacks normalerweise von mehreren Personen gleichzeitig gesehen, beim Ansehen von Videokassetten daher nur von einer (von mir).
+
+Daher würde ich die Tarife folgendermaßen ansetzen:
+Beim Ansehen von Videokassetten mit mehreren Personen ist der Tarif identisch mit dem der Karaoke-Videokassetten, wobei es aber noch Ergänzungen gibt. Bisher ist der Tarif für die Miete von 1-2 Videokassetten festgelegt mit € 18,25, und ich würde sagen, dies sollte auch gelten für das Ansehen einer ganzen Videokassette (die bis zu 4 Stunden lang sein kann), auch alleine. Werden kürzere Segmente daraus abgespielt, hängt es davon ab, ob der komplette Inhalt (inkl. Videoanteil) gebraucht wird. Ist dies der Fall, so ist der Tarif ident mit dem für Karaoke-Videos, wird nur der Audioanteil gebraucht, wird das gleiche verrechnet wie beim Abspielen von Audio-Tonträgern, wo im Moment ein Tarif von € 1,40 pro Titel festgelegt wurde bzw. € 10,- für einen ganzen Tonträger, der aber dort in der Regel nur eine Stunde lang ist. Hier würde ich für die längeren Videokassetten den Tarif von € 18,25 beibehalten.
+
+Es ist mir bewußt, dass dies teilweise weit höher ist als der oben angegebene marktübliche Tarif, nach dem ein Titel höchstens € 0,99 und eine Videokassette mit 4 Stunden höchstens € 13,30 kosten dürfte, aber im Moment gibt es niemanden, der etwas gegen diese höheren Tarife hat, die größtenteils nur intern verrechnet werden, und es ist auch insofern keine Konkurrenz gegeben, dass die meisten auf den Videokassetten enthaltenen Materialien, die für mich interessant sind, nicht billiger zum Ansehen verfügbar sind und der hohe Tarif daher auch nicht umgangen werden kann.
+Vorkalkulation für verschiedene Aktionen
+
+Im letzten Kapitel wurden die Tarife neu festgelegt, die für die Nutzung der Karaoke-Videos und -CD's in Zukunft verrechnet werden sollen. Diese zugegebenermaßen hohen Tarife haben aber nur den Zweck, die noch verbleibenden Schulden von ca. € 4,100 (Stand November 2006) zu tilgen. Es ist nicht geplant, in gleicher Höhe wieder Neuinvestitionen zu tätigen. Die Neuinvestitionen sollten so bemessen sein, dass sie sich auch rechnen und im Idealfall für sich alleine gesehen ein attraktives E/A-Verhältnis entwickeln.
+
+Im folgenden werden daher verschiedene mögliche Aktionen auf ihre Rentabilität überprüft, die vom Karaoke-Video-Konto durchgeführt werden könnten.
+Aufnahme neuer Titel ins Repertoire
+
+Dies ist eine Sache, die in der Vergangenheit immer wieder mal fällig war. Ich habe damals aber nicht berechnet, ob sich die Aufnahme bestimmter Titel ins Repertoire rechnen würde, sondern welche Titel das beste Preis-/Leistungsverhältnis ergeben würden, und diese wurden dann nach Vorhandensein des Budgets besorgt (oder auch andere, wenn mir wieder jemand zuvor kam bzw. diese auch ohne Vorhandensein des Budgets).
+
+Mit dem nun kräftig reduzierten Absatz sieht die Sache natürlich anders aus.
+
+Im Moment wären mit folgenden Einnahmen pro Jahr zu rechnen:
+
+Heimkaraoke: 4 * € 108 = € 432,- für 96 gesungene Titel
+Besuch von Karaoke-Lokalen: € 22,50 * 28,125 = € 632,81 für 112,5 gesungene Titel
+
+Gesamteinnahmen pro Jahr: € 1064,81 für insgesamt 208,5 gesungene Titel (€ 5,11 pro Titel)
+
+Beim Start der Wunschliste war noch damit zu rechnen, dass ein Titel mit 2 Wunschsternchen ca. alle 50 gesungenen Titel an die Reihe kommt. Davon würde ich heute aber nicht mehr ausgehen. Eine Auswertung über verschiedene Karaoke-Lokalbesuche zeigt, dass über alle besuchten Lokale hinweg ungefähr eine Rotation von 1100 Titeln existiert. Die meistgesungenen Titel davon kamen in dieser Zeit 13x bzw. 9x an die Reihe, diese beiden Titel wurden aber von meiner Mutter gesungen. Die höchstplatzierten Titel, die nicht von meiner Mutter gesungen wurden, kamen 9x bzw. 8x an die Reihe ("My way" von Frank Sinatra und "My heart will go on" von Celine Dion). Das heißt, sie wurden alle 122 bzw. alle 137,5 Titel gesungen.
+
+Vergleicht man dies mit der Wunschliste, so haben wir dort im Moment 886 Titel mit durchschnittlich einem Wunschstern. Bei einem Wunschstern würde ich nun davon ausgehen, dass der betreffende Titel einmal in 1100 gesungenen Titeln an die Reihe kommt. Das bedeutet, wenn bei uns in 5 Jahren, was der normale Rentabilitätszeitraum ist, 1042,5 Titel gesungen werden, dann käme ein Titel mit einem Wunschsternchen in dieser Zeit 0,948x an die Reihe und würde damit € 4,84 einspielen. Da der Titel am Beginn des Zeitraumes besorgt werden muss, kommen hier noch Zinsen dazu, und der Wert reduziert sich daher um 10,12% auf € 4,35. Dies wäre der "Wert" eines erfüllten Wunschsternchens.
+
+Wir gehen nun davon aus, dass die Besorgung eines Titels, den es auf CD+G gibt, € 5,- kostet, dazu kommen noch die Kosten der Einlistung von € 1,80, was eine Summe von € 6,80 ergibt. Diese Summe rechnet sich dann nur, wenn der betreffende Titel mindestens 1,563 Wunschsternchen hat, also in der Praxis 1,6. Dies ist eine deutlich höhere Grenze, als sie bei der "großen Kopieraktion" angewendet wurde, wo sie dank eines höheren Wertes pro Spaßpunkt noch bei ca. 0,7 Punkten lag.
+
+Wird ein Titel am PC produziert, und das Playback ist fertig, dann kostet die Erstellung der Einfärbung ca. 1 Arbeitsstunde, das sind € 15,50 an Kosten. Dazu kommt wieder die Einlistung mit € 1,80, das ergibt eine Summe von € 17,30. Diese Kosten rechnen sich erst ab 3,98, aufgerundet 4 Spaßpunkten. Diesen Wert erreicht im Moment nur ein einziges Lied in der Wunschliste ("...dann geh doch" von Howard Carpendale).
+
+Die Eigenproduktion eines Playbacks würde ein Vielfaches dieses Wertes kosten, so dass sie nicht in Frage kommt, da es keinen Titel auf der Wunschliste gibt, der 10 oder mehr Wunschsternchen haben würde.
+Umwandlung von Videokassettentiteln auf CD+G oder VCD
+
+Dies ist ein Vorschlag, den Papa im Herbst 2004 mit dem Statement "Ich denke, in einem Jahr wirst Du keine Bänder mehr haben" gemacht hat. Ich würde im Normalfall davon ausgehen, dass diese Umwandlung pro Titel ebenfalls € 5,- + € 1,80 für die Listenänderung kostet, es gibt aber Sonderfälle dazu.
+
+Die hier behandelten Titel existieren bereits im Repertoire, allerdings nur auf Videokassette, und würden nach der hier berechneten Aktion auch bzw. nur mehr auf CD+G oder VCD existieren.
+
+Das Einstellen eines solchen Titels auf Videokassette im Rahmen von Heimkaraoke-Veranstaltungen dauert 36 Sekunden, die entfallen, wenn der Titel auf CD vorliegt.
+
+Wenn ein solcher Titel im Moment 1x pro Jahr im Heimkaraoke gesungen wird, können wir von folgender Rechnung ausgehen:
+
+Derzeitige Einnahmen in 5 Jahren: € 4,5 * 5 = € 22,50 - € 0,735 Einstellkosten = € 21,765
+Künftige Einnahmen in 5 Jahren: € 4,5 * 5 + € 5,27 * 5,11 = € 49,45.
+
+Differenz / Gewinn in 5 Jahren: € 49,45 - € 21,765 = € 27,68
+
+Dies gilt für einen Titel, der jetzt im Heimkaraoke 5x in 5 Jahren gesungen wird. Die Umwandlung eines Titels kostet nun insgesamt € 6,80 + Zinsen = € 7,565. Das heißt, ein Karaoke-Titel muss, damit sich die Umwandlung in CD+G rechnet, mindestens alle 3,66 Jahre gesungen werden, muss also im Heimkaraoke mindestens 1x unter 351 gesungenen Titeln an die Reihe kommen. Dies ist für praktisch alle Titel, die Mama normalerweise singt, der Fall (da sie immer ungefähr die 50 gleichen Titel singt), aber nicht für die, die ich singe, da ich ein weit größeres Repertoire habe.
+Konsolidierung der Karaoke-Liste
+
+Mit Konsolidierung ist gemeint, dass nicht gesungene Titel aus der Karaoke-Liste gestrichen werden. Dies ist etwas, was ich mir im Zuge der Umwandlung der Karaoke-Titel von VHS-Videokassetten vorgestellt habe. Zu diesem Zweck habe ich mir einmal ausgerechnet, dass das Durchsehen der Karaoke-Liste für Sänger auch mühsam sein muß. Und je seltener ein Titel gesungen wird, um so größer ist die Anzahl der Karaoke-Sänger, die den Titel überlesen und nicht singen, bis er einmal an die Reihe kommt. Der genaue Rechenweg ist mir nicht mehr bekannt, aber ich bin damals zu dem Schluß gekommen, dass es sich nicht auszahlt, einen Titel in die Karaoke-Liste zu nehmen, wenn er seltener als alle 4000 gesungenen Titeln an die Reihe kommt, da er dann für jedes Mal, das er gesungen wird, von mehr als 1000 Karaoke-Sängern auf der Suche nach "ihren" 4 Titeln überlesen wird und damit der Aufwand des Überlesens größer ist als der Gewinn, der sich dadurch ergibt, dass der Titel einmal gesungen wird.
+
+Um festzustellen, welche Titel eliminiert werden sollten, müsste man aber eine Gesamtliste aller gesungenen Titel in den letzten Jahren aufstellen. Diese Liste müsste 4000 Titel in die Vergangenheit reichen, und die Titel, seit deren Neuaufnahme in die Liste noch keine 4000 Titel gesungen wurden, könnten natürlich noch nicht wieder herausfallen. Schätzungsweise kommen daher für die Eliminierung nur Titel in Frage, die bis zum Jahr 2000-2001 ins Repertoire genommen wurden, also hauptsächlich Titel auf Videokassetten, da der Zeitraum, in dem die letzten 4000 Titel gesungen wurden, bis ins Jahr 2001 zurückreichen dürfte. Würde man diese Konsolidierung auf alle Titel ausführen, so blieben meiner Schätzung nach von den derzeit 2800-2900 Titeln, die ich im Repertoire habe, nur ca. 1000-1300 übrig, die seit 2001 gesungen wurden, eventuell auch noch weniger, da die Rotation innerhalb eines Lokales (in diesem Fall meiner Sammlung) meist geringer ist als über alle Lokale gerechnet. Vielleicht käme ich daher auch nur auf 600-700 Titel, die übrig bleiben würden.
+
+Die Erstellung dieser Liste würde aber schätzungsweise 28 Stunden dauern und damit € 434 kosten, was auch wieder eine schöne Investition wäre. Danach wäre dann bekannt, welche Titel in der Liste bleiben sollten, welche eliminiert werden sollten und welche der Titel auf Videokassetten auf CD+G umgestellt werden sollten.
+
+Es dauert dann aber auch wieder eine gewisse Zeit, bis sich die Konsolidierung der Liste rechnet. Schätzungsweise würden aus der Liste ca. 500 von 900 Titeln gestrichen werden, die dafür in Frage kommen. Dies ergibt für jeden Sänger, der sich an der Liste versucht, eine Zeitersparnis von 250 Sekunden, oder 62,5 Sekunden pro gespieltem Titel, das entspricht € 0,255 an Zeitwert. Es würde daher 1701 gespielte Titel dauern, bis die Investitionen in die Listenkonsolidierung wieder hineinkommen, das entspricht im Moment dem Absatz von 8,15 Jahren. Da dieser Zeitraum über den 5 Jahren liegt, in denen sich normalerweise eine Investition rechnen sollte, wird dieser Plan wieder verworfen.
+Aufnahme der neu gebrannten Karaoke-Titel auf der CD K10 in das Repertoire
+
+Im April 2010 wurde die Karaoke-CD K10 neu gebrannt, wobei 8 Titel dazu gekommen sind, die ich in den letzten Jahren teilweise als Test produziert habe. Diese Titel werden vom CD+G-Konto angekauft und vereinigen schätzungsweise nicht besonders viele Wunschpunkte auf sich, ich würde schätzen, maximal 8, womit die neuen Titel unter € 80,- kosten dürften. Dies sollte durch das Heimkaraoke zu Ostern 2010 gedeckt sein. Eine weitere Vorkalkulation ist hier nicht sinnvoll, da diese Aktion bereits erfolgt ist.
+Aufnahme der von Egon gelieferten Titel in das Repertoire
+
+Diese Aktion war Ende 2005 bei der Einstellung der Karaoke-Parties im Laufen. Die von Egon gelieferte CD wurde noch nicht genau untersucht, aber in Anbetracht der von mir abgegebenen Wünsche würde ich schätzen, dass damit 20-40 Wunschpunkte erfüllt werden können. Dies kann zu Kosten von bis zu € 400 führen, die natürlich vorher gedeckt sein sollten. Dies wird voraussichtlich frühestens Ende 2010 der Fall sein, da die in den davorliegenden Jahren erzielten Einnahmen gänzlich für die Schuldenrückzahlung verwendet werden.
+Aufnahme von Willi's Bildplatten in das Repertoire
+
+Im Prinzip handelt es sich hier um Bildplatten mit ungefähr 600 Titeln zuzüglich eines Bildplattenspielers. Der Wert dieses Gerätes samt Software ist schwer bezifferbar, da aber alles gebraucht ist, würde ich ihn mit maximal 600 Euro beziffern, da wohl auch nicht all zu viele Wunschsternchen damit erfüllt werden, die derzeit noch offen sind. Das heisst, es sollte erst einmal ein Guthaben in dieser Höhe vorhanden sein. Dazu kommt noch die Aufnahme der 600 Titel in die Karaoke-Liste, die idealerweise gleichzeitig mit den von Egon gelieferten Titeln und den neuen Titeln auf der CD K10 erfolgen sollten, damit die Liste nur einmal neu gedruckt und kopiert werden muss. Bei dieser Masse an neuen Titeln würde ich die Kosten für die Listenaufnahme ungefähr folgendermaßen einschätzen:
+
+Eingabe der Bildplatten in die Inventur (1 Stunde)... 			€ 15,50
+Eingabe der Titel in ein Excel-Sheet (5 Stunden)... 			€ 77,50
+Verarbeitung in der Radio-Würmchen-Datenbank (4 Stunden)...	€ 62,-
+Ausdruck der neuen Titel (12 Seiten)...				€ 7,-
+Kopieren der neuen Titel für die Liste (120 Blatt) Kop.kosten...	€ 12,-
+Zeitaufwand für Kopieren der neuen Titel (20 Min.)			€ 5,17
+Einsortieren der neuen Blätter in die Listen (2 Stunden)...		€ 29,40
+Gesamtaufwand...						€ 208,75
+
+Gemeinsam mit den € 600, die an das Karaoke-Sänger-Konto voraussichtlich für das Material überwiesen werden, ergeben sich Gesamtkosten von € 808,75, die erst einmal als Guthaben vorhanden sein sollten. Dieses Guthaben wird voraussichtlich im Jahr 2011 auftreten, falls es gelingen sollte, die Anzahl der Karaoke-Veranstaltungen und -Besuche auf einem vernünftigen Maß (deutlich über 4 Heimkaraoke pro Jahr + einige Lokalbesuche) zu halten.
+Aufnahme der Daten über die Videokassetten
+
+Da die VHS-Gesellschaft mit dem Karaoke-Video-Konto fusioniert wurde, gehören dem Karaoke-Video-Konto nun alle Videokassetten bzw. die Daten darüber. Welche Videokassetten genau diesem Konto gehören, müsste erst im Detail geklärt werden, sicher sind nur die Videokassetten "Lignano" und "Villa Prater" (2 Stück), weiters die Auflistungen (aber nicht die Inhalte selbst!) der Videokassetten, die im Block aufgelistet sind (Nr. 1 bis Nr. 58, wobei allerdings Nummern fehlen, weil sich meine Eltern bei ihrem Auszug einen Teil der Videokassetten mitgenommen haben).
+
+Die ersten 3 nummerierten Videokassetten wurden schon in die Radio-Würmchen-Datenbank aufgenommen, insgesamt existieren aber 87 Stück. Ich würde schätzen, dass jede dieser Kassetten durchschnittlich 3 Stunden Inhalt enthält. Manche sind länger, aber manche haben auch noch unbespielte Stellen am Schluß. Das heisst, es handelt sich um insgesamt 252 Stunden Material, das noch in die Radio-Würmchen-Datenbank einzugeben wäre, das sind ca. 4000 Aufnahmen. Dies führt zu einem Aufwand von ca. 28 Stunden für die Eingabe und noch mehr für die Kategorisierung und Korrektur. Insgesamt schätze ich den Aufwand für die Aufnahme in die Radio-Würmchen-Datenbank auf ca. € 4000,-. Es fragt sich dann, wie oft eine solche Videokassette dann angesehen wird und welche Einnahmen das bringt.
+
+Anfang 2006 wurden die ersten 3 Videokassetten eingegeben, davon haben sich bisher 2 wiederholt (am 17.11.2008 und am 15.12.2008). Das heißt, diese Videokassetten haben eine Rotation von je ca. 2 Jahren und 10 Monaten, bringen also in diesem Zeitraum, wenn wir die Tantiemen gemäß den Tonträgertantiemen hochrechnen, je € 30,- ein. Das sind insgesamt für die 3 eingegebenen Videokassetten, von denen sich die dritte bisher nicht wiederholt hat, € 60 in 2 Jahren und 10 Monaten, oder € 21,18 pro Jahr, oder € 7,06 pro Jahr und Videokassette. Rechnet man nun damit, dass die Eingabe der Videokassetten pro Stück € 48 kostet, so rechnet sich jede Videokassetten-Eingabe in 6,8 Jahren. Rechnet man hier die Zinsen dazu, dann erhöht sich dieser Zeitraum auf 8,03 Jahre. Dies liegt im Prinzip über den 5 Jahren, in denen sich Investitionen normalerweise rechnen sollten. Von Herbst 2009 bis heute (und noch bis Ende der Dokumentationen, das für Jänner 2011 geplant ist) wurde aber eine ziemliche Pause im Hören von Radio und Tonträgern eingelegt, dies erfolgt im Moment nur während Morgen- und Abendtoilette, während früher immer Radio oder Tonträger gehört wurden, wenn der Audiokanal nicht anderweitig belegt war (was dann insgesamt ca. 3 Stunden pro Tag ergeben hat). Dieser Ausfall ist für die vorherige Rechnung aber irrelevant.
+
+Aus diesem Grund wäre der Eingabe der restlichen Videokassetten keine besonders hohe Priorität zuzuweisen, obwohl sie aber laut Richtlinien des Radio-Würmchen-Kontos möglichst bald erfolgen sollte. Werden also alle verbleibenden Videokassetten eingegeben, so kostet dies ca. € 4000,-, es ist dann aber mit zusätzlichen Einnahmen für das regelmäßige Ansehen von € 593,04 pro Jahr zu rechnen, was die Zinsen für diese Ausgaben abdecken würde.
+ 
+Zu den Kosten für die Einlistung der Videokassetten kommen noch die Kosten für den Ankauf der Rechte daran (für Bandmaterial und Inhalt). Diese betragen schätzungsweise wie oben dargestellt € 26,64 pro Kassette für insgesamt 82 Kassetten (für die restlichen 5 wurden die Rechte bereits erworben), das ergibt insgesamt nochmals € 2184,48. Dies ergibt Gesamtkosten von € 6184,48, davon sind aber für die Rentabilitätsberechnung nur € 4000 relevant, da der Rest nur Buchungen zwischen einzelnen Konten sind und kein Aufwand, der tatsächlich anfällt.
+Businessplan
+
+Die Einnahmenlage des Karaoke-Video-Kontos kann für die nächsten Jahre nicht genau geschätzt werden, da sie auch von der Karaoke-Video-Nutzung durch meine Eltern in Form von Heimkaraoke und auch eventuell wieder anderen Veranstaltungen abhängt.
+
+Es ist aber mindestens von 4 Heimkaraoke-Veranstaltungen pro Jahr auszugehen, die insgesamt € 432,- einbringen sollten. Dazu kommen noch schätzungsweise 3 Karaoke-Lokalbesuche pro Jahr zu je € 22,50 und angesehene Videokassetten pro Jahr um insgesamt € 21,-, das ergibt insgesamt € 520,50 an Einnahmen pro Jahr. Da das Kontensystem derzeit mit einem stark erhöhten Zinssatz von 10,61% für Schulden arbeitet, damit die Berechnungen das erforderliche E/A-Verhältnis bringen, um in meiner Prioritätenliste überhaupt an die Reihe zu kommen, ist damit zu rechnen, dass mit Stand November 2006 ein Betrag von € 494,77 pro Jahr für die Bedienung der Zinsen erforderlich ist. Dazu wäre noch zu sagen, dass normalerweise am Ende jedes Monats eine Schuldenrückzahlung in Höhe des Wertes von 5 Arbeitsstunden, das sind im Moment € 73,50 pro Monat oder € 882 pro Jahr, fällig wäre, diese kann aber nur durchgeführt werden, wenn es auch entsprechende Einnahmen gibt. Sollte aber mehr als die hier angenommenen mindestens € 499,50 hereinkommen, so können die Rückzahlungen im Laufe der Zeit zu einer Verringerung des Schuldenstandes führen, so dass dann auch niedrigere Zinsen anfallen.
+
+Die Ausgaben des Karaoke-Video-Kontos belaufen sich, wie oben schon angedeutet, auf die Zinszahlungen von € 494,77. Dazu kommen noch Anteile an der Wohnungsmiete, diese werden aber nur dann fällig, wenn sich in einem Monat ein Gewinn ergibt, was nur in Monaten der Fall ist, wo die Einnahmen mehr ausmachen als den Rückzahlungsbetrag von € 73,50. In diesem Fall verbleibt der Rest am Konto, und der Betrag, der nicht sofort für Investitionen ausgegeben wurde, wird um einen bestimmten Prozentsatz, der jeden Monat neu festgelegt wird (schätzungsweise 30-40%) gekürzt, um die Wohnungsmiete zu finanzieren. Dies gilt aber nur dann, wenn der Betrag im Laufe des letzten Monats gestiegen ist. Teilweise hängt es auch davon ab, ob die Einnahmen in der ersten oder zweiten Monatshälfte entstanden sind, wer sie bekommt. Näheres zu dieser Berechnung findet sich in der Dokumentation zur Wohnungsverwaltung.
+
+Insgesamt werden die Rückzahlungen wohl noch bis ca. Mitte 2007 gedeckt sein, so dass sich bis dahin noch mindestens eine Reduktion des Schuldenstandes auf ca. € 4400 ergeben wird. Danach wird der Schuldenstand bis Ende 2009 wohl durch mangels ausreichender Heimkaraoke-Veranstaltungen nicht bediente Zinsen wieder auf ca. € 5000 ansteigen, um ab 2010 dank einer höheren Anzahl von Heimkaraoke-Veranstaltungen erneut abzufallen. Für das Jahr 2010 ist z.B. nach derzeitiger Schätzung mindestens mit Einnahmen von € 607,50 zu rechnen.
+
+Genaueres kann vor dem tatsächlichen Vorliegen der Abrechnungen noch nicht gesagt werden.
+Prioritätenliste
+
+Die Eintragungen für das Durchführen von Karaoke-Parties und Heimkaraoke wurden entsprechend korrigiert. Die oben beschriebenen Aktivitäten sind erst nach Vorhandensein eines entsprechenden Budgets zu tätigen (mit Ausnahme der Aufnahme der neuen Titel aus der CD K10, die bereits erfolgt ist). Bezüglich der Videokassetten, die einzulisten sind, wäre noch mit dem Radio-Würmchen-Konto über eine eventuelle Kostenteilung zu verhandeln.
+Unterbringung des Materials
+
+Die Karaoke-Geräte befinden sich teils im Turm (JVC-Player und Videorecorder), teilweise im Wandverbau (AIWA-Player). Die Karaoke- und anderen Videokassetten befinden sich im Wohnzimmer im Wandverbau an der westlichen Wand, wo auch die Karaoke-CD's gelagert werden. Im Wandverbau in meinem Zimmer befindet sich ein Ordner mit diversen Listen von Karaoke-Firmen. Einige CD-Singles mit Instrumentaltiteln sowie Playback-CD's befinden sich auch am Rack mit den normalen CD's.
+
+Diese Dokumentation wird ausgedruckt und meinen Eltern übergeben.
+PC- und Amiga-Dateien
+
+Zum Karaoke-Video-Konto gibt es eine Datenbank, die die Wunschliste enthält, gleichzeitig aber auch die Singliste. Die Daten über die im Repertoire befindlichen Titel wurden in die Radio-Würmchen-Datenbank übernommen, von wo die Karaoke-Listen bei Bedarf aus der Tonträger.mdb-Datenbank ausgedruckt werden können.
+
+Auf den Sicherungsdatenträgern befinden sich weiters etliche weitere Listen.
+
+Auf  etlichen Amiga-Disketten befinden sich auch noch die Daten für die bis 2001 erstellten Karaoke-Playbacks sowie das Amiga-Autorensystem und die damit erstellten Einfärbungen.
+
+Die aktuellen Projekte des Karaoke-Video-Kontos werden im Ordner D:\Daten\Karaoke-Videos\ abgewickelt.
+2
+
+
+	- 1 -
+

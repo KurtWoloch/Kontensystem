@@ -1,0 +1,389 @@
+Dokumentation der Wohnungsverwaltung
+Stand: 28.9.2007, von Kurt Woloch
+
+
+Gegenstand der Dokumentation	1
+Inventurführung	1
+Zwecke der Inventurführung	1
+Ablauf der Inventurführung	2
+Genauigkeit der Inventurdatenbank	2
+Exkurs: Nutzung und Wert der Gegenstände	2
+Auswirkung des Lagerortes auf die Kosten eines Gegenstandes	3
+Kosten der Inventur pro Gegenstand, aufgegliedert nach Aktionen	3
+Daraus folgende Richtlinien für die Inventur	5
+Aufbewahrung der Gegenstände	5
+Entscheidung über den ersten Aufbewahrungsort eines Gegenstandes	5
+Versetzung von Gegenständen an andere Plätze	6
+Rechenbeispiel zur Versetzung von Gegenständen	7
+Aufteilung der Wohnungsmiete auf die einzelnen Lebensbereiche	7
+Angemessene Nutzfläche und Zahlungen an das Herzensgutkonto	7
+Regelungen für die Materialien der Wohnungsverwaltung	8
+Leuchtmittel	8
+Glühlampen oder Energiesparlampen?	8
+Referenzkosten	10
+Lagerhaltung	10
+Staubsäcke	11
+Vergleich von Einweg- mit Mehrweg-Staubsäcken	11
+Verwaltung des Wohnungsbesitzes	11
+Regelmäßig auszuführende Wohnungsverwaltungstätigkeiten	11
+Zeitaufwände für die Wohnungsverwaltungstätigkeiten	12
+Businessplan	12
+Laufende Einnahmen	12
+Laufende Ausgaben	12
+Cash-Flow und Investitionen	13
+
+
+Gegenstand der Dokumentation
+
+Gegenstand dieser Dokumentation sind Besonderheiten der Wohnungsverwaltung in meiner Wohnung, die über eine "normale" Lebensführung hinausgehen. Besonders wird hier auf die Berechnung und Verteilung der Wohnungskosten eingegangen.
+
+Inventurführung
+
+In diesem Abschnitt geht es um die Führung einer Inventur über die in meiner Wohnung vorhandenen Gegenstände. 
+Zwecke der Inventurführung
+
+- leichtere Auffindbarkeit der verschiedenen Gegenstände
+- eventuell Festhalten des Werts jedes Gegenstandes
+- Feststellen, ob ein bestimmter Gegenstand schon vorhanden ist oder nicht, z.B. wenn es ein Angebot für einen gleichwertigen Gegenstand gibt
+- Bestimmung des Kostenanteils der verschiedenen Lebensbereiche an den Wohnungskosten
+- Durchgehen der einzelnen Gegenstände in der Hinsicht, wie oft sie gebraucht werden, um Entscheidungen über deren Verlegung bzw. Entsorgung treffen zu können 
+- Hinterfragung des Zwecks bestimmter Gegenstände, die sich im Laufe der Zeit angesammelt haben
+- Schlüssel für darunterliegende Datenbanken, z.B. die Tonträgerdatenbank oder die Daten-CD-Inhaltsdatenbank
+Ablauf der Inventurführung
+
+Die Inventur funktioniert so, daß jeder Gegenstand oder jede Gruppe von Gegenständen am PC in eine Inventurdatenbank eingegeben wird. Dazu gibt es ein Programm, das diese Gegenstände in einer Baumstruktur anzeigt und deren Bearbeitung erlaubt. Zur Realisierung dieser Baumstruktur ist bei jedem "Element" der sogenannte "Parent", also das Eltern-Element angezeigt, in dem sich das Element befindet. Dadurch wird eine Struktur erzeugt, die ungefähr so aussieht, daß es im Wohnhaus die Wohnung gibt, die wiederum in einzelne Zimmer unterteilt ist. Die Zimmer sind in Boden und Wände unterteilt, und auf dem Boden stehen die Möbel, die wiederum in ihre einzelnen Fächer unterteilt sind. In diesen befinden sich dann einzelne Stöße von Gegenständen, in denen sich wieder die einzelnen Gegenstände oder Gruppen von Gegenständen befinden, die teilweise noch weiter unterteilt sind (z.B. eine Schachtel mit Kassetten).
+Genauigkeit der Inventurdatenbank
+
+Ein Zweck dieser Inventurdatenbank ist auch die Feststellung des Platzverbrauches jedes Gegenstandes. Insbesondere geht es hier darum, daß jedem Hobby die entsprechenden Kosten "umgehängt" werden, die sich durch den Platz ergeben, den die dafür notwendigen Gegenstände verbrauchen.
+
+Es stellt sich nun die Frage, in welcher Genauigkeit es sinnvoll ist, die Inventurdatenbank zu führen. Es können ja gewisse Gegenstände (z.B. Bleistifte) entweder einzeln oder gesammelt (z.B. ein Etui Bleistifte) geführt werden - bei der Sammlung ergibt sich aber immer die Gefahr, daß gewisse Details verloren gehen, die eventuell interessant sein könnten (z.B. ist von einer bestimmten Farbe ein Buntstift vorhanden?)
+
+Dazu muß man sich prinzipiell einmal den Wert der in meiner Wohnung befindlichen Gegenstände und deren Nutzung vor Augen führen, und inwieweit eine Inventur hier helfen kann...
+Exkurs: Nutzung und Wert der Gegenstände
+
+Generell kann man sagen, daß jeder Gegenstand einen gewissen Kreislauf durchläuft, den wir teilweise schon von der Datenhaltung her kennen, und der uns noch in etlichen Dokumentationen von Lebensbereichen bzw. Hobbies begegnen wird. Er funktioniert im Prinzip wie folgt:
+1. Gegenstand wird gekauft / bekomme ihn geschenkt / finde ihn etc.
+2. Gegenstand wird in Betrieb genommen bzw. "auf Lager" gelegt.
+3. Gegenstand wird verwendet
+4. Gegenstand wird eventuell repariert bzw. gewartet
+5. Gegenstand wird weggeworfen / verschenkt / verkauft / verloren / gestohlen etc.
+
+Dazu nun einige nähere Erläuterungen:
+Unter 1. verstehe ich den Einkauf eines Gegenstandes bzw. das geschenkt bekommen oder finden, wie schon oben dargestellt. Aus welchem Grund dies erfolgt, ist nun verschieden - optimal wäre es natürlich, wenn ich nur solche Gegenstände bekomme, die ich auch tatsächlich brauche bzw. haben möchte, aber das Leben spielt nun einmal anders.
+
+Punkt 2. ist die Behandlung des Gegenstandes, wenn er zu Hause ankommt. Lebensmittel werden hier auf ihren richtigen Lagerplatz bzw. in den Kühlschrank gelegt, technische Geräte eventuell aufgestellt und ausprobiert, die Bedienungsanleitung durchgelesen etc. Am Ende dieses Vorganges ist jedenfalls jedem Gegenstand ein Platz zugewiesen, wo er sich normalerweise befindet.
+
+Punkt 3. umfaßt die normale Verwendung des Gegenstandes. Manche Gegenstände verschwinden durch die Verwendung (z.B. Lebensmittel), von anderen bleiben Reste übrig, die dann entsorgt werden (z.B. Apfelbutzen, Bananenschale, leere Batterien), und andere wiederum lassen sich beliebig oft verwenden, oder zumindest so oft, daß sie sich durch die normale Verwendung normalerweise nicht abnutzen oder kaputt gehen.
+
+Punkt 4. umfaßt die eventuelle Reparatur kaputtgegangener Gegenstände. Dies ist nicht bei allen Gegenständen rentabel, bei manchen ist es aber rentabel und möglich. Dies wirkt sich aber nicht auf die Inventur aus.
+
+Punkt 5. umfaßt im Prinzip den "letzten Nutzen" eines Gegenstandes, bzw. dessen Entsorgung, Verschenkung etc. Gemeinsam ist diesen Vorgängen jedenfalls, daß sich der betreffende Gegenstand im Anschluß an diesen Vorgang nicht mehr im Wohnungsinventar befindet.
+Warum und wie der Gegenstand wegkommt, hängt immer von der jeweiligen Situation ab. Manche Gegenstände werden nicht mehr gebraucht, andere sind nach einer bestimmten Zeit nicht mehr funktionstüchtig und die Reparatur nicht mehr möglich oder rentabel. Andere wiederum gehen versehentlich verloren oder werden verborgt und nicht wieder zurückgegeben.
+
+Der Hauptzweck eines Gegenstandes befindet sich normalerweise für mich als Privatmann in Punkt 3, nämlich der Nutzung des Gegenstandes. Alle anderen Punkte treten im Prinzip als Kostenfaktoren auf (außer eventuell der Verkauf eines Gegenstandes), die zu berücksichtigen sind.
+
+Stellt man nun den Lebenszyklus eines Gegenstandes als Konto dar, dann fallen für jeden der oben genannten Punkte Beträge an, die summiert werden können und als Summe angeben, ob sich der Gegenstand gerechnet hat oder nicht. Als Kosten kommen hier noch die Kosten für Lagerung und eventuelle Umschichtung der Gegenstände hinzu, die im Prinzip in keinen der oben genannten 5 Punkte fallen, aber trotzdem einen Kostenfaktor darstellen, den man sich gerade im Hinblick auf die Inventur näher ansehen sollte.
+
+Zwischen jedem der oben genannten Punkte hat der Gegenstand auch einen gewissen Wert, den man erfassen und beurteilen kann. Dieser Wert kann sowohl erheblich höher als auch niedriger als der Verkehrswert sein, was von verschiedenen Faktoren abhängt. Von diesem Wert hängt es teilweise auch ab, ob ein Gegenstand entsorgt, verkauft oder behalten werden soll.
+
+Weiters kann man berechnen, wie viel die jeweilige Nutzung eines Gegenstandes kostet. Dazu muß man die Gesamtkosten eines Gegenstandes (Beschaffung, Lagerung, Wartung, Entsorgung) abzüglich etwaiger Verkaufskosten ermitteln und durch die Zahl der Nutzungen - oder sonstige Nutzungseinheiten - dividieren.
+
+Die Nutzungskosten können nun wieder gewisse Rüstkosten beinhalten, das sind die Kosten, die bei einer Nutzung anfallen, bevor der Gegenstand benutzt werden kann und die auch wieder anfallen, um ihn nach der Benutzung fachgerecht zu versorgen. Bei einer Karaoke-Veranstaltung wäre dies z.B. Auf- und Abbau der gesamten Anlage.
+Auswirkung des Lagerortes auf die Kosten eines Gegenstandes
+
+Die Rüstkosten variieren je nachdem, wie "betriebsbereit" ein Gegenstand gelagert wird, das heißt, wie hoch der Aufwand ist, ihn vor der Benutzung zu holen, ihn betriebsfertig zu machen, nach der Benutzung wieder abzubauen und zu verstauen.
+Der Idealfall wäre hier, daß ein Gegenstand gleich dort, wo man ihn braucht, aufgebaut liegt. Das ist aber nicht für alle Gegenstände realisierbar. Daher werden für eine solche Form der Lagerung auch die höchsten Lagerkosten verrechnet, die sich nur dann rechnen, wenn der Gegenstand regelmäßig - also eigentlich sehr oft - verwendet wird. 
+Bei weniger oft verwendeten Gegenständen rechnet es sich daher, ihn weiter weg zu günstigeren Preisen zu lagern und ihn nur bei Benutzung herauszuholen und eventuell betriebsbereit zu machen.
+
+Das Problem dabei ist nur, daß es aufwändige Berechnungen erfordert, die richtigen Mietzahlungen festzustellen, wobei es sich bei diesen Mietzahlungen aber nur um fiktive Kostenverschiebungen handelt, da die tatsächlich gezahlte Wohnungsmiete immer gleich bleibt. Es können nur allenfalls die Putzkosten, die aber relativ gering sind, reduziert werden. Da das generelle Ziel des Kontensystems aber die Herstellung eines möglichst positiven Gesamtergebnisses ist, sollte von solchen komplizierten Berechnungen möglichst Abstand genommen werden.
+Kosten der Inventur pro Gegenstand, aufgegliedert nach Aktionen
+
+Die Inventur hat gewisse Kosten, die pro Gegenstand von 11 Cent bis 1 Euro reichen, je nachdem, was alles erfaßt wird und wie der Gegenstand selbst beschriftet wird. 1 Euro fällt an, wenn der Gegenstand mit seiner Inventurnummer etikettiert wird und alle Datenbankfelder befüllt werden. Nur 11 Cent fallen dagegen an, wenn nur der Gegenstand und sein Aufenthaltsort, aber keine weiteren Informationen dazu eingegeben werden.
+Was davon gemacht wird, hängt nun davon ab, wozu die Inventur bei diesem Gegenstand dienen soll. Zum Beispiel sind die Daten-CD's nach Inventurnummer geordnet, hier ist also eine Etikettierung erforderlich, um die richtige CD zu finden und auch wieder einordnen zu können.
+
+Betrachten wir nun noch einmal den Nutzen der Inventur und versuchen, für jeden Punkt einen Wert festzustellen, in dem wir uns fragen, was passieren würde, wenn die entsprechenden Informationen nicht vorhanden wären:
+
+- Festhalten, welche Gegenstände vorhanden sind:
+
+Dies ist wichtig beim Nachbeschaffen von Verbrauchsmaterial, bzw. bei der Entscheidung, ob bestimmte Dinge beschafft werden sollen, oder schon vorhanden sind.
+Prinzipiell dauert das Nachsehen in der Inventur, um einen Gegenstand zu suchen, etwa 40 Sekunden. Wäre die Information nicht vorhanden, müßte man nach dem entsprechenden Gegenstand suchen, was eine gewisse Zeit dauern kann, obwohl gewisse Kategorien von Gegenständen schon an gewissen Plätzen untergebracht sind. Trotzdem dauert es einmal 30 Sekunden, an einen bestimmten Platz zu gehen und von dorthin wieder zurückzukommen. Dann dauert es ca. 4 Sekunden für jeden Gegenstand, den man durchsucht, um zu dem gesuchten Gegenstand zu kommen.
+Das heißt, insgesamt kann man die Kosten folgendermaßen schätzen:
+Mit Inventur: € 0,11 bis € 1 + € 0,17 pro Abfrage
+Ohne Inventur: € 0,11 + (€ 0,0075 pro Gegenstand in der Kategorie) pro Abfrage
+
+In wie breiten Kategorien hier gedacht wird, hängt nun wieder davon ab, wie oft auf bestimmte Dinge zugegriffen wird. Insgesamt befinden sich in der (fertigen) Inventur etwa 10000 Gegenstände. Pro Tag wird davon auf 2-3 zugegriffen, das sind dann pro Jahr im Schnitt etwa 900 Zugriffe. Das heißt, auf jeden einzelnen Gegenstand wird nur ca. 1x alle 11 Jahre zugegriffen.
+Es ist nun so, daß sich der Aufenthaltsort einer Kategorie erst dann einprägt, nachdem 5-10x auf sie zugegriffen wurde, und das möglichst innerhalb eines Jahres. Das heißt, die Kategorien sind meist so breit, daß eben mindestens 10 Zugriffe pro Jahr auf jede Kategorie erfolgen. Das heißt aber, es darf maximal 90 Kategorien von Gegenständen geben, um sie auswendig wissen zu können. Alle anderen Gegenstände innerhalb dieser Kategorie wären dann zu suchen, wenn ihr Aufenthaltsort nicht in der Inventurdatenbank steht. Das heißt, in einer Kategorie befinden sich etwa 100 Gegenstände. Eine Suche ohne Inventurdatenbank innerhalb einer Kategorie kostet daher € 0,11 + (€ 0,0075 * 100) = € 0,86 (oder 3,77 Minuten).
+Wird dagegen jeder der 100 Gegenstände in die Datenbank eingetragen, so kostet das zunächst einmal im Schnitt € 55,50 für alle 100 Gegenstände zusammen. Dafür kostet dann jede Suche nur noch € 0,17, also um € 0,69 weniger. Das heißt, es müssen erst einmal 81 Suchen anfallen, damit sich die Inventureintragung gerechnet hat. Dies dauert aber 8,1 Jahre, was ein eher langer Zeitraum ist, in dem sich schon wieder viel geändert haben kann.
+
+Um dieses Dilemma zu überbrücken, werden Subkategorien mit ca. 40 Gegenständen angelegt, die mit einer Eintragung in die Inventurdatenbank eingetragen werden. Das heißt, jede Kategorie wird im Schnitt in 2,6 Subkategorien zerlegt. Bei dieser Zahl sind die Summe aus dem Aufwand der Inventureintragung und der nötigen Suchaufwände minimiert.
+
+Am sinnvollsten geht das, wenn immer ein Stoß gleichartiger Dinge in der Inventur eingetragen wird, oder eine Schachtel voll gleichartiger Dinge, wie z.B. eine Kiste Atari-Module, eine Schachtel C-64-Disketten, ein Stoß Hitparadenblöcke etc. oder z.B. ein Gerät samt Zubehör (z.B. Amiga, C-64 etc. incl. Kabeln, Netzgeräten usw.)
+Natürlich kommt es auch darauf an, wie oft auf eine bestimmte Kategorie von Dingen zugegriffen wird. Erfolgt ein Zugriff auf eine Kategorie gehäuft, so kann es schon sinnvoll sein, eine genauere Inventur durchzuführen.
+
+- Festhalten des Platzverbrauches und eventuell Wertes jedes Gegenstandes
+
+Für diesen Zweck ist es nicht sinnvoll, die Inventur detaillierter auszuführen, da meist ohnehin Gegenstände beieinanderliegen, die zum gleichen Projekt gehören und daher auch auf das gleiche Konto gebucht werden. Es ist schon jetzt so, daß meist ganze Stöße oder gar ganze Fächer auf ein Konto gebucht werden, ohne Berücksichtigung der einzelnen Gegenstände. 
+
+Bei Subkategorien, die Gegenstände verschiedener Konten beinhalten, ist dann die Frage, wie detailliert hier zu rechnen ist. Prinzipiell muß man von einem Aufwand von mindestens 11 Cent für einen Kontenverrechnungsteil ausgehen. Diese Eintragung gilt normalerweise für maximal 10 Jahre. Nach dem Prinzip, daß die Verwaltungskosten nicht höher sein sollten als der Fehler, der dadurch vermieden wird, heißt dies, daß (unter Berücksichtigung der Abschreibung mit Zinsen) der Teil jeweils eine Miete von mindestens 1,38 Cent pro Jahr aufweisen muß, damit sich die getrennte Ausweisung rechnet. Dies ist z.B. bei einem einzelnen Blatt Papier nicht der Fall, das nur 0,27 Cent pro Jahr Miete kostet, wenn es sich in einem Ordner befindet - es müssen also mindestens 6 Blätter verrechnet werden, damit sich deren Verrechnung auszahlt. Ebenso unter diese Regel fällt eine einzelne Aufnahme auf einem Tonträger, dessen Miete 15 Cent pro Jahr beträgt... aus diesem Grund wird die Miete der Tonträger normalerweise dem Konto angelastet, das auf dem jeweiligen Tonträger die meisten Aufnahmen aufweist, und die Miete für einen Tonträger nicht weiter unterteilt.
+
+- Möglichkeit, nach verschiedenen Gegenständen zu suchen
+
+Dies entspricht im Prinzip der Feststellung, welche Gegenstände vorhanden sind, und folgt den gleichen Prinzipien.
+
+- Feststellen, ob ein bestimmter Gegenstand schon vorhanden ist oder nicht, z.B. wenn es ein Angebot für einen gleichwertigen Gegenstand gibt
+
+Dies entspricht auch wieder den gleichen Prinzipien.
+
+- Schlüssel für darunterliegende Datenbanken, z.B. die Tonträgerdatenbank oder die Daten-CD-Inhaltsdatenbank
+
+Hier haben wir nun eine Ausnahme. Im Falle der Tonträger und Texthefte ist es sinnvoll, jeden einzelnen Tonträger einzutragen, damit innerhalb des Tonträgers nach Titeln gesucht werden kann. Es finden auch relativ zur Anzahl der Tonträger (geschätzte 1500-2000 Stück, wenn man die MP3-CD's, Audio- und Videokassetten und Schallplatten rechnet) viele Zugriffe statt (geschätzt ca. 500 pro Jahr), bei denen jeweils nach einem bestimmten Titel gesucht wird, und es ist meist nicht einmal bekannt, auf welchem Tonträger sich dieser genau befindet - es steht dann oft eine Auswahl von ca. 20-30 Tonträgern zur Frage, auf denen der Titel sein könnte. Dies ist aber noch bei der Dokumentation von Radio Würmchen näher auszuführen, wo die Tonträger näher beschrieben werden.
+
+- Durchgehen der einzelnen Gegenstände in der Hinsicht, wie oft sie gebraucht werden, um Entscheidungen über deren Verlegung bzw. Entsorgung treffen zu können
+
+Dazu ist die PC-Inventur auch nicht wirklich nötig. Sie ist eventuell noch sinnvoll, um gleichartige Gegenstände zu finden und zusammen zu führen, die verschieden liegen... aber man kann am besten durch tatsächliches Öffnen der Regale feststellen, was man schon alles jahrelang nicht mehr verwendet hat - meist ist es der gesamte Inhalt eines Regals.
+Daraus folgende Richtlinien für die Inventur
+
+Es sollte ca. 100 Hauptkategorien geben, deren Lage ich normalerweise auswendig weiß, und innerhalb dieser noch je 2-3 Subkategorien, deren Lage im PC verzeichnet ist. Innerhalb dieser sollte dann händisch gesucht werden - eine detailliertere Inventureintragung gibt nur Sinn, wenn sie bei demjenigen Projekt, zu dem die Gegenstände gehören, als sinnvoll erachtet wird.
+
+Aufbewahrung der Gegenstände
+
+Entscheidung über den ersten Aufbewahrungsort eines Gegenstandes
+
+In diesem Kapitel wird behandelt, wo die verschiedenen Gegenstände aufbewahrt werden, wann eine Überführung an einen anderen Platz erfolgt und wann ein Gegenstand entsorgt wird.
+Die Entsorgung hängt auch vom Wert des Gegenstandes ab, der Rest hängt davon ab, wie sperrig der Gegenstand ist, wie häufig er benutzt wird, und wie aufwendig es ist, ihn betriebsbereit zu machen.
+
+Prinzipiell wird an Hand der obigen Kriterien über den Aufenthaltsort eines Gegenstandes entschieden, wenn dieser eingelagert wird. Periodisch sollten dann alle Kategorien und Subkategorien, bzw. alle Plätze daraufhin untersucht werden, ob die dort gelagerten Gegenstände hier noch einen Sinn ergeben oder auf einen minderwertigeren Platz ausgelagert werden sollten. Bei alledem ist natürlich darauf zu achten, daß der Verwaltungsaufwand nicht zu hoch werden darf.
+
+Hier ein Beispiel an Hand des neuen Eumig-Meßgerätes, das vor kurzem gekauft wurde (an diesem Beispiel wird auch überprüft, wie lange es dauert, eine solche Berechnung durch zu führen). Das Meßgerät hat an seinem derzeitigen Platz in der unteren Ecke des Eckkastens eine Platzmiete von € 1,- pro Jahr.
+Das Herausnehmen und Hineingeben des Meßgerätes dauert für eine Benutzung ca. 54 Sekunden, kostet also im Moment € 0,21. Das Meßgerät wird im Moment etwa 1x pro Monat gebraucht, um Akkus zu messen oder sonstige Prüfungen durchzuführen. Das heißt, das offen liegen lassen des Meßgerätes rechnet sich, wenn die Miete, die dann anfällt, einen Schwellwert von € 3,52 nicht übersteigt. Daraus ergibt sich, daß das Meßgerät offen liegen bleiben KANN, weil die anfallende Miete dafür niedriger ist als € 3,52.
+
+Es ist nun so, daß die BERECHNUNG, wohin ein Gegenstand zu geben wäre, selbst etwa € 5 verschlingt und sich daher nur bei größeren Gegenständen lohnt. Bei kleineren Gegenständen ist es besser, zu schätzen, wie oft man sie brauchen wird - zumindest, wenn schon Erfahrung in solchen Dingen besteht, was im Moment noch nicht der Fall ist.
+Versetzung von Gegenständen an andere Plätze
+
+Wir kommen nun zur eventuellen Versetzung von Gegenständen an einen "schlechteren" Platz: Diese kommt vor, wenn ein neuer Gegenstand hineinkommt und Platz braucht, kann aber auch durch periodische Überprüfungen ermittelt werden. Wir werden nun untersuchen, was ein gutes Intervall für solche periodischen Überprüfungen wäre.
+
+Wir können einmal davon ausgehen, daß es in der Wohnung ca. 90 Hauptkategorien gibt, die jeweils einen Platz im Wert von € 150 pro Jahr belegen. Jeder Gegenstand belegt dabei im Schnitt Lager im Wert von € 1,50 pro Jahr - grob geschätzt.
+Nimmt man nun einen solchen Gegenstand aus einem "durchschnittlichen" Platz, so ergeben sich Holkosten von € 0,12 (30 Sekunden) - sofern man weiß, wo der Gegenstand innerhalb seiner Kategorie ist.
+Müßte man ihn dagegen aus dem Keller holen, dann braucht man mit Anziehen und Hinunterfahren ca. 7 Minuten länger, das ergibt Mehrkosten von € 1,60. Wenn man annimmt, daß die Lagerung eines Gegenstandes im Keller im Schnitt € 0,50 kostet, dann rechnet es sich ab einer Benutzungsfrequenz von 1,6 Jahren (oder mehr), ihn in den Keller zu geben.
+Wann es sich rechnet, ihn aus dem Keller zu entfernen und zu entsorgen, ergibt sich dann aus dem Wert des Gegenstandes, und auch daraus, wie viel Platz er im Keller belegt.
+Die Gegenstände haben nun eine "Umdrehungszeit" von ca. 10 Jahren, das heißt, pro Jahr werden ca. 1000 Gegenstände anfallen, die in den Keller gehören. Diese lassen sich oft auch in ganze Kategorien einteilen.
+Sieht man nun eine Kategorie einmal im Jahr durch, so beträgt die Wahrscheinlichkeit etwa 10%, daß in dieser Kategorie kein Gegenstand innerhalb des letzten Jahres gebraucht wurde. Diese Wahrscheinlichkeit steigt mit der Anzahl der Kontrollen. Da jede Kategorie Lager im Wert von € 150 Euro pro Jahr belegt, hat man damit durchschnittlich € 5 gespart, da 10% von € 150 € 15 sind, der Gegenstand durchschnittlich schon ein halbes Jahr diesen Status besitzt und ein Drittel für die verbleibende Kellermiete abgezogen werden muß. Die Überprüfung einer Kategorie dauert dabei ca. 8 Sekunden, kostet also € 0,03.
+Nun wenden wir wiederum das Prinzip an, daß die Kontrolle etwa gleich viel kosten sollte wie die dadurch erzielte Einsparung. Daraus ergibt sich eine ideale Kontrollfrequenz von einer Kontrolle pro Monat.
+ 
+Das heißt, die Kontrolle sollte so vor sich gehen, daß jeden Monat alle Schranktüren geöffnet werden und alle Gegenstände von außen betrachtet werden. Wenn der ganze Inhalt einer Schranktür, einer Lade oder eines Faches schon länger als eine gewisse Zeitspanne nicht verwendet wurde, wäre er in den Keller zu verfrachten. Wichtig ist dabei, daß die ganze Sache schnell gehen muß - der ganze Kontrollgang (ohne Aussortierung der zu verlegenden Dinge) sollte nicht länger als eine Viertelstunde dauern, und es sollte dabei nicht in den Stößen "gewühlt" werden.
+Ist aber irgendein Gegenstand in einem Fach innerhalb des letzten Jahres gebraucht worden, so bleibt das ganze Fach erhalten. In längeren Abständen können dann auch die Subkategorien oder einzelne Gegenstände überprüft werden.
+
+Diese Kontrolle wäre einmal pro Jahr sinnvoll, sollte aber ohne PC durchgeführt werden, da dort die Liste nicht vollständig ist. Man kann die Kontrollgänge auch so aufteilen, daß in jedem Monat in einem Zimmer alle Gegenstände überprüft werden, so daß nicht einmal im Jahr alle 10000 Gegenstände auf einmal anfallen, deren Durcharbeitung doch immerhin 10 Stunden dauern dürfte. Unter "Gegenständen" sind hier im übrigen auch solche gemeint, das heißt, ein Tonträger wird nicht in die einzelnen Aufnahmen zerlegt und eine Daten-CD nicht in einzelne Files, ein Block nicht in einzelne Blätter usw. Es wird nur überprüft, ob der Gegenstand als Ganzes schon 1,6-2 Jahre lang nicht verwendet wurde.
+
+Im Keller sollten dann alle 2 Jahre Kontrollgänge durchgeführt werden, bei denen alle Gegenstände aussortiert werden, die 5 Jahre oder länger nicht verwendet wurden. In Einzelfällen können hier natürlich - je nach Wert - Ausnahmeregelungen gemacht werden.
+
+Es treten hierbei nur 2 Probleme auf:
+- Würde derzeit ein Kontrollgang durchgeführt, dann gibt es etliche Gegenstände bzw. Kategorien, die schon so lange nicht verwendet wurden, daß sie in den Keller gebracht werden sollten. Der Platzbedarf für alle diese Gegenstände zusammen würde aber den derzeit noch freien Platz im Keller übersteigen.
+- Durch diese Kontrollgänge finden im Prinzip keine Verbesserungen statt, da Dinge nur weiter weg wandern können, als sie jetzt sind. Auch die gezahlte Miete reduziert sich dadurch nicht.
+Auf Grund dieser Probleme macht es Sinn, die Kontrollgänge tatsächlich nur dann durchzuführen, wenn es zu Platzproblemen kommt.
+ 
+Rechenbeispiel zur Versetzung von Gegenständen
+
+Dieses Rechenbeispiel betrifft den Turm aus Hi-Fi-Komponenten. Diese haben einen durchschnittlichen Wert von ca. € 250, kosten jeweils € 7 pro Jahr Miete (mit Ausnahme des Plattenspielers, der teurer ist) und haben ein Gewicht von jeweils 3-4 kg. Im Keller würden diese € 2,33 pro Jahr Miete kosten. In diesem Fall zahlt sich eine Entsorgung nicht aus, da diese erst nach über 100 Jahren fällig wäre. Ein Auf- und Abbau eines Gerätes kostet ca. 20 Minuten Zeit, also € 4,57. Daher zahlt es sich nicht aus, den Turm abzubauen, wenn dieser mindestens 1x pro Jahr verwendet wird (im Moment wird er ständig verwendet) - dies gilt auch für die einzelnen, darin enthaltenen Komponenten.
+
+Aufteilung der Wohnungsmiete auf die einzelnen Lebensbereiche
+
+Wie schon aus den vorherigen Ausführungen hervorgeht, habe ich versucht, die Kosten für die Wohnung möglichst genau auf die einzelnen Plätze und die dort liegenden Gegenstände herunterzubrechen.
+Diese Versuche waren aber immer recht aufwendig und sind im Prinzip nicht besonders zielführend, da sie mich meinem obersten Ziel, möglichst viel Spaß zu haben, nicht wirklich näher bringen, sondern nur eine Menge Arbeit verursachen, während sich die tatsächlich gezahlte Miete, wie bereits oben dargestellt, nicht verringert.
+Aus diesem Grund scheint es sinnvoll zu sein, keine weiteren Berechnungen dieser Art mehr durchzuführen. Natürlich treten die Fixkosten für Miete etc. auf und sollten abgedeckt werden, aber dies kann auch passieren, indem die Fixkosten den Lebensbereichen, die Gewinn machen, anteilsmäßig zugerechnet werden.
+
+Nun hat die Wohnung einen bestimmten Eigenbedarf, das sind die Plätze, auf denen Dinge liegen, die zur Verwaltung oder Erhaltung der Wohnung dienen. Weitere Aufwände sind die Abschreibung der Möbel sowie (siehe oben) Glühbirnen und anderes Verbrauchsmaterial. Auch Küchengeräte müssen hin und wieder ersetzt werden (der Kühlschrank z.B. etwa alle 13 Jahre). Dazu kommen dann die Betriebskosten für Strom, Telefon usw. sowie die Putzkosten, also die Arbeit, die im Moment im wesentlichen Mama übernimmt.
+Dies alles ergibt zusammen einen bestimmten monatlichen Betrag. Da die meisten Kosten, die von meinem Girokonto abgebucht werden, und damit auch die meisten Buchungen dort auf die Wohnung entfallen, obliegt dem Wohnungsverwaltungskonto auch die Verwaltung dieses Kontos. Es erfolgt nun jeweils in der Mitte des Monats eine Abrechnung, bei der die Mieten der verschiedenen Konten verrechnet werden. Die Deckungsbeiträge zur Deckung dieser Kosten sind nun vorläufig zu diesem Termin von den Konten einzuziehen, die Gewinn gemacht haben. Später kann dann eventuell dazu übergegangen werden, die Beträge seltener einzuziehen. Der Termin liegt deshalb in der Mitte des Monats, da ich mein Gehalt um den 10. Des Monats überwiesen bekomme und daher früher ungefähr zu diesem Termin die Kostgeldzahlung erfolgte.
+Die halbmonatliche Abrechnung erfolgt normalerweise aus der Sicht des Wohnungsverwaltungskontos. Zuerst werden alle Buchungen, die laut Kontoauszug seit dem letzten Kontoauszug erfolgt sind, insbesondere solche für Wohnungsmiete und Betriebskosten, als Barspesen vom Wohnungsverwaltungskonto abgezogen. Anschließend wird ermittelt, wieviel jedes Konto an Miete zu zahlen hat, und es werden dann die entsprechenden Beiträge eingehoben. Einige Konten haben dabei eine Sonderstellung. Bei der Verrechnung der Chello-Gebühr wird ein Teil davon vom PC-Konto eingezogen, um die Ausgaben zu decken. Weiters enthält die Miete des TV-Kontos auch die TV-Gebühr, die ebenfalls vom Girokonto abgebucht wird und auf diese Weise refinanziert wird. Alle anderen Konten funktionieren ungefähr so wie geschildert.
+Angemessene Nutzfläche und Zahlungen an das Herzensgutkonto
+
+In diesem Abschnitt geht es um die "angemessenen Nutzfläche" in meiner Wohnung, die betrachtet wird, weil ich im Moment alleine in einer 80 m2 großen Wohnung wohne, die angemessene Nutzfläche für eine Person liegt aber bei 50 m2, ich habe hier also um 30 m2 zu viel. Da es sich im Prinzip um eine geförderte Genossenschaftswohnung handelt, bin ich daher der Meinung, daß ich einen ungebührlichen Vorteil dadurch habe, daß ich eine um 30 m2 zu große Wohnung bewohne, und für die überschüssigen 30 m2 eigentlich mehr bezahlen sollte... möglichst den Mietzins, der am freien Markt verlangt wird. Dieser ist aber um ca. 2 Euro pro m2 teurer als der geförderte Genossenschaftsmietzins. Daher werden aus den Mieten, die von den Kontenbereichen verlangt werden, zusätzlich 60 Euro pro Monat aufgebracht, die an den Herzensgut-Topf gehen, sozusagen als Kompensation für die von mir bezogene zu große Wohnung.
+ 
+Regelungen für die Materialien der Wohnungsverwaltung
+
+Die Unterlagen, die für die Wohnung selbst relevant sind (Hausverwaltungskorrespondenz etc.) befinden sich in in einer Mappe, die bei den anderen Mappen mit "wichtigen Unterlagen" im Wohnzimmer liegt.
+Weiters für etwaige Reparaturen wichtig ist Werkzeug; dieses befindet sich in einem Kasten im Vorzimmer neben der Eingangstür zum Schlafzimmer.
+Leuchtmittel
+
+Leuchtmittel werden zum Beleuchten der Wohnung verwendet. Im Moment gibt es hier "normale" Glühbirnen, Halogenbirnen, LED-Lampen (derzeit nur in Reserve) und Energiesparlampen. 
+
+Leuchtmittel gehen nach einer bestimmten Brenndauer kaputt und müssen ersetzt werden. Die Brenndauer von "normalen" Glühbirnen beträgt ca. 800 Stunden, die von Halogenbirnen ca. 2000 Stunden, von Energiesparlampen ca. 10000-12000 Stunden und von LED-Lampen ca. 20000 Stunden (Angaben auf den Packungen der Firma Philips).
+
+Mit den Leuchtmitteln muß nun auch, wie schon vorher beschrieben, eine Warenwirtschaft betrieben werden.
+Das heißt, die Leuchtmittel müssen eingekauft, gelagert, verwendet und entsorgt werden. Dies stellt auch ein gutes Beispiel für die Kalkulation einer Warenwirtschaft dar.
+
+Bei Billa kostet eine Halogenbirne zwischen € 2,99 und € 3,49, eine Energiesparlampe kostet im Schnitt ca. € 6,50, eine LED-Lampe € 12,99-€ 13,99. Normale Glühbirnen sind auf Grund eines EU-Verbots nicht mehr erhältlich. Die Kosten des Einkaufens bei Billa sind genauer in der Dokumentation des Lebenserhaltungs-Kontos aufgeschlüsselt, für hier reicht einmal die Information, daß der Einkauf einer oder mehrerer Stück einer Warensorte bei Billa 2 Minuten verschlingt (also € 0,57), und der Einkauf bei Billa generell 11 Minuten (also € 3,12).
+
+Die Glühbirnen werden derzeit an 2 verschiedenen Plätzen gelagert - einer im oberen Vorzimmerkästchen und einer in der Küche.
+
+Insgesamt werden in folgenden Zimmern folgende Leuchtmittel verwendet (die Wattstärke bezieht sich auf Glühlampen):
+Vorzimmer: ehem. Telefon: 2 Kerzenlampen 25W, Decke: Glühbirne 60W (E27)
+Wohnzimmer: hinten: 4 Kerzenlampen 25W, vorne: 4 Globe-Energiesparlampen; Wandverbau: 2 Sofitenlampen
+Küche: Herd und Abwasch je 1 Soffitenlampe 40W; Hauptlicht: Sparlampe 15 entspricht 75 W
+Badezimmer: Hauptlampe: 2 Kerzenlampen 25 / 40 (?) W; Kästchen: 1 Leuchtstofflampe 30W (lt. Schild) entspricht 150W
+Schlafzimmer: Beleuchtung rechts: je 1 Soffitenlampe, Hauptleuchte: 4x 40W Kerzenlampen
+Kabinett: Deckenleuchte: 1x Lampe E27 80W (Sparlampe)
+WC: Hauptlampe: 40-W-Birne (normal); Lampe über Waschbecken: 2 Kerzenlampen 25W (?)
+
+In der Küche werden die Leuchtmittel in den tatsächlich verwendeten Sorten und Stärken gelagert, soferne sie in die Lade passen. Im Vorzimmer lagern die Sorten und Stärken, die im Moment so nicht verwendet werden, sowie die Lampen in Übergröße (z.B. Globe-Energiesparlampen).
+Welche Art von Leuchtmitteln soll verwendet werden?
+
+Wir wollen im folgenden darauf eingehen, in welchen Fällen welcher Lampentyp einzusetzen wäre. Welcher Lampentyp sich rechnet, hängt von der Einschaltdauer und Schalthäufigkeit ab.
+
+Hier eine Schätzung der Brenndauern und Schalthäufigkeiten der einzelnen Beleuchtungskörper:
+Kabinett: 6 Stunden/Tag, 3 Schaltvorgänge/Tag
+Vorzimmer: Hauptlampe: 1 Stunde/Tag, 6 Schaltvorgänge/Tag; Telefon: 1 Stunde pro Woche, 3 Schaltvorgänge
+Wohnzimmer: Haupt- und Zweitlicht: je 2 Stunden/Tag, 1 Schaltvorgang/Tag; Wandverbau: beide 40 Stunden pro Jahr, 12 Schaltvorgänge pro Jahr
+Küche: Hauptlicht: 1 Stunde pro Tag, 3 Schaltvorgänge/Tag, Licht bei Herd und Abwasch: je 1 Stunde pro Woche, 2 Schaltvorgänge pro Woche
+Bad: Hauptlicht: 1,5 Stunden pro Tag, 4 Schaltvorgänge pro Tag; Nebenlicht: 10 Minuten pro Tag, 5 Schaltvorgänge pro Woche
+WC: Hauptlicht: 0,5 Stunden pro Tag, 6 Schaltvorgänge pro Tag; Nebenlicht: 10 Minuten pro Tag, 5 Schaltvorgänge pro Woche
+Schlafzimmer: Hauptlicht: 0,5 Stunden pro Tag, 1 Schaltvorgang pro Tag; Nebenlicht: 2 Stunden pro Woche, 2 Schaltvorgänge pro Woche
+
+Die (theroretischen) Lagerkosten betragen im Schnitt ca. 51 Cent pro Birne und Jahr. Wir rechnen daher für jedes Leuchtmittel im Moment mit 51 Cent. Da dies für alle Sorten gleich ist, wird dieser Betrag nicht weiter berücksichtigt.
+
+Dazu kommt natürlich auch noch die Abschreibung für die Glühlampen bzw. Energiesparlampen während ihrer Laufzeit
+
+Wir können nun die Gesamtkosten von Glühbirnen und Sparlampen abhängig vom Brennwert, der Schalthäufigkeit und der Brenndauer pro Tag berechnen. Wir rechnen dabei für jedes Leuchtmittel vorläufig mit 2 Minuten Aufwand für Kauf und 7 Minuten für Wechsel, das sind 9 Minuten entsprechend € 2,55, sowie € 0,51 Fixkosten (= Lagerkosten) pro Jahr, dazu kommt der Anteil an Leuchtstunden und Schaltzyklen. Daraus lassen sich folgende Formeln für die Kosten pro Jahr entwickeln, wobei S die Anzahl der Schaltvorgänge pro Tag, W die Leistung in Watt (der entsprechenden Glühbirne) und B die Brenndauer in Stunden pro Tag ist. Die ausführliche Fassung dieser Herleitung befindet sich im Dokument "Neuberechnung der Glühbirnen und Haushaltstätigkeiten 13.7.25".
+
+Glühbirnen: 0,51 + 1,536 B + 0,0602 * W * B
+Halogenlampen: 0,51 + 1,103 B + 0,0433 * W * B + 0,276 * S
+Energiesparlampen: 0,51 + 0,367 B + 0,0151 * W * B + 0,504 * S
+LED's: 0,51 + 0,284 B + 0,0096 * W * B + 0,114 * S
+
+Nach diesen Formeln scheiden Energiesparlampen aus, weil sie in allen Punkten teurer als LED's sind. Halogenlampen sind von den Schaltzyklen her zwar billiger als Energiesparlampen, aber teurer als LED's.
+Glühbirnen sind von den Schaltzyklen her billiger, aber in allen anderen Punkten teurer als LED's und sind neu auch nicht mehr erhältlich, so dass sie aus diesem Grund aus der Berechnung herausfallen.
+
+Das heißt, dass alle Lampen, für die entsprechende LED-Leuchtmittel erhältlich sind, auch mit solchen zu bestücken wären. Nur für Größen und Stärken, bei denen das nicht der Fall ist, wäre auf Grund der obigen Formeln zwischen Halogen- und Energiesparlampen auszuwählen, wenn es diese Auswahl von der Erhältlichkeit her überhaupt gibt.
+
+Bei BILLA sind nur die 25-W-Kerzen- und die 40-W-E27-Lampen als LED erhältlich, bei allen anderen Sorten muss zwischen Halogen- und Energiesparlampen gewählt werden, wobei die Preise nicht einheitlich sind (dies richtig zu berechnen, ist wohl eine Wissenschaft). Wir berechnen dies nun für die verschiedenen Lampen:
+
+In der folgenden Tabelle wurden jeweils die jährlichen Kosten für Halogen- und Energiesparlampen für die Sorten, für die keine LED erhältlich sind, berechnet, woraus sich ergibt, welcher Lampentyp für jede Anwendung der beste ist:
+
+Lampe						Halogen	Leuchtstoff	LED		Stk.
+Kabinett: 80W, 6 Stunden/Tag, 3 Schaltv./Tag	32,15	9,45		-		2
+
+Vorzimmer: 
+Hauptlampe: 60W, 1 Stunde/Tag, 6 Schaltv./Tag	5,06	3,61		-		1
+Telefon: nie verwendet, wird nicht berücksichtigt
+
+Wohnzimmer: Hauptlicht:
+Je 2 Stunden/Tag, 1 Schaltvorgang/Tag, 25W	-> LED
+Nebenlicht:
+2 Stunden / Tag, 1 Schaltvorgang / Tag, 75W	-> Globe (noch viele vorhanden)
+Wandverbau:
+40 Stunden pro Jahr, 12 Schaltvorgänge pro Jahr -> kaum verwendet, wird nicht berücksichtigt
+
+Küche: Hauptlicht (Formel wie Kabinett):
+1 Stunde pro Tag, 3 Schaltvorgänge/Tag		5,99	2,57				1
+Licht bei Herd und Abwasch: Sofite, kaum verwendet
+
+Bad: Hauptlicht (2 Kerzenlampen à 25-40 W):	LED
+Nebenlicht (Kasten): Leuchtstoffröhre, kaum verwendet
+
+WC: Hauptlicht:  (E27, 40W): LED
+Nebenlicht: Kerzenlampen -> LED (nie verwendet)
+
+Schlafzimmer: Hauptlicht: Kerzenlampen -> LED (kaum verwendet)
+Nebenlicht (bei Nachtkästchen): nie verwendt
+
+Der jeweils günstigere Lampentyp ist hier gelb unterlegt, falls eine Auswahl existiert. Aus dieser Aufstellung folgt, dass überall, wo es möglich ist, LED-Lampen, ansonsten Energiesparlampen zu verwenden wären. Der Einsatz von Halogenlampen rechnet sich gegenüber den Energiesparlampen nicht. Die Lampen, die ich gefühlsmäßig fast nie einschalte, habe ich bei der Berechnung ausgelassen, weil sich hier eine Neuberechnung nicht lohnt. Ich kann mich nicht einmal erinnern, beim Hauptlicht im WC jemals die Glühbirne gewechselt zu haben.
+Lagerhaltung
+
+Bis auf weiteres werden alle bei BILLA erhältlichen Lampen auch dort im Rahmen der sonstigen Einkäufe gekauft. Im Detail funktioniert die Lagerhaltung folgendermaßen:
+
+- Es ist immer mindestens 1 Reservestück jeder Sorte auf Lager.
+- Wenn ein Leuchtmittel ausgewechselt wird, und dabei das letzte Stück aus dem Lager entnommen wurde, kommt diese Sorte auf den Einkaufszettel und wird am folgenden Freitag bei Billa beschafft. Es wird dann die kleinstmögliche Menge davon beschafft (normalerweise 1 Stück). Ist diese Sorte bei Billa nicht erhältlich, erfolgt eine Beschaffung bei Bau-Max. Bei dieser Beschaffung sollte folgender Mindestlagerstand hergestellt werden:
+- 2 Globe-Energiesparlampen
+- 1 Sofite 40W
+- 1 Leuchtstoffröhre 30W (für Bad)
+
+(Genaue Berechnungen siehe frühere Dokumentation "Wohnungsverwaltung (Inventur)")
+
+Es stellt sich nun noch die Frage, wie genau die Inventur für die Glühbirnen geführt werden soll. In Anbetracht der Tatsache, daß unter Ausnutzung der modernsten Technologie die Gesamtkosten für Beleuchtung auf € 34,57 pro Jahr sinken sollten, und davon das Lager nur einen Teil beträgt, würde ich sagen, die Inventur braucht nicht sehr genau geführt werden. Das heißt, es sollte versucht werden, das derzeit bestehende Lager aufzulösen und die hier nicht brauchbaren Sorten von Glühbirnen und Sparlampen irgendwie "anzubringen. Bei manchen Sorten (vor allem die runden 25W-E14- und die 25W-E27-Lampen) wird es ohnehin sehr lange dauern, bis die lagernden Glühbirnen aufgebraucht sind.
+Referenzkosten
+
+Die Referenzkosten entsprechen den Kosten, die auftreten, wenn überall normale Glühbirnen eingesetzt werden, außer dort, wo zwingend Leuchtstoffröhren vorgeschrieben sind. Dieser Betrag beläuft sich auf € 49,82 pro Jahr, gerundet € 50.-. Dies inkludiert Beschaffungskosten, Wechselkosten, Strom und Lager, und ist um 45% höher als der Idealwert.
+Staubsäcke
+
+Nachdem Papa einmal gemeint hat, die Staubsäcke für den Staubsauger seien "zu teuer", werden im folgenden die wahren Kosten der Staubsäcke berechnet. Wir nehmen an, daß pro Jahr 2 Staubsäcke anfallen und die Fünferpackung 7 Euro kostet. Staubsäcke sind u.a. erhältlich bei Interspar Trillergasse.
+Der Einkauf der Staubsäcke samt Wegzeit beansprucht ungefähr 45 Minuten, das sind bei meinem Stundensatz € 10,5. Wenn wir annehmen, daß jeweils 1 Packung gekauft wird, sind wir damit bei € 17,50 pro Packung. Dazu kommen die Zinsen von ca. 4,5% für die Hälfte der Dauer von 2,5 Jahren, da die Investition am Anfang getätigt werden muß. Dies sind insgesamt 5,625% von € 17,28, also € 0,97. Dazu kommen die Lagerkosten. Die Packung ist ca. 7 x 16,5 x 22,5 cm groß und hängt offen herum, so daß hier die theoretischen anteiligen Mietkosten für offen herumliegende Dinge zu berechnen sind. Damit werden 2,6 Liter mit einem Satz von € 1,463 pro Jahr und Liter berechnet, das ergibt € 3,80 pro Jahr.
+Die Gesamtsumme pro Sack beträgt nun (€ 17,5 + € 0,97) / 5 + € 3,80 / 2, das sind € 3,694 + € 1,90 = € 5,594 pro Staubsack.
+Vergleich von Einweg- mit Mehrweg-Staubsäcken
+
+Anmerkung: Diese Entscheidung müßte eigentlich beim Kauf des Staubsaugers getätigt werden und kann daher im Moment nicht geändert werden.
+Laut meinen Eltern dauert das Auswechseln eines Einweg-Staubsackes eine Minute. Mehrweg-Staubsäcke müssen dagegen ausgeputzt werden, was ungefähr eine halbe Stunde lang dauert. Die Differenz liegt somit bei 29 Minuten Arbeit pro Staubsack, das entspricht bei € 14 pro Stunde Kosten von € 6,77. Dies liegt über den € 5,594 von den Einweg-Staubsäcken.
+Resultat: Die Einweg-Staubsäcke mögen zwar teuer sein, kommen aber immer noch etwas billiger als Mehrweg-Staubsäcke, wenn man den Reinigungsaufwand mitrechnet.
+
+Weitere Anmerkung: Mit der derzeit geplanten Anschaffung eines Staubsaug-Roboters wird dieser Vergleich möglicherweise bald obsolet.
+
+Verwaltung des Wohnungsbesitzes
+
+Die Wohnungsverwaltung verwaltet auch bestimmte Dinge, die mit der Wohnung zu tun haben. Dies sind Möbel, Werkzeug, Installationen (so sie nicht der Genossenschaft gehören), Unterlagen und noch einiges mehr. Es gibt auch einen Ordner mit Dokumenten zur Wohnung, der sich bei den anderen wichtigen Ordnern befindet. Auch hineinkommende Post betrifft teilweise das WV-Konto, nämlich wenn es sich um Rechnungen für Telefon, Strom, Heizung etc. handelt. Diese Post wird dann nach den üblichen Regeln des Postempfangs verarbeitet. Diese wurden in groben Zügen bereits in der Lebensdokumentation aufgeschrieben.
+An elektronischen Dokumenten gibt es die diversen Dokumentationen, wie z.B. diese hier, das Program KWKR zur Inventurführung samt Inventurdatenbank Inventur.MDB. Da die Inventur ein ständig laufendes Projekt ist, ist die Inventurdatenbank untergebracht in: C:\laufende Projekte\Wohnungsverwaltung. Es ist aber davon regelmäßig eine Sicherung zu ziehen, siehe dazu die Dokumentation der Datenhaltung.
+
+Regelmäßig auszuführende Wohnungsverwaltungstätigkeiten
+
+Folgende Tätigkeiten sind regelmäßig auszuführen:
+- kurze Inventarüberprüfung, ob etwas in den Keller gehört (monatlich)
+- ausführliche Inventarüberprüfung (jährlich für alles in der Wohnung)
+- Inventarüberprüfung im Keller (alle 2 Jahre)
+- Sortieren der eingehenden Post
+- Abrechnung der Ausgaben für die Wohnung im Rahmen der halbmonatlichen Abrechnung
+- Abheften der eingegangenen Kontoauszüge (und Korrektur ihrer Werte in der Datenbank)
+
+Die Kontoauszüge und Post sollten immer bei Einlangen bearbeitet werden. Die halbmonatliche Abrechnung ist in die Kontensystemsabrechnung integriert und erfolgt immer nach Abrechnung des 15. jedes Monats (siehe Dokumentation der Kontenverwaltung).
+Die kurze und lange Inventurüberprüfung sollten regelmäßig stattfinden und werden daher in der Tabelle "Tab_Gewinnaktionen" im Kontensystem mit einer bestimmten Priorität hinterlegt, die deren regelmäßige Ausführung zu den jeweiligen Intervallen sicherstellen soll.
+Die angenommenen Preis-/Leistungsverhältnisse sind so gewählt, daß jeweils nach dem richtigen Intervall die Priorität über 50 steigen sollte.
+Zeitaufwände für die Wohnungsverwaltungstätigkeiten
+
+Hier die Zeitaufwände der Tätigkeiten, die für die Wohnungsverwaltung anfallen:
+Kurze Inventarüberprüfung: 15 Minuten * 12 = 3 Stunden / Jahr
+Ausführliche Inventarüberprüfung: 10 Stunden = 10 Stunden / Jahr
+Inventarüberprüfung im Keller: 2 Stunden / 2 = 1 Stunde / Jahr
+Sortieren der eingehenden Post: 5 Minuten * 250 = 1250 Minuten = 20,83333 Stunden / Jahr
+(Halbmonatliche Abrechnung wird im Rahmen des Kontensystems behandelt)
+Abheften der eingegangenen Kontoauszüge: 15 Minuten * 12 = 3 Stunden / Jahr
+Reparaturen in der Wohnung (Schätzung): 5 Stunden / Jahr
+Aktualisierungen der Inventurdatenbank: 26 * 4 Minuten = 104 Minuten = 1,733333 Stunden / Jahr
+Gesamt: 44,566666 Stunden / Jahr = 0,854 Stunden / Woche oder 1,55% meiner Freizeit
+
+Die finanziellen Aufwände und Einnahmen werden im Businessplan aufgelistet und werden von den verschiedenen Konten gedeckt, so daß sie hier nicht nocheinmal erwähnt werden, da sie bereits in den Businessplänen der betreffenden Konten vorkommen und es sich hier sonst um eine Doppelverrechnung handeln würde.
+
+Businessplan
+
+Der Businessplan des Wohnungsverwaltungskontos basiert auf einem Excel-Sheet, das schon bisher die Einnahmen und Ausgaben detailliert aufgeschlüsselt hat. Dieses befindet sich unter:
+C:\laufende Projekte\Wohnungsverwaltung\Struktur Wohnungsverwaltungsgesellschaft ab xxx.xls
+wobei xxx jeweils für das erste Monat des laufenden Halbjahres steht.
+Laufende Einnahmen
+
+Die Einnahmen der Wohnungsverwaltung sind im Prinzip virtuell, das heißt, sie werden durch Beiträge der verschiedenen Konten generiert.
+Diese bezahlen entweder für Mietanteile oder auch andere Dinge, die durch das Girokonto bezahlt werden.
+Die Berechnung für die Mietanteile jedes Lebensbereiches erfolgt bei dessen Dokumentation 
+
+Im Prinzip ergeben sich per Juli 2006 folgende Einnahmenbereiche mit folgenden Ergebnissen pro Jahr:
+
+Mietanteile für Lebenserhaltung	€ 5383,06
+Mietanteile			€ 5454,77
+Vergütung der Chello-Gebühr	€ 634,56
+Vergütung von Telefonkosten	€ 334,86
+Gesamt				€ 11807,25
+Laufende Ausgaben
+
+Die Ausgaben setzen sich zusammen aus tatsächlichen Wohnungskosten sowie Aufwand für Arbeiten in der Wohnung, die meist von Mama getätigt werden, und Aufwand für Verwaltungstätigkeiten wie Inventur usw.
+
+Wohnungskosten			€ 5880,- (incl. Miete, Strom, Telefon, TV-Gebühren etc.)
+Aufwand für Arbeiten (Mama)	€ 1237,93
+Aufwand für Wohnungsverwalt.	€ 1037,53
+Zahlungen an Herzensgut-Konto	€ 720,-
+Gesamt				€ 8875,46
+
+Cash-Flow und Investitionen
+
+Außer den monatlich anfallenden laufenden Einnahmen und Ausgaben gibt es auch noch längerfristige Investitionen. Diese fallen in unregelmäßigen Intervallen und unregelmäßiger Höhe an. Im Jahr 2005 fiel z.B. die Silikonisierung der Badewanne um € 85,04 und ein neuer Kühlschrank um € 233,90 an. Der Kühlschrank dient aber direkt der Lebenserhaltung und ist daher direkt bei Anschaffung diesem Konto anzulasten.
+Dazu kommen noch die Kosten der Inbetriebnahme einer neuen Wohnung. Aus den bisherigen Erfahrungen meiner Familie weiß ich, daß ungefähr alle 10 Jahre ein Umzug stattfindet, dessen Kosten finanziert werden sollten.
+Der Bezug der Wohnung meiner Eltern kostete im Jahr 2000-2001 incl. Arbeitszeit öS 310653,7, was der Betrag ist, den ich für meine Wohnung angenommen habe. Auf das Jahr 2006 umgelegt ergibt dies ca. € 24852,30.
+Umgelegt auf Monatskosten ergibt dies bei einer Verzinsung von 4,25% € 252,74, das sind € 3032,94 pro Jahr.
+Aus der Differenz von Einnahmen und Ausgaben ergibt sich ein Cash-Flow von € 2931,79 pro Jahr, von dem noch die laufenden Ausgaben abzuziehen sind. Nimmt man diese nach dem Beispiel von 2005 mit € 318,94 an, so bleiben € 2612,85 zur Bedienung der Schulden aus dem Wohnungsbezug übrig.
+Tatsächlich konnte der Schuldenberg bis 31.7.2006 auf € 21569,43 reduziert werden. Laut Berechnung der Abschreibungszeiträume per 1.7.2006 betrug der Abschreibungszeitraum 11,66 Jahre, dies ist noch etwas länger als die angestrebten 10 Jahre. Die Einnahmen des Wohnungsverwaltungskontos sind aber in den nächsten Monaten noch stärkeren Änderungen unterworfen, weil die Mietanteile der verschiedenen Konten bei deren Dokumentationen neu berechnet werden.
+	- 11 -
+

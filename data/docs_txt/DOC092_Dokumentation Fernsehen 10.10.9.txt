@@ -1,0 +1,112 @@
+Dokumentation des Lebensbereiches "Fernsehen" von Kurt Woloch
+Stand: 9.10.2010
+Dokumentenstatus: intern, Zielgruppe: ich selbst, eventuell meine Eltern
+
+Gegenstand dieses Kontos / Bereiches	1
+Ausgliederungen aus dem Fernsehkonto	1
+Geschichte und Mengengerüst des Fernsehens	1
+Spaßwerte und Berechnung für Fernsehen	2
+Fernseh- und Radiogebühren	2
+8-mm-Filme	2
+Finanzieller Zustand des Fernsehkontos	3
+Businessplan	3
+
+Gegenstand dieses Kontos / Bereiches
+
+Das Fernsehkonto beschäftigt sich im Prinzip mit der Tätigkeit des Fernsehens. Im Laufe der Zeit haben dazu noch andere Tätigkeiten gehört, die aber nach und nach aus dem Fernsehkonto ausgegliedert wurden.
+
+In dieser Eigenschaft werden auch die für das Fernsehen relevanten Geräte, hauptsächlich der Fernseher, verwaltet und auch die TV-Gebühr bezahlt. Einen regulären Fernseher gibt es bei mir aber nicht wirklich - es gibt bei mir nur einen kleinen 15-cm-Contec-Fernseher und einen Amiga-Monitor, der mit einem Videosignal gefüttert werden kann, sowie einen Videorecorder, der ein solches ausgeben kann (ebenso wie der erwähnte Contec-Fernseher).
+
+Weiters gehören zum Portfolio des Fernsehkontos noch die 8-mm-Filmkamera und der dazugehörige Filmprojektor von Eumig, mit dem aber schon seit Jahren keine Filme mehr angesehen wurden.
+Ausgliederungen aus dem Fernsehkonto
+
+Das Fernsehkonto war ab 1998 auch zuständig für die Sendungen und Treffen auf Orange 94,0, da dies im Prinzip zum Radio hören gehört, das damals auch dem Fernsehkonto angehörte. Die Tätigkeiten auf Orange 94,0 wurden aber nach einigen Jahren in ein eigenes Konto ausgegliedert.
+
+Ursprünglich war das Fernsehkonto auch zuständig für das Radio hören. Anläßlich der Dokumentation von Radio Würmchen wurde aber beschlossen, das Radio hören dem Radio-Würmchen-Konto anzugliedern, da dort auch der meiste Aufwand dabei wie z.B. Auswahl des Senders und Erfassung der Playlist anfällt.
+
+Auch das Internet war in den ersten Jahren die Sache des Fernsehkontos, da es gemeinsam mit Orange 94.0 entwickelt wurde, und der erste Zweck des Internets für mich sogar hauptsächlich darin bestand, mit meiner Sendung auf Orange 94.0 auch im Internet vertreten zu sein. Als dann aber weitere Anwendungen dazu kamen, wurde auch das Internet in ein eigenes Konto ausgegliedert.
+Geschichte und Mengengerüst des Fernsehens
+
+Ursprünglich war das Fernsehen ganz klar die Domäne meines Vaters, der wohl von allen Familienmitgliedern die meiste Zeit vor dem Fernseher verbringt. Ich konnte mich aber dann auch für einige Fernsehsendungen erwärmen. Meine Lieblingssendungen waren (im Laufe ihres Erscheinens):
+
+- Heidi (Zeichentrickserie)
+- Die Biene Maja (Zeichentrickserie)
+- Diverse andere Kindersendungen (Am Dam Des, Betthupferl, Pinocchio, Sendung mit der Maus, Auch Spaß muß sein usw.)
+- Die großen 10 mit Udo Huber
+- Formel-1-Rennen
+- Schirennen
+- Computersendung im Fernsehen
+- Schilling (Wirtschaftsmagazin)
+- Monty Python's Flying Circus (in den Kunst-Stücken)
+- Diverse lustige Filme
+- Ö3 Austria Top 30 (oder 40?)
+- Wurlitzer (Das rot-weiß-rote Wunschprogramm)
+- Gameshows (Dalli Dalli, Wetten dass, Auf los geht's los, Einer wird gewinnen, Wer A sagt, Superflip usw.)
+
+Ursprünglich habe ich mit ca. 10 Stunden Fernsehen pro Monat gerechnet. Nach dem Auszug meiner Eltern ist die Fernsehdauer aber nach und nach zurückgegangen, bis dann im Jahr 2006 mit dem Anfang der Dokumentationen das Fernsehen überhaupt eingestellt wurde.
+Spaßwerte und Berechnung für Fernsehen
+
+Die Sendungen, die ich mir zuletzt im Fernsehen angesehen habe, haben einen Spaßwert zwischen 2 und 3 Punkten gebracht. Als Ausgaben gab es die Arbeitszeit und die Benutzungsgebühren der diversen verwendeten Geräte, das waren zuletzt der Amiga-Monitor, der Videorecorder und die Radio-Würmchen-Anlage (zwecks gutem Ton). Bei der Arbeitszeit sind noch die Kosten für das Setup der Anlage (ca. 6 Minuten) dazuzurechnen.
+
+Hier eine Berechnung für eine Fernsehsitzung mit einem Schnittwert von 2,5 Punkten pro Stunde bei 90 Minuten Sehdauer:
+
+Einnahmen:
+
+3,75 Spaßpunkte... € 37,88
+
+Ausgaben:
+
+1,6 Stunden... 				€ 23,52
+Amiga-Monitor: 1,6 * 7,78 = 		€ 12,45
+Radio-Würmchen-Equipment: 1,6 * 0,81 = 	€ 1,30
+Videorecorder: 1,6 * 1,8 = 		€ 2,88
+Gesamtkosten...				€ 40,15
+
+Wie man sieht, ergibt sich hier ein E/A-Verhältnis von 0,943, die Aktion ist also defizitär.
+
+Die blau eingefärbten Zeilen sind allerdings Transferkosten an andere Konten, die sich nicht auf das Gesamtergebnis im Kontensystem auswirken. Rechnet man diese aus der Rechnung heraus, so ergibt sich ein E/A-Verhältnis von € 37,88 / € 23,52 = 1,611. Auch dieses wird von anderen Aktionen bei weitem geschlagen, ist aber im Prinzip positiv, so dass es sinnvoll ist, dieses in die Prioritätenliste einzutragen. Da die Fernsehsendungen immer wieder anders sind, ist dieses als statische Aktion einzutragen, also nicht gleitend.
+
+Die Höhe der Gebühren für den Amiga-Monitor sollte allerdings im Rahmen der Dokumentation des Amiga-Kontos noch einmal überdacht werden.
+Fernseh- und Radiogebühren
+
+Im Prinzip zahle ich pro Monat € 23 Fernseh- und Radiogebühr für die ORF-Programme, was aber bei weitem nicht meinem Fernsehkonsum entspricht. Vom Gesetz her ist es aber erforderlich, Gebühren zu zahlen, sobald es Geräte im Haushalt gibt, die empfangsbereit aufgestellt sind. Würde die Gebühr nicht gezahlt werden, wären diese Geräte aus dem Haushalt zu eliminieren. Dies betrifft im Moment den Videorecorder, den Contec-Fernseher und im Prinzip auch den PC, da über Internet Radio und Fernsehen empfangen werden können und dies auch für die Gebührenpflicht gilt. Aus diesem Grund halte ich es prinzipiell für sinnvoll, dass die Fernsehgebühr vom Radio-Würmchen-Konto gezahlt wird, und bei tatsächlichem Fernsehkonsum ein entsprechender Anteil vom Fernsehkonto an das Radio-Würmchen-Konto geht.
+8-mm-Filme
+
+Dem Fernsehkonto gehören auch die 8-mm-Filme samt Kamera und Projektor an. Diese wurden allerdings schon seit Jahren nicht mehr verwendet, und Filme werden sowieso seit über 20 Jahren keine mehr gedreht, da wir so lange schon eine Videokamera haben. Es wäre aber doch ganz reizvoll, sich die alten Filme wieder einmal anzusehen. Diese sollten eigentlich genaugenommen in die Radio-Würmchen-Datenbank aufgenommen werden, wo auch die Videokassetten hineinkommen sollen. Hier gibt es aber, ebenso wie teilweise auch bei den Videokassetten, keine Gesamtliste mit Inhaltsverzeichnis, diese wäre also noch zu erstellen.
+
+Schätzungsweise gibt es folgende 8-mm-Filme:
+- große Filmspule von Peter aus meiner Kleinkinderzeit (Drachen steigen usw.) (ca. 30 Min.)
+- kleine Filmspule von Peter (Besuch Hermesvilla / Prater) (ca. 8 Min.)
+- Filme mit meinen Volksschulkameraden und Trickfilme (ca. 30 Min.)
+- Urlaub 1982 in Strobl am Wolfgangsee (ca. 30 Min.)
+- Einzelfilme (ca. 37 Stück zu je 5 Min. = gesamt 3 Stunden)
+
+Insgesamt füllen die 8-mm-Filme also ca. 278 Minuten Spielzeit. Hierbei ist dann noch zu überlegen, wie klein die Einheiten sind, in die diese Filme zerlegt werden sollten.
+Finanzieller Zustand des Fernsehkontos
+
+Das Fernsehkonto hat im Moment ein Guthaben von knapp € 6000,-, das aus der Zeit kommt, als darüber auch noch das Internet-Surfen abgewickelt wurde, was damals fette Gewinne gebracht hat. Aus diesem Grund kann das Konto erst einmal geleert werden, indem die oben dargestellten Beiträge an Amiga-Monitor und andere Geräte verteilt werden, wenn ferngesehen wird, und indem das Fernsehkonto weiter die TV-Gebühren übernimmt, bis es entleert ist.
+
+Weiters sollte auch die Einlistung der 8-mm-Filme in das Radio-Würmchen-Konto auf Kosten des Fernehkontos gehen. Diese Kosten würde ich mit ca. € 71,81 beziffern.
+Businessplan
+
+Aus den vorangegangenen Ausführungen ergibt sich folgender vorläufiger Businessplan unter der Annahme, dass 10 Stunden pro Monat ferngesehen wird (das sind insgesamt 120 Stunden pro Jahr oder die 80-fache oben angegebene Rechnung):
+
+Einnahmen:
+
+300 Spaßpunkte... € 3030
+
+Ausgaben:
+
+128 Stunden Zeit... 			€ 1881,60
+Fernsehgebühren.. .€ 23 * 12...		€ 276,-
+Amiga-Monitor: 128 * 7,78 = 		€ 995,84
+Radio-Würmchen-Equipment: 128 * 0,81 = € 103,68
+Videorecorder: 128 * 1,8 = 		€ 230,40
+Gesamtkosten...				€ 3487,52
+
+Dies ergibt einen geplanten Verlust von € 457,52 pro Jahr. Davon sollte aber der Abgang an den Amiga-Monitor, falls wirklich 10 Fernsehstunden pro Monat anfallen, mittelfristig abgesenkt werden können, da dort nicht so hohe Einnahmen erforderlich sind. Der Stundensatz dort wurde nur deshalb so hoch angesetzt, weil in den letzten Jahren erheblich weniger Nutzungsstunden angefallen sind.
+2
+
+
+	- 3 -
+

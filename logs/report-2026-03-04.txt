@@ -1,0 +1,191 @@
+=================================================================
+  TAGESBERICHT — 2026-03-04
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      119
+  Geplante Gesamtzeit:         17h 20m
+
+  ✓ Erledigt (geplant):       62  (   10h 52m)  = 62.7%
+  ⏭ Übersprungen:              5  (       19m)  = 1.8%
+  ✗ Nicht erreicht:           52  (    6h 09m)  = 35.5%
+
+  📝 Ungeplante Aktivitäten:  72  (    5h 14m)
+  ⏱  Tatsächliche Arbeitszeit:    11h 46m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Mailprüfung INMAPR                    07:53     19:20 +11h 27m
+  Wohnung lüften WFLULU                 17:49     08:59  -8h 50m
+  Teller waschen / Getränk + Biovital   16:33     12:40  -3h 53m
+  Der Außentemperatur entsprechend an   12:28     09:58  -2h 30m
+  Bearb. Essensplan (Update Händleran   17:53     19:46  +1h 53m
+  Bearb. Essensplan (Kontrolle / zu e   17:39     19:30  +1h 51m
+  WC BREPWC                             13:30     12:00  -1h 30m
+  Ausziehen LEMTAZ                      06:38     08:07  +1h 29m
+  WC LEMTWC                             06:39     08:08  +1h 29m
+  Einschmieren GEMTES                   07:07     08:35  +1h 28m
+  Anziehen LEMTAN                       07:09     08:37  +1h 28m
+  Ausputzen Rasierer LEMTAR             06:33     07:59  +1h 26m
+  Abwiegen LEMTAW                       06:44     08:10  +1h 26m
+  Reinigung Waschmuschel LEMTRW         06:45     08:11  +1h 26m
+  Starten Youtube-Playlist MUOWSP       06:46     08:12  +1h 26m
+  ... und 47 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb.Ohrwürmer(durchgenommen) MUOWDU
+    Grund: (kein Grund)
+  ⏭ Teller waschen / Getränk fassen LEMTTW
+    Grund: nach Jause im BRZ Teller nicht gewaschen
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: nichts durchzunehmen
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Der Mann W
+    Grund: heute nichts in Einkaufsliste (Nußbrot noch vorhanden)
+  ⏭ Auspacken Essensplan LEEPAU
+    Grund: wurde bereits oben erledigt
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:23–06:58  Bearbeitung Tagesplaner mit OpenClaw
+  📝 06:58–07:11  Bugfixing Tagesplanung mit OpenClaw
+  📝 07:11–07:24  Bugfixing Tagesplanung mit OpenClaw
+  📝 07:32–07:40  Arbeit an Tagesplaner mit OpenClaw
+  📝 07:40–07:42  Scan Radio Arabella
+  📝 07:42–07:50  Korr. Tagesplanung mit OpenClaw
+  📝 07:50–07:51  Scan Radio Arabella
+  📝 07:51–07:52  Scan Radio Arabella
+  📝 08:02–08:03  Scan Radio Arabella
+  📝 08:03–08:07  Arbeit an Tagesplaner mit OpenClaw (Komm
+  📝 09:03–09:05  Modifizierung Tagesplanung (Stoppung Lis
+  📝 09:05–09:08  Verbesserung Tagesplanung (Supprt Anmerk
+  📝 09:15–09:17  Mailprüfung  — Mails zum Unsubscriben in Junk-Mails: smava Kredit, Informationen zum Immo...
+  📝 09:19–09:19  WC  — muss noch nicht, vor Abgang noch einmal probieren
+  📝 09:19–09:21  Scan Radio Arabella
+  📝 09:46–09:48  Bearb. Essensplan / Getränk fassen
+  📝 18:10–18:12  div. Surfen (News)
+  📝 18:12–18:17  Auspacken Essensplan / Herunterfahren La
+  📝 19:00–19:20  Lesen OpenClaw memories / Moltbook posti  — interessantes Posting: https://www.moltbook.com/post/e4392ceb-8274-4281-9417-7974d7f029ad (Kostenreduktion Crons / Heartbeats)
+  📝 19:23–19:28  Absetzen Moltbook-Message für Heartbeat-  — interessantes Posting: https://www.moltbook.com/post/e4392ceb-8274-4281-9417-7974d7f029ad
+  📝 19:39–19:46  LE - Zubereitung Earl-Gray-Tee / Mini Sc  — 5-Uhr-Tee, verspätet
+  📝 19:55–19:57  Teller waschen / Tee fassen
+  📝 19:57–20:03  Bearb. Essensplan (Händlerangebote / Unt  — hier nacherfasst
+  📝 20:03–20:04  Mailprüfung
+  📝 20:04–20:12  Bearb. Essensplan (Fs.)
+  📝 20:12–20:15  Konversation mit Andrew Pappas / Thinkin  — Thinking Frequencies stellt seinen Broadcast in Frage und fragt, ob das nützlich ist
+  📝 20:15–20:18  Surfen Andon FM / OpenClaw
+  📝 20:18–20:19  Bearb. Essensplan (Fs.)
+  📝 20:19–20:21  Surfen Andon FM / Start Andon Scraper
+  📝 20:21–20:23  Bearb. Essensplan
+  📝 20:23–20:29  Tweet an Thinking Frequencies / Andrew P
+  📝 20:29–20:30  Bearb. Essensplan
+  📝 20:30–20:31  Mailprüfung
+  📝 20:31–20:39  Konversation mit Andrew Pappas / Thinkin
+  📝 20:39–20:43  Surfen Moltbook
+  📝 20:43–20:46  Bearb. Essensplan
+  📝 20:46–20:47  Surfen Andon FM
+  📝 20:49–20:50  Surfen Andon FM
+  📝 20:50–20:52  Prüfung Nachricht für Agent (Moltbook)  — Nachricht wurde wieder gelöscht
+  📝 20:52–20:54  Konversation mit Andrew Pappas / Thinkin
+  📝 20:59–21:05  Bearb. Essensplan
+  📝 21:05–21:06  Surfen Thinking Frequencies
+  📝 21:06–21:07  Bearb. Essensplan
+  📝 21:07–21:15  Surfen Andon FM / Tweet Thinking Frequen
+  📝 21:15–21:19  Teller waschen / Soja-Drink fassen
+  📝 21:19–21:22  Bearb. Essensplan
+  📝 21:22–21:24  Surfen Andon FM / Live365 Scraper
+  📝 21:24–21:29  Bearb. Essensplan / Surfen Spaghetti in   — war gestern komisches Rezept von Sati (nur Spahetti als Hauptspeise?!)
+  📝 21:29–21:31  Tweet an Thinking Frequenceis
+  📝 21:31–21:35  Bearb. Essensplan
+  📝 21:35–21:36  Surfen Andon Labs
+  📝 21:36–21:42  Bearb. Essensplan
+  📝 21:42–21:43  Bearb. Essensplan
+  📝 21:43–21:45  Generierung konventioneller Tagesplan
+  📝 21:45–21:49  Bearb. Essensplan
+  📝 21:49–21:50  Surfen Andon FM
+  📝 21:50–21:51  Bearb. Essensplan
+  📝 21:51–21:53  Bearb. Essensplan
+  📝 21:53–21:54  Bearb. Tagesplanung (konventionell)
+  📝 21:54–21:58  Tweet an Thinking Frequencies
+  📝 21:58–21:59  Bearb. Essensplan
+  📝 21:59–22:04  Konversation mit Thinking Frequencies / 
+  📝 22:04–22:06  Surfen Moltbook
+  📝 22:06–22:08  Tweet / Surfen Andon FM
+  📝 22:08–22:12  Bearb. Essensplan
+  📝 22:12–22:14  Diskussion Openclaw Differenz Planung / 
+  📝 22:14–22:15  Surfen Andon FM
+  📝 22:15–22:26  Diskussion mit OpenClaw / Bauen Tagesaus
+  📝 22:26–22:28  Surfen X (Thinking Frequencies)
+  📝 22:28–22:33  Diskussion mit OpenClaw (Umschreiben Pla
+  📝 22:33–22:56  Nacherfassung Ablauf ca. 20:00-22:33 (in
+  📝 22:56–23:00  Tweet an Thinking Frequencies (AI radio 
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 07:55  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (10m)
+  ✗ 08:09  Bearb. Liste Scooterfahrten FZSCLI  (9m)
+  ✗ 08:18  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 08:28  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
+  ✗ 08:38  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 08:48  Kommunikation mit Judith (Abrechnung Ren  (4m)
+  ✗ 09:02  Kommunikation mit Judith (Abrechnung Ren  (2m)
+  ✗ 09:04  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 09:12  Bearbeitung Buch Champion's Mindset GELI  (5m)
+  ✗ 09:58  Bearbeitung Buch Champion's Mindset GELI  (1m)
+  ✗ 10:51  Bearbeitung Buch Champion's Mindset GELI  (5m)
+  ✗ 18:04  Bearb. Essensplan (Protokoll) LEEPPR  (8m)
+  ✗ 18:12  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 18:20  Bearb. Essensplan (Eintragen Protokoll)   (5m)
+  ✗ 18:25  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 18:30  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 18:39  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 18:44  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 18:49  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 18:59  Führung Tagebuch, um schmerzhafte Situat  (1m)
+  ✗ 19:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 19:08  Führung Tagebuch, um schmerzhafte Situat  (9m)
+  ✗ 19:17  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 19:26  Übersiedeln (Mitteilung Adresswechsel) W  (4m)
+  ✗ 19:32  Übersiedeln (Mitteilung Adresswechsel) W  (5m)
+  ✗ 19:37  Bearbeitung Börsenkurse / Aktienhandel F  (10m)
+  ✗ 19:47  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 19:58  Erstellung Playback mit Vocal Remover  (2m)
+  ✗ 20:03  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:11  Erstellung Playback mit Vocal Remover (F  (3m)
+  ✗ 20:14  Aufräumen WFARAR  (9m)
+  ✗ 20:27  Aufräumen WFARAR (Fs.)  (2m)
+  ✗ 20:29  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 20:38  Aufwandserfassung und Abrechnung Kontens  (22m)
+  ✗ 21:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:08  Aufwandserfassung und Abrechnung Kontens  (46m)
+  ✗ 21:54  Bearb. Geldbörse FIBGGB  (6m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Bearb. Geldbörse FIBGGB (Fs.)  (4m)
+  ✗ 22:12  Papiersortierung (gelesene Werbeprospekt  (8m)
+  ✗ 22:25  Zähne putzen LEAZZP  (12m)
+  ✗ 22:37  Anwendung der Zwischenraumzahnbürste LEA  (16m)
+  ✗ 22:53  Anwendung Zahnseide LEAZZS  (5m)
+  ✗ 22:58  Reinigung Zahnputzutensilien, Hände wasc  (2m)
+  ✗ 23:00  Bett machen LEAZHW  (2m)
+  ✗ 23:02  Ausziehen LEAZAU  (4m)
+  ✗ 23:06  Bearb.Ohrwürmer (durchzunehmende aus Cha  (2m)
+  ✗ 23:08  Einschmieren GEAZES  (2m)
+  ✗ 23:10  WC LEAZWC  (5m)
+  ✗ 23:15  Bearb.Ohrwürmer (durchzunehmende aus Lis  (2m)
+  ✗ 23:17  PC herunterfahren LEAZHF  (1m)
+  ✗ 23:18  im Bett  (1m)
+
+=================================================================

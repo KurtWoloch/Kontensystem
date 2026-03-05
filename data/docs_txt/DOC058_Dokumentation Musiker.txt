@@ -1,0 +1,518 @@
+Dokumentation des Hobbys "Musiker"
+
+Gegenstand des Kontenbereiches
+
+Dieser Kontenbereich beschäftigt sich im Prinzip mit allem, was ich mit dem Keyboard mache (außer Karaoke).
+Insbesondere sind dies im Moment:
+- Solo-Auftritte
+- Keyboard-Übungen
+- Produktion von eigenen Musiknummern
+und andere ähnliche Aktivitäten, die hier am besten dazu passen.
+
+Diese Dinge passieren zwar dann und wann, werden aber von mir nicht mehr aktiv verfolgt. Grund dafür ist, daß das Ziel der Keyboard-Übungen und der Musiknummern-Produktion war, einmal viele Auftritte zu bekommen. Diese habe ich mit dem Duo Kurt+Franz gehabt, und es haben sich dabei mehrere negative Begleiterscheinungen ergeben, sodaß ich meine Musiker-Karriere nach dem Ende von Kurt+Franz nicht mehr intensiv weiter verfolgen möchte und daher auch nicht mehr darauf hinarbeiten muß.
+
+Diese negativen Einflüsse sind:
+- Konflikte mit den Vorstellungen anderer Gesellschaftsschichten, in die man sich meist als Live-Musiker begibt
+- Rauch an den Auftrittsorten
+- Der Zwang, die Titel spielen zu müssen, die dem Publikum gefallen, und nicht die, die einem selbst gefallen
+
+Aus diesem Grund möchte ich hier nur Punkt 1 und am Rande Punkt 2 behandeln (weil ich manchmal auch für Soloauftritte engagiert werde, was ich aber nicht aktiv verfolge).
+Modellberechnung
+
+Die Einnahmen und Ausgaben für einen durchschnittlichen Auftritt gestalten sich wie folgt (Stand 28.8.2010):
+
+Einnahmen: 
+
+15 Spaßpunkte * € 10,1	€ 151,50
+Nachtzuschlag: - 2,5 Spaßpunkte * € 10,1	-€ 25,25
+Gage: € 185	€ 185
+Gutschrift für Nachtmahl (gemäß Dokumentation der Essensdatenbank)	€ 4,-
+Gesamt:	€ 315,25
+
+Anmerkungen:
+Ein Konzert dauert durchschnittlich etwa 4,5 h Spielzeit incl. Pause bzw. 55 Lieder. Diese Lieder mit 4 Punkten pro Stunde gerechnet ergibt 15 Spaßpunkte.
+
+Ein durchschnittlicher Auftritt endet um 24h. Da danach noch je eine dreiviertel Stunde für Abbau und Heimfahrt nötig sind, plus eine viertel Stunde für die Abendzeremonie, komme ich an einem Auftrittstag durchschnittlich um 1:45 im Bett. Dies ist 1 1/4 Stunden mehr als die Referenzzeit, so daß pro Stunde 2 Spaßpunkte, also 2,5 Spaßpunkte, abgezogen werden.
+
+Meistens bekomme ich am Auftrittsort etwas zu essen, so daß ich mir die Ausgaben hierfür erspare. Dies schlägt mit einer Gutschrift von € 4,- zu Buche. (Ich weiß, daß das Essen in einem Gasthaus mehr als das kostet, aber ich würde normalerweise das Abendessen dort nicht einnehmen)
+
+Ausgaben:
+
+Zeitaufwand für Auftritt 8,5 h * € 14,7	€ 124,95
+Kosten für Taxifahrt (2x15 km)	€ 38,-
+Transferzahlungen für Keyboard, Mischpult, Boxen und andere Anlage	€ 13,-
+Provision an Vermittler von Auftritt	€ 9,76
+
+Vor- und Nachbereitungen:
+Erstellen des Programmes und Auswertung (2h)	€ 30,-
+Rückbau der Anlage (0,75h)	€ 11,03
+Transferleistungen für PC für Programmerstellung und -Auswertung	€ 0,6
+2 Drucke (Programm)	€ 0,58
+Gesamt	€ 227,92
+
+Anmerkungen:
+Ein Auftritt beansprucht insgesamt 4,5 h Auftrittszeit + 3 h Einpacken, Fahrt und Aufstellen + 1,5 Abbau und Rückfahrt = 8,5 h
+
+Die Taxifahrt fällt normalerweise nicht wirklich an, meist führt mich meinVater, aber in diesem Fall wird der gleiche Betrag, der für das Taxi aufzuwenden wäre, als Transferleistung meinen Eltern und dem Fahrzeug überwiesen.
+
+Die ganze Anlage gehört derzeit nicht zum Musiker-Hobby, da sie auch noch für andere Zwecke (Radio Würmchen, Karaoke) verwendet wird, sondern Radio Würmchen. Das Keyboard belegt ein eigenes Konto, da es anfangs auch für mehrere andere Zwecke (Karaoke-Video-Erstellung, Band) verwendet wurde. Dies sollte aber irgendwann aufgehoben werden.
+
+Die Provision geht auf verschiedene Ereignisse zurück, wo Vermittlungsprovisionen vorgeschlagen wurden, und wird hier vorsichtshalber in der Höhe eingerechnet, wie sie beim Duo Kurt+Franz verrechnet wurden, das sind € 0,24 öS pro erzieltem Spaßpunkt, und 1/30 der Summe der Bareinnahmen.
+
+Die Programmerstellung erfolgt nicht unmittelbar vor dem Auftritt, sondern meist einige Tage davor.
+
+Der Rückbau und die Auswertung erfolgen am nächsten Tag, so daß diese hier auch getrennt ausgewiesen sind. Dafür sind auch Transferzahlungen an den PC erforderlich, der ein eigenes Hobby darstellt.
+
+Somit bringt jeder Auftritt etwa € 315,25 und kostet € 227,92, was einen Gewinn von € 87,33 öS ergibt.
+
+
+Weitere Ausgaben:
+Erstellung von neuen Texten:
+Pro Text folgende Ausgaben an:
+
+20' Arbeit	€ 4,90
+20' PC-Nutzung (Transferleistung) + 2 Blatt Druck	€ 0,85
+Transferleistung für Tonträger zwecks 2x Abhören des Originals (oder Internet)	€ 3,63
+
+Gesamt	€ 9,38
+
+Die Transferleistungen für die Aufbewahrung der Musiker-Dinge hängen von den Gewinnen des Musiker-Kontos ab.
+
+Dokumentation der Vorgänge:
+
+1. Das Repertoire
+
+Das Repertoire besteht aus genügend Musiknummern, um einen Abend füllen zu können und noch Variationsmöglichkeiten zu haben, um auf den Publikumsgeschmack eingehen zu können.
+
+Die Texte befinden sich in einer alphabetisch sortierten Mappe, wo sie bei Auftritten aufgeschlagen werden. Um die Mappe zu erleichtern, fehlen hier einige Texte, und sind nur durch die Registrierungen repräsentiert.
+
+Zu den anderen Liedern sind auf je einem Zettel pro Lied folgende Daten vorhanden:
+- Der Text
+- Die Registrierung (alles, was vorher ins Keyboard eingetippt werden muß)
+- Eventuell andere Dinge, die nötig sind, um ein Lied möglichst gut spielen zu können
+
+Diese Dinge sind derzeit in einem grünen Ordner mit ca. 250 Blatt Fassungsvermögen versammelt, der sich im Dokumentenaufsatz auf meinem Glaskasten in meinem Zimmer befindet.
+
+1.1 Hinzufügungen ins Repertoire
+
+Prinzipiell kommt es aus folgenden Anlässen zu neuen Texten:
+- Publikumswünsche
+- Vorschläge von mir (die durch die Probenplan-Datenbank ermittelt werden)
+
+Die Texte werden entweder von einem Original abgehört, von einem Textheft, Karaoke-Video oder mitgebrachten Text abgeschrieben oder aus dem Internet kopiert.
+
+Beim Abhören eines Originales bevorzuge ich normalerweise die Methode, das ganze Lied durchzuhören und aufzuschreiben, was ich in einem Durchgang verstehe, und diesen Vorgang zu wiederholen, bis alles stimmt.
+
+Der fertige Text wird dann unter dem Dateinamen, der normalerweise dem Titel entspricht, am PC im Verzeichnis D:\Daten\Musiker\Texte gespeichert.
+
+Vor dem Ausdruck wird der Text formatiert, was folgendermaßen vor sich geht:
+- Es werden Zeilen gebildet, die länger sind als eine Bildschirmzeile
+- Der Text wird in der Schriftart Arial Narrow formatiert.
+- Die Absätze werden mit 0 Abstand zueinander formatiert
+- Die Schriftgröße des Textes wird so gewählt, daß er gerade noch auf eine Seite paßt
+- Nun noch zu lange Zeilen werden auf 2 Zeilen aufgeteilt
+- Der Text wird komplett auf Schriftart Bookman umformatiert
+- Nun zu lange Zeilen werden auf Schriftart Times New Roman umformatiert
+- Geht der Text nun immer noch über 1 Seite hinaus, wird er eine Schriftgröße kleiner formatiert, wieder auf Bookman umformatiert und das Spiel wiederholt.
+- Um die Lesbarkeit zu verbessern, wird nun der Absatzabstand schrittweise auf so viele Punkte erhöht, daß sich der Text gerade noch auf einer Seite ausgeht.
+
+Nun wird der fertige Text gedruckt und wieder gespeichert.
+
+Bei der Probe wird die Registrierung ermittelt und zum Text dazugeschrieben. Der Text wird dann in die Mappe eingeordnet, wobei auch das Inhaltsverzeichnis der Mappe am Anfang aktualisiert wird.
+
+1.2 Probenplan
+
+Um die Proben sinnvoll zu gestalten, gibt es einen Probenplan, der ebenfalls von mir verwaltet wird.
+Dieser wird in einer Access-Datenbank gehalten, in der zwei Tabellen dafür zuständig sind:
+
+Tabelle "Titel":
+Diese Tabelle enthält alle Informationen zu einem Titel, also Originalinterpret und Kommentare.
+
+Tabelle "Erfolge"
+Diese Tabelle enthält alle Bewertungen, die dieser Titel bekommen hat (siehe unten).
+
+Der Plan für eine Probe wird im Moment folgendermaßen zusammengestellt:
+Es gibt 3 Kategorien zu probender Lieder:
+- Titel, die bei einem der letzten Auftritte nicht gut gespielt wurden
+- Titel, die für den nächsten Auftritt geplant sind und schon länger nicht gespielt wurden
+- Titel, die schon länger nicht mehr gespielt wurden und bei der letzten Probe noch nicht all zu gut gelaufen sind.
+
+Normalerweise wechseln sich 2 oder 1 Lied der ersten beiden Kategorien (je abwechselnd) mit einem neuen Lied ab. Sind die Lieder der Kategorie 1 und 2 aufgebraucht, wird Kategorie 3 behandelt.
+
+Titel, die der 3. Kategorie angehören, werden ermittelt, indem die Anzahl der Tage, seit dieses Lied das letzte Mal gespielt wurde, mit seiner Wertung multipliziert werden, wobei Titel, die länger als 1 Jahr nicht gespielt wurden, so berechnet werden, wie wenn sie 1 Jahr lang nicht mehr gespielt worden wären.
+
+Die Lieder, die nach dieser Berechnung den höchsten Wert erreichen, kommen in diese Kategorie.
+
+Normalerweise wird jedes Lied nach der Probe bewertet mit Schulnoten von 1-5, wobei wir uns auf eine gemeinsame Note einigen, außer neue Lieder, die am Schluß gesammelt wiederholt und bewertet werden.
+
+Diese Wertung wird dann in die Tabelle eingetragen (Formular "Lieder mit Aktionen"), bei Bedarf mitsamt dem neuen Lied, zusammen mit einem von 3 Codes:
+1...Erstprobe
+2...Wiederholungsprobe
+3...Aufführung
+4...Löschung (noch nicht passiert)
+
+Wurde ein neues Lied ins Programm genommen, wird es auch kategorisiert (siehe unten).
+
+(Anmerkung: Die Behandlung des Probenplanes stammt so vom Duo Kurt+Franz und wurde für meine Soloproben so nicht eingehalten)
+
+1.3 Proben
+
+Die eigentliche Probe findet normalerweise jeden Mittwoch von 17-20h statt, wobei Franz zu mir auf Besuch kommt und seine E-Gitarre samt Zubehör mitbringt. Diese wird dann an mein Mischpult angeschlossen, das zusammen mit dem Verstärker für Verstärkung sorgt. Ich lege daneben das Keyboard auf den Computertisch und schließe es über das Netzteil ans Netz an, und schließe den Fußschalter an das Keyboard an. Die Grundeinstellung für das Keyboard lautet: Split low, Single Finger on, Foot Switch Start. Um das Bett zu schonen, wo Franz allerlei Gegenstände ablegt, wird es mit der rosa Decke zugedeckt. Davor wird in bereits beschriebener Weise der Probenplan erstellt.
+
+Bei den Proben selbst werden zuerst meist 2 Lieder wiederholt, dann das erste neue Lied geprobt. Auf dieses folgen wieder 1 oder 2 Wiederholungen, dann das nächste neue Lied. Dies geht so weiter bis entweder kein neues Lied mehr vorhanden ist oder das Ende der normalen Probenzeit erreicht ist. Wenn kein neues Lied mehr vorhanden ist, werden bis zum Ende der Probenzeit Lieder wiederholt.
+Die Wiederholungen werden abwechselnd aus den Kategorien "beim letzten Mal falsch" und "beim nächsten Mal neu" genommen. Ist in einer der beiden Kategorien kein Lied mehr enthalten, wird die andere geleert. Ist in beiden kein Lied mehr, wird die Kategorie "schon lang nicht gespielte, nicht all zu gute Lieder" geprobt. Überbleibende Lieder der Kategorie "beim letzten Mal falsch" werden auf die nächste Probe übertragen, die unter "beim nächsten Mal neu" nicht, da meist bei der nächsten Probe wieder ein anderer Auftritt der nächste ist und dafür andere Lieder anfallen.
+
+Prinzipiell versuchen wir, die Lieder so genau wie möglich zu treffen, so daß auch Originale abgehört werden, wenn eine große Differenz unserer Spielweise zum Original offenbar wird, oder wir ein Lied noch nicht so gut können. Ich schreibe Franz meistens auch die Akkorde auf, da ich diese in Echtzeit erkennen kann.
+
+Das Ende der normalen Probenzeit ist 20 Uhr minus 5 Minuten pro neuem Lied, die wir brauchen, um diese Lieder noch einmal zu wiederholen und zu bewerten (siehe oben).
+Am Ende der Probe erfolgt meist noch am gleichen Abend das Eintragen der Probenergebnisse und der neuen Lieder.
+
+
+1.4 Auftritte
+
+Die Auftritte werden normalerweise von Edith, der Frau von Franz, gemanagt. Ich bekomme, sobald der Auftrittstermin feststeht, den Termin mit Adresse und Uhrzeit und muß meistens Plakate drucken (siehe eigenen Absatz). Den Zettel mit dem Termin gebe ich bis zum Ausdruck der Plakate in meine Geldbörse, dann in das Kuvert für noch nicht absolvierte Auftritte in der Verwaltungsmappe.
+Als Vorbereitung für den Auftritt bespreche ich mit Franz meistens, ob eine besondere Musikrichtung gewünscht wurde, Richtlinie hier ist auch der Name des Konzerts (Oldie-Abend, Gschnas, Oktoberfest etc.), der Anlaß (Geburtstag, Hochzeit oder andere) und die Lokation (Café oder Beisl).
+Daraus wird dann das Programm erstellt, was wieder eine eigene Wissenschaft ist. Dazu verwende ich normalerweise den PC mit der Probenplan-Datenbank, die dafür spezielle Funktionen bereithält, z.B. den Durchschnitt aller Bewertungen, die ein Lied bisher bekommen hat (nicht Probenbewertungen, Auftrittsbewertungen - siehe unten).
+Meist basiert ein solches Programm auf einem anderen, früheren Programm, das bei einer ähnlichen Veranstaltung gespielt wurde und durch Ersetzen der schlecht angekommenen Nummern durch bessere aufgemotzt wird. Dazu wird vom Programm eine Art Stimmungskurve über den Auftritt gelegt, um den Effekt zu eliminieren, daß das Publikum am Anfang meist noch nicht in Stimmung ist und die am Anfang gespielten Lieder daher eine schlechtere Bewertung bekommen als wenn sie später gespielt würden. Alle Lieder, die dann weniger als die Hälfte dieser Oberkurve erreichen, werden gestrichen und durch bessere ersetzt, die den umliegenden, nicht ersetzten, ähnlich sein sollten. Hier verlasse ich mich meist auf meine Intuition und die Liste der im Schnitt am besten bewerteten Lieder, es gibt aber auch noch etliche andere Methoden, die ich in die Datenbank eingebaut habe und bei Bedarf verwenden kann, z.B. Multiplizierung einer bestimmten Eigenschaft der Lieder mit der Durchschnittsbewertung (daher die Kategorisierung), Ermittlung, welches Lied an einer bestimmten Stelle im Programm bisher am besten gelaufen ist, oder Empfehlungen des Computers aufgrund kollaborativer Filter, indem ermittelt wird, welche Lieder bei anderen Auftritten, bei denen die beim Vorlage-Auftritt gespielten Lieder ähnlich gut bzw. schlecht angekommen sind, noch gut angekommen sind, etc. etc.
+Die ersetzen Lieder werden im entstehenden Programm mit einem Stern markiert.
+Zu beachten sind auch noch die Pausen, die im Programm dadurch markiert werden, daß das letzte Lied davor unterstrichen wird. Die erste Pause wird normalerweise nach ca. 1 1/2 Stunden gemacht, also nach 23 Liedern, die nächsten folgen darauf in Abständen von 12 Liedern (je 48 Minuten Spielzeit und 12 Minuten Pause). Dies geht von der Erfahrung aus, daß ein Lied mit Pausen dazwischen durchschnittlich 4 Minuten dauert.
+Das Programm ist zweispaltig mit einer Überschrift und einem Stand-Datum angelegt und wird auch auf der aktuellen Musiker-Diskette gespeichert unter dem Titel "Programm <Veranstaltungstyp> <Lokal>". Dieses wird dann am Arbeitsplatz ohne weitere Veränderung gedruckt, und zwar in vierfacher Ausfertigung, um Spielraum zu haben für eventuell nötige Veränderungen oder Vergabe des Programms an Interessierte. Das Programm wird auch per E-Mail an interessierte Fans (Eva) geschickt.
+
+Sind Plakate zu drucken, werden diese meist aus bereits vorhandenen Vorlagen erstellt und unter dem Namen "Plakat <Veranstaltungstyp> <Lokal>" auf der schon erwähnten Diskette gespeichert, dann am Arbeitsplatz ausgedruckt und mittels Kopierer in gewünschter Anzahl vervielfältigt und auf A3 vergrößert.
+
+Das Programm und die Plakate werden dann am nächstmöglichen Termin an Franz oder Edith übergeben, das Programm möglichst ein Treffen vor dem Auftritt, damit sich Franz vorbereiten kann und die Probenkategorie "beim nächsten Programm neu" gebildet werden kann. Ist die Zeit knapp, werden die Plakate eventuell auch per Post an den Auftrittsort geschickt.
+Ich notiere jeden Auftritt normalerweise, sobald ich davon erfahre, in meinem Taschenkalender unter der Monatsübersicht, mit Lokalname, Adresse und Spielzeit, evtl. Veranstaltungstyp, und verständige meinen Vater davon.
+
+Am Auftrittstag wird 3 Stunden pro Beginn eingepackt, und zwar sind derzeit die folgenden Dinge nötig:
+
+Tasche Kabel u.a. (türkis/violett)
+- 3 Mikrofone (eines für mich, eines für Franz als Reserve, eines für eventuelle Gäste)
+- 3 Mikrofonkabel (schwarz 5m für mich, grün 7m für Franz als Reserve, violett für Gastmikrofon)
+- Kabeltrommel Köck mit 4 Dosen (liegt im Wohnzimmer neben Küchentür)
+- Mehrfachstecker (liegt in Werkzeugkasten im Vorzimmer)
+- Netzteil von Keyboard
+- Fußschalter für Keyboard (derzeit nicht Original, sondern der von Franz gekaufte)
+- 2 Kabel 6,3mm Klinke - 6,3 mm Klinke (Keyboard - Mischpult) - 1 schwarz, 1 blau mit 1 Winkelstecker
+- 6x Adapter Cinch - 6,3 mm Klinke (Keyboard, Reserve, Aufnahme)
+- Kabel 2x Cinch - 2x Cinch (Reserve) 2m
+- Kabel 2x Cinch - 2x Cinch (Aufnahme) 10m
+- Walky mit Akkus für Einlagen
+- Rotes Täschchen mit AIWA-Portable-CD-Player (mit eingesetzten Akkus oder Batterien, für Pausenmusik)
+- CD's für Pausenmusik (je nach Anlaß)
+- Kabel 3,5 mm Klinke Stereo - 2x 6,3mm Klinke (CD/Walky)
+- Mikrofonklemme (Reserve)
+- Kabel 2x Cinch - 2x Cinch (für Hausanlage)
+- Verlängerung Cinch 5m (für Hausanlage)
+
+Tasche Keyboard:
+- Technics KN-550 Keyboard
+- Notenständer für Keyboard
+
+Tasche Papiere:
+- Mappe Texte Duo Kurt+Franz
+- Registrierungsmappe
+- Konzertprogramme
+- Anmeldezettel für Infos
+- Zettel für Erfolgsnotizen
+- Klammern zum Texte festhalten
+- Schere für Tixoband für Zwangsplakate
+- Zwangsplakate (Heute...)
+- Eventuelle Mitbringsel für Franz
+- Eventuelle Mitbringsel für Gäste
+- Tixoband für Zwangsplakate
+- 2 Bleistifte für Programmänderungen+Notizen
+
+Mischpult
+
+Persönlich:
+- Visitkarten
+- Entsprechende Kleidung
+- Wechselgeld auf 5000 öS
+
+
+Einige Anmerkungen zu diesen Anforderungen:
+Dies sind Maximalanforderungen, um auf eventuelle Zusatzanforderungen reagieren zu können.
+Franz hat mittlerweile eigentlich ein eigenes Mikrofon, ich nehme aber trotzdem das dritte als Reserve mit, auch um ein Reservekabel zu haben.
+Auch hat er einen eigenen Mehrfachstecker, so daß von meinen nur einer gebraucht wird - es wurden aber auch schon beide gebraucht.
+Die übermäßige Anzahl an Adaptern und Kabeln liegt daran, daß es schon vorgekommen ist, daß wir unsere Anlage an eine Hausanlage anschließen sollten, aber Franz auch mit seinem Recorder aufnehmen wollte (dafür aber kein Kabel hatte) und dazu noch ein Kabel von mir defekt war.
+Ebenfalls wurde bisher weder der Walky noch der CD-Player gebraucht, es ist aber schon einmal vorgekommen, daß jemand Hintergrundmusik von CD haben wollte (er brachte aber seinen eigenen CD-Player mit).
+Die Batterien bzw. Akkus für den CD-Player liegen daran, daß dieser nicht mehr mit Netzteil funktioniert.
+Die Reserve-Mikrofonklemme ist eigentlich kaputt, aber Franz hatte am Beginn keine eigene, und daher nehme ich diese immer noch mit.
+Die Registrierungsmappe enthält die Registrierungen einer große Sammlung von 1300 Titeln, die ich spielen kann (über 800 davon auch vom Text her auswendig), und die zum Einsatz kommen, falls sich jemand etwas wünscht, was wir nicht im Repertoire haben.
+Die Anmeldezettel für Infos waren eine Idee von mir und meinem Vater, um unseren Bekanntheitsgrad zu erhöhen, haben sich aber nicht als praktikabel herausgestellt, da sie jemand austeilen und ausfüllen müßte. Trotzdem nehme ich sie immer noch mit.
+Die Zwangsplakate waren eine Idee von mir, um den Lokalen, die unsere Auftritte nicht plakatiert haben, etwas auf die Sprünge zu helfen, damit sich doch noch Laufkundschaften zu uns verirren können und damit Pleiten vermieden werden können. Auch dies wurde aber bisher nicht eingesetzt.
+Die Klammern zum Texte festhalten sind eigentlich nur bei Wind sinnvoll, also beim Spielen im Freien, trotzdem nehme ich sie immer mit.
+Unter eventuellen Mitbringseln sind Plakate und Programme für zukünftige Auftritte, zurückzugebende Kuverts etc. zu verstehen.
+Die Zettel für Erfolgsnotizen stammen aus der Zeit, als meine Mutter die Erfolge notiert hat. Mittlerweile notiere ich sie selbst am Programm, so daß dies nicht mehr nötig ist.
+Die Visitkarten sind für Weitergabe meiner Nummer und Adresse, da Edith aber das Management hat und selbst Duo-Visitkarten gedruckt hat, werden meine meist nicht ausgeteilt.
+Das Wechselgeld auf 5000 öS kommt von einem Fall, als ein Jubilar nur eine 5000 öS-Note hatte und extra meine Eltern kommen mußten mit Wechselgeld (obwohl ich eigentlich bei etwas Einteilung genug hatte).
+Die "entsprechende" Kleidung besteht meist aus einem Unterhemd, einem weißem Oberhemd, einer schwarzen Hose und einem dem Anlaß entsprechenden Gilet (braun oder schillernd).
+
+Ist dies alles eingepackt, ist es meistens 2 Stunden vor dem Auftritt, und es erfolgt die Phase "Hinuntertragen und Fahrt".
+Da mein Vater nicht mehr bei mir wohnt, kommt er dazu meist zu mir hinauf (2 h vor Auftrittsbeginn), und wir tragen gemeinsam die 4 bereits erwähnten Stücke (Kabeltasche, Keyboard, Mischpult und Umhängetasche) zum Auto. Dort räumt er alles ein, während ich noch den Keyboardständer und den Mikrofonständer aus dem Keller hole. Diese befinden sich dort, weil sie in meiner Wohnung meistens nicht gebraucht werden.
+Die Dinge werden folgendermaßen verstaut: Das Keyboard nimmt den Hauptteil des Kofferraums ein. Um das Keyboard herum kommt der klappbare Ultimate-Ständer und davor der Mikrofonständer. Die Kabeltasche kommt auf den Rücksitz, und die Umhängetasche vor den rechten Vordersitz, wo ich sitze, zwischen meine Beine.
+Wenn alles verstaut ist, fahren wir los. Im Prinzip ist mein Vater dafür zuständig, die Adresse zu finden, ich helfe ihm aber dabei.
+Am Auftrittsort angekommen, werden die ganzen Sachen aus dem Auto getragen und auf der Bühne aufgestellt. Dazu werden (abgesehen von Spezialfällen wie Aufnahmen und Hausanlage) folgende Verkabelungen getroffen:
+- Die Kabeltrommel wird an eine verfügbare Steckdose gesteckt, zwecks Stromversorgung.
+- Das Mischpult wird so aufgestellt, daß es gut erreichbar ist.
+- Der Keyboardständer wird so aufgestellt, daß das Keyboard am rechten Teil des vorgesehenen Platzes zu stehen kommt und ich dahinter genug Platz habe.
+- Die Keyboardtasche wird geöffnet und das Keyboard entnommen
+- Das Keyboard wird auf den Ständer gestellt
+- Der Notenständer wird hinten in das Keyboard eingehängt.
+- Der Mikrofonständer wird auf der rechten Seite des Keyboard aufgestellt und so eingestellt, daß er das Mikrofon dort hängen hat, wo mein Mund ist.
+- Das älteste Mirofon wird in den Ständer gesteckt und mit dem schwarzen Mikrofonkabel verbunden.
+- Das schwarze Mikrofonkabel wird am Mikrofonständer entlang hinuntergeführt und mit einer Schelle befestigt.
+- Die Position des Mikrofonständers wird feinjustiert und dann fixiert.
+- Das Keyboard wird mit den zwei 6,3mm-Klinke-6,3mm-Klinke-Kabeln an das Mischpult angesteckt und belegt dort Eingänge 1 und 2.
+- Der Fußschalter wird in die entsprechende Buchse des Keyboards gesteckt und auf die Innenseite des Keyboardständers gelegt.
+- Das Keyboard-Netzteil wird an die Außenseite des Keyboardständers gelegt und mit dem Keyboard und einer Steckdose verbunden.
+- Das zweite funktionierende Shure-Mikrofon wird mit dem violetten Kabel an Mischpult-Eingang 4 angesteckt und so frei aufgelegt, daß es keine Rückkopplung gibt. Dies ist das Mikrofon für Gastsänger.
+- Das Mischpult wird an die Kabeltrommel angesteckt
+- Die Textmappe wird auf den Notenständer gestellt und das Programm lose vor die erste Seite gehängt
+- Franz steckt seine Geräte bzw. weitere Verteiler an meine Kabeltrommel an.
+- Franz steckt seine Gitarre an Eingang 3 meines Mischpultes an
+- Franz steckt sein Mikrofon an Eingang 5 meines Mischpultes an
+- Franz steckt seine Boxen an die "Speaker"-Ausgänge meines Mischpultes an
+- Franz steckt eventuell seinen Gitarrenverstärker an einen "To Amp Speaker"-Ausgang meines Mischpultes an
+- Die Einstellung des Mischpultes erfolgt folgendermaßen:
+- Kanal 1 (Keyboard links): Guitar / links / -0,5 Höhen / -0,8 Bässe / 9,6 Volumen / kein Hall
+- Kanal 2 (Keyboard rechts): Guitar / rechts / -0,5 Höhen / -0,8 Bässe / 9,6 Volumen / kein Hall
+- Kanal 3 (Gitarre Franz): Guitar / Mitte /  0 Höhen / 1 Bässe / 7 Volumen / kein Hall
+- Kanal 4 (Reservemikrofon): Mic / Mitte / 1,5 Höhen / -1 Bässe / 7,9 Volumen / Hall
+- Kanal 5 (Mikrofon Franz): Mic / Mitte / 1,5 Höhen / -2 Bässe / 7,9 Volumen / Hall
+- Kanal 6 (Mikrofon Kurt): Mic / Mitte / 1,9 Höhen / -1 Bässe / 7,9 Volumen / Hall
+- Grundeinstellung am Keyboard: Foot Switch Start, Single Finger on, Split low
+- Das Keyboard wird eingeschaltet
+- Das Mischpult wird eingeschaltet
+- Test, ob alles funktioniert (auf Keyboard schlagen, in Mikrofone reden)
+- Eventuelle Mitbringel für Franz, Edith oder andere Gäste werden ausgeteilt
+
+Nach dieser Einstellung wird gewartet, bis die Auftrittszeit erreicht ist.
+
+Bei Erreichen der Auftrittszeit beginnen wir zu spielen, wobei normalerweise nach dem ersten Lied die Begrüßung des Publikums erfolgt. Die Moderationen dazwischen macht meistens Franz, während ich das Keyboard einstelle. Wir halten uns normalerweise an das Programm, außer, es treten Wünsche auf, die dann an geeigneter Stelle ins Programm eingebaut werden, so wir sie im Programm haben.
+
+In der ersten Pause wird meistens gegessen. Dazu suche ich mir schon vor Beginn des Auftrittes etwas aus, und es wird dann der Wirt verständigt, es zu Beginn der ersten Pause fertig zu haben und zu bringen, was dann mitunter auch klappt.
+Sind Wünsche nicht gleich erfüllbar, werden sie in der Pause herausgesucht und im nächsten Block gespielt. Dies betrifft auch Lieder, die wir eigentlich nicht im Repertoire haben, die ich aber trotzdem kann, wofür ich Franz dann die Akkorde aufschreibe.
+
+Zu jedem Lied schreibe ich drei Daten neben das Programm: den Applaus (in Prozent vom geschätzten Maximum), die Anzahl der Tanzpaare (einzelne Tänzer gelten als halbes Paar) und der Mitsing-Quotient, der angibt, wieviel mitgesungen wurde (sofern es von der Bühne aus hörbar ist).
+
+Gegen Mitte des Auftrittes wird meist von Edith abgesammelt (außer bei geschlossenen Gesellschaften). Das Ergebnis kommt zusammen mit eventuellen weiteren Trinkgeldern zu gleichen Teilen in zwei Kuverts, von denen ich eines am Ende des Auftrittes bekomme.
+
+Gegen Ende des Auftrittes wird normalerweise gefragt, ob wir verlängern sollten. Wenn ja, wird eine Zusatzgage ausgehandelt (meist von Edith). Ansonsten bleibt es meist bei einigen Zugaben.
+
+Ist der Auftritt abgeschlossen, wird (von Edith oder Franz) die Gage eingehoben und aufgeteilt. Dann erfolgt der Abbau:
+
+- Das Mischpult wird ausgeschaltet.
+- Das Keyboard wird ausgeschaltet.
+- Die Kabel zu Franz' Boxen, Gitarreneffektgerät, Mikrofonständer und Gitarrenverstärker werden getrennt
+- Die Stecker werden aus der Kabeltrommel gezogen
+- Die Textmappe und das Programm werden in die Umhängetasche gesteckt.
+- Das Gastmikrofon werden vom Mischpult gelöst und in der Kabeltasche verstaut.
+- Das Keyboard-Netzteil und der Fußschalter werden vom Keyboard gelöst, die Kabel zusammengerollt und in der Kabeltasche verstaut.
+- Die Kabelverbindungen vom Keyboard zum Mischpult werden herausgezogen, zusammengerollt und in der Kabeltasche verstaut.
+- Das alte Mikrofon wird vom Ständer genommen, das Kabel aus dem Mischpult gezogen, zusammengerollt und in der Kabeltasche verstaut.
+- Der Mikrofonständer wird gelockert und zusammengeklappt bzw. -geschoben.
+- Der Notenständer wird vom Keyboard gelöst und zur Seite gelegt
+- Das Keyboard wird vom Ständer genommen und der Notenständer an die Rückseite des Keyboards eingehängt.
+- Das Keyboard wird in die Keyboardtasche gegeben, wobei an der Seite, an der die Tasche aufgeht, die Ausnehmung an der unteren Seite des Keyboards zu liegen kommt, an der das Keyboard bequem aus der Tasche genommen werden kann. Weiters kommt die Haupttastatur des Keyboards an der Zippseite der Tasche zu liegen.
+- Die Keyboardtasche wird zugemacht.
+- Der Keyboardständer wird zusammengeklappt
+- Das Mischpult wird aufgestellt und das Kabel zusammengelegt und durch den Griff gehängt.
+- Die Kabeltrommel wird vom Netz getrennt, das Kabel zusammengerollt und in der Kabeltasche verstaut.
+- Die Kabeltasche wird geschlossen.
+
+Ist der Abbau vollbracht, folgt nicht lange danach die Abfahrt. Dazu werden alle mir gehörenden Dinge wieder ins Auto getragen und dann nach Verabschiedung von allen Beteiligten die Heimfahrt angetreten. Die Verstauung der Gegenstände erfolgt gleich wie bei der Hinfahrt.
+Zu Hause angekommen, erfolgt das Hinauftragen der Gegenstände in umgekehrter Reihenfolge der Hinfahrt - oder auch anders.
+Beispiele für Variationen sind:
+- Ich nehme die beiden Ständer und die Umhängetasche und stelle letztere am Hauseingang ab. Mein Vater nimmt einige Gegenstände und läßt sie auf halbem Weg stehen, so daß er sie im Blickfeld hat. Wenn ich vom Keller an diesen Punkt zurückkomme, kommt er mit dem restlichen Zeug, und wir tragen alles gemeinsam in die Wohnung
+- Ich nehme die Umhängetasche, das Keyboard und das Mischpult. Mein Vater hängt sich die Kabeltasche um und nimmt die beiden Ständer und trägt sie in den Keller, während ich den Lift hole. Dann fahren wir gemeinsam hinauf.
+
+Wie auch immer, am Ende sind alle nötigen Dinge wieder oben (außer es folgt am nächsten Tag ein weiterer Auftritt).
+Beim Ausziehen werden das Gilet, das Hemd und die Hose auf einen Kleiderhänger gehängt, der Rest wird auf dem Sessel in meinem Zimmer plaziert (wie immer).
+Am nächsten Tag erfolgt dann der Rückbau der Anlage und die Auswertung der Probenpläne:
+
+Rückbau der Anlage:
+- Das Mischpult wird auf seinen Platz gestellt und ans Netz angeschlossen.
+- Das Mischpult wird über das entsprechende Kabel mit dem Verstärker verbunden.
+- Das Keyboard wird in die Nische rechts vor dem Fenster gestellt.
+- Die Textmappe und die Registrierungsmappe werden aus der Umhängetasche genommen und in den Kastenaufsatz gelegt bzw. gestellt.
+- Die Zwangsplakate und Anmeldezettel werden aus der Tasche genommen und in das entsprechende Fach im Kastenaufsatz gegeben.
+- Die Konzertprogramme werden aus der Umhängetasche genommen und auf den Computertisch gelegt.
+- Die Mikrofone und Mikrofonkabel werden aus der Kabeltasche genommen, eventuell entwirrt und in die Mikrophone-Adapter-Schachtel am Phonowagerl gelegt.
+- Das Keyboard-Netzteil und der Fußschalter werden aus der Kabeltasche genommen und links unter den Computertisch gelegt.
+- Der CD-Player wird in der Tasche aus der Kabeltasche genommen und auf die linke Box gelegt.
+- Die CD's werden aus der Kabeltasche genommen und bei den anderen CD's eingeordnet.
+- Die Kabeltrommel wird ins Wohnzimmer neben die Küchentür gelegt.
+- Die Steckerleiste wird in den Werkzeugkasten gelegt.
+- Der Walky und das dazugehörende Kabel werden auf das Mischpult gelegt.
+- Die 6 Cinch-Klinken-Adapter und die Mikrofonklemme werden unter den PC-Monitor gelegt.
+- Die restlichen Kabeln werden eventuell entwirrt und auf die Kabelhaken hinter der Kabinetttür verteilt.
+- Die leere Kabeltasche wird ins Vorzimmer gelegt.
+- Der Zettel mit dem Termin wird vom Kuvert der nicht absolvierten Auftritte in das Kuvert der absolvierten Auftritte gelegt.
+
+Damit ist der Rückbau abgeschlossen, es folgt die Konzertauswertung.
+Dazu gibt es in der Probenplan-Datenbank ein Formular, in dem das Konzert mit den gespielten Titeln, ihren Reihenfolgen und den Ergebnissen eingetragen werden.
+Die Ergebnisse werden in Schulnoten von 1-5 (auf zwei Stellen gerundet) eingegeben. Dazu werden die Auftrittserfolge so verarbeitet, daß das am besten angekommene Lied die 1 bekommt und das am schlechtesten angekommene die 5. Bei der Berechnung wird der Applaus mit 40% gewichtet, die Anzahl der Tänzer mir 40% und das Mitsingen mit 20%. Es wird jeweils so gerechnet, daß sowohl die 1 als auch die 5 erreicht wird, das heißt, ein indidueller Schlüssel pro Konzert zur Umrechnung der Prozentwerte, Tänzer und Mitsingwerte ermittelt.
+Es wird nun das Konzert mit Datum, Lokation und Anmerkungen eingetragen, sowie für jedes Lied die drei ermittelten Kriterien und die Gesamtnote.
+Weiters wird für den Probenplan eingetragen, wie gut wir jedes Lied gespielt haben. Dazu gibt es wieder ein anderes Formular, nämlich das gleiche wie für die Eintragung der Proben, wo die Ergebnisse genau so eingetragen werden, wobei sich bei einem Auftritt die Bewertung eines Titels nie verbessern kann, aber sehr wohl verschlechtern, wenn die Aufführung nicht ganz geklappt hat (vom Spielen her, nicht von der Publikumsreaktion).
+Nach Abschluß dieser Auswertung werden die Programme gelocht und in die gelbe Musiker-Verwaltungsmappe eingeordnet. Von mehr als drei Monaten zurückliegenden Programmen werden jeweils nur die Exemplare aufgehoben, die beschriftet sind, um Platz zu sparen.
+
+Hier noch eine Sammlung der Gegenstände, die für das Duo Kurt+Franz relevant sind:
+
+- Grüne Mappe mit Texten für Kurt+Franz (im Kastenaufsatz)
+- Gelbe Mappe mit Verwaltungsunterlagen von Kurt+Franz (im Kastenaufsatz)
+- Diverse Disketten mit Musiker-Daten (die aktuelle Diskette ist Nr. P197 (seit 4/2001))
+- Registrierungsmappe (im Kastenaufsatz)
+- Access-Datenbank für Probenplan (residiert auf: C:\Eigene Dateien\Musiker\Probpl97.mdb, Sicherheitskopien existieren)
+- Zettel mit Probenplänen (in der Verwaltungsmappe)
+- Zettel mit Konzertprogrammen (werden in Verwaltungsmappe archiviert)
+- Zettel mit Terminen (werden in Verwaltungsmappe archiviert)
+- Anmeldezettel für Infos
+- Zettel für Erfolgsnotizen
+- Zwangsplakate (Heute...)
+
+Mitverwendet werden weiters folgende Dinge:
+- Tonträger als Originale zum Abhören
+- Diverse Geräte zum Abspielen dieser Tonträger
+- Schreibmaterial
+- PC (für Probenpläne, Texte usw.)
+- PC (mit Internet-Zugang), Kopierer und Drucker am Arbeitsplatz
+- Texthefte (zum Abschreiben der Texte)
+- Mischpult (für Proben und Auftritte)
+- Verstärker, Plattenspieler und Tapedeck (zum Verstärken bei Proben und Abhören der Originale)
+- Keyboard mit Netzteil, Tasche, Notenständer und Fußschalter
+- Taschenkalender (zum Notieren von Terminen)
+- 3 Mikrofone mit Kabeln (am Phonowagerl)
+- Kabeltrommel (im Wohnzimmer) und Mehrfachstecker (im Wohnzimmer)
+- Diverse Kabel (siehe Einpackliste) auf den Kabelhaken und am Mischpult
+- Walky mit Akkus
+- CD-Player und CD's
+- Reserve-Mikrofonklemme
+- Tasche für Kabel
+- Umhängetasche für Mappen und andere Papiere
+- Wäscheklammern (am Wäschetrockner)
+- Schere und Tixoband (für Zwangsplakate, in Küchenladen)
+- Rosa Decke zum Abdecken des Betts (liegt auf Bettbank im Wohnzimmer)
+
+
+Dies war die Dokumentation für das Duo Kurt+Franz.
+Es folgt die Dokumentation für Nebenaktivitäten der Musiker-Gesellschaft:
+
+Soloauftritte:
+
+Diese erfolgen von Zeit zu Zeit auch, werden aber derzeit von mir nicht aktiv verfolgt. Prinzipiell haben diese starke Ähnlichkeit mit den Auftritten mit Franz, so daß auch die gleiche Einpackliste gilt. Differenzen gibt es hier in der Art der Programmerstellung, die aber individuell pro Auftritt gewählt wird. Da hier normalerweise keine Plakate zu drucken sind, kann mit einem etwas geringeren Budget gerechnet werden, daher liegt die Mindestgage bei öS 1500.-.
+
+Prinzipiell wurde für diesen Zweck die Registrierungsmappe mit über 1300 Titeln erarbeitet, wie aber die Erfahrung zeigt, ist ein derart großes Repertoire gar nicht nötig. Trotzdem machen die dazu durchgeführten Keyboard-Übungen auch einen gewissen Spaß, so daß es angebracht ist, dafür eine Kalkulation aufzustellen.
+
+Diese Keyboard-Übungen basieren meist auf der aktuellen Hitparade, das heißt, sie werden dann durchgeführt, wenn eine "Wachablöse" im Lied, das am längsten dabei ist, erfolgt. Das passiert in den Ö3 Top 75 durchschnittlich alle 2 Monate.
+Zu diesem Zeitpunkt werden die Hitparaden seit der letzten Wachablöse herangenommen und versucht, alle darin vorkommenden Lieder zu spielen, daraufhin die Lieder, die bis zur derzeitigen Wachablöse in die Hitparade eingestiegen sind. Bei Cover-Versionen wird meist das dazugehörige Original gespielt. Für alle so noch nicht in der Registrierungsmappe befindliche Lieder wird eine Registrierung angelegt, für die anderen wird die bestehende verwendet.
+
+Einnahmen- Ausgaben-Rechnung für diese Aktionen:
+
+Einnahmen:
+
+4,375 Spaßpunkte (20 Lieder * 3,5 Punkte) * 140	öS 612,50
+
+Ausgaben:
+
+Transferzahlung an Hitparaden für 20 Lieder	öS 216
+Arbeitszeit 2,15 h (9' Keyboard- Auf- und Abbau)	öS 339,7
+Transferzahlung an Keyboard (2h)	öS 22.-
+Aufwand für Abrechnung (4 Buchungen * 4,25)	öS 17.-
+Gesamt	öS 594,7
+
+Wie man sieht geht sich dieses nur eher knapp aus; die Ausgaben betragen 97,1% der Einnahmen, also dürfte der Wert der Spaßpunkte nicht unter öS 136 pro Punkt sinken, damit diese Aktion noch rentabel ist.
+
+Trotzdem kann bei entsprechender Auftragslage eine solche Aktion durchgeführt werden, was wohl höchstens 6x pro Jahr möglich sein wird.
+
+Damit würde die Musikergesellschaft beim derzeitigen Stand folgende Gesamtperformance aufweisen:
+
+Erzielte Spaßpunkte pro Jahr: 1100 + 26,25 = 1126,25
+Erzielte Einnahmen pro Jahr: 234875 öS
+Erzielte Ausgaben pro Jahr: 195418,2 öS
+Zeitbedarf pro Jahr: 11,25*40 + 100/3 + 4*50 + 2,15*6 = 696,23 h
+Bareinnahmen pro Jahr: 80000 öS
+Ausgeschüttete Transferleistungen:
+Fahrtkosten 760 * 40 = 30400 öS
+Keyboard, Mischpult, Boxen und weitere Anlage: 7160 + 3150 + 132 = 10442 öS
+Provision an Karaoke-Sänger: 4800 + 2000 = 6800 öS
+Geräteversicherung: 1280 + 800 = 2080 öS
+Plakate (PC BRZG): 2400 öS
+PC: 5600 + 2650 + 2900 = 11150 öS
+Tonträger: 2500 + 2500 = 5000 öS
+Abspielgeräte: 1250 öS
+Kontensystem: 7600 öS + 102 = 7702 öS
+Platzverbrauch: 440 öS
+Hitparaden: 1296 öS
+
+Gesamte Ausschüttung: 78960 öS pro Jahr
+
+
+Durch diese Transferleistungen sind folgende Dinge alleine finanzierbar (ohne Zuhilfenahme anderer Nutzungen)
+- Keyboard, Boxen, Mischpult und weitere Anlage (incl. Mikrofone) bis max. 28000 öS Kaufpreis
+- Geräteversicherung (bei Annahme keiner größeren Unfälle)
+- PC (bis max. 30000 öS alle 3 Jahre) !!!
+
+Zum PC wäre zu sagen, daß ein PC, um für diese Verwendung geeignet zu sein, nur folgende Dinge zu können braucht:
+- Texterstellung mit Winword (möglichst Winword 97 zur besseren Spaltenformatierung)
+- Ablauffähigkeit von Microsoft-Access-Datenbanken (Access 97)
+- Hochwertiger Drucker (zum Ausdruck von Plakaten und Programmen)
+- Internet-Zugang (zum Hereinholen von Texten)
+
+Ein solcher PC ist nun vorhanden, so daß man sich darum weiter keine Sorgen machen zu braucht. Andererseits wird der PC durch den Wegfall des Duos nun für diesen Zweck kaum noch verwendet, so daß man dies hier beiseite lassen kann.
+
+
+Was ich hier nicht berücksichtigt habe, ist die Produktion von eigenen Aufnahmen, die im Moment klar unrentabel ist, da eine solche Produktion mindestens 600 öS verschlingt, und daher mindestens 25 mal abgespielt werden müßte, bis sie sich rechnet. Trotzdem kann so etwas natürlich überlegt werden, aber es sollte genau überlegt werden, was die Einnahmen und die Ausgaben sind.
+
+Altlasten und -schulden:
+
+Das Musiker-Profitcenter ist im Prinzip durch das Duo Kurt+Franz saniert worden, so daß es keine materiellen Schulden mehr gibt.
+Was noch vorhanden ist, ergibt sich aus der Geschichte der Musikergesellschaft, die schon einige Phasen mitgemacht hat:
+- Kassetten mit Liedern, die produziert oder mit dem Keyboard aufgenommen wurden
+- Mappen mit Unterlagen über frühere Musiker-Aktivitäten, wie die Band Vienna Blues, die Band Music Constructions, die Duos Rudi+Kurt, Kurt Woloch+Gerhard Steigerwald, Kurt+Franz und andere.
+- Die Registrierungsmappe und eine entsprechende Datenbank auf einer PC-Diskette
+
+Prinzipiell sind die einzigen Kosten, die diese Dinge noch verursachen, durch den Platz, den sie belegen, verursacht, und bereits in den 440 öS pro Jahr, die dafür angerechnet werden, enthalten.
+Es könnte aber auch möglich sein, dadurch weitere Gewinne herauszuholen, daß diese Materialien besser genutzt werden.
+Prinzipiell muß man sagen, daß die Unterlagen über frühere Bands kaum nutzbar sind, da sie bereits aufgelöst wurden. Sie dienen eventuell als Erinnerung, was einmal gespielt wurde, und auch als Lager für Texte, die eventuell noch in spätere Repertoires aufgenommen werden könnten.
+Die Lieder auf den Kassetten werden aber noch regelmäßig gespielt, und das Musiker-Profitcenter erhielt aus diesem Posten im Jahr 2000 immerhin Transferleistungen von 2414 öS. Es handelt sich dabei um ca. 28 Kassetten, die zwischen 1992 und heute aufgenommen wurden und schätzungsweise ca. 50% Musiker-Content enthalten, also 14*16 = ca. 224 Lieder. Davon werden jährlich ca. 60-70% gespielt, was zu den oben dargestellten Transferleistungen führt.
+Die Produktion der letzten Kassette (mit 16 Titeln) für Orange 94,0 hat insgesamt 334 öS gekostet, also knapp 21 öS pro Lied. Berücksichtigt man nun, daß die Chance pro Titel, pro Jahr gespielt zu werden, ungefähr 60% beträgt, und eine Abspielung abzüglich Buchungsgebühr etwa 20 öS einbringt, kommt man für 16 Titel auf 192 öS Einnahmen pro Jahr, das heißt, daß es bei dieser Aufnahmetechnik 1,74 Jahre dauert, bis der jeweilige Aufwand wieder eingespielt ist.
+Das klingt nicht all zu schlecht, aber der Haken daran ist, daß die Gelegenheit zum Abspielen in Form einer sogenannten "Aktuellen Stunde von Radio Würmchen" stattfindet, die ich gemeinsam mit meinen Eltern durchführe. Da meine Eltern aber mit Anfang März 2001 von meiner Wohnung ausgezogen sind, ist die Anzahl dieser Sendungen im Sinken begriffen und damit auch die Chancen für ein solches Lied, gespielt zu werden. Weiterhin wurde Radio Würmchen selbst noch nicht dokumentiert, so daß ich es für verfrüht halte, aufgrund einer solchen Berechnung weitere Investitionen durchzuführen. Für den Live-Musik-Betrieb sind diese Dinge jedenfalls nicht erforderlich.
+Was die Eigenproduktion eines Liedes betrifft (also am Computer, nicht nur schnell am Keyboard eingespielt), so kostet diese stolze 600 Schilling - pro Lied - was fast das 30-fache des oben genannten Preises ist, so daß sich der Rentabilitätszeitraum hier auf 50 Jahre erhöht, was leider entschieden zu viel ist. Damit steht eine Neuproduktion dieser Art völlig außer Diskussion.
+
+Was noch zu den Kassetten zu sagen ist, ist, daß es derzeit keine Gesamtliste dieser Kassetten gibt, so daß mitunter nach einem zu spielenden Lied länger gesucht werden muß. Dies ließe sich durch die Erstellung einer Gesamtliste beheben, die allerdings schätzungsweise ca. 7 h an Arbeit beansprucht und damit Kosten von ca. 1500 öS (Darin enthalten wären aber auch die anderen Inhalte dieser Kassetten).
+Wenn man die Musiker-Titel herausrechnet, kommt man auf Kosten von ca. 750 öS dafür.
+Die sich daraus ergebende Ersparnis ergibt ca. 1 Minute pro Titel, der von einer dieser Kassetten gespielt wird. Da jährlich ca. 150 Titel gespielt werden, wären das 2,5 h pro Jahr, die ca. 720 öS wert sind. Damit hätte sich die Investition in diese Liste in einem Jahr gerechnet, was eigentlich dafür spricht, sie zu produzieren.
+
+In diese Liste wären sinnvollerweise folgende Kriterien aufzunehmen:
+
+- Titel des Liedes (aufgeteilt in Vor-Titel und Titel)
+- Interpret (in diesem Fall meistens ich selbst, aber fallweise auch die Band, Kurt+Franz und andere) - auch wieder eingeteilt in Vorinterpret und Interpret
+- Version (es gibt von manchen Liedern mehrere Versionen aus verschiedenen Zeiten, mehrere Versuche etc.)
+- Kassette, auf der das Lied enthalten ist, mit Seite und Zählwerknummer (letztere ist eher unsinnig)
+- Aufnahmedatum, eventuell auch ungenau
+- Spielzeit des Titels
+- Anmerkung (das Feld, das in jeder meiner Tabellen enthalten sein sollte)
+
+Da die Kassetten, die zwischen 1987 und 1991 aufgenommen wurden, derzeit keinem "Besitzer" zugeordnet sind (das Kontensystem wurde 1992 gestartet, und alle Aufnahmen bis 1986 sind derzeit historisch), könnten auch diese Aufnahmen "aus dem freien Raum" angekauft und katalogisiert werden, worauf jedoch darauf aufgepaßt werden müßte, daß nur tatsächlich dem Musiker-Profitcenter zuordenbare Aufnahmen in das Musikerkonto hineinkommen.
+
+Beim Aufschreiben der Kassetten ist darauf zu achten, daß deren Name mit dem Namen in der Inventur identisch ist, so daß die Tabellen miteinander verknüpft werden können. Weiters sollten die Kassetten am Ende auch in der Inventur eingetragen sein.
+
+
+Zusammenfassung:
+
+Das Musiker-Hobby beschäftigt sich vorwiegend mit selbstgemachter Live-Musik, entweder alleine oder vor Publikum bzw. zusammen mit anderen Musikern., weiters auch mit Produktion von eigenen Musiknummern.
+
+Nach der Auflösung sämtlicher Bands und Duos verfolge ich mit diesem Hobby keine Ziele mehr, bin aber für eventuelle Solo-Auftritte bereit.
+
+Für die Auftritte des Duos Kurt+Franz gab es pro Auftritt 3770 öS Einnahmen und 3124 öS Ausgaben, bei einer Gage von durchschnittlich 2000 öS pro Person (inkl. Fiktive Kosten). Daher wäre die durchschnittliche Mindestgage eines Auftrittes, um rentabel zu sein, bei 1354 öS pro Person gelegen (bei Annahme eines Gleichbleibens der Spaßwerte).
+
+Proben brachten 1680 öS Einnahmen und 897 öS Ausgaben pro Jahr, waren also für sich gesehen gewinnbringend.
+Insgesamt entstand durch 24 Aufrtitte und 50 Proben pro Jahr ein Cash-Flow von 54654 öS pro Jahr, durch den die Fixkosten für Texte usw. von 22040 öS für neue Texte, Berechnungen u.a. bei weitem gedeckt werden konnten.
+Insgesamt konnte das Musiker-Konto am Ende des Duos Kurt+Franz einen Guthabenstand von öS 30000.- ausweisen, das heißt, daß während des Bestehens des Duos (davor lag ein Schuldenstand von etwa öS 6500.- vor) ein Gewinn von 36500.- erwirtschaftet werden konnte. Dieser Guthabenstand steht nun mangels weiterer Aktivitäten (die im Moment auch nicht besonders erwünscht sind) im wesentlichen still.
+
+Weitere Aktivitäten sind im Moment nicht geplant, bis auf eine Katalogisierung der während dieses Projektes aufgenommenen Kassetten.
+
+Weitere Auftritte der Musiker-Gesellschaft könnten auf Wunsch ab einer Gage von ca. 1500 öS durchgeführt werden, um rentabel zu sein. Weiters könnten die Keyboardübungen beibehalten werden, die aber im Prinzip nun sinnlos sind, da es nichts gibt, für das noch geübt werden könnte. Im Prinzip ist damit meine Karriere als Live-Musiker vorbei, obwohl ich zu ihrer Fortführung sehr wohl in der Lage wäre.
+	- 13 -
+

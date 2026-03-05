@@ -1,0 +1,153 @@
+Dokumentation Lebensbereich "Radio Würmchen"
+Stand: 22.9.2009
+
+Inhalt
+
+Inhalt	1
+Wesen des Radio-Würmchen-Kontos	1
+Einteilung der Struktur der Aktivitäten	2
+Beschreibung der Aktivitäten von Radio Würmchen	2
+Musikversorgung - Hauptaktivitäten	2
+Radio hören	2
+Radio Würmchen von der Festplatte hören	2
+Anhören eigener Tonträger	2
+"Radio Würmchen unterwegs" (Musikversorgung bei Autofahrten und Badebesuchen)	3
+Durchführung von Internet-Radiosendungen	3
+Musikversorgung im BRZ	3
+Musikversorgung - unterstützende Aktivitäten	3
+Die Radio-Würmchen-Datenbank	3
+Repertoirepflege	3
+Karaoke-Aufnahmen	4
+Karaoke - Hauptaktivitäten	4
+Weitere Aktivitäten	4
+Batterie- und Akkuversorgung für Geräte	4
+Verwaltung der Geräte für die anderen Aktivitäten und andere Bereiche	4
+Verwaltung der Personenliste	5
+Produktion von (Pseudo)-Sendungen	5
+Weitere Dokumentationen	5
+
+Wesen des Radio-Würmchen-Kontos
+
+"Radio Würmchen" beschäft sich Prinzip damit, mich und auch andere Personen mit Musik zu versorgen, und richtet auch Karaoke-Veranstaltungen aus, von denen es 3 Typen gibt: externe Veranstaltungen, Heimkaraoke und Karaoke-Parties.
+Seit 2001 gibt es das PC-Programm "Radio Würmchen", das automatisch von der Festplatte Musik abspielt und zu Hause und im Büro eingesetzt wird. Weiters werden von Radio Würmchen Internet-Radiosendungen abgewickelt, und zwar am Internetradioportal "Flatcast".
+Weiters sucht das Radio-Würmchen-Projekt auch Musik für Autofahrten und gelegentliche Freiluftsendungen (z.B. Radio Neue Donau) aus. All diese Aktivitäten (bis auf Karaoke) haben natürlich etwas miteinander zu tun, so daß es wohl am besten ist, die Aktivitäten von Radio Würmchen in einem Gesamtrahmen zu sehen und eben unter diesem Konto zusammenzufassen.
+Weitere Aktivitäten von Radio Würmchen umfassen die Verwaltung aller dazu nötigen Geräte, der Personenliste und auch die Verwaltung des Batterie- und Akkubestandes, auch für andere Lebensbereiche.
+Einteilung der Struktur der Aktivitäten
+
+Im folgenden erfolgt eine kurze hierarchische Darstellung der Aktivitäten des Radio-Würmchen-Kontos:
+
+Radio-Würmchen-Konto
+	Musikversorgung
+		Hauptaktivitäten
+		Radio hören
+		Radio Würmchen von der Festplatte hören
+			Anhören eigener Tonträger
+			Musikversorgung bei Autofahrten und Badebesuchen
+			Durchführung von Internet-Radiosendungen
+			Musikversorgung im BRZ
+		Unterstützende Tätigkeiten
+			Radio-Würmchen-Datenbank
+			Repertoirepflege
+			Karaoke-Aufnahmen
+	Karaoke
+		Hauptaktivitäten
+			Heimkaraoke
+			Karaoke-Parties
+			Externe Karaoke-Veranstaltungen
+	Weitere Aktivitäten
+		Batterie- und Akkuversorgung für Geräte
+		Verwaltung der Geräte für die anderen Aktivitäten und andere Bereiche
+		Verwaltung der Personenliste
+		Produktion von (Pseudo)-Sendungen
+		
+Beschreibung der Aktivitäten von Radio Würmchen
+
+Musikversorgung - Hauptaktivitäten
+Radio hören
+
+Zur Unterhaltung hat sich bei mir die Gewohnheit des Radio hörens eingebürgert. Dies erfolgt im Moment terrestrisch mittels eines Radiorecorders der Marke Philips, Modell D-8334, der bei Bedarf auch ins Badezimmer oder anderswohin mitgenommen wird.
+Zur Feststellung, welcher Sender (oder was sonst) zu welcher Zeit gehört werden sollte, dienen die Radioprotokolle und deren Auswertungen mittels der Radio-Würmchen-Datenbank.
+Radio Würmchen von der Festplatte hören
+
+Ich habe auch eine eigene Musiksammlung auf der Festplatte und ein dazugehöriges, selbstgeschriebenes Programm, das dazu dient, aus dieser Sammlung ein möglichst gutes Musikprogramm zu erzeugen. Dazu gibt es auch ein Rotationsschema, das so funktioniert wie bei vielen Radiostationen, nämlich daß die am besten bewerteten Titel am häufigsten kommen und die schlechter bewerteten in absteigender Reihenfolge dann immer seltener.
+Dieses Programm kommt zum Einsatz, wenn im Radio kein besonders attraktives Programm läuft, bei von mir durchgeführten Internet-Radiosendungen sowie im Bundesrechenzentrum während der Arbeitszeit, und wird auch von Papa bei der Arbeit am PC verwendet, wenn ich nicht anwesend bin.
+Bei Bedarf sucht dieses Programm auch Titel aus, die sich nicht im Stammrepertoire auf der Festplatte befinden, die dazugehörigen Tonträger müssen aber dann händisch herausgesucht werden.
+Anhören eigener Tonträger
+
+Das Anhören von Tonträgern steht im Prinzip in Konkurrenz zum Radio hören und erfolgt daher hauptsächlich dann, wenn im Radio nichts attraktives läuft. In diesem Fall wird dann mittels des Radio-Würmchen-Programmes aus der Datenbank ein anzuhörender Tonträger ausgesucht (der in der Regel schon in der Radio-Würmchen-Datenbank aufgelistet ist) und bei Bedarf die Daten über dessen Titel wie Kategorien und Ähnlichkeitsbeziehungen dabei ergänzt.
+"Radio Würmchen unterwegs" (Musikversorgung bei Autofahrten und Badebesuchen)
+
+Hier handelt es sich um eine Form von Musikuntermalung, die meist zum Einsatz kommt, wenn ich mit meinen Eltern gemeinsam unterwegs bin. Hierfür werden ausschließlich Kassetten als Tonträger verwendet. Aus der Radio-Würmchen-Datenbank wird hierfür mit einer dafür geschaffenen Funktion eine oder mehrere Kassetten ausgesucht, die ich dann mitnehme und im Auto vorspiele. Weiters wird auch bei Badeausflügen der Radiorecorder (D-8334) mitgenommen und damit auf der Wiese die Kassetten vorgespielt, wobei es auch wieder unbewertete Titel geben kann, für die von mir die Wertung meiner Eltern (und fallweise auch meine eigene) abgefragt und notiert wird. Zu Hause werden die notierten Wertungen dann in die Radio-Würmchen-Datenbank eingegeben.
+Durchführung von Internet-Radiosendungen
+
+Im April 2008 habe ich mich, nachdem ich davor schon vereinzelt Internet-Radiosendungen für Radio Krokofee und DJ4DJ's gemacht habe, dem Internet-Radiosender "Jukebox-Heroes-Radio" angeschlossen, und mache dort im Moment im Schnitt eine Sendung pro Woche, wobei hauptsächlich Musik gespielt und dazu moderiert wird. Auch dabei spielt die Radio-Würmchen-Datenbank und die Erfassung der Musikgeschmäcker der Zuhörer wieder eine gewichtige Rolle.
+Musikversorgung im BRZ
+
+Seit April 2008 wird die Radio-Würmchen-Datenbank und das Repertoire an Musikdateien auch zur Musikuntermalung in meinem Büro im Bundesrechenzentrum verwendet, wobei auch hier die Musikgeschmäcker der Kollegen erfaßt und berücksichtigt werden.
+Musikversorgung - unterstützende Aktivitäten
+Die Radio-Würmchen-Datenbank
+
+Die Radio-Würmchen-Datenbank ist eine Konstruktion, die aus mehreren Access-Datenbanken und einem Visual-Basic-Programm besteht, das mit dieser Datenbank und anderen Dingen zusammenarbeitet. Grob gesagt beherrscht dieses Datenbanksystem die folgende Dinge:
+- Ausdruck von Listen für Karaoke und andere Dinge
+- Automatisches Abspielen einer Playlist und Vorschlag anderer, nicht als Datei vorhandener Titel, auf Grund des Musikgeschmacks der vorhandenen Personen
+- Eingabe des Musikgeschmacks verschiedener Personen durch Eingabe von Wertungen für einzelne Titel, Musikrichtungen oder Interpreten oder indirekter positiver oder negativer Äußerungen und Musikwünschen
+- Protokollierung des Musikprogramms verschiedener Radiostationen, sowohl laufend als auch als Nacherfassung
+- Unterstützung automatischer Titelausgaben in Flatcast-Sendungen
+- Vorschlagen von Tonträgern, die angehört werden sollten, je nach anwesenden Personen
+- Einordnung diverser Musiktitel nach verschiedenen Kriterien (Kategorisierung, Eingabe von Ähnlichkeitsbeziehungen)
+- Automatische Berechnung von Schätzwertungen für nicht bewertete Titel für verschiedene Personen auf Grund verschiedener Kriterien
+- Verwaltung des Repertoires an Musikdateien und deren Sicherung
+Repertoirepflege
+
+Neben der Datenbank, die hauptsächlich Informationen über Musik enthält, wird auch ein Repertoire an Musikdateien auf der Festplatte (und parallel auf Sicherungsdatenträgern) unterhalten. Dieses untersteht direkt dem Radio-Würmchen-Konto, im Gegensatz zu physischen Tonträgern wie Kassetten, Schallplatten und CD's, die in eigene Konten ausgelagert sind. Dieses Repertoire an Musikdateien erfordert natürlich auch ein gewisses Ausmaß an Pflege, wie z.B. die Aufnahme neuer Titel, die Kontrolle der Qualität und eventuelle Korrekturen von Tags und Lautstärke sowie die korrekte Aufnahme der Titel in die Radio-Würmchen-Datenbank.
+Karaoke-Aufnahmen
+
+Bei den Karaoke-Veranstaltungen von Radio Würmchen (siehe unten) werden auch Aufnahmen, vor allem von meinem eigenen Gesang, gemacht, die dann im Zuge der Musikversorgung vor allem von mir und meinen Eltern angehört und weiterverarbeitet werden.
+Karaoke - Hauptaktivitäten
+
+Karaoke ist im ein japanischer Volkssport, wo man zu einer vorgefertigten Begleitung bekannte Lieder in ein Mikrofon singt und dazu (meist) den Liedtext auf einem Bildschirm verfolgen kann.
+Radio Würmchen ist im Prinzip der Veranstalter des Karaoke, ebenso wie Radio CD im Jahr 1992 den Karaoke-Club mietete und Veranstalter der Karaoke-Wettbewerbe im Atoll war. Radio Würmchen wurde hier dazwischengeschaltet, um den Preisdruck auf die Abschreibungen der Karaoke-Videos zu mildern, der unweigerlich entstanden wäre, wenn deren Konto selbst das Karaoke auf eigene Rechnung veranstaltet hätte.
+
+Aus diesem Grund ist der Kompetenzbereich von Radio Würmchen so abgegrenzt, daß die Karaoke-Videos (und CD's) und der Karaoke-Player für jede Veranstaltung vom Karaoke-Video-Konto gemietet werden, um die Veranstaltung durchzuführen.
+
+Nun zu den einzelnen Ausformungen von Karaoke:
+Heimkaraoke
+
+Dies ist normalerweise eine Karaoke-Veranstaltung im engen Familienkreis. Diese findet in meinem Zimmer statt, evtl. (aber selten) mit bis zu 2 Gästen und mir und meinen Eltern. Es gibt normalerweise 8 Runden, in denen jeder ein Karaoke-Lied singt. Dazu wird die eigene Anlage samt Karaoke-Repertoire verwendet.
+Karaoke-Parties
+
+Dies sind sozusagen die großen "Zwillingsschwestern" des Heimkaraoke. Der Aufbau der Anlage entspricht dem Heimkaraoke, nur daß alles im Wohnzimmer aufgebaut wird, wo sich die Gäste um meine 2 Tische scharen können.
+Normalerweise sollten Karaoke-Parties mit mindestens 3 Gästen außer mir und meinen Eltern stattfinden. Kommen weniger als 3 Gäste, so ist etwas schiefgegangen, und es sollte bis zur nächsten Party wieder versucht werden, einige zusätzliche Interessenten zu gewinnen.
+Externe Veranstaltungen
+
+Vereinzelt führt Radio Würmchen auch externe Veranstaltungen in Sportvereinen, bei Geburtstagen oder Hochzeiten etc. durch. Die letzte solche ist jedoch schon im Juni 2003 gewesen. Dabei wird die ganze Karaoke-Anlage samt einiger längerer Kabel und evtl. einem zweiten TV-Schirm eingepackt und an die Lokation transportiert, wo sie dann aufgebaut und die Karaoke-Veranstaltung durchgeführt wird. Danach wird die Anlage wieder abgebaut, heimtransportiert und die benutzte Ausrüstung zu Hause wieder verstaut.
+Weitere Aktivitäten
+Batterie- und Akkuversorgung für Geräte
+
+Nachdem in der Vergangenheit die meisten Batterien für Radio-Würmchen-Aktivitäten benötigt wurden, wurde die Batterieversorgung nach dem Konkurs des Batteriemesskontos auch unter das Radio-Würmchen-Konto geordnet. Ausgenommen davon ist die Batterie- und Akkuversorgung für Fahrzeuge, die dem Fahrzeugkonto untersteht.
+Verwaltung der Geräte für die anderen Aktivitäten und andere Bereiche
+
+Radio Würmchen ist auch der "Träger" für verschiedene Geräte hauptsächlich im Audio-Bereich, die für die Zwecke der Radio-Würmchen-Aktivitäten verwendet werden. Dazu zählen Radiorecorder, Verstärker, Tape-Decks und ähnliche Geräte. Diese Geräte werden bei Bedarf auch an andere Lebensbereiche "verliehen", wenn sie für die Ausführung von deren Aktivitäten nötig sind.
+Verwaltung der Personenliste
+
+Nachdem die Personenliste früher am intensivsten für die Einladungen auf Karaoke-Parties verwendet wurde, wurde auch deren Verwaltung beim Radio-Würmchen-Konto angesiedelt. Da die Karaoke-Parties mittlerweile nicht mehr regelmäßig durchgeführt werden, wäre noch zu klären, wie mit dieser Liste weiter verfahren wird.
+Produktion von (Pseudo)-Sendungen
+
+Hier handelt es sich um Sendungen, die produziert, aber nicht gleich live ausgestrahlt werden. Vielmehr werden sie gesammelt und dann gelegentlich angehört. Wie sich inzwischen gezeigt hat, spiegeln die Sendungen immer ein wenig den Zeitgeist der Zeit wieder, wo sie entstanden sind, da sie auf aktuelle Ereignisse, Strömungen und auch meine damaligen persönlichen Interessen Bezug nehmen.
+Weitere Dokumentationen
+
+Nachdem die ursprüngliche Dokumentation für den Lebensbereich "Radio Würmchen" auf über 50 Seiten angewachsen ist, wurde sie in folgende Dokumentationen zerteilt:
+
+- Dokumentation Lebensbereich Radio Würmchen (dieses Dokument, eine extreme Kurzfassung der folgenden Dokumente)
+- Dokumentation der Hauptaktivitäten der Musikversorgung durch Radio Würmchen
+- Dokumentation der unterstützenden Tätigkeiten zur Musikversorgung von Radio Würmchen
+- Dokumentation der Radio-Würmchen-Datenbank und des dazugehörigen Programmes (ohne Entwicklungsdokument)
+- Dokumentation der Karaoke-Aktivitäten von Radio Würmchen
+- Dokumentation der weiteren Aktivitäten von Radio Würmchen
+Zu jeder dieser Dokumentationen (ausser zu dieser hier, die einteilig ist) gibt es wieder mehrere Teile:
+- Feststellung des Status Quo (wie es bisher funktioniert hat)
+- Entwicklungsdokument (Feststellung der Rentabilität der verschiedenen Bereiche, und wie jeder Bereich rentabel gestaltet werden kann, oder ob er aufgelassen werden sollte)
+- Dokumentation des Standes, wie er nach der Projektbereinigung aussieht (oder aussehen sollte)
+
+	- 5 -
+

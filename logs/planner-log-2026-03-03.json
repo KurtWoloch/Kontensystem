@@ -75,7 +75,7 @@
     "priority": 1.84,
     "minutes": 3,
     "started_at": "13:00:21",
-    "completed_at": "20:24:26",
+    "completed_at": "22:03:39",
     "skipped": true,
     "original_activity": ""
   },
@@ -105,7 +105,7 @@
     "priority": 1.84,
     "minutes": 1,
     "started_at": "13:01:21",
-    "completed_at": "20:24:26",
+    "completed_at": "22:03:39",
     "skipped": true,
     "original_activity": ""
   },
@@ -125,7 +125,7 @@
     "priority": 1.84,
     "minutes": 1,
     "started_at": "13:01:49",
-    "completed_at": "20:24:26",
+    "completed_at": "22:03:39",
     "skipped": true,
     "original_activity": ""
   },
@@ -190,6 +190,26 @@
     "original_activity": "Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFR"
   },
   {
+    "activity": "Mund spülen LEMTMS",
+    "list": "Nach_Fruehstueck",
+    "priority": 1.845,
+    "minutes": 2,
+    "started_at": "10:18:00",
+    "completed_at": "10:20:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Häferl waschen / Hustenbonbon fassen LEMTHW",
+    "list": "Nach_Fruehstueck",
+    "priority": 1.845,
+    "minutes": 2,
+    "started_at": "10:20:00",
+    "completed_at": "10:21:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
     "activity": "Papiersortierung WFPAPA",
     "list": "Liste_untertags",
     "priority": 1.835,
@@ -220,22 +240,422 @@
     "original_activity": "Mailprüfung INMAPR"
   },
   {
-    "activity": "Mund spülen LEMTMS",
+    "activity": "Blutdruck messen GEBMBM",
     "list": "Nach_Fruehstueck",
-    "priority": 1.845,
+    "priority": 1.849,
     "minutes": 2,
-    "started_at": "10:18:00",
-    "completed_at": "10:20:00",
+    "started_at": "21:16:00",
+    "completed_at": "21:18:00",
     "skipped": false,
     "original_activity": ""
   },
   {
-    "activity": "Häferl waschen / Hustenbonbon fassen LEMTHW",
-    "list": "Nach_Fruehstueck",
+    "activity": "Einlass / Koordination Sati Ersoy WFPUEL",
+    "list": "Lebenserhaltung",
     "priority": 1.845,
+    "minutes": 4,
+    "started_at": "09:28:00",
+    "completed_at": "09:30:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Mittagessen (von Sati gekocht) LEMESE",
+    "list": "Lebenserhaltung",
+    "priority": 1.845,
+    "minutes": 60,
+    "started_at": "12:10:00",
+    "completed_at": "12:38:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Geschirr abwaschen LEMEGA",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 5,
+    "started_at": "12:36:00",
+    "completed_at": "12:38:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Nachtmahl fassen LENANA",
+    "list": "Lebenserhaltung",
+    "priority": 1.845,
+    "minutes": 3,
+    "started_at": "21:36:00",
+    "completed_at": "21:40:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Teller waschen / Getränk + Medikament fassen LENATW",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 4,
+    "started_at": "22:07:00",
+    "completed_at": "22:09:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "WC BREPWC",
+    "list": "Liste_mittags",
+    "priority": 1.843,
+    "minutes": 9,
+    "started_at": "20:37:00",
+    "completed_at": "20:41:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Einlass / Koordination Sati Ersoy WFPUEL",
+    "list": "Liste_Putzen",
+    "priority": 1.841,
+    "minutes": 10,
+    "started_at": "12:04:00",
+    "completed_at": "12:08:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Anhören RW-Prg. mit Sati Ersoy RWMPSE",
+    "list": "Liste_Putzen",
+    "priority": 1.84,
+    "minutes": 8,
+    "started_at": "10:02:00",
+    "completed_at": "10:03:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Anhören RW-Prg. mit Sati Ersoy RWMPSE",
+    "list": "Liste_Putzen",
+    "priority": 1.84,
+    "minutes": 8,
+    "started_at": "10:17:00",
+    "completed_at": "10:18:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Verabschiedung / Zahlung Sati Ersoy WFPUZA",
+    "list": "Liste_Putzen",
+    "priority": 1.84,
+    "minutes": 8,
+    "started_at": "12:10:00",
+    "completed_at": "12:12:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "list": "Liste_mittags",
+    "priority": 1.84,
     "minutes": 2,
-    "started_at": "10:20:00",
-    "completed_at": "10:21:00",
+    "started_at": "20:41:00",
+    "completed_at": "20:43:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Laufen / Scooter- und E-Bike-Suche (von Jugendlichen bewacht) GEGYLS",
+    "list": "Liste_mittags",
+    "priority": 1.841,
+    "minutes": 34,
+    "started_at": "20:37:00",
+    "completed_at": "21:18:00",
+    "skipped": false,
+    "original_activity": "Laufen / Scootersuche GEGYLS"
+  },
+  {
+    "activity": "Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi) BREPZE",
+    "list": "Liste_mittags",
+    "priority": 1.84,
+    "minutes": 6,
+    "started_at": "22:12:59",
+    "completed_at": "22:12:59",
+    "skipped": true,
+    "original_activity": ""
+  },
+  {
+    "activity": "Versorgung Mitbringsel LEPOPO",
+    "list": "Liste_mittags",
+    "priority": 1.84,
+    "minutes": 9,
+    "started_at": "22:12:00",
+    "completed_at": "22:17:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "WC LEMTWC",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.839,
+    "minutes": 6,
+    "started_at": "17:25:00",
+    "completed_at": "17:26:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Bearb. Ohrwürmer (durchzunehmende) RWOWDN",
+    "list": "Liste_Arbeit",
+    "priority": 1.836,
+    "minutes": 5,
+    "started_at": "22:18:23",
+    "completed_at": "22:18:23",
+    "skipped": true,
+    "original_activity": ""
+  },
+  {
+    "activity": "PC herunterfahren PCHFAR",
+    "list": "Liste_Arbeit",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "22:18:25",
+    "completed_at": "22:18:25",
+    "skipped": true,
+    "original_activity": ""
+  },
+  {
+    "activity": "Start Teleworking BRZG BRTWGF",
+    "list": "Liste_Arbeit",
+    "priority": 1.842,
+    "minutes": 12,
+    "started_at": "10:57:00",
+    "completed_at": "11:00:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Abhalten BKDD Standup Meeting BREPGM",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 20,
+    "started_at": "11:00:00",
+    "completed_at": "11:41:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Planung BRZ BREPGM",
+    "list": "Liste_Arbeit",
+    "priority": 1.84,
+    "minutes": 10,
+    "started_at": "14:07:00",
+    "completed_at": "14:17:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Vormittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 51,
+    "started_at": "22:19:30",
+    "completed_at": "22:19:30",
+    "skipped": true,
+    "original_activity": ""
+  },
+  {
+    "activity": "WC BREPWC",
+    "list": "Liste_Arbeit",
+    "priority": 1.839,
+    "minutes": 9,
+    "started_at": "17:25:00",
+    "completed_at": "17:26:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 252,
+    "started_at": "14:11:00",
+    "completed_at": "19:03:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Zeiten sammeln BREPZS",
+    "list": "Liste_Arbeit",
+    "priority": 1.84,
+    "minutes": 7,
+    "started_at": "19:54:00",
+    "completed_at": "20:01:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Eingabe Zeiterfassung SAP BREPZE",
+    "list": "Liste_Arbeit",
+    "priority": 1.843,
+    "minutes": 4,
+    "started_at": "20:01:00",
+    "completed_at": "20:05:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Eingabe Teleworking SAP BREPZE",
+    "list": "Liste_Arbeit",
+    "priority": 1.842,
+    "minutes": 2,
+    "started_at": "20:05:00",
+    "completed_at": "20:09:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Abschluss BRALAB",
+    "list": "Liste_Arbeit",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "20:09:00",
+    "completed_at": "20:11:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "WC BRALWC",
+    "list": "Liste_Arbeit",
+    "priority": 1.84,
+    "minutes": 9,
+    "started_at": "20:26:00",
+    "completed_at": "20:29:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Vorbereitung Zähne putzen LEAZVZ",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 5,
+    "started_at": "22:20:00",
+    "completed_at": "22:22:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Zähne putzen LEAZZP",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 12,
+    "started_at": "22:22:00",
+    "completed_at": "22:37:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Anwendung der Zwischenraumzahnbürste LEAZZZ",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 16,
+    "started_at": "22:37:00",
+    "completed_at": "22:49:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Anwendung Zahnseide LEAZZS",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 5,
+    "started_at": "22:49:00",
+    "completed_at": "22:54:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Reinigung Zahnputzutensilien, Hände waschen LEAZHW",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.834,
+    "minutes": 2,
+    "started_at": "22:54:00",
+    "completed_at": "23:15:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Bett machen LEAZHW",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 2,
+    "started_at": "23:15:00",
+    "completed_at": "23:17:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Ausziehen LEAZAU",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 4,
+    "started_at": "23:17:00",
+    "completed_at": "23:19:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.834,
+    "minutes": 2,
+    "started_at": "23:19:30",
+    "completed_at": "23:19:30",
+    "skipped": true,
+    "original_activity": ""
+  },
+  {
+    "activity": "Einschmieren GEAZES",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 2,
+    "started_at": "23:19:00",
+    "completed_at": "23:21:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "WC LEAZWC",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 5,
+    "started_at": "23:21:00",
+    "completed_at": "23:23:00",
+    "skipped": false,
+    "original_activity": ""
+  },
+  {
+    "activity": "Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.834,
+    "minutes": 2,
+    "started_at": "23:23:09",
+    "completed_at": "23:23:09",
+    "skipped": true,
+    "original_activity": ""
+  },
+  {
+    "activity": "PC herunterfahren LEAZHF",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.834,
+    "minutes": 1,
+    "started_at": "23:23:12",
+    "completed_at": "23:23:12",
+    "skipped": true,
+    "original_activity": ""
+  },
+  {
+    "activity": "im Bett",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.834,
+    "minutes": 1,
+    "started_at": "23:23:00",
+    "completed_at": "23:25:00",
     "skipped": false,
     "original_activity": ""
   }
