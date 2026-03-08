@@ -14,6 +14,7 @@ class RowType(Enum):
     START_LIST = "start_list"
     STOP_LIST = "stop_list"
     RESTART_LIST = "restart_list"
+    CONDITION = "condition"       # Wenn "<question>", <action>
 
 
 @dataclass
@@ -30,6 +31,9 @@ class CsvRow:
     row_type: RowType
     target_list: str = ""        # for Start/Stop/Restart rows
     original_line: int = 0       # 1-based line number in CSV (for debugging)
+    condition_question: str = ""      # CONDITION: question text (without quotes)
+    condition_action: str = ""        # CONDITION: action if Yes (activity or "start list X")
+    condition_else_action: str = ""   # CONDITION: action if No  (optional; empty = just skip)
 
 
 @dataclass

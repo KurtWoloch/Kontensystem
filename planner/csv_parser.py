@@ -64,6 +64,12 @@ def _detect_row_type(activity: str) -> tuple[RowType, str]:
             return RowType.STOP_LIST, target
         elif verb == "restart":
             return RowType.RESTART_LIST, target
+    # Check for conditional: Wenn "<question>", <action>[, sonst <else>]
+    # Action may be empty (e.g. Wenn "...", , sonst start list X)
+    # Parentheses around the question are optional: Wenn ("..."), ... is OK too
+    m = re.match(r'^Wenn\s+\(?"([^"]+)"\)?\s*,\s*(.*)$', a)
+    if m:
+        return RowType.CONDITION, ""
     return RowType.ACTIVITY, ""
 
 
@@ -109,6 +115,23 @@ def parse_csv(path: str = CSV_PATH) -> Dict[str, List[CsvRow]]:
                 target_list=target_list,
                 original_line=lineno,
             )
+
+            # Parse condition fields for WENN rows
+            if row_type == RowType.CONDITION:
+                m = re.match(r'^Wenn\s+\(?"([^"]+)"\)?\s*,\s*(.*)$', activity)
+                if m:
+                    csv_row.condition_question = m.group(1)
+                    after_question = m.group(2)
+                    # Split on ", sonst " for optional else clause
+                    sonst_m = re.search(r',\s*sonst\s+', after_question,
+                                        re.IGNORECASE)
+                    if sonst_m:
+                        csv_row.condition_action = \
+                            after_question[:sonst_m.start()].strip()
+                        csv_row.condition_else_action = \
+                            after_question[sonst_m.end():].strip()
+                    else:
+                        csv_row.condition_action = after_question.strip()
 
             if list_name not in lists:
                 lists[list_name] = []

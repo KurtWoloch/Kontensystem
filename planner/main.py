@@ -108,13 +108,17 @@ def save_initial_projection(engine: PlannerEngine):
 
 def main():
     # --- 1. Setup Context ---
-    ctx = show_startup_dialog()
-    if not ctx:
+    startup_result = show_startup_dialog()
+    if not startup_result:
         sys.exit(0)
+    ctx, yaml_overrides = startup_result
 
     # --- 2. Load CSV and Initialize Engine ---
     raw_lists = parse_csv()
-    engine = PlannerEngine(raw_lists, ctx, session_date=datetime.now())
+    early_hours = yaml_overrides.get("earlyWorkStart")
+    engine = PlannerEngine(raw_lists, ctx, session_date=datetime.now(),
+                           early_work_hours=early_hours,
+                           yaml_overrides=yaml_overrides)
 
     # --- 3. Save initial projection (before loading log) ---
     save_initial_projection(engine)

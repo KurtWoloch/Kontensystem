@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from datetime import datetime, timedelta, time
 from typing import Dict, List, Optional, Tuple
 
@@ -28,7 +29,9 @@ LOG_DIR = os.path.join(os.path.dirname(__file__), "..", "logs")
 class PlannerEngine:
 
     def __init__(self, raw_lists: Dict[str, List[CsvRow]], ctx: DayContext,
-                 session_date: Optional[datetime] = None):
+                 session_date: Optional[datetime] = None,
+                 early_work_hours: Optional[int] = None,
+                 yaml_overrides: Optional[Dict] = None):
         self.ctx = ctx
         self.log: List[CompletedItem] = []
         self._unsaved = False
@@ -36,6 +39,22 @@ class PlannerEngine:
         # session_date anchors log filenames to the day the session started,
         # so saving after midnight still writes to the correct day's file.
         self.session_date = (session_date or datetime.now()).date()
+
+        # Apply early work start: shift all fixed times in Liste_Arbeit
+        if early_work_hours and "Liste_Arbeit" in raw_lists:
+            delta = timedelta(hours=early_work_hours)
+            for row in raw_lists["Liste_Arbeit"]:
+                if row.starting_time:
+                    original = datetime.combine(
+                        self.session_date, row.starting_time)
+                    shifted = original - delta
+                    row.starting_time = shifted.time()
+                    print(f"[ENGINE] Early start: {row.activity[:40]}… "
+                          f"shifted to {row.starting_time.strftime('%H:%M')}")
+
+        # Apply YAML overrides: removeActivities + addEvents
+        if yaml_overrides:
+            self._apply_yaml_overrides(raw_lists, yaml_overrides)
 
         # Build ListState objects from raw data
         self.lists: Dict[str, ListState] = {}
@@ -47,7 +66,12 @@ class PlannerEngine:
         if "Liste_Morgentoilette" in self.lists:
             self.lists["Liste_Morgentoilette"].active = True
 
-        # Auto-activate lists whose first applicable row has a fixed time.
+        # Liste_YAML (from YAML addEvents) starts active automatically
+        if "Liste_YAML" in self.lists:
+            self.lists["Liste_YAML"].active = True
+            print("[ENGINE] Auto-activated 'Liste_YAML' (YAML addEvents)")
+
+        # Auto-activate lists that have any applicable row with a fixed time.
         # These lists are always active but deferred until their time arrives.
         for ls in self.lists.values():
             if ls.active:
@@ -56,12 +80,12 @@ class PlannerEngine:
                 if not self._row_applies(row):
                     continue  # skip rows that don't apply today
                 if row.row_type != RowType.ACTIVITY:
-                    break  # control-flow first — don't auto-start
+                    continue  # skip control-flow rows
                 if row.starting_time:
                     ls.active = True
                     print(f"[ENGINE] Auto-activated '{ls.name}' "
                           f"(fixed time {row.starting_time.strftime('%H:%M')})")
-                break  # only check the first applicable row
+                    break
 
         # Resolve initial current_activity for all active lists
         for ls in self.lists.values():
@@ -72,6 +96,120 @@ class PlannerEngine:
     #  Public API                                                          #
     # ------------------------------------------------------------------ #
 
+    # ------------------------------------------------------------------ #
+    #  YAML overrides                                                      #
+    # ------------------------------------------------------------------ #
+
+    def _apply_yaml_overrides(self, raw_lists: Dict[str, List[CsvRow]],
+                              overrides: Dict):
+        """Apply removeActivities and addEvents from YAML exceptions."""
+        # --- removeActivities: filter matching rows, track positions ---
+        remove_set = set(overrides.get("removeActivities", []))
+        # Track first removal index per list for untimed event insertion
+        # {list_name: first_removed_index}
+        removal_points: Dict[str, int] = {}
+
+        if remove_set:
+            for list_name, rows in raw_lists.items():
+                filtered = []
+                first_removed_idx = None
+                for i, r in enumerate(rows):
+                    if r.row_type == RowType.ACTIVITY and r.activity in remove_set:
+                        if first_removed_idx is None:
+                            first_removed_idx = len(filtered)
+                        print(f"[YAML] Removing '{r.activity}' "
+                              f"from '{list_name}' (pos {i})")
+                    else:
+                        filtered.append(r)
+
+                removed = len(rows) - len(filtered)
+                if removed > 0:
+                    raw_lists[list_name] = filtered
+                    removal_points[list_name] = first_removed_idx
+
+        # --- addEvents: timed → Liste_YAML, untimed → insert at removal point ---
+        add_events = overrides.get("addEvents", [])
+        if add_events:
+            # Separate timed and untimed events
+            timed_rows: List[CsvRow] = []
+            untimed_rows: List[CsvRow] = []
+
+            for evt in add_events:
+                name = evt.get("name", "")
+                mins = evt.get("durationMinutes", 0)
+                prio = evt.get("priority", 1.84)
+                start_str = evt.get("startTime")
+
+                start_time = None
+                if start_str:
+                    try:
+                        t = datetime.strptime(start_str, "%H:%M")
+                        start_time = t.time()
+                    except ValueError:
+                        print(f"[YAML] Bad startTime '{start_str}' "
+                              f"for '{name}', ignoring")
+
+                row = CsvRow(
+                    activity=name,
+                    minutes=mins,
+                    list_name="",  # set below depending on placement
+                    priority=prio,
+                    weekdays="",        # always applies (YAML is date-specific)
+                    starting_time=start_time,
+                    dependencies="",
+                    preceding_activity="",
+                    row_type=RowType.ACTIVITY,
+                    target_list="",
+                    original_line=0,
+                )
+
+                if start_time:
+                    timed_rows.append(row)
+                else:
+                    untimed_rows.append(row)
+
+            # Insert untimed events at the removal point in the list
+            # that had the most removals (typically Liste_Schwimmbad
+            # or the list where the replaced activities came from)
+            if untimed_rows and removal_points:
+                # Pick the list with the earliest removal point
+                # (first list alphabetically if tied — but usually
+                # there's a clear candidate)
+                target_list = min(removal_points.keys(),
+                                  key=lambda k: removal_points[k])
+                insert_idx = removal_points[target_list]
+                target_rows = raw_lists[target_list]
+
+                for i, row in enumerate(untimed_rows):
+                    row.list_name = target_list
+                    target_rows.insert(insert_idx + i, row)
+                    print(f"[YAML] Inserted '{row.activity}' into "
+                          f"'{target_list}' at position {insert_idx + i}")
+            elif untimed_rows:
+                # No removal points — fall back to Liste_YAML
+                for row in untimed_rows:
+                    row.list_name = "Liste_YAML"
+                    print(f"[YAML] Added '{row.activity}' to Liste_YAML "
+                          f"(no removal point found)")
+                timed_rows = untimed_rows + timed_rows
+                untimed_rows = []
+
+            # Timed events go into Liste_YAML (activated by fixed time)
+            if timed_rows:
+                for row in timed_rows:
+                    row.list_name = "Liste_YAML"
+                    time_info = (f" at {row.starting_time.strftime('%H:%M')}"
+                                 if row.starting_time else "")
+                    print(f"[YAML] Added '{row.activity}' to Liste_YAML"
+                          f" ({row.minutes}m, prio {row.priority}){time_info}")
+
+                timed_rows.sort(key=lambda r: r.starting_time or time(0, 0))
+                raw_lists["Liste_YAML"] = timed_rows
+
+    # ------------------------------------------------------------------ #
+    #  Tick / candidates                                                   #
+    # ------------------------------------------------------------------ #
+
     def tick(self):
         """Call periodically (e.g. every 30s) to unblock waiting lists."""
         self.now = datetime.now() # Update current time for checks
@@ -80,15 +218,87 @@ class PlannerEngine:
                 ls.wait_until = None
                 self._resolve(ls)
 
-    def get_best_candidate(self) -> Optional[Tuple[ListState, CsvRow]]:
-        """Return (ListState, CsvRow) for the highest-priority ready item."""
+    # ------------------------------------------------------------------ #
+    #  Task locking — prevents silent preemption                           #
+    # ------------------------------------------------------------------ #
+
+    # The locked task is what the user is currently working on.
+    # It stays on screen until explicitly completed, skipped, or
+    # interrupted — even if higher-priority candidates appear.
+    _locked_task: Optional[Tuple[str, str]] = None  # (list_name, activity)
+
+    def lock_current(self):
+        """Lock the current best candidate so it stays on screen."""
+        best = self._pick_best_unlocked()
+        if best:
+            ls, row = best
+            self._locked_task = (ls.name, row.activity)
+
+    def _pick_best_unlocked(self) -> Optional[Tuple[ListState, CsvRow]]:
+        """Raw priority-based selection without lock logic."""
         candidates = self._collect_candidates()
         if not candidates:
             return None
-        # Sort by priority descending; tie-break: fixed-time wins
         candidates.sort(key=lambda x: (-x[1].priority,
                                         0 if x[1].starting_time else 1))
         return candidates[0]
+
+    def get_best_candidate(self) -> Optional[Tuple[ListState, CsvRow]]:
+        """Return the locked task if set, otherwise the highest-priority
+        ready item (and lock it)."""
+        candidates = self._collect_candidates()
+        if not candidates:
+            self._locked_task = None
+            return None
+
+        # If we have a lock, find and return the locked item
+        if self._locked_task:
+            lock_list, lock_act = self._locked_task
+            for ls, row in candidates:
+                if ls.name == lock_list and row.activity == lock_act:
+                    return (ls, row)
+            # Locked item is no longer a candidate (list exhausted,
+            # deactivated, etc.) — release the lock
+            self._locked_task = None
+
+        # No lock (or lock released) — pick best and lock it
+        candidates.sort(key=lambda x: (-x[1].priority,
+                                        0 if x[1].starting_time else 1))
+        best = candidates[0]
+        ls, row = best
+        self._locked_task = (ls.name, row.activity)
+        return best
+
+    def get_preemption_candidate(self) -> Optional[Tuple[ListState, CsvRow]]:
+        """If a higher-priority item wants to preempt the locked task,
+        return it. Otherwise return None."""
+        if not self._locked_task:
+            return None
+        candidates = self._collect_candidates()
+        if not candidates:
+            return None
+
+        # Find the locked item's priority
+        lock_list, lock_act = self._locked_task
+        locked_priority = None
+        for ls, row in candidates:
+            if ls.name == lock_list and row.activity == lock_act:
+                locked_priority = row.priority
+                break
+        if locked_priority is None:
+            return None  # lock no longer valid
+
+        # Find the best non-locked candidate
+        candidates.sort(key=lambda x: (-x[1].priority,
+                                        0 if x[1].starting_time else 1))
+        for ls, row in candidates:
+            if ls.name == lock_list and row.activity == lock_act:
+                continue  # skip the locked item itself
+            if row.priority > locked_priority:
+                return (ls, row)
+            break  # sorted by priority, so no need to check further
+
+        return None
 
     def get_all_candidates(self) -> List[Tuple[ListState, CsvRow]]:
         """All current candidates sorted by priority (for the queue display)."""
@@ -97,12 +307,82 @@ class PlannerEngine:
                                    0 if x[1].starting_time else 1))
         return cands
 
+    # Regex for detecting "start list X" actions in condition branches
+    _LIST_START_RE = re.compile(r'^start\s+list\s+(.+)$', re.IGNORECASE)
+
+    def answer_condition(self, ls: ListState, row: CsvRow, answer: bool):
+        """Answer a CONDITION (Wenn) row.
+
+        answer=True:
+          - action = row.condition_action
+          - If "start list X"  → activate list X, log with "Entscheidung: Ja"
+          - If plain activity  → log with "Entscheidung: Ja", insert synthetic
+        answer=False:
+          - action = row.condition_else_action (may be empty)
+          - If "start list X"  → activate list X, log with "Entscheidung: Nein"
+          - If plain activity  → log with "Entscheidung: Nein", insert synthetic
+          - If empty           → log as skipped with "Entscheidung: Nein"
+        """
+        self._locked_task = None
+        now = datetime.now()
+
+        action = row.condition_action if answer else row.condition_else_action
+        comment_prefix = "Entscheidung: Ja" if answer else "Entscheidung: Nein"
+
+        # Categorise the action
+        list_m = self._LIST_START_RE.match(action.strip()) if action else None
+
+        if list_m:
+            target_list = list_m.group(1).strip()
+            comment = f"{comment_prefix} → Start Liste: {target_list}"
+            skipped = False
+        elif action:
+            comment = comment_prefix
+            skipped = False
+        else:
+            # No action defined for this branch → just skip past the row
+            comment = comment_prefix
+            skipped = True
+
+        # Log the condition row itself
+        self._record(row, ls.name, skipped=skipped,
+                     custom_time=now, start_time=now, comment=comment)
+
+        # Advance past the condition row
+        ls.current_index += 1
+        ls.current_activity = None
+        ls.pending_start = None
+        ls.continuation_count = 0
+
+        # Execute the action
+        if list_m:
+            self._start_list(list_m.group(1).strip())
+        elif action:
+            # Insert a synthetic ACTIVITY row so the user can log it normally
+            synthetic = CsvRow(
+                activity=action,
+                minutes=row.minutes,   # inherit (usually 0 for WENN rows)
+                list_name=ls.name,
+                priority=row.priority,
+                weekdays="",           # always applies — runtime-injected
+                starting_time=None,
+                dependencies="",
+                preceding_activity="",
+                row_type=RowType.ACTIVITY,
+                target_list="",
+                original_line=0,
+            )
+            ls.rows.insert(ls.current_index, synthetic)
+
+        self._resolve(ls)
+
     def mark_done(self, ls: ListState, row: CsvRow,
                   custom_time: Optional[datetime] = None,
                   custom_text: Optional[str] = None,
                   start_time: Optional[datetime] = None,
                   comment: str = ""):
         """Mark current item as done, advance list."""
+        self._locked_task = None  # release lock
         self._record(row, ls.name, skipped=False,
                      custom_time=custom_time, custom_text=custom_text,
                      start_time=start_time, comment=comment)
@@ -115,6 +395,7 @@ class PlannerEngine:
 
     def mark_skip(self, ls: ListState, row: CsvRow, comment: str = ""):
         """Skip current item, advance list."""
+        self._locked_task = None  # release lock
         self._record(row, ls.name, skipped=True, comment=comment)
         ls.current_index += 1
         ls.current_activity = None
@@ -128,6 +409,7 @@ class PlannerEngine:
                           interrupt_start: datetime,
                           interrupt_end: datetime,
                           comment: str = ""):
+        self._locked_task = None  # release lock — will re-lock on next get_best_candidate
         """
         Interrupt the current task.
 
@@ -289,6 +571,20 @@ class PlannerEngine:
                         if cursor < target_dt:
                             sl.wait_until = target_dt
                             return None
+                    return row
+                if rt == RowType.CONDITION:
+                    # Default assumption: Nein — apply the else branch
+                    else_action = row.condition_else_action
+                    if else_action:
+                        em = re.match(r'^start\s+list\s+(.+)$',
+                                      else_action.strip(), re.IGNORECASE)
+                        if em:
+                            tgt = em.group(1).strip()
+                            if tgt in sim and not sim[tgt].active:
+                                sim[tgt].active = True
+                                sim[tgt].idx = 0
+                                sim[tgt].wait_until = None
+                    # Emit as 0-min marker; outer loop does sl.idx += 1
                     return row
                 sl.idx += 1
             return None
@@ -468,6 +764,10 @@ class PlannerEngine:
 
         return projection
 
+    def get_completed_log(self) -> List[CompletedItem]:
+        """Return completed/skipped items sorted by started_at."""
+        return sorted(self.log, key=lambda c: c.started_at)
+
     def items_done_today(self) -> int:
         return sum(1 for c in self.log if not c.skipped)
 
@@ -478,6 +778,8 @@ class PlannerEngine:
         """Save completion log as JSON for later Ablauf generation."""
         os.makedirs(LOG_DIR, exist_ok=True)
         path = self._get_log_path()
+        # Sort by started_at so retroactive entries fill gaps correctly
+        sorted_log = sorted(self.log, key=lambda c: c.started_at)
         data = [
             {
                 "activity": c.activity,
@@ -490,7 +792,7 @@ class PlannerEngine:
                 "original_activity": c.original_activity,
                 "comment": c.comment,
             }
-            for c in self.log
+            for c in sorted_log
         ]
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
@@ -678,6 +980,7 @@ class PlannerEngine:
                 if log_entry["skipped"]:
                     # Record directly — don't call mark_skip (avoids _resolve)
                     self._record(row, ls.name, skipped=True,
+                                 custom_time=completed_dt,
                                  start_time=started_dt,
                                  comment=log_entry.get("comment", ""),
                                  _from_replay=True)

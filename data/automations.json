@@ -1,0 +1,12 @@
+{
+  "_comment": "Maps task codes or activity name prefixes to automations. type: 'shell' (run command) or 'url' (open in browser).",
+  "automations": [
+    {
+      "match": "RWMPMP",
+      "match_type": "code",
+      "type": "shell",
+      "command": "C:\\Users\\kurt_\\Musikprogramm\\Radio Würmchen.exe",
+      "label": "Radio Würmchen starten"
+    }
+  ]
+}

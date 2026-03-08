@@ -27,7 +27,11 @@ class CodeSuggestor:
         # list of (prefix_lower, code, name) for prefix matching
         self._prefix_index: list[tuple[str, str, str]] = []
 
+        self._data_dir = data_dir
+        self._learned_path = os.path.join(data_dir, "learned_codes.csv")
+
         self._load_master_task_list(data_dir)
+        self._load_learned_codes()
         if csv_path and os.path.exists(csv_path):
             self._load_csv(csv_path)
 
@@ -106,6 +110,64 @@ class CodeSuggestor:
                                 self._prefix_index.append((norm, code, base_name))
         except Exception:
             pass  # CSV is optional; don't crash if unreadable
+
+    def _load_learned_codes(self):
+        """Load dynamically learned code→name mappings from learned_codes.csv.
+
+        File format: CODE;Activity Name (semicolon-delimited, UTF-8)
+        """
+        if not os.path.exists(self._learned_path):
+            return
+        try:
+            with open(self._learned_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith("#"):
+                        continue
+                    parts = line.split(";", 1)
+                    if len(parts) != 2:
+                        continue
+                    code = parts[0].strip()
+                    name = parts[1].strip()
+                    if code and len(code) == 6 and code.isupper() and name:
+                        self._register(code, name)
+        except Exception:
+            pass  # Don't crash if file is malformed
+
+    def _register(self, code: str, name: str):
+        """Register a code→name mapping in all indexes."""
+        norm = self._normalize(name)
+        if code not in self._code_names:
+            self._code_names[code] = name
+        if norm not in self._name_to_code:
+            self._name_to_code[norm] = code
+            self._prefix_index.append((norm, code, name))
+
+    def learn(self, activity: str):
+        """Learn a new code→name mapping from a logged activity.
+
+        If the activity ends with a 6-char code that isn't already known,
+        saves it to learned_codes.csv for future sessions.
+        """
+        code = self._extract_code(activity)
+        if not code:
+            return
+        base_name = activity[:-(len(code))].strip()
+        if not base_name:
+            return
+        # Already known? Skip
+        norm = self._normalize(base_name)
+        if norm in self._name_to_code and self._name_to_code[norm] == code:
+            return
+        # Register in memory
+        self._register(code, base_name)
+        # Persist to file
+        try:
+            os.makedirs(os.path.dirname(self._learned_path), exist_ok=True)
+            with open(self._learned_path, "a", encoding="utf-8") as f:
+                f.write(f"{code};{base_name}\n")
+        except Exception:
+            pass  # Best-effort persistence
 
     @staticmethod
     def _normalize(text: str) -> str:

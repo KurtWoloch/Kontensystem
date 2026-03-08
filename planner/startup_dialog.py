@@ -7,9 +7,10 @@ the main planner window opens.
 import tkinter as tk
 from tkinter import ttk
 from datetime import date
-from typing import Optional
+from typing import Optional, Dict, Any
 
 from day_context import DayContext
+from yaml_loader import load_exceptions_for_date
 
 GERMAN_DAYS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag",
                "Freitag", "Samstag", "Sonntag"]
@@ -26,6 +27,7 @@ class StartupDialog:
     def __init__(self, root: tk.Tk):
         self.root = root
         self.result: Optional[DayContext] = None
+        self.yaml_overrides: Dict[str, Any] = {}
         self._build()
 
     def _build(self):
@@ -38,6 +40,22 @@ class StartupDialog:
         today = date.today()
         weekday = today.weekday()
         dayname = GERMAN_DAYS[weekday]
+
+        # Load YAML overrides for today
+        self.yaml_overrides = load_exceptions_for_date(today)
+        yaml_dto = self.yaml_overrides.get("dayTypeOverride")
+        yaml_note = self.yaml_overrides.get("specialNote")
+        yaml_early = self.yaml_overrides.get("earlyWorkStart")
+
+        # Determine pre-fill values from YAML
+        prefill_urlaubstag = (yaml_dto == "Urlaubstag")
+        prefill_feiertag = (yaml_dto == "Feiertag")
+        if yaml_dto in ("Bürotag", "Teleworking"):
+            prefill_work_type = yaml_dto
+        elif prefill_urlaubstag or prefill_feiertag:
+            prefill_work_type = "auto"
+        else:
+            prefill_work_type = "auto"
 
         # Title
         tk.Label(
@@ -54,6 +72,34 @@ class StartupDialog:
             bg=COLOR_BG, fg=COLOR_FG
         ).pack()
 
+        # Show YAML special note if present
+        if yaml_note:
+            tk.Label(
+                self.win,
+                text=f"📋 {yaml_note}",
+                font=("Segoe UI", 9, "bold"),
+                bg=COLOR_BG, fg="#f9e2af",
+                wraplength=400, justify=tk.LEFT
+            ).pack(padx=20, pady=(4, 0))
+
+        # Show early work start note if present
+        if yaml_early:
+            tk.Label(
+                self.win,
+                text=f"⏰ Liste_Arbeit startet {yaml_early}h früher als normal",
+                font=("Segoe UI", 9, "bold"),
+                bg=COLOR_BG, fg="#f9e2af"
+            ).pack(padx=20, pady=(4, 0))
+
+        # Show YAML auto-detection hint
+        if yaml_dto:
+            tk.Label(
+                self.win,
+                text=f"(Aus YAML: {yaml_dto})",
+                font=("Segoe UI", 8, "italic"),
+                bg=COLOR_BG, fg="#6c7086"
+            ).pack(padx=20, pady=(2, 0))
+
         # Frame for options
         frame = tk.Frame(self.win, bg=COLOR_PANEL, padx=16, pady=14)
         frame.pack(padx=20, pady=10, fill=tk.X)
@@ -66,7 +112,7 @@ class StartupDialog:
             wt_frame, text="Arbeitstyp:",
             font=("Segoe UI", 10), bg=COLOR_PANEL, fg=COLOR_FG
         ).pack(side=tk.LEFT)
-        self.var_work_type = tk.StringVar(value="auto")
+        self.var_work_type = tk.StringVar(value=prefill_work_type)
         wt_combo = ttk.Combobox(
             wt_frame, textvariable=self.var_work_type,
             values=["auto", "Bürotag", "Teleworking"],
@@ -77,7 +123,7 @@ class StartupDialog:
         wt_combo.bind("<<ComboboxSelected>>", lambda *_: self._update_preview())
 
         # Feiertag checkbox
-        self.var_feiertag = tk.BooleanVar(value=False)
+        self.var_feiertag = tk.BooleanVar(value=prefill_feiertag)
         tk.Checkbutton(
             frame, text="Feiertag", variable=self.var_feiertag,
             bg=COLOR_PANEL, fg=COLOR_FG, selectcolor=COLOR_BTN,
@@ -86,7 +132,7 @@ class StartupDialog:
         ).pack(anchor="w")
 
         # Urlaubstag checkbox
-        self.var_urlaubstag = tk.BooleanVar(value=False)
+        self.var_urlaubstag = tk.BooleanVar(value=prefill_urlaubstag)
         tk.Checkbutton(
             frame, text="Urlaubstag", variable=self.var_urlaubstag,
             bg=COLOR_PANEL, fg=COLOR_FG, selectcolor=COLOR_BTN,
@@ -167,11 +213,14 @@ class StartupDialog:
         self.win.destroy()
 
 
-def show_startup_dialog() -> Optional[DayContext]:
-    """Show the dialog and return a DayContext, or None if cancelled."""
+def show_startup_dialog() -> 'Optional[tuple[DayContext, Dict[str, Any]]]':
+    """Show the dialog and return (DayContext, yaml_overrides), or None if cancelled."""
     root = tk.Tk()
     root.withdraw()  # hide the empty root window
     dlg = StartupDialog(root)
     ctx = dlg.result
+    yaml_overrides = dlg.yaml_overrides
     root.destroy()
-    return ctx
+    if ctx is None:
+        return None
+    return (ctx, yaml_overrides)
