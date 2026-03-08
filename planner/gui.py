@@ -826,14 +826,18 @@ class PlannerGUI:
             btn_apply_name = tk.Button(
                 suggest_frame, text="  Name übernehmen  ",
                 font=("Segoe UI", 8), bg="#89b4fa", fg="#1e1e2e",
-                relief=tk.FLAT, cursor="hand2"
+                relief=tk.FLAT, cursor="hand2",
+                highlightthickness=2, highlightcolor="#f9e2af",
+                highlightbackground=COLOR_BG, takefocus=True
             )
             btn_apply_name.pack_forget()
 
             btn_apply_code = tk.Button(
                 suggest_frame, text="  Code anfügen  ",
                 font=("Segoe UI", 8), bg="#45475a", fg=COLOR_FG,
-                relief=tk.FLAT, cursor="hand2"
+                relief=tk.FLAT, cursor="hand2",
+                highlightthickness=2, highlightcolor="#f9e2af",
+                highlightbackground=COLOR_BG, takefocus=True
             )
             btn_apply_code.pack_forget()
 
@@ -1097,7 +1101,16 @@ class PlannerGUI:
             cursor="hand2", command=on_cancel
         ).pack(side=tk.LEFT, padx=4)
 
-        dlg.bind("<Return>", lambda e: on_confirm())
+        # Enter auf fokussiertem Button löst diesen aus,
+        # sonst (z.B. im Textfeld) → on_confirm
+        def _on_return(event):
+            w = event.widget
+            if isinstance(w, tk.Button):
+                w.invoke()
+            else:
+                on_confirm()
+
+        dlg.bind("<Return>", _on_return)
         dlg.bind("<Escape>", lambda e: on_cancel())
 
         # Center on parent
