@@ -742,6 +742,7 @@ class PlannerGUI:
         dlg.configure(bg=COLOR_BG)
         dlg.resizable(False, False)
         dlg.grab_set()
+        dlg.minsize(width=520, height=0)  # feste Mindestbreite
 
         # ── Header ────────────────────────────────────────────────────
         if cfg["header"] == "skip":
@@ -805,7 +806,7 @@ class PlannerGUI:
                 bg=COLOR_LIST, fg=COLOR_FG, insertbackground=COLOR_FG,
                 width=cfg["activity_width"]
             )
-            txt_entry.pack(padx=12,
+            txt_entry.pack(anchor="w", padx=12,
                            pady=(0, 2 if cfg["show_code_suggest"] else 8))
             if mode == "done":
                 txt_entry.select_range(0, tk.END)
@@ -819,7 +820,7 @@ class PlannerGUI:
             lbl_suggest = tk.Label(
                 suggest_frame, text="",
                 font=("Segoe UI", 8), bg=COLOR_BG, fg="#a6e3a1",
-                anchor="w"
+                anchor="w", wraplength=280
             )
             lbl_suggest.pack(side=tk.LEFT, fill=tk.X, expand=True)
 
