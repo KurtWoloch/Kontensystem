@@ -26,10 +26,12 @@ from engine import PlannerEngine
 from code_suggest import CodeSuggestor
 from automations import load_automations, find_automation, run_automation
 from automation_editor import open_editor as open_automation_editor
+from window_monitor import WindowMonitor
 
 
 REFRESH_MS = 15_000   # refresh display every 15 seconds
 TICK_MS = 10_000      # engine tick every 10 seconds (check Wait timers)
+WINMON_MS = 2_500     # window monitor GUI update every 2.5 seconds
 
 COLOR_BG = "#1e1e2e"
 COLOR_FG = "#cdd6f4"
@@ -123,8 +125,19 @@ class PlannerGUI:
 
         self._build_ui()
         self.root.protocol("WM_DELETE_WINDOW", self._on_close)
+
+        # Window monitor — optional, failure-tolerant
+        self._window_monitor: Optional[WindowMonitor] = None
+        try:
+            self._window_monitor = WindowMonitor(poll_interval=1.0)
+            self._window_monitor.start()
+        except Exception as e:
+            print(f"[Planer] Window monitor failed to start: {e}")
+            self._window_monitor = None
+
         self._tick()
         self._refresh()
+        self._update_window_monitor()
 
     # ------------------------------------------------------------------ #
     #  UI Construction                                                     #
@@ -173,6 +186,11 @@ class PlannerGUI:
         self.done_listbox.configure(yscrollcommand=done_scrollbar.set)
         done_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
         self.done_listbox.pack(fill=tk.BOTH, expand=True, padx=2, pady=2)
+
+        # Log editing bindings
+        self.done_listbox.bind("<Delete>", self._on_done_delete)
+        self.done_listbox.bind("<BackSpace>", self._on_done_delete)
+        self.done_listbox.bind("<Double-1>", self._on_done_double_click)
 
         # ── Current task panel (compact, full width) ─────────────────
         task_panel = tk.Frame(self.root, bg=COLOR_PANEL, relief=tk.FLAT, bd=1)
@@ -342,6 +360,13 @@ class PlannerGUI:
         )
         self.status_bar.pack(fill=tk.X, side=tk.BOTTOM)
 
+        # ── Window monitor bar (above status bar) ─────────────────────
+        self.lbl_window_monitor = tk.Label(
+            self.root, text="🖥️ …", font=("Consolas", 8),
+            bg=COLOR_BG, fg="#6c7086", anchor="w", padx=10, pady=1
+        )
+        self.lbl_window_monitor.pack(fill=tk.X, side=tk.BOTTOM)
+
     # ------------------------------------------------------------------ #
     #  Timer callbacks                                                     #
     # ------------------------------------------------------------------ #
@@ -358,6 +383,32 @@ class PlannerGUI:
         self._update_queue()
         self._update_status()
         self.root.after(REFRESH_MS, self._refresh)
+
+    def _update_window_monitor(self):
+        """Update the window monitor label with current active window."""
+        if self._window_monitor is not None:
+            try:
+                info = self._window_monitor.get_current()
+                if info and info.get("title"):
+                    title = info["title"]
+                    browser = info.get("browser", "")
+                    # Truncate long titles
+                    max_len = 90
+                    if len(title) > max_len:
+                        title = title[:max_len] + "…"
+                    prefix = f"🖥️ {browser} — " if browser else "🖥️ "
+                    self.lbl_window_monitor.config(
+                        text=f"{prefix}{title}",
+                        fg="#585b70"
+                    )
+                else:
+                    self.lbl_window_monitor.config(
+                        text="🖥️ (kein Fenster erkannt)",
+                        fg="#45475a"
+                    )
+            except Exception:
+                pass  # don't crash the GUI for monitor issues
+        self.root.after(WINMON_MS, self._update_window_monitor)
 
     # ------------------------------------------------------------------ #
     #  Display updaters                                                    #
@@ -479,41 +530,47 @@ class PlannerGUI:
         prev_done_count = self.done_listbox.size()
         new_done_count = len(completed) if completed else 0
 
-        # Only rebuild if the number of items changed
-        if new_done_count != prev_done_count or (prev_done_count == 1 and not completed):
-            done_scroll = self.done_listbox.yview()
-            self.done_listbox.delete(0, tk.END)
-            if completed:
-                for item in completed:
-                    start_col = item.started_at.strftime('%H:%M')
-                    end_col = item.completed_at.strftime('%H:%M')
-                    name = _strip_task_code(item.activity)
-                    mins = item.minutes
-                    skip_mark = " ⏭" if item.skipped else ""
+        # Always rebuild so edits (Ändern) are reflected immediately
+        done_sel = self.done_listbox.curselection()
+        done_scroll = self.done_listbox.yview()
+        self.done_listbox.delete(0, tk.END)
+        if completed:
+            for item in completed:
+                start_col = item.started_at.strftime('%H:%M')
+                end_col = item.completed_at.strftime('%H:%M')
+                name = _strip_task_code(item.activity)
+                mins = item.minutes
+                skip_mark = " ⏭" if item.skipped else ""
 
-                    entry = f"  {start_col}–{end_col}  {name}  ({mins}'){skip_mark}"
-                    self.done_listbox.insert(tk.END, entry)
-                    idx = self.done_listbox.size() - 1
+                entry = f"  {start_col}–{end_col}  {name}  ({mins}'){skip_mark}"
+                self.done_listbox.insert(tk.END, entry)
+                idx = self.done_listbox.size() - 1
 
-                    if item.skipped:
-                        self.done_listbox.itemconfig(
-                            idx, fg="#7f849c", selectforeground="#7f849c")
-                    else:
-                        self.done_listbox.itemconfig(
-                            idx, fg="#a6adc8", selectforeground="#a6adc8")
-
-                # Only auto-scroll when new items were added
-                if new_done_count > prev_done_count:
-                    self.done_listbox.see(tk.END)
+                if item.skipped:
+                    self.done_listbox.itemconfig(
+                        idx, fg="#7f849c", selectforeground="#7f849c")
                 else:
-                    self.done_listbox.yview_moveto(done_scroll[0])
+                    self.done_listbox.itemconfig(
+                        idx, fg="#a6adc8", selectforeground="#a6adc8")
+
+            # Only auto-scroll when new items were added
+            if new_done_count > prev_done_count:
+                self.done_listbox.see(tk.END)
             else:
-                self.done_listbox.insert(tk.END, "  (noch keine Einträge)")
-                self.done_listbox.itemconfig(
-                    tk.END, fg="#7f849c", selectforeground="#7f849c")
+                self.done_listbox.yview_moveto(done_scroll[0])
+        else:
+            self.done_listbox.insert(tk.END, "  (noch keine Einträge)")
+            self.done_listbox.itemconfig(
+                tk.END, fg="#7f849c", selectforeground="#7f849c")
+
+        # Restore done_listbox selection if still valid
+        if done_sel and done_sel[0] < self.done_listbox.size():
+            self.done_listbox.selection_set(done_sel[0])
+            self.done_listbox.see(done_sel[0])
 
         # ── Projection panel (upcoming items) ─────────────────────────
         # Preserve scroll position across redraws
+        queue_sel = self.queue_listbox.curselection()
         scroll_pos = self.queue_listbox.yview()
         self.queue_listbox.delete(0, tk.END)
         self._queue_index_map = {}
@@ -588,6 +645,11 @@ class PlannerGUI:
 
         # Restore scroll position
         self.queue_listbox.yview_moveto(scroll_pos[0])
+
+        # Restore queue_listbox selection if still valid
+        if queue_sel and queue_sel[0] < self.queue_listbox.size():
+            self.queue_listbox.selection_set(queue_sel[0])
+            self.queue_listbox.see(queue_sel[0])
 
     def _update_status(self):
         done = self.engine.items_done_today()
@@ -1211,6 +1273,384 @@ class PlannerGUI:
         ls, row = match
         self._show_task_dialog("skip", ls, row)
 
+    # ------------------------------------------------------------------ #
+    #  Log editing handlers                                                #
+    # ------------------------------------------------------------------ #
+
+    def _on_done_delete(self, event):
+        """Quick-delete: Delete/Backspace on selected log entry."""
+        sel = self.done_listbox.curselection()
+        if not sel:
+            return
+        idx = sel[0]
+        completed = self.engine.get_completed_log()
+        if idx < 0 or idx >= len(completed):
+            return
+        item = completed[idx]
+        name = _strip_task_code(item.activity)
+        start_str = item.started_at.strftime('%H:%M')
+        end_str = item.completed_at.strftime('%H:%M')
+        answer = messagebox.askyesno(
+            "Eintrag löschen",
+            f"Eintrag '{name}' [{start_str}\u2013{end_str}] wirklich löschen?",
+            icon="warning"
+        )
+        if answer:
+            self.engine.delete_log_entry(idx)
+            self._refresh()
+
+    def _on_done_double_click(self, event):
+        """Double-click on log entry → open edit dialog."""
+        sel = self.done_listbox.curselection()
+        if not sel:
+            return
+        idx = sel[0]
+        completed = self.engine.get_completed_log()
+        if idx < 0 or idx >= len(completed):
+            return
+        item = completed[idx]
+        self._show_edit_dialog(idx, item)
+
+    def _show_edit_dialog(self, sorted_index: int, item):
+        """Edit dialog for a completed log entry.
+
+        Buttons: Ändern, Löschen, Duplizieren, Abbrechen.
+        """
+        from models import CompletedItem
+
+        dlg = tk.Toplevel(self.root)
+        dlg.title("Eintrag bearbeiten")
+        dlg.configure(bg=COLOR_BG)
+        dlg.resizable(False, False)
+        dlg.grab_set()
+        dlg.minsize(width=520, height=0)
+
+        # ── Activity field ─────────────────────────────────────────────
+        tk.Label(
+            dlg, text="Bezeichnung:",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(anchor="w", padx=12, pady=(10, 2))
+
+        txt_var = tk.StringVar(value=item.activity)
+        txt_entry = tk.Entry(
+            dlg, textvariable=txt_var, font=("Segoe UI", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, insertbackground=COLOR_FG,
+            width=60
+        )
+        txt_entry.pack(anchor="w", padx=12, pady=(0, 2))
+        txt_entry.select_range(0, tk.END)
+        txt_entry.focus_set()
+
+        # ── Code suggestion row ────────────────────────────────────────
+        suggest_frame = tk.Frame(dlg, bg=COLOR_BG)
+        suggest_frame.pack(fill=tk.X, padx=12, pady=(0, 8))
+
+        lbl_suggest = tk.Label(
+            suggest_frame, text="",
+            font=("Segoe UI", 8), bg=COLOR_BG, fg="#a6e3a1",
+            anchor="w", wraplength=280
+        )
+        lbl_suggest.pack(side=tk.LEFT, fill=tk.X, expand=True)
+
+        btn_apply_name = tk.Button(
+            suggest_frame, text="  Name übernehmen  ",
+            font=("Segoe UI", 8), bg="#89b4fa", fg="#1e1e2e",
+            relief=tk.FLAT, cursor="hand2",
+            highlightthickness=2, highlightcolor="#f9e2af",
+            highlightbackground=COLOR_BG, takefocus=True
+        )
+        btn_apply_name.pack_forget()
+
+        btn_apply_code = tk.Button(
+            suggest_frame, text="  Code anfügen  ",
+            font=("Segoe UI", 8), bg="#45475a", fg=COLOR_FG,
+            relief=tk.FLAT, cursor="hand2",
+            highlightthickness=2, highlightcolor="#f9e2af",
+            highlightbackground=COLOR_BG, takefocus=True
+        )
+        btn_apply_code.pack_forget()
+
+        def _update_suggestion(*_args):
+            activity = txt_var.get().strip()
+            suggestions = self._code_suggestor.suggest(activity)
+            if not suggestions:
+                lbl_suggest.config(text="")
+                btn_apply_code.pack_forget()
+                btn_apply_name.pack_forget()
+                return
+            code, match_type, matched_name = suggestions[0]
+            if match_type == "existing":
+                lbl_suggest.config(
+                    text=f"✓ Code {code} erkannt", fg="#a6e3a1"
+                )
+                btn_apply_code.pack_forget()
+                btn_apply_name.pack_forget()
+            else:
+                quality = {
+                    "exact": "✓", "prefix": "≈",
+                    "alias": "✓", "contains": "?"
+                }.get(match_type, "?")
+                short_name = (matched_name[:50] + "…"
+                              if len(matched_name) > 50 else matched_name)
+                lbl_suggest.config(
+                    text=f"{quality} Vorschlag: {code} ({short_name})",
+                    fg="#a6e3a1" if match_type in ("exact", "alias")
+                    else "#f9e2af"
+                )
+                btn_apply_name.config(
+                    command=lambda c=code, n=matched_name:
+                        _apply_full_name(n, c)
+                )
+                btn_apply_name.pack(side=tk.RIGHT, padx=(4, 0))
+                btn_apply_code.config(
+                    command=lambda c=code: _apply_code(c)
+                )
+                btn_apply_code.pack(side=tk.RIGHT)
+
+        def _apply_full_name(name: str, code: str):
+            txt_var.set(f"{name} {code}")
+            txt_entry.icursor(tk.END)
+
+        def _apply_code(code: str):
+            current = txt_var.get().strip()
+            parts = current.rsplit(None, 1)
+            if (len(parts) == 2 and len(parts[1]) == 6
+                    and parts[1].isupper()):
+                txt_var.set(f"{parts[0]} {code}")
+            else:
+                txt_var.set(f"{current} {code}")
+            txt_entry.icursor(tk.END)
+
+        txt_var.trace_add("write", _update_suggestion)
+        if txt_var.get().strip():
+            _update_suggestion()
+
+        # ── Time fields ────────────────────────────────────────────────
+        now = datetime.now()
+
+        # Start time
+        start_frame = tk.Frame(dlg, bg=COLOR_BG)
+        start_frame.pack(fill=tk.X, padx=12, pady=(0, 4))
+
+        tk.Label(
+            start_frame, text="Begonnen um:",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(side=tk.LEFT)
+
+        start_h_var = tk.StringVar(value=f"{item.started_at.hour:02d}")
+        start_m_var = tk.StringVar(value=f"{item.started_at.minute:02d}")
+
+        tk.Spinbox(
+            start_frame, from_=0, to=23, width=3, format="%02.0f",
+            textvariable=start_h_var, font=("Consolas", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+        ).pack(side=tk.LEFT, padx=(8, 0))
+
+        tk.Label(
+            start_frame, text=":", font=("Consolas", 11),
+            bg=COLOR_BG, fg=COLOR_FG
+        ).pack(side=tk.LEFT)
+
+        tk.Spinbox(
+            start_frame, from_=0, to=59, width=3, format="%02.0f",
+            textvariable=start_m_var, font=("Consolas", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+        ).pack(side=tk.LEFT)
+
+        # End time
+        end_frame = tk.Frame(dlg, bg=COLOR_BG)
+        end_frame.pack(fill=tk.X, padx=12, pady=(0, 8))
+
+        tk.Label(
+            end_frame, text="Erledigt um:  ",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(side=tk.LEFT)
+
+        end_h_var = tk.StringVar(value=f"{item.completed_at.hour:02d}")
+        end_m_var = tk.StringVar(value=f"{item.completed_at.minute:02d}")
+
+        tk.Spinbox(
+            end_frame, from_=0, to=23, width=3, format="%02.0f",
+            textvariable=end_h_var, font=("Consolas", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+        ).pack(side=tk.LEFT, padx=(8, 0))
+
+        tk.Label(
+            end_frame, text=":", font=("Consolas", 11),
+            bg=COLOR_BG, fg=COLOR_FG
+        ).pack(side=tk.LEFT)
+
+        tk.Spinbox(
+            end_frame, from_=0, to=59, width=3, format="%02.0f",
+            textvariable=end_m_var, font=("Consolas", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+        ).pack(side=tk.LEFT)
+
+        # ── Comment field ──────────────────────────────────────────────
+        tk.Label(
+            dlg, text="Kommentar (optional):",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(anchor="w", padx=12, pady=(4, 2))
+
+        comment_var = tk.StringVar(value=item.comment)
+        comment_entry = tk.Entry(
+            dlg, textvariable=comment_var,
+            font=("Segoe UI", 10),
+            bg=COLOR_LIST, fg=COLOR_FG, insertbackground=COLOR_FG,
+            width=60
+        )
+        comment_entry.pack(padx=12, pady=(0, 8))
+
+        # ── Validation label ───────────────────────────────────────────
+        lbl_error = tk.Label(
+            dlg, text="", font=("Segoe UI", 9, "bold"),
+            bg=COLOR_BG, fg=COLOR_SKIP
+        )
+        lbl_error.pack(padx=12)
+
+        # ── Helper: parse times from spinboxes ─────────────────────────
+        def _parse_times():
+            """Parse start/end times. Returns (start_dt, end_dt) or None on error."""
+            try:
+                sh = int(start_h_var.get())
+                sm = int(start_m_var.get())
+                start_dt = item.started_at.replace(
+                    hour=sh, minute=sm, second=0, microsecond=0)
+            except ValueError:
+                lbl_error.config(text="⚠ Ungültige Startzeit!")
+                return None
+            try:
+                eh = int(end_h_var.get())
+                em = int(end_m_var.get())
+                end_dt = item.completed_at.replace(
+                    hour=eh, minute=em, second=0, microsecond=0)
+            except ValueError:
+                lbl_error.config(text="⚠ Ungültige Endzeit!")
+                return None
+            if end_dt < start_dt:
+                lbl_error.config(
+                    text="⚠ Ende darf nicht vor dem Beginn liegen!")
+                return None
+            return start_dt, end_dt
+
+        # ── Buttons ────────────────────────────────────────────────────
+        btn_frame = tk.Frame(dlg, bg=COLOR_BG)
+        btn_frame.pack(pady=(4, 12))
+
+        def on_update():
+            """Ändern — overwrite existing entry."""
+            activity = txt_var.get().strip()
+            if not activity:
+                lbl_error.config(
+                    text="⚠ Bezeichnung darf nicht leer sein!")
+                return
+            times = _parse_times()
+            if times is None:
+                return
+            start_dt, end_dt = times
+            minutes = int((end_dt - start_dt).total_seconds() / 60)
+            comment = comment_var.get().strip()
+            dlg.destroy()
+            self.engine.update_log_entry(
+                sorted_index, activity=activity,
+                list_name=item.list_name, priority=item.priority,
+                minutes=minutes, started_at=start_dt,
+                completed_at=end_dt, skipped=item.skipped,
+                original_activity=item.original_activity,
+                comment=comment)
+            self._code_suggestor.learn(activity)
+            self._refresh()
+
+        def on_delete():
+            """Löschen — remove entry."""
+            name = _strip_task_code(item.activity)
+            start_str = item.started_at.strftime('%H:%M')
+            end_str = item.completed_at.strftime('%H:%M')
+            answer = messagebox.askyesno(
+                "Eintrag löschen",
+                f"Eintrag '{name}' [{start_str}\u2013{end_str}] "
+                f"wirklich löschen?",
+                parent=dlg, icon="warning"
+            )
+            if answer:
+                dlg.destroy()
+                self.engine.delete_log_entry(sorted_index)
+                self._refresh()
+
+        def on_duplicate():
+            """Duplizieren — save as new entry with (possibly modified) values."""
+            activity = txt_var.get().strip()
+            if not activity:
+                lbl_error.config(
+                    text="⚠ Bezeichnung darf nicht leer sein!")
+                return
+            times = _parse_times()
+            if times is None:
+                return
+            start_dt, end_dt = times
+            minutes = int((end_dt - start_dt).total_seconds() / 60)
+            comment = comment_var.get().strip()
+            dlg.destroy()
+            self.engine.duplicate_log_entry(
+                activity=activity, list_name=item.list_name,
+                priority=item.priority, minutes=minutes,
+                started_at=start_dt, completed_at=end_dt,
+                skipped=item.skipped,
+                original_activity=item.original_activity,
+                comment=comment)
+            self._code_suggestor.learn(activity)
+            self._refresh()
+
+        def on_cancel():
+            dlg.destroy()
+
+        tk.Button(
+            btn_frame, text="  ✓ Ändern  ",
+            font=("Segoe UI", 11, "bold"),
+            bg=COLOR_DONE, fg="#1e1e2e", relief=tk.FLAT,
+            cursor="hand2", command=on_update
+        ).pack(side=tk.LEFT, padx=4)
+
+        tk.Button(
+            btn_frame, text="  🗑 Löschen  ",
+            font=("Segoe UI", 11, "bold"),
+            bg=COLOR_SKIP, fg="#1e1e2e", relief=tk.FLAT,
+            cursor="hand2", command=on_delete
+        ).pack(side=tk.LEFT, padx=4)
+
+        tk.Button(
+            btn_frame, text="  📋 Duplizieren  ",
+            font=("Segoe UI", 11, "bold"),
+            bg=COLOR_ACCENT, fg="#1e1e2e", relief=tk.FLAT,
+            cursor="hand2", command=on_duplicate
+        ).pack(side=tk.LEFT, padx=4)
+
+        tk.Button(
+            btn_frame, text="  Abbrechen  ",
+            font=("Segoe UI", 11),
+            bg=COLOR_BTN, fg=COLOR_FG, relief=tk.FLAT,
+            cursor="hand2", command=on_cancel
+        ).pack(side=tk.LEFT, padx=4)
+
+        # Keyboard shortcuts
+        def _on_return(event):
+            w = event.widget
+            if isinstance(w, tk.Button):
+                w.invoke()
+            else:
+                on_update()
+
+        dlg.bind("<Return>", _on_return)
+        dlg.bind("<Escape>", lambda e: on_cancel())
+
+        # Center on parent
+        dlg.update_idletasks()
+        x = (self.root.winfo_x()
+             + (self.root.winfo_width() - dlg.winfo_width()) // 2)
+        y = (self.root.winfo_y()
+             + (self.root.winfo_height() - dlg.winfo_height()) // 2)
+        dlg.geometry(f"+{x}+{y}")
+
     def _on_close(self):
         """Handle window close — prompt to save if there are unsaved changes."""
         if self.engine.unsaved_changes:
@@ -1225,6 +1665,12 @@ class PlannerGUI:
             if answer:
                 path = self.engine.save_log()
                 print(f"[Planer] Log gespeichert: {path}")
+        # Stop window monitor cleanly
+        if self._window_monitor is not None:
+            try:
+                self._window_monitor.stop()
+            except Exception:
+                pass
         self.root.destroy()
 
     def _on_save_log(self):

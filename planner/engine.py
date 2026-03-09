@@ -1198,6 +1198,66 @@ class PlannerEngine:
             comment=comment,
         ))
 
+    def delete_log_entry(self, sorted_index: int) -> bool:
+        """Delete a log entry by its index in the sorted (by started_at) log.
+
+        Removes from in-memory log and rewrites the JSON file.
+        Returns True on success, False if index is out of range.
+        """
+        sorted_log = sorted(self.log, key=lambda c: c.started_at)
+        if sorted_index < 0 or sorted_index >= len(sorted_log):
+            return False
+        target = sorted_log[sorted_index]
+        self.log.remove(target)
+        self._unsaved = True
+        return True
+
+    def update_log_entry(self, sorted_index: int,
+                         activity: str, list_name: str,
+                         priority: float, minutes: int,
+                         started_at: datetime, completed_at: datetime,
+                         skipped: bool, original_activity: str = "",
+                         comment: str = "") -> bool:
+        """Update a log entry in-place by its index in the sorted log.
+
+        Rewrites the JSON file after updating.
+        Returns True on success, False if index is out of range.
+        """
+        sorted_log = sorted(self.log, key=lambda c: c.started_at)
+        if sorted_index < 0 or sorted_index >= len(sorted_log):
+            return False
+        target = sorted_log[sorted_index]
+        target.activity = activity
+        target.list_name = list_name
+        target.priority = priority
+        target.minutes = minutes
+        target.started_at = started_at
+        target.completed_at = completed_at
+        target.skipped = skipped
+        target.original_activity = original_activity
+        target.comment = comment
+        self._unsaved = True
+        return True
+
+    def duplicate_log_entry(self, activity: str, list_name: str,
+                            priority: float, minutes: int,
+                            started_at: datetime, completed_at: datetime,
+                            skipped: bool, original_activity: str = "",
+                            comment: str = ""):
+        """Add a new log entry (used for duplicating an existing one)."""
+        self._unsaved = True
+        self.log.append(CompletedItem(
+            activity=activity,
+            list_name=list_name,
+            priority=priority,
+            minutes=minutes,
+            started_at=started_at,
+            completed_at=completed_at,
+            skipped=skipped,
+            original_activity=original_activity,
+            comment=comment,
+        ))
+
     def _record_raw(self, activity: str, list_name: str, priority: float,
                     minutes: int, started_at: datetime,
                     completed_at: datetime, skipped: bool,
