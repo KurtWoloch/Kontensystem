@@ -1,0 +1,166 @@
+=================================================================
+  TAGESBERICHT — 2026-03-05
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      101
+  Geplante Gesamtzeit:         14h 26m
+
+  ✓ Erledigt (geplant):       48  (    4h 42m)  = 32.6%
+  ⏭ Übersprungen:             27  (    6h 32m)  = 45.3%
+  ✗ Nicht erreicht:           26  (    3h 12m)  = 22.2%
+
+  📝 Ungeplante Aktivitäten:  29  (    8h 31m)
+  ⏱  Tatsächliche Arbeitszeit:     5h 09m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Mailprüfung INMAPR                    08:51     20:36 +11h 45m
+  Mailprüfung INMAPR (Fs.)              09:00     20:36 +11h 36m
+  Prüfung Bewässerung Terrasse WFTEBE   09:01     20:36 +11h 35m
+  Prüfung Bewässerung Terrasse WFTEBE   09:07     20:36 +11h 29m
+  Bearb. Liste auswendig singbarer Ti   09:10     20:39 +11h 29m
+  Blutdruck messen GEBMBM               09:49     12:41  +2h 52m
+  Bearb. Essensplan (gegessen, zu ess   10:24     12:58  +2h 34m
+  Mund spülen LEMTMS                    09:03     10:50  +1h 47m
+  Häferl waschen / Hustenbonbon fasse   09:05     10:51  +1h 46m
+  WC BREPWC                             14:21     12:47  -1h 34m
+  Geschirr abwaschen LEMEGA             14:16     15:43  +1h 27m
+  Bearb. Essensplan (gegessen, zu ess   07:03     08:25  +1h 22m
+  Vorbereitung Playlist für Singen un   07:07     08:28  +1h 21m
+  Ausputzen Rasierer LEMTAR             07:33     08:51  +1h 18m
+  Termine in Kalender prüfen LEMTTP     08:50     10:08  +1h 18m
+  ... und 33 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb.Ohrwürmer(durchgenommen) MUOWDU
+    Grund: nichts durchgenommen (keine offenen vorhanden)
+  ⏭ Anziehen LEMTAN
+    Grund: wurde versehentlich vor Einschmieren erledigt
+  ⏭ Jause fassen LEMTJF
+    Grund: schon erledigt
+  ⏭ Teller waschen / Getränk fassen LEMTTW
+    Grund: zu Morgentoilette nicht mehr nötig
+  ⏭ Bearb. Essensplan (gegessen / Lokalsuche / Ko
+    Grund: schon vorhin durchgeführt
+  ⏭ Mittagessen (?)
+    Grund: schon erfasst
+  ⏭ Nachmittagsjause fassen LENAJA
+    Grund: heute nichts eingekauft
+  ⏭ Teller waschen / Getränk + Biovital fassen LE
+    Grund: während Arbeitszeit erledigt
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft
+  ⏭ Ansehen ZiB 1 + Wetter RATVZI
+    Grund: heute nicht angesehen, da noch Teleworking
+  ⏭ Teller waschen / Getränk + Medikament fassen 
+    Grund: schon durchgeführt
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: noch nichts durchzunehmen
+  ⏭ PC herunterfahren PCHFAR
+    Grund: wird nicht heruntergefahren, weil RW-KI weiterläuft
+  ⏭ Start Teleworking BRZG BRTWGF
+    Grund: wurde schon eingetragen
+  ⏭ Abhalten BKDD Standup Meeting BREPGM
+    Grund: wurde schon eingetragen
+  ⏭ Planung BRZ BREPGM
+    Grund: wurde schon eingetragn
+  ⏭ Arbeitszeit absolvieren (Vormittag) BREPDZ
+    Grund: wurde schon eingetragen
+  ⏭ WC BREPWC
+    Grund: wurde schon eingetragen
+  ⏭ Arbeitszeit absolvieren (Nachmittag) BREPDZ
+    Grund: wurde schon eingetragen
+  ⏭ Zeiten sammeln BREPZS
+    Grund: wurde schon eingetragen
+  ⏭ Eingabe Zeiterfassung SAP BREPZE
+    Grund: wurde schon eingetragen
+  ⏭ Eingabe Teleworking SAP BREPZE
+    Grund: wurde schon eingetragen
+  ⏭ Abschluss BRALAB
+    Grund: wurde schon eingetragen
+  ⏭ WC BRALWC
+    Grund: muss im Moment nicht
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: nichts durchzunehmen
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: nichts durchzunehmen
+  ⏭ PC herunterfahren LEAZHF
+    Grund: wird nicht heruntergefahren (RW-KI läuft weiter)
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 07:04–07:27  Verbesserung Tagesplaner mit OpenClaw  — unterbrochen von WC
+  📝 07:27–07:29  Rasieren
+  📝 07:29–08:07  Erweiterung Tagesplanung mit OpenClaw
+  📝 08:09–08:23  Erweiterung Tagesplaner mit OpenClaw
+  📝 08:23–08:25  Wasser fassen
+  📝 09:18–09:21  Anziehen LEMTAN
+  📝 09:49–09:59  Arbeit mit OpenClaw an Moltbook-Bug (New
+  📝 09:59–10:03  Arbeit mit OpenClaw an Planner
+  📝 10:03–10:05  Scan Radio Arabella
+  📝 10:05–10:07  Planung KSPLPL
+  📝 10:07–10:08  Scan Radio Arabella RASCRA
+  📝 10:09–10:10  Planung KSPLPL
+  📝 10:10–10:22  Begutachtung Tagesbericht / Vorschläge a
+  📝 10:22–10:24  Scan Radio Arabella
+  📝 10:24–10:50  Arbeit an Dokumentation u.a. mit OpenCla
+  📝 10:56–11:00  Jause fassen LEMTJF  — nur Getränk
+  📝 11:14–12:03  Weiterentwicklung Planungstool mit OpenC
+  📝 12:39–12:47  Nacherfassung Aufwand
+  📝 12:51–12:58  Bearb. Essensplan (gegessen / Lokalsuche  — -> Pizzeria Dominous, Pizza Frutti di mare + Eistee (Händlerangebote aktualisieren!), nichts einzukaufen (Pumpernickel spreizen, Holundersirup fehlt)
+  📝 13:03–13:38  Arbeit an Tagesplanung KSPLEN  — Vorschläge zur Verarbeitung der Dokumentationen und Korrektur Kontenkürzel
+  📝 13:38–13:41  WC LEMTWC
+  📝 13:50–14:45  Mittagessen (Pizzeria Dominous)  — Ausgaben: Pizza Frutti di Mare + Realmix Eistee = € 10,- (?!) + Tg. = € 11,-
+  📝 15:17–15:43  Entwickllung Tagesplanung mit OpenClaw (
+  📝 13:41–15:50  Planung / Begutachtung Doc_Ref_Report KS
+  📝 15:45–15:57  Bearb. Tagesplan (Cross-Referencing undo  — längste Aktivitiät = Arbeit im / für BRZ
+  📝 15:57–16:06  Nacherfassung Ablauf KSPLNA
+  📝 16:10–16:15  Einplanung Dokumentenreview BRZG KSBRDR  — Dokumentenreview ist selbst ungeplant
+  📝 19:44–20:00  Planung: Lesen Report Unterschied KS-Dok  — keine Unterschiede, was Planung betrifft
+  📝 20:15–20:26  Nacherfassung Ablauf KSPLNA
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 09:15  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (5m)
+  ✗ 09:26  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (5m)
+  ✗ 09:31  Bearb. Liste Scooterfahrten FZSCLI  (9m)
+  ✗ 09:40  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 09:44  Bearbeitung Aufgaben zu Papa's Pflege (1  (5m)
+  ✗ 09:51  Bearbeitung Aufgaben zu Papa's Pflege (1  (5m)
+  ✗ 09:56  Bearb. Geldbörse FIBGGB  (4m)
+  ✗ 10:08  Bearb. Geldbörse FIBGGB (Fs.)  (6m)
+  ✗ 10:14  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 10:20  Bearbeitung Buch Champion's Mindset GELI  (4m)
+  ✗ 17:42  Bearbeitung Buch Champion's Mindset GELI  (7m)
+  ✗ 17:49  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 17:59  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 18:08  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 18:17  Bearbeitung Börsenkurse / Aktienhandel F  (10m)
+  ✗ 18:27  Spielen Kreuzungs-FGPA  (10m)
+  ✗ 18:37  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 18:48  Erstellung Playback mit Vocal Remover  (5m)
+  ✗ 18:53  Aufräumen WFARAR  (11m)
+  ✗ 19:04  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 19:13  Papiersortierung (gelesene Werbeprospekt  (9m)
+  ✗ 19:22  WC MTMTWC  (8m)
+  ✗ 19:32  WC MTMTWC (Fs.)  (1m)
+  ✗ 19:37  Analyse Disassembly Astro Bomber CSGAUM  (10m)
+  ✗ 20:47  Korrektur The Grindy Adventure CSGAUM  (10m)
+  ✗ 21:57  Analyse Disassembly Tour de France CSGAU  (10m)
+
+=================================================================

@@ -1,0 +1,472 @@
+================================================================================
+KONTENSYSTEM DOKUMENTATION - VERSIONSVERGLEICH
+DOC038/DOC040 (Version 8.9.27 = 27. September 2008)
+vs.
+DOC039 (Version 14.8.6 = 6. August 2014)
+Erstellt: 2026-03-05
+================================================================================
+
+## VORAB: DOC038 vs. DOC040
+DOC038 und DOC040 sind byte-identisch (MD5: C44786CE902AAEF37126164304E9A251).
+Gleiche Dateigröße: 38.534 Bytes. → Im Folgenden wird nur die 2008-Version als
+Referenz verwendet.
+
+================================================================================
+1. DOKUMENT-ÜBERBLICK
+================================================================================
+
+2008-Version (8.9.27):
+  - Umfang: ~38.534 Bytes
+  - Datum: 27.9.2008
+  - Letzter inhaltlicher Bezug: Änderung 29.9.2008
+  - Stundensatz BRZ: €14,30 (2008)
+  - Spaßpunkt-Wert: €10,10/Punkt (seit Anfang 2002)
+
+2014-Version (14.8.6):
+  - Umfang: ~35.730 Bytes (etwas kürzer durch Vereinfachungen)
+  - Datum: 7.8.2014 (Titelseite), Stand August 2014
+  - Nota bene: "im August 2014 stark modifiziert"
+  - Spaßpunkt-Wert: €10,10 (1. Hj. 2013) → voraussichtlich €12-13 (2. Hj. 2013)
+
+================================================================================
+2. INHALTSVERZEICHNIS - VERGLEICH
+================================================================================
+
+BEIDE Versionen haben folgende Abschnitte (gleiche Struktur):
+  - Einleitung (Wie ist es zu dem Projekt gekommen?)
+  - Grundfunktionen und Herkunft
+  - Funktion des Kontensystems im Detail
+    - Aufwandserfassung und Abrechnung der Aktionen
+    - Regeln zum Anlegen der Buchungen
+    - Sonderereignisse in der Abrechnung
+    - Quartalsabrechnung
+    - Halbmonatliche und monatliche Abrechnungen
+  - Wunschliste
+    - Ausprägung und Bearbeitung
+  - Prioritätsliste
+    - Erstellung
+    - Verwendung (Zeitplanung)
+    - Gewünschte Extrastunden
+  - Abrechnungsregeln für spezielle Berechnungsfälle
+    - Geschenke
+  - Businessplan
+    - Einnahmen und Ausgaben pro Jahr
+  - Regelungen zur Vermeidung von zu großem Aufwand
+  - Dinge, die für das Kontensystem verwendet werden
+
+NUR IN 2008-Version vorhanden:
+  - "Herzensgut-Konto (Kürzel HG)" [als eigener Abschnitt mit "Synergieeffekte
+    und Fahrtkosten" kombiniert]
+  - Detaillierte anteilige Mietzahlungen
+  - Businessplan-Schätzung für 2007
+
+NUR IN 2014-Version vorhanden:
+  - "Urheberrechts-Konto (Kürzel UR)" [ersetzt Herzensgut]
+  - "Abrechnung von Fahrtkosten" [jetzt eigener Abschnitt]
+  - Konto-Lifecycle-Regeln (Auflösung von Konten)
+
+================================================================================
+3. KERNÄNDERUNG: DAS SPASSWERT-SYSTEM (FUNDAMENTAL GEÄNDERT)
+================================================================================
+
+2008-VERSION:
+  - Spaßpunkte sind "Erlebnispunkte"
+  - Additive Messung: +1 Punkt pro positivem Erlebnis, Abzüge für negative
+  - Stimmungspunkte pro Stunde möglich
+  - Wert: €10,10/Spaßpunkt (seit Anfang 2002, Ausnahme: €9,90 für
+    Literaturgesellschaft beim Lesen während der Fahrt)
+  - Profitabilität gemessen als E/A-Verhältnis (Einnahmen / Ausgaben)
+    → >1,0 = gewinnbringend
+
+2014-VERSION (STARK MODIFIZIERT):
+  - Spaßpunkte auf einer SKALA VON -10 BIS +10
+  - 0 = Neutralwert (weder positiv noch negativ)
+  - Neutralwert deckt Fixkosten ab (Wohnung, Strom, Grundgebühren)
+  - Wert eines Spaßpunkts: geschätzt €12-13 (August 2014)
+  - Berechnung: Spaßwert × Dauer × Wert/Punkt = Gewinn oder Verlust
+  - Profitabilität wird als Spaßwert (Position auf der -10/+10-Skala) gemessen,
+    NICHT mehr als E/A-Verhältnis
+  - Bei Karaoke-Lokalbesuchen: "Netto-Spaßwert" = (Spaßgewinn - Barspesen) /
+    Spaßpunktwert / Stunden → wieder zwischen -10 und +10
+
+BEDEUTUNG:
+  Diese Änderung ist fundamental. Die gesamte Bewertungslogik hat sich von einem
+  buchhalterischen E/A-Verhältnis zu einer hedonischen Skala verschoben. Die
+  Neutralität (0) ist der neue Basiszustand; nur Aktionen mit Barspesen müssen
+  darüber hereinkommen. Arbeitszeit ist KEIN Kostenfaktor mehr in der
+  primären Abrechnung.
+
+================================================================================
+4. ARBEITSZEIT - RADIKAL GEÄNDERT
+================================================================================
+
+2008-VERSION:
+  - Arbeitszeit ist UNIVERSELLSTE Buchungskategorie
+  - Stundensatz: aus BRZ-Nettoeinkommen abgeleitet
+    → 2006: €13,70/h; 2007: €14,00/h; 2008: €14,30/h
+  - Logik: "ich möchte nicht schlechter stehen als bei BRZ-Überstunden"
+  - Buchungskategorien: Spaßwerte, Bareinnahmen, Gutbuchungen, Lastschriften,
+    Barspesen, **ARBEITSZEIT**
+
+2014-VERSION:
+  - ARBEITSZEIT FEHLT IN DER BUCHUNGSKATEGORIENLISTE
+  - Buchungskategorien: Gut-/Abbuchungen Spaßwerte, Bareinnahmen, Gutbuchungen,
+    Lastschriften, Barspesen → KEIN "Arbeitszeit" mehr
+  - Der universellste Satz ist jetzt der SPASSPUNKT (nicht mehr Arbeitszeit)
+  - BRZ, Lebenserhaltung, Gesundheit: werden zwar zeitlich erfasst, aber NICHT
+    abgerechnet ("Diese werden zwar in ihrer Dauer ungefähr in der
+    Aufwandserfassung erfasst, aber nicht abgerechnet.")
+
+BEDEUTUNG:
+  Die Selbstverrechnnung von Arbeitszeit als Kostenfaktor wurde aufgegeben.
+  Das neue System betrachtet Zeit als "neutral" (Spaßwert 0), solange keine
+  echten Barspesen anfallen. Das ist eine drastische Vereinfachung.
+
+================================================================================
+5. PRIORITÄTSLISTE - GEÄNDERTE FELDER
+================================================================================
+
+2008-VERSION (Tab_Gewinnaktionen):
+  - Kontoküzrel, Aktionsname, Aktionsdatum
+  - Einnahmen (absolut)
+  - Ausgaben (absolut)
+  - Verhältnis (Einnahmen / Ausgaben)
+  - Verhältnis gleichartige Aktion (0-100%)
+  - Anmerkung, Angebot_moeglich, Attraktivitaet_gleitend
+
+2014-VERSION (Tab_Gewinnaktionen):
+  - Kontoküzrel, Aktionsname, Aktionsdatum
+  - **NEU:** Dauer (geschätzte Dauer in Stunden)
+  - **NEU:** Spaßwert (Spaßpunkte pro Stunde über Neutralwert, -10 bis +10)
+  - **GEÄNDERT:** Ausgaben (jetzt pro Stunde, nicht absolut)
+  - **NEU:** Konsolidierter Spaßwert (Spaßwert minus Ausgaben/Spaßpunktwert/Dauer)
+  - Verhältnis gleichartige Aktion (0-100%)
+  - Anmerkung, Angebot_moeglich, Attraktivitaet_gleitend
+  - (ENTFERNT: Einnahmen, Verhältnis als E/A-Quoten)
+
+Prioritätsformel:
+  - Formel selbst identisch: ([Ausdr1]+2)/([Ausdr1]+4)*100
+  - 2008: Ausdr1 = aus E/A-Verhältnis (Verhältnis=1 → 20 Punkte, Verhältnis=2 → 40)
+  - 2014: Ausdr1 = aus Spaßwert (Spaßwert=0 → 20 Punkte, Spaßwert=+2 → 40,
+    Spaßwert=-2 → 0)
+
+================================================================================
+6. HERZENSGUT → URHEBERRECHTSKONTO (KONTONAMEN/-ZWECK GEÄNDERT)
+================================================================================
+
+2008-VERSION: Herzensgut-Konto (HG)
+  - Zweck: Ausgleich für Situationen, wo Kurt "zu viel herausnimmt"
+  - Befüllung: Synergieeffekte, Regelbrüche (werden "herzensgut-neutral"
+    abgerechnet)
+  - 50%-Regel für Geldgeschenke: 50% → Schenkerkonto, 50% → Herzensgut
+  - Verwendet für: Aktionen für andere Leute, Wiedergutmachung bei
+    Missgeschicken oder wenn jemand Kurt hereingelegt hat
+
+2014-VERSION: Urheberrechtskonto (UR)
+  - Umbenennung von HG zu UR per Ende 2013
+  - Zweck: Spezifisch für Urheberrechtsverletzungen
+  - Befüllung: Wenn Kurt Inhalte aus dem Internet oder von Freunden kopiert:
+    → €1,00 pro Musiktitel
+    → €2,50 pro Karaoke-Titel
+    → €9,00 pro ganzes Album
+  - Tarife werden mit Halbjahresabschluss 1. Hj. 2013 neu festgesetzt
+  - Zweck auch: Ausgleich für misslungene Aktionen, für nicht bezahlte Aufträge
+    (dann soll Material öffentlich zugänglich gemacht werden)
+  - Die "50%-Geldgeschenke-Regel" gibt es nicht mehr
+
+================================================================================
+7. GESCHENKE - VEREINFACHT
+================================================================================
+
+2008-VERSION (komplex):
+  - Nicht gewünschte Geschenke: komplexe Workflow-Schätzung des Wertes
+  - Geldgeschenke: 50% → Schenkerkonto, 50% → Herzensgut
+  - Gewünschte Dinge: nur Beschaffungskosten verrechnen, mit Abschlägen
+  - Bestimmte Nachteile (Auskunftspflicht, nicht ganz dem Wunsch entsprechend)
+    → individuelle Abschläge
+
+2014-VERSION (einfach):
+  - Grundregel: "Geschenke müssen sich nicht rechnen"
+  - Keine Aufnahme als Investitionssumme in ein Konto
+  - Geldgeschenke → neues Konto "Geldgeschenke", von dem künftige Käufe bezahlt
+    werden. Keine Obligationspflicht. Bar-Wert muss nicht hereinkommen.
+  - Aber: Einrichtungsaufwand (z.B. Einspielen von Karaoke-Discs) KANN als
+    Investition verbucht werden, wenn das Geschenk gewünscht war.
+  - Sonderfall: Wenn Geschenk eigentlich verdeckte Arbeit für den Schenker ist
+    → dann trotzdem Rentabilitätsrechnung.
+  - Mama-Notiz: "ich habe mittlerweile Mama's Forderung, dass sich Geschenke
+    nicht rechnen müssen, angenommen." (persönliche Entwicklung dokumentiert)
+
+================================================================================
+8. SYNERGIEEFFEKTE - SEKTION ENTFERNT
+================================================================================
+
+2008-VERSION:
+  - Eigene Sektion "Synergieeffekte und Fahrtkosten"
+  - Bei nicht geplanten Synergieeffekten: Gutschriften ans Herzensgut-Konto
+  - Beispiel: BRZ-Heimweg + Einkauf → Synergievorteil → ans Herzensgut
+  - Ausnahme: Synergien innerhalb eines Kontos → normal, kein Herzensgut
+
+2014-VERSION:
+  - Synergieeffekte-Regeln ENTFERNT (kein Herzensgut mehr → keine Pflicht)
+  - Fahrtkosten als eigener Abschnitt herausgelöst, mit ergänzter Regelung:
+    "Diese Fahrscheinkosten werden dem BRZ-Konto gutgeschrieben" (BRZ-Konto
+    besitzt und finanziert die Jahreskarte der WVB)
+  - Tarif aktualisiert: €2,00 → €2,30 pro Fahrt
+
+================================================================================
+9. AUFWANDSERFASSUNG - ERWEITERT
+================================================================================
+
+2008-VERSION:
+  - Pro Aktion: Startdatum/-zeit, Enddatum/-zeit, Konto, Aktionsname
+  - Zeitdauer wird automatisch berechnet
+  - ~20 Aktionen pro Tag
+  - Window Logger seit September 2008
+
+2014-VERSION:
+  - Pro Aktion: Startdatum/-zeit, Enddatum/-zeit, Konto, Aktionsname,
+    **NEU: Spaßwert auf der Skala von -10 bis 10**
+  - Zeitdauer wird automatisch berechnet
+  - ~20-30 Aktionen pro Tag (Steigerung!)
+  - Window Logger "wenn ich zu Hause am PC arbeite" (qualifier hinzugefügt)
+
+================================================================================
+10. HALBJÄHRLICHE/MONATLICHE ABRECHNUNGEN - GEÄNDERT
+================================================================================
+
+2008-VERSION (Pflichten zum 15. und Monatsletzten):
+  - CD+G-Konto: Abrechnung Spaß beim Support des Autorensystems per E-Mail
+  - Radio Würmchen: Tantiemen für Radio-Würmchen-Einspielungen
+  - Wohnungsverwaltung: Wohnungszahlungen (halbmonatlich)
+  - Eltern: Gebühren (monatlich)
+  - Radio Würmchen: andere Gebühren
+  - Lebenserhaltung: Lebenserhaltungszuschuss (halbmonatlich)
+  - Gesundheitskonto: Gesundheitszuschuss (halbmonatlich)
+  - Karaoke-Video-Kredit: Rückzahlung (monatlich)
+  - Tonträgerkreditl: Rückzahlung (gerade Monate)
+
+2014-VERSION (vereinfacht):
+  - E-Mails allgemein: "Abrechnung des Spaßes beim Schreiben diverser E-Mails
+    (da dies manchmal in der Aufwandserfassung vergessen wird)"
+  - Wohnungsverwaltung: Wohnungszahlungen (halbmonatlich)
+  - Eltern: Gebühren (monatlich)
+  - Radio Würmchen: andere Gebühren
+  - (ENTFERNT: CD+G-Konto, Lebenserhaltungszuschuss, Gesundheitszuschuss,
+    Karaoke-Video-Kredit, Tonträgerkredit)
+
+================================================================================
+11. QUARTALSABRECHNUNG - GEÄNDERTE ZINSSÄTZE
+================================================================================
+
+2008-VERSION:
+  - Sollzinsen: 4,5% p.a.
+  - Guthabenzinsen: 3,9% p.a. (nur für Betrag über €14.840)
+  - Komplexe gestaffelte Kontof ühr ungsgebühren:
+    → Nur-Buchungs-Gebühr, Kombination aus Stückgebühr + Grundgebühr,
+       Buchungspauschale für buchungsintensive Konten
+  - Nach Vorbild BA-CA
+
+2014-VERSION:
+  - Sollzinsen: 6% p.a. (erhöht!)
+  - Keine Guthabenzinssatz-Angabe
+  - Neue Gebührenstruktur:
+    → Gebühr pro Buchung
+    → pauschale Quartalsgebühr pro Konto
+    → **NEU: Gebühr pro Stunde Aufwandserfassung**
+  - Nur für Konten "deren Aktionen abgerechnet werden" (schränkt Scope ein)
+
+================================================================================
+12. BUSINESSPLAN - SKALENWACHSTUM 2005 → 2012
+================================================================================
+
+2008-VERSION (Basis: 2005):
+  - Buchungen: 3.797 à €0,156 = €592,33
+  - Buchungen unter 5 (Konten ohne KF-Gebühr): 122 à €1,175 = €143,35
+  - Buchungspauschalen: 25 à €23,51 = €587,75
+  - Kontof ühr ungsgebühren: 55 à €11,21 = €616,55
+  - Gesamteinnahmen Buchungen: €1.939,98
+  - Zinsgewinne: €1.735,68
+  - Gesamteinnahmen: €3.675,66
+  - Ausgaben: 457,98h × €14,- = €6.411,72
+  - Einnahmendeckung: 57,3%
+  - Schätzung 2007 (bei +20% Einnahmen, 48min/Tag): ~1,006 E/A
+
+2014-VERSION (Basis: 2012):
+  - Buchungen: 13.879 à €0,14 = €1.943,06 (+265% Buchungsvolumen!)
+  - Kontof ühr ungsgebühren: 116 à €6,- = €696,-
+  - **NEU: Aufwandserfassung**: 4.477,03h × €0,43 = €1.925,12
+  - Gesamteinnahmen Buchungen: €4.564,18
+  - Zinsgewinne: €2.906,72
+  - Gesamteinnahmen: €7.470,90
+  - Ausgaben Arbeitszeit: €6.428,04 + sonstige €2.068,13 = €8.496,17
+  - Verlust: €-1.025,27
+  - Einnahmendeckung: 86,3%
+  - Anmerkung: Schlechtes Jahr wegen Aufholung von Rückständen
+
+================================================================================
+13. KONTOLEBENSZYKLUS - NEUE REGELUNG IN 2014
+================================================================================
+
+NUR IN 2014-VERSION:
+  - Konten sollen nur so lange aufrechterhalten werden wie nötig
+  - Geräteschuld-Konten: werden aufgelöst, sobald sich Gerät gerechnet hat
+    (geschenkte Geräte: gar nicht erst anlegen)
+  - Personenkonten: auflösen wenn keine weiteren Einnahmen/Ausgaben erwartet
+  - Providcenter: gleiche Regel
+  - Investitionen, die offensichtlich nicht hereinkommen: abschreiben
+  - Dasselbe für nicht bezahlte Aufträge
+  - "Wie dies geschieht, ist im Einzelfall zu entscheiden"
+
+================================================================================
+14. URFORM DER KONTENSYSTEMS-Geschichte - ERGÄNZT
+================================================================================
+
+2008-VERSION:
+  - Urform: Schul-Liste für ausgeborgtes Geld von Klassenkameraden
+
+2014-VERSION (ergänzt):
+  - Tatsächlich noch früher: Liste der Einnahmen/Ausgaben in der Geldbörse
+  - Dann erst: Schul-Liste für ausgeborgtes Geld
+  - (Präzisere historische Darstellung)
+
+================================================================================
+15. PERSONENKONTEN / ELTERN - AKTUALISIERT
+================================================================================
+
+2008-VERSION:
+  - Eltern-Konto: Gegenwert der Geschenke gutgeschrieben, dann Karaoke-Anteile
+    abgebucht
+  - Noch keine Mama-Einigung dokumentiert
+
+2014-VERSION (ergänzt):
+  - "ich habe mittlerweile Mama's Forderung, dass sich Geschenke nicht rechnen
+    müssen, angenommen"
+  - Eltern bekommen weiterhin Gutschriften für: Mittagessen, Mama's
+    Haushalt stätigkeiten in Kurts Wohnung
+  - Von diesen Gutschriften werden Heimkaraoke-Beträge abgebucht
+
+================================================================================
+16. WOHNUNGSMIETE-BERECHNUNG - VEREINFACHT
+================================================================================
+
+2008-VERSION:
+  - Detaillierte anteilige Mietberechnung für Kontensystem-Material:
+    → 1 Ordner = €9/Jahr
+    → 2 Stöße in Kommode = je €1/Jahr
+    → 2 dünnere Ordner = je €5/Jahr
+    → Gesamt: €21/Jahr an Wohnungsverwaltung
+  - Hinweis: Ab Kontensystemsreform September 2007 anderer Schlüssel geplant
+
+2014-VERSION:
+  - Abschnitt heißt nur noch "Dinge, die für das Kontensystem verwendet werden"
+    (NICHT mehr "...und anteilige Mietzahlungen dafür")
+  - Physische Materialien (Ordner, Stöße) noch erwähnt, aber KEINE Kostenrechnung
+
+================================================================================
+17. WINDOW LOGGER - ERWÄHNUNG
+================================================================================
+
+Beide Versionen erwähnen das Window Logger-Tool:
+  - 2008: "Dazu gibt es seit September 2008 auch ein Tool namens 'Window Logger',
+    das das Erfassen dieser Informationen erleichtert."
+  - 2014: Gleicher Satz, PLUS: "wenn ich zu Hause am PC arbeite"
+    → Einschränkung dokumentiert (unterwegs wird es nicht eingesetzt)
+
+================================================================================
+18. CHECKLISTEN / PLANUNGSTOOL
+================================================================================
+
+KEINE explizite Erwähnung von "Checklisten" in beiden Versionen.
+Das Planungssystem (Prioritätsliste → Tagesplan) ist in BEIDEN Versionen
+identisch strukturiert, aber in 2014 auf Spaßwert statt E/A-Verhältnis umgestellt.
+
+Relevanz für aktuelles Planungstool (C# Planungssystem):
+  - Die Prioritätslisten-Logik in beiden Versionen entspricht dem, was das
+    C# Planungstool heute macht: Tab_Gewinnaktionen → Abf_Aktionsempfehlungen
+  - Die 2014-Version zeigt den Übergang zu "Spaßpunkte pro Stunde" als
+    Prioritätsmetrik - dies könnte der Vorläufer des heutigen Prioritätswerts
+    im C# Tool sein
+  - "Rückstand"-Mechanismus (Nachhol-Planung für verpasste Aktivitäten) ist in
+    beiden Versionen identisch
+
+================================================================================
+19. KONTENSTRUKTUR - ERWÄHNTE KONTEN IM VERGLEICH
+================================================================================
+
+KONTEN IN 2008 ERWÄHNT, IN 2014 NICHT MEHR:
+  - Literaturgesellschaft (€9,90 Spaßpunkt-Satz für Lesen unterwegs)
+  - CD+G-Konto (Autorensystem E-Mail-Support)
+  - Herzensgut-Konto HG (→ wurde zu UR)
+  - Karaoke-Video-Kredit (war noch aktiv in 2008, 2014 wohl abgezahlt)
+  - Tonträgerkredit (war noch aktiv in 2008)
+  - Lebenserhaltungskonto-Zuschuss (monatliche Abrechnung)
+  - Gesundheitskonto-Zuschuss
+
+KONTEN IN 2014 NEU/ANDERES:
+  - Urheberrechtskonto UR (ab Ende 2013, bis dahin HG)
+  - Geldgeschenke-Konto (für Geldgeschenke)
+  - BRZ-Konto als Empfänger der Fahrtkosten-Gutschriften
+
+KONTEN IN BEIDEN VERSIONEN:
+  - Radio Würmchen
+  - Bundesrechenzentrum (BRZ) / Firmenguthaben
+  - Eltern / Personenkonten
+  - Wohnungsverwaltung
+  - Ausgleichskonto (nur in 2008 explizit, in 2014 nicht erwähnt)
+  - Providcenter (allgemeine Kategorie)
+  - Geräteschulden-Konten (allgemeine Kategorie)
+
+================================================================================
+20. ZUSAMMENFASSUNG: WAS BLIEB GLEICH
+================================================================================
+
+- Grundstruktur: Access-Datenbank .MDB, jährlicher Wechsel
+- Dateipfad: C:\laufende Projekte\Kontensystem\Kontensystem XXXX.MDB
+- Jahresend-Backup-Routine (identisch)
+- Wunschliste: Tab_Wuensche, For_Wuensche, identische Felder
+- Prioritätslisten-Mechanismus (Formel, Gleitend-Logik, Rückstand-Mechanismus)
+- Gewünschte Extrastunden (Cross-Account Transfer für vorgezogene Aktionen)
+- 70-Sekunden-Durchschnitt pro Buchungszeile
+- 48 Minuten/Tag Limit für Kontensystem-Bearbeitung
+- Radio Würmchen als regelmäßiger Zahler
+- Elternkonto-Mechanismus (wenn auch verändert)
+- Spaßpunkt-Formel: ([Ausdr1]+2)/([Ausdr1]+4)*100
+
+================================================================================
+21. SCHLUSSFOLGERUNGEN / WICHTIGSTE ERKENNTNISSE
+================================================================================
+
+1. DIE GROßE REFORM 2014:
+   Die 2014-Version dokumentiert eine fundamentale Neuausrichtung, die Kurt selbst
+   als "im August 2014 stark modifiziert" bezeichnet. Das System wechselte von
+   einer buchhalterischen E/A-Verhältnis-Logik zu einer hedonischen Spaßwert-
+   Skala. Arbeitszeit ist kein expliziter Kostenfaktor mehr.
+
+2. VEREINFACHUNG:
+   Viele komplizierte Sonderregelungen (Synergieeffekte → Herzensgut, 50%-Geschenk-
+   Regel, anteilige Mietberechnung, Literaturgesellschaft-Sondersatz) wurden
+   entfernt oder radikal vereinfacht.
+
+3. SKALENWACHSTUM:
+   Von 2005 bis 2012: Buchungsvolumen +265% (3.797 → 13.879 Buchungen). Die
+   Aktionszahl stieg von ~20 auf ~20-30 pro Tag.
+
+4. PERSÖNLICHE ENTWICKLUNG:
+   Die 2014-Version reflektiert persönliche Reifung: Mama's Einstellung zu
+   Geschenken wurde übernommen, Geldgeschenke-Logik vereinfacht.
+
+5. KURTS VERGESSLICHKEIT:
+   Kurt dachte, die 2008-Version sei noch aktuell. Die 2014-Version existiert
+   und ist deutlich aktueller. Die Spaßpunkt-Reform (2014) ist die letzte
+   dokumentierte größere Änderung.
+
+6. PLANUNGSTOOL-RELEVANZ:
+   Die Prioritätslisten-Logik beider Versionen ist der konzeptuelle Vorläufer
+   des heutigen C# Planungstools. Die 2014-Metrik (Spaßwert/Stunde) entspricht
+   eher dem heutigen Prioritätssystem als die 2008-Metrik (E/A-Verhältnis).
+
+================================================================================
+Ende des Vergleichsberichts
+Erstellt von: Sidestepper 🦀 (OpenClaw Subagent)
+================================================================================

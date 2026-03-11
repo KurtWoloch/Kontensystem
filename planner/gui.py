@@ -16,10 +16,11 @@ Layout:
   └─────────────────────────────────────────────┘
 """
 import os
+import json
 import tkinter as tk
 from tkinter import ttk, font, messagebox
-from datetime import datetime
-from typing import Optional, Tuple
+from datetime import datetime, timedelta
+from typing import Optional, Tuple, Dict, List
 
 from models import CsvRow, ListState, RowType
 from engine import PlannerEngine
@@ -123,6 +124,9 @@ class PlannerGUI:
         # Automations
         self._automations = load_automations()
 
+        # Initial projection (for drift display)
+        self._initial_projection = self._load_initial_projection()
+
         self._build_ui()
         self.root.protocol("WM_DELETE_WINDOW", self._on_close)
 
@@ -138,6 +142,126 @@ class PlannerGUI:
         self._tick()
         self._refresh()
         self._update_window_monitor()
+
+    # ------------------------------------------------------------------ #
+    #  Initial projection (drift display)                                  #
+    # ------------------------------------------------------------------ #
+
+    def _load_initial_projection(self) -> List[Dict]:
+        """Load the initial day projection from the JSON file."""
+        log_dir = os.path.join(os.path.dirname(__file__), "..", "logs")
+        day_str = self.engine.session_date.strftime("%Y-%m-%d")
+        path = os.path.join(log_dir, f"projection-{day_str}.json")
+        if not os.path.exists(path):
+            return []
+        try:
+            with open(path, encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return []
+
+    def _get_projected_start(self, list_name: str, activity: str
+                             ) -> Optional[datetime]:
+        """Find the est_start of an activity in the initial projection.
+
+        Matches by list_name and activity text.  For continuations
+        (activity ends with '(Fs.)'), also tries matching without
+        the suffix.  Returns the first match.
+        """
+        for item in self._initial_projection:
+            if item.get("list_name") != list_name:
+                continue
+            proj_act = item.get("activity", "")
+            if proj_act == activity:
+                est = item.get("est_start")
+                if est:
+                    try:
+                        return datetime.strptime(est, "%H:%M")
+                    except (ValueError, TypeError):
+                        pass
+                break
+        # Try without (Fs.) suffix
+        base_activity = activity.replace(" (Fs.)", "").strip()
+        if base_activity != activity:
+            for item in self._initial_projection:
+                if item.get("list_name") != list_name:
+                    continue
+                proj_act = item.get("activity", "")
+                if proj_act == base_activity:
+                    est = item.get("est_start")
+                    if est:
+                        try:
+                            return datetime.strptime(est, "%H:%M")
+                        except (ValueError, TypeError):
+                            pass
+                    break
+        return None
+
+    def _update_drift(self, ls: ListState, row: CsvRow):
+        """Calculate and display drift vs. initial projection."""
+        if not self._initial_projection:
+            self.lbl_drift.config(text="")
+            return
+
+        # Build activity name as it appears in the projection
+        activity = row.activity
+        if ls.continuation_count > 0:
+            activity = f"{activity} (Fs.)"
+
+        proj_start = self._get_projected_start(ls.name, activity)
+        if proj_start is None:
+            # Try without (Fs.) — the original item before split
+            proj_start = self._get_projected_start(ls.name, row.activity)
+        if proj_start is None:
+            self.lbl_drift.config(text="")
+            return
+
+        # proj_start is a datetime with only H:M set (year=1900).
+        # Combine with today's date for comparison.
+        now = datetime.now()
+        projected = now.replace(
+            hour=proj_start.hour, minute=proj_start.minute,
+            second=0, microsecond=0
+        )
+        drift = now - projected
+        drift_minutes = int(drift.total_seconds() / 60)
+
+        if abs(drift_minutes) < 5:
+            # Within 5 minutes — on track
+            self.lbl_drift.config(
+                text=f"📍 Geplant: {proj_start.strftime('%H:%M')} — im Zeitplan",
+                fg=COLOR_DONE
+            )
+        elif drift_minutes > 0:
+            # Behind schedule
+            hours = drift_minutes // 60
+            mins = drift_minutes % 60
+            if hours > 0:
+                drift_str = f"+{hours}h {mins:02d}m"
+            else:
+                drift_str = f"+{mins}m"
+            # Color intensity based on severity
+            if drift_minutes > 120:
+                color = "#f38ba8"  # red — severe
+            elif drift_minutes > 60:
+                color = "#fab387"  # orange — significant
+            elif drift_minutes > 30:
+                color = "#f9e2af"  # yellow — moderate
+            else:
+                color = COLOR_FG   # mild
+            self.lbl_drift.config(
+                text=f"📍 Geplant: {proj_start.strftime('%H:%M')} — "
+                     f"Rückstand: {drift_str}",
+                fg=color
+            )
+        else:
+            # Ahead of schedule
+            ahead = abs(drift_minutes)
+            self.lbl_drift.config(
+                text=f"📍 Geplant: {proj_start.strftime('%H:%M')} — "
+                     f"{ahead}m voraus",
+                fg=COLOR_DONE
+            )
 
     # ------------------------------------------------------------------ #
     #  UI Construction                                                     #
@@ -223,6 +347,13 @@ class PlannerGUI:
             bg=COLOR_PANEL, fg=COLOR_WAIT
         )
         self.lbl_start_time.pack(side=tk.RIGHT, padx=(0, 4))
+
+        # ── Drift indicator row ───────────────────────────────────────
+        self.lbl_drift = tk.Label(
+            task_panel, text="", font=("Segoe UI", 10, "bold"),
+            bg=COLOR_PANEL, fg=COLOR_FG, anchor="w"
+        )
+        self.lbl_drift.pack(fill=tk.X, padx=14, pady=(0, 6))
 
         # Automation launch button (hidden by default, shown when task has one)
         self.btn_automation = tk.Button(
@@ -443,6 +574,7 @@ class PlannerGUI:
                 self.lbl_list_name.config(text="")
                 self.lbl_meta.config(text="")
             self.lbl_start_time.config(text="")
+            self.lbl_drift.config(text="")
             self._current_automation = None
             self.btn_automation.pack_forget()
             return
@@ -463,6 +595,7 @@ class PlannerGUI:
                      + (f"  →  {action}" if action else "")
             )
             self.lbl_start_time.config(text="")
+            self.lbl_drift.config(text="")
             self._current_automation = None
             self.btn_automation.pack_forget()
             self._preempt_frame.pack_forget()
@@ -487,6 +620,9 @@ class PlannerGUI:
             )
         else:
             self.lbl_start_time.config(text="")
+
+        # ── Drift indicator ────────────────────────────────────────────
+        self._update_drift(ls, row)
 
         # Show/hide automation button
         auto = find_automation(row.activity, self._automations)

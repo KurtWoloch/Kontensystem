@@ -1,0 +1,184 @@
+=================================================================
+  TAGESBERICHT — 2026-03-06
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      114
+  Geplante Gesamtzeit:         17h 09m
+
+  ✓ Erledigt (geplant):       49  (    6h 12m)  = 36.2%
+  ⏭ Übersprungen:             24  (    5h 44m)  = 33.4%
+  ✗ Nicht erreicht:           41  (    5h 13m)  = 30.4%
+
+  📝 Ungeplante Aktivitäten:  40  (   12h 43m)
+  ⏱  Tatsächliche Arbeitszeit:     5h 45m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Mailprüfung INMAPR                    08:16     22:04 +13h 48m
+  Mailprüfung INMAPR (Fs.)              08:21     22:04 +13h 43m
+  Wohnung lüften WFLULU                 17:50     08:58  -8h 52m
+  Anhören RW-Prg. / Tonträger / Radio   18:07     10:38  -7h 29m
+  Der Außentemperatur entsprechend an   13:32     20:34  +7h 02m
+  Laufen / Scootersuche GEGYLS          13:34     20:36  +7h 02m
+  Teller waschen / Getränk fassen LEM   10:40     16:19  +5h 39m
+  Termine in Kalender prüfen LEMTTP     08:15     11:33  +3h 18m
+  WC BREPWC                             12:23     15:00  +2h 37m
+  Mund spülen LEMTMS                    08:17     10:32  +2h 15m
+  Häferl waschen / Hustenbonbon fasse   08:19     10:34  +2h 15m
+  Nachtmahl fassen LENANA               20:00     22:10  +2h 10m
+  Anhören RW-Prg. / Tonträger / Radio   08:54     10:38  +1h 44m
+  Bearb. Essensplan (gegessen, zu ess   10:17     11:50  +1h 33m
+  Jause fassen LEMTJF                   10:21     11:53  +1h 32m
+  ... und 34 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb.Ohrwürmer(durchgenommen) MUOWDU
+    Grund: nichts durchgenommen, noch nichts durchzunehmen
+  ⏭ Anziehen LEMTAN
+    Grund: versehentlich vor Einschmieren erledigt
+  ⏭ Bett machen LEMTBM
+    Grund: versehentlich vor Einschmieren erledigt
+  ⏭ Vorbereitung Playlist für Hören beim Frühstüc
+    Grund: Aufrehen Radio Arabella (schon oben geloggt)
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: noch keine in Liste vorhanden
+  ⏭ PC herunterfahren PCHFAR
+    Grund: RW KI läuft weiter
+  ⏭ Blutdruck messen GEBMBM
+    Grund: schon um 10:57 erledigt
+  ⏭ Mittagessen (von Sati gekocht) LEMESE
+    Grund: ist sich nicht ausgegangen, Sati mit Mittagessen während Planung hereingekommen
+  ⏭ Arbeitszeit absolvieren (Vormittag) BREPDZ
+    Grund: nicht ausgegangen, Sati mit Mittagessen während Planung hereingekommen
+  ⏭ Ansehen ZiB 1 + Wetter RATVZI
+    Grund: hat sich mit Teleworking überschnitten
+  ⏭ Arbeitszeit absolvieren (Nachmittag) BREPDZ
+    Grund: bereits oben eingetragen
+  ⏭ Zeiten sammeln BREPZS
+    Grund: bereits oben eingetragen
+  ⏭ Eingabe Zeiterfassung SAP BREPZE
+    Grund: bereits oben eingetragen
+  ⏭ Eingabe Teleworking SAP BREPZE
+    Grund: bereits oben eingetragen
+  ⏭ Abschluss BRALAB
+    Grund: wurde dramatisch verlängert und mit privaten Aktivitäten vermischt (19:15-20:24)
+  ⏭ WC BRALWC
+    Grund: eben erledigt
+  ⏭ Nachmittagsjause fassen LENAJA
+    Grund: wegen üppigem Mittagessen nur Getränk getrunken
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft
+  ⏭ Teller waschen / Getränk + Biovital fassen LE
+    Grund: wurde eben geloggt, Biovital ist aus!
+  ⏭ Teller waschen / Getränk + Medikament fassen 
+    Grund: schon erledigt
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: nichts in Liste
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: keine Liste vorhanden
+  ⏭ PC herunterfahren LEAZHF
+    Grund: wird nicht heruntergefahren, RW-KI Radio + Schachspiel läuft weiter
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:21–06:28  Erweiterung Planungstool (Hinzufügung Au  — sollte Code von Erstellung Planungstool übernehmen
+  📝 06:28–06:37  Erweiterung Planungsprogramm (Hinzufügen
+  📝 06:37–06:41  Bugfixing Planungstool  — Fehler beim Schließen der Automation Editors)
+  📝 06:42–06:55  KS - Durchsehen Tagesbericht von gestern
+  📝 07:07–07:38  Arbeit an Tagesplanung / Planer-Entwickl  — Überprüfung übersprungene Teleworking-Aktivitäten von gestern -> Einbau zusätzliche Anzeige der bereits passierten Aktivitäten
+  📝 07:46–07:52  Arbeit an Tagesplanung / Planer-Entwickl  — Hinzufügen weiteres Fenster für abvolvierte Tasks
+  📝 07:57–08:14  Arbeit an Tagesplanung / Planer-Entwickl  — Änderung CSV-File für Freitag wg. Sati
+  📝 08:33–08:36  Anziehen LEMTAN
+  📝 08:36–08:39  Bett machen LEMTBM
+  📝 08:39–08:39  Einschalten Radio Arabella RWMPMP
+  📝 09:02–09:08  Begutachtung / Konversation Andon FM / T  — Musikwunsch für Street Fighting Man (davor noch derzeitige Moderationenabwarten)
+  📝 09:08–09:38  Papiersortierung KAPSCG  — Zerlegung CD+G-Ordner, das meiste davon wird in neuen kleinen KA-Ordner gegeben, da in Haupt-KA-Ordner zuwenig Platz dafür
+  📝 09:38–09:56  Arbeit an Tagesplanung / Planer-Entwickl  — Verhindern, dass aktueller Task automatisch von zeitgesteuertem Task überschrieben wird
+  📝 09:56–10:05  Konversation mit Andrew Pappas / Prüfung  — Zahlungen erlauben nur max. 255 Zeichen an Texten vs. 288 Zeichen für Tweets
+  📝 10:51–10:53  Jause fassen LEMTJF  — Mini Schokokekse
+  📝 10:53–10:55  WC (vergeblich) LEMTWC
+  📝 10:57–10:57  Blutdruck messen GEBMBM
+  📝 11:54–11:55  WC (vergeblich) LEMTWC  — muss noch nicht
+  📝 11:55–12:04  Verbesserung Planungstool (YAML-Exceptio
+  📝 12:17–12:56  Mittagessen (von Sati gekocht) LEMESE
+  📝 12:56–12:59  Nacherfassung Ablauf / Neustart Planungs
+  📝 12:59–13:03  Aufschreiben Bezahlung Sati Ersoy WFPUEL
+  📝 13:03–13:06  div. Surfen (News)
+  📝 13:06–15:00  Ausrasten
+  📝 15:04–15:10  Div. Surfen (News) INSUSU
+  📝 15:10–16:19  Arbeitszeit absolvieren (Nachmittag) BRE
+  📝 16:24–16:29  WC LEMTWC
+  📝 16:29–16:36  Diskussion mit OpenClaw über Schachspiel
+  📝 16:36–19:36  Arbeitszeit absolvieren (Nachmittag) BRE
+  📝 18:36–18:43  Zeiten sammeln BREPZS
+  📝 18:43–19:03  Surfen Ö3 Austria Top 40 u.a. RWMPAR
+  📝 19:03–19:07  Getränk fassen LENATW
+  📝 19:07–19:11  Eingabe Zeiterfassung SAP BREPZE
+  📝 19:11–19:15  Eingabe Teleworking SAP BREPZE
+  📝 19:15–19:50  Ermittlung Mittagessen-Zeiten Sati / Aus  — Durchschnittszeit: Di. 12:07-12:08, Fr. 12:05
+  📝 19:50–20:24  Konversation Andon FM / Thinking Frequen  — etwas getrödelt
+  📝 21:13–21:15  Nachtmahl fassen LENANA  — Mini Schokokekse ohne Zuckerzusatz
+  📝 21:15–21:55  Diskussion und Implementierung Schwimmba
+  📝 21:55–22:04  PLanung (Arbeit an Tool für YAML-Inserti
+  📝 22:05–22:09  Teller waschen / Getränk fassen LENATW  — Kokosmilch Drink
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 08:22  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (7m)
+  ✗ 08:30  Einlass / Koordination Sati Ersoy WFPUEL  (10m)
+  ✗ 08:40  Anhören RW-Prg. mit Sati Ersoy RWMPSE  (8m)
+  ✗ 09:02  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (3m)
+  ✗ 09:05  Bearb. Liste Scooterfahrten FZSCLI  (2m)
+  ✗ 09:09  Bearb. Liste Scooterfahrten FZSCLI (Fs.)  (7m)
+  ✗ 09:16  Ausmachen Arzttermine GEMRNA  (1m)
+  ✗ 10:24  Anhören RW-Prg. mit Sati Ersoy RWMPSE  (8m)
+  ✗ 10:32  Verabschiedung / Zahlung Sati Ersoy WFPU  (8m)
+  ✗ 17:40  Bearb. Essensplan (Kontrolle / zu essen   (10m)
+  ✗ 17:54  Wäsche aus Waschmaschine nehmen LEKLWM  (10m)
+  ✗ 18:04  Ausmachen Arzttermine GEMRNA (Fs.)  (3m)
+  ✗ 18:15  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
+  ✗ 18:25  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 18:35  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 18:41  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 18:46  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 18:55  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 19:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 19:08  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 19:13  Bearbeitung Buch Champion's Mindset GELI  (11m)
+  ✗ 19:24  Bearb. Ohrwürmer (Nachfassen aus alten C  (6m)
+  ✗ 19:32  Bearb. Ohrwürmer (Nachfassen aus alten C  (4m)
+  ✗ 19:36  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 19:46  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 19:55  Übersiedeln (Mitteilung Adresswechsel) W  (5m)
+  ✗ 20:03  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:11  Übersiedeln (Mitteilung Adresswechsel) W  (4m)
+  ✗ 20:15  Bearbeitung Börsenkurse / Aktienhandel F  (8m)
+  ✗ 20:27  Bearbeitung Börsenkurse / Aktienhandel F  (2m)
+  ✗ 20:29  Spielen Kreuzungs-FGPA  (10m)
+  ✗ 20:39  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 20:50  Erstellung Playback mit Vocal Remover  (5m)
+  ✗ 20:55  Aufräumen WFARAR  (5m)
+  ✗ 21:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:08  Aufräumen WFARAR (Fs.)  (6m)
+  ✗ 21:14  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 21:23  Wäsche aus Waschmaschine nehmen LEWAWA  (9m)
+  ✗ 21:32  Aufwandserfassung und Abrechnung Kontens  (28m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Aufwandserfassung und Abrechnung Kontens  (12m)
+
+=================================================================

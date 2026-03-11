@@ -1,0 +1,101 @@
+=================================================================
+  TAGESBERICHT — 2026-03-03
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:       97
+  Geplante Gesamtzeit:         15h 59m
+
+  ✓ Erledigt (geplant):       58  (   11h 12m)  = 70.1%
+  ⏭ Übersprungen:             10  (    1h 14m)  = 7.7%
+  ✗ Nicht erreicht:           29  (    3h 33m)  = 22.2%
+
+  📝 Ungeplante Aktivitäten:   0  (        0m)
+  ⏱  Tatsächliche Arbeitszeit:     8h 56m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Blutdruck messen GEBMBM               09:28     21:16 +11h 48m
+  WC BREPWC                             12:21     20:37  +8h 16m
+  WC BREPWC (Fs.)                       12:30     20:37  +8h 07m
+  Der Außentemperatur entsprechend an   12:34     20:41  +8h 07m
+  Laufen / Scootersuche GEGYLS          12:36     20:37  +8h 01m
+  WC BREPWC                             14:21     20:37  +6h 16m
+  Bearb. Essensplan (gegessen, zu ess   06:52     12:56  +6h 04m
+  Anhören Radiosender / Radio Würmche   06:48     12:24  +5h 36m
+  Einschmieren GEMTES                   07:44     13:03  +5h 19m
+  Mailprüfung INMAPR                    09:15     13:08  +3h 53m
+  Einlass / Koordination Sati Ersoy W   12:26     09:28  -2h 58m
+  Planung BRZ BREPGM                    11:20     14:07  +2h 47m
+  Verabschiedung / Zahlung Sati Ersoy   09:38     12:10  +2h 32m
+  Papiersortierung WFPAPA               08:23     10:41  +2h 18m
+  Termine in Kalender prüfen LEMTTP     09:14     07:15  -1h 59m
+  ... und 43 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb.Ohrwürmer(durchgenommen) MUOWDU
+    Grund: (kein Grund)
+  ⏭ Abwiegen LEMTAW
+    Grund: (kein Grund)
+  ⏭ Starten Youtube-Playlist MUOWSP
+    Grund: (kein Grund)
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: (kein Grund)
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: (kein Grund)
+  ⏭ PC herunterfahren PCHFAR
+    Grund: (kein Grund)
+  ⏭ Arbeitszeit absolvieren (Vormittag) BREPDZ
+    Grund: (kein Grund)
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: (kein Grund)
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: (kein Grund)
+  ⏭ PC herunterfahren LEAZHF
+    Grund: (kein Grund)
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 09:06  Anhören RW-Prg. / Tonträger / Radiosende  (8m)
+  ✗ 09:17  Ermittlung Gesamtzeiten (wenn nicht am M  (6m)
+  ✗ 09:23  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (5m)
+  ✗ 09:46  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (5m)
+  ✗ 09:51  Bearb. Liste Scooterfahrten FZSCLI  (9m)
+  ✗ 10:00  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 10:04  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 10:12  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
+  ✗ 10:22  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 10:32  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 10:38  Bearbeitung Buch Champion's Mindset GELI  (3m)
+  ✗ 19:06  Bearbeitung Buch Champion's Mindset GELI  (8m)
+  ✗ 19:14  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 19:24  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 19:33  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 19:42  Bearbeitung Börsenkurse / Aktienhandel F  (10m)
+  ✗ 19:52  Spielen Kreuzungs-FGPA  (8m)
+  ✗ 20:03  Spielen Kreuzungs-FGPA (Fs.)  (2m)
+  ✗ 20:05  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 20:16  Erstellung Playback mit Vocal Remover  (5m)
+  ✗ 20:21  Aufräumen WFARAR  (2m)
+  ✗ 20:27  Aufräumen WFARAR (Fs.)  (9m)
+  ✗ 20:36  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 20:45  Wäsche aus Waschmaschine nehmen LEWAWA  (9m)
+  ✗ 20:54  Papiersortierung (gelesene Werbeprospekt  (6m)
+  ✗ 21:00  Analyse Disassembly Astro Bomber CSGAUM  (10m)
+  ✗ 21:10  Papiersortierung (gelesene Werbeprospekt  (3m)
+  ✗ 21:13  WC MTMTWC  (9m)
+  ✗ 22:10  Korrektur The Grindy Adventure CSGAUM  (10m)
+
+=================================================================

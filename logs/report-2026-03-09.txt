@@ -1,0 +1,133 @@
+=================================================================
+  TAGESBERICHT — 2026-03-09
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:       88
+  Geplante Gesamtzeit:         16h 29m
+
+  ✓ Erledigt (geplant):       61  (   13h 56m)  = 84.5%
+  ⏭ Übersprungen:             11  (       50m)  = 5.1%
+  ✗ Nicht erreicht:           16  (    1h 43m)  = 10.4%
+
+  📝 Ungeplante Aktivitäten:  34  (    3h 16m)
+  ⏱  Tatsächliche Arbeitszeit:    13h 45m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Wohnung lüften WFLULU                 08:47     21:06 +12h 19m
+  WC BREPWC                             18:23     12:31  -5h 52m
+  Der Außentemperatur entsprechend an   12:34     08:58  -3h 36m
+  Bearb. Essensplan (Update Händleran   19:57     21:44  +1h 47m
+  Bearb. Essensplan (Update Händleran   20:03     21:44  +1h 41m
+  Anhören RW-Prg. / Tonträger / Radio   19:34     21:00  +1h 26m
+  Bearb. Essensplan (Kontrolle / zu e   19:43     21:05  +1h 22m
+  Termine in Kalender prüfen LEMTTP     19:42     21:01  +1h 19m
+  Wohnung lüften WFLULU                 19:53     21:06  +1h 13m
+  WC BREPWC                             13:36     12:31  -1h 05m
+  Arbeitszeit absolvieren (Nachmittag   13:45     12:40  -1h 05m
+  Teller waschen / Getränk + Medikame   20:23     21:26  +1h 03m
+  Abwiegen LEMTAW                       07:38     08:13     +35m
+  Reinigung Waschmuschel LEMTRW         07:39     08:14     +35m
+  Vorbereitung Playlist für Hören unt   07:13     07:40     +27m
+  ... und 43 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb.Ohrwürmer(durchgenommen) MUOWDU
+    Grund: nichts durchgenommen (kein noch offener Titel eingefallen)
+  ⏭ Starten Youtube-Playlist MUOWSP
+    Grund: Thinking Frequencies läuft weiter
+  ⏭ Duschen LEMTDU
+    Grund: schon durchgeführt
+  ⏭ Einschmieren GEMTES
+    Grund: schon oben erledigt
+  ⏭ Wohnung lüften WFLULU
+    Grund: keine Zeit dafür
+  ⏭ PC herunterfahren PCHFAR
+    Grund: läuft für Radio Würmchen KI weiter
+  ⏭ Der Außentemperatur entsprechend anziehen LEA
+    Grund: wurde schon eingetragen
+  ⏭ Müllentsorgung LEMÜMÜ
+    Grund: wegen Zeitmangel ausgelassen
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Der Mann W
+    Grund: noch ganzes Nußbrot zu Hause lagernd
+  ⏭ WC LEMTWC
+    Grund: muss immer noch nicht
+  ⏭ WC LEMTWC
+    Grund: muss im Moment nicht
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: nichts aus Charts vorhanden (noch nicht bearbeitet)
+  ⏭ PC herunterfahren LEAZHF
+    Grund: wird nicht heruntergefahren wg. RW KI-Radio
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 07:04–07:21  Diskussion mit OpenClaw über Tagesablauf
+  📝 07:45–07:47  Diskussion mit OpenClaw über Tagesablauf
+  📝 07:47–07:49  WC LEMTWC
+  📝 07:51–07:53  Musikwunsch Fragile Thinking Frequencies
+  📝 07:55–08:13  Duschen LEMTDU
+  📝 08:15–08:16  Einschmieren GEMTES
+  📝 08:43–08:49  Scan Thinking Frequencies RWMPMP
+  📝 18:09–18:24  Besuch Ruheraum (BRZ) GEBRRU
+  📝 19:07–19:16  Konversation Andon FM / Backlink Broadca
+  📝 19:29–19:30  Ansehen ZiB 1 + Wetter RATVZI
+  📝 19:30–19:46  Update Window Logger KSWLUP
+  📝 19:46–19:49  Holundersaft zuckerfrei fassen LENATW
+  📝 19:49–19:50  Update Window Logger KSWLUP
+  📝 19:50–19:52  Ansehen Youtube-Videos RAYTYT
+  📝 19:52–19:54  Begutachtung Rotation Thinking Frequenci
+  📝 19:54–19:58  Ansehen / Kommentieren Youtube-Videos (C
+  📝 19:58–19:59  Untersuchung Playlist Thinking Frequenci
+  📝 19:59–20:05  Arbeit an Tagesplanung / Planer-Entwickl
+  📝 20:05–20:07  Nacherfassung Ablauf KSPLNA
+  📝 20:07–20:56  Arbeit an Tagesplanung / Planer-Entwickl
+  📝 20:56–20:57  Surfen Molt.chess CSSUMC
+  📝 20:57–21:00  Nacherfassung Ablauf KSPLNA
+  📝 21:09–21:14  Nachtmahl fassen LENANA
+  📝 21:15–21:21  Nacherfassung Ablauf KSPLNA
+  📝 21:21–21:22  Ansehen Youtube-Videos (Claude just beca
+  📝 21:22–21:26  Analyse vorgelesene Tags Thinking Freque
+  📝 21:35–21:37  Nacherfassung Ablauf KSPLNA
+  📝 21:38–21:42  Nacherfassung Ablauf KSPLNA
+  📝 21:43–21:44  Analyse Thinking Frequencies RWMPMP
+  📝 21:45–21:46  Analyse Thinking Frequencies RWMPMP
+  📝 21:55–21:56  Analyse Thinking Frequencies RWMPMP
+  📝 22:02–22:03  Analyse Thinking Frequencies RWMPMP
+  📝 22:21–22:24  Analyse Thinking Frequencies / Wunsch St
+  📝 22:24–22:28  Nacherfassung Ablauf KSPLNA
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 20:00  Nachtmahl fassen LENANA  (3m)
+  ✗ 20:12  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (10m)
+  ✗ 20:22  Ausmachen Arzttermine GEMRNA  (1m)
+  ✗ 20:27  Ausmachen Arzttermine GEMRNA (Fs.)  (3m)
+  ✗ 20:30  Bearb. Essensplan (Protokoll) LEEPPR  (8m)
+  ✗ 20:46  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
+  ✗ 20:56  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 21:10  Bearb. Essensplan (Eintragen Protokoll)   (5m)
+  ✗ 21:15  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 21:20  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 21:29  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 21:34  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 21:39  Bearbeitung Buch Champion's Mindset GELI  (11m)
+  ✗ 21:50  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 22:08  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 22:18  Papiersortierung (hereingekommene Papier  (2m)
+
+=================================================================

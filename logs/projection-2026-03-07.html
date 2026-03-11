@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>projection-2026-03-07</title>
+<meta charset="utf-8">
+<style>
+
+body {
+    font-family: 'Segoe UI', Consolas, monospace;
+    background: #1e1e2e; color: #cdd6f4;
+    margin: 20px; font-size: 13px;
+}
+h1 { color: #89b4fa; font-size: 18px; }
+.info { color: #a6adc8; margin-bottom: 12px; }
+table {
+    border-collapse: collapse; width: 100%;
+    margin-top: 8px;
+}
+th {
+    background: #313244; color: #89b4fa;
+    padding: 6px 10px; text-align: left;
+    border-bottom: 2px solid #45475a;
+    cursor: pointer; user-select: none;
+    position: sticky; top: 0;
+}
+th:hover { background: #45475a; }
+th.sorted-asc::after { content: ' ▲'; color: #a6e3a1; }
+th.sorted-desc::after { content: ' ▼'; color: #f38ba8; }
+td {
+    padding: 4px 10px;
+    border-bottom: 1px solid #313244;
+    max-width: 400px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+td:hover { white-space: normal; overflow: visible; }
+tr:hover { background: #313244; }
+tr.skipped { color: #7f849c; }
+tr.ungeplant { color: #f9e2af; }
+.filter-row input {
+    width: 100%; box-sizing: border-box;
+    background: #181825; color: #cdd6f4;
+    border: 1px solid #45475a; padding: 3px 6px;
+    font-size: 12px;
+}
+.stats { color: #a6adc8; margin-top: 8px; font-size: 12px; }
+
+</style>
+</head>
+<body>
+<h1>projection-2026-03-07</h1>
+<div class="info">133 Eintraege &bull; 8 Spalten</div>
+<table id="mainTable">
+<thead>
+<tr>
+<th onclick="sortTable(0)">Activity</th>
+<th onclick="sortTable(1)">List Name</th>
+<th onclick="sortTable(2)">Minutes</th>
+<th onclick="sortTable(3)">Priority</th>
+<th onclick="sortTable(4)">Fixed Time</th>
+<th onclick="sortTable(5)">Est Start</th>
+<th onclick="sortTable(6)">Est End</th>
+<th onclick="sortTable(7)">State</th>
+</tr>
+<tr class="filter-row">
+<td><input type="text" oninput="filterTable()" placeholder="Filter..."></td>
+<td><input type="text" oninput="filterTable()" placeholder="Filter..."></td>
+<td><input type="text" oninput="filterTable()" placeholder="Filter..."></td>
+<td><input type="text" oninput="filterTable()" placeholder="Filter..."></td>
+<td><input type="text" oninput="filterTable()" placeholder="Filter..."></td>
+<td><input type="text" oninput="filterTable()" placeholder="Filter..."></td>
+<td><input type="text" oninput="filterTable()" placeholder="Filter..."></td>
+<td><input type="text" oninput="filterTable()" placeholder="Filter..."></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td title="Aufstehen, Rasierer fasssen LEMTAU">Aufstehen, Rasierer fasssen LEMTAU</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="1">1</td>
+<td title="1.841">1.841</td>
+<td title=""></td>
+<td title="05:59">05:59</td>
+<td title="06:00">06:00</td>
+<td title="current">current</td>
+</tr>
+<tr>
+<td title="Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA">Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="15">15</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="06:00">06:00</td>
+<td title="06:15">06:15</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP">Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="4">4</td>
+<td title="1.835">1.835</td>
+<td title="06:00">06:00</td>
+<td title="06:15">06:15</td>
+<td title="06:19">06:19</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Änderung Sollwerte) LEEPUH">Bearb. Essensplan (Änderung Sollwerte) LEEPUH</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="11">11</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="06:19">06:19</td>
+<td title="06:30">06:30</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP">Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="4">4</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="06:30">06:30</td>
+<td title="06:34">06:34</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Feinschliff bei der Rasur LEMTFR">Feinschliff bei der Rasur LEMTFR</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="6">6</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="06:34">06:34</td>
+<td title="06:40">06:40</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Ausputzen Rasierer LEMTAR">Ausputzen Rasierer LEMTAR</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="2">2</td>
+<td title="1.846">1.846</td>
+<td title=""></td>
+<td title="06:40">06:40</td>
+<td title="06:42">06:42</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb.Ohrwürmer(durchgenommen) MUOWDU">Bearb.Ohrwürmer(durchgenommen) MUOWDU</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="3">3</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="06:42">06:42</td>
+<td title="06:45">06:45</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Ausziehen LEMTAZ">Ausziehen LEMTAZ</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="1">1</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="06:45">06:45</td>
+<td title="06:46">06:46</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="WC LEMTWC">WC LEMTWC</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="5">5</td>
+<td title="1.839">1.839</td>
+<td title=""></td>
+<td title="06:46">06:46</td>
+<td title="06:51">06:51</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Abwiegen LEMTAW">Abwiegen LEMTAW</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="1">1</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="06:51">06:51</td>
+<td title="06:52">06:52</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Reinigung Waschmuschel LEMTRW">Reinigung Waschmuschel LEMTRW</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="1">1</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="06:52">06:52</td>
+<td title="06:53">06:53</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Einschmieren GEMTES">Einschmieren GEMTES</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="2">2</td>
+<td title="1.841">1.841</td>
+<td title=""></td>
+<td title="06:53">06:53</td>
+<td title="06:55">06:55</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anziehen LEMTAN">Anziehen LEMTAN</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="3">3</td>
+<td title="1.841">1.841</td>
+<td title=""></td>
+<td title="06:55">06:55</td>
+<td title="06:58">06:58</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bett machen LEMTBM">Bett machen LEMTBM</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="3">3</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="06:58">06:58</td>
+<td title="07:01">07:01</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Vorbereitung Playlist für Hören beim Frühstück RWYTPL">Vorbereitung Playlist für Hören beim Frühstück RWYTPL</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="6">6</td>
+<td title="1.841">1.841</td>
+<td title=""></td>
+<td title="07:01">07:01</td>
+<td title="07:07">07:07</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFR">Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFR</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="22">22</td>
+<td title="1.845">1.845</td>
+<td title=""></td>
+<td title="07:07">07:07</td>
+<td title="07:30">07:30</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Vorschläge Strake) LEEPVO">Bearb. Essensplan (Vorschläge Strake) LEEPVO</td>
+<td title="Liste_Schwimmbad">Liste_Schwimmbad</td>
+<td title="5">5</td>
+<td title="1.846">1.846</td>
+<td title="07:30">07:30</td>
+<td title="07:30">07:30</td>
+<td title="07:35">07:35</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Einpacken für Schwimmbad GEGYES">Einpacken für Schwimmbad GEGYES</td>
+<td title="Liste_Schwimmbad">Liste_Schwimmbad</td>
+<td title="5">5</td>
+<td title="1.846">1.846</td>
+<td title="07:35">07:35</td>
+<td title="07:35">07:35</td>
+<td title="07:40">07:40</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFR (Fs.)">Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFR (Fs.)</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="3">3</td>
+<td title="1.845">1.845</td>
+<td title=""></td>
+<td title="07:40">07:40</td>
+<td title="07:43">07:43</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Ohrwürmer (durchzunehmende) RWOWDN">Bearb. Ohrwürmer (durchzunehmende) RWOWDN</td>
+<td title="Liste_Schwimmbad">Liste_Schwimmbad</td>
+<td title="4">4</td>
+<td title="1.841">1.841</td>
+<td title="07:43">07:43</td>
+<td title="07:43">07:43</td>
+<td title="07:47">07:47</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Mund spülen LEMTMS">Mund spülen LEMTMS</td>
+<td title="Nach_Fruehstueck">Nach_Fruehstueck</td>
+<td title="1">1</td>
+<td title="1.845">1.845</td>
+<td title=""></td>
+<td title="07:47">07:47</td>
+<td title="07:48">07:48</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="PC herunterfahren PCHFHF">PC herunterfahren PCHFHF</td>
+<td title="Liste_Schwimmbad">Liste_Schwimmbad</td>
+<td title="2">2</td>
+<td title="1.846">1.846</td>
+<td title="07:48">07:48</td>
+<td title="07:48">07:48</td>
+<td title="07:50">07:50</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Besuch Schwimmbad GEGYSB">Besuch Schwimmbad GEGYSB</td>
+<td title="Liste_Schwimmbad">Liste_Schwimmbad</td>
+<td title="60">60</td>
+<td title="1.846">1.846</td>
+<td title="07:50">07:50</td>
+<td title="07:50">07:50</td>
+<td title="08:50">08:50</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Aufhängen Badewäsche GEGYAB">Aufhängen Badewäsche GEGYAB</td>
+<td title="Liste_Schwimmbad">Liste_Schwimmbad</td>
+<td title="2">2</td>
+<td title="1.846">1.846</td>
+<td title=""></td>
+<td title="08:50">08:50</td>
+<td title="08:52">08:52</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Mund spülen LEMTMS (Fs.)">Mund spülen LEMTMS (Fs.)</td>
+<td title="Nach_Fruehstueck">Nach_Fruehstueck</td>
+<td title="1">1</td>
+<td title="1.845">1.845</td>
+<td title=""></td>
+<td title="08:52">08:52</td>
+<td title="08:53">08:53</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Häferl waschen / Hustenbonbon fassen LEMTHW">Häferl waschen / Hustenbonbon fassen LEMTHW</td>
+<td title="Nach_Fruehstueck">Nach_Fruehstueck</td>
+<td title="2">2</td>
+<td title="1.845">1.845</td>
+<td title=""></td>
+<td title="08:53">08:53</td>
+<td title="08:55">08:55</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Ohrwürmer (durchzunehmende) RWOWDN (Fs.)">Bearb. Ohrwürmer (durchzunehmende) RWOWDN (Fs.)</td>
+<td title="Liste_Schwimmbad">Liste_Schwimmbad</td>
+<td title="1">1</td>
+<td title="1.841">1.841</td>
+<td title=""></td>
+<td title="08:55">08:55</td>
+<td title="08:56">08:56</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Wohnung lüften WFLULU">Wohnung lüften WFLULU</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="4">4</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="08:56">08:56</td>
+<td title="09:00">09:00</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP">Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="10">10</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="09:00">09:00</td>
+<td title="09:10">09:10</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR">Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR</td>
+<td title="Radio">Radio</td>
+<td title="5">5</td>
+<td title="1.833">1.833</td>
+<td title="08:52">08:52</td>
+<td title="09:10">09:10</td>
+<td title="09:15">09:15</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Zähne putzen GEMTZP">Zähne putzen GEMTZP</td>
+<td title="Nach_Fruehstueck">Nach_Fruehstueck</td>
+<td title="12">12</td>
+<td title="1.845">1.845</td>
+<td title=""></td>
+<td title="09:15">09:15</td>
+<td title="09:27">09:27</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR (Fs.)">Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR (Fs.)</td>
+<td title="Radio">Radio</td>
+<td title="3">3</td>
+<td title="1.833">1.833</td>
+<td title=""></td>
+<td title="09:27">09:27</td>
+<td title="09:30">09:30</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Termine in Kalender prüfen LEMTTP">Termine in Kalender prüfen LEMTTP</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="1">1</td>
+<td title="1.832">1.832</td>
+<td title=""></td>
+<td title="09:30">09:30</td>
+<td title="09:31">09:31</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Mailprüfung INMAPR">Mailprüfung INMAPR</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="1">1</td>
+<td title="1.832">1.832</td>
+<td title=""></td>
+<td title="09:31">09:31</td>
+<td title="09:32">09:32</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Blutdruck messen GEBMBM">Blutdruck messen GEBMBM</td>
+<td title="Nach_Fruehstueck">Nach_Fruehstueck</td>
+<td title="2">2</td>
+<td title="1.849">1.849</td>
+<td title=""></td>
+<td title="09:32">09:32</td>
+<td title="09:34">09:34</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Mailprüfung INMAPR (Fs.)">Mailprüfung INMAPR (Fs.)</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="1">1</td>
+<td title="1.832">1.832</td>
+<td title=""></td>
+<td title="09:34">09:34</td>
+<td title="09:35">09:35</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb.Ohrwürmer(Nachfassen aus alten Charts) RWOWTT">Bearb.Ohrwürmer(Nachfassen aus alten Charts) RWOWTT</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="10">10</td>
+<td title="1.83">1.83</td>
+<td title=""></td>
+<td title="09:35">09:35</td>
+<td title="09:45">09:45</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="WC LEMTWC">WC LEMTWC</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="5">5</td>
+<td title="1.839">1.839</td>
+<td title=""></td>
+<td title="09:45">09:45</td>
+<td title="09:50">09:50</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Jause fassen LEMTJF">Jause fassen LEMTJF</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="3">3</td>
+<td title="1.84">1.84</td>
+<td title="09:00">09:00</td>
+<td title="09:50">09:50</td>
+<td title="09:53">09:53</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Bearb.Ohrwürmer(durchgenommen) MUOWDU">Bearb.Ohrwürmer(durchgenommen) MUOWDU</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="5">5</td>
+<td title="1.83">1.83</td>
+<td title=""></td>
+<td title="09:53">09:53</td>
+<td title="09:58">09:58</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO">Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="10">10</td>
+<td title="1.83">1.83</td>
+<td title=""></td>
+<td title="09:58">09:58</td>
+<td title="10:08">10:08</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb.Ohrwürmer(Nachfassen aus alten Charts) RWOWTT">Bearb.Ohrwürmer(Nachfassen aus alten Charts) RWOWTT</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="10">10</td>
+<td title="1.828">1.828</td>
+<td title=""></td>
+<td title="10:08">10:08</td>
+<td title="10:18">10:18</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Liste Scooterfahrten FZSCLI">Bearb. Liste Scooterfahrten FZSCLI</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="5">5</td>
+<td title="1.828">1.828</td>
+<td title=""></td>
+<td title="10:18">10:18</td>
+<td title="10:23">10:23</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Mund spülen / Teller waschen / Getränk fassen LEMTTW">Mund spülen / Teller waschen / Getränk fassen LEMTTW</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="4">4</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="10:23">10:23</td>
+<td title="10:27">10:27</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (gegessen, zu essen) LEEPEP">Bearb. Essensplan (gegessen, zu essen) LEEPEP</td>
+<td title="Liste_Morgentoilette">Liste_Morgentoilette</td>
+<td title="4">4</td>
+<td title="1.84">1.84</td>
+<td title="08:56">08:56</td>
+<td title="10:27">10:27</td>
+<td title="10:31">10:31</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Bearb. Liste Scooterfahrten FZSCLI (Fs.)">Bearb. Liste Scooterfahrten FZSCLI (Fs.)</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="4">4</td>
+<td title="1.828">1.828</td>
+<td title=""></td>
+<td title="10:31">10:31</td>
+<td title="10:35">10:35</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR">Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR</td>
+<td title="Radio">Radio</td>
+<td title="8">8</td>
+<td title="1.827">1.827</td>
+<td title=""></td>
+<td title="10:35">10:35</td>
+<td title="10:43">10:43</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearbeitung Aufgaben zu Papa&#x27;s Pflege (10&#x27; +) PATATA">Bearbeitung Aufgaben zu Papa&#x27;s Pflege (10&#x27; +) PATATA</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="10">10</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="10:43">10:43</td>
+<td title="10:53">10:53</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Geldbörse FIBGGB">Bearb. Geldbörse FIBGGB</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="7">7</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="10:53">10:53</td>
+<td title="11:00">11:00</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS">Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="11">11</td>
+<td title="1.844">1.844</td>
+<td title="11:00">11:00</td>
+<td title="11:00">11:00</td>
+<td title="11:11">11:11</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Einpacken für Einkauf (Essensdatenbank, Rucksack, Sackerln, Altbatterien, Notebook, 25%-Pickerln, USB-Stick) LEEKEP">Einpacken für Einkauf (Essensdatenbank, Rucksack, Sackerln, Altbatterien, Notebook, 25%-Pickerln, USB-Stick) LEEKEP</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="10">10</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="11:11">11:11</td>
+<td title="11:21">11:21</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Vorbereitung Einkaufsliste LEEKEL">Vorbereitung Einkaufsliste LEEKEL</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="11">11</td>
+<td title="1.84">1.84</td>
+<td title=""></td>
+<td title="11:21">11:21</td>
+<td title="11:32">11:32</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Geldbörse FIBGGB (Fs.)">Bearb. Geldbörse FIBGGB (Fs.)</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="3">3</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="11:32">11:32</td>
+<td title="11:35">11:35</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP">Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP</td>
+<td title="Radio">Radio</td>
+<td title="8">8</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="11:35">11:35</td>
+<td title="11:43">11:43</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung PAWFAF">Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung PAWFAF</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="6">6</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="11:43">11:43</td>
+<td title="11:49">11:49</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearbeitung Buch Champion&#x27;s Mindset GELICM">Bearbeitung Buch Champion&#x27;s Mindset GELICM</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="11">11</td>
+<td title="1.825">1.825</td>
+<td title=""></td>
+<td title="11:49">11:49</td>
+<td title="12:00">12:00</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP">Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP</td>
+<td title="Radio">Radio</td>
+<td title="8">8</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="12:00">12:00</td>
+<td title="12:08">12:08</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Führung Tagebuch, um schmerzhafte Situationen zu verarbeiten GELIFT">Führung Tagebuch, um schmerzhafte Situationen zu verarbeiten GELIFT</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="4">4</td>
+<td title="1.815">1.815</td>
+<td title=""></td>
+<td title="12:08">12:08</td>
+<td title="12:12">12:12</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="WC LEEKWC">WC LEEKWC</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="9">9</td>
+<td title="1.843">1.843</td>
+<td title="12:12">12:12</td>
+<td title="12:12">12:12</td>
+<td title="12:21">12:21</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Bearb. Ohrwürmer (durchzunehmende) RWOWDN">Bearb. Ohrwürmer (durchzunehmende) RWOWDN</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="5">5</td>
+<td title="1.84">1.84</td>
+<td title="12:21">12:21</td>
+<td title="12:21">12:21</td>
+<td title="12:26">12:26</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="PC herunterfahren PCHFHF">PC herunterfahren PCHFHF</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="2">2</td>
+<td title="1.844">1.844</td>
+<td title="12:26">12:26</td>
+<td title="12:26">12:26</td>
+<td title="12:28">12:28</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Der Außentemperatur entsprechend anziehen LEAUAZ">Der Außentemperatur entsprechend anziehen LEAUAZ</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="2">2</td>
+<td title="1.844">1.844</td>
+<td title="12:28">12:28</td>
+<td title="12:28">12:28</td>
+<td title="12:30">12:30</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Mittagessen (?)">Mittagessen (?)</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="60">60</td>
+<td title="1.845">1.845</td>
+<td title="12:30">12:30</td>
+<td title="12:30">12:30</td>
+<td title="13:30">13:30</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Geschirr abwaschen LEMEGA">Geschirr abwaschen LEMEGA</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="5">5</td>
+<td title="1.844">1.844</td>
+<td title="13:30">13:30</td>
+<td title="13:30">13:30</td>
+<td title="13:35">13:35</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="WC BREPWC">WC BREPWC</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="9">9</td>
+<td title="1.839">1.839</td>
+<td title=""></td>
+<td title="13:35">13:35</td>
+<td title="13:44">13:44</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Einkauf (BILLA Ederg.) / Laufen LEEKBI">Einkauf (BILLA Ederg.) / Laufen LEEKBI</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="60">60</td>
+<td title="1.841">1.841</td>
+<td title=""></td>
+<td title="13:44">13:44</td>
+<td title="14:44">14:44</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE">Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="5">5</td>
+<td title="1.844">1.844</td>
+<td title="14:30">14:30</td>
+<td title="14:44">14:44</td>
+<td title="14:49">14:49</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Wohnung lüften WFLULU">Wohnung lüften WFLULU</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="4">4</td>
+<td title="1.83">1.83</td>
+<td title="13:00">13:00</td>
+<td title="14:49">14:49</td>
+<td title="14:53">14:53</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Update Händlerangebote) LEEPUH">Bearb. Essensplan (Update Händlerangebote) LEEPUH</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="11">11</td>
+<td title="1.83">1.83</td>
+<td title=""></td>
+<td title="14:53">14:53</td>
+<td title="15:04">15:04</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Update Wärme / Gewicht) LEEPUW">Bearb. Essensplan (Update Wärme / Gewicht) LEEPUW</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="10">10</td>
+<td title="1.83">1.83</td>
+<td title=""></td>
+<td title="15:04">15:04</td>
+<td title="15:14">15:14</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Update Rotation) LEEPRO">Bearb. Essensplan (Update Rotation) LEEPRO</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="10">10</td>
+<td title="1.83">1.83</td>
+<td title=""></td>
+<td title="15:14">15:14</td>
+<td title="15:24">15:24</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Protokoll) LEEPPR">Bearb. Essensplan (Protokoll) LEEPPR</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="8">8</td>
+<td title="1.827">1.827</td>
+<td title=""></td>
+<td title="15:24">15:24</td>
+<td title="15:32">15:32</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP">Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP</td>
+<td title="Radio">Radio</td>
+<td title="8">8</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="15:32">15:32</td>
+<td title="15:40">15:40</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Eintragen Protokoll) LEEPEP">Bearb. Essensplan (Eintragen Protokoll) LEEPEP</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="5">5</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="15:40">15:40</td>
+<td title="15:45">15:45</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Ohrwürmer (durchgenommene) RWOWDU">Bearb. Ohrwürmer (durchgenommene) RWOWDU</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="5">5</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="15:45">15:45</td>
+<td title="15:50">15:50</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Einlesen Einkaufsliste) LEEEL">Bearb. Essensplan (Einlesen Einkaufsliste) LEEEL</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="9">9</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="15:50">15:50</td>
+<td title="15:59">15:59</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Ohrwürmer (Texte) MUOWTE">Bearb. Ohrwürmer (Texte) MUOWTE</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="1">1</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="15:59">15:59</td>
+<td title="16:00">16:00</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Nachmittagsjause fassen LENAJA">Nachmittagsjause fassen LENAJA</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="4">4</td>
+<td title="1.844">1.844</td>
+<td title="16:00">16:00</td>
+<td title="16:00">16:00</td>
+<td title="16:04">16:04</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Bearb. Ohrwürmer (Texte) MUOWTE (Fs.)">Bearb. Ohrwürmer (Texte) MUOWTE (Fs.)</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="4">4</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="16:04">16:04</td>
+<td title="16:08">16:08</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP">Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP</td>
+<td title="Radio">Radio</td>
+<td title="8">8</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="16:08">16:08</td>
+<td title="16:16">16:16</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Ohrwürmer (Liste auswendig singbarer Titel) MUOWAS">Bearb. Ohrwürmer (Liste auswendig singbarer Titel) MUOWAS</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="5">5</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="16:16">16:16</td>
+<td title="16:21">16:21</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Ohrwürmer (Nachfassen aus alten Charts) RWOWTT">Bearb. Ohrwürmer (Nachfassen aus alten Charts) RWOWTT</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="3">3</td>
+<td title="1.822">1.822</td>
+<td title=""></td>
+<td title="16:21">16:21</td>
+<td title="16:24">16:24</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Teller waschen / Getränk + Biovital fassen LENATW">Teller waschen / Getränk + Biovital fassen LENATW</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="4">4</td>
+<td title="1.844">1.844</td>
+<td title=""></td>
+<td title="16:24">16:24</td>
+<td title="16:28">16:28</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Ohrwürmer (Nachfassen aus alten Charts) RWOWTT (Fs.)">Bearb. Ohrwürmer (Nachfassen aus alten Charts) RWOWTT (Fs.)</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="7">7</td>
+<td title="1.822">1.822</td>
+<td title=""></td>
+<td title="16:28">16:28</td>
+<td title="16:35">16:35</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Führung Tagebuch, um schmerzhafte Situationen zu verarbeiten GELIFT (Fs.)">Führung Tagebuch, um schmerzhafte Situationen zu verarbeiten GELIFT (Fs.)</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="6">6</td>
+<td title="1.815">1.815</td>
+<td title=""></td>
+<td title="16:35">16:35</td>
+<td title="16:41">16:41</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Papiersortierung (hereingekommene Papiere) WFPAEK">Papiersortierung (hereingekommene Papiere) WFPAEK</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="9">9</td>
+<td title="1.811">1.811</td>
+<td title=""></td>
+<td title="16:41">16:41</td>
+<td title="16:50">16:50</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Übersiedeln (Mitteilung Adresswechsel) WFUZUS">Übersiedeln (Mitteilung Adresswechsel) WFUZUS</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="9">9</td>
+<td title="1.811">1.811</td>
+<td title=""></td>
+<td title="16:50">16:50</td>
+<td title="16:59">16:59</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearbeitung Börsenkurse / Aktienhandel FIAKBK">Bearbeitung Börsenkurse / Aktienhandel FIAKBK</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="1">1</td>
+<td title="1.811">1.811</td>
+<td title=""></td>
+<td title="16:59">16:59</td>
+<td title="17:00">17:00</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP">Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP</td>
+<td title="Radio">Radio</td>
+<td title="8">8</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="17:00">17:00</td>
+<td title="17:08">17:08</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearbeitung Börsenkurse / Aktienhandel FIAKBK (Fs.)">Bearbeitung Börsenkurse / Aktienhandel FIAKBK (Fs.)</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="9">9</td>
+<td title="1.811">1.811</td>
+<td title=""></td>
+<td title="17:08">17:08</td>
+<td title="17:17">17:17</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Spielen Kreuzungs-FGPA">Spielen Kreuzungs-FGPA</td>
+<td title="Liste_Spiele">Liste_Spiele</td>
+<td title="10">10</td>
+<td title="1.81">1.81</td>
+<td title="08:00">08:00</td>
+<td title="17:17">17:17</td>
+<td title="17:27">17:27</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Bearb. Essensplan (Nährwerte) LEEPGE">Bearb. Essensplan (Nährwerte) LEEPGE</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="11">11</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="17:27">17:27</td>
+<td title="17:38">17:38</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Erstellung Playback mit Vocal Remover">Erstellung Playback mit Vocal Remover</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="5">5</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="17:38">17:38</td>
+<td title="17:43">17:43</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Aufräumen WFARAR">Aufräumen WFARAR</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="11">11</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="17:43">17:43</td>
+<td title="17:54">17:54</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Papiersortierung (Altpapier)(10&#x27; +) WFPAAP">Papiersortierung (Altpapier)(10&#x27; +) WFPAAP</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="6">6</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="17:54">17:54</td>
+<td title="18:00">18:00</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP">Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP</td>
+<td title="Radio">Radio</td>
+<td title="8">8</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="18:00">18:00</td>
+<td title="18:08">18:08</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Papiersortierung (Altpapier)(10&#x27; +) WFPAAP (Fs.)">Papiersortierung (Altpapier)(10&#x27; +) WFPAAP (Fs.)</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="3">3</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="18:08">18:08</td>
+<td title="18:11">18:11</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Wäsche aus Waschmaschine nehmen LEWAWA">Wäsche aus Waschmaschine nehmen LEWAWA</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="9">9</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="18:11">18:11</td>
+<td title="18:20">18:20</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Aufwandserfassung und Abrechnung Kontensystem KSAAKO">Aufwandserfassung und Abrechnung Kontensystem KSAAKO</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="40">40</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="18:20">18:20</td>
+<td title="19:00">19:00</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP">Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP</td>
+<td title="Radio">Radio</td>
+<td title="8">8</td>
+<td title="1.826">1.826</td>
+<td title=""></td>
+<td title="19:00">19:00</td>
+<td title="19:08">19:08</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Aufwandserfassung und Abrechnung Kontensystem KSAAKO (Fs.)">Aufwandserfassung und Abrechnung Kontensystem KSAAKO (Fs.)</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="22">22</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="19:08">19:08</td>
+<td title="19:30">19:30</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Ansehen ZiB 1 + Wetter RATVZI">Ansehen ZiB 1 + Wetter RATVZI</td>
+<td title="Liste_ZiB">Liste_ZiB</td>
+<td title="2">2</td>
+<td title="2.407">2.407</td>
+<td title="19:30">19:30</td>
+<td title="19:30">19:30</td>
+<td title="19:32">19:32</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Aufwandserfassung und Abrechnung Kontensystem KSAAKO (Fs.)">Aufwandserfassung und Abrechnung Kontensystem KSAAKO (Fs.)</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="6">6</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="19:32">19:32</td>
+<td title="19:38">19:38</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Analyse Disassembly Astro Bomber CSGAUM">Analyse Disassembly Astro Bomber CSGAUM</td>
+<td title="Liste_Spiele">Liste_Spiele</td>
+<td title="10">10</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="19:38">19:38</td>
+<td title="19:48">19:48</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb. Geldbörse FIBGGB">Bearb. Geldbörse FIBGGB</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="10">10</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="19:48">19:48</td>
+<td title="19:58">19:58</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Papiersortierung (gelesene Werbeprospekte) WFPAWP">Papiersortierung (gelesene Werbeprospekte) WFPAWP</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="2">2</td>
+<td title="1.809">1.809</td>
+<td title=""></td>
+<td title="19:58">19:58</td>
+<td title="20:00">20:00</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Nachtmahl fassen LENANA">Nachtmahl fassen LENANA</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="3">3</td>
+<td title="1.845">1.845</td>
+<td title="20:00">20:00</td>
+<td title="20:00">20:00</td>
+<td title="20:03">20:03</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Scan Museumsradio (Samstag-Abend Wunschkonzert) RWRSPD">Scan Museumsradio (Samstag-Abend Wunschkonzert) RWRSPD</td>
+<td title="Radio">Radio</td>
+<td title="15">15</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="20:03">20:03</td>
+<td title="20:18">20:18</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Papiersortierung (gelesene Werbeprospekte) WFPAWP (Fs.)">Papiersortierung (gelesene Werbeprospekte) WFPAWP (Fs.)</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="5">5</td>
+<td title="1.809">1.809</td>
+<td title=""></td>
+<td title="20:18">20:18</td>
+<td title="20:23">20:23</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Teller waschen / Getränk + Medikament fassen LENATW">Teller waschen / Getränk + Medikament fassen LENATW</td>
+<td title="Lebenserhaltung">Lebenserhaltung</td>
+<td title="4">4</td>
+<td title="1.844">1.844</td>
+<td title=""></td>
+<td title="20:23">20:23</td>
+<td title="20:27">20:27</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Papiersortierung (gelesene Werbeprospekte) WFPAWP (Fs.)">Papiersortierung (gelesene Werbeprospekte) WFPAWP (Fs.)</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="2">2</td>
+<td title="1.809">1.809</td>
+<td title=""></td>
+<td title="20:27">20:27</td>
+<td title="20:29">20:29</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="WC MTMTWC">WC MTMTWC</td>
+<td title="Liste_untertags">Liste_untertags</td>
+<td title="9">9</td>
+<td title="1.809">1.809</td>
+<td title=""></td>
+<td title="20:29">20:29</td>
+<td title="20:38">20:38</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Papiersortierung PAA1SU">Papiersortierung PAA1SU</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="10">10</td>
+<td title="1.807">1.807</td>
+<td title=""></td>
+<td title="20:38">20:38</td>
+<td title="20:48">20:48</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Korrektur The Grindy Adventure CSGAUM">Korrektur The Grindy Adventure CSGAUM</td>
+<td title="Liste_Spiele">Liste_Spiele</td>
+<td title="10">10</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="20:48">20:48</td>
+<td title="20:58">20:58</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Papiersortierung PAA1SU (Fs.)">Papiersortierung PAA1SU (Fs.)</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="2">2</td>
+<td title="1.807">1.807</td>
+<td title=""></td>
+<td title="20:58">20:58</td>
+<td title="21:00">21:00</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Scan Museumsradio RWRSMR">Scan Museumsradio RWRSMR</td>
+<td title="Radio">Radio</td>
+<td title="15">15</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="21:00">21:00</td>
+<td title="21:15">21:15</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Papiersortierung PAA1SU (Fs.)">Papiersortierung PAA1SU (Fs.)</td>
+<td title="Liste_nachmittags">Liste_nachmittags</td>
+<td title="43">43</td>
+<td title="1.807">1.807</td>
+<td title=""></td>
+<td title="21:15">21:15</td>
+<td title="21:58">21:58</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Analyse Disassembly Tour de France CSGAUM">Analyse Disassembly Tour de France CSGAUM</td>
+<td title="Liste_Spiele">Liste_Spiele</td>
+<td title="10">10</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="21:58">21:58</td>
+<td title="22:08">22:08</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Scan Museumsradio RWRSMR">Scan Museumsradio RWRSMR</td>
+<td title="Radio">Radio</td>
+<td title="12">12</td>
+<td title="1.81">1.81</td>
+<td title=""></td>
+<td title="22:08">22:08</td>
+<td title="22:20">22:20</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Vorbereitung Zähne putzen LEAZVZ">Vorbereitung Zähne putzen LEAZVZ</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="5">5</td>
+<td title="1.835">1.835</td>
+<td title="22:20">22:20</td>
+<td title="22:20">22:20</td>
+<td title="22:25">22:25</td>
+<td title="scheduled">scheduled</td>
+</tr>
+<tr>
+<td title="Zähne putzen LEAZZP">Zähne putzen LEAZZP</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="12">12</td>
+<td title="1.835">1.835</td>
+<td title=""></td>
+<td title="22:25">22:25</td>
+<td title="22:37">22:37</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anwendung der Zwischenraumzahnbürste LEAZZZ">Anwendung der Zwischenraumzahnbürste LEAZZZ</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="16">16</td>
+<td title="1.835">1.835</td>
+<td title=""></td>
+<td title="22:37">22:37</td>
+<td title="22:53">22:53</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Anwendung Zahnseide LEAZZS">Anwendung Zahnseide LEAZZS</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="5">5</td>
+<td title="1.835">1.835</td>
+<td title=""></td>
+<td title="22:53">22:53</td>
+<td title="22:58">22:58</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Reinigung Zahnputzutensilien, Hände waschen LEAZHW">Reinigung Zahnputzutensilien, Hände waschen LEAZHW</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="2">2</td>
+<td title="1.834">1.834</td>
+<td title=""></td>
+<td title="22:58">22:58</td>
+<td title="23:00">23:00</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bett machen LEAZHW">Bett machen LEAZHW</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="2">2</td>
+<td title="1.835">1.835</td>
+<td title=""></td>
+<td title="23:00">23:00</td>
+<td title="23:02">23:02</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Ausziehen LEAZAU">Ausziehen LEAZAU</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="4">4</td>
+<td title="1.835">1.835</td>
+<td title=""></td>
+<td title="23:02">23:02</td>
+<td title="23:06">23:06</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC">Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="2">2</td>
+<td title="1.834">1.834</td>
+<td title=""></td>
+<td title="23:06">23:06</td>
+<td title="23:08">23:08</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Einschmieren GEAZES">Einschmieren GEAZES</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="2">2</td>
+<td title="1.835">1.835</td>
+<td title=""></td>
+<td title="23:08">23:08</td>
+<td title="23:10">23:10</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="WC LEAZWC">WC LEAZWC</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="5">5</td>
+<td title="1.835">1.835</td>
+<td title=""></td>
+<td title="23:10">23:10</td>
+<td title="23:15">23:15</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL">Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="2">2</td>
+<td title="1.834">1.834</td>
+<td title=""></td>
+<td title="23:15">23:15</td>
+<td title="23:17">23:17</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="PC herunterfahren LEAZHF">PC herunterfahren LEAZHF</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="1">1</td>
+<td title="1.834">1.834</td>
+<td title=""></td>
+<td title="23:17">23:17</td>
+<td title="23:18">23:18</td>
+<td title="upcoming">upcoming</td>
+</tr>
+<tr>
+<td title="im Bett">im Bett</td>
+<td title="Liste_Abendzeremonie">Liste_Abendzeremonie</td>
+<td title="1">1</td>
+<td title="1.834">1.834</td>
+<td title=""></td>
+<td title="23:18">23:18</td>
+<td title="23:19">23:19</td>
+<td title="upcoming">upcoming</td>
+</tr>
+</tbody>
+</table>
+
+<script>
+let sortCol = -1, sortAsc = true;
+function sortTable(col) {
+    const table = document.getElementById('mainTable');
+    const tbody = table.tBodies[0];
+    const rows = Array.from(tbody.rows);
+    if (sortCol === col) { sortAsc = !sortAsc; } else { sortCol = col; sortAsc = true; }
+
+    // Reset header classes
+    table.querySelectorAll('th').forEach(th => th.className = '');
+    table.tHead.rows[0].cells[col].className = sortAsc ? 'sorted-asc' : 'sorted-desc';
+
+    rows.sort((a, b) => {
+        let va = a.cells[col].textContent.trim();
+        let vb = b.cells[col].textContent.trim();
+        // Try numeric
+        let na = parseFloat(va), nb = parseFloat(vb);
+        if (!isNaN(na) && !isNaN(nb)) return sortAsc ? na - nb : nb - na;
+        // Try time HH:MM
+        if (/^\d{2}:\d{2}/.test(va) && /^\d{2}:\d{2}/.test(vb)) {
+            return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+        }
+        return sortAsc ? va.localeCompare(vb, 'de') : vb.localeCompare(va, 'de');
+    });
+    rows.forEach(r => tbody.appendChild(r));
+}
+
+function filterTable() {
+    const table = document.getElementById('mainTable');
+    const inputs = table.tHead.rows[1].querySelectorAll('input');
+    const filters = Array.from(inputs).map(i => i.value.toLowerCase());
+    const rows = table.tBodies[0].rows;
+    for (let r = 0; r < rows.length; r++) {
+        let show = true;
+        for (let c = 0; c < filters.length; c++) {
+            if (filters[c] && !rows[r].cells[c].textContent.toLowerCase().includes(filters[c])) {
+                show = false; break;
+            }
+        }
+        rows[r].style.display = show ? '' : 'none';
+    }
+}
+</script>
+
+</body></html>

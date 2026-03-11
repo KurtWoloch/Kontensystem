@@ -1,0 +1,189 @@
+=================================================================
+  TAGESBERICHT — 2026-03-07
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      133
+  Geplante Gesamtzeit:         17h 19m
+
+  ✓ Erledigt (geplant):       60  (    6h 43m)  = 38.8%
+  ⏭ Übersprungen:             20  (    2h 00m)  = 11.5%
+  ✗ Nicht erreicht:           53  (    8h 36m)  = 49.7%
+
+  📝 Ungeplante Aktivitäten:  33  (    8h 09m)
+  ⏱  Tatsächliche Arbeitszeit:     7h 21m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Bearbeitung Aufgaben zu Papa's Pfle   10:43     21:58 +11h 15m
+  Bearb. Liste Scooterfahrten FZSCLI    10:18     20:51 +10h 33m
+  Bearb. Liste Scooterfahrten FZSCLI    10:31     20:51 +10h 20m
+  Bearb.Ohrwürmer(Nachfassen aus alte   09:35     18:24  +8h 49m
+  Bearb.Ohrwürmer(Nachfassen aus alte   10:08     18:24  +8h 16m
+  Bearb. Essensplan (Protokoll) LEEPP   15:24     21:51  +6h 27m
+  Bearb. Essensplan (Kontrolle / zu e   09:58     15:44  +5h 46m
+  Bearb. Essensplan (gegessen, zu ess   10:27     15:07  +4h 40m
+  Wohnung lüften WFLULU                 14:49     10:38  -4h 11m
+  Mund spülen LEMTMS                    07:47     10:32  +2h 45m
+  Bearb. Essensplan (Ereignisse / geg   14:44     16:51  +2h 07m
+  WC LEMTWC                             06:46     08:47  +2h 01m
+  Reinigung Waschmuschel LEMTRW         06:52     08:50  +1h 58m
+  Einschmieren GEMTES                   06:53     08:51  +1h 58m
+  Bett machen LEMTBM                    06:58     08:53  +1h 55m
+  ... und 45 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: noch keine vorhanden
+  ⏭ PC herunterfahren PCHFHF
+    Grund: bleibt an für molt.chess und Radio Würmchen KI
+  ⏭ Bearb.Ohrwürmer(durchgenommen) MUOWDU
+    Grund: nichts durchgenommen
+  ⏭ Ausziehen LEMTAZ
+    Grund: schon vor Besuch des Schwimmbads erledigt
+  ⏭ Abwiegen LEMTAW
+    Grund: entfallen (vergessen)
+  ⏭ Anziehen LEMTAN
+    Grund: schon vor Besuch des Schwimmbads erledigt
+  ⏭ Bearb.Ohrwürmer(Nachfassen aus alten Charts) 
+    Grund: habe keine Zeit dafür wg. Einladung bei Fr. Strake, muss noch Einkauf vorbereiten und durchführen
+  ⏭ Blutdruck messen GEBMBM
+    Grund: wurde eben als Unterbrechung eingetragen!
+  ⏭ Vorbereitung Einkaufsliste LEEKEL
+    Grund: schon oben erledigt
+  ⏭ Jause fassen LEMTJF
+    Grund: schon erledigt (nur Wasser, 11:03-11:06)
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: nichts in Liste (Listenerstellung wg. Zeitmangel nicht durchgeführt)
+  ⏭ PC herunterfahren PCHFHF
+    Grund: wird wg. Radio Würmchen KI nicht durchgeführt
+  ⏭ Der Außentemperatur entsprechend anziehen LEA
+    Grund: schon vor Einkauf erledigt
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Mund spülen / Teller waschen / Getränk fassen
+    Grund: ist im Moment nicht nötig (im Rahmen der Morgentoilette überhaupt nicht, da schon Nachmittag ist)
+  ⏭ Bearb.Ohrwürmer(durchgenommen) MUOWDU
+    Grund: immer noch nichts in Liste (Listenaufbau vormittags wg. Zeitmangel ausgelassen)
+  ⏭ WC LENJWC
+    Grund: muss noch nicht
+  ⏭ Einkauf (BILLA Ederg.) / Laufen LEEKBI
+    Grund: bereits erledigt (11:46-12:30)
+  ⏭ Nachmittagsjause fassen LENAJA
+    Grund: immer noch kein Hunger
+  ⏭ Teller waschen / Getränk fassen LENATW
+    Grund: wurde eben erledigt
+  ⏭ Teller waschen / Getränk + Medikament fassen 
+    Grund: schon vorhin erledigt
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: Charts wurden noch nicht bearbeitet
+  ⏭ PC herunterfahren LEAZHF
+    Grund: wird nicht heruntergefahren wg. Radio Würmchen KI
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:18–06:40  Besprechung Vortagsergebnis (viele Skips
+  📝 06:54–06:56  WC  — Task-Kürzel wurde nicht vorgeschlagen!
+  📝 06:56–07:11  Arbeit an Planungstool mit OpenClaw
+  📝 07:24–07:31  WC LEMTWC
+  📝 07:41–07:43  Ausziehen LEMTAZ
+  📝 07:43–07:45  Anziehen LEMTAN
+  📝 09:17–09:54  Erweiterung Planungstool mit OpenClaw (B
+  📝 09:54–10:32  Definition Prozesse für Mittagessen / Sp
+  📝 10:49–10:51  Blutdruck messen GEBMBM
+  📝 11:03–11:06  Wasser fassen LEMTJF  — keine komplette Jause nötig (zu nahe an Mittagessen)
+  📝 11:09–11:33  Vorbereitung Einkaufsliste LEEKEL  — ausführlicher, weil einige Dinge darin, die noch nicht vorgesehen sind (Schokoladekuchen, Holundersirup normal, Basilikum, Bulgur)
+  📝 11:44–11:46  Der Außentemperatur entsprechend anziehe
+  📝 11:46–12:30  Einkauf (BILLA Ederg.) / Laufen LEEKBI  — vorgezogen wg. Mittagessen bei Strake
+  📝 12:36–13:51  Mittagessen (bei E.+H. Strake) LEMEES  — Fischstäbchen mit Kartoffel- und Gurkensalat, Sauce Tartare
+  📝 14:03–14:10  Fehlerkorrektur Tagesplanung / Diskussio  — noch Fehler bei der Erkennung von Wenn-Bedingungen
+  📝 14:10–14:18  Ansehen Rosin's Restaurants RWMPMP  — warum steht das nicht in Taskliste?
+  📝 14:18–14:54  Diskussion fehlende Taskcodes und unpass
+  📝 14:56–15:07  Ansehen Rosin's Restaurants RAYTRR
+  📝 15:12–15:16  Wohnung lüften WFLULU
+  📝 15:16–15:29  Notieren unpassende Matchings zu WC KSPL
+  📝 15:29–15:35  WC LEMTWC
+  📝 15:35–15:39  Soja-Drink fassen LEJNGF
+  📝 15:51–15:59  Ansehen Rosin's Restaurants RAYTRR
+  📝 17:08–17:25  Bearb. Ohrwürmer (Nachfassen aus alten C  — nachträglich eingefügt
+  📝 17:25–18:17  Spielen Miniature Midway (Theme Park Clo  — ab 17:31, https://built-with-gpt54.vercel.app/theme-park
+  📝 18:17–18:22  WC LEJNWC
+  📝 18:22–18:24  Nachmittagsjause fassen LENAJA  — Doppelkeks
+  📝 18:45–18:50  Teller waschen / Getränk fassen LENATW  — inkl. Eintragen gegessen / getrunken in Essensplan
+  📝 19:24–19:37  Ansehen Rosin's Restaurants RAYTRR  — Testessen Zum Stern
+  📝 20:30–20:42  Bearb. Essensplan (gegessen / neuer Plan
+  📝 20:42–20:45  Teller waschen / Getränk + Medikament fa
+  📝 20:45–20:51  Ansehen Rosin's Restaurants RAYTRR
+  📝 22:31–22:33  WC LEAZWC  — vorgezogen
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 10:53  Bearb. Geldbörse FIBGGB  (7m)
+  ✗ 11:32  Bearb. Geldbörse FIBGGB (Fs.)  (3m)
+  ✗ 11:35  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 11:43  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 11:49  Bearbeitung Buch Champion's Mindset GELI  (11m)
+  ✗ 12:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 12:08  Führung Tagebuch, um schmerzhafte Situat  (4m)
+  ✗ 12:30  Mittagessen (?)  (60m)
+  ✗ 13:30  Geschirr abwaschen LEMEGA  (5m)
+  ✗ 13:35  WC BREPWC  (9m)
+  ✗ 15:32  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 15:40  Bearb. Essensplan (Eintragen Protokoll)   (5m)
+  ✗ 15:45  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 15:50  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 15:59  Bearb. Ohrwürmer (Texte) MUOWTE  (1m)
+  ✗ 16:04  Bearb. Ohrwürmer (Texte) MUOWTE (Fs.)  (4m)
+  ✗ 16:08  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 16:16  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 16:21  Bearb. Ohrwürmer (Nachfassen aus alten C  (3m)
+  ✗ 16:24  Teller waschen / Getränk + Biovital fass  (4m)
+  ✗ 16:28  Bearb. Ohrwürmer (Nachfassen aus alten C  (7m)
+  ✗ 16:35  Führung Tagebuch, um schmerzhafte Situat  (6m)
+  ✗ 16:41  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 16:50  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 16:59  Bearbeitung Börsenkurse / Aktienhandel F  (1m)
+  ✗ 17:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 17:08  Bearbeitung Börsenkurse / Aktienhandel F  (9m)
+  ✗ 17:17  Spielen Kreuzungs-FGPA  (10m)
+  ✗ 17:27  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 17:38  Erstellung Playback mit Vocal Remover  (5m)
+  ✗ 17:43  Aufräumen WFARAR  (11m)
+  ✗ 17:54  Papiersortierung (Altpapier)(10' +) WFPA  (6m)
+  ✗ 18:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 18:08  Papiersortierung (Altpapier)(10' +) WFPA  (3m)
+  ✗ 18:11  Wäsche aus Waschmaschine nehmen LEWAWA  (9m)
+  ✗ 18:20  Aufwandserfassung und Abrechnung Kontens  (40m)
+  ✗ 19:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 19:08  Aufwandserfassung und Abrechnung Kontens  (22m)
+  ✗ 19:32  Aufwandserfassung und Abrechnung Kontens  (6m)
+  ✗ 19:38  Analyse Disassembly Astro Bomber CSGAUM  (10m)
+  ✗ 19:48  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 19:58  Papiersortierung (gelesene Werbeprospekt  (2m)
+  ✗ 20:03  Scan Museumsradio (Samstag-Abend Wunschk  (15m)
+  ✗ 20:18  Papiersortierung (gelesene Werbeprospekt  (5m)
+  ✗ 20:27  Papiersortierung (gelesene Werbeprospekt  (2m)
+  ✗ 20:29  WC MTMTWC  (9m)
+  ✗ 20:38  Papiersortierung PAA1SU  (10m)
+  ✗ 20:48  Korrektur The Grindy Adventure CSGAUM  (10m)
+  ✗ 20:58  Papiersortierung PAA1SU (Fs.)  (2m)
+  ✗ 21:00  Scan Museumsradio RWRSMR  (15m)
+  ✗ 21:15  Papiersortierung PAA1SU (Fs.)  (43m)
+  ✗ 21:58  Analyse Disassembly Tour de France CSGAU  (10m)
+  ✗ 22:08  Scan Museumsradio RWRSMR  (12m)
+
+=================================================================

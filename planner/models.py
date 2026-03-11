@@ -48,6 +48,9 @@ class ListState:
     # Interruption tracking
     pending_start: Optional[datetime] = None   # resume start time after interruption
     continuation_count: int = 0                # how many times current item was interrupted
+    # Replay tracking: indices already completed during log reload
+    # (used to skip over out-of-order completions)
+    replay_done_indices: set = field(default_factory=set)
 
 
 @dataclass

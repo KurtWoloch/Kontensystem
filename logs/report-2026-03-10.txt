@@ -1,0 +1,198 @@
+=================================================================
+  TAGESBERICHT — 2026-03-10
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      106
+  Geplante Gesamtzeit:         17h 15m
+
+  ✓ Erledigt (geplant):       62  (   12h 59m)  = 75.3%
+  ⏭ Übersprungen:              8  (       44m)  = 4.3%
+  ✗ Nicht erreicht:           36  (    3h 32m)  = 20.5%
+
+  📝 Ungeplante Aktivitäten:  85  (    6h 11m)
+  ⏱  Tatsächliche Arbeitszeit:    11h 08m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Bearb. Essensplan (Kontrolle / zu e   08:16     21:18 +13h 02m
+  Anhören RW-Prg. / Tonträger / Radio   08:52     21:44 +12h 52m
+  Bearb. Essensplan (Kontrolle / zu e   08:30     21:18 +12h 48m
+  Anhören RW-Prg. / Tonträger / Radio   08:59     21:44 +12h 45m
+  Blutdruck messen GEBMBM               08:57     14:02  +5h 05m
+  WC BREPWC                             18:29     14:57  -3h 32m
+  Versorgung Mitbringsel LEPOPO         19:22     21:31  +2h 09m
+  Häferl waschen / Hustenbonbon fasse   08:13     09:56  +1h 43m
+  Bearb. Essensplan (gegessen, zu ess   06:23     08:04  +1h 41m
+  Vorbereitung Playlist für Hören unt   06:27     08:06  +1h 39m
+  Arbeitszeit absolvieren (Nachmittag   14:01     15:37  +1h 36m
+  Ausputzen Rasierer LEMTAR             06:41     08:16  +1h 35m
+  Bearb.Ohrwürmer(durchgenommen) MUOW   06:43     08:18  +1h 35m
+  Ausziehen LEMTAZ                      06:46     08:21  +1h 35m
+  WC LEMTWC                             06:47     08:22  +1h 35m
+  ... und 47 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Papiersortierung WFPAPA
+    Grund: kommt erst an die Reihe, wenn Sati da ist und am PC putzt
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Anhören RW-Prg. mit Sati Ersoy RWMPSE
+    Grund: nicht so oft nach Wertungen befragt
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: so nicht durchgeführt (vergessen)
+  ⏭ PC herunterfahren PCHFAR
+    Grund: vor Teleworking nicht heruntergefahren
+  ⏭ Start Teleworking BRZG BRTWGF
+    Grund: schon geloggt
+  ⏭ WC BREPWC
+    Grund: muss nicht nochmal
+  ⏭ PC herunterfahren PCHFHF
+    Grund: wurde wegen Radio Würmchen KI nicht heruntergefahren
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft (noch alles da)
+  ⏭ PC herunterfahren LEAZHF
+    Grund: nur Dateien speichern
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:01–06:03  WC LEMTWC
+  📝 06:19–06:21  Konversation mit Andrew Pappas RAAFKO
+  📝 06:21–06:23  Analyse Thinking Frequencies RWMPMP
+  📝 06:23–06:28  Konversation mit Andrew Pappas RAAFKO
+  📝 06:28–06:30  Analyse Thinking Frequencies RWMPMP
+  📝 06:30–06:33  Konversation mit Andrew Pappas RAAFKO
+  📝 06:33–06:34  Analyse Thinking Frequencies RWMPMP
+  📝 06:34–06:35  Analyse gestriger Tagesbericht KSPLPL
+  📝 06:35–06:37  Analyse Thinking Frequencies RWMPMP
+  📝 06:37–06:42  Korrektur Planungsaktivitäten KSPLPL
+  📝 06:45–06:47  Analyse Thinking Frequencies RWMPMP
+  📝 06:47–06:49  Update + Neustart OpenClaw Gateway PCOCU
+  📝 06:49–06:50  Analyse Thinking Frequencies RWMPMP
+  📝 06:50–06:52  Wasser fassen LEMTGA
+  📝 06:52–06:55  Analyse Thinking Frequencies RWMPMP
+  📝 06:55–06:56  Bearb. Essensplan (gegessen) LEEPLS
+  📝 06:56–06:57  Nacherfassung Ablauf KSPLNA
+  📝 06:57–07:01  Surfen Andon FM / Musikwunsch Thinking F
+  📝 07:01–07:02  Neustart OpenClaw Gateway PCOCUP
+  📝 07:02–07:16  Nacherfassung Ablauf KSPLNA
+  📝 07:16–07:17  Analyse Thinking Frequencies RWMPMP
+  📝 07:17–07:22  Nacherfassung Ablauf KSPLNA
+  📝 07:31–07:35  Diskussion Vortag mit OpenClaw KSPLAW
+  📝 07:36–07:38  Diskussion Vortag mit OpenClaw KSPLAW
+  📝 07:42–07:44  Erfassung Programm OpenAIR RWAFPR
+  📝 07:57–07:59  Ansehen Youtube-Videos RAYTYT
+  📝 07:59–08:04  Nacherfassung Ablauf KSPLNA
+  📝 08:46–08:48  Ansehen Youtube-Videos RAYTYT
+  📝 09:17–09:28  Bearb. Essensplan (Automatisierung Regen
+  📝 09:30–09:32  Bearb. Essensplan (Automatisierung Regen
+  📝 09:34–09:43  Bearb. Essensplan (Automatisierung Regen
+  📝 09:44–09:50  Nacherfassung Ablauf KSPLNA
+  📝 09:55–09:56  Mund spülen LEMTMS
+  📝 09:57–10:31  Papiersortierung KA-Unterlagen (aus CG)   — Abgang Sati 10:29
+  📝 10:32–10:33  Ansehen Youtube-Videos RAYTYT
+  📝 10:33–10:35  Versuch Debugging Andon FM-Scraper RWAFA
+  📝 10:35–10:38  Ansehen Youtube-Videos RAYTYT
+  📝 10:38–10:40  Versuch Debugging Andon FM-Scraper RWAFA
+  📝 10:40–10:41  Nacherfassung Ablauf KSPLNA
+  📝 10:41–10:42  Versuch Debugging Andon FM-Scraper RWAFA
+  📝 10:42–10:44  Ansehen Youtube-Videos RAYTYT
+  📝 10:44–10:51  Nacherfassung Ablauf KSPLNA
+  📝 10:51–10:57  Start Teleworking BRZG BRTWGF
+  📝 10:57–10:59  Bearb. Essensplan (gegessen) LEEPLS
+  📝 12:28–12:34  Einlass / Koordination / Verabschiedung 
+  📝 13:11–13:24  Korrektur Andon FM-Scraper RWAFAN
+  📝 13:24–13:26  Ansehen Youtube-Videos (Rosin's Restaura
+  📝 13:26–13:33  Korrektur Andon FM-Scraper RWAFAN
+  📝 13:33–13:34  Ansehen Youtube-Videos (Rosin's Restaura
+  📝 13:34–13:48  Korrektur / Test Andon FM-Scraper RWAFAN
+  📝 13:49–13:51  Surfen Molt.chess CSSUMC
+  📝 13:51–13:53  Korrektur / Test Andon FM-Scraper RWAFAN
+  📝 13:53–14:02  Nacherfassung Ablauf KSPLNA
+  📝 14:05–14:18  Ansehen Youtube-Videos (Rosin's Restaura
+  📝 14:18–14:19  Nacherfassung Ablauf KSPLNA
+  📝 14:19–14:21  Surfen X RAAFKO
+  📝 14:21–14:22  Review Dokumentation BRZG KSBRDR
+  📝 14:22–14:36  Nacherfassung Ablauf KSPLNA
+  📝 14:36–14:47  Bearb. Essensplan (neuer Plan) LEEPNP
+  📝 14:47–14:49  Wasser fassen LEMEGA
+  📝 14:49–14:57  Befragung Arena.AI heutige RW-Playlist R
+  📝 15:04–15:07  Ansehen Rosin's Restaurants RAYTRR
+  📝 15:07–15:08  Surfen Andon FM RASZAF
+  📝 15:08–15:10  Ansehen Youtube-Videos (2 adults in rush
+  📝 15:10–15:13  Analyse Andon FM RWPLAF
+  📝 15:13–15:24  Ansehen Youtube-Videos (2 adults in rush
+  📝 15:24–15:25  Analyse Andon FM RWPLAF
+  📝 15:25–15:28  Ansehen Youtube-Videos (2 adults in rush
+  📝 15:28–15:29  Analyse Andon FM RWPLAF
+  📝 15:29–15:30  Anhören OpenAIR RAANOA
+  📝 15:30–15:35  Nacherfassung Ablauf KSPLNA
+  📝 15:35–15:37  Anhören Backlink Broadcast RAANBB
+  📝 19:56–19:57  Nacherfassung Ablauf KSPLNA
+  📝 20:03–20:04  Begutachtung Status Ngrok RWKIVE
+  📝 20:51–21:11  Mail Ewigen Speiseplan an Michael Kainz 
+  📝 21:11–21:12  Surfen Molt.chess CSSUMC
+  📝 21:12–21:13  Lesen Ewigen Speiseplan LEPLES
+  📝 21:13–21:14  div. Surfen (News) INSUNE
+  📝 21:22–21:30  Nacherfassung Ablauf KSPLNA
+  📝 21:30–21:31  Bearb. Essensplan (Start Korrekturlauf) 
+  📝 21:40–21:44  Nacherfassung Ablauf KSPLNA
+  📝 22:32–22:39  Bugfixing Andon FM-Scraper (Repeating Tr
+  📝 22:55–23:00  Bugfixing Andon FM-Scraper (Repeating Tr
+  📝 23:08–23:13  Bugfixing Andon FM-Scraper (Repeating Tr
+  📝 23:13–23:19  Nacherfassung Ablauf KSPLNA
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 08:09  Termine in Kalender prüfen LEMTTP  (1m)
+  ✗ 08:10  Mailprüfung INMAPR  (1m)
+  ✗ 08:11  Mund spülen LEMTMS  (2m)
+  ✗ 08:15  Mailprüfung INMAPR (Fs.)  (1m)
+  ✗ 08:32  Ermittlung Gesamtzeiten (wenn nicht am M  (6m)
+  ✗ 08:38  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (10m)
+  ✗ 08:48  Bearb. Liste Scooterfahrten FZSCLI  (3m)
+  ✗ 09:02  Bearb. Liste Scooterfahrten FZSCLI (Fs.)  (6m)
+  ✗ 09:08  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 09:12  Anhören Radiosender / Tonträger / Ansehe  (5m)
+  ✗ 12:31  Einlass / Koordination / Zahlung / Verab  (6m)
+  ✗ 13:37  Geschirr abwaschen LEMEGA  (5m)
+  ✗ 19:31  Wohnung lüften WFLULU  (4m)
+  ✗ 19:35  Wäsche aus Waschmaschine nehmen LEKLWM  (10m)
+  ✗ 19:45  Anhören Radiosender / Tonträger / Ansehe  (3m)
+  ✗ 19:48  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 19:56  Bearbeitung Aufgaben zu Papa's Pflege (1  (4m)
+  ✗ 20:03  Bearbeitung Aufgaben zu Papa's Pflege (1  (6m)
+  ✗ 20:09  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:17  Bearb. Geldbörse FIBGGB  (6m)
+  ✗ 20:27  Bearb. Geldbörse FIBGGB (Fs.)  (4m)
+  ✗ 20:31  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 20:37  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 20:42  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 20:51  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 20:56  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 21:01  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:09  Bearbeitung Buch Champion's Mindset GELI  (11m)
+  ✗ 21:20  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 21:30  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 21:40  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 21:49  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 21:58  Bearbeitung Börsenkurse / Aktienhandel F  (2m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Bearbeitung Börsenkurse / Aktienhandel F  (8m)
+  ✗ 22:16  Spielen Kreuzungs-FGPA CSEXKF  (4m)
+
+=================================================================

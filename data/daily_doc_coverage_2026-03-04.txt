@@ -1,0 +1,214 @@
+================================================================================
+DAILY DOCUMENTATION COVERAGE REPORT — March 4, 2026
+================================================================================
+Generated: 2026-03-05
+
+────────────────────────────────────────────────────────────────────────────────
+SUMMARY STATISTICS
+────────────────────────────────────────────────────────────────────────────────
+  Total minutes logged        : 1020 min
+  Documented (✅)            :  106 min  ( 10.4%)
+  Mentioned  (⚠️)             :   56 min  (  5.5%)
+  Undocumented (❌)          :  631 min  ( 61.9%)
+  Unmatched (🔍)             :  227 min  ( 22.3%)
+  Coverage (doc + mentioned)  :         15.9%
+
+────────────────────────────────────────────────────────────────────────────────
+FULL ACTIVITY LIST  (sorted by time spent, most first)
+────────────────────────────────────────────────────────────────────────────────
+  Arbeitszeit absolvieren (Vormittag)          BREPDZ   237  ❌ UNDOC       → no account
+  Abhalten BKDD Standup Meeting                BREPGM    55  ❌ UNDOC       → no account
+  Mittagspause BRZG                            LEMEBR    54  ❌ UNDOC       → no account
+  Fahrt BRZG                                   BRFAFA    45  ❌ UNDOC       → no account
+  Bearb. Essensplan                                      39  ✅ DOCUMENTED  [DOC101] Untersuchung der Prioritätenliste (0.1y)
+  Versorgung Mitbringsel                       LEPOPO    38  ✅ DOCUMENTED  [DOC099] Lebensdokumentation 8.9.27 (17.4y)
+                                                                            [DOC107] KURTDOKU (19.9y)
+  Bearbeitung Tagesplaner mit OpenClaw                   35  🔍 UNMATCHED   → not in task list
+  Heimfahrt vom BRZ inkl. Laufen               BRFAHF    34  ❌ UNDOC       → no account
+  Rasieren, dabei Planung (C#-Programm), Bear… LEMTRA    27  ❌ UNDOC       → no account
+  Bugfixing Tagesplanung mit OpenClaw                    26  🔍 UNMATCHED   → not in task list
+  Nacherfassung Ablauf ca. 20:00-22:33 (in ne…           23  ❌ UNDOC       → acct: KS
+  Feinschliff bei der Rasur                    LEMTFR    22  ❌ UNDOC       → no account
+  Duschen                                      LEMTDU    22  ⚠️  MENTIONED   [DOC028] Dokumentation aktueller Probleme 10.1… (15.4y)
+                                                                            [DOC029] Dokumentation aktueller Probleme 11.7… (14.6y)
+                                                                            [DOC030] Dokumentation der Psychotherapie von … (15.4y)
+  Lesen OpenClaw memories / Moltbook postings            20  🔍 UNMATCHED   → not in task list
+  Bearb. Essensplan (gegessen, zu essen, Star… LEEPEP    19  ❌ UNDOC       → no account
+  WC                                           BREPWC    18  ⚠️  MENTIONED   [DOC041] Dokumentation der Wohnungsverwaltung … (12.6y)
+                                                                            [DOC042] Dokumentation des Mittagessens am Arb… (17.8y)
+                                                                            [DOC043] Dokumentation des Mittagessens an Arb… (14.3y)
+  Herunterfahren, Einpacken, Anziehen          BRALAB    16  ❌ UNDOC       → no account
+  Konversation mit Andrew Pappas / Thinking F…           13  🔍 UNMATCHED   → not in task list
+  Diskussion mit OpenClaw / Bauen Tagesauswer…           11  🔍 UNMATCHED   → not in task list
+  WC                                           BRALWC     9  ⚠️  MENTIONED   [DOC041] Dokumentation der Wohnungsverwaltung … (12.6y)
+                                                                            [DOC042] Dokumentation des Mittagessens am Arb… (17.8y)
+                                                                            [DOC043] Dokumentation des Mittagessens an Arb… (14.3y)
+  Bearb. Essensplan (Update Händlerangebote)   LEEPUH     9  ❌ UNDOC       → no account
+  Bearb. Essensplan (Fs.)                                 9  🔍 UNMATCHED   → not in task list
+  Arbeit an Tagesplaner mit OpenClaw                      8  🔍 UNMATCHED   → not in task list
+  Korr. Tagesplanung mit OpenClaw                         8  🔍 UNMATCHED   → not in task list
+  Einpacken Musik für Fahrt inkl. Player + Ak… RWRUEP     8  ❌ UNDOC       → no account
+  Surfen Andon FM / Tweet Thinking Frequencies            8  🔍 UNMATCHED   → not in task list
+  Scan Radio Arabella                                     7  ❌ UNDOC       → acct: RA
+  Wohnung lüften                               WFLULU     7  ✅ DOCUMENTED  [DOC099] Lebensdokumentation 8.9.27 (17.4y)
+                                                                            [DOC107] KURTDOKU (19.9y)
+  Teller waschen / Getränk + Biovital fassen   LENATW     7  ❌ UNDOC       → no account
+  Zeiten sammeln                               BREPZS     7  ❌ UNDOC       → no account
+  LE - Zubereitung Earl-Gray-Tee / Mini Schok…            7  🔍 UNMATCHED   → not in task list
+  Bearb. Essensplan (Kontrolle / zu essen / K… LEEPKO     6  ❌ UNDOC       → no account
+  Bearb. Essensplan (Händlerangebote / Unters…            6  🔍 UNMATCHED   → not in task list
+  Tweet an Thinking Frequencies / Andrew Papp…            6  🔍 UNMATCHED   → not in task list
+  Surfen Moltbook                                         6  🔍 UNMATCHED   → not in task list
+  WC                                           LEMTWC     5  ❌ UNDOC       → no account
+  Auspacken Essensplan / Herunterfahren Laptop            5  ❌ UNDOC       → no account
+  Absetzen Moltbook-Message für Heartbeat-Age…            5  🔍 UNMATCHED   → not in task list
+  Bearb. Essensplan / Surfen Spaghetti in But…            5  ⚠️  MENTIONED   [DOC041] Dokumentation der Wohnungsverwaltung … (12.6y)
+                                                                            [DOC042] Dokumentation des Mittagessens am Arb… (17.8y)
+                                                                            [DOC043] Dokumentation des Mittagessens an Arb… (14.3y)
+  Konversation mit Thinking Frequencies / And…            5  🔍 UNMATCHED   → not in task list
+  Diskussion mit OpenClaw (Umschreiben Planun…            5  🔍 UNMATCHED   → not in task list
+  Arbeit an Tagesplaner mit OpenClaw (Komment…            4  🔍 UNMATCHED   → not in task list
+  Mailprüfung                                             4  ❌ UNDOC       → no account
+  Einpacken BRZ-Laptop, RW-Prg. / Essensplan … RWMPEP     4  ❌ UNDOC       → no account
+  Der Außentemperatur entsprechend anziehen    LEAUAZ     4  ✅ DOCUMENTED  [DOC099] Lebensdokumentation 8.9.27 (17.4y)
+                                                                            [DOC107] KURTDOKU (19.9y)
+  Eingabe Zeiterfassung SAP                    BREPZE     4  ✅ DOCUMENTED  [DOC101] Untersuchung der Prioritätenliste (0.1y)
+  Surfen Andon FM                                         4  ❌ UNDOC       → no account
+  Teller waschen / Soja-Drink fassen                      4  🔍 UNMATCHED   → not in task list
+  Tweet an Thinking Frequencies                           4  🔍 UNMATCHED   → not in task list
+  Tweet an Thinking Frequencies (AI radio sta…            4  🔍 UNMATCHED   → not in task list
+  Scan Radio Arabella                          RWMPMP     3  ❌ UNDOC       → no account
+  Vorbereitung Playlist für Hören unter der D… RWYTPL     3  ❌ UNDOC       → no account
+  Ausputzen Rasierer                           LEMTAR     3  ❌ UNDOC       → no account
+  Anziehen                                     LEMTAN     3  ✅ DOCUMENTED  [DOC002] Dokumentation des Ausflugskontos 10.8… (15.5y)
+                                                                            [DOC003] Dokumentation des Ausflugskontos Entw… (15.5y)
+                                                                            [DOC004] Dokumentation des Ausflugskontos Stat… (15.5y)
+  Verbesserung Tagesplanung (Supprt Anmerkung…            3  🔍 UNMATCHED   → not in task list
+  Termine in Kalender prüfen                   LEMTTP     3  ✅ DOCUMENTED  [DOC099] Lebensdokumentation 8.9.27 (17.4y)
+                                                                            [DOC107] KURTDOKU (19.9y)
+  Blutdruck messen                             GEBMBM     3  ❌ UNDOC       → no account
+  Jause fassen                                 LEMTJF     3  ❌ UNDOC       → no account
+  Mailprüfung                                  INMAPR     3  ❌ UNDOC       → no account
+  Surfen Andon FM / OpenClaw                              3  🔍 UNMATCHED   → not in task list
+  Einschmieren                                 GEMTES     2  🔍 UNMATCHED   → code GEMTES not in task list
+  Bett machen                                  LEMTBM     2  ✅ DOCUMENTED  [DOC099] Lebensdokumentation 8.9.27 (17.4y)
+                                                                            [DOC101] Untersuchung der Prioritätenliste (0.1y)
+                                                                            [DOC107] KURTDOKU (19.9y)
+  Modifizierung Tagesplanung (Stoppung Liste …            2  🔍 UNMATCHED   → not in task list
+  Scan Radio Arabella                          RWMPAR     2  ❌ UNDOC       → no account
+  Mund spülen                                  LEMTMS     2  ✅ DOCUMENTED  [DOC099] Lebensdokumentation 8.9.27 (17.4y)
+                                                                            [DOC107] KURTDOKU (19.9y)
+  Bearb. Essensplan / Getränk fassen                      2  ⚠️  MENTIONED   [DOC041] Dokumentation der Wohnungsverwaltung … (12.6y)
+                                                                            [DOC042] Dokumentation des Mittagessens am Arb… (17.8y)
+                                                                            [DOC043] Dokumentation des Mittagessens an Arb… (14.3y)
+  Einpacken Handy, Brille, Kabel (inkl. Lapto… BRFAEP     2  ❌ UNDOC       → no account
+  Müllentsorgung LEMÜMÜ                                   2  ❌ UNDOC       → no account
+  Nachmittagsjause fassen                      LENAJA     2  ❌ UNDOC       → no account
+  div. Surfen (News)                                      2  🔍 UNMATCHED   → not in task list
+  Ansehen ZiB 1 + Wetter                       RATVZI     2  ❌ UNDOC       → acct: RA
+  Teller waschen / Tee fassen                             2  🔍 UNMATCHED   → not in task list
+  Surfen Andon FM / Start Andon Scraper                   2  🔍 UNMATCHED   → not in task list
+  Nachtmahl fassen                             LENANA     2  ❌ UNDOC       → no account
+  Prüfung Nachricht für Agent (Moltbook)                  2  🔍 UNMATCHED   → not in task list
+  Surfen Andon FM / Live365 Scraper                       2  🔍 UNMATCHED   → not in task list
+  Tweet an Thinking Frequenceis                           2  🔍 UNMATCHED   → not in task list
+  Generierung konventioneller Tagesplan                   2  🔍 UNMATCHED   → not in task list
+  Tweet / Surfen Andon FM                                 2  🔍 UNMATCHED   → not in task list
+  Diskussion Openclaw Differenz Planung / Abl…            2  🔍 UNMATCHED   → not in task list
+  Surfen X (Thinking Frequencies)                         2  🔍 UNMATCHED   → not in task list
+  Aufstehen, Rasierer fasssen                  LEMTAU     1  ❌ UNDOC       → no account
+  Ausziehen                                    LEMTAZ     1  ✅ DOCUMENTED  [DOC030] Dokumentation der Psychotherapie von … (15.4y)
+                                                                            [DOC057] Dokumentation Musiker 10.8.29 (15.5y)
+                                                                            [DOC058] Dokumentation Musiker (15.5y)
+  Abwiegen                                     LEMTAW     1  ✅ DOCUMENTED  [DOC101] Untersuchung der Prioritätenliste (0.1y)
+  Reinigung Waschmuschel                       LEMTRW     1  ❌ UNDOC       → no account
+  Starten Youtube-Playlist                     MUOWSP     1  ❌ UNDOC       → no account
+  Prüfung auf eventuell mitzunehmende Dinge    BRAUPR     1  ✅ DOCUMENTED  [DOC099] Lebensdokumentation 8.9.27 (17.4y)
+                                                                            [DOC107] KURTDOKU (19.9y)
+  Surfen Thinking Frequencies                             1  🔍 UNMATCHED   → not in task list
+  Surfen Andon Labs                                       1  🔍 UNMATCHED   → not in task list
+  Bearb. Tagesplanung (konventionell)                     1  🔍 UNMATCHED   → not in task list
+  Vorbereitung Zähne putzen                    LEAZVZ     1  ✅ DOCUMENTED  [DOC101] Untersuchung der Prioritätenliste (0.1y)
+  WC                                                      0  ⚠️  MENTIONED   [DOC041] Dokumentation der Wohnungsverwaltung … (12.6y)
+                                                                            [DOC042] Dokumentation des Mittagessens am Arb… (17.8y)
+                                                                            [DOC043] Dokumentation des Mittagessens an Arb… (14.3y)
+  Häferl waschen / Hustenbonbon fassen         LEMTHW     0  ❌ UNDOC       → no account
+  PC herunterfahren                            PCHFAR     0  ✅ DOCUMENTED  [DOC099] Lebensdokumentation 8.9.27 (17.4y)
+                                                                            [DOC101] Untersuchung der Prioritätenliste (0.1y)
+                                                                            [DOC107] KURTDOKU (19.9y)
+
+────────────────────────────────────────────────────────────────────────────────
+BIGGEST UNDOCUMENTED / UNMATCHED TIME SINKS  (top 15)
+────────────────────────────────────────────────────────────────────────────────
+   1. Arbeitszeit absolvieren (Vormittag)                [BREPDZ]   237 min  UNDOCUMENTED  no acct
+   2. Abhalten BKDD Standup Meeting                      [BREPGM]    55 min  UNDOCUMENTED  no acct
+   3. Mittagspause BRZG                                  [LEMEBR]    54 min  UNDOCUMENTED  no acct
+   4. Fahrt BRZG                                         [BRFAFA]    45 min  UNDOCUMENTED  no acct
+   5. Bearbeitung Tagesplaner mit OpenClaw               [------]    35 min  UNMATCHED  no acct
+   6. Heimfahrt vom BRZ inkl. Laufen                     [BRFAHF]    34 min  UNDOCUMENTED  no acct
+   7. Rasieren, dabei Planung (C#-Programm), Bearb. Ohr… [LEMTRA]    27 min  UNDOCUMENTED  no acct
+   8. Bugfixing Tagesplanung mit OpenClaw                [------]    26 min  UNMATCHED  no acct
+   9. Nacherfassung Ablauf ca. 20:00-22:33 (in neuem Pl… [------]    23 min  UNDOCUMENTED  acct=KS
+  10. Feinschliff bei der Rasur                          [LEMTFR]    22 min  UNDOCUMENTED  no acct
+  11. Lesen OpenClaw memories / Moltbook postings        [------]    20 min  UNMATCHED  no acct
+  12. Bearb. Essensplan (gegessen, zu essen, Start Korr… [LEEPEP]    19 min  UNDOCUMENTED  no acct
+  13. Herunterfahren, Einpacken, Anziehen                [BRALAB]    16 min  UNDOCUMENTED  no acct
+  14. Konversation mit Andrew Pappas / Thinking Frequen… [------]    13 min  UNMATCHED  no acct
+  15. Diskussion mit OpenClaw / Bauen Tagesauswertung    [------]    11 min  UNMATCHED  no acct
+
+────────────────────────────────────────────────────────────────────────────────
+OLDEST DOCUMENTATION REFERENCED TODAY  (top 10 by age)
+────────────────────────────────────────────────────────────────────────────────
+  [DOC107] KURTDOKU
+       Last modified: 2006-04-12  (age: 19.9 years)  [account]
+       Referenced by: Bearb. Essensplan (39 min)
+
+  [DOC005] Dokumentation des Ausflugskontos
+       Last modified: 2007-04-06  (age: 18.9 years)  [named]
+       Referenced by: Anziehen (3 min)
+
+  [DOC006] Dokumentation des Ausflugskontos
+       Last modified: 2007-04-07  (age: 18.9 years)  [named]
+       Referenced by: Anziehen (3 min)
+
+  [DOC024] Dokumentation Finanzverwaltung 7.5.29
+       Last modified: 2007-06-01  (age: 18.8 years)  [named]
+       Referenced by: Anziehen (3 min)
+
+  [DOC098] Dokumentation zur Papiersortierung November 2007
+       Last modified: 2007-11-17  (age: 18.3 years)  [account]
+       Referenced by: Wohnung lüften (7 min)
+
+  [DOC042] Dokumentation des Mittagessens am Arbeitsplatz (Kurzfa…
+       Last modified: 2008-04-30  (age: 17.8 years)  [account]
+       Referenced by: Bearb. Essensplan (39 min)
+
+  [DOC045] Dokumentation des Mittagessens an Arbeitstagen 8.10.5
+       Last modified: 2008-10-08  (age: 17.4 years)  [account]
+       Referenced by: Bearb. Essensplan (39 min)
+
+  [DOC047] Dokumentation Lebenserhaltung (Abrechnung) 7.09.28
+       Last modified: 2008-10-09  (age: 17.4 years)  [account]
+       Referenced by: Bearb. Essensplan (39 min)
+
+  [DOC099] Lebensdokumentation 8.9.27
+       Last modified: 2008-09-27  (age: 17.4 years)  [account]
+       Referenced by: Bearb. Essensplan (39 min)
+
+  [DOC097] Dokumentation der Wohnungsverwaltung 8.9.28
+       Last modified: 2008-09-28  (age: 17.4 years)  [account]
+       Referenced by: Wohnung lüften (7 min)
+
+────────────────────────────────────────────────────────────────────────────────
+NOTES
+────────────────────────────────────────────────────────────────────────────────
+  Status definitions:
+    ✅ DOCUMENTED  — task has a named or direct doc reference in master task list
+    ⚠️  MENTIONED   — task is in an account-level doc but not specifically described
+    ❌ UNDOCUMENTED — task has no doc references at all
+    🔍 UNMATCHED   — activity could not be matched to any task in master_task_list_v4
+
+  Mentioned docs are typically account-level documents that cover the area
+  broadly (e.g. Dokumentation Lebenserhaltung) but don't describe this specific
+  task. They count as weak coverage.
+

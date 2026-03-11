@@ -495,14 +495,16 @@ class PlannerEngine:
 
         class _SimList:
             __slots__ = ('name', 'rows', 'active', 'idx', 'wait_until',
-                         'is_current_real')
-            def __init__(self, name, rows, active, idx, wait_until):
+                         'is_current_real', 'replay_done')
+            def __init__(self, name, rows, active, idx, wait_until,
+                         replay_done=None):
                 self.name = name
                 self.rows = rows
                 self.active = active
                 self.idx = idx
                 self.wait_until = wait_until
                 self.is_current_real = False
+                self.replay_done = replay_done or set()
 
         sim: Dict[str, _SimList] = {}
         for ls in self.lists.values():
@@ -510,6 +512,7 @@ class PlannerEngine:
                 name=ls.name, rows=ls.rows, active=ls.active,
                 idx=ls.current_index,
                 wait_until=ls.wait_until if (ls.wait_until and ls.wait_until > now) else None,
+                replay_done=set(ls.replay_done_indices),
             )
             sl.is_current_real = (ls.active and ls.current_activity is not None)
             sim[ls.name] = sl
@@ -529,6 +532,10 @@ class PlannerEngine:
             while sl.idx < len(sl.rows):
                 row = sl.rows[sl.idx]
                 if not self._row_applies(row):
+                    sl.idx += 1
+                    continue
+                # Skip rows already completed during log replay
+                if sl.idx in sl.replay_done:
                     sl.idx += 1
                     continue
                 rt = row.row_type
@@ -804,15 +811,27 @@ class PlannerEngine:
         Loads completion/skip records from a JSON log file and reconciles
         the planner state by advancing indices.
 
-        Strategy: walk each list's CSV rows in order.  For each row:
-          - Non-activity rows (WAIT, START, STOP, RESTART) are processed
-            inline, with WAIT timers calculated relative to the last
-            completed task's time (not datetime.now()).
-          - Activity rows are matched against the log.  If matched,
-            record and advance.  If not, stop — this is the next item.
+        Strategy (two-phase):
 
-        This correctly handles out-of-order completion times and expired
-        wait timers from hours ago.
+        Phase 1 — Unconditional restore:
+          ALL log entries are loaded into self.log.  What was logged
+          stays logged, regardless of whether it matches a CSV row.
+
+        Phase 2 — List reconciliation:
+          Walk each list's CSV rows in order.  For each activity row,
+          search the log for a matching entry (by activity text or
+          original_activity).  If matched, consume it and advance the
+          index.  If NOT matched, skip that CSV row but CONTINUE
+          checking subsequent rows (don't break).  Control-flow rows
+          (WAIT, START, STOP, RESTART) are processed when reached,
+          but only if at least one preceding activity was matched
+          (proving the session advanced past that point).
+
+        This ensures:
+        - Save → Load never loses log entries or creates gaps
+        - Out-of-order completions are handled
+        - Repeated activities consume one log entry each
+        - Continuations (Fs.) match via original_activity
 
         Returns (done_count, skip_count).
         """
@@ -831,76 +850,91 @@ class PlannerEngine:
         now = datetime.now()
 
         def _parse_log_time(time_str: str) -> datetime:
-            """Parse HH:MM:SS from log, anchored to session_date.
-
-            Times between 00:00 and 04:59 are assumed to be
-            after-midnight continuations and placed on session_date + 1.
-            """
+            """Parse HH:MM:SS from log, anchored to session_date."""
             try:
                 t = datetime.strptime(time_str, "%H:%M:%S")
             except ValueError:
                 return now
             base = self.session_date
             if t.hour < 5:
-                # After midnight — belongs to the next calendar day
                 base = self.session_date + timedelta(days=1)
             return t.replace(year=base.year, month=base.month, day=base.day)
 
+        # ============================================================
+        # PHASE 1: Unconditionally restore ALL log entries
+        # ============================================================
+        for entry in log_data:
+            started_dt = _parse_log_time(entry.get("started_at", ""))
+            completed_dt = _parse_log_time(entry.get("completed_at", ""))
+            self.log.append(CompletedItem(
+                activity=entry.get("activity", ""),
+                list_name=entry.get("list", ""),
+                priority=entry.get("priority", 0.0),
+                minutes=entry.get("minutes", 0),
+                started_at=started_dt,
+                completed_at=completed_dt,
+                skipped=entry.get("skipped", False),
+                original_activity=entry.get("original_activity", ""),
+                comment=entry.get("comment", ""),
+            ))
+            if entry.get("skipped", False):
+                skip_count += 1
+            else:
+                done_count += 1
+
+        # ============================================================
+        # PHASE 2: Reconcile list indices against the log
+        # ============================================================
+        # Group log entries by list name — include ALL list names from
+        # the log, even if the list isn't in self.lists yet (it might
+        # get started via START_LIST during reconciliation).
         log_by_list: Dict[str, List[Dict]] = {}
         for entry in log_data:
             list_name = entry.get("list")
             if list_name:
                 log_by_list.setdefault(list_name, []).append(entry)
 
-        # Restore entries from non-engine lists (unplanned, interruptions)
-        # so they participate in last_completed_at() and the timeline.
-        for list_name, entries in log_by_list.items():
-            if list_name in self.lists:
-                continue  # handled by the list-matching loop below
-            for entry in entries:
-                started_dt = _parse_log_time(entry.get("started_at", ""))
-                completed_dt = _parse_log_time(entry.get("completed_at", ""))
-                self.log.append(CompletedItem(
-                    activity=entry.get("activity", ""),
-                    list_name=list_name,
-                    priority=entry.get("priority", 0.0),
-                    minutes=entry.get("minutes", 0),
-                    started_at=started_dt,
-                    completed_at=completed_dt,
-                    skipped=entry.get("skipped", False),
-                    original_activity=entry.get("original_activity", ""),
-                    comment=entry.get("comment", ""),
-                ))
-                if not entry.get("skipped", False):
-                    done_count += 1
-                else:
-                    skip_count += 1
+        # Process lists.  Lists that get started via START_LIST during
+        # this loop need a second pass, so we track them.
+        reconciled: set = set()
 
-        for ls in self.lists.values():
+        def _reconcile_list(ls):
+            """Match a list's CSV rows against its log entries."""
+            if ls.name in reconciled:
+                return
+            reconciled.add(ls.name)
+
             if ls.name not in log_by_list:
-                continue
+                return
 
-            remaining = list(log_by_list[ls.name])  # mutable copy
-            last_completed_at: Optional[datetime] = None
+            remaining = list(log_by_list[ls.name])
+            last_completed_at_local: Optional[datetime] = None
+            # Track which CSV indices were matched
+            matched_indices: set = set()
 
+            save_index = ls.current_index
             while ls.current_index < len(ls.rows):
                 row = ls.rows[ls.current_index]
 
-                # Skip rows that don't apply today (weekday/dependency)
                 if not self._row_applies(row):
                     ls.current_index += 1
                     continue
 
-                # --- Handle control-flow rows inline ---
-
+                # --- Handle control-flow rows ---
                 if row.row_type == RowType.WAIT:
-                    base = last_completed_at if last_completed_at else now
+                    base = (last_completed_at_local
+                            if last_completed_at_local else now)
                     expiry = base + timedelta(minutes=row.minutes)
-                    if expiry <= now:
-                        print(f"[LOAD] WAIT {row.minutes}min in '{ls.name}' "
-                              f"already expired (ref: {base.strftime('%H:%M')})")
+                    if expiry <= now or remaining:
+                        if expiry > now and remaining:
+                            print(f"[LOAD] WAIT {row.minutes}min in "
+                                  f"'{ls.name}' — served (later entries)")
+                        else:
+                            print(f"[LOAD] WAIT {row.minutes}min in "
+                                  f"'{ls.name}' already expired "
+                                  f"(ref: {base.strftime('%H:%M')})")
                         ls.current_index += 1
-                        continue  # expired — keep going
+                        continue
                     else:
                         ls.wait_until = expiry
                         print(f"[LOAD] WAIT in '{ls.name}' until "
@@ -908,18 +942,19 @@ class PlannerEngine:
                               f"(ref: {base.strftime('%H:%M')})")
                         ls.current_index += 1
                         ls.current_activity = None
-                        break  # list blocked — stop processing
+                        break
 
                 if row.row_type == RowType.WAIT_UNTIL_TOP_OF_HOUR:
-                    if last_completed_at:
-                        target = (last_completed_at.replace(
+                    if last_completed_at_local:
+                        target = (last_completed_at_local.replace(
                             minute=0, second=0, microsecond=0)
                             + timedelta(hours=1))
                     else:
                         target = self._next_top_of_hour()
-                    if target <= now:
-                        print(f"[LOAD] WAIT_TOP_OF_HOUR in '{ls.name}' "
-                              f"already expired")
+                    if target <= now or remaining:
+                        if target > now and remaining:
+                            print(f"[LOAD] WAIT_TOP_OF_HOUR in "
+                                  f"'{ls.name}' — served")
                         ls.current_index += 1
                         continue
                     else:
@@ -931,8 +966,12 @@ class PlannerEngine:
                 if row.row_type == RowType.START_LIST:
                     print(f"[LOAD] Starting list: {row.target_list}")
                     self._start_list(row.target_list,
-                                     reference_time=last_completed_at)
+                                     reference_time=last_completed_at_local)
                     ls.current_index += 1
+                    # Reconcile the newly started list immediately
+                    if (row.target_list in self.lists and
+                            row.target_list not in reconciled):
+                        _reconcile_list(self.lists[row.target_list])
                     continue
 
                 if row.row_type == RowType.STOP_LIST:
@@ -944,12 +983,21 @@ class PlannerEngine:
                 if row.row_type == RowType.RESTART_LIST:
                     print(f"[LOAD] Restarting list: {row.target_list}")
                     self._restart_list(row.target_list,
-                                       reference_time=last_completed_at)
+                                       reference_time=last_completed_at_local)
                     ls.current_index += 1
+                    if (row.target_list in self.lists and
+                            row.target_list not in reconciled):
+                        _reconcile_list(self.lists[row.target_list])
                     continue
 
-                # --- It's an ACTIVITY row — match against log ---
+                if row.row_type == RowType.CONDITION:
+                    if remaining:
+                        ls.current_index += 1
+                        continue
+                    else:
+                        break
 
+                # --- ACTIVITY row — match against log ---
                 match_idx = None
                 for i, log_entry in enumerate(remaining):
                     log_act = log_entry["activity"]
@@ -959,52 +1007,33 @@ class PlannerEngine:
                         match_idx = i
                         break
 
-                if match_idx is None:
-                    break  # no match → this is the next item to do
-
-                # Consume the matched entry
-                log_entry = remaining.pop(match_idx)
-
-                # Parse completion time
-                completed_dt = _parse_log_time(
-                    log_entry.get("completed_at", ""))
-
-                last_completed_at = completed_dt
-
-                # Parse start time (falls back to completed_dt if missing)
-                started_dt = _parse_log_time(
-                    log_entry.get("started_at", ""))
-                if started_dt == now and completed_dt != now:
-                    started_dt = completed_dt
-
-                if log_entry["skipped"]:
-                    # Record directly — don't call mark_skip (avoids _resolve)
-                    self._record(row, ls.name, skipped=True,
-                                 custom_time=completed_dt,
-                                 start_time=started_dt,
-                                 comment=log_entry.get("comment", ""),
-                                 _from_replay=True)
+                if match_idx is not None:
+                    log_entry = remaining.pop(match_idx)
+                    completed_dt = _parse_log_time(
+                        log_entry.get("completed_at", ""))
+                    last_completed_at_local = completed_dt
+                    matched_indices.add(ls.current_index)
                     ls.current_index += 1
                     ls.current_activity = None
-                    skip_count += 1
                 else:
-                    custom_text = log_entry.get("activity")
-                    if custom_text == row.activity:
-                        custom_text = None
-                    # Record directly — don't call mark_done (avoids _resolve)
-                    self._record(row, ls.name, skipped=False,
-                                 custom_time=completed_dt,
-                                 custom_text=custom_text,
-                                 start_time=started_dt,
-                                 comment=log_entry.get("comment", ""),
-                                 _from_replay=True)
+                    # No match — skip this row, keep going
                     ls.current_index += 1
-                    ls.current_activity = None
-                    done_count += 1
 
-        # Sort log chronologically — entries were added per-list, not in
-        # time order. last_completed_at() relies on the last entry being
-        # the most recent.
+                if not remaining:
+                    break
+
+            # Store matched indices so _resolve() can skip them
+            ls.replay_done_indices = matched_indices
+
+            # Reset index to the start so _resolve() walks from
+            # the beginning, skipping matched + non-applicable rows
+            ls.current_index = save_index
+            ls.current_activity = None
+
+        for ls in self.lists.values():
+            _reconcile_list(ls)
+
+        # Sort log chronologically
         self.log.sort(key=lambda c: c.completed_at)
 
         # Final resolve — only for active lists not currently blocked
@@ -1065,6 +1094,12 @@ class PlannerEngine:
             # Check if this row applies to today
             if not self._row_applies(row):
                 print(f"[ENGINE] Skipping row {ls.current_index + 1} in '{ls.name}': Does not apply today.")
+                ls.current_index += 1
+                continue
+
+            # Skip rows that were already completed during log replay
+            # (out-of-order completions from a previous session)
+            if ls.current_index in ls.replay_done_indices:
                 ls.current_index += 1
                 continue
 

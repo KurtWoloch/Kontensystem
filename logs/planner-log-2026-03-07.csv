@@ -1,0 +1,114 @@
+﻿activity;list;priority;minutes;started_at;completed_at;skipped;original_activity;comment
+Aufstehen, Rasierer fasssen LEMTAU;Liste_Morgentoilette;1.841;1;05:55:00;05:57:00;nein;;
+Rasieren, dabei Planung (Auswertung Vortag, LEMTRA;Liste_Morgentoilette;1.84;15;05:57:00;06:18:00;nein;Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA;
+Besprechung Vortagsergebnis (viele Skips + ungeplantes) mit OpenClaw;ungeplant;0.0;22;06:18:00;06:40:00;nein;;
+Start Radio Arabella RWMPMP;Liste_Morgentoilette;1.835;4;06:40:00;06:41:00;nein;Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP;
+Bearb. Essensplan (Änderung Sollwerte) LEEPUH;Liste_Morgentoilette;1.84;11;06:41:00;06:54:00;nein;;
+WC;ungeplant;0.0;2;06:54:00;06:56:00;nein;;Task-Kürzel wurde nicht vorgeschlagen!
+Arbeit an Planungstool mit OpenClaw;ungeplant;0.0;15;06:56:00;07:11:00;nein;;
+Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP;Liste_Morgentoilette;1.84;4;07:11:00;07:16:00;nein;;
+Feinschliff bei der Rasur LEMTFR;Liste_Morgentoilette;1.84;6;07:16:00;07:22:00;nein;;
+Ausputzen Rasierer LEMTAR;Liste_Morgentoilette;1.846;2;07:22:00;07:24:00;nein;;
+WC LEMTWC;ungeplant;0.0;7;07:24:00;07:31:00;nein;;
+Bearb. Essensplan (Vorschläge Strake) LEEPVO;Liste_Schwimmbad;1.846;5;07:31:00;07:41:00;nein;;Vorschlag für Strake: Crazy Pizza
+Ausziehen LEMTAZ;ungeplant;0.0;2;07:41:00;07:43:00;nein;;
+Anziehen LEMTAN;ungeplant;0.0;2;07:43:00;07:45:00;nein;;
+Einpacken für Schwimmbad GEGYES;Liste_Schwimmbad;1.846;5;07:45:00;07:48:00;nein;;
+Bearb. Ohrwürmer (durchzunehmende) RWOWDN;Liste_Schwimmbad;1.841;5;07:49:00;07:49:00;ja;;noch keine vorhanden
+PC herunterfahren PCHFHF;Liste_Schwimmbad;1.846;2;07:49:11;07:49:11;ja;;bleibt an für molt.chess und Radio Würmchen KI
+Besuch Schwimmbad GEGYSB;Liste_Schwimmbad;1.846;60;08:46:00;08:47:00;nein;;
+Aufhängen Badewäsche GEGYAB;Liste_Schwimmbad;1.846;2;08:46:00;08:47:00;nein;;
+WC LEMTWC;Liste_Morgentoilette;1.839;5;08:47:00;08:50:00;nein;;
+Bearb.Ohrwürmer(durchgenommen) MUOWDU;Liste_Morgentoilette;1.84;3;08:47:05;08:47:05;ja;;nichts durchgenommen
+Reinigung Waschmuschel LEMTRW;Liste_Morgentoilette;1.84;1;08:50:00;08:51:00;nein;;schon im Zuge von WC und Hände waschen erledigt
+Ausziehen LEMTAZ;Liste_Morgentoilette;1.84;1;08:50:28;08:50:28;ja;;schon vor Besuch des Schwimmbads erledigt
+Abwiegen LEMTAW;Liste_Morgentoilette;1.84;1;08:50:46;08:50:46;ja;;entfallen (vergessen)
+Einschmieren GEMTES;Liste_Morgentoilette;1.841;2;08:51:00;08:53:00;nein;;
+Bett machen LEMTBM;Liste_Morgentoilette;1.84;3;08:53:00;08:55:00;nein;;
+Anziehen LEMTAN;Liste_Morgentoilette;1.841;3;08:53:34;08:53:34;ja;;schon vor Besuch des Schwimmbads erledigt
+Vorbereitung Playlist für Hören beim Frühstück RWYTPL;Liste_Morgentoilette;1.841;6;08:55:00;08:56:00;nein;;
+Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFR;Liste_Morgentoilette;1.845;25;08:56:00;09:17:00;nein;;
+Erweiterung Planungstool mit OpenClaw (Bedingungen) KSPLPL;ungeplant;0.0;37;09:17:00;09:54:00;nein;;
+Definition Prozesse für Mittagessen / Spaziergänge in Tagesplan (CSV) KSPLPL;ungeplant;0.0;38;09:54:00;10:32:00;nein;;
+Mund spülen LEMTMS;Nach_Fruehstueck;1.845;2;10:32:00;10:35:00;nein;;
+Häferl waschen / Hustenbonbon fassen LEMTHW;Nach_Fruehstueck;1.845;2;10:35:00;10:38:00;nein;;versehentlich 2. Hustenbonbon genommen
+Wohnung lüften WFLULU;Liste_Morgentoilette;1.84;4;10:38:00;10:41:00;nein;;
+Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP;Liste_untertags;1.84;10;10:41:00;10:45:00;nein;;
+Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR;Radio;1.833;8;10:45:00;10:45:00;nein;;läuft noch, temporär Radio Arabella eingeschaltet
+Termine in Kalender prüfen LEMTTP;Liste_untertags;1.832;1;10:45:00;10:46:00;nein;;keine anstehenden Termine, außer dass ich heute um 12:45 von Fr. Strake zum Essen eingeladen bin
+Mailprüfung INMAPR;Liste_untertags;1.832;2;10:46:00;10:49:00;nein;;händisch abgemeldet von: LOTTO-Rabatt, Primitivo-SALE, smava - Kredit, smava Kredit und Der Silversea Unterschied
+Blutdruck messen GEBMBM;ungeplant;0.0;2;10:49:00;10:51:00;nein;;
+Zähne putzen GEMTZP;Nach_Fruehstueck;1.845;12;10:49:00;11:03:00;nein;;
+Wasser fassen LEMTJF;ungeplant;0.0;3;11:03:00;11:06:00;nein;;keine komplette Jause nötig (zu nahe an Mittagessen)
+Bearb.Ohrwürmer(Nachfassen aus alten Charts) RWOWTT;Liste_Morgentoilette;1.83;10;11:03:45;11:03:45;ja;;habe keine Zeit dafür wg. Einladung bei Fr. Strake, muss noch Einkauf vorbereiten und durchführen
+Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS (Fs.);Lebenserhaltung;1.844;11;11:06:00;11:09:00;nein;Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS;in Einkaufsliste übergegangen, Lokalsuche unnötig, weil bei Strake eingeladen (Fischstäbchen)
+Vorbereitung Einkaufsliste LEEKEL;ungeplant;0.0;24;11:09:00;11:33:00;nein;;ausführlicher, weil einige Dinge darin, die noch nicht vorgesehen sind (Schokoladekuchen, Holundersirup normal, Basilikum, Bulgur)
+Blutdruck messen GEBMBM;Nach_Fruehstueck;1.849;2;11:09:08;11:09:08;ja;;wurde eben als Unterbrechung eingetragen!
+Einpacken für Einkauf (Essensdatenbank, Rucksack, Sackerln, Altbatterien, Notebook, 25%-Pickerln, USB-Stick) LEEKEP;Lebenserhaltung;1.84;10;11:33:00;11:44:00;nein;;
+Der Außentemperatur entsprechend anziehen LEAUAZ;ungeplant;0.0;2;11:44:00;11:46:00;nein;;
+Vorbereitung Einkaufsliste LEEKEL;Lebenserhaltung;1.84;11;11:44:16;11:44:16;ja;;schon oben erledigt
+Einkauf (BILLA Ederg.) / Laufen LEEKBI;ungeplant;0.0;44;11:46:00;12:30:00;nein;;vorgezogen wg. Mittagessen bei Strake
+WC LEMTWC;Liste_Morgentoilette;1.839;5;12:30:00;12:32:00;nein;;muss noch nicht
+WC LEEKWC;Lebenserhaltung;1.843;9;12:32:00;12:32:00;nein;;muss immer noch nicht
+Jause fassen LEMTJF;Liste_Morgentoilette;1.84;3;12:33:28;12:33:28;ja;;schon erledigt (nur Wasser, 11:03-11:06)
+Bearb. Ohrwürmer (durchzunehmende) RWOWDN;Lebenserhaltung;1.84;5;12:35:52;12:35:52;ja;;nichts in Liste (Listenerstellung wg. Zeitmangel nicht durchgeführt)
+Mittagessen (bei E.+H. Strake) LEMEES;ungeplant;0.0;75;12:36:00;13:51:00;nein;;Fischstäbchen mit Kartoffel- und Gurkensalat, Sauce Tartare
+PC herunterfahren PCHFHF;Lebenserhaltung;1.844;2;12:36:51;12:36:51;ja;;wird wg. Radio Würmchen KI nicht durchgeführt
+"Wenn (""Gehst Du heute zum Essen raus?""), Start list Liste_Mittagessen_extern, sonst Start list Liste_Mittagessen_zuhause";Lebenserhaltung;1.845;60;13:51:00;13:58:00;nein;;sollte hier nicht eine Abfrage erscheinen?
+Der Außentemperatur entsprechend anziehen LEAUAZ;Lebenserhaltung;1.844;2;13:51:52;13:51:52;ja;;schon vor Einkauf erledigt
+Fehlerkorrektur Tagesplanung / Diskussion mit OpenClaw KSPLPL;ungeplant;0.0;7;14:03:00;14:10:00;nein;;noch Fehler bei der Erkennung von Wenn-Bedingungen
+"Wenn (""Musst Du heute etwas erledigen oder einkaufen?""), Start list Liste_Spaziergang";Lebenserhaltung;1.844;1;14:03:52;14:03:52;ja;;Entscheidung: Nein
+Ansehen Rosin's Restaurants RWMPMP;ungeplant;0.0;8;14:10:00;14:18:00;nein;;warum steht das nicht in Taskliste?
+Diskussion fehlende Taskcodes und unpassende Zuordnungen mit OpenClaw KSPLEN;ungeplant;0.0;36;14:18:00;14:54:00;nein;;
+Ansehen Rosin's Restaurants RAYTRR;ungeplant;0.0;11;14:56:00;15:07:00;nein;;
+Mund spülen / Teller waschen / Getränk fassen LEMTTW;Liste_Morgentoilette;1.84;4;14:56:18;14:56:18;ja;;ist im Moment nicht nötig (im Rahmen der Morgentoilette überhaupt nicht, da schon Nachmittag ist)
+Bearb. Essensplan (gegessen, zu essen) LEEPEP;Liste_Morgentoilette;1.84;4;15:07:00;15:12:00;nein;;
+Wohnung lüften WFLULU;ungeplant;0.0;4;15:12:00;15:16:00;nein;;
+Notieren unpassende Matchings zu WC KSPLPL;ungeplant;0.0;13;15:16:00;15:29:00;nein;;
+WC LEMTWC;ungeplant;0.0;6;15:29:00;15:35:00;nein;;
+Soja-Drink fassen LEJNGF;ungeplant;0.0;4;15:35:00;15:39:00;nein;;
+Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO;Liste_nachmittags;1.83;10;15:44:00;15:45:00;nein;;Korrekturlauf gestertet, sonst schon alles eingetragen
+Bearb.Ohrwürmer(durchgenommen) MUOWDU;Liste_untertags;1.83;5;15:44:50;15:44:50;ja;;immer noch nichts in Liste (Listenaufbau vormittags wg. Zeitmangel ausgelassen)
+Wohnung lüften WFLULU;Liste_nachmittags;1.83;4;15:45:00;15:48:00;nein;;
+Bearb. Essensplan (Update Händlerangebote) LEEPUH;Liste_nachmittags;1.83;11;15:48:00;15:51:00;nein;;
+Ansehen Rosin's Restaurants RAYTRR;ungeplant;0.0;8;15:51:00;15:59:00;nein;;
+Bearb. Essensplan (Update Wärme / Gewicht) LEEPUW;Liste_nachmittags;1.83;10;16:29:00;16:42:00;nein;;
+WC LENJWC;Lebenserhaltung;1.839;9;16:50:52;16:50:52;ja;;muss noch nicht
+Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE;Lebenserhaltung;1.844;5;16:51:00;16:51:00;nein;;schon alles eingetragen
+Einkauf (BILLA Ederg.) / Laufen LEEKBI;Lebenserhaltung;1.841;60;16:51:09;16:51:09;ja;;bereits erledigt (11:46-12:30)
+Bearb. Essensplan (Update Rotation) LEEPRO;Liste_nachmittags;1.83;10;16:52:00;17:08:00;nein;;Daten seit 25.1. aufgeholt
+Nachmittagsjause fassen LENAJA;Lebenserhaltung;1.844;4;16:52:10;16:52:10;ja;;immer noch kein Hunger
+Bearb. Ohrwürmer (Nachfassen aus alten Charts) RWOWTT;ungeplant;0.0;17;17:08:00;17:25:00;nein;;nachträglich eingefügt
+Spielen Miniature Midway (Theme Park Clone) CSGAMM;ungeplant;0.0;52;17:25:00;18:17:00;nein;;ab 17:31, https://built-with-gpt54.vercel.app/theme-park
+WC LEJNWC;ungeplant;0.0;5;18:17:00;18:22:00;nein;;
+Nachmittagsjause fassen LENAJA;ungeplant;0.0;2;18:22:00;18:24:00;nein;;Doppelkeks
+Bearb.Ohrwürmer(Nachfassen aus alten Charts) RWOWTT;Liste_untertags;1.828;21;18:24:00;18:45:00;nein;;
+Teller waschen / Getränk fassen LENATW;ungeplant;0.0;5;18:45:00;18:50:00;nein;;inkl. Eintragen gegessen / getrunken in Essensplan
+Bearb.Ohrwürmer(Nachfassen aus alten Charts) RWOWTT (Fs.);Liste_untertags;1.828;34;18:50:00;19:24:00;nein;Bearb.Ohrwürmer(Nachfassen aus alten Charts) RWOWTT;
+Teller waschen / Getränk fassen LENATW;Lebenserhaltung;1.844;4;18:51:55;18:51:55;ja;;wurde eben erledigt
+Ansehen Rosin's Restaurants RAYTRR;ungeplant;0.0;13;19:24:00;19:37:00;nein;;Testessen Zum Stern
+Ansehen ZiB 1 + Wetter RATVZI;Liste_ZiB;2.407;2;19:37:00;19:37:00;nein;;
+Bearb.Ohrwürmer(Nachfassen aus alten Charts) RWOWTT (Fs.);Liste_untertags;1.828;10;19:37:00;20:23:00;nein;Bearb.Ohrwürmer(Nachfassen aus alten Charts) RWOWTT;UK LP Charts fertig bis 20.7.1980
+Nachtmahl fassen LENANA;Lebenserhaltung;1.845;3;20:23:00;20:30:00;nein;;Mini Doppelkeks ohne Zuckerzusatz (Ende des Plans)
+Bearb. Essensplan (gegessen / neuer Plan) LEEPNP;ungeplant;0.0;12;20:30:00;20:42:00;nein;;
+Teller waschen / Getränk + Medikament fassen LENATW;ungeplant;0.0;3;20:42:00;20:45:00;nein;;
+Ansehen Rosin's Restaurants RAYTRR;ungeplant;0.0;6;20:45:00;20:51:00;nein;;
+Bearb. Liste Scooterfahrten FZSCLI;Liste_untertags;1.828;9;20:51:00;21:04:00;nein;;3 Fahrten Voi-Scooter 8.2.2026 von Friedhofstour
+Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR;Radio;1.827;8;21:05:00;21:51:00;nein;;Nacherfassung / Untersuchung Radio Arabella 6.-7.3.2026
+Teller waschen / Getränk + Medikament fassen LENATW;Lebenserhaltung;1.844;4;21:05:01;21:05:01;ja;;schon vorhin erledigt
+Bearb. Essensplan (Protokoll) LEEPPR;Liste_nachmittags;1.827;8;21:51:00;21:58:00;nein;;Eintragen Protokoll Hitomi Wok & Grill (Abholung) 26.1.2026
+Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATATA;Liste_untertags;1.826;10;21:58:00;22:19:00;nein;;16.-18.1.2026
+Vorbereitung Zähne putzen LEAZVZ;Liste_Abendzeremonie;1.835;5;22:19:00;22:22:00;nein;;
+Zähne putzen LEAZZP;Liste_Abendzeremonie;1.835;12;22:22:00;22:31:00;nein;;
+WC LEAZWC;ungeplant;0.0;2;22:31:00;22:33:00;nein;;vorgezogen
+Anwendung der Zwischenraumzahnbürste LEAZZZ;Liste_Abendzeremonie;1.835;16;22:33:00;22:59:00;nein;;
+Anwendung Zahnseide LEAZZS;Liste_Abendzeremonie;1.835;5;22:59:00;23:04:00;nein;;
+Reinigung Zahnputzutensilien, Hände waschen LEAZHW;Liste_Abendzeremonie;1.834;2;23:04:00;23:06:00;nein;;
+Bett machen LEAZHW;Liste_Abendzeremonie;1.835;2;23:06:00;23:08:00;nein;;
+Ausziehen LEAZAU;Liste_Abendzeremonie;1.835;4;23:08:00;23:10:00;nein;;
+Einschmieren GEAZES;Liste_Abendzeremonie;1.835;2;23:10:00;23:12:00;nein;;
+WC LEAZWC;Liste_Abendzeremonie;1.835;5;23:12:00;23:14:00;nein;;vergeblich
+Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL;Liste_Abendzeremonie;1.834;2;23:14:00;23:17:00;nein;;
+Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC;Liste_Abendzeremonie;1.834;2;23:14:12;23:14:12;ja;;Charts wurden noch nicht bearbeitet
+im Bett;Liste_Abendzeremonie;1.834;1;23:19:00;23:19:00;nein;;
+PC herunterfahren LEAZHF;Liste_Abendzeremonie;1.834;1;23:19:26;23:19:26;ja;;wird nicht heruntergefahren wg. Radio Würmchen KI
