@@ -1,0 +1,233 @@
+[
+  {
+    "activity": "Aufstehen, Rasierer fasssen LEMTAU",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.841,
+    "minutes": 1,
+    "started_at": "06:28:00",
+    "completed_at": "06:30:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Start Tagessplaner KSPLPL",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "06:31:00",
+    "completed_at": "06:32:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen / zu essen) LEEPLS",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "06:32:00",
+    "completed_at": "06:33:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Untersuchung Andon FM RAAFSU",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "06:33:00",
+    "completed_at": "06:34:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), div. Surfen inkl. Andon FM LEMTRA",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 15,
+    "started_at": "06:34:00",
+    "completed_at": "06:51:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion Vortag mit OpenClaw KSPLAW",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "06:51:00",
+    "completed_at": "06:52:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Untersuchung Playlist Andon FM (Rotationen) RAAFAN",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 7,
+    "started_at": "06:52:00",
+    "completed_at": "06:59:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Surfen X (Peter Steinberger) RAAFKO",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "06:59:00",
+    "completed_at": "07:02:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Untersuchung Playlist Andon FM (Rotationen) RAAFAN",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "07:02:00",
+    "completed_at": "07:03:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Surfen X (Peter Steinberger) RAAFKO",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "07:03:00",
+    "completed_at": "07:07:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion Vortag mit OpenClaw KSPLAW",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "07:07:00",
+    "completed_at": "07:09:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Surfen E-Roller-Boom in Hamburg FZINSU",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "07:09:00",
+    "completed_at": "07:10:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Untersuchung Playlist Andon FM (Rotationen) RAAFAN",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "07:10:00",
+    "completed_at": "07:13:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Untersuchung Playlist Andon FM (Rotationen) RAAFAN",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "07:13:00",
+    "completed_at": "07:16:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion Vortag mit OpenClaw KSPLAW",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 5,
+    "started_at": "07:16:00",
+    "completed_at": "07:21:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Untersuchung Playlist Andon FM (Rotationen) RAAFAN",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "07:21:00",
+    "completed_at": "07:22:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 6,
+    "started_at": "07:22:00",
+    "completed_at": "07:28:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "div. Surfen (News) INSUNE",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "07:28:00",
+    "completed_at": "07:30:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 6,
+    "started_at": "07:30:00",
+    "completed_at": "07:36:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 6,
+    "started_at": "07:36:00",
+    "completed_at": "07:42:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "07:42:00",
+    "completed_at": "07:45:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  }
+]

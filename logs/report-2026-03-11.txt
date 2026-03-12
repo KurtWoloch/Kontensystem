@@ -1,0 +1,166 @@
+=================================================================
+  TAGESBERICHT — 2026-03-11
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      115
+  Geplante Gesamtzeit:         16h 46m
+
+  ✓ Erledigt (geplant):       71  (   11h 33m)  = 68.9%
+  ⏭ Übersprungen:              4  (       13m)  = 1.3%
+  ✗ Nicht erreicht:           40  (    5h 00m)  = 29.8%
+
+  📝 Ungeplante Aktivitäten:  59  (    5h 09m)
+  ⏱  Tatsächliche Arbeitszeit:    12h 02m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Wohnung lüften WFLULU                 08:13     20:44 +12h 31m
+  Bearb. Essensplan (Kontrolle / zu e   08:20     20:15 +11h 55m
+  Mailprüfung INMAPR                    08:18     20:11 +11h 53m
+  Termine in Kalender prüfen LEMTTP     08:17     20:09 +11h 52m
+  Teller waschen / Getränk fassen LEM   10:51     20:53 +10h 02m
+  Jause fassen LEMTJF                   09:56     19:16  +9h 20m
+  Bearb. Essensplan (gegessen, zu ess   09:52     19:09  +9h 17m
+  WC BREPWC (Fs.)                       16:37     12:30  -4h 07m
+  WC BREPWC                             16:30     12:30  -4h 00m
+  Wohnung lüften WFLULU                 17:39     20:44  +3h 05m
+  Versorgung Mitbringsel LEPOPO         17:28     20:01  +2h 33m
+  Auspacken Essensplan LEEPAU           17:37     20:08  +2h 31m
+  Der Außentemperatur entsprechend an   12:28     09:58  -2h 30m
+  Vorbereitung Playlist für Hören unt   06:44     08:17  +1h 33m
+  Ausputzen Rasierer LEMTAR             06:58     08:25  +1h 27m
+  ... und 56 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Wohnung lüften WFLULU
+    Grund: jetzt keine Zeit dafür
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: Liste leer
+  ⏭ Teller waschen / Getränk + Medikament fassen 
+    Grund: wurde eben erfasst
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: Liste leer
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: Liste leer
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:14–06:15  WC LEMTWC
+  📝 06:32–07:29  Diskussion Window Logs und Weiterentwick
+  📝 07:35–07:37  Untersuchung Andon FM  — Backlink Broadcast hat $3,50 Funding dazu bekommen
+  📝 07:37–07:38  Restart ngrok-Tunnel für Radio Würmchen 
+  📝 07:38–07:40  Untersuchung Andon FM  — Backlink Broadcast hat $3,50 Funding dazu bekommen
+  📝 07:40–07:41  Review Album Achtung Baby (U2)  — wurde gestern als Meilenstein auf Backlink Broadcast erwähnt; zahlt es sich aus, einen Titel darauf in die Andon FM-Library aufzunehmen -> kaum, keine großen Hits darauf
+  📝 07:41–08:13  Diskussion Tagesplanung mit OpenClaw / L  — md-File Alignment Report geht bei mir standardmäßig in VS Code auf
+  📝 08:13–08:17  Nacherfassung Ablauf KSPLNA
+  📝 09:21–09:30  Diskussion Arten Nacherfassung Aufwand m
+  📝 09:45–09:46  Posting Antwort Youtube-Video / Start Th
+  📝 18:23–18:24  Begutachtung ngrok-Nutzung RWKING
+  📝 18:28–18:29  div. Surfen (News) INSUNE
+  📝 18:29–18:34  Surfen / Scan Andon FM RWMPAR
+  📝 18:34–18:35  div. Surfen (News) INSUNE
+  📝 18:35–18:37  Ansehen Youtube-Videos RAYTYT
+  📝 18:37–18:38  Surfen X RAAFKO
+  📝 18:38–18:39  Ansehen Youtube-Videos RAYTYT
+  📝 18:39–18:40  Surfen X RAAFKO
+  📝 18:40–18:41  div. Surfen (News) INSUNE
+  📝 18:41–18:53  Nacherfassung Ablauf KSPLNA
+  📝 18:53–19:05  Untersuchung DJ Break Grok'n Roll / Surf
+  📝 19:05–19:09  Tweet an Grok'n Roll RWMPAR  — I didn't say I'd sponsor...
+  📝 19:10–19:11  Surfen Andon FM RWYTPL
+  📝 19:12–19:13  WC LEMTWC
+  📝 19:13–19:16  Surfen Arena AI DJ Breaks Grok'n Roll RA
+  📝 19:22–19:24  Surfen Arena AI DJ Breaks Grok'n Roll RA
+  📝 19:24–19:27  Nacherfassung Ablauf KSPLNA
+  📝 19:27–19:29  div. Surfen (News) INSUNE
+  📝 19:29–19:32  Konversation mit Andrew Pappas RAAFKO
+  📝 19:33–19:35  div. Surfen (News / Anewi Raupenbagger) 
+  📝 19:35–19:36  Nacherfassung Ablauf KSPLNA
+  📝 19:36–19:40  Konversation mit Andrew Pappas RAAFKO
+  📝 19:40–19:41  Surfen Andon FM RWYTPL
+  📝 19:41–19:44  Surfen Amewi Raupenbagger FZSUAR
+  📝 19:44–19:56  Nacherfassung Ablauf KSPLNA
+  📝 19:56–20:01  Div. Surfen INSUSU  — mindless surfing
+  📝 20:02–20:08  WC LEMTWC
+  📝 20:19–20:20  Div. Surfen INSUSU  — mindless surfing
+  📝 20:21–20:25  Surfen Discovr Radio INSUSU
+  📝 20:26–20:27  Ansehen Youtube-Videos RAYTYT
+  📝 20:30–20:31  Surfen Andon FM RASUAF
+  📝 20:31–20:36  Ansehen Youtube-Videos RAYTYT
+  📝 20:37–20:42  Nacherfassung Ablauf KSPLNA
+  📝 20:47–20:53  Arbeit an Tagesplanung / Planer-Entwickl
+  📝 21:11–21:21  Arbeit an Tagesplanung / Planer-Entwickl
+  📝 21:21–21:25  Konversation Andon FM / Backlink Broadca  — Absetzen Wunsch Where the streets have no name (Purchase)
+  📝 21:25–21:26  Bearb. Essensplan LEEPLS
+  📝 21:26–21:30  WC LEMTWC
+  📝 21:36–21:38  Bearb. Library Andon FM RWPLAF  — Notieren Addition Where the streets have no name
+  📝 21:38–22:21  Arbeit an Tagesplanung / Planer-Entwickl  — komische Fehler beim Wiederladen nach Programmneustart (geloggte Aktivitäten sind wieder in ihren Listen und ungeloggt)
+  📝 22:21–22:23  Konversation Andon FM / Backlink Broadca
+  📝 22:30–22:31  Konversation Andon FM / Backlink Broadca
+  📝 22:31–22:34  Arbeit an Tagesplanung / Planer-Entwickl  — komische Fehler beim Wiederladen nach Programmneustart (geloggte Aktivitäten sind wieder in ihren Listen und ungeloggt)
+  📝 22:34–22:35  Ansehen Youtube-Videos RAYTYT
+  📝 22:35–22:36  Bearb. Library Andon FM RWPLAF
+  📝 22:36–22:40  Nacherfassung Ablauf KSPLNA
+  📝 22:40–22:41  Untersuchung Playlist Andon FM / Backlin
+  📝 22:41–22:42  Bearb. Essensplan (gegessen / Lokalsuche
+  📝 22:42–22:49  Nacherfassung Ablauf KSPLNA
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 08:34  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (10m)
+  ✗ 08:44  Bearb. Liste Scooterfahrten FZSCLI  (3m)
+  ✗ 08:53  Anhören RW-Prg. / Tonträger / Radiosende  (8m)
+  ✗ 09:01  Bearb. Liste Scooterfahrten FZSCLI (Fs.)  (6m)
+  ✗ 09:07  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 09:11  Bearbeitung Aufgaben zu Papa's Pflege (1  (5m)
+  ✗ 09:22  Blutdruck messen GEBMBM  (2m)
+  ✗ 09:50  Bearbeitung Aufgaben zu Papa's Pflege (1  (2m)
+  ✗ 10:54  Bearbeitung Aufgaben zu Papa's Pflege (1  (3m)
+  ✗ 17:54  Bearb. Essensplan (Protokoll) LEEPPR  (8m)
+  ✗ 18:02  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 18:10  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 18:20  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 18:26  Bearb. Essensplan (Eintragen Protokoll)   (5m)
+  ✗ 18:31  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 18:36  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 18:45  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 18:50  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 18:55  Bearbeitung Buch Champion's Mindset GELI  (5m)
+  ✗ 19:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 19:08  Bearbeitung Buch Champion's Mindset GELI  (6m)
+  ✗ 19:14  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 19:24  Führung Tagebuch, um schmerzhafte Situat  (6m)
+  ✗ 19:32  Führung Tagebuch, um schmerzhafte Situat  (4m)
+  ✗ 19:36  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 19:45  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 19:54  Bearbeitung Börsenkurse / Aktienhandel F  (6m)
+  ✗ 20:03  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:11  Bearbeitung Börsenkurse / Aktienhandel F  (4m)
+  ✗ 20:15  Bearb. Essensplan (Nährwerte) LEEPGE  (8m)
+  ✗ 20:27  Bearb. Essensplan (Nährwerte) LEEPGE (Fs  (3m)
+  ✗ 20:30  Erstellung Playback mit Vocal Remover KA  (5m)
+  ✗ 20:35  Aufräumen WFARAR  (11m)
+  ✗ 20:46  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 20:55  Aufwandserfassung und Abrechnung Kontens  (5m)
+  ✗ 21:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:08  Aufwandserfassung und Abrechnung Kontens  (52m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Aufwandserfassung und Abrechnung Kontens  (11m)
+  ✗ 22:19  Bearb. Geldbörse FIBGGB  (1m)
+
+=================================================================

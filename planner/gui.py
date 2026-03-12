@@ -33,6 +33,8 @@ from window_monitor import WindowMonitor
 REFRESH_MS = 15_000   # refresh display every 15 seconds
 TICK_MS = 10_000      # engine tick every 10 seconds (check Wait timers)
 WINMON_MS = 2_500     # window monitor GUI update every 2.5 seconds
+IDLE_THRESHOLD_S = 30 # seconds without input → Off-PC mode
+IDLE_BACKDATE_S = 20  # backdate idle start by this many seconds
 
 COLOR_BG = "#1e1e2e"
 COLOR_FG = "#cdd6f4"
@@ -127,8 +129,17 @@ class PlannerGUI:
         # Initial projection (for drift display)
         self._initial_projection = self._load_initial_projection()
 
+        # ── Idle / Off-PC detection state ──────────────────────────────
+        self._last_input_time: datetime = datetime.now()
+        self._idle_active: bool = False
+        self._idle_since: Optional[datetime] = None  # backdated start
+
         self._build_ui()
         self.root.protocol("WM_DELETE_WINDOW", self._on_close)
+
+        # Bind user-input events for idle detection (on root → captures all)
+        for event_seq in ("<Motion>", "<Key>", "<Button>", "<MouseWheel>"):
+            self.root.bind_all(event_seq, self._on_user_input, add="+")
 
         # Window monitor — optional, failure-tolerant
         self._window_monitor: Optional[WindowMonitor] = None
@@ -268,7 +279,7 @@ class PlannerGUI:
     # ------------------------------------------------------------------ #
 
     def _build_ui(self):
-        self.root.title("Tagesplanung — Reaktiver Planer")
+        self.root.title("Tagesplanung — Reaktiver Planer")  # initial; updated dynamically
         self.root.configure(bg=COLOR_BG)
         self.root.minsize(640, 560)
         self.root.geometry("900x700")
@@ -509,10 +520,12 @@ class PlannerGUI:
 
     def _refresh(self):
         """Redraw the UI with current engine state."""
+        self._check_idle()
         self._update_clock()
         self._update_current()
         self._update_queue()
         self._update_status()
+        self._update_window_title()
         self.root.after(REFRESH_MS, self._refresh)
 
     def _update_window_monitor(self):
@@ -540,6 +553,116 @@ class PlannerGUI:
             except Exception:
                 pass  # don't crash the GUI for monitor issues
         self.root.after(WINMON_MS, self._update_window_monitor)
+
+    # ------------------------------------------------------------------ #
+    #  Idle / Off-PC detection                                             #
+    # ------------------------------------------------------------------ #
+
+    def _on_user_input(self, event=None):
+        """Called on any mouse/keyboard input — resets idle timer."""
+        self._last_input_time = datetime.now()
+        if self._idle_active:
+            self._end_idle()
+
+    def _check_idle(self):
+        """Called from _refresh — activate idle if threshold exceeded."""
+        if self._idle_active:
+            return  # already idle
+        elapsed = (datetime.now() - self._last_input_time).total_seconds()
+        if elapsed >= IDLE_THRESHOLD_S:
+            self._start_idle()
+
+    def _start_idle(self):
+        """Activate Off-PC mode."""
+        self._idle_active = True
+        # Backdate: the user actually left ~IDLE_BACKDATE_S ago
+        self._idle_since = datetime.now() - timedelta(seconds=IDLE_BACKDATE_S)
+        # Write marker to windowmon log
+        self._write_idle_marker("idle_start", self._idle_since)
+        # Visual feedback
+        self._update_idle_display()
+        self._update_window_title()
+
+    def _end_idle(self):
+        """Deactivate Off-PC mode on user return."""
+        idle_start = self._idle_since
+        self._idle_active = False
+        idle_end = datetime.now()
+        self._idle_since = None
+        # Write marker to windowmon log
+        self._write_idle_marker("idle_end", idle_end, idle_start)
+        # Restore display
+        self._update_idle_display()
+        self._update_window_title()
+
+    def _write_idle_marker(self, marker_type: str, ts: datetime,
+                           idle_start: Optional[datetime] = None):
+        """Write an idle marker event to the windowmon JSONL log."""
+        if self._window_monitor is None:
+            return
+        try:
+            entry = {
+                "ts": ts.strftime("%Y-%m-%dT%H:%M:%S"),
+                "type": marker_type,
+                "hwnd": 0,
+                "title": "",
+                "process": "planner_idle",
+                "browser": "",
+            }
+            if marker_type == "idle_end" and idle_start is not None:
+                duration_s = int((ts - idle_start).total_seconds())
+                entry["idle_duration_s"] = duration_s
+                entry["idle_start"] = idle_start.strftime(
+                    "%Y-%m-%dT%H:%M:%S")
+            # Use the monitor's log writer directly
+            from window_monitor import WindowEvent, LOG_DIR
+            import json as _json
+            today = datetime.now().strftime("%Y-%m-%d")
+            os.makedirs(LOG_DIR, exist_ok=True)
+            path = os.path.join(LOG_DIR, f"windowmon-{today}.jsonl")
+            with open(path, "a", encoding="utf-8") as f:
+                f.write(_json.dumps(entry, ensure_ascii=False) + "\n")
+        except Exception as e:
+            print(f"[Planer] Idle marker write error: {e}")
+
+    def _update_idle_display(self):
+        """Update the window monitor label to show idle state."""
+        if self._idle_active and self._idle_since:
+            since_str = self._idle_since.strftime("%H:%M")
+            self.lbl_window_monitor.config(
+                text=f"💤 Off-PC seit {since_str}",
+                fg="#f9e2af"
+            )
+        # else: next _update_window_monitor() call will restore normal display
+
+    def _get_current_activity_name(self) -> str:
+        """Return the current activity name (with task code), or ''."""
+        best = self.engine.get_best_candidate()
+        if best is None:
+            return ""
+        _ls, row = best
+        return row.activity
+
+    def _update_window_title(self):
+        """Update root window title with current mode + activity.
+
+        Normal:  'Tagesplanung — Reaktiver Planer — [Aktivität]'
+        Off-PC:  'Tagesplanung — Off-PC — [Aktivität]'
+
+        The old VB5 Window Logger reads this title, so:
+        - 'Off-PC' signals no phantom-KS accounting
+        - The activity name lets the logger know what's being done
+        """
+        activity = self._get_current_activity_name()
+        if self._idle_active:
+            mode = "Off-PC"
+        else:
+            mode = "Reaktiver Planer"
+        if activity:
+            title = f"Tagesplanung — {mode} — {activity}"
+        else:
+            title = f"Tagesplanung — {mode}"
+        self.root.title(title)
 
     # ------------------------------------------------------------------ #
     #  Display updaters                                                    #
