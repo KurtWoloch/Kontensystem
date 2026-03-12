@@ -279,8 +279,8 @@ def show_raw_windowmon(parent: tk.Toplevel, raw_entries: List[Dict],
     dlg.grab_set()
 
     tk.Label(
-        dlg, text=f"windowmon-Eintraege {start.strftime('%H:%M:%S')} - "
-                  f"{end.strftime('%H:%M:%S')} ({len(raw_entries)} Eintraege)",
+        dlg, text=f"windowmon-Einträge {start.strftime('%H:%M:%S')} - "
+                  f"{end.strftime('%H:%M:%S')} ({len(raw_entries)} Einträge)",
         font=("Segoe UI", 10, "bold"), bg=COLOR_BG, fg=COLOR_HEADER,
         anchor="w", padx=8, pady=6
     ).pack(fill=tk.X)
@@ -316,7 +316,7 @@ def show_raw_windowmon(parent: tk.Toplevel, raw_entries: List[Dict],
 
     # Close button
     tk.Button(
-        dlg, text="Schliessen", font=("Segoe UI", 10, "bold"),
+        dlg, text="  ✗ Schließen  ", font=("Segoe UI", 10, "bold"),
         bg=COLOR_BTN, fg=COLOR_FG, relief=tk.FLAT, padx=12, pady=4,
         cursor="hand2", command=dlg.destroy
     ).pack(pady=(0, 8))
@@ -340,7 +340,7 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
 
     # Activity name
     tk.Label(
-        dlg, text="Aktivitaet:", font=("Segoe UI", 10),
+        dlg, text="Aktivität:", font=("Segoe UI", 10),
         bg=COLOR_BG, fg=COLOR_FG, anchor="w"
     ).pack(fill=tk.X, padx=12, pady=(10, 2))
 
@@ -363,8 +363,8 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
     lbl_suggest.pack(side=tk.LEFT, fill=tk.X, expand=True)
 
     btn_use_suggest = tk.Button(
-        suggest_frame, text="Name uebernehmen",
-        font=("Segoe UI", 8), bg=COLOR_BTN, fg=COLOR_FG,
+        suggest_frame, text="Name übernehmen",
+        font=("Segoe UI", 9), bg=COLOR_BTN, fg=COLOR_FG,
         relief=tk.FLAT, cursor="hand2"
     )
 
@@ -402,7 +402,7 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
     start_frame.pack(fill=tk.X, padx=12, pady=(10, 0))
 
     tk.Label(start_frame, text="Begonnen um:  ",
-             font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+             font=("Segoe UI", 10), bg=COLOR_BG, fg=COLOR_FG
              ).pack(side=tk.LEFT)
     start_h = tk.StringVar(value=f"{proposal['start'].hour:02d}")
     start_m = tk.StringVar(value=f"{proposal['start'].minute:02d}")
@@ -421,7 +421,7 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
     end_frame.pack(fill=tk.X, padx=12, pady=(4, 0))
 
     tk.Label(end_frame, text="Erledigt um:  ",
-             font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+             font=("Segoe UI", 10), bg=COLOR_BG, fg=COLOR_FG
              ).pack(side=tk.LEFT)
     end_h = tk.StringVar(value=f"{proposal['end'].hour:02d}")
     end_m = tk.StringVar(value=f"{proposal['end'].minute:02d}")
@@ -451,7 +451,7 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
 
     # Source info
     tk.Label(
-        dlg, text=f"Quelle: {proposal['entry_count']} windowmon-Eintraege, "
+        dlg, text=f"Quelle: {proposal['entry_count']} windowmon-Einträge, "
                   f"Original: {proposal['original_activity']}",
         font=("Segoe UI", 8), bg=COLOR_BG, fg="#6c7086", anchor="w"
     ).pack(fill=tk.X, padx=12, pady=(8, 0))
@@ -470,7 +470,7 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
                            proposal["start"], proposal["end"])
 
     tk.Button(
-        btn_row, text="  windowmon anzeigen  ",
+        btn_row, text="  📋 windowmon anzeigen  ",
         font=("Segoe UI", 10), bg=COLOR_ACCENT, fg="#1e1e2e",
         relief=tk.FLAT, padx=8, pady=4, cursor="hand2",
         command=on_view_raw
@@ -490,12 +490,12 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
                 lbl_error.config(text="Ende muss nach Beginn liegen!")
                 return
         except ValueError:
-            lbl_error.config(text="Ungueltige Zeitangabe!")
+            lbl_error.config(text="Ungültige Zeitangabe!")
             return
 
         new_activity = activity_var.get().strip()
         if not new_activity:
-            lbl_error.config(text="Aktivitaet darf nicht leer sein!")
+            lbl_error.config(text="Aktivität darf nicht leer sein!")
             return
 
         proposal["activity"] = new_activity
@@ -508,14 +508,14 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
         dlg.destroy()
 
     tk.Button(
-        btn_row, text="  Uebernehmen  ",
+        btn_row, text="  ✓ Übernehmen  ",
         font=("Segoe UI", 10, "bold"), bg=COLOR_DONE, fg="#1e1e2e",
         relief=tk.FLAT, padx=12, pady=4, cursor="hand2",
         command=on_confirm
     ).pack(side=tk.LEFT, padx=(0, 4))
 
     tk.Button(
-        btn_row, text="  Abbrechen  ",
+        btn_row, text="  ✗ Abbrechen  ",
         font=("Segoe UI", 10), bg=COLOR_BTN, fg=COLOR_FG,
         relief=tk.FLAT, padx=12, pady=4, cursor="hand2",
         command=dlg.destroy
@@ -558,9 +558,9 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
     if not proposals:
         messagebox.showinfo(
             "Nacherfassung aus windowmon",
-            "Keine Vorschlaege gefunden.\n\n"
-            "Entweder gibt es keine Luecken im Planer-Log, "
-            "oder keine windowmon-Eintraege fuer die Luecken."
+            "Keine Vorschläge gefunden.\n\n"
+            "Entweder gibt es keine Lücken im Planer-Log, "
+            "oder keine windowmon-Einträge für die Lücken."
         )
         return
 
@@ -580,8 +580,8 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
     ).pack(fill=tk.X)
 
     tk.Label(
-        dlg, text=f"{len(proposals)} Vorschlaege aus {len(gaps)} Luecken  "
-                  f"(nur Bloecke >= 1 Min.)",
+        dlg, text=f"{len(proposals)} Vorschläge aus {len(gaps)} Lücken  "
+                  f"(nur Blöcke >= 1 Min.)",
         font=("Segoe UI", 9), bg=COLOR_BG, fg="#6c7086",
         anchor="w", padx=10
     ).pack(fill=tk.X)
@@ -658,9 +658,9 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
             activity = prop["activity"]
             status_icon = {
                 "pending": "",
-                "accepted": " [OK]",
-                "edited": " [bearbeitet]",
-                "ignored": " [ignoriert]",
+                "accepted": " ✓",
+                "edited": " ✏",
+                "ignored": " ✗",
             }.get(prop["status"], "")
 
             tk.Label(
@@ -671,7 +671,7 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
 
             # Source info
             tk.Label(
-                row, text=f"{prop['entry_count']} Eintraege",
+                row, text=f"{prop['entry_count']} Einträge",
                 font=("Segoe UI", 8), bg=row_bg, fg="#6c7086",
                 anchor="w", padx=6
             ).pack(fill=tk.X)
@@ -719,25 +719,25 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
                                        proposals[j]["end"])
                 return fn
 
-            btn_cfg = dict(font=("Segoe UI", 9), relief=tk.FLAT,
+            btn_cfg = dict(font=("Segoe UI", 10), relief=tk.FLAT,
                            padx=6, pady=1, cursor="hand2")
 
             if prop["status"] == "pending":
-                tk.Button(btn_row, text="Uebernehmen",
+                tk.Button(btn_row, text="  ✓ Übernehmen  ",
                           bg=COLOR_DONE, fg="#1e1e2e",
                           command=make_accept(), **btn_cfg
                           ).pack(side=tk.LEFT, padx=(0, 3))
-                tk.Button(btn_row, text="Bearbeiten",
+                tk.Button(btn_row, text="  ✏ Bearbeiten  ",
                           bg=COLOR_WARN, fg="#1e1e2e",
                           command=make_edit(), **btn_cfg
                           ).pack(side=tk.LEFT, padx=(0, 3))
-                tk.Button(btn_row, text="Ignorieren",
+                tk.Button(btn_row, text="  ✗ Ignorieren  ",
                           bg=COLOR_SKIP, fg="#1e1e2e",
                           command=make_ignore(), **btn_cfg
                           ).pack(side=tk.LEFT, padx=(0, 3))
             else:
                 # Allow re-editing or resetting
-                tk.Button(btn_row, text="Bearbeiten",
+                tk.Button(btn_row, text="  ✏ Bearbeiten  ",
                           bg=COLOR_WARN, fg="#1e1e2e",
                           command=make_edit(), **btn_cfg
                           ).pack(side=tk.LEFT, padx=(0, 3))
@@ -747,13 +747,13 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
                         update_status()
                         build_proposal_rows()
                     return fn
-                tk.Button(btn_row, text="Zuruecksetzen",
+                tk.Button(btn_row, text="  ↩ Zurücksetzen  ",
                           bg=COLOR_BTN, fg=COLOR_FG,
                           command=make_reset(), **btn_cfg
                           ).pack(side=tk.LEFT, padx=(0, 3))
 
             # Always show raw view button
-            tk.Button(btn_row, text="windowmon",
+            tk.Button(btn_row, text="  📋 windowmon  ",
                       bg=COLOR_ACCENT, fg="#1e1e2e",
                       command=make_view_raw(), **btn_cfg
                       ).pack(side=tk.RIGHT)
@@ -777,7 +777,7 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
                     if p["status"] in ("accepted", "edited")]
         if len(to_merge) < 2:
             messagebox.showinfo("Zusammenfassen",
-                                "Weniger als 2 akzeptierte Eintraege — "
+                                "Weniger als 2 akzeptierte Einträge — "
                                 "nichts zum Zusammenfassen.")
             return
 
@@ -812,7 +812,7 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
         if merge_count > 0:
             messagebox.showinfo(
                 "Zusammengefasst",
-                f"{merge_count} Eintraege zusammengefasst."
+                f"{merge_count} Einträge zusammengefasst."
             )
         build_proposal_rows()
         update_status()
@@ -823,12 +823,12 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
                      if p["status"] in ("accepted", "edited")]
         if not to_import:
             messagebox.showwarning("Import",
-                                    "Keine akzeptierten Eintraege zum Import.")
+                                    "Keine akzeptierten Einträge zum Import.")
             return
 
         answer = messagebox.askyesno(
-            "Import bestaetigen",
-            f"{len(to_import)} Eintraege ins Planer-Log importieren?"
+            "Import bestätigen",
+            f"{len(to_import)} Einträge ins Planer-Log importieren?"
         )
         if not answer:
             return
@@ -845,26 +845,26 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
         engine.save_log()
         messagebox.showinfo(
             "Import abgeschlossen",
-            f"{len(to_import)} Eintraege importiert und Log gespeichert."
+            f"{len(to_import)} Einträge importiert und Log gespeichert."
         )
         dlg.destroy()
 
     tk.Button(
-        bottom, text="  Gleiche zusammenfassen  ",
+        bottom, text="  🔗 Gleiche zusammenfassen  ",
         font=("Segoe UI", 10, "bold"), bg=COLOR_WARN, fg="#1e1e2e",
         relief=tk.FLAT, padx=10, pady=4, cursor="hand2",
         command=on_merge
     ).pack(side=tk.RIGHT, padx=(4, 0))
 
     tk.Button(
-        bottom, text="  Importieren  ",
+        bottom, text="  ✓ Importieren  ",
         font=("Segoe UI", 10, "bold"), bg=COLOR_DONE, fg="#1e1e2e",
         relief=tk.FLAT, padx=10, pady=4, cursor="hand2",
         command=on_import
     ).pack(side=tk.RIGHT, padx=(4, 0))
 
     tk.Button(
-        bottom, text="  Abbrechen  ",
+        bottom, text="  ✗ Abbrechen  ",
         font=("Segoe UI", 10), bg=COLOR_BTN, fg=COLOR_FG,
         relief=tk.FLAT, padx=10, pady=4, cursor="hand2",
         command=dlg.destroy
