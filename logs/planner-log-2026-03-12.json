@@ -1133,17 +1133,6 @@
     "comment": ""
   },
   {
-    "activity": "WC BREPWC",
-    "list": "Liste_Arbeit",
-    "priority": 1.839,
-    "minutes": 9,
-    "started_at": "14:43:00",
-    "completed_at": "14:46:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "vergeblich"
-  },
-  {
     "activity": "Wenn (\"Gehst Du heute zum Essen raus?\"), Start list Liste_Mittagessen_extern, sonst Start list Liste_Mittagessen_zuhause",
     "list": "Lebenserhaltung",
     "priority": 1.845,
@@ -1153,6 +1142,17 @@
     "skipped": false,
     "original_activity": "",
     "comment": "Entscheidung: Nein → Start Liste: Liste_Mittagessen_zuhause"
+  },
+  {
+    "activity": "WC BREPWC",
+    "list": "Liste_Arbeit",
+    "priority": 1.839,
+    "minutes": 9,
+    "started_at": "14:43:00",
+    "completed_at": "14:46:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "vergeblich"
   },
   {
     "activity": "Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang",
@@ -1397,6 +1397,17 @@
     "comment": "Entscheidung: Nein → Start Liste: Liste_Spaziergang"
   },
   {
+    "activity": "Erfassung Ablauf KSPLEA",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 129,
+    "started_at": "19:02:54",
+    "completed_at": "21:12:45",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Sichtung Radio-Würmchen-Programmstatistiken RWKIAN",
     "list": "windowmon_import",
     "priority": 0.0,
@@ -1496,12 +1507,34 @@
     "comment": ""
   },
   {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 6,
+    "started_at": "20:22:00",
+    "completed_at": "20:28:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Suche nach \"Planer-Bedienung\" im Source Code (nicht gefunden)"
+  },
+  {
     "activity": "WC LEMTWC",
     "list": "Liste_Morgentoilette",
     "priority": 1.839,
     "minutes": 6,
     "started_at": "20:28:00",
     "completed_at": "20:30:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "20:30:00",
+    "completed_at": "20:34:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1538,5 +1571,126 @@
     "skipped": false,
     "original_activity": "",
     "comment": "Doppelkeks"
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 5,
+    "started_at": "20:35:00",
+    "completed_at": "20:40:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw (Mängel in Planer) KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 7,
+    "started_at": "20:40:00",
+    "completed_at": "20:47:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Begutachtung Windowmon-Summary KSPLAN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "20:43:00",
+    "completed_at": "20:44:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw (Mängel in Planer) KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "20:44:58",
+    "completed_at": "20:47:32",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Begutachtung Windowmon-Summary KSPLAN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "20:47:00",
+    "completed_at": "20:49:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw (Mängel in Planer) KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 11,
+    "started_at": "20:49:49",
+    "completed_at": "21:01:06",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Begutachtung Autodetect-Corrections KSPLAN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "21:01:00",
+    "completed_at": "21:02:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw (Mängel in Planer) KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "21:02:46",
+    "completed_at": "21:06:56",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Wenn (\"Gehst Du heute zum Essen raus?\"), Start list Liste_Mittagessen_extern, sonst Start list Liste_Mittagessen_zuhause",
+    "list": "Lebenserhaltung",
+    "priority": 1.845,
+    "minutes": 60,
+    "started_at": "21:07:05",
+    "completed_at": "21:07:05",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Entscheidung: Nein → Start Liste: Liste_Mittagessen_zuhause"
+  },
+  {
+    "activity": "Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 1,
+    "started_at": "21:07:07",
+    "completed_at": "21:07:07",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "Entscheidung: Nein"
+  },
+  {
+    "activity": "Wenn \"Warst Du heute schon draußen?\", , sonst Start list Liste_Spaziergang",
+    "list": "Liste_Arbeit",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "21:07:20",
+    "completed_at": "21:07:20",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "Entscheidung: Ja"
   }
 ]

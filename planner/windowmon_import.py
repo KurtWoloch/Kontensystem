@@ -158,12 +158,28 @@ def _consolidate_blocks(blocks: List[Dict], max_gap_s: int = 120,
     return merged
 
 
+# AutoDetect names that are too generic for day-overrides.
+# These are catch-all categories where different corrections likely mean
+# different things, so the last correction shouldn't apply to all future
+# instances of the same original name.
+_GENERIC_ACTIVITIES = frozenset({
+    "Sonstige PC-Nutzung",
+    "div. Surfen",
+    "div. Surfen (News)",
+    "Bearbeitung in VS Code",
+    "Dateiverwaltung (Explorer)",
+})
+
+
 def _load_day_overrides(date_str: str) -> Dict[str, str]:
     """Load today's corrections as overrides: original_name → last corrected_name.
 
     When a user corrects "Diskussion OpenClaw" → "Bearbeitung Tagesplaner KSPLEN",
     all subsequent proposals with the same original AutoDetect name will use the
     corrected name as default. Last correction wins (most recent context).
+
+    Generic catch-all activities (e.g. "Sonstige PC-Nutzung") are excluded
+    because they map to many different real activities.
     """
     path = os.path.join(LOG_DIR, f"autodetect-corrections-{date_str}.json")
     if not os.path.exists(path):
@@ -179,7 +195,8 @@ def _load_day_overrides(date_str: str) -> Dict[str, str]:
         original = entry.get("original", "")
         corrected = entry.get("corrected", "")
         if original and corrected and original != corrected:
-            overrides[original] = corrected
+            if original not in _GENERIC_ACTIVITIES:
+                overrides[original] = corrected
     return overrides
 
 

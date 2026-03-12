@@ -1924,3 +1924,85 @@
 {"ts": "2026-03-12T21:02:46", "hwnd": 460276, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-12T21:02:53", "hwnd": 67226, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
 {"ts": "2026-03-12T21:02:48", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T21:05:13", "hwnd": 67226, "title": "Andon FM | Andon Labs und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:05:40", "hwnd": 67226, "title": "Radio Würmchen und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:05:48", "hwnd": 67226, "title": "Backlink Broadcast - Free Internet Radio - Live365 und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:05:50", "hwnd": 67226, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:06:21", "hwnd": 460276, "title": "Tagesplanung — Off-PC — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:06:21", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 213, "idle_start": "2026-03-12T21:02:48"}
+{"ts": "2026-03-12T21:06:42", "hwnd": 3082436, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:06:43", "hwnd": 460276, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:06:56", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T21:07:06", "hwnd": 460296, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:07:15", "hwnd": 2097258, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:07:17", "hwnd": 460296, "title": "Tagesplanung — Reaktiver Planer — Wenn \"Warst Du heute schon draußen?\", , sonst Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:07:47", "hwnd": 2885644, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:08:09", "hwnd": 460296, "title": "Tagesplanung — Reaktiver Planer — Termine in Kalender prüfen LEMTTP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:08:21", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:08:45", "hwnd": 3344626, "title": "windowmon 20:43-20:44", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:08:46", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:08:59", "hwnd": 3410162, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:09:00", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:09:13", "hwnd": 3541234, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:09:14", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:09:28", "hwnd": 2951550, "title": "windowmon 20:47-20:49", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:09:38", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:09:47", "hwnd": 67226, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:09:58", "hwnd": 3737842, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T21:09:59", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:10:00", "hwnd": 67226, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:10:05", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:10:06", "hwnd": 67226, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:10:10", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:10:11", "hwnd": 67226, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:09:58", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T21:10:18", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T21:10:19", "hwnd": 3672432, "title": "windowmon_summary.py - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T21:10:21", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T21:10:23", "hwnd": 2687926, "title": "Sprungliste für Editor", "process": "ShellExperienceHost.exe", "browser": ""}
+{"ts": "2026-03-12T21:10:25", "hwnd": 3344564, "title": "Suchen", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T21:10:31", "hwnd": 3607080, "title": "autodetect-corrections-2026-03-12.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T21:10:34", "hwnd": 1837166, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T21:10:35", "hwnd": 67226, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:10:46", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 48, "idle_start": "2026-03-12T21:09:58"}
+{"ts": "2026-03-12T21:10:47", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:01", "hwnd": 1836772, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:02", "hwnd": 2099696, "title": "windowmon 20:43-20:44", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:03", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:07", "hwnd": 3541172, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:19", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:25", "hwnd": 1772034, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:27", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:35", "hwnd": 1903106, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:38", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:45", "hwnd": 2230822, "title": "windowmon 20:44-20:47", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:46", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:56", "hwnd": 2557956, "title": "windowmon 20:49-21:01", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:11:57", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:12:12", "hwnd": 5965738, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:12:28", "hwnd": 1770354, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:12:42", "hwnd": 2623600, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:12:44", "hwnd": 2689136, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:12:45", "hwnd": 460296, "title": "Tagesplanung — Reaktiver Planer — Termine in Kalender prüfen LEMTTP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:13:22", "hwnd": 1902560, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:13:29", "hwnd": 1902544, "title": "windowmon 21:07-21:12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:13:38", "hwnd": 1902560, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:13:44", "hwnd": 2820138, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:13:46", "hwnd": 2885674, "title": "Zusammengefasst", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:13:48", "hwnd": 460296, "title": "Tagesplanung — Reaktiver Planer — Termine in Kalender prüfen LEMTTP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:13:49", "hwnd": 4458306, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:13:50", "hwnd": 4523842, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:13:51", "hwnd": 460296, "title": "Tagesplanung — Reaktiver Planer — Termine in Kalender prüfen LEMTTP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:14:05", "hwnd": 67226, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:14:15", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T21:15:05", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T21:15:07", "hwnd": 263424, "title": "autodetect - Suchergebnisse in \"kontensystem\"", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T21:15:20", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 64, "idle_start": "2026-03-12T21:14:15"}
+{"ts": "2026-03-12T21:15:20", "hwnd": 460296, "title": "Tagesplanung — Reaktiver Planer — Termine in Kalender prüfen LEMTTP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:15:25", "hwnd": 3606386, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:15:26", "hwnd": 460296, "title": "Tagesplanung — Reaktiver Planer — Termine in Kalender prüfen LEMTTP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T21:15:32", "hwnd": 2820386, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T21:15:33", "hwnd": 67226, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T21:15:59", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T21:16:00", "hwnd": 3607080, "title": "autodetect-corrections-2026-03-12.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T21:15:44", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
