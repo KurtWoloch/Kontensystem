@@ -58,7 +58,7 @@ AUTODETECT_RULES = [
     (lambda t, p, b: p == "python.exe" and
      _title_contains_any(t, "Aufgabe erledigt", "Eintrag bearbeiten",
                          "Ungeplante Aktivität"),
-     "KS", "Planer-Bedienung (Dialog)"),
+     "KS", "Erfassung Ablauf KSPLEA"),
 
     # Planner Off-PC title → use activity from title
     (lambda t, p, b: p == "python.exe" and "Off-PC" in t and
@@ -70,17 +70,17 @@ AUTODETECT_RULES = [
      _title_contains_any(t, "Nacherfassung aus windowmon",
                           "Vorschlag bearbeiten", "Tagesbericht",
                           "Ungespeicherte", "windowmon "),
-     "KS", "Planer-Bedienung (Dialog)"),
+     "KS", "Erfassung Ablauf KSPLEA"),
 
     # Planner started from cmd
     (lambda t, p, b: p == "cmd.exe" and
      _title_contains(t, "main.py"),
-     "KS", "Planer-Bedienung"),
+     "KS", "Erfassung Ablauf KSPLEA"),
 
     # Planner main window
     (lambda t, p, b: p == "python.exe" and
      _title_contains_any(t, "Tagesplanung", "Reaktiver Planer"),
-     "KS", "Planer-Bedienung"),
+     "KS", "Erfassung Ablauf KSPLEA"),
 
     # ── Old Window Logger ──────────────────────────────────────────────
     # When Window Logger is in foreground, Kurt uses it as "idle" signal:

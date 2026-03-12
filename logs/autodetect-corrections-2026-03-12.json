@@ -124,5 +124,194 @@
     "end": "14:02",
     "original": "andere Aktivitaet (Window Logger idle)",
     "corrected": "Nacherfassung Ablauf (nach Stromausfall wg. Mikrowelle) KWPLNA"
+  },
+  {
+    "ts": "2026-03-12T14:29:07",
+    "start": "13:57",
+    "end": "13:59",
+    "original": "Sonstige PC-Nutzung",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T14:30:05",
+    "start": "13:59",
+    "end": "14:03",
+    "original": "Planer-Bedienung (Dialog)",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T14:30:55",
+    "start": "13:59",
+    "end": "14:05",
+    "original": "Planer-Bedienung (Dialog)",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T14:31:17",
+    "start": "14:03",
+    "end": "14:06",
+    "original": "Planer-Bedienung",
+    "corrected": "Diskussion Planung / Mikrowelle mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-12T14:31:38",
+    "start": "14:06",
+    "end": "14:21",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion Planung / Mikrowelle mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-12T14:32:01",
+    "start": "14:21",
+    "end": "14:23",
+    "original": "div. Surfen",
+    "corrected": "div. Surfen (Mikrowellenherde bei Media Markt)"
+  },
+  {
+    "ts": "2026-03-12T14:32:22",
+    "start": "14:23",
+    "end": "14:24",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion Planung / Mikrowelle mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-12T14:32:52",
+    "start": "14:24",
+    "end": "14:26",
+    "original": "Planer-Bedienung",
+    "corrected": "Begutachtung Fix Tagesplaner KSPLPL"
+  },
+  {
+    "ts": "2026-03-12T14:34:10",
+    "start": "14:26",
+    "end": "14:28",
+    "original": "div. Surfen",
+    "corrected": "div. Surfen (Mikrowellenherde bei Media Markt) WFLEMH"
+  },
+  {
+    "ts": "2026-03-12T14:34:24",
+    "start": "14:28",
+    "end": "14:32",
+    "original": "Planer-Bedienung (Dialog)",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T18:45:39",
+    "start": "14:36",
+    "end": "14:38",
+    "original": "Bearb. Essensplan",
+    "corrected": "Bearb. Essensplan (gegessen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-12T18:46:45",
+    "start": "14:40",
+    "end": "14:41",
+    "original": "Planer-Bedienung (Dialog)",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T18:47:25",
+    "start": "14:41",
+    "end": "14:42",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion OpenClaw (Einchecken Planer) KSPLEW"
+  },
+  {
+    "ts": "2026-03-12T18:51:27",
+    "start": "18:06",
+    "end": "18:07",
+    "original": "Befragung Arena AI",
+    "corrected": "Befragung Arena AI zu Thinking Frequencies RAAFAN"
+  },
+  {
+    "ts": "2026-03-12T18:52:11",
+    "start": "18:07",
+    "end": "18:18",
+    "original": "div. Surfen",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-03-12T18:53:09",
+    "start": "18:18",
+    "end": "18:30",
+    "original": "Befragung Arena AI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-12T18:54:08",
+    "start": "18:30",
+    "end": "18:38",
+    "original": "Surfen X",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-12T18:54:50",
+    "start": "18:38",
+    "end": "18:41",
+    "original": "div. Surfen",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-03-12T18:55:10",
+    "start": "18:43",
+    "end": "18:53",
+    "original": "Planer-Bedienung (Dialog)",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T19:16:42",
+    "start": "19:07",
+    "end": "19:09",
+    "original": "Sonstige PC-Nutzung",
+    "corrected": "Sichtung Radio-Würmchen-Programmstatistiken"
+  },
+  {
+    "ts": "2026-03-12T19:17:07",
+    "start": "19:09",
+    "end": "19:11",
+    "original": "div. Surfen",
+    "corrected": "Neustart ngrok-Tunnel / Surfen X"
+  },
+  {
+    "ts": "2026-03-12T19:17:18",
+    "start": "19:09",
+    "end": "19:10",
+    "original": "div. Surfen",
+    "corrected": "Neustart ngrok-Tunnel"
+  },
+  {
+    "ts": "2026-03-12T19:17:41",
+    "start": "19:12",
+    "end": "19:14",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion OpenClaw (doppelt gesendete Nachrichten) KSPLPL"
+  },
+  {
+    "ts": "2026-03-12T19:17:59",
+    "start": "19:07",
+    "end": "19:09",
+    "original": "Sonstige PC-Nutzung",
+    "corrected": "Sichtung Radio-Würmchen-Programmstatistiken RWKIAN"
+  },
+  {
+    "ts": "2026-03-12T19:18:07",
+    "start": "19:09",
+    "end": "19:10",
+    "original": "div. Surfen",
+    "corrected": "Neustart ngrok-Tunnel RWKIAD"
+  },
+  {
+    "ts": "2026-03-12T19:18:23",
+    "start": "19:10",
+    "end": "19:12",
+    "original": "Surfen X",
+    "corrected": "Surfen X INSUXX"
+  },
+  {
+    "ts": "2026-03-12T20:38:02",
+    "start": "20:05",
+    "end": "20:22",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion OpenClaw (Mängel in Planer) KSPLEN"
   }
 ]

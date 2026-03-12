@@ -15,6 +15,7 @@ Workflow:
 """
 import json
 import os
+import re
 import sys
 import tkinter as tk
 from tkinter import ttk, messagebox
@@ -157,6 +158,31 @@ def _consolidate_blocks(blocks: List[Dict], max_gap_s: int = 120,
     return merged
 
 
+def _load_day_overrides(date_str: str) -> Dict[str, str]:
+    """Load today's corrections as overrides: original_name → last corrected_name.
+
+    When a user corrects "Diskussion OpenClaw" → "Bearbeitung Tagesplaner KSPLEN",
+    all subsequent proposals with the same original AutoDetect name will use the
+    corrected name as default. Last correction wins (most recent context).
+    """
+    path = os.path.join(LOG_DIR, f"autodetect-corrections-{date_str}.json")
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            corrections = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+    overrides: Dict[str, str] = {}
+    for entry in corrections:
+        original = entry.get("original", "")
+        corrected = entry.get("corrected", "")
+        if original and corrected and original != corrected:
+            overrides[original] = corrected
+    return overrides
+
+
 def get_windowmon_proposals(date_str: str,
                             gaps: List[Tuple[datetime, datetime]]
                             ) -> List[Dict]:
@@ -166,10 +192,15 @@ def get_windowmon_proposals(date_str: str,
       {account, activity, start, end, duration_min, raw_entries, entry_count}
 
     Filters out blocks < 1 minute (same-minute start/end).
+    Applies day overrides from corrections file (last correction for each
+    original AutoDetect name becomes the default for subsequent proposals).
     """
     entries = load_windowmon(date_str)
     if not entries:
         return []
+
+    # Load today's corrections as overrides
+    day_overrides = _load_day_overrides(date_str)
 
     # Sort entries by timestamp (they may arrive slightly out of order
     # due to idle markers being backdated)
@@ -214,9 +245,21 @@ def get_windowmon_proposals(date_str: str,
                 if block_start <= e["_ts"] <= block_end
             ]
 
+            # Apply day override if this AutoDetect name was corrected before
+            activity = block["activity"]
+            account = block["account"]
+            override_applied = False
+            if activity in day_overrides:
+                activity = day_overrides[activity]
+                override_applied = True
+                # Try to derive account from 6-char task code at end
+                code_match = re.search(r'\s([A-Z]{6})$', activity)
+                if code_match:
+                    account = code_match.group(1)[:2]
+
             proposals.append({
-                "account": block["account"],
-                "activity": block["activity"],
+                "account": account,
+                "activity": activity,
                 "start": block_start,
                 "end": block_end,
                 "duration_min": duration_min,
