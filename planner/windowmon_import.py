@@ -606,9 +606,12 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
     scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
     canvas.pack(fill=tk.BOTH, expand=True)
 
-    # Mouse wheel scrolling
+    # Mouse wheel scrolling (guard against destroyed widget)
     def _on_mousewheel(event):
-        canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+        try:
+            canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+        except tk.TclError:
+            pass  # canvas already destroyed
     canvas.bind_all("<MouseWheel>", _on_mousewheel)
 
     # Status tracking

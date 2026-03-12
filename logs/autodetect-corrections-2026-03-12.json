@@ -40,5 +40,89 @@
     "end": "10:53",
     "original": "Planer-Bedienung (Dialog)",
     "corrected": "(('KSPLNA', 'existing', 'Nacherfassung Ablauf'),)"
+  },
+  {
+    "ts": "2026-03-12T11:29:56",
+    "start": "10:52",
+    "end": "10:53",
+    "original": "Planer-Bedienung (Dialog)",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T11:30:11",
+    "start": "10:53",
+    "end": "10:54",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Arabella RASCRA"
+  },
+  {
+    "ts": "2026-03-12T11:31:03",
+    "start": "10:54",
+    "end": "10:58",
+    "original": "Arbeit BRZ",
+    "corrected": "Bearb. Dokumentation BRZ (Entwicklungsdokument) BRPDPD"
+  },
+  {
+    "ts": "2026-03-12T11:31:33",
+    "start": "10:58",
+    "end": "10:59",
+    "original": "Planer-Bedienung (Dialog)",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T11:33:20",
+    "start": "11:28",
+    "end": "11:29",
+    "original": "Planer-Bedienung",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T11:33:31",
+    "start": "11:29",
+    "end": "11:31",
+    "original": "Planer-Bedienung (Dialog)",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T13:48:49",
+    "start": "11:54",
+    "end": "11:55",
+    "original": "Planer-Bedienung",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T13:50:44",
+    "start": "12:17",
+    "end": "12:20",
+    "original": "Bearb. Essensplan",
+    "corrected": "Wasser fassen LEMEGA"
+  },
+  {
+    "ts": "2026-03-12T14:01:13",
+    "start": "13:41",
+    "end": "13:48",
+    "original": "Planer-Bedienung",
+    "corrected": "Nacherfassung Ablauf (nach Stromausfall wg. Mikrowelle) KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T14:01:37",
+    "start": "13:41",
+    "end": "13:42",
+    "original": "Planer-Bedienung",
+    "corrected": "Nacherfassung Ablauf (nach Stromausfall wg. Mikrowelle) KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T14:02:52",
+    "start": "13:44",
+    "end": "14:02",
+    "original": "andere Aktivitaet (Window Logger idle)",
+    "corrected": "Nacherfassung Ablauf (nach Stromausfall wg. Mikrowelle) KWPLNA"
+  },
+  {
+    "ts": "2026-03-12T14:03:09",
+    "start": "13:44",
+    "end": "14:02",
+    "original": "andere Aktivitaet (Window Logger idle)",
+    "corrected": "Nacherfassung Ablauf (nach Stromausfall wg. Mikrowelle) KWPLNA"
   }
 ]

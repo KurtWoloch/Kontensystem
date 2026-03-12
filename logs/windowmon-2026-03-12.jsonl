@@ -966,3 +966,265 @@
 {"ts": "2026-03-12T11:19:59", "hwnd": 5375818, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-12T11:20:00", "hwnd": 393732, "title": "OpenClaw Control und 12 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
 {"ts": "2026-03-12T11:19:59", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T11:27:02", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 423, "idle_start": "2026-03-12T11:19:59"}
+{"ts": "2026-03-12T11:27:02", "hwnd": 5375818, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:27:05", "hwnd": 4131364, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:27:08", "hwnd": 1509980, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:27:25", "hwnd": 2950768, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T11:27:46", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Abhalten BKDD Standup Meeting BREPGM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:27:49", "hwnd": 3082544, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:28:09", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Abhalten BKDD Standup Meeting BREPGM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:28:41", "hwnd": 330814, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:28:44", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Abhalten BKDD Standup Meeting BREPGM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:28:49", "hwnd": 132896, "title": "Sprungliste für Editor", "process": "ShellExperienceHost.exe", "browser": ""}
+{"ts": "2026-03-12T11:28:50", "hwnd": 592962, "title": "Unbenannt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T11:28:56", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Abhalten BKDD Standup Meeting BREPGM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:01", "hwnd": 1770156, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:02", "hwnd": 592962, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:06", "hwnd": 65980, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:07", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Abhalten BKDD Standup Meeting BREPGM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:13", "hwnd": 396312, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:18", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Abhalten BKDD Standup Meeting BREPGM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:27", "hwnd": 134296, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:30", "hwnd": 134288, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:41", "hwnd": 134296, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:47", "hwnd": 199804, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:29:57", "hwnd": 134296, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:30:03", "hwnd": 265340, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:30:11", "hwnd": 134296, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:30:39", "hwnd": 3344706, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:31:04", "hwnd": 134296, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:31:23", "hwnd": 6948934, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:31:34", "hwnd": 134296, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:31:41", "hwnd": 461980, "title": "windowmon 10:59-11:00", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:31:44", "hwnd": 134296, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:31:54", "hwnd": 527484, "title": "Import bestaetigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:31:56", "hwnd": 7145542, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:31:58", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Abhalten BKDD Standup Meeting BREPGM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:32:07", "hwnd": 199826, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:32:13", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Abhalten BKDD Standup Meeting BREPGM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:32:16", "hwnd": 1117214, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:32:41", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:32:48", "hwnd": 5964002, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:32:55", "hwnd": 1969174, "title": "windowmon 11:19-11:28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:32:56", "hwnd": 5964002, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:33:00", "hwnd": 1835176, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:33:02", "hwnd": 5964002, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:33:13", "hwnd": 1900712, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:33:20", "hwnd": 5964002, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:33:25", "hwnd": 1966248, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:33:32", "hwnd": 5964002, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:33:58", "hwnd": 2885978, "title": "Zusammengefasst", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:34:00", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:34:07", "hwnd": 1379402, "title": "Import bestaetigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:34:09", "hwnd": 1444938, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:34:10", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:34:17", "hwnd": 2951542, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:34:33", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:34:50", "hwnd": 1248340, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:34:55", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:34:58", "hwnd": 2032528, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:35:07", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:35:09", "hwnd": 1117274, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:35:15", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:35:20", "hwnd": 658580, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:35:38", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T11:41:01", "hwnd": 2362440, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:41:03", "hwnd": 658580, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:50:46", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 907, "idle_start": "2026-03-12T11:35:38"}
+{"ts": "2026-03-12T11:51:00", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:51:10", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T11:54:01", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 170, "idle_start": "2026-03-12T11:51:10"}
+{"ts": "2026-03-12T11:54:29", "hwnd": 1510484, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:54:32", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Häferl waschen / Hustenbonbon fassen LEMTHW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:54:35", "hwnd": 2820882, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:54:37", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T11:55:09", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T11:57:46", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 157, "idle_start": "2026-03-12T11:55:09"}
+{"ts": "2026-03-12T11:58:11", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T11:58:45", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 34, "idle_start": "2026-03-12T11:58:11"}
+{"ts": "2026-03-12T11:58:56", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T12:01:55", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 178, "idle_start": "2026-03-12T11:58:56"}
+{"ts": "2026-03-12T12:02:07", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T12:11:01", "hwnd": 3934898, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:11:02", "hwnd": 918474, "title": "Tagesplanung — Off-PC — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:17:47", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 940, "idle_start": "2026-03-12T12:02:07"}
+{"ts": "2026-03-12T12:17:59", "hwnd": 1117308, "title": "Aufgabe unterbrechen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:18:10", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T12:18:13", "hwnd": 329084, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T12:18:19", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T12:19:59", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T12:19:59", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 99, "idle_start": "2026-03-12T12:18:19"}
+{"ts": "2026-03-12T12:20:00", "hwnd": 1117308, "title": "Aufgabe unterbrechen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:20:09", "hwnd": 329084, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T12:20:18", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T12:41:01", "hwnd": 3607582, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:41:02", "hwnd": 329084, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T12:46:34", "hwnd": 393732, "title": "OpenClaw Control und 12 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T12:46:44", "hwnd": 918474, "title": "Tagesplanung — Off-PC — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:46:45", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 1586, "idle_start": "2026-03-12T12:20:18"}
+{"ts": "2026-03-12T12:47:02", "hwnd": 4000790, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:47:07", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Blutdruck messen GEBMBM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:47:13", "hwnd": 328188, "title": "Suche", "process": "SearchApp.exe", "browser": ""}
+{"ts": "2026-03-12T12:47:17", "hwnd": 4262262, "title": "Microsoft Excel", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-12T12:47:18", "hwnd": 4262262, "title": "Microsoft Excel - Blutdruckmesswerte.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-12T12:47:27", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T12:49:33", "hwnd": 918474, "title": "Tagesplanung — Off-PC — Blutdruck messen GEBMBM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:49:33", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 125, "idle_start": "2026-03-12T12:47:27"}
+{"ts": "2026-03-12T12:49:35", "hwnd": 724124, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:49:37", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Gehst Du heute zum Essen raus?\"), Start list Liste_Mittagessen_extern, sonst Start list Liste_Mittagessen_zuhause", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:50:08", "hwnd": 3934832, "title": "Radio Würmchen 26.2.20 - Scan Radio Arabella 2023", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-12T12:50:10", "hwnd": 918474, "title": "Tagesplanung — Reaktiver Planer — Mittagessen (selbst kochen / kalt)", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T12:50:15", "hwnd": 393284, "title": "KS - Planung: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-12T12:50:26", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T12:58:30", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 484, "idle_start": "2026-03-12T12:50:26"}
+{"ts": "2026-03-12T12:58:32", "hwnd": 132896, "title": "Sprungliste für Editor", "process": "ShellExperienceHost.exe", "browser": ""}
+{"ts": "2026-03-12T12:58:34", "hwnd": 4394006, "title": "Unbenannt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T12:58:41", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T12:59:14", "hwnd": 986284, "title": "Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T12:59:14", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 33, "idle_start": "2026-03-12T12:58:41"}
+{"ts": "2026-03-12T12:59:15", "hwnd": 393284, "title": "?? - Bearbeitung Editor: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-12T12:59:16", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T12:59:17", "hwnd": 7473572, "title": "Lebenserhaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T12:59:20", "hwnd": 461988, "title": "Protokoll und Kalkulation Mohnnudeln.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T12:59:25", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T13:37:55", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T13:38:06", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:38:13", "hwnd": 1507960, "title": "KS - Planung: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-12T13:38:31", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T13:41:02", "hwnd": 132720, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:41:04", "hwnd": 1507960, "title": "LE - WC / Jause / Nachtmahl: C:\\Program Files\\Python311\\python.exe", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-12T13:41:18", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 167, "idle_start": "2026-03-12T13:38:31"}
+{"ts": "2026-03-12T13:41:37", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:42:26", "hwnd": 65920, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:42:27", "hwnd": 67226, "title": "OpenClaw Control und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T13:42:35", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:42:39", "hwnd": 524776, "title": "openclaw-gateway", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T13:42:40", "hwnd": 67226, "title": "OpenClaw Control und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T13:42:42", "hwnd": 131600, "title": "Suche", "process": "SearchApp.exe", "browser": ""}
+{"ts": "2026-03-12T13:42:46", "hwnd": 65678, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:42:48", "hwnd": 263892, "title": "Administrator: Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T13:42:50", "hwnd": 67226, "title": "Johann-Laufner Gasse 2/5, Wien Wettervorhersage | MSN Wetter und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T13:42:52", "hwnd": 67226, "title": "MSN und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T13:42:54", "hwnd": 67226, "title": "Wien, Österreich Wettervorhersage | MSN Wetter und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T13:42:36", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T13:43:02", "hwnd": 67226, "title": "openClaw update - Suchen und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T13:43:29", "hwnd": 132630, "title": "Tagesplanung — Off-PC — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:43:30", "hwnd": 66698, "title": "Live365 Scraper", "process": "Live365Scraper.exe", "browser": ""}
+{"ts": "2026-03-12T13:43:32", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:43:33", "hwnd": 263892, "title": "Administrator: Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T13:43:55", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 79, "idle_start": "2026-03-12T13:42:36"}
+{"ts": "2026-03-12T13:43:56", "hwnd": 67226, "title": "Backlink Broadcast - Free Internet Radio - Live365 und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T13:43:59", "hwnd": 67226, "title": "Andon FM | Andon Labs und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T13:44:04", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:45:26", "hwnd": 328872, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:45:33", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Häferl waschen / Hustenbonbon fassen LEMTHW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:45:34", "hwnd": 394846, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:45:39", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Blutdruck messen GEBMBM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:45:44", "hwnd": 263424, "title": "planner", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:46:09", "hwnd": 788030, "title": "Microsoft Excel", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-12T13:46:10", "hwnd": 788030, "title": "Microsoft Excel - Blutdruckmesswerte.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-12T13:46:15", "hwnd": 263424, "title": "Gesundheit", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:45:58", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T13:46:25", "hwnd": 918690, "title": "Microsoft Excel - Blutdruckmesswerte.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-12T13:46:33", "hwnd": 67382, "title": "Microsoft Excel", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-12T13:46:35", "hwnd": 263424, "title": "Gesundheit", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:46:36", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 37, "idle_start": "2026-03-12T13:45:58"}
+{"ts": "2026-03-12T13:46:36", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Blutdruck messen GEBMBM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:46:39", "hwnd": 526074, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:46:48", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Mittagessen (selbst kochen / kalt)", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:47:14", "hwnd": 197558, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:47:17", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Mittagessen (selbst kochen / kalt)", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:47:18", "hwnd": 263966, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:47:39", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:47:54", "hwnd": 395024, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:48:03", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:48:17", "hwnd": 67398, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:48:22", "hwnd": 67418, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:48:49", "hwnd": 67398, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:49:34", "hwnd": 1181138, "title": "Import bestaetigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:49:36", "hwnd": 1246674, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:49:38", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:49:43", "hwnd": 657160, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:49:56", "hwnd": 264046, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:50:17", "hwnd": 657160, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:50:29", "hwnd": 329582, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:50:44", "hwnd": 657160, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:51:54", "hwnd": 591726, "title": "Import bestaetigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:51:56", "hwnd": 460642, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:51:57", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:52:08", "hwnd": 395022, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:52:16", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:52:31", "hwnd": 395068, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:52:33", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:52:37", "hwnd": 853736, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:52:47", "hwnd": 263424, "title": "Gesundheit", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:52:53", "hwnd": 1442280, "title": "Unbenannt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T13:53:06", "hwnd": 1246842, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:53:07", "hwnd": 853736, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:53:12", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:53:29", "hwnd": 526140, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:54:07", "hwnd": 1442280, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T13:54:16", "hwnd": 1377592, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:54:17", "hwnd": 526140, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:54:28", "hwnd": 1442280, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T13:54:30", "hwnd": 67226, "title": "Andon FM | Andon Labs und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T13:54:31", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:54:46", "hwnd": 1443578, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:55:40", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:55:44", "hwnd": 2295102, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:56:29", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:56:49", "hwnd": 1442280, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T13:56:51", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:56:58", "hwnd": 788242, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:57:31", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:57:44", "hwnd": 591682, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:57:45", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Arbeitszeit absolvieren (Vormittag) BREPDZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:57:47", "hwnd": 984850, "title": "Aufgabe überspringen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:57:52", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:58:07", "hwnd": 2229904, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T13:58:08", "hwnd": 1442280, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T13:58:25", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:58:29", "hwnd": 1442280, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T13:58:38", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:58:40", "hwnd": 1705722, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:58:43", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:58:45", "hwnd": 1967072, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:59:10", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:59:17", "hwnd": 1967866, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:59:23", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:59:43", "hwnd": 2230010, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:59:46", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T13:59:49", "hwnd": 1050408, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:00:22", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T14:00:47", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 25, "idle_start": "2026-03-12T14:00:22"}
+{"ts": "2026-03-12T14:00:58", "hwnd": 460676, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:01:14", "hwnd": 1050408, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:01:35", "hwnd": 1509126, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:01:37", "hwnd": 1050408, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:01:56", "hwnd": 983200, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:02:28", "hwnd": 131600, "title": "Suche", "process": "SearchApp.exe", "browser": ""}
+{"ts": "2026-03-12T14:02:31", "hwnd": 65920, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T14:02:32", "hwnd": 395094, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T14:02:46", "hwnd": 983200, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:02:52", "hwnd": 1050408, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:03:07", "hwnd": 133024, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:03:09", "hwnd": 1050408, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:03:13", "hwnd": 329626, "title": "Import bestaetigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:03:15", "hwnd": 395162, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:03:16", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:03:35", "hwnd": 264104, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:03:46", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:04:25", "hwnd": 1050370, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:04:27", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:04:53", "hwnd": 67226, "title": "Andon FM | Andon Labs und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T14:04:58", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:05:01", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T14:05:02", "hwnd": 263892, "title": "Administrator: Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T14:05:20", "hwnd": 263424, "title": "Checklisten_Winlogger", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T14:05:21", "hwnd": 263892, "title": "Administrator: Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T14:05:25", "hwnd": 132630, "title": "Tagesplanung — Reaktiver Planer — Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T14:05:27", "hwnd": 66698, "title": "Live365 Scraper", "process": "Live365Scraper.exe", "browser": ""}
+{"ts": "2026-03-12T14:05:28", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T14:05:54", "hwnd": 67226, "title": "Andon FM | Andon Labs und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T14:05:35", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
