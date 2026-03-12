@@ -176,17 +176,6 @@
     "comment": ""
   },
   {
-    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 6,
-    "started_at": "07:22:00",
-    "completed_at": "07:28:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "div. Surfen (News) INSUNE",
     "list": "ungeplant",
     "priority": 0.0,
@@ -223,9 +212,86 @@
     "activity": "Verbesserung Tagesplaner mit OpenClaw / Anpassen Window Logger an Off-PC-Anzeige KSPLAW",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 24,
+    "minutes": 35,
     "started_at": "07:42:00",
-    "completed_at": "08:06:00",
+    "completed_at": "08:17:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen Youtube-Videos RAYTYT",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.835,
+    "minutes": 1,
+    "started_at": "08:17:00",
+    "completed_at": "08:18:00",
+    "skipped": false,
+    "original_activity": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
+    "comment": ""
+  },
+  {
+    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "08:18:00",
+    "completed_at": "08:20:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen Youtube-Videos RAYTYT",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.835,
+    "minutes": 1,
+    "started_at": "08:20:00",
+    "completed_at": "08:21:00",
+    "skipped": false,
+    "original_activity": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
+    "comment": ""
+  },
+  {
+    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 20,
+    "started_at": "08:21:00",
+    "completed_at": "08:41:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen Youtube-Videos RAYTYT",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.835,
+    "minutes": 1,
+    "started_at": "08:41:00",
+    "completed_at": "08:42:00",
+    "skipped": false,
+    "original_activity": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "08:42:00",
+    "completed_at": "08:46:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 4,
+    "started_at": "08:46:00",
+    "completed_at": "08:50:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

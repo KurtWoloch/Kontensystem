@@ -444,3 +444,109 @@
 {"ts": "2026-03-12T08:50:20", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
 {"ts": "2026-03-12T08:50:27", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
 {"ts": "2026-03-12T08:50:55", "hwnd": 393732, "title": "How AI Will Fail Like The Music Industry - YouTube und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:52:02", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:52:02", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 95, "idle_start": "2026-03-12T08:50:27"}
+{"ts": "2026-03-12T08:52:03", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Singen unter der Dusche MUOWPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:52:05", "hwnd": 7473572, "title": "Lebenserhaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:52:25", "hwnd": 7735216, "title": "Select an account", "process": "git-credential-manager.exe", "browser": ""}
+{"ts": "2026-03-12T08:52:27", "hwnd": 7473572, "title": "USB-STICK (F:)", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:52:30", "hwnd": 393732, "title": "How AI Will Fail Like The Music Industry - YouTube und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:52:31", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:52:14", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T08:53:29", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 74, "idle_start": "2026-03-12T08:52:14"}
+{"ts": "2026-03-12T08:53:29", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Singen unter der Dusche MUOWPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:53:37", "hwnd": 12256686, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:53:53", "hwnd": 2950768, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T08:53:59", "hwnd": 721808, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Singen unter der Dusche MUOWPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:54:10", "hwnd": 3278704, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:55:00", "hwnd": 1770138, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:55:16", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:55:30", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T08:56:04", "hwnd": 4917856, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:56:05", "hwnd": 1770138, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:56:06", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 35, "idle_start": "2026-03-12T08:55:30"}
+{"ts": "2026-03-12T08:56:18", "hwnd": 3278704, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:56:20", "hwnd": 721808, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Singen unter der Dusche MUOWPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:56:22", "hwnd": 3278704, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:57:01", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:57:35", "hwnd": 3278704, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:57:56", "hwnd": 7211622, "title": "~Vergleich forcierter Preise.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T08:57:58", "hwnd": 3278704, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:58:03", "hwnd": 721808, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Singen unter der Dusche MUOWPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:58:06", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:58:32", "hwnd": 721808, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Singen unter der Dusche MUOWPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:58:41", "hwnd": 1572952, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:59:08", "hwnd": 721808, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Singen unter der Dusche MUOWPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:59:17", "hwnd": 8456112, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:59:23", "hwnd": 2033694, "title": "windowmon 08:54-08:55", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:59:28", "hwnd": 8456112, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:59:43", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:59:53", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T09:00:24", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 31, "idle_start": "2026-03-12T08:59:53"}
+{"ts": "2026-03-12T09:00:25", "hwnd": 8456112, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T09:00:27", "hwnd": 721808, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Singen unter der Dusche MUOWPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T09:00:33", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:00:41", "hwnd": 2164766, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:00:42", "hwnd": 3475868, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T09:00:43", "hwnd": 2230302, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:00:44", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:00:55", "hwnd": 3475868, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T09:00:56", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:00:45", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T09:01:13", "hwnd": 3475868, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T09:01:15", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 29, "idle_start": "2026-03-12T09:00:45"}
+{"ts": "2026-03-12T09:01:22", "hwnd": 2492954, "title": "windowmon 08:54-08:55", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T09:01:33", "hwnd": 3475868, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T09:01:36", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:01:54", "hwnd": 7473572, "title": "USB-STICK (F:)", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:01:58", "hwnd": 65780, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:01:59", "hwnd": 132896, "title": "Sprungliste für Editor", "process": "ShellExperienceHost.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:00", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:01:46", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T09:02:09", "hwnd": 65980, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:10", "hwnd": 591900, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:12", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:02:25", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:27", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:02:29", "hwnd": 1704612, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:30", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:35", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:02:39", "hwnd": 1835684, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:40", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:43", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:02:46", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:48", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:02:51", "hwnd": 65980, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:52", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:02:56", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:03:00", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:03:01", "hwnd": 65980, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:03:02", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:03:07", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:03:10", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:03:15", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:03:20", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:03:28", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:03:39", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:04:38", "hwnd": 3475868, "title": "Nacherfassung aus windowmon - 2026-03-12", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T09:04:40", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 174, "idle_start": "2026-03-12T09:01:46"}
+{"ts": "2026-03-12T09:04:44", "hwnd": 721808, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Singen unter der Dusche MUOWPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T09:04:48", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:05:01", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T09:06:12", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:06:14", "hwnd": 7211622, "title": "~Vergleich forcierter Preise.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:06:17", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:06:18", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:06:24", "hwnd": 7866362, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:06:26", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:06:43", "hwnd": 4392604, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:06:44", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:06:59", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:07:02", "hwnd": 2164386, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:07:03", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:07:04", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:07:07", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:07:22", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T09:07:26", "hwnd": 6621810, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T09:07:28", "hwnd": 65980, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T09:07:29", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}

@@ -84,6 +84,79 @@ def find_planner_gaps(completed: List[CompletedItem],
     return gaps
 
 
+def _consolidate_blocks(blocks: List[Dict], max_gap_s: int = 120,
+                        noise_threshold_s: int = 30) -> List[Dict]:
+    """Merge adjacent blocks with the same classification, and absorb noise.
+
+    Two passes:
+    1. Absorb noise: blocks shorter than noise_threshold_s are absorbed
+       into the longer neighboring block (handles 2s Explorer flashes
+       between OpenClaw sessions).
+    2. Merge adjacent: blocks with the same account/activity within
+       max_gap_s are merged into one.
+    """
+    if len(blocks) < 2:
+        return blocks
+
+    # Pass 1: Absorb noise — replace short blocks with their longer neighbor
+    absorbed = list(blocks)
+    changed = True
+    while changed:
+        changed = False
+        new_list = []
+        i = 0
+        while i < len(absorbed):
+            block = dict(absorbed[i])
+            dur = block.get("duration_s", 0)
+
+            if dur < noise_threshold_s and len(absorbed) > 1:
+                # This block is noise — absorb into a neighbor
+                if new_list and i > 0 and (i == len(absorbed) - 1 or
+                              new_list[-1].get("duration_s", 0) >=
+                              absorbed[i + 1].get("duration_s", 0)):
+                    # Absorb into previous (longer or only option)
+                    prev = new_list[-1]
+                    prev["end"] = block["end"]
+                    prev["entries"] += block["entries"]
+                    prev["duration_s"] = (prev["end"] -
+                                           prev["start"]).total_seconds()
+                    changed = True
+                    i += 1
+                    continue
+                elif i < len(absorbed) - 1:
+                    # Absorb into next
+                    nxt = dict(absorbed[i + 1])
+                    nxt["start"] = block["start"]
+                    nxt["entries"] += block["entries"]
+                    nxt["duration_s"] = (nxt["end"] -
+                                          nxt["start"]).total_seconds()
+                    absorbed[i + 1] = nxt
+                    changed = True
+                    i += 1
+                    continue
+
+            new_list.append(block)
+            i += 1
+        absorbed = new_list
+
+    # Pass 2: Merge adjacent blocks with same classification
+    merged = [dict(absorbed[0])]
+    for block in absorbed[1:]:
+        prev = merged[-1]
+        gap_s = (block["start"] - prev["end"]).total_seconds()
+
+        if (prev["account"] == block["account"] and
+                prev["activity"] == block["activity"] and
+                gap_s <= max_gap_s):
+            prev["end"] = block["end"]
+            prev["entries"] += block["entries"]
+            prev["duration_s"] = (prev["end"] - prev["start"]).total_seconds()
+        else:
+            merged.append(dict(block))
+
+    return merged
+
+
 def get_windowmon_proposals(date_str: str,
                             gaps: List[Tuple[datetime, datetime]]
                             ) -> List[Dict]:
@@ -97,6 +170,10 @@ def get_windowmon_proposals(date_str: str,
     entries = load_windowmon(date_str)
     if not entries:
         return []
+
+    # Sort entries by timestamp (they may arrive slightly out of order
+    # due to idle markers being backdated)
+    entries.sort(key=lambda e: e["_ts"])
 
     proposals = []
 
@@ -112,6 +189,11 @@ def get_windowmon_proposals(date_str: str,
 
         # Build classified blocks for this gap
         blocks = build_activity_blocks(gap_entries)
+
+        # Consolidate: merge adjacent blocks with same classification
+        # This handles rapid switching (e.g., 2s Explorer between two
+        # OpenClaw blocks → one OpenClaw block)
+        blocks = _consolidate_blocks(blocks, max_gap_s=120)
 
         for block in blocks:
             # Clamp to gap boundaries
@@ -129,7 +211,7 @@ def get_windowmon_proposals(date_str: str,
             # Collect raw entries for this block's time range
             raw = [
                 e for e in gap_entries
-                if block["start"] <= e["_ts"] <= block["end"]
+                if block_start <= e["_ts"] <= block_end
             ]
 
             proposals.append({
@@ -312,39 +394,44 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
     btn_use_suggest.config(command=use_suggestion)
     update_suggestion()
 
-    # Time fields
-    time_frame = tk.Frame(dlg, bg=COLOR_BG)
-    time_frame.pack(fill=tk.X, padx=12, pady=(10, 0))
+    # Time fields (Spinbox — matching the standard planner dialog style)
+    start_frame = tk.Frame(dlg, bg=COLOR_BG)
+    start_frame.pack(fill=tk.X, padx=12, pady=(10, 0))
 
-    tk.Label(time_frame, text="Von:", font=("Segoe UI", 10),
-             bg=COLOR_BG, fg=COLOR_FG).pack(side=tk.LEFT)
+    tk.Label(start_frame, text="Begonnen um:  ",
+             font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+             ).pack(side=tk.LEFT)
     start_h = tk.StringVar(value=f"{proposal['start'].hour:02d}")
     start_m = tk.StringVar(value=f"{proposal['start'].minute:02d}")
-    tk.Entry(time_frame, textvariable=start_h, width=3,
-             font=("Consolas", 12), bg=COLOR_LIST, fg=COLOR_FG,
-             relief=tk.FLAT, bd=2, justify=tk.CENTER
-             ).pack(side=tk.LEFT, padx=(6, 0))
-    tk.Label(time_frame, text=":", font=("Consolas", 12),
+    tk.Spinbox(start_frame, from_=0, to=23, width=3, format="%02.0f",
+               textvariable=start_h, font=("Consolas", 11),
+               bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+               ).pack(side=tk.LEFT, padx=(8, 0))
+    tk.Label(start_frame, text=":", font=("Consolas", 11),
              bg=COLOR_BG, fg=COLOR_FG).pack(side=tk.LEFT)
-    tk.Entry(time_frame, textvariable=start_m, width=3,
-             font=("Consolas", 12), bg=COLOR_LIST, fg=COLOR_FG,
-             relief=tk.FLAT, bd=2, justify=tk.CENTER
-             ).pack(side=tk.LEFT)
+    tk.Spinbox(start_frame, from_=0, to=59, width=3, format="%02.0f",
+               textvariable=start_m, font=("Consolas", 11),
+               bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+               ).pack(side=tk.LEFT)
 
-    tk.Label(time_frame, text="   Bis:", font=("Segoe UI", 10),
-             bg=COLOR_BG, fg=COLOR_FG).pack(side=tk.LEFT)
+    end_frame = tk.Frame(dlg, bg=COLOR_BG)
+    end_frame.pack(fill=tk.X, padx=12, pady=(4, 0))
+
+    tk.Label(end_frame, text="Erledigt um:  ",
+             font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+             ).pack(side=tk.LEFT)
     end_h = tk.StringVar(value=f"{proposal['end'].hour:02d}")
     end_m = tk.StringVar(value=f"{proposal['end'].minute:02d}")
-    tk.Entry(time_frame, textvariable=end_h, width=3,
-             font=("Consolas", 12), bg=COLOR_LIST, fg=COLOR_FG,
-             relief=tk.FLAT, bd=2, justify=tk.CENTER
-             ).pack(side=tk.LEFT, padx=(6, 0))
-    tk.Label(time_frame, text=":", font=("Consolas", 12),
+    tk.Spinbox(end_frame, from_=0, to=23, width=3, format="%02.0f",
+               textvariable=end_h, font=("Consolas", 11),
+               bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+               ).pack(side=tk.LEFT, padx=(8, 0))
+    tk.Label(end_frame, text=":", font=("Consolas", 11),
              bg=COLOR_BG, fg=COLOR_FG).pack(side=tk.LEFT)
-    tk.Entry(time_frame, textvariable=end_m, width=3,
-             font=("Consolas", 12), bg=COLOR_LIST, fg=COLOR_FG,
-             relief=tk.FLAT, bd=2, justify=tk.CENTER
-             ).pack(side=tk.LEFT)
+    tk.Spinbox(end_frame, from_=0, to=59, width=3, format="%02.0f",
+               textvariable=end_m, font=("Consolas", 11),
+               bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+               ).pack(side=tk.LEFT)
 
     # Comment
     tk.Label(

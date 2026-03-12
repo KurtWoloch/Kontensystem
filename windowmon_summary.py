@@ -65,6 +65,18 @@ AUTODETECT_RULES = [
      "Tagesplanung" in t,
      "_PLANNER_OFFPC", ""),  # special: extract activity from title
 
+    # Planner dialogs (Nacherfassung, Tagesbericht, etc.)
+    (lambda t, p, b: p == "python.exe" and
+     _title_contains_any(t, "Nacherfassung aus windowmon",
+                          "Vorschlag bearbeiten", "Tagesbericht",
+                          "Ungespeicherte", "windowmon "),
+     "KS", "Planer-Bedienung (Dialog)"),
+
+    # Planner started from cmd
+    (lambda t, p, b: p == "cmd.exe" and
+     _title_contains(t, "main.py"),
+     "KS", "Planer-Bedienung"),
+
     # Planner main window
     (lambda t, p, b: p == "python.exe" and
      _title_contains_any(t, "Tagesplanung", "Reaktiver Planer"),
@@ -279,6 +291,9 @@ def build_activity_blocks(entries: List[Dict],
     """
     if not entries:
         return []
+
+    # Ensure chronological order (idle markers may be backdated)
+    entries = sorted(entries, key=lambda e: e["_ts"])
 
     blocks = []
     current_block = None
