@@ -200,13 +200,13 @@ def get_windowmon_proposals(date_str: str,
             block_start = max(block["start"], gap_start)
             block_end = min(block["end"], gap_end)
 
-            # Filter: must span at least 1 minute change
+            # Filter: must cross at least one minute boundary
+            # (e.g., 08:52:31-08:53:29 → 08:52-08:53 = OK;
+            #  08:57:01-08:57:35 → 08:57-08:57 = drop)
             if block_start.strftime("%H:%M") == block_end.strftime("%H:%M"):
                 continue
 
             duration_min = (block_end - block_start).total_seconds() / 60
-            if duration_min < 1.0:
-                continue
 
             # Collect raw entries for this block's time range
             raw = [
