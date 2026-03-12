@@ -1,0 +1,44 @@
+[
+  {
+    "ts": "2026-03-12T10:21:44",
+    "start": "10:16",
+    "end": "10:17",
+    "original": "Planer-Bedienung",
+    "corrected": "Scan Kronehit RASCKH"
+  },
+  {
+    "ts": "2026-03-12T10:22:02",
+    "start": "10:16",
+    "end": "10:17",
+    "original": "Planer-Bedienung",
+    "corrected": "Scan Kronehit RASCKH"
+  },
+  {
+    "ts": "2026-03-12T10:22:12",
+    "start": "10:17",
+    "end": "10:18",
+    "original": "div. Surfen",
+    "corrected": "Scan Kronehit RASCKH"
+  },
+  {
+    "ts": "2026-03-12T10:22:51",
+    "start": "10:18",
+    "end": "10:19",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Kronehit RASCKH"
+  },
+  {
+    "ts": "2026-03-12T10:23:18",
+    "start": "10:19",
+    "end": "10:23",
+    "original": "Planer-Bedienung (Dialog)",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-12T11:19:36",
+    "start": "10:50",
+    "end": "10:53",
+    "original": "Planer-Bedienung (Dialog)",
+    "corrected": "(('KSPLNA', 'existing', 'Nacherfassung Ablauf'),)"
+  }
+]

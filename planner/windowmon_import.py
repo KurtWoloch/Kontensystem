@@ -373,10 +373,13 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
     def update_suggestion(*args):
         text = activity_var.get().strip()
         if code_suggestor and text:
-            match = code_suggestor.suggest(text)
-            if match:
-                lbl_suggest.config(text=f"-> {match}")
-                _suggest_match["name"] = match
+            matches = code_suggestor.suggest(text)
+            if matches:
+                code, match_type, matched_name = matches[0]
+                # Display format: "Name CODE" (standard Kontensystem format)
+                display_name = f"{matched_name} {code}"
+                lbl_suggest.config(text=f"-> {display_name}")
+                _suggest_match["name"] = display_name
                 if not _suggest_match["visible"]:
                     btn_use_suggest.pack(side=tk.RIGHT, padx=(4, 0))
                     _suggest_match["visible"] = True
