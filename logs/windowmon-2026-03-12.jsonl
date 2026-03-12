@@ -280,3 +280,43 @@
 {"ts": "2026-03-12T07:59:04", "hwnd": 1181974, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-12T07:59:43", "hwnd": 393732, "title": "vba like operator matching for last 6 characters being uppercase letters with a space before it - Suchen und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
 {"ts": "2026-03-12T07:59:45", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:01:22", "hwnd": 1181974, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:01:23", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 425, "idle_start": "2026-03-12T07:54:18"}
+{"ts": "2026-03-12T08:01:25", "hwnd": 65780, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:01:26", "hwnd": 2688808, "title": "Select an account", "process": "git-credential-manager.exe", "browser": ""}
+{"ts": "2026-03-12T08:01:28", "hwnd": 65780, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:01:43", "hwnd": 1181974, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:02:12", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:02:34", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T08:03:19", "hwnd": 7473572, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:03:22", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:03:57", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:04:03", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:04:31", "hwnd": 1181974, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:04:31", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 116, "idle_start": "2026-03-12T08:02:34"}
+{"ts": "2026-03-12T08:04:39", "hwnd": 132896, "title": "Sprungliste für Editor", "process": "ShellExperienceHost.exe", "browser": ""}
+{"ts": "2026-03-12T08:04:41", "hwnd": 2361200, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T08:04:54", "hwnd": 1181974, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:05:10", "hwnd": 6359658, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:05:36", "hwnd": 132050, "title": "KS - Planung: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-12T08:05:39", "hwnd": 65780, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:05:41", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:05:42", "hwnd": 7932632, "title": "KS - Planung: ", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-12T08:05:44", "hwnd": 3148334, "title": "Window_Logger - Microsoft Visual Basic [Entwerfen] - [Form1 (Code)]", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-12T08:05:49", "hwnd": 7604044, "title": "Suchen", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-12T08:05:55", "hwnd": 3148334, "title": "Window_Logger - Microsoft Visual Basic [Entwerfen] - [Form1 (Code)]", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-12T08:06:00", "hwnd": 263122, "title": "Projekt erstellen", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-12T08:06:04", "hwnd": 197550, "title": "Speichern unter bestätigen", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-12T08:06:05", "hwnd": 3148334, "title": "Window_Logger - Microsoft Visual Basic [Entwerfen] - [Form1 (Code)]", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-12T08:06:09", "hwnd": 328188, "title": "Suche", "process": "SearchApp.exe", "browser": ""}
+{"ts": "2026-03-12T08:06:13", "hwnd": 393284, "title": "Window Logger Initalizing", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-12T08:06:32", "hwnd": 6359658, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:06:38", "hwnd": 393284, "title": "no_activity: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-12T08:06:49", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:06:56", "hwnd": 1181974, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:07:09", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:07:11", "hwnd": 393284, "title": "KS - Diskussion mit OpenClaw (Tagesplanung) KSPLOC: OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft? Edge", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-12T08:07:31", "hwnd": 1181974, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:07:47", "hwnd": 393732, "title": "X und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:07:50", "hwnd": 393732, "title": "Andon FM | Andon Labs und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:07:55", "hwnd": 7473572, "title": "logs", "process": "explorer.exe", "browser": ""}
