@@ -220,12 +220,12 @@
     "comment": ""
   },
   {
-    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "activity": "Verbesserung Tagesplaner mit OpenClaw / Anpassen Window Logger an Off-PC-Anzeige KSPLAW",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 3,
+    "minutes": 24,
     "started_at": "07:42:00",
-    "completed_at": "07:45:00",
+    "completed_at": "08:06:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

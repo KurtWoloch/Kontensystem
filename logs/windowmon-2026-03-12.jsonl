@@ -320,3 +320,127 @@
 {"ts": "2026-03-12T08:07:47", "hwnd": 393732, "title": "X und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
 {"ts": "2026-03-12T08:07:50", "hwnd": 393732, "title": "Andon FM | Andon Labs und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
 {"ts": "2026-03-12T08:07:55", "hwnd": 7473572, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:08:00", "hwnd": 1902234, "title": "Andon FM Station logs.txt.music.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T08:08:02", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T08:08:39", "hwnd": 656348, "title": "Select an account", "process": "git-credential-manager.exe", "browser": ""}
+{"ts": "2026-03-12T08:08:41", "hwnd": 65780, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:08:42", "hwnd": 393732, "title": "Andon FM | Andon Labs und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:08:44", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:12:03", "hwnd": 1181974, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:12:04", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:12:05", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:12:12", "hwnd": 2950768, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T08:12:16", "hwnd": 7473572, "title": "Radio Fernsehen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:12:48", "hwnd": 395152, "title": "Live365 Scraper", "process": "Live365Scraper.exe", "browser": ""}
+{"ts": "2026-03-12T08:12:51", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:12:56", "hwnd": 2950768, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T08:12:59", "hwnd": 328188, "title": "Suche", "process": "SearchApp.exe", "browser": ""}
+{"ts": "2026-03-12T08:13:03", "hwnd": 65780, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:13:04", "hwnd": 918500, "title": "Administrator: Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T08:13:12", "hwnd": 7473572, "title": "kontensystem", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:13:15", "hwnd": 918500, "title": "Administrator: Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T08:13:18", "hwnd": 1116874, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:13:21", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:13:25", "hwnd": 65980, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:13:26", "hwnd": 918500, "title": "Administrator: Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T08:14:16", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:14:19", "hwnd": 918500, "title": "Administrator: Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T08:14:56", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:14:58", "hwnd": 984052, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:14:59", "hwnd": 918500, "title": "Administrator: Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T08:15:25", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:17:19", "hwnd": 393732, "title": "Backlink Broadcast - Free Internet Radio - Live365 und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:17:27", "hwnd": 393732, "title": "Grok'n Roll - Free Internet Radio - Live365 und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:17:31", "hwnd": 393732, "title": "vba like operator matching for last 6 characters being uppercase letters with a space before it - Suchen und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:17:34", "hwnd": 393732, "title": "YouTube und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:18:37", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:20:40", "hwnd": 1181974, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:20:40", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 758, "idle_start": "2026-03-12T08:08:02"}
+{"ts": "2026-03-12T08:20:52", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T08:21:52", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 59, "idle_start": "2026-03-12T08:20:52"}
+{"ts": "2026-03-12T08:21:54", "hwnd": 1182260, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:22:28", "hwnd": 2950768, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T08:22:32", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:22:53", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T08:24:18", "hwnd": 393284, "title": "KS - Diskussion mit OpenClaw (Tagesplanung) KSPLOC: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-12T08:25:39", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:37:50", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:37:51", "hwnd": 918500, "title": "Administrator: Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-12T08:37:53", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:37:55", "hwnd": 393732, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:41:37", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 1124, "idle_start": "2026-03-12T08:22:53"}
+{"ts": "2026-03-12T08:41:37", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:41:45", "hwnd": 393732, "title": "YouTube und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:42:08", "hwnd": 393732, "title": "YouTube und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:42:10", "hwnd": 393732, "title": "How AI Will Fail Like The Music Industry - YouTube und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:41:57", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T08:42:21", "hwnd": 5113542, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:22", "hwnd": 3211908, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:24", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 27, "idle_start": "2026-03-12T08:41:57"}
+{"ts": "2026-03-12T08:42:33", "hwnd": 7473572, "title": "planner", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:34", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:35", "hwnd": 2361200, "title": "Windowlog.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:38", "hwnd": 7473572, "title": "planner", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:39", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:45", "hwnd": 65780, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:46", "hwnd": 132896, "title": "Sprungliste für Editor", "process": "ShellExperienceHost.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:47", "hwnd": 3081968, "title": "Unbenannt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:54", "hwnd": 2755048, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:42:55", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:43:16", "hwnd": 1181156, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:43:21", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:43:28", "hwnd": 4065288, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:43:47", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:43:50", "hwnd": 330082, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:43:58", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:44:03", "hwnd": 330082, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:44:06", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:44:11", "hwnd": 4130192, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:44:22", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:44:56", "hwnd": 2558596, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:45:04", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:45:05", "hwnd": 788964, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:45:11", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:45:12", "hwnd": 3278688, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:45:17", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:45:32", "hwnd": 920036, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:45:57", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:45:59", "hwnd": 2754978, "title": "Eintrag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:46:06", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:46:11", "hwnd": 9504718, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:46:17", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:46:20", "hwnd": 393732, "title": "How AI Will Fail Like The Music Industry - YouTube und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:46:22", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:46:27", "hwnd": 393732, "title": "How AI Will Fail Like The Music Industry - YouTube und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:46:32", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:46:37", "hwnd": 7473572, "title": "planner", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:46:42", "hwnd": 1509976, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-12T08:46:47", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T08:47:07", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:47:09", "hwnd": 329084, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T08:47:12", "hwnd": 2689216, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:47:13", "hwnd": 1509976, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-12T08:47:55", "hwnd": 65928, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:47:57", "hwnd": 65780, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:48:00", "hwnd": 329084, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T08:48:03", "hwnd": 3607060, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:48:04", "hwnd": 1509976, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-12T08:48:16", "hwnd": 3015334, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-12T08:48:17", "hwnd": 1509976, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-12T08:48:33", "hwnd": 329084, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T08:48:35", "hwnd": 1509976, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-12T08:49:00", "hwnd": 329084, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-12T08:49:04", "hwnd": 1509976, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-12T08:49:57", "hwnd": 6294130, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-12T08:49:59", "hwnd": 1509976, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-12T08:50:00", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 193, "idle_start": "2026-03-12T08:46:47"}
+{"ts": "2026-03-12T08:50:01", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:50:05", "hwnd": 7407536, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:50:06", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:50:07", "hwnd": 2165148, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:50:11", "hwnd": 3211908, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Singen unter der Dusche MUOWPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-12T08:50:15", "hwnd": 7473572, "title": "Lebenserhaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-12T08:50:17", "hwnd": 393732, "title": "How AI Will Fail Like The Music Industry - YouTube und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:50:20", "hwnd": 393732, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-12T08:50:27", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-12T08:50:55", "hwnd": 393732, "title": "How AI Will Fail Like The Music Industry - YouTube und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
