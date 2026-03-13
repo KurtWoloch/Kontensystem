@@ -200,8 +200,69 @@ def _load_day_overrides(date_str: str) -> Dict[str, str]:
     return overrides
 
 
+def _find_planner_context(completed: List, gap_start: datetime
+                          ) -> Optional[Dict]:
+    """Find the planner activity that was active during a gap.
+
+    Returns {account, activity, task_code} or None.
+
+    Logic: find the activity whose time span (started_at → completed_at)
+    overlaps with the gap start. This ensures we get the activity that
+    was actually running, not one that already finished.
+
+    If no overlapping activity is found, fall back to the last completed
+    activity before the gap — but only if it ended within 5 minutes of
+    the gap start (to avoid stale context from hours ago).
+    """
+    if not completed:
+        return None
+
+    def _extract_info(item):
+        """Extract account/activity/code from a CompletedItem."""
+        task_code = ""
+        code_match = re.search(r'\s([A-Z]{6})(?:\s*\(Fs\.\))?\s*$',
+                               item.activity)
+        if code_match:
+            task_code = code_match.group(1)
+        account = task_code[:2] if task_code else ""
+        return {
+            "account": account,
+            "activity": item.activity,
+            "task_code": task_code,
+            "list_name": item.list_name,
+        }
+
+    # First: look for an activity that was still running at gap_start
+    # (started before gap, completed after gap_start — or not yet completed)
+    overlapping = [
+        c for c in completed
+        if not c.skipped
+        and c.started_at <= gap_start
+        and c.completed_at >= gap_start
+    ]
+    if overlapping:
+        # Take the most recently started one
+        best = max(overlapping, key=lambda c: c.started_at)
+        return _extract_info(best)
+
+    # Fallback: last completed activity before the gap, but only if recent
+    # (within 5 minutes — avoids stale context from a different phase of day)
+    candidates = [
+        c for c in completed
+        if c.started_at <= gap_start and not c.skipped
+    ]
+    if candidates:
+        last = max(candidates, key=lambda c: c.completed_at)
+        gap_after = (gap_start - last.completed_at).total_seconds()
+        if gap_after <= 300:  # 5 minutes
+            return _extract_info(last)
+
+    return None
+
+
 def get_windowmon_proposals(date_str: str,
-                            gaps: List[Tuple[datetime, datetime]]
+                            gaps: List[Tuple[datetime, datetime]],
+                            completed: Optional[List] = None,
                             ) -> List[Dict]:
     """Get auto-classified windowmon blocks that fall within planner gaps.
 
@@ -211,6 +272,14 @@ def get_windowmon_proposals(date_str: str,
     Filters out blocks < 1 minute (same-minute start/end).
     Applies day overrides from corrections file (last correction for each
     original AutoDetect name becomes the default for subsequent proposals).
+
+    If `completed` (list of CompletedItem) is provided, proposals whose
+    account matches the planner's active activity at that time will
+    inherit the planner activity name + task code instead of the generic
+    AutoDetect classification. This implements the "planner context"
+    heuristic: if you were working on "Bearb. Essensplan LEEPEP" and
+    windowmon sees Access DB (account LE), it proposes LEEPEP instead
+    of "Bearb. unbekannte Datenbank".
     """
     entries = load_windowmon(date_str)
     if not entries:
@@ -234,6 +303,11 @@ def get_windowmon_proposals(date_str: str,
         ]
         if not gap_entries:
             continue
+
+        # Find planner context for this gap (what was supposed to be running)
+        planner_ctx = None
+        if completed:
+            planner_ctx = _find_planner_context(completed, gap_start)
 
         # Build classified blocks for this gap
         blocks = build_activity_blocks(gap_entries)
@@ -262,11 +336,25 @@ def get_windowmon_proposals(date_str: str,
                 if block_start <= e["_ts"] <= block_end
             ]
 
-            # Apply day override if this AutoDetect name was corrected before
             activity = block["activity"]
             account = block["account"]
+
+            # ── Planner context enrichment ─────────────────────────────
+            # If the autodetect account matches the planner's active
+            # activity account, inherit the planner's activity name + code.
+            # This handles: "Bearb. unbekannte Datenbank" (LE) while
+            # planner says "Bearb. Essensplan LEEPEP" (LE) → use LEEPEP.
+            planner_override = False
+            if (planner_ctx and planner_ctx["account"] and
+                    account == planner_ctx["account"]):
+                activity = planner_ctx["activity"]
+                planner_override = True
+
+            # Apply day override if this AutoDetect name was corrected before
+            # (day overrides take precedence over planner context only if
+            # planner context wasn't applied)
             override_applied = False
-            if activity in day_overrides:
+            if not planner_override and activity in day_overrides:
                 activity = day_overrides[activity]
                 override_applied = True
                 # Try to derive account from 6-char task code at end
@@ -285,6 +373,7 @@ def get_windowmon_proposals(date_str: str,
                 "status": "pending",  # pending / accepted / edited / ignored
                 "original_activity": block["activity"],
                 "comment": "",
+                "planner_context": planner_override,
             })
 
     # Sort by start time
@@ -613,7 +702,7 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
         day_end = now.replace(second=0, microsecond=0)
 
     gaps = find_planner_gaps(completed, day_start, day_end)
-    proposals = get_windowmon_proposals(date_str, gaps)
+    proposals = get_windowmon_proposals(date_str, gaps, completed=completed)
 
     if not proposals:
         messagebox.showinfo(
@@ -730,8 +819,13 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
             ).pack(fill=tk.X)
 
             # Source info
+            source_text = f"{prop['entry_count']} Einträge"
+            if prop.get("planner_context"):
+                source_text += "  ← aus Planer-Aktivität"
+            elif prop.get("original_activity") != prop.get("activity"):
+                source_text += f"  (AutoDetect: {prop['original_activity']})"
             tk.Label(
-                row, text=f"{prop['entry_count']} Einträge",
+                row, text=source_text,
                 font=("Segoe UI", 8), bg=row_bg, fg="#6c7086",
                 anchor="w", padx=6
             ).pack(fill=tk.X)
