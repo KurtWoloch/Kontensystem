@@ -86,6 +86,43 @@ Technisch: `projection-YYYY-MM-DD.json` existiert bereits. Beim Umschalten:
 ### V6. Verbesserung des Tagesberichts
 Neue Kategorie im Report: **"Nacherfasst (nicht im Plan)"** für `windowmon_import`-Aktivitäten, die keiner geplanten Aktivität zugeordnet werden konnten. Zusätzlich: Überzeit-Analyse pro Aktivitätskategorie (geplante vs. tatsächliche Zeit).
 
+## Baseline-Referenz: Nacherfassungsaufwand Jänner 2026
+
+Quelle: Ablauf-Dateien 20.–26.1.2026 (manueller Window-Logger-Workflow, vor dem neuen Planer).
+Ohne BRZ-Planung und SAP-Zeiterfassung.
+
+### Verifiziert vollständig (24.–26.1.)
+
+| Datum | Tag | BRZ | Planung | Nacherfassung | TOTAL |
+|-------|-----|-----|---------|---------------|-------|
+| 24.1. | Sa | – | 1m | 77m | 78m |
+| 25.1. | So | – | 3m | 69m | 72m |
+| 26.1. | Mo | ✓ | 18m | 13m | 31m |
+| | | | **Ø 7m** | **Ø 53m** | **Ø 60m** |
+
+### Vollständig, aber teils mit Nacherfassung von Vortagen (20.–23.1.)
+
+| Datum | Tag | BRZ | Planung | Nacherfassung | TOTAL | Hinweis |
+|-------|-----|-----|---------|---------------|-------|---------|
+| 20.1. | Di | ✓ | 23m | 52m | 75m | davon 25m Nacherfassung 19.1. |
+| 21.1. | Mi | ✓ | 18m | 86m | 104m | davon ~50m Nacherfassung Aufwand 20.1. |
+| 22.1. | Do | ✓ | 27m | 82m | 109m | Nacherfassung 21.1. + eigener Tag |
+| 23.1. | Fr | ✓ | 27m | 122m | 149m | Nacherfassung 21.+22.+23.1. |
+| | | | | | **Ø 109m** | (20.–23.1., ~103m/Tag reine Eigenleistung) |
+
+### Erkenntnisse
+
+- **Fragmentierung verschleiert den Aufwand:** Am So 25.1. gab es 56 einzelne Nacherfassungs-Einträge à 1–2 Min. = 69m, aber es fühlt sich nicht nach über einer Stunde an.
+- **BRZ-Tage = weniger Nacherfassung:** Arbeitszeit ist ein großer Block → weniger zu dokumentieren. Mo 26.1. hatte nur 13m.
+- **Rückstau-Muster existierte schon:** Fr 23.1. musste 3 Tage nachholen (122m).
+- **Ab ~26.1. rissen unvollständige Abläufe ein:** Tage wurden nicht mehr bis zum Ende nacherfasst, Nacherfassung wurde irgendwann aufgegeben.
+- **Der neue Planer hat das Problem nicht verursacht**, sondern sichtbar gemacht (Tagesbericht-Funktion + strukturiertes Log statt verstreute `*`-Zeilen).
+
+### Vergleichswert 13.3.2026 (neuer Planer)
+
+- Nacherfassung: **107m** (ganzer Tag, fragmentierter Tag mit Grok'n Roll-Rabbit-Hole)
+- Am 14.3.2026 nach Einbau der neuen AutoDetect-Regeln: **17m für 3h** Zeitraum
+
 ## Analyse: Wo liegt der größte Hebel?
 
 | Verbesserung | Aufwand | Erwartete Zeiteinsparung pro Tag |
