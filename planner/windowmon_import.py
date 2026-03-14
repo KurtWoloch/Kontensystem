@@ -70,17 +70,23 @@ def find_planner_gaps(completed: List[CompletedItem],
     if (sorted_log[0].started_at - day_start).total_seconds() / 60 >= min_gap_minutes:
         gaps.append((day_start, sorted_log[0].started_at))
 
-    # Gaps between entries
+    # Gaps between entries — use high-water-mark of completed_at
+    # to handle overlapping entries (e.g., a long activity like
+    # "Besuch Schwimmbad" 07:53-08:49 followed by 0-duration skipped
+    # entries at 07:53:06, 07:53:09, 07:53:22 — the high-water-mark
+    # stays at 08:49, preventing a false gap from 07:53:22 to 08:49)
+    max_completed = sorted_log[0].completed_at
     for i in range(len(sorted_log) - 1):
-        end_prev = sorted_log[i].completed_at
+        max_completed = max(max_completed, sorted_log[i].completed_at)
         start_next = sorted_log[i + 1].started_at
-        gap_min = (start_next - end_prev).total_seconds() / 60
+        gap_min = (start_next - max_completed).total_seconds() / 60
         if gap_min >= min_gap_minutes:
-            gaps.append((end_prev, start_next))
+            gaps.append((max_completed, start_next))
 
-    # Gap after last entry
-    if (day_end - sorted_log[-1].completed_at).total_seconds() / 60 >= min_gap_minutes:
-        gaps.append((sorted_log[-1].completed_at, day_end))
+    # Gap after last entry (use high-water-mark, not just last entry)
+    max_completed = max(max_completed, sorted_log[-1].completed_at)
+    if (day_end - max_completed).total_seconds() / 60 >= min_gap_minutes:
+        gaps.append((max_completed, day_end))
 
     return gaps
 

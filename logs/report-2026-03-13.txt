@@ -1,0 +1,134 @@
+=================================================================
+  TAGESBERICHT — 2026-03-13
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      117
+  Geplante Gesamtzeit:         17h 23m
+
+  ✓ Erledigt (geplant):       58  (   10h 53m)  = 62.6%
+  ⏭ Übersprungen:             13  (       55m)  = 5.3%
+  ✗ Nicht erreicht:           46  (    5h 35m)  = 32.1%
+
+  📝 Ungeplante Aktivitäten:   5  (       22m)
+  ⏱  Tatsächliche Arbeitszeit:    17h 41m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Wohnung lüften WFLULU                 18:03     09:39  -8h 24m
+  Blutdruck messen GEBMBM               08:51     15:00  +6h 09m
+  Wenn "Warst Du heute schon draußen?   16:56     22:42  +5h 46m
+  Versorgung Mitbringsel LEPOPO         17:50     22:44  +4h 54m
+  Der Außentemperatur entsprechend an   17:08     21:13  +4h 05m
+  Laufen / Scootersuche GEGYLS          17:10     21:15  +4h 05m
+  Zeiten sammeln BREPZS                 16:41     19:02  +2h 21m
+  Eingabe Zeiterfassung SAP BREPZE      16:48     19:09  +2h 21m
+  Eingabe Teleworking SAP BREPZE        16:52     19:13  +2h 21m
+  Abschluss BRALAB                      16:54     19:15  +2h 21m
+  Nachmittagsjause fassen LENAJA        16:37     18:54  +2h 17m
+  Mund spülen LEMTMS                    08:03     10:08  +2h 05m
+  Häferl waschen / Hustenbonbon fasse   08:05     10:10  +2h 05m
+  Vorbereitung Playlist für Hören unt   06:19     08:22  +2h 03m
+  Feinschliff bei der Rasur LEMTFR      06:27     08:23  +1h 56m
+  ... und 43 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: Liste leer
+  ⏭ PC herunterfahren PCHFAR
+    Grund: wird nicht heruntergefahren wg. Radio Würmchen KI-Programm
+  ⏭ WC BREPWC
+    Grund: muss nicht
+  ⏭ WC BREPWC
+    Grund: muss nicht
+  ⏭ Ansehen ZiB 1 + Wetter RATVZI
+    Grund: habe stattdessen Andon FM gehört + mit ChatGPT diskutiert
+  ⏭ Jause fassen LEMTJF
+    Grund: während Arbeitszeit erledigt
+  ⏭ WC BREPWC
+    Grund: nicht nötig
+  ⏭ PC herunterfahren PCHFHF
+    Grund: wurde nicht heruntergefahren wegen Radio Würmchen KI-Programm
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft (morgen wieder)
+  ⏭ Teller waschen / Getränk fassen LEMTTW
+    Grund: während Arbeitszeit erledigt
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: Liste leer
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: Liste leer
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 08:18–08:22  Nacherfassung Ablauf KSPLNA
+  📝 08:31–08:32  Bearb.Ohrwürmer(durchgenommen) MUOWDU  — nichts in Liste, aber trotzdem Ohrwürmer vorhanden
+  📝 09:25–09:32  Eintragen Verschuldung Sati WFPUVE
+  📝 09:42–09:49  Bearb. Mail Wiener Linien Jahreskarte FZ
+  📝 10:38–10:41  Untersuchung unsinnige DJ Breaks Grok'n 
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 06:35  Bearb.Ohrwürmer(durchgenommen) MUOWDU  (3m)
+  ✗ 07:50  Termine in Kalender prüfen LEMTTP  (1m)
+  ✗ 07:51  Mailprüfung INMAPR  (2m)
+  ✗ 07:53  Bearb. Essensplan (Kontrolle / zu essen   (10m)
+  ✗ 08:07  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (10m)
+  ✗ 08:17  Bearb. Liste Scooterfahrten FZSCLI  (3m)
+  ✗ 08:26  Bearb. Liste Scooterfahrten FZSCLI (Fs.)  (6m)
+  ✗ 08:32  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 08:36  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
+  ✗ 08:46  Bearb. Geldbörse FIBGGB  (5m)
+  ✗ 08:53  Anhören RW-Prg. / Tonträger / Radiosende  (8m)
+  ✗ 09:01  Bearb. Geldbörse FIBGGB (Fs.)  (5m)
+  ✗ 09:06  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 09:12  Bearbeitung Buch Champion's Mindset GELI  (4m)
+  ✗ 10:24  Anhören RW-Prg. / Tonträger / Radiosende  (8m)
+  ✗ 10:32  Bearbeitung Buch Champion's Mindset GELI  (2m)
+  ✗ 10:37  Bearbeitung Buch Champion's Mindset GELI  (4m)
+  ✗ 18:07  Wäsche aus Waschmaschine nehmen LEKLWM  (10m)
+  ✗ 18:17  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 18:25  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 18:30  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 18:39  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 18:44  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 18:49  Bearbeitung Buch Champion's Mindset GELI  (1m)
+  ✗ 18:50  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 19:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 19:08  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 19:18  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 19:27  Übersiedeln (Mitteilung Adresswechsel) W  (3m)
+  ✗ 19:32  Übersiedeln (Mitteilung Adresswechsel) W  (6m)
+  ✗ 19:38  Bearbeitung Börsenkurse / Aktienhandel F  (10m)
+  ✗ 19:48  Spielen Kreuzungs-FGPA CSEXKF  (10m)
+  ✗ 19:58  Bearb. Essensplan (Nährwerte) LEEPGE  (2m)
+  ✗ 20:03  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:11  Bearb. Essensplan (Nährwerte) LEEPGE (Fs  (9m)
+  ✗ 20:20  Erstellung Playback mit Vocal Remover KA  (3m)
+  ✗ 20:27  Erstellung Playback mit Vocal Remover KA  (2m)
+  ✗ 20:29  Aufräumen WFARAR  (11m)
+  ✗ 20:40  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 20:49  Wäsche aus Waschmaschine nehmen LEWAWA  (9m)
+  ✗ 20:58  Analyse Disassembly Astro Bomber CSGAUM  (2m)
+  ✗ 21:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:08  Analyse Disassembly Astro Bomber CSGAUM   (8m)
+  ✗ 21:16  Aufwandserfassung und Abrechnung Kontens  (44m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Aufwandserfassung und Abrechnung Kontens  (12m)
+
+=================================================================

@@ -165,6 +165,13 @@ AUTODETECT_RULES = [
      _title_contains(t, "Andon FM"),
      "RW", "Andon FM / Backlink Broadcast"),
 
+    # ── Live365: specific stations before generic rule ────────────────
+    (lambda t, p, b: b and _title_contains(t, "Grok'n Roll"),
+     "RA", "Anhören Grok'n Roll (Live365)"),
+
+    (lambda t, p, b: b and _title_contains(t, "Thinking Frequencies"),
+     "RW", "Anhören Thinking Frequencies (Live365)"),
+
     (lambda t, p, b: _title_contains(t, "Live365") and
      p not in ("Live365Scraper.exe",),
      "RW", "Anhören Radiosender (Live365)"),
@@ -180,11 +187,27 @@ AUTODETECT_RULES = [
                                           "artificialanalysis"),
      "RW", "Befragung Arena AI"),
 
+    # ── AI Generated DJ Break (Grok'n Roll analysis page) ────────────
+    (lambda t, p, b: b and _title_contains(t, "DJ Break"),
+     "RA", "Untersuchung AI DJ Breaks"),
+
+    # ── ChatGPT ───────────────────────────────────────────────────────
+    (lambda t, p, b: b and _title_contains_any(t, "ChatGPT", "chatgpt.com"),
+     "IN", "Diskussion ChatGPT"),
+
     # ── YouTube ───────────────────────────────────────────────────────
     (lambda t, p, b: b and _title_contains(t, "YouTube"),
      "IN", "Ansehen YouTube-Videos"),
 
-    # ── Social Media / X ──────────────────────────────────────────────
+    # ── Social Media / X — specific before generic ────────────────────
+    # Tweet intents with specific recipients
+    (lambda t, p, b: b and _title_contains(t, "grok_androll"),
+     "RW", "Tweet an Grok'n Roll RWMPAR"),
+
+    (lambda t, p, b: b and _title_contains(t, "open_air_radio"),
+     "RW", "Tweet an OpenAIR Radio RWMPAR"),
+
+    # Generic X/Twitter
     (lambda t, p, b: b and _title_contains_any(t, "/ X", "twitter.com",
                                                  "x.com"),
      "RA", "Surfen X"),
@@ -206,9 +229,10 @@ AUTODETECT_RULES = [
      _title_contains_any(t, "Kontensystem", "Konten"),
      "KS", "Bearb. Kontensystem (Access)"),
 
-    # Unknown Access DB → "Bearb. unbekannte Datenbank" (usually Essensplan)
+    # Unknown Access DB → almost always Essensplan
+    # Same name as Notepad Essensplan rule so adjacent blocks merge
     (lambda t, p, b: p.lower() == "msaccess.exe",
-     "LE", "Bearb. unbekannte Datenbank"),
+     "LE", "Bearb. Essensplan"),
 
     # ── Notepad — named vs unnamed ────────────────────────────────────
     (lambda t, p, b: p == "notepad.exe" and
@@ -267,6 +291,42 @@ AUTODETECT_RULES = [
     (lambda t, p, b: p.lower() in ("code.exe", "code - insiders.exe"),
      "PC", "Bearbeitung in VS Code"),
 
+    # ── Excel — file-specific classification ─────────────────────────
+    (lambda t, p, b: p == "EXCEL.EXE" and
+     _title_contains(t, "Library Andon FM"),
+     "RW", "Bearb. Library Andon FM RWPLAF"),
+
+    (lambda t, p, b: p == "EXCEL.EXE" and
+     _title_contains(t, "Statistik_heute"),
+     "RW", "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"),
+
+    (lambda t, p, b: p == "EXCEL.EXE" and
+     _title_contains(t, "Blutdruck"),
+     "GE", "Bearb. Blutdruckmesswerte"),
+
+    # Excel: generic fallback → continue previous activity
+    (lambda t, p, b: p == "EXCEL.EXE",
+     "_UNCLASSIFIABLE", "Bearb. Excel-Datei"),
+
+    # ── Word — with BRZG detection ───────────────────────────────────
+    (lambda t, p, b: p == "WINWORD.EXE" and _title_contains(t, "BRZG"),
+     "BR", "Bearb. Dokumentation BRZG"),
+
+    (lambda t, p, b: p == "WINWORD.EXE",
+     "_UNCLASSIFIABLE", "Bearb. Word-Dokument"),
+
+    # ── KeePass — support activity, continue previous ────────────────
+    (lambda t, p, b: p == "KeePass.exe",
+     "_UNCLASSIFIABLE", "Bearb. Passwörter (KeePass)"),
+
+    # ── git-credential-manager — support activity ────────────────────
+    (lambda t, p, b: p == "git-credential-manager.exe",
+     "_UNCLASSIFIABLE", "Git Authentifizierung"),
+
+    # ── ngrok — used for Radio Würmchen streaming ────────────────────
+    (lambda t, p, b: _title_contains(t, "ngrok"),
+     "RW", "Radio Würmchen (ngrok)"),
+
     # ── BRZ / Work ────────────────────────────────────────────────────
     (lambda t, p, b: _title_contains_any(t, "BRZG", "BRZ"),
      "BR", "Arbeit BRZ"),
@@ -291,6 +351,17 @@ AUTODETECT_RULES = [
 
     (lambda t, p, b: p == "explorer.exe",
      "_UNCLASSIFIABLE", "Dateiverwaltung (Explorer)"),
+
+    # ── GitHub ────────────────────────────────────────────────────────
+    (lambda t, p, b: b and _title_contains_any(t, "github.com", "GitHub",
+                                                 "Personal Access Token"),
+     "PC", "Bearb. Github"),
+
+    # ── Google Übersetzer — support activity, continue previous ──────
+    (lambda t, p, b: b and _title_contains_any(t, "Google Übersetzer",
+                                                 "Google Translate",
+                                                 "Google \u00dcbersetzer"),
+     "_UNCLASSIFIABLE", "Google Übersetzer"),
 
     # ── General browsing ──────────────────────────────────────────────
     (lambda t, p, b: b and _title_contains_any(t, "orf.at"),

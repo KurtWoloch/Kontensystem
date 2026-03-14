@@ -1,0 +1,138 @@
+=================================================================
+  TAGESBERICHT — 2026-03-12
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:       95
+  Geplante Gesamtzeit:         14h 59m
+
+  ✓ Erledigt (geplant):       67  (   12h 17m)  = 82.0%
+  ⏭ Übersprungen:             12  (       36m)  = 4.0%
+  ✗ Nicht erreicht:           16  (    2h 06m)  = 14.0%
+
+  📝 Ungeplante Aktivitäten:  35  (    2h 44m)
+  ⏱  Tatsächliche Arbeitszeit:    16h 16m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Bearb. Liste auswendig singbarer Ti   09:14     22:16 +13h 02m
+  Prüfung Bewässerung Terrasse WFTEBE   08:41     21:32 +12h 51m
+  Mailprüfung INMAPR                    08:39     21:29 +12h 50m
+  Termine in Kalender prüfen LEMTTP     08:38     21:25 +12h 47m
+  Bearb. Essensplan (Kontrolle / zu e   08:46     21:33 +12h 47m
+  Bearb. Essensplan (Kontrolle / zu e   09:03     21:33 +12h 30m
+  Bearb. Liste auswendig singbarer Ti   10:17     22:16 +11h 59m
+  Wohnung lüften WFLULU                 08:34     18:59 +10h 25m
+  Bearb. Essensplan (gegessen, zu ess   14:36     23:02  +8h 26m
+  WC BREPWC                             19:50     13:38  -6h 12m
+  Planung BRZ BREPGM                    15:25     11:20  -4h 05m
+  Abhalten BKDD Standup Meeting BREPG   15:02     11:00  -4h 02m
+  Start Teleworking BRZG BRTWGF         14:50     10:50  -4h 00m
+  Arbeitszeit absolvieren (Vormittag)   15:35     11:55  -3h 40m
+  WC BREPWC                             16:39     13:38  -3h 01m
+  ... und 52 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Anziehen LEMTAN
+    Grund: schon eingetragen
+  ⏭ Bett machen LEMTBM
+    Grund: schon geloggt
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: Liste ist immer noch leer
+  ⏭ PC herunterfahren PCHFAR
+    Grund: wird nicht heruntergefahren wegen Radio Würmchen KI-Radioprogramm
+  ⏭ Arbeitszeit absolvieren (Vormittag) BREPDZ
+    Grund: schon erledigt
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Ansehen ZiB 1 + Wetter RATVZI
+    Grund: hat sich mit Laufen überschnitten
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft (nichts gebraucht)
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Wenn "Warst Du heute schon draußen?", , sonst
+    Grund: Entscheidung: Ja
+  ⏭ Teller waschen / Getränk + Medikament fassen 
+    Grund: schon oben geloggt
+  ⏭ Jause fassen LEMTJF
+    Grund: hat heute keinen Sinn mehr
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: Liste leer
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: Liste leer
+  ⏭ Teller waschen / Getränk fassen LEMTTW
+    Grund: ist hier unnötig
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:31–06:32  Start Tagessplaner KSPLPL
+  📝 06:32–06:33  Bearb. Essensplan (gegessen / zu essen) 
+  📝 06:33–06:34  Untersuchung Andon FM RAAFSU
+  📝 06:51–06:52  Diskussion Vortag mit OpenClaw KSPLAW
+  📝 06:52–06:59  Untersuchung Playlist Andon FM (Rotation
+  📝 06:59–07:02  Surfen X (Peter Steinberger) RAAFKO
+  📝 07:02–07:03  Untersuchung Playlist Andon FM (Rotation
+  📝 07:03–07:07  Surfen X (Peter Steinberger) RAAFKO
+  📝 07:07–07:09  Diskussion Vortag mit OpenClaw KSPLAW
+  📝 07:09–07:10  Surfen E-Roller-Boom in Hamburg FZINSU
+  📝 07:10–07:13  Untersuchung Playlist Andon FM (Rotation
+  📝 07:13–07:16  Untersuchung Playlist Andon FM (Rotation
+  📝 07:16–07:21  Diskussion Vortag mit OpenClaw KSPLAW
+  📝 07:21–07:22  Untersuchung Playlist Andon FM (Rotation
+  📝 07:28–07:30  div. Surfen (News) INSUNE
+  📝 07:30–07:36  Verbesserung Tagesplaner mit OpenClaw KS
+  📝 07:36–07:42  Nacherfassung Ablauf KSPLNA
+  📝 07:42–08:17  Verbesserung Tagesplaner mit OpenClaw / 
+  📝 08:18–08:20  Verbesserung Tagesplaner mit OpenClaw KS
+  📝 08:21–08:41  Verbesserung Tagesplaner mit OpenClaw KS
+  📝 08:42–08:46  Nacherfassung Ablauf KSPLNA
+  📝 09:54–09:57  Anziehen LEMTAN
+  📝 09:59–10:02  Bett machen LEMTBM
+  📝 10:25–10:31  Begutachtung Logs aus Planung (Änderung 
+  📝 12:58–12:59  Bearb. Protokoll Mohnnudeln (1. Versuch)  — Abbruch, weil Stromausfall (Mikrowelle kaputt)
+  📝 12:59–13:08  Schadensaufnahme Mikrowellenherd / Strom  — Sicherung ist rausgeflogen, fliegt auch bei nur eingestecktem, ausgeschaltetem Mikrowellenherd raus
+  📝 13:37–13:38  Hochfahren PC / Update OpenClaw / Neusta
+  📝 13:42–13:44  Div. Surfen INSUSU
+  📝 15:08–15:11  Getränk fassen LEMTTW
+  📝 15:27–15:29  Bearb. Essensplan (gegessen) LEEPGE
+  📝 19:14–19:18  Nacherfassung Ablauf KSPLNA
+  📝 20:22–20:28  Arbeit an Tagesplanung / Planer-Entwickl  — Suche nach "Planer-Bedienung" im Source Code (nicht gefunden)
+  📝 20:30–20:34  Nacherfassung Ablauf KSPLNA
+  📝 20:35–20:40  Nacherfassung Ablauf KSPLNA
+  📝 21:37–21:43  Teller waschen / Getränk + Medikament fa
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 08:55  Anhören RW-Prg. / Tonträger / Radiosende  (8m)
+  ✗ 10:20  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (2m)
+  ✗ 10:24  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (7m)
+  ✗ 20:03  Laufen / Scootersuche GEGYLS  (34m)
+  ✗ 20:43  Versorgung Mitbringsel LEPOPO  (9m)
+  ✗ 21:10  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (1m)
+  ✗ 21:11  Bearb. Liste Scooterfahrten FZSCLI  (4m)
+  ✗ 21:19  Bearb. Liste Scooterfahrten FZSCLI (Fs.)  (5m)
+  ✗ 21:24  Anhören RW-Prg. / Tonträger / Radiosende  (8m)
+  ✗ 21:32  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 21:36  Bearb. Essensplan (Protokoll) LEEPPR  (8m)
+  ✗ 21:44  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
+  ✗ 21:54  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 22:04  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:12  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 22:18  Bearb. Essensplan (Eintragen Protokoll)   (2m)
+
+=================================================================

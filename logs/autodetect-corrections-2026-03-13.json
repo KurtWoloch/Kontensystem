@@ -1,0 +1,590 @@
+[
+  {
+    "ts": "2026-03-13T06:38:06",
+    "start": "06:11",
+    "end": "06:23",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion OpenClaw (Verbesserungen in Planer) KSPLEN"
+  },
+  {
+    "ts": "2026-03-13T06:38:50",
+    "start": "06:23",
+    "end": "06:25",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung Playlist Andon FM RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T06:39:07",
+    "start": "06:25",
+    "end": "06:36",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion OpenClaw (Verbesserungen in Planer) KSPLEN"
+  },
+  {
+    "ts": "2026-03-13T06:39:17",
+    "start": "06:25",
+    "end": "06:36",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion OpenClaw (Verbesserungen in Planer) KSPLEN"
+  },
+  {
+    "ts": "2026-03-13T07:40:02",
+    "start": "06:55",
+    "end": "06:58",
+    "original": "Ansehen YouTube-Videos",
+    "corrected": "Ansehen YouTube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-13T07:40:38",
+    "start": "06:58",
+    "end": "07:00",
+    "original": "Bearb. unbekannte Datenbank",
+    "corrected": "Bearb. Essensplan (gegessen, div. Auswertungen) LEEPVO"
+  },
+  {
+    "ts": "2026-03-13T07:41:17",
+    "start": "07:03",
+    "end": "07:04",
+    "original": "Ansehen YouTube-Videos",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-13T07:41:48",
+    "start": "07:04",
+    "end": "07:06",
+    "original": "div. Surfen",
+    "corrected": "Bearb. Library Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T07:42:02",
+    "start": "07:06",
+    "end": "07:07",
+    "original": "Ansehen YouTube-Videos",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-13T07:42:23",
+    "start": "07:07",
+    "end": "07:12",
+    "original": "div. Surfen",
+    "corrected": "Bearb. Library Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T07:42:33",
+    "start": "07:12",
+    "end": "07:13",
+    "original": "Ansehen YouTube-Videos",
+    "corrected": "Ansehen YouTube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-13T07:43:36",
+    "start": "07:13",
+    "end": "07:15",
+    "original": "div. Surfen",
+    "corrected": "Bearb. Library Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T07:43:59",
+    "start": "07:15",
+    "end": "07:17",
+    "original": "Ansehen YouTube-Videos",
+    "corrected": "Ansehen YouTube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-13T07:44:40",
+    "start": "07:17",
+    "end": "07:20",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion OpenClaw (Verbesserungen in Planer) KSPLEN"
+  },
+  {
+    "ts": "2026-03-13T07:44:53",
+    "start": "07:13",
+    "end": "07:15",
+    "original": "div. Surfen",
+    "corrected": "Bearb. Library Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T07:45:02",
+    "start": "07:20",
+    "end": "07:22",
+    "original": "div. Surfen",
+    "corrected": "Bearb. Library Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T07:45:34",
+    "start": "07:22",
+    "end": "07:27",
+    "original": "Andon FM / Backlink Broadcast",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T07:46:02",
+    "start": "07:27",
+    "end": "07:28",
+    "original": "Bearb. unbekannte Datenbank",
+    "corrected": "Bearb. Essensplan (gegessen / div. Auswertungen) LEEPVO"
+  },
+  {
+    "ts": "2026-03-13T07:58:59",
+    "start": "07:47",
+    "end": "07:57",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-13T08:20:56",
+    "start": "08:06",
+    "end": "08:07",
+    "original": "div. Surfen",
+    "corrected": "Erstellung Personal Access Token Github PCENGH"
+  },
+  {
+    "ts": "2026-03-13T08:21:13",
+    "start": "08:06",
+    "end": "08:07",
+    "original": "div. Surfen",
+    "corrected": "Erstellung Personal Access Token Github PCENGH"
+  },
+  {
+    "ts": "2026-03-13T08:21:24",
+    "start": "08:08",
+    "end": "08:09",
+    "original": "div. Surfen",
+    "corrected": "Erstellung Personal Access Token Github PCENGH"
+  },
+  {
+    "ts": "2026-03-13T10:09:25",
+    "start": "09:53",
+    "end": "10:04",
+    "original": "Arbeit BRZ",
+    "corrected": "Review Dokumentation BRZG KSBRDR"
+  },
+  {
+    "ts": "2026-03-13T10:09:40",
+    "start": "09:49",
+    "end": "09:52",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Review Dokumentation BRZG KSBRDR"
+  },
+  {
+    "ts": "2026-03-13T10:44:25",
+    "start": "10:26",
+    "end": "10:31",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T10:44:37",
+    "start": "10:26",
+    "end": "10:31",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T10:44:42",
+    "start": "10:31",
+    "end": "10:35",
+    "original": "Befragung Arena AI",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T10:44:58",
+    "start": "10:35",
+    "end": "10:37",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T10:47:20",
+    "start": "10:37",
+    "end": "10:38",
+    "original": "Bearb. Essensplan",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-13T10:47:28",
+    "start": "10:41",
+    "end": "10:42",
+    "original": "Bearb. Essensplan",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-13T10:48:51",
+    "start": "10:42",
+    "end": "10:43",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T10:49:18",
+    "start": "10:43",
+    "end": "10:49",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-13T14:20:36",
+    "start": "10:50",
+    "end": "10:52",
+    "original": "div. Surfen",
+    "corrected": "Bearb. Essensplan (gegessen) LEEPGE"
+  },
+  {
+    "ts": "2026-03-13T14:21:00",
+    "start": "10:52",
+    "end": "10:58",
+    "original": "Arbeit BRZ",
+    "corrected": "Review Dokumentation BRZG KSBRDR"
+  },
+  {
+    "ts": "2026-03-13T14:21:12",
+    "start": "10:58",
+    "end": "11:00",
+    "original": "Andon FM / Backlink Broadcast",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T15:14:58",
+    "start": "13:12",
+    "end": "13:17",
+    "original": "Bearb. unbekannte Datenbank",
+    "corrected": "Bearb. Essensplan (gegessen) LEEPVO"
+  },
+  {
+    "ts": "2026-03-13T15:15:19",
+    "start": "13:12",
+    "end": "13:17",
+    "original": "Bearb. unbekannte Datenbank",
+    "corrected": "Bearb. Essensplan (gegessen) LEEPVO"
+  },
+  {
+    "ts": "2026-03-13T15:15:36",
+    "start": "13:19",
+    "end": "13:20",
+    "original": "Bearb. unbekannte Datenbank",
+    "corrected": "Bearb. Essensplan (gegessen) LEEPVO"
+  },
+  {
+    "ts": "2026-03-13T15:15:43",
+    "start": "13:20",
+    "end": "13:21",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "Bearb. Essensplan (gegessen) LEEPVO"
+  },
+  {
+    "ts": "2026-03-13T15:16:14",
+    "start": "13:21",
+    "end": "13:41",
+    "original": "Bearb. unbekannte Datenbank",
+    "corrected": "Bearb. Essensplan (gegessen) LEEPVO"
+  },
+  {
+    "ts": "2026-03-13T15:16:47",
+    "start": "13:41",
+    "end": "13:44",
+    "original": "Bearbeitung Mails",
+    "corrected": "Bearb. Essensplan (gegessen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-13T15:17:11",
+    "start": "13:45",
+    "end": "13:48",
+    "original": "Andon FM / Backlink Broadcast",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T15:19:04",
+    "start": "13:48",
+    "end": "13:52",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T15:24:02",
+    "start": "13:53",
+    "end": "13:56",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T15:25:30",
+    "start": "14:03",
+    "end": "14:04",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T15:26:03",
+    "start": "14:05",
+    "end": "14:09",
+    "original": "Ansehen YouTube-Videos",
+    "corrected": "Ansehen YouTube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-13T15:27:01",
+    "start": "14:15",
+    "end": "14:17",
+    "original": "Surfen X",
+    "corrected": "Tweet an Grok'n Roll RWMPAR"
+  },
+  {
+    "ts": "2026-03-13T15:27:46",
+    "start": "14:19",
+    "end": "14:25",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-13T15:30:04",
+    "start": "14:03",
+    "end": "14:04",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T15:30:36",
+    "start": "14:05",
+    "end": "14:09",
+    "original": "Ansehen YouTube-Videos",
+    "corrected": "Ansehen YouTube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-13T15:31:15",
+    "start": "14:10",
+    "end": "14:15",
+    "original": "Andon FM / Backlink Broadcast",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T15:31:33",
+    "start": "14:15",
+    "end": "14:17",
+    "original": "Surfen X",
+    "corrected": "Tweet an Grok'n Roll RWMPAR"
+  },
+  {
+    "ts": "2026-03-13T15:33:31",
+    "start": "14:29",
+    "end": "14:35",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T15:33:58",
+    "start": "14:35",
+    "end": "14:36",
+    "original": "Befragung Arena AI",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T15:34:03",
+    "start": "14:36",
+    "end": "14:41",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T15:34:43",
+    "start": "14:46",
+    "end": "14:48",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T15:41:12",
+    "start": "15:07",
+    "end": "15:13",
+    "original": "div. Surfen",
+    "corrected": "Untersuchung Playlist Andon FM / Thinking Frequencies RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T15:41:59",
+    "start": "15:21",
+    "end": "15:23",
+    "original": "Andon FM / Backlink Broadcast",
+    "corrected": "Untersuchung unsinnige DJ Breaks Grok'n Roll RAAFAN"
+  },
+  {
+    "ts": "2026-03-13T15:42:46",
+    "start": "15:40",
+    "end": "15:42",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-13T15:42:48",
+    "start": "15:40",
+    "end": "15:42",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-13T22:16:26",
+    "start": "19:17",
+    "end": "19:21",
+    "original": "Sonstige PC-Nutzung",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T22:16:43",
+    "start": "19:17",
+    "end": "19:22",
+    "original": "Sonstige PC-Nutzung",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T22:17:21",
+    "start": "19:22",
+    "end": "19:25",
+    "original": "Andon FM / Backlink Broadcast",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T22:18:05",
+    "start": "19:25",
+    "end": "19:46",
+    "original": "div. Surfen",
+    "corrected": "Diskussion mit ChatGPT über Grok'n Roll RAAFDI"
+  },
+  {
+    "ts": "2026-03-13T22:18:40",
+    "start": "19:46",
+    "end": "19:57",
+    "original": "Bearb. Essensplan",
+    "corrected": "Bearb. Essensplan (neuer Plan) LEEPEP"
+  },
+  {
+    "ts": "2026-03-13T22:19:11",
+    "start": "19:57",
+    "end": "20:00",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion mit ChatGPT über Grok'n Roll RAAFDI"
+  },
+  {
+    "ts": "2026-03-13T22:19:37",
+    "start": "20:00",
+    "end": "20:03",
+    "original": "Bearb. Essensplan",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-13T22:19:54",
+    "start": "19:57",
+    "end": "20:00",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion mit ChatGPT über Grok'n Roll RAAFDI"
+  },
+  {
+    "ts": "2026-03-13T22:20:02",
+    "start": "20:09",
+    "end": "20:19",
+    "original": "div. Surfen",
+    "corrected": "Diskussion mit ChatGPT über Grok'n Roll RAAFDI"
+  },
+  {
+    "ts": "2026-03-13T22:21:01",
+    "start": "20:19",
+    "end": "20:20",
+    "original": "Bearb. Essensplan (Ausgabe)",
+    "corrected": "Bearb. Essensplan (forcierte Preise) LEEPEP"
+  },
+  {
+    "ts": "2026-03-13T22:21:32",
+    "start": "20:09",
+    "end": "20:19",
+    "original": "div. Surfen",
+    "corrected": "Diskussion mit ChatGPT über Grok'n Roll RAAFDI"
+  },
+  {
+    "ts": "2026-03-13T22:21:39",
+    "start": "20:20",
+    "end": "21:02",
+    "original": "div. Surfen",
+    "corrected": "Diskussion mit ChatGPT über Grok'n Roll RAAFDI"
+  },
+  {
+    "ts": "2026-03-13T22:45:56",
+    "start": "21:48",
+    "end": "21:49",
+    "original": "Surfen X",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-03-13T22:46:19",
+    "start": "21:49",
+    "end": "21:52",
+    "original": "Andon FM / Backlink Broadcast",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T22:46:34",
+    "start": "21:52",
+    "end": "21:54",
+    "original": "Bearb. Essensplan",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-13T22:48:43",
+    "start": "21:52",
+    "end": "21:54",
+    "original": "Bearb. Essensplan",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-13T22:49:00",
+    "start": "21:54",
+    "end": "21:59",
+    "original": "div. Surfen",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-03-13T22:49:20",
+    "start": "21:59",
+    "end": "22:00",
+    "original": "Andon FM / Backlink Broadcast",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RWPLAF"
+  },
+  {
+    "ts": "2026-03-13T22:49:42",
+    "start": "22:00",
+    "end": "22:02",
+    "original": "Surfen X",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-03-13T22:50:32",
+    "start": "22:02",
+    "end": "22:03",
+    "original": "div. Surfen",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-13T22:50:41",
+    "start": "22:03",
+    "end": "22:04",
+    "original": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-13T22:51:12",
+    "start": "22:05",
+    "end": "22:11",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-13T22:51:36",
+    "start": "22:11",
+    "end": "22:14",
+    "original": "div. Surfen",
+    "corrected": "div. Surfen (News) INSUNE"
+  },
+  {
+    "ts": "2026-03-13T22:53:17",
+    "start": "22:26",
+    "end": "22:28",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "div. Surfen (News) INSUNE"
+  }
+]
