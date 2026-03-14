@@ -14,8 +14,9 @@ Entstanden am 14.3.2026 aus einer Reflexion über den Nacherfassungsaufwand.
 | Stufe | Segmente/Tag | Aufwand | Zeitraum |
 |-------|-------------|---------|----------|
 | Taschenkalender | max. ~14 | minimal | bis ~2021 |
-| C#-Planung (grob) | ~40-60 | ~15-20m | ab 2021 |
-| C#-Planung + Window Logger | ~100-200 Fenster | ~30-60m Korrektur + Zusammenfassung | ab ~2007 |
+| Handgeschriebene Planung | ~40-60 | ~15-20m | ab ~2021 (Ablauf vom Vortag kopiert + angepasst) |
+| C#-Planungstool | ~60-130+ | wachsend | ab 17.3.2024 (inkl. Checklisten-Inhalte) |
+| C#-Planung + Window Logger | ~100-200 Fenster | ~30-60m Korrektur + Zusammenfassung | Window Logger ab ~2007, parallel zur Planung |
 | Ablauf-Datei (minutengenau) | ~60-150 Zeilen | ~1-2h/Tag | Drift über Zeit |
 | Neuer Planer + Windowmon | ~100-180 Einträge | ~1-2h/Tag | ab März 2026 |
 
@@ -147,11 +148,25 @@ und ob man diesen Beweis überhaupt noch schuldig ist.
 - März 2026: ~87-107 Minuten, noch genauer durch Windowmon
 
 **Wichtig:** Die niedrigen Zahlen von 2023 sind kein Zeichen von Effizienz.
-Die Aufwandserfassung und Abrechnung wurden damals gar nicht durchgeführt —
-Papa-Pflege hatte alle KS-Aktivitäten aus dem Tagesplan verdrängt (ab 23.1.2023
-komplett). Deshalb hängt die Aufwandserfassung heute noch beim Jänner 2023
-(KSAAKO-Backlog). Die 22-30 Minuten waren also nur der Planungs-/Ablauf-Teil,
-ohne den KS-Rest, der eigentlich noch ~60 Min/Tag hätte kosten sollen.
+Die Aufwandserfassung hatte schon am 6.12.2022 abgebrochen (da bereits einige
+Tage im Rückstand). Völliger Abbruch am Tag, als Papa vom Pflegeheim zurückkam
+und die 24-Stunden-Betreuung begann (~2h/Tag zusätzliche Bindung).
+
+Chronologie des Verdrängungseffekts:
+- 6.12.2022: Aufwandserfassung bricht ab (Papa wird Pflegefall)
+- 1.1.2023: Aufwandserfassung noch für 21:08 eingeplant, aber nicht erreicht
+- 8.1.2023: Erster Tag, an dem Aufwandserfassung nicht einmal mehr eingeplant
+  ist (erster Arbeitstag nach Weihnachtsurlaub; Erwachsenenvertretung für Papa
+  übernommen, Antrittsbericht hatte Vorrang)
+- Ab ~23.1.2023: KS-Aktivitäten komplett aus Planung verschwunden
+- Dez 2025 / Jän 2026: Versuch, Aufwandserfassungs-Backlog aufzuholen (bis
+  23.1.2023 geschafft), dann erneuter Abbruch wegen Andon FM, Radio Würmchen
+  und neuem Tagesplaner-Tool
+
+Die Papa-Pflege hat nicht unmittelbar alles verdrängt, aber so viele ungeplante
+Aktivitäten erzeugt, dass die geplanten KS-Aktivitäten schrittweise verdrängt
+wurden. Die 22-30 Minuten waren also nur der Planungs-/Ablauf-Teil, ohne den
+KS-Rest, der eigentlich noch ~60 Min/Tag hätte kosten sollen.
 
 Die Genauigkeit ist über die Jahre gestiegen, der Aufwand ist mitgestiegen,
 aber der Nutzen der zusätzlichen Genauigkeit ist unklar.
@@ -161,10 +176,18 @@ aber der Nutzen der zusätzlichen Genauigkeit ist unklar.
 Die ausführlichere Planung war eine **bewusste Gegenmaßnahme**: In den
 Jahren 2006-2010 (mit nur ~14 Punkten im Taschenkalender) lag die
 produktive Arbeitszeit außerhalb des BRZ bei nur ~1 Stunde pro Tag —
-der Rest ging durch Verzettelung verloren. Die detailliertere C#-Planung
-(~40-60 Punkte) brachte deutlich mehr Disziplin.
+der Rest ging durch Verzettelung verloren. Die detailliertere
+handgeschriebene Planung ab ~2021 (~40-60 Punkte, täglich vom Vortags-
+Ablauf kopiert und angepasst) brachte deutlich mehr Disziplin.
 
-Aber: Die Steigerung von ~60 auf ~150 Punkte (minutengenaue Erfassung)
+Ab 17.3.2024 begann die Arbeit am C#-Planungstool. Damit einher ging eine
+deutliche Erhöhung der täglich geplanten Aktivitäten, weil versucht wurde,
+alles aus den Checklisten einzubauen. Aus dieser Zeit stammen auch erste
+erkennbare minutengenaue Nacherfassungen (z.B. 17.3.2024: ständiger Wechsel
+zwischen "Scan Radio Plattenkiste" und "Debugging Tasklistebearbeitung (C#)"
+im 2-3-Minuten-Takt, 132 geloggte Aktivitäten bis 21:34).
+
+Aber: Die Steigerung von ~60 auf ~130-150 Punkte (minutengenaue Erfassung)
 bringt möglicherweise keinen zusätzlichen Disziplin-Effekt mehr — nur
 zusätzlichen Erfassungsaufwand. Der Sweet Spot liegt vermutlich irgendwo
 dazwischen.
