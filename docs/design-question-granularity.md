@@ -206,6 +206,36 @@ Hintergrund und warnt nur bei groben Abweichungen.
 ~5 Minuten statt 60-120 Minuten. Die Genauigkeit sinkt auf Konto-Level
 (statt Minuten-Level), was für die Aufwandserfassung ausreicht.
 
+### Beispiel: Essensplan — Checklist vs. Zeiterfassung
+
+Die verschiedenen Essensplan-Varianten (LEEPEP, LEEPVO, LEEPGE, LEEPKO...)
+existieren, um zu erinnern, was alles getan werden sollte — sie variieren
+je nach Tageszeit und Planungsabschnitt. Das sind zwei verschiedene
+Informationsbedürfnisse, die im aktuellen System vermischt werden:
+
+**1. Checklist-Funktion:** "Welche Essensplan-Schritte habe ich heute erledigt?"
+   - Braucht: Abhaken der spezifischen Varianten (LEEPEP ✓, LEEPVO ✗)
+   - Braucht NICHT: Zeiterfassung pro Variante
+   - Gehört in den **Echtzeit-Planer** (beim Tun abhaken)
+
+**2. Aufwandserfassung:** "Wieviel Zeit ging heute für Essensplan drauf?"
+   - Braucht: Gesamtzeit auf Konto LE
+   - Braucht NICHT: Unterscheidung ob LEEPEP oder LEEPVO
+   - Gehört in die **Nacherfassung** (automatisch per Window Monitor)
+
+**Aktuell:** Window Monitor erkennt "Bearb. Essensplan" → User korrigiert
+auf "Bearb. Essensplan (gegessen, zu essen) LEEPEP" → erfüllt beides,
+aber zum Preis einzelner Segment-Korrekturen.
+
+**Top-down:** Planer-Queue zeigt spezifische Variante → User hakt beim
+Tun ab (Checklist erledigt) → Window Monitor sieht "irgendwas Essensplan"
+→ bucht automatisch auf LE (Zeiterfassung erledigt) → keine Korrektur nötig.
+
+**Prinzip:** Wenn IRGENDEINE Essensplan-Aktivität laut Planung läuft und
+der Window Monitor IRGENDEINE Essensplan-Aktivität feststellt, passen die
+zusammen. Die Checklist-Details (welche Variante?) werden beim Abhaken im
+Planer festgehalten, nicht bei der Nacherfassung.
+
 ### Offene Frage
 Reicht die gröbere Erfassung für alle Zwecke? Oder gibt es Fälle, wo
 die Minutengenauigkeit tatsächlich gebraucht wird?
