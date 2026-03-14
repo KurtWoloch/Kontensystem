@@ -48,6 +48,13 @@ Entstanden am 14.3.2026 aus einer Reflexion über den Nacherfassungsaufwand.
 - **Window Logger Matching**: ~1h Mismatch pro Tag, Korrektur + Zusammenfassung ~30-60 Min
   - Davon 40-50% für Zusammenfassung (= Reduktion der Segment-Anzahl für Abrechnung)
   - Das hat für die Aufwandserfassung ausgereicht
+- **Vor dem Window Logger**: Aufwandserfassung händisch aus Erinnerung oder
+  Adaption der (damals kurzen) Planung → wesentlich schneller erledigt
+- **Sprunghafte Aufwandssteigerung** mit Einführung des Window Loggers:
+  Auslöser war der Beginn von Onlinespielen (z.B. Chefville), wo ständig
+  zwischen Spiel und anderen Tätigkeiten hin- und hergesprungen wurde →
+  der Window Logger machte diese Fragmentierung erstmals sichtbar, und die
+  Aufwandserfassung musste nun jedes Fragment einzeln verarbeiten
 
 ## Der vergessene Zweck: "Was soll ich jetzt tun?"
 
