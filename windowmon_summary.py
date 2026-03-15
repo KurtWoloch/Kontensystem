@@ -195,8 +195,11 @@ AUTODETECT_RULES = [
 
     # ── Arena AI ──────────────────────────────────────────────────────
     (lambda t, p, b: _title_contains_any(t, "Arena AI", "arena.ai",
-                                          "artificialanalysis"),
-     "RW", "Befragung Arena AI"),
+                                          "artificialanalysis") or
+     (b and _title_contains(t, "Arena") and
+      _title_contains_any(t, "Benchmark", "Compare", "Leaderboard",
+                           "LLM")),
+     "IN", "Analysen in Arena AI INSUAI"),
 
     # ── AI Generated DJ Break (Grok'n Roll analysis page) ────────────
     (lambda t, p, b: b and _title_contains(t, "DJ Break"),
@@ -319,12 +322,20 @@ AUTODETECT_RULES = [
     (lambda t, p, b: p == "EXCEL.EXE",
      "_UNCLASSIFIABLE", "Bearb. Excel-Datei"),
 
-    # ── Word — with BRZG detection ───────────────────────────────────
+    # ── Word — with document name classification ───────────────────────
     (lambda t, p, b: p == "WINWORD.EXE" and _title_contains(t, "BRZG"),
      "BR", "Bearb. Dokumentation BRZG"),
 
+    # Known document patterns → specific tasks
+    (lambda t, p, b: p == "WINWORD.EXE" and
+     _title_contains_any(t, "Ohrwürmer", "Ohrwuermer", "Ohrwurm"),
+     "RW", "Dokumentation Ohrwurm-Projekt RWOWDO"),
+
+    # Generic Word: try to derive account from document name keywords.
+    # Uses _WORD_DOC_CLASSIFY special handler to extract doc name and
+    # match against known account keywords.
     (lambda t, p, b: p == "WINWORD.EXE",
-     "_UNCLASSIFIABLE", "Bearb. Word-Dokument"),
+     "_WORD_DOC_CLASSIFY", ""),
 
     # ── KeePass — support activity, continue previous ────────────────
     (lambda t, p, b: p == "KeePass.exe",
@@ -349,9 +360,9 @@ AUTODETECT_RULES = [
 
     # ── Explorer — with folder→account confirmation ───────────────────
     # Specific folders that clearly indicate an account
+    # Note: USB-STICK removed — it's not KS-specific, any project can be on USB
     (lambda t, p, b: p == "explorer.exe" and
-     _title_contains_any(t, "USB-STICK", "Kontenverwaltung",
-                          "Betrieb"),
+     _title_contains_any(t, "Kontenverwaltung", "Betrieb"),
      "KS", "Dateiverwaltung (Kontensystem)"),
 
     # Explorer with a folder that hints at an account → mark for
@@ -458,6 +469,66 @@ def _extract_offpc_activity(title: str) -> Tuple[str, str]:
     return "LE", f"Off-PC: {activity}"
 
 
+# ── Word document name → account mapping ──────────────────────────── #
+# Keywords in Word document titles that indicate a specific account.
+# Reuses the same concept as _EXPLORER_FOLDER_ACCOUNTS.
+
+_WORD_DOC_ACCOUNTS = {
+    "radio": "RW",
+    "würmchen": "RW",
+    "wuermchen": "RW",
+    "andon": "RA",
+    "ohrwürmer": "RW",
+    "ohrwuermer": "RW",
+    "ohrwurm": "RW",
+    "karaoke": "MU",
+    "essensplan": "LE",
+    "lebenserhaltung": "LE",
+    "kontensystem": "KS",
+    "planung": "KS",
+    "finanzen": "FI",
+    "papa": "PA",
+    "wohnung": "WF",
+    "gesundheit": "GE",
+}
+
+
+def _classify_word_document(title: str) -> Tuple[str, str]:
+    """Classify a Word document by extracting account from the doc name.
+
+    Title format: 'Dokumentation Projekt Ohrwürmer 26.3.8.doc - Microsoft Word'
+    → Extract 'Dokumentation Projekt Ohrwürmer 26.3.8' as doc name.
+    → Match keywords to find account.
+    → Return (account, 'Bearb. <doc_name> <ACCOUNT>DODO').
+
+    Falls back to _UNCLASSIFIABLE if no account can be determined
+    (so the block builder can continue the previous activity).
+    """
+    # Extract document name: everything before " - Microsoft Word"
+    # or before ".doc" if that pattern isn't found
+    doc_name = title
+    for suffix in (" - Microsoft Word", " - Word"):
+        if suffix in doc_name:
+            doc_name = doc_name.split(suffix)[0].strip()
+            break
+
+    # Remove file extension
+    doc_name = re.sub(r'\.docx?$', '', doc_name, flags=re.IGNORECASE).strip()
+
+    if not doc_name:
+        return "_UNCLASSIFIABLE", "Bearb. Word-Dokument"
+
+    # Match against known account keywords
+    tl = title.lower()
+    for keyword, account in _WORD_DOC_ACCOUNTS.items():
+        if keyword in tl:
+            code = f"{account}DODO"
+            return account, f"Bearb. {doc_name} {code}"
+
+    # No account match → unclassifiable (continue previous activity)
+    return "_UNCLASSIFIABLE", f"Bearb. Word-Dokument"
+
+
 def _extract_dialog_activity(title: str) -> Tuple[str, str]:
     """Extract account and activity from planner dialog title.
 
@@ -522,6 +593,10 @@ def classify_entry(entry: Dict) -> Tuple[str, str]:
                 # e.g. "Aufgabe erledigt — WC LEMTWC"
                 if account == "_PLANNER_DIALOG_ACTIVITY":
                     return _extract_dialog_activity(title)
+
+                # Special case: Word document → extract account from doc name
+                if account == "_WORD_DOC_CLASSIFY":
+                    return _classify_word_document(title)
 
                 # Special case: Radio Würmchen → extract scan target
                 if account == "_RADIO_WUERMCHEN":
