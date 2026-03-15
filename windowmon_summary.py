@@ -331,6 +331,28 @@ AUTODETECT_RULES = [
      _title_contains_any(t, "Ohrwürmer", "Ohrwuermer", "Ohrwurm"),
      "RW", "Dokumentation Ohrwurm-Projekt RWOWDO"),
 
+    (lambda t, p, b: p == "WINWORD.EXE" and
+     _title_contains_any(t, "Erbschaft", "Patientenverfügung",
+                          "Vorsorgevollmacht"),
+     "PA", "Überlegungen Vorsorgevollmacht + Patientenverfügung PAWFAF"),
+
+    (lambda t, p, b: p == "WINWORD.EXE" and
+     _title_contains_any(t, "Ma at", "Ma'at", "Grundsätze"),
+     "GE", "Dokumentation Grundsätze der Ma'at GEDOMA"),
+
+    (lambda t, p, b: p == "WINWORD.EXE" and
+     _title_contains_any(t, "Tagebuch", "schmerzhafte Situationen"),
+     "GE", "Führung Tagebuch GELIFT"),
+
+    (lambda t, p, b: p == "WINWORD.EXE" and
+     _title_contains_any(t, "Champion's Mindset", "Champions Mindset",
+                          "Champion"),
+     "GE", "Bearbeitung Buch Champion's Mindset GELICM"),
+
+    (lambda t, p, b: p == "WINWORD.EXE" and
+     _title_contains_any(t, "Finanzkonzept", "Finanzanlage"),
+     "FI", "Dokumentation Finanzanlagen FIDOAK"),
+
     # Generic Word: try to derive account from document name keywords.
     # Uses _WORD_DOC_CLASSIFY special handler to extract doc name and
     # match against known account keywords.
@@ -486,10 +508,13 @@ _WORD_DOC_ACCOUNTS = {
     "lebenserhaltung": "LE",
     "kontensystem": "KS",
     "planung": "KS",
-    "finanzen": "FI",
+    "finanz": "FI",       # prefix: matches Finanzen, Finanzkonzept, etc.
     "papa": "PA",
+    "erbschaft": "PA",
     "wohnung": "WF",
     "gesundheit": "GE",
+    "tagebuch": "GE",
+    "champion": "GE",
 }
 
 
