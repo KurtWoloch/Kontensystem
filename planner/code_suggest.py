@@ -130,18 +130,35 @@ class CodeSuggestor:
                     code = parts[0].strip()
                     name = parts[1].strip()
                     if code and len(code) == 6 and code.isupper() and name:
-                        self._register(code, name)
+                        self._register(code, name, override=True)
         except Exception:
             pass  # Don't crash if file is malformed
 
-    def _register(self, code: str, name: str):
-        """Register a code→name mapping in all indexes."""
+    def _register(self, code: str, name: str, *, override: bool = False):
+        """Register a code→name mapping in all indexes.
+
+        Args:
+            override: If True, overwrite existing mappings. Used by
+                learned_codes to take precedence over MTL entries
+                (learned codes are more recent and user-confirmed).
+        """
         norm = self._normalize(name)
-        if code not in self._code_names:
+        if code not in self._code_names or override:
             self._code_names[code] = name
         if norm not in self._name_to_code:
             self._name_to_code[norm] = code
             self._prefix_index.append((norm, code, name))
+        elif override and self._name_to_code[norm] != code:
+            old_code = self._name_to_code[norm]
+            self._name_to_code[norm] = code
+            # Update prefix_index: replace old mapping for this norm
+            for i, (pn, pc, pname) in enumerate(self._prefix_index):
+                if pn == norm and pc == old_code:
+                    self._prefix_index[i] = (norm, code, name)
+                    break
+            else:
+                # Not found (shouldn't happen), append
+                self._prefix_index.append((norm, code, name))
 
     def learn(self, activity: str):
         """Learn a new code→name mapping from a logged activity.
@@ -155,12 +172,12 @@ class CodeSuggestor:
         base_name = activity[:-(len(code))].strip()
         if not base_name:
             return
-        # Already known? Skip
+        # Already known with same code? Skip
         norm = self._normalize(base_name)
         if norm in self._name_to_code and self._name_to_code[norm] == code:
             return
-        # Register in memory
-        self._register(code, base_name)
+        # Register in memory (override: user's live input takes precedence)
+        self._register(code, base_name, override=True)
         # Persist to file
         try:
             os.makedirs(os.path.dirname(self._learned_path), exist_ok=True)
