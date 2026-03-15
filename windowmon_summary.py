@@ -353,6 +353,10 @@ AUTODETECT_RULES = [
      _title_contains_any(t, "Finanzkonzept", "Finanzanlage"),
      "FI", "Dokumentation Finanzanlagen FIDOAK"),
 
+    (lambda t, p, b: p == "WINWORD.EXE" and
+     _title_contains_any(t, "Prioritätenliste", "Prioritaetenliste"),
+     "KS", "Untersuchung der Prioritätenliste KSDODO"),
+
     # Generic Word: try to derive account from document name keywords.
     # Uses _WORD_DOC_CLASSIFY special handler to extract doc name and
     # match against known account keywords.
