@@ -302,7 +302,7 @@ AUTODETECT_RULES = [
 
     (lambda t, p, b: p == "EXCEL.EXE" and
      _title_contains(t, "Blutdruck"),
-     "GE", "Bearb. Blutdruckmesswerte GEBMBM"),
+     "GE", "Blutdruck messen GEBMBM"),
 
     # Excel: generic fallback → continue previous activity
     (lambda t, p, b: p == "EXCEL.EXE",
