@@ -1146,6 +1146,22 @@ class PlannerGUI:
                 txt_entry.select_range(0, tk.END)
             txt_entry.focus_set()
 
+            # ── Dynamic window title — shows activity for windowmon ────
+            # When this dialog is left open during Off-PC, the Window
+            # Logger captures the title. Including the activity text lets
+            # AutoDetect classify what the user is actually doing.
+            _base_title = title
+
+            def _update_dialog_title(*_args):
+                activity_text = txt_var.get().strip()
+                if activity_text:
+                    dlg.title(f"{_base_title} \u2014 {activity_text}")
+                else:
+                    dlg.title(_base_title)
+
+            txt_var.trace_add("write", _update_dialog_title)
+            _update_dialog_title()  # set initial title
+
         # ── Code suggestion row ────────────────────────────────────────
         if cfg["show_code_suggest"]:
             suggest_frame = tk.Frame(dlg, bg=COLOR_BG)
@@ -1612,6 +1628,19 @@ class PlannerGUI:
         txt_entry.pack(anchor="w", padx=12, pady=(0, 2))
         txt_entry.select_range(0, tk.END)
         txt_entry.focus_set()
+
+        # ── Dynamic window title — shows activity for windowmon ────
+        _edit_base_title = "Eintrag bearbeiten"
+
+        def _update_edit_title(*_args):
+            activity_text = txt_var.get().strip()
+            if activity_text:
+                dlg.title(f"{_edit_base_title} \u2014 {activity_text}")
+            else:
+                dlg.title(_edit_base_title)
+
+        txt_var.trace_add("write", _update_edit_title)
+        _update_edit_title()  # set initial title
 
         # ── Code suggestion row ────────────────────────────────────────
         suggest_frame = tk.Frame(dlg, bg=COLOR_BG)

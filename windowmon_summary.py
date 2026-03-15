@@ -116,11 +116,22 @@ AUTODETECT_RULES = [
     (lambda t, p, b: p == "planner_idle",
      "IDLE", "Off-PC"),
 
+    # ── Planner dialog with activity in title ──────────────────────────
+    # When a dialog like "Aufgabe erledigt — WC LEMTWC" is left open
+    # during Off-PC, extract the activity part after the em-dash.
+    # This rule MUST come before the generic dialog rule below.
+    (lambda t, p, b: p == "python.exe" and " \u2014 " in t and
+     _title_contains_any(t, "Aufgabe erledigt", "Eintrag bearbeiten",
+                         "Ungeplante Aktivit\u00e4t", "Vorgezogene Aktivit\u00e4t",
+                         "Aufgabe unterbrechen"),
+     "_PLANNER_DIALOG_ACTIVITY", ""),  # special: extract from title
+
     # ── Planner app — distinguish phantom vs real usage ────────────────
-    # "Aufgabe erledigt" or "Eintrag bearbeiten" dialogs (short = phantom)
+    # "Aufgabe erledigt" or "Eintrag bearbeiten" dialogs WITHOUT activity
+    # in title (short focus = phantom click, or legacy title format)
     (lambda t, p, b: p == "python.exe" and
      _title_contains_any(t, "Aufgabe erledigt", "Eintrag bearbeiten",
-                         "Ungeplante Aktivität"),
+                         "Ungeplante Aktivit\u00e4t"),
      "KS", "Erfassung Ablauf KSPLEA"),
 
     # Planner Off-PC title → use activity from title
@@ -447,6 +458,37 @@ def _extract_offpc_activity(title: str) -> Tuple[str, str]:
     return "LE", f"Off-PC: {activity}"
 
 
+def _extract_dialog_activity(title: str) -> Tuple[str, str]:
+    """Extract account and activity from planner dialog title.
+
+    Title format: 'Aufgabe erledigt — WC LEMTWC'
+                   'Eintrag bearbeiten — Bearb. Essensplan LEEPEP'
+                   'Vorgezogene Aktivität erfassen — Zähne putzen GEMTZP'
+
+    The part after the em-dash is the actual activity the user is doing
+    (typically Off-PC while the dialog is left open).
+    """
+    # Split on " — " (em-dash with spaces)
+    parts = title.split(" \u2014 ", 1)
+    if len(parts) < 2:
+        # Fallback: shouldn't happen (rule only matches if " — " present)
+        return "KS", "Erfassung Ablauf KSPLEA"
+
+    activity = parts[1].strip()
+    if not activity:
+        return "KS", "Erfassung Ablauf KSPLEA"
+
+    # Try to extract task code (6 chars at end, optionally with (Fs.))
+    task_code_match = re.search(r'\s([A-Z]{6})(?:\s*\(Fs\.\))?\s*$', activity)
+    if task_code_match:
+        code = task_code_match.group(1)
+        account = code[:2]
+        return account, activity
+
+    # No task code → classify as KS/Erfassung with the activity as context
+    return "KS", activity
+
+
 def classify_entry(entry: Dict) -> Tuple[str, str]:
     """Apply AutoDetect rules to classify a windowmon entry.
 
@@ -458,6 +500,7 @@ def classify_entry(entry: Dict) -> Tuple[str, str]:
       ("_RADIO_WUERMCHEN", "")            → parse scan target from title
       ("_WINLOGGER", ...)                 → Window Logger idle signal
       ("_PLANNER_OFFPC", "")              → extract activity from title
+      ("_PLANNER_DIALOG_ACTIVITY", "")    → extract activity from dialog title
     """
     # Handle idle markers
     entry_type = entry.get("type", "")
@@ -474,6 +517,11 @@ def classify_entry(entry: Dict) -> Tuple[str, str]:
                 # Special case: Planner Off-PC title → extract activity
                 if account == "_PLANNER_OFFPC":
                     return _extract_offpc_activity(title)
+
+                # Special case: Planner dialog with activity in title
+                # e.g. "Aufgabe erledigt — WC LEMTWC"
+                if account == "_PLANNER_DIALOG_ACTIVITY":
+                    return _extract_dialog_activity(title)
 
                 # Special case: Radio Würmchen → extract scan target
                 if account == "_RADIO_WUERMCHEN":
