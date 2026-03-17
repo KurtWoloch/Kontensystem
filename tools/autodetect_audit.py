@@ -1,6 +1,25 @@
 """
 autodetect_audit.py — Compare AutoDetect classifications against actual planner log.
 
+Usage:
+  cd kontensystem
+  python tools/autodetect_audit.py                     # both days (yesterday + today)
+  python tools/autodetect_audit.py 2026-03-16          # specific date
+  python tools/autodetect_audit.py 2026-03-16 2026-03-17   # multiple dates
+  python tools/autodetect_audit.py 2026-03-17:14:30    # today until 14:30
+
+  Note: Requires PYTHONIOENCODING=utf-8 on Windows if piping output.
+
+Output sections:
+  1. UNCLASSIFIABLE entries — window titles that no AutoDetect rule matches.
+     Repeated patterns (2+ occurrences) suggest new rules should be added.
+  2. Classification summary — what AutoDetect produces, ranked by frequency.
+  3. AutoDetect vs planner log — blocks where AutoDetect and actual log disagree.
+     Only blocks >= 60s with different 6-char task codes are shown.
+  4. Manual corrections — corrections from autodetect-corrections-YYYY-MM-DD.json,
+     grouped by original→corrected pattern. Repeated corrections suggest
+     the AutoDetect rule should be improved.
+
 Finds:
 1. UNCLASSIFIABLE entries (potential new rules)
 2. Mismatches between AutoDetect proposals and what was actually logged
