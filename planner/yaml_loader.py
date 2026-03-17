@@ -41,6 +41,7 @@ def load_exceptions_for_date(
         "dayTypeOverride": None,
         "specialNote": None,
         "earlyWorkStart": None,
+        "putztag": None,          # True/False override, None = auto
         "addEvents": [],
         "removeActivities": [],
         "adjustStartTimes": [],
@@ -80,6 +81,8 @@ def load_exceptions_for_date(
             result["specialNote"] = entry["specialNote"]
         if "earlyWorkStart" in entry:
             result["earlyWorkStart"] = int(entry["earlyWorkStart"])
+        if "putztag" in entry:
+            result["putztag"] = bool(entry["putztag"])
         if "addEvents" in entry:
             result["addEvents"] = entry["addEvents"]
         if "removeActivities" in entry:

@@ -46,6 +46,7 @@ class StartupDialog:
         yaml_dto = self.yaml_overrides.get("dayTypeOverride")
         yaml_note = self.yaml_overrides.get("specialNote")
         yaml_early = self.yaml_overrides.get("earlyWorkStart")
+        self.yaml_putztag = self.yaml_overrides.get("putztag")  # True/False/None
 
         # Determine pre-fill values from YAML
         prefill_urlaubstag = (yaml_dto == "Urlaubstag")
@@ -197,6 +198,7 @@ class StartupDialog:
             is_feiertag=self.var_feiertag.get(),
             is_urlaubstag=self.var_urlaubstag.get(),
             work_type_override=self._work_type_key(),
+            putztag_override=self.yaml_putztag,
         )
         self.lbl_preview.config(text=f"Tagestyp: {ctx.describe()}")
 
@@ -205,6 +207,7 @@ class StartupDialog:
             is_feiertag=self.var_feiertag.get(),
             is_urlaubstag=self.var_urlaubstag.get(),
             work_type_override=self._work_type_key(),
+            putztag_override=self.yaml_putztag,
         )
         self.win.destroy()
 

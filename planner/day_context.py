@@ -9,7 +9,7 @@ Day type logic (from analysis):
   BRZ_geplant = same as Bürotag
 """
 from datetime import date
-from typing import Dict
+from typing import Dict, Optional
 
 
 GERMAN_WEEKDAYS = {
@@ -28,7 +28,8 @@ class DayContext:
 
     def __init__(self, weekday: int, is_feiertag: bool = False,
                  is_urlaubstag: bool = False,
-                 work_type_override: str = "auto"):
+                 work_type_override: str = "auto",
+                 putztag_override: Optional[bool] = None):
         """
         Args:
             weekday: 0=Mon … 6=Sun
@@ -37,6 +38,8 @@ class DayContext:
             work_type_override: "auto" (derive from weekday),
                                 "burotag" (force office day),
                                 "teleworking" (force home office)
+            putztag_override: None (auto from weekday), True (force),
+                              False (force not — e.g. Sati on holiday)
         """
         self.weekday = weekday
         self.is_feiertag = is_feiertag
@@ -59,7 +62,10 @@ class DayContext:
             self.is_burotag = weekday in (0, 2)
             self.is_teleworking = weekday in (1, 3, 4)
 
-        self.is_putztag = weekday in (1, 4)   # Tuesday or Friday
+        if putztag_override is not None:
+            self.is_putztag = putztag_override
+        else:
+            self.is_putztag = weekday in (1, 4)   # Tuesday or Friday
         self.is_brz_geplant = self.is_burotag
 
         # Jause_zu_Hause: true when Urlaubstag OR Feiertag OR (not Monday AND not Tuesday)
@@ -70,9 +76,10 @@ class DayContext:
     @classmethod
     def from_today(cls, is_feiertag: bool = False,
                    is_urlaubstag: bool = False,
-                   work_type_override: str = "auto") -> "DayContext":
+                   work_type_override: str = "auto",
+                   putztag_override: Optional[bool] = None) -> "DayContext":
         return cls(date.today().weekday(), is_feiertag, is_urlaubstag,
-                   work_type_override)
+                   work_type_override, putztag_override)
 
     def _eval_single_condition(self, token: str) -> bool:
         """Evaluate one comma-split token (may be negated with 'nicht' or '!')."""
