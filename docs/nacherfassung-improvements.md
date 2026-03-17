@@ -559,3 +559,45 @@ bleiben unangetastet.
 Day-Override-Generalisierung (Korrektur am Label statt an den Fenstern). Der hier
 gefixte Bug war eine Vorstufe: selbst ohne Day-Override-Problem wurde die AutoDetect-
 Klassifikation durch den Planner Context zerstört. V7 bleibt offen.
+
+### ✅ Fix: Noise-Absorption verschluckt kurze Same-Account-Runs (2026-03-17)
+
+**Commit:** `6f45d09` — `windowmon_import.py`
+
+**Problem:** `_consolidate_blocks` Pass 1 (Noise-Absorption) behandelte jeden Block einzeln.
+Eine Sequenz aus mehreren kurzen Blocks desselben Accounts (z.B. RA: Andon FM Edge 12s →
+LE: Explorer "Lebenserhaltung" 18s → RA: Excel Statistik_heute 86s) wurde blockweise
+absorbiert: die kurzen Einzelblöcke (12s, 18s) fielen unter den `noise_threshold_s` von
+30s und wurden vom langen KS-Nachbarn aufgesogen. Ergebnis: der gesamte ~2-Minuten
+Andon-FM-Block verschwand, und zwei KS-Blöcke erschienen direkt hintereinander ohne
+erkennbare Unterbrechung.
+
+**Fix:** Neuer Pass 0 mit zwei Sub-Passes:
+- **0a:** Direkt benachbarte Blocks mit demselben Account werden vor der Noise-Absorption
+  zusammengeführt (z.B. RA+RA → ein längerer RA-Block).
+- **0b:** Kurze Fremd-Blocks (< noise_threshold) zwischen zwei Blocks desselben Accounts
+  werden als "Brücke" absorbiert (z.B. RA → short LE → RA → ein RA-Block). Typischer
+  Fall: Explorer-Ordner öffnen auf dem Weg zur nächsten Excel-Datei.
+
+### Beobachtung: Nacherfassung vs. manuelle Erfassung (2026-03-17)
+
+**Quelle:** Feedback von Kurt bei Nutzung der Nacherfassung am 17.03.2026
+
+Kurt stellt fest, dass er bei der Abwägung "Nacherfassungs-Dialog vs. manuell als ungeplante
+Aktivitäten erfassen" häufig den manuellen Weg wählt, wenn:
+
+1. **Zu viele Segmente:** Der Window Monitor schlägt deutlich mehr Segmente vor als logisch
+   sinnvolle Aktivitäten. Jedes Segment muss einzeln beurteilt werden.
+2. **Unlogische Vorschläge:** Segmente erscheinen, die nicht zur Erinnerung passen →
+   Verifikationsaufwand (Segment öffnen, Window-Events prüfen, rekonstruieren).
+3. **Wechsel zwischen geplant/ungeplant:** Wenn sich nacherfasste Segmente mit regulären
+   Planer-Aktivitäten abwechseln, muss die Nacherfassung importiert/verlassen werden,
+   die geplante Aktivität abgehakt, und dann erneut in die Nacherfassung eingestiegen
+   werden. Der manuelle Weg (ungeplante Aktivität + Abhaken) ist in diesem Fall
+   durchgängiger.
+
+**Implikation für V3/V3a:** Diese Beobachtung bestätigt, dass die Nacherfassung nur dann
+schneller ist als der manuelle Workflow, wenn die Vorschläge weitgehend stimmen und wenige
+sind. V3a (Arbeitskontext-Erkennung) adressiert genau diesen Punkt: weniger, bessere
+Vorschläge → weniger Verifikation → Nacherfassung wird tatsächlich schneller als der
+manuelle Weg.
