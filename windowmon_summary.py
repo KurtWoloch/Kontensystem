@@ -139,10 +139,16 @@ AUTODETECT_RULES = [
      "Tagesplanung" in t,
      "_PLANNER_OFFPC", ""),  # special: extract activity from title
 
-    # Planner dialogs (Nacherfassung, Tagesbericht, etc.)
+    # Planner dialogs: Nacherfassung-specific → KSPLNA
     (lambda t, p, b: p == "python.exe" and
      _title_contains_any(t, "Nacherfassung aus windowmon",
-                          "Vorschlag bearbeiten", "Tagesbericht",
+                          "Vorschlag bearbeiten",
+                          "Import bestätigen", "Import abgeschlossen"),
+     "KS", "Nacherfassung Ablauf KSPLNA"),
+
+    # Planner dialogs: other (Tagesbericht, etc.) → KSPLEA
+    (lambda t, p, b: p == "python.exe" and
+     _title_contains_any(t, "Tagesbericht",
                           "Ungespeicherte", "windowmon "),
      "KS", "Erfassung Ablauf KSPLEA"),
 
@@ -250,7 +256,8 @@ AUTODETECT_RULES = [
 
     # ── Notepad — named vs unnamed ────────────────────────────────────
     (lambda t, p, b: p == "notepad.exe" and
-     _title_contains_any(t, "Essensplan", "Speiseplan", "Einkaufsliste"),
+     _title_contains_any(t, "Essensplan", "Speiseplan", "Einkaufsliste",
+                          "Speisekarte", "offene Nachbearbeitung von Essensdatenbank"),
      "LE", "Bearb. Essensplan LEEPEP"),
 
     # Notepad: Windowlog.txt → Window Logger (= Nacherfassung context)
@@ -317,6 +324,14 @@ AUTODETECT_RULES = [
     (lambda t, p, b: p == "EXCEL.EXE" and
      _title_contains(t, "Blutdruck"),
      "GE", "Blutdruck messen GEBMBM"),
+
+    (lambda t, p, b: p == "EXCEL.EXE" and
+     _title_contains(t, "Planungsaktivitaeten"),
+     "KS", "Bearbeitung Planungsaktivitäten KSPLEN"),
+
+    (lambda t, p, b: p == "EXCEL.EXE" and
+     _title_contains(t, "duplicate_codes"),
+     "KS", "Review Duplicate Codes KSPLEN"),
 
     # Excel: generic fallback → continue previous activity
     (lambda t, p, b: p == "EXCEL.EXE",
