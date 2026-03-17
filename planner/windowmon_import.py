@@ -350,9 +350,22 @@ def get_windowmon_proposals(date_str: str,
             # activity account, inherit the planner's activity name + code.
             # This handles: "Bearb. unbekannte Datenbank" (LE) while
             # planner says "Bearb. Essensplan LEEPEP" (LE) → use LEEPEP.
+            #
+            # IMPORTANT: Only apply planner context when the AutoDetect
+            # did NOT already produce a specific classification (i.e.,
+            # one with a 6-char task code). If AutoDetect already knows
+            # what this is (e.g., Statistik_heute.csv → RAAFAN), the
+            # planner context must not override it — even if accounts
+            # match. This prevents e.g. a recently-imported "Ansehen
+            # Youtube-Videos RAYTYT" (RA) from overwriting a correctly
+            # classified "Untersuchung Rotation Andon FM RAAFAN" (RA).
             planner_override = False
+            block_has_specific_code = bool(
+                re.search(r'\s[A-Z]{6}(?:\s|$)', activity)
+            )
             if (planner_ctx and planner_ctx["account"] and
-                    account == planner_ctx["account"]):
+                    account == planner_ctx["account"]
+                    and not block_has_specific_code):
                 activity = planner_ctx["activity"]
                 planner_override = True
 
