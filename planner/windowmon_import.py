@@ -95,7 +95,15 @@ def _consolidate_blocks(blocks: List[Dict], max_gap_s: int = 120,
                         noise_threshold_s: int = 30) -> List[Dict]:
     """Merge adjacent blocks with the same classification, and absorb noise.
 
-    Two passes:
+    Three passes:
+    0. Pre-merge same-account runs: consecutive blocks with the same
+       account code are merged BEFORE noise absorption. This prevents
+       a sequence of short same-account blocks (e.g., 15s Statistik_heute
+       + 5s Programmumschaltung + 20s Library Andon FM — all account RA)
+       from being individually absorbed as noise into a neighboring
+       long block of a different account. The merged RA block (~2 min)
+       is then correctly too long for noise absorption and survives as
+       a separate proposal.
     1. Absorb noise: blocks shorter than noise_threshold_s are absorbed
        into the longer neighboring block (handles 2s Explorer flashes
        between OpenClaw sessions).
@@ -105,8 +113,71 @@ def _consolidate_blocks(blocks: List[Dict], max_gap_s: int = 120,
     if len(blocks) < 2:
         return blocks
 
+    # Pass 0: Pre-merge same-account runs (bridging short foreign blocks)
+    # This ensures that a sequence of short blocks belonging to the same
+    # account (e.g., Excel Statistik → Explorer "Lebenserhaltung" →
+    # Excel Library — RA/LE/RA) is treated as one RA block for noise-
+    # absorption purposes.
+    #
+    # Two sub-passes:
+    #   0a. Merge directly adjacent same-account blocks
+    #   0b. Bridge: if block[i] and block[i+2] have the same account
+    #       and block[i+1] is short (< noise_threshold_s), absorb
+    #       block[i+1] into block[i] and then merge block[i]+block[i+2].
+    #       This handles "RA → short LE explorer → RA" sequences where
+    #       the explorer was just navigation to the next RA file.
+
+    # Sub-pass 0a: merge directly adjacent same-account blocks
+    premerged = [dict(blocks[0])]
+    for block in blocks[1:]:
+        prev = premerged[-1]
+        gap_s = (block["start"] - prev["end"]).total_seconds()
+        if (prev["account"] == block["account"] and
+                prev["account"] not in ("", "_UNCLASSIFIABLE") and
+                gap_s <= 60):
+            prev_dur = prev.get("duration_s", 0)
+            block_dur = block.get("duration_s", 0)
+            if block_dur > prev_dur:
+                prev["activity"] = block["activity"]
+            prev["end"] = block["end"]
+            prev["entries"] += block["entries"]
+            prev["duration_s"] = (prev["end"] - prev["start"]).total_seconds()
+        else:
+            premerged.append(dict(block))
+
+    # Sub-pass 0b: bridge short foreign blocks between same-account blocks
+    if len(premerged) >= 3:
+        bridged = [dict(premerged[0])]
+        i = 1
+        while i < len(premerged):
+            block = dict(premerged[i])
+            block_dur = block.get("duration_s", 0)
+
+            # Check if this short block is sandwiched between same-account
+            if (i + 1 < len(premerged) and
+                    block_dur < noise_threshold_s and
+                    bridged[-1]["account"] == premerged[i + 1]["account"] and
+                    bridged[-1]["account"] not in ("", "_UNCLASSIFIABLE")):
+                # Absorb the short foreign block into the previous block
+                prev = bridged[-1]
+                nxt = dict(premerged[i + 1])
+                # Extend prev to cover both the bridge and the next block
+                prev["end"] = nxt["end"]
+                prev["entries"] += block["entries"] + nxt["entries"]
+                prev["duration_s"] = (
+                    prev["end"] - prev["start"]).total_seconds()
+                # Keep activity of the longer sub-block
+                nxt_dur = nxt.get("duration_s", 0)
+                if nxt_dur > prev.get("duration_s", 0) - nxt_dur:
+                    prev["activity"] = nxt["activity"]
+                i += 2  # skip both the bridge and the next block
+            else:
+                bridged.append(block)
+                i += 1
+        premerged = bridged
+
     # Pass 1: Absorb noise — replace short blocks with their longer neighbor
-    absorbed = list(blocks)
+    absorbed = list(premerged)
     changed = True
     while changed:
         changed = False
