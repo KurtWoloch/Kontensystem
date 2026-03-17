@@ -146,35 +146,49 @@ def _consolidate_blocks(blocks: List[Dict], max_gap_s: int = 120,
             premerged.append(dict(block))
 
     # Sub-pass 0b: bridge short foreign blocks between same-account blocks
+    # Runs iteratively until no more bridges can be made, because one
+    # bridge may create a new same-account pair that enables another bridge.
+    # Example: KS → RA(3s) → KS(1s) → IN(24s) → RA(6s) → IN(17s) → KS(286s)
+    # Pass 1: bridge RA(3s) between KS blocks → merged KS
+    # Pass 2: bridge KS+IN(24s)+RA(6s)+IN(17s)+KS → eventually one KS block
     if len(premerged) >= 3:
-        bridged = [dict(premerged[0])]
-        i = 1
-        while i < len(premerged):
-            block = dict(premerged[i])
-            block_dur = block.get("duration_s", 0)
+        changed = True
+        while changed:
+            changed = False
+            bridged = [dict(premerged[0])]
+            i = 1
+            while i < len(premerged):
+                block = dict(premerged[i])
+                block_dur = block.get("duration_s", 0)
 
-            # Check if this short block is sandwiched between same-account
-            if (i + 1 < len(premerged) and
-                    block_dur < noise_threshold_s and
-                    bridged[-1]["account"] == premerged[i + 1]["account"] and
-                    bridged[-1]["account"] not in ("", "_UNCLASSIFIABLE")):
-                # Absorb the short foreign block into the previous block
-                prev = bridged[-1]
-                nxt = dict(premerged[i + 1])
-                # Extend prev to cover both the bridge and the next block
-                prev["end"] = nxt["end"]
-                prev["entries"] += block["entries"] + nxt["entries"]
-                prev["duration_s"] = (
-                    prev["end"] - prev["start"]).total_seconds()
-                # Keep activity of the longer sub-block
-                nxt_dur = nxt.get("duration_s", 0)
-                if nxt_dur > prev.get("duration_s", 0) - nxt_dur:
-                    prev["activity"] = nxt["activity"]
-                i += 2  # skip both the bridge and the next block
-            else:
-                bridged.append(block)
-                i += 1
-        premerged = bridged
+                # Check if this short block is sandwiched between same-account
+                # Use a higher threshold (60s) than noise_threshold_s (30s)
+                # because rapid tab-switching (email check, quick glance at
+                # another site) between two blocks of the same activity
+                # should be absorbed even if it's slightly longer than noise.
+                bridge_threshold_s = max(noise_threshold_s, 60)
+                if (i + 1 < len(premerged) and
+                        block_dur < bridge_threshold_s and
+                        bridged[-1]["account"] == premerged[i + 1]["account"] and
+                        bridged[-1]["account"] not in ("", "_UNCLASSIFIABLE")):
+                    # Absorb the short foreign block into the previous block
+                    prev = bridged[-1]
+                    nxt = dict(premerged[i + 1])
+                    # Extend prev to cover both the bridge and the next block
+                    prev["end"] = nxt["end"]
+                    prev["entries"] += block["entries"] + nxt["entries"]
+                    prev["duration_s"] = (
+                        prev["end"] - prev["start"]).total_seconds()
+                    # Keep activity of the longer sub-block
+                    nxt_dur = nxt.get("duration_s", 0)
+                    if nxt_dur > prev.get("duration_s", 0) - nxt_dur:
+                        prev["activity"] = nxt["activity"]
+                    i += 2  # skip both the bridge and the next block
+                    changed = True
+                else:
+                    bridged.append(block)
+                    i += 1
+            premerged = bridged
 
     # Pass 1: Absorb noise — replace short blocks with their longer neighbor
     absorbed = list(premerged)
