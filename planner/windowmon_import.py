@@ -231,6 +231,45 @@ def _consolidate_blocks(blocks: List[Dict], max_gap_s: int = 120,
             i += 1
         absorbed = new_list
 
+    # Pass 1.5: Re-run bridging after noise absorption.
+    # Noise absorption can change the landscape: blocks that were
+    # separated by a noise block (now absorbed) may have created new
+    # short blocks sandwiched between same-account blocks.
+    # Example: KS → RW(4s) → RA(32s) → KS
+    #   Pass 0b couldn't bridge RW(4s) because KS≠RA neighbors.
+    #   Pass 1 absorbs RW(4s) into KS → now: KS → RA(32s) → KS.
+    #   RA(32s) < bridge_threshold(60s) but bridging already ran.
+    #   This pass catches it.
+    if len(absorbed) >= 3:
+        changed = True
+        while changed:
+            changed = False
+            bridged2 = [dict(absorbed[0])]
+            i = 1
+            while i < len(absorbed):
+                block = dict(absorbed[i])
+                block_dur = block.get("duration_s", 0)
+                bridge_threshold_s = max(noise_threshold_s, 60)
+                if (i + 1 < len(absorbed) and
+                        block_dur < bridge_threshold_s and
+                        bridged2[-1]["account"] == absorbed[i + 1]["account"] and
+                        bridged2[-1]["account"] not in ("", "_UNCLASSIFIABLE")):
+                    prev = bridged2[-1]
+                    nxt = dict(absorbed[i + 1])
+                    prev["end"] = nxt["end"]
+                    prev["entries"] += block["entries"] + nxt["entries"]
+                    prev["duration_s"] = (
+                        prev["end"] - prev["start"]).total_seconds()
+                    nxt_dur = nxt.get("duration_s", 0)
+                    if nxt_dur > prev.get("duration_s", 0) - nxt_dur:
+                        prev["activity"] = nxt["activity"]
+                    i += 2
+                    changed = True
+                else:
+                    bridged2.append(block)
+                    i += 1
+            absorbed = bridged2
+
     # Pass 2: Merge adjacent blocks with same classification
     merged = [dict(absorbed[0])]
     for block in absorbed[1:]:
