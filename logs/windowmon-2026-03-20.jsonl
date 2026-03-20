@@ -762,3 +762,45 @@
 {"ts": "2026-03-20T14:15:05", "hwnd": 67226, "title": "OpenClaw Control und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
 {"ts": "2026-03-20T14:15:37", "hwnd": 24448608, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-20T14:15:46", "hwnd": 67226, "title": "OpenClaw Control und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:19:12", "hwnd": 131600, "title": "Suche", "process": "SearchApp.exe", "browser": ""}
+{"ts": "2026-03-20T14:19:19", "hwnd": 65678, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:19:23", "hwnd": 4195174, "title": "Neues Projekt", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-20T14:19:27", "hwnd": 35784706, "title": "Radio_Würmchen - Microsoft Visual Basic [Entwerfen]", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-20T14:20:07", "hwnd": 67226, "title": "OpenClaw Control und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:20:37", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:20:38", "hwnd": 35784706, "title": "Radio_Würmchen - Microsoft Visual Basic [Entwerfen] - [Radio_Würmchen - Frm_Abfrage (Form)]", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-20T14:20:39", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:20:40", "hwnd": 67226, "title": "OpenClaw Control und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:20:45", "hwnd": 35784706, "title": "Radio_Würmchen - Microsoft Visual Basic [Entwerfen] - [Radio_Würmchen - Frm_Abfrage (Form)]", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-20T14:21:02", "hwnd": 32378208, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:21:03", "hwnd": 67226, "title": "OpenClaw Control und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:21:07", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:21:08", "hwnd": 35784706, "title": "Radio_Würmchen - Microsoft Visual Basic [Entwerfen] - [Radio_Würmchen - Frm_Abfrage (Form)]", "process": "VB5.EXE", "browser": ""}
+{"ts": "2026-03-20T14:21:42", "hwnd": 67226, "title": "OpenClaw Control und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:21:43", "hwnd": 67226, "title": "Neuer Tab und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:21:52", "hwnd": 67226, "title": "ListBox MultiSelect property - Suchen und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:22:12", "hwnd": 67226, "title": "ListBox MultiSelect property - Suchen und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:22:14", "hwnd": 67226, "title": "MultiSelect, Selected properties example | Microsoft Learn und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:22:29", "hwnd": 67226, "title": "MultiSelect property (Microsoft Forms) | Microsoft Learn und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:22:42", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:22:45", "hwnd": 67226, "title": "MultiSelect property (Microsoft Forms) | Microsoft Learn und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:22:48", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:24:12", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:24:13", "hwnd": 24448608, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:24:14", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 613, "idle_start": "2026-03-20T14:14:01"}
+{"ts": "2026-03-20T14:24:17", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:24:19", "hwnd": 18484756, "title": "planner-technik.md - Visual Studio Code", "process": "Code.exe", "browser": ""}
+{"ts": "2026-03-20T14:24:20", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:24:21", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:24:23", "hwnd": 28379828, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:24:56", "hwnd": 29298010, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:24:58", "hwnd": 28379828, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:25:16", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-20T14:25:23", "hwnd": 28969158, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:26:19", "hwnd": 1574162, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:26:58", "hwnd": 20974198, "title": " Unbenanntes Projekt [HD 720p 30 fps] - OpenShot Video Editor", "process": "openshot-qt.exe", "browser": ""}
+{"ts": "2026-03-20T14:27:01", "hwnd": 1574162, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:27:04", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:27:18", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T14:28:11", "hwnd": 1574162, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:28:12", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 54, "idle_start": "2026-03-20T14:27:18"}

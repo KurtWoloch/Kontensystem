@@ -1791,9 +1791,9 @@ class PlannerGUI:
         dlg = tk.Toplevel(self.root)
         dlg.title("Bis hierher erledigt")
         dlg.configure(bg=COLOR_BG)
-        dlg.resizable(False, False)
+        dlg.resizable(False, True)
         dlg.grab_set()
-        dlg.minsize(width=580, height=0)
+        dlg.minsize(width=580, height=400)
 
         # Header (dynamically updated)
         lbl_header = tk.Label(
@@ -1818,7 +1818,7 @@ class PlannerGUI:
         list_frame = tk.Frame(dlg, bg=COLOR_LIST)
         list_frame.pack(fill=tk.X, padx=12, pady=(0, 8))
 
-        display_count = min(count, 12)
+        display_count = min(count, 8)
         act_listbox = tk.Listbox(
             list_frame, bg=COLOR_LIST, fg=COLOR_FG,
             font=("Consolas", 9), height=display_count,
@@ -1827,7 +1827,7 @@ class PlannerGUI:
             selectbackground=COLOR_ACCENT,
             selectforeground="#1e1e2e"
         )
-        if count > 12:
+        if count > 8:
             act_scroll = ttk.Scrollbar(list_frame, orient=tk.VERTICAL,
                                        command=act_listbox.yview)
             act_listbox.configure(yscrollcommand=act_scroll.set)

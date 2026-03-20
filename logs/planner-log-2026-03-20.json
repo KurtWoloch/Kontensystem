@@ -284,5 +284,104 @@
     "skipped": false,
     "original_activity": "",
     "comment": "Bulk-Complete (Restplan)"
+  },
+  {
+    "activity": "Einschmieren GEMTES",
+    "list": "Liste_Morgentoilette",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "10:32:00",
+    "completed_at": "10:34:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Bulk-Complete (Restplan)"
+  },
+  {
+    "activity": "Anziehen LEMTAN",
+    "list": "Liste_Morgentoilette",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "10:34:00",
+    "completed_at": "10:37:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Bulk-Complete (Restplan)"
+  },
+  {
+    "activity": "Bett machen LEMTBM",
+    "list": "Liste_Morgentoilette",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "10:37:00",
+    "completed_at": "10:41:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Bulk-Complete (Restplan)"
+  },
+  {
+    "activity": "Vorbereitung Playlist für Hören beim Frühstück RWYTPL",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.841,
+    "minutes": 6,
+    "started_at": "10:41:00",
+    "completed_at": "10:41:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "RW läuft weiter"
+  },
+  {
+    "activity": "Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFS",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.845,
+    "minutes": 25,
+    "started_at": "10:41:00",
+    "completed_at": "10:49:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Start Teleworking BRZG BRTWGF",
+    "list": "Liste_Arbeit",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "10:49:00",
+    "completed_at": "10:53:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS",
+    "list": "Lebenserhaltung",
+    "priority": 1.84,
+    "minutes": 11,
+    "started_at": "12:50:00",
+    "completed_at": "13:27:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "BILLA (selbst kochen), Fischstäbchen mit Kichererbsen und Soja-Drink"
+  },
+  {
+    "activity": "Mittagessen (selbst kochen / kalt)",
+    "list": "Liste_Mittagessen_zuhause",
+    "priority": 1.845,
+    "minutes": 60,
+    "started_at": "13:27:00",
+    "completed_at": "14:12:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Wenn (\"Gehst Du heute zum Essen raus?\"), Start list Liste_Mittagessen_extern, sonst Start list Liste_Mittagessen_zuhause",
+    "list": "Lebenserhaltung",
+    "priority": 1.845,
+    "minutes": 60,
+    "started_at": "13:27:42",
+    "completed_at": "13:27:42",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Entscheidung: Nein → Start Liste: Liste_Mittagessen_zuhause"
   }
 ]
