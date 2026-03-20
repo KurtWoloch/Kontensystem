@@ -1784,9 +1784,8 @@ class PlannerGUI:
         self._show_bulk_complete_dialog(items_to_log)
 
     def _show_bulk_complete_dialog(self, items_to_log):
-        """V10: Dialog for Bulk-Complete with time shift option."""
+        """V10: Dialog for Bulk-Complete with multi-select and time shift."""
         count = len(items_to_log)
-        total_mins = sum(it.get('minutes', 0) for it in items_to_log)
         now = datetime.now()
 
         dlg = tk.Toplevel(self.root)
@@ -1794,35 +1793,81 @@ class PlannerGUI:
         dlg.configure(bg=COLOR_BG)
         dlg.resizable(False, False)
         dlg.grab_set()
-        dlg.minsize(width=520, height=0)
+        dlg.minsize(width=580, height=0)
 
-        # Header
-        tk.Label(
+        # Header (dynamically updated)
+        lbl_header = tk.Label(
             dlg, text=f"{count} Aktivitäten als erledigt markieren",
             font=("Segoe UI", 11, "bold"), bg=COLOR_BG, fg=COLOR_ACCENT
-        ).pack(anchor="w", padx=12, pady=(10, 4))
+        )
+        lbl_header.pack(anchor="w", padx=12, pady=(10, 2))
+
+        lbl_duration = tk.Label(
+            dlg, text="",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        )
+        lbl_duration.pack(anchor="w", padx=12, pady=(0, 2))
 
         tk.Label(
-            dlg, text=f"Gesamtdauer: {total_mins} Min.",
-            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
-        ).pack(anchor="w", padx=12, pady=(0, 8))
+            dlg, text="Auswahl: Ctrl/Shift+Klick für einzelne Items. "
+                      "Keine Auswahl = alle.",
+            font=("Segoe UI", 8, "italic"), bg=COLOR_BG, fg="#6c7086"
+        ).pack(anchor="w", padx=12, pady=(0, 6))
 
-        # Activity list (scrollable if many)
+        # Activity list — EXTENDED selection (multi-select with Ctrl/Shift)
         list_frame = tk.Frame(dlg, bg=COLOR_LIST)
         list_frame.pack(fill=tk.X, padx=12, pady=(0, 8))
 
-        display_count = min(count, 8)
+        display_count = min(count, 12)
         act_listbox = tk.Listbox(
             list_frame, bg=COLOR_LIST, fg=COLOR_FG,
             font=("Consolas", 9), height=display_count,
-            relief=tk.FLAT, highlightthickness=0
+            relief=tk.FLAT, highlightthickness=0,
+            selectmode=tk.EXTENDED,
+            selectbackground=COLOR_ACCENT,
+            selectforeground="#1e1e2e"
         )
+        if count > 12:
+            act_scroll = ttk.Scrollbar(list_frame, orient=tk.VERTICAL,
+                                       command=act_listbox.yview)
+            act_listbox.configure(yscrollcommand=act_scroll.set)
+            act_scroll.pack(side=tk.RIGHT, fill=tk.Y)
+
         for it in items_to_log:
             name = _strip_task_code(it['activity'])
             mins = it.get('minutes', 0)
             est = it.get('est_start', '')
             act_listbox.insert(tk.END, f"  {est or '     '}  {name}  ({mins}')")
         act_listbox.pack(fill=tk.X, padx=2, pady=2)
+
+        def _get_selected_items():
+            """Return selected items, or all if nothing selected."""
+            sel = act_listbox.curselection()
+            if sel:
+                return [items_to_log[i] for i in sel]
+            return items_to_log
+
+        def _get_selected_mins():
+            return sum(it.get('minutes', 0) for it in _get_selected_items())
+
+        def _update_header(*_args):
+            selected = _get_selected_items()
+            sel_count = len(selected)
+            sel_mins = sum(it.get('minutes', 0) for it in selected)
+            sel = act_listbox.curselection()
+            if sel:
+                lbl_header.config(
+                    text=f"{sel_count} von {count} Aktivitäten ausgewählt")
+            else:
+                lbl_header.config(
+                    text=f"{count} Aktivitäten als erledigt markieren")
+            lbl_duration.config(text=f"Gesamtdauer: {sel_mins} Min.")
+            # Update shift default and preview
+            _update_shift_default()
+            _update_preview()
+
+        act_listbox.bind("<<ListboxSelect>>", _update_header)
+        _update_header()  # initial
 
         # Time mode selection
         time_mode = tk.StringVar(value="original")
@@ -1849,10 +1894,17 @@ class PlannerGUI:
             font=("Segoe UI", 9)
         ).pack(side=tk.LEFT)
 
-        # Default: now minus total block duration (since it's catch-up)
-        default_start = now - timedelta(minutes=total_mins)
-        shift_h = tk.StringVar(value=f"{default_start.hour:02d}")
-        shift_m = tk.StringVar(value=f"{default_start.minute:02d}")
+        shift_h = tk.StringVar()
+        shift_m = tk.StringVar()
+
+        def _update_shift_default():
+            """Recalculate default shift start based on selected items."""
+            sel_mins = _get_selected_mins()
+            default_start = now - timedelta(minutes=sel_mins)
+            shift_h.set(f"{default_start.hour:02d}")
+            shift_m.set(f"{default_start.minute:02d}")
+
+        _update_shift_default()
 
         tk.Spinbox(
             shift_frame, from_=0, to=23, width=3, format="%02.0f",
@@ -1882,7 +1934,8 @@ class PlannerGUI:
             try:
                 h = int(shift_h.get())
                 m = int(shift_m.get())
-                end = now.replace(hour=h, minute=m, second=0) + timedelta(minutes=total_mins)
+                sel_mins = _get_selected_mins()
+                end = now.replace(hour=h, minute=m, second=0) + timedelta(minutes=sel_mins)
                 lbl_preview.config(text=f"→ Ende: {end.strftime('%H:%M')}")
             except (ValueError, OverflowError):
                 lbl_preview.config(text="")
@@ -1896,6 +1949,7 @@ class PlannerGUI:
         btn_frame.pack(pady=(4, 12))
 
         def on_confirm():
+            selected = _get_selected_items()
             dlg.destroy()
 
             if time_mode.get() == "shift":
@@ -1908,7 +1962,7 @@ class PlannerGUI:
                 except ValueError:
                     cursor = now
 
-                for item in items_to_log:
+                for item in selected:
                     activity = item['activity']
                     list_name = item.get('list_name', 'ungeplant')
                     mins = item.get('minutes', 0)
@@ -1923,7 +1977,7 @@ class PlannerGUI:
                     cursor = end_dt
             else:
                 # Original: use projection times
-                for item in items_to_log:
+                for item in selected:
                     activity = item['activity']
                     list_name = item.get('list_name', 'ungeplant')
                     mins = item.get('minutes', 0)
