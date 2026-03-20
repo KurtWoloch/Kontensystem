@@ -1926,12 +1926,29 @@ class PlannerGUI:
         shift_m.trace_add("write", _update_preview)
         _update_preview()
 
-        # Now define _update_header (needs _update_shift_default + _update_preview)
+        # Track selection to detect real changes vs. focus-loss events
+        _last_selection = [None]  # mutable container for closure
+        _user_edited_time = [False]  # True once user touches spinners
+
+        def _on_spinner_focus(*_args):
+            _user_edited_time[0] = True
+
+        # Bind focus to spinners (detect manual time editing)
+        for child in shift_frame.winfo_children():
+            if isinstance(child, tk.Spinbox):
+                child.bind("<FocusIn>", _on_spinner_focus)
+                child.bind("<Button-1>", _on_spinner_focus)
+
         def _update_header(*_args):
+            sel = act_listbox.curselection()
+            # Only update shift default if selection actually changed
+            # AND user hasn't manually edited the time
+            selection_changed = (tuple(sel) != _last_selection[0])
+            _last_selection[0] = tuple(sel)
+
             selected = _get_selected_items()
             sel_count = len(selected)
             sel_mins = sum(it.get('minutes', 0) for it in selected)
-            sel = act_listbox.curselection()
             if sel:
                 lbl_header.config(
                     text=f"{sel_count} von {count} Aktivitäten ausgewählt")
@@ -1939,7 +1956,9 @@ class PlannerGUI:
                 lbl_header.config(
                     text=f"{count} Aktivitäten als erledigt markieren")
             lbl_duration.config(text=f"Gesamtdauer: {sel_mins} Min.")
-            _update_shift_default()
+
+            if selection_changed and not _user_edited_time[0]:
+                _update_shift_default()
             _update_preview()
 
         act_listbox.bind("<<ListboxSelect>>", _update_header)

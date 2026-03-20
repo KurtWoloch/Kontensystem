@@ -816,3 +816,13 @@
 {"ts": "2026-03-20T14:29:56", "hwnd": 11340962, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-20T14:29:57", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
 {"ts": "2026-03-20T14:29:58", "hwnd": 11340962, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:33:06", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-20T14:33:11", "hwnd": 20123026, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:33:41", "hwnd": 20974774, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:34:02", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T14:34:26", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 23, "idle_start": "2026-03-20T14:34:02"}
+{"ts": "2026-03-20T14:35:52", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:36:00", "hwnd": 20974774, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:36:01", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:36:02", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:36:02", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
