@@ -561,3 +561,44 @@
 {"ts": "2026-03-20T10:35:01", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 125, "idle_start": "2026-03-20T10:32:56"}
 {"ts": "2026-03-20T10:35:03", "hwnd": 67226, "title": "OpenClaw Control und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
 {"ts": "2026-03-20T10:35:11", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T10:40:42", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 331, "idle_start": "2026-03-20T10:35:11"}
+{"ts": "2026-03-20T10:40:43", "hwnd": 34868278, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEMTES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:40:51", "hwnd": 15467296, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:40:55", "hwnd": 34868278, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEMTES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:40:56", "hwnd": 15532832, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:40:57", "hwnd": 34868278, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEMTES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:41:11", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-20T10:41:16", "hwnd": 28379828, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEMTES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:41:23", "hwnd": 24316222, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:41:29", "hwnd": 28379828, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Hören beim Frühstück RWYTPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:41:32", "hwnd": 21171842, "title": "Eintrag bearbeiten — Bett machen LEMTBM", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:41:34", "hwnd": 28379828, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für Hören beim Frühstück RWYTPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:41:38", "hwnd": 16648324, "title": "Aufgabe erledigt — Vorbereitung Playlist für Hören beim Frühstück RWYTPL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:41:43", "hwnd": 28379828, "title": "Tagesplanung — Reaktiver Planer — Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:41:47", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T10:41:51", "hwnd": 24381956, "title": "Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-20T10:42:00", "hwnd": 1377782, "title": "LE - Bearb. Essensplan: ", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-20T10:42:02", "hwnd": 28379828, "title": "Tagesplanung — Reaktiver Planer — Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:42:14", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T10:49:57", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 463, "idle_start": "2026-03-20T10:42:14"}
+{"ts": "2026-03-20T10:49:59", "hwnd": 19726544, "title": "Aufgabe erledigt — Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:50:01", "hwnd": 28379828, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:50:03", "hwnd": 7013258, "title": "Radio Würmchen 26.2.20 - Playlist läuft für zu Hause", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-20T10:50:32", "hwnd": 28379828, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:50:52", "hwnd": 23662150, "title": "Vorgezogene Aktivität erfassen — Liste_Arbeit — Start Teleworking BRZG BRTWGF", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:51:08", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T10:51:57", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 49, "idle_start": "2026-03-20T10:51:08"}
+{"ts": "2026-03-20T10:52:23", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T10:53:09", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 45, "idle_start": "2026-03-20T10:52:23"}
+{"ts": "2026-03-20T10:53:33", "hwnd": 28379828, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:53:50", "hwnd": 21696294, "title": "12. Sunfly Demosängerin - Chains - Winamp", "process": "winamp.exe", "browser": ""}
+{"ts": "2026-03-20T10:53:54", "hwnd": 67226, "title": "OpenClaw Control und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:54:08", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T10:54:49", "hwnd": 28379828, "title": "Tagesplanung — Off-PC — Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:54:50", "hwnd": 67226, "title": "OpenClaw Control und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:55:03", "hwnd": 28379828, "title": "Tagesplanung — Off-PC — Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:55:04", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 55, "idle_start": "2026-03-20T10:54:08"}
+{"ts": "2026-03-20T10:55:11", "hwnd": 67226, "title": "OpenClaw Control und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:55:24", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T11:11:00", "hwnd": 18484712, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T11:11:02", "hwnd": 67226, "title": "OpenClaw Control und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}

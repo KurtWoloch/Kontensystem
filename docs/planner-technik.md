@@ -744,6 +744,214 @@ Das **Window Logger**-System läuft weiterhin parallel und erzeugt seine eigenen
 
 ---
 
+## 7. Nacherfassung: Code-Flow-Analyse
+
+*Stand: 20. März 2026. Beschreibt den tatsächlichen Ablauf vom Klick auf
+"📥 Nacherfassung" bis zur Anzeige der Vorschläge.*
+
+### 7.1 Beteiligte Module
+
+| Modul | Ort | Größe | Rolle |
+|---|---|---|---|
+| `windowmon_import.py` | `planner/` | 55 KB, ~1300 Zeilen | Hauptlogik: Lücken finden, Vorschläge erzeugen, GUI |
+| `windowmon_summary.py` | **Repo-Root** (Anomalie!) | 44 KB, ~1000 Zeilen | Klassifikationsregeln, Block-Bildung, JSONL-Laden |
+
+**Anomalie:** `windowmon_summary.py` liegt im Repo-Root statt in `planner/`.
+Es wird von `windowmon_import.py` importiert (`from windowmon_summary import ...`).
+Das funktioniert, weil `main.py` das Repo-Root zum `sys.path` hinzufügt. Sollte
+bei einem Refactoring nach `planner/` verschoben werden.
+
+### 7.2 Funktionsübersicht
+
+```
+windowmon_import.py:
+  find_planner_gaps()          — Lücken im Planer-Log finden
+  _consolidate_blocks()        — 6-Pass Block-Konsolidierung (228 Zeilen)
+  _load_day_overrides()        — Korrektur-Overrides aus corrections.json
+  _find_planner_context()      — Welche Planer-Aktivität lief zur Lückenzeit?
+  get_windowmon_proposals()    — HAUPTFUNKTION: Gaps → Proposals (260 Zeilen)
+  log_correction()             — Korrektur in corrections.json speichern
+  show_raw_windowmon()         — Debug: Roh-Events anzeigen
+  edit_proposal()              — Einzelvorschlag bearbeiten (GUI-Dialog)
+  open_import_dialog()         — Einstiegspunkt: baut die Nacherfassungs-GUI
+
+windowmon_summary.py:
+  classify_entry()             — Einzelnes Fenster-Event → (account, activity)
+  build_activity_blocks()      — Sequenz von Events → Blöcke gleicher Aktivität
+  load_windowmon()             — JSONL-Datei lesen und parsen
+  load_planner_log()           — Planer-Log lesen (für standalone-Nutzung)
+  inject_idle_periods()        — Idle-Marker in Block-Liste einfügen
+  aggregate_summary()          — Zeitsummen pro Account
+  detect_gaps()                — Lücken in Event-Sequenz
+  print_summary()              — Terminal-Ausgabe (standalone-Modus)
+  main()                       — Standalone CLI-Einstieg
+```
+
+### 7.3 Der Flow: Klick → Vorschläge
+
+```
+gui.py: _on_windowmon_import()
+  │
+  └→ windowmon_import.open_import_dialog(root, engine, code_suggestor)
+       │
+       │  ═══ SCHRITT 1: Lücken finden ═══════════════════════════════
+       │
+       ├→ find_planner_gaps(completed, day_start, day_end)
+       │    • Sortiert Log nach started_at
+       │    • Findet Zeiträume ≥ 2 Min. ohne Log-Eintrag
+       │    • Berechnet day_start (erster Log-Eintrag) und day_end (jetzt)
+       │    → Liste von (gap_start, gap_end) Tupeln
+       │
+       │  ═══ SCHRITT 2: Vorschläge erzeugen ════════════════════════
+       │
+       ├→ get_windowmon_proposals(date_str, gaps, completed)
+       │    │
+       │    │  2a: JSONL laden
+       │    ├→ windowmon_summary.load_windowmon(date_str)
+       │    │    • Liest windowmon-YYYY-MM-DD.jsonl
+       │    │    • Parst Timestamps, filtert defekte Zeilen
+       │    │    → Liste von Event-Dicts mit _ts (datetime)
+       │    │
+       │    │  2b: Tages-Overrides laden
+       │    ├→ _load_day_overrides(date_str)
+       │    │    • Liest autodetect-corrections-*.json
+       │    │    • Baut Map: {original_activity → corrected_activity}
+       │    │    • Letzter Override gewinnt bei Mehrfachkorrekturen
+       │    │
+       │    │  ═══ FÜR JEDE LÜCKE: ═══════════════════════════════════
+       │    │
+       │    │  2c: Fenster-Events filtern
+       │    │    • Events innerhalb [gap_start, gap_end]
+       │    │
+       │    │  2d: Sonderfall: keine Events in Lücke
+       │    │    • Letztes Event VOR der Lücke suchen
+       │    │    • Synthetischen Vorschlag erzeugen
+       │    │      ("kein Fensterwechsel — letztes Fenster fortgesetzt")
+       │    │    → weiter zur nächsten Lücke
+       │    │
+       │    │  2e: Events klassifizieren
+       │    ├→ windowmon_summary.classify_entry(entry)     [pro Event]
+       │    │    • ~300 Zeilen Regelwerk: Prozess + Titel → (account, activity)
+       │    │    • Erkennt: Browser-URLs, Access-DBs, Notepad-Dateien,
+       │    │      Planer-Dialoge, Radio Würmchen, Excel, Word, etc.
+       │    │
+       │    │  2f: Events zu Blöcken gruppieren
+       │    ├→ windowmon_summary.build_activity_blocks(gap_entries)
+       │    │    • Aufeinanderfolgende Events gleicher Klassifikation
+       │    │      → ein Block mit start/end/Dauer
+       │    │
+       │    │  2g: Planner-Context anwenden [pro Block]
+       │    ├→ _find_planner_context(completed, gap_start)
+       │    │    • Sucht im Log: welche Aktivität lief vor/nach der Lücke?
+       │    │    • Wenn Block-Account == Planer-Aktivitäts-Account UND
+       │    │      Block hat keinen spezifischen 6-Buchstaben-Code:
+       │    │      → Aktivitätsname wird durch Planer-Aktivität ersetzt
+       │    │    • Beispiel: Access-Event (Account LE) während LEEPEP
+       │    │      → wird zu "Bearb. Essensplan LEEPEP" statt
+       │    │        "Bearb. unbekannte Datenbank"
+       │    │
+       │    │  2h: Day-Overrides anwenden [pro Block]
+       │    │    • Wenn Aktivitätsname in Override-Map vorhanden UND
+       │    │      kein Planner-Context greift:
+       │    │      → Name wird durch korrigierten Namen ersetzt
+       │    │
+       │    │  2i: Blöcke konsolidieren  ← KOMPLEXESTES STÜCK
+       │    ├→ _consolidate_blocks(blocks)
+       │    │    • Pass 0a: Direkt benachbarte Same-Account → merge
+       │    │    • Pass 0b: Kurze Fremd-Blöcke (< 30s) zwischen
+       │    │               gleichen Accounts → bridge
+       │    │    • Pass 1:  Noise-Absorption (Blöcke < 30s werden
+       │    │               vom längeren Nachbarn verschluckt)
+       │    │    • Pass 1.5: Re-run Bridging (Noise-Absorption kann
+       │    │                neue Bridge-Möglichkeiten erzeugt haben)
+       │    │    • Pass 2:  Finale Zusammenführung gleicher Klassifikation
+       │    │    → Reduzierte Block-Liste
+       │    │
+       │    │  2j: Clamping + Sub-Gap-Erkennung
+       │    │    • Blöcke auf Lücken-Grenzen zuschneiden
+       │    │    • Blöcke < 1 Minute verwerfen
+       │    │    • Lücken ZWISCHEN Blöcken füllen:
+       │    │      - Vor erstem Block: letztes Event vor Lücke
+       │    │      - Zwischen Blöcken: vorherigen Block verlängern
+       │    │      - Nach letztem Block: letzten Block verlängern
+       │    │
+       │    └→ Liste von Proposal-Dicts, sortiert nach Startzeit
+       │
+       │  ═══ SCHRITT 3: GUI aufbauen ═══════════════════════════════
+       │
+       └→ Dialog mit Canvas, Scroll-Frame, Proposal-Karten
+            • Pro Vorschlag: Zeitraum, Aktivitätsname, Dauer, Buttons
+            • Buttons: Übernehmen / Bearbeiten / Raw-Events / Ignorieren
+            • Import-Button: akzeptierte Vorschläge ins Planer-Log schreiben
+```
+
+### 7.4 Bekannte Schwachstellen
+
+**1. `get_windowmon_proposals()` — 260 Zeilen Monolith**
+
+Die Schritte 2a–2j laufen alle innerhalb einer einzigen Funktion ab. Die Schleife
+`for gap_start, gap_end in gaps:` enthält Klassifikation, Context, Overrides,
+Konsolidierung und Sub-Gap-Erkennung. Das macht Debugging und gezielte Änderungen
+schwierig — man muss den gesamten Flow verstehen, um eine einzelne Stelle zu ändern.
+
+**2. `_consolidate_blocks()` — 228 Zeilen, 6 Passes**
+
+Die Pass-Kaskade (0a → 0b → 1 → 1.5 → 2) ist historisch gewachsen: jeder Pass
+wurde eingeführt, um ein spezifisches Symptom zu beheben. Die Interaktion zwischen
+den Passes ist schwer vorhersagbar. Kurts Vereinfachungsvorschlag (20.03.2026):
+"Letztes Event vor der Lücke und erstes Event danach anschauen, an Minutengrenzen
+abschneiden" — konzeptuell simpler, weniger Passes nötig.
+
+**3. "Letztes Fenster fortgesetzt" — 3× dupliziert**
+
+Die Logik "kein Fensterwechsel → letztes Fenster weiterhin aktiv" erscheint an
+drei Stellen leicht abgewandelt:
+- Schritt 2d: Leere Lücke (kein einziges Event)
+- Schritt 2j: Bereich vor dem ersten Block innerhalb einer Lücke
+- Schritt 2j: Block-Verlängerung nach dem letzten Block
+
+Gleiche Grundlogik, drei separate Implementierungen.
+
+**4. Reihenfolge-Abhängigkeit: Overrides vor Konsolidierung**
+
+Day-Overrides (2h) werden pro Block angewendet, BEVOR die Konsolidierung (2i)
+Blöcke zusammenführt. Wenn Block A (Override "X") und Block B (kein Override)
+zusammengeführt werden, bestimmt die Merge-Logik, welcher Name überlebt — das
+hängt von der Blockdauer ab (längerer Block gewinnt), nicht vom Override-Status.
+
+**5. `windowmon_summary.py` im Repo-Root**
+
+Sollte unter `planner/` liegen. Der aktuelle Import funktioniert nur, weil
+`main.py` das Repo-Root zu `sys.path` hinzufügt. Bei Refactoring verschieben.
+
+**6. `classify_entry()` — ~300 Zeilen hart kodierte Regeln**
+
+Jede Regel ist eine if/elif-Kette. Neue Regeln werden am Ende angehängt.
+Das Improvements-Dokument (V3a/V3b) beschreibt ein YAML-basiertes Regelsystem
+als Alternative, aber das erfordert ein Refactoring der Grundarchitektur.
+
+### 7.5 Verbesserungspotential (Refactoring-Ideen)
+
+Diese Ideen sind **nicht** als nächste Features gedacht, sondern als Orientierung
+für den Fall, dass Kurt selbst in den Code einsteigt:
+
+1. **`get_windowmon_proposals()` aufteilen:** Die Schritte 2c-2j könnten in eine
+   eigene Funktion `_process_gap(gap_start, gap_end, entries, ...)` ausgelagert
+   werden. Das reduziert die Hauptfunktion auf eine Schleife über Gaps.
+
+2. **"Letztes Fenster"-Logik zentralisieren:** Eine Hilfsfunktion
+   `_get_preceding_activity(entries, before_ts)` eliminiert die Dreifach-Duplizierung.
+
+3. **`_consolidate_blocks()` vereinfachen:** Statt 6 Passes möglicherweise ein
+   einziger Durchlauf, der Blöcke gleichen Accounts zusammenführt, wenn die
+   Zwischenblöcke unter einem Schwellenwert liegen. Kurts Ansatz (Minutengrenzen
+   + Blick auf letztes/nächstes Event) als Alternative evaluieren.
+
+4. **`windowmon_summary.py` verschieben:** Nach `planner/windowmon_summary.py`,
+   Import-Pfade anpassen.
+
+---
+
 ## Anhang: DayContext-Variablen
 
 Vollständige Liste der Planungsvariablen, die in `day_context.py` definiert sind:

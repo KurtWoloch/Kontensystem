@@ -262,5 +262,27 @@
     "skipped": false,
     "original_activity": "",
     "comment": ""
+  },
+  {
+    "activity": "Starten Youtube-Playlist MUOWSP",
+    "list": "Liste_Morgentoilette",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "10:09:00",
+    "completed_at": "10:10:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Bulk-Complete (Restplan)"
+  },
+  {
+    "activity": "Duschen LEMTDU",
+    "list": "Liste_Morgentoilette",
+    "priority": 0.0,
+    "minutes": 22,
+    "started_at": "10:10:00",
+    "completed_at": "10:32:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Bulk-Complete (Restplan)"
   }
 ]
