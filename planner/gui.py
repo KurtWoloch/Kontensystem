@@ -1825,7 +1825,8 @@ class PlannerGUI:
             relief=tk.FLAT, highlightthickness=0,
             selectmode=tk.MULTIPLE,
             selectbackground=COLOR_ACCENT,
-            selectforeground="#1e1e2e"
+            selectforeground="#1e1e2e",
+            exportselection=False
         )
         if count > 8:
             act_scroll = ttk.Scrollbar(list_frame, orient=tk.VERTICAL,

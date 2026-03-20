@@ -826,3 +826,15 @@
 {"ts": "2026-03-20T14:36:01", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
 {"ts": "2026-03-20T14:36:02", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
 {"ts": "2026-03-20T14:36:02", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T14:38:24", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:38:25", "hwnd": 20974774, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:38:26", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 143, "idle_start": "2026-03-20T14:36:02"}
+{"ts": "2026-03-20T14:38:28", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:38:29", "hwnd": 20123026, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:38:38", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-20T14:38:41", "hwnd": 18547960, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:39:16", "hwnd": 15207292, "title": "Eintrag bearbeiten — Mittagessen (selbst kochen / kalt)", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:39:21", "hwnd": 18547960, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:39:47", "hwnd": 16321132, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:40:52", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:41:01", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
