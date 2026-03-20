@@ -1,0 +1,437 @@
+﻿Code;Quelle;Aktivitätsname;Vorschlag_Code;Parent;Parent Code;Kommentar
+BRALAB;MTL;Abschluss;;;;
+BRALAB;MTL;Herunterfahren, Einpacken, Anziehen;BRALEP;Abschluss;BRALAB;
+
+BREPDZ;MTL;Arbeitszeit absolvieren;;;;
+BREPDZ;MTL;Arbeitszeit absolvieren (Nachmittag);BREPDV;Arbeitszeit absolvieren;BREPDZ;
+BREPDZ;MTL;Arbeitszeit absolvieren (Vormittag);BREPDN;Arbeitszeit absolvieren;BREPDZ;
+
+BREPGM;neu;BRZ Elektronisches Pensionskonto Gesch�ftsprozessmanagement;;;;
+BREPGM;MTL;Abhalten BKDD Standup Meeting;;BRZ Elektronisches Pensionskonto Gesch�ftsprozessmanagement;;
+BREPGM;MTL;Abhalten BKDD Standup Meeting BRZ;;BRZ Elektronisches Pensionskonto Gesch�ftsprozessmanagement;;"gleiche Aktivit�t wie ""Abhalten BKDD Standup Meeting"""
+BREPGM;MTL;Abhalten PKT Projekt Jour Fixe;;BRZ Elektronisches Pensionskonto Gesch�ftsprozessmanagement;;
+BREPGM;MTL;Bearb. Essensplan im BRZ;;BRZ Elektronisches Pensionskonto Gesch�ftsprozessmanagement;;
+BREPGM;MTL;Planung BRZ;;BRZ Elektronisches Pensionskonto Gesch�ftsprozessmanagement;;
+BREPGM;MTL;Planung im BRZ;;BRZ Elektronisches Pensionskonto Gesch�ftsprozessmanagement;;
+;;;;BRZ Elektronisches Pensionskonto Gesch�ftsprozessmanagement;;"gleich wie ""Planung BRZ"""
+BREPZE;MTL;BRZ Zeiterfassung;;;;
+BREPZE;MTL;Eingabe Teleworking SAP;;BRZ Zeiterfassung;;
+BREPZE;MTL;Eingabe Zeiterfassung SAP;;BRZ Zeiterfassung;;
+BREPZE;MTL;Einkauf Brot/Weckerln/süße Stücke;LEEKBW;;;
+BREPZE;MTL;Einkauf Brot/Weckerln/süße Stücke (Der Mann Wien Mitte);LEEKBW;Einkauf Brot/Weckerln/süße Stücke;;
+BREPZE;MTL;Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi);LEEKBW;Einkauf Brot/Weckerln/süße Stücke;;
+BREPZE;MTL;Eis kaufen;LEJNEI;;;
+
+BRFAEP;neu;Einpacken vor Fahrt ins BRZ;;;;
+BRFAEP;MTL;Einpacken Handy, Brille, Kabel;;Einpacken vor Fahrt ins BRZ;;
+BRFAEP;MTL;Einpacken Handy, Brille, Kabel (inkl. Laptop!), Handynetzteil, Power Bank, Headset, USB-Stick, Geld;;Einpacken vor Fahrt ins BRZ;;"wurde in Planung ersetzt durch ""Einpacken Handy, Brille, Kabel (inkl. Laptop!), Power Bank, Headset, USB-Stick, Geld"", weil ich Handynetzteil nicht mehr mitnehme"
+BRFAEP;Learned;Einpacken Handy, Brille, Kabel (inkl. Laptop!), Power Bank, Headset, USB-Stick, Geld;;Einpacken vor Fahrt ins BRZ;;
+
+BRFAHF;neu;Heimfahrt vom BRZ;;;;
+BRFAHF;MTL;Heimfahrt vom BRZ - Fahrt zu U4 Spittelau;BRFAH4;Heimfahrt vom BRZ;BRFAHF;
+BRFAHF;MTL;Heimfahrt vom BRZ inkl. Laufen;BRFAHL;Heimfahrt vom BRZ;BRFAHF;
+
+CSAAZE;MTL;Eintragen Zeiten Atariage;;;CSAAPO
+CSAAZE;MTL;Posting Atariage;CSAAPO;;
+
+CSGAUM;MTL;Analyse Disassembly Astro Bomber;CSGAAB;;
+CSGAUM;MTL;Analyse Disassembly Tour de France;CSGATF;;
+CSGAUM;MTL;Korrektur The Grindy Adventure;CSENGA;;
+CSGAUM;MTL;Spielen Evony - The King's Return;CSOSEN;;
+CSGAUM;MTL;Spielen Forge of Empires;CSOSFE;;
+CSGAUM;MTL;Spielen State of Survival;CSOSSS;;
+CSGAUM;MTL;Spielen Taonga Island Farm;CSOSTI;;
+
+FIAKBK;MTL;Bearbeitung Börsenkurse;;;
+FIAKBK;MTL;Bearbeitung Börsenkurse / Aktienhandel;FIAKBA;;
+
+FZSCLI;MTL;Bearb. Liste Scooterfahrten;FZSCLF;;
+FZSCLI;MTL;Bearb. gegangene Strecken;FZSCLG;;;
+
+GEBMBM;MTL;Blutdruck messen;;;;
+GEBMBM;MTL;Blutdruck messen (Forderung von Renate);;Blutdruck messen;;Name sollte so nicht mehr in aktueller Planung verwendet werden
+
+GEGYLD;MTL;Laufen (Dixi-WC Ruthnergasse);;;;
+GEGYLD;MTL;Laufen (Dixi-WC Siemensstraße);;;;wurde nur tempor�r verwendet (dort steht kein Dixi-WC mehr)
+
+GEGYLS;MTL;Laufen / Scootersuche;;;;Scootersuche noch undokumentiert, daher unsicher
+GEGYLS;Learned;Laufen / E-Bike-Suche;;Laufen / Scootersuche;;Namensvariante
+
+GELADW;MTL;Laufen;GESPLA;;;
+GELADW;MTL;Laufen Dixi-WC Jägerstr.;;;;
+
+GEMRNA;MTL;Ausmachen Arzttermine;GEMRAA;;;
+GEMRNA;MTL;Besuch Dr. Hariri;GEMRAB;;;
+GEMRNA;MTL;Vorbereitung Besuch Dr. Hariri;GEMRVA;;;
+
+INSUNE;Learned;div. Surfen (News / Anewi Raupenbagger);;div. Surfen (News);;Namensvariante
+INSUNE;Learned;div. Surfen (News);;;;
+
+INSUSU;MTL;Div. Surfen;;;;
+INSUSU;Learned;Surfen Discovr Radio;;Div. Surfen;;Namensvariante
+INSUSU;Learned;div. Surfen (Take five ursprüngliche Takes);;Div. Surfen;;Namensvariante
+
+KSAAKO;MTL;Aufwandserfassung;KSAEAE;;;
+KSAAKO;MTL;Aufwandserfassung und Abrechnung Kontensystem;KSAEAB;;;
+
+KSAEEG;MTL;Ermittlung Gesamtzeiten;;;;
+KSAEEG;MTL;Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt);KSAEED;;;
+
+KSPLAW;Learned;Auswertung gestriger Tagesablauf und Diskussion mit OpenClaw / Hinzufügen fehlender Task-Codes in CSV-Datei;;;;
+KSPLAW;Learned;Diskussion Arten Nacherfassung Aufwand mit OpenClaw
+KSPLAW;Learned;Diskussion Handbücher mit OpenClaw
+KSPLAW;Learned;Diskussion JSON-Konverter mit OpenClaw
+KSPLAW;Learned;Diskussion Tagesplanung mit OpenClaw / Lesen Alignment Report
+KSPLAW;Learned;Diskussion Tagesplanung mit OpenClaw / Lesen Design Question Granularity
+KSPLAW;Learned;Diskussion Vortag mit OpenClaw
+KSPLAW;Learned;Diskussion Window Logs und Weiterentwicklung Planung mit OpenClaw
+KSPLAW;Learned;Verbesserung Tagesplaner mit OpenClaw
+KSPLAW;Learned;Verbesserung Tagesplaner mit OpenClaw / Anpassen Window Logger an Off-PC-Anzeige
+
+KSPLEN;MTL;Arbeit an Tagesplanung / Planer-Entwicklung
+KSPLEN;Learned;Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw
+KSPLEN;Learned;Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw / Update Window Logger
+KSPLEN;Learned;Diskussion OpenClaw
+KSPLEN;Learned;Diskussion OpenClaw (Fehler in Planer)
+KSPLEN;Learned;Diskussion Tagesplaner mit OpenClaw
+
+KSPLMT;Learned;Begutachtung Master Task List
+KSPLMT;Learned;Begutachtung Master Task List / Austrian Charts
+
+KSPLNA;MTL;Nacherfassung Ablauf
+KSPLNA;Learned;Nacherfassung Ablauf / Behebung Tab-Bug mit OpenClaw
+
+KSPLPL;MTL;PLanung
+KSPLPL;Learned;Analyse Tagesbericht
+KSPLPL;Learned;Analyse gestriger Tagesbericht
+KSPLPL;Learned;Begutachtung Fix Tagesplaner
+KSPLPL;Learned;Begutachtung PLanung-Logs
+KSPLPL;Learned;Begutachtung PLanung-Logs / Korrektur Planungsaktivitäten
+KSPLPL;Learned;Begutachtung Planner-Handbuch / Technik
+KSPLPL;Learned;Begutachtung Planung-Projection + Handbücher
+KSPLPL;Learned;Diskussion Planner-Handbuch mit OpenClar
+KSPLPL;Learned;Diskussion mit OpenClaw über Tagesablauf / Entwicklung Log-Editing
+KSPLPL;Learned;Diskussion mit OpenClaw über Tagesplaner
+KSPLPL;Learned;Erstellung JSON-Tabellen-Converter mit OpenClaw
+KSPLPL;Learned;Hochfahren PC / Update OpenClaw / Neustart Planer
+KSPLPL;Learned;Korrektur Planungsaktivitäten
+KSPLPL;Learned;Notieren unpassende Matchings zu WC
+KSPLPL;Learned;Start Tagessplaner
+
+LEAZHW;MTL;Reinigung Zahnputzutensilien, Hände waschen
+LEAZHW;Learned;Bett machen
+
+LEAZWC;Learned;WC
+LEAZWC;Learned;WC (vergeblich)
+
+LEEKBI;MTL;Einkauf
+LEEKBI;MTL;Einkauf (?)
+LEEKBI;MTL;Einkauf (BILLA Ederg.) / Laufen
+
+LEEKEP;MTL;Einpacken für Einkauf
+LEEKEP;MTL;Einpacken für Einkauf (Essensdatenbank, Rucksack, Sackerln, Altbatterien, Notebook, 25%-Pickerln, USB-Stick)
+
+LEEPEP;MTL;Bearb. Essensplan (Eintragen Protokoll)
+LEEPEP;MTL;Bearb. Essensplan (gegessen, zu essen)
+LEEPEP;MTL;Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf)
+LEEPEP;Learned;Bearb. Essensplan
+LEEPEP;Learned;Bearb. Essensplan (gegessen)
+
+LEEPGE;MTL;Bearb. Essensplan (Ereignisse / gegessen / zu essen)
+LEEPGE;MTL;Bearb. Essensplan (Nährwerte)
+LEEPGE;Learned;Bearb. Essensplan (gegessen)
+
+LEEPLS;MTL;Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste)
+LEEPLS;MTL;Bearb. Essensplan (gegessen / Lokalsuche / Konsumation)
+LEEPLS;Learned;Bearb. Essensplan
+LEEPLS;Learned;Bearb. Essensplan (Automatisierung Regenerierung Kollegenbeziehungen)
+LEEPLS;Learned;Bearb. Essensplan (Start Korrekturlauf)
+LEEPLS;Learned;Bearb. Essensplan (gegessen / zu essen
+LEEPLS;Learned;Bearb. Essensplan (gegessen / zu essen)
+LEEPLS;Learned;Bearb. Essensplan (gegessen)
+
+LEEPNP;Learned;Bearb. Essensplan (gegessen / neuer Plan)
+LEEPNP;Learned;Bearb. Essensplan (neuer Plan)
+
+LEEPUH;MTL;Bearb. Essensplan (Update Händlerangebote)
+LEEPUH;MTL;Bearb. Essensplan (Änderung Sollwerte)
+
+LEEPVO;MTL;Bearb. Essensplan
+LEEPVO;MTL;Bearb. Essensplan (Vorschläge Strake)
+
+LEJNWC;Learned;WC
+LEJNWC;Learned;WC (vergeblich)
+
+LEMEGA;MTL;Geld abheben
+LEMEGA;MTL;Geschirr abwaschen
+LEMEGA;MTL;Mittagessen
+LEMEGA;MTL;Nachspeise fassen
+LEMEGA;MTL;Wasser fassen
+LEMEGA;Learned;Anrichten / Essen Mittagessen / Geschirr abwaschen
+LEMEGA;Learned;Ausräumen Geschirrspüler
+LEMEGA;Learned;Soja-Drink fassen
+LEMEGA;Learned;Umdisponieren / Anrichten / Essen Mittagessen / Geschirr abwaschen
+
+LEMEME;MTL;Mittagessen (?)
+LEMEME;MTL;Mittagessen fassen
+LEMEME;MTL;Zubereitung Mittagessen
+LEMEME;Learned;Zubereitung Mittagessen (selbst kochen, Bandnudeln groß mit Soja-Drink)
+
+LEMTAZ;MTL;Ausziehen
+LEMTAZ;Learned;Ausziehen / Anprobieren Badehosen
+
+LEMTFR;MTL;Feinschliff bei der Rasur
+LEMTFR;MTL;Frühstück fassen
+LEMTFR;MTL;Frühstücken
+LEMTFR;MTL;Frühstücken, dabei Tee machen, Bearb. Werbeprospekte
+LEMTFR;MTL;Frühstücken, dabei Tee machen, Bearb. Werbeprospekte, Prüfung Terrasse
+LEMTFR;MTL;Frühstücken, dabei Tee machen, Einpacken für BRZ
+LEMTFR;MTL;Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte
+LEMTFR;MTL;Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte, Prüfung Terrasse
+LEMTFR;MTL;Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Einpacken für BRZ
+LEMTFR;Learned;Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Einpacken Schwimmbad
+
+LEMTFS;Learned;Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte
+LEMTFS;Learned;Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Einpacken für BRZ
+
+LEMTHW;MTL;Häferl waschen
+LEMTHW;MTL;Häferl waschen / Hustenbonbon fassen
+LEMTHW;MTL;Häferl waschen, Hustenbonbon fassen
+LEMTHW;Learned;Hustenbonbon fassen
+
+LEMTJF;MTL;Jause fassen
+LEMTJF;MTL;Kokosmilch Drink fassen
+LEMTJF;Learned;Getränk fassen
+
+LEMTRA;MTL;Rasieren, dabei Planung
+LEMTRA;MTL;Rasieren, dabei Planung (C#-Programm)
+LEMTRA;MTL;Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen)
+LEMTRA;MTL;Rasieren, dabei div. Surfen, Bearb. Essensplan
+LEMTRA;Learned;Rasieren, dabei Planung (Auswertung Planung gestern), div. Surfen (News), Bearb. Ohrwürmer (durchgenommen)
+LEMTRA;Learned;Rasieren, dabei Planung (Reaktiver Planer), Untersuchung Andon FM
+LEMTRA;Learned;Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer)
+LEMTRA;Learned;Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen)
+LEMTRA;Learned;Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), div. Surfen inkl. Andon FM
+LEMTRA;Learned;Rasieren, dabei Planung / Tagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen)
+
+LEMTTW;MTL;Cashews fassen
+LEMTTW;MTL;Doppelkeks fassen
+LEMTTW;MTL;Getränk fassen
+LEMTTW;MTL;Mund spülen / Teller waschen / Getränk fassen
+LEMTTW;MTL;Nachtmahl
+LEMTTW;MTL;Soja-Drink fassen
+LEMTTW;MTL;Teller waschen / Getränk fassen
+LEMTTW;MTL;Teller waschen / Granatapfelsaft fassen
+LEMTTW;MTL;Weiteren Tee fassen
+LEMTTW;MTL;Zubereitung Tee
+LEMTTW;MTL;weiterer Tee fassen
+
+LEMTWC;MTL;WC
+LEMTWC;MTL;WC / Windeltest
+
+LENADT;MTL;Besuch Dixi-WC Ruthnergasse
+LENADT;MTL;Besuch Dixi-WC Siemensstraße
+
+LENAJA;MTL;Nachmittagsjause fassen
+LENAJA;MTL;Tee zubereiten
+
+LENANA;MTL;Nachtmahl fassen
+LENANA;MTL;Supradyn / Nachtmahl fassen
+LENANA;MTL;Vorbereitung Nachtmahl
+LENANA;MTL;Zubereitung Fischstäbchen
+LENANA;MTL;Zubereitung Nachtmahl
+
+LENATW;MTL;Holundersaft fassen
+LENATW;MTL;Nachtmahl essen
+LENATW;MTL;Tee fassen
+LENATW;MTL;Teller waschen
+LENATW;MTL;Teller waschen / Getränk + Biovital fassen
+LENATW;MTL;Teller waschen / Getränk + Supradyn fassen
+LENATW;Learned;Holundersaft zuckerfrei fassen
+LENATW;Learned;Mini Schokokeks fassen
+LENATW;Learned;Teller waschen / Getränk + Medikament fassen
+LENATW;Learned;Teller waschen / Getränk + Medikament fassen / Ausräumen Geschirrspüler
+LENATW;Learned;Teller waschen / Getränk + Medikament fassen / Eintragen gegessen in Essensplan
+LENATW;Learned;Teller waschen / Getränk fassen
+LENATW;Learned;Teller waschen / Wasser fassen
+LENATW;Learned;Teller waschen, Holundersaft zuckerfrei fassen
+
+LEPLES;Learned;Lesen Ewigen Speiseplan
+LEPLES;Learned;Mail Ewigen Speiseplan an Michael Kainz
+LEPLES;Learned;Versand Ewigen Speiseplan an Michael Kainz
+
+LEPOPO;MTL;Auspacken Teamgrillen
+LEPOPO;MTL;Versorgung Mitbringsel
+
+MUOWAS;MTL;Bearb. Liste auswendig singbarer Titel
+MUOWAS;MTL;Bearb. Ohrwürmer (Liste auswendig singbarer Titel)
+
+MUOWSP;MTL;Starten Youtube-Playlist
+MUOWSP;Learned;Starten Playlist
+
+PAPERL;MTL;Update Personenliste aus Rücklauf von Einladungen Begräbnis
+PAPERL;MTL;Update Personenliste aus Rücklauf von Einladungen für House Cooling Party
+
+PATATA;MTL;Bearbeitung Aufgaben zu Papa's Pflege
+PATATA;MTL;Bearbeitung Aufgaben zu Papa's Pflege (10' +)
+
+PAWFAF;MTL;Kommunikation mit Judith
+PAWFAF;MTL;Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung
+PAWFAF;MTL;Mail an Judith
+PAWFAF;MTL;Nachbereitung House Warming Party (Sprachnachricht an Judith)
+PAWFAF;MTL;Nachricht an Judith
+PAWFAF;MTL;Sprachnachricht an Judith
+
+PCARTA;MTL;Funktionstest div. Mäuse (10')
+PCARTA;MTL;Funktionstest div. Tastaturen (10')
+
+PCOCUP;Learned;Neustart OpenClaw Gateway
+PCOCUP;Learned;Update + Neustart OpenClaw Gateway
+
+RAAFAN;Learned;Analyse vorgelesene Tags Thinking Frequencies
+RAAFAN;Learned;Untersuchung Playlist Andon FM
+RAAFAN;Learned;Untersuchung Playlist Andon FM (Rotationen)
+RAAFAN;Learned;Untersuchung Playlist Andon FM / Backlink Broadcast
+RAAFAN;Learned;Untersuchung Playlist Andon FM / Thinking Frequencies
+RAAFAN;Learned;Untersuchung passende Titel für OpenAIR
+RAAFAN;Learned;Untersuchung unsinnige DJ Breaks Grok'n Roll
+
+RAAFCS;Learned;Erfassung Sendungen / Tweet Thinking Frequencies
+RAAFCS;Learned;Erfassung Sendungen Thinking Frequencies
+RAAFCS;Learned;Erfassung Sendungen Thinking Frequencies / Wunsch I just might
+
+RAAFKO;MTL;Konversation Andon FM / Thinking Frequencies
+RAAFKO;Learned;Konversation Andon FM / Backlink Broadcast
+RAAFKO;Learned;Konversation Andrew Pappas / Thinking Frequencies
+RAAFKO;Learned;Konversation mit Andrew Pappas
+RAAFKO;Learned;Musikwunsch Fragile Thinking Frequencies
+RAAFKO;Learned;Surfen Andon FM / Musikwunsch Thinking Frequencies
+RAAFKO;Learned;Surfen X
+RAAFKO;Learned;Surfen X (Peter Steinberger)
+
+RAAFSU;Learned;Lesen Soul.txt
+RAAFSU;Learned;Surfen Arena AI DJ Breaks Grok'n Roll
+RAAFSU;Learned;Untersuchung Andon FM
+
+RAYTRR;Learned;Ansehen Rosin's Restaurants
+RAYTRR;Learned;Ansehen Youtube-Videos (Rosin's Restaurants)
+
+RAYTYT;Learned;Ansehen / Kommentieren Youtube-Videos (ChatGPT built gta6 for me)
+RAYTYT;Learned;Ansehen Youtube-Videos
+RAYTYT;Learned;Ansehen Youtube-Videos (2 adults in rush wave boat / Rosin's Restaurants)
+RAYTYT;Learned;Ansehen Youtube-Videos (Claude just became aware)
+RAYTYT;Learned;Aussuchen Radiosender -> Ansehen Youtube
+
+RWAFAN;Learned;Bugfixing Andon FM-Scraper (Repeating Tracks)
+RWAFAN;Learned;Korrektur / Test Andon FM-Scraper
+RWAFAN;Learned;Korrektur Andon FM-Scraper
+RWAFAN;Learned;Versuch Debugging Andon FM-Scraper
+
+RWMPAR;MTL;Anhören RW-Prg.
+RWMPAR;MTL;Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer
+RWMPAR;MTL;Ansehen YOutube-Videos
+RWMPAR;MTL;Bearb. Playlists
+RWMPAR;MTL;Scan Grok'n Roll
+RWMPAR;MTL;Scan Kronehit
+RWMPAR;MTL;Scan Radio PM Events
+RWMPAR;MTL;Scan Radio Wien
+RWMPAR;MTL;Scan Stadtradio Krems
+RWMPAR;MTL;Scan Youtube
+RWMPAR;MTL;Surfen / Scan Andon FM
+RWMPAR;Learned;Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer / Korr. Andon FM Scraper
+RWMPAR;Learned;Surfen / Scan Andon FM / Musikwunsch an Thinking Frequencies
+RWMPAR;Learned;Surfen / Scan Andon FM u.a.
+RWMPAR;Learned;Tweet an Grok'n Roll
+RWMPAR;Learned;Tweet an OpenAIR
+RWMPAR;Learned;Untersuchung DJ Break Grok'n Roll / Surfen Joshua Tree Retreat Center
+
+RWMPEP;MTL;Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-Stick
+RWMPEP;MTL;Einpacken RW-Prg. / Essensplan / Sicherung USB-Stick
+
+RWMPMP;MTL;Anhören RW KI
+RWMPMP;MTL;Anhören RW-Programm
+RWMPMP;MTL;Anhören Radiosender
+RWMPMP;MTL;Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer
+RWMPMP;MTL;Anhören Radiosender / Tonträger / Ansehen Youtube-Videos
+RWMPMP;MTL;Ansehen / Kommentieren Youtube-Videos
+RWMPMP;MTL;Aussuchen Radiosender
+RWMPMP;MTL;Scan Backlink Broadcast
+RWMPMP;MTL;Scan Mark Dennison Livestream
+RWMPMP;MTL;Scan OpenAIR
+RWMPMP;MTL;Scan Radio Arabella
+RWMPMP;MTL;Scan Radio Arabella / Bearb. Playlist
+RWMPMP;MTL;Scan Stadtradio 1
+RWMPMP;MTL;Scan Thinking Frequencies
+RWMPMP;MTL;Scan i101 Radio
+RWMPMP;MTL;div. Surfen / Ansehen Youtube-Videos
+RWMPMP;Learned;Analyse Musiksendungen Thinking Frequencies
+RWMPMP;Learned;Analyse Thinking Frequencies
+RWMPMP;Learned;Analyse Thinking Frequencies / Surfen Aufnahme London Calling
+RWMPMP;Learned;Analyse Thinking Frequencies / Wunsch Street Fighting Man
+RWMPMP;Learned;Posting Antwort Youtube-Video / Start The fly (U2)
+RWMPMP;Learned;Scan + Analyse Thinking Frequencies
+RWMPMP;Learned;Scan / Konversation Thinking Frequencies
+RWMPMP;Learned;Scan Backlink Broadcast / Sendungen Thinking Frequencies
+RWMPMP;Learned;Scan Thinking Frequencies inkl. Programm
+
+RWMPSE;MTL;Anhören RW-Prg. mit Sati + Akif Ersoy
+RWMPSE;MTL;Anhören RW-Prg. mit Sati Ersoy
+RWMPSE;MTL;Scan / Wunsch Andon FM
+RWMPSE;MTL;Scan Andon FM
+
+RWOMCH;MTL;Bearb.Ohrwürmer
+RWOMCH;MTL;Bearb.Ohrwürmer(Charts)
+
+RWOWCH;MTL;Bearb. Ohrwürmer
+RWOWCH;MTL;Bearb. Ohrwürmer (Charts)
+
+RWOWDN;MTL;Bearb. Ohrwürmer (durchzunehmende)
+RWOWDN;MTL;Bearb.Ohrwürmer (durchzunehmende)
+
+RWOWDO;Learned;Dokumentation Ohrwurm-Projekt
+RWOWDO;Learned;Eintragen Aktivität Doku Ohrwürmer
+
+RWOWTT;MTL;Bearb. Ohrwürmer (Nachfassen aus alten Charts)
+RWOWTT;MTL;Bearb.Ohrwürmer(Nachfassen aus alten Charts)
+
+RWPLAF;Learned;Analyse Andon FM
+RWPLAF;Learned;Bearb. Library Andon FM
+RWPLAF;Learned;Untersuchung Rotation Andon FM / OpenAIR
+
+RWRSMR;MTL;Ansehen Youtube
+RWRSMR;MTL;Scan Arabella Magic
+RWRSMR;MTL;Scan Museumsradio
+RWRSMR;MTL;Scan OE24 Radio
+RWRSMR;MTL;Scan ROck Antenne Österreich
+
+RWRUEP;MTL;Einpacken Musik für Fahrt
+RWRUEP;MTL;Einpacken Musik für Fahrt inkl. Player + Akkus
+
+RWYTPL;MTL;Bearb. Playlist
+RWYTPL;MTL;Scan RW KI
+RWYTPL;MTL;Surfen Andon FM
+RWYTPL;MTL;Vorbereitung Playlist für Hören beim Frühstück
+RWYTPL;MTL;Vorbereitung Playlist für Hören unter der Dusche
+RWYTPL;Learned;Surfen Andon FM / Lush Life
+
+WFLEKA;Learned;Neukauf Mikrowelle (Media Markt Floridsdorf) (Hinweg)
+WFLEKA;Learned;Neukauf Mikrowelle (Media Markt Floridsdorf) / Rückweg
+WFLEKA;Learned;Vorbereitung Neukauf Mikrowelle
+
+WFLEMH;Learned;Schadensaufnahme Mikrowellenherd / Stromausfall
+WFLEMH;Learned;Versorgung Mitbringsel (Auspacken neuen Mikrowellenherd)
+WFLEMH;Learned;Versorgung Mitbringsel (Lesen Anleitung neuer Mikrowellenherd)
+WFLEMH;Learned;Versorgung Mitbringsel (Reinigung neuer Mikrowellenherd / Lesen weitere Anleitungen)
+WFLEMH;Learned;Versorgung Mitbringsel (neuen Mikrowellenherd)
+WFLEMH;Learned;div. Surfen (Mikrowellenherde bei Media Markt) / Nachrichten an Sati
+
+WFPUEL;MTL;Einlass / Koordination Sati
+WFPUEL;MTL;Einlass / Koordination Sati Ersoy
+WFPUEL;Learned;Einlass / Koordination / Verabschiedung Sati Ersoy
+WFPUEL;Learned;Einlass / Koordination / Zahlung / Verabschiedung Sati Ersoy
+
+WFPUZA;MTL;Verabschiedung / Zahlung Sati Ersoy
+WFPUZA;Learned;Verabschiedung Sati Ersoy
+
+WFTEBE;MTL;Bewässerung Terrasse
+WFTEBE;MTL;Prüfung Bewässerung Terrasse

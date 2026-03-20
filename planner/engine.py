@@ -538,6 +538,11 @@ class PlannerEngine:
                 if sl.idx in sl.replay_done:
                     sl.idx += 1
                     continue
+                # V8: skip activities already logged out-of-order
+                if (row.row_type == RowType.ACTIVITY
+                        and self._is_already_logged(row.activity, sl.name)):
+                    sl.idx += 1
+                    continue
                 rt = row.row_type
                 if rt == RowType.WAIT:
                     sl.wait_until = cursor + timedelta(minutes=row.minutes)
@@ -1160,12 +1165,35 @@ class PlannerEngine:
                 ls.current_index += 1
                 continue
 
+            # V8: skip activities already logged out-of-order
+            if self._is_already_logged(row.activity, ls.name):
+                print(f"[ENGINE] Auto-skip '{row.activity[:40]}' in "
+                      f"'{ls.name}' (already logged)")
+                ls.current_index += 1
+                continue
+
             # It's a real activity — set as current
             ls.current_activity = row
             return
 
         # Exhausted
         ls.current_activity = None
+
+    def _is_already_logged(self, activity: str, list_name: str) -> bool:
+        """Check if an activity is already in the log (V8: out-of-order logging).
+
+        Matches by activity name (exact) OR original_activity.
+        Only matches within the same list to avoid false positives
+        from identically named activities in different lists.
+        """
+        for item in self.log:
+            if item.list_name != list_name:
+                continue
+            if item.activity == activity:
+                return True
+            if item.original_activity and item.original_activity == activity:
+                return True
+        return False
 
     def _row_applies(self, row: CsvRow) -> bool:
         """Return True if row's weekday + dependency conditions pass."""
@@ -1232,6 +1260,17 @@ class PlannerEngine:
             original_activity="",
             comment=comment,
         ))
+        # V8: if logged under a real list (not "ungeplant"), re-resolve
+        # that list so the queue skips the now-logged activity
+        if list_name != "ungeplant" and list_name in self.lists:
+            ls = self.lists[list_name]
+            if ls.active and ls.current_activity:
+                if self._is_already_logged(ls.current_activity.activity,
+                                           ls.name):
+                    ls.current_index += 1
+                    ls.current_activity = None
+                    self._locked_task = None
+                    self._resolve(ls)
 
     def delete_log_entry(self, sorted_index: int) -> bool:
         """Delete a log entry by its index in the sorted (by started_at) log.

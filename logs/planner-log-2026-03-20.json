@@ -1,0 +1,145 @@
+[
+  {
+    "activity": "Aufstehen, WC, Rasierer fasssen LEMTAU",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.841,
+    "minutes": 1,
+    "started_at": "06:48:00",
+    "completed_at": "06:51:00",
+    "skipped": false,
+    "original_activity": "Aufstehen, Rasierer fasssen LEMTAU",
+    "comment": ""
+  },
+  {
+    "activity": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 15,
+    "started_at": "06:51:00",
+    "completed_at": "07:06:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw über Tagesplaner u.a. KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 62,
+    "started_at": "07:06:00",
+    "completed_at": "08:08:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Statistik Andon FM RAAFSU",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "08:08:00",
+    "completed_at": "08:09:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw über Tagesplaner u.a. KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 53,
+    "started_at": "08:09:00",
+    "completed_at": "09:02:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "09:02:00",
+    "completed_at": "09:03:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplaner mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "09:03:00",
+    "completed_at": "09:06:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 7,
+    "started_at": "09:06:00",
+    "completed_at": "09:13:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.835,
+    "minutes": 4,
+    "started_at": "09:13:00",
+    "completed_at": "09:14:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Grok'n Roll wurde gestartet, umgeschaltet auf Thinking Frequencies"
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "09:14:08",
+    "completed_at": "09:15:35",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplaner mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 11,
+    "started_at": "09:15:00",
+    "completed_at": "09:26:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 4,
+    "started_at": "09:26:00",
+    "completed_at": "09:28:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Vorbereitung Playlist für Hören unter der Dusche RWYTPL",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.838,
+    "minutes": 8,
+    "started_at": "09:28:00",
+    "completed_at": "09:35:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  }
+]

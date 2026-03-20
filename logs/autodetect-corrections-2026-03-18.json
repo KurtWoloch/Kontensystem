@@ -1,0 +1,275 @@
+[
+  {
+    "ts": "2026-03-18T08:22:01",
+    "start": "06:46",
+    "end": "07:35",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Diskussion OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-18T08:23:07",
+    "start": "07:35",
+    "end": "07:36",
+    "original": "Andon FM Scraper",
+    "corrected": "Untersuchung Playlist Andon FM / OpenAIR RAAFAN"
+  },
+  {
+    "ts": "2026-03-18T08:26:53",
+    "start": "07:44",
+    "end": "07:48",
+    "original": "Radio Würmchen (ngrok)",
+    "corrected": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP"
+  },
+  {
+    "ts": "2026-03-18T08:27:11",
+    "start": "07:44",
+    "end": "07:46",
+    "original": "Radio Würmchen (ngrok)",
+    "corrected": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP"
+  },
+  {
+    "ts": "2026-03-18T08:28:43",
+    "start": "07:48",
+    "end": "07:50",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung nicht gespielte Titel Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-18T08:29:02",
+    "start": "07:53",
+    "end": "07:54",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung nicht gespielte Titel Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-18T08:30:22",
+    "start": "08:05",
+    "end": "08:06",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung nicht gespielte Titel Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-18T22:15:24",
+    "start": "18:23",
+    "end": "18:33",
+    "original": "Dateiverwaltung (Explorer)",
+    "corrected": "Research ACP-Sitzungen für OpenClaw PCOCAC"
+  },
+  {
+    "ts": "2026-03-18T22:16:13",
+    "start": "18:24",
+    "end": "19:20",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion ACP-Sitzungen / Subagents mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-18T22:17:01",
+    "start": "18:24",
+    "end": "19:20",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion ACP-Sitzungen / Subagents mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-18T22:17:10",
+    "start": "18:24",
+    "end": "19:20",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion ACP-Sitzungen / Subagents mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-18T22:17:45",
+    "start": "19:21",
+    "end": "19:23",
+    "original": "Bearbeitung in VS Code",
+    "corrected": "Lesen TOOLS.md in VS Code PCOCIN"
+  },
+  {
+    "ts": "2026-03-18T22:18:22",
+    "start": "19:35",
+    "end": "19:39",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung Playlist Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-18T22:19:09",
+    "start": "19:27",
+    "end": "19:34",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung Playlist Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-18T22:22:43",
+    "start": "19:39",
+    "end": "20:01",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Chat-GPT Memories INSUSU"
+  },
+  {
+    "ts": "2026-03-18T22:23:01",
+    "start": "19:39",
+    "end": "20:03",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Chat-GPT Memories INSUSU"
+  },
+  {
+    "ts": "2026-03-18T22:26:35",
+    "start": "20:14",
+    "end": "20:19",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion ACP-Sitzungen / Subagents mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-18T22:27:57",
+    "start": "20:19",
+    "end": "20:36",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen AI Arena moltchess"
+  },
+  {
+    "ts": "2026-03-18T22:28:54",
+    "start": "20:36",
+    "end": "20:40",
+    "original": "Radio Würmchen (ngrok)",
+    "corrected": "Prüfung Radio Würmchen KI-Programm RWMPMP"
+  },
+  {
+    "ts": "2026-03-18T22:32:34",
+    "start": "20:43",
+    "end": "20:50",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Bau Abfrage für Musikrichtungen in Andon FM-Library RAAFAN"
+  },
+  {
+    "ts": "2026-03-18T22:33:14",
+    "start": "20:50",
+    "end": "20:52",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Tweet an Thinking Frequencies (Boney M. in Disco/Funk-Sendung) RWMPAR"
+  },
+  {
+    "ts": "2026-03-18T22:33:45",
+    "start": "20:50",
+    "end": "21:00",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Tweet an Thinking Frequencies (Boney M. in Disco/Funk-Sendung) RWMPAR"
+  },
+  {
+    "ts": "2026-03-18T22:34:00",
+    "start": "20:50",
+    "end": "21:02",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Tweet an Thinking Frequencies (Boney M. in Disco/Funk-Sendung) RWMPAR"
+  },
+  {
+    "ts": "2026-03-18T22:34:23",
+    "start": "20:50",
+    "end": "21:08",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Tweet an Thinking Frequencies (Boney M. in Disco/Funk-Sendung) RWMPAR"
+  },
+  {
+    "ts": "2026-03-18T22:35:59",
+    "start": "21:08",
+    "end": "21:09",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-18T22:36:20",
+    "start": "21:09",
+    "end": "21:10",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Tweet an Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-18T22:36:37",
+    "start": "21:09",
+    "end": "21:11",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Tweet an Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-18T22:40:27",
+    "start": "21:12",
+    "end": "21:14",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-18T22:43:23",
+    "start": "21:24",
+    "end": "21:28",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Surfen X"
+  },
+  {
+    "ts": "2026-03-18T22:47:22",
+    "start": "21:41",
+    "end": "21:45",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-18T22:47:49",
+    "start": "21:45",
+    "end": "21:46",
+    "original": "Fahrt BRZG BRFAFA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-18T22:49:12",
+    "start": "21:51",
+    "end": "21:52",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-18T22:49:45",
+    "start": "21:51",
+    "end": "21:57",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-18T22:50:52",
+    "start": "21:57",
+    "end": "22:01",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung (Windowlog)"
+  },
+  {
+    "ts": "2026-03-18T22:51:02",
+    "start": "21:57",
+    "end": "22:01",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-18T22:51:24",
+    "start": "22:02",
+    "end": "22:03",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-18T22:52:40",
+    "start": "22:03",
+    "end": "22:05",
+    "original": "Bearb. Essensplan im BRZ BREPGM",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-18T22:52:52",
+    "start": "22:03",
+    "end": "22:06",
+    "original": "Bearb. Essensplan im BRZ BREPGM",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-18T22:53:24",
+    "start": "22:06",
+    "end": "22:08",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  }
+]

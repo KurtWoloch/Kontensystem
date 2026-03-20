@@ -1,7 +1,156 @@
 # Verbesserungen Nacherfassung / Ablauf-Erfassung
 
-Stand: 2026-03-17
-Quelle: Analyse des Tagesberichts 2026-03-13 + Diskussion der Schmerzpunkte
+Stand: 2026-03-20
+Quelle: Analyse der Tagesberichte 2026-03-13, 2026-03-19 + Diskussion der Schmerzpunkte
+
+---
+
+## ⚠️ PRIORITÄT: Planer-Desynchronisation und Angstblockade (2026-03-20)
+
+### Hintergrund: Das eigentliche Problem
+
+Am 19.03.2026 und 18.03.2026 trat ein wiederkehrendes Muster auf, das Kurt als
+"sinnloses Tun" beschreibt — eine Art Handlungsblockade, bei der zwar Aktivität
+stattfindet, aber ohne erkennbaren Zweck. Dieses Muster (in der Literatur als
+"autistic inertia" bekannt) tritt bei Kurt primär in zwei Situationen auf:
+
+1. **Der Planer zeigt einen Zustand, der nicht zur Realität passt** — nach einem
+   BRZ-Tag steht noch "Anziehen für Bürofahrt" als aktuelle Aktivität, darauf
+   folgen Items aus verschiedenen Listen in schwer nachvollziehbarer Reihenfolge.
+2. **Eine unerwartete Aufgabe muss in den Plan eingeschoben werden** — z.B. eine
+   dringende Mail, deren Einordnung in den Tagesablauf eine Meta-Entscheidung
+   erfordert, die das Arbeitsgedächtnis blockiert.
+
+In beiden Fällen entsteht eine Dreifachbelastung:
+- Gegenwart leben (essen, trinken, aktuelle Aufgaben)
+- Vergangenheit rekonstruieren (Nacherfassung)
+- System synchronisieren (Planer auf aktuellen Stand bringen)
+
+Die Nacherfassung wird dabei zum **Angst-Auslöser**: Sie erfordert, Lücken in
+nicht-chronologischer Reihenfolge zu füllen, vergangene und aktuelle Aktivitäten
+zu mischen, in einem System, das gerade "falsch" aussieht. Die Angst führt zu
+Vermeidung, die Vermeidung frisst Zeit, das Ergebnis sind Tage, die 1-2 Stunden
+länger dauern als nötig.
+
+**Kernproblem:** Der Planer ist als Queue gebaut (immer das nächste Item aus der
+Liste). Das funktioniert im Live-Modus (Morgentoilette, Abendzeremonie). Aber
+sobald Plan und Realität auseinanderdriften (BRZ-Rückkehr, unerwartete Aufgabe),
+wird die Queue selbst zum Blocker.
+
+**Vergleich mit dem alten Textdatei-System:** Im alten System konnte Kurt den
+BRZ-Block als Ganzes in den "erledigt"-Bereich verschieben, dann frei an
+beliebiger Stelle Zeiten eintragen — rückwärts von Ankerpunkten aus ("Ich war
+um 17:22 am ZET, also davor WC um 17:13, davor Einpacken um 17:07..."). Die
+Textdatei war ein räumliches Medium. Der neue Planer erzwingt dagegen eine
+sequentielle Logik, die mit nicht-sequentieller Erinnerung inkompatibel ist.
+
+### V8. Beliebige Aktivität aus "Geplant" direkt loggen
+
+**Priorität:** HOCH — adressiert direkt die Angstblockade
+**Aufwand:** niedrig-mittel (GUI-Änderung + Engine-Check)
+
+**Beschreibung:** Doppelklick auf einen beliebigen Eintrag in der "Geplant"-Liste
+öffnet den Log-Dialog (Start-/Endzeit, Kommentar). Die Aktivität wird ins Log
+geschrieben und intern als erledigt markiert. Wenn sie später in der Queue an die
+Reihe käme, wird sie automatisch übersprungen — kein Skip-Dialog, kein Duplikat.
+
+**Technisch:**
+- `gui.py`: Doppelklick-Handler auf Geplant-Einträge → bestehender Log-Dialog
+- `engine.py`: Beim Queue-Advance prüfen, ob Aktivität bereits im Log existiert
+  (Match auf Aktivitätsname). Falls ja: stillschweigend überspringen.
+- Log-Eintrag bekommt kein spezielles Flag — er sieht aus wie jeder andere Eintrag.
+
+**Löst:** Das "5 Listen dazwischen"-Problem. Statt sich durch die Queue zu kämpfen,
+klickt Kurt direkt das Item an, das er loggen will.
+
+### V9. Bereinigte Projektion als alternative Ansicht
+
+**Priorität:** HOCH — gibt Überblick bei desynchronisiertem Planer
+**Aufwand:** mittel (neue Ansicht in GUI, liest bestehende Projektionsdatei)
+
+**Beschreibung:** Toggle-Button oder Tab "Restplan", der die originale Tagesprojektion
+anzeigt, aber ohne bereits erledigte/übersprungene Aktivitäten. Zeigt den Tag in
+chronologischer Reihenfolge mit den geplanten Zeiten.
+
+**Technisch:**
+- `projection-YYYY-MM-DD.json` laden (existiert bereits)
+- Gegen aktuelles Log filtern (Name-Match → ausblenden)
+- Anzeige als scrollbare Liste mit est_start/est_end
+- Doppelklick → Log-Dialog (wie V8)
+
+**Löst:** Die Orientierungslosigkeit nach BRZ-Rückkehr. Statt "wilde Mischung aus
+5 Listen" sieht Kurt: "Das steht noch aus, in dieser Reihenfolge".
+
+**Verhältnis zu V5:** Erweitert V5 um die Integration mit V8 (direktes Loggen aus
+der Projektionsansicht) und löst damit das dort als "offener Punkt" genannte
+Verdopplungs-Problem, weil V8 die automatische Skip-Logik liefert.
+
+### V10. "Bis hierher erledigt" — Bulk-Complete
+
+**Priorität:** HOCH — eliminiert die Desynchronisation in Sekunden statt Minuten
+**Aufwand:** mittel (Bulk-Operation auf Projection-Daten)
+
+**Beschreibung:** In der bereinigten Projektion (V9) kann Kurt eine Aktivität
+auswählen und "Bis hierher erledigt" klicken. Alle Aktivitäten von der aktuellen
+Position bis zum gewählten Punkt werden ins Log geschrieben.
+
+**Zeitenfrage:** Die geplanten Zeiten aus der Projektion werden als vorläufige
+Zeiten übernommen. Sie können später korrigiert werden (Nacherfassung als separate
+Aufgabe), aber der Planer ist sofort synchron.
+
+**Trennung der Probleme:**
+- **Planer synchronisieren** → sofort, mit Projektions-Zeiten → 10 Sekunden
+- **Zeiten korrigieren** → später, in Ruhe, als eigene Aufgabe → ankerbassierte
+  Rekonstruktion in beliebiger Reihenfolge
+
+**Technisch:**
+- Iteriert über Projektion bis zum gewählten Item
+- Für jedes Item: Log-Eintrag mit `started_at`/`completed_at` aus Projektion
+- Optional: `estimated: true`-Flag für spätere Korrektur-Erkennung
+- Queue springt zum nächsten nicht-erledigten Item
+
+**Löst:** Den "Ich muss erst 30 Minuten nacherfassen, bevor der Planer wieder
+richtig funktioniert"-Blocker. Der Planer ist in 10 Sekunden synchron.
+
+### Zusammenwirken der drei Features
+
+**Szenario: Heimkehr vom BRZ (bisher):**
+1. Planer zeigt "Anziehen" → Chaos
+2. Nacherfassung nötig, bevor weitermachen → Angst → Vermeidung
+3. Sinnloses Tun → 1-2h Verzögerung
+
+**Szenario: Heimkehr vom BRZ (mit V8/V9/V10):**
+1. "Restplan" öffnen → chronologische Liste → "bis hierher erledigt" bis
+   zum letzten BRZ-Punkt → Planer zeigt sofort die aktuelle Aktivität
+2. Normal weiterarbeiten im Live-Modus
+3. Am Abend, als eigene Aufgabe: BRZ-Zeiten korrigieren (rückwärts von
+   Ankerpunkten, in beliebiger Reihenfolge via V8/V9)
+
+**Geschätzte Wirkung:** 30-60 Minuten Zeitersparnis pro BRZ-Tag, plus
+Vermeidung der Angstblockade und des daraus folgenden "sinnlosen Tuns".
+
+### Architektur-Warnung: Komplexitätsgrenze windowmon_import.py
+
+Stand 2026-03-20 hat `_consolidate_blocks` in `windowmon_import.py` 6 Passes
+(0a, 0b, 1, 1.5, 2, plus implizite Vor-/Nachbearbeitung). Jeder Fix fügt
+Komplexität hinzu, die beim nächsten Fix schwer zu überblicken ist.
+
+Die Features V1-V3a aus diesem Dokument (windowmon-Analyse-Verbesserungen) sollten
+**nicht** auf die aktuelle Architektur draufgepackt werden. Stattdessen wäre ein
+Refactoring-Schritt sinnvoll, bei dem Kurt selbst die Grundlogik vereinfacht —
+analog zu den Architektur-Entscheidungen beim Radio-Würmchen-Projekt (z.B.
+DJ Brain als eigenständiges Python-Skript statt OpenClaw-Cron-Job).
+
+**Konkretes Beispiel für Vereinfachungspotential:** Das Lücken-Problem (Zeitblöcke
+ohne Window-Events werden nicht in der Nacherfassung angeboten) wird aktuell durch
+synthetische Events + Consolidation gelöst. Kurts Vorschlag: stattdessen einfach
+auf das letzte Event vor der Lücke und das erste Event danach schauen und an
+Minutengrenzen abschneiden — konzeptuell simpler, weniger Passes nötig.
+
+Die V8/V9/V10-Features betreffen dagegen die **GUI und Queue-Logik**, nicht die
+windowmon-Analyse, und sind daher ohne Komplexitätsrisiko umsetzbar.
+
+---
 
 ## Kontext
 

@@ -410,10 +410,24 @@ class PlannerGUI:
         queue_panel = tk.Frame(self.root, bg=COLOR_PANEL, relief=tk.FLAT, bd=1)
         queue_panel.pack(fill=tk.BOTH, expand=True, padx=10, pady=(4, 6))
 
-        tk.Label(
-            queue_panel, text="Geplant", font=("Segoe UI", 9, "bold"),
+        queue_header = tk.Frame(queue_panel, bg=COLOR_PANEL)
+        queue_header.pack(fill=tk.X)
+
+        self._queue_mode = "live"  # "live" or "restplan"
+
+        self.lbl_queue_title = tk.Label(
+            queue_header, text="Geplant", font=("Segoe UI", 9, "bold"),
             bg=COLOR_PANEL, fg=COLOR_HEADER, anchor="w", padx=8, pady=2
-        ).pack(fill=tk.X)
+        )
+        self.lbl_queue_title.pack(side=tk.LEFT)
+
+        self.btn_queue_toggle = tk.Button(
+            queue_header, text="📋 Restplan",
+            font=("Segoe UI", 8, "bold"), bg=COLOR_BTN, fg=COLOR_FG,
+            relief=tk.FLAT, cursor="hand2", padx=6, pady=1,
+            command=self._toggle_queue_mode
+        )
+        self.btn_queue_toggle.pack(side=tk.RIGHT, padx=8, pady=2)
 
         self.queue_listbox = tk.Listbox(
             queue_panel, bg=COLOR_LIST, fg=COLOR_FG,
@@ -429,7 +443,7 @@ class PlannerGUI:
 
         # Double-click on queue item → log it directly
         self.queue_listbox.bind("<Double-1>", self._on_queue_double_click)
-        # Right-click on queue item → skip it
+        # Right-click on queue item → skip it (live) or bulk-complete (restplan)
         self.queue_listbox.bind("<Button-3>", self._on_queue_right_click)
 
         # ── Button rows ───────────────────────────────────────────────
@@ -675,6 +689,47 @@ class PlannerGUI:
     #  Display updaters                                                    #
     # ------------------------------------------------------------------ #
 
+    def _toggle_queue_mode(self):
+        """Toggle between live projection and original-day Restplan (V9)."""
+        if self._queue_mode == "live":
+            self._queue_mode = "restplan"
+            self.lbl_queue_title.config(text="Restplan (Original)")
+            self.btn_queue_toggle.config(
+                text="📊 Live-Ansicht", bg=COLOR_ACCENT, fg="#1e1e2e")
+        else:
+            self._queue_mode = "live"
+            self.lbl_queue_title.config(text="Geplant")
+            self.btn_queue_toggle.config(
+                text="📋 Restplan", bg=COLOR_BTN, fg=COLOR_FG)
+        self._update_queue()
+
+    def _get_restplan_items(self) -> list:
+        """V9: Return original projection items not yet completed/skipped.
+
+        Reads the initial projection (saved at day start) and filters
+        out items that already appear in the log.
+        """
+        if not self._initial_projection:
+            return []
+
+        # Build set of logged activities: (list_name, activity)
+        logged = set()
+        for item in self.engine.log:
+            logged.add((item.list_name, item.activity))
+            if item.original_activity:
+                logged.add((item.list_name, item.original_activity))
+
+        result = []
+        for proj in self._initial_projection:
+            key = (proj.get("list_name", ""), proj.get("activity", ""))
+            if key in logged:
+                # Mark as done and remove from set so duplicate
+                # activities (e.g. two WC entries) consume one each
+                logged.discard(key)
+                continue
+            result.append(proj)
+        return result
+
     def _update_clock(self):
         now = datetime.now()
         self.lbl_clock.config(text=now.strftime("%H:%M"))
@@ -841,6 +896,22 @@ class PlannerGUI:
         self.queue_listbox.delete(0, tk.END)
         self._queue_index_map = {}
 
+        # V9: choose data source based on queue mode
+        if self._queue_mode == "restplan":
+            self._render_restplan()
+        else:
+            self._render_live_projection()
+
+        # Restore scroll position
+        self.queue_listbox.yview_moveto(scroll_pos[0])
+
+        # Restore queue_listbox selection if still valid
+        if queue_sel and queue_sel[0] < self.queue_listbox.size():
+            self.queue_listbox.selection_set(queue_sel[0])
+            self.queue_listbox.see(queue_sel[0])
+
+    def _render_live_projection(self):
+        """Render the live engine projection (original queue view)."""
         projection = self.engine.get_day_projection()
         if not projection:
             self.queue_listbox.insert(tk.END, "  (keine weiteren Einträge)")
@@ -879,43 +950,110 @@ class PlannerGUI:
                 self.queue_listbox.insert(tk.END, f"  {list_tag}")
                 self.queue_listbox.itemconfig(
                     tk.END, fg=COLOR_HEADER, selectforeground=COLOR_HEADER)
-                # Tag line has no projection data — don't add to map
 
             prefix = "▶ " if state == "current" else "  "
             fixed = "⏰" if item.get('fixed_time') else "  "
-            # Mark actionable candidates with a click hint
             click_hint = " 🖱" if is_candidate and state != "current" else ""
 
             entry = (f"{prefix}{time_col}–{end_col}  {fixed} "
                      f"{name}  ({mins}'){click_hint}")
             self.queue_listbox.insert(tk.END, entry)
 
-            # Store mapping for this index
             idx = self.queue_listbox.size() - 1
             self._queue_index_map[idx] = item
 
-            # Color by state
             if state == 'current':
                 self.queue_listbox.itemconfig(
-                    idx, fg=COLOR_ACCENT,
-                    selectforeground=COLOR_ACCENT)
+                    idx, fg=COLOR_ACCENT, selectforeground=COLOR_ACCENT)
             elif is_candidate:
-                # Ready candidates get a distinct color
                 self.queue_listbox.itemconfig(
-                    idx, fg=COLOR_DONE,
-                    selectforeground=COLOR_DONE)
+                    idx, fg=COLOR_DONE, selectforeground=COLOR_DONE)
             elif state == 'scheduled':
                 self.queue_listbox.itemconfig(
-                    idx, fg=COLOR_WAIT,
-                    selectforeground=COLOR_WAIT)
+                    idx, fg=COLOR_WAIT, selectforeground=COLOR_WAIT)
 
-        # Restore scroll position
-        self.queue_listbox.yview_moveto(scroll_pos[0])
+    def _render_restplan(self):
+        """V9: Render the original day projection minus completed items.
 
-        # Restore queue_listbox selection if still valid
-        if queue_sel and queue_sel[0] < self.queue_listbox.size():
-            self.queue_listbox.selection_set(queue_sel[0])
-            self.queue_listbox.see(queue_sel[0])
+        Shows the initial projection (from file) in chronological order,
+        filtered to remove already-logged activities. All items are
+        double-clickable for out-of-order logging (V8).
+        """
+        items = self._get_restplan_items()
+        if not items:
+            self.queue_listbox.insert(
+                tk.END, "  ✓ Alle Aktivitäten erledigt!")
+            self.queue_listbox.itemconfig(
+                tk.END, fg=COLOR_DONE, selectforeground=COLOR_DONE)
+            return
+
+        # Build set of currently actionable candidates
+        candidates = self.engine.get_all_candidates()
+        candidate_keys = set()
+        for ls, row in candidates:
+            candidate_keys.add((ls.name, row.activity))
+
+        now = datetime.now()
+        now_str = now.strftime("%H:%M")
+        passed_now = False  # track if we've passed current time
+
+        prev_list = None
+        for proj in items:
+            act = proj.get("activity", "")
+            ln = proj.get("list_name", "")
+            mins = proj.get("minutes", 0)
+            est_start = proj.get("est_start", "")
+            est_end = proj.get("est_end", "")
+            fixed = proj.get("fixed_time")
+
+            name = _strip_task_code(act)
+            is_candidate = (ln, act) in candidate_keys
+
+            # Show list tag when list changes
+            if ln != prev_list:
+                self.queue_listbox.insert(tk.END, f"  [{ln}]")
+                self.queue_listbox.itemconfig(
+                    tk.END, fg=COLOR_HEADER, selectforeground=COLOR_HEADER)
+                prev_list = ln
+
+            # Time marker: insert "── jetzt ──" line at current time
+            if not passed_now and est_start and est_start >= now_str:
+                passed_now = True
+                self.queue_listbox.insert(
+                    tk.END, f"  ─── {now_str} jetzt ───")
+                self.queue_listbox.itemconfig(
+                    tk.END, fg=COLOR_ACCENT, selectforeground=COLOR_ACCENT)
+
+            fixed_mark = "⏰" if fixed else "  "
+            click_hint = " 🖱" if is_candidate else ""
+
+            entry = (f"  {est_start or '     '}–{est_end or '     '}"
+                     f"  {fixed_mark} {name}  ({mins}'){click_hint}")
+            self.queue_listbox.insert(tk.END, entry)
+
+            idx = self.queue_listbox.size() - 1
+            # Store as projection-compatible dict for double-click handler
+            self._queue_index_map[idx] = {
+                'activity': act,
+                'list_name': ln,
+                'minutes': mins,
+                'state': 'upcoming',
+                'fixed_time': fixed,
+                'est_start': est_start,
+                'est_end': est_end,
+            }
+
+            # Color: candidates green, past items dimmed, future normal
+            if is_candidate:
+                self.queue_listbox.itemconfig(
+                    idx, fg=COLOR_DONE, selectforeground=COLOR_DONE)
+            elif est_start and est_start < now_str:
+                # Past the planned time — dim
+                self.queue_listbox.itemconfig(
+                    idx, fg="#7f849c", selectforeground="#7f849c")
+            else:
+                self.queue_listbox.itemconfig(
+                    idx, fg=COLOR_FG, selectforeground=COLOR_FG)
 
     def _update_status(self):
         done = self.engine.items_done_today()
@@ -1063,15 +1201,19 @@ class PlannerGUI:
             self._show_task_dialog("skip", ls, row)
 
     def _show_task_dialog(self, mode: str, ls=None, row=None,
-                          prefill_activity: str = ""):
+                          prefill_activity: str = "",
+                          prefill_list: str = ""):
         """Unified dialog for done/skip/adhoc/interrupt modes."""
         cfg = DIALOG_CONFIG[mode]
         dlg = tk.Toplevel(self.root)
 
         # Override title for adhoc with prefill
-        title = ("Vorgezogene Aktivität erfassen"
-                 if mode == "adhoc" and prefill_activity
-                 else cfg["title"])
+        if mode == "adhoc" and prefill_activity and prefill_list:
+            title = f"Vorgezogene Aktivität erfassen — {prefill_list}"
+        elif mode == "adhoc" and prefill_activity:
+            title = "Vorgezogene Aktivität erfassen"
+        else:
+            title = cfg["title"]
         dlg.title(title)
         dlg.configure(bg=COLOR_BG)
         dlg.resizable(False, False)
@@ -1100,10 +1242,16 @@ class PlannerGUI:
 
         # ── Adhoc prefill hint ─────────────────────────────────────────
         if mode == "adhoc" and prefill_activity:
+            if prefill_list:
+                hint_text = ("Diese Aktivität wird vorgezogen. "
+                             "Sie wird beim regulären Erreichen "
+                             "automatisch übersprungen.")
+            else:
+                hint_text = ("Diese Aktivität wird vorgezogen. "
+                             "Beim regulären Erreichen bitte überspringen.")
             tk.Label(
                 dlg,
-                text="Diese Aktivität wird vorgezogen. "
-                     "Beim regulären Erreichen bitte überspringen.",
+                text=hint_text,
                 font=("Segoe UI", 8, "italic"),
                 bg=COLOR_BG, fg=COLOR_WAIT, wraplength=450,
                 justify=tk.LEFT
@@ -1421,8 +1569,11 @@ class PlannerGUI:
                 self.engine.mark_skip(ls, row, comment=comment)
             elif mode == "adhoc":
                 activity = txt_var.get().strip()
+                # V8: use prefill_list if provided (out-of-order logging
+                # from queue) — engine will auto-skip when queue reaches it
+                list_name = prefill_list if prefill_list else "ungeplant"
                 self.engine.log_adhoc(activity, start_time, end_time,
-                                      comment=comment)
+                                      list_name=list_name, comment=comment)
                 # Learn code from unplanned activity
                 self._code_suggestor.learn(activity)
             elif mode == "interrupt":
@@ -1528,12 +1679,19 @@ class PlannerGUI:
             ls, row = match
             self._show_task_dialog("done", ls, row)
         else:
-            # Future item — open ad-hoc dialog with name pre-filled
+            # Future item — open ad-hoc dialog with name pre-filled.
+            # V8: pass list_name so it's logged under the correct list
+            # (engine will auto-skip when the queue reaches it).
             self._show_task_dialog("adhoc",
-                                   prefill_activity=proj_item['activity'])
+                                   prefill_activity=proj_item['activity'],
+                                   prefill_list=proj_item.get('list_name', ''))
 
     def _on_queue_right_click(self, event):
-        """Right-click a queue item to skip it (candidates only)."""
+        """Right-click a queue item.
+
+        Live mode: skip it (candidates only).
+        Restplan mode: context menu with "Bis hierher erledigt" (V10).
+        """
         idx = self.queue_listbox.nearest(event.y)
         if idx < 0:
             return
@@ -1544,6 +1702,12 @@ class PlannerGUI:
         if proj_item is None:
             return
 
+        # V10: Restplan mode → show context menu
+        if self._queue_mode == "restplan":
+            self._show_restplan_context_menu(event, idx, proj_item)
+            return
+
+        # Live mode → skip
         match = self._find_candidate_for_item(proj_item)
         if match is None:
             act_name = _strip_task_code(proj_item['activity'])
@@ -1560,6 +1724,130 @@ class PlannerGUI:
 
         ls, row = match
         self._show_task_dialog("skip", ls, row)
+
+    def _show_restplan_context_menu(self, event, clicked_idx, clicked_item):
+        """V10: Show context menu for Restplan items."""
+        menu = tk.Menu(self.root, tearoff=0,
+                       bg=COLOR_LIST, fg=COLOR_FG,
+                       activebackground=COLOR_ACCENT,
+                       activeforeground="#1e1e2e",
+                       font=("Segoe UI", 10))
+
+        act_name = _strip_task_code(clicked_item['activity'])
+
+        menu.add_command(
+            label=f"✓ Bis hierher erledigt (inkl. {act_name})",
+            command=lambda: self._bulk_complete_until(clicked_idx)
+        )
+        menu.add_command(
+            label=f"📝 Einzeln loggen: {act_name}",
+            command=lambda: self._on_queue_double_click_at(clicked_idx)
+        )
+
+        menu.tk_popup(event.x_root, event.y_root)
+
+    def _on_queue_double_click_at(self, idx):
+        """Trigger double-click logic for a specific index."""
+        proj_item = self._queue_index_map.get(idx)
+        if proj_item is None:
+            return
+        match = self._find_candidate_for_item(proj_item)
+        if match is not None:
+            ls, row = match
+            self._show_task_dialog("done", ls, row)
+        else:
+            self._show_task_dialog("adhoc",
+                                   prefill_activity=proj_item['activity'],
+                                   prefill_list=proj_item.get('list_name', ''))
+
+    def _bulk_complete_until(self, target_idx):
+        """V10: Mark all Restplan items up to and including target_idx as done.
+
+        Uses the original projection times as estimated times.
+        Items are logged under their original list names so the engine
+        auto-skips them (V8).
+        """
+        # Collect all restplan items from the queue up to target_idx
+        items_to_log = []
+        for i in range(self.queue_listbox.size()):
+            proj = self._queue_index_map.get(i)
+            if proj is None:
+                continue  # header line
+            items_to_log.append(proj)
+            if i >= target_idx:
+                break
+
+        if not items_to_log:
+            return
+
+        # Show confirmation dialog
+        count = len(items_to_log)
+        first_name = _strip_task_code(items_to_log[0]['activity'])
+        last_name = _strip_task_code(items_to_log[-1]['activity'])
+
+        if count == 1:
+            msg = f"1 Aktivität als erledigt markieren?\n\n• {first_name}"
+        elif count <= 5:
+            names = "\n".join(
+                f"• {_strip_task_code(it['activity'])}"
+                for it in items_to_log
+            )
+            msg = f"{count} Aktivitäten als erledigt markieren?\n\n{names}"
+        else:
+            msg = (f"{count} Aktivitäten als erledigt markieren?\n\n"
+                   f"Von: {first_name}\n"
+                   f"Bis: {last_name}\n\n"
+                   f"Die geplanten Zeiten werden als vorläufige Werte "
+                   f"übernommen und können später korrigiert werden.")
+
+        answer = messagebox.askyesno(
+            "Bis hierher erledigt", msg, icon="question")
+        if not answer:
+            return
+
+        # Log each item with its projection times
+        now = datetime.now()
+        session_date = self.engine.session_date
+
+        for item in items_to_log:
+            activity = item['activity']
+            list_name = item.get('list_name', 'ungeplant')
+            mins = item.get('minutes', 0)
+            est_start_str = item.get('est_start', '')
+            est_end_str = item.get('est_end', '')
+
+            # Parse projection times
+            try:
+                if isinstance(est_start_str, str) and est_start_str:
+                    t = datetime.strptime(est_start_str, "%H:%M")
+                    start_dt = now.replace(
+                        hour=t.hour, minute=t.minute,
+                        second=0, microsecond=0)
+                else:
+                    start_dt = now
+            except ValueError:
+                start_dt = now
+
+            try:
+                if isinstance(est_end_str, str) and est_end_str:
+                    t = datetime.strptime(est_end_str, "%H:%M")
+                    end_dt = now.replace(
+                        hour=t.hour, minute=t.minute,
+                        second=0, microsecond=0)
+                else:
+                    end_dt = start_dt + timedelta(minutes=mins)
+            except ValueError:
+                end_dt = start_dt + timedelta(minutes=mins)
+
+            # Log under the correct list (V8 auto-skip will handle it)
+            self.engine.log_adhoc(
+                activity, start_dt, end_dt,
+                list_name=list_name,
+                comment="Bulk-Complete (Restplan)"
+            )
+
+        # Refresh to show changes
+        self._refresh()
 
     # ------------------------------------------------------------------ #
     #  Log editing handlers                                                #

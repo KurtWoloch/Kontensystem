@@ -1,0 +1,141 @@
+=================================================================
+  TAGESBERICHT — 2026-03-19
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:       94
+  Geplante Gesamtzeit:         14h 36m
+
+  ✓ Erledigt (geplant):       60  (   10h 56m)  = 74.9%
+  ⏭ Übersprungen:             13  (       59m)  = 6.7%
+  ✗ Nicht erreicht:           21  (    2h 41m)  = 18.4%
+
+  📝 Ungeplante Aktivitäten:  19  (    1h 19m)
+  ⏱  Tatsächliche Arbeitszeit:    16h 03m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  PC herunterfahren LEAZHF              23:17     00:12 -23h 05m
+  Bearb.Ohrwürmer (durchzunehmende au   23:15     00:12 -23h 03m
+  im Bett                               23:18     00:16 -23h 02m
+  Einschmieren GEAZES                   23:08     00:10 -22h 58m
+  Bearb.Ohrwürmer (durchzunehmende au   23:06     00:09 -22h 57m
+  Bearb. Ohrwürmer (durchzunehmende)    21:00     08:06 -12h 54m
+  Wohnung lüften WFLULU                 21:01     12:48  -8h 13m
+  Bearb. Essensplan (gegessen, zu ess   14:36     21:57  +7h 21m
+  WC BREPWC                             19:55     12:41  -7h 14m
+  PC herunterfahren PCHFHF              20:04     12:52  -7h 12m
+  Der Außentemperatur entsprechend an   20:06     12:54  -7h 12m
+  Bearb. Ohrwürmer (durchzunehmende)    14:49     08:06  -6h 43m
+  Versorgung Mitbringsel LEPOPO         20:48     14:26  -6h 22m
+  Laufen / Scootersuche GEGYLS          20:08     14:09  -5h 59m
+  Arbeitszeit absolvieren (Nachmittag   19:32     14:31  -5h 01m
+  ... und 45 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Anziehen LEMTAN
+    Grund: wurde vorgezogen
+  ⏭ Bett machen LEMTBM
+    Grund: schon erledigt
+  ⏭ Vorbereitung Playlist für Hören beim Frühstüc
+    Grund: schon erledigt
+  ⏭ Mund spülen LEMTMS
+    Grund: schon erledigt
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft (nichts gebraucht)
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: wurde so nicht durchgenommen
+  ⏭ Ansehen ZiB 1 + Wetter RATVZI
+    Grund: nicht angesehen, weil noch Teleworking gelaufen
+  ⏭ Jause fassen LEMTJF
+    Grund: schon erfasst
+  ⏭ PC herunterfahren PCHFAR
+    Grund: wurde nicht heruntergefahren
+  ⏭ Planung BRZ BREPGM
+    Grund: schon erfasst
+  ⏭ WC BREPWC
+    Grund: schon erfasst
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Rasieren, dabei Planung + Vortagesreview (Rea
+    Grund: schon in der Früh eingetragen
+  ⏭ Wenn "Warst Du heute schon draußen?", , sonst
+    Grund: Entscheidung: Ja
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Wenn "Warst Du heute schon draußen?", , sonst
+    Grund: Entscheidung: Ja
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Wenn "Warst Du heute schon draußen?", , sonst
+    Grund: Entscheidung: Ja
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Wenn "Warst Du heute schon draußen?", , sonst
+    Grund: Entscheidung: Ja
+  ⏭ WC LEAZWC
+    Grund: muss nicht
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:51–06:52  WC LEMTWC
+  📝 08:13–08:16  Nacherfassung Ablauf KSPLNA
+  📝 08:56–09:00  Anziehen LEMTAN
+  📝 09:00–09:04  Bett machen LEMTBM
+  📝 10:24–10:26  Mund spülen LEMTMS
+  📝 10:38–10:42  Jause fassen LEMTJF
+  📝 11:20–11:30  Planung BRZ BREPGM
+  📝 00:00–00:09  Nacherfassung Ablauf KSPLNA
+  📝 22:38–22:40  Medikament fassen
+  📝 22:40–22:47  WC LEAZWC
+  📝 22:47–22:49  Nacherfassung Ablauf KSPLNA
+  📝 22:49–22:55  Meldung Planer-Fehler an OpenClaw KSPLEN
+  📝 23:25–23:26  Nacherfassung Ablauf KSPLNA
+  📝 23:26–23:29  Meldung Planungsfehler an OpenClaw KSPLE
+  📝 23:29–23:32  Nacherfassung Ablauf KSPLNA
+  📝 23:39–23:50  vor PC eingeschlafen LESCPC
+  📝 23:52–23:53  Nacherfassung Ablauf KSPLNA
+  📝 23:53–23:58  Meldung Planungsfehler an OpenClaw KSPLE
+  📝 23:58–23:59  Nacherfassung Ablauf KSPLNA
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 08:57  Anhören RW-Prg. / Tonträger / Radiosende  (8m)
+  ✗ 09:05  Termine in Kalender prüfen LEMTTP  (1m)
+  ✗ 09:06  Mailprüfung INMAPR  (2m)
+  ✗ 09:08  Prüfung Bewässerung Terrasse WFTEBE  (2m)
+  ✗ 09:14  Prüfung Bewässerung Terrasse WFTEBE (Fs.  (2m)
+  ✗ 10:23  Prüfung Bewässerung Terrasse WFTEBE (Fs.  (1m)
+  ✗ 10:24  Bearb. Essensplan (Kontrolle / zu essen   (7m)
+  ✗ 13:30  Mittagessen (selbst kochen / kalt)  (60m)
+  ✗ 14:30  Geschirr abwaschen LEMEGA  (5m)
+  ✗ 14:53  Teller waschen / Getränk fassen LEMTTW  (3m)
+  ✗ 21:05  Bearb. Essensplan (Kontrolle / zu essen   (3m)
+  ✗ 21:08  Bearb. Essensplan (Update Händlerangebot  (11m)
+  ✗ 21:19  Bearb. Liste auswendig singbarer Titel M  (1m)
+  ✗ 21:23  Bearb. Liste auswendig singbarer Titel M  (4m)
+  ✗ 21:27  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (10m)
+  ✗ 21:37  Bearb. Liste Scooterfahrten FZSCLI  (9m)
+  ✗ 21:46  Anhören RW-Prg. / Tonträger / Radiosende  (8m)
+  ✗ 21:54  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 21:58  Bearb. Essensplan (Protokoll) LEEPPR  (8m)
+  ✗ 22:06  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:14  Bearbeitung Aufgaben zu Papa's Pflege (1  (4m)
+
+=================================================================

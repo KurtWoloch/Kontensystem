@@ -1,0 +1,150 @@
+=================================================================
+  TAGESBERICHT — 2026-03-17
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:       99
+  Geplante Gesamtzeit:         16h 48m
+
+  ✓ Erledigt (geplant):       52  (   11h 00m)  = 65.5%
+  ⏭ Übersprungen:             21  (    3h 03m)  = 18.2%
+  ✗ Nicht erreicht:           26  (    2h 45m)  = 16.4%
+
+  📝 Ungeplante Aktivitäten:  21  (    1h 33m)
+  ⏱  Tatsächliche Arbeitszeit:    15h 51m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Anhören RW-Prg. / Tonträger / Radio   08:56     21:36 +12h 40m
+  Mailprüfung INMAPR                    08:21     14:37  +6h 16m
+  WC BREPWC                             14:10     20:21  +6h 11m
+  Geschirr abwaschen LEMEGA             14:04     20:10  +6h 06m
+  WC BREPWC                             14:25     20:21  +5h 56m
+  Bearb.Ohrwürmer (durchgenommen) MUO   07:09     10:49  +3h 40m
+  Einschmieren GEMTES                   07:41     10:51  +3h 10m
+  Planung BRZ BREPGM (Fs.)              14:19     11:42  -2h 37m
+  Mund spülen LEMTMS                    08:37     10:57  +2h 20m
+  Häferl waschen / Hustenbonbon fasse   08:39     10:58  +2h 19m
+  Vorbereitung Playlist für Hören unt   06:53     09:09  +2h 16m
+  Blutdruck messen GEBMBM               09:21     11:32  +2h 11m
+  Versorgung Mitbringsel LEPOPO         19:55     21:29  +1h 34m
+  Der Außentemperatur entsprechend an   19:13     20:38  +1h 25m
+  Laufen / Scootersuche GEGYLS          19:15     20:40  +1h 25m
+  ... und 37 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Review Dokumentation BRZG KSBRDR
+    Grund: geht sich heute vor Teleworking nicht aus, danach wohl auch nicht
+  ⏭ Feinschliff bei der Rasur LEMTFR
+    Grund: schon erledigt
+  ⏭ Ausputzen Rasierer LEMTAR
+    Grund: schon erledigt
+  ⏭ Ausziehen LEMTAZ
+    Grund: schon erledigt
+  ⏭ Papiersortierung WFPAPA
+    Grund: schon erledigt
+  ⏭ WC LEMTWC
+    Grund: muss nicht
+  ⏭ Abwiegen LEMTAW
+    Grund: schon erledigt
+  ⏭ Reinigung Waschmuschel LEMTRW
+    Grund: schon erledigt
+  ⏭ Starten Youtube-Playlist MUOWSP
+    Grund: heute nicht Youtube gesehen
+  ⏭ Duschen LEMTDU
+    Grund: schon erledigt
+  ⏭ Anziehen LEMTAN
+    Grund: schon erledigt
+  ⏭ Bett machen LEMTBM
+    Grund: schon erledigt
+  ⏭ Vorbereitung Playlist für Hören beim Frühstüc
+    Grund: schon erledigt
+  ⏭ Frühstücken, dabei Vorbereitung Candeblo, Tee
+    Grund: schon erledigt
+  ⏭ PC herunterfahren PCHFAR
+    Grund: wird nicht heruntergefahren (RW-KI-Prg. läuft weiter)
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ WC BREPWC
+    Grund: muss nicht
+  ⏭ WC BREPWC
+    Grund: muss immer noch nicht
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft (morgen vielleicht)
+  ⏭ Teller waschen / Getränk + Medikament fassen 
+    Grund: schon vor Spazierengehen erledigt
+  ⏭ WC LEMTWC
+    Grund: muss im Moment nicht
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Wenn "Warst Du heute schon draußen?", , sonst
+    Grund: Entscheidung: Ja
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 07:33–07:36  Nacherfassung Ablauf KSPLNA
+  📝 07:38–07:40  WC LEMTWC
+  📝 08:54–09:00  Feinschliff bei der Rasur LEMTFR
+  📝 09:06–09:07  Ausputzen Rasierer LEMTAR
+  📝 09:07–09:08  Ausziehen LEMTAZ
+  📝 09:08–09:09  WC LEMTWC
+  📝 09:09–09:09  Abwiegen LEMTAW
+  📝 09:11–09:25  Duschen LEMTDU
+  📝 09:25–09:27  Anziehen LEMTAN
+  📝 09:27–09:29  Vorbereitung Playlist für Hören beim Frü
+  📝 09:29–09:36  Frühstücken, dabei Vorbereitung Candeblo
+  📝 09:37–09:40  Frühstücken, dabei Vorbereitung Candeblo
+  📝 09:59–10:27  Papiersortierung WFPAPA
+  📝 11:29–11:31  Nacherfassung Ablauf KSPLNA
+  📝 11:31–11:32  Wasser fassen LEMTGA
+  📝 18:00–18:02  Nachmittagsjause fassen LENAJA
+  📝 20:06–20:10  Nacherfassung Ablauf KSPLNA
+  📝 20:29–20:33  Lesen / Surfen OpenClaw / Moltbook INOCM  — noch etwas wegen Spenden an Andon Labs Stationen klarzustellen
+  📝 20:33–20:38  Teller waschen / Getränk + Medikament fa
+  📝 23:38–23:41  Diskussion Planner mit OpenClaw KSPLPL
+  📝 23:51–23:53  Analyse Andon FM RWPLAF
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 08:20  Termine in Kalender prüfen LEMTTP  (1m)
+  ✗ 08:23  Bearb. Essensplan (Kontrolle / zu essen   (10m)
+  ✗ 08:33  Ermittlung Gesamtzeiten (wenn nicht am M  (4m)
+  ✗ 08:41  Ermittlung Gesamtzeiten (wenn nicht am M  (2m)
+  ✗ 08:43  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (7m)
+  ✗ 09:04  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (3m)
+  ✗ 09:07  Bearb. Liste Scooterfahrten FZSCLI  (9m)
+  ✗ 20:07  Wohnung lüften WFLULU  (4m)
+  ✗ 20:11  Wäsche aus Waschmaschine nehmen LEKLWM  (10m)
+  ✗ 20:21  Ausmachen Arzttermine GEMRNA (Fs.)  (4m)
+  ✗ 20:25  Anhören Radiosender / Tonträger / Ansehe  (2m)
+  ✗ 20:31  Anhören Radiosender / Tonträger / Ansehe  (6m)
+  ✗ 20:37  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
+  ✗ 20:47  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 20:57  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 21:03  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:11  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 21:16  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 21:25  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 21:30  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 21:35  Bearbeitung Buch Champion's Mindset GELI  (11m)
+  ✗ 21:46  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 21:56  Führung Tagebuch, um schmerzhafte Situat  (4m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Führung Tagebuch, um schmerzhafte Situat  (6m)
+  ✗ 22:14  Papiersortierung (hereingekommene Papier  (6m)
+
+=================================================================

@@ -1,0 +1,481 @@
+
+======================================================================
+  AUTODETECT AUDIT — 2026-03-16
+======================================================================
+
+Raw entries: 1786
+
+──────────────────────────────────────────────────────────────────────
+  1. UNCLASSIFIABLE entries (→ potential new AutoDetect rules)
+──────────────────────────────────────────────────────────────────────
+
+  [142x] explorer.exe: 
+         06:07–23:53
+  [113x] explorer.exe: Programmumschaltung
+         06:11–23:48
+  [ 29x] python.exe: C:\Program Files\Python311\python.exe
+         06:11–23:41
+  [ 26x] explorer.exe: USB-STICK (F:)
+         06:51–22:41
+  [ 23x] AGENTSVR.EXE: 
+         08:50–23:49
+  [ 19x] EXCEL.EXE: Find
+         06:44–21:37
+  [ 13x] notepad.exe: Suchen
+         06:52–22:50
+  [ 10x] pythonw.exe: JSON → Tabelle
+         06:20–07:27
+  [  9x] python.exe: Aufgabe überspringen
+         18:21–23:46
+  [  9x] notepad.exe: Editor
+         20:37–22:50
+  [  7x] explorer.exe: Dateien ersetzen oder überspringen
+         08:50–19:55
+  [  6x] ApplicationFrameHost.exe: Rechner
+         18:53–23:52
+  [  4x] cmd.exe: Administrator: Eingabeaufforderung
+         06:07–06:08
+  [  4x] notepad.exe: Unbenannt - Editor
+         06:52–23:34
+  [  4x] SearchApp.exe: Suche
+         07:30–20:32
+  [  3x] explorer.exe: Checklisten_Winlogger
+         07:03–23:46
+  [  3x] ShellExperienceHost.exe: Sprungliste für Editor
+         07:47–23:52
+  [  3x] EXCEL.EXE: Save As
+         08:51–23:49
+  [  3x] EXCEL.EXE: Sort
+         18:28–21:40
+  [  2x] EXCEL.EXE: Microsoft Excel
+         06:13–18:27
+  [  2x] explorer.exe: docs
+         07:04–07:31
+  [  2x] explorer.exe: Explorer
+         18:25–18:42
+  [  2x] ShellExperienceHost.exe: Sprungliste für Microsoft Access
+         18:49–19:08
+
+  + 5 single-occurrence unclassifiable entries (not shown)
+
+──────────────────────────────────────────────────────────────────────
+  2. Classification summary (account/activity → count)
+──────────────────────────────────────────────────────────────────────
+
+  [246x] LE / Bearb. Essensplan LEEPEP  (07:31–23:52)
+  [216x] KS / Nacherfassung Ablauf KSPLNA  (06:49–23:45)
+  [182x] KS / Erfassung Ablauf KSPLEA  (06:02–23:53)
+  [126x] RA / Ansehen YouTube-Videos RAYTYT  (07:44–23:51)
+  [ 86x] KS / Diskussion OpenClaw KSPLEN  (06:02–23:53)
+  [ 78x] IN / div. Surfen INSUSU  (06:13–23:52)
+  [ 78x] RA / Surfen Andon FM RAAFSU  (06:13–23:50)
+  [ 35x] RA / Untersuchung Rotation Andon FM / OpenAIR RAAFAN  (06:13–23:47)
+  [ 20x] RA / Surfen X  (19:05–23:50)
+  [ 17x] RW / Andon FM Scraper  (09:00–20:05)
+  [ 14x] RW / Anhören Musik (Winamp)  (07:34–08:49)
+  [ 13x] KS / Bearbeitung Planungsaktivitäten KSPLEN  (06:44–23:47)
+  [ 12x] MU / Bearb. Ohrwürmer-Listen  (07:34–23:49)
+  [ 11x] IN / div. Surfen (News) INSUNE  (20:54–23:52)
+  [  8x] KS / Nacherfassung (Windowlog)  (06:52–23:45)
+  [  8x] KS / Review Duplicate Codes KSPLEN  (21:12–21:59)
+  [  7x] PC / Bearbeitung in VS Code  (07:04–08:50)
+  [  7x] RW / Scan Radio Würmchen  (07:30–23:52)
+  [  7x] RW / Radio Würmchen  (07:31–19:57)
+  [  6x] LE / Der Außentemperatur entsprechend anziehen LEAUAZ  (18:20–18:24)
+  [  5x] RW / Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP  (06:39–07:31)
+  [  4x] LE / Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA  (06:10–06:28)
+  [  4x] LE / Feinschliff bei der Rasur LEMTFR  (07:36–07:47)
+  [  4x] RW / Anhören Thinking Frequencies (Live365)  (23:20–23:50)
+  [  4x] LE / Zähne putzen LEAZZP  (23:34–23:36)
+
+──────────────────────────────────────────────────────────────────────
+  3. AutoDetect blocks vs actual planner log (mismatches)
+──────────────────────────────────────────────────────────────────────
+
+  06:03–06:08  (316s)
+    AutoDetect: [KS] Erfassung Ablauf KSPLEA
+    Logged as:  Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer) 
+    Source:     Liste_Morgentoilette
+
+  06:10–06:13  (137s)
+    AutoDetect: [KS] Diskussion OpenClaw KSPLEN
+    Logged as:  Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer) 
+    Source:     Liste_Morgentoilette
+
+  06:14–06:18  (274s)
+    AutoDetect: [KS] Diskussion OpenClaw KSPLEN
+    Logged as:  Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer) 
+    Source:     Liste_Morgentoilette
+
+  06:20–06:22  (145s)
+    AutoDetect: [IN] div. Surfen INSUSU
+    Logged as:  Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer) 
+    Source:     Liste_Morgentoilette
+
+  06:22–06:23  (72s)
+    AutoDetect: [KS] Diskussion OpenClaw KSPLEN
+    Logged as:  Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer) 
+    Source:     Liste_Morgentoilette
+
+  07:27–07:29  (83s)
+    AutoDetect: [KS] Nacherfassung Ablauf KSPLNA
+    Logged as:  Diskussion Tagesplanung mit OpenClaw KSPLEN
+    Source:     windowmon_import
+
+  07:36–07:41  (250s)
+    AutoDetect: [KS] Erfassung Ablauf KSPLEA
+    Logged as:  Feinschliff bei der Rasur LEMTFR
+    Source:     Liste_Morgentoilette
+
+  07:55–07:56  (60s)
+    AutoDetect: [KS] Erfassung Ablauf KSPLEA
+    Logged as:  Duschen LEMTDU
+    Source:     Liste_Morgentoilette
+
+  08:13–08:16  (171s)
+    AutoDetect: [KS] Erfassung Ablauf KSPLEA
+    Logged as:  Anziehen LEMTAN
+    Source:     Liste_Morgentoilette
+
+  08:43–08:44  (65s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-S
+    Source:     Liste_Arbeit
+
+  08:45–08:49  (243s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-S
+    Source:     Liste_Arbeit
+
+  18:53–18:57  (210s)
+    AutoDetect: [RA] Surfen Andon FM RAAFSU
+    Logged as:  Untersuchung Rotation Andon FM / OpenAIR RAAFAN
+    Source:     windowmon_import
+
+  20:05–20:06  (86s)
+    AutoDetect: [RA] Surfen Andon FM RAAFSU
+    Logged as:  Nachtmahl fassen LENANA
+    Source:     Lebenserhaltung
+
+  20:16–20:19  (178s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH
+    Source:     Liste_nachmittags
+
+  20:19–20:21  (88s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH
+    Source:     Liste_nachmittags
+
+  20:28–20:29  (84s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:29–20:36  (385s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:36–20:37  (64s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:38–20:40  (88s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:41–20:43  (84s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:43–20:47  (230s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:47–20:50  (161s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:50–20:51  (95s)
+    AutoDetect: [RA] Ansehen YouTube-Videos RAYTYT
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:51–20:54  (146s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:54–20:55  (78s)
+    AutoDetect: [RA] Ansehen YouTube-Videos RAYTYT
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:57–20:58  (77s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:58–20:59  (62s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  20:59–21:04  (293s)
+    AutoDetect: [LE] Bearb. Essensplan LEEPEP
+    Logged as:  Bearb. Essensplan (Update Händlerangebote) LEEPUH (Fs.)
+    Source:     Liste_nachmittags
+
+  21:30–21:32  (108s)
+    AutoDetect: [IN] div. Surfen INSUSU
+    Logged as:  Konversation mit Andrew Pappas RAAFKO
+    Source:     windowmon_import
+
+  21:33–21:37  (270s)
+    AutoDetect: [IN] div. Surfen INSUSU
+    Logged as:  Konversation mit Andrew Pappas RAAFKO
+    Source:     windowmon_import
+
+  21:37–21:40  (158s)
+    AutoDetect: [IN] div. Surfen INSUSU
+    Logged as:  Konversation mit Andrew Pappas RAAFKO
+    Source:     windowmon_import
+
+  22:50–22:55  (326s)
+    AutoDetect: [RA] Surfen Andon FM RAAFSU
+    Logged as:  Anwendung der Zwischenraumzahnbürste LEAZZZ
+    Source:     Liste_Abendzeremonie
+
+  22:55–22:57  (129s)
+    AutoDetect: [RA] Surfen Andon FM RAAFSU
+    Logged as:  Anwendung der Zwischenraumzahnbürste LEAZZZ
+    Source:     Liste_Abendzeremonie
+
+  22:57–23:05  (430s)
+    AutoDetect: [IN] div. Surfen INSUSU
+    Logged as:  Anwendung der Zwischenraumzahnbürste LEAZZZ
+    Source:     Liste_Abendzeremonie
+
+  23:48–23:49  (75s)
+    AutoDetect: [RA] Surfen Andon FM RAAFSU
+    Logged as:  PC herunterfahren LEAZHF
+    Source:     Liste_Abendzeremonie
+
+
+  Summary: 23 matches, 35 mismatches
+
+──────────────────────────────────────────────────────────────────────
+  4. Manual corrections applied (from autodetect-corrections)
+──────────────────────────────────────────────────────────────────────
+
+  [10x] Ansehen YouTube-Videos RAYTYT → Ansehen Youtube-Videos RAYTYT
+  [ 4x] Diskussion OpenClaw KSPLEN → Diskussion Tagesplanung mit OpenClaw KSPLEN
+  [ 4x] Der Außentemperatur entsprechend anziehen LEAUAZ → Nacherfassung Ablauf KSPLNA
+  [ 3x] Surfen Andon FM RAAFSU → Surfen Andon FM RASUAF
+         19:07–19:08
+         21:28–21:30
+         22:39–22:41
+  [ 2x] div. Surfen INSUSU → Konversation mit Andrew Pappas RAAFKO
+         19:05–19:07
+         22:45–22:50
+  [ 2x] Erfassung Ablauf KSPLEA → Nacherfassung Ablauf KSPLNA
+         19:08–19:16
+         22:01–22:32
+  [ 2x] Untersuchung Rotation Andon FM / OpenAIR RAAFAN → Untersuchung Playlist Andon FM RAAFAN
+         19:20–19:25
+         19:28–19:32
+  [ 2x] Ansehen YouTube-Videos RAYTYT → Konversation mit Andrew Pappas RAAFKO
+         19:27–19:28
+         21:42–21:43
+  [ 2x] Surfen Andon FM RAAFSU → Review Duplicate Codes KSPLEN
+         21:12–21:21
+         21:12–21:24
+  [ 2x] Untersuchung Rotation Andon FM / OpenAIR RAAFAN → Analyse Andon FM RWPLAF
+         21:40–21:43
+         21:40–21:42
+  [ 1x] Bearbeitung in VS Code → Lesen Nacherfassung-Improvements für Tagesplaner KSPLEN
+         07:04–07:17
+  [ 1x] Bearb. Ohrwürmer-Listen → Bearb. Ohrwürmer (durchgenommene) RWOWDU
+         07:34–07:35
+  [ 1x] Erfassung Ablauf KSPLEA → Ansehen Youtube-Videos RAYTYT
+         18:19–18:20
+  [ 1x] Surfen Andon FM RAAFSU → Untersuchung Rotation Andon FM / OpenAIR RAAFAN
+         18:49–18:52
+  [ 1x] Ansehen YouTube-Videos RAYTYT → Surfen Andon FM RASUAF
+         19:04–19:05
+  [ 1x] Ansehen YouTube-Videos RAYTYT → Ansehen Youtube-Videos (Rosin's Restaurants) RAYTRR
+         21:24–21:28
+  [ 1x] Ansehen YouTube-Videos RAYTYT → Ansehen Youtube RWRSMR
+         21:48–21:58
+  [ 1x] Untersuchung Rotation Andon FM / OpenAIR RAAFAN → Surfen / Scan Andon FM RWMPAR
+         21:58–21:59
+  [ 1x] Ansehen YouTube-Videos RAYTYT → Review duplicate codes KWPLEN
+         21:59–22:00
+  [ 1x] Surfen X → Konversation Andon FM / Thinking Frequencies RAAFKO
+         23:07–23:09
+  [ 1x] Anhören Thinking Frequencies (Live365) → Konversation Andon FM / Thinking Frequencies RAAFKO
+         23:20–23:25
+
+  Total corrections: 44
+
+======================================================================
+  AUTODETECT AUDIT — 2026-03-17
+  (bis 11:32)
+======================================================================
+
+Raw entries: 700
+
+──────────────────────────────────────────────────────────────────────
+  1. UNCLASSIFIABLE entries (→ potential new AutoDetect rules)
+──────────────────────────────────────────────────────────────────────
+
+  [ 46x] explorer.exe: 
+         06:31–11:28
+  [ 36x] explorer.exe: Programmumschaltung
+         06:33–10:54
+  [ 15x] python.exe: Aufgabe überspringen
+         10:48–10:54
+  [ 11x] python.exe: C:\Program Files\Python311\python.exe
+         06:41–11:11
+  [  6x] SearchApp.exe: Suche
+         07:05–09:59
+  [  4x] explorer.exe: docs
+         08:26–09:28
+  [  3x] explorer.exe: USB-STICK (F:)
+         06:31–09:40
+  [  3x] ShellExperienceHost.exe: Sprungliste für Editor
+         08:54–10:38
+  [  3x] explorer.exe: Musikprogramm
+         09:47–09:52
+  [  2x] notepad.exe: Suchen
+         06:50–06:50
+  [  2x] notepad.exe: Unbenannt - Editor
+         07:09–09:52
+  [  2x] AGENTSVR.EXE: 
+         07:41–07:41
+  [  2x] explorer.exe: Lokaler Datenträger (E:)
+         09:56–10:03
+
+  + 10 single-occurrence unclassifiable entries (not shown)
+
+──────────────────────────────────────────────────────────────────────
+  2. Classification summary (account/activity → count)
+──────────────────────────────────────────────────────────────────────
+
+  [131x] KS / Erfassung Ablauf KSPLEA  (06:29–11:32)
+  [ 87x] KS / Nacherfassung Ablauf KSPLNA  (07:34–11:30)
+  [ 77x] KS / Diskussion OpenClaw KSPLEN  (06:30–11:28)
+  [ 25x] LE / Bearb. Essensplan LEEPEP  (07:06–11:28)
+  [ 21x] RA / Surfen Andon FM RAAFSU  (06:31–11:22)
+  [ 19x] KS / Nacherfassung (Windowlog)  (07:10–10:38)
+  [ 19x] RW / Anhören Musik (Winamp)  (09:10–10:41)
+  [ 17x] IN / div. Surfen INSUSU  (06:36–10:44)
+  [ 17x] IN / Bearbeitung Mails INMBMB  (06:47–10:42)
+  [ 17x] RW / Radio Würmchen  (09:40–10:29)
+  [  7x] RA / Untersuchung AI DJ Breaks  (06:51–10:44)
+  [  7x] RW / Vorbereitung Playlist für Hören unter der Dusche RWYTPL  (07:47–10:34)
+  [  6x] IN / Analysen in Arena AI INSUAI  (06:51–10:42)
+  [  6x] RA / Untersuchung Rotation Andon FM / OpenAIR RAAFAN  (07:48–10:42)
+  [  6x] PC / Bearbeitung in VS Code  (08:27–11:29)
+  [  4x] LE / Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP  (07:41–07:43)
+  [  4x] KS / Diskussion Planer mit OpenClaw KSPLEN  (09:51–10:37)
+  [  4x] BR / Start Teleworking BRZG BRTWGF  (11:11–11:30)
+  [  3x] LE / Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA  (06:32–06:44)
+  [  3x] RW / Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP  (07:02–07:38)
+  [  3x] LE / WC LEMTWC  (07:38–10:29)
+  [  3x] MU / Bearb. Ohrwürmer-Listen  (08:54–10:53)
+  [  3x] LE / Ausziehen LEMTAZ  (09:58–10:29)
+  [  3x] WF / Papiersortierung WFPAPA  (09:59–10:27)
+  [  3x] RW / Anhören RW-Prg. mit Sati Ersoy RWMPSE  (10:37–10:40)
+
+──────────────────────────────────────────────────────────────────────
+  3. AutoDetect blocks vs actual planner log (mismatches)
+──────────────────────────────────────────────────────────────────────
+
+  06:29–06:30  (89s)
+    AutoDetect: [KS] Erfassung Ablauf KSPLEA
+    Logged as:  Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer) 
+    Source:     Liste_Morgentoilette
+
+  06:33–06:36  (194s)
+    AutoDetect: [KS] Diskussion OpenClaw KSPLEN
+    Logged as:  Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer) 
+    Source:     Liste_Morgentoilette
+
+  06:36–06:37  (64s)
+    AutoDetect: [IN] div. Surfen INSUSU
+    Logged as:  Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer) 
+    Source:     Liste_Morgentoilette
+
+  06:37–06:42  (281s)
+    AutoDetect: [KS] Diskussion OpenClaw KSPLEN
+    Logged as:  Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer) 
+    Source:     Liste_Morgentoilette
+
+  06:42–06:44  (138s)
+    AutoDetect: [KS] Diskussion OpenClaw KSPLEN
+    Logged as:  Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer) 
+    Source:     Liste_Morgentoilette
+
+  06:47–06:49  (105s)
+    AutoDetect: [IN] Bearbeitung Mails INMBMB
+    Logged as:  Mail an Bengt (Andon Labs) wg. Buy songs-Fehler RAAFKO
+    Source:     windowmon_import
+
+  06:53–06:59  (358s)
+    AutoDetect: [IN] Bearbeitung Mails INMBMB
+    Logged as:  Mail an Bengt (Andon Labs) wg. Buy songs-Fehler RAAFKO
+    Source:     windowmon_import
+
+  07:33–07:34  (67s)
+    AutoDetect: [KS] Erfassung Ablauf KSPLEA
+    Logged as:  Nacherfassung Ablauf KSPLNA
+    Source:     ungeplant
+
+  09:46–09:48  (85s)
+    AutoDetect: [KS] Nacherfassung Ablauf KSPLNA
+    Logged as:  Anhören RW-Prg. mit Sati Ersoy RWMPSE
+    Source:     Liste_Putzen
+
+  10:32–10:34  (87s)
+    AutoDetect: [RW] Vorbereitung Playlist für Hören unter der Dusche RWYTPL
+    Logged as:  Nacherfassung Ablauf KSPLNA
+    Source:     windowmon_import
+
+  11:11–11:12  (60s)
+    AutoDetect: [BR] Start Teleworking BRZG BRTWGF
+    Logged as:  Abhalten BKDD Standup Meeting BREPGM
+    Source:     Liste_Arbeit
+
+
+  Summary: 22 matches, 11 mismatches
+
+──────────────────────────────────────────────────────────────────────
+  4. Manual corrections applied (from autodetect-corrections)
+──────────────────────────────────────────────────────────────────────
+
+  [ 7x] Diskussion OpenClaw KSPLEN → Diskussion Planer mit OpenClaw KSPLEN
+  [ 3x] Erfassung Ablauf KSPLEA → Nacherfassung Ablauf KSPLNA
+         09:49–09:53
+         09:57–09:59
+         10:42–10:47
+  [ 2x] Surfen Andon FM RAAFSU → Untersuchung Andon FM RAAFSU
+         07:47–07:49
+         07:56–07:57
+  [ 2x] Vorbereitung Playlist für Hören unter der Dusche RWYTPL → Nacherfassung Ablauf KSPLNA
+         10:32–10:34
+         10:32–10:41
+  [ 1x] Bearbeitung Mails INMBMB → Mail an Bengt (Andon Labs) wg. Buy songs-Fehler RAAFKO
+         06:47–07:00
+  [ 1x] Diskussion OpenClaw KSPLEN → Diskussion Planer / Tagesablauf mit OpenClaw KSPLEN
+         07:57–08:10
+  [ 1x] Erfassung Ablauf KSPLEA → Diskussion Planer mit OpenClaw KSPLEN
+         09:00–09:09
+
+  Total corrections: 17

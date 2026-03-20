@@ -1,0 +1,103 @@
+=================================================================
+  TAGESBERICHT — 2026-03-16
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:       94
+  Geplante Gesamtzeit:         17h 03m
+
+  ✓ Erledigt (geplant):       64  (   14h 11m)  = 83.2%
+  ⏭ Übersprungen:              8  (       29m)  = 2.8%
+  ✗ Nicht erreicht:           22  (    2h 23m)  = 14.0%
+
+  📝 Ungeplante Aktivitäten:  10  (    1h 00m)
+  ⏱  Tatsächliche Arbeitszeit:    18h 11m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Bearb. Ohrwürmer (durchgenommene) R   20:33     07:34 -12h 59m
+  Bearb. Essensplan (Kontrolle / zu e   08:00     20:09 +12h 09m
+  Termine in Kalender prüfen LEMTTP     07:59     19:57 +11h 58m
+  Wohnung lüften WFLULU                 07:55     19:50 +11h 55m
+  WC BREPWC                             18:17     12:51  -5h 26m
+  Der Außentemperatur entsprechend an   12:28     09:00  -3h 28m
+  Anhören Radiosender / Radio Würmche   06:18     07:30  +1h 12m
+  Bearb. Essensplan (gegessen, zu ess   06:22     07:31  +1h 09m
+  Ausputzen Rasierer LEMTAR             06:40     07:49  +1h 09m
+  Bearb.Ohrwürmer(durchgenommen) MUOW   06:42     07:51  +1h 09m
+  Vorbereitung Playlist für Hören unt   06:26     07:33  +1h 07m
+  Ausziehen LEMTAZ                      06:45     07:51  +1h 06m
+  WC LEMTWC                             06:46     07:52  +1h 06m
+  Abwiegen LEMTAW                       06:51     07:53  +1h 02m
+  Reinigung Waschmuschel LEMTRW         06:52     07:54  +1h 02m
+  ... und 49 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Der Mann W
+    Grund: heute nichts in Einkaufsliste (noch ganzes Nußbrot vorhanden)
+  ⏭ WC LEMTWC
+    Grund: muss nicht
+  ⏭ Teller waschen / Getränk + Medikament fassen 
+    Grund: schon erledigt
+  ⏭ Bearb.Ohrwürmer(Nachfassen aus alten Charts) 
+    Grund: wg. Beginn der Abendtoilette übersprungen
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: schon erledigt
+  ⏭ Einschmieren GEAZES
+    Grund: schon erledigt
+  ⏭ WC LEAZWC
+    Grund: schon erledigt
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:28–06:40  Diskussion Tagesplanung mit OpenClaw KSP
+  📝 07:47–07:49  Soja-Drink fassen LEMEGA
+  📝 08:29–08:38  Diskussion Tagesplanung mit OpenClaw KSP
+  📝 08:55–08:57  WC LEMTWC  — muss nicht
+  📝 19:47–19:50  Nacherfassung Ablauf KSPLNA
+  📝 20:22–20:27  Teller waschen / Getränk + Medikament fa  — Holundersaft zuckerfrei
+  📝 21:05–21:12  Untersuchung bisherige Pushes auf Tagesp
+  📝 23:25–23:27  Einschmieren GEAZES
+  📝 23:27–23:34  WC LEAZWC
+  📝 23:34–23:45  Nacherfassung Ablauf KSPLNA
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 19:45  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 19:49  Bearb. Essensplan (Protokoll) LEEPPR  (8m)
+  ✗ 19:57  Bearbeitung Aufgaben zu Papa's Pflege (1  (3m)
+  ✗ 20:03  Bearbeitung Aufgaben zu Papa's Pflege (1  (7m)
+  ✗ 20:10  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:18  Kommunikation mit Judith (Abrechnung Ren  (5m)
+  ✗ 20:27  Kommunikation mit Judith (Abrechnung Ren  (1m)
+  ✗ 20:28  Bearb. Essensplan (Eintragen Protokoll)   (5m)
+  ✗ 20:38  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 20:47  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 20:52  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 20:57  Bearbeitung Buch Champion's Mindset GELI  (3m)
+  ✗ 21:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:08  Bearbeitung Buch Champion's Mindset GELI  (8m)
+  ✗ 21:16  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 21:26  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 21:36  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 21:45  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 21:54  Bearbeitung Börsenkurse / Aktienhandel F  (6m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Bearbeitung Börsenkurse / Aktienhandel F  (4m)
+  ✗ 22:12  Bearb. Essensplan (Nährwerte) LEEPGE  (8m)
+
+=================================================================

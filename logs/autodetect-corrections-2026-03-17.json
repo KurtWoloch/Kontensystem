@@ -1,0 +1,366 @@
+[
+  {
+    "ts": "2026-03-17T07:35:53",
+    "start": "06:47",
+    "end": "07:00",
+    "original": "Bearbeitung Mails INMBMB",
+    "corrected": "Mail an Bengt (Andon Labs) wg. Buy songs-Fehler RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T09:04:49",
+    "start": "07:43",
+    "end": "07:47",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T09:04:55",
+    "start": "07:43",
+    "end": "07:47",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T09:05:16",
+    "start": "07:47",
+    "end": "07:49",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-17T09:06:01",
+    "start": "07:56",
+    "end": "07:57",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-17T09:06:31",
+    "start": "07:43",
+    "end": "07:47",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T09:06:35",
+    "start": "07:49",
+    "end": "07:56",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T09:41:28",
+    "start": "07:49",
+    "end": "07:56",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T09:41:41",
+    "start": "07:57",
+    "end": "08:10",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer / Tagesablauf mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T09:47:13",
+    "start": "07:57",
+    "end": "08:10",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T09:49:44",
+    "start": "07:57",
+    "end": "08:54",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T09:51:32",
+    "start": "09:00",
+    "end": "09:09",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T10:40:11",
+    "start": "09:49",
+    "end": "09:53",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-17T10:41:12",
+    "start": "09:57",
+    "end": "09:59",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-17T10:45:33",
+    "start": "10:32",
+    "end": "10:34",
+    "original": "Vorbereitung Playlist für Hören unter der Dusche RWYTPL",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-17T10:46:17",
+    "start": "10:32",
+    "end": "10:41",
+    "original": "Vorbereitung Playlist für Hören unter der Dusche RWYTPL",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-17T10:47:55",
+    "start": "10:42",
+    "end": "10:47",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-17T14:15:01",
+    "start": "12:41",
+    "end": "13:00",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T14:15:23",
+    "start": "12:41",
+    "end": "13:04",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T14:15:41",
+    "start": "12:41",
+    "end": "13:09",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T14:19:50",
+    "start": "13:20",
+    "end": "13:21",
+    "original": "Bearbeitung in VS Code",
+    "corrected": "KS - Lesen Nacherfassung-improvements KSPLAN"
+  },
+  {
+    "ts": "2026-03-17T14:20:25",
+    "start": "13:28",
+    "end": "13:29",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Andon FM RASUAF"
+  },
+  {
+    "ts": "2026-03-17T14:20:55",
+    "start": "13:29",
+    "end": "13:30",
+    "original": "Planung BRZ BREPGM",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-17T14:21:21",
+    "start": "13:30",
+    "end": "13:31",
+    "original": "Bearbeitung in VS Code",
+    "corrected": "Lesen Nacherfassung-improvement KSPLAN"
+  },
+  {
+    "ts": "2026-03-17T14:22:53",
+    "start": "13:57",
+    "end": "13:58",
+    "original": "div. Surfen INSUSU",
+    "corrected": "KS - Ausprobieren Autodetect Audit KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T14:23:12",
+    "start": "13:57",
+    "end": "14:01",
+    "original": "div. Surfen INSUSU",
+    "corrected": "KS - Ausprobieren Autodetect Audit KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T14:25:50",
+    "start": "14:01",
+    "end": "14:13",
+    "original": "Bearb. Planer-Dateien",
+    "corrected": "Ausprobieren Autodetect Audit KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T14:25:59",
+    "start": "13:20",
+    "end": "13:21",
+    "original": "Bearbeitung in VS Code",
+    "corrected": "Lesen Nacherfassung-improvements KSPLAN"
+  },
+  {
+    "ts": "2026-03-17T14:26:10",
+    "start": "13:57",
+    "end": "14:01",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Ausprobieren Autodetect Audit KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T15:11:00",
+    "start": "14:37",
+    "end": "14:38",
+    "original": "Bearbeitung Mails INMBMB",
+    "corrected": "Mailprüfung INMAPR"
+  },
+  {
+    "ts": "2026-03-17T15:11:25",
+    "start": "14:38",
+    "end": "14:39",
+    "original": "Tweet an Grok'n Roll RAAFKO",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T15:11:37",
+    "start": "14:39",
+    "end": "14:48",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-17T15:11:52",
+    "start": "14:39",
+    "end": "14:50",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-17T15:13:16",
+    "start": "14:39",
+    "end": "14:50",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung nicht gespielte Titel Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-17T15:14:20",
+    "start": "14:39",
+    "end": "15:09",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung nicht gespielte Titel Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-17T20:07:40",
+    "start": "18:25",
+    "end": "18:29",
+    "original": "Tweet an Grok'n Roll RAAFKO",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T20:08:32",
+    "start": "18:47",
+    "end": "18:49",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T20:09:29",
+    "start": "18:49",
+    "end": "19:33",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung nicht gespielte Titel Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-17T20:10:05",
+    "start": "19:33",
+    "end": "20:06",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Playlist Andon FM mit OpenClaw RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T23:30:20",
+    "start": "21:44",
+    "end": "21:45",
+    "original": "Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-17T23:31:41",
+    "start": "21:57",
+    "end": "22:00",
+    "original": "Bearbeitung Mails INMBMB",
+    "corrected": "Mail an Axel Wennström (Purchase Agent down) RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T23:33:40",
+    "start": "22:08",
+    "end": "22:12",
+    "original": "Surfen X",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T23:34:11",
+    "start": "22:08",
+    "end": "22:12",
+    "original": "Surfen X",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T23:34:31",
+    "start": "22:12",
+    "end": "22:14",
+    "original": "Anhören Thinking Frequencies (Live365)",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T23:34:38",
+    "start": "22:08",
+    "end": "22:12",
+    "original": "Surfen X",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T23:34:47",
+    "start": "22:12",
+    "end": "22:14",
+    "original": "Anhören Thinking Frequencies (Live365)",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T23:34:52",
+    "start": "22:08",
+    "end": "22:12",
+    "original": "Surfen X",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-17T23:35:17",
+    "start": "22:14",
+    "end": "22:48",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Vor PC eingeschlafen LESCPC"
+  },
+  {
+    "ts": "2026-03-17T23:35:37",
+    "start": "22:48",
+    "end": "22:50",
+    "original": "Nacherfassung Ablauf KSPLNA",
+    "corrected": "Versuch Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-17T23:36:05",
+    "start": "22:48",
+    "end": "22:52",
+    "original": "Nacherfassung Ablauf KSPLNA",
+    "corrected": "Versuch Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-17T23:36:39",
+    "start": "22:52",
+    "end": "23:00",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer-Fehler mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-17T23:38:00",
+    "start": "22:52",
+    "end": "22:55",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Planer-Fehler mit OpenClaw KSPLEN"
+  }
+]

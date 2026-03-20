@@ -1,0 +1,310 @@
+[
+  {
+    "ts": "2026-03-16T06:50:07",
+    "start": "06:40",
+    "end": "06:46",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Tagesplanung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-16T07:27:58",
+    "start": "06:46",
+    "end": "06:51",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Tagesplanung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-16T07:28:34",
+    "start": "06:46",
+    "end": "07:14",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Tagesplanung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-16T07:28:43",
+    "start": "06:46",
+    "end": "07:04",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Tagesplanung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-16T07:29:18",
+    "start": "07:04",
+    "end": "07:17",
+    "original": "Bearbeitung in VS Code",
+    "corrected": "Lesen Nacherfassung-Improvements für Tagesplaner KSPLEN"
+  },
+  {
+    "ts": "2026-03-16T07:36:46",
+    "start": "07:34",
+    "end": "07:35",
+    "original": "Bearb. Ohrwürmer-Listen",
+    "corrected": "Bearb. Ohrwürmer (durchgenommene) RWOWDU"
+  },
+  {
+    "ts": "2026-03-16T19:09:08",
+    "start": "18:19",
+    "end": "18:23",
+    "original": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-16T19:09:23",
+    "start": "18:20",
+    "end": "18:23",
+    "original": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-16T19:09:49",
+    "start": "18:19",
+    "end": "18:20",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T19:10:12",
+    "start": "18:20",
+    "end": "18:25",
+    "original": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-16T19:10:39",
+    "start": "18:20",
+    "end": "18:27",
+    "original": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-16T19:12:07",
+    "start": "18:34",
+    "end": "18:37",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T19:12:40",
+    "start": "18:38",
+    "end": "18:44",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T19:13:04",
+    "start": "18:45",
+    "end": "18:49",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T19:13:29",
+    "start": "18:49",
+    "end": "18:52",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Untersuchung Rotation Andon FM / OpenAIR RAAFAN"
+  },
+  {
+    "ts": "2026-03-16T19:13:53",
+    "start": "18:52",
+    "end": "18:53",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T19:14:24",
+    "start": "18:58",
+    "end": "19:02",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T19:15:54",
+    "start": "19:03",
+    "end": "19:04",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T19:16:27",
+    "start": "19:04",
+    "end": "19:05",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Surfen Andon FM RASUAF"
+  },
+  {
+    "ts": "2026-03-16T19:16:52",
+    "start": "19:05",
+    "end": "19:07",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-03-16T19:17:15",
+    "start": "19:07",
+    "end": "19:08",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Surfen Andon FM RASUAF"
+  },
+  {
+    "ts": "2026-03-16T19:17:35",
+    "start": "19:08",
+    "end": "19:16",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-16T19:37:10",
+    "start": "19:18",
+    "end": "19:20",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T19:47:56",
+    "start": "19:20",
+    "end": "19:25",
+    "original": "Untersuchung Rotation Andon FM / OpenAIR RAAFAN",
+    "corrected": "Untersuchung Playlist Andon FM RAAFAN"
+  },
+  {
+    "ts": "2026-03-16T19:48:11",
+    "start": "19:25",
+    "end": "19:27",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T19:48:41",
+    "start": "19:27",
+    "end": "19:28",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-03-16T19:49:08",
+    "start": "19:28",
+    "end": "19:32",
+    "original": "Untersuchung Rotation Andon FM / OpenAIR RAAFAN",
+    "corrected": "Untersuchung Playlist Andon FM RAAFAN"
+  },
+  {
+    "ts": "2026-03-16T22:04:41",
+    "start": "21:12",
+    "end": "21:21",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Review Duplicate Codes KSPLEN"
+  },
+  {
+    "ts": "2026-03-16T22:05:08",
+    "start": "21:12",
+    "end": "21:24",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Review Duplicate Codes KSPLEN"
+  },
+  {
+    "ts": "2026-03-16T22:05:38",
+    "start": "21:24",
+    "end": "21:28",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos (Rosin's Restaurants) RAYTRR"
+  },
+  {
+    "ts": "2026-03-16T22:26:56",
+    "start": "21:28",
+    "end": "21:30",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Surfen Andon FM RASUAF"
+  },
+  {
+    "ts": "2026-03-16T22:28:19",
+    "start": "21:40",
+    "end": "21:43",
+    "original": "Untersuchung Rotation Andon FM / OpenAIR RAAFAN",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-16T22:28:29",
+    "start": "21:40",
+    "end": "21:42",
+    "original": "Untersuchung Rotation Andon FM / OpenAIR RAAFAN",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-16T22:29:43",
+    "start": "21:42",
+    "end": "21:43",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-03-16T22:30:45",
+    "start": "21:43",
+    "end": "21:47",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T22:31:22",
+    "start": "21:48",
+    "end": "21:58",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube RWRSMR"
+  },
+  {
+    "ts": "2026-03-16T22:31:55",
+    "start": "21:58",
+    "end": "21:59",
+    "original": "Untersuchung Rotation Andon FM / OpenAIR RAAFAN",
+    "corrected": "Surfen / Scan Andon FM RWMPAR"
+  },
+  {
+    "ts": "2026-03-16T22:32:50",
+    "start": "21:59",
+    "end": "22:00",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Review duplicate codes KWPLEN"
+  },
+  {
+    "ts": "2026-03-16T22:33:42",
+    "start": "22:00",
+    "end": "22:01",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-16T22:34:20",
+    "start": "22:01",
+    "end": "22:32",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-16T23:36:17",
+    "start": "22:39",
+    "end": "22:41",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Surfen Andon FM RASUAF"
+  },
+  {
+    "ts": "2026-03-16T23:37:51",
+    "start": "22:45",
+    "end": "22:50",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-03-16T23:41:45",
+    "start": "23:07",
+    "end": "23:09",
+    "original": "Surfen X",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  },
+  {
+    "ts": "2026-03-16T23:43:10",
+    "start": "23:20",
+    "end": "23:25",
+    "original": "Anhören Thinking Frequencies (Live365)",
+    "corrected": "Konversation Andon FM / Thinking Frequencies RAAFKO"
+  }
+]

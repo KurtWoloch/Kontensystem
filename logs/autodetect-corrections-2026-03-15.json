@@ -1,0 +1,387 @@
+[
+  {
+    "ts": "2026-03-15T06:59:06",
+    "start": "06:45",
+    "end": "06:55",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion Tagesplaner mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T06:59:22",
+    "start": "06:43",
+    "end": "06:45",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Untersuchung Playlist Andon FM RAAFAN"
+  },
+  {
+    "ts": "2026-03-15T06:59:36",
+    "start": "06:45",
+    "end": "06:59",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion Tagesplaner mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T07:15:00",
+    "start": "07:10",
+    "end": "07:14",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-15T09:43:41",
+    "start": "09:26",
+    "end": "09:27",
+    "original": "Andon FM / Backlink Broadcast",
+    "corrected": "Untersuchung Playlist Andon FM RAAFAN"
+  },
+  {
+    "ts": "2026-03-15T09:44:07",
+    "start": "09:15",
+    "end": "09:25",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion Tagesplaner mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T09:44:12",
+    "start": "09:25",
+    "end": "09:27",
+    "original": "Andon FM / Backlink Broadcast",
+    "corrected": "Untersuchung Playlist Andon FM RAAFAN"
+  },
+  {
+    "ts": "2026-03-15T09:49:27",
+    "start": "09:46",
+    "end": "09:47",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "Untersuchung Playlist Andon FM RAAFAN"
+  },
+  {
+    "ts": "2026-03-15T12:01:45",
+    "start": "11:56",
+    "end": "11:57",
+    "original": "Dokumentation Ohrwurm-Projekt RWOWDO",
+    "corrected": "Abspeichern Text Der Kinderfunk INSUKF"
+  },
+  {
+    "ts": "2026-03-15T12:10:07",
+    "start": "12:03",
+    "end": "12:04",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Jack Antonoff INSUSU"
+  },
+  {
+    "ts": "2026-03-15T14:07:34",
+    "start": "13:11",
+    "end": "13:12",
+    "original": "Mittagessen (selbst kochen / kalt)",
+    "corrected": "Mittagessen LEMEGA"
+  },
+  {
+    "ts": "2026-03-15T14:08:26",
+    "start": "13:12",
+    "end": "13:21",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T14:08:53",
+    "start": "13:58",
+    "end": "14:01",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T14:09:56",
+    "start": "13:12",
+    "end": "13:21",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T14:10:51",
+    "start": "14:07",
+    "end": "14:10",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-15T18:06:58",
+    "start": "14:16",
+    "end": "14:17",
+    "original": "Bearb. Essensprotokoll",
+    "corrected": "Surfen / Scan Andon FM RWMPAR"
+  },
+  {
+    "ts": "2026-03-15T18:07:48",
+    "start": "14:32",
+    "end": "14:33",
+    "original": "Dateiverwaltung (Lebenserhaltung)",
+    "corrected": "Soja-Drink fassen LEMEGA"
+  },
+  {
+    "ts": "2026-03-15T18:08:35",
+    "start": "14:33",
+    "end": "14:44",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T18:09:01",
+    "start": "14:33",
+    "end": "14:48",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T18:09:27",
+    "start": "14:33",
+    "end": "14:55",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T18:12:10",
+    "start": "16:46",
+    "end": "16:49",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T18:12:37",
+    "start": "16:50",
+    "end": "17:09",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T18:13:26",
+    "start": "17:12",
+    "end": "17:20",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "KS - Lesen Duplicate Codes Review KSPLEN"
+  },
+  {
+    "ts": "2026-03-15T18:14:05",
+    "start": "17:26",
+    "end": "17:28",
+    "original": "div. Surfen INSUSU",
+    "corrected": "div. Surfen (News) INSUNE"
+  },
+  {
+    "ts": "2026-03-15T18:14:49",
+    "start": "17:32",
+    "end": "17:37",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (Einlesen Einkaufsliste) LEEPEP"
+  },
+  {
+    "ts": "2026-03-15T18:14:57",
+    "start": "17:32",
+    "end": "17:37",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (Einlesen Einkaufsliste) LEEPEP"
+  },
+  {
+    "ts": "2026-03-15T18:15:10",
+    "start": "17:32",
+    "end": "17:38",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (Einlesen Einkaufsliste) LEEPEP"
+  },
+  {
+    "ts": "2026-03-15T18:15:40",
+    "start": "17:38",
+    "end": "17:44",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (Korrektur Verr.preise) LEEPEP"
+  },
+  {
+    "ts": "2026-03-15T18:17:34",
+    "start": "17:50",
+    "end": "17:51",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen No -repeat Workday INSUSU"
+  },
+  {
+    "ts": "2026-03-15T18:18:17",
+    "start": "17:57",
+    "end": "17:58",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen No repeat policy INSUSU"
+  },
+  {
+    "ts": "2026-03-15T18:18:53",
+    "start": "18:01",
+    "end": "18:04",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen div. Radiostationen INSUSU"
+  },
+  {
+    "ts": "2026-03-15T18:19:15",
+    "start": "18:04",
+    "end": "18:11",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-15T18:27:23",
+    "start": "18:20",
+    "end": "18:21",
+    "original": "Versorgung Mitbringsel LEPOPO",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-15T18:28:03",
+    "start": "18:21",
+    "end": "18:22",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (gegessen / zu essen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-15T18:28:13",
+    "start": "18:21",
+    "end": "18:23",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (gegessen / zu essen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-15T18:28:23",
+    "start": "18:21",
+    "end": "18:24",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (gegessen / zu essen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-15T18:28:57",
+    "start": "18:26",
+    "end": "18:28",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-15T20:54:29",
+    "start": "18:57",
+    "end": "19:05",
+    "original": "Bearb. Ohrwürmer-Listen",
+    "corrected": "Bearb.Ohrwürmer(Nachfassen aus Ö LP-Charts 15.6.-1.12.1980) RWOWTT"
+  },
+  {
+    "ts": "2026-03-15T20:55:33",
+    "start": "19:08",
+    "end": "19:17",
+    "original": "Bearb. Ohrwürmer-Listen",
+    "corrected": "Bearb.Ohrwürmer(Nachfassen aus Ö LP-Charts 15.6.-1.12.1980) RWOWTT"
+  },
+  {
+    "ts": "2026-03-15T20:56:31",
+    "start": "19:17",
+    "end": "19:30",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse DJ Breaks Grok'n Roll RAAFSU"
+  },
+  {
+    "ts": "2026-03-15T20:57:12",
+    "start": "19:31",
+    "end": "19:37",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse DJ Breaks Grok'n Roll RAAFSU"
+  },
+  {
+    "ts": "2026-03-15T20:57:45",
+    "start": "19:34",
+    "end": "19:45",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Nachsurfen Win the tiger / Theme from the Exorcist RAAFSU"
+  },
+  {
+    "ts": "2026-03-15T20:58:13",
+    "start": "19:45",
+    "end": "19:51",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (gegessen / zu essen) LEEPEP"
+  },
+  {
+    "ts": "2026-03-15T20:58:29",
+    "start": "19:51",
+    "end": "19:52",
+    "original": "Bearb. Radio-Dateien",
+    "corrected": "Analyse DJ Breaks Grok'n Roll RAAFSU"
+  },
+  {
+    "ts": "2026-03-15T20:59:34",
+    "start": "19:52",
+    "end": "19:54",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos (Rosin's Restaurants) RAYTRR"
+  },
+  {
+    "ts": "2026-03-15T21:00:07",
+    "start": "19:54",
+    "end": "19:56",
+    "original": "div. Surfen INSUSU",
+    "corrected": "div. Surfen (News) INSUNE"
+  },
+  {
+    "ts": "2026-03-15T21:00:45",
+    "start": "19:56",
+    "end": "20:03",
+    "original": "Bearb. Ohrwürmer-Listen",
+    "corrected": "Bearb.Ohrwürmer(Nachfassen aus Ö LP-Charts 15.6.-1.12.1980) RWOWTT"
+  },
+  {
+    "ts": "2026-03-15T21:01:16",
+    "start": "20:03",
+    "end": "20:04",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos (Rosin's Restaurants) RAYTRR"
+  },
+  {
+    "ts": "2026-03-15T21:02:03",
+    "start": "20:04",
+    "end": "20:25",
+    "original": "Bearb. Ohrwürmer-Listen",
+    "corrected": "Bearb.Ohrwürmer(Nachfassen aus Ö LP-Charts 15.6.-1.12.1980) RWOWTT"
+  },
+  {
+    "ts": "2026-03-15T21:02:32",
+    "start": "20:25",
+    "end": "20:26",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Andon Labs RASUAF"
+  },
+  {
+    "ts": "2026-03-15T21:02:54",
+    "start": "20:03",
+    "end": "20:04",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos (Rosin's Restaurants) RAYTRR"
+  },
+  {
+    "ts": "2026-03-15T21:03:07",
+    "start": "20:26",
+    "end": "20:28",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Ansehen Youtube-Videos (Rosin's Restaurants) RAYTRR"
+  },
+  {
+    "ts": "2026-03-15T21:04:27",
+    "start": "20:36",
+    "end": "20:48",
+    "original": "Bearb. Ohrwürmer-Listen",
+    "corrected": "Bearb.Ohrwürmer(Nachfassen aus Ö LP-Charts 15.6.-1.12.1980) RWOWTT"
+  },
+  {
+    "ts": "2026-03-15T21:05:11",
+    "start": "20:48",
+    "end": "21:02",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-15T21:05:41",
+    "start": "20:48",
+    "end": "21:05",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  }
+]

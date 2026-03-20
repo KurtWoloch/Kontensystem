@@ -355,5 +355,12 @@
     "end": "21:02",
     "original": "Sonstige PC-Nutzung",
     "corrected": "Begutachtung Autodetect-Corrections KSPLAN"
+  },
+  {
+    "ts": "2026-03-12T21:25:36",
+    "start": "21:14",
+    "end": "21:25",
+    "original": "Diskussion OpenClaw",
+    "corrected": "Diskussion OpenClaw (Mängel in Planer) KSPLEN"
   }
 ]

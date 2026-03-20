@@ -1,0 +1,4 @@
+cd kontensystem
+python tools/autodetect_audit.py                          # gestern + heute
+python tools/autodetect_audit.py 2026-03-16               # bestimmtes Datum
+python tools/autodetect_audit.py 2026-03-17:14:30         # heute bis 14:30
