@@ -804,3 +804,15 @@
 {"ts": "2026-03-20T14:27:18", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
 {"ts": "2026-03-20T14:28:11", "hwnd": 1574162, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-20T14:28:12", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 54, "idle_start": "2026-03-20T14:27:18"}
+{"ts": "2026-03-20T14:28:32", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:28:37", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T14:28:38", "hwnd": 1574162, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:28:39", "hwnd": 67226, "title": "OpenClaw Control und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:28:40", "hwnd": 28969158, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:28:42", "hwnd": 1639698, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:29:14", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-20T14:29:18", "hwnd": 11340962, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:29:34", "hwnd": 27198992, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:29:56", "hwnd": 11340962, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:29:57", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-20T14:29:58", "hwnd": 11340962, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}

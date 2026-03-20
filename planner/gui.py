@@ -1850,26 +1850,8 @@ class PlannerGUI:
         def _get_selected_mins():
             return sum(it.get('minutes', 0) for it in _get_selected_items())
 
-        def _update_header(*_args):
-            selected = _get_selected_items()
-            sel_count = len(selected)
-            sel_mins = sum(it.get('minutes', 0) for it in selected)
-            sel = act_listbox.curselection()
-            if sel:
-                lbl_header.config(
-                    text=f"{sel_count} von {count} Aktivitäten ausgewählt")
-            else:
-                lbl_header.config(
-                    text=f"{count} Aktivitäten als erledigt markieren")
-            lbl_duration.config(text=f"Gesamtdauer: {sel_mins} Min.")
-            # Update shift default and preview
-            _update_shift_default()
-            _update_preview()
-
-        act_listbox.bind("<<ListboxSelect>>", _update_header)
-        _update_header()  # initial
-
-        # Time mode selection
+        # Time mode selection — built BEFORE _update_header so it can
+        # be referenced from there (forward reference fix)
         time_mode = tk.StringVar(value="original")
 
         mode_frame = tk.Frame(dlg, bg=COLOR_BG)
@@ -1943,6 +1925,25 @@ class PlannerGUI:
         shift_h.trace_add("write", _update_preview)
         shift_m.trace_add("write", _update_preview)
         _update_preview()
+
+        # Now define _update_header (needs _update_shift_default + _update_preview)
+        def _update_header(*_args):
+            selected = _get_selected_items()
+            sel_count = len(selected)
+            sel_mins = sum(it.get('minutes', 0) for it in selected)
+            sel = act_listbox.curselection()
+            if sel:
+                lbl_header.config(
+                    text=f"{sel_count} von {count} Aktivitäten ausgewählt")
+            else:
+                lbl_header.config(
+                    text=f"{count} Aktivitäten als erledigt markieren")
+            lbl_duration.config(text=f"Gesamtdauer: {sel_mins} Min.")
+            _update_shift_default()
+            _update_preview()
+
+        act_listbox.bind("<<ListboxSelect>>", _update_header)
+        _update_header()  # initial
 
         # Buttons
         btn_frame = tk.Frame(dlg, bg=COLOR_BG)

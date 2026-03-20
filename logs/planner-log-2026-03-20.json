@@ -383,5 +383,16 @@
     "skipped": false,
     "original_activity": "",
     "comment": "Entscheidung: Nein → Start Liste: Liste_Mittagessen_zuhause"
+  },
+  {
+    "activity": "Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 1,
+    "started_at": "14:25:22",
+    "completed_at": "14:25:22",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "Entscheidung: Nein"
   }
 ]
