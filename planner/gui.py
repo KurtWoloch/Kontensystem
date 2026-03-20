@@ -1849,8 +1849,10 @@ class PlannerGUI:
             font=("Segoe UI", 9)
         ).pack(side=tk.LEFT)
 
-        shift_h = tk.StringVar(value=f"{now.hour:02d}")
-        shift_m = tk.StringVar(value=f"{now.minute:02d}")
+        # Default: now minus total block duration (since it's catch-up)
+        default_start = now - timedelta(minutes=total_mins)
+        shift_h = tk.StringVar(value=f"{default_start.hour:02d}")
+        shift_m = tk.StringVar(value=f"{default_start.minute:02d}")
 
         tk.Spinbox(
             shift_frame, from_=0, to=23, width=3, format="%02.0f",

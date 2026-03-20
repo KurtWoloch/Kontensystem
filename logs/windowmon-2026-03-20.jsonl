@@ -520,3 +520,44 @@
 {"ts": "2026-03-20T10:09:54", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-20T10:10:02", "hwnd": 21694016, "title": "Eintrag bearbeiten — Nacherfassung Ablauf KSPLNA", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-20T10:10:05", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:09", "hwnd": 16254970, "title": "Nacherfassung aus windowmon - 2026-03-20", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:11", "hwnd": 11995250, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:12", "hwnd": 16254970, "title": "Nacherfassung aus windowmon - 2026-03-20", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:13", "hwnd": 12060786, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:14", "hwnd": 12126322, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:15", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:17", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:10:26", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:32", "hwnd": 18416488, "title": "Aufgabe erledigt — Starten Youtube-Playlist MUOWSP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:34", "hwnd": 7013258, "title": "Radio Würmchen 26.2.20 - Scan Radio Würmchen", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:37", "hwnd": 67226, "title": "Andon FM | Andon Labs und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:10:38", "hwnd": 67226, "title": "Neuer Tab und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:10:39", "hwnd": 7013258, "title": "Radio Würmchen 26.2.20 - Scan Radio Würmchen", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:46", "hwnd": 5636314, "title": "Radio Würmchen 26.2.20 - Scan Radio Würmchen (Keine Rückmeldung)", "process": "", "browser": ""}
+{"ts": "2026-03-20T10:10:50", "hwnd": 7013258, "title": "Radio Würmchen 26.2.20 - Scan Radio Würmchen", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:53", "hwnd": 1967406, "title": "SqrSoft ACF Controller Plugin", "process": "winamp.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:54", "hwnd": 21696294, "title": "1. Wet Wet Wet - Julia says - Winamp", "process": "winamp.exe", "browser": ""}
+{"ts": "2026-03-20T10:11:00", "hwnd": 13174736, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:11:01", "hwnd": 21696294, "title": "1. Wet Wet Wet - Julia says - Winamp", "process": "winamp.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:46", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T10:30:24", "hwnd": 67226, "title": "OpenClaw Control und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:31:04", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T10:31:05", "hwnd": 18416488, "title": "Aufgabe erledigt — Starten Youtube-Playlist MUOWSP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:31:05", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 1218, "idle_start": "2026-03-20T10:10:46"}
+{"ts": "2026-03-20T10:31:12", "hwnd": 67226, "title": "OpenClaw Control und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:31:13", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T10:31:15", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:31:29", "hwnd": 20778626, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:31:30", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:31:46", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-20T10:31:51", "hwnd": 34868278, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:32:04", "hwnd": 37031150, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:32:18", "hwnd": 34868278, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEMTES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:32:24", "hwnd": 15206786, "title": "Eintrag bearbeiten — Duschen LEMTDU", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:32:31", "hwnd": 34868278, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEMTES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:32:34", "hwnd": 1377782, "title": "KS - Planung: ", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-20T10:32:37", "hwnd": 34868278, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEMTES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:32:56", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T10:35:01", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 125, "idle_start": "2026-03-20T10:32:56"}
+{"ts": "2026-03-20T10:35:03", "hwnd": 67226, "title": "OpenClaw Control und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:35:11", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
