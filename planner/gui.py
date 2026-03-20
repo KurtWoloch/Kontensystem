@@ -1780,74 +1780,208 @@ class PlannerGUI:
         if not items_to_log:
             return
 
-        # Show confirmation dialog
+        # Show Bulk-Complete dialog with time options
+        self._show_bulk_complete_dialog(items_to_log)
+
+    def _show_bulk_complete_dialog(self, items_to_log):
+        """V10: Dialog for Bulk-Complete with time shift option."""
         count = len(items_to_log)
-        first_name = _strip_task_code(items_to_log[0]['activity'])
-        last_name = _strip_task_code(items_to_log[-1]['activity'])
-
-        if count == 1:
-            msg = f"1 Aktivität als erledigt markieren?\n\n• {first_name}"
-        elif count <= 5:
-            names = "\n".join(
-                f"• {_strip_task_code(it['activity'])}"
-                for it in items_to_log
-            )
-            msg = f"{count} Aktivitäten als erledigt markieren?\n\n{names}"
-        else:
-            msg = (f"{count} Aktivitäten als erledigt markieren?\n\n"
-                   f"Von: {first_name}\n"
-                   f"Bis: {last_name}\n\n"
-                   f"Die geplanten Zeiten werden als vorläufige Werte "
-                   f"übernommen und können später korrigiert werden.")
-
-        answer = messagebox.askyesno(
-            "Bis hierher erledigt", msg, icon="question")
-        if not answer:
-            return
-
-        # Log each item with its projection times
+        total_mins = sum(it.get('minutes', 0) for it in items_to_log)
         now = datetime.now()
-        session_date = self.engine.session_date
 
-        for item in items_to_log:
-            activity = item['activity']
-            list_name = item.get('list_name', 'ungeplant')
-            mins = item.get('minutes', 0)
-            est_start_str = item.get('est_start', '')
-            est_end_str = item.get('est_end', '')
+        dlg = tk.Toplevel(self.root)
+        dlg.title("Bis hierher erledigt")
+        dlg.configure(bg=COLOR_BG)
+        dlg.resizable(False, False)
+        dlg.grab_set()
+        dlg.minsize(width=520, height=0)
 
-            # Parse projection times
+        # Header
+        tk.Label(
+            dlg, text=f"{count} Aktivitäten als erledigt markieren",
+            font=("Segoe UI", 11, "bold"), bg=COLOR_BG, fg=COLOR_ACCENT
+        ).pack(anchor="w", padx=12, pady=(10, 4))
+
+        tk.Label(
+            dlg, text=f"Gesamtdauer: {total_mins} Min.",
+            font=("Segoe UI", 9), bg=COLOR_BG, fg=COLOR_FG
+        ).pack(anchor="w", padx=12, pady=(0, 8))
+
+        # Activity list (scrollable if many)
+        list_frame = tk.Frame(dlg, bg=COLOR_LIST)
+        list_frame.pack(fill=tk.X, padx=12, pady=(0, 8))
+
+        display_count = min(count, 8)
+        act_listbox = tk.Listbox(
+            list_frame, bg=COLOR_LIST, fg=COLOR_FG,
+            font=("Consolas", 9), height=display_count,
+            relief=tk.FLAT, highlightthickness=0
+        )
+        for it in items_to_log:
+            name = _strip_task_code(it['activity'])
+            mins = it.get('minutes', 0)
+            est = it.get('est_start', '')
+            act_listbox.insert(tk.END, f"  {est or '     '}  {name}  ({mins}')")
+        act_listbox.pack(fill=tk.X, padx=2, pady=2)
+
+        # Time mode selection
+        time_mode = tk.StringVar(value="original")
+
+        mode_frame = tk.Frame(dlg, bg=COLOR_BG)
+        mode_frame.pack(fill=tk.X, padx=12, pady=(0, 4))
+
+        tk.Radiobutton(
+            mode_frame, text="Originalzeiten aus Projektion",
+            variable=time_mode, value="original",
+            bg=COLOR_BG, fg=COLOR_FG, selectcolor=COLOR_LIST,
+            activebackground=COLOR_BG, activeforeground=COLOR_FG,
+            font=("Segoe UI", 9)
+        ).pack(anchor="w")
+
+        shift_frame = tk.Frame(dlg, bg=COLOR_BG)
+        shift_frame.pack(fill=tk.X, padx=12, pady=(0, 8))
+
+        tk.Radiobutton(
+            shift_frame, text="Block verschieben — Start um:",
+            variable=time_mode, value="shift",
+            bg=COLOR_BG, fg=COLOR_FG, selectcolor=COLOR_LIST,
+            activebackground=COLOR_BG, activeforeground=COLOR_FG,
+            font=("Segoe UI", 9)
+        ).pack(side=tk.LEFT)
+
+        shift_h = tk.StringVar(value=f"{now.hour:02d}")
+        shift_m = tk.StringVar(value=f"{now.minute:02d}")
+
+        tk.Spinbox(
+            shift_frame, from_=0, to=23, width=3, format="%02.0f",
+            textvariable=shift_h, font=("Consolas", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+        ).pack(side=tk.LEFT, padx=(8, 0))
+
+        tk.Label(
+            shift_frame, text=":", font=("Consolas", 11),
+            bg=COLOR_BG, fg=COLOR_FG
+        ).pack(side=tk.LEFT)
+
+        tk.Spinbox(
+            shift_frame, from_=0, to=59, width=3, format="%02.0f",
+            textvariable=shift_m, font=("Consolas", 11),
+            bg=COLOR_LIST, fg=COLOR_FG, buttonbackground=COLOR_BTN
+        ).pack(side=tk.LEFT)
+
+        # Preview of shifted end time
+        lbl_preview = tk.Label(
+            shift_frame, text="", font=("Segoe UI", 8, "italic"),
+            bg=COLOR_BG, fg="#6c7086"
+        )
+        lbl_preview.pack(side=tk.LEFT, padx=(10, 0))
+
+        def _update_preview(*_args):
             try:
-                if isinstance(est_start_str, str) and est_start_str:
-                    t = datetime.strptime(est_start_str, "%H:%M")
-                    start_dt = now.replace(
-                        hour=t.hour, minute=t.minute,
-                        second=0, microsecond=0)
-                else:
-                    start_dt = now
-            except ValueError:
-                start_dt = now
+                h = int(shift_h.get())
+                m = int(shift_m.get())
+                end = now.replace(hour=h, minute=m, second=0) + timedelta(minutes=total_mins)
+                lbl_preview.config(text=f"→ Ende: {end.strftime('%H:%M')}")
+            except (ValueError, OverflowError):
+                lbl_preview.config(text="")
 
-            try:
-                if isinstance(est_end_str, str) and est_end_str:
-                    t = datetime.strptime(est_end_str, "%H:%M")
-                    end_dt = now.replace(
-                        hour=t.hour, minute=t.minute,
-                        second=0, microsecond=0)
-                else:
-                    end_dt = start_dt + timedelta(minutes=mins)
-            except ValueError:
-                end_dt = start_dt + timedelta(minutes=mins)
+        shift_h.trace_add("write", _update_preview)
+        shift_m.trace_add("write", _update_preview)
+        _update_preview()
 
-            # Log under the correct list (V8 auto-skip will handle it)
-            self.engine.log_adhoc(
-                activity, start_dt, end_dt,
-                list_name=list_name,
-                comment="Bulk-Complete (Restplan)"
-            )
+        # Buttons
+        btn_frame = tk.Frame(dlg, bg=COLOR_BG)
+        btn_frame.pack(pady=(4, 12))
 
-        # Refresh to show changes
-        self._refresh()
+        def on_confirm():
+            dlg.destroy()
+
+            if time_mode.get() == "shift":
+                # Shifted: sequential from the given start time
+                try:
+                    h = int(shift_h.get())
+                    m = int(shift_m.get())
+                    cursor = now.replace(hour=h, minute=m,
+                                         second=0, microsecond=0)
+                except ValueError:
+                    cursor = now
+
+                for item in items_to_log:
+                    activity = item['activity']
+                    list_name = item.get('list_name', 'ungeplant')
+                    mins = item.get('minutes', 0)
+                    start_dt = cursor
+                    end_dt = cursor + timedelta(minutes=mins)
+
+                    self.engine.log_adhoc(
+                        activity, start_dt, end_dt,
+                        list_name=list_name,
+                        comment="Bulk-Complete (Restplan)"
+                    )
+                    cursor = end_dt
+            else:
+                # Original: use projection times
+                for item in items_to_log:
+                    activity = item['activity']
+                    list_name = item.get('list_name', 'ungeplant')
+                    mins = item.get('minutes', 0)
+                    est_start_str = item.get('est_start', '')
+                    est_end_str = item.get('est_end', '')
+
+                    try:
+                        if isinstance(est_start_str, str) and est_start_str:
+                            t = datetime.strptime(est_start_str, "%H:%M")
+                            start_dt = now.replace(
+                                hour=t.hour, minute=t.minute,
+                                second=0, microsecond=0)
+                        else:
+                            start_dt = now
+                    except ValueError:
+                        start_dt = now
+
+                    try:
+                        if isinstance(est_end_str, str) and est_end_str:
+                            t = datetime.strptime(est_end_str, "%H:%M")
+                            end_dt = now.replace(
+                                hour=t.hour, minute=t.minute,
+                                second=0, microsecond=0)
+                        else:
+                            end_dt = start_dt + timedelta(minutes=mins)
+                    except ValueError:
+                        end_dt = start_dt + timedelta(minutes=mins)
+
+                    self.engine.log_adhoc(
+                        activity, start_dt, end_dt,
+                        list_name=list_name,
+                        comment="Bulk-Complete (Restplan)"
+                    )
+
+            self._refresh()
+
+        tk.Button(
+            btn_frame, text="  ✓ Erledigt  ",
+            font=("Segoe UI", 11, "bold"),
+            bg=COLOR_DONE, fg="#1e1e2e", relief=tk.FLAT,
+            cursor="hand2", command=on_confirm
+        ).pack(side=tk.LEFT, padx=4)
+
+        tk.Button(
+            btn_frame, text="  Abbrechen  ",
+            font=("Segoe UI", 11),
+            bg=COLOR_BTN, fg=COLOR_FG, relief=tk.FLAT,
+            cursor="hand2", command=lambda: dlg.destroy()
+        ).pack(side=tk.LEFT, padx=4)
+
+        dlg.bind("<Return>", lambda e: on_confirm())
+        dlg.bind("<Escape>", lambda e: dlg.destroy())
+
+        # Center
+        dlg.update_idletasks()
+        x = (self.root.winfo_x()
+             + (self.root.winfo_width() - dlg.winfo_width()) // 2)
+        y = (self.root.winfo_y()
+             + (self.root.winfo_height() - dlg.winfo_height()) // 2)
+        dlg.geometry(f"+{x}+{y}")
 
     # ------------------------------------------------------------------ #
     #  Log editing handlers                                                #

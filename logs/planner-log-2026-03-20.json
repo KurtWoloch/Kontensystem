@@ -163,5 +163,104 @@
     "skipped": false,
     "original_activity": "",
     "comment": ""
+  },
+  {
+    "activity": "Feinschliff bei der Rasur LEMTFR",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 6,
+    "started_at": "09:46:00",
+    "completed_at": "09:55:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ausputzen Rasierer LEMTAR",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.846,
+    "minutes": 2,
+    "started_at": "09:55:00",
+    "completed_at": "09:58:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb.Ohrwürmer (durchgenommen) MUOWDU",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "09:58:00",
+    "completed_at": "09:59:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ausziehen LEMTAZ",
+    "list": "Liste_Morgentoilette",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "09:59:00",
+    "completed_at": "10:00:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Bulk-Complete (Restplan)"
+  },
+  {
+    "activity": "WC LEMTWC",
+    "list": "Liste_Morgentoilette",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "10:00:00",
+    "completed_at": "10:01:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Bulk-Complete (Restplan)"
+  },
+  {
+    "activity": "Abwiegen LEMTAW",
+    "list": "Liste_Morgentoilette",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "10:01:00",
+    "completed_at": "10:02:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Bulk-Complete (Restplan)"
+  },
+  {
+    "activity": "Reinigung Waschmuschel LEMTRW",
+    "list": "Liste_Morgentoilette",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "10:01:00",
+    "completed_at": "10:03:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Bulk-Complete (Restplan)"
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "10:03:00",
+    "completed_at": "10:06:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplaner mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "10:06:00",
+    "completed_at": "10:09:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   }
 ]

@@ -452,3 +452,71 @@
 {"ts": "2026-03-20T09:47:16", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
 {"ts": "2026-03-20T09:47:19", "hwnd": 15009786, "title": "Aufgabe erledigt — Feinschliff bei der Rasur LEMTFR", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-20T09:47:07", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T09:55:29", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 501, "idle_start": "2026-03-20T09:47:07"}
+{"ts": "2026-03-20T09:55:36", "hwnd": 1377782, "title": "RW - Bearb. Ohrwürmer: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-20T09:55:41", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Ausputzen Rasierer LEMTAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T09:55:57", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T09:58:14", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 137, "idle_start": "2026-03-20T09:55:57"}
+{"ts": "2026-03-20T09:58:15", "hwnd": 18222334, "title": "Aufgabe erledigt — Ausputzen Rasierer LEMTAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T09:58:19", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T09:58:23", "hwnd": 20319252, "title": "Ohrwürmer 12.3.2023-.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-20T09:58:34", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T09:58:55", "hwnd": 24119310, "title": "Tagesplanung — Off-PC — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T09:58:56", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 22, "idle_start": "2026-03-20T09:58:34"}
+{"ts": "2026-03-20T09:59:00", "hwnd": 18288352, "title": "Aufgabe erledigt — Bearb.Ohrwürmer (durchgenommen) MUOWDU", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T09:59:08", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T09:59:11", "hwnd": 67226, "title": "Andon FM | Andon Labs und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T09:59:22", "hwnd": 1377782, "title": "IN - div. Surfen (News): Andon FM | Andon Labs und 5 weitere Seiten - Persönlich – Microsoft? Edge", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-20T09:59:25", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T09:59:29", "hwnd": 7275306, "title": "Aufgabe erledigt — Ausziehen LEMTAZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T09:59:44", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T10:03:29", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 224, "idle_start": "2026-03-20T09:59:44"}
+{"ts": "2026-03-20T10:03:30", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:03:38", "hwnd": 5112564, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:03:42", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:04:23", "hwnd": 11143282, "title": "Eintrag bearbeiten — Ausziehen LEMTAZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:04:33", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:04:36", "hwnd": 19139548, "title": "Eintrag bearbeiten — WC LEMTWC", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:04:41", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:04:43", "hwnd": 30606258, "title": "Eintrag bearbeiten — Abwiegen LEMTAW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:04:56", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:05:03", "hwnd": 5308634, "title": "Eintrag bearbeiten — Ausziehen LEMTAZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:05:08", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:05:10", "hwnd": 22612610, "title": "Eintrag bearbeiten — WC LEMTWC", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:05:15", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:05:21", "hwnd": 20121376, "title": "Eintrag bearbeiten — Reinigung Waschmuschel LEMTRW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:05:27", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:06:12", "hwnd": 11144376, "title": "Nacherfassung aus windowmon - 2026-03-20", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:06:19", "hwnd": 7930666, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:06:21", "hwnd": 11144376, "title": "Nacherfassung aus windowmon - 2026-03-20", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:06:22", "hwnd": 7996202, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:06:24", "hwnd": 8061738, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:06:25", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:06:28", "hwnd": 29165948, "title": "Eintrag bearbeiten — Reinigung Waschmuschel LEMTRW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:06:32", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:06:44", "hwnd": 67226, "title": "Andon FM | Andon Labs und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:06:46", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:06:52", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T10:08:06", "hwnd": 67226, "title": "Andon FM | Andon Labs und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:08:07", "hwnd": 29297020, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T10:08:08", "hwnd": 24119310, "title": "Tagesplanung — Off-PC — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:08:10", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 78, "idle_start": "2026-03-20T10:06:52"}
+{"ts": "2026-03-20T10:08:16", "hwnd": 67226, "title": "Andon FM | Andon Labs und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:08:17", "hwnd": 29428092, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T10:08:18", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:08:22", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:08:23", "hwnd": 29559164, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T10:08:24", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:08:26", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:08:27", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:08:37", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T10:08:38", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:08:21", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T10:08:43", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-20T10:08:44", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T10:09:47", "hwnd": 24119310, "title": "Tagesplanung — Off-PC — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:09:47", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 85, "idle_start": "2026-03-20T10:08:21"}
+{"ts": "2026-03-20T10:09:52", "hwnd": 11798642, "title": "Aufgabe erledigt — Starten Youtube-Playlist MUOWSP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:09:54", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:02", "hwnd": 21694016, "title": "Eintrag bearbeiten — Nacherfassung Ablauf KSPLNA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T10:10:05", "hwnd": 24119310, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}

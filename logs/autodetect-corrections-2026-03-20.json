@@ -68,5 +68,19 @@
     "end": "09:46",
     "original": "Diskussion OpenClaw KSPLEN",
     "corrected": "Arbeit an Tagesplaner mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-20T10:06:20",
+    "start": "10:03",
+    "end": "10:05",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-20T10:10:11",
+    "start": "10:06",
+    "end": "10:09",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Arbeit an Tagesplaner mit OpenClaw KSPLEN"
   }
 ]
