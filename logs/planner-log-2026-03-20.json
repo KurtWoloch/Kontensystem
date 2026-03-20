@@ -141,5 +141,27 @@
     "skipped": false,
     "original_activity": "",
     "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "09:35:00",
+    "completed_at": "09:37:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "(kein Fensterwechsel — letztes Fenster fortgesetzt)"
+  },
+  {
+    "activity": "Arbeit an Tagesplaner mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 9,
+    "started_at": "09:37:00",
+    "completed_at": "09:46:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   }
 ]

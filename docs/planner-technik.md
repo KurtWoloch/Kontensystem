@@ -1,6 +1,6 @@
 # Planungstool — Technische Referenz & Übergangsdokumentation
 
-**Version:** v1.5 (Stand: März 2026)
+**Version:** v1.7 (Stand: 20. März 2026)
 
 ---
 
@@ -12,7 +12,7 @@
 planner/
 ├── main.py              # Einstiegspunkt, Startup-Sequenz, Projektion speichern
 ├── engine.py            # Kern-Logik: Listen, Kandidaten, Scheduling, Log
-├── gui.py               # tkinter-Benutzeroberfläche
+├── gui.py               # tkinter-Benutzeroberfläche (inkl. Restplan-Ansicht)
 ├── models.py            # Datenklassen (CsvRow, ListState, CompletedItem, RowType)
 ├── csv_parser.py        # Liest und parst Planungsaktivitaeten.csv
 ├── startup_dialog.py    # Erster Dialog (Tagestyp-Konfiguration)
@@ -22,6 +22,8 @@ planner/
 ├── automation_editor.py # tkinter-Editor für automations.json
 ├── yaml_loader.py       # Laden von schedule_exceptions.yaml
 ├── day_report.py        # Tagesbericht-Generierung (Projektion vs. Log)
+├── window_monitor.py    # Fenster-Überwachung (aktives Fenster → JSONL-Log)
+├── windowmon_import.py  # Nacherfassung: JSONL → Aktivitätsblöcke → GUI-Dialog
 ├── test_engine.py       # Unit-Tests für die Engine
 └── test_parse.py        # Unit-Tests für den CSV-Parser
 ```
@@ -42,6 +44,8 @@ planner/
 | `automation_editor.py` | CRUD-Editor für `automations.json` |
 | `yaml_loader.py` | Lädt `schedule_exceptions.yaml`, gibt Overrides für ein Datum zurück |
 | `day_report.py` | Vergleicht `projection-*.json` mit `planner-log-*.json`, erzeugt Bericht |
+| `window_monitor.py` | Pollt alle 1s das aktive Fenster (Win32 API), schreibt JSONL-Log, erkennt Idle/Off-PC |
+| `windowmon_import.py` | Liest windowmon-JSONL, klassifiziert Blöcke (AutoDetect), bietet Nacherfassungs-GUI |
 
 ### Datenfluss beim Start
 
@@ -307,6 +311,32 @@ Felder `state`: `"current"` | `"upcoming"` | `"scheduled"` (fixzeitlich).
 #### `report-YYYY-MM-DD.txt`
 
 Menschenlesbarer Tagesbericht (Plaintext). Enthält Zusammenfassung, Drift-Analyse, Übersprungene/Ungeplante/Nicht-erreichte Aktivitäten. Wird über den **📊 Tagesbericht**-Button erzeugt.
+
+#### `windowmon-YYYY-MM-DD.jsonl`
+
+Fenster-Überwachungs-Log (JSON Lines). Wird von `window_monitor.py` kontinuierlich geschrieben (alle 1s bei Fensterwechsel). Enthält normale Fenster-Events und Idle-Marker:
+
+```jsonl
+{"ts": "2026-03-19T09:25:31", "hwnd": 67226, "title": "OpenClaw Control ...", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-19T09:26:23", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-19T10:24:17", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 3473, "idle_start": "2026-03-19T09:26:23"}
+```
+
+Wird von `windowmon_import.py` für die Nacherfassung gelesen. Typische Größe: 100-300 KB pro Tag.
+
+#### `autodetect-corrections-YYYY-MM-DD.json`
+
+Manuelle Korrekturen aus der Nacherfassungs-GUI. Jede Korrektur speichert Original-Klassifikation und korrigierten Wert:
+
+```json
+[
+  {"ts": "2026-03-19T07:53:52", "start": "07:15", "end": "07:17",
+   "original": "Bearb. Essensplan LEEPEP",
+   "corrected": "Bearb. Essensplan (gegessen) LEEPEP"}
+]
+```
+
+Dient als Lernbasis für zukünftige AutoDetect-Verbesserungen. Wird nur bei Korrekturen geschrieben (nicht bei bestätigten Vorschlägen).
 
 #### `planner-state-YYYY-MM-DD.json`
 
@@ -593,7 +623,47 @@ Wenn "Hast du Jause mitgenommen?", , sonst Jause kaufen
 - Task-Sperre (`lock_current()`) verhindert stillen Kandidatenwechsel
 - 4 Matching-Strategien: exakt, Prefix, Keyword-Alias, Containment
 
-*Stand: Uncommitted — geplant als Commit v1.5*
+*Commit: diverse März 2026*
+
+### v1.6 — 12.–17. März 2026 (Window Monitor & Nacherfassung)
+
+*Automatische Fenster-Überwachung und halbautomatische Nacherfassung.*
+
+- **`window_monitor.py`**: Pollt aktives Fenster alle 1s über Win32 API, schreibt `windowmon-YYYY-MM-DD.jsonl`
+- **`windowmon_import.py`**: Nacherfassungs-Workflow — JSONL → Blockbildung → AutoDetect → GUI-Dialog
+  - AutoDetect: Regelbasierte Klassifikation von Fenster-Events zu Aktivitäten (per `windowmon_summary.yaml`)
+  - Block-Konsolidierung: 6-Pass-Algorithmus (Pass 0a/0b → 1 → 1.5 → 2) für Noise-Absorption und Bridging
+  - GUI: Zeigt vorgeschlagene Blöcke, erlaubt Korrektur, Import in den Planner-Log
+  - autodetect-corrections-YYYY-MM-DD.json: Speichert manuelle Korrekturen als Lernbasis
+- **Idle/Off-PC-Erkennung**: 30s ohne Input → „Off-PC"-Modus, backdated um 20s, Marker in JSONL
+- **Window-Titel im Planer**: Zeigt aktuelle Aktivität für WindowMon-Klassifikation (`Tagesplanung — Off-PC — [Aktivität]`)
+- **Log-Bearbeitung**: Doppelklick auf Erledigt-Einträge → Ändern/Löschen/Duplizieren
+- **Drift-Anzeige**: Vergleich aktuelle vs. geplante Zeit (aus Projektion) mit farblicher Warnung
+
+*Commits: `ae75cef` und Vorgänger*
+
+### v1.7 — 20. März 2026 (Restplan & Out-of-Order-Logging)
+
+*Adressiert das Desynchronisations-Problem: Wenn Plan und Realität auseinanderdriften
+(z.B. nach BRZ-Rückkehr), war der Planer bisher unbrauchbar, bis die Nacherfassung
+abgeschlossen war. Drei Features lösen das:*
+
+- **V8 — Out-of-Order-Logging**: Doppelklick auf beliebiges Queue-Item loggt es unter
+  der richtigen Liste. Engine überspringt bereits geloggte Items automatisch
+  (`_is_already_logged()` in `_resolve()` und `get_day_projection()`). Kein manuelles
+  Überspringen mehr, keine Duplikate.
+- **V9 — Restplan-Ansicht**: Toggle-Button „📋 Restplan" im Queue-Panel zeigt die
+  originale Tagesprojektion (aus `projection-*.json`) minus Erledigtes. Chronologisch,
+  mit „── jetzt ──"-Marker, gedimmte vergangene Items, grüne Kandidaten.
+- **V10 — Bulk-Complete**: Rechtsklick im Restplan → „Bis hierher erledigt" markiert
+  alle Items bis zum gewählten Punkt als erledigt (mit Projektions-Zeiten als Platzhalter).
+  Synchronisiert den Planer in Sekunden statt Minuten.
+
+*Hintergrund: Analyse des 19.03.2026 zeigte, dass die Nacherfassungs-Angst
+(Desynchronisation → Vermeidung → „sinnloses Tun" → Tage 1-2h zu lang) das
+Kernproblem war. Details in `docs/nacherfassung-improvements.md` (V8/V9/V10-Abschnitt).*
+
+*Commit: `d0e7c94`*
 
 ---
 
