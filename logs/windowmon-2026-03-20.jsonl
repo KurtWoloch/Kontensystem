@@ -758,3 +758,7 @@
 {"ts": "2026-03-20T14:14:00", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
 {"ts": "2026-03-20T14:14:01", "hwnd": 67226, "title": "OpenClaw Control und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
 {"ts": "2026-03-20T14:14:01", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-20T14:15:04", "hwnd": 24448608, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:15:05", "hwnd": 67226, "title": "OpenClaw Control und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-20T14:15:37", "hwnd": 24448608, "title": "Bis hierher erledigt", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-20T14:15:46", "hwnd": 67226, "title": "OpenClaw Control und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}

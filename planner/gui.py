@@ -1809,7 +1809,7 @@ class PlannerGUI:
         lbl_duration.pack(anchor="w", padx=12, pady=(0, 2))
 
         tk.Label(
-            dlg, text="Auswahl: Ctrl/Shift+Klick für einzelne Items. "
+            dlg, text="Klick auf Zeilen zum An-/Abwählen. "
                       "Keine Auswahl = alle.",
             font=("Segoe UI", 8, "italic"), bg=COLOR_BG, fg="#6c7086"
         ).pack(anchor="w", padx=12, pady=(0, 6))
@@ -1823,7 +1823,7 @@ class PlannerGUI:
             list_frame, bg=COLOR_LIST, fg=COLOR_FG,
             font=("Consolas", 9), height=display_count,
             relief=tk.FLAT, highlightthickness=0,
-            selectmode=tk.EXTENDED,
+            selectmode=tk.MULTIPLE,
             selectbackground=COLOR_ACCENT,
             selectforeground="#1e1e2e"
         )
