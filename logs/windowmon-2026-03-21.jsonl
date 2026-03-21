@@ -1,0 +1,262 @@
+{"ts": "2026-03-21T05:55:12", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T05:55:19", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Aufstehen, Rasierer fasssen LEMTAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:55:20", "hwnd": 7146042, "title": "Aufgabe erledigt — Aufstehen, Rasierer fasssen LEMTAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:55:22", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:55:33", "hwnd": 67226, "title": "OpenClaw Control und 2 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T05:55:35", "hwnd": 67226, "title": "Neuer Tab und 3 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T05:55:39", "hwnd": 67226, "title": "Unbenannt und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T05:55:42", "hwnd": 67226, "title": "Andon FM | Andon Labs und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T05:55:47", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T05:56:07", "hwnd": 67226, "title": "Neuer Tab und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T05:56:21", "hwnd": 67226, "title": "MSN und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T05:56:22", "hwnd": 23596052, "title": "Tagesplanung — Off-PC — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:56:22", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 35, "idle_start": "2026-03-21T05:55:47"}
+{"ts": "2026-03-21T05:56:27", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T05:56:36", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:56:40", "hwnd": 28773648, "title": "Tagesbericht erstellen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:56:41", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:56:53", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T05:57:31", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 37, "idle_start": "2026-03-21T05:56:53"}
+{"ts": "2026-03-21T05:57:36", "hwnd": 9830628, "title": "Tagesbericht — 2026-03-20", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:58:20", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:58:22", "hwnd": 11535630, "title": "Vorgezogene Aktivität erfassen — Liste_Morgentoilette — WC LEMTWC", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:58:38", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T05:59:51", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 72, "idle_start": "2026-03-21T05:58:38"}
+{"ts": "2026-03-21T05:59:53", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T05:59:54", "hwnd": 11535630, "title": "Vorgezogene Aktivität erfassen — Liste_Morgentoilette — WC LEMTWC", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:00:15", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:00:17", "hwnd": 36245348, "title": "Aufgabe unterbrechen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:00:31", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:00:42", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:01:12", "hwnd": 15862846, "title": "Explorer", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:00:53", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T06:01:47", "hwnd": 3212982, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:01:48", "hwnd": 23596052, "title": "Tagesplanung — Off-PC — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:01:49", "hwnd": 3278518, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:01:50", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:01:53", "hwnd": 3344054, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:01:54", "hwnd": 15862846, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:02:00", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:02:02", "hwnd": 16517914, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:02:03", "hwnd": 15862846, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:02:08", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:02:26", "hwnd": 15862846, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:02:31", "hwnd": 65988, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:02:32", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:02:34", "hwnd": 15862846, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:02:39", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:02:49", "hwnd": 15862846, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:02:52", "hwnd": 15205718, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:02:53", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:03:52", "hwnd": 67226, "title": "Andon FM | Andon Labs und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:03:56", "hwnd": 5243760, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:04:00", "hwnd": 65678, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:04:05", "hwnd": 12978698, "title": "Task-Manager", "process": "Taskmgr.exe", "browser": ""}
+{"ts": "2026-03-21T06:04:18", "hwnd": 65678, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:04:23", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:08:50", "hwnd": 15862846, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:08:53", "hwnd": 12913352, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:08:59", "hwnd": 65678, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:09:03", "hwnd": 12913352, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:09:20", "hwnd": 1968052, "title": "Dateien ersetzen oder überspringen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:09:22", "hwnd": 15862846, "title": "Lebenserhaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:09:23", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:09:24", "hwnd": 12913352, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:09:35", "hwnd": 15599216, "title": "~AuswertungGegessen20263216935.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:11:01", "hwnd": 33227952, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:11:02", "hwnd": 15599216, "title": "~AuswertungGegessen20263216935.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:13:12", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:13:13", "hwnd": 12913352, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:13:19", "hwnd": 19926882, "title": "~VersuchEssensplan202632161314.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:13:20", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:13:21", "hwnd": 19926882, "title": "~VersuchEssensplan202632161314.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:15:08", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:15:09", "hwnd": 12913352, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:15:12", "hwnd": 31721852, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:15:16", "hwnd": 31787388, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:15:17", "hwnd": 12913352, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:15:21", "hwnd": 20449820, "title": "~VersuchBewertungHaendlerangebote202632161512.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:15:22", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:15:23", "hwnd": 20449820, "title": "~VersuchBewertungHaendlerangebote202632161512.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:16:19", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:16:22", "hwnd": 1377782, "title": "KS - Diskussion mit OpenClaw (Tagesplanung) KSPLOC: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-21T06:16:24", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:25:01", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:25:02", "hwnd": 20449820, "title": "~VersuchBewertungHaendlerangebote202632161512.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:25:14", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:29:00", "hwnd": 15862846, "title": "Lebenserhaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:29:11", "hwnd": 23530932, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:29:12", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:29:13", "hwnd": 15862846, "title": "docs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:29:17", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:29:31", "hwnd": 15862846, "title": "docs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:29:35", "hwnd": 13305860, "title": "Visual Studio Code", "process": "Code.exe", "browser": ""}
+{"ts": "2026-03-21T06:29:59", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:30:00", "hwnd": 15862846, "title": "docs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:30:01", "hwnd": 21564376, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:30:02", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:30:09", "hwnd": 15075894, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:30:10", "hwnd": 13305860, "title": "planner-technik.md - Visual Studio Code", "process": "Code.exe", "browser": ""}
+{"ts": "2026-03-21T06:30:12", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:30:13", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:42:18", "hwnd": 7997584, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:42:20", "hwnd": 13305860, "title": "planner-technik.md - Visual Studio Code", "process": "Code.exe", "browser": ""}
+{"ts": "2026-03-21T06:42:25", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:42:26", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:46:58", "hwnd": 1377782, "title": "KS - Diskussion mit OpenClaw (Tagesplanung) KSPLOC: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-21T06:47:17", "hwnd": 20449820, "title": "~VersuchBewertungHaendlerangebote202632161512.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:47:23", "hwnd": 15862846, "title": "docs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:47:27", "hwnd": 34212060, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:47:34", "hwnd": 17828144, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:47:36", "hwnd": 17893680, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:47:37", "hwnd": 34212060, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-21T06:47:41", "hwnd": 17959216, "title": "~VersuchBewertungHaendlerangebote202632164733.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:47:45", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:47:46", "hwnd": 17959216, "title": "~VersuchBewertungHaendlerangebote202632164733.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:47:49", "hwnd": 17567090, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:47:51", "hwnd": 20449820, "title": "~VersuchBewertungHaendlerangebote202632161512.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:49:02", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:49:09", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:49:10", "hwnd": 9830628, "title": "Tagesbericht — 2026-03-20", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:49:10", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 2896, "idle_start": "2026-03-21T06:00:53"}
+{"ts": "2026-03-21T06:49:12", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:49:13", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:49:34", "hwnd": 7670888, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:49:45", "hwnd": 7013630, "title": "windowmon 06:00-06:08", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:49:46", "hwnd": 7670888, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:50:19", "hwnd": 5178182, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:50:25", "hwnd": 7670888, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:50:31", "hwnd": 30541930, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:50:41", "hwnd": 7670888, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:50:45", "hwnd": 30607466, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:51:12", "hwnd": 7670888, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:51:14", "hwnd": 19006576, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:51:16", "hwnd": 19072112, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:51:18", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:51:22", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:51:47", "hwnd": 13305860, "title": "planner-technik.md - Visual Studio Code", "process": "Code.exe", "browser": ""}
+{"ts": "2026-03-21T06:51:51", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:52:19", "hwnd": 16977362, "title": "Aufgabe erledigt — Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA (Fs.)", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:52:46", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:52:54", "hwnd": 18222830, "title": "Eintrag löschen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:52:56", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:52:57", "hwnd": 15666420, "title": "Eintrag bearbeiten — Bearb. Essensplan LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:53:00", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:53:15", "hwnd": 18287986, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:53:16", "hwnd": 17894762, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:53:17", "hwnd": 18287986, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:53:22", "hwnd": 17960298, "title": "Vorschlag bearbeiten", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:53:42", "hwnd": 18287986, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:53:46", "hwnd": 14814426, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:53:48", "hwnd": 14879962, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:53:49", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:53:54", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:53:57", "hwnd": 67226, "title": "Andon FM | Andon Labs und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:54:04", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T06:54:50", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:54:52", "hwnd": 17959216, "title": "~VersuchBewertungHaendlerangebote202632164733.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:54:56", "hwnd": 15599216, "title": "~AuswertungGegessen20263216935.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-21T06:55:01", "hwnd": 67226, "title": "Andon FM | Andon Labs und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:55:02", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T06:55:56", "hwnd": 23596052, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:55:57", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 112, "idle_start": "2026-03-21T06:54:04"}
+{"ts": "2026-03-21T06:56:05", "hwnd": 19597426, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:56:07", "hwnd": 23596052, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:56:19", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T06:56:22", "hwnd": 25495810, "title": "Nacherfassung aus windowmon", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:56:25", "hwnd": 22679170, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:56:37", "hwnd": 15994100, "title": "Ungeplante Aktivität erfassen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:57:11", "hwnd": 22679170, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:57:22", "hwnd": 16125172, "title": "Nacherfassung aus windowmon", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:57:24", "hwnd": 22679170, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:58:13", "hwnd": 15862846, "title": "USB-STICK (F:)", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:58:29", "hwnd": 22284398, "title": "Microsoft Excel", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-21T06:58:30", "hwnd": 22284398, "title": "Microsoft Excel - Planungsaktivitaeten.csv", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-21T06:58:35", "hwnd": 10225706, "title": "Find", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-21T06:58:30", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T06:59:18", "hwnd": 22284398, "title": "Microsoft Excel - Planungsaktivitaeten.csv", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-21T06:59:20", "hwnd": 22679170, "title": "Tagesplanung — Off-PC — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:59:22", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T06:59:24", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T06:59:44", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 74, "idle_start": "2026-03-21T06:58:30"}
+{"ts": "2026-03-21T06:59:45", "hwnd": 22679170, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:59:46", "hwnd": 10356778, "title": "Nacherfassung aus windowmon", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T06:59:52", "hwnd": 22679170, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:00:10", "hwnd": 22284398, "title": "Microsoft Excel - Planungsaktivitaeten.csv", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-21T07:00:14", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:00:15", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T07:00:36", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:00:37", "hwnd": 22284398, "title": "Microsoft Excel - Planungsaktivitaeten.csv", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-21T07:00:39", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 23, "idle_start": "2026-03-21T07:00:15"}
+{"ts": "2026-03-21T07:00:39", "hwnd": 22679170, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:00:40", "hwnd": 8260712, "title": "Nacherfassung aus windowmon", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:00:43", "hwnd": 22679170, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:00:44", "hwnd": 16909928, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:00:45", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:00:46", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:01:00", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:01:01", "hwnd": 8522856, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:01:02", "hwnd": 22679170, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:01:04", "hwnd": 8588392, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:01:05", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:01:00", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T07:02:15", "hwnd": 10618922, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:02:16", "hwnd": 22679170, "title": "Tagesplanung — Off-PC — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:02:17", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:02:18", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:03:48", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:03:49", "hwnd": 1574902, "title": "Radio Streamer - run_streamer_queue.bat", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T07:03:51", "hwnd": 66698, "title": "Live365 Scraper", "process": "Live365Scraper.exe", "browser": ""}
+{"ts": "2026-03-21T07:03:52", "hwnd": 65886, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:04:04", "hwnd": 854234, "title": "Administrator: Windows PowerShell", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T07:04:51", "hwnd": 66698, "title": "Live365 Scraper", "process": "Live365Scraper.exe", "browser": ""}
+{"ts": "2026-03-21T07:04:58", "hwnd": 131600, "title": "Suche", "process": "SearchApp.exe", "browser": ""}
+{"ts": "2026-03-21T07:05:03", "hwnd": 2165500, "title": "Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T07:05:23", "hwnd": 22679170, "title": "Tagesplanung — Off-PC — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:05:28", "hwnd": 1377782, "title": "LE -  Mund spülen: Tagesplanung — Off-PC — Mund spülen LEMTMS", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-21T07:05:28", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 268, "idle_start": "2026-03-21T07:01:00"}
+{"ts": "2026-03-21T07:05:38", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T07:06:21", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 42, "idle_start": "2026-03-21T07:05:38"}
+{"ts": "2026-03-21T07:06:23", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:06:33", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T07:11:00", "hwnd": 2362096, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:11:01", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:12:52", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 379, "idle_start": "2026-03-21T07:06:33"}
+{"ts": "2026-03-21T07:12:53", "hwnd": 22679170, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:12:55", "hwnd": 13241054, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:12:57", "hwnd": 22679170, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:13:09", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T07:13:12", "hwnd": 10420452, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:13:17", "hwnd": 28641366, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:13:23", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:13:35", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:13:36", "hwnd": 28641366, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:13:43", "hwnd": 12913396, "title": "windowmon 06:57-07:01", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:13:44", "hwnd": 28641366, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:13:45", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:14:15", "hwnd": 17041814, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:14:16", "hwnd": 28641366, "title": "Nacherfassung aus windowmon - 2026-03-21", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:14:19", "hwnd": 10420452, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:14:20", "hwnd": 27002796, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:14:23", "hwnd": 27068332, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:14:24", "hwnd": 10420452, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:14:25", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:14:35", "hwnd": 1377782, "title": "KS - Diskussion mit OpenClaw (Tagesplanung) KSPLOC: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-21T07:14:35", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T07:19:48", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 313, "idle_start": "2026-03-21T07:14:35"}
+{"ts": "2026-03-21T07:19:48", "hwnd": 10420452, "title": "Tagesplanung — Reaktiver Planer — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:20:00", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T07:20:14", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:20:26", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-21T07:20:50", "hwnd": 1377782, "title": "KS - Diskussion mit OpenClaw (Tagesplanung) KSPLOC: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-03-21T07:24:04", "hwnd": 15599590, "title": "Tagesplanung — Off-PC — Mund spülen LEMTMS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:24:04", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 218, "idle_start": "2026-03-21T07:20:26"}
+{"ts": "2026-03-21T07:24:12", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T07:24:16", "hwnd": 12782118, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:24:19", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T07:24:32", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:24:51", "hwnd": 65942, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-21T07:24:52", "hwnd": 12782118, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-21T07:24:53", "hwnd": 198068, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-21T07:24:56", "hwnd": 67226, "title": "OpenClaw Control und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-21T07:24:52", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}

@@ -2,7 +2,7 @@
 import json, os, sys
 from datetime import datetime
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "planner"))
 from windowmon_summary import load_windowmon, classify_entry, build_activity_blocks
 
 entries = load_windowmon("2026-03-15")

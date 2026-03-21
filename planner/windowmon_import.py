@@ -22,11 +22,6 @@ from tkinter import ttk, messagebox
 from datetime import datetime, timedelta
 from typing import List, Dict, Tuple, Optional
 
-# Add parent dir for windowmon_summary imports
-_parent = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-if _parent not in sys.path:
-    sys.path.insert(0, _parent)
-
 from windowmon_summary import (
     load_windowmon, classify_entry, build_activity_blocks,
     _extract_offpc_activity, LOG_DIR,
@@ -408,6 +403,238 @@ def _find_planner_context(completed: List, gap_start: datetime
     return None
 
 
+def _get_preceding_activity(entries: List[Dict], before_ts: datetime,
+                             ) -> Optional[Tuple[Dict, str, str]]:
+    """Find the last known window activity before a given timestamp.
+
+    Returns (entry, account, activity) or None if not found or unclassifiable.
+    """
+    preceding = [
+        e for e in entries
+        if not e.get("type") and e["_ts"] < before_ts
+    ]
+    if not preceding:
+        return None
+    last_entry = max(preceding, key=lambda e: e["_ts"])
+    account, activity = classify_entry(last_entry)
+    if account in ("_UNCLASSIFIABLE", "_WINLOGGER",
+                   "_EXPLORER_ACCOUNT_HINT"):
+        return None
+    return last_entry, account, activity
+
+
+def _process_gap(gap_start: datetime, gap_end: datetime,
+                 entries: List[Dict], completed: Optional[List],
+                 day_overrides: Dict[str, str]) -> List[Dict]:
+    """Process a single gap: classify events, build blocks, consolidate.
+
+    Returns list of proposal dicts for this gap (may be empty).
+    """
+    proposals = []
+
+    # Filter windowmon entries within this gap
+    gap_entries = [
+        e for e in entries
+        if not e.get("type")  # skip markers
+        and gap_start <= e["_ts"] <= gap_end
+    ]
+    if not gap_entries:
+        # No window switch during this gap — the last window before the
+        # gap is still active.  Find the most recent entry before gap_start
+        # and create a synthetic proposal covering the entire gap.
+        preceding_result = _get_preceding_activity(entries, gap_start)
+        if preceding_result is None:
+            return []
+        last_entry, account, activity = preceding_result
+
+        # Must cross at least one minute boundary
+        if gap_start.strftime("%H:%M") == gap_end.strftime("%H:%M"):
+            return []
+
+        duration_min = (gap_end - gap_start).total_seconds() / 60
+
+        # Apply day overrides
+        original_activity = activity
+        if activity in day_overrides:
+            activity = day_overrides[activity]
+            code_match = re.search(r'\s([A-Z]{6})$', activity)
+            if code_match:
+                account = code_match.group(1)[:2]
+
+        # Apply planner context
+        planner_override = False
+        if completed:
+            planner_ctx_synth = _find_planner_context(completed, gap_start)
+            if (planner_ctx_synth and planner_ctx_synth["account"] and
+                    account == planner_ctx_synth["account"] and
+                    not re.search(r'\s[A-Z]{6}(?:\s|$)', activity)):
+                activity = planner_ctx_synth["activity"]
+                planner_override = True
+
+        proposals.append({
+            "account": account,
+            "activity": activity,
+            "start": gap_start,
+            "end": gap_end,
+            "duration_min": duration_min,
+            "raw_entries": [last_entry],
+            "entry_count": 1,
+            "status": "pending",
+            "original_activity": original_activity,
+            "comment": "(kein Fensterwechsel — letztes Fenster fortgesetzt)",
+            "planner_context": planner_override,
+        })
+        return proposals
+
+    # Find planner context for this gap (what was supposed to be running)
+    planner_ctx = None
+    if completed:
+        planner_ctx = _find_planner_context(completed, gap_start)
+
+    # Build classified blocks for this gap
+    blocks = build_activity_blocks(gap_entries)
+
+    # ── Pre-enrichment: Apply planner context & day overrides BEFORE consolidation ──
+    for block in blocks:
+        activity = block["activity"]
+        account = block["account"]
+        block["original_activity"] = activity
+
+        planner_override = False
+        block_has_specific_code = bool(
+            re.search(r'\s[A-Z]{6}(?:\s|$)', activity)
+        )
+        if (planner_ctx and planner_ctx["account"] and
+                account == planner_ctx["account"]
+                and not block_has_specific_code):
+            activity = planner_ctx["activity"]
+            planner_override = True
+
+        override_applied = False
+        if not planner_override and activity in day_overrides:
+            activity = day_overrides[activity]
+            override_applied = True
+            code_match = re.search(r'\s([A-Z]{6})$', activity)
+            if code_match:
+                account = code_match.group(1)[:2]
+
+        block["activity"] = activity
+        block["account"] = account
+        block["planner_context"] = planner_override
+
+    # Consolidate: merge adjacent blocks with same classification
+    # This handles rapid switching (e.g., 2s Explorer between two
+    # OpenClaw blocks → one OpenClaw block)
+    blocks = _consolidate_blocks(blocks, max_gap_s=120)
+
+    # Collect clamped blocks and detect sub-gaps between them.
+    # A sub-gap occurs when blocks don't fully cover a gap (e.g.,
+    # blocks at 22:22-22:23 and 22:33-22:36 leave 22:23-22:33 empty
+    # because no window switch happened — the last window was still
+    # active, typically an Off-PC activity like brushing teeth).
+    clamped_blocks = []
+    for block in blocks:
+        # Clamp to gap boundaries
+        block_start = max(block["start"], gap_start)
+        block_end = min(block["end"], gap_end)
+
+        # Filter: must cross at least one minute boundary
+        # (e.g., 08:52:31-08:53:29 → 08:52-08:53 = OK;
+        #  08:57:01-08:57:35 → 08:57-08:57 = drop)
+        if block_start.strftime("%H:%M") == block_end.strftime("%H:%M"):
+            continue
+
+        duration_min = (block_end - block_start).total_seconds() / 60
+
+        # Collect raw entries for this block's time range
+        raw = [
+            e for e in gap_entries
+            if block_start <= e["_ts"] <= block_end
+        ]
+
+        prop = {
+            "account": block["account"],
+            "activity": block["activity"],
+            "start": block_start,
+            "end": block_end,
+            "duration_min": duration_min,
+            "raw_entries": raw,
+            "entry_count": len(raw),
+            "status": "pending",  # pending / accepted / edited / ignored
+            "original_activity": block.get("original_activity", block["activity"]),
+            "comment": "",
+            "planner_context": block.get("planner_context", False),
+        }
+        proposals.append(prop)
+        clamped_blocks.append(prop)
+
+    # ── Sub-gap detection: fill gaps between blocks within this gap ──
+    # Sort clamped blocks by start time, then look for uncovered
+    # intervals >= 2 minutes.  For each sub-gap, propose the
+    # activity of the preceding block (last window still active).
+    clamped_blocks.sort(key=lambda b: b["start"])
+    sub_gap_min_minutes = 2
+
+    # Check: gap_start → first block
+    if clamped_blocks:
+        first_start = clamped_blocks[0]["start"]
+        if (first_start - gap_start).total_seconds() / 60 >= sub_gap_min_minutes:
+            # Find last entry before this sub-gap
+            preceding_result = _get_preceding_activity(entries, gap_start)
+            if preceding_result is not None:
+                last_e, sg_account, sg_activity = preceding_result
+                sg_original = sg_activity
+                if sg_activity in day_overrides:
+                    sg_activity = day_overrides[sg_activity]
+                    cm = re.search(r'\s([A-Z]{6})$', sg_activity)
+                    if cm:
+                        sg_account = cm.group(1)[:2]
+                proposals.append({
+                    "account": sg_account,
+                    "activity": sg_activity,
+                    "start": gap_start,
+                    "end": first_start,
+                    "duration_min": (first_start - gap_start).total_seconds() / 60,
+                    "raw_entries": [last_e],
+                    "entry_count": 1,
+                    "status": "pending",
+                    "original_activity": sg_original,
+                    "comment": "(kein Fensterwechsel — letztes Fenster fortgesetzt)",
+                    "planner_context": False,
+                })
+
+        # Check: between consecutive blocks — extend the preceding
+        # block to cover the sub-gap (no new window = same activity).
+        # This avoids creating a second proposal for the same activity
+        # that would need manual merging.
+        for idx in range(len(clamped_blocks) - 1):
+            prev_end = clamped_blocks[idx]["end"]
+            next_start = clamped_blocks[idx + 1]["start"]
+            if (next_start - prev_end).total_seconds() / 60 >= sub_gap_min_minutes:
+                prev_b = clamped_blocks[idx]
+                prev_b["end"] = next_start
+                prev_b["duration_min"] = (
+                    prev_b["end"] - prev_b["start"]
+                ).total_seconds() / 60
+                if not prev_b.get("comment"):
+                    prev_b["comment"] = (
+                        "(kein Fensterwechsel — letztes Fenster fortgesetzt)")
+
+        # Check: last block → gap_end — extend last block
+        last_end = clamped_blocks[-1]["end"]
+        if (gap_end - last_end).total_seconds() / 60 >= sub_gap_min_minutes:
+            last_b = clamped_blocks[-1]
+            last_b["end"] = gap_end
+            last_b["duration_min"] = (
+                last_b["end"] - last_b["start"]
+            ).total_seconds() / 60
+            if not last_b.get("comment"):
+                last_b["comment"] = (
+                    "(kein Fensterwechsel — letztes Fenster fortgesetzt)")
+
+    return proposals
+
+
 def get_windowmon_proposals(date_str: str,
                             gaps: List[Tuple[datetime, datetime]],
                             completed: Optional[List] = None,
@@ -441,222 +668,10 @@ def get_windowmon_proposals(date_str: str,
     entries.sort(key=lambda e: e["_ts"])
 
     proposals = []
-
     for gap_start, gap_end in gaps:
-        # Filter windowmon entries within this gap
-        gap_entries = [
-            e for e in entries
-            if not e.get("type")  # skip markers
-            and gap_start <= e["_ts"] <= gap_end
-        ]
-        if not gap_entries:
-            # No window switch during this gap — the last window before the
-            # gap is still active.  Find the most recent entry before gap_start
-            # and create a synthetic proposal covering the entire gap.
-            preceding = [
-                e for e in entries
-                if not e.get("type") and e["_ts"] < gap_start
-            ]
-            if not preceding:
-                continue
-            last_entry = max(preceding, key=lambda e: e["_ts"])
-            account, activity = classify_entry(last_entry)
-
-            # Skip unclassifiable / internal entries
-            if account in ("_UNCLASSIFIABLE", "_WINLOGGER",
-                           "_EXPLORER_ACCOUNT_HINT"):
-                continue
-
-            # Must cross at least one minute boundary
-            if gap_start.strftime("%H:%M") == gap_end.strftime("%H:%M"):
-                continue
-
-            duration_min = (gap_end - gap_start).total_seconds() / 60
-
-            # Apply day overrides
-            original_activity = activity
-            if activity in day_overrides:
-                activity = day_overrides[activity]
-                code_match = re.search(r'\s([A-Z]{6})$', activity)
-                if code_match:
-                    account = code_match.group(1)[:2]
-
-            # Apply planner context
-            planner_override = False
-            if completed:
-                planner_ctx_synth = _find_planner_context(completed, gap_start)
-                if (planner_ctx_synth and planner_ctx_synth["account"] and
-                        account == planner_ctx_synth["account"] and
-                        not re.search(r'\s[A-Z]{6}(?:\s|$)', activity)):
-                    activity = planner_ctx_synth["activity"]
-                    planner_override = True
-
-            proposals.append({
-                "account": account,
-                "activity": activity,
-                "start": gap_start,
-                "end": gap_end,
-                "duration_min": duration_min,
-                "raw_entries": [last_entry],
-                "entry_count": 1,
-                "status": "pending",
-                "original_activity": original_activity,
-                "comment": "(kein Fensterwechsel — letztes Fenster fortgesetzt)",
-                "planner_context": planner_override,
-            })
-            continue
-
-        # Find planner context for this gap (what was supposed to be running)
-        planner_ctx = None
-        if completed:
-            planner_ctx = _find_planner_context(completed, gap_start)
-
-        # Build classified blocks for this gap
-        blocks = build_activity_blocks(gap_entries)
-
-        # ── Pre-enrichment: Apply planner context & day overrides BEFORE consolidation ──
-        for block in blocks:
-            activity = block["activity"]
-            account = block["account"]
-            block["original_activity"] = activity
-
-            planner_override = False
-            block_has_specific_code = bool(
-                re.search(r'\s[A-Z]{6}(?:\s|$)', activity)
-            )
-            if (planner_ctx and planner_ctx["account"] and
-                    account == planner_ctx["account"]
-                    and not block_has_specific_code):
-                activity = planner_ctx["activity"]
-                planner_override = True
-
-            override_applied = False
-            if not planner_override and activity in day_overrides:
-                activity = day_overrides[activity]
-                override_applied = True
-                code_match = re.search(r'\s([A-Z]{6})$', activity)
-                if code_match:
-                    account = code_match.group(1)[:2]
-
-            block["activity"] = activity
-            block["account"] = account
-            block["planner_context"] = planner_override
-
-        # Consolidate: merge adjacent blocks with same classification
-        # This handles rapid switching (e.g., 2s Explorer between two
-        # OpenClaw blocks → one OpenClaw block)
-        blocks = _consolidate_blocks(blocks, max_gap_s=120)
-
-        # Collect clamped blocks and detect sub-gaps between them.
-        # A sub-gap occurs when blocks don't fully cover a gap (e.g.,
-        # blocks at 22:22-22:23 and 22:33-22:36 leave 22:23-22:33 empty
-        # because no window switch happened — the last window was still
-        # active, typically an Off-PC activity like brushing teeth).
-        clamped_blocks = []
-        for block in blocks:
-            # Clamp to gap boundaries
-            block_start = max(block["start"], gap_start)
-            block_end = min(block["end"], gap_end)
-
-            # Filter: must cross at least one minute boundary
-            # (e.g., 08:52:31-08:53:29 → 08:52-08:53 = OK;
-            #  08:57:01-08:57:35 → 08:57-08:57 = drop)
-            if block_start.strftime("%H:%M") == block_end.strftime("%H:%M"):
-                continue
-
-            duration_min = (block_end - block_start).total_seconds() / 60
-
-            # Collect raw entries for this block's time range
-            raw = [
-                e for e in gap_entries
-                if block_start <= e["_ts"] <= block_end
-            ]
-
-            prop = {
-                "account": block["account"],
-                "activity": block["activity"],
-                "start": block_start,
-                "end": block_end,
-                "duration_min": duration_min,
-                "raw_entries": raw,
-                "entry_count": len(raw),
-                "status": "pending",  # pending / accepted / edited / ignored
-                "original_activity": block.get("original_activity", block["activity"]),
-                "comment": "",
-                "planner_context": block.get("planner_context", False),
-            }
-            proposals.append(prop)
-            clamped_blocks.append(prop)
-
-        # ── Sub-gap detection: fill gaps between blocks within this gap ──
-        # Sort clamped blocks by start time, then look for uncovered
-        # intervals >= 2 minutes.  For each sub-gap, propose the
-        # activity of the preceding block (last window still active).
-        clamped_blocks.sort(key=lambda b: b["start"])
-        sub_gap_min_minutes = 2
-
-        # Check: gap_start → first block
-        if clamped_blocks:
-            first_start = clamped_blocks[0]["start"]
-            if (first_start - gap_start).total_seconds() / 60 >= sub_gap_min_minutes:
-                # Find last entry before this sub-gap
-                preceding = [
-                    e for e in entries
-                    if not e.get("type") and e["_ts"] < gap_start
-                ]
-                if preceding:
-                    last_e = max(preceding, key=lambda e: e["_ts"])
-                    sg_account, sg_activity = classify_entry(last_e)
-                    if sg_account not in ("_UNCLASSIFIABLE", "_WINLOGGER",
-                                          "_EXPLORER_ACCOUNT_HINT"):
-                        sg_original = sg_activity
-                        if sg_activity in day_overrides:
-                            sg_activity = day_overrides[sg_activity]
-                            cm = re.search(r'\s([A-Z]{6})$', sg_activity)
-                            if cm:
-                                sg_account = cm.group(1)[:2]
-                        proposals.append({
-                            "account": sg_account,
-                            "activity": sg_activity,
-                            "start": gap_start,
-                            "end": first_start,
-                            "duration_min": (first_start - gap_start).total_seconds() / 60,
-                            "raw_entries": [last_e],
-                            "entry_count": 1,
-                            "status": "pending",
-                            "original_activity": sg_original,
-                            "comment": "(kein Fensterwechsel — letztes Fenster fortgesetzt)",
-                            "planner_context": False,
-                        })
-
-            # Check: between consecutive blocks — extend the preceding
-            # block to cover the sub-gap (no new window = same activity).
-            # This avoids creating a second proposal for the same activity
-            # that would need manual merging.
-            for idx in range(len(clamped_blocks) - 1):
-                prev_end = clamped_blocks[idx]["end"]
-                next_start = clamped_blocks[idx + 1]["start"]
-                if (next_start - prev_end).total_seconds() / 60 >= sub_gap_min_minutes:
-                    prev_b = clamped_blocks[idx]
-                    prev_b["end"] = next_start
-                    prev_b["duration_min"] = (
-                        prev_b["end"] - prev_b["start"]
-                    ).total_seconds() / 60
-                    if not prev_b.get("comment"):
-                        prev_b["comment"] = (
-                            "(kein Fensterwechsel — letztes Fenster fortgesetzt)")
-
-            # Check: last block → gap_end — extend last block
-            last_end = clamped_blocks[-1]["end"]
-            if (gap_end - last_end).total_seconds() / 60 >= sub_gap_min_minutes:
-                last_b = clamped_blocks[-1]
-                last_b["end"] = gap_end
-                last_b["duration_min"] = (
-                    last_b["end"] - last_b["start"]
-                ).total_seconds() / 60
-                if not last_b.get("comment"):
-                    last_b["comment"] = (
-                        "(kein Fensterwechsel — letztes Fenster fortgesetzt)")
+        proposals.extend(
+            _process_gap(gap_start, gap_end, entries, completed, day_overrides)
+        )
 
     # Sort by start time
     proposals.sort(key=lambda p: p["start"])

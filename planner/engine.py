@@ -916,6 +916,11 @@ class PlannerEngine:
             last_completed_at_local: Optional[datetime] = None
             # Track which CSV indices were matched
             matched_indices: set = set()
+            # Track whether we've passed an unmatched ACTIVITY.
+            # Once that happens, we must NOT execute control-flow
+            # rows (START_LIST, STOP_LIST, etc.) because the session
+            # hasn't actually reached that point yet.
+            hit_unmatched_activity = False
 
             save_index = ls.current_index
             while ls.current_index < len(ls.rows):
@@ -969,6 +974,11 @@ class PlannerEngine:
                         break
 
                 if row.row_type == RowType.START_LIST:
+                    if hit_unmatched_activity:
+                        # Session hasn't reached this point yet —
+                        # don't activate the target list prematurely.
+                        ls.current_index += 1
+                        continue
                     print(f"[LOAD] Starting list: {row.target_list}")
                     self._start_list(row.target_list,
                                      reference_time=last_completed_at_local)
@@ -980,12 +990,18 @@ class PlannerEngine:
                     continue
 
                 if row.row_type == RowType.STOP_LIST:
+                    if hit_unmatched_activity:
+                        ls.current_index += 1
+                        continue
                     print(f"[LOAD] Stopping list: {row.target_list}")
                     self._stop_list(row.target_list)
                     ls.current_index += 1
                     continue
 
                 if row.row_type == RowType.RESTART_LIST:
+                    if hit_unmatched_activity:
+                        ls.current_index += 1
+                        continue
                     print(f"[LOAD] Restarting list: {row.target_list}")
                     self._restart_list(row.target_list,
                                        reference_time=last_completed_at_local)
@@ -1021,7 +1037,10 @@ class PlannerEngine:
                     ls.current_index += 1
                     ls.current_activity = None
                 else:
-                    # No match — skip this row, keep going
+                    # No match — this activity wasn't completed yet.
+                    # Mark that we've passed an unmatched activity so
+                    # subsequent control-flow rows won't fire.
+                    hit_unmatched_activity = True
                     ls.current_index += 1
 
                 if not remaining:

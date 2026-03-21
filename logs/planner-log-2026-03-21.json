@@ -1,0 +1,101 @@
+[
+  {
+    "activity": "Aufstehen, Rasierer fasssen LEMTAU",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.841,
+    "minutes": 1,
+    "started_at": "05:53:00",
+    "completed_at": "05:55:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "05:55:00",
+    "completed_at": "05:58:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "WC LEAZWC",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "05:58:00",
+    "completed_at": "06:00:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Essensplan (Änderung Stützwerte) LEMTRA (Fs.)",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 15,
+    "started_at": "06:00:00",
+    "completed_at": "06:10:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan LEEPEP",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 6,
+    "started_at": "06:10:00",
+    "completed_at": "06:16:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "gegessen, Änderung Stützwerte + Analyse"
+  },
+  {
+    "activity": "Diskussion weitere Planer-Entwicklung mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 31,
+    "started_at": "06:16:00",
+    "completed_at": "06:47:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan LEEPEP",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "06:47:00",
+    "completed_at": "06:49:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Vergleich Bewertung Sati Ersoy mit Vorwochenbewertung (gestiegen)"
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "06:49:00",
+    "completed_at": "06:53:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "06:53:00",
+    "completed_at": "06:57:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  }
+]

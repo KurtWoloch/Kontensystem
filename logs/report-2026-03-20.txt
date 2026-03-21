@@ -1,0 +1,96 @@
+=================================================================
+  TAGESBERICHT — 2026-03-20
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:       93
+  Geplante Gesamtzeit:         14h 32m
+
+  ✓ Erledigt (geplant):       64  (   11h 15m)  = 77.4%
+  ⏭ Übersprungen:             11  (    1h 31m)  = 10.4%
+  ✗ Nicht erreicht:           18  (    1h 46m)  = 12.2%
+
+  📝 Ungeplante Aktivitäten:   1  (       11m)
+  ⏱  Tatsächliche Arbeitszeit:    15h 40m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Blutdruck messen GEBMBM               10:36     21:02 +10h 26m
+  Wohnung lüften WFLULU                 08:44     15:21  +6h 37m
+  Bearb. Essensplan (gegessen, zu ess   14:36     21:08  +6h 32m
+  Wohnung lüften WFLULU                 21:01     15:21  -5h 40m
+  Bearb. Ohrwürmer (durchzunehmende)    21:00     15:35  -5h 25m
+  WC BREPWC                             19:55     15:19  -4h 36m
+  Mund spülen LEMTMS                    09:01     13:27  +4h 26m
+  Häferl waschen / Hustenbonbon fasse   09:03     13:29  +4h 26m
+  Abhalten BKDD Standup Meeting BREPG   15:10     11:00  -4h 10m
+  Start Teleworking BRZG BRTWGF         14:58     10:49  -4h 09m
+  Planung BRZ BREPGM                    15:30     11:25  -4h 05m
+  Arbeitszeit absolvieren (Vormittag)   15:40     11:35  -4h 05m
+  Arbeitszeit absolvieren (Nachmittag   19:32     15:36  -3h 56m
+  Vorbereitung Playlist für Hören bei   08:13     10:41  +2h 28m
+  Einschmieren GEMTES                   08:05     10:32  +2h 27m
+  ... und 49 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Review Dokumentation BRZG KSBRDR
+    Grund: geht sich heute vor Arbeit nicht aus
+  ⏭ PC herunterfahren PCHFAR
+    Grund: wird nicht heruntergefahren, RW-Programm KI läuft weiter
+  ⏭ Ansehen ZiB 1 + Wetter RATVZI
+    Grund: ausgelassen, weil mit Teleworking überschnitten
+  ⏭ Nachmittagsjause fassen LENAJA
+    Grund: während Teleworking durchgeführt
+  ⏭ Jause fassen LEMTJF
+    Grund: heute ausgefallen wg. spätem Frühstück
+  ⏭ Teller waschen / Getränk fassen LEMTTW
+    Grund: während Dienstzeit erledigt
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft
+  ⏭ Teller waschen / Getränk fassen LENATW
+    Grund: während Arbeitszeit erledigt
+  ⏭ Nachtmahl fassen LENANA
+    Grund: während Arbeitszeit erledigt
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 22:00–22:11  Heimfahrt mit Voi-Scooter FZVAVO  — 5 Minuten
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 08:48  Termine in Kalender prüfen LEMTTP  (1m)
+  ✗ 08:49  Mailprüfung INMAPR  (2m)
+  ✗ 08:52  Anhören RW-Prg. / Tonträger / Radiosende  (8m)
+  ✗ 09:00  Bearb. Essensplan (Kontrolle / zu essen   (1m)
+  ✗ 09:05  Bearb. Essensplan (Kontrolle / zu essen   (9m)
+  ✗ 09:14  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (2m)
+  ✗ 10:23  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (8m)
+  ✗ 14:30  Geschirr abwaschen LEMEGA  (5m)
+  ✗ 21:05  Bearb. Essensplan (Update Händlerangebot  (11m)
+  ✗ 21:16  Bearb. Liste Scooterfahrten FZSCLI  (4m)
+  ✗ 21:23  Bearb. Liste Scooterfahrten FZSCLI (Fs.)  (5m)
+  ✗ 21:28  Anhören RW-Prg. / Tonträger / Radiosende  (8m)
+  ✗ 21:36  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 21:40  Bearb. Essensplan (Protokoll) LEEPPR  (8m)
+  ✗ 21:48  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
+  ✗ 21:58  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 22:08  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:16  Kommunikation mit Judith (Abrechnung Ren  (2m)
+
+=================================================================

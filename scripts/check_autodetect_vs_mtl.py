@@ -25,7 +25,7 @@ for t in mtl:
 print(f'Master Task List: {len(mtl)} tasks, {len(mtl_codes)} with codes\n')
 
 # Extract AutoDetect activity names from source
-with open(os.path.join(BASE, 'windowmon_summary.py'), 'r', encoding='utf-8') as f:
+with open(os.path.join(BASE, 'planner', 'windowmon_summary.py'), 'r', encoding='utf-8') as f:
     src = f.read()
 
 # Parse AUTODETECT_RULES: find all (account, activity) pairs

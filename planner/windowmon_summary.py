@@ -445,7 +445,7 @@ AUTODETECT_RULES = [
 #  Core Processing                                                           #
 # ═══════════════════════════════════════════════════════════════════════════ #
 
-LOG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
+LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "logs")
 
 
 def load_windowmon(date_str: str) -> List[Dict]:

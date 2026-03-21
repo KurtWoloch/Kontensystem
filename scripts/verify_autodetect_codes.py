@@ -20,7 +20,7 @@ with open(os.path.join(BASE, 'data', 'learned_codes.csv'), 'r', encoding='utf-8'
             learned[parts[0]] = parts[1]
 
 # Extract activities from AutoDetect rules
-with open(os.path.join(BASE, 'windowmon_summary.py'), 'r', encoding='utf-8') as f:
+with open(os.path.join(BASE, 'planner', 'windowmon_summary.py'), 'r', encoding='utf-8') as f:
     src = f.read()
 
 activities = set()

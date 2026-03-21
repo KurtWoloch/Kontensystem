@@ -8,7 +8,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Extract all unique AutoDetect activity names from rules
-with open(os.path.join(BASE, "windowmon_summary.py"), "r", encoding="utf-8") as f:
+with open(os.path.join(BASE, "planner", "windowmon_summary.py"), "r", encoding="utf-8") as f:
     content = f.read()
 
 # Find activity names in rule tuples
