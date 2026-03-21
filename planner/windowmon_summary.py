@@ -227,10 +227,15 @@ AUTODETECT_RULES = [
     (lambda t, p, b: b and _title_contains(t, "open_air_radio"),
      "RA", "Tweet an OpenAIR Radio RAAFKO"),
 
-    # Generic X/Twitter
+    # X/Twitter: Home timeline → generic browsing
+    (lambda t, p, b: b and _title_contains(t, "Home / X"),
+     "IN", "Surfen X (Timeline) INSUXX"),
+
+    # X/Twitter: everything else (DMs, notifications, profiles) →
+    # primarily radio station conversations (Andrew Pappas etc.)
     (lambda t, p, b: b and _title_contains_any(t, "/ X", "twitter.com",
                                                  "x.com"),
-     "RA", "Surfen X"),
+     "RA", "Surfen X RAAFKO"),
 
     (lambda t, p, b: b and _title_contains(t, "moltbook"),
      "IN", "Surfen Moltbook INOCMB"),
@@ -243,11 +248,11 @@ AUTODETECT_RULES = [
     # Known: Essensplan, Kontensystem
     (lambda t, p, b: p.lower() == "msaccess.exe" and
      _title_contains_any(t, "Essensplan", "Speiseplan", "EP "),
-     "LE", "Bearb. Essensdatenbank (Access)"),
+     "LE", "Bearb. Essensdatenbank (Access) LEEPEP"),
 
     (lambda t, p, b: p.lower() == "msaccess.exe" and
      _title_contains_any(t, "Kontensystem", "Konten"),
-     "KS", "Bearb. Kontensystem (Access)"),
+     "KS", "Bearb. Kontensystem (Access) KSAAKO"),
 
     # Unknown Access DB → almost always Essensplan
     # Same name as Notepad Essensplan rule so adjacent blocks merge
