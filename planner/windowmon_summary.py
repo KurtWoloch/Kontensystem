@@ -220,12 +220,22 @@ AUTODETECT_RULES = [
      "RA", "Ansehen YouTube-Videos RAYTYT"),
 
     # ── Social Media / X — specific before generic ────────────────────
-    # Tweet intents with specific recipients
+    # Tweet intents with specific recipients (from URL in title)
     (lambda t, p, b: b and _title_contains(t, "grok_androll"),
-     "RA", "Tweet an Grok'n Roll RAAFKO"),
+     "RA", "Tweet an Grok'n Roll RWMPAR"),
 
     (lambda t, p, b: b and _title_contains(t, "open_air_radio"),
-     "RA", "Tweet an OpenAIR Radio RAAFKO"),
+     "RA", "Tweet an OpenAIR Radio RWMPAR"),
+
+    (lambda t, p, b: b and _title_contains(t, "ThinkingFreq"),
+     "RA", "Tweet an Thinking Frequencies RWMPAR"),
+
+    (lambda t, p, b: b and _title_contains(t, "BacklinkRadio"),
+     "RA", "Tweet an Backlink Broadcast RWMPAR"),
+
+    # Generic tweet intent (unknown recipient)
+    (lambda t, p, b: b and _title_contains(t, "x.com/intent"),
+     "RA", "Tweet an Radiostation RWMPAR"),
 
     # X/Twitter: Home timeline → generic browsing
     (lambda t, p, b: b and _title_contains(t, "Home / X"),
