@@ -1075,6 +1075,12 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
 
     def build_proposal_rows():
         """Build or rebuild the proposal cards in the scroll frame."""
+        # Preserve scroll position across rebuilds
+        try:
+            scroll_pos = canvas.yview()[0]
+        except Exception:
+            scroll_pos = 0.0
+
         for widget in scroll_frame.winfo_children():
             widget.destroy()
 
@@ -1208,6 +1214,10 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
                       bg=COLOR_ACCENT, fg="#1e1e2e",
                       command=make_view_raw(), **btn_cfg
                       ).pack(side=tk.RIGHT)
+
+        # Restore scroll position after rebuild
+        scroll_frame.update_idletasks()
+        canvas.yview_moveto(scroll_pos)
 
     build_proposal_rows()
     update_status()
