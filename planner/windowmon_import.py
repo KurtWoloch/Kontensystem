@@ -632,6 +632,27 @@ def _process_gap(gap_start: datetime, gap_end: datetime,
                 last_b["comment"] = (
                     "(kein Fensterwechsel — letztes Fenster fortgesetzt)")
 
+    # ── Post-processing: KSPLEA → KSPLNA in nacherfassungs-context ──
+    # When a KSPLEA block (planner main window = "Erfassung Ablauf") is
+    # adjacent to other windowmon_import proposals (especially KSPLNA),
+    # it's almost always part of a nacherfassung session, not a quick
+    # "mark one task done" interaction.  Reclassify to KSPLNA.
+    # Exception: very short isolated KSPLEA blocks (< 2 min) between
+    # regular planner activities could be genuine erfassung — but even
+    # those are rare enough that KSPLNA is the safer default.
+    for i, prop in enumerate(proposals):
+        if "KSPLEA" not in prop.get("activity", ""):
+            continue
+        # Check neighbors: is there another proposal nearby?
+        has_neighbor = len(proposals) > 1
+        if has_neighbor:
+            prop["activity"] = prop["activity"].replace(
+                "Erfassung Ablauf KSPLEA", "Nacherfassung Ablauf KSPLNA")
+            prop["account"] = "KS"
+            if "KSPLEA" in prop.get("original_activity", ""):
+                # Keep original for correction tracking
+                pass
+
     return proposals
 
 
