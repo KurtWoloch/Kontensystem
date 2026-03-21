@@ -1,6 +1,6 @@
 # Planungstool — Technische Referenz & Übergangsdokumentation
 
-**Version:** v1.7 (Stand: 20. März 2026)
+**Version:** v1.7.1 (Stand: 21. März 2026)
 
 ---
 
@@ -949,6 +949,43 @@ für den Fall, dass Kurt selbst in den Code einsteigt:
 
 4. **`windowmon_summary.py` verschieben:** Nach `planner/windowmon_summary.py`,
    Import-Pfade anpassen.
+
+---
+
+## 8. Known Limitations
+
+### 8.1 "Unterbrechen" während Nacherfassungs-Rückstand
+
+Wenn der Planer aufgrund eines Nacherfassungs-Rückstands eine veraltete Aktivität
+anzeigt (z.B. "Anhören Radiosender" von heute früh, obwohl es schon Mittag ist),
+bezieht sich die Funktion "Aufgabe unterbrechen" auf diese veraltete Aktivität —
+nicht auf das, was man gerade tatsächlich tut. Das Bestätigen der Unterbrechung
+würde die veraltete Aktivität als "Teil 1 bis jetzt" loggen, was zeitlich falsch
+wäre.
+
+**Workaround:** Für kurze Zwischenaktivitäten (WC, Getränk holen) während eines
+Nacherfassungs-Rückstands den "Ungeplant"-Button verwenden oder die Aktivität
+per Doppelklick aus der Queue vorziehen (V8 Out-of-Order-Logging).
+
+### 8.2 Rechtsklick-Verhalten in der Live-Ansicht ist inkonsistent
+
+In der Live-Queue-Ansicht:
+- **Doppelklick** funktioniert auf jede Aktivität (aktuelle Kandidaten → normaler
+  Erledigt-Dialog; zukünftige → Ad-hoc-Dialog mit vorausgefülltem Namen).
+- **Rechtsklick** (Überspringen) funktioniert nur auf aktuelle Kandidaten, also
+  Aktivitäten die `current_activity` ihrer jeweiligen Liste sind. Für andere
+  Einträge erscheint die Meldung "ist noch nicht an der Reihe".
+
+Visuell ist nicht erkennbar, welche Einträge Kandidaten sind und welche nicht —
+beide haben dieselbe Farbe (hellgrau). Das führt zu Verwirrung, wenn manche
+Rechtsklicks funktionieren und andere nicht.
+
+In der **Restplan-Ansicht** hingegen öffnet Rechtsklick immer ein Kontextmenü
+mit "Bis hierher erledigt" und "Einzeln loggen".
+
+**Mögliche Verbesserung:** Kandidaten visuell hervorheben (z.B. fettgedruckt oder
+mit einem Marker), oder Rechtsklick in der Live-Ansicht ebenfalls ein Kontextmenü
+mit "Überspringen" + "Vorziehen" anbieten — unabhängig vom Kandidaten-Status.
 
 ---
 
