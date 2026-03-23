@@ -640,6 +640,32 @@ def _process_gap(gap_start: datetime, gap_end: datetime,
                 # Keep original for correction tracking
                 pass
 
+    # ── Final merge: consolidate adjacent proposals with same activity ──
+    # After KSPLEA→KSPLNA conversion (and other reclassifications),
+    # adjacent proposals may now share the same account+activity but
+    # weren't merged earlier because they had different classifications
+    # at consolidation time.  Merge them now.
+    if len(proposals) > 1:
+        proposals.sort(key=lambda p: p["start"])
+        merged_proposals = [proposals[0]]
+        for prop in proposals[1:]:
+            prev = merged_proposals[-1]
+            gap_s = (prop["start"] - prev["end"]).total_seconds()
+            if (prev["account"] == prop["account"] and
+                    prev["activity"] == prop["activity"] and
+                    gap_s <= 120):
+                # Merge: extend previous proposal
+                prev["end"] = prop["end"]
+                prev["duration_min"] = (
+                    prev["end"] - prev["start"]).total_seconds() / 60
+                prev["raw_entries"] = (
+                    prev.get("raw_entries", []) + prop.get("raw_entries", []))
+                prev["entry_count"] = (
+                    prev.get("entry_count", 0) + prop.get("entry_count", 0))
+            else:
+                merged_proposals.append(prop)
+        proposals = merged_proposals
+
     return proposals
 
 

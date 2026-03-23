@@ -585,6 +585,15 @@ class PlannerEngine:
                             return None
                     return row
                 if rt == RowType.CONDITION:
+                    # Check fixed start time (same as ACTIVITY)
+                    if row.starting_time:
+                        target_dt = cursor.replace(
+                            hour=row.starting_time.hour,
+                            minute=row.starting_time.minute,
+                            second=0, microsecond=0)
+                        if cursor < target_dt:
+                            sl.wait_until = target_dt
+                            return None
                     # Default assumption: Nein — apply the else branch
                     else_action = row.condition_else_action
                     if else_action:

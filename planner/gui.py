@@ -603,6 +603,10 @@ class PlannerGUI:
         # Visual feedback
         self._update_idle_display()
         self._update_window_title()
+        # Write synthetic windowmon entry with Off-PC title so that
+        # windowmon_summary can detect the activity via _PLANNER_OFFPC rule.
+        # (window_monitor.py won't re-read python.exe titles on same hwnd)
+        self._write_title_change_entry(self._idle_since)
 
     def _end_idle(self):
         """Deactivate Off-PC mode on user return."""
@@ -615,6 +619,9 @@ class PlannerGUI:
         # Restore display
         self._update_idle_display()
         self._update_window_title()
+        # Write synthetic windowmon entry with restored "Reaktiver Planer"
+        # title so windowmon picks up the mode change.
+        self._write_title_change_entry(idle_end)
 
     def _write_idle_marker(self, marker_type: str, ts: datetime,
                            idle_start: Optional[datetime] = None):
@@ -645,6 +652,40 @@ class PlannerGUI:
                 f.write(_json.dumps(entry, ensure_ascii=False) + "\n")
         except Exception as e:
             print(f"[Planer] Idle marker write error: {e}")
+
+    def _write_title_change_entry(self, ts: datetime):
+        """Write a synthetic windowmon entry reflecting the current window title.
+
+        Called when the planner switches between 'Reaktiver Planer' and
+        'Off-PC' mode. window_monitor.py won't detect this change because
+        python.exe isn't in _ALWAYS_REREAD_PROCESSES (same hwnd, no re-read).
+        This synthetic entry ensures the Off-PC title (with the current
+        activity name) appears in the JSONL log, so windowmon_summary's
+        _PLANNER_OFFPC rule can correctly classify the period.
+        """
+        try:
+            from window_monitor import LOG_DIR
+            import json as _json
+            title = self.root.title()  # current title after _update_window_title()
+            hwnd_val = 0
+            try:
+                hwnd_val = int(self.root.winfo_id())
+            except Exception:
+                pass
+            entry = {
+                "ts": ts.strftime("%Y-%m-%dT%H:%M:%S"),
+                "hwnd": hwnd_val,
+                "title": title,
+                "process": "python.exe",
+                "browser": "",
+            }
+            today = datetime.now().strftime("%Y-%m-%d")
+            os.makedirs(LOG_DIR, exist_ok=True)
+            path = os.path.join(LOG_DIR, f"windowmon-{today}.jsonl")
+            with open(path, "a", encoding="utf-8") as f:
+                f.write(_json.dumps(entry, ensure_ascii=False) + "\n")
+        except Exception as e:
+            print(f"[Planer] Title change entry write error: {e}")
 
     def _update_idle_display(self):
         """Update the window monitor label to show idle state."""
