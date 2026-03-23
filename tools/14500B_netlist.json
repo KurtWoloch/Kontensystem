@@ -1,0 +1,1138 @@
+{
+  "name": "MC14500B",
+  "description": "Motorola 14500B Industrial Control Unit — NOR gate decomposition",
+  "source": "Emulation 14500B-Chip in VHDL in CMOL Cells Teil 2.txt",
+  "gates": [
+    {
+      "id": 0,
+      "output": "data_out",
+      "inputs": [
+        "nwrite",
+        "nir0xrr"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 1,
+      "output": "flg0",
+      "inputs": [
+        "ir0",
+        "ir1",
+        "ir2",
+        "ir3"
+      ],
+      "fanin": 4,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 2,
+      "output": "flgf",
+      "inputs": [
+        "nir0",
+        "nir1",
+        "nir2",
+        "nir3"
+      ],
+      "fanin": 4,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 3,
+      "output": "i0_clkfall",
+      "inputs": [
+        "ni0",
+        "nclkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 4,
+      "output": "i1_clkfall",
+      "inputs": [
+        "ni1",
+        "nclkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 5,
+      "output": "i2_clkfall",
+      "inputs": [
+        "ni2",
+        "nclkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 6,
+      "output": "i3_clkfall",
+      "inputs": [
+        "ni3",
+        "nclkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 7,
+      "output": "ien_data",
+      "inputs": [
+        "ndata_in",
+        "rst"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 8,
+      "output": "ien_trig",
+      "inputs": [
+        "nien_trig"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 9,
+      "output": "ien_write",
+      "inputs": [
+        "nien_trig",
+        "nien_data"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 10,
+      "output": "ir0",
+      "inputs": [
+        "nir0"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 11,
+      "output": "ir0001_data_wr",
+      "inputs": [
+        "nmasked_data",
+        "ir3",
+        "ir2",
+        "ir1",
+        "nir0"
+      ],
+      "fanin": 5,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 12,
+      "output": "ir0010_data_wr",
+      "inputs": [
+        "masked_data",
+        "ir3",
+        "ir2",
+        "nir1",
+        "ir0"
+      ],
+      "fanin": 5,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 13,
+      "output": "ir0011_data_wr",
+      "inputs": [
+        "nrr_and_masked_data",
+        "ir3",
+        "ir2",
+        "nir1",
+        "nir0"
+      ],
+      "fanin": 5,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 14,
+      "output": "ir0100_data_wr",
+      "inputs": [
+        "nrr_and_not_masked_data",
+        "ir3",
+        "nir2",
+        "ir1",
+        "ir0"
+      ],
+      "fanin": 5,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 15,
+      "output": "ir0101_data_wr",
+      "inputs": [
+        "nrr_or_masked_data",
+        "ir3",
+        "nir2",
+        "ir1",
+        "nir0"
+      ],
+      "fanin": 5,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 16,
+      "output": "ir0110_data_wr",
+      "inputs": [
+        "nrr_or_not_masked_data",
+        "ir3",
+        "nir2",
+        "nir1",
+        "ir0"
+      ],
+      "fanin": 5,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 17,
+      "output": "ir0111_data_wr",
+      "inputs": [
+        "nrr_xor_not_masked_data",
+        "ir3",
+        "nir2",
+        "nir1",
+        "nir0"
+      ],
+      "fanin": 5,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 18,
+      "output": "ir0111_step2",
+      "inputs": [
+        "masked_data",
+        "nrr_or_masked_data"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 19,
+      "output": "ir0111_step3",
+      "inputs": [
+        "rr",
+        "nrr_or_masked_data"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 20,
+      "output": "ir0_nclkfall",
+      "inputs": [
+        "nir0",
+        "clkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 21,
+      "output": "ir0andnrr",
+      "inputs": [
+        "nir0",
+        "rr"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 22,
+      "output": "ir1",
+      "inputs": [
+        "nir1"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 23,
+      "output": "ir1_nclkfall",
+      "inputs": [
+        "nir1",
+        "clkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 24,
+      "output": "ir1nir0nrr",
+      "inputs": [
+        "nir1",
+        "ir0",
+        "rr"
+      ],
+      "fanin": 3,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 25,
+      "output": "ir2",
+      "inputs": [
+        "nir2"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 26,
+      "output": "ir2_nclkfall",
+      "inputs": [
+        "nir2",
+        "clkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 27,
+      "output": "ir3",
+      "inputs": [
+        "nir3"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 28,
+      "output": "ir3_nclkfall",
+      "inputs": [
+        "nir3",
+        "clkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 29,
+      "output": "jump",
+      "inputs": [
+        "nir3",
+        "nir2",
+        "ir1",
+        "ir0"
+      ],
+      "fanin": 4,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 30,
+      "output": "masked_data",
+      "inputs": [
+        "ndata_in",
+        "nien"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 31,
+      "output": "n_ir_data",
+      "inputs": [
+        "ir0001_data_wr",
+        "ir0010_data_wr",
+        "ir0011_data_wr",
+        "ir0100_data_wr",
+        "ir0101_data_wr",
+        "ir0110_data_wr",
+        "ir0111_data_wr"
+      ],
+      "fanin": 7,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 32,
+      "output": "nclkfall",
+      "inputs": [
+        "clkfall"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 33,
+      "output": "ndata_in",
+      "inputs": [
+        "data_in"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 34,
+      "output": "ni0",
+      "inputs": [
+        "i0"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 35,
+      "output": "ni1",
+      "inputs": [
+        "i1"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 36,
+      "output": "ni2",
+      "inputs": [
+        "i2"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 37,
+      "output": "ni3",
+      "inputs": [
+        "i3"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 38,
+      "output": "nien",
+      "inputs": [
+        "ien_write",
+        "nien_write"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 39,
+      "output": "nien_data",
+      "inputs": [
+        "ien_data"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 40,
+      "output": "nien_trig",
+      "inputs": [
+        "nrst",
+        "nir1010nskip"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 41,
+      "output": "nien_write",
+      "inputs": [
+        "ien_trig",
+        "nien"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 42,
+      "output": "nir0",
+      "inputs": [
+        "i0_clkfall",
+        "ir0_nclkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 43,
+      "output": "nir0andrr",
+      "inputs": [
+        "ir0",
+        "nrr"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 44,
+      "output": "nir0xrr",
+      "inputs": [
+        "ir0andnrr",
+        "nir0andrr"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 45,
+      "output": "nir1",
+      "inputs": [
+        "i1_clkfall",
+        "ir1_nclkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 46,
+      "output": "nir100x",
+      "inputs": [
+        "nir3",
+        "ir2",
+        "ir1"
+      ],
+      "fanin": 3,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 47,
+      "output": "nir1010nskip",
+      "inputs": [
+        "nir3",
+        "ir2",
+        "nir1",
+        "ir0",
+        "skip"
+      ],
+      "fanin": 5,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 48,
+      "output": "nir1011nskip",
+      "inputs": [
+        "nir3",
+        "ir2",
+        "nir1",
+        "nir0",
+        "skip"
+      ],
+      "fanin": 5,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 49,
+      "output": "nir10rr",
+      "inputs": [
+        "nir1ir0",
+        "ir1nir0nrr"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 50,
+      "output": "nir1ir0",
+      "inputs": [
+        "ir1",
+        "nir0"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 51,
+      "output": "nir2",
+      "inputs": [
+        "i2_clkfall",
+        "ir2_nclkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 52,
+      "output": "nir3",
+      "inputs": [
+        "i3_clkfall",
+        "ir3_nclkfall"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 53,
+      "output": "nir3_skip_flag0",
+      "inputs": [
+        "ir3",
+        "skip",
+        "flg0"
+      ],
+      "fanin": 3,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 54,
+      "output": "nmasked_data",
+      "inputs": [
+        "masked_data"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 55,
+      "output": "noen",
+      "inputs": [
+        "oen_write",
+        "noen_write"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 56,
+      "output": "noen_trig",
+      "inputs": [
+        "nrst",
+        "nir1011nskip"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 57,
+      "output": "noen_write",
+      "inputs": [
+        "oen_trig",
+        "noen"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 58,
+      "output": "nrr",
+      "inputs": [
+        "rr_nwrite",
+        "rr_write"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 59,
+      "output": "nrr_and_masked_data",
+      "inputs": [
+        "rr_and_masked_data"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 60,
+      "output": "nrr_and_not_masked_data",
+      "inputs": [
+        "rr_and_not_masked_data"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 61,
+      "output": "nrr_data",
+      "inputs": [
+        "rr_data"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 62,
+      "output": "nrr_or_masked_data",
+      "inputs": [
+        "rr",
+        "masked_data"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 63,
+      "output": "nrr_or_not_masked_data",
+      "inputs": [
+        "rr",
+        "nmasked_data"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 64,
+      "output": "nrr_xor_not_masked_data",
+      "inputs": [
+        "ir0111_step2",
+        "ir0111_step3"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 65,
+      "output": "nrst",
+      "inputs": [
+        "rst"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 66,
+      "output": "nrst_nir3_skip_flag0",
+      "inputs": [
+        "nir3_skip_flag0",
+        "rst"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 67,
+      "output": "nrst_nskip",
+      "inputs": [
+        "rst",
+        "skip"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 68,
+      "output": "nwrite",
+      "inputs": [
+        "write"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 69,
+      "output": "oen_trig",
+      "inputs": [
+        "noen_trig"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 70,
+      "output": "oen_write",
+      "inputs": [
+        "noen_trig",
+        "nien_data"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 71,
+      "output": "rr",
+      "inputs": [
+        "nrr"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 72,
+      "output": "rr_and_masked_data",
+      "inputs": [
+        "nrr",
+        "nmasked_data"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 73,
+      "output": "rr_and_not_masked_data",
+      "inputs": [
+        "nrr",
+        "masked_data"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 74,
+      "output": "rr_data",
+      "inputs": [
+        "rst",
+        "n_ir_data"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 75,
+      "output": "rr_nwrite",
+      "inputs": [
+        "clkrise",
+        "nrr"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 76,
+      "output": "rr_trig",
+      "inputs": [
+        "nclkrise",
+        "nrst_nir3_skip_flag0"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 77,
+      "output": "rr_write",
+      "inputs": [
+        "nclkrise",
+        "nrr_data"
+      ],
+      "fanin": 2,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 78,
+      "output": "rst_or_skip",
+      "inputs": [
+        "nrst_nskip"
+      ],
+      "fanin": 1,
+      "is_inverter": true,
+      "has_feedback": false
+    },
+    {
+      "id": 79,
+      "output": "rtn",
+      "inputs": [
+        "nir3",
+        "nir2",
+        "ir1",
+        "nir0"
+      ],
+      "fanin": 4,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 80,
+      "output": "skip",
+      "inputs": [
+        "rst_or_skip",
+        "nir3",
+        "nir2",
+        "nir10rr"
+      ],
+      "fanin": 4,
+      "is_inverter": false,
+      "has_feedback": false
+    },
+    {
+      "id": 81,
+      "output": "write",
+      "inputs": [
+        "skip",
+        "noen",
+        "nir100x"
+      ],
+      "fanin": 3,
+      "is_inverter": false,
+      "has_feedback": false
+    }
+  ],
+  "chip_input_pins": [
+    "data_in",
+    "i0",
+    "i1",
+    "i2",
+    "i3",
+    "rst"
+  ],
+  "chip_output_pins": [
+    "data_out",
+    "flg0",
+    "flgf",
+    "jmp",
+    "rtn",
+    "write"
+  ],
+  "derived_clock_signals": [
+    "clkfall",
+    "clkrise",
+    "nclkrise"
+  ],
+  "analysis": {
+    "total_gates": 82,
+    "chip_input_pins": [
+      "data_in",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "rst"
+    ],
+    "chip_output_pins": [
+      "data_out",
+      "flg0",
+      "flgf",
+      "jmp",
+      "rtn",
+      "write"
+    ],
+    "chip_output_signals": [
+      "data_out",
+      "flg0",
+      "flgf",
+      "jump",
+      "rtn",
+      "write"
+    ],
+    "derived_clock_signals": [
+      "clkfall",
+      "clkrise",
+      "nclkrise"
+    ],
+    "internal_signals": [
+      "flg0",
+      "i0_clkfall",
+      "i1_clkfall",
+      "i2_clkfall",
+      "i3_clkfall",
+      "ien_data",
+      "ien_trig",
+      "ien_write",
+      "ir0",
+      "ir0001_data_wr",
+      "ir0010_data_wr",
+      "ir0011_data_wr",
+      "ir0100_data_wr",
+      "ir0101_data_wr",
+      "ir0110_data_wr",
+      "ir0111_data_wr",
+      "ir0111_step2",
+      "ir0111_step3",
+      "ir0_nclkfall",
+      "ir0andnrr",
+      "ir1",
+      "ir1_nclkfall",
+      "ir1nir0nrr",
+      "ir2",
+      "ir2_nclkfall",
+      "ir3",
+      "ir3_nclkfall",
+      "masked_data",
+      "n_ir_data",
+      "nclkfall",
+      "ndata_in",
+      "ni0",
+      "ni1",
+      "ni2",
+      "ni3",
+      "nien",
+      "nien_data",
+      "nien_trig",
+      "nien_write",
+      "nir0",
+      "nir0andrr",
+      "nir0xrr",
+      "nir1",
+      "nir100x",
+      "nir1010nskip",
+      "nir1011nskip",
+      "nir10rr",
+      "nir1ir0",
+      "nir2",
+      "nir3",
+      "nir3_skip_flag0",
+      "nmasked_data",
+      "noen",
+      "noen_trig",
+      "noen_write",
+      "nrr",
+      "nrr_and_masked_data",
+      "nrr_and_not_masked_data",
+      "nrr_data",
+      "nrr_or_masked_data",
+      "nrr_or_not_masked_data",
+      "nrr_xor_not_masked_data",
+      "nrst",
+      "nrst_nir3_skip_flag0",
+      "nrst_nskip",
+      "nwrite",
+      "oen_trig",
+      "oen_write",
+      "rr",
+      "rr_and_masked_data",
+      "rr_and_not_masked_data",
+      "rr_data",
+      "rr_nwrite",
+      "rr_write",
+      "rst_or_skip",
+      "skip",
+      "write"
+    ],
+    "direct_feedback": [],
+    "fanin_distribution": {
+      "1": 21,
+      "2": 42,
+      "3": 4,
+      "4": 5,
+      "5": 9,
+      "7": 1
+    },
+    "max_fanin": 7,
+    "max_fanout_signal": [
+      "nir0",
+      11
+    ],
+    "high_fanout_signals": [
+      [
+        "nir0",
+        11
+      ],
+      [
+        "nir2",
+        10
+      ],
+      [
+        "nir1",
+        10
+      ],
+      [
+        "ir3",
+        9
+      ],
+      [
+        "nir3",
+        9
+      ],
+      [
+        "ir0",
+        8
+      ],
+      [
+        "ir1",
+        8
+      ],
+      [
+        "ir2",
+        7
+      ],
+      [
+        "masked_data",
+        5
+      ],
+      [
+        "skip",
+        5
+      ],
+      [
+        "rr",
+        5
+      ],
+      [
+        "nrr",
+        5
+      ],
+      [
+        "clkfall",
+        5
+      ],
+      [
+        "rst",
+        5
+      ]
+    ]
+  }
+}
