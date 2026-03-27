@@ -1103,17 +1103,29 @@ def open_timeline_dialog(root: tk.Tk, engine,
 
         # Check if this block continues the last logged activity
             # with the same name → extend instead of creating duplicate
+            # BUT only if no other activity was logged in between
             matching_logged = [
                 c for c in model.completed
                 if c.activity == b.activity
                 and abs((c.completed_at - start_ts).total_seconds()) < 300
             ]
             if matching_logged:
-                # Extend the existing log entry
                 last_match = max(matching_logged, key=lambda c: c.completed_at)
-                last_match.completed_at = end_ts
-                extended_count += 1
-                continue
+                # Check: is there any OTHER logged activity between
+                # last_match.completed_at and start_ts?
+                intervening = [
+                    c for c in model.completed
+                    if c is not last_match
+                    and not c.skipped
+                    and c.started_at >= last_match.completed_at
+                    and c.started_at <= start_ts
+                ]
+                if not intervening:
+                    # No other activity in between → safe to extend
+                    last_match.completed_at = end_ts
+                    extended_count += 1
+                    continue
+                # Otherwise fall through to create a new entry
             try:
                 engine.log_adhoc(
                     activity  = b.activity,
