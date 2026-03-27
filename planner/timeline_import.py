@@ -301,11 +301,63 @@ class TimelineModel:
                 if self.entries[i].block_id != self.entries[i + 1].block_id]
 
     def update_interval(self, start: datetime, end: datetime):
-        """Change the interval and rebuild.  User overrides are preserved."""
+        """Change the interval and rebuild.
+
+        Preserves:
+        - User overrides (reclassifications via double-click)
+        - Manual merges (drag operations) — saved as per-timestamp
+          activity assignments and restored after rebuild
+        """
+        # Save current block assignments by timestamp before rebuild
+        self._save_merge_state()
         self.interval_start = start
         self.interval_end   = end
         self._id_counter    = 0
-        self._rebuild()  # _user_overrides survives this
+        self._rebuild()  # _user_overrides + _merge_state survive this
+        self._restore_merge_state()
+
+    def _save_merge_state(self):
+        """Save the current classification per entry timestamp."""
+        self._merge_state: dict[str, tuple[str, str]] = {}
+        for e in self.entries:
+            b = self._block_by_id(e.block_id)
+            if b:
+                # Key: timestamp string (unique per entry)
+                key = e.ts.strftime("%Y-%m-%dT%H:%M:%S")
+                self._merge_state[key] = (b.account, b.activity)
+
+    def _restore_merge_state(self):
+        """Restore saved block assignments after rebuild."""
+        if not hasattr(self, '_merge_state') or not self._merge_state:
+            return
+        changed = False
+        for i, e in enumerate(self.entries):
+            key = e.ts.strftime("%Y-%m-%dT%H:%M:%S")
+            if key in self._merge_state:
+                saved_acct, saved_act = self._merge_state[key]
+                b = self._block_by_id(e.block_id)
+                if b and (b.account != saved_acct or b.activity != saved_act):
+                    # Need to reassign this entry to match saved state
+                    # Find or create a block with the saved classification
+                    target_block = None
+                    # Check if adjacent entries have a matching block
+                    if i > 0:
+                        prev_b = self._block_by_id(self.entries[i-1].block_id)
+                        if prev_b and prev_b.account == saved_acct and prev_b.activity == saved_act:
+                            target_block = prev_b
+                    if not target_block:
+                        # Create a new block for this entry
+                        bid = self._new_id()
+                        target_block = TLBlock(
+                            block_id=bid, activity=saved_act,
+                            account=saved_acct, start_idx=i, end_idx=i,
+                        )
+                        self.blocks.append(target_block)
+                    e.block_id = target_block.block_id
+                    changed = True
+        if changed:
+            self._reindex()
+            self._try_merge_adjacent()
 
     # ── public: boundary drag ─────────────────────────────────────────────
 
@@ -908,11 +960,24 @@ def open_timeline_dialog(root: tk.Tk, engine,
     real_entries.sort(key=lambda e: e["_ts"])
 
     if completed:
-        sorted_completed = sorted(completed, key=lambda c: c.completed_at)
-        # Start at the end of the last logged activity
-        last_logged_end = sorted_completed[-1].completed_at.replace(
-            second=0, microsecond=0)
-        default_start = last_logged_end
+        # Find the first gap in the log (where Nacherfassung is needed)
+        sorted_completed = sorted(completed, key=lambda c: c.started_at)
+        first_gap_start = None
+        # Use high-water mark to handle overlapping entries
+        high_water = sorted_completed[0].completed_at
+        for i in range(len(sorted_completed) - 1):
+            high_water = max(high_water, sorted_completed[i].completed_at)
+            next_start = sorted_completed[i + 1].started_at
+            gap_seconds = (next_start - high_water).total_seconds()
+            if gap_seconds >= 120:  # gap of at least 2 minutes
+                first_gap_start = high_water
+                break
+        if first_gap_start:
+            default_start = first_gap_start.replace(second=0, microsecond=0)
+        else:
+            # No gaps found — start at end of last activity
+            last_end = max(c.completed_at for c in completed)
+            default_start = last_end.replace(second=0, microsecond=0)
     elif real_entries:
         default_start = real_entries[0]["_ts"].replace(second=0, microsecond=0)
     else:
