@@ -62,7 +62,9 @@ TITLE_W      = 360   # window title column width
 SEP_X        = TS_W + TITLE_W   # x where classification column starts
 CLASS_W      = 290   # classification column width
 TOTAL_W      = SEP_X + CLASS_W
-BNDRY_HIT    = 5     # ±px drag hit-zone around boundary line
+BNDRY_HIT_VISUAL = 5         # ±px for cursor change (visual feedback)
+BNDRY_HIT_CLICK  = ROW_H    # ±px for actual boundary selection on click
+                             # — large enough so closest-boundary always wins
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -730,18 +732,20 @@ class TimelineCanvas(tk.Frame):
         row = int(y_canvas // ROW_H)
         return max(0, min(n - 1, row))
 
-    def _y_near_boundary(self, y_canvas: int) -> Optional[int]:
-        """Return the CLOSEST boundary index if y is within BNDRY_HIT pixels.
+    def _y_near_boundary(self, y_canvas: int,
+                         threshold: int = BNDRY_HIT_VISUAL) -> Optional[int]:
+        """Return the CLOSEST boundary index if y is within threshold pixels.
 
         When boundaries are close together (e.g., 1-row blocks), this ensures
         the nearest boundary is selected, not the first one found.
+        Use BNDRY_HIT_VISUAL for hover feedback, BNDRY_HIT_CLICK for click.
         """
         best_bndry = None
-        best_dist  = BNDRY_HIT + 1  # start above threshold
+        best_dist  = threshold + 1  # start above threshold
         for bndry in self.model.get_boundaries():
             by = (bndry + 1) * ROW_H  # y pixel of the boundary line
             dist = abs(y_canvas - by)
-            if dist <= BNDRY_HIT and dist < best_dist:
+            if dist <= threshold and dist < best_dist:
                 best_dist  = dist
                 best_bndry = bndry
         return best_bndry
@@ -760,14 +764,15 @@ class TimelineCanvas(tk.Frame):
 
     def _on_hover(self, event):
         cy = self._canvas_y(event)
-        if self._y_near_boundary(cy) is not None:
+        if self._y_near_boundary(cy, BNDRY_HIT_VISUAL) is not None:
             self.canvas.config(cursor="sb_v_double_arrow")
         else:
             self.canvas.config(cursor="")
 
     def _on_click(self, event):
         cy = self._canvas_y(event)
-        bndry = self._y_near_boundary(cy)
+        # Use wider threshold for click — closest boundary always wins
+        bndry = self._y_near_boundary(cy, BNDRY_HIT_CLICK)
         if bndry is not None:
             self._drag_boundary = bndry
             self._drag_start_y  = cy
