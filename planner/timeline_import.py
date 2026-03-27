@@ -325,6 +325,8 @@ class TimelineModel:
             return False
 
         pos_in_list = boundaries.index(old_pos)
+        # lo/hi limits: the boundary can move up to the adjacent boundary
+        # but also to -1 (eliminate first block) or len-1 (eliminate last)
         lo_limit = boundaries[pos_in_list - 1] if pos_in_list > 0 else -1
         hi_limit = boundaries[pos_in_list + 1] if pos_in_list < len(boundaries) - 1 else len(self.entries) - 1
 
@@ -332,13 +334,17 @@ class TimelineModel:
         if new_pos == old_pos:
             return False
 
-        # blocks on either side of old_pos
+        # Edge case: new_pos == -1 means "move all entries of top block to bottom"
+        # new_pos == len-1 means "move all entries of bottom block to top"
+
+        # Blocks on either side of old_pos BEFORE change
         b_above = self._block_by_id(self.entries[old_pos].block_id)
         b_below = self._block_by_id(self.entries[old_pos + 1].block_id)
         if not b_above or not b_below:
             return False
 
         # Don't allow dragging boundaries of fully-logged (finalized) blocks
+        # Finalized blocks must remain untouched.
         if b_above.is_logged(self.entries) or b_below.is_logged(self.entries):
             return False
 
@@ -764,7 +770,25 @@ class TimelineCanvas(tk.Frame):
 
     def _on_hover(self, event):
         cy = self._canvas_y(event)
-        if self._y_near_boundary(cy, BNDRY_HIT_VISUAL) is not None:
+        row = self._y_to_row(cy)
+        vis = self._y_near_boundary(cy, BNDRY_HIT_VISUAL)
+        clk = self._y_near_boundary(cy, BNDRY_HIT_CLICK)
+
+        # Debug: show boundary info for all nearby boundaries
+        boundaries = self.model.get_boundaries()
+        near_info = []
+        for bndry in boundaries:
+            by = (bndry + 1) * ROW_H
+            dist = abs(cy - by)
+            if dist <= BNDRY_HIT_CLICK:
+                near_info.append(f"b{bndry}@{by}px(d={dist})")
+
+        debug_text = (f"y={cy} row={row} | vis={vis} clk={clk} | "
+                      f"nearby: {', '.join(near_info) if near_info else 'none'}")
+        if hasattr(self, '_debug_var'):
+            self._debug_var.set(debug_text)
+
+        if vis is not None:
             self.canvas.config(cursor="sb_v_double_arrow")
         else:
             self.canvas.config(cursor="")
@@ -780,11 +804,26 @@ class TimelineCanvas(tk.Frame):
     def _on_drag(self, event):
         if self._drag_boundary is None:
             return
-        cy      = self._canvas_y(event)
-        new_row = self._y_to_row(cy)
-        # The boundary sits BETWEEN row new_row and new_row+1.
-        # We want the boundary *below* row new_row, i.e. at position new_row.
-        new_pos = new_row
+        cy = self._canvas_y(event)
+
+        # The current boundary sits at y = (self._drag_boundary + 1) * ROW_H.
+        # We only move it when the cursor crosses the CENTER of a row
+        # above or below.  This prevents accidental moves from tiny
+        # mouse movements near the boundary line.
+        cur_boundary_y = (self._drag_boundary + 1) * ROW_H
+        delta_rows = round((cy - cur_boundary_y) / ROW_H)
+
+        if delta_rows == 0:
+            return  # cursor hasn't moved far enough to shift by a full row
+
+        new_pos = self._drag_boundary + delta_rows
+        # Allow -1 (before first entry) and len-1 (after last entry)
+        # so boundaries can be pushed to the edges to eliminate first/last block
+        new_pos = max(-1, min(len(self.model.entries) - 1, new_pos))
+
+        if new_pos == self._drag_boundary:
+            return
+
         changed = self.model.move_boundary(
             self._drag_boundary, new_pos,
             self.propagate_var.get()
@@ -1000,6 +1039,14 @@ def open_timeline_dialog(root: tk.Tk, engine,
     )
     timeline_widget.pack(fill=tk.BOTH, expand=True, padx=6, pady=(0, 0))
 
+    # ── Debug bar ──────────────────────────────────────────────────────────
+    debug_var = tk.StringVar(value="(move mouse over timeline)")
+    timeline_widget._debug_var = debug_var  # inject into canvas widget
+    tk.Label(
+        dlg, textvariable=debug_var, font=("Consolas", 8),
+        bg="#2a1a1a", fg="#f9e2af", anchor="w", padx=6, pady=2
+    ).pack(fill=tk.X, padx=6)
+
     # ── Status bar + buttons ──────────────────────────────────────────────
     bottom = tk.Frame(dlg, bg=COLOR_BG)
     bottom.pack(fill=tk.X, padx=8, pady=(4, 8))
@@ -1015,6 +1062,7 @@ def open_timeline_dialog(root: tk.Tk, engine,
             return
 
         # Build summary — count only unlogged blocks
+        entries = model.entries
         importable = [b for b in blocks
                       if not b.is_logged(entries)
                       and b.account not in ("??", "IDLE")
@@ -1053,7 +1101,7 @@ def open_timeline_dialog(root: tk.Tk, engine,
             if end_ts <= start_ts:
                 end_ts = start_ts + timedelta(minutes=1)
 
-            # Check if this block continues the last logged activity
+        # Check if this block continues the last logged activity
             # with the same name → extend instead of creating duplicate
             matching_logged = [
                 c for c in model.completed

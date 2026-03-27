@@ -131,5 +131,47 @@
     "end": "08:41",
     "original": "Diskussion OpenClaw KSPLEN",
     "corrected": "Redesign Nacherfassung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-27T09:56:38",
+    "start": "09:16",
+    "end": "09:16",
+    "original": "Sonstige PC-Nutzung",
+    "corrected": "Redesign Nacherfassung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-27T10:00:13",
+    "start": "09:16",
+    "end": "09:16",
+    "original": "Sonstige PC-Nutzung",
+    "corrected": "Redesign Nacherfassung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-27T10:02:52",
+    "start": "09:37",
+    "end": "09:37",
+    "original": "Dateiverwaltung (Explorer)",
+    "corrected": "Redesign Nacherfassung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-27T10:04:36",
+    "start": "10:01",
+    "end": "10:01",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-27T10:41:28",
+    "start": "10:36",
+    "end": "10:36",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Redesign Nacherfassung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-27T11:43:34",
+    "start": "11:37",
+    "end": "11:39",
+    "original": "Nacherfassung (Windowlog) KSPLNA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
   }
 ]
