@@ -293,10 +293,25 @@ def greedy_placement(netlist: Netlist, rows: int, cols: int) -> Placement:
         )
 
     def sorted_positions(center_r: int, center_c: int) -> list:
-        """All free cells sorted by distance from (center_r, center_c)."""
-        pts = [(r, c) for r in range(rows) for c in range(cols)
+        """Free cells within the compact cluster area, sorted by distance.
+
+        Restricts candidates to a cluster_side × cluster_side area around
+        the center, then falls back to the full grid if needed.
+        """
+        # Primary: cells within the compact cluster
+        r_lo = max(0, center_r - cluster_side // 2)
+        r_hi = min(rows, center_r + cluster_side // 2 + 1)
+        c_lo = max(0, center_c - cluster_side // 2)
+        c_hi = min(cols, center_c + cluster_side // 2 + 1)
+        pts = [(r, c) for r in range(r_lo, r_hi) for c in range(c_lo, c_hi)
                if (r, c) not in occupied]
         pts.sort(key=lambda p: (p[0] - center_r) ** 2 + (p[1] - center_c) ** 2)
+        # Fallback: if cluster is full, include remaining grid cells
+        if len(pts) < 10:
+            extra = [(r, c) for r in range(rows) for c in range(cols)
+                     if (r, c) not in occupied and (r, c) not in set(pts)]
+            extra.sort(key=lambda p: (p[0] - center_r) ** 2 + (p[1] - center_c) ** 2)
+            pts.extend(extra)
         return pts
 
     gate_positions: dict = {}
