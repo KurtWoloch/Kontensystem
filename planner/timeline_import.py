@@ -254,7 +254,12 @@ class TimelineModel:
         self.blocks.sort(key=lambda b: b.start_idx)
 
     def _try_merge_adjacent(self):
-        """Merge consecutive blocks that share the same (account, activity)."""
+        """Merge consecutive blocks that share the same (account, activity).
+
+        Protection: blocks where ALL entries are within already-logged time
+        ranges are treated as finalized walls — they never merge with
+        neighboring blocks, even if the classification matches.
+        """
         changed = True
         while changed:
             changed = False
@@ -262,11 +267,16 @@ class TimelineModel:
             i = 0
             while i < len(self.blocks):
                 b = self.blocks[i]
-                if (new_blocks
-                        and new_blocks[-1].account  == b.account
-                        and new_blocks[-1].activity == b.activity):
+                prev = new_blocks[-1] if new_blocks else None
+                # Check if either block is fully logged (finalized)
+                prev_logged = prev and prev.is_logged(self.entries) if prev else False
+                b_logged = b.is_logged(self.entries)
+                if (prev
+                        and prev.account  == b.account
+                        and prev.activity == b.activity
+                        and not prev_logged
+                        and not b_logged):
                     # merge: extend previous block
-                    prev = new_blocks[-1]
                     for idx in range(b.start_idx, b.end_idx + 1):
                         self.entries[idx].block_id = prev.block_id
                     prev.end_idx = b.end_idx
@@ -324,6 +334,10 @@ class TimelineModel:
         b_above = self._block_by_id(self.entries[old_pos].block_id)
         b_below = self._block_by_id(self.entries[old_pos + 1].block_id)
         if not b_above or not b_below:
+            return False
+
+        # Don't allow dragging boundaries of fully-logged (finalized) blocks
+        if b_above.is_logged(self.entries) or b_below.is_logged(self.entries):
             return False
 
         changed_titles: set[str] = set()
@@ -717,12 +731,20 @@ class TimelineCanvas(tk.Frame):
         return max(0, min(n - 1, row))
 
     def _y_near_boundary(self, y_canvas: int) -> Optional[int]:
-        """Return boundary index if y is within BNDRY_HIT pixels of it."""
+        """Return the CLOSEST boundary index if y is within BNDRY_HIT pixels.
+
+        When boundaries are close together (e.g., 1-row blocks), this ensures
+        the nearest boundary is selected, not the first one found.
+        """
+        best_bndry = None
+        best_dist  = BNDRY_HIT + 1  # start above threshold
         for bndry in self.model.get_boundaries():
             by = (bndry + 1) * ROW_H  # y pixel of the boundary line
-            if abs(y_canvas - by) <= BNDRY_HIT:
-                return bndry
-        return None
+            dist = abs(y_canvas - by)
+            if dist <= BNDRY_HIT and dist < best_dist:
+                best_dist  = dist
+                best_bndry = bndry
+        return best_bndry
 
     def _canvas_y(self, event) -> int:
         """Convert event.y to canvas coordinate (accounting for scroll)."""
