@@ -1,0 +1,115 @@
+=================================================================
+  TAGESBERICHT — 2026-03-21
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      124
+  Geplante Gesamtzeit:         17h 22m
+
+  ✓ Erledigt (geplant):       92  (   12h 50m)  = 73.9%
+  ⏭ Übersprungen:              5  (    1h 00m)  = 5.8%
+  ✗ Nicht erreicht:           27  (    3h 32m)  = 20.3%
+
+  📝 Ungeplante Aktivitäten:  15  (    1h 29m)
+  ⏱  Tatsächliche Arbeitszeit:    16h 23m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Bearb. Essensplan (Kontrolle / zu e   10:55     19:54  +8h 59m
+  Bearb. Liste Scooterfahrten FZSCLI    11:55     20:24  +8h 29m
+  Bearb. Essensplan (Kontrolle / zu e   11:40     19:54  +8h 14m
+  Bearb.Ohrwürmer (Nachfassen aus alt   10:32     17:54  +7h 22m
+  Dokumentation Ohrwurm-Projekt RWOWD   09:32     16:02  +6h 30m
+  PC herunterfahren PCHFHF              07:48     14:16  +6h 28m
+  Bearb.Ohrwürmer (Nachfassen aus alt   11:45     17:54  +6h 09m
+  Wohnung lüften WFLULU                 16:46     10:42  -6h 04m
+  Bearb. Ohrwürmer (durchzunehmende)    12:21     07:55  -4h 26m
+  Anhören Radiosender / Tonträger / A   17:33     21:42  +4h 09m
+  Bearb. Geldbörse FIBGGB               17:51     22:00  +4h 09m
+  Bearbeitung Aufgaben zu Papa's Pfle   17:41     21:45  +4h 04m
+  Anhören Radiosender / Tonträger / A   18:01     21:42  +3h 41m
+  Bearb.Ohrwürmer (durchgenommen) MUO   10:50     07:20  -3h 30m
+  WC LEMTWC                             10:42     07:16  -3h 26m
+  ... und 76 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb. Essensplan (Vorschläge Strake) LEEPVO
+    Grund: heute keine Vorschläge erarbeitet
+  ⏭ PC herunterfahren PCHFHF
+    Grund: wurde wegen Radio-Würmchen-KI-Radioprogramm nicht heruntergefahren
+  ⏭ Laufen / Scootersuche GEGYLS
+    Grund: wurde mit Einkauf zusammengelegt (Planunsfehler)
+  ⏭ PC herunterfahren PCHFHF
+    Grund: wurde nicht heruntergefahren
+  ⏭ Der Außentemperatur entsprechend anziehen LEA
+    Grund: bereits vor Einkauf erledigt (Listenfehler)
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute kein solcher Einkauf, sondern bei BILLA (Planungsfehler)
+  ⏭ WC LENJWC
+    Grund: muss im Moment nicht
+  ⏭ Kommunikation mit Judith (Abrechnung Renovier
+    Grund: kommt heute nicht mehr dran
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 05:58–06:00  WC LEAZWC
+  📝 06:54–06:57  Arbeit an Tagesplanung / Planer-Entwickl
+  📝 07:51–07:55  WC LEMTWC
+  📝 09:23–09:27  WC LEMTWC
+  📝 11:04–11:15  Dokumentation Ohrwurm-Projekt RWOWDO  — 1. Teil, wird später evtl. fortgesetzt
+  📝 11:21–11:24  WC LEMTWC
+  📝 15:55–16:01  Geschirr abwaschen LEMEGA  — Teller abwaschen / Soja-Drink fassen / Geschirrspüler ausräumen
+  📝 16:46–16:51  WC LEEKWC
+  📝 21:11–21:12  Teller waschen LENATW
+  📝 21:12–21:42  Bearb. Essensplan (Protokoll) LEEPPR  — aktuelles Protokoll (Dinkelbrot + Pikantwurst, Holundersaft) + 27.1.2026
+  📝 21:47–21:54  Ansehen Youtube-Videos RAYTYT
+  📝 22:06–22:07  Wasser fassen LEMTGA
+  📝 22:11–22:17  Surfen Project Genie INSUSU
+  📝 22:17–22:18  Nacherfassung Ablauf KSPLNA
+  📝 23:16–23:21  Spielen Notebook LM Andon FM INSUSU
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 11:21  Mund spülen / Teller waschen / Getränk f  (4m)
+  ✗ 14:30  Geschirr abwaschen LEMEGA  (5m)
+  ✗ 18:15  Bearb. Essensplan (Eintragen Protokoll)   (5m)
+  ✗ 18:20  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 18:25  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 18:34  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 18:39  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 18:44  Bearbeitung Buch Champion's Mindset GELI  (11m)
+  ✗ 18:55  Bearb. Ohrwürmer (Nachfassen aus alten C  (5m)
+  ✗ 19:08  Bearb. Ohrwürmer (Nachfassen aus alten C  (5m)
+  ✗ 19:13  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 19:23  Papiersortierung (hereingekommene Papier  (7m)
+  ✗ 19:32  Papiersortierung (hereingekommene Papier  (2m)
+  ✗ 19:34  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 19:43  Bearbeitung Börsenkurse / Aktienhandel F  (10m)
+  ✗ 19:53  Spielen Kreuzungs-FGPA CSEXKF  (7m)
+  ✗ 20:11  Spielen Kreuzungs-FGPA CSEXKF (Fs.)  (3m)
+  ✗ 20:14  Bearb. Essensplan (Nährwerte) LEEPGE  (9m)
+  ✗ 20:26  Bearb. Essensplan (Nährwerte) LEEPGE (Fs  (2m)
+  ✗ 20:28  Erstellung Playback mit Vocal Remover KA  (5m)
+  ✗ 20:33  Aufräumen WFARAR  (11m)
+  ✗ 20:44  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 20:53  Wäsche aus Waschmaschine nehmen LEWAWA  (7m)
+  ✗ 21:08  Wäsche aus Waschmaschine nehmen LEWAWA (  (2m)
+  ✗ 21:10  Analyse Disassembly Astro Bomber CSGAUM  (10m)
+  ✗ 21:20  Aufwandserfassung und Abrechnung Kontens  (40m)
+  ✗ 22:08  Aufwandserfassung und Abrechnung Kontens  (10m)
+
+=================================================================

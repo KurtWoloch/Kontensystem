@@ -29,6 +29,7 @@ from automations import load_automations, find_automation, run_automation
 from automation_editor import open_editor as open_automation_editor
 from window_monitor import WindowMonitor
 from windowmon_import import open_import_dialog
+from timeline_import import open_timeline_dialog
 
 
 REFRESH_MS = 15_000   # refresh display every 15 seconds
@@ -514,7 +515,13 @@ class PlannerGUI:
             btn_frame_bot, text="📥 Nacherfassung", bg=COLOR_LIST, fg=COLOR_FG,
             command=self._on_windowmon_import, **btn_cfg
         )
-        self.btn_import.pack(side=tk.LEFT)
+        self.btn_import.pack(side=tk.LEFT, padx=(0, 4))
+
+        self.btn_timeline = tk.Button(
+            btn_frame_bot, text="📊 Timeline", bg=COLOR_LIST, fg=COLOR_FG,
+            command=self._on_timeline_import, **btn_cfg
+        )
+        self.btn_timeline.pack(side=tk.LEFT)
 
         # ── Status bar ────────────────────────────────────────────────
         self.status_bar = tk.Label(
@@ -1137,6 +1144,12 @@ class PlannerGUI:
     def _on_windowmon_import(self):
         """Open the windowmon import dialog for Nacherfassung."""
         open_import_dialog(self.root, self.engine, self._code_suggestor)
+        # Refresh after import (new log entries may exist)
+        self._refresh()
+
+    def _on_timeline_import(self):
+        """Open the Timeline Nacherfassung v2 dialog."""
+        open_timeline_dialog(self.root, self.engine, self._code_suggestor)
         # Refresh after import (new log entries may exist)
         self._refresh()
 

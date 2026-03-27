@@ -1,0 +1,211 @@
+[
+  {
+    "activity": "Aufstehen, Rasierer fasssen LEMTAU",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.841,
+    "minutes": 1,
+    "started_at": "05:53:00",
+    "completed_at": "05:55:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Analyse Thinking Frequencies LEMTRA",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 15,
+    "started_at": "05:55:00",
+    "completed_at": "06:10:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Analyse Thinking Frequencies RAAFAN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "06:10:00",
+    "completed_at": "06:11:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion Redesign Nacherfassung mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 27,
+    "started_at": "06:11:00",
+    "completed_at": "06:38:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion Redesign Nacherfassung mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 23,
+    "started_at": "06:38:00",
+    "completed_at": "07:01:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Analyse Thinking Frequencies RAAFAN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "07:01:00",
+    "completed_at": "07:02:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion Redesign Nacherfassung mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 6,
+    "started_at": "07:02:00",
+    "completed_at": "07:08:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Analyse Thinking Frequencies RAAFAN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "07:08:00",
+    "completed_at": "07:09:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion Redesign Nacherfassung mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 52,
+    "started_at": "07:09:00",
+    "completed_at": "08:01:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 6,
+    "started_at": "08:01:00",
+    "completed_at": "08:07:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion Redesign Nacherfassung mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 14,
+    "started_at": "08:07:00",
+    "completed_at": "08:21:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "08:21:00",
+    "completed_at": "08:24:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "WC LEMTWC",
+    "list": "Liste_Morgentoilette",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "08:24:00",
+    "completed_at": "08:26:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion Redesign Nacherfassung mit OpenClaw KSPLEN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 5,
+    "started_at": "08:26:00",
+    "completed_at": "08:31:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Analyse Thinking Frequencies RAAFAN",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "08:31:28",
+    "completed_at": "08:32:56",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "windowmon_import",
+    "priority": 0.0,
+    "minutes": 5,
+    "started_at": "08:32:00",
+    "completed_at": "08:37:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Redesign Nacherfassung mit OpenClaw KSPLEN",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 13,
+    "started_at": "08:37:19",
+    "completed_at": "08:50:56",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Analyse Thinking Frequencies RAAFAN",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "08:50:00",
+    "completed_at": "08:51:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Redesign Nacherfassung mit OpenClaw KSPLEN",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 25,
+    "started_at": "08:51:00",
+    "completed_at": "09:16:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  }
+]

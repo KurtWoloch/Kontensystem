@@ -1,0 +1,1312 @@
+[
+  {
+    "activity": "Aufstehen, Rasierer fasssen LEMTAU",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 1,
+    "priority": 1.841,
+    "fixed_time": null,
+    "est_start": "05:55",
+    "est_end": "05:56",
+    "state": "current"
+  },
+  {
+    "activity": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 15,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "05:56",
+    "est_end": "06:11",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 4,
+    "priority": 1.835,
+    "fixed_time": "06:00",
+    "est_start": "06:11",
+    "est_end": "06:15",
+    "state": "scheduled"
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 4,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "06:15",
+    "est_end": "06:19",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Vorbereitung Playlist für Hören unter der Dusche RWYTPL",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 8,
+    "priority": 1.838,
+    "fixed_time": null,
+    "est_start": "06:19",
+    "est_end": "06:27",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Feinschliff bei der Rasur LEMTFR",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 6,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "06:27",
+    "est_end": "06:33",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Ausputzen Rasierer LEMTAR",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 2,
+    "priority": 1.846,
+    "fixed_time": null,
+    "est_start": "06:33",
+    "est_end": "06:35",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb.Ohrwürmer (durchgenommen) MUOWDU",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 3,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "06:35",
+    "est_end": "06:38",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Ausziehen LEMTAZ",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 1,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "06:38",
+    "est_end": "06:39",
+    "state": "upcoming"
+  },
+  {
+    "activity": "WC LEMTWC",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 5,
+    "priority": 1.839,
+    "fixed_time": null,
+    "est_start": "06:39",
+    "est_end": "06:44",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Abwiegen LEMTAW",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 1,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "06:44",
+    "est_end": "06:45",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Reinigung Waschmuschel LEMTRW",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 1,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "06:45",
+    "est_end": "06:46",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Starten Youtube-Playlist MUOWSP",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 1,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "06:46",
+    "est_end": "06:47",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Duschen LEMTDU",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 20,
+    "priority": 1.841,
+    "fixed_time": null,
+    "est_start": "06:47",
+    "est_end": "07:07",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Einschmieren GEMTES",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 2,
+    "priority": 1.841,
+    "fixed_time": null,
+    "est_start": "07:07",
+    "est_end": "07:09",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anziehen LEMTAN",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 3,
+    "priority": 1.841,
+    "fixed_time": null,
+    "est_start": "07:09",
+    "est_end": "07:12",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bett machen LEMTBM",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 3,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "07:12",
+    "est_end": "07:15",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Vorbereitung Playlist für Hören beim Frühstück RWYTPL",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 6,
+    "priority": 1.841,
+    "fixed_time": null,
+    "est_start": "07:15",
+    "est_end": "07:21",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFS",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 25,
+    "priority": 1.845,
+    "fixed_time": null,
+    "est_start": "07:21",
+    "est_end": "07:46",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Wohnung lüften WFLULU",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 4,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "07:46",
+    "est_end": "07:50",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "list_name": "Liste_untertags",
+    "minutes": 10,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "07:50",
+    "est_end": "08:00",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Termine in Kalender prüfen LEMTTP",
+    "list_name": "Liste_untertags",
+    "minutes": 1,
+    "priority": 1.832,
+    "fixed_time": null,
+    "est_start": "08:00",
+    "est_end": "08:01",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Mailprüfung INMAPR",
+    "list_name": "Liste_untertags",
+    "minutes": 2,
+    "priority": 1.832,
+    "fixed_time": null,
+    "est_start": "08:01",
+    "est_end": "08:03",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Mund spülen LEMTMS",
+    "list_name": "Nach_Fruehstueck",
+    "minutes": 2,
+    "priority": 1.845,
+    "fixed_time": null,
+    "est_start": "08:03",
+    "est_end": "08:05",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Häferl waschen / Hustenbonbon fassen LEMTHW",
+    "list_name": "Nach_Fruehstueck",
+    "minutes": 2,
+    "priority": 1.845,
+    "fixed_time": null,
+    "est_start": "08:05",
+    "est_end": "08:07",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Dokumentation Ohrwurm-Projekt RWOWDO",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 20,
+    "priority": 1.83,
+    "fixed_time": null,
+    "est_start": "08:07",
+    "est_end": "08:27",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Zähne putzen GEMTZP",
+    "list_name": "Nach_Fruehstueck",
+    "minutes": 12,
+    "priority": 1.845,
+    "fixed_time": null,
+    "est_start": "08:27",
+    "est_end": "08:39",
+    "state": "upcoming"
+  },
+  {
+    "activity": "WC LEMTWC",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 5,
+    "priority": 1.839,
+    "fixed_time": null,
+    "est_start": "08:39",
+    "est_end": "08:44",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Dokumentation Ohrwurm-Projekt RWOWDO (Fs.)",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 7,
+    "priority": 1.83,
+    "fixed_time": null,
+    "est_start": "08:44",
+    "est_end": "08:52",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR",
+    "list_name": "Radio",
+    "minutes": 5,
+    "priority": 1.833,
+    "fixed_time": "08:52",
+    "est_start": "08:52",
+    "est_end": "08:57",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Blutdruck messen GEBMBM",
+    "list_name": "Nach_Fruehstueck",
+    "minutes": 2,
+    "priority": 1.849,
+    "fixed_time": null,
+    "est_start": "08:57",
+    "est_end": "08:59",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR (Fs.)",
+    "list_name": "Radio",
+    "minutes": 3,
+    "priority": 1.833,
+    "fixed_time": null,
+    "est_start": "08:59",
+    "est_end": "09:02",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Dokumentation Ohrwurm-Projekt RWOWDO (Fs.)",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 12,
+    "priority": 1.83,
+    "fixed_time": null,
+    "est_start": "09:02",
+    "est_end": "09:14",
+    "state": "upcoming"
+  },
+  {
+    "activity": "WC LEMTWC",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 6,
+    "priority": 1.839,
+    "fixed_time": null,
+    "est_start": "09:14",
+    "est_end": "09:20",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Dokumentation Ohrwurm-Projekt RWOWDO (Fs.)",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 20,
+    "priority": 1.83,
+    "fixed_time": null,
+    "est_start": "09:20",
+    "est_end": "09:40",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Mund spülen / Teller waschen / Getränk fassen LEMTTW",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 4,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "09:40",
+    "est_end": "09:44",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Dokumentation Ohrwurm-Projekt RWOWDO (Fs.)",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 1,
+    "priority": 1.83,
+    "fixed_time": null,
+    "est_start": "09:44",
+    "est_end": "09:45",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO",
+    "list_name": "Liste_nachmittags",
+    "minutes": 10,
+    "priority": 1.83,
+    "fixed_time": null,
+    "est_start": "09:45",
+    "est_end": "09:55",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb.Ohrwürmer (Nachfassen aus alten Charts) RWOWTT",
+    "list_name": "Liste_untertags",
+    "minutes": 10,
+    "priority": 1.828,
+    "fixed_time": null,
+    "est_start": "09:55",
+    "est_end": "10:05",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Liste Scooterfahrten FZSCLI",
+    "list_name": "Liste_untertags",
+    "minutes": 9,
+    "priority": 1.828,
+    "fixed_time": null,
+    "est_start": "10:05",
+    "est_end": "10:14",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR",
+    "list_name": "Radio",
+    "minutes": 5,
+    "priority": 1.827,
+    "fixed_time": null,
+    "est_start": "10:14",
+    "est_end": "10:19",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen, zu essen) LEEPEP",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 4,
+    "priority": 1.84,
+    "fixed_time": "08:56",
+    "est_start": "10:19",
+    "est_end": "10:23",
+    "state": "scheduled"
+  },
+  {
+    "activity": "Jause fassen LEMTJF",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 3,
+    "priority": 1.84,
+    "fixed_time": "09:00",
+    "est_start": "10:23",
+    "est_end": "10:26",
+    "state": "scheduled"
+  },
+  {
+    "activity": "Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR (Fs.)",
+    "list_name": "Radio",
+    "minutes": 3,
+    "priority": 1.827,
+    "fixed_time": null,
+    "est_start": "10:26",
+    "est_end": "10:29",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Ausmachen Arzttermine GEMRNA",
+    "list_name": "Liste_untertags",
+    "minutes": 4,
+    "priority": 1.827,
+    "fixed_time": null,
+    "est_start": "10:29",
+    "est_end": "10:33",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATATA",
+    "list_name": "Liste_untertags",
+    "minutes": 3,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "10:33",
+    "est_end": "10:36",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Teller waschen / Getränk fassen LEMTTW",
+    "list_name": "Liste_Morgentoilette",
+    "minutes": 3,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "10:36",
+    "est_end": "10:39",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATATA (Fs.)",
+    "list_name": "Liste_untertags",
+    "minutes": 7,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "10:39",
+    "est_end": "10:46",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Geldbörse FIBGGB",
+    "list_name": "Liste_untertags",
+    "minutes": 10,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "10:46",
+    "est_end": "10:56",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung PAWFAF",
+    "list_name": "Liste_untertags",
+    "minutes": 6,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "10:56",
+    "est_end": "11:02",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP",
+    "list_name": "Radio",
+    "minutes": 8,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "11:02",
+    "est_end": "11:10",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearbeitung Buch Champion's Mindset GELICM",
+    "list_name": "Liste_untertags",
+    "minutes": 11,
+    "priority": 1.825,
+    "fixed_time": null,
+    "est_start": "11:10",
+    "est_end": "11:21",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Führung Tagebuch, um schmerzhafte Situationen zu verarbeiten GELIFT",
+    "list_name": "Liste_untertags",
+    "minutes": 10,
+    "priority": 1.815,
+    "fixed_time": null,
+    "est_start": "11:21",
+    "est_end": "11:31",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Papiersortierung (hereingekommene Papiere) WFPAEK",
+    "list_name": "Liste_untertags",
+    "minutes": 9,
+    "priority": 1.811,
+    "fixed_time": null,
+    "est_start": "11:31",
+    "est_end": "11:40",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Übersiedeln (Mitteilung Adresswechsel) WFUZUS",
+    "list_name": "Liste_untertags",
+    "minutes": 9,
+    "priority": 1.811,
+    "fixed_time": null,
+    "est_start": "11:40",
+    "est_end": "11:49",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearbeitung Börsenkurse / Aktienhandel FIAKBK",
+    "list_name": "Liste_untertags",
+    "minutes": 10,
+    "priority": 1.811,
+    "fixed_time": null,
+    "est_start": "11:49",
+    "est_end": "11:59",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP",
+    "list_name": "Radio",
+    "minutes": 6,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "12:00",
+    "est_end": "12:06",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Einlass / Koordination / Zahlung / Verabschiedung Sati Ersoy WFPUEL",
+    "list_name": "Lebenserhaltung",
+    "minutes": 6,
+    "priority": 1.845,
+    "fixed_time": "12:06",
+    "est_start": "12:06",
+    "est_end": "12:12",
+    "state": "scheduled"
+  },
+  {
+    "activity": "Mittagessen (von Sati gekocht) LEMESE",
+    "list_name": "Lebenserhaltung",
+    "minutes": 60,
+    "priority": 1.845,
+    "fixed_time": null,
+    "est_start": "12:12",
+    "est_end": "13:12",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Wenn (\"Musst Du heute etwas erledigen oder einkaufen?\"), Start list Liste_Spaziergang",
+    "list_name": "Lebenserhaltung",
+    "minutes": 1,
+    "priority": 1.844,
+    "fixed_time": null,
+    "est_start": "13:12",
+    "est_end": "13:13",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Ohrwürmer (durchzunehmende) RWOWDN",
+    "list_name": "Vorbereitung_Fortgehen",
+    "minutes": 5,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "13:13",
+    "est_end": "13:18",
+    "state": "upcoming"
+  },
+  {
+    "activity": "PC herunterfahren PCHFHF",
+    "list_name": "Vorbereitung_Fortgehen",
+    "minutes": 2,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "13:18",
+    "est_end": "13:20",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "list_name": "Vorbereitung_Fortgehen",
+    "minutes": 2,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "13:20",
+    "est_end": "13:22",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Laufen / Scootersuche GEGYLS",
+    "list_name": "Liste_Laufen",
+    "minutes": 34,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "13:22",
+    "est_end": "13:56",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi) BREPZE",
+    "list_name": "Liste_Laufen",
+    "minutes": 6,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "13:56",
+    "est_end": "14:02",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Versorgung Mitbringsel LEPOPO",
+    "list_name": "Liste_Laufen",
+    "minutes": 9,
+    "priority": 1.84,
+    "fixed_time": null,
+    "est_start": "14:02",
+    "est_end": "14:11",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Geschirr abwaschen LEMEGA",
+    "list_name": "Lebenserhaltung",
+    "minutes": 5,
+    "priority": 1.844,
+    "fixed_time": null,
+    "est_start": "14:11",
+    "est_end": "14:16",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Wohnung lüften WFLULU",
+    "list_name": "Liste_nachmittags",
+    "minutes": 4,
+    "priority": 1.83,
+    "fixed_time": "13:00",
+    "est_start": "14:16",
+    "est_end": "14:20",
+    "state": "scheduled"
+  },
+  {
+    "activity": "Wäsche aus Waschmaschine nehmen LEKLWM",
+    "list_name": "Liste_nachmittags",
+    "minutes": 10,
+    "priority": 1.83,
+    "fixed_time": null,
+    "est_start": "14:20",
+    "est_end": "14:30",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE",
+    "list_name": "Lebenserhaltung",
+    "minutes": 5,
+    "priority": 1.844,
+    "fixed_time": "14:30",
+    "est_start": "14:30",
+    "est_end": "14:35",
+    "state": "scheduled"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP (Fs.)",
+    "list_name": "Radio",
+    "minutes": 2,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "14:35",
+    "est_end": "14:37",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP",
+    "list_name": "Radio",
+    "minutes": 8,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "14:37",
+    "est_end": "14:45",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Ohrwürmer (durchgenommene) RWOWDU",
+    "list_name": "Liste_nachmittags",
+    "minutes": 5,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "14:45",
+    "est_end": "14:50",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Essensplan (Einlesen Einkaufsliste) LEEEL",
+    "list_name": "Liste_nachmittags",
+    "minutes": 9,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "14:50",
+    "est_end": "14:59",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Ohrwürmer (Nachfassen aus alten Charts) RWOWTT",
+    "list_name": "Liste_nachmittags",
+    "minutes": 1,
+    "priority": 1.822,
+    "fixed_time": null,
+    "est_start": "14:59",
+    "est_end": "15:00",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP",
+    "list_name": "Radio",
+    "minutes": 8,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "15:00",
+    "est_end": "15:08",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Ohrwürmer (Nachfassen aus alten Charts) RWOWTT (Fs.)",
+    "list_name": "Liste_nachmittags",
+    "minutes": 9,
+    "priority": 1.822,
+    "fixed_time": null,
+    "est_start": "15:08",
+    "est_end": "15:17",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Spielen Kreuzungs-FGPA CSEXKF (Fs.)",
+    "list_name": "Liste_Spiele",
+    "minutes": 10,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "15:17",
+    "est_end": "15:27",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Essensplan (Nährwerte) LEEPGE",
+    "list_name": "Liste_untertags",
+    "minutes": 11,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "15:27",
+    "est_end": "15:38",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Erstellung Playback mit Vocal Remover KAPRPV",
+    "list_name": "Liste_untertags",
+    "minutes": 5,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "15:38",
+    "est_end": "15:43",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Aufräumen WFARAR",
+    "list_name": "Liste_untertags",
+    "minutes": 11,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "15:43",
+    "est_end": "15:54",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Papiersortierung (Altpapier)(10' +) WFPAAP",
+    "list_name": "Liste_untertags",
+    "minutes": 6,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "15:54",
+    "est_end": "16:00",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Nachmittagsjause fassen LENAJA",
+    "list_name": "Lebenserhaltung",
+    "minutes": 4,
+    "priority": 1.844,
+    "fixed_time": "16:00",
+    "est_start": "16:00",
+    "est_end": "16:04",
+    "state": "scheduled"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP",
+    "list_name": "Radio",
+    "minutes": 8,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "16:04",
+    "est_end": "16:12",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Papiersortierung (Altpapier)(10' +) WFPAAP (Fs.)",
+    "list_name": "Liste_untertags",
+    "minutes": 3,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "16:12",
+    "est_end": "16:15",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Wäsche aus Waschmaschine nehmen LEWAWA",
+    "list_name": "Liste_untertags",
+    "minutes": 9,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "16:15",
+    "est_end": "16:24",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Teller waschen / Getränk fassen LENATW",
+    "list_name": "Lebenserhaltung",
+    "minutes": 4,
+    "priority": 1.844,
+    "fixed_time": null,
+    "est_start": "16:24",
+    "est_end": "16:28",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Analyse Disassembly Astro Bomber CSGAUM",
+    "list_name": "Liste_Spiele",
+    "minutes": 10,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "16:28",
+    "est_end": "16:38",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Aufwandserfassung und Abrechnung Kontensystem KSAAKO",
+    "list_name": "Liste_nachmittags",
+    "minutes": 22,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "16:38",
+    "est_end": "17:00",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP",
+    "list_name": "Radio",
+    "minutes": 8,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "17:00",
+    "est_end": "17:08",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Aufwandserfassung und Abrechnung Kontensystem KSAAKO (Fs.)",
+    "list_name": "Liste_nachmittags",
+    "minutes": 46,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "17:08",
+    "est_end": "17:54",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Korrektur The Grindy Adventure CSGAUM",
+    "list_name": "Liste_Spiele",
+    "minutes": 6,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "17:54",
+    "est_end": "18:00",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP",
+    "list_name": "Radio",
+    "minutes": 8,
+    "priority": 1.826,
+    "fixed_time": null,
+    "est_start": "18:00",
+    "est_end": "18:08",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Korrektur The Grindy Adventure CSGAUM (Fs.)",
+    "list_name": "Liste_Spiele",
+    "minutes": 4,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "18:08",
+    "est_end": "18:12",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Papiersortierung (gelesene Werbeprospekte) WFPAWP",
+    "list_name": "Liste_untertags",
+    "minutes": 9,
+    "priority": 1.809,
+    "fixed_time": null,
+    "est_start": "18:12",
+    "est_end": "18:21",
+    "state": "upcoming"
+  },
+  {
+    "activity": "WC LEMTWC",
+    "list_name": "Liste_untertags",
+    "minutes": 9,
+    "priority": 1.809,
+    "fixed_time": null,
+    "est_start": "18:21",
+    "est_end": "18:30",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Ohrwürmer (Texte) MUOWTE",
+    "list_name": "Liste_nachmittags",
+    "minutes": 5,
+    "priority": 1.809,
+    "fixed_time": null,
+    "est_start": "18:30",
+    "est_end": "18:35",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Ohrwürmer (Liste auswendig singbarer Titel) MUOWAS",
+    "list_name": "Liste_nachmittags",
+    "minutes": 5,
+    "priority": 1.809,
+    "fixed_time": null,
+    "est_start": "18:35",
+    "est_end": "18:40",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb. Geldbörse FIBGGB",
+    "list_name": "Liste_nachmittags",
+    "minutes": 10,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "18:40",
+    "est_end": "18:50",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Papiersortierung PAA1SU",
+    "list_name": "Liste_nachmittags",
+    "minutes": 10,
+    "priority": 1.807,
+    "fixed_time": null,
+    "est_start": "18:50",
+    "est_end": "19:00",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Analyse Disassembly Tour de France CSGAUM",
+    "list_name": "Liste_Spiele",
+    "minutes": 10,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "19:00",
+    "est_end": "19:10",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Papiersortierung PAA1SU (Fs.)",
+    "list_name": "Liste_nachmittags",
+    "minutes": 20,
+    "priority": 1.807,
+    "fixed_time": null,
+    "est_start": "19:10",
+    "est_end": "19:30",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Ansehen ZiB 1 + Wetter RATVZI",
+    "list_name": "Liste_ZiB",
+    "minutes": 2,
+    "priority": 2.407,
+    "fixed_time": "19:30",
+    "est_start": "19:30",
+    "est_end": "19:32",
+    "state": "scheduled"
+  },
+  {
+    "activity": "Papiersortierung PAA1SU (Fs.)",
+    "list_name": "Liste_nachmittags",
+    "minutes": 28,
+    "priority": 1.807,
+    "fixed_time": null,
+    "est_start": "19:32",
+    "est_end": "20:00",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Nachtmahl fassen LENANA",
+    "list_name": "Lebenserhaltung",
+    "minutes": 3,
+    "priority": 1.845,
+    "fixed_time": "20:00",
+    "est_start": "20:00",
+    "est_end": "20:03",
+    "state": "scheduled"
+  },
+  {
+    "activity": "Papiersortierung PAA1SU (Fs.)",
+    "list_name": "Liste_nachmittags",
+    "minutes": 2,
+    "priority": 1.807,
+    "fixed_time": null,
+    "est_start": "20:03",
+    "est_end": "20:05",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Dokumentation Finanzanlagen / -kozept FIDOAK",
+    "list_name": "Liste_nachmittags",
+    "minutes": 5,
+    "priority": 1.807,
+    "fixed_time": null,
+    "est_start": "20:05",
+    "est_end": "20:10",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Spielen State of Survival CSGAUM",
+    "list_name": "Liste_Spiele",
+    "minutes": 10,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "20:10",
+    "est_end": "20:20",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Dokumentation Finanzanlagen / -kozept FIDOAK (Fs.)",
+    "list_name": "Liste_nachmittags",
+    "minutes": 3,
+    "priority": 1.807,
+    "fixed_time": null,
+    "est_start": "20:20",
+    "est_end": "20:23",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Teller waschen / Getränk fassen LENATW",
+    "list_name": "Lebenserhaltung",
+    "minutes": 3,
+    "priority": 1.844,
+    "fixed_time": null,
+    "est_start": "20:23",
+    "est_end": "20:26",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Dokumentation Finanzanlagen / -kozept FIDOAK (Fs.)",
+    "list_name": "Liste_nachmittags",
+    "minutes": 52,
+    "priority": 1.807,
+    "fixed_time": null,
+    "est_start": "20:26",
+    "est_end": "21:18",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP",
+    "list_name": "Radio",
+    "minutes": 2,
+    "priority": 1.806,
+    "fixed_time": null,
+    "est_start": "21:18",
+    "est_end": "21:20",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Spielen Forge of Empires CSGAUM",
+    "list_name": "Liste_Spiele",
+    "minutes": 10,
+    "priority": 1.81,
+    "fixed_time": null,
+    "est_start": "21:20",
+    "est_end": "21:30",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP (Fs.)",
+    "list_name": "Radio",
+    "minutes": 6,
+    "priority": 1.806,
+    "fixed_time": null,
+    "est_start": "21:30",
+    "est_end": "21:36",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Update Personenliste aus Rücklauf von Einladungen Begräbnis PAPERL",
+    "list_name": "Liste_nachmittags",
+    "minutes": 24,
+    "priority": 1.804,
+    "fixed_time": null,
+    "est_start": "21:36",
+    "est_end": "22:00",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP",
+    "list_name": "Radio",
+    "minutes": 8,
+    "priority": 1.806,
+    "fixed_time": null,
+    "est_start": "22:00",
+    "est_end": "22:08",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Update Personenliste aus Rücklauf von Einladungen Begräbnis PAPERL (Fs.)",
+    "list_name": "Liste_nachmittags",
+    "minutes": 10,
+    "priority": 1.804,
+    "fixed_time": null,
+    "est_start": "22:08",
+    "est_end": "22:18",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Medikament fassen GEMEFA",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 2,
+    "priority": 1.835,
+    "fixed_time": "22:18",
+    "est_start": "22:18",
+    "est_end": "22:20",
+    "state": "scheduled"
+  },
+  {
+    "activity": "Vorbereitung Zähne putzen LEAZVZ",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 5,
+    "priority": 1.835,
+    "fixed_time": null,
+    "est_start": "22:20",
+    "est_end": "22:25",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Zähne putzen LEAZZP",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 12,
+    "priority": 1.835,
+    "fixed_time": null,
+    "est_start": "22:25",
+    "est_end": "22:37",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anwendung der Zwischenraumzahnbürste LEAZZZ",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 16,
+    "priority": 1.835,
+    "fixed_time": null,
+    "est_start": "22:37",
+    "est_end": "22:53",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Anwendung Zahnseide LEAZZS",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 5,
+    "priority": 1.835,
+    "fixed_time": null,
+    "est_start": "22:53",
+    "est_end": "22:58",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Reinigung Zahnputzutensilien, Hände waschen LEAZHW",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 2,
+    "priority": 1.834,
+    "fixed_time": null,
+    "est_start": "22:58",
+    "est_end": "23:00",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bett machen LEAZHW",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 2,
+    "priority": 1.835,
+    "fixed_time": null,
+    "est_start": "23:00",
+    "est_end": "23:02",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Ausziehen LEAZAU",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 4,
+    "priority": 1.835,
+    "fixed_time": null,
+    "est_start": "23:02",
+    "est_end": "23:06",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 2,
+    "priority": 1.834,
+    "fixed_time": null,
+    "est_start": "23:06",
+    "est_end": "23:08",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Einschmieren GEAZES",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 2,
+    "priority": 1.835,
+    "fixed_time": null,
+    "est_start": "23:08",
+    "est_end": "23:10",
+    "state": "upcoming"
+  },
+  {
+    "activity": "WC LEAZWC",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 5,
+    "priority": 1.835,
+    "fixed_time": null,
+    "est_start": "23:10",
+    "est_end": "23:15",
+    "state": "upcoming"
+  },
+  {
+    "activity": "Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 2,
+    "priority": 1.834,
+    "fixed_time": null,
+    "est_start": "23:15",
+    "est_end": "23:17",
+    "state": "upcoming"
+  },
+  {
+    "activity": "PC herunterfahren LEAZHF",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 1,
+    "priority": 1.834,
+    "fixed_time": null,
+    "est_start": "23:17",
+    "est_end": "23:18",
+    "state": "upcoming"
+  },
+  {
+    "activity": "im Bett",
+    "list_name": "Liste_Abendzeremonie",
+    "minutes": 1,
+    "priority": 1.834,
+    "fixed_time": null,
+    "est_start": "23:18",
+    "est_end": "23:19",
+    "state": "upcoming"
+  }
+]

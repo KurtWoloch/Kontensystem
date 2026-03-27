@@ -1,0 +1,147 @@
+=================================================================
+  TAGESBERICHT — 2026-03-25
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      129
+  Geplante Gesamtzeit:         17h 11m
+
+  ✓ Erledigt (geplant):       67  (    9h 07m)  = 53.1%
+  ⏭ Übersprungen:             15  (    2h 00m)  = 11.6%
+  ✗ Nicht erreicht:           47  (    6h 04m)  = 35.3%
+
+  📝 Ungeplante Aktivitäten:   7  (    2h 00m)
+  ⏱  Tatsächliche Arbeitszeit:    16h 33m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  PC herunterfahren LEAZHF              23:17     00:44 -22h 33m
+  Anwendung der Zwischenraumzahnbürst   22:37     00:05 -22h 32m
+  im Bett                               23:18     00:48 -22h 30m
+  WC LEAZWC                             23:10     00:42 -22h 28m
+  Einschmieren GEAZES                   23:08     00:41 -22h 27m
+  Reinigung Zahnputzutensilien, Hände   22:58     00:33 -22h 25m
+  Anwendung Zahnseide LEAZZS            22:53     00:29 -22h 24m
+  Bett machen LEAZHW                    23:00     00:36 -22h 24m
+  Ausziehen LEAZAU                      23:02     00:38 -22h 24m
+  WC LEMTWC                             21:36     07:19 -14h 17m
+  Blutdruck messen GEBMBM               09:10     23:24 +14h 14m
+  Wenn ("Gehst Du heute zum Essen rau   12:59     23:29 +10h 30m
+  Bearb. Essensplan (Ereignisse / geg   15:05     23:50  +8h 45m
+  Bearb. Essensplan (gegessen, zu ess   15:10     23:29  +8h 19m
+  Versorgung Mitbringsel LEPOPO         15:17     23:35  +8h 18m
+  ... und 52 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb.Ohrwürmer (durchgenommen) MUOWDU
+    Grund: nichts weiter durchgenommen
+  ⏭ Zähne putzen GEMTZP
+    Grund: geht sich jetzt nicht aus
+  ⏭ Prüfung auf eventuell mitzunehmende Dinge BRA
+    Grund: geht sich nicht aus
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: wegen Unrentabilität gestrichen
+  ⏭ Müllentsorgung LEMÜMÜ
+    Grund: geht sich nicht aus
+  ⏭ Ansehen ZiB 1 + Wetter RATVZI
+    Grund: ist heute entfallen wg. Analyse von Andon FM
+  ⏭ Mittagessen (selbst kochen / kalt)
+    Grund: wurde heute extern gegessen
+  ⏭ Geschirr abwaschen LEMEGA
+    Grund: wg. externem Mittagessen nicht nötig
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft
+  ⏭ Jause fassen LEMTJF
+    Grund: heute nur Wasser getrunken
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: wird so nicht mehr bearbeitet (unrentabel)
+  ⏭ PC herunterfahren PCHFHF
+    Grund: wurde nicht heruntergefahren
+  ⏭ Der Außentemperatur entsprechend anziehen LEA
+    Grund: Aktivität doppelt
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft
+  ⏭ Versorgung Mitbringsel LEPOPO
+    Grund: bereits erledigt (Aktivität doppelt)
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: wurde wegen Unrentabilität aufgelassen
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: wurde wg. Unrentabilität eingestellt
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:30–06:52  Untersuchung Playlist Andon FM / Thinkin  — OpenAIR hat neuen Titel gekauft, kauft während Untersuchung weiteren
+  📝 09:03–09:07  WC LEMTWC
+  📝 14:06–15:24  Heimfahrt mit WienMobil E-Bike FZFAEB  — Fahrt 14:06-15:10 zu WienMobil-Station Kantnerg., Rest Heimweg zu Fuß
+  📝 16:14–16:15  Analyse Andon FM RWPLAF
+  📝 17:30–17:31  Auspacken Essensplan LEEPAU
+  📝 17:43–17:48  WC LEMTWC
+  📝 23:41–23:50  Tweet an Lukas Petersson / Thinking Freq
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 08:22  Mailprüfung INMAPR  (2m)
+  ✗ 08:24  Bearb. Essensplan (Kontrolle / zu essen   (10m)
+  ✗ 08:34  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (5m)
+  ✗ 15:58  Bearb. Essensplan (Update Händlerangebot  (2m)
+  ✗ 16:04  Bearb. Essensplan (Update Händlerangebot  (9m)
+  ✗ 16:13  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (5m)
+  ✗ 16:18  Bearb. Liste Scooterfahrten FZSCLI  (6m)
+  ✗ 16:28  Bearb. Liste Scooterfahrten FZSCLI (Fs.)  (3m)
+  ✗ 16:39  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 16:43  Bearb. Essensplan (Protokoll) LEEPPR  (8m)
+  ✗ 16:51  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
+  ✗ 17:01  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 17:09  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 17:19  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 17:25  Bearb. Essensplan (Eintragen Protokoll)   (5m)
+  ✗ 17:30  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 17:35  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 17:44  Bearbeitung Buch Champion's Mindset GELI  (11m)
+  ✗ 17:55  Bearb. Ohrwürmer (Nachfassen aus alten C  (5m)
+  ✗ 18:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 18:08  Bearb. Ohrwürmer (Nachfassen aus alten C  (5m)
+  ✗ 18:13  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 18:23  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 18:32  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 18:41  Bearbeitung Börsenkurse / Aktienhandel F  (10m)
+  ✗ 18:51  Spielen Kreuzungs-FGPA CSEXKF  (9m)
+  ✗ 19:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 19:08  Spielen Kreuzungs-FGPA CSEXKF (Fs.)  (1m)
+  ✗ 19:09  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 19:20  Erstellung Playback mit Vocal Remover KA  (5m)
+  ✗ 19:25  Aufräumen WFARAR  (5m)
+  ✗ 19:32  Aufräumen WFARAR (Fs.)  (6m)
+  ✗ 19:38  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 19:47  Aufwandserfassung und Abrechnung Kontens  (13m)
+  ✗ 20:03  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:11  Aufwandserfassung und Abrechnung Kontens  (12m)
+  ✗ 20:26  Aufwandserfassung und Abrechnung Kontens  (34m)
+  ✗ 21:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:08  Aufwandserfassung und Abrechnung Kontens  (9m)
+  ✗ 21:17  Analyse Disassembly Astro Bomber CSGAUM  (10m)
+  ✗ 21:27  Papiersortierung (gelesene Werbeprospekt  (9m)
+  ✗ 21:45  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 21:50  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 21:55  Bearb. Geldbörse FIBGGB  (5m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Bearb. Geldbörse FIBGGB (Fs.)  (5m)
+  ✗ 22:13  Papiersortierung PAA1SU  (5m)
+
+=================================================================

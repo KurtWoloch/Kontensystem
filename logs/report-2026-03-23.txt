@@ -1,0 +1,126 @@
+=================================================================
+  TAGESBERICHT — 2026-03-23
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      126
+  Geplante Gesamtzeit:         17h 13m
+
+  ✓ Erledigt (geplant):       89  (   10h 36m)  = 61.6%
+  ⏭ Übersprungen:             14  (    1h 13m)  = 7.1%
+  ✗ Nicht erreicht:           23  (    5h 24m)  = 31.4%
+
+  📝 Ungeplante Aktivitäten:  26  (    2h 48m)
+  ⏱  Tatsächliche Arbeitszeit:    14h 53m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  WC LEMTWC (Fs.)                       20:11     06:52 -13h 19m
+  WC LEMTWC                             19:59     06:52 -13h 07m
+  Anhören Radiosender / Tonträger / A   20:03     11:11  -8h 52m
+  Bearbeitung Buch Champion's Mindset   11:48     19:52  +8h 04m
+  Papiersortierung (hereingekommene P   12:17     20:09  +7h 52m
+  Anhören Radiosender / Tonträger / A   19:00     11:11  -7h 49m
+  Bearb. Geldbörse FIBGGB               19:40     12:16  -7h 24m
+  Wohnung lüften WFLULU                 15:39     08:20  -7h 19m
+  Anhören Radiosender / Tonträger / A   18:00     11:11  -6h 49m
+  Anhören Radiosender / Tonträger / A   17:00     11:11  -5h 49m
+  Anhören Radiosender / Tonträger / A   16:06     11:11  -4h 55m
+  Spielen Kreuzungs-FGPA CSEXKF         17:20     21:09  +3h 49m
+  Bearb. Ohrwürmer (durchgenommene) R   16:19     19:47  +3h 28m
+  Bearbeitung Börsenkurse / Aktienhan   17:10     20:10  +3h 00m
+  WC LEMTWC                             09:48     06:52  -2h 56m
+  ... und 74 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb.Ohrwürmer (Nachfassen aus alten Charts)
+    Grund: noch nicht nötig, noch genug Titel in Liste
+  ⏭ Bearb. Liste Scooterfahrten FZSCLI
+    Grund: noch keine weiteren Fahrten durchgeführt
+  ⏭ Ausmachen Arzttermine GEMRNA
+    Grund: im Moment unnötig, Gesundenuntersuchung erst im April fällig
+  ⏭ Jause fassen LEMTJF
+    Grund: heute nur Wasser getrunken
+  ⏭ Teller waschen / Getränk fassen LEMTTW
+    Grund: im Moment nicht nötig
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft
+  ⏭ Bearb. Essensplan (Einlesen Einkaufsliste) LE
+    Grund: heute nichts eingekauft, daher keine Einkaufsliste
+  ⏭ Bearb. Ohrwürmer (Nachfassen aus alten Charts
+    Grund: nicht nötig, noch genug Titel in Liste vorhanden
+  ⏭ Führung Tagebuch, um schmerzhafte Situationen
+    Grund: immer noch keine Situationen vorhanden
+  ⏭ Übersiedeln (Mitteilung Adresswechsel) WFUZUS
+    Grund: niemand da, dem er mitzuteilen wäre
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 07:10–07:13  Ansehen Youtube-Videos RAYTYT  — Aussuchen eines Videos
+  📝 08:17–08:20  PLanung KSPLPL  — Planungskorrektur (Review BRZG nur an Teleworking-Tagen)
+  📝 09:41–09:45  WC LEMTWC
+  📝 09:45–09:49  PLanung KSPLPL  — Korrektur Priorisierung Ohrwurm-Aktivitäten (Texte und Auswendig-Liste hinter Kontensystem)
+  📝 11:53–11:54  Ansehen Youtube-Videos RAYTYT
+  📝 12:08–12:12  Ansehen Youtube-Videos RAYTYT
+  📝 12:12–12:14  Nacherfassung Ablauf KSPLNA
+  📝 12:28–12:34  WC LEMTWC
+  📝 12:58–13:03  Bearb. Essensplan (Protokoll) LEEPPR  — Protokoll Mittagessen
+  📝 13:28–13:29  Bearb. Essensplan (Protokoll) LEEPPR  — Protokoll Mittagessen
+  📝 13:32–13:41  Ansehen Youtube-Videos RAYTYT
+  📝 13:41–13:46  Bearb. Essensplan (Start Korrekturlauf) 
+  📝 13:46–14:22  Ansehen Youtube-Videos RAYTYT
+  📝 14:23–14:26  Nacherfassung Ablauf KSPLNA
+  📝 14:26–14:35  WC LEMTWC
+  📝 15:26–15:53  Fahrt E-Bike (WienMobil) FZFAEB  — 26' mit Steigungstests
+  📝 16:14–16:17  Nacherfassung Ablauf KSPLNA
+  📝 17:45–17:47  Ansehen Youtube-Videos RAYTYT
+  📝 17:58–17:59  Ansehen Youtube-Videos RAYTYT
+  📝 18:10–18:12  Ansehen Youtube-Videos RAYTYT
+  📝 18:13–18:15  Nacherfassung Ablauf KSPLNA
+  📝 18:24–18:27  Ansehen Youtube-Videos RAYTYT
+  📝 18:36–18:39  Ansehen Youtube-Videos RAYTYT
+  📝 19:12–19:31  Ansehen Youtube-Videos RAYTYT
+  📝 19:43–19:47  Wasser fassen  — + Häferl + Becher waschen
+  📝 22:36–22:43  WC LEMTWC
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 08:17  Review Dokumentation BRZG KSBRDR  (20m)
+  ✗ 08:49  Review Dokumentation BRZG KSBRDR (Fs.)  (40m)
+  ✗ 09:29  Herunterfahren, Einpacken, Anziehen BRAL  (5m)
+  ✗ 09:36  Herunterfahren, Einpacken, Anziehen BRAL  (1m)
+  ✗ 09:37  WC BREPWC  (9m)
+  ✗ 16:37  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 16:42  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 17:30  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 17:41  Erstellung Playback mit Vocal Remover KA  (5m)
+  ✗ 17:46  Aufräumen WFARAR  (11m)
+  ✗ 17:57  Papiersortierung (Altpapier)(10' +) WFPA  (3m)
+  ✗ 18:08  Papiersortierung (Altpapier)(10' +) WFPA  (6m)
+  ✗ 18:14  Aufwandserfassung und Abrechnung Kontens  (46m)
+  ✗ 19:08  Aufwandserfassung und Abrechnung Kontens  (22m)
+  ✗ 19:30  Analyse Disassembly Astro Bomber CSGAUM  (10m)
+  ✗ 19:50  Papiersortierung (gelesene Werbeprospekt  (9m)
+  ✗ 20:19  Papiersortierung PAA1SU  (4m)
+  ✗ 20:26  Papiersortierung PAA1SU (Fs.)  (14m)
+  ✗ 20:40  Korrektur The Grindy Adventure CSGAUM  (10m)
+  ✗ 20:50  Papiersortierung PAA1SU (Fs.)  (42m)
+  ✗ 21:32  Dokumentation Finanzanlagen / -kozept FI  (18m)
+  ✗ 21:50  Analyse Disassembly Tour de France CSGAU  (10m)
+  ✗ 22:00  Dokumentation Finanzanlagen / -kozept FI  (18m)
+
+=================================================================

@@ -1,0 +1,394 @@
+[
+  {
+    "ts": "2026-03-25T20:59:17",
+    "start": "08:48",
+    "end": "08:50",
+    "original": "Mund spülen LEMTMS",
+    "corrected": "Surfen Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-25T21:05:08",
+    "start": "15:24",
+    "end": "15:26",
+    "original": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "corrected": "Auspacken Essensplan LEEPAU"
+  },
+  {
+    "ts": "2026-03-25T21:05:43",
+    "start": "15:26",
+    "end": "15:27",
+    "original": "Off-PC: Abgang + Fahrt S-Bahn Siemensstr. (09:53) → Hetzendorf (10:26)",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-25T21:06:30",
+    "start": "15:29",
+    "end": "15:39",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-25T21:06:57",
+    "start": "15:39",
+    "end": "15:40",
+    "original": "Blutdruck messen GEBMBM",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:07:32",
+    "start": "15:40",
+    "end": "15:46",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-25T21:07:49",
+    "start": "15:40",
+    "end": "15:47",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-25T21:08:04",
+    "start": "15:47",
+    "end": "15:49",
+    "original": "Blutdruck messen GEBMBM",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:08:35",
+    "start": "15:50",
+    "end": "15:52",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:09:04",
+    "start": "15:52",
+    "end": "15:54",
+    "original": "div. Surfen INSUSU",
+    "corrected": "div. Surfen (News) INSUNE"
+  },
+  {
+    "ts": "2026-03-25T21:09:40",
+    "start": "15:54",
+    "end": "15:56",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-25T21:10:09",
+    "start": "15:56",
+    "end": "16:04",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Amazon Powerbanks FZSUAM"
+  },
+  {
+    "ts": "2026-03-25T21:10:33",
+    "start": "16:04",
+    "end": "16:07",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:10:52",
+    "start": "16:07",
+    "end": "16:08",
+    "original": "Blutdruck messen GEBMBM",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-25T21:11:25",
+    "start": "16:07",
+    "end": "16:10",
+    "original": "Blutdruck messen GEBMBM",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-25T21:16:44",
+    "start": "16:27",
+    "end": "16:28",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:18:01",
+    "start": "16:39",
+    "end": "16:41",
+    "original": "div. Surfen INSUSU",
+    "corrected": "div. Surfen (News) INSUNE"
+  },
+  {
+    "ts": "2026-03-25T21:19:10",
+    "start": "16:46",
+    "end": "16:48",
+    "original": "div. Surfen INSUSU",
+    "corrected": "div. Surfen (News) INSUSU"
+  },
+  {
+    "ts": "2026-03-25T21:20:15",
+    "start": "16:48",
+    "end": "16:50",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Amazon Powerbanks FZSUAM"
+  },
+  {
+    "ts": "2026-03-25T21:20:41",
+    "start": "16:50",
+    "end": "16:51",
+    "original": "Dateiverwaltung (Explorer)",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:25:28",
+    "start": "16:53",
+    "end": "16:54",
+    "original": "Anhören Thinking Frequencies (Live365) RAAFKO",
+    "corrected": "Analyse Thinking Frequencies RWMPMP"
+  },
+  {
+    "ts": "2026-03-25T21:26:13",
+    "start": "16:58",
+    "end": "17:06",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:54:07",
+    "start": "17:06",
+    "end": "17:12",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:55:25",
+    "start": "17:19",
+    "end": "17:21",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:55:56",
+    "start": "17:19",
+    "end": "17:24",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:58:35",
+    "start": "17:34",
+    "end": "17:37",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T21:59:25",
+    "start": "17:39",
+    "end": "17:43",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:00:06",
+    "start": "17:39",
+    "end": "17:43",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:00:12",
+    "start": "17:48",
+    "end": "17:54",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:00:37",
+    "start": "17:48",
+    "end": "17:55",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:01:28",
+    "start": "17:56",
+    "end": "18:01",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:01:54",
+    "start": "17:56",
+    "end": "18:04",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:02:47",
+    "start": "18:05",
+    "end": "18:18",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:03:18",
+    "start": "18:18",
+    "end": "18:21",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Fahrtstrecke von Südwestfriedhof heim FZSUFS"
+  },
+  {
+    "ts": "2026-03-25T22:04:44",
+    "start": "18:21",
+    "end": "18:26",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM"
+  },
+  {
+    "ts": "2026-03-25T22:05:05",
+    "start": "18:24",
+    "end": "18:27",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-25T22:07:44",
+    "start": "18:32",
+    "end": "18:36",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM"
+  },
+  {
+    "ts": "2026-03-25T22:09:24",
+    "start": "18:56",
+    "end": "18:58",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:10:46",
+    "start": "19:01",
+    "end": "19:11",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:11:14",
+    "start": "19:01",
+    "end": "19:16",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:11:37",
+    "start": "19:01",
+    "end": "19:23",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:49:03",
+    "start": "19:23",
+    "end": "19:27",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:49:23",
+    "start": "19:23",
+    "end": "19:29",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:50:03",
+    "start": "19:23",
+    "end": "19:38",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:50:33",
+    "start": "19:23",
+    "end": "19:52",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:51:47",
+    "start": "19:57",
+    "end": "19:59",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:52:33",
+    "start": "19:59",
+    "end": "20:00",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-25T22:53:17",
+    "start": "20:00",
+    "end": "20:26",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:54:09",
+    "start": "20:00",
+    "end": "20:42",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T22:55:21",
+    "start": "20:42",
+    "end": "20:43",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Fahrtstrecke vom Südwestfriedhof heim FZFAFS"
+  },
+  {
+    "ts": "2026-03-25T23:01:10",
+    "start": "20:53",
+    "end": "20:54",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-03-25T23:01:45",
+    "start": "20:54",
+    "end": "20:56",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T23:10:44",
+    "start": "21:44",
+    "end": "21:49",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T23:22:04",
+    "start": "23:05",
+    "end": "23:08",
+    "original": "Surfen X RAAFKO",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-25T23:22:38",
+    "start": "23:08",
+    "end": "23:10",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-25T23:23:17",
+    "start": "23:10",
+    "end": "23:13",
+    "original": "Nacherfassung Ablauf KSPLNA",
+    "corrected": "Analyse Andon FM RWPLAF"
+  }
+]

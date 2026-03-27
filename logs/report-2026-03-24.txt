@@ -1,0 +1,132 @@
+=================================================================
+  TAGESBERICHT — 2026-03-24
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      129
+  Geplante Gesamtzeit:         16h 45m
+
+  ✓ Erledigt (geplant):       81  (    8h 47m)  = 52.4%
+  ⏭ Übersprungen:              9  (    1h 02m)  = 6.2%
+  ✗ Nicht erreicht:           39  (    6h 56m)  = 41.4%
+
+  📝 Ungeplante Aktivitäten:  18  (    1h 28m)
+  ⏱  Tatsächliche Arbeitszeit:    15h 36m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Bearb. Essensplan (gegessen, zu ess   10:24     22:21 +11h 57m
+  Mund spülen / Teller waschen / Getr   09:45     21:37 +11h 52m
+  Anhören Radiosender / Tonträger / A   11:07     22:19 +11h 12m
+  Anhören Radiosender / Tonträger / A   12:00     22:19 +10h 19m
+  WC LEMTWC                             18:52     08:39 -10h 13m
+  Bearb.Ohrwürmer (Nachfassen aus alt   10:44     19:26  +8h 42m
+  Bearb. Essensplan (Kontrolle / zu e   10:18     18:56  +8h 38m
+  Bearb. Liste Scooterfahrten FZSCLI    10:54     19:31  +8h 37m
+  Bearbeitung Aufgaben zu Papa's Pfle   11:15     19:49  +8h 34m
+  Ermittlung Gesamtzeiten (wenn nicht   10:35     19:03  +8h 28m
+  Termine in Kalender prüfen LEMTTP     08:33     16:59  +8h 26m
+  Mailprüfung INMAPR                    08:34     17:00  +8h 26m
+  Bearb. Essensplan (Kontrolle / zu e   10:31     18:56  +8h 25m
+  Anhören Radiosender / Tonträger / A   14:35     22:19  +7h 44m
+  Anhören Radiosender / Tonträger / A   14:37     22:19  +7h 42m
+  ... und 66 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Einlass / Koordination / Zahlung / Verabschie
+    Grund: entfällt heute wg. Mittagessen bei Pizzeria da Contessa mit E. Strake
+  ⏭ PC herunterfahren PCHFHF
+    Grund: wurde nicht heruntergefahren wg. RW-KI-Programm
+  ⏭ Laufen / Scootersuche GEGYLS
+    Grund: ausgefallen wg. Mittagessen bei Pizzeria da Contessa
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts einzukaufen, nur Geld wechseln mit E.+H. Strake
+  ⏭ Ausmachen Arzttermine GEMRNA
+    Grund: ist im Moment nicht nötig, zu dieser Zeit auch nicht möglich
+  ⏭ Jause fassen LEMTJF
+    Grund: an dieser Stelle unnötig
+  ⏭ Teller waschen / Getränk fassen LEMTTW
+    Grund: ergibt an dieser Stelle keinen Sinn mehr
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: wurde gestrichen (unrentabel)
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: gestrichen (unrentabel)
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 09:10–09:17  Telefonat mit Friedhofsgärtnerei VEFBAD  — Termin für morgen 11:00 beim Grab Südwestfriedhof wg. Grabbetreuung
+  📝 09:38–09:41  Anruf E. Strake Mittagessen Pizzeria LEP  — heute 12:30 Treffen, dann Pizzeria Da Contessa
+  📝 09:45–09:47  Rückmeldung E. Strake Mittagessen Pizzer  — heute 12:30 Treffen, dann Pizzeria Da Contessa
+  📝 09:55–09:57  Anhören RW-Prg. mit Sati Ersoy RWMPSE
+  📝 10:07–10:20  Papiersortierung WFPAPA
+  📝 10:31–10:38  Jause fassen LEMTJF  — Doppelkeks (Reihenfolge vertauscht, hier hätte Hustenbonbon kommen sollen)
+  📝 11:59–12:05  Getränk fassen LEMTJF  — Holundersaft zuckerfrei (in weißem Becher, ausgeschüttet)
+  📝 12:18–12:22  WC LEMTWC
+  📝 12:36–12:37  Anruf E. Strake Mittagessen Pizzeria LEP
+  📝 16:02–16:06  WC LEMTWC
+  📝 16:06–16:08  Getränk fassen LEMTJF
+  📝 17:04–17:16  Bearb. Essensplan (neuer Plan) LEEPNP
+  📝 18:07–18:08  Bearb. Essensplan (gegessen / Lokalsuche
+  📝 18:52–18:56  WC LEMTWC
+  📝 19:27–19:31  Untersuchung DJ Break Grok'n Roll RAAFAN
+  📝 19:46–19:49  Nacherfassung Ablauf KSPLNA
+  📝 21:11–21:12  Ansehen Youtube-Videos RAYTYT
+  📝 22:01–22:13  Bearb. Geldbörse FIBGGB
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 11:25  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 11:35  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 11:41  Bearbeitung Buch Champion's Mindset GELI  (11m)
+  ✗ 11:52  Führung Tagebuch, um schmerzhafte Situat  (7m)
+  ✗ 14:45  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 14:50  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 14:59  Bearb. Ohrwürmer (Nachfassen aus alten C  (1m)
+  ✗ 15:08  Bearb. Ohrwürmer (Nachfassen aus alten C  (9m)
+  ✗ 15:17  Führung Tagebuch, um schmerzhafte Situat  (3m)
+  ✗ 15:20  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 15:29  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 15:38  Bearbeitung Börsenkurse / Aktienhandel F  (10m)
+  ✗ 15:48  Spielen Kreuzungs-FGPA CSEXKF  (10m)
+  ✗ 15:58  Bearb. Essensplan (Nährwerte) LEEPGE  (2m)
+  ✗ 16:12  Bearb. Essensplan (Nährwerte) LEEPGE (Fs  (9m)
+  ✗ 16:21  Erstellung Playback mit Vocal Remover KA  (3m)
+  ✗ 16:28  Erstellung Playback mit Vocal Remover KA  (2m)
+  ✗ 16:30  Aufräumen WFARAR  (11m)
+  ✗ 16:41  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 16:50  Wäsche aus Waschmaschine nehmen LEWAWA  (9m)
+  ✗ 16:59  Analyse Disassembly Astro Bomber CSGAUM  (1m)
+  ✗ 17:08  Analyse Disassembly Astro Bomber CSGAUM   (9m)
+  ✗ 17:17  Aufwandserfassung und Abrechnung Kontens  (43m)
+  ✗ 18:08  Aufwandserfassung und Abrechnung Kontens  (25m)
+  ✗ 18:33  Korrektur The Grindy Adventure CSGAUM  (10m)
+  ✗ 18:43  Papiersortierung (gelesene Werbeprospekt  (9m)
+  ✗ 19:01  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 19:06  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 19:11  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 19:21  Papiersortierung PAA1SU  (22m)
+  ✗ 19:43  Analyse Disassembly Tour de France CSGAU  (10m)
+  ✗ 19:53  Papiersortierung PAA1SU (Fs.)  (7m)
+  ✗ 20:03  Papiersortierung PAA1SU (Fs.)  (20m)
+  ✗ 20:26  Papiersortierung PAA1SU (Fs.)  (11m)
+  ✗ 20:37  Dokumentation Finanzanlagen / -kozept FI  (16m)
+  ✗ 20:53  Spielen State of Survival CSGAUM  (10m)
+  ✗ 21:03  Dokumentation Finanzanlagen / -kozept FI  (44m)
+  ✗ 21:55  Update Personenliste aus Rücklauf von Ei  (5m)
+  ✗ 22:03  Spielen Forge of Empires CSGAUM  (10m)
+
+=================================================================

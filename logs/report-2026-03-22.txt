@@ -1,0 +1,92 @@
+=================================================================
+  TAGESBERICHT — 2026-03-22
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      115
+  Geplante Gesamtzeit:         15h 59m
+
+  ✓ Erledigt (geplant):       97  (   13h 06m)  = 82.0%
+  ⏭ Übersprungen:              9  (       59m)  = 6.2%
+  ✗ Nicht erreicht:            9  (    1h 54m)  = 11.9%
+
+  📝 Ungeplante Aktivitäten:  10  (    1h 14m)
+  ⏱  Tatsächliche Arbeitszeit:    16h 28m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Bearb.Ohrwürmer (durchgenommen) MUO   15:49     07:09  -8h 40m
+  Wohnung lüften WFLULU                 16:04     07:40  -8h 24m
+  Anhören Radiosender / Tonträger / A   22:34     15:28  -7h 06m
+  Bearb. Ohrwürmer (durchzunehmende)    14:43     07:43  -7h 00m
+  PC herunterfahren PCHFHF              14:48     07:51  -6h 57m
+  Anhören RW-Prg. / Tonträger / Radio   16:44     10:17  -6h 27m
+  Bearb. Geldbörse FIBGGB               21:44     15:30  -6h 14m
+  Anhören Radiosender / Tonträger / A   21:00     15:28  -5h 32m
+  Prüfung Bewässerung Terrasse WFTEBE   10:52     15:01  +4h 09m
+  Bearb.Ohrwürmer (durchgenommen) MUO   10:57     07:09  -3h 48m
+  Anhören Radiosender / Tonträger / A   19:00     15:28  -3h 32m
+  WC LEMTWC                             10:44     07:22  -3h 22m
+  Anhören Radiosender / Tonträger / A   18:00     15:28  -2h 32m
+  Bearb. Essensplan (gegessen, zu ess   09:13     06:43  -2h 30m
+  Teller waschen / Getränk fassen LEN   20:23     18:06  -2h 17m
+  ... und 82 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Nägel schneiden LENSNS
+    Grund: heute nicht nötig
+  ⏭ Versorgung Mitbringsel LEPOPO
+    Grund: nichts mitgebracht
+  ⏭ Bearb.Ohrwürmer (Nachfassen aus alten Charts)
+    Grund: im Moment nicht nötig (noch genug Titel vorhanden)
+  ⏭ Mund spülen / Teller waschen / Getränk fassen
+    Grund: so nicht durchgeführt (zur Jause nur Getränk genommen)
+  ⏭ Bearb.Ohrwürmer (Nachfassen aus alten Charts)
+    Grund: heute nicht mehr nötig (in Liste noch genut Titel vorhanden)
+  ⏭ Bearb. Ohrwürmer (Nachfassen aus alten Charts
+    Grund: für heute schon erledigt
+  ⏭ Übersiedeln (Mitteilung Adresswechsel) WFUZUS
+    Grund: im Moment niemand da, dem er mitzuteilen wäre
+  ⏭ Ansehen ZiB 1 + Wetter RATVZI
+    Grund: wurde schon als Unterbrecher eingesetzt
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:20–06:21  WC LEAZWC
+  📝 08:59–09:02  WC LEMTWC
+  📝 09:24–10:13  Surfen Andon FM RAAFSU  — Analyse Thinking Frequencies Soul / Funk-Block anhand LP Motown 20th Anniversary + AI Arena
+  📝 10:26–10:30  Div. Surfen INSUSU  — GM Volt Battery Warranty
+  📝 11:01–11:05  WC LEMTWC
+  📝 12:58–13:01  Konversation mit Andrew Pappas RAAFKO
+  📝 13:22–13:24  Bearb. Ohrwürmer (durchgenommene) RWOWDU
+  📝 14:58–15:01  Nacherfassung Ablauf KSPLNA
+  📝 19:34–19:35  Ansehen ZiB 1 + Wetter RATVZI
+  📝 21:27–21:31  Teller waschen / Getränk fassen LENATW
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 19:19  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 19:32  Erstellung Playback mit Vocal Remover KA  (5m)
+  ✗ 19:37  Aufräumen WFARAR  (11m)
+  ✗ 19:48  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 19:57  Aufwandserfassung und Abrechnung Kontens  (3m)
+  ✗ 20:18  Aufwandserfassung und Abrechnung Kontens  (5m)
+  ✗ 20:26  Aufwandserfassung und Abrechnung Kontens  (34m)
+  ✗ 21:08  Aufwandserfassung und Abrechnung Kontens  (26m)
+  ✗ 21:34  Analyse Disassembly Astro Bomber CSGAUM  (10m)
+
+=================================================================

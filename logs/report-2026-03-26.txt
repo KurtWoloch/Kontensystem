@@ -1,0 +1,154 @@
+=================================================================
+  TAGESBERICHT — 2026-03-26
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      122
+  Geplante Gesamtzeit:         15h 35m
+
+  ✓ Erledigt (geplant):       61  (    7h 19m)  = 47.0%
+  ⏭ Übersprungen:              9  (    1h 35m)  = 10.2%
+  ✗ Nicht erreicht:           52  (    6h 41m)  = 42.9%
+
+  📝 Ungeplante Aktivitäten:  33  (    1h 43m)
+  ⏱  Tatsächliche Arbeitszeit:    14h 13m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  WC LEMTWC                             21:22     11:25  -9h 57m
+  Termine in Kalender prüfen LEMTTP     10:11     18:44  +8h 33m
+  Mailprüfung INMAPR                    10:12     18:06  +7h 54m
+  Anhören RW-Prg. / Tonträger / Radio   09:59     17:06  +7h 07m
+  Mund spülen / Teller waschen / Getr   11:39     18:41  +7h 02m
+  Anhören RW-Prg. / Tonträger / Radio   10:06     17:06  +7h 00m
+  Blutdruck messen GEBMBM               11:05     16:45  +5h 40m
+  Mund spülen LEMTMS                    10:02     15:22  +5h 20m
+  Häferl waschen / Hustenbonbon fasse   10:04     15:24  +5h 20m
+  Zähne putzen GEMTZP                   10:26     15:43  +5h 17m
+  Teller waschen / Getränk fassen LEN   20:23     17:03  -3h 20m
+  Bearb. Essensplan (gegessen, zu ess   08:02     11:20  +3h 18m
+  Reinigung Waschmuschel LEMTRW         08:44     11:59  +3h 15m
+  Starten Youtube-Playlist MUOWSP       08:45     12:00  +3h 15m
+  Abwiegen LEMTAW                       08:43     11:56  +3h 13m
+  ... und 46 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Vorbereitung Playlist für Singen unter der Du
+    Grund: Fortsetzung dieser Aktivität noch undokumentiert
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: wurde gestrichen (unrentabel)
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft
+  ⏭ Dokumentation Ohrwurm-Projekt RWOWDO
+    Grund: geht sich heute nicht mehr aus
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: wurde wegen Unrentabilität aufgegeben
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: wurde wegen Unrentabilität eingestellt
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 07:23–07:25  Aufstehen, Update + Neustart OpenClaw Ga  — inkl. PC
+  📝 07:55–07:56  Analyse Thinking Frequencies Song-Taggin
+  📝 09:34–09:35  Start Live365-Scraper
+  📝 09:39–09:40  Analyse Thinking Frequencies Song-Taggin
+  📝 11:27–11:30  Konversation Andon FM / Thinking Frequen  — Tweet "Kill Bill" an Thinking Frequencies
+  📝 12:24–12:29  Test Powerbank / Lichterkette zum Laden 
+  📝 12:32–12:34  Test Powerbank / Lichterkette zum Laden 
+  📝 12:34–12:39  Vorbereitung Mittagessen
+  📝 14:35–14:36  Test Powerbank / Lichterkette zum Laden 
+  📝 14:52–14:53  Test Powerbank / Lichterkette zum Laden   — Nachsurfen Wirkungsgrad Handyladung mit Powerbank
+  📝 17:08–17:23  Lesen Sozialbau gemeinschaftliche Photov
+  📝 17:23–17:33  Anmeldung Sozialbau gemeinschaftliche Ph  — inkl. Suche Jahresabrechnung
+  📝 17:34–17:39  Anmeldung Sozialbau gemeinschaftliche Ph  — inkl. Suche Jahresabrechnung
+  📝 17:42–17:44  Anmeldung Sozialbau gemeinschaftliche Ph  — inkl. Suche Jahresabrechnung
+  📝 17:47–17:52  Anmeldung Sozialbau gemeinschaftliche Ph  — inkl. Suche Jahresabrechnung
+  📝 17:55–17:56  Anmeldung Sozialbau gemeinschaftliche Ph  — inkl. Suche Jahresabrechnung
+  📝 18:03–18:05  Anmeldung Sozialbau gemeinschaftliche Ph  — Mail an Sozialbau
+  📝 18:22–18:24  Anmeldung Sozialbau gemeinschaftliche Ph  — Mail an Sozialbau
+  📝 18:25–18:29  Anmeldung Sozialbau gemeinschaftliche Ph  — Mail an Sozialbau
+  📝 18:31–18:32  Anmeldung Sozialbau gemeinschaftliche Ph  — Mail an Sozialbau
+  📝 18:36–18:37  Anmeldung Sozialbau gemeinschaftliche Ph  — Mail an Sozialbau
+  📝 19:32–19:34  Begutachtung Angebote Bepflanzung Friedh
+  📝 19:36–19:42  Begutachtung Angebote Bepflanzung Friedh
+  📝 19:43–19:46  Begutachtung Angebote Bepflanzung Friedh
+  📝 19:49–19:51  Begutachtung Angebote Bepflanzung Friedh
+  📝 19:52–19:55  Begutachtung Angebote Bepflanzung Friedh
+  📝 19:56–19:59  Begutachtung Angebote Bepflanzung Friedh
+  📝 20:02–20:04  Begutachtung Angebote Bepflanzung Friedh  — inkl. Annahme des Angebotes
+  📝 20:06–20:08  Begutachtung Angebote Bepflanzung Friedh  — inkl. Annahme des Angebotes
+  📝 20:10–20:13  Begutachtung Angebote Bepflanzung Friedh  — inkl. Annahme des Angebotes
+  📝 20:15–20:19  Begutachtung Angebote Bepflanzung Friedh  — inkl. Annahme des Angebotes
+  📝 20:37–20:38  WC LEMTWC
+  📝 21:00–21:02  Teller waschen / Getränk fassen LENATW  — Holundersaft zuckerfrei
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 11:55  Prüfung Bewässerung Terrasse WFTEBE  (5m)
+  ✗ 12:00  Bearb. Essensplan (Kontrolle / zu essen   (10m)
+  ✗ 12:10  Bearb. Liste auswendig singbarer Titel M  (5m)
+  ✗ 12:15  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (3m)
+  ✗ 12:18  Bearb. Essensplan (gegessen, zu essen) L  (4m)
+  ✗ 12:22  Jause fassen LEMTJF  (3m)
+  ✗ 12:25  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (4m)
+  ✗ 14:30  Geschirr abwaschen LEMEGA  (5m)
+  ✗ 14:41  Teller waschen / Getränk fassen LEMTTW  (3m)
+  ✗ 15:46  Bearb. Essensplan (Update Händlerangebot  (11m)
+  ✗ 15:57  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (3m)
+  ✗ 16:04  Bearb. Liste Scooterfahrten FZSCLI  (9m)
+  ✗ 16:21  Ausmachen Arzttermine GEMRNA  (3m)
+  ✗ 16:28  Ausmachen Arzttermine GEMRNA (Fs.)  (1m)
+  ✗ 16:29  Bearb. Essensplan (Protokoll) LEEPPR  (8m)
+  ✗ 16:37  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
+  ✗ 16:47  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 16:57  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 17:03  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 17:11  Bearb. Essensplan (Eintragen Protokoll)   (5m)
+  ✗ 17:16  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 17:21  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 17:30  Bearbeitung Buch Champion's Mindset GELI  (11m)
+  ✗ 17:41  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 17:51  Führung Tagebuch, um schmerzhafte Situat  (9m)
+  ✗ 18:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 18:08  Führung Tagebuch, um schmerzhafte Situat  (1m)
+  ✗ 18:09  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 18:18  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 18:27  Bearbeitung Börsenkurse / Aktienhandel F  (10m)
+  ✗ 18:37  Spielen Kreuzungs-FGPA CSEXKF  (10m)
+  ✗ 18:47  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 18:58  Erstellung Playback mit Vocal Remover KA  (2m)
+  ✗ 19:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 19:08  Erstellung Playback mit Vocal Remover KA  (3m)
+  ✗ 19:11  Aufräumen WFARAR  (11m)
+  ✗ 19:22  Papiersortierung (Altpapier)(10' +) WFPA  (8m)
+  ✗ 19:32  Papiersortierung (Altpapier)(10' +) WFPA  (1m)
+  ✗ 19:33  Aufwandserfassung und Abrechnung Kontens  (27m)
+  ✗ 20:03  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:11  Aufwandserfassung und Abrechnung Kontens  (12m)
+  ✗ 20:26  Aufwandserfassung und Abrechnung Kontens  (29m)
+  ✗ 20:55  Analyse Disassembly Astro Bomber CSGAUM  (5m)
+  ✗ 21:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:08  Analyse Disassembly Astro Bomber CSGAUM   (5m)
+  ✗ 21:13  Papiersortierung (gelesene Werbeprospekt  (9m)
+  ✗ 21:31  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 21:36  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 21:41  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 21:51  Papiersortierung PAA1SU  (9m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Korrektur The Grindy Adventure CSGAUM  (10m)
+
+=================================================================

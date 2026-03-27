@@ -131,5 +131,54 @@
     "end": "15:43",
     "original": "Erfassung Ablauf KSPLEA",
     "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-21T17:21:37",
+    "start": "16:01",
+    "end": "16:02",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-21T17:22:34",
+    "start": "16:07",
+    "end": "16:10",
+    "original": "Bearb. Ohrwürmer-Listen",
+    "corrected": "Dokumentation Ohrwurm-Projekt RWOWDO"
+  },
+  {
+    "ts": "2026-03-21T17:23:03",
+    "start": "16:10",
+    "end": "16:28",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Weitere Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-21T17:23:37",
+    "start": "16:10",
+    "end": "16:45",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Weitere Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-21T17:24:02",
+    "start": "16:51",
+    "end": "16:55",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Weitere Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-21T17:25:34",
+    "start": "17:18",
+    "end": "17:25",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-21T18:42:38",
+    "start": "18:39",
+    "end": "18:41",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
   }
 ]
