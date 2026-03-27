@@ -324,12 +324,20 @@ def greedy_placement(netlist: Netlist, rows: int, cols: int) -> Placement:
             occupied.add(pool[idx])
             idx += 1
 
-    # I/O consumers near top
-    place_group(io_consumers, 1, cols // 2)
-    # Output gates near bottom-right
-    place_group(out_gates, rows - 2, cols - 2)
-    # Remaining gates center-outward
-    place_group(rest, rows // 2, cols // 2)
+    # Calculate compact cluster size based on gate count, not grid size.
+    # This ensures gates stay close together even on large grids.
+    import math
+    n_gates = len(netlist.gates)
+    cluster_side = int(math.ceil(math.sqrt(n_gates))) + 2  # e.g. 82 → ~12
+    cluster_center_r = min(cluster_side // 2 + 1, rows // 2)  # near top, close to I/O
+    cluster_center_c = min(cluster_side // 2, cols // 2)
+
+    # I/O consumers near top (close to chip inputs)
+    place_group(io_consumers, 1, cluster_center_c)
+    # Output gates slightly below center of cluster
+    place_group(out_gates, cluster_center_r + cluster_side // 3, cluster_center_c)
+    # Remaining gates: center of cluster, outward
+    place_group(rest, cluster_center_r, cluster_center_c)
 
     p = Placement(
         grid_rows=rows,
