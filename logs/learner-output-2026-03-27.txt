@@ -1,0 +1,317 @@
+======================================================================
+  WINDOW TITLE LEARNER
+  Dates: 2026-03-10 → 2026-03-27  (18 days)
+======================================================================
+
+  Days processed: 18  |  Days with data: 18
+  Window events:  37620  |  Matched to activity: 36307
+  Match rate:     96.5%
+  Unique (process, title) pairs: 4103
+
+======================================================================
+  1. HOCHKONFIDENTE MAPPINGS  (>= 80% Confidence, >= 300s Gesamtdauer)
+======================================================================
+
+[ 154m] WINWORD.EXE: "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8.doc - Microsoft Word"
+        → Dokumentation Ohrwurm-Projekt RWOWDO               ( 98.8%, 152m)
+        → Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS (  0.4%,   1m)
+        → Anruf E. Strake Mittagessen Pizzeria LEPLST        (  0.3%,   1m)
+        → Ansehen Fahrzeugvideos FZVIYT                      (  0.1%,   0m)
+        → div. Surfen INSUSU                                 (  0.1%,   0m)
+        → Analyse Grok'n Roll RWPLAF                         (  0.1%,   0m)
+        → Anmeldung Sozialbau gemeinschaftliche Photovoltaikanlage WFSBAD (  0.1%,   0m)
+        → Nacherfassung Ablauf KSPLNA                        (  0.0%,   0m)
+        → Untersuchung Rotation Andon FM RAAFAN              (  0.0%,   0m)
+
+[ 116m] python.exe: "Vorschlag bearbeiten"
+        → Nacherfassung Ablauf KSPLNA                        ( 83.0%,  96m)
+        → Erfassung Ablauf KSPLEA                            (  4.7%,   5m)
+        → Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP (  0.9%,   1m)
+        → Nacherfassung Ablauf (nach Stromausfall wg. Mikrowelle) KWPLNA (  0.9%,   1m)
+        → Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP (  0.9%,   1m)
+        → Diskussion Tagesplanung mit OpenClaw KSPLEN        (  0.9%,   1m)
+        → Bearb. Essensplan (gegessen / Lokalsuche / Konsumation) LEEPLS (  0.8%,   1m)
+        → Diskussion Tagesplaner mit OpenClaw KSPLEN         (  0.7%,   1m)
+        → Bett machen LEAZHW                                 (  0.7%,   1m)
+        → Diskussion Vortag mit OpenClaw KSPLAW              (  0.5%,   1m)
+        → Ansehen YouTube-Videos RAYTYT                      (  0.5%,   1m)
+        → Diskussion OpenClaw KSPLEN                         (  0.4%,   1m)
+        → PC herunterfahren LEAZHF                           (  0.4%,   0m)
+        → PC herunterfahren PCHFHF                           (  0.4%,   0m)
+        → Diskussion OpenClaw                                (  0.4%,   0m)
+        → Diskussion Planer mit OpenClaw KSPLEN              (  0.4%,   0m)
+        → Anhören RW-Prg. mit Sati Ersoy RWMPSE              (  0.3%,   0m)
+        → Versorgung Mitbringsel LEPOPO                      (  0.3%,   0m)
+        → Mund spülen LEMTMS                                 (  0.3%,   0m)
+        → PC herunterfahren PCHFHF (Fs.)                     (  0.2%,   0m)
+        → Planer-Bedienung (Dialog)                          (  0.2%,   0m)
+        → Wasser fassen                                      (  0.2%,   0m)
+        → Nachmittagsjause fassen LENAJA                     (  0.2%,   0m)
+        → Starten Radio-Würmchen-Programm RWMPSP             (  0.2%,   0m)
+        → Analyse Thinking Frequencies Song-Tagging RWMPMP   (  0.2%,   0m)
+        → Verbesserung Tagesplaner mit OpenClaw KSPLAW       (  0.1%,   0m)
+        → Diskussion Planner mit OpenClaw KSPLPL             (  0.1%,   0m)
+        → Vorbereitung Playlist für Hören beim Frühstück RWYTPL (  0.1%,   0m)
+        → Feinschliff bei der Rasur LEMTFR                   (  0.1%,   0m)
+        → Vorbereitung Zähne putzen LEAZVZ                   (  0.1%,   0m)
+        → Bearb.Ohrwürmer (durchgenommen) MUOWDU             (  0.1%,   0m)
+        → Aussuchen Radiosender -> Ansehen Youtube RAYTYT    (  0.1%,   0m)
+        → Ausputzen Rasierer LEMTAR                          (  0.1%,   0m)
+        → Der Außentemperatur entsprechend anziehen LEAUAZ   (  0.1%,   0m)
+        → Diskussion Redesign Nacherfassung mit OpenClaw KSPLEN (  0.1%,   0m)
+        → WC LEMTWC                                          (  0.1%,   0m)
+        → vor PC eingeschlafen LESCPC                        (  0.1%,   0m)
+        → Arbeit an Tagesplaner mit OpenClaw KSPLEN          (  0.1%,   0m)
+        → WC LENJWC                                          (  0.0%,   0m)
+        → Diskussion Planung / Mikrowelle mit OpenClaw KSPLAW (  0.0%,   0m)
+        → Soja-Drink fassen LEMEGA                           (  0.0%,   0m)
+        → Bearb.Ohrwürmer (Nachfassen aus alten Charts) RWOWTT (  0.0%,   0m)
+        → Fahrt mit E-Quad FZFACT                            (  0.0%,   0m)
+        → Analyse Andon FM RWPLAF                            (  0.0%,   0m)
+        → Termine in Kalender prüfen LEMTTP                  (  0.0%,   0m)
+        → Tweet an OpenAIR RWMPAR                            (  0.0%,   0m)
+        → Teller waschen / Wasser + Medikament fassen LENATW (  0.0%,   0m)
+        → Duschen LEMTDU                                     (  0.0%,   0m)
+        → Dokumentation Ohrwurm-Projekt RWOWDO               (  0.0%,   0m)
+        → Ansehen Youtube-Videos RAYTYT                      (  0.0%,   0m)
+        → Teller waschen / Getränk fassen LENATW             (  0.0%,   0m)
+
+[ 109m] python.exe: "Tagesplanung — Reaktiver Planer — Der Außentemperatur entsprechend anziehen LEAUAZ"
+        → Der Außentemperatur entsprechend anziehen LEAUAZ   ( 81.8%,  89m)
+        → Laufen / Scootersuche GEGYLS                       ( 13.8%,  15m)
+        → Diskussion mit OpenClaw über Tagesplaner KSPLPL    (  1.6%,   2m)
+        → Nacherfassung Ablauf KSPLNA                        (  1.1%,   1m)
+        → Ansehen Youtube-Videos RAYTYT                      (  0.7%,   1m)
+        → WC LEMTWC                                          (  0.3%,   0m)
+        → Heimfahrt mit WienMobil E-Bike FZFAEB              (  0.2%,   0m)
+        → Auspacken Essensplan LEEPAU                        (  0.2%,   0m)
+        → Diskussion OpenClaw (Mängel in Planer) KSPLEN      (  0.1%,   0m)
+        → Teller waschen / Getränk + Medikament fassen LENATW (  0.1%,   0m)
+        → Surfen X                                           (  0.0%,   0m)
+        → Medikament fassen GEMEFA                           (  0.0%,   0m)
+
+[  90m] python.exe: "Aufgabe erledigt — Mittagessen (Pizzeria da Contessa mit E. Strake) LEMEPC"
+        → Mittagessen (Pizzeria da Contessa mit E. Strake) LEMEPC ( 99.9%,  90m)
+        → Nacherfassung Ablauf KSPLNA                        (  0.1%,   0m)
+        → div. Surfen INSUSU                                 (  0.0%,   0m)
+
+[  74m] python.exe: "Tagesplanung — Off-PC — Mittagessen (externes Lokal) LEMEEX"
+        → Mittagessen (externes Lokal) LEMEEX                (100.0%,  74m)
+
+[  70m] msedge.exe: "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge"
+        → Diskussion mit OpenClaw über Tagesplaner KSPLPL    ( 92.0%,  65m)
+        → Diskussion Planungsfehler mit OpenClaw KSPLEN      (  8.0%,   6m)
+        → div. Surfen (Take five ursprüngliche Takes) INSUSU (  0.0%,   0m)
+        → Nacherfassung Ablauf KSPLNA                        (  0.0%,   0m)
+
+[  67m] python.exe: "Tagesplanung — Reaktiver Planer — Besuch Schwimmbad GEGYSB"
+        → Besuch Schwimmbad GEGYSB                           ( 99.6%,  66m)
+        → Nacherfassung Ablauf KSPLNA                        (  0.4%,   0m)
+
+[  60m] python.exe: "Vorgezogene Aktivität erfassen — Liste_Schwimmbad — Besuch Schwimmbad GEGYSB"
+        → Besuch Schwimmbad GEGYSB                           ( 92.7%,  56m)
+        → WC LEMTWC                                          (  7.3%,   4m)
+
+[  59m] python.exe: "Tagesplanung — Reaktiver Planer — Duschen LEMTDU"
+        → Duschen LEMTDU                                     ( 98.9%,  58m)
+        → Bett machen LEMTBM                                 (  0.5%,   0m)
+        → Einschmieren GEMTES                                (  0.4%,   0m)
+        → Anziehen LEMTAN                                    (  0.2%,   0m)
+
+[  57m] python.exe: "Tagesplanung — Off-PC — Besuch Schwimmbad GEGYSB"
+        → Besuch Schwimmbad GEGYSB                           (100.0%,  57m)
+
+[  49m] python.exe: "Tagesplanung — Off-PC — Duschen LEMTDU"
+        → Duschen LEMTDU                                     ( 90.4%,  44m)
+        → Einschmieren GEMTES                                (  9.6%,   5m)
+
+[  47m] notepad.exe: "*Versuch Powerbank Lichterkette zum Laden von iPhone.txt - Editor"
+        → Mittagessen (selbst kochen / kalt)                 ( 89.3%,  42m)
+        → Test Powerbank / Lichterkette zum Laden von iPhone (  8.3%,   4m)
+        → Vorbereitung Mittagessen                           (  1.7%,   1m)
+        → Nacherfassung Ablauf KSPLNA                        (  0.6%,   0m)
+        → PC herunterfahren PCHFHF                           (  0.1%,   0m)
+
+[  46m] WINWORD.EXE: "Überlegungen zu Erbschaft Patientenverfügung und Vorsorgevollmacht.doc - Microsoft Word"
+        → Kommunikation mit Judith (Abrechnung Renovierung) / Überlegungen Vorsorgevollmacht + Patientenverfügung PAWFAF ( 99.0%,  46m)
+        → Teller waschen / Getränk fassen LENATW             (  0.6%,   0m)
+        → WC LEMTWC                                          (  0.4%,   0m)
+
+[  45m] python.exe: "Tagesplanung — Reaktiver Planer — Zähne putzen GEMTZP"
+        → Zähne putzen GEMTZP                                ( 87.5%,  39m)
+        → Erfassung Ablauf KSPLEA                            (  6.1%,   3m)
+        → Weitere Planer-Entwicklung mit OpenClaw KSPLEN     (  1.9%,   1m)
+        → Blutdruck messen GEBMBM                            (  1.6%,   1m)
+        → Nacherfassung Ablauf KSPLNA                        (  1.4%,   1m)
+        → Einschmieren GEMTES                                (  0.8%,   0m)
+        → Vorbereitung Neukauf Mikrowelle WFLEKA             (  0.6%,   0m)
+        → Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-Stick RWMPEP (  0.1%,   0m)
+
+[  44m] msedge.exe: "AI Generated DJ Break und 13 weitere Seiten - Persönlich – Microsoft​ Edge"
+        → Diskussion mit ChatGPT über Grok'n Roll RAAFDI     (100.0%,  44m)
+
+[  44m] python.exe: "Nacherfassung aus windowmon - 2026-03-26"
+        → Nacherfassung Ablauf KSPLNA                        ( 94.1%,  41m)
+        → Mund spülen LEMTMS                                 (  2.5%,   1m)
+        → Analyse Thinking Frequencies Song-Tagging RWMPMP   (  2.3%,   1m)
+        → Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP (  0.6%,   0m)
+        → Diskussion mit OpenClaw über Analyse Thinking Frequencies RAAFDI (  0.3%,   0m)
+        → Vorbereitung Zähne putzen LEAZVZ                   (  0.1%,   0m)
+        → Prüfung auf mögliche Wünsche für Thinking Frequencies RAAFAN (  0.0%,   0m)
+
+[  44m] python.exe: "Tagesplanung — Off-PC — Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFS"
+        → Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFS ( 99.7%,  44m)
+        → Bearb. Essensplan (Vorschläge Strake) LEEPVO       (  0.3%,   0m)
+
+[  43m] python.exe: "Nacherfassung aus windowmon - 2026-03-16"
+        → Nacherfassung Ablauf KSPLNA                        ( 87.5%,  38m)
+        → Diskussion Tagesplanung mit OpenClaw KSPLEN        ( 11.9%,   5m)
+        → Einpacken Musik für Fahrt inkl. Player + Akkus RWRUEP (  0.4%,   0m)
+        → Feinschliff bei der Rasur LEMTFR                   (  0.2%,   0m)
+        → Vorbereitung Zähne putzen LEAZVZ                   (  0.1%,   0m)
+
+[  42m] Window logger.exe: "GE - Besuch Schwimmbad: C:\Program Files\Python311\python.exe"
+        → Besuch Schwimmbad GEGYSB                           (100.0%,  42m)
+
+[  41m] python.exe: "Tagesplanung — Off-PC — Anwendung der Zwischenraumzahnbürste LEAZZZ"
+        → Anwendung der Zwischenraumzahnbürste LEAZZZ        ( 84.6%,  35m)
+        → Anwendung Zahnseide LEAZZS                         ( 13.4%,   6m)
+        → Bett machen LEAZHW                                 (  2.0%,   1m)
+
+[  39m] notepad.exe: "Protokoll und Kalkulation Mohnnudeln.txt - Editor"
+        → Schadensaufnahme Mikrowellenherd / Stromausfall WFLEMH ( 98.4%,  39m)
+        → Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS (  1.6%,   1m)
+
+[  37m] EXCEL.EXE: "Microsoft Excel - Protokoll Geldbörse ab 19.12.2022.xls"
+        → Bearb. Geldbörse FIBGGB                            ( 87.4%,  32m)
+        → Bearb. Geldbörse FIBGGB (Fs.)                      (  8.1%,   3m)
+        → Surfen Andon FM RAAFSU                             (  1.9%,   1m)
+        → Bearb. Essensplan (Eintragen Protokoll) LEEPEP     (  1.0%,   0m)
+        → Surfen Project Genie INSUSU                        (  0.5%,   0m)
+        → Bearb. Essensplan (Update Händlerangebote) LEEPUH  (  0.4%,   0m)
+        → PC herunterfahren LEAZHF                           (  0.3%,   0m)
+        → Bearb. Essensplan (Protokoll) LEEPPR               (  0.3%,   0m)
+        → Papiersortierung (hereingekommene Papiere) WFPAEK  (  0.0%,   0m)
+        → Bearbeitung Börsenkurse / Aktienhandel FIAKBK      (  0.0%,   0m)
+
+[  34m] python.exe: "Nacherfassung aus windowmon - 2026-03-25"
+        → Nacherfassung Ablauf KSPLNA                        ( 97.2%,  33m)
+        → Analyse Andon FM RWPLAF                            (  1.2%,   0m)
+        → Untersuchung Playlist Andon FM / Thinking Frequencies RAAFAN (  0.6%,   0m)
+        → Wohnung lüften WFLULU                              (  0.3%,   0m)
+        → Nachtmahl fassen LENANA                            (  0.3%,   0m)
+        → Starten Radio-Würmchen-Programm RWMPSP             (  0.2%,   0m)
+        → Duschen LEMTDU                                     (  0.1%,   0m)
+
+[  32m] Window logger.exe: "BR -  Arbeitszeit absolvieren (Nachmittag): Tagesplanung — Off-PC — Arbeitszeit absolvieren (Nachmittag) BREPDZ"
+        → Nacherfassung Ablauf KSPLNA                        (100.0%,  32m)
+
+[  32m] python.exe: "Aufgabe erledigt — Der Außentemperatur entsprechend anziehen LEAUAZ"
+        → Laufen / Scootersuche GEGYLS                       ( 94.6%,  30m)
+        → Nacherfassung Ablauf KSPLNA                        (  3.2%,   1m)
+        → Der Außentemperatur entsprechend anziehen LEAUAZ   (  0.7%,   0m)
+        → Heimfahrt mit Voi-Scooter FZVAVO                   (  0.4%,   0m)
+        → Fahrt E-Bike (WienMobil) FZFAEB                    (  0.4%,   0m)
+        → Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN (  0.3%,   0m)
+        → Surfen X                                           (  0.3%,   0m)
+        → Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE (  0.3%,   0m)
+
+[  31m] python.exe: "Nacherfassung aus windowmon - 2026-03-24"
+        → Nacherfassung Ablauf KSPLNA                        ( 90.8%,  28m)
+        → Ansehen Youtube-Videos RAYTYT                      (  2.3%,   1m)
+        → Dokumentation Ohrwurm-Projekt RWOWDO               (  1.4%,   0m)
+        → Nachtmahl fassen LENANA                            (  1.4%,   0m)
+        → Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP (  1.3%,   0m)
+        → Nachmittagsjause fassen LENAJA                     (  1.3%,   0m)
+        → Mund spülen / Teller waschen / Getränk fassen LEMTTW (  0.7%,   0m)
+        → Fahrt mit E-Quad FZFACT                            (  0.5%,   0m)
+        → Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATATA (  0.2%,   0m)
+        → Teller waschen / Getränk fassen LENATW             (  0.1%,   0m)
+        → Ansehen Fahrzeugvideos FZVIYT                      (  0.0%,   0m)
+
+[  30m] Window logger.exe: "GE - Laufen / Scootersuche: C:\Program Files\Python311\python.exe"
+        → Laufen / E-Bike-Suche GEGYLS                       (100.0%,  30m)
+
+[  29m] EXCEL.EXE: "Microsoft Excel - Liste Fahrten mit E-Scootern.xls"
+        → Bearb. Liste Scooterfahrten FZSCLI                 (100.0%,  29m)
+
+[  28m] python.exe: "Tagesplanung — Reaktiver Planer — Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFS"
+        → Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFS ( 97.8%,  28m)
+        → Erfassung Ablauf KSPLEA                            (  0.6%,   0m)
+        → Nacherfassung Ablauf KSPLNA                        (  0.5%,   0m)
+        → Surfen Andon FM RAAFSU                             (  0.4%,   0m)
+        → Bearb. Ohrwürmer (durchzunehmende) RWOWDN          (  0.2%,   0m)
+        → PLanung KSPLPL                                     (  0.2%,   0m)
+        → Eintragen Verschuldung Sati WFPUVE                 (  0.2%,   0m)
+        → Test Powerbank / Lichterkette zum Laden von iPhone (  0.0%,   0m)
+
+[  28m] msedge.exe: "Home / X und 13 weitere Seiten - Persönlich – Microsoft​ Edge"
+        → Untersuchung nicht gespielte Titel Andon FM RAAFSU ( 82.0%,  23m)
+        → Tweet an OpenAIR RWMPAR                            (  7.5%,   2m)
+        → Konversation mit Andrew Pappas RAAFKO              (  6.7%,   2m)
+        → Diskussion mit ChatGPT über Grok'n Roll RAAFDI     (  1.4%,   0m)
+        → Weitere Planer-Entwicklung mit OpenClaw KSPLEN     (  0.9%,   0m)
+        → Diskussion Tagesplaner mit OpenClaw KSPLEN         (  0.7%,   0m)
+        → Ansehen YouTube-Videos RAYTYT                      (  0.5%,   0m)
+        → PC herunterfahren LEAZHF                           (  0.2%,   0m)
+        → PC herunterfahren PCHFHF                           (  0.1%,   0m)
+
+[  28m] msedge.exe: "X und 14 weitere Seiten - Persönlich – Microsoft​ Edge"
+        → Konversation mit Andrew Pappas RAAFKO              ( 95.1%,  27m)
+        → Konversation Andon FM / Thinking Frequencies RAAFKO (  3.1%,   1m)
+        → Tweet an Grok'n Roll RWMPAR                        (  0.7%,   0m)
+        → Untersuchung Rotation Andon FM / OpenAIR RWPLAF    (  0.4%,   0m)
+        → Diskussion Playlist Andon FM mit OpenClaw RAAFKO   (  0.3%,   0m)
+        → Mail an Axel Wennström (Purchase Agent down) RAAFKO (  0.1%,   0m)
+        → Surfen X (Timeline) INSUXX                         (  0.1%,   0m)
+        → Nacherfassung Ablauf KSPLNA                        (  0.1%,   0m)
+        → Tweet an OpenAIR RWMPAR                            (  0.1%,   0m)
+        → Diskussion mit OpenClaw über Tagesplaner / Pushen Änderungen KSPLPL (  0.1%,   0m)
+        → Weitere Planer-Entwicklung mit OpenClaw KSPLEN     (  0.1%,   0m)
+
+[  26m] msedge.exe: "Arena | Benchmark & Compare the Best AI Models und 8 weitere Seiten - Persönlich – Microsoft​ Edge"
+        → Surfen Andon FM RAAFSU                             ( 88.3%,  23m)
+        → Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR (  7.6%,   2m)
+        → Mail an Bengt (Andon Labs) wg. Buy songs-Fehler RAAFKO (  1.5%,   0m)
+        → Tweet an Thinking Frequencies (Boney M. in Disco/Funk-Sendung) RWMPAR (  1.2%,   0m)
+        → Surfen Chat-GPT Memories INSUSU                    (  1.1%,   0m)
+        → div. Surfen INSUSU                                 (  0.1%,   0m)
+        → Ansehen YouTube-Videos RAYTYT                      (  0.1%,   0m)
+
+[  25m] python.exe: "Aufgabe erledigt — Mittagessen (selbst kochen / kalt)"
+        → Mittagessen (selbst kochen / kalt)                 ( 97.2%,  24m)
+        → Nacherfassung Ablauf KSPLNA                        (  1.4%,   0m)
+        → Bearb. Ohrwürmer (durchgenommene) RWOWDU           (  1.4%,   0m)
+
+[  24m] python.exe: "Tagesplanung — Off-PC — Bearbeitung Buch Champion's Mindset GELICM"
+        → Bearbeitung Buch Champion's Mindset GELICM         ( 99.3%,  24m)
+        → Analyse Grok'n Roll RWPLAF                         (  0.7%,   0m)
+
+[  23m] Window logger.exe: "RW - Bearb. Playlist: idle"
+        → Besuch Schwimmbad GEGYSB                           ( 95.5%,  22m)
+        → Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFS (  2.4%,   1m)
+        → Feinschliff bei der Rasur LEMTFR                   (  0.6%,   0m)
+        → Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR (  0.6%,   0m)
+        → Anziehen LEMTAN                                    (  0.3%,   0m)
+        → Zähne putzen GEMTZP                                (  0.3%,   0m)
+        → Ansehen Youtube-Videos RAYTYT                      (  0.2%,   0m)
+        → Mund spülen LEMTMS                                 (  0.1%,   0m)
+
+[  23m] EXCEL.EXE: "Microsoft Excel - Blutdruckmesswerte.xls"
+        → Blutdruck messen GEBMBM                            ( 94.5%,  22m)
+        → Analyse Thinking Frequencies Song-Tagging RWMPMP   (  2.7%,   1m)
+        → Nacherfassung Ablauf (nach Stromausfall wg. Mikrowelle) KWPLNA (  0.9%,   0m)
+        → Nacherfassung Ablauf KSPLNA                        (  0.4%,   0m)
+        → Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS (  0.4%,   0m)
+        → Konversation mit Andrew Pappas RAAFKO              (  0.3%,   0m)
+        → PC herunterfahren PCHFHF                           (  0.3%,   0m)
+        → Surfen X RAAFKO                                    (  0.2%,   0m)
+        → Untersuchung Rotation Andon FM / OpenAIR RWPLAF    (  0.1%,   0m)
+        → Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP (  0.1%,   0m)
+
+[  23m] msedge.exe: "Hit By A Car At 5 Years Old, Died & Came Back With Gifts (NDE) - YouTube und 16 weitere Seiten - Persönlich – Microsoft​ Edge"
+        → Anwendung der Zwischenraumzahnbürste LEAZZZ        ( 99.6%,  23m)
+        → Ausziehen LEAZAU                                   (  0.2%,   0m)
+        → Vorbereitung Zähne putzen LEAZVZ                   (  0.1%,   0m)
+        → Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL (  0.1%,   0m)
+

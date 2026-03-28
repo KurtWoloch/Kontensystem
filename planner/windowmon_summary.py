@@ -142,9 +142,17 @@ AUTODETECT_RULES = [
     # Planner dialogs: Nacherfassung-specific → KSPLNA
     (lambda t, p, b: p == "python.exe" and
      _title_contains_any(t, "Nacherfassung aus windowmon",
+                          "Timeline Nacherfassung",
                           "Vorschlag bearbeiten",
+                          "Block reklassifizieren",
+                          "Zusammengefasst",
                           "Import bestätigen", "Import abgeschlossen"),
      "KS", "Nacherfassung Ablauf KSPLNA"),
+
+    # ── CMOL-FPGA Placer (Learner: 100%, 21x) ────────────────────────
+    (lambda t, p, b: p == "python.exe" and
+     _title_contains(t, "CMOL-FPGA Placer"),
+     "CS", "Spielen Kreuzungs-FGPA CSEXKF"),
 
     # Planner dialogs: other (Tagesbericht, etc.) → KSPLEA
     (lambda t, p, b: p == "python.exe" and
@@ -286,6 +294,17 @@ AUTODETECT_RULES = [
      re.search(r"~(?:Versuch|Auswertung|Vergleich)", t) is not None,
      "LE", "Bearb. Essensplan LEEPEP"),
 
+    # ── Notepad: Learner-derived rules (2026-03-28) ─────────────────────
+    # Scan Grok'n Roll analysis files
+    (lambda t, p, b: p == "notepad.exe" and
+     _title_contains(t, "Scan Grok'n Roll"),
+     "RA", "Analyse Grok'n Roll RWPLAF"),
+
+    # Papa's Pflege task files
+    (lambda t, p, b: p == "notepad.exe" and
+     _title_contains(t, "Aufgaben zu Papa"),
+     "PA", "Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATATA"),
+
     # Notepad: Andon FM / Radio files
     (lambda t, p, b: p == "notepad.exe" and
      _title_contains_any(t, "Andon FM", "DJ Break", "Prompts for adjusting",
@@ -347,6 +366,27 @@ AUTODETECT_RULES = [
     (lambda t, p, b: p == "EXCEL.EXE" and
      _title_contains(t, "duplicate_codes"),
      "KS", "Review Duplicate Codes KSPLEN"),
+
+    # ── Excel: Learner-derived rules (2026-03-28) ─────────────────────
+    (lambda t, p, b: p == "EXCEL.EXE" and
+     _title_contains(t, "Aktienuntersuchung"),
+     "FI", "Bearbeitung Börsenkurse / Aktienhandel FIAKBK"),
+
+    (lambda t, p, b: p == "EXCEL.EXE" and
+     _title_contains(t, "Liste Fahrten mit E-Scootern"),
+     "FZ", "Bearb. Liste Scooterfahrten FZSCLI"),
+
+    (lambda t, p, b: p == "EXCEL.EXE" and
+     _title_contains_any(t, "Protokoll Geldbörse", "Protokoll Geldboerse"),
+     "FI", "Bearb. Geldbörse FIBGGB"),
+
+    (lambda t, p, b: p == "EXCEL.EXE" and
+     _title_contains(t, "Grok_n Roll"),
+     "RA", "Analyse Grok'n Roll RWPLAF"),
+
+    (lambda t, p, b: p == "EXCEL.EXE" and
+     _title_contains(t, "Thinking Frequencies"),
+     "RW", "Analyse Thinking Frequencies RWMPMP"),
 
     # Excel: generic fallback → continue previous activity
     (lambda t, p, b: p == "EXCEL.EXE",

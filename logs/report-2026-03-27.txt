@@ -1,0 +1,118 @@
+=================================================================
+  TAGESBERICHT — 2026-03-27
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      131
+  Geplante Gesamtzeit:         17h 22m
+
+  ✓ Erledigt (geplant):       92  (   10h 33m)  = 60.7%
+  ⏭ Übersprungen:             13  (    1h 13m)  = 7.0%
+  ✗ Nicht erreicht:           26  (    5h 36m)  = 32.2%
+
+  📝 Ungeplante Aktivitäten:  11  (       48m)
+  ⏱  Tatsächliche Arbeitszeit:    17h 20m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  PC herunterfahren LEAZHF              23:17     00:00 -23h 17m
+  im Bett                               23:18     00:02 -23h 16m
+  Bearbeitung Buch Champion's Mindset   11:10     21:13 +10h 03m
+  WC LEMTWC                             18:21     08:24  -9h 57m
+  Kommunikation mit Judith (Abrechnun   10:56     20:52  +9h 56m
+  Papiersortierung (hereingekommene P   11:31     21:23  +9h 52m
+  Bearb. Geldbörse FIBGGB               10:46     20:37  +9h 51m
+  Bearbeitung Börsenkurse / Aktienhan   11:49     21:32  +9h 43m
+  Teller waschen / Getränk fassen LEM   10:36     20:02  +9h 26m
+  Bearbeitung Aufgaben zu Papa's Pfle   10:33     19:44  +9h 11m
+  Bearbeitung Aufgaben zu Papa's Pfle   10:39     19:44  +9h 05m
+  Bearb. Liste Scooterfahrten FZSCLI    10:05     18:59  +8h 54m
+  Dokumentation Ohrwurm-Projekt RWOWD   08:07     16:40  +8h 33m
+  Bearb. Essensplan (gegessen, zu ess   10:19     18:52  +8h 33m
+  Bearb. Essensplan (Kontrolle / zu e   09:45     18:14  +8h 29m
+  ... und 77 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb.Ohrwürmer (durchgenommen) MUOWDU
+    Grund: heute nichts durchgenommen
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft
+  ⏭ Jause fassen LEMTJF
+    Grund: ist heute ausgefallen wg. spätem Frühstück
+  ⏭ Bearb.Ohrwürmer (Nachfassen aus alten Charts)
+    Grund: wurde wegen Unrentabilität gestrichen (wird nach Korrekturlesen entfernt)
+  ⏭ Ausmachen Arzttermine GEMRNA
+    Grund: heute noch nicht nötig, um diese Zeit auch nicht möglich
+  ⏭ Bearb. Ohrwürmer (durchgenommene) RWOWDU
+    Grund: nichts durchgenommen
+  ⏭ Bearb. Essensplan (Einlesen Einkaufsliste) LE
+    Grund: nichts eingekauft
+  ⏭ Bearb. Ohrwürmer (Nachfassen aus alten Charts
+    Grund: wegen Unrentabilität gestrichen
+  ⏭ Führung Tagebuch, um schmerzhafte Situationen
+    Grund: heute keine schmerzhafte Situation vorhanden
+  ⏭ Übersiedeln (Mitteilung Adresswechsel) WFUZUS
+    Grund: niemand da, dem er mitzuteilen wäre
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: wegen Unrentabilität gestrichen
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: wegen Unrentabilität gestrichen
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 10:01–10:05  Nacherfassung Ablauf KSPLNA
+  📝 10:31–10:36  Nacherfassung Ablauf KSPLNA
+  📝 10:50–10:52  Getränk fassen LEMTJF  — Soja-Drink (wg. Rückstand in Morgenroutine)
+  📝 10:55–10:56  WC LEMTWC
+  📝 11:42–11:44  Nacherfassung Ablauf KSPLNA
+  📝 13:03–13:04  WC LEMTWC
+  📝 15:59–16:18  Lesen Vertrag / Überweisung Rechnung Fri
+  📝 16:53–16:56  WC LEMTWC
+  📝 17:58–18:03  Dokumentation Ohrwurm-Projekt RWOWDO  — Korrekturlesen
+  📝 20:34–20:37  Nacherfassung Ablauf KSPLNA
+  📝 23:11–23:14  WC LEMTWC
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 15:27  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 15:38  Erstellung Playback mit Vocal Remover KA  (5m)
+  ✗ 15:43  Aufräumen WFARAR  (11m)
+  ✗ 15:54  Papiersortierung (Altpapier)(10' +) WFPA  (6m)
+  ✗ 16:12  Papiersortierung (Altpapier)(10' +) WFPA  (3m)
+  ✗ 16:15  Wäsche aus Waschmaschine nehmen LEWAWA  (9m)
+  ✗ 16:28  Analyse Disassembly Astro Bomber CSGAUM  (10m)
+  ✗ 16:38  Aufwandserfassung und Abrechnung Kontens  (22m)
+  ✗ 17:08  Aufwandserfassung und Abrechnung Kontens  (46m)
+  ✗ 17:54  Korrektur The Grindy Adventure CSGAUM  (6m)
+  ✗ 18:08  Korrektur The Grindy Adventure CSGAUM (F  (4m)
+  ✗ 18:12  Papiersortierung (gelesene Werbeprospekt  (9m)
+  ✗ 18:30  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
+  ✗ 18:35  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
+  ✗ 18:50  Papiersortierung PAA1SU  (10m)
+  ✗ 19:00  Analyse Disassembly Tour de France CSGAU  (10m)
+  ✗ 19:10  Papiersortierung PAA1SU (Fs.)  (20m)
+  ✗ 19:32  Papiersortierung PAA1SU (Fs.)  (28m)
+  ✗ 20:03  Papiersortierung PAA1SU (Fs.)  (2m)
+  ✗ 20:05  Dokumentation Finanzanlagen / -kozept FI  (5m)
+  ✗ 20:10  Spielen State of Survival CSGAUM  (10m)
+  ✗ 20:20  Dokumentation Finanzanlagen / -kozept FI  (3m)
+  ✗ 20:26  Dokumentation Finanzanlagen / -kozept FI  (52m)
+  ✗ 21:20  Spielen Forge of Empires CSGAUM  (10m)
+  ✗ 21:36  Update Personenliste aus Rücklauf von Ei  (24m)
+  ✗ 22:08  Update Personenliste aus Rücklauf von Ei  (10m)
+
+=================================================================
