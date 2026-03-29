@@ -1,0 +1,200 @@
+=================================================================
+  TAGESBERICHT — 2026-03-28
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      121
+  Geplante Gesamtzeit:         16h 39m
+
+  ✓ Erledigt (geplant):       69  (    9h 40m)  = 58.1%
+  ⏭ Übersprungen:              5  (       47m)  = 4.7%
+  ✗ Nicht erreicht:           47  (    6h 12m)  = 37.2%
+
+  📝 Ungeplante Aktivitäten:  12  (    1h 26m)
+  ⏱  Tatsächliche Arbeitszeit:    15h 13m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Dokumentation Ohrwurm-Projekt RWOWD   09:16     21:56 +12h 40m
+  Anhören RW-Prg. / Tonträger / Radio   09:01     21:29 +12h 28m
+  Bearb. Ohrwürmer (durchzunehmende)    07:43     15:25  +7h 42m
+  Termine in Kalender prüfen LEMTTP     09:13     16:49  +7h 36m
+  Mailprüfung INMAPR                    09:14     16:50  +7h 36m
+  Einpacken für Einkauf (Essensdatenb   11:11     15:06  +3h 55m
+  Nachmittagsjause fassen LENAJA        16:40     20:29  +3h 49m
+  Teller waschen / Getränk fassen LEN   17:04     20:51  +3h 47m
+  Vorbereitung Einkaufsliste LEEKEL     11:29     15:14  +3h 45m
+  Wohnung lüften WFLULU                 08:47     12:17  +3h 30m
+  Starten Youtube-Playlist MUOWSP       07:03     10:31  +3h 28m
+  Duschen LEMTDU                        07:04     10:31  +3h 27m
+  Wenn ("Gehst Du heute zum Essen rau   12:30     15:34  +3h 04m
+  Der Außentemperatur entsprechend an   12:28     15:26  +2h 58m
+  Mund spülen LEMTMS                    09:04     11:59  +2h 55m
+  ... und 45 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Nacherfassung Ablauf KSPLNA                1h 52m
+  Scan Thinking Frequencies                  1h 15m
+  Diskussion Issues in Planer mit OpenClaw   1h 15m
+  Durchsehen weitere potentielle Issues fü   1h 07m
+  Arbeit an Tagesplanung / Planer-Entwickl   1h 06m
+  Diskussion Tagesablauf + Planer mit Open   1h 04m
+  Einkauf (BILLA Ederg.) / Laufen LEEKBI        45m
+  Einrichtung Issues für Tagesplaner KSPLP      30m
+  Duschen LEMTDU                                26m
+  Anhören RW-Prg. / Tonträger / Radiosende      25m
+  Dokumentation Ohrwurm-Projekt RWOWDO          22m
+  Bearb. Essensplan (gegessen / Lokalsuche      20m
+  Anwendung der Zwischenraumzahnbürste LEA      19m
+  Bearb. Essensplan (Änderung Sollwerte) L      16m
+  Surfen / Auswertung Andon FM RAAFSU           16m
+  Feinschliff bei der Rasur LEMTFR              15m
+  Rasieren, dabei Planung + Vortagesreview      14m
+  Zähne putzen GEMTZP                           12m
+  Frühstücken, dabei Vorbereitung Candeblo      11m
+  Untersuchung Rotation Andon FM / OpenAIR      10m
+  ... und 72 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  KSPLEN         3h 30m
+  KSPLNA         1h 52m
+  KSPLPL         1h 45m
+  (kein Kürzel)   1h 31m
+  RWMPAR            50m
+  RAAFSU            47m
+  LEEKBI            45m
+  LEMTDU            26m
+  RWOWDO            22m
+  LEEPLS            20m
+  LEAZZZ            19m
+  LEEPUH            16m
+  LEMTFR            15m
+  LEMTRA            14m
+  RAAFAN            14m
+  LEEPEP            12m
+  GEMTZP            12m
+  LEMTFS            11m
+  RWKIRN             9m
+  LEAZZP             9m
+  ... und 47 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  KS         7h 10m
+  LE         4h 35m
+  RW         1h 36m
+  (–)        1h 31m
+  RA         1h 11m
+  GE            25m
+  IN             8m
+  WF             2m
+  MU             1m
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
+    Grund: wegen Unrentabilität gestrichen; Schwimmbad gesperrt
+  ⏭ Laufen / Scootersuche GEGYLS
+    Grund: war rudimentär in Einkauf integriert
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: dort heute nichts eingekauft (Planungsfehler)
+  ⏭ Nachtmahl fassen LENANA
+    Grund: fällt heute wg. Zeitmangel aus
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: wegen Unrentabilität gestrichen
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: wegen Unrentabilität gestrichen
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 06:53–07:21  Diskussion Tagesablauf + Planer mit Open
+  📝 07:23–07:32  Diskussion Tagesablauf + Planer mit Open
+  📝 07:35–07:39  Diskussion Tagesablauf + Planer mit Open
+  📝 07:40–08:03  Diskussion Tagesablauf + Planer mit Open
+  📝 08:36–08:38  Nacherfassung Ablauf KSPLNA
+  📝 10:19–10:25  Statistik Andon FM (Rotation Grok'n Roll  — neue Abfrage für gehörte Titel nach letztem Hördatum
+  📝 10:26–10:28  WC LEMTWC
+  📝 12:57–12:58  Wasser fassen LEMTGA
+  📝 14:09–14:12  WC LEEKWC
+  📝 15:12–15:14  Nacherfassung Ablauf KSPLNA
+  📝 15:34–15:36  Müllentsorgung LEMÜMÜ
+  📝 19:54–19:58  WC LENJWC
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 10:30  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (10m)
+  ✗ 10:45  Jause fassen LEMTJF  (3m)
+  ✗ 10:53  Bearb. Essensplan (Kontrolle / zu essen   (7m)
+  ✗ 11:21  Mund spülen / Teller waschen / Getränk f  (4m)
+  ✗ 11:25  Bearb. Essensplan (gegessen, zu essen) L  (4m)
+  ✗ 11:40  Bearb. Essensplan (Kontrolle / zu essen   (3m)
+  ✗ 11:43  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (10m)
+  ✗ 11:53  Bearb. Liste Scooterfahrten FZSCLI  (9m)
+  ✗ 12:10  Bearbeitung Aufgaben zu Papa's Pflege (1  (2m)
+  ✗ 12:26  Bearbeitung Aufgaben zu Papa's Pflege (1  (2m)
+  ✗ 16:48  Bearb. Essensplan (Update Händlerangebot  (11m)
+  ✗ 16:59  Bearb. Essensplan (Update Wärme / Gewich  (5m)
+  ✗ 17:08  Bearb. Essensplan (Update Wärme / Gewich  (5m)
+  ✗ 17:13  Bearb. Essensplan (Update Rotation) LEEP  (10m)
+  ✗ 17:23  Bearb. Essensplan (Protokoll) LEEPPR  (8m)
+  ✗ 17:31  Bearbeitung Aufgaben zu Papa's Pflege (1  (6m)
+  ✗ 17:37  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 17:45  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 17:55  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 18:01  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 18:09  Bearb. Essensplan (Eintragen Protokoll)   (5m)
+  ✗ 18:14  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 18:19  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 18:28  Bearbeitung Buch Champion's Mindset GELI  (11m)
+  ✗ 18:39  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 18:49  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 18:59  Papiersortierung (hereingekommene Papier  (1m)
+  ✗ 19:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 19:08  Papiersortierung (hereingekommene Papier  (8m)
+  ✗ 19:16  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 19:25  Bearbeitung Börsenkurse / Aktienhandel F  (5m)
+  ✗ 19:32  Bearbeitung Börsenkurse / Aktienhandel F  (5m)
+  ✗ 19:37  Spielen Kreuzungs-FGPA CSEXKF  (10m)
+  ✗ 19:47  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 19:58  Erstellung Playback mit Vocal Remover KA  (2m)
+  ✗ 20:03  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:11  Erstellung Playback mit Vocal Remover KA  (3m)
+  ✗ 20:14  Aufräumen WFARAR  (9m)
+  ✗ 20:26  Aufräumen WFARAR (Fs.)  (2m)
+  ✗ 20:28  Papiersortierung (Altpapier)(10' +) WFPA  (9m)
+  ✗ 20:37  Wäsche aus Waschmaschine nehmen LEWAWA  (9m)
+  ✗ 20:46  Aufwandserfassung und Abrechnung Kontens  (14m)
+  ✗ 21:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:08  Aufwandserfassung und Abrechnung Kontens  (52m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Aufwandserfassung und Abrechnung Kontens  (2m)
+  ✗ 22:10  Analyse Disassembly Astro Bomber CSGAUM  (8m)
+
+=================================================================

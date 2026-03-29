@@ -14,7 +14,9 @@ Outputs a human-readable report to stdout and saves it to:
 """
 import json
 import os
+import re
 import sys
+from collections import defaultdict
 from datetime import datetime
 
 
@@ -46,6 +48,23 @@ def fmt_minutes(mins):
     if h > 0:
         return f"{h}h {m:02d}m"
     return f"{m}m"
+
+
+def extract_task_code(activity_name):
+    """Extract the 6-char (or 4-6 char) task code from the end of an activity name.
+
+    Examples:
+        'Anhören RW-Prg. / Tonträger RWMPAR' -> 'RWMPAR'
+        'Morgensport' -> None
+    """
+    if not activity_name:
+        return None
+    words = activity_name.split()
+    if words:
+        last = words[-1]
+        if re.match(r'^[A-Z]{4,6}$', last):
+            return last
+    return None
 
 
 def _generate_projection_for_date(date_str, log_data):
@@ -294,26 +313,45 @@ def generate_report(date_str):
     lines.append("╚═══════════════════════════════════════════════════════╝")
     lines.append("")
 
-    # Compare planned start vs actual start for completed items
+    # 1:1 matching: sort actual_done by start time, consume each match once.
+    # Priority: original_activity match > current activity name match.
+    # Planned items are processed in their original (chronological est_start) order.
+    actual_done_sorted = sorted(
+        actual_done,
+        key=lambda a: parse_time(a['started_at']) if parse_time(a['started_at']) is not None else 9999
+    )
+    consumed = [False] * len(actual_done_sorted)
+
     drift_items = []
     for p in completed_planned:
         p_start = parse_time(p['est_start'])
         if p_start is None:
             continue
-        # Find matching actual entry
-        for a in actual_done:
+
+        base_p = p['activity']
+        if base_p.endswith(" (Fs.)"):
+            base_p = base_p[:-6]
+
+        # Find first unconsumed actual entry that matches this planned item.
+        # original_activity is treated as a strong match signal.
+        matched_idx = None
+        for i, a in enumerate(actual_done_sorted):
+            if consumed[i]:
+                continue
+            orig = a.get('original', '') or ''
             a_name = a['activity']
-            if a['original']:
-                a_name = a['original']
-            base_p = p['activity']
-            if base_p.endswith(" (Fs.)"):
-                base_p = base_p[:-6]
-            if a_name == p['activity'] or a_name == base_p:
-                a_start = parse_time(a['started_at'])
-                if a_start is not None:
-                    drift = a_start - p_start
-                    drift_items.append((p['activity'], drift, p_start, a_start))
+            if (orig == p['activity'] or orig == base_p
+                    or a_name == p['activity'] or a_name == base_p):
+                matched_idx = i
                 break
+
+        if matched_idx is not None:
+            a = actual_done_sorted[matched_idx]
+            consumed[matched_idx] = True
+            a_start = parse_time(a['started_at'])
+            if a_start is not None:
+                drift = a_start - p_start
+                drift_items.append((p['activity'], drift, p_start, a_start))
 
     if drift_items:
         # Sort by absolute drift descending
@@ -333,6 +371,96 @@ def generate_report(date_str):
             lines.append(f"  ... und {len(drift_items) - 15} weitere")
     else:
         lines.append("  (keine Drift-Daten verfügbar)")
+
+    lines.append("")
+
+    # --- Time aggregation sections ---
+
+    # Collect all logged entries (done + unplanned, not skipped)
+    all_logged = actual_done + actual_unplanned
+
+    # Helper: compute duration in minutes from a log item
+    def item_duration(item):
+        start = parse_time(item['started_at'])
+        end = parse_time(item['completed_at'])
+        if start is not None and end is not None:
+            return max(0, end - start)
+        return 0
+
+    # --- ZEITVERBRAUCH NACH AKTIVITÄT ---
+    lines.append("╔═══════════════════════════════════════════════════════╗")
+    lines.append("║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║")
+    lines.append("╚═══════════════════════════════════════════════════════╝")
+    lines.append("")
+
+    by_activity = defaultdict(int)
+    for item in all_logged:
+        by_activity[item['activity']] += item_duration(item)
+
+    sorted_by_activity = sorted(by_activity.items(), key=lambda x: x[1], reverse=True)
+
+    if sorted_by_activity:
+        lines.append(f"  {'Aktivität':<40} {'Zeit':>8}")
+        lines.append(f"  {'─'*40} {'─'*8}")
+        for name, mins in sorted_by_activity[:20]:
+            display = name[:40]
+            lines.append(f"  {display:<40} {fmt_minutes(mins):>8}")
+        if len(sorted_by_activity) > 20:
+            lines.append(f"  ... und {len(sorted_by_activity) - 20} weitere Aktivitäten")
+    else:
+        lines.append("  (keine Daten)")
+
+    lines.append("")
+
+    # --- ZEITVERBRAUCH NACH TASK-KÜRZEL ---
+    lines.append("╔═══════════════════════════════════════════════════════╗")
+    lines.append("║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║")
+    lines.append("╚═══════════════════════════════════════════════════════╝")
+    lines.append("")
+
+    by_code = defaultdict(int)
+    for item in all_logged:
+        code = extract_task_code(item['activity']) or "(kein Kürzel)"
+        by_code[code] += item_duration(item)
+
+    sorted_by_code = sorted(by_code.items(), key=lambda x: x[1], reverse=True)
+
+    if sorted_by_code:
+        lines.append(f"  {'Kürzel':<12} {'Zeit':>8}")
+        lines.append(f"  {'─'*12} {'─'*8}")
+        for code, mins in sorted_by_code[:20]:
+            lines.append(f"  {code:<12} {fmt_minutes(mins):>8}")
+        if len(sorted_by_code) > 20:
+            lines.append(f"  ... und {len(sorted_by_code) - 20} weitere Kürzel")
+    else:
+        lines.append("  (keine Daten)")
+
+    lines.append("")
+
+    # --- ZEITVERBRAUCH NACH KONTENBEREICH ---
+    lines.append("╔═══════════════════════════════════════════════════════╗")
+    lines.append("║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║")
+    lines.append("╚═══════════════════════════════════════════════════════╝")
+    lines.append("")
+
+    by_area = defaultdict(int)
+    for item in all_logged:
+        code = extract_task_code(item['activity'])
+        if code and len(code) >= 2:
+            area = code[:2]
+        else:
+            area = "(–)"
+        by_area[area] += item_duration(item)
+
+    sorted_by_area = sorted(by_area.items(), key=lambda x: x[1], reverse=True)
+
+    if sorted_by_area:
+        lines.append(f"  {'Bereich':<8} {'Zeit':>8}")
+        lines.append(f"  {'─'*8} {'─'*8}")
+        for area, mins in sorted_by_area:
+            lines.append(f"  {area:<8} {fmt_minutes(mins):>8}")
+    else:
+        lines.append("  (keine Daten)")
 
     lines.append("")
 
