@@ -92,15 +92,18 @@ class ConfidenceStore:
         top_activity = max(confidences, key=confidences.get)
         top_conf = confidences[top_activity]
 
-        if top_conf < self.MIN_CONFIDENCE:
-            return None
-
-        # Check if this is a Durchreicher (noise title)
+        # Check if this is a Durchreicher (noise title) BEFORE confidence cutoff.
+        # A Durchreicher has high stability (same activity before and after)
+        # regardless of how low its top confidence is — it's noise either way.
         p_before = entry.get("p_same_before", 1.0)
         p_after = entry.get("p_same_after", 1.0)
         is_durchreicher = (p_before >= self.DURCHREICHER_THRESHOLD and
                            p_after >= self.DURCHREICHER_THRESHOLD and
                            top_conf < 0.70)
+
+        # If confidence is too low and it's NOT a Durchreicher, reject
+        if top_conf < self.MIN_CONFIDENCE and not is_durchreicher:
+            return None
 
         # Extract account from task code in activity name (last word, 4-6 caps)
         code_match = re.search(r'\s([A-Z]{4,6})\s*$', top_activity)
