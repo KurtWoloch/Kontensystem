@@ -239,11 +239,13 @@ def parse_args(argv):
 
 # ── Step 1: Compute daily observations ───────────────────────────────────────
 
-def process_day(date_str, observations):
+def process_day(date_str, observations, transitions):
     """
-    Process one day and accumulate observations.
+    Process one day and accumulate observations and transition counts.
 
     observations: dict mapping store_key → {activity: total_duration_seconds}
+    transitions:  dict mapping store_key → {backward_same, backward_total,
+                                             forward_same, forward_total}
     store_key format: "process||normalized_title"
 
     Returns (events_processed, events_matched).
@@ -280,15 +282,20 @@ def process_day(date_str, observations):
     filtered.sort(key=lambda x: x[0] if x[0] is not None else datetime.max)
 
     processed = 0
-    matched = 0
+    matched_count = 0
 
+    # Build event_data: list of (store_key, activity_or_None, duration_secs)
+    event_data = []
     for i, (dt, process, title) in enumerate(filtered):
         processed += 1
 
+        norm_title = normalize_title(process, title)
+        store_key = f"{process}||{norm_title}"
+
         if dt is None:
+            event_data.append((store_key, None, 0))
             continue
 
-        norm_title = normalize_title(process, title)
         event_secs = dt.hour * 3600 + dt.minute * 60 + dt.second
 
         # Duration until next event with a valid timestamp
@@ -301,17 +308,79 @@ def process_day(date_str, observations):
                 break
 
         activity = find_activity(event_secs, intervals)
+        event_data.append((store_key, activity, duration_seconds))
+
+    # Update observations (existing logic)
+    for store_key, activity, duration_secs in event_data:
         if activity is None:
             continue
-
-        matched += 1
-
-        store_key = f"{process}||{norm_title}"
+        matched_count += 1
         if store_key not in observations:
             observations[store_key] = defaultdict(int)
-        observations[store_key][activity] += duration_seconds
+        observations[store_key][activity] += duration_secs
 
-    return processed, matched
+    # ── Transition computation ─────────────────────────────────────────────
+    # Build matched_events list: (store_key, activity) for events with activities
+    matched_events = [(sk, act) for sk, act, _ in event_data if act is not None]
+    n = len(matched_events)
+
+    if n > 0:
+        # Precompute backward neighbor index for each position.
+        # For a run of consecutive events with the same key, all events in the run
+        # share the same backward neighbor: the last event of the preceding run
+        # (which has a different key by construction).
+        backward_idx = [-1] * n
+        last_run_end = -1   # index of last event of the most recent different-key run
+        pos = 0
+        while pos < n:
+            key = matched_events[pos][0]
+            end = pos
+            while end < n and matched_events[end][0] == key:
+                end += 1
+            # Run is [pos, end)
+            for k in range(pos, end):
+                backward_idx[k] = last_run_end
+            last_run_end = end - 1
+            pos = end
+
+        # Precompute forward neighbor index for each position (right-to-left pass).
+        forward_idx = [-1] * n
+        next_run_start = -1  # index of first event of the next different-key run
+        pos = n - 1
+        while pos >= 0:
+            key = matched_events[pos][0]
+            start = pos
+            while start >= 0 and matched_events[start][0] == key:
+                start -= 1
+            # Run is [start+1, pos]
+            for k in range(start + 1, pos + 1):
+                forward_idx[k] = next_run_start
+            next_run_start = start + 1
+            pos = start
+
+        # Accumulate transition counts
+        for i, (key, act) in enumerate(matched_events):
+            if key not in transitions:
+                transitions[key] = {
+                    'backward_same': 0, 'backward_total': 0,
+                    'forward_same': 0,  'forward_total': 0,
+                }
+
+            bi = backward_idx[i]
+            if bi >= 0:
+                _, prev_act = matched_events[bi]
+                transitions[key]['backward_total'] += 1
+                if prev_act == act:
+                    transitions[key]['backward_same'] += 1
+
+            fi = forward_idx[i]
+            if fi >= 0:
+                _, next_act = matched_events[fi]
+                transitions[key]['forward_total'] += 1
+                if next_act == act:
+                    transitions[key]['forward_same'] += 1
+
+    return processed, matched_count
 
 
 # ── Step 2: Load confidence store ─────────────────────────────────────────────
@@ -327,11 +396,11 @@ def load_store():
         return {}
 
 
-# ── Step 3: Update confidences using EMA ─────────────────────────────────────
+# ── Step 3: Update confidences and transitions using EMA ─────────────────────
 
-def update_store(store, observations, dates):
+def update_store(store, observations, transitions, dates):
     """
-    Apply EMA updates to the store based on observations.
+    Apply EMA updates to the store based on observations and transitions.
 
     Returns (updated_keys, new_keys) sets.
     """
@@ -349,6 +418,13 @@ def update_store(store, observations, dates):
             act: dur / total_secs
             for act, dur in activity_durations.items()
         }
+
+        # Compute observed transition probabilities from accumulated counts
+        t = transitions.get(store_key, {})
+        bt = t.get('backward_total', 0)
+        ft = t.get('forward_total', 0)
+        obs_p_before = t['backward_same'] / bt if bt > 0 else None
+        obs_p_after  = t['forward_same']  / ft if ft > 0 else None
 
         if store_key in store:
             # EMA update for existing entry
@@ -374,6 +450,20 @@ def update_store(store, observations, dates):
             entry["confidences"] = new_conf
             entry["total_secs"] = entry.get("total_secs", 0) + total_secs
             entry["last_seen"] = last_date
+
+            # EMA update for transition probabilities (only if we have new data)
+            if obs_p_before is not None:
+                old_p_before = entry.get("p_same_before", 1.0)
+                entry["p_same_before"] = EMA_OLD * old_p_before + EMA_NEW * obs_p_before
+            elif "p_same_before" not in entry:
+                entry["p_same_before"] = 1.0
+
+            if obs_p_after is not None:
+                old_p_after = entry.get("p_same_after", 1.0)
+                entry["p_same_after"] = EMA_OLD * old_p_after + EMA_NEW * obs_p_after
+            elif "p_same_after" not in entry:
+                entry["p_same_after"] = 1.0
+
             updated_keys.add(store_key)
 
         else:
@@ -382,6 +472,8 @@ def update_store(store, observations, dates):
                 "confidences": dict(import_conf),
                 "total_secs": total_secs,
                 "last_seen": last_date,
+                "p_same_before": obs_p_before if obs_p_before is not None else 1.0,
+                "p_same_after":  obs_p_after  if obs_p_after  is not None else 1.0,
             }
             new_keys.add(store_key)
 
@@ -401,6 +493,8 @@ def save_store(store):
             "confidences": dict(sorted(entry.get("confidences", {}).items())),
             "total_secs": entry.get("total_secs", 0),
             "last_seen": entry.get("last_seen", ""),
+            "p_same_before": entry.get("p_same_before", 1.0),
+            "p_same_after":  entry.get("p_same_after",  1.0),
         }
         sorted_store[key] = sorted_entry
 
@@ -472,8 +566,11 @@ def print_report(store, observations, updated_keys, new_keys, dates,
             title = parts[1] if len(parts) > 1 else key
             display_title = title[:60] if len(title) > 60 else title
             marker = " [NEW]" if key in new_keys else ""
+            entry = store.get(key, {})
+            p_before = entry.get("p_same_before", 1.0)
+            p_after  = entry.get("p_same_after",  1.0)
             print(f"  [{fmt_time(total_secs):>6}] {proc}: \"{display_title}\"{marker}")
-            print(f"           → {top_act[:55]:<55s} ({top_conf*100:.1f}%)")
+            print(f"           → {top_act[:55]:<55s} ({top_conf*100:.1f}%)  ←{p_before*100:.0f}% →{p_after*100:.0f}%")
     else:
         print("  (none)")
 
@@ -504,12 +601,16 @@ def print_report(store, observations, updated_keys, new_keys, dates,
             title = parts[1] if len(parts) > 1 else key
             display_title = title[:55] if len(title) > 55 else title
             marker = " [NEW]" if key in new_keys else ""
+            entry = store.get(key, {})
+            p_before = entry.get("p_same_before", 1.0)
+            p_after  = entry.get("p_same_after",  1.0)
             print(f"  [{fmt_time(total_secs):>6}] {proc}: \"{display_title}\"{marker}")
             sorted_acts = sorted(confs.items(), key=lambda x: -x[1])
             for act, conf in sorted_acts[:3]:
                 print(f"           → {act[:50]:<50s} ({conf*100:.1f}%)")
             if len(sorted_acts) > 3:
                 print(f"           + {len(sorted_acts) - 3} more activities")
+            print(f"           ←{p_before*100:.0f}% →{p_after*100:.0f}%")
             print()
     else:
         print("  (none)\n")
@@ -547,6 +648,68 @@ def print_report(store, observations, updated_keys, new_keys, dates,
     if len(newly_learned) > 20:
         print(f"\n  ... and {len(newly_learned) - 20} more newly learned entries not shown")
 
+    # ── TRANSITION ANALYSIS ───────────────────────────────────────────────────
+    print(f"\n{'─'*75}")
+    print(f"  TRANSITION ANALYSIS")
+    print(f"{'─'*75}")
+
+    # Build flat list: (total_secs, key, top_act, top_conf, p_before, p_after)
+    all_entries_trans = []
+    for key, entry in store.items():
+        confs = entry.get("confidences", {})
+        if not confs:
+            continue
+        top_act, top_conf = top_activity(confs)
+        total_secs = entry.get("total_secs", 0)
+        p_before = entry.get("p_same_before", 1.0)
+        p_after  = entry.get("p_same_after",  1.0)
+        all_entries_trans.append((total_secs, key, top_act, top_conf, p_before, p_after))
+
+    def _show_trans_entry(tup):
+        total_secs, key, top_act, top_conf, p_before, p_after = tup
+        parts = key.split("||", 1)
+        proc  = parts[0] if len(parts) > 1 else ""
+        title = parts[1] if len(parts) > 1 else key
+        disp  = title[:50] if len(title) > 50 else title
+        print(f"  [{fmt_time(total_secs):>6}] {proc}: \"{disp}\"")
+        print(f"           → {top_act[:50]:<50s} ({top_conf*100:.1f}%)  ←{p_before*100:.0f}% →{p_after*100:.0f}%")
+
+    # 1. DURCHREICHER (←hoch →hoch, schwache eigene Zuordnung)
+    print(f"\n  DURCHREICHER (←hoch →hoch) — rauscharme Titel ohne eigene Aktivität\n")
+    durchreicher = sorted(
+        [e for e in all_entries_trans if e[4] >= 0.80 and e[5] >= 0.80 and e[3] < 0.70],
+        key=lambda x: -x[0]
+    )
+    if durchreicher:
+        for e in durchreicher[:15]:
+            _show_trans_entry(e)
+    else:
+        print("  (keine)")
+
+    # 2. EINTRITTS-MARKER (←niedrig →hoch)
+    print(f"\n  EINTRITTS-MARKER (←niedrig →hoch) — Titel signalisiert START einer neuen Aktivität\n")
+    eintritte = sorted(
+        [e for e in all_entries_trans if e[4] < 0.50 and e[5] >= 0.70],
+        key=lambda x: -x[0]
+    )
+    if eintritte:
+        for e in eintritte[:15]:
+            _show_trans_entry(e)
+    else:
+        print("  (keine)")
+
+    # 3. AUSTRITTS-MARKER (←hoch →niedrig)
+    print(f"\n  AUSTRITTS-MARKER (←hoch →niedrig) — Titel signalisiert ENDE einer Aktivität\n")
+    austritte = sorted(
+        [e for e in all_entries_trans if e[4] >= 0.70 and e[5] < 0.50],
+        key=lambda x: -x[0]
+    )
+    if austritte:
+        for e in austritte[:15]:
+            _show_trans_entry(e)
+    else:
+        print("  (keine)")
+
     # ── Summary stats ─────────────────────────────────────────────────────────
     total_entries = len(store)
     n_updated = len(updated_keys)
@@ -582,25 +745,26 @@ def main():
     sys.stdout = tee
 
     try:
-        # ── Step 1: Compute daily observations ────────────────────────────────
+        # ── Step 1: Compute daily observations and transitions ─────────────────
         observations = {}   # store_key → {activity: total_duration_seconds}
+        transitions  = {}   # store_key → {backward_same, backward_total,
+                            #               forward_same,  forward_total}
         total_events = 0
         total_matched = 0
         days_with_data = 0
 
         for d in dates:
-            n_events, n_matched = process_day(d, observations)
+            n_events, n_matched = process_day(d, observations, transitions)
             if n_events > 0:
                 days_with_data += 1
-            total_events += n_events
+            total_events  += n_events
             total_matched += n_matched
 
         # ── Step 2: Load existing confidence store ────────────────────────────
         store = load_store()
-        store_before = set(store.keys())
 
-        # ── Step 3 & 4: Update confidences using EMA; retain unseen ──────────
-        updated_keys, new_keys = update_store(store, observations, dates)
+        # ── Step 3 & 4: Update confidences + transitions using EMA ───────────
+        updated_keys, new_keys = update_store(store, observations, transitions, dates)
 
         # ── Step 5: Save updated store ────────────────────────────────────────
         save_store(store)
