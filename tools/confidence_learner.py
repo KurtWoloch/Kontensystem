@@ -93,14 +93,20 @@ def normalize_title(process, title):
 
     Rules:
     1. For msedge.exe: strip Edge-specific suffixes
-    2. For any process: strip " (Keine Rückmeldung)" suffix
-    3. Strip trailing whitespace
+    2. For winamp.exe: replace with generic "(Winamp playback)" —
+       individual song titles are irrelevant, Winamp always means
+       background audio during the current activity
+    3. For any process: strip " (Keine Rückmeldung)" suffix
+    4. Strip trailing whitespace
     """
     result = title
 
     if process and process.lower() == "msedge.exe":
         for pattern in _EDGE_SUFFIX_PATTERNS:
             result = pattern.sub("", result)
+
+    if process and process.lower() == "winamp.exe":
+        result = "(Winamp playback)"
 
     result = _KEINE_RUECKMELDUNG.sub("", result)
     result = result.rstrip()
