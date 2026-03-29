@@ -134,6 +134,49 @@ class ConfidenceStore:
 
 
 # ═══════════════════════════════════════════════════════════════════════════ #
+#  Low-Accuracy Overridable Rules                                            #
+#  For these (account, activity) pairs the confidence store is preferred     #
+#  when it has a match.  Based on rule_accuracy.py analysis over             #
+#  2026-03-03 to 2026-03-28.                                                 #
+# ═══════════════════════════════════════════════════════════════════════════ #
+
+LOW_ACCURACY_OVERRIDABLE = {
+    ("KS", "Erfassung Ablauf KSPLEA"),           # 1.3% accuracy, 18h
+    ("KS", "Diskussion OpenClaw KSPLEN"),         # 4.4% accuracy, 34h
+    ("LE", "Bearb. Essensplan LEEPEP"),           # 6.0% accuracy, 16h
+    ("IN", "div. Surfen INSUSU"),                 # 3.9% accuracy, 13h
+    ("RA", "Surfen Andon FM RAAFSU"),             # 4.9% accuracy, 11h
+    ("RA", "Ansehen YouTube-Videos RAYTYT"),       # 20.2% accuracy, 9.5h
+    ("LE", "Bearb. Essensdatenbank (Access) LEEPEP"),  # generic Access
+    ("RA", "Surfen X RAAFKO"),                    # generic X browsing
+    ("IN", "Surfen X (Timeline) INSUXX"),         # 8.8% accuracy, 2.4h
+    ("IN", "Analysen in Arena AI INSUAI"),        # 1.8% accuracy, 3.6h
+    ("RW", "Anhören Musik (Winamp) RWMPMP"),      # 0% accuracy, 1.8h
+    ("RW", "Andon FM Scraper RAAFAN"),            # 0% accuracy (background)
+    ("RW", "Anhören Radiosender (Live365) RWMPMP"),  # generic Live365
+    ("RW", "Anhören Thinking Frequencies (Live365) RAAFKO"),  # 0% accuracy
+    ("PC", "Bearbeitung in VS Code PCOCIN"),      # 0% accuracy, 2.5h
+    ("LE", "Bearb. Essensprotokoll LEEPEP"),      # 0% accuracy, 1h
+    ("MU", "Bearb. Ohrwürmer-Listen RWOWTT"),     # 0% accuracy, 2.7h
+    ("IN", "Bearbeitung Mails INMBMB"),           # 0.3% accuracy, 1.7h
+    ("KS", "Nacherfassung (Windowlog) KSPLNA"),   # 0% accuracy, 2.4h
+    ("RA", "Untersuchung AI DJ Breaks RAAFAN"),   # 0% accuracy
+    ("IN", "Diskussion ChatGPT RAAFDI"),          # generic ChatGPT
+    ("RA", "Bearb. Library Andon FM RAAFAN"),     # generic Excel rule
+    ("RW", "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP"),  # 3.5%
+    ("RA", "Anhören Grok'n Roll (Live365) RAAFSU"),  # background
+    ("LE", "Off-PC (unbekannt)"),                 # generic Off-PC
+    ("RW", "Radio Würmchen (ngrok) RWMPMP"),      # background process
+    ("IN", "Surfen Moltbook INOCMB"),             # sometimes background
+    ("RW", "Bearb. Radio-Dateien RAAFSU"),        # generic notepad rule
+    ("KS", "Bearb. Planer-Dateien KSPLEN"),       # 0% accuracy
+    ("LE", "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP"),  # specific but wrong
+    ("GE", "Blutdruck messen GEBMBM"),            # 32% (often left open)
+    ("FI", "Bearbeitung Börsenkurse / Aktienhandel FIAKBK"),  # 31% (includes Fs.)
+    ("RA", "Untersuchung Rotation Andon FM / OpenAIR RAAFAN"),  # 26%
+}
+
+# ═══════════════════════════════════════════════════════════════════════════ #
 #  AutoDetect Rules                                                          #
 #  Map window titles/processes to account codes + activity names.            #
 #  Order matters: first match wins.                                          #
@@ -823,6 +866,20 @@ def classify_entry(entry: Dict) -> Tuple[str, str]:
                             return "_UNCLASSIFIABLE", activity
                         else:
                             return s_account, s_activity
+                    return account, activity
+
+                # For low-accuracy rules: prefer confidence store if available.
+                if (account, activity) in LOW_ACCURACY_OVERRIDABLE:
+                    store_result = ConfidenceStore.get().lookup(process, title)
+                    if store_result is not None:
+                        s_account, s_activity, s_conf, s_durch = store_result
+                        if not s_durch:
+                            # Store has a real suggestion — use it.
+                            return s_account, s_activity
+                        # Durchreicher: hardcoded rule is also low-accuracy,
+                        # so signal block-builder to continue previous activity.
+                        return "_UNCLASSIFIABLE", activity
+                    # No store match — fall back to hardcoded rule.
 
                 return account, activity
         except Exception:
