@@ -4,9 +4,9 @@
 ===========================================================================
 
   Days processed: 26  |  Days with data: 20
-  Window events:  40253  |  Matched to activity: 38833
-  Match rate:     96.5%
-  Unique normalized keys observed: 4313
+  Window events:  40253  |  Matched to activity: 37928
+  Match rate:     94.2%
+  Unique normalized keys observed: 4260
 
 ───────────────────────────────────────────────────────────────────────────
   TOP CONFIDENT MAPPINGS  (top confidence >= 70%)
@@ -16,36 +16,22 @@
            → Dokumentation Ohrwurm-Projekt RWOWDO                    (72.0%)  ←99% →97%
   [2h 55m] WINWORD.EXE: "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8." [NEW]
            → Dokumentation Ohrwurm-Projekt RWOWDO                    (98.9%)  ←99% →95%
-  [2h 29m] msedge.exe: "Andon FM | Andon Labs und 16 weitere Seiten - Persönlich – M" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (88.7%)  ←91% →83%
-  [2h 07m] explorer.exe: "data" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (95.6%)  ←100% →100%
-  [1h 57m] python.exe: "Vorschlag bearbeiten" [NEW]
-           → Nacherfassung Ablauf KSPLNA                             (82.3%)  ←97% →97%
+  [1h 56m] python.exe: "Vorschlag bearbeiten" [NEW]
+           → Nacherfassung Ablauf KSPLNA                             (83.0%)  ←97% →97%
   [1h 50m] python.exe: "Tagesplanung — Reaktiver Planer — Der Außentemperatur entspr" [NEW]
            → Der Außentemperatur entsprechend anziehen LEAUAZ        (81.9%)  ←89% →87%
   [1h 30m] python.exe: "Aufgabe erledigt — Mittagessen (Pizzeria da Contessa mit E. " [NEW]
            → Mittagessen (Pizzeria da Contessa mit E. Strake) LEMEPC (99.9%)  ←100% →83%
-  [1h 27m] WINWORD.EXE: "Dokumentation BRZG Entwicklungsdokument 26.3.5.doc - Microso" [NEW]
-           → Review Dokumentation BRZG KSBRDR                        (84.9%)  ←76% →85%
-  [1h 23m] msedge.exe: "Home / X und 14 weitere Seiten - Persönlich – Microsoft​ Edg" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (86.4%)  ←95% →84%
-  [1h 22m] python.exe: "Vorgezogene Aktivität erfassen — Arbeitszeit absolvieren (Na" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (100.0%)  ←100% →100%
-  [1h 20m] msedge.exe: "Grok'n Roll - Free Internet Radio - Live365 und 13 weitere S" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ (Fs.)       (99.4%)  ←100% →75%
   [1h 20m] msedge.exe: "OpenClaw Control und 20 weitere Seiten - Persönlich – Micros" [NEW]
            → Diskussion mit OpenClaw über Tagesplaner KSPLPL         (84.1%)  ←95% →94%
   [1h 14m] python.exe: "Tagesplanung — Off-PC — Mittagessen (externes Lokal) LEMEEX" [NEW]
            → Mittagessen (externes Lokal) LEMEEX                     (100.0%)  ←100% →0%
-  [1h 13m] python.exe: "C:\Program Files\Python311\python.exe" [NEW]
-           → Einkauf (BILLA Ederg.) / Laufen LEEKBI                  (72.2%)  ←77% →99%
+  [1h 11m] python.exe: "C:\Program Files\Python311\python.exe" [NEW]
+           → Einkauf (BILLA Ederg.) / Laufen LEEKBI                  (74.2%)  ←78% →99%
   [1h 10m] python.exe: "Timeline Nacherfassung — 2026-03-28" [NEW]
            → Nacherfassung Ablauf KSPLNA                             (84.8%)  ←97% →94%
   [1h 07m] python.exe: "Tagesplanung — Reaktiver Planer — Besuch Schwimmbad GEGYSB" [NEW]
            → Besuch Schwimmbad GEGYSB                                (99.6%)  ←100% →100%
-  [1h 04m] msedge.exe: "Arena AI: The Official AI Ranking & LLM Leaderboard und 13 w" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (90.1%)  ←89% →79%
   [1h 00m] python.exe: "Vorgezogene Aktivität erfassen — Liste_Schwimmbad — Besuch S" [NEW]
            → Besuch Schwimmbad GEGYSB                                (92.7%)  ←100% →25%
   [   59m] python.exe: "Tagesplanung — Reaktiver Planer — Duschen LEMTDU" [NEW]
@@ -54,8 +40,6 @@
            → Anwendung der Zwischenraumzahnbürste LEAZZZ             (88.9%)  ←91% →64%
   [   57m] python.exe: "Tagesplanung — Off-PC — Besuch Schwimmbad GEGYSB" [NEW]
            → Besuch Schwimmbad GEGYSB                                (100.0%)  ←100% →33%
-  [   52m] msedge.exe: "Google Übersetzer und 11 weitere Seiten - Persönlich – Micro" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (80.2%)  ←87% →100%
   [   51m] python.exe: "Tagesplanung — Off-PC — Frühstücken, dabei Vorbereitung Cand" [NEW]
            → Frühstücken, dabei Vorbereitung Candeblo, Tee machen, B (96.9%)  ←93% →93%
   [   49m] python.exe: "Tagesplanung — Off-PC — Duschen LEMTDU" [NEW]
@@ -72,19 +56,28 @@
            → Nacherfassung Ablauf KSPLNA                             (94.1%)  ←98% →98%
   [   43m] python.exe: "Nacherfassung aus windowmon - 2026-03-16" [NEW]
            → Nacherfassung Ablauf KSPLNA                             (87.5%)  ←99% →98%
+  [   43m] python.exe: "Vorgezogene Aktivität erfassen — Lebenserhaltung — Einkauf (" [NEW]
+           → Einkauf (BILLA Ederg.) / Laufen LEEKBI                  (98.9%)  ←100% →75%
+  [   42m] Window logger.exe: "GE - Besuch Schwimmbad: C:\Program Files\Python311\python.ex" [NEW]
+           → Besuch Schwimmbad GEGYSB                                (100.0%)  ←100% →50%
+  [   41m] Window logger.exe: "WF - Neukauf Mikrowelle: idle" [NEW]
+           → Mittagessen (Limon Kebap, Parkplatz Media Markt)        (72.4%)  ←100% →50%
+  [   41m] python.exe: "Nacherfassung aus windowmon - 2026-03-13" [NEW]
+           → Nacherfassung Ablauf KSPLNA                             (76.5%)  ←98% →98%
+  [   39m] notepad.exe: "Protokoll und Kalkulation Mohnnudeln.txt - Editor" [NEW]
+           → Schadensaufnahme Mikrowellenherd / Stromausfall WFLEMH  (98.3%)  ←100% →67%
+  [   38m] EXCEL.EXE: "Microsoft Excel - Protokoll Geldbörse ab 19.12.2022.xls" [NEW]
+           → Bearb. Geldbörse FIBGGB                                 (86.2%)  ←98% →93%
+  [   34m] python.exe: "Nacherfassung aus windowmon - 2026-03-25" [NEW]
+           → Nacherfassung Ablauf KSPLNA                             (97.2%)  ←98% →100%
+  [   33m] python.exe: "Nacherfassung aus windowmon - 2026-03-17" [NEW]
+           → Nacherfassung Ablauf KSPLNA                             (73.9%)  ←96% →98%
 
-  ... and 3407 more confident entries not shown
+  ... and 3366 more confident entries not shown
 
 ───────────────────────────────────────────────────────────────────────────
   AMBIGUOUS MAPPINGS  (top confidence < 70%)
 ───────────────────────────────────────────────────────────────────────────
-
-  [10h 39m] Live365Scraper.exe: "Live365 Scraper" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (23.5%)
-           → Arbeitszeit absolvieren (Vormittag) BREPDZ         (18.8%)
-           → Mittagspause BRZG  LEMEBR                          (14.1%)
-           + 51 more activities
-           ←94% →89%
 
   [9h 55m] python.exe: "Tagesplanung — Off-PC — Der Außentemperatur entsprechen" [NEW]
            → Rückfahrt + ggf. Mittagessen unterwegs             (20.2%)
@@ -93,54 +86,19 @@
            + 15 more activities
            ←97% →59%
 
-  [7h 43m] python.exe: "Tagesplanung — Off-PC — Fahrt BRZG BRFAFA" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (58.3%)
-           → Mittagspause BRZG  LEMEBR                          (19.5%)
-           → Heimfahrt vom BRZ inkl. Laufen BRFAHF              (9.2%)
-           + 3 more activities
-           ←93% →64%
+  [5h 57m] MSACCESS.EXE: "Microsoft Access" [NEW]
+           → Bearb. Essensplan (gegessen, zu essen, Start Korre (11.2%)
+           → Bearb. Essensplan (gegessen / Lokalsuche / Konsuma (10.0%)
+           → Bearb. Essensplan (Update Händlerangebote) LEEPUH  (9.1%)
+           + 106 more activities
+           ←96% →95%
 
-  [6h 43m] msedge.exe: "OpenClaw Control und 4 weitere Seiten - Persönlich – Mi" [NEW]
-           → Diskussion Redesign Nacherfassung mit OpenClaw KSP (21.5%)
-           → Arbeitszeit absolvieren (Vormittag) BREPDZ         (14.2%)
-           → Diskussion OpenClaw (Fahrzeugskonto) FZDIOC        (12.9%)
-           + 29 more activities
+  [5h 23m] msedge.exe: "OpenClaw Control und 4 weitere Seiten - Persönlich – Mi" [NEW]
+           → Diskussion Redesign Nacherfassung mit OpenClaw KSP (26.9%)
+           → Diskussion OpenClaw (Fahrzeugskonto) FZDIOC        (16.1%)
+           → Diskussion OpenClaw KSPLEN                         (14.6%)
+           + 27 more activities
            ←93% →94%
-
-  [6h 38m] notepad.exe: "*Essensplan 18.8.2025 ab Jause.txt - Editor" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (49.6%)
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ (Fs.)  (10.0%)
-           → Zeiten sammeln BREPZS                              (7.1%)
-           + 73 more activities
-           ←87% →82%
-
-  [6h 02m] MSACCESS.EXE: "Microsoft Access" [NEW]
-           → Bearb. Essensplan (gegessen, zu essen, Start Korre (11.0%)
-           → Bearb. Essensplan (gegessen / Lokalsuche / Konsuma (9.8%)
-           → Bearb. Essensplan (Update Händlerangebote) LEEPUH  (8.9%)
-           + 109 more activities
-           ←95% →95%
-
-  [5h 42m] Window logger.exe: "BR - Fahrt/Dienstz. BRZG: idle" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (52.6%)
-           → Fahrt BRZG BRFAFA                                  (17.5%)
-           → Planung BRZ BREPGM                                 (8.8%)
-           + 3 more activities
-           ←100% →50%
-
-  [4h 16m] EXCEL.EXE: "Microsoft Excel - Library Andon FM.xls" [NEW]
-           → Arbeitszeit absolvieren (Vormittag) BREPDZ         (21.8%)
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (18.9%)
-           → Untersuchung Rotation Andon FM / OpenAIR RWPLAF    (13.5%)
-           + 74 more activities
-           ←92% →90%
-
-  [4h 06m] msedge.exe: "OpenClaw Control und 10 weitere Seiten - Persönlich – M" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (40.8%)
-           → Diskussion Planer mit OpenClaw KSPLEN              (20.4%)
-           → Einlass / Koordination / Zahlung / Verabschiedung  (12.1%)
-           + 16 more activities
-           ←91% →92%
 
   [4h 04m] msedge.exe: "OpenClaw Control und 5 weitere Seiten - Persönlich – Mi" [NEW]
            → Diskussion OpenClaw über Tagesplaner u.a. KSPLEN   (46.0%)
@@ -149,39 +107,25 @@
            + 25 more activities
            ←95% →92%
 
-  [3h 50m] msedge.exe: "Andon FM | Andon Labs und 11 weitere Seiten - Persönlic" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (37.6%)
-           → Planung BRZ BREPGM                                 (27.3%)
-           → Arbeitszeit absolvieren (Vormittag) BREPDZ         (14.3%)
-           + 32 more activities
-           ←99% →89%
-
   [3h 42m] msedge.exe: "OpenClaw Control und 7 weitere Seiten - Persönlich – Mi" [NEW]
            → Diskussion Vortag mit OpenClaw KSPLDI              (20.2%)
            → Diskussion OpenClaw (Plan SW-Friedhof 25.3.) VEPLP (19.1%)
            → Verbesserung Tagesplaner mit OpenClaw KSPLAW       (18.1%)
-           + 24 more activities
+           + 23 more activities
            ←91% →83%
-
-  [3h 27m] EXCEL.EXE: "Microsoft Excel - Statistik_heute.csv" [NEW]
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (27.7%)
-           → Untersuchung Rotation Andon FM / OpenAIR RAAFAN    (18.0%)
-           → Untersuchung Playlist Andon FM RAAFAN              (4.9%)
-           + 73 more activities
-           ←89% →92%
 
   [2h 47m] msedge.exe: "OpenClaw Control und 9 weitere Seiten - Persönlich – Mi" [NEW]
            → Diskussion Planer mit OpenClaw KSPLEN              (36.4%)
            → Diskussion Planer / Tagesablauf mit OpenClaw KSPLE (18.1%)
            → Diskussion OpenClaw KSPLEN                         (11.3%)
-           + 18 more activities
+           + 17 more activities
            ←96% →93%
 
-  [2h 47m] notepad.exe: "*Unbenannt - Editor" [NEW]
-           → Analyse Andon FM RWPLAF                            (45.5%)
-           → Surfen Andon FM RAAFSU                             (10.7%)
-           → Transkribierung Text Gerhard Polt - Der Kinderfunk (8.5%)
-           + 38 more activities
+  [2h 45m] notepad.exe: "*Unbenannt - Editor" [NEW]
+           → Analyse Andon FM RWPLAF                            (45.9%)
+           → Surfen Andon FM RAAFSU                             (10.8%)
+           → Transkribierung Text Gerhard Polt - Der Kinderfunk (8.6%)
+           + 37 more activities
            ←99% →96%
 
   [2h 38m] msedge.exe: "OpenClaw Control und 3 weitere Seiten - Persönlich – Mi" [NEW]
@@ -198,74 +142,131 @@
            + 32 more activities
            ←85% →79%
 
-  [2h 31m] python.exe: "Tagesplanung — Reaktiver Planer" [NEW]
-           → Nacherfassung Ablauf KSPLNA                        (33.1%)
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (12.6%)
-           → Anwendung der Zwischenraumzahnbürste LEAZZZ        (10.0%)
-           + 76 more activities
-           ←95% →95%
+  [2h 30m] Live365Scraper.exe: "Live365 Scraper" [NEW]
+           → Der Außentemperatur entsprechend anziehen LEAUAZ   (48.9%)
+           → Laufen / Scootersuche GEGYLS                       (22.2%)
+           → Anwendung der Zwischenraumzahnbürste LEAZZZ        (18.4%)
+           + 44 more activities
+           ←93% →92%
 
-  [2h 30m] Window logger.exe: "BR - Fahrt/Dienstz. BRZG: C:\Program Files\Python311\py" [NEW]
-           → Mittagspause BRZG  LEMEBR                          (40.0%)
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (40.0%)
-           → Abhalten BKDD Standup Meeting BREPGM               (20.0%)
-           ←100% →25%
+  [2h 29m] EXCEL.EXE: "Microsoft Excel - Statistik_heute.csv" [NEW]
+           → Untersuchung Rotation Andon FM / OpenAIR RAAFAN    (25.1%)
+           → Untersuchung Playlist Andon FM RAAFAN              (6.8%)
+           → Untersuchung Rotation Andon FM / OpenAIR RWPLAF    (6.1%)
+           + 68 more activities
+           ←88% →91%
 
   [2h 27m] notepad.exe: "Windowlog.txt - Editor" [NEW]
            → Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATA (54.8%)
            → Nacherfassung Ablauf KSPLNA                        (15.2%)
            → Zähne putzen LEAZZP                                (4.6%)
-           + 49 more activities
+           + 48 more activities
            ←98% →96%
 
-  ... and 850 more ambiguous entries not shown
+  [2h 26m] msedge.exe: "OpenClaw Control und 6 weitere Seiten - Persönlich – Mi" [NEW]
+           → Diskussion ACP-Sitzungen / Subagents mit OpenClaw  (33.2%)
+           → Diskussion Tagesplanung mit OpenClaw KSPLEN        (23.0%)
+           → Diskussion Tagesplaner mit OpenClaw KSPLEN         (17.2%)
+           + 19 more activities
+           ←93% →90%
+
+  [2h 22m] msedge.exe: "OpenClaw Control und 10 weitere Seiten - Persönlich – M" [NEW]
+           → Diskussion Planer mit OpenClaw KSPLEN              (35.4%)
+           → Einlass / Koordination / Zahlung / Verabschiedung  (21.0%)
+           → Arbeit an Tagesplaner mit OpenClaw KSPLEN          (13.4%)
+           + 13 more activities
+           ←90% →92%
+
+  [2h 18m] msedge.exe: "OpenClaw Control und 13 weitere Seiten - Persönlich – M" [NEW]
+           → Diskussion Tagesplaner mit OpenClaw KSPLEN         (43.7%)
+           → Weitere Planer-Entwicklung mit OpenClaw KSPLEN     (39.1%)
+           → Arbeit an Tagesplanung / Planer-Entwicklung mit Op (6.9%)
+           + 12 more activities
+           ←94% →84%
+
+  [2h 17m] EXCEL.EXE: "Microsoft Excel - Library Andon FM.xls" [NEW]
+           → Untersuchung Rotation Andon FM / OpenAIR RWPLAF    (25.3%)
+           → Untersuchung nicht gespielte Titel Andon FM RAAFSU (12.7%)
+           → Untersuchung Rotation Andon FM / OpenAIR RAAFAN    (5.0%)
+           + 68 more activities
+           ←92% →91%
+
+  [2h 13m] msedge.exe: "OpenClaw Control und 8 weitere Seiten - Persönlich – Mi" [NEW]
+           → Diskussion OpenClaw (Mängel in Planer) KSPLEN      (30.6%)
+           → Weitere Planer-Entwicklung mit OpenClaw KSPLEN     (24.2%)
+           → Diskussion mit OpenClaw über Tagesablauf KSPLPL    (11.1%)
+           + 31 more activities
+           ←89% →87%
+
+  [2h 11m] python.exe: "Ungeplante Aktivität erfassen" [NEW]
+           → Nacherfassung Ablauf KSPLNA                        (43.5%)
+           → WC LEMTWC                                          (10.2%)
+           → WC LEEKWC                                          (6.9%)
+           + 94 more activities
+           ←95% →92%
+
+  [2h 06m] winamp.exe: "(Winamp playback)" [NEW]
+           → Duschen LEMTDU                                     (41.2%)
+           → Geschirr abwaschen LEMEGA                          (16.6%)
+           → Papiersortierung WFPAPA                            (12.9%)
+           + 57 more activities
+           ←84% →89%
+
+  [1h 56m] msedge.exe: "OpenClaw Control und 12 weitere Seiten - Persönlich – M" [NEW]
+           → Diskussion Tagesplaner mit OpenClaw KSPLEN         (33.2%)
+           → Diskussion Playlist Andon FM mit OpenClaw RAAFKO   (26.2%)
+           → Diskussion Planungsfehler mit OpenClaw KSPLEN      (17.8%)
+           + 19 more activities
+           ←95% →89%
+
+  ... and 838 more ambiguous entries not shown
 
 ───────────────────────────────────────────────────────────────────────────
   NEWLY LEARNED  (titles not previously in store)
 ───────────────────────────────────────────────────────────────────────────
 
-  [10h 39m] Live365Scraper.exe: "Live365 Scraper"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (23.5%)
   [9h 55m] python.exe: "Tagesplanung — Off-PC — Der Außentemperatur entsprechend anz"
            → Rückfahrt + ggf. Mittagessen unterwegs                  (20.2%)
-  [7h 43m] python.exe: "Tagesplanung — Off-PC — Fahrt BRZG BRFAFA"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (58.3%)
-  [6h 43m] msedge.exe: "OpenClaw Control und 4 weitere Seiten - Persönlich – Microso"
-           → Diskussion Redesign Nacherfassung mit OpenClaw KSPLEN   (21.5%)
-  [6h 38m] notepad.exe: "*Essensplan 18.8.2025 ab Jause.txt - Editor"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (49.6%)
-  [6h 02m] MSACCESS.EXE: "Microsoft Access"
-           → Bearb. Essensplan (gegessen, zu essen, Start Korrekturl (11.0%)
-  [5h 42m] Window logger.exe: "BR - Fahrt/Dienstz. BRZG: idle"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (52.6%)
-  [4h 16m] EXCEL.EXE: "Microsoft Excel - Library Andon FM.xls"
-           → Arbeitszeit absolvieren (Vormittag) BREPDZ              (21.8%)
-  [4h 06m] msedge.exe: "OpenClaw Control und 10 weitere Seiten - Persönlich – Micros"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (40.8%)
+  [5h 57m] MSACCESS.EXE: "Microsoft Access"
+           → Bearb. Essensplan (gegessen, zu essen, Start Korrekturl (11.2%)
+  [5h 23m] msedge.exe: "OpenClaw Control und 4 weitere Seiten - Persönlich – Microso"
+           → Diskussion Redesign Nacherfassung mit OpenClaw KSPLEN   (26.9%)
   [4h 04m] msedge.exe: "OpenClaw Control und 5 weitere Seiten - Persönlich – Microso"
            → Diskussion OpenClaw über Tagesplaner u.a. KSPLEN        (46.0%)
-  [3h 50m] msedge.exe: "Andon FM | Andon Labs und 11 weitere Seiten - Persönlich – M"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (37.6%)
   [3h 42m] msedge.exe: "OpenClaw Control und 7 weitere Seiten - Persönlich – Microso"
            → Diskussion Vortag mit OpenClaw KSPLDI                   (20.2%)
   [3h 31m] WINWORD.EXE: "Dokumentation Projekt Ohrwürmer 26.3.8.doc - Microsoft Word"
            → Dokumentation Ohrwurm-Projekt RWOWDO                    (72.0%)
-  [3h 27m] EXCEL.EXE: "Microsoft Excel - Statistik_heute.csv"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ             (27.7%)
   [2h 55m] WINWORD.EXE: "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8."
            → Dokumentation Ohrwurm-Projekt RWOWDO                    (98.9%)
   [2h 47m] msedge.exe: "OpenClaw Control und 9 weitere Seiten - Persönlich – Microso"
            → Diskussion Planer mit OpenClaw KSPLEN                   (36.4%)
-  [2h 47m] notepad.exe: "*Unbenannt - Editor"
-           → Analyse Andon FM RWPLAF                                 (45.5%)
+  [2h 45m] notepad.exe: "*Unbenannt - Editor"
+           → Analyse Andon FM RWPLAF                                 (45.9%)
   [2h 38m] msedge.exe: "OpenClaw Control und 3 weitere Seiten - Persönlich – Microso"
            → Diskussion Window Logs und Weiterentwicklung Planung mi (29.0%)
   [2h 32m] EXCEL.EXE: "Microsoft Excel - Programm Thinking Frequencies mit Tagging."
            → Analyse Thinking Frequencies Song-Tagging RWMPMP        (52.7%)
-  [2h 31m] python.exe: "Tagesplanung — Reaktiver Planer"
-           → Nacherfassung Ablauf KSPLNA                             (33.1%)
+  [2h 30m] Live365Scraper.exe: "Live365 Scraper"
+           → Der Außentemperatur entsprechend anziehen LEAUAZ        (48.9%)
+  [2h 29m] EXCEL.EXE: "Microsoft Excel - Statistik_heute.csv"
+           → Untersuchung Rotation Andon FM / OpenAIR RAAFAN         (25.1%)
+  [2h 27m] notepad.exe: "Windowlog.txt - Editor"
+           → Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATATA    (54.8%)
+  [2h 26m] msedge.exe: "OpenClaw Control und 6 weitere Seiten - Persönlich – Microso"
+           → Diskussion ACP-Sitzungen / Subagents mit OpenClaw KSPLE (33.2%)
+  [2h 22m] msedge.exe: "OpenClaw Control und 10 weitere Seiten - Persönlich – Micros"
+           → Diskussion Planer mit OpenClaw KSPLEN                   (35.4%)
+  [2h 18m] msedge.exe: "OpenClaw Control und 13 weitere Seiten - Persönlich – Micros"
+           → Diskussion Tagesplaner mit OpenClaw KSPLEN              (43.7%)
+  [2h 17m] EXCEL.EXE: "Microsoft Excel - Library Andon FM.xls"
+           → Untersuchung Rotation Andon FM / OpenAIR RWPLAF         (25.3%)
+  [2h 13m] msedge.exe: "OpenClaw Control und 8 weitere Seiten - Persönlich – Microso"
+           → Diskussion OpenClaw (Mängel in Planer) KSPLEN           (30.6%)
+  [2h 11m] python.exe: "Ungeplante Aktivität erfassen"
+           → Nacherfassung Ablauf KSPLNA                             (43.5%)
 
-  ... and 4287 more newly learned entries not shown
+  ... and 4234 more newly learned entries not shown
 
 ───────────────────────────────────────────────────────────────────────────
   TRANSITION ANALYSIS
@@ -273,36 +274,36 @@
 
   DURCHREICHER (←hoch →hoch) — rauscharme Titel ohne eigene Aktivität
 
-  [10h 39m] Live365Scraper.exe: "Live365 Scraper"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (23.5%)  ←94% →89%
-  [6h 43m] msedge.exe: "OpenClaw Control und 4 weitere Seiten - Persönlich"
-           → Diskussion Redesign Nacherfassung mit OpenClaw KSP (21.5%)  ←93% →94%
-  [6h 38m] notepad.exe: "*Essensplan 18.8.2025 ab Jause.txt - Editor"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (49.6%)  ←87% →82%
-  [6h 02m] MSACCESS.EXE: "Microsoft Access"
-           → Bearb. Essensplan (gegessen, zu essen, Start Korre (11.0%)  ←95% →95%
-  [4h 16m] EXCEL.EXE: "Microsoft Excel - Library Andon FM.xls"
-           → Arbeitszeit absolvieren (Vormittag) BREPDZ         (21.8%)  ←92% →90%
-  [4h 06m] msedge.exe: "OpenClaw Control und 10 weitere Seiten - Persönlic"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (40.8%)  ←91% →92%
+  [5h 57m] MSACCESS.EXE: "Microsoft Access"
+           → Bearb. Essensplan (gegessen, zu essen, Start Korre (11.2%)  ←96% →95%
+  [5h 23m] msedge.exe: "OpenClaw Control und 4 weitere Seiten - Persönlich"
+           → Diskussion Redesign Nacherfassung mit OpenClaw KSP (26.9%)  ←93% →94%
   [4h 04m] msedge.exe: "OpenClaw Control und 5 weitere Seiten - Persönlich"
            → Diskussion OpenClaw über Tagesplaner u.a. KSPLEN   (46.0%)  ←95% →92%
-  [3h 50m] msedge.exe: "Andon FM | Andon Labs und 11 weitere Seiten - Pers"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (37.6%)  ←99% →89%
   [3h 42m] msedge.exe: "OpenClaw Control und 7 weitere Seiten - Persönlich"
            → Diskussion Vortag mit OpenClaw KSPLDI              (20.2%)  ←91% →83%
-  [3h 27m] EXCEL.EXE: "Microsoft Excel - Statistik_heute.csv"
-           → Arbeitszeit absolvieren (Nachmittag) BREPDZ        (27.7%)  ←89% →92%
   [2h 47m] msedge.exe: "OpenClaw Control und 9 weitere Seiten - Persönlich"
            → Diskussion Planer mit OpenClaw KSPLEN              (36.4%)  ←96% →93%
-  [2h 47m] notepad.exe: "*Unbenannt - Editor"
-           → Analyse Andon FM RWPLAF                            (45.5%)  ←99% →96%
+  [2h 45m] notepad.exe: "*Unbenannt - Editor"
+           → Analyse Andon FM RWPLAF                            (45.9%)  ←99% →96%
   [2h 38m] msedge.exe: "OpenClaw Control und 3 weitere Seiten - Persönlich"
            → Diskussion Window Logs und Weiterentwicklung Planu (29.0%)  ←96% →90%
-  [2h 31m] python.exe: "Tagesplanung — Reaktiver Planer"
-           → Nacherfassung Ablauf KSPLNA                        (33.1%)  ←95% →95%
+  [2h 30m] Live365Scraper.exe: "Live365 Scraper"
+           → Der Außentemperatur entsprechend anziehen LEAUAZ   (48.9%)  ←93% →92%
+  [2h 29m] EXCEL.EXE: "Microsoft Excel - Statistik_heute.csv"
+           → Untersuchung Rotation Andon FM / OpenAIR RAAFAN    (25.1%)  ←88% →91%
   [2h 27m] notepad.exe: "Windowlog.txt - Editor"
            → Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATA (54.8%)  ←98% →96%
+  [2h 26m] msedge.exe: "OpenClaw Control und 6 weitere Seiten - Persönlich"
+           → Diskussion ACP-Sitzungen / Subagents mit OpenClaw  (33.2%)  ←93% →90%
+  [2h 22m] msedge.exe: "OpenClaw Control und 10 weitere Seiten - Persönlic"
+           → Diskussion Planer mit OpenClaw KSPLEN              (35.4%)  ←90% →92%
+  [2h 18m] msedge.exe: "OpenClaw Control und 13 weitere Seiten - Persönlic"
+           → Diskussion Tagesplaner mit OpenClaw KSPLEN         (43.7%)  ←94% →84%
+  [2h 17m] EXCEL.EXE: "Microsoft Excel - Library Andon FM.xls"
+           → Untersuchung Rotation Andon FM / OpenAIR RWPLAF    (25.3%)  ←92% →91%
+  [2h 13m] msedge.exe: "OpenClaw Control und 8 weitere Seiten - Persönlich"
+           → Diskussion OpenClaw (Mängel in Planer) KSPLEN      (30.6%)  ←89% →87%
 
   EINTRITTS-MARKER (←niedrig →hoch) — Titel signalisiert START einer neuen Aktivität
 
@@ -310,8 +311,6 @@
            → WC LEMTWC                                          (100.0%)  ←0% →100%
   [    2m] msedge.exe: "Sam Cooke - (What A) Wonderful World (Karaoke Vers"
            → Duschen LEMTDU                                     (100.0%)  ←0% →100%
-  [    2m] msedge.exe: "RJ Scaringe: Self-Driving Cars, Next 10 years Chan"
-           → Bearb. Essensplan (gegessen / Lokalsuche / Konsuma (81.6%)  ←33% →100%
   [    1m] python.exe: "windowmon 22:12-22:52"
            → Nacherfassung Ablauf KSPLNA                        (100.0%)  ←0% →100%
   [    1m] msedge.exe: "5 Ai's Work Together to Build Sonic From Scratch -"
@@ -336,11 +335,11 @@
            → Spielen Kreuzungs-FGPA CSEXKF                      (65.5%)  ←33% →100%
   [    0m] python.exe: "Aufgabe erledigt — Einschmieren GEAZES"
            → Scan OpenAIR                                       (29.6%)  ←25% →100%
+  [    0m] Window logger.exe: "RA - Analyse Thinking Frequencies RWANTF: Thinking"
+           → Bett machen LEAZHW                                 (100.0%)  ←0% →100%
 
   AUSTRITTS-MARKER (←hoch →niedrig) — Titel signalisiert ENDE einer Aktivität
 
-  [2h 30m] Window logger.exe: "BR - Fahrt/Dienstz. BRZG: C:\Program Files\Python3"
-           → Mittagspause BRZG  LEMEBR                          (40.0%)  ←100% →25%
   [1h 14m] python.exe: "Tagesplanung — Off-PC — Mittagessen (externes Loka"
            → Mittagessen (externes Lokal) LEMEEX                (100.0%)  ←100% →0%
   [1h 11m] Window logger.exe: "LE - Morgent.+Frst.: idle"
@@ -355,10 +354,10 @@
            → Duschen LEMTDU                                     (90.4%)  ←100% →40%
   [   32m] Window logger.exe: "BR -  Arbeitszeit absolvieren (Nachmittag): Tagesp"
            → Nacherfassung Ablauf KSPLNA                        (100.0%)  ←100% →0%
+  [   25m] Window logger.exe: "KS - Planung: Tagesplanung — Reaktiver Planer"
+           → Anwendung der Zwischenraumzahnbürste LEAZZZ        (19.1%)  ←100% →45%
   [   24m] python.exe: "Tagesplanung — Off-PC — Bearbeitung Buch Champion'"
            → Bearbeitung Buch Champion's Mindset GELICM         (99.3%)  ←100% →40%
-  [   20m] msedge.exe: "Hitservice | kronehit und 12 weitere Seiten - Pers"
-           → Start Teleworking BRZG BRTWGF                      (56.8%)  ←80% →40%
   [   18m] Window logger.exe: "KS - Planung: Tagesplanung — Reaktiver Planer — Fe"
            → Feinschliff bei der Rasur LEMTFR                   (100.0%)  ←100% →33%
   [   14m] python.exe: "Tagesplanung — Off-PC — Einschmieren GEAZES"
@@ -369,13 +368,15 @@
            → Der Außentemperatur entsprechend anziehen LEAUAZ   (100.0%)  ←100% →0%
   [   11m] Window logger.exe: "LE - Morgent.+Frst.: C:\Program Files\Python311\py"
            → Duschen LEMTDU                                     (60.7%)  ←100% →0%
+  [   11m] Window logger.exe: "GE - Laufen / Scootersuche: idle"
+           → Laufen / E-Bike-Suche GEGYLS                       (100.0%)  ←100% →0%
 
 ===========================================================================
   SUMMARY
 ===========================================================================
-  Total entries in store : 4307
+  Total entries in store : 4254
   Entries updated (EMA)  : 0
-  Entries new            : 4307
+  Entries new            : 4254
   Entries unchanged      : 0
   Store path             : C:\Users\kurt_\.openclaw\workspace\kontensystem\tools\..\data\confidence_store.json
 

@@ -36,6 +36,29 @@ STORE_PATH = os.path.join(DATA_DIR, "confidence_store.json")
 SKIP_TITLES = {"", "Programmumschaltung"}
 SKIP_PROCESSES = {"ShellExperienceHost.exe", "SearchApp.exe"}
 
+# Activities containing these substrings are teleworking indicators.
+# During teleworking, the private PC window titles don't reflect the actual
+# activity (user is working on company laptop). Exclude from confidence
+# calculations to avoid skewing title → activity mappings.
+TELEWORKING_FILTERS = [
+    "Arbeitszeit absolvieren",
+    "BREPDZ",   # Arbeitszeit absolvieren (Dienstzeit)
+    "BRTWGF",   # Start Teleworking
+    "BREPGM",   # Planung BRZ / Meetings / Essensplan im BRZ
+    "BREPWC",   # WC (nur im BRZ-Kontext)
+    "BREPZE",   # Eingabe Zeiterfassung/Teleworking SAP
+    "BREPZS",   # Zeiten sammeln
+    "BRFAFA",   # Fahrt BRZG
+    "BRFAHF",   # Heimfahrt vom BRZ
+    "BRALAB",   # Abschluss
+    "BRZG",     # allgemein BRZ-bezogen
+    "BKDD",     # Standup Meeting
+]
+
+def _is_teleworking(activity):
+    """Return True if the activity matches any teleworking filter substring."""
+    return any(f in activity for f in TELEWORKING_FILTERS)
+
 # EMA parameters
 EMA_OLD = 0.80
 EMA_NEW = 0.20
@@ -317,8 +340,14 @@ def process_day(date_str, observations, transitions):
         event_data.append((store_key, activity, duration_seconds))
 
     # Update observations (existing logic)
+    # Skip teleworking activities — during teleworking the private PC windows
+    # don't reflect the actual activity (user is on company laptop).
+    teleworking_filtered = 0
     for store_key, activity, duration_secs in event_data:
         if activity is None:
+            continue
+        if _is_teleworking(activity):
+            teleworking_filtered += 1
             continue
         matched_count += 1
         if store_key not in observations:
@@ -327,7 +356,9 @@ def process_day(date_str, observations, transitions):
 
     # ── Transition computation ─────────────────────────────────────────────
     # Build matched_events list: (store_key, activity) for events with activities
-    matched_events = [(sk, act) for sk, act, _ in event_data if act is not None]
+    # Also exclude teleworking activities from transitions
+    matched_events = [(sk, act) for sk, act, _ in event_data
+                      if act is not None and not _is_teleworking(act)]
     n = len(matched_events)
 
     if n > 0:
