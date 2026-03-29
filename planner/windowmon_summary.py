@@ -29,6 +29,111 @@ from typing import Dict, List, Optional, Tuple
 
 
 # ═══════════════════════════════════════════════════════════════════════════ #
+#  Confidence Store                                                          #
+#  Lazy-loading singleton for confidence_learner data.                       #
+# ═══════════════════════════════════════════════════════════════════════════ #
+
+class ConfidenceStore:
+    """Lazy-loading confidence store from confidence_learner data."""
+
+    _instance = None
+    _data = None
+
+    # Minimum confidence to use a store suggestion
+    MIN_CONFIDENCE = 0.50
+    # If p_same_before AND p_same_after are above this, the title is a
+    # "Durchreicher" (noise) and the previous activity should continue.
+    DURCHREICHER_THRESHOLD = 0.85
+
+    @classmethod
+    def get(cls):
+        if cls._instance is None:
+            cls._instance = cls()
+        return cls._instance
+
+    def __init__(self):
+        if ConfidenceStore._data is None:
+            self._load()
+
+    def _load(self):
+        store_path = os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+            "data", "confidence_store.json"
+        )
+        if os.path.exists(store_path):
+            try:
+                with open(store_path, "r", encoding="utf-8") as f:
+                    ConfidenceStore._data = json.load(f)
+            except (json.JSONDecodeError, IOError):
+                ConfidenceStore._data = {}
+        else:
+            ConfidenceStore._data = {}
+
+    def lookup(self, process, title):
+        """Look up a normalized title in the confidence store.
+
+        Returns (account, activity, confidence, is_durchreicher) or None.
+
+        is_durchreicher=True means the title is noise and the previous
+        activity should be continued rather than using this suggestion.
+        """
+        norm_title = self._normalize_title(process, title)
+        key = f"{process}||{norm_title}"
+
+        entry = ConfidenceStore._data.get(key)
+        if entry is None:
+            return None
+
+        confidences = entry.get("confidences", {})
+        if not confidences:
+            return None
+
+        # Find top activity
+        top_activity = max(confidences, key=confidences.get)
+        top_conf = confidences[top_activity]
+
+        if top_conf < self.MIN_CONFIDENCE:
+            return None
+
+        # Check if this is a Durchreicher (noise title)
+        p_before = entry.get("p_same_before", 1.0)
+        p_after = entry.get("p_same_after", 1.0)
+        is_durchreicher = (p_before >= self.DURCHREICHER_THRESHOLD and
+                           p_after >= self.DURCHREICHER_THRESHOLD and
+                           top_conf < 0.70)
+
+        # Extract account from task code in activity name (last word, 4-6 caps)
+        code_match = re.search(r'\s([A-Z]{4,6})\s*$', top_activity)
+        if code_match:
+            account = code_match.group(1)[:2]
+        else:
+            account = "_UNCLASSIFIABLE"
+
+        return (account, top_activity, top_conf, is_durchreicher)
+
+    @staticmethod
+    def _normalize_title(process, title):
+        """Same normalization as confidence_learner.py."""
+        result = title
+
+        if process and process.lower() == "msedge.exe":
+            result = re.sub(
+                r'\s+und\s+\d+\s+weitere\s+Seite[n]?\s+-\s+Pers\u00f6nlich\s+[\u2013-]\s+Microsoft\s*Edge\s*$',
+                '', result, flags=re.IGNORECASE)
+            result = re.sub(
+                r'\s+-\s+Pers\u00f6nlich\s+[\u2013-]\s+Microsoft\s*Edge\s*$',
+                '', result, flags=re.IGNORECASE)
+
+        if process and process.lower() == "winamp.exe":
+            result = "(Winamp playback)"
+
+        result = re.sub(r'\s+\(Keine\s+R\u00fcckmeldung\)\s*$', '', result,
+                        flags=re.IGNORECASE)
+        result = result.rstrip()
+        return result
+
+
+# ═══════════════════════════════════════════════════════════════════════════ #
 #  AutoDetect Rules                                                          #
 #  Map window titles/processes to account codes + activity names.            #
 #  Order matters: first match wins.                                          #
@@ -704,11 +809,31 @@ def classify_entry(entry: Dict) -> Tuple[str, str]:
                         return "RW", scan_target
                     return "RW", "Radio Würmchen"
 
-                # _EXPLORER_ACCOUNT_HINT and _UNCLASSIFIABLE are passed
-                # through to build_activity_blocks for context-aware handling
+                # When a hardcoded rule yields _UNCLASSIFIABLE, try the
+                # confidence store before giving up.
+                # All other special accounts (_EXPLORER_ACCOUNT_HINT,
+                # _WINLOGGER, etc.) pass through unchanged.
+                if account == "_UNCLASSIFIABLE":
+                    store_result = ConfidenceStore.get().lookup(process, title)
+                    if store_result is not None:
+                        s_account, s_activity, s_conf, s_durch = store_result
+                        if s_durch:
+                            # Durchreicher: still unclassifiable so block
+                            # builder continues the previous activity.
+                            return "_UNCLASSIFIABLE", activity
+                        else:
+                            return s_account, s_activity
+
                 return account, activity
         except Exception:
             continue
+
+    # Final fallback: try confidence store for completely unknown titles
+    store_result = ConfidenceStore.get().lookup(process, title)
+    if store_result is not None:
+        s_account, s_activity, s_conf, s_durch = store_result
+        if not s_durch:
+            return s_account, s_activity
 
     return "_UNCLASSIFIABLE", "Sonstige PC-Nutzung"
 
