@@ -1,0 +1,409 @@
+===========================================================================
+  FENSTERTITEL-STABILITÄTSANALYSE
+  Datum: 2026-03-28
+===========================================================================
+
+  Tage verarbeitet: 1  |  Mit Daten: 1
+  Fenster-Events:   2491  |  Gematchte: 2392
+  Einzigartige (Prozess, Titel)-Paare: 569
+
+  Klassifiziert (>= 120s Dauer): 96
+
+  Klasse       Anzahl Gesamtzeit  Beschreibung
+  ──────────── ────── ──────────  ────────────────────────────────────────
+  STÖRER           38    11h 11m  Niedrige Exkl. + Hohe Stab. → Noise/Popup
+  MARKER            4        19m  Hohe Exkl. + Niedrige Stab. → Wechsel-Signal
+  KONSISTENT       54     9h 17m  Hohe Exkl. + Hohe Stab. → Stabile Zuordnung
+  AMBIG             0         0m  Niedrige Exkl. + Niedrige Stab. → Unklar
+
+===========================================================================
+  🚫 STÖRER — Niedrige Exkl. + Hohe Stab. → Noise/Popup
+===========================================================================
+
+  [6h 37m] python.exe: "Ungespeicherte Änderungen"
+          Exkl=0%  Stab=100%  Wechsel=0/0  Aktivitäten=0
+
+  [   50m] msedge.exe: "OpenClaw Control und 19 weitere Seiten - Persönlich – Micros"
+          Exkl=46%  Stab=98%  Wechsel=1/44  Aktivitäten=3
+          → Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN (46.2%, 23m)
+          → Diskussion Issues in Planer mit OpenClaw KSPLEN    (42.4%, 21m)
+          → Ansehen ZiB 1 + Wetter RATVZI                      (11.4%, 6m)
+
+  [   19m] MSACCESS.EXE: "Microsoft Access"
+          Exkl=26%  Stab=95%  Wechsel=5/98  Aktivitäten=19
+          → Bearb. Essensplan (gegessen / Lokalsuche / Konsuma (25.9%, 5m)
+          → Bearb. Essensplan (Ereignisse / gegessen / zu esse (11.1%, 2m)
+          → Anwendung Zahnseide LEAZZS                         (10.2%, 2m)
+          + 16 weitere
+
+  [   18m] python.exe: "Tagesplanung — Off-PC — Nachmittagsjause fassen LENAJA"
+          Exkl=37%  Stab=100%  Wechsel=0/31  Aktivitäten=12
+          → Diskussion Issues in Planer mit OpenClaw KSPLEN    (37.1%, 7m)
+          → Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN (18.4%, 3m)
+          → WC LENJWC                                          (16.1%, 3m)
+          + 9 weitere
+
+  [   13m] msedge.exe: "Andon FM | Andon Labs und 11 weitere Seiten - Persönlich – M"
+          Exkl=63%  Stab=100%  Wechsel=0/9  Aktivitäten=5
+          → Zähne putzen GEMTZP                                (63.0%, 8m)
+          → Tweet / Spende an OpenAIR RWAFTW                   (34.3%, 5m)
+          → Surfen Andon FM RAAFSU                             ( 1.5%, 0m)
+          + 2 weitere
+
+  [   13m] python.exe: "Tagesplanung — Off-PC — Bearb. Essensplan (gegessen, zu esse"
+          Exkl=44%  Stab=100%  Wechsel=0/15  Aktivitäten=7
+          → WC LEEKWC                                          (43.6%, 6m)
+          → Nacherfassung Ablauf KSPLNA                        (23.7%, 3m)
+          → Wasser fassen LEMTGA                               (11.3%, 1m)
+          + 4 weitere
+
+  [   12m] EXCEL.EXE: "Microsoft Excel - Library Andon FM.xls"
+          Exkl=26%  Stab=83%  Wechsel=3/18  Aktivitäten=10
+          → Surfen Andon FM RAAFSU                             (26.0%, 3m)
+          → Untersuchung Playlist Andon FM RAAFSU              (22.7%, 3m)
+          → Untersuchung Rotation Andon FM / OpenAIR RAAFAN    (17.3%, 2m)
+          + 7 weitere
+
+  [   11m] python.exe: "Tagesplanung — Reaktiver Planer — Nachmittagsjause fassen LE"
+          Exkl=44%  Stab=89%  Wechsel=6/55  Aktivitäten=10
+          → Diskussion Issues in Planer mit OpenClaw KSPLEN    (44.5%, 5m)
+          → Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN (25.2%, 3m)
+          → Nacherfassung Ablauf KSPLNA                        (19.3%, 2m)
+          + 7 weitere
+
+  [   10m] Radio Würmchen.exe: "Radio Würmchen 26.2.20 - Scan OpenAIR"
+          Exkl=68%  Stab=89%  Wechsel=1/9  Aktivitäten=3
+          → Scan Thinking Frequencies                          (67.5%, 7m)
+          → Scan OpenAIR                                       (29.8%, 3m)
+          → Dokumentation Ohrwurm-Projekt RWOWDO               ( 2.7%, 0m)
+
+  [    9m] msedge.exe: "OpenClaw Control und 5 weitere Seiten - Persönlich – Microso"
+          Exkl=64%  Stab=100%  Wechsel=0/13  Aktivitäten=3
+          → Durchsehen weitere potentielle Issues für Tagespla (63.8%, 6m)
+          → Einrichtung Issues für Tagesplaner KSPLPL          (36.0%, 3m)
+          → Nacherfassung Ablauf KSPLNA                        ( 0.2%, 0m)
+
+  [    9m] notepad.exe: "Andon FM Station logs.txt.music.txt - Editor"
+          Exkl=28%  Stab=98%  Wechsel=1/41  Aktivitäten=9
+          → Scan Thinking Frequencies                          (28.1%, 2m)
+          → Anhören RW-Prg. / Tonträger / Radiosender / Ohrwür (23.1%, 2m)
+          → Untersuchung Playlist Andon FM RAAFSU              (16.1%, 1m)
+          + 6 weitere
+
+  [    7m] python.exe: "Tagesplanung — Off-PC — Geschirr abwaschen LEMEGA"
+          Exkl=64%  Stab=100%  Wechsel=0/6  Aktivitäten=5
+          → Geschirr abwaschen LEMEGA                          (64.0%, 5m)
+          → Versorgung Mitbringsel LEPOPO                      (31.2%, 2m)
+          → Bearb. Essensplan (Ereignisse / gegessen / zu esse ( 3.7%, 0m)
+          + 2 weitere
+
+  [    7m] MSACCESS.EXE: "Microsoft Access - [Tab_gegessen]"
+          Exkl=65%  Stab=70%  Wechsel=3/10  Aktivitäten=4
+          → Bearb. Essensplan LEEPEP                           (64.9%, 5m)
+          → Bearb. Essensplan (Änderung Sollwerte) LEEPUH      (22.8%, 2m)
+          → Durchsehen weitere potentielle Issues für Tagespla ( 7.5%, 1m)
+          + 1 weitere
+
+  [    7m] msedge.exe: "OpenClaw Control und 20 weitere Seiten - Persönlich – Micros"
+          Exkl=40%  Stab=98%  Wechsel=1/41  Aktivitäten=8
+          → Diskussion OpenClaw KSPLEN                         (39.5%, 3m)
+          → Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN (29.5%, 2m)
+          → Anhören RW-Prg. / Tonträger / Radiosender / Ohrwür (17.1%, 1m)
+          + 5 weitere
+
+  [    7m] MSACCESS.EXE: "Microsoft Access - [Abf_Scans_Andon_FM_nach_letztem_Hoerdatu"
+          Exkl=38%  Stab=95%  Wechsel=1/19  Aktivitäten=11
+          → Scan Thinking Frequencies                          (37.8%, 2m)
+          → Surfen / Auswertung Andon FM RAAFSU                (17.6%, 1m)
+          → Surfen Andon FM RAAFSU                             (15.3%, 1m)
+          + 8 weitere
+
+  [    6m] python.exe: "Tagesplanung — Off-PC — Bearb. Essensplan (gegessen / Lokals"
+          Exkl=61%  Stab=80%  Wechsel=1/5  Aktivitäten=4
+          → Anziehen LEMTAN                                    (60.9%, 3m)
+          → Nacherfassung Ablauf KSPLNA                        (28.9%, 2m)
+          → Surfen / Auswertung Andon FM RAAFSU                ( 9.9%, 1m)
+          + 1 weitere
+
+  [    5m] notepad.exe: "Windowlog.txt - Editor"
+          Exkl=46%  Stab=100%  Wechsel=0/16  Aktivitäten=3
+          → Einrichtung Issues für Tagesplaner KSPLPL          (46.0%, 2m)
+          → Diskussion Tagesablauf + Planer mit OpenClaw KSPLE (33.9%, 2m)
+          → Scan Thinking Frequencies                          (20.2%, 1m)
+
+  [    5m] python.exe: "Tagesplanung — Reaktiver Planer — Vorbereitung Playlist für "
+          Exkl=51%  Stab=85%  Wechsel=4/27  Aktivitäten=6
+          → Nacherfassung Ablauf KSPLNA                        (50.7%, 2m)
+          → Vorbereitung Playlist für Hören unter der Dusche R (34.3%, 2m)
+          → Diskussion Tagesablauf + Planer mit OpenClaw KSPLE ( 8.8%, 0m)
+          + 3 weitere
+
+  [    5m] python.exe: "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegesse"
+          Exkl=59%  Stab=81%  Wechsel=7/37  Aktivitäten=9
+          → Nacherfassung Ablauf KSPLNA                        (59.0%, 3m)
+          → Bearb. Essensplan (gegessen, zu essen, Start Korre (12.8%, 1m)
+          → Erfassung Ablauf KSPLEA                            ( 7.0%, 0m)
+          + 6 weitere
+
+  [    4m] msedge.exe: "Andon FM | Andon Labs und 20 weitere Seiten - Persönlich – M"
+          Exkl=45%  Stab=92%  Wechsel=1/12  Aktivitäten=4
+          → Spende + Tweet an Grok'n Roll RWMPAR               (45.2%, 2m)
+          → Tweet an Grok'n Roll RWMPAR                        (41.5%, 2m)
+          → Dokumentation Ohrwurm-Projekt RWOWDO               ( 9.3%, 0m)
+          + 1 weitere
+
+  [    4m] python.exe: "Tagesplanung — Off-PC — Einpacken für Einkauf (Essensdatenba"
+          Exkl=56%  Stab=100%  Wechsel=0/14  Aktivitäten=4
+          → Nacherfassung Ablauf KSPLNA                        (56.3%, 2m)
+          → Einpacken für Einkauf (Essensdatenbank, Rucksack,  (41.4%, 2m)
+          → Scan Thinking Frequencies                          ( 1.5%, 0m)
+          + 1 weitere
+
+  [    4m] notepad.exe: "windowmon-2026-03-28.jsonl - Editor"
+          Exkl=46%  Stab=100%  Wechsel=0/25  Aktivitäten=5
+          → Diskussion Tagesablauf + Planer mit OpenClaw KSPLE (45.6%, 2m)
+          → Scan Thinking Frequencies                          (29.7%, 1m)
+          → Diskussion Issues in Planer mit OpenClaw KSPLEN    (18.1%, 1m)
+          + 2 weitere
+
+  [    4m] explorer.exe: "USB-STICK (F:)"
+          Exkl=27%  Stab=100%  Wechsel=0/17  Aktivitäten=9
+          → Surfen / Auswertung Andon FM RAAFSU                (26.7%, 1m)
+          → Einpacken für Einkauf (Essensdatenbank, Rucksack,  (20.5%, 1m)
+          → Bearb. Essensplan (gegessen / Lokalsuche / Konsuma (18.2%, 1m)
+          + 6 weitere
+
+  [    4m] explorer.exe: "logs"
+          Exkl=44%  Stab=100%  Wechsel=0/32  Aktivitäten=7
+          → Diskussion Issues in Planer mit OpenClaw KSPLEN    (43.6%, 2m)
+          → Rasieren, dabei Planung + Vortagesreview (Reaktive (32.9%, 1m)
+          → Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN ( 8.5%, 0m)
+          + 4 weitere
+
+  [    4m] notepad.exe: "~Vergleich forcierter Preise.txt - Editor"
+          Exkl=29%  Stab=100%  Wechsel=0/9  Aktivitäten=6
+          → Bearb. Essensplan (gegessen, zu essen, Start Korre (28.5%, 1m)
+          → Bearb. Essensplan (gegessen / Lokalsuche / Konsuma (25.8%, 1m)
+          → Einpacken für Einkauf (Essensdatenbank, Rucksack,  (14.5%, 1m)
+          + 3 weitere
+
+  [    4m] python.exe: "C:\Program Files\Python311\python.exe"
+          Exkl=17%  Stab=94%  Wechsel=2/32  Aktivitäten=23
+          → Einkauf (BILLA Ederg.) / Laufen LEEKBI             (16.9%, 1m)
+          → Feinschliff bei der Rasur LEMTFR                   ( 9.1%, 0m)
+          → Frühstücken, dabei Vorbereitung Candeblo, Tee mach ( 9.1%, 0m)
+          + 20 weitere
+
+  [    3m] msedge.exe: "Google Übersetzer und 20 weitere Seiten - Persönlich – Micro"
+          Exkl=59%  Stab=100%  Wechsel=0/4  Aktivitäten=2
+          → Tweet an Grok'n Roll RWMPAR                        (59.2%, 2m)
+          → Konversation mit Andrew Pappas RAAFKO              (40.8%, 1m)
+
+  [    3m] python.exe: "Tagesplanung — Off-PC — Wohnung lüften WFLULU"
+          Exkl=65%  Stab=100%  Wechsel=0/3  Aktivitäten=3
+          → Erfassung Ablauf KSPLEA                            (64.8%, 2m)
+          → Wohnung lüften WFLULU                              (21.6%, 1m)
+          → Surfen / Analyse Andon FM RAAFSU                   (13.6%, 0m)
+
+  [    3m] msedge.exe: "X und 20 weitere Seiten - Persönlich – Microsoft​ Edge"
+          Exkl=38%  Stab=100%  Wechsel=0/7  Aktivitäten=6
+          → Tweet an Grok'n Roll RWMPAR                        (38.3%, 1m)
+          → Spende + Tweet an Grok'n Roll RWMPAR               (28.7%, 1m)
+          → Konversation mit Andrew Pappas RAAFKO              (20.7%, 1m)
+          + 3 weitere
+
+  [    3m] notepad.exe: "Essensplan 18.8.2025 ab Jause.txt - Editor"
+          Exkl=37%  Stab=100%  Wechsel=0/5  Aktivitäten=4
+          → Bearb. Essensplan (Änderung Sollwerte) LEEPUH      (37.2%, 1m)
+          → Bearb. Essensplan LEEPEP                           (36.0%, 1m)
+          → Frühstücken, dabei Vorbereitung Candeblo, Tee mach (14.0%, 0m)
+          + 1 weitere
+
+  ... und 8 weitere STÖRER-Einträge
+
+
+===========================================================================
+  🎯 MARKER — Hohe Exkl. + Niedrige Stab. → Wechsel-Signal
+===========================================================================
+
+  [    8m] python.exe: "Aufgabe erledigt — Zähne putzen GEMTZP"
+          Exkl=95%  Stab=67%  Wechsel=1/3  Aktivitäten=3
+          → Zähne putzen GEMTZP                                (95.3%, 7m)
+          → Nacherfassung Ablauf KSPLNA                        ( 4.7%, 0m)
+          → Blutdruck messen GEBMBM                            ( 0.0%, 0m)
+
+  [    5m] python.exe: "Tagesplanung — Off-PC — Vorbereitung Einkaufsliste LEEKEL"
+          Exkl=100%  Stab=50%  Wechsel=1/2  Aktivitäten=2
+          → Vorbereitung Einkaufsliste LEEKEL                  (99.7%, 5m)
+          → WC LENJWC                                          ( 0.3%, 0m)
+
+  [    3m] msedge.exe: "Andon FM | Andon Labs und 10 weitere Seiten - Persönlich – M"
+          Exkl=79%  Stab=62%  Wechsel=3/8  Aktivitäten=4
+          → Surfen / Auswertung Andon FM RAAFSU                (79.2%, 3m)
+          → Bearb. Essensplan (gegessen / Lokalsuche / Konsuma (13.5%, 0m)
+          → Surfen / Analyse Andon FM RAAFSU                   ( 6.3%, 0m)
+          + 1 weitere
+
+  [    3m] msedge.exe: "OpenClaw Control und 4 weitere Seiten - Persönlich – Microso"
+          Exkl=100%  Stab=67%  Wechsel=1/3  Aktivitäten=1
+          → Einrichtung Issues für Tagesplaner KSPLPL          (100.0%, 3m)
+
+
+===========================================================================
+  ✅ KONSISTENT — Hohe Exkl. + Hohe Stab. → Stabile Zuordnung
+===========================================================================
+
+  [1h 11m] python.exe: "Timeline Nacherfassung — 2026-03-28"
+          Exkl=85%  Stab=97%  Wechsel=4/159  Aktivitäten=9
+          → Nacherfassung Ablauf KSPLNA                        (84.8%, 59m)
+          → Diskussion Issues in Planer mit OpenClaw KSPLEN    ( 4.3%, 3m)
+          → Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN ( 4.0%, 3m)
+          + 6 weitere
+
+  [   53m] Radio Würmchen.exe: "Radio Würmchen 26.2.20 - Scan Thinking Frequencies"
+          Exkl=75%  Stab=87%  Wechsel=7/55  Aktivitäten=6
+          → Scan Thinking Frequencies                          (75.1%, 40m)
+          → Anhören RW-Prg. / Tonträger / Radiosender / Ohrwür (20.4%, 11m)
+          → Nacherfassung Ablauf KSPLNA                        ( 2.4%, 1m)
+          + 3 weitere
+
+  [   45m] msedge.exe: "OpenClaw Control und 3 weitere Seiten - Persönlich – Microso"
+          Exkl=84%  Stab=96%  Wechsel=1/26  Aktivitäten=3
+          → Diskussion Tagesablauf + Planer mit OpenClaw KSPLE (84.4%, 38m)
+          → Rasieren, dabei Planung + Vortagesreview (Reaktive (11.2%, 5m)
+          → Einrichtung Issues für Tagesplaner KSPLPL          ( 4.4%, 2m)
+
+  [   43m] python.exe: "Vorgezogene Aktivität erfassen — Lebenserhaltung — Einkauf ("
+          Exkl=100%  Stab=100%  Wechsel=0/3  Aktivitäten=2
+          → Einkauf (BILLA Ederg.) / Laufen LEEKBI             (99.6%, 42m)
+          → Müllentsorgung LEMÜMÜ                              ( 0.4%, 0m)
+
+  [   23m] msedge.exe: "OpenClaw Control und 18 weitere Seiten - Persönlich – Micros"
+          Exkl=100%  Stab=100%  Wechsel=0/27  Aktivitäten=1
+          → Diskussion Issues in Planer mit OpenClaw KSPLEN    (100.0%, 23m)
+
+  [   22m] Code.exe: "Visual Studio Code"
+          Exkl=75%  Stab=100%  Wechsel=0/3  Aktivitäten=3
+          → Durchsehen weitere potentielle Issues für Tagespla (75.3%, 16m)
+          → Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN (23.7%, 5m)
+          → Diskussion Issues in Planer mit OpenClaw KSPLEN    ( 1.0%, 0m)
+
+  [   21m] python.exe: "Tagesplanung — Off-PC — Vorbereitung Playlist für Hören unte"
+          Exkl=82%  Stab=100%  Wechsel=0/11  Aktivitäten=5
+          → Diskussion Tagesablauf + Planer mit OpenClaw KSPLE (81.5%, 17m)
+          → Vorbereitung Playlist für Hören unter der Dusche R ( 6.3%, 1m)
+          → WC LEMTWC                                          ( 6.0%, 1m)
+          + 2 weitere
+
+  [   20m] WINWORD.EXE: "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8."
+          Exkl=100%  Stab=100%  Wechsel=0/8  Aktivitäten=1
+          → Dokumentation Ohrwurm-Projekt RWOWDO               (100.0%, 20m)
+
+  [   19m] python.exe: "Aufgabe erledigt — Duschen LEMTDU"
+          Exkl=100%  Stab=100%  Wechsel=0/2  Aktivitäten=1
+          → Duschen LEMTDU                                     (100.0%, 19m)
+
+  [   18m] python.exe: "Tagesplanung — Off-PC — Anwendung der Zwischenraumzahnbürste"
+          Exkl=99%  Stab=100%  Wechsel=0/4  Aktivitäten=2
+          → Anwendung der Zwischenraumzahnbürste LEAZZZ        (98.9%, 18m)
+          → Anwendung Zahnseide LEAZZS                         ( 1.1%, 0m)
+
+  [   11m] python.exe: "Tagesplanung — Off-PC — Vorbereitung Zähne putzen LEAZVZ"
+          Exkl=94%  Stab=100%  Wechsel=0/2  Aktivitäten=2
+          → Vorbereitung Zähne putzen LEAZVZ                   (94.3%, 10m)
+          → Anwendung der Zwischenraumzahnbürste LEAZZZ        ( 5.7%, 1m)
+
+  [   11m] python.exe: "Tagesplanung — Reaktiver Planer — Einpacken für Einkauf (Ess"
+          Exkl=88%  Stab=95%  Wechsel=2/43  Aktivitäten=5
+          → Nacherfassung Ablauf KSPLNA                        (87.9%, 9m)
+          → Einpacken für Einkauf (Essensdatenbank, Rucksack,  ( 7.3%, 1m)
+          → Scan Thinking Frequencies RASCTF                   ( 1.8%, 0m)
+          + 2 weitere
+
+  [    9m] python.exe: "Tagesplanung — Off-PC — Einschmieren GEMTES"
+          Exkl=100%  Stab=100%  Wechsel=0/1  Aktivitäten=1
+          → Duschen LEMTDU                                     (100.0%, 9m)
+
+  [    9m] Radio Würmchen.exe: "Radio Würmchen 26.2.20 - Scan Grok'n Roll"
+          Exkl=90%  Stab=100%  Wechsel=0/8  Aktivitäten=3
+          → Anhören RW-Prg. / Tonträger / Radiosender / Ohrwür (90.3%, 8m)
+          → Dokumentation Ohrwurm-Projekt RWOWDO               ( 7.5%, 1m)
+          → Scan Grok'n Roll                                   ( 2.2%, 0m)
+
+  [    9m] notepad.exe: "learner-output-2026-03-27.txt - Editor"
+          Exkl=100%  Stab=95%  Wechsel=1/20  Aktivitäten=1
+          → Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN (100.0%, 9m)
+
+  [    8m] python.exe: "Tagesplanung — Off-PC — Feinschliff bei der Rasur LEMTFR"
+          Exkl=100%  Stab=100%  Wechsel=0/5  Aktivitäten=1
+          → Feinschliff bei der Rasur LEMTFR                   (100.0%, 8m)
+
+  [    7m] python.exe: "Tagesplanung — Off-PC — Anwendung Zahnseide LEAZZS"
+          Exkl=100%  Stab=100%  Wechsel=0/1  Aktivitäten=1
+          → Anwendung Zahnseide LEAZZS                         (100.0%, 7m)
+
+  [    7m] python.exe: "Tagesplanung — Off-PC — Frühstücken, dabei Vorbereitung Cand"
+          Exkl=80%  Stab=100%  Wechsel=0/3  Aktivitäten=3
+          → Frühstücken, dabei Vorbereitung Candeblo, Tee mach (79.6%, 6m)
+          → Nacherfassung Ablauf KSPLNA                        (16.9%, 1m)
+          → Bearb. Essensplan (gegessen / Lokalsuche / Konsuma ( 3.5%, 0m)
+
+  [    7m] python.exe: "Block reklassifizieren"
+          Exkl=100%  Stab=98%  Wechsel=1/62  Aktivitäten=2
+          → Nacherfassung Ablauf KSPLNA                        (99.5%, 7m)
+          → Diskussion Tagesablauf + Planer mit OpenClaw KSPLE ( 0.5%, 0m)
+
+  [    7m] msedge.exe: "Enhancement: Ueberwachtes Lernen aus Korrekturdaten (Feedbac"
+          Exkl=99%  Stab=100%  Wechsel=0/7  Aktivitäten=2
+          → Diskussion Issues in Planer mit OpenClaw KSPLEN    (99.0%, 7m)
+          → Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN ( 1.0%, 0m)
+
+  [    7m] python.exe: "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträge"
+          Exkl=88%  Stab=100%  Wechsel=0/23  Aktivitäten=3
+          → Nacherfassung Ablauf KSPLNA                        (88.2%, 6m)
+          → Anhören RW-Prg. / Tonträger / Radiosender / Ohrwür (10.0%, 1m)
+          → Scan Grok'n Roll                                   ( 1.8%, 0m)
+
+  [    6m] python.exe: "Tagesplanung — Off-PC — Der Außentemperatur entsprechend anz"
+          Exkl=100%  Stab=100%  Wechsel=0/4  Aktivitäten=1
+          → Der Außentemperatur entsprechend anziehen LEAUAZ   (100.0%, 6m)
+
+  [    6m] msedge.exe: "Issues · KurtWoloch/Kontensystem und 5 weitere Seiten - Pers"
+          Exkl=89%  Stab=89%  Wechsel=2/19  Aktivitäten=3
+          → Durchsehen weitere potentielle Issues für Tagespla (88.9%, 6m)
+          → Einrichtung Issues für Tagesplaner KSPLPL          (10.6%, 1m)
+          → Analyse Thinking Frequencies RAAFAN                ( 0.5%, 0m)
+
+  [    6m] python.exe: "Tagesplanung — Off-PC — Mittagessen (selbst kochen / kalt)"
+          Exkl=100%  Stab=100%  Wechsel=0/1  Aktivitäten=1
+          → Müllentsorgung LEMÜMÜ                              (100.0%, 6m)
+
+  [    6m] msedge.exe: "Enhancement: Regel-Editor fuer Klassifizierungsregeln · Issu"
+          Exkl=100%  Stab=100%  Wechsel=0/9  Aktivitäten=1
+          → Durchsehen weitere potentielle Issues für Tagespla (100.0%, 6m)
+
+  [    6m] msedge.exe: "Bug: Timeline-Import konsolidiert zu aggressiv — Unterbreche"
+          Exkl=100%  Stab=100%  Wechsel=0/1  Aktivitäten=1
+          → Durchsehen weitere potentielle Issues für Tagespla (100.0%, 6m)
+
+  [    6m] msedge.exe: "Bug: Timeline-Import erzeugt Null-Laenge-Bloecke bei kurzen "
+          Exkl=100%  Stab=100%  Wechsel=0/7  Aktivitäten=1
+          → Einrichtung Issues für Tagesplaner KSPLPL          (100.0%, 6m)
+
+  [    5m] msedge.exe: "Feature: Block-Splitting in der Timeline (einzelne Zeilen um"
+          Exkl=100%  Stab=100%  Wechsel=0/1  Aktivitäten=1
+          → Einrichtung Issues für Tagesplaner KSPLPL          (100.0%, 5m)
+
+  [    5m] notepad.exe: "~AuswertungGegessen202632893053.txt - Editor"
+          Exkl=100%  Stab=100%  Wechsel=0/1  Aktivitäten=1
+          → Bearb. Essensplan (Änderung Sollwerte) LEEPUH      (100.0%, 5m)
+
+  [    5m] python.exe: "Aufgabe erledigt — Frühstücken, dabei Vorbereitung Candeblo,"
+          Exkl=97%  Stab=100%  Wechsel=0/3  Aktivitäten=2
+          → Frühstücken, dabei Vorbereitung Candeblo, Tee mach (97.3%, 5m)
+          → Nacherfassung Ablauf KSPLNA                        ( 2.7%, 0m)
+
+  ... und 24 weitere KONSISTENT-Einträge
+
+
+Output gespeichert: logs/stability-output-2026-03-28.txt
