@@ -114,7 +114,8 @@ class ConfidenceStore:
     @staticmethod
     def _normalize_title(process, title):
         """Same normalization as confidence_learner.py."""
-        result = title
+        # Remove zero-width spaces that Edge inserts between "Microsoft" and "Edge"
+        result = title.replace("\u200b", "")
 
         if process and process.lower() == "msedge.exe":
             result = re.sub(
