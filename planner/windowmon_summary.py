@@ -136,6 +136,133 @@ class ConfidenceStore:
         result = result.rstrip()
         return result
 
+    # ── Session-level learning ──────────────────────────────────────────
+
+    # Processes/titles to skip (same as confidence_learner.py)
+    _SKIP_TITLES    = {"", "Programmumschaltung"}
+    _SKIP_PROCESSES = {"ShellExperienceHost.exe", "SearchApp.exe"}
+
+    _EMA_OLD        = 0.80
+    _EMA_NEW        = 0.20
+    _PRUNE_THRESHOLD = 0.01
+
+    @classmethod
+    def update_from_import(cls, entries, blocks):
+        """Update the confidence store from just-imported timeline blocks.
+
+        Parameters
+        ----------
+        entries : list[TLEntry]
+            All timeline entries (already filtered; planner_idle excluded by
+            TimelineModel._rebuild).
+        blocks : list[TLBlock]
+            The importable blocks (same list iterated in _import()).
+            Only blocks that were actually imported (account != "??"/"IDLE",
+            not already logged) should be passed.
+        """
+        if cls._data is None:
+            cls.get()  # trigger _load via __init__
+        store = cls._data
+
+        for b in blocks:
+            activity = b.activity
+            if not activity:
+                continue
+
+            # Collect (process, title, duration_seconds) for each entry in block
+            title_secs: dict = {}  # key: (process, norm_title) → seconds
+
+            for i in range(b.start_idx, min(b.end_idx + 1, len(entries))):
+                e = entries[i]
+
+                # Skip synthetic idle markers (planner_idle already excluded
+                # by _rebuild, but guard against future changes)
+                if not e.process and not e.title:
+                    continue
+
+                proc  = e.process or ""
+                title = e.title  or ""
+
+                # Skip list (mirrors confidence_learner.py)
+                if title in cls._SKIP_TITLES:
+                    continue
+                if proc in cls._SKIP_PROCESSES:
+                    continue
+
+                norm_title = cls._normalize_title(proc, title)
+                if not norm_title:
+                    continue
+
+                # Duration: difference to next entry timestamp (in same block)
+                if i + 1 < len(entries):
+                    dur = (entries[i + 1].ts - e.ts).total_seconds()
+                else:
+                    dur = 60.0  # last entry: assume 60 s
+                if dur <= 0:
+                    dur = 1.0
+
+                key = (proc, norm_title)
+                title_secs[key] = title_secs.get(key, 0.0) + dur
+
+            if not title_secs:
+                continue
+
+            total_secs = sum(title_secs.values())
+            if total_secs <= 0:
+                continue
+
+            # Build import_conf: time-weighted fraction per (process, title)
+            import_conf: dict = {}  # store_key → fraction
+            for (proc, norm_title), secs in title_secs.items():
+                store_key = f"{proc}||{norm_title}"
+                import_conf[store_key] = secs / total_secs
+
+            # EMA-update each store key
+            for store_key, imp_val in import_conf.items():
+                if store_key in store:
+                    entry = store[store_key]
+                    old_conf = entry.get("confidences", {})
+
+                    all_activities = set(old_conf.keys()) | {activity}
+                    new_conf = {}
+                    for act in all_activities:
+                        old_val = old_conf.get(act, 0.0)
+                        i_val   = imp_val if act == activity else 0.0
+                        new_conf[act] = cls._EMA_OLD * old_val + cls._EMA_NEW * i_val
+
+                    # Prune + normalize
+                    new_conf = {a: v for a, v in new_conf.items()
+                                if v >= cls._PRUNE_THRESHOLD}
+                    conf_total = sum(new_conf.values())
+                    if conf_total > 0:
+                        new_conf = {a: v / conf_total for a, v in new_conf.items()}
+
+                    entry["confidences"] = new_conf
+                else:
+                    # New entry: use import confidence directly
+                    new_conf = {activity: imp_val}
+                    conf_total = sum(new_conf.values())
+                    if conf_total > 0:
+                        new_conf = {a: v / conf_total for a, v in new_conf.items()}
+                    store[store_key] = {
+                        "confidences": new_conf,
+                        "p_same_before": 1.0,
+                        "p_same_after":  1.0,
+                    }
+
+    @classmethod
+    def save(cls):
+        """Persist the in-memory confidence store to confidence_store.json."""
+        if cls._data is None:
+            return  # nothing loaded, nothing to save
+        store_path = os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+            "data", "confidence_store.json"
+        )
+        sorted_store = dict(sorted(cls._data.items()))
+        with open(store_path, "w", encoding="utf-8") as f:
+            json.dump(sorted_store, f, indent=2, ensure_ascii=False)
+
 
 # ═══════════════════════════════════════════════════════════════════════════ #
 #  Low-Accuracy Overridable Rules                                            #

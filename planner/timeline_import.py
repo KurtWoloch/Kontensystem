@@ -1211,6 +1211,25 @@ def open_timeline_dialog(root: tk.Tk, engine,
             messagebox.showerror("Fehler", f"Log konnte nicht gespeichert werden:\n{exc}")
             return
 
+        # ── Session-level confidence learning ────────────────────────────
+        # Update confidence store with the just-imported classifications so
+        # the next build_blocks() call immediately benefits from them.
+        try:
+            from windowmon_summary import ConfidenceStore
+            # Only pass blocks that were actually processed (same filter as above)
+            learn_blocks = [
+                b for b in blocks
+                if b.start_idx < len(entries)
+                and b.end_idx < len(entries)
+                and b.account not in ("??", "IDLE")
+                and not b.is_logged(entries)
+            ]
+            if learn_blocks:
+                ConfidenceStore.update_from_import(entries, learn_blocks)
+                ConfidenceStore.save()
+        except Exception:
+            pass  # confidence learning is best-effort; never block the import
+
         parts = []
         if imported_count:
             parts.append(f"{imported_count} neue Blöcke importiert")
