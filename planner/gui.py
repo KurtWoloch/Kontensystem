@@ -17,6 +17,7 @@ Layout:
 """
 import os
 import json
+import ctypes
 import tkinter as tk
 from tkinter import ttk, font, messagebox
 from datetime import datetime, timedelta
@@ -135,6 +136,7 @@ class PlannerGUI:
         self._last_input_time: datetime = datetime.now()
         self._idle_active: bool = False
         self._idle_since: Optional[datetime] = None  # backdated start
+        self._saved_dialog_titles: dict = {}  # hwnd → original title (before Off-PC)
 
         self._build_ui()
         self.root.protocol("WM_DELETE_WINDOW", self._on_close)
@@ -592,13 +594,46 @@ class PlannerGUI:
         if self._idle_active:
             self._end_idle()
 
+    def _is_own_window_foreground(self) -> bool:
+        """Check if the foreground window belongs to this planner instance.
+
+        On Windows, Tkinter's winfo_id() returns the inner frame HWND,
+        while GetForegroundWindow() returns the top-level window HWND.
+        We use GetAncestor(GA_ROOT) to map winfo_id → top-level for
+        comparison.
+        """
+        try:
+            user32 = ctypes.windll.user32
+            GA_ROOT = 2  # GetAncestor flag: retrieve root (top-level) window
+            fg_hwnd = user32.GetForegroundWindow()
+            # Check root window
+            root_toplevel = user32.GetAncestor(int(self.root.winfo_id()), GA_ROOT)
+            if fg_hwnd == root_toplevel:
+                return True
+            # Check all Toplevel children (pop-ups/dialogs)
+            for child in self.root.winfo_children():
+                if isinstance(child, tk.Toplevel):
+                    try:
+                        child_toplevel = user32.GetAncestor(int(child.winfo_id()), GA_ROOT)
+                        if fg_hwnd == child_toplevel:
+                            return True
+                    except Exception:
+                        pass
+            return False
+        except Exception:
+            return True  # Fallback: assume own window (safer for Off-PC)
+
     def _check_idle(self):
         """Called from _refresh — activate idle if threshold exceeded."""
         if self._idle_active:
             return  # already idle
         elapsed = (datetime.now() - self._last_input_time).total_seconds()
         if elapsed >= IDLE_THRESHOLD_S:
-            self._start_idle()
+            # Only go Off-PC if a planner window is in the foreground.
+            # If another app (Edge, Excel, etc.) is active, the user is
+            # working at the PC — just not in the planner.
+            if self._is_own_window_foreground():
+                self._start_idle()
 
     def _start_idle(self):
         """Activate Off-PC mode."""
@@ -614,6 +649,25 @@ class PlannerGUI:
         # windowmon_summary can detect the activity via _PLANNER_OFFPC rule.
         # (window_monitor.py won't re-read python.exe titles on same hwnd)
         self._write_title_change_entry(self._idle_since)
+        # Update any open Toplevel dialogs with Off-PC title (Fix #22a)
+        self._saved_dialog_titles.clear()
+        for child in self.root.winfo_children():
+            if isinstance(child, tk.Toplevel):
+                try:
+                    orig_title = child.title()
+                    hwnd = int(child.winfo_id())
+                    self._saved_dialog_titles[hwnd] = orig_title
+                    # Insert "Off-PC — " after the first " \u2014 " separator,
+                    # keeping the activity name intact.
+                    sep = " \u2014 "
+                    if sep in orig_title:
+                        base, rest = orig_title.split(sep, 1)
+                        new_title = f"{base}{sep}Off-PC{sep}{rest}"
+                    else:
+                        new_title = f"Off-PC{sep}{orig_title}"
+                    child.title(new_title)
+                except Exception:
+                    pass
 
     def _end_idle(self):
         """Deactivate Off-PC mode on user return."""
@@ -629,6 +683,17 @@ class PlannerGUI:
         # Write synthetic windowmon entry with restored "Reaktiver Planer"
         # title so windowmon picks up the mode change.
         self._write_title_change_entry(idle_end)
+        # Restore original titles on any open Toplevel dialogs (Fix #22b)
+        if self._saved_dialog_titles:
+            for child in self.root.winfo_children():
+                if isinstance(child, tk.Toplevel):
+                    try:
+                        hwnd = int(child.winfo_id())
+                        if hwnd in self._saved_dialog_titles:
+                            child.title(self._saved_dialog_titles[hwnd])
+                    except Exception:
+                        pass
+            self._saved_dialog_titles.clear()
 
     def _write_idle_marker(self, marker_type: str, ts: datetime,
                            idle_start: Optional[datetime] = None):
@@ -673,10 +738,25 @@ class PlannerGUI:
         try:
             from window_monitor import LOG_DIR
             import json as _json
-            title = self.root.title()  # current title after _update_window_title()
+            # Use the foreground Toplevel's title if one is active (Fix #22c)
+            title = self.root.title()  # default: root title after _update_window_title()
             hwnd_val = 0
             try:
+                user32 = ctypes.windll.user32
+                GA_ROOT = 2
                 hwnd_val = int(self.root.winfo_id())
+                fg_hwnd = user32.GetForegroundWindow()
+                for child in self.root.winfo_children():
+                    if isinstance(child, tk.Toplevel):
+                        try:
+                            child_hwnd = int(child.winfo_id())
+                            child_toplevel = user32.GetAncestor(child_hwnd, GA_ROOT)
+                            if fg_hwnd == child_toplevel:
+                                title = child.title()
+                                hwnd_val = child_hwnd
+                                break
+                        except Exception:
+                            pass
             except Exception:
                 pass
             entry = {
