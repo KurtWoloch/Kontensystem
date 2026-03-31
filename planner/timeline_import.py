@@ -955,11 +955,28 @@ class TimelineCanvas(tk.Frame):
         if not block:
             return
         # Build prioritized context activities (Issue #6):
-        # 1. Kürzlich verwendete (reclassified in this session)
+        # 1. Confidence Store suggestions for window titles in this block
         # 2. Titel aller erkannten Blöcke in der Timeline
         # 3. Bereits heute geloggte (zuletzt → zuerst)
         # 4. Historische (via CodeSuggestor)
         ctx_acts = []
+        # Confidence Store: what was historically assigned to the
+        # window titles in THIS specific block? (most relevant)
+        try:
+            from windowmon_summary import ConfidenceStore
+            cs = ConfidenceStore.get()
+            seen_cs = set()
+            for idx in range(block.start_idx,
+                             min(block.end_idx + 1,
+                                 len(self.model.entries))):
+                e = self.model.entries[idx]
+                result_cs = cs.lookup(e.process, e.title)
+                if (result_cs and not result_cs[3]
+                        and result_cs[1] not in seen_cs):
+                    ctx_acts.append(result_cs[1])
+                    seen_cs.add(result_cs[1])
+        except Exception:
+            pass  # best-effort
         # Block titles in the current timeline (unique, order preserved)
         for b in self.model.blocks:
             if (b.activity and b.account not in ("??", "IDLE")
