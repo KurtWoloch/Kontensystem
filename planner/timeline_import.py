@@ -1122,101 +1122,151 @@ def open_timeline_dialog(root: tk.Tk, engine,
     # ── Import ────────────────────────────────────────────────────────────
     def _import():
         blocks = model.blocks
-        if not blocks:
+        entries = model.entries
+        if not blocks or not entries:
             messagebox.showwarning("Import", "Keine Blöcke zum Importieren.")
             return
 
-        # Build summary — count only unlogged blocks
-        entries = model.entries
-        importable = [b for b in blocks
-                      if not b.is_logged(entries)
-                      and b.account not in ("??", "IDLE")
-                      and b.start_idx < len(entries)
-                      and b.end_idx < len(entries)]
-        n = len(importable)
-        if n == 0:
-            messagebox.showinfo("Import", "Keine neuen Blöcke zum Importieren.")
+        # ── Step 1: Build minute-truncated import segments ────────────
+        # Fix for Issues #2 and #3:
+        # - Truncate all timestamps to whole minutes (drop seconds)
+        # - Skip blocks where start_minute == end_minute (sub-minute)
+        # - Then merge adjacent same-activity segments that became
+        #   neighbors after sub-minute interrupters were removed
+        raw_segments = []
+        for b in blocks:
+            if b.start_idx >= len(entries) or b.end_idx >= len(entries):
+                continue
+            if b.account in ("??", "IDLE"):
+                continue
+            if b.is_logged(entries):
+                continue
+
+            # Truncate to whole minutes
+            start_ts = entries[b.start_idx].ts.replace(
+                second=0, microsecond=0)
+            if b.end_idx + 1 < len(entries):
+                end_ts = entries[b.end_idx + 1].ts.replace(
+                    second=0, microsecond=0)
+            else:
+                end_ts = (entries[b.end_idx].ts.replace(
+                    second=0, microsecond=0) + timedelta(minutes=1))
+
+            # Skip sub-minute blocks (same minute after truncation)
+            if end_ts <= start_ts:
+                continue
+
+            raw_segments.append({
+                'activity': b.activity,
+                'account':  b.account,
+                'start':    start_ts,
+                'end':      end_ts,
+            })
+
+        # ── Step 2: Merge adjacent same-activity segments ─────────────
+        # After filtering sub-minute interrupters, their surrounding
+        # same-activity blocks become neighbors and should be merged.
+        # This prevents the monolith problem from Issue #2 where
+        # in-loop extension cascaded across interrupters.
+        merged = []
+        for seg in raw_segments:
+            if (merged
+                    and merged[-1]['activity'] == seg['activity']
+                    and merged[-1]['end'] >= seg['start']):
+                merged[-1]['end'] = max(merged[-1]['end'], seg['end'])
+            else:
+                merged.append(dict(seg))
+
+        if not merged:
+            messagebox.showinfo(
+                "Import",
+                "Keine neuen Blöcke zum Importieren\n"
+                "(alle sub-minütig oder bereits geloggt).")
             return
+
+        # ── Step 3: Confirm ───────────────────────────────────────────
+        n_merged = len(raw_segments) - len(merged)
+        detail = f"{len(merged)} Blöcke ins Planer-Log importieren?"
+        if n_merged > 0:
+            detail += (f"\n({n_merged} angrenzende gleichnamige Blöcke "
+                       f"wurden zusammengeführt)")
         answer = messagebox.askyesno(
             "Import bestätigen",
-            f"{n} Klassifizierungsblöcke ins Planer-Log importieren?\n\n"
+            f"{detail}\n\n"
             "Bereits geloggte Blöcke (✓) werden übersprungen.\n"
-            "Blöcke, die eine bestehende Aktivität fortsetzen, werden erweitert."
+            "Sub-minütige Blöcke werden automatisch gefiltert.\n"
+            "Blöcke, die eine bestehende Aktivität fortsetzen, "
+            "werden erweitert."
         )
         if not answer:
             return
 
-        entries = model.entries
+        # ── Step 4: Import merged segments ────────────────────────────
+        # Save original completed_at values BEFORE the loop to prevent
+        # cascading extensions (Issue #2): extending block A must not
+        # cause block B to match the just-extended A.
+        original_completed_at = {
+            id(c): c.completed_at for c in model.completed
+        }
         imported_count = 0
         extended_count = 0
 
-        for b in blocks:
-            if b.start_idx >= len(entries) or b.end_idx >= len(entries):
-                continue
-            if b.account == "??" or b.account == "IDLE":
-                continue  # skip unclassified / idle blocks
-            if b.is_logged(entries):
-                continue  # skip fully-logged blocks
-            start_ts = entries[b.start_idx].ts
-            # End time: use the START of the next block (or +1 min for last)
-            if b.end_idx + 1 < len(entries):
-                end_ts = entries[b.end_idx + 1].ts
-            else:
-                end_ts = entries[b.end_idx].ts + timedelta(minutes=1)
-            if end_ts <= start_ts:
-                end_ts = start_ts + timedelta(minutes=1)
-
-        # Check if this block continues the last logged activity
-            # with the same name → extend instead of creating duplicate
-            # BUT only if no other activity was logged in between
+        for seg in merged:
+            # Check if this segment continues an existing logged activity
             matching_logged = [
                 c for c in model.completed
-                if c.activity == b.activity
-                and abs((c.completed_at - start_ts).total_seconds()) < 300
+                if c.activity == seg['activity']
+                and abs((original_completed_at[id(c)]
+                         - seg['start']).total_seconds()) < 300
             ]
             if matching_logged:
-                last_match = max(matching_logged, key=lambda c: c.completed_at)
-                # Check: is there any OTHER logged activity between
-                # last_match.completed_at and start_ts?
+                last_match = max(
+                    matching_logged,
+                    key=lambda c: original_completed_at[id(c)])
+                # Check for intervening activities
+                orig_end = original_completed_at[id(last_match)]
                 intervening = [
                     c for c in model.completed
                     if c is not last_match
                     and not c.skipped
-                    and c.started_at >= last_match.completed_at
-                    and c.started_at <= start_ts
+                    and c.started_at >= orig_end
+                    and c.started_at <= seg['start']
                 ]
                 if not intervening:
-                    # No other activity in between → safe to extend
-                    last_match.completed_at = end_ts
+                    last_match.completed_at = seg['end']
                     extended_count += 1
                     continue
-                # Otherwise fall through to create a new entry
+
             try:
                 engine.log_adhoc(
-                    activity  = b.activity,
-                    start_time= start_ts,
-                    end_time  = end_ts,
-                    list_name = "timeline_import",
-                    comment   = "",
+                    activity   = seg['activity'],
+                    start_time = seg['start'],
+                    end_time   = seg['end'],
+                    list_name  = "timeline_import",
+                    comment    = "",
                 )
                 imported_count += 1
             except Exception as exc:
-                messagebox.showerror("Fehler",
-                    f"Fehler beim Importieren von '{b.activity}':\n{exc}")
+                messagebox.showerror(
+                    "Fehler",
+                    f"Fehler beim Importieren von "
+                    f"'{seg['activity']}':\n{exc}")
                 return
 
         try:
             engine.save_log()
         except Exception as exc:
-            messagebox.showerror("Fehler", f"Log konnte nicht gespeichert werden:\n{exc}")
+            messagebox.showerror(
+                "Fehler",
+                f"Log konnte nicht gespeichert werden:\n{exc}")
             return
 
-        # ── Session-level confidence learning ────────────────────────────
-        # Update confidence store with the just-imported classifications so
-        # the next build_blocks() call immediately benefits from them.
+        # ── Session-level confidence learning ────────────────────────
+        # Uses original blocks (not merged segments) since learning
+        # maps window titles → activities, independent of time ranges.
         try:
             from windowmon_summary import ConfidenceStore
-            # Only pass blocks that were actually processed (same filter as above)
+            # Only pass blocks that were actually processed (same filter)
             learn_blocks = [
                 b for b in blocks
                 if b.start_idx < len(entries)
