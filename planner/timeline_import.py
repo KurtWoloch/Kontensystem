@@ -473,18 +473,29 @@ class TimelineModel:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _reclassify_dialog(parent: tk.Widget, block: TLBlock,
-                       code_suggestor=None) -> Optional[tuple[str, str]]:
+                       code_suggestor=None,
+                       context_activities: Optional[List[str]] = None,
+                       ) -> Optional[tuple[str, str]]:
     """Show a dialog to change a block's classification.
+
+    Args:
+        parent:              parent widget
+        block:               the TLBlock being reclassified
+        code_suggestor:      optional CodeSuggestor for task-code hints
+        context_activities:  prioritized list of activity names for the
+                             suggestion listbox (Issue #6 — kürzlich
+                             verwendete, Block-Titel, geloggte, geplante)
 
     Returns (new_activity, new_account) or None if cancelled.
     """
     dlg = tk.Toplevel(parent)
     dlg.title("Block reklassifizieren")
     dlg.configure(bg=COLOR_BG)
-    dlg.geometry("520x220")
+    dlg.geometry("620x380")
     dlg.transient(parent)
     dlg.grab_set()
-    dlg.resizable(False, False)
+    dlg.resizable(True, True)
+    dlg.minsize(500, 300)
 
     result: dict = {"value": None}
 
@@ -501,44 +512,84 @@ def _reclassify_dialog(parent: tk.Widget, block: TLBlock,
     act_entry.focus()
     act_entry.select_range(0, tk.END)
 
-    # ── CodeSuggestor row ────────────────────────────────────────────────
-    sug_frame = tk.Frame(dlg, bg=COLOR_BG)
-    sug_frame.pack(fill=tk.X, padx=12, pady=(2, 0))
+    # ── Suggestion listbox (Issue #6 + #23) ──────────────────────────────
+    # Replaces the single-line suggestion label + button with a scrollable
+    # list of prioritized suggestions. Clicking or pressing Enter on a
+    # suggestion fills the entry field.  Solves #23 because the list is
+    # always visible and never overlaps buttons.
+    tk.Label(dlg, text="Vorschläge:", font=FONT_BOLD,
+             bg=COLOR_BG, fg=COLOR_FG, anchor="w"
+             ).pack(fill=tk.X, padx=12, pady=(8, 2))
 
-    lbl_sug = tk.Label(sug_frame, text="", font=("Consolas", 9),
-                       bg=COLOR_BG, fg="#6c7086", anchor="w")
-    lbl_sug.pack(side=tk.LEFT, fill=tk.X, expand=True)
+    sug_list_frame = tk.Frame(dlg, bg=COLOR_BG)
+    sug_list_frame.pack(fill=tk.BOTH, expand=True, padx=12, pady=(0, 4))
 
-    btn_sug = tk.Button(sug_frame, text="Übernehmen",
-                        font=FONT_LABEL, bg=COLOR_BTN, fg=COLOR_FG,
-                        relief=tk.FLAT, cursor="hand2")
-    _sug = {"name": "", "shown": False}
+    sug_scrollbar = ttk.Scrollbar(sug_list_frame, orient=tk.VERTICAL)
+    sug_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
-    def _update_sug(*_):
-        text = act_var.get().strip()
+    sug_listbox = tk.Listbox(
+        sug_list_frame, font=FONT_MONO,
+        bg=COLOR_LIST, fg=COLOR_FG,
+        selectbackground=COLOR_ACCENT, selectforeground="#1e1e2e",
+        relief=tk.FLAT, bd=2, activestyle="none",
+        yscrollcommand=sug_scrollbar.set,
+        height=8,
+    )
+    sug_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+    sug_scrollbar.config(command=sug_listbox.yview)
+
+    # Deduplicated ordered list of all context activities
+    _all_context = []
+    _seen_context = set()
+    for act in (context_activities or []):
+        if act and act not in _seen_context:
+            _all_context.append(act)
+            _seen_context.add(act)
+
+    def _update_suggestions(*_):
+        """Rebuild the suggestion listbox based on current entry text."""
+        sug_listbox.delete(0, tk.END)
+        text = act_var.get().strip().lower()
+
+        suggestions = []
+        seen = set()
+
+        # 1) CodeSuggestor matches (filtered by input text)
         if code_suggestor and text:
-            matches = code_suggestor.suggest(text)
-            if matches:
-                code, _, matched_name = matches[0]
+            for code, _, matched_name in code_suggestor.suggest(text):
                 display = f"{matched_name} {code}"
-                lbl_sug.config(text=f"→ {display}")
-                _sug["name"] = display
-                if not _sug["shown"]:
-                    btn_sug.pack(side=tk.RIGHT, padx=(4, 0))
-                    _sug["shown"] = True
-                return
-        lbl_sug.config(text="")
-        if _sug["shown"]:
-            btn_sug.pack_forget()
-            _sug["shown"] = False
+                if display not in seen:
+                    suggestions.append(display)
+                    seen.add(display)
 
-    def _use_sug():
-        if _sug["name"]:
-            act_var.set(_sug["name"])
+        # 2) Context activities filtered by input text
+        for act in _all_context:
+            if act in seen:
+                continue
+            if not text or text in act.lower():
+                suggestions.append(act)
+                seen.add(act)
 
-    act_var.trace_add("write", _update_sug)
-    btn_sug.config(command=_use_sug)
-    _update_sug()
+        # Show up to 50 suggestions
+        for s in suggestions[:50]:
+            sug_listbox.insert(tk.END, s)
+
+    def _use_selected(*_):
+        """Apply the selected suggestion to the entry field."""
+        sel = sug_listbox.curselection()
+        if sel:
+            value = sug_listbox.get(sel[0])
+            act_var.set(value)
+            act_entry.icursor(tk.END)
+            act_entry.focus()
+
+    act_var.trace_add("write", _update_suggestions)
+    sug_listbox.bind("<Double-Button-1>", _use_selected)
+    # Enter in listbox applies the selection
+    sug_listbox.bind("<Return>", _use_selected)
+
+    # Initial population
+    _update_suggestions()
 
     # ── Error label ───────────────────────────────────────────────────────
     lbl_err = tk.Label(dlg, text="", font=FONT_LABEL,
@@ -570,9 +621,13 @@ def _reclassify_dialog(parent: tk.Widget, block: TLBlock,
     tk.Button(btn_row, text="  ✗ Abbrechen  ", bg=COLOR_BTN, fg=COLOR_FG,
               command=_cancel, **btn_cfg).pack(side=tk.LEFT)
 
-    # Enter key confirms
-    dlg.bind("<Return>", lambda _: _confirm())
+    # Enter key confirms (when focus is on entry, not listbox)
+    act_entry.bind("<Return>", lambda _: _confirm())
     dlg.bind("<Escape>", lambda _: _cancel())
+
+    # Tab switches focus between entry and listbox
+    act_entry.bind("<Tab>", lambda e: (sug_listbox.focus(), "break")[-1])
+    sug_listbox.bind("<Tab>", lambda e: (act_entry.focus(), "break")[-1])
 
     dlg.wait_window()
     return result["value"]
@@ -899,7 +954,26 @@ class TimelineCanvas(tk.Frame):
         block = self.model.block_for_entry(row)
         if not block:
             return
-        result = _reclassify_dialog(self.canvas, block, self.code_suggestor)
+        # Build prioritized context activities (Issue #6):
+        # 1. Kürzlich verwendete (reclassified in this session)
+        # 2. Titel aller erkannten Blöcke in der Timeline
+        # 3. Bereits heute geloggte (zuletzt → zuerst)
+        # 4. Historische (via CodeSuggestor)
+        ctx_acts = []
+        # Block titles in the current timeline (unique, order preserved)
+        for b in self.model.blocks:
+            if (b.activity and b.account not in ("??", "IDLE")
+                    and not b.is_logged(self.model.entries)):
+                ctx_acts.append(b.activity)
+        # Logged activities today (most recent first)
+        for c in sorted(self.model.completed,
+                        key=lambda c: c.completed_at, reverse=True):
+            if c.activity and not c.skipped:
+                ctx_acts.append(c.activity)
+
+        result = _reclassify_dialog(
+            self.canvas, block, self.code_suggestor,
+            context_activities=ctx_acts)
         if result:
             new_act, new_acct = result
             old_act = block.activity
