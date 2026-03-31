@@ -588,6 +588,26 @@ def _reclassify_dialog(parent: tk.Widget, block: TLBlock,
     # Enter in listbox applies the selection
     sug_listbox.bind("<Return>", _use_selected)
 
+    def _entry_key_down(event):
+        """Cursor-Down in entry → jump to listbox, select first item."""
+        if sug_listbox.size() > 0:
+            sug_listbox.focus()
+            sug_listbox.selection_clear(0, tk.END)
+            sug_listbox.selection_set(0)
+            sug_listbox.activate(0)
+            sug_listbox.see(0)
+        return "break"
+
+    def _listbox_key_up(event):
+        """Cursor-Up on first item → jump back to entry."""
+        sel = sug_listbox.curselection()
+        if sel and sel[0] == 0:
+            act_entry.focus()
+            return "break"
+
+    act_entry.bind("<Down>", _entry_key_down)
+    sug_listbox.bind("<Up>", _listbox_key_up)
+
     # Initial population
     _update_suggestions()
 
@@ -625,8 +645,16 @@ def _reclassify_dialog(parent: tk.Widget, block: TLBlock,
     act_entry.bind("<Return>", lambda _: _confirm())
     dlg.bind("<Escape>", lambda _: _cancel())
 
-    # Tab switches focus between entry and listbox
-    act_entry.bind("<Tab>", lambda e: (sug_listbox.focus(), "break")[-1])
+    # Tab also works: select first item when entering listbox
+    def _tab_to_list(event):
+        if sug_listbox.size() > 0:
+            sug_listbox.focus()
+            sug_listbox.selection_clear(0, tk.END)
+            sug_listbox.selection_set(0)
+            sug_listbox.activate(0)
+        return "break"
+
+    act_entry.bind("<Tab>", _tab_to_list)
     sug_listbox.bind("<Tab>", lambda e: (act_entry.focus(), "break")[-1])
 
     dlg.wait_window()
