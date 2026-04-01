@@ -1,0 +1,296 @@
+[
+  {
+    "ts": "2026-03-31T06:47:29",
+    "start": "06:11",
+    "end": "06:13",
+    "original": "Einkauf (BILLA Ederg.) / Laufen LEEKBI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-31T06:48:57",
+    "start": "06:20",
+    "end": "06:25",
+    "original": "Dateiverwaltung (Lebenserhaltung)",
+    "corrected": "Diskussion Tagesplan mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-31T06:49:26",
+    "start": "06:22",
+    "end": "06:28",
+    "original": "Dateiverwaltung (logs)",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-31T06:49:53",
+    "start": "06:25",
+    "end": "06:28",
+    "original": "Tweet an Backlink Broadcast RWMPAR",
+    "corrected": "Diskussion Tagesplanung mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-31T06:50:33",
+    "start": "06:29",
+    "end": "06:31",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Diskussion Tagesplanung mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-31T06:56:12",
+    "start": "06:53",
+    "end": "06:53",
+    "original": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "corrected": "Surfen Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-31T06:59:29",
+    "start": "06:51",
+    "end": "06:51",
+    "original": "Nacherfassung Ablauf KSPLNA",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-31T06:59:43",
+    "start": "06:54",
+    "end": "06:54",
+    "original": "Einrichtung Issues für Tagesplaner KSPLPL",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-31T07:02:42",
+    "start": "06:58",
+    "end": "06:59",
+    "original": "Konversation mit Andrew Pappas RAAFKO",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-03-31T07:08:06",
+    "start": "06:56",
+    "end": "06:56",
+    "original": "Konversation mit Andrew Pappas RAAFKO",
+    "corrected": "Tweet an Backlink Broadcast RAAFKO"
+  },
+  {
+    "ts": "2026-03-31T07:11:55",
+    "start": "07:06",
+    "end": "07:11",
+    "original": "Nacherfassung Ablauf KSPLNA",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-03-31T07:48:59",
+    "start": "07:36",
+    "end": "07:38",
+    "original": "Scan Backlink Broadcast RASCBB",
+    "corrected": "Tweet an Backlink Broadcast RAAFKO"
+  },
+  {
+    "ts": "2026-03-31T10:01:19",
+    "start": "09:49",
+    "end": "09:49",
+    "original": "Review Dokumentation BRZG KSBRDR",
+    "corrected": "Anhören RW-Prg. mit Sati Ersoy RWMPSE"
+  },
+  {
+    "ts": "2026-03-31T10:01:38",
+    "start": "09:49",
+    "end": "09:49",
+    "original": "Scan Backlink Broadcast RASCBB",
+    "corrected": "Anhören RW-Prg. mit Sati Ersoy RWMPSE"
+  },
+  {
+    "ts": "2026-03-31T10:03:37",
+    "start": "09:51",
+    "end": "09:51",
+    "original": "Anhören Musik (Winamp) RWMPMP",
+    "corrected": "Surfen X (Timeline) INSUXX"
+  },
+  {
+    "ts": "2026-03-31T10:16:42",
+    "start": "10:00",
+    "end": "10:00",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-31T10:58:53",
+    "start": "10:02",
+    "end": "10:02",
+    "original": "Radio Würmchen",
+    "corrected": "Anhören RW-Prg. mit Sati Ersoy RWMPSE"
+  },
+  {
+    "ts": "2026-03-31T14:05:26",
+    "start": "10:13",
+    "end": "10:13",
+    "original": "Radio Würmchen",
+    "corrected": "Anhören RW-Prg. mit Sati Ersoy RWMPSE"
+  },
+  {
+    "ts": "2026-03-31T14:11:12",
+    "start": "10:51",
+    "end": "10:52",
+    "original": "Liste_Arbeit — Start Teleworking BRZG BRTWGF",
+    "corrected": "Start Teleworking BRZG BRTWGF"
+  },
+  {
+    "ts": "2026-03-31T14:11:44",
+    "start": "10:56",
+    "end": "10:56",
+    "original": "Radio Würmchen",
+    "corrected": "Anhören RW-Prg. mit Sati Ersoy RWMPSE"
+  },
+  {
+    "ts": "2026-03-31T14:16:03",
+    "start": "13:05",
+    "end": "13:05",
+    "original": "Konversation mit Andrew Pappas RAAFKO",
+    "corrected": "Surfen Las Vegas Tesla Loop FZSUEV"
+  },
+  {
+    "ts": "2026-03-31T14:17:04",
+    "start": "13:11",
+    "end": "13:12",
+    "original": "Off-PC — Liste_Arbeit — WC BREPWC",
+    "corrected": "WC LEMTWC"
+  },
+  {
+    "ts": "2026-03-31T14:17:36",
+    "start": "13:15",
+    "end": "13:18",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Las Vegas Tesla Loop FZSUEV"
+  },
+  {
+    "ts": "2026-03-31T14:19:04",
+    "start": "13:30",
+    "end": "13:32",
+    "original": "Tweet an Backlink Broadcast RAAFKO",
+    "corrected": "Untersuchung SXSW Festival Lineup RAAFSU"
+  },
+  {
+    "ts": "2026-03-31T20:34:57",
+    "start": "14:43",
+    "end": "14:45",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Bearb. Essensplan LEEPEP"
+  },
+  {
+    "ts": "2026-03-31T20:36:01",
+    "start": "14:45",
+    "end": "14:49",
+    "original": "Untersuchung SXSW Festival Lineup RAAFSU",
+    "corrected": "Analyse Andon"
+  },
+  {
+    "ts": "2026-03-31T20:45:40",
+    "start": "14:45",
+    "end": "14:49",
+    "original": "Analyse Andon",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-31T20:54:13",
+    "start": "15:11",
+    "end": "15:15",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "div. Surfen (News) INSUNE"
+  },
+  {
+    "ts": "2026-03-31T21:02:17",
+    "start": "20:03",
+    "end": "20:07",
+    "original": "Google Übersetzer",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-31T21:02:46",
+    "start": "20:07",
+    "end": "20:08",
+    "original": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-31T21:04:06",
+    "start": "20:11",
+    "end": "20:20",
+    "original": "Off-PC — WC BREPWC",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-31T21:05:07",
+    "start": "20:13",
+    "end": "20:20",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-31T21:06:17",
+    "start": "20:27",
+    "end": "20:28",
+    "original": "div. Surfen (News) INSUNE",
+    "corrected": "Entwurf Küchengebühren WFLEKG"
+  },
+  {
+    "ts": "2026-03-31T21:06:36",
+    "start": "20:28",
+    "end": "20:30",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-31T21:08:18",
+    "start": "20:49",
+    "end": "20:51",
+    "original": "Off-PC — Teller waschen / Getränk fassen LENATW",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-31T21:08:36",
+    "start": "20:49",
+    "end": "20:53",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-31T22:20:05",
+    "start": "22:09",
+    "end": "22:09",
+    "original": "Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-31T22:20:23",
+    "start": "22:09",
+    "end": "22:14",
+    "original": "Nacherfassung Ablauf KSPLNA",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-31T22:20:44",
+    "start": "22:15",
+    "end": "22:16",
+    "original": "Bearbeitung Mails INMBMB",
+    "corrected": "Mailprüfung INMAPR"
+  },
+  {
+    "ts": "2026-03-31T22:21:21",
+    "start": "22:16",
+    "end": "22:17",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon"
+  },
+  {
+    "ts": "2026-03-31T22:21:26",
+    "start": "22:14",
+    "end": "22:15",
+    "original": "Analyse Andon",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-31T22:22:47",
+    "start": "22:17",
+    "end": "22:18",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "div. Surfen (News) INSUNE"
+  }
+]

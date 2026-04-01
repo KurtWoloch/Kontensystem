@@ -2690,3 +2690,454 @@
 {"ts": "2026-03-28T20:49:53", "hwnd": 9439908, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-28T20:49:53", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 60, "idle_start": "2026-03-28T20:48:53"}
 {"ts": "2026-03-28T20:49:53", "hwnd": 9177012, "title": "Tagesplanung — Reaktiver Planer — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:49:58", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T20:49:59", "hwnd": 9439908, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:50:00", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:50:02", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T20:50:03", "hwnd": 4654866, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:50:07", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:50:10", "hwnd": 7474452, "title": "Tagesplanung — Reaktiver Planer — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:50:22", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T20:50:24", "hwnd": 6163692, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T20:50:40", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:50:31", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T20:50:31", "hwnd": 9177012, "title": "Tagesplanung — Off-PC — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:51:25", "hwnd": 5115340, "title": "Screenshot Timeline vor Regelverbesserungen.png - Paint", "process": "mspaint.exe", "browser": ""}
+{"ts": "2026-03-28T20:51:29", "hwnd": 9242860, "title": "Paint", "process": "mspaint.exe", "browser": ""}
+{"ts": "2026-03-28T20:51:31", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:51:37", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 65, "idle_start": "2026-03-28T20:50:31"}
+{"ts": "2026-03-28T20:51:37", "hwnd": 9177012, "title": "Tagesplanung — Reaktiver Planer — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:51:37", "hwnd": 7474452, "title": "Tagesplanung — Reaktiver Planer — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:51:43", "hwnd": 18548716, "title": "Aufgabe erledigt — Teller waschen / Getränk fassen LENATW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:52:00", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T20:52:00", "hwnd": 9177012, "title": "Tagesplanung — Off-PC — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:53:53", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 113, "idle_start": "2026-03-28T20:52:00"}
+{"ts": "2026-03-28T20:53:53", "hwnd": 9177012, "title": "Tagesplanung — Reaktiver Planer — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:53:54", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:54:03", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T20:54:03", "hwnd": 9177012, "title": "Tagesplanung — Off-PC — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:54:26", "hwnd": 197294, "title": "Enhancement: Ueberwachtes Lernen aus Korrekturdaten (Feedback-Loop fuer AutoDetect) · Issue #21 · KurtWoloch/Kontensystem und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:54:37", "hwnd": 197294, "title": "Issues · KurtWoloch/Kontensystem und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:54:42", "hwnd": 197294, "title": "Enhancement: Task-Kuerzel-Fragmentierung bei aehnlichen Aktivitaeten reduzieren · Issue #13 · KurtWoloch/Kontensystem und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:55:23", "hwnd": 11864786, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T20:55:24", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:55:31", "hwnd": 197294, "title": "Enhancement: Task-Kuerzel-Fragmentierung bei aehnlichen Aktivitaeten reduzieren · Issue #13 · KurtWoloch/Kontensystem und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:55:33", "hwnd": 197294, "title": "Issues · KurtWoloch/Kontensystem und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:55:37", "hwnd": 197294, "title": "Enhancement: Ueberwachtes Lernen aus Korrekturdaten (Feedback-Loop fuer AutoDetect) · Issue #21 · KurtWoloch/Kontensystem und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:57:06", "hwnd": 11274802, "title": "Microsoft Excel - Library Andon FM.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-28T20:58:30", "hwnd": 197294, "title": "Enhancement: Ueberwachtes Lernen aus Korrekturdaten (Feedback-Loop fuer AutoDetect) · Issue #21 · KurtWoloch/Kontensystem und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:58:44", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T20:58:47", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 283, "idle_start": "2026-03-28T20:54:03"}
+{"ts": "2026-03-28T20:58:47", "hwnd": 9177012, "title": "Tagesplanung — Reaktiver Planer — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:58:47", "hwnd": 18548716, "title": "Aufgabe erledigt — Teller waschen / Getränk fassen LENATW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:58:49", "hwnd": 197294, "title": "Enhancement: Ueberwachtes Lernen aus Korrekturdaten (Feedback-Loop fuer AutoDetect) · Issue #21 · KurtWoloch/Kontensystem und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:58:50", "hwnd": 7474452, "title": "Tagesplanung — Reaktiver Planer — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:58:54", "hwnd": 5246412, "title": "Aufgabe erledigt — Ansehen ZiB 1 + Wetter RATVZI", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:59:10", "hwnd": 7474452, "title": "Tagesplanung — Reaktiver Planer — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:59:15", "hwnd": 9046590, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:59:16", "hwnd": 7474452, "title": "Tagesplanung — Reaktiver Planer — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:59:18", "hwnd": 197294, "title": "Enhancement: Ueberwachtes Lernen aus Korrekturdaten (Feedback-Loop fuer AutoDetect) · Issue #21 · KurtWoloch/Kontensystem und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:59:19", "hwnd": 197294, "title": "GitHub · Where software is built und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:59:30", "hwnd": 197294, "title": "Issues · KurtWoloch/Kontensystem und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T20:59:34", "hwnd": 4064678, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T20:59:35", "hwnd": 7474452, "title": "Tagesplanung — Reaktiver Planer — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:59:29", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T20:59:29", "hwnd": 9177012, "title": "Tagesplanung — Off-PC — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T20:59:55", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 25, "idle_start": "2026-03-28T20:59:29"}
+{"ts": "2026-03-28T20:59:55", "hwnd": 9177012, "title": "Tagesplanung — Reaktiver Planer — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:00:14", "hwnd": 329436, "title": "Administrator: Eingabeaufforderung - main.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-03-28T21:00:25", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:00:36", "hwnd": 3344366, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:01:01", "hwnd": 18810860, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:01:16", "hwnd": 3344366, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:02:38", "hwnd": 6817764, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:02:50", "hwnd": 3344366, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:07:10", "hwnd": 19007468, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:07:11", "hwnd": 8980780, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:07:13", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:07:18", "hwnd": 9964868, "title": "Eintrag bearbeiten — Restart Radio Würmchen KI RWKIRN", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:07:22", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:07:47", "hwnd": 19138540, "title": "Eintrag löschen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:07:48", "hwnd": 5639628, "title": "Eintrag löschen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:07:49", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:07:52", "hwnd": 10161476, "title": "Eintrag bearbeiten — Konversation Andon FM / Thinking Frequencies RAAFKO", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:07:54", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:08:14", "hwnd": 9505856, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:08:21", "hwnd": 9374270, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:09:09", "hwnd": 9111852, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:09:36", "hwnd": 9374270, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:10:36", "hwnd": 9242924, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:10:37", "hwnd": 6883084, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:10:38", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:10:51", "hwnd": 10292548, "title": "Eintrag bearbeiten — Diskussion Issues in Planer mit OpenClaw KSPLEN", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:10:53", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:11:01", "hwnd": 6948620, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:11:02", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:11:04", "hwnd": 19597292, "title": "Eintrag bearbeiten — Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:11:07", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:11:41", "hwnd": 3475246, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:11:43", "hwnd": 3933478, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:11:49", "hwnd": 3475246, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:12:55", "hwnd": 4064550, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:12:56", "hwnd": 8784408, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:12:57", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:13:25", "hwnd": 3083714, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:13:31", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:13:35", "hwnd": 10554318, "title": "Eintrag bearbeiten — Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:13:40", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:13:51", "hwnd": 7146494, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:13:56", "hwnd": 4785574, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:15:45", "hwnd": 5705248, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:15:50", "hwnd": 4785574, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:16:03", "hwnd": 7343102, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:16:08", "hwnd": 4785574, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:16:22", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T21:16:25", "hwnd": 9178340, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:16:26", "hwnd": 4785574, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:17:31", "hwnd": 15993154, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:17:32", "hwnd": 2424998, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:17:34", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:18:13", "hwnd": 14355084, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:18:20", "hwnd": 7670782, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:18:26", "hwnd": 14355084, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:18:44", "hwnd": 13961236, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:18:49", "hwnd": 14355084, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:19:14", "hwnd": 16320834, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:19:25", "hwnd": 14355084, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:19:36", "hwnd": 16451906, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:19:38", "hwnd": 7932926, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:19:41", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:20:07", "hwnd": 2755912, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:20:08", "hwnd": 9898514, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:20:14", "hwnd": 2755912, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:20:46", "hwnd": 7998502, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:20:50", "hwnd": 2755912, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:20:57", "hwnd": 9702628, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:21:03", "hwnd": 2755912, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:21:35", "hwnd": 8129574, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:21:41", "hwnd": 2755912, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:22:28", "hwnd": 12585682, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:22:31", "hwnd": 2755912, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:24:37", "hwnd": 6948606, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:24:39", "hwnd": 14485524, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:24:40", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:24:57", "hwnd": 16648514, "title": "Eintrag bearbeiten — Tweet an Grok'n Roll RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:25:04", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:25:08", "hwnd": 1836292, "title": "Eintrag bearbeiten — Tweet an Grok'n Roll RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:25:14", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:25:16", "hwnd": 4983748, "title": "Eintrag bearbeiten — Tweet an Grok'n Roll RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:25:21", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:25:40", "hwnd": 14748300, "title": "Eintrag bearbeiten — Teller waschen / Getränk fassen LENATW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:25:43", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:26:09", "hwnd": 9832684, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:26:14", "hwnd": 4589550, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:27:00", "hwnd": 14616596, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:27:02", "hwnd": 4589550, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:27:04", "hwnd": 8391418, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:27:07", "hwnd": 4589550, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:27:44", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T21:27:44", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:28:30", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 45, "idle_start": "2026-03-28T21:27:44"}
+{"ts": "2026-03-28T21:28:30", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:29:25", "hwnd": 10815528, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:29:26", "hwnd": 10881064, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:29:27", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:29:29", "hwnd": 20449260, "title": "Eintrag bearbeiten — Nacherfassung Ablauf KSPLNA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:29:32", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:30:10", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Thinking Frequencies", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:30:20", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:30:22", "hwnd": 3083014, "title": "Microsoft Access - [Abf_Scans_Andon_FM_nach_letztem_Hoerdatum : Select Query]", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T21:30:24", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:30:25", "hwnd": 3083014, "title": "Microsoft Access - [rw_verknuepfung2000 : Database]", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T21:30:20", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T21:30:20", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:30:44", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Thinking Frequencies", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:30:48", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:30:57", "hwnd": 6163692, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:31:42", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T21:32:49", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Thinking Frequencies", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:32:51", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:32:55", "hwnd": 3083014, "title": "Microsoft Access - [Tab_Scan : Table]", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T21:32:57", "hwnd": 13240664, "title": "planner", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:33:03", "hwnd": 8782702, "title": "Andon FM Station logs.txt.music.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:33:21", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Thinking Frequencies", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:36:58", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T21:37:01", "hwnd": 197294, "title": "Sawyer Merritt on X: \"German TV reporter testing @Tesla FSD (Supervised) V14 in the country as public transport in rural areas: \"I was genuinely impressed. In the situations where we experienced the system, it worked perfectly and safely. I hadn't expected that. Even in the bad weather conditions in https://t.co/5g8iKOuWEe\" / X und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T21:37:03", "hwnd": 197294, "title": "X und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T21:37:07", "hwnd": 7343962, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:37:08", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T21:37:09", "hwnd": 7409498, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:37:10", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Thinking Frequencies", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:37:20", "hwnd": 12978550, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:37:22", "hwnd": 8782702, "title": "Andon FM Station logs.txt.music.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:37:23", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Thinking Frequencies", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:39:13", "hwnd": 3867906, "title": "Radio Würmchen", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:39:15", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Thinking Frequencies", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:41:01", "hwnd": 7606106, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:41:02", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Thinking Frequencies", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:43:55", "hwnd": 7998756, "title": "Radio Würmchen", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:43:57", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Grok'n Roll", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:50:44", "hwnd": 8782702, "title": "Andon FM Station logs.txt.music.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:50:46", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Grok'n Roll", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:50:47", "hwnd": 65712, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:50:48", "hwnd": 1051082, "title": "Sprungliste für Editor", "process": "ShellExperienceHost.exe", "browser": ""}
+{"ts": "2026-03-28T21:50:50", "hwnd": 11078658, "title": "Andon FM Station logs.txt.music.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:50:59", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Grok'n Roll", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:51:16", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:51:17", "hwnd": 3083014, "title": "Microsoft Access - [Tab_Scan : Table]", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T21:51:20", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:51:22", "hwnd": 3083014, "title": "Microsoft Access - [Abf_Scans_Andon_FM_nach_letztem_Hoerdatum : Select Query]", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T21:51:29", "hwnd": 17369560, "title": "Enter Parameter Value", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T21:51:31", "hwnd": 3083014, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T21:51:45", "hwnd": 65932, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:51:46", "hwnd": 5637346, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:51:47", "hwnd": 11078658, "title": "Andon FM Station logs.txt.music.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:51:48", "hwnd": 7736088, "title": "Suchen", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:51:50", "hwnd": 11078658, "title": "Andon FM Station logs.txt.music.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:51:58", "hwnd": 7867160, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:51:59", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Grok'n Roll", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:53:05", "hwnd": 11078658, "title": "Andon FM Station logs.txt.music.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:53:15", "hwnd": 9244114, "title": "Suchen", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:53:16", "hwnd": 11078658, "title": "Andon FM Station logs.txt.music.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T21:54:27", "hwnd": 8915524, "title": "Tagesplanung — Off-PC — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:54:27", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 1446, "idle_start": "2026-03-28T21:30:20"}
+{"ts": "2026-03-28T21:54:27", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:54:34", "hwnd": 15272858, "title": "Aufgabe erledigt — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:54:46", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:54:52", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Grok'n Roll", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:55:06", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:55:08", "hwnd": 3083014, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T21:55:04", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T21:55:04", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:56:25", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:56:33", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 88, "idle_start": "2026-03-28T21:55:04"}
+{"ts": "2026-03-28T21:56:33", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:56:33", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:56:36", "hwnd": 3409232, "title": "Aufgabe erledigt — Dokumentation Ohrwurm-Projekt RWOWDO", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:56:41", "hwnd": 13240664, "title": "Radio Fernsehen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:56:47", "hwnd": 18286988, "title": "Microsoft Word", "process": "WINWORD.EXE", "browser": ""}
+{"ts": "2026-03-28T21:57:00", "hwnd": 12782488, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:57:01", "hwnd": 3409232, "title": "Aufgabe erledigt — Dokumentation Ohrwurm-Projekt RWOWDO", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:57:06", "hwnd": 12913560, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:57:07", "hwnd": 18286988, "title": "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8.doc - Microsoft Word", "process": "WINWORD.EXE", "browser": ""}
+{"ts": "2026-03-28T21:56:50", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T21:56:50", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T21:59:17", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T21:59:20", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Grok'n Roll", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T21:59:36", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T21:59:48", "hwnd": 1836706, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T21:59:49", "hwnd": 18286988, "title": "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8.doc - Microsoft Word", "process": "WINWORD.EXE", "browser": ""}
+{"ts": "2026-03-28T22:02:59", "hwnd": 10880872, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T22:03:00", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Grok'n Roll", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T22:03:17", "hwnd": 18286988, "title": "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8.doc - Microsoft Word", "process": "WINWORD.EXE", "browser": ""}
+{"ts": "2026-03-28T22:04:40", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:04:43", "hwnd": 197294, "title": "Andon FM | Andon Labs und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:04:47", "hwnd": 18286988, "title": "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8.doc - Microsoft Word", "process": "WINWORD.EXE", "browser": ""}
+{"ts": "2026-03-28T22:07:17", "hwnd": 197294, "title": "Andon FM | Andon Labs und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:07:23", "hwnd": 18286988, "title": "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8.doc - Microsoft Word", "process": "WINWORD.EXE", "browser": ""}
+{"ts": "2026-03-28T22:07:36", "hwnd": 197294, "title": "Andon FM | Andon Labs und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:07:51", "hwnd": 197294, "title": "X und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:08:04", "hwnd": 4851092, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T22:08:05", "hwnd": 18286988, "title": "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8.doc - Microsoft Word", "process": "WINWORD.EXE", "browser": ""}
+{"ts": "2026-03-28T22:11:01", "hwnd": 14420366, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:11:13", "hwnd": 18286988, "title": "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8.doc - Microsoft Word", "process": "WINWORD.EXE", "browser": ""}
+{"ts": "2026-03-28T22:14:51", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan Grok'n Roll", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T22:14:59", "hwnd": 5309844, "title": "Radio Würmchen", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T22:15:00", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan OpenAIR", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T22:15:17", "hwnd": 18286988, "title": "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8.doc - Microsoft Word", "process": "WINWORD.EXE", "browser": ""}
+{"ts": "2026-03-28T22:18:52", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan OpenAIR", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T22:18:54", "hwnd": 197294, "title": "X und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:18:58", "hwnd": 197294, "title": "OpenClaw Control und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:19:06", "hwnd": 197294, "title": "DAM TFX Alarm Set 3+1 Gelb-Grün-Rot Bissanzeiger und 20 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:19:10", "hwnd": 197294, "title": "Andon FM | Andon Labs und 19 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:19:15", "hwnd": 197294, "title": "Anaconda Vipex RS Profi Set 3 + 1 + TL + BW - Bissanzeiger und 19 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:19:44", "hwnd": 197294, "title": "Andon FM | Andon Labs und 18 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T22:19:48", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan OpenAIR", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T22:20:08", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T22:20:10", "hwnd": 3083014, "title": "Microsoft Access - [Abf_Scans_Andon_FM_nach_letztem_Hoerdatum : Select Query]", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T22:21:03", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T22:21:07", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 1457, "idle_start": "2026-03-28T21:56:50"}
+{"ts": "2026-03-28T22:21:07", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:21:07", "hwnd": 3409232, "title": "Aufgabe erledigt — Dokumentation Ohrwurm-Projekt RWOWDO", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:21:22", "hwnd": 3083014, "title": "Microsoft Access - [Abf_Scans_Andon_FM_nach_letztem_Hoerdatum : Select Query]", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T22:21:25", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:21:33", "hwnd": 9438610, "title": "Timeline Nacherfassung — 2026-03-28", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:22:01", "hwnd": 13830394, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:22:02", "hwnd": 18024770, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:22:03", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:22:17", "hwnd": 9504146, "title": "Aufgabe überspringen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:22:24", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Medikament fassen GEMEFA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:22:28", "hwnd": 8455932, "title": "Aufgabe erledigt — Medikament fassen GEMEFA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:22:40", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T22:22:40", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Medikament fassen GEMEFA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:25:06", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 145, "idle_start": "2026-03-28T22:22:40"}
+{"ts": "2026-03-28T22:25:06", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Medikament fassen GEMEFA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:25:10", "hwnd": 6163692, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T22:25:32", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T22:25:32", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Medikament fassen GEMEFA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:27:12", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 100, "idle_start": "2026-03-28T22:25:32"}
+{"ts": "2026-03-28T22:27:12", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Medikament fassen GEMEFA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:27:15", "hwnd": 8455932, "title": "Aufgabe erledigt — Medikament fassen GEMEFA", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:27:35", "hwnd": 6163692, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T22:27:48", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T22:27:48", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:38:02", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 613, "idle_start": "2026-03-28T22:27:48"}
+{"ts": "2026-03-28T22:38:02", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:38:20", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T22:38:20", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:38:57", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 37, "idle_start": "2026-03-28T22:38:20"}
+{"ts": "2026-03-28T22:38:57", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:38:59", "hwnd": 7406206, "title": "Aufgabe erledigt — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:39:05", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Zähne putzen LEAZZP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:39:06", "hwnd": 17697046, "title": "Aufgabe erledigt — Zähne putzen LEAZZP", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:39:11", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anwendung der Zwischenraumzahnbürste LEAZZZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:39:20", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T22:39:20", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Anwendung der Zwischenraumzahnbürste LEAZZZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:41:00", "hwnd": 2556552, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:41:11", "hwnd": 8915524, "title": "Tagesplanung — Off-PC — Anwendung der Zwischenraumzahnbürste LEAZZZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:57:10", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 1069, "idle_start": "2026-03-28T22:39:20"}
+{"ts": "2026-03-28T22:57:10", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Anwendung der Zwischenraumzahnbürste LEAZZZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:57:17", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T22:57:18", "hwnd": 3867494, "title": "Abf_Scans_Andon_FM_nach_letztem_Hoerdatum : Select Query", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T22:57:19", "hwnd": 3083014, "title": "Microsoft Access - [Abf_Scans_Andon_FM_nach_letztem_Hoerdatum : Select Query]", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T22:57:36", "hwnd": 10684196, "title": "Enter Parameter Value", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T22:57:39", "hwnd": 3083014, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T22:57:24", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T22:57:24", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Anwendung der Zwischenraumzahnbürste LEAZZZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:59:30", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T22:59:32", "hwnd": 8915524, "title": "Tagesplanung — Off-PC — Anwendung der Zwischenraumzahnbürste LEAZZZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:59:32", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 127, "idle_start": "2026-03-28T22:57:24"}
+{"ts": "2026-03-28T22:59:32", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Anwendung der Zwischenraumzahnbürste LEAZZZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:59:35", "hwnd": 10618838, "title": "Aufgabe erledigt — Anwendung der Zwischenraumzahnbürste LEAZZZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:59:37", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Anwendung Zahnseide LEAZZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T22:59:46", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T22:59:46", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Anwendung Zahnseide LEAZZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:07:01", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 435, "idle_start": "2026-03-28T22:59:46"}
+{"ts": "2026-03-28T23:07:01", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Anwendung Zahnseide LEAZZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:07:09", "hwnd": 8720012, "title": "Aufgabe erledigt — Anwendung Zahnseide LEAZZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:07:15", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Reinigung Zahnputzutensilien, Hände waschen LEAZHW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:07:18", "hwnd": 15994078, "title": "Aufgabe erledigt — Reinigung Zahnputzutensilien, Hände waschen LEAZHW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:07:22", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Bett machen LEAZHW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:07:24", "hwnd": 5113644, "title": "Aufgabe erledigt — Bett machen LEAZHW", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:07:25", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Ausziehen LEAZAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:07:35", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T23:07:35", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Ausziehen LEAZAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:09:20", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 105, "idle_start": "2026-03-28T23:07:35"}
+{"ts": "2026-03-28T23:09:20", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Ausziehen LEAZAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:09:23", "hwnd": 11471976, "title": "Aufgabe erledigt — Ausziehen LEAZAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:09:25", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:09:26", "hwnd": 10946518, "title": "Aufgabe überspringen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:09:32", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:09:42", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T23:09:42", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:11:00", "hwnd": 18614668, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:11:02", "hwnd": 8915524, "title": "Tagesplanung — Off-PC — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:14:25", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 283, "idle_start": "2026-03-28T23:09:42"}
+{"ts": "2026-03-28T23:14:25", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:14:28", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan OpenAIR", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T23:14:31", "hwnd": 65712, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T23:14:32", "hwnd": 1051082, "title": "Sprungliste für Editor", "process": "ShellExperienceHost.exe", "browser": ""}
+{"ts": "2026-03-28T23:14:36", "hwnd": 13240664, "title": "USB-STICK (F:)", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T23:14:42", "hwnd": 9571366, "title": "Andon FM Station logs.txt.music.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T23:14:46", "hwnd": 3999300, "title": "Radio Würmchen 26.2.20 - Scan OpenAIR", "process": "Radio Würmchen.exe", "browser": ""}
+{"ts": "2026-03-28T23:14:35", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T23:14:35", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:17:17", "hwnd": 65712, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T23:17:22", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 166, "idle_start": "2026-03-28T23:14:35"}
+{"ts": "2026-03-28T23:17:22", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:17:29", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:17:44", "hwnd": 3212618, "title": "Aufgabe erledigt — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:17:52", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — WC LEAZWC", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:17:53", "hwnd": 6753376, "title": "Aufgabe erledigt — WC LEAZWC", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:17:57", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:08", "hwnd": 1902386, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:11", "hwnd": 1967922, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:12", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:24", "hwnd": 5441324, "title": "Eintrag löschen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:25", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:28", "hwnd": 4197198, "title": "Eintrag löschen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:30", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:37", "hwnd": 5508940, "title": "Aufgabe überspringen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:42", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:45", "hwnd": 4523308, "title": "Eintrag bearbeiten — Scan OpenAIR", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:47", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:49", "hwnd": 10161030, "title": "Aufgabe erledigt — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:52", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:54", "hwnd": 6622388, "title": "*Unbenannt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T23:18:57", "hwnd": 4590414, "title": "Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T23:19:00", "hwnd": 10161030, "title": "Aufgabe erledigt — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:19:02", "hwnd": 6163692, "title": "*Essensplan 18.8.2025 ab Jause.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-03-28T23:19:08", "hwnd": 10161030, "title": "Aufgabe erledigt — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:19:09", "hwnd": 3474752, "title": "learner-rule-design.md - Visual Studio Code", "process": "Code.exe", "browser": ""}
+{"ts": "2026-03-28T23:19:12", "hwnd": 15010484, "title": "Rechner", "process": "ApplicationFrameHost.exe", "browser": ""}
+{"ts": "2026-03-28T23:19:14", "hwnd": 3083014, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T23:19:16", "hwnd": 10161030, "title": "Aufgabe erledigt — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:19:17", "hwnd": 197294, "title": "Andon FM | Andon Labs und 18 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:19:24", "hwnd": 11274802, "title": "Microsoft Excel - Library Andon FM.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-03-28T23:19:33", "hwnd": 8980700, "title": "", "process": "AGENTSVR.EXE", "browser": ""}
+{"ts": "2026-03-28T23:19:34", "hwnd": 197294, "title": "Andon FM | Andon Labs und 18 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:19:37", "hwnd": 197294, "title": "Google Übersetzer und 18 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:19:43", "hwnd": 197294, "title": "Radio Würmchen und 17 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:19:24", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T23:19:24", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:19:47", "hwnd": 197294, "title": "Johann-Laufner Gasse 2/5, Wien stündliche Vorhersage | MSN Wetter und 17 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:19:49", "hwnd": 197294, "title": "Radio Würmchen und 16 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:19:50", "hwnd": 197294, "title": "Austria Top 40 - Singles Top 75 27.03.2026 - austriancharts.at und 16 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:19:52", "hwnd": 197294, "title": "Radio Würmchen und 15 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:19:55", "hwnd": 197294, "title": "Notifications / X und 15 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:19:59", "hwnd": 197294, "title": "Radio Würmchen und 14 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:00", "hwnd": 197294, "title": "X und 14 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:02", "hwnd": 197294, "title": "Radio Würmchen und 13 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:03", "hwnd": 197294, "title": "Notifications / X und 13 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:04", "hwnd": 197294, "title": "Radio Würmchen und 12 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:05", "hwnd": 197294, "title": "Kurt Woloch on X: \"@ThinkingFreq Yeah, and it seems like for Andon Labs it's worth it to keep the stations alive even it you may have to wait for some more hours for someone in Oslo or Whitechapel to show up again... but those listeners may still like to hear you, they just don't listen all the time.\" / X und 12 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:07", "hwnd": 197294, "title": "Radio Würmchen und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:08", "hwnd": 9374634, "title": "Website verlassen?", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:09", "hwnd": 197294, "title": "Home / X und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:10", "hwnd": 197294, "title": "Radio Würmchen und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:11", "hwnd": 197294, "title": "Home / X und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:13", "hwnd": 1704540, "title": "Website verlassen?", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:14", "hwnd": 197294, "title": "Home / X und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:15", "hwnd": 197294, "title": "Radio Würmchen und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:17", "hwnd": 197294, "title": "Home / X und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:19", "hwnd": 4065796, "title": "Website verlassen?", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:20", "hwnd": 197294, "title": "Radio Würmchen und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:22", "hwnd": 197294, "title": "Sawyer Merritt on X: \"German TV reporter testing @Tesla FSD (Supervised) V14 in the country as public transport in rural areas: \"I was genuinely impressed. In the situations where we experienced the system, it worked perfectly and safely. I hadn't expected that. Even in the bad weather conditions in https://t.co/5g8iKOuWEe\" / X und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:28", "hwnd": 197294, "title": "Radio Würmchen und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:29", "hwnd": 197294, "title": "Andon FM | Andon Labs und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:30", "hwnd": 197294, "title": "30 Coolest Jazz Standards Every Music Lover Should Know – Audio Assemble und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:32", "hwnd": 197294, "title": "30 Coolest Jazz Standards Every Music Lover Should Know – Audio Assemble und 6 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:33", "hwnd": 197294, "title": "Radio Würmchen und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:34", "hwnd": 197294, "title": "Posteingang – Kurt Woloch – Outlook und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:36", "hwnd": 197294, "title": "Radio Würmchen und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:39", "hwnd": 197294, "title": "Radio Würmchen und 3 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:40", "hwnd": 197294, "title": "Issues · KurtWoloch/Kontensystem und 3 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:41", "hwnd": 197294, "title": "Radio Würmchen und 2 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:42", "hwnd": 197294, "title": "Issues · KurtWoloch/Kontensystem und 2 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:43", "hwnd": 197294, "title": "Radio Würmchen und 1 weitere Seite - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:20:46", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T23:20:48", "hwnd": 10161030, "title": "Aufgabe erledigt — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:20:50", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 86, "idle_start": "2026-03-28T23:19:24"}
+{"ts": "2026-03-28T23:20:50", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:00", "hwnd": 197294, "title": "Radio Würmchen und 1 weitere Seite - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:21:04", "hwnd": 133126, "title": "Live365 Scraper", "process": "Live365Scraper.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:14", "hwnd": 197294, "title": "Radio Würmchen und 1 weitere Seite - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-03-28T23:21:17", "hwnd": 133126, "title": "Live365 Scraper", "process": "Live365Scraper.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:19", "hwnd": 1508428, "title": "Windows PowerShell", "process": "powershell.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:22", "hwnd": 133126, "title": "Live365 Scraper", "process": "Live365Scraper.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:24", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:26", "hwnd": 6490512, "title": "Microsoft Access", "process": "MSACCESS.EXE", "browser": ""}
+{"ts": "2026-03-28T23:21:28", "hwnd": 133126, "title": "Live365 Scraper", "process": "Live365Scraper.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:09", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-03-28T23:21:09", "hwnd": 9308084, "title": "Tagesplanung — Off-PC — im Bett", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:30", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:35", "hwnd": 918426, "title": "C:\\WINDOWS\\py.exe", "process": "py.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:36", "hwnd": 133126, "title": "Live365 Scraper", "process": "Live365Scraper.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:38", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 28, "idle_start": "2026-03-28T23:21:09"}
+{"ts": "2026-03-28T23:21:38", "hwnd": 9308084, "title": "Tagesplanung — Reaktiver Planer — im Bett", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:38", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — im Bett", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:39", "hwnd": 16582026, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:43", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — im Bett", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:45", "hwnd": 9374050, "title": "Aufgabe erledigt — im Bett", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:46", "hwnd": 8915524, "title": "Tagesplanung — Reaktiver Planer — Bearb.Ohrwürmer (Nachfassen aus alten Charts) RWOWTT", "process": "python.exe", "browser": ""}
+{"ts": "2026-03-28T23:21:47", "hwnd": 9439586, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}

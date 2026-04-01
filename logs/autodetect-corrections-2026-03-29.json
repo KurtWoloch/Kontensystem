@@ -1,0 +1,380 @@
+[
+  {
+    "ts": "2026-03-29T07:45:54",
+    "start": "07:13",
+    "end": "07:13",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Diskussion Vortag / Issues in Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T07:46:42",
+    "start": "07:20",
+    "end": "07:22",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Surfen / Analyse Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-29T07:47:05",
+    "start": "07:22",
+    "end": "07:22",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Surfen / Analyse Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-29T07:47:40",
+    "start": "07:37",
+    "end": "07:37",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Surfen / Analyse Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-29T08:19:37",
+    "start": "08:09",
+    "end": "08:18",
+    "original": "Anhören Thinking Frequencies (Live365) RAAFKO",
+    "corrected": "Analyse Thinking Frequencies RAAFAN"
+  },
+  {
+    "ts": "2026-03-29T09:58:32",
+    "start": "09:32",
+    "end": "09:32",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-29T10:00:28",
+    "start": "09:31",
+    "end": "09:31",
+    "original": "Scan Thinking Frequencies",
+    "corrected": "Scan Thinking Frequencies RASCTF"
+  },
+  {
+    "ts": "2026-03-29T10:02:09",
+    "start": "09:33",
+    "end": "09:33",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Tweet an Thinking Frequencies RWMPAR"
+  },
+  {
+    "ts": "2026-03-29T10:04:02",
+    "start": "09:43",
+    "end": "09:43",
+    "original": "Surfen X (Timeline) INSUXX",
+    "corrected": "Tweet an Thinking Frequencies RWMPAR"
+  },
+  {
+    "ts": "2026-03-29T10:07:03",
+    "start": "09:57",
+    "end": "09:57",
+    "original": "Surfen X RAAFKO",
+    "corrected": "Tweet an Thinking Frequencies RWMPAR"
+  },
+  {
+    "ts": "2026-03-29T10:17:35",
+    "start": "10:12",
+    "end": "10:12",
+    "original": "Diskussion OpenClaw KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:19:52",
+    "start": "10:34",
+    "end": "10:40",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-29T19:20:42",
+    "start": "10:41",
+    "end": "10:52",
+    "original": "Einkauf (BILLA Ederg.) / Laufen LEEKBI",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:21:47",
+    "start": "11:12",
+    "end": "11:14",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:27:05",
+    "start": "11:34",
+    "end": "11:36",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:33:39",
+    "start": "11:41",
+    "end": "11:41",
+    "original": "Nach_Fruehstueck — Mund spülen LEMTMS",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-29T19:34:49",
+    "start": "11:46",
+    "end": "11:52",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:35:13",
+    "start": "11:53",
+    "end": "11:54",
+    "original": "Bearbeitung in VS Code PCOCIN",
+    "corrected": "Tweet an Thinking Frequencies RWMPAR"
+  },
+  {
+    "ts": "2026-03-29T19:35:33",
+    "start": "11:55",
+    "end": "12:04",
+    "original": "Bearb. Planer-Dateien KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:37:07",
+    "start": "12:02",
+    "end": "12:04",
+    "original": "Tweet an Thinking Frequencies RWMPAR",
+    "corrected": "Arbeit an Tagesplanung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:38:14",
+    "start": "12:10",
+    "end": "12:10",
+    "original": "Konversation Andon FM / Thinking Frequencies RAAFKO",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:38:43",
+    "start": "12:13",
+    "end": "12:19",
+    "original": "Einkauf (BILLA Ederg.) / Laufen LEEKBI",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-03-29T19:43:47",
+    "start": "12:19",
+    "end": "12:20",
+    "original": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-29T19:45:17",
+    "start": "12:37",
+    "end": "12:37",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-29T19:45:52",
+    "start": "12:47",
+    "end": "12:58",
+    "original": "Bearb. Planer-Dateien KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:46:47",
+    "start": "13:00",
+    "end": "13:02",
+    "original": "Bearbeitung Planungsaktivitäten KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:47:18",
+    "start": "13:04",
+    "end": "13:07",
+    "original": "Konversation Andon FM / Thinking Frequencies RAAFKO",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:48:07",
+    "start": "13:07",
+    "end": "13:07",
+    "original": "Bearb. Liste Scooterfahrten FZSCLI",
+    "corrected": "Vorbereitug Fahrt Großfeldsiedlungsbad GEBBVB"
+  },
+  {
+    "ts": "2026-03-29T19:53:17",
+    "start": "13:40",
+    "end": "13:40",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:54:28",
+    "start": "13:47",
+    "end": "13:47",
+    "original": "Off-PC: Abgang + Fahrt mit Voi-Scooter zum Schwimmbad",
+    "corrected": "Der Außentemperatur entsprechend anziehen LEAUAZ"
+  },
+  {
+    "ts": "2026-03-29T19:55:38",
+    "start": "17:32",
+    "end": "17:33",
+    "original": "Sonstige PC-Nutzung",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T19:56:40",
+    "start": "17:33",
+    "end": "17:33",
+    "original": "Abgang + Fahrt mit Voi-Scooter zum Schwimmbad",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-29T19:57:09",
+    "start": "17:35",
+    "end": "17:36",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Surfen Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-29T19:57:20",
+    "start": "17:36",
+    "end": "17:36",
+    "original": "Mittagessen im Schwimmbad / Restaurant",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-29T19:58:58",
+    "start": "17:44",
+    "end": "17:44",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-29T20:02:56",
+    "start": "17:54",
+    "end": "17:58",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "Surfen / Analyse Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-29T20:27:25",
+    "start": "19:14",
+    "end": "19:16",
+    "original": "Dateiverwaltung (Explorer)",
+    "corrected": "Surfen / Analyse Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-29T20:28:49",
+    "start": "19:23",
+    "end": "19:25",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Tagging Take Five / Just like heaven / Once in a lifetime / Tequila RWPLAF"
+  },
+  {
+    "ts": "2026-03-29T20:44:41",
+    "start": "19:39",
+    "end": "19:42",
+    "original": "Durchsehen weitere potentielle Issues für Tagesplaner KSPLPL",
+    "corrected": "Aufnahme Issue nicht übernehmbare Vorschläge in Timeline KSPLPL"
+  },
+  {
+    "ts": "2026-03-29T20:44:56",
+    "start": "19:39",
+    "end": "19:42",
+    "original": "Aufnahme Issue nicht übernehmbare Vorschläge in Timeline KSPLPL",
+    "corrected": "Aufnahme Issue #23 (nicht übernehmbare Vorschläge in Timeline) KSPLPL"
+  },
+  {
+    "ts": "2026-03-29T20:46:46",
+    "start": "20:01",
+    "end": "20:02",
+    "original": "Ansehen ZiB 1 + Wetter RATVZI",
+    "corrected": "Surfen Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-29T20:47:22",
+    "start": "20:11",
+    "end": "20:20",
+    "original": "Einkauf (BILLA Ederg.) / Laufen LEEKBI",
+    "corrected": "Diskussion Tagesablauf + Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-03-29T20:49:30",
+    "start": "20:30",
+    "end": "20:32",
+    "original": "Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE",
+    "corrected": "Analyse Thinking Frequencies RAAFAN"
+  },
+  {
+    "ts": "2026-03-29T20:50:45",
+    "start": "20:34",
+    "end": "20:35",
+    "original": "Analysen in Arena AI INSUAI",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-29T20:51:23",
+    "start": "20:36",
+    "end": "20:40",
+    "original": "Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE",
+    "corrected": "Analyse Thinking Frequencies RAAFAN"
+  },
+  {
+    "ts": "2026-03-29T20:51:44",
+    "start": "20:40",
+    "end": "20:41",
+    "original": "Einkauf (BILLA Ederg.) / Laufen LEEKBI",
+    "corrected": "Bearb. Essensplan (Start Korrekturlauf) LEEPEP"
+  },
+  {
+    "ts": "2026-03-29T22:08:01",
+    "start": "21:17",
+    "end": "21:17",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-29T22:09:36",
+    "start": "21:18",
+    "end": "21:20",
+    "original": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
+    "corrected": "Diskussion Tagesablauf mit OpenClaw KSPLTA"
+  },
+  {
+    "ts": "2026-03-29T22:10:36",
+    "start": "21:26",
+    "end": "21:30",
+    "original": "Bearbeitung in VS Code PCOCIN",
+    "corrected": "Lesen Memories OpenClaw INOCME"
+  },
+  {
+    "ts": "2026-03-29T22:11:30",
+    "start": "21:30",
+    "end": "21:41",
+    "original": "Scan Thinking Frequencies",
+    "corrected": "Scan Thinking Frequencies RASCTF"
+  },
+  {
+    "ts": "2026-03-29T22:12:15",
+    "start": "21:51",
+    "end": "21:51",
+    "original": "Scan OpenAIR",
+    "corrected": "Scan OpenAIR RASCOA"
+  },
+  {
+    "ts": "2026-03-29T22:13:38",
+    "start": "22:03",
+    "end": "22:05",
+    "original": "Bearbeitung Planungsaktivitäten KSPLEN",
+    "corrected": "Surfen / Analyse Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-03-29T23:23:55",
+    "start": "23:08",
+    "end": "23:08",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-03-29T23:24:28",
+    "start": "23:09",
+    "end": "23:10",
+    "original": "Reinigung Zahnputzutensilien, Hände waschen LEAZHW",
+    "corrected": "Surfen Atariage INSAAA"
+  }
+]

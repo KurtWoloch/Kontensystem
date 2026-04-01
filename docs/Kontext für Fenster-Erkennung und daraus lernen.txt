@@ -1,0 +1,12 @@
+Konzept für Fenster-Erkennung und daraus lernen:
+
+- Wenn die Timeline-Erfassung geladen wird, wird für alle Fenstertitel versucht, die passende Aktivität herauszufinden (wie jetzt schon), auch anhand der Konfidenz (die es beim neuen Regelsystem geben sollte).
+- Bei jedem Import der Timeline werden die Konfidenzen (wenn die entsprechende Checkbox gesetzt ist) wie folgt angepasst:
+  Es wird ein Matching aller im Zeitraum vorkommenden Fenstertitel gegen die entsprechende zu importierende Aktivität durchgeführt.
+  Dabei wird bei mehrfach vorkommenden gleichen Fenstertiteln, die in verschiedenen Aktivitäten münden, der Konfidenzprozentsatz anhand des Zeitanteils verteilt, das auf jede der Aktivitäten entfällt.
+  Dies ist dann die "Import-Konfidenz". Diese wird nun mit der ursprünglichen Konfidenz verglichen und so gewichtet, dass 80% der ursprünglichen Konfidenz und 20% der Import-Konfidenz zählt.
+  Dies ergibt dann die gespeicherten Konfidenzen, die für den nächsten Aufruf der Timeline verwendet werden. Dabei kann es für jeden Fenstertitel auch mehrere Konfidenzen für verschiedene Aktivitäten geben, von denen aber für das eigentliche Matching nur die höchste zählt.
+  Die niedrigeren werden aber trotzdem gespeichert, da sie beim nächsten Timeline-Speichern eventuell überholt werden können, wenn sie sich wiederholen.
+- Am Ende des Tages erfolgt ein ähnlicher Vorgang für die "globalen" Konfidenzen, wobei nun das gesamte Window-Monitor-Log des Tages mit den geloggten Aktivitäten des Tages verglichen wird (inklusive der, die nicht aus der Timeline geloggt wurden).
+  Dabei wird nun die "permanente" Konfidenz für jeden Fenstertitel entsprechend angepasst. Auch hier wäre es gut, wenn niedrigere Konfidenzen zum gleichen Fenstertitel auch gespeichert werden, die das Potential haben, sich über Tage verteilt zu erhöhen.
+  Alternativ dazu könnten die Konfidenzen anhand der Logs für die letzten 5 Tage berechnet werden, wobei aber auch Konfidenzen für Fenstertitel erhalten bleiben sollten, die in den letzten 5 Tagen nicht gesichtet wurden, damit sie trotzdem erkannt werden, falls sie wieder auftauchen.

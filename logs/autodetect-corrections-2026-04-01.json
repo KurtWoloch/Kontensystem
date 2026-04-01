@@ -1,0 +1,191 @@
+[
+  {
+    "ts": "2026-04-01T07:57:06",
+    "start": "06:46",
+    "end": "06:47",
+    "original": "Anwendung der Zwischenraumzahnbürste LEAZZZ",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-04-01T07:59:02",
+    "start": "06:58",
+    "end": "06:58",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-01T07:59:56",
+    "start": "07:16",
+    "end": "07:16",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-04-01T08:00:30",
+    "start": "07:18",
+    "end": "07:34",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Diskussion Vortag mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T08:01:23",
+    "start": "07:48",
+    "end": "07:50",
+    "original": "Surfen X (Timeline) INSUXX",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-04-01T20:53:47",
+    "start": "19:46",
+    "end": "19:46",
+    "original": "Mittagspause BRZG  LEMEBR",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T20:54:33",
+    "start": "19:57",
+    "end": "19:59",
+    "original": "Tweet an Backlink Broadcast RWMPAR",
+    "corrected": "Konversation mit Andrew Pappas RAAFKO"
+  },
+  {
+    "ts": "2026-04-01T20:54:51",
+    "start": "19:59",
+    "end": "20:01",
+    "original": "Surfen X RAAFKO",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T20:55:49",
+    "start": "20:13",
+    "end": "20:17",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Surfen X (Timeline) INSUXX"
+  },
+  {
+    "ts": "2026-04-01T20:56:44",
+    "start": "19:59",
+    "end": "20:17",
+    "original": "Surfen X (Timeline) INSUXX",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T20:57:04",
+    "start": "20:13",
+    "end": "20:17",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Surfen X (Timeline) INSUXX"
+  },
+  {
+    "ts": "2026-04-01T20:57:24",
+    "start": "19:59",
+    "end": "20:10",
+    "original": "Surfen X (Timeline) INSUXX",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T20:57:46",
+    "start": "19:59",
+    "end": "20:11",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Kommentieren VIdeo Matthew Berman OpenClaw RAYTKO"
+  },
+  {
+    "ts": "2026-04-01T20:59:50",
+    "start": "19:59",
+    "end": "20:01",
+    "original": "Bearb. Github PCENGH",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T21:00:30",
+    "start": "20:14",
+    "end": "20:17",
+    "original": "Surfen X RAAFKO",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T21:04:32",
+    "start": "19:59",
+    "end": "20:01",
+    "original": "Bearb. Github PCENGH",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T21:05:03",
+    "start": "20:14",
+    "end": "20:17",
+    "original": "Surfen X RAAFKO",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T21:05:13",
+    "start": "20:14",
+    "end": "20:17",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Surfen X"
+  },
+  {
+    "ts": "2026-04-01T21:05:18",
+    "start": "20:14",
+    "end": "20:17",
+    "original": "Surfen X",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T21:05:26",
+    "start": "20:14",
+    "end": "20:17",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Surfen X (Timeline) INSUXX"
+  },
+  {
+    "ts": "2026-04-01T21:05:40",
+    "start": "20:15",
+    "end": "20:17",
+    "original": "Surfen X (Timeline) INSUXX",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T21:05:55",
+    "start": "20:16",
+    "end": "20:17",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Surfen Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-04-01T21:06:17",
+    "start": "20:16",
+    "end": "20:17",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T21:06:31",
+    "start": "20:18",
+    "end": "20:21",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-04-01T21:06:47",
+    "start": "20:19",
+    "end": "20:21",
+    "original": "Analyse Andon FM RWPLAF",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T21:07:23",
+    "start": "20:23",
+    "end": "20:23",
+    "original": "Bearb. Planer-Dateien KSPLEN",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T21:08:42",
+    "start": "20:31",
+    "end": "20:38",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  }
+]
