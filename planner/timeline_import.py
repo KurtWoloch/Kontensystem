@@ -461,6 +461,77 @@ class TimelineModel:
 
         self._try_merge_adjacent()
 
+    def split_reclassify_block(self, block_id: int, new_activity: str,
+                               new_account: str, propagate: bool,
+                               mode: str = "all", split_row: int = 0):
+        """Reclassify a portion of a block, splitting it if needed.
+
+        mode:
+            "all"       — reclassify entire block (same as reclassify_block)
+            "from_here" — reclassify from split_row to block end
+            "to_here"   — reclassify from block start to split_row (inclusive)
+        """
+        if mode == "all":
+            self.reclassify_block(block_id, new_activity, new_account,
+                                 propagate)
+            return
+
+        b = self._block_by_id(block_id)
+        if not b:
+            return
+
+        old_activity = b.activity
+        new_block = None
+
+        if mode == "from_here":
+            # Entries from split_row to end_idx get new classification
+            new_bid = self._new_id()
+            new_block = TLBlock(
+                block_id=new_bid,
+                activity=new_activity,
+                account=new_account,
+                start_idx=split_row,
+                end_idx=b.end_idx,
+            )
+            for i in range(split_row, b.end_idx + 1):
+                self.entries[i].block_id = new_bid
+            self.blocks.append(new_block)
+
+        elif mode == "to_here":
+            # Entries from start_idx to split_row get new classification
+            new_bid = self._new_id()
+            new_block = TLBlock(
+                block_id=new_bid,
+                activity=new_activity,
+                account=new_account,
+                start_idx=b.start_idx,
+                end_idx=split_row,
+            )
+            for i in range(b.start_idx, split_row + 1):
+                self.entries[i].block_id = new_bid
+            self.blocks.append(new_block)
+
+        if propagate and new_block:
+            rng = range(new_block.start_idx, new_block.end_idx + 1)
+            titles = set(self.entries[i].title for i in rng)
+            for title in titles:
+                self._user_overrides[title] = (new_account, new_activity)
+            # Propagate to OTHER blocks with matching titles,
+            # but skip the original block (the part that should keep
+            # its old classification after the split).
+            for title in titles:
+                for i, e in enumerate(self.entries):
+                    if e.title == title:
+                        blk = self._block_by_id(e.block_id)
+                        if (blk and blk.block_id != block_id
+                                and blk.block_id != new_block.block_id
+                                and blk.activity == old_activity):
+                            blk.activity = new_activity
+                            blk.account = new_account
+
+        self._reindex()
+        self._try_merge_adjacent()
+
     def _propagate_title_to_new_classification(self, title: str):
         """After a boundary move, merge same-title entries that now look fragmented.
         This is a no-op here — _try_merge_adjacent handles all cases.
@@ -475,7 +546,9 @@ class TimelineModel:
 def _reclassify_dialog(parent: tk.Widget, block: TLBlock,
                        code_suggestor=None,
                        context_activities: Optional[List[str]] = None,
-                       ) -> Optional[tuple[str, str]]:
+                       clicked_row: Optional[int] = None,
+                       entries: Optional[List[TLEntry]] = None,
+                       ) -> Optional[tuple[str, str, str]]:
     """Show a dialog to change a block's classification.
 
     Args:
@@ -491,13 +564,14 @@ def _reclassify_dialog(parent: tk.Widget, block: TLBlock,
     dlg = tk.Toplevel(parent)
     dlg.title("Block reklassifizieren")
     dlg.configure(bg=COLOR_BG)
-    dlg.geometry("620x380")
+    dlg.geometry("620x480")
     dlg.transient(parent)
     dlg.grab_set()
     dlg.resizable(True, True)
-    dlg.minsize(500, 300)
+    dlg.minsize(500, 380)
 
     result: dict = {"value": None}
+    mode_var = tk.StringVar(value="all")
 
     # ── Activity label ───────────────────────────────────────────────────
     tk.Label(dlg, text="Aktivität:", font=FONT_BOLD,
@@ -611,6 +685,52 @@ def _reclassify_dialog(parent: tk.Widget, block: TLBlock,
     # Initial population
     _update_suggestions()
 
+    # ── Split mode (Issue #4: Block-Splitting) ────────────────────────────
+    _show_split = (clicked_row is not None
+                   and entries is not None
+                   and block.end_idx > block.start_idx)
+
+    if _show_split:
+        split_frame = tk.LabelFrame(
+            dlg, text=" Bereich ", font=FONT_BOLD,
+            bg=COLOR_BG, fg=COLOR_HEADER,
+            bd=1, relief=tk.GROOVE,
+        )
+        split_frame.pack(fill=tk.X, padx=12, pady=(8, 4))
+
+        blk_start_ts = entries[block.start_idx].ts.strftime("%H:%M")
+        blk_end_ts = entries[block.end_idx].ts.strftime("%H:%M")
+        click_ts = entries[clicked_row].ts.strftime("%H:%M")
+
+        tk.Radiobutton(
+            split_frame,
+            text=f"Gesamter Block ({blk_start_ts} \u2013 {blk_end_ts})",
+            variable=mode_var, value="all",
+            font=FONT_LABEL, bg=COLOR_BG, fg=COLOR_FG,
+            activebackground=COLOR_BG, activeforeground=COLOR_FG,
+            selectcolor=COLOR_LIST, anchor="w",
+        ).pack(fill=tk.X, padx=8, pady=(4, 0))
+
+        if clicked_row > block.start_idx:
+            tk.Radiobutton(
+                split_frame,
+                text=f"Ab hier bis Block-Ende ({click_ts} \u2013 {blk_end_ts})",
+                variable=mode_var, value="from_here",
+                font=FONT_LABEL, bg=COLOR_BG, fg=COLOR_FG,
+                activebackground=COLOR_BG, activeforeground=COLOR_FG,
+                selectcolor=COLOR_LIST, anchor="w",
+            ).pack(fill=tk.X, padx=8)
+
+        if clicked_row < block.end_idx:
+            tk.Radiobutton(
+                split_frame,
+                text=f"Block-Anfang bis hier ({blk_start_ts} \u2013 {click_ts})",
+                variable=mode_var, value="to_here",
+                font=FONT_LABEL, bg=COLOR_BG, fg=COLOR_FG,
+                activebackground=COLOR_BG, activeforeground=COLOR_FG,
+                selectcolor=COLOR_LIST, anchor="w",
+            ).pack(fill=tk.X, padx=8, pady=(0, 4))
+
     # ── Error label ───────────────────────────────────────────────────────
     lbl_err = tk.Label(dlg, text="", font=FONT_LABEL,
                        bg=COLOR_BG, fg=COLOR_SKIP)
@@ -628,7 +748,7 @@ def _reclassify_dialog(parent: tk.Widget, block: TLBlock,
         # Extract account from 6-char task code
         m = re.search(r'\s([A-Z]{6})(?:\s*\(Fs\.\))?\s*$', new_act)
         new_acct = m.group(1)[:2] if m else block.account
-        result["value"] = (new_act, new_acct)
+        result["value"] = (new_act, new_acct, mode_var.get())
         dlg.destroy()
 
     def _cancel():
@@ -1018,19 +1138,32 @@ class TimelineCanvas(tk.Frame):
 
         result = _reclassify_dialog(
             self.canvas, block, self.code_suggestor,
-            context_activities=ctx_acts)
+            context_activities=ctx_acts,
+            clicked_row=row,
+            entries=self.model.entries)
         if result:
-            new_act, new_acct = result
+            new_act, new_acct, mode = result
             old_act = block.activity
-            self.model.reclassify_block(
+            # Determine correction range based on split mode
+            if mode == "from_here":
+                corr_start = row
+                corr_end = block.end_idx
+            elif mode == "to_here":
+                corr_start = block.start_idx
+                corr_end = row
+            else:
+                corr_start = block.start_idx
+                corr_end = block.end_idx
+            self.model.split_reclassify_block(
                 block.block_id, new_act, new_acct,
-                self.propagate_var.get()
+                self.propagate_var.get(),
+                mode=mode, split_row=row
             )
             # Log the correction
             try:
                 date_str = self.model.interval_start.strftime("%Y-%m-%d")
-                start_ts = self.model.entries[block.start_idx].ts if self.model.entries else self.model.interval_start
-                end_ts   = self.model.entries[block.end_idx].ts   if self.model.entries else self.model.interval_end
+                start_ts = self.model.entries[corr_start].ts if self.model.entries else self.model.interval_start
+                end_ts   = self.model.entries[corr_end].ts   if self.model.entries else self.model.interval_end
                 log_correction(date_str, old_act, new_act, start_ts, end_ts)
             except Exception:
                 pass
