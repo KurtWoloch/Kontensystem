@@ -1,0 +1,48 @@
+{
+  "_comment": "Per-title confidence threshold overrides (Issue #25). When a title matches here, its min_confidence replaces the global MIN_CONFIDENCE (0.50). force_activity bypasses the store entirely.",
+  "overrides": [
+    {
+      "process": "MSACCESS.EXE",
+      "pattern": "Microsoft Access",
+      "match_type": "prefix",
+      "min_confidence": 0.10,
+      "note": "Essensplan-Arbeit >80% der Zeit, aber Konfidenz verteilt auf >20 Aktivitaeten"
+    },
+    {
+      "process": "msedge.exe",
+      "pattern": "OpenClaw Control",
+      "match_type": "exact",
+      "min_confidence": 0.30,
+      "note": "Thema wechselt taeglich, aber Propagation korrigiert nach einmaliger Umbenennung"
+    },
+    {
+      "process": "msedge.exe",
+      "pattern": "Andon FM | Andon Labs",
+      "match_type": "exact",
+      "min_confidence": 0.20,
+      "note": "Immer Andon-FM-Kontext (Surfen oder Analyse)"
+    },
+    {
+      "process": "notepad.exe",
+      "pattern": "~VersuchEssensplan",
+      "match_type": "prefix",
+      "force_activity": "Bearb. Essensplan LEEPEP",
+      "note": "Auto-generierte Testauswertungen, immer Essensplan (100%). MUST be before the generic Essensplan contains-rule."
+    },
+    {
+      "process": "notepad.exe",
+      "pattern": "Essensplan",
+      "match_type": "contains",
+      "min_confidence": 0.15,
+      "note": "Essensplan-Editor-Dateien (Essensplan*.txt etc.)"
+    },
+    {
+      "process": "python.exe",
+      "pattern": "Tagesplanung \u2014 Reaktiver Planer",
+      "match_type": "prefix",
+      "exclude_contains": "Off-PC",
+      "min_confidence": 0.35,
+      "note": "Planer-Bedienung = Planer-Arbeit (KSPLNA), aber Off-PC = tatsaechliche Aktivitaet"
+    }
+  ]
+}

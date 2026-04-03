@@ -38,6 +38,7 @@ class ConfidenceStore:
 
     _instance = None
     _data = None
+    _thresholds = None   # Per-title confidence threshold overrides (#25)
 
     # Minimum confidence to use a store suggestion
     MIN_CONFIDENCE = 0.50
@@ -56,10 +57,11 @@ class ConfidenceStore:
             self._load()
 
     def _load(self):
-        store_path = os.path.join(
+        data_dir = os.path.join(
             os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-            "data", "confidence_store.json"
+            "data"
         )
+        store_path = os.path.join(data_dir, "confidence_store.json")
         if os.path.exists(store_path):
             try:
                 with open(store_path, "r", encoding="utf-8") as f:
@@ -68,6 +70,65 @@ class ConfidenceStore:
                 ConfidenceStore._data = {}
         else:
             ConfidenceStore._data = {}
+
+        # Load per-title confidence threshold overrides (Issue #25)
+        thresholds_path = os.path.join(data_dir, "confidence_thresholds.json")
+        if os.path.exists(thresholds_path):
+            try:
+                with open(thresholds_path, "r", encoding="utf-8") as f:
+                    ConfidenceStore._thresholds = json.load(f).get("overrides", [])
+            except (json.JSONDecodeError, IOError):
+                ConfidenceStore._thresholds = []
+        else:
+            ConfidenceStore._thresholds = []
+
+    def _match_threshold_override(self, process, norm_title):
+        """Check if a per-title threshold override applies (Issue #25).
+
+        Returns the matching override dict, or None.
+        """
+        if not ConfidenceStore._thresholds:
+            return None
+
+        for ov in ConfidenceStore._thresholds:
+            # Process must match (case-insensitive)
+            ov_proc = ov.get("process", "")
+            if ov_proc and ov_proc.lower() != (process or "").lower():
+                continue
+
+            # Check exclude_contains first — if the exclusion substring
+            # is present, this override does NOT apply
+            exclude = ov.get("exclude_contains")
+            if exclude and exclude in norm_title:
+                continue
+
+            # Match pattern against normalized title
+            pattern = ov.get("pattern", "")
+            match_type = ov.get("match_type", "exact")
+
+            matched = False
+            if match_type == "exact":
+                matched = (norm_title == pattern)
+            elif match_type == "prefix":
+                matched = norm_title.startswith(pattern)
+            elif match_type == "contains":
+                matched = (pattern in norm_title)
+            elif match_type == "glob":
+                import fnmatch
+                matched = fnmatch.fnmatch(norm_title, pattern)
+
+            if matched:
+                return ov
+
+        return None
+
+    @staticmethod
+    def _extract_account(activity):
+        """Extract account prefix from task code in activity name."""
+        code_match = re.search(r'\s([A-Z]{4,6})\s*$', activity)
+        if code_match:
+            return code_match.group(1)[:2]
+        return "_UNCLASSIFIABLE"
 
     def lookup(self, process, title):
         """Look up a normalized title in the confidence store.
@@ -78,6 +139,17 @@ class ConfidenceStore:
         activity should be continued rather than using this suggestion.
         """
         norm_title = self._normalize_title(process, title)
+
+        # ── Per-title threshold overrides (Issue #25) ──────────────────
+        override = self._match_threshold_override(process, norm_title)
+
+        # force_activity: bypass the store entirely
+        if override and "force_activity" in override:
+            forced = override["force_activity"]
+            account = self._extract_account(forced)
+            return (account, forced, 1.0, False)
+
+        # ── Normal store lookup ────────────────────────────────────────
         key = f"{process}||{norm_title}"
 
         entry = ConfidenceStore._data.get(key)
@@ -101,17 +173,22 @@ class ConfidenceStore:
                            p_after >= self.DURCHREICHER_THRESHOLD and
                            top_conf < 0.70)
 
+        # Determine effective minimum confidence:
+        # use per-title override if available, otherwise global MIN_CONFIDENCE
+        has_override = override and "min_confidence" in override
+        effective_min = override["min_confidence"] if has_override else self.MIN_CONFIDENCE
+
         # If confidence is too low and it's NOT a Durchreicher, reject
-        if top_conf < self.MIN_CONFIDENCE and not is_durchreicher:
+        if top_conf < effective_min and not is_durchreicher:
             return None
 
-        # Extract account from task code in activity name (last word, 4-6 caps)
-        code_match = re.search(r'\s([A-Z]{4,6})\s*$', top_activity)
-        if code_match:
-            account = code_match.group(1)[:2]
-        else:
-            account = "_UNCLASSIFIABLE"
+        # When a per-title override explicitly lowers the threshold and the
+        # confidence passes that threshold, suppress Durchreicher status.
+        # The override expresses that this title IS a real activity, not noise.
+        if has_override and top_conf >= effective_min and is_durchreicher:
+            is_durchreicher = False
 
+        account = self._extract_account(top_activity)
         return (account, top_activity, top_conf, is_durchreicher)
 
     @staticmethod
