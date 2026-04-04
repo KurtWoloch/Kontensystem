@@ -990,18 +990,37 @@ def _extract_dialog_activity(title: str) -> Tuple[str, str]:
     Title format: 'Aufgabe erledigt — WC LEMTWC'
                    'Eintrag bearbeiten — Bearb. Essensplan LEEPEP'
                    'Vorgezogene Aktivität erfassen — Zähne putzen GEMTZP'
+                   'Vorgezogene Aktivität erfassen — Liste_Morgentoilette — Bearb. Essensplan LEEPUH'
+                   'Ungeplante Aktivität erfassen — Off-PC — WC LEMTWC'
 
     The part after the em-dash is the actual activity the user is doing
     (typically Off-PC while the dialog is left open).
+
+    Fix for Issue #26: Handle additional prefixes (Off-PC, list names)
+    that appear between the dialog type and the actual activity.
     """
     # Split on " — " (em-dash with spaces)
-    parts = title.split(" \u2014 ", 1)
+    parts = title.split(" \u2014 ")
     if len(parts) < 2:
         # Fallback: shouldn't happen (rule only matches if " — " present)
         return "KS", "Erfassung Ablauf KSPLEA"
 
-    activity = parts[1].strip()
+    # The first part is the dialog type (e.g. "Aufgabe erledigt").
+    # The LAST part is the activity; intermediate parts are list names
+    # or "Off-PC" markers that should be stripped.  (Issue #26)
+    #
+    # Examples with 3 parts:
+    #   ["Vorgezogene Aktivität erfassen", "Liste_Morgentoilette", "Bearb. Essensplan LEEPUH"]
+    #   ["Ungeplante Aktivität erfassen", "Off-PC", "WC LEMTWC"]
+    activity = parts[-1].strip()
+
     if not activity:
+        return "KS", "Erfassung Ablauf KSPLEA"
+
+    # If the extracted activity looks incomplete (dialog was just opening,
+    # e.g. title was "Ungeplante Aktivität erfassen — <e"),
+    # treat as planner operation, not a real activity.
+    if len(activity) <= 3 or activity.startswith("<"):
         return "KS", "Erfassung Ablauf KSPLEA"
 
     # Try to extract task code (6 chars at end, optionally with (Fs.))
