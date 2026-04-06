@@ -1404,6 +1404,14 @@ def open_timeline_dialog(root: tk.Tk, engine,
                 end_ts = (entries[b.end_idx].ts.replace(
                     second=0, microsecond=0) + timedelta(minutes=1))
 
+            # Clamp end time to interval end (Issue #27):
+            # Without this, the last block's end can exceed the
+            # user-specified interval end by 1 minute.
+            interval_end_truncated = model.interval_end.replace(
+                second=0, microsecond=0)
+            if end_ts > interval_end_truncated:
+                end_ts = interval_end_truncated
+
             # Skip sub-minute blocks (same minute after truncation)
             if end_ts <= start_ts:
                 continue
@@ -1453,42 +1461,72 @@ def open_timeline_dialog(root: tk.Tk, engine,
         if not answer:
             return
 
-        # ── Step 4: Import merged segments ────────────────────────────
-        # Save original completed_at values BEFORE the loop to prevent
-        # cascading extensions (Issue #2): extending block A must not
-        # cause block B to match the just-extended A.
-        original_completed_at = {
-            id(c): c.completed_at for c in model.completed
-        }
+        # ── Step 4: Extend last logged block + import segments ─────────
+        # Issue #27: New extension logic.
+        # Only the LAST logged block is considered for extension, and
+        # only at the boundary to the timeline interval:
+        #
+        # - If timeline starts AFTER the last logged block's end
+        #   → no extension (gap remains)
+        # - If timeline starts AT or BEFORE the last logged block's end
+        #   → find the first merged segment with a DIFFERENT activity
+        #   → if it starts in the SAME minute as the logged block's end
+        #     → no extension
+        #   → if it starts in a LATER minute
+        #     → extend the logged block to that minute
+        #   → if ALL segments have the same name → extend to end of last
+        #
+        # After extension, segments covered by it are removed.
+        # Remaining segments are imported as new blocks (no further
+        # per-segment extension logic).
         imported_count = 0
         extended_count = 0
 
-        for seg in merged:
-            # Check if this segment continues an existing logged activity
-            matching_logged = [
-                c for c in model.completed
-                if c.activity == seg['activity']
-                and abs((original_completed_at[id(c)]
-                         - seg['start']).total_seconds()) < 300
-            ]
-            if matching_logged:
-                last_match = max(
-                    matching_logged,
-                    key=lambda c: original_completed_at[id(c)])
-                # Check for intervening activities
-                orig_end = original_completed_at[id(last_match)]
-                intervening = [
-                    c for c in model.completed
-                    if c is not last_match
-                    and not c.skipped
-                    and c.started_at >= orig_end
-                    and c.started_at <= seg['start']
-                ]
-                if not intervening:
-                    last_match.completed_at = seg['end']
-                    extended_count += 1
-                    continue
+        if model.completed and merged:
+            last_logged = max(model.completed,
+                              key=lambda c: c.completed_at)
+            last_end = last_logged.completed_at
+            last_end_minute = last_end.replace(second=0, microsecond=0)
 
+            # Only extend if timeline interval starts at or before
+            # the logged block's end
+            if model.interval_start <= last_end:
+                # Find first merged segment with a different activity
+                first_diff_start = None
+                for seg in merged:
+                    if seg['activity'] != last_logged.activity:
+                        first_diff_start = seg['start']
+                        break
+
+                if first_diff_start is None:
+                    # All segments have same name → extend, but not
+                    # beyond the start of the next logged block
+                    extend_to = merged[-1]['end']
+                    next_logged = [
+                        c for c in model.completed
+                        if c is not last_logged
+                        and c.started_at > last_end
+                    ]
+                    if next_logged:
+                        next_start = min(c.started_at
+                                         for c in next_logged)
+                        extend_to = min(extend_to, next_start)
+                    last_logged.completed_at = extend_to
+                    extended_count += 1
+                    # Remove segments covered by the extension
+                    merged = [seg for seg in merged
+                              if seg['start'] >= extend_to]
+                elif first_diff_start > last_end_minute:
+                    # Different activity starts in a later minute
+                    # → extend logged block to that minute
+                    last_logged.completed_at = first_diff_start
+                    extended_count += 1
+                    # Remove segments now covered by the extension
+                    merged = [seg for seg in merged
+                              if seg['start'] >= first_diff_start]
+                # else: different activity in same minute → no extension
+
+        for seg in merged:
             try:
                 engine.log_adhoc(
                     activity   = seg['activity'],
