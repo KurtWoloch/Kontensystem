@@ -717,9 +717,9 @@ class PlannerGUI:
             # Use the monitor's log writer directly
             from window_monitor import WindowEvent, LOG_DIR
             import json as _json
-            today = datetime.now().strftime("%Y-%m-%d")
+            day_str = self.engine.session_date.strftime("%Y-%m-%d")
             os.makedirs(LOG_DIR, exist_ok=True)
-            path = os.path.join(LOG_DIR, f"windowmon-{today}.jsonl")
+            path = os.path.join(LOG_DIR, f"windowmon-{day_str}.jsonl")
             with open(path, "a", encoding="utf-8") as f:
                 f.write(_json.dumps(entry, ensure_ascii=False) + "\n")
         except Exception as e:
@@ -766,9 +766,9 @@ class PlannerGUI:
                 "process": "python.exe",
                 "browser": "",
             }
-            today = datetime.now().strftime("%Y-%m-%d")
+            day_str = self.engine.session_date.strftime("%Y-%m-%d")
             os.makedirs(LOG_DIR, exist_ok=True)
-            path = os.path.join(LOG_DIR, f"windowmon-{today}.jsonl")
+            path = os.path.join(LOG_DIR, f"windowmon-{day_str}.jsonl")
             with open(path, "a", encoding="utf-8") as f:
                 f.write(_json.dumps(entry, ensure_ascii=False) + "\n")
         except Exception as e:
@@ -2644,7 +2644,7 @@ class PlannerGUI:
                     if "_" not in d:
                         available.append(d)
 
-        today_str = datetime.now().strftime("%Y-%m-%d")
+        today_str = self.engine.session_date.strftime("%Y-%m-%d")
 
         # Show available dates as a listbox
         if available:

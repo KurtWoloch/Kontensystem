@@ -18,10 +18,12 @@ ENGINE_DIR = os.path.dirname(__file__)
 LOG_DIR = os.path.join(ENGINE_DIR, "..", "logs")
 
 
-def _earliest_start_from_log(log_path: str) -> 'Optional[datetime]':
+def _earliest_start_from_log(log_path: str,
+                             anchor_date=None) -> 'Optional[datetime]':
     """
     Read a planner log JSON and return the earliest started_at time.
     Returns None if the log doesn't exist or has no entries.
+    anchor_date: date to anchor times to (defaults to today).
     """
     if not os.path.exists(log_path):
         return None
@@ -33,17 +35,18 @@ def _earliest_start_from_log(log_path: str) -> 'Optional[datetime]':
     if not log_data:
         return None
 
+    from datetime import date as _date
+    base = anchor_date if anchor_date else _date.today()
     earliest = None
-    today = datetime.now().date()
     for entry in log_data:
         raw = entry.get("started_at", "")
         try:
             t = datetime.strptime(raw, "%H:%M:%S")
-            # Anchor to today; skip after-midnight times (< 05:00)
+            # Skip after-midnight times (< 05:00)
             # as they belong to the tail end of the previous day
             if t.hour < 5:
                 continue
-            dt = t.replace(year=today.year, month=today.month, day=today.day)
+            dt = t.replace(year=base.year, month=base.month, day=base.day)
             if earliest is None or dt < earliest:
                 earliest = dt
         except ValueError:
@@ -74,7 +77,7 @@ def save_initial_projection(engine: PlannerEngine):
 
     # Check if a log already exists — if so, derive start time from it
     log_path = os.path.join(LOG_DIR, f"planner-log-{day_str}.json")
-    start_time = _earliest_start_from_log(log_path)
+    start_time = _earliest_start_from_log(log_path, anchor_date=engine.session_date)
     if start_time:
         print(f"[Planer] Log exists — projecting from earliest logged "
               f"start: {start_time.strftime('%H:%M')}")
@@ -111,12 +114,14 @@ def main():
     startup_result = show_startup_dialog()
     if not startup_result:
         sys.exit(0)
-    ctx, yaml_overrides = startup_result
+    ctx, yaml_overrides, selected_date = startup_result
 
     # --- 2. Load CSV and Initialize Engine ---
     raw_lists = parse_csv()
     early_hours = yaml_overrides.get("earlyWorkStart")
-    engine = PlannerEngine(raw_lists, ctx, session_date=datetime.now(),
+    # Use the selected date for session_date (supports retrospective logging)
+    session_dt = datetime.combine(selected_date, datetime.now().time())
+    engine = PlannerEngine(raw_lists, ctx, session_date=session_dt,
                            early_work_hours=early_hours,
                            yaml_overrides=yaml_overrides)
 

@@ -1233,7 +1233,12 @@ def open_timeline_dialog(root: tk.Tk, engine,
     elif real_entries:
         default_start = real_entries[0]["_ts"].replace(second=0, microsecond=0)
     else:
-        now = datetime.now()
+        # For past days, use that date as base; for today, use now
+        if engine.session_date < datetime.now().date():
+            now = datetime.combine(engine.session_date,
+                                   datetime.min.time())
+        else:
+            now = datetime.now()
         default_start = now.replace(hour=7,  minute=0,  second=0, microsecond=0)
 
     if real_entries:
