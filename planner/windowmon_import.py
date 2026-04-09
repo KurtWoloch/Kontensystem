@@ -314,14 +314,25 @@ def open_import_dialog(root: tk.Tk, engine, code_suggestor=None):
     completed = engine.get_completed_log()
 
     # Determine day boundaries from log or defaults
+    # For past days, use 23:59 of that day as the end boundary
+    is_past = engine.session_date < datetime.now().date()
     if completed:
         sorted_log = sorted(completed, key=lambda c: c.started_at)
         day_start = sorted_log[0].started_at.replace(second=0, microsecond=0)
-        day_end = datetime.now().replace(second=0, microsecond=0)
+        if is_past:
+            day_end = datetime.combine(engine.session_date,
+                                       datetime.min.time()).replace(
+                hour=23, minute=59, second=0, microsecond=0)
+        else:
+            day_end = datetime.now().replace(second=0, microsecond=0)
     else:
-        now = datetime.now()
-        day_start = now.replace(hour=6, minute=0, second=0, microsecond=0)
-        day_end = now.replace(second=0, microsecond=0)
+        if is_past:
+            base = datetime.combine(engine.session_date,
+                                    datetime.min.time())
+        else:
+            base = datetime.now()
+        day_start = base.replace(hour=6, minute=0, second=0, microsecond=0)
+        day_end = base.replace(hour=23, minute=59, second=0, microsecond=0) if is_past else base.replace(second=0, microsecond=0)
 
     gaps = find_planner_gaps(completed, day_start, day_end)
     proposals = get_windowmon_proposals(date_str, gaps, completed=completed)

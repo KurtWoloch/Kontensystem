@@ -74,12 +74,22 @@ class DayContext:
                                weekday not in (0, 1))
 
     @classmethod
+    def from_date(cls, target_date: date,
+                  is_feiertag: bool = False,
+                  is_urlaubstag: bool = False,
+                  work_type_override: str = "auto",
+                  putztag_override: Optional[bool] = None) -> "DayContext":
+        """Create a DayContext for any given date."""
+        return cls(target_date.weekday(), is_feiertag, is_urlaubstag,
+                   work_type_override, putztag_override)
+
+    @classmethod
     def from_today(cls, is_feiertag: bool = False,
                    is_urlaubstag: bool = False,
                    work_type_override: str = "auto",
                    putztag_override: Optional[bool] = None) -> "DayContext":
-        return cls(date.today().weekday(), is_feiertag, is_urlaubstag,
-                   work_type_override, putztag_override)
+        return cls.from_date(date.today(), is_feiertag, is_urlaubstag,
+                             work_type_override, putztag_override)
 
     def _eval_single_condition(self, token: str) -> bool:
         """Evaluate one comma-split token (may be negated with 'nicht' or '!')."""
