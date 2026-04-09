@@ -1,0 +1,188 @@
+=================================================================
+  TAGESBERICHT — 2026-04-03
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:      112
+  Geplante Gesamtzeit:         16h 43m
+
+  ✓ Erledigt (geplant):       75  (   12h 06m)  = 72.4%
+  ⏭ Übersprungen:             10  (       52m)  = 5.2%
+  ✗ Nicht erreicht:           27  (    3h 45m)  = 22.4%
+
+  📝 Ungeplante Aktivitäten:   8  (       31m)
+  ⏱  Tatsächliche Arbeitszeit:    16h 39m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  Review Dokumentation BRZG KSBRDR      07:17     17:51 +10h 34m
+  Bearb. Ohrwürmer (durchzunehmende)    09:29     19:22  +9h 53m
+  Termine in Kalender prüfen LEMTTP     11:28     21:20  +9h 52m
+  PC herunterfahren PCHFAR              09:34     19:23  +9h 49m
+  Wohnung lüften WFLULU                 09:25     19:10  +9h 45m
+  WC BREPWC                             11:13     19:14  +8h 01m
+  Bearb. Essensplan (gegessen, zu ess   15:22     22:46  +7h 24m
+  Teller waschen / Getränk fassen LEM   15:42     20:33  +4h 51m
+  Bearb. Essensplan (Kontrolle / zu e   17:27     21:59  +4h 32m
+  Bearb. Essensplan (Kontrolle / zu e   17:15     21:32  +4h 17m
+  Wohnung lüften WFLULU                 17:23     21:35  +4h 12m
+  Mailprüfung INMAPR (Fs.)              17:13     21:22  +4h 09m
+  Anhören RW-Prg. / Tonträger / Radio   17:05     21:11  +4h 06m
+  Wäsche aus Waschmaschine nehmen LEK   17:33     21:38  +4h 05m
+  Bearb. Liste Scooterfahrten FZSCLI    17:53     21:40  +3h 47m
+  ... und 53 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Arbeitszeit absolvieren (Nachmittag) BRE   2h 45m
+  Arbeitszeit absolvieren (Vormittag) BREP   2h 10m
+  Verbesserung Tagesplaner mit OpenClaw KS   1h 00m
+  Bearb. Dokumentation BRZG KSBRDR              48m
+  Laufen / Scootersuche GEGYLS                  42m
+  Diskussion Issues in Planer mit OpenClaw      38m
+  Nacherfassung Ablauf KSPLNA                   37m
+  Mittagessen (von Sati gekocht) LEMESE         30m
+  Bearbeitung Aufgaben zu Papa's Pflege (1      28m
+  Duschen LEMTDU                                26m
+  Zeiten sammeln BREPZS                         25m
+  Analyse Andon FM RWPLAF                       24m
+  Rasieren, dabei Planung + Vortagesreview      20m
+  Bearb. Essensplan LEEPEP                      19m
+  Frühstücken, dabei Vorbereitung Candeblo      18m
+  Bearb. Liste Scooterfahrten FZSCLI            17m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Planung BRZ BREPGM                            15m
+  Bearb. Essensplan (neuer Plan) LEEPNP         14m
+  Feinschliff bei der Rasur LEMTFR              10m
+  ... und 64 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  BREPDZ         4h 55m
+  KSPLAW         1h 07m
+  KSBRDR            57m
+  GEGYLS            42m
+  KSPLEN            38m
+  KSPLNA            37m
+  LEMESE            30m
+  PATATA            28m
+  LEMTDU            26m
+  BREPZS            25m
+  RWPLAF            24m
+  LEEPEP            23m
+  LEMTRA            20m
+  LEMTFS            18m
+  FZSCLI            17m
+  LEAZZZ            16m
+  BREPGM            15m
+  LEEPNP            14m
+  BREPZE            11m
+  LEMTFR            10m
+  ... und 53 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  BR         6h 05m
+  LE         4h 10m
+  KS         3h 24m
+  GE            51m
+  RW            42m
+  RA            35m
+  PA            28m
+  IN            18m
+  FZ            17m
+  WF            13m
+  MU             4m
+  PC             2m
+  (–)            1m
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Wenn ("Musst Du heute etwas erledigen oder ei
+    Grund: Entscheidung: Nein
+  ⏭ Abhalten BKDD Standup Meeting BREPGM
+    Grund: heute ausgefallen wg. Urlaub von Mehmet und Diana
+  ⏭ PC herunterfahren PCHFHF
+    Grund: doppelt geplant
+  ⏭ Ansehen ZiB 1 + Wetter RATVZI
+    Grund: hat sich mit Laufen überschnitten
+  ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
+    Grund: heute nichts eingekauft
+  ⏭ Bearb.Ohrwürmer (Nachfassen aus alten Charts)
+    Grund: wurde wegen Unrentabilität gestrichen
+  ⏭ Ausmachen Arzttermine GEMRNA
+    Grund: ergibt zu diesem Zeitpunkt keinen Sinn (Gesundenuntersuchung bei Dr. Hariri wäre fällig)
+  ⏭ Jause fassen LEMTJF
+    Grund: wurde während Arbeitszeit erledigt?
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: wegen Unrentabilität gestrichen
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: wegen Unrentabilität gestrichen
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 07:06–07:08  Nacherfassung Ablauf KSPLNA
+  📝 08:04–08:06  Nacherfassung Ablauf KSPLNA
+  📝 09:18–09:19  Scan Grok'n Roll RASCGR
+  📝 10:31–10:45  Bearb. Essensplan (neuer Plan) LEEPNP
+  📝 12:40–12:41  Nacherfassung Ablauf KSPLNA
+  📝 14:01–14:07  WC LEMTWC
+  📝 14:17–14:18  Eintragung Entschuldung Sati
+  📝 22:42–22:46  Nacherfassung Ablauf KSPLNA
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 18:24  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 18:34  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 18:40  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 18:45  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 18:54  Bearbeitung Buch Champion's Mindset GELI  (5m)
+  ✗ 19:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 19:08  Bearbeitung Buch Champion's Mindset GELI  (6m)
+  ✗ 19:14  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 19:24  Führung Tagebuch, um schmerzhafte Situat  (6m)
+  ✗ 19:32  Führung Tagebuch, um schmerzhafte Situat  (4m)
+  ✗ 19:36  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 19:45  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 19:54  Bearbeitung Börsenkurse / Aktienhandel F  (6m)
+  ✗ 20:03  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:11  Bearbeitung Börsenkurse / Aktienhandel F  (4m)
+  ✗ 20:15  Spielen Kreuzungs-FGPA CSEXKF  (8m)
+  ✗ 20:26  Spielen Kreuzungs-FGPA CSEXKF (Fs.)  (2m)
+  ✗ 20:28  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)
+  ✗ 20:39  Erstellung Playback mit Vocal Remover KA  (5m)
+  ✗ 20:44  Aufräumen WFARAR  (11m)
+  ✗ 20:55  Papiersortierung (Altpapier)(10' +) WFPA  (5m)
+  ✗ 21:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:08  Papiersortierung (Altpapier)(10' +) WFPA  (4m)
+  ✗ 21:12  Wäsche aus Waschmaschine nehmen LEWAWA  (9m)
+  ✗ 21:21  Aufwandserfassung und Abrechnung Kontens  (39m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Aufwandserfassung und Abrechnung Kontens  (10m)
+
+=================================================================

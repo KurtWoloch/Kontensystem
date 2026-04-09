@@ -1,0 +1,382 @@
+===========================================================================
+  CONFIDENCE LEARNER
+  Date range: 2026-04-04 → 2026-04-05  (2 days)
+===========================================================================
+
+  Days processed: 2  |  Days with data: 2
+  Window events:  2474  |  Matched to activity: 2378
+  Match rate:     96.1%
+  Unique normalized keys observed: 440
+
+───────────────────────────────────────────────────────────────────────────
+  TOP CONFIDENT MAPPINGS  (top confidence >= 70%)
+───────────────────────────────────────────────────────────────────────────
+
+  [3h 49m] WINWORD.EXE: "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8."
+           → Dokumentation Ohrwurm-Projekt RWOWDO                    (100.0%)  ←99% →96%
+  [3h 01m] EXCEL.EXE: "Microsoft Excel - Statistik_heute.csv"
+           → Analyse Andon FM RWPLAF                                 (85.6%)  ←92% →95%
+  [2h 42m] notepad.exe: "Windowlog.txt - Editor"
+           → Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATATA    (78.7%)  ←94% →93%
+  [1h 57m] python.exe: "Tagesplanung — Off-PC — Besuch Schwimmbad GEGYSB"
+           → Besuch Schwimmbad GEGYSB                                (100.0%)  ←100% →40%
+  [1h 56m] python.exe: "Vorschlag bearbeiten"
+           → Nacherfassung Ablauf KSPLNA                             (83.0%)  ←97% →97%
+  [1h 40m] python.exe: "Tagesplanung — Off-PC — Duschen LEMTDU"
+           → Duschen LEMTDU                                          (84.0%)  ←100% →36%
+  [1h 30m] python.exe: "Aufgabe erledigt — Mittagessen (Pizzeria da Contessa mit E. "
+           → Mittagessen (Pizzeria da Contessa mit E. Strake) LEMEPC (99.9%)  ←100% →83%
+  [1h 25m] python.exe: "Tagesplanung — Off-PC — Frühstücken, dabei Vorbereitung Cand"
+           → Frühstücken, dabei Vorbereitung Candeblo, Tee machen, B (98.8%)  ←96% →76%
+  [1h 20m] python.exe: "Tagesplanung — Off-PC — Anwendung der Zwischenraumzahnbürste"
+           → Anwendung der Zwischenraumzahnbürste LEAZZZ             (92.3%)  ←88% →73%
+  [1h 14m] python.exe: "Tagesplanung — Off-PC — Mittagessen (externes Lokal) LEMEEX"
+           → Mittagessen (externes Lokal) LEMEEX                     (100.0%)  ←100% →0%
+  [1h 10m] python.exe: "Timeline Nacherfassung — 2026-03-28"
+           → Nacherfassung Ablauf KSPLNA                             (84.8%)  ←97% →94%
+  [1h 08m] python.exe: "Tagesplanung — Reaktiver Planer — Besuch Schwimmbad GEGYSB"
+           → Besuch Schwimmbad GEGYSB                                (92.9%)  ←98% →100%
+  [1h 00m] python.exe: "Vorgezogene Aktivität erfassen — Liste_Schwimmbad — Besuch S"
+           → Besuch Schwimmbad GEGYSB                                (92.7%)  ←100% →25%
+  [   59m] python.exe: "Tagesplanung — Off-PC — Mittagessen (selbst kochen / kalt) L" [NEW]
+           → Einkauf (BILLA Ederg.) / Laufen LEEKBI                  (74.8%)  ←100% →33%
+  [   56m] python.exe: "Tagesplanung — Reaktiver Planer — Wohnung lüften WFLULU"
+           → Wohnung lüften WFLULU                                   (70.8%)  ←83% →89%
+  [   56m] msedge.exe: "YouTube"
+           → Ansehen YouTube-Videos RAYTYT                           (88.8%)  ←87% →88%
+  [   50m] msedge.exe: "AI Generated DJ Break"
+           → Diskussion mit ChatGPT über Grok'n Roll RAAFDI          (88.2%)  ←90% →92%
+  [   50m] python.exe: "Timeline Nacherfassung — 2026-03-31"
+           → Nacherfassung Ablauf KSPLNA                             (74.5%)  ←99% →98%
+  [   49m] python.exe: "Tagesplanung — Off-PC — Feinschliff bei der Rasur LEMTFR"
+           → Feinschliff bei der Rasur LEMTFR                        (92.3%)  ←92% →61%
+  [   47m] notepad.exe: "*Versuch Powerbank Lichterkette zum Laden von iPhone.txt - E"
+           → Mittagessen (selbst kochen / kalt)                      (89.3%)  ←73% →64%
+  [   46m] WINWORD.EXE: "Überlegungen zu Erbschaft Patientenverfügung und Vorsorgevol"
+           → Kommunikation mit Judith (Abrechnung Renovierung) / Übe (99.0%)  ←100% →88%
+  [   45m] python.exe: "Tagesplanung — Reaktiver Planer — Zähne putzen GEMTZP"
+           → Zähne putzen GEMTZP                                     (92.0%)  ←96% →94%
+  [   44m] python.exe: "Nacherfassung aus windowmon - 2026-03-26"
+           → Nacherfassung Ablauf KSPLNA                             (94.1%)  ←98% →98%
+  [   43m] python.exe: "Nacherfassung aus windowmon - 2026-03-16"
+           → Nacherfassung Ablauf KSPLNA                             (87.5%)  ←99% →98%
+  [   43m] python.exe: "Vorgezogene Aktivität erfassen — Lebenserhaltung — Einkauf ("
+           → Einkauf (BILLA Ederg.) / Laufen LEEKBI                  (98.9%)  ←100% →75%
+  [   42m] Window logger.exe: "GE - Besuch Schwimmbad: C:\Program Files\Python311\python.ex"
+           → Besuch Schwimmbad GEGYSB                                (100.0%)  ←100% →50%
+  [   41m] Window logger.exe: "WF - Neukauf Mikrowelle: idle"
+           → Mittagessen (Limon Kebap, Parkplatz Media Markt)        (72.4%)  ←100% →50%
+  [   41m] python.exe: "Nacherfassung aus windowmon - 2026-03-13"
+           → Nacherfassung Ablauf KSPLNA                             (76.5%)  ←98% →98%
+  [   39m] notepad.exe: "Protokoll und Kalkulation Mohnnudeln.txt - Editor"
+           → Schadensaufnahme Mikrowellenherd / Stromausfall WFLEMH  (98.3%)  ←100% →67%
+  [   38m] EXCEL.EXE: "Microsoft Excel - Protokoll Geldbörse ab 19.12.2022.xls"
+           → Bearb. Geldbörse FIBGGB                                 (86.2%)  ←98% →93%
+
+  ... and 2596 more confident entries not shown
+
+───────────────────────────────────────────────────────────────────────────
+  AMBIGUOUS MAPPINGS  (top confidence < 70%)
+───────────────────────────────────────────────────────────────────────────
+
+  [46h 21m] msedge.exe: "OpenClaw Control"
+           → Verbesserung Tagesplaner mit OpenClaw KSPLAW       (39.5%)
+           → Diskussion Ohrwurm-Projekt mit OpenClaw RWDOOC     (32.3%)
+           → Diskussion Papa mit OpenClaw KSPLAW                (25.4%)
+           + 2 more activities
+           ←92% →89%
+
+  [12h 02m] python.exe: "Tagesplanung — Off-PC — Der Außentemperatur entsprechen"
+           → Der Außentemperatur entsprechend anziehen LEAUAZ   (39.7%)
+           → Laufen / Scootersuche GEGYLS                       (36.0%)
+           → Rückfahrt + ggf. Mittagessen unterwegs             (6.9%)
+           + 8 more activities
+           ←99% →32%
+
+  [10h 05m] msedge.exe: "Andon FM | Andon Labs"
+           → Surfen Andon FM RAAFSU                             (67.0%)
+           → Korrektur Andon FM-Scraper RWAFAN                  (15.4%)
+           → Anwendung der Zwischenraumzahnbürste LEAZZZ        (10.0%)
+           + 3 more activities
+           ←86% →87%
+
+  [7h 28m] MSACCESS.EXE: "Microsoft Access"
+           → Bearb. Essensplan (gegessen, zu essen, Start Korre (33.7%)
+           → Analyse Andon FM RWPLAF                            (17.2%)
+           → Bearb. Essensplan (Änderung Sollwerte) LEEPUH      (15.1%)
+           + 7 more activities
+           ←94% →94%
+
+  [3h 41m] notepad.exe: "*Unbenannt - Editor"
+           → Diskussion Papa mit OpenClaw KSPLAW                (33.6%)
+           → Analyse Andon FM RWPLAF                            (14.6%)
+           → Bearb. Essensplan (Update Händlerangebote) LEEPUH  (13.7%)
+           + 11 more activities
+           ←97% →97%
+
+  [3h 31m] WINWORD.EXE: "Dokumentation Projekt Ohrwürmer 26.3.8.doc - Microsoft "
+           → Dokumentation Ohrwurm-Projekt RWOWDO               (58.0%)
+           → Dokumentation Ohrwurm-Projekt RWOWDO (Fs.)         (21.8%)
+           → Bearb. Essensplan (Update Wärme / Gewicht) LEEPUW  (20.1%)
+           ←99% →97%
+
+  [3h 07m] msedge.exe: "Home / X"
+           → Surfen X (Timeline) INSUXX                         (47.0%)
+           → Tweet an Thinking Frequencies RWMPAR               (19.1%)
+           → Analyse Thinking Frequencies RAAFAN                (7.9%)
+           + 8 more activities
+           ←95% →79%
+
+  [2h 33m] Live365Scraper.exe: "Live365 Scraper"
+           → Korrektur Andon FM-Scraper RWAFAN                  (26.5%)
+           → Der Außentemperatur entsprechend anziehen LEAUAZ   (23.4%)
+           → im Bett                                            (15.1%)
+           + 8 more activities
+           ←94% →95%
+
+  [2h 32m] EXCEL.EXE: "Microsoft Excel - Programm Thinking Frequencies mit Tag"
+           → Analyse Thinking Frequencies Song-Tagging RWMPMP   (52.7%)
+           → Duschen LEMTDU                                     (10.4%)
+           → Analyse Thinking Frequencies Classic Rock-Block RW (6.4%)
+           + 32 more activities
+           ←85% →79%
+
+  [2h 22m] EXCEL.EXE: "Microsoft Excel - Library Andon FM.xls"
+           → Analyse Andon FM RWPLAF                            (37.2%)
+           → Bearb. Essensplan (gegessen, zu essen, Start Korre (12.0%)
+           → Bearb. Essensplan (Änderung Sollwerte) LEEPUH      (10.0%)
+           + 15 more activities
+           ←94% →91%
+
+  [2h 21m] notepad.exe: "*Essensplan 18.8.2025 ab Jause.txt - Editor"
+           → Bearb. Essensplan LEEPEP                           (63.4%)
+           → Bearb. Essensplan (neuer Plan) LEEPNP              (12.2%)
+           → Bearb. Essensplan (gegessen, zu essen, Start Korre (7.9%)
+           + 7 more activities
+           ←87% →81%
+
+  [2h 18m] python.exe: "Ungeplante Aktivität erfassen"
+           → Nacherfassung Ablauf KSPLNA                        (43.4%)
+           → WC LEMTWC                                          (14.9%)
+           → Bearb. Essensplan (Ereignisse / gegessen / zu esse (12.3%)
+           + 13 more activities
+           ←91% →91%
+
+  [2h 09m] msedge.exe: "Arena | Benchmark & Compare the Best AI Models"
+           → Analyse Andon FM RWPLAF                            (48.0%)
+           → Analyse Thinking Frequencies RAAFAN                (25.1%)
+           → Surfen Andon FM RAAFSU                             (7.2%)
+           + 9 more activities
+           ←92% →95%
+
+  [2h 08m] winamp.exe: "(Winamp playback)"
+           → Anhören RW-Prg. mit Sati Ersoy RWMPSE              (20.7%)
+           → Duschen LEMTDU                                     (19.4%)
+           → Anhören Musik (Winamp) RWMPMP                      (16.1%)
+           + 9 more activities
+           ←81% →93%
+
+  [2h 05m] notepad.exe: "Andon FM Station logs.txt.music.txt - Editor"
+           → Bearb. Essensplan (gegessen, zu essen, Start Korre (13.4%)
+           → Nacherfassug OpenAIR RASCOA                        (12.0%)
+           → Analyse Andon FM RWPLAF                            (10.6%)
+           + 15 more activities
+           ←91% →95%
+
+  [2h 03m] notepad.exe: "~Vergleich forcierter Preise.txt - Editor"
+           → Bearb. Essensplan (gegessen, zu essen, Start Korre (40.8%)
+           → Bearb. Essensplan LEEPEP                           (11.3%)
+           → Feinschliff bei der Rasur LEMTFR                   (7.2%)
+           + 11 more activities
+           ←94% →85%
+
+  [2h 01m] msedge.exe: "Google Übersetzer"
+           → Analyse Andon FM RWPLAF                            (26.5%)
+           → Surfen Atariage (Nachlesen Rydeen) CSSUAA          (13.9%)
+           → Tweet an Backlink Broadcast RWMPAR                 (8.7%)
+           + 17 more activities
+           ←92% →93%
+
+  [1h 55m] python.exe: "Tagesplanung — Reaktiver Planer"
+           → Nacherfassung Ablauf KSPLNA                        (43.5%)
+           → Anwendung der Zwischenraumzahnbürste LEAZZZ        (13.2%)
+           → Arbeit an Tagesplanung / Planer-Entwicklung mit Op (8.1%)
+           + 70 more activities
+           ←95% →95%
+
+  [1h 51m] python.exe: "Tagesplanung — Reaktiver Planer — Der Außentemperatur e"
+           → Der Außentemperatur entsprechend anziehen LEAUAZ   (63.0%)
+           → Laufen / Scootersuche GEGYLS                       (22.8%)
+           → Nacherfassung Ablauf KSPLNA                        (9.6%)
+           + 2 more activities
+           ←77% →95%
+
+  [1h 46m] Window logger.exe: "KS - Planung: idle"
+           → Duschen LEMTDU                                     (28.5%)
+           → Vorbereitung Zähne putzen LEAZVZ                   (10.3%)
+           → Mittagessen (selbst kochen)                        (7.9%)
+           + 26 more activities
+           ←93% →55%
+
+  ... and 733 more ambiguous entries not shown
+
+───────────────────────────────────────────────────────────────────────────
+  NEWLY LEARNED  (titles not previously in store)
+───────────────────────────────────────────────────────────────────────────
+
+  [   59m] python.exe: "Tagesplanung — Off-PC — Mittagessen (selbst kochen / kalt) L"
+           → Einkauf (BILLA Ederg.) / Laufen LEEKBI                  (74.8%)
+  [    4m] python.exe: "Vorgezogene Aktivität erfassen — Liste_Morgentoilette — Jaus"
+           → Jause fassen LEMTJF                                     (100.0%)
+  [    2m] python.exe: "Vorgezogene Aktivität erfassen — Off-PC — Liste_Morgentoilet"
+           → Jause fassen LEMTJF                                     (100.0%)
+  [    2m] msedge.exe: "anthropic virtual pets - YouTube"
+           → Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LE (51.8%)
+  [    1m] notepad.exe: "~VersuchEssensplan20264414712.txt - Editor"
+           → Bearb. Essensplan (gegessen / Lokalsuche / Konsumation  (100.0%)
+  [    1m] python.exe: "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (Update "
+           → Teller waschen / Getränk fassen LENATW                  (66.7%)
+  [    1m] python.exe: "Tagesplanung — Off-PC — Aufhängen Badewäsche GEGYAB"
+           → Frühstücken, dabei Vorbereitung Candeblo, Tee machen, B (100.0%)
+  [    1m] WINWORD.EXE: "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8."
+           → Vorbereitung Ohrwurm-Diskussion mit OpenClaw RWDOOC     (58.8%)
+  [    1m] msedge.exe: "Gemma 4 Local Ai Test - YouTube"
+           → Bearb. Essensplan (Update Wärme / Gewicht) LEEPUW       (90.9%)
+  [    0m] msedge.exe: "Anthropic Just Released /buddy in Claude Code... This Is NOT"
+           → Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LE (84.6%)
+  [    0m] python.exe: "Aufgabe erledigt — Off-PC — Bearb. Essensplan (gegessen / Lo"
+           → WC LEEKWC                                               (100.0%)
+  [    0m] python.exe: "Ungeplante Aktivität erfassen — Diskussion Ohrwurm-Diskussio"
+           → Teller waschen / Getränk fassen LENATW                  (100.0%)
+  [    0m] WINWORD.EXE: "The Backlink Broadcast Format Bible.rtf - Microsoft Word"
+           → Frühstücken, dabei Vorbereitung Candeblo, Tee machen, B (100.0%)
+  [    0m] msedge.exe: "Bug: Timeline-Import erzeugt ueberlappende Zeitraeume bei un"
+           → PC herunterfahren PCHFHF                                (100.0%)
+  [    0m] python.exe: "Tagesplanung — Reaktiver Planer — Mittagessen (selbst kochen"
+           → Mittagessen (kalt) LEMESK                               (100.0%)
+  [    0m] notepad.exe: "Dokumentation Projekt Ohrwürmer Entwicklungsdokument 26.3.8."
+           → Dokumentation Ohrwurm-Projekt RWOWDO                    (86.7%)
+  [    0m] python.exe: "Vorgezogene Aktivität erfassen — Lebenserhaltung — Vorbereit"
+           → Einpacken für Einkauf (Essensdatenbank, Rucksack, Sacke (64.3%)
+  [    0m] python.exe: "Tagesplanung — Off-PC — Bearb. Essensplan (Update Wärme / Ge"
+           → Bearb. Essensplan (Update Wärme / Gewicht) LEEPUW       (92.9%)
+  [    0m] python.exe: "Ungeplante Aktivität erfassen — Off-PC — WC LEEKWC"
+           → Bearb. Ohrwürmer (durchzunehmende) RWOWDN               (57.1%)
+  [    0m] msedge.exe: "I built something.... - YouTube"
+           → Bearb. Essensplan (Update Wärme / Gewicht) LEEPUW       (90.0%)
+
+  ... and 18 more newly learned entries not shown
+
+───────────────────────────────────────────────────────────────────────────
+  TRANSITION ANALYSIS
+───────────────────────────────────────────────────────────────────────────
+
+  DURCHREICHER (←hoch →hoch) — rauscharme Titel ohne eigene Aktivität
+
+  [46h 21m] msedge.exe: "OpenClaw Control"
+           → Verbesserung Tagesplaner mit OpenClaw KSPLAW       (39.5%)  ←92% →89%
+  [10h 05m] msedge.exe: "Andon FM | Andon Labs"
+           → Surfen Andon FM RAAFSU                             (67.0%)  ←86% →87%
+  [7h 28m] MSACCESS.EXE: "Microsoft Access"
+           → Bearb. Essensplan (gegessen, zu essen, Start Korre (33.7%)  ←94% →94%
+  [3h 41m] notepad.exe: "*Unbenannt - Editor"
+           → Diskussion Papa mit OpenClaw KSPLAW                (33.6%)  ←97% →97%
+  [3h 31m] WINWORD.EXE: "Dokumentation Projekt Ohrwürmer 26.3.8.doc - Micro"
+           → Dokumentation Ohrwurm-Projekt RWOWDO               (58.0%)  ←99% →97%
+  [2h 33m] Live365Scraper.exe: "Live365 Scraper"
+           → Korrektur Andon FM-Scraper RWAFAN                  (26.5%)  ←94% →95%
+  [2h 22m] EXCEL.EXE: "Microsoft Excel - Library Andon FM.xls"
+           → Analyse Andon FM RWPLAF                            (37.2%)  ←94% →91%
+  [2h 21m] notepad.exe: "*Essensplan 18.8.2025 ab Jause.txt - Editor"
+           → Bearb. Essensplan LEEPEP                           (63.4%)  ←87% →81%
+  [2h 18m] python.exe: "Ungeplante Aktivität erfassen"
+           → Nacherfassung Ablauf KSPLNA                        (43.4%)  ←91% →91%
+  [2h 09m] msedge.exe: "Arena | Benchmark & Compare the Best AI Models"
+           → Analyse Andon FM RWPLAF                            (48.0%)  ←92% →95%
+  [2h 08m] winamp.exe: "(Winamp playback)"
+           → Anhören RW-Prg. mit Sati Ersoy RWMPSE              (20.7%)  ←81% →93%
+  [2h 05m] notepad.exe: "Andon FM Station logs.txt.music.txt - Editor"
+           → Bearb. Essensplan (gegessen, zu essen, Start Korre (13.4%)  ←91% →95%
+  [2h 03m] notepad.exe: "~Vergleich forcierter Preise.txt - Editor"
+           → Bearb. Essensplan (gegessen, zu essen, Start Korre (40.8%)  ←94% →85%
+  [2h 01m] msedge.exe: "Google Übersetzer"
+           → Analyse Andon FM RWPLAF                            (26.5%)  ←92% →93%
+  [1h 55m] python.exe: "Tagesplanung — Reaktiver Planer"
+           → Nacherfassung Ablauf KSPLNA                        (43.5%)  ←95% →95%
+
+  EINTRITTS-MARKER (←niedrig →hoch) — Titel signalisiert START einer neuen Aktivität
+
+  [   19m] python.exe: "Tagesplanung — Reaktiver Planer — Einschmieren GEA"
+           → Einschmieren GEAZES                                (71.0%)  ←48% →81%
+  [   12m] Window logger.exe: "KS - Diskussion mit OpenClaw (Tagesplanung) KSPLOC"
+           → Feinschliff bei der Rasur LEMTFR                   (44.7%)  ←47% →73%
+  [    5m] python.exe: "Tagesplanung — Off-PC — Review Dokumentation BRZG "
+           → Nacherfassung Ablauf KSPLNA                        (74.5%)  ←40% →78%
+  [    3m] Window logger.exe: "RW - Bearb. Ohrwürmer: Dokumentation Projekt Ohrwü"
+           → WC LEMTWC                                          (100.0%)  ←0% →100%
+  [    2m] msedge.exe: "Sam Cooke - (What A) Wonderful World (Karaoke Vers"
+           → Duschen LEMTDU                                     (100.0%)  ←0% →100%
+  [    1m] python.exe: "windowmon 22:12-22:52"
+           → Nacherfassung Ablauf KSPLNA                        (100.0%)  ←0% →100%
+  [    1m] msedge.exe: "bruce sringsteen streets of minneapolis live - You"
+           → Analyse Andon FM RWPLAF                            (100.0%)  ←0% →100%
+  [    1m] python.exe: "Tagesplanung — Off-PC — WC LENJWC"
+           → Nacherfassung Ablauf KSPLNA                        (100.0%)  ←0% →100%
+  [    1m] MSACCESS.EXE: "Microsoft Access - [Abf_Titel nach Personen und We"
+           → Bearb. Essensplan LEEPEP                           (75.0%)  ←33% →100%
+  [    1m] python.exe: "Tagesplanung — Off-PC — Bearb.Ohrwürmer (durchzune"
+           → Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL (40.0%)  ←47% →100%
+  [    0m] python.exe: "Eintrag bearbeiten — Bearbeitung Börsenkurse / Akt"
+           → Spielen Kreuzungs-FGPA CSEXKF                      (65.5%)  ←33% →100%
+  [    0m] python.exe: "Aufgabe erledigt — Off-PC — Prüfung Bewässerung Te"
+           → Bearb. Essensplan (Kontrolle / zu essen / Korrektu (100.0%)  ←0% →100%
+  [    0m] Window logger.exe: "RA - Analyse Thinking Frequencies RWANTF: Thinking"
+           → Bett machen LEAZHW                                 (100.0%)  ←0% →100%
+  [    0m] python.exe: "Eintrag bearbeiten — Bearb. Essensplan (Änderung S"
+           → Nacherfassung Ablauf KSPLNA                        (80.0%)  ←20% →100%
+  [    0m] msedge.exe: "I Found 3 Questions That Expose What Every AI Agen"
+           → Bearb. Essensplan (Update Händlerangebote) LEEPUH  (100.0%)  ←0% →100%
+
+  AUSTRITTS-MARKER (←hoch →niedrig) — Titel signalisiert ENDE einer Aktivität
+
+  [12h 02m] python.exe: "Tagesplanung — Off-PC — Der Außentemperatur entspr"
+           → Der Außentemperatur entsprechend anziehen LEAUAZ   (39.7%)  ←99% →32%
+  [1h 57m] python.exe: "Tagesplanung — Off-PC — Besuch Schwimmbad GEGYSB"
+           → Besuch Schwimmbad GEGYSB                           (100.0%)  ←100% →40%
+  [1h 40m] python.exe: "Tagesplanung — Off-PC — Duschen LEMTDU"
+           → Duschen LEMTDU                                     (84.0%)  ←100% →36%
+  [1h 14m] python.exe: "Tagesplanung — Off-PC — Mittagessen (externes Loka"
+           → Mittagessen (externes Lokal) LEMEEX                (100.0%)  ←100% →0%
+  [1h 11m] Window logger.exe: "LE - Morgent.+Frst.: idle"
+           → Frühstücken, dabei Vorbereitung Candeblo, Tee mach (31.4%)  ←85% →49%
+  [1h 04m] Window logger.exe: "LE - Abendzer.: idle"
+           → Anwendung der Zwischenraumzahnbürste LEAZZZ        (41.2%)  ←100% →36%
+  [1h 00m] python.exe: "Vorgezogene Aktivität erfassen — Liste_Schwimmbad "
+           → Besuch Schwimmbad GEGYSB                           (92.7%)  ←100% →25%
+  [   59m] python.exe: "Tagesplanung — Off-PC — Mittagessen (selbst kochen"
+           → Einkauf (BILLA Ederg.) / Laufen LEEKBI             (74.8%)  ←100% →33%
+  [   41m] python.exe: "Tagesplanung — Off-PC — Einschmieren GEMTES"
+           → Einschmieren GEMTES                                (58.6%)  ←100% →37%
+  [   33m] python.exe: "Tagesplanung — Off-PC — Anwendung Zahnseide LEAZZS"
+           → Anwendung Zahnseide LEAZZS                         (96.0%)  ←100% →40%
+  [   33m] EXCEL.EXE: "Microsoft Excel - Blutdruckmesswerte.xls"
+           → Blutdruck messen GEBMBM                            (98.6%)  ←82% →47%
+  [   32m] Window logger.exe: "BR -  Arbeitszeit absolvieren (Nachmittag): Tagesp"
+           → Nacherfassung Ablauf KSPLNA                        (100.0%)  ←100% →0%
+  [   29m] python.exe: "Eintrag bearbeiten — Off-PC — Arbeitszeit absolvie"
+           → Mittagessen (von Sati gekocht) LEMESE              (100.0%)  ←100% →0%
+  [   25m] Window logger.exe: "KS - Planung: Tagesplanung — Reaktiver Planer"
+           → Anwendung der Zwischenraumzahnbürste LEAZZZ        (19.1%)  ←100% →45%
+  [   25m] python.exe: "Ungeplante Aktivität erfassen — WC LEMTWC"
+           → WC LEMTWC                                          (86.1%)  ←94% →44%
+
+===========================================================================
+  SUMMARY
+===========================================================================
+  Total entries in store : 3379
+  Entries updated (EMA)  : 401
+  Entries new            : 38
+  Entries unchanged      : 2940
+  Store path             : C:\Users\kurt_\.openclaw\workspace\kontensystem\tools\..\data\confidence_store.json
+
+Output saved to: logs/confidence-learner-output-2026-04-05.txt

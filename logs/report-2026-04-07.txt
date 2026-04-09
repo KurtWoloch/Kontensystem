@@ -1,0 +1,167 @@
+=================================================================
+  TAGESBERICHT — 2026-04-07
+=================================================================
+
+╔═══════════════════════════════════════════════════════╗
+║  ZUSAMMENFASSUNG                                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Geplante Aktivitäten:       97
+  Geplante Gesamtzeit:         16h 05m
+
+  ✓ Erledigt (geplant):       69  (   13h 15m)  = 82.4%
+  ⏭ Übersprungen:              6  (       22m)  = 2.3%
+  ✗ Nicht erreicht:           22  (    2h 28m)  = 15.3%
+
+  📝 Ungeplante Aktivitäten:   1  (        1m)
+  ⏱  Tatsächliche Arbeitszeit:    17h 25m
+
+╔═══════════════════════════════════════════════════════╗
+║  DRIFT-ANALYSE                                        ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                           Geplant Tatsächl.    Drift
+  ─────────────────────────────────── ─────── ───────── ────────
+  PC herunterfahren LEAZHF              23:17     00:10 -23h 07m
+  im Bett                               23:18     00:13 -23h 05m
+  Ausziehen LEAZAU                      23:02     00:00 -23h 02m
+  Einschmieren GEAZES                   23:08     00:07 -23h 01m
+  WC LEAZWC                             23:10     00:10 -23h 00m
+  Bearb. Liste Scooterfahrten FZSCLI    19:51     08:59 -10h 52m
+  Geschirr abwaschen LEMEGA             18:00     22:26  +4h 26m
+  Versorgung Mitbringsel LEPOPO         19:16     22:40  +3h 24m
+  WC BREPWC                             13:30     16:00  +2h 30m
+  Herunterfahren, Einpacken, Anziehen   18:16     20:17  +2h 01m
+  Teller waschen / Getränk fassen LEN   20:23     22:24  +2h 01m
+  Zeiten sammeln BREPZS                 18:05     20:04  +1h 59m
+  Eingabe Zeiterfassung SAP BREPZE      18:12     20:11  +1h 59m
+  Auspacken Essensplan LEEPAU           19:25     21:22  +1h 57m
+  Heimfahrt vom BRZ inkl. Laufen BRFA   18:31     20:26  +1h 55m
+  ... und 48 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Arbeitszeit absolvieren (Nachmittag) BRE   5h 58m
+  Mittagspause BRZG  LEMEBR                  1h 00m
+  Planung BRZ BREPGM                         1h 00m
+  Arbeitszeit absolvieren (Vormittag) BREP      57m
+  Fahrt BRZG BRFAFA                             48m
+  Heimfahrt vom BRZ inkl. Laufen BRFAHF         45m
+  Nacherfassung Ablauf KSPLNA                   30m
+  Frühstücken, dabei Vorbereitung Candeblo      23m
+  Anwendung der Zwischenraumzahnbürste LEA      22m
+  Duschen LEMTDU                                21m
+  Versuch Fixen M76 Joe Talker auf Arena A      21m
+  Abhalten PKT Projekt Jour Fixe BREPGM         20m
+  Analyse Andon FM RWPLAF                       17m
+  Bearb. Essensplan im BRZ BREPGM               15m
+  Geschirr abwaschen LEMEGA                     14m
+  Rasieren, dabei Planung + Vortagesreview      12m
+  Feinschliff bei der Rasur LEMTFR              12m
+  Einpacken BRZ-Laptop, RW-Prg. / Essenspl      10m
+  Zähne putzen LEAZZP                           10m
+  WC BREPWC                                      9m
+  ... und 58 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  BREPDZ         6h 55m
+  BREPGM         1h 35m
+  LEMEBR         1h 00m
+  BRFAFA            48m
+  BRFAHF            45m
+  KSPLNA            30m
+  LEMTFS            23m
+  LEAZZZ            22m
+  LEMTDU            21m
+  CSSUAI            21m
+  RWPLAF            17m
+  RAYTYT            14m
+  LEMEGA            14m
+  LEMTRA            12m
+  LEMTFR            12m
+  BREPZE            12m
+  RWMPEP            10m
+  LEAZZP            10m
+  BREPWC             9m
+  BRALAB             9m
+  ... und 48 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  BR        10h 45m
+  LE         4h 07m
+  RW            53m
+  KS            30m
+  RA            23m
+  CS            21m
+  MU            11m
+  GE             7m
+  IN             4m
+  (–)            3m
+  FZ             1m
+  PC             1m
+
+╔═══════════════════════════════════════════════════════╗
+║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
+╚═══════════════════════════════════════════════════════╝
+
+  ⏭ Ermittlung Gesamtzeiten (wenn nicht am Montag
+    Grund: wurde am Montag erledigt
+  ⏭ Mund spülen LEMTMS
+    Grund: wegen Unrentabilität gestrichen
+  ⏭ Bearb.Ohrwürmer (Nachfassen aus alten Charts)
+    Grund: wegen Unrentabilität gestrichen
+  ⏭ Der Außentemperatur entsprechend anziehen LEA
+    Grund: heute so nicht durchgeführt, weil Ivan und Diana Essen geholt haben
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Charts) 
+    Grund: wegen Unrentabilität gestrichen
+  ⏭ Bearb.Ohrwürmer (durchzunehmende aus Liste) R
+    Grund: wegen Unrentabilität gestrichen
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  📝 08:43–08:44  Nacherfassung Ablauf KSPLNA
+
+╔═══════════════════════════════════════════════════════╗
+║  NICHT ERREICHTE AKTIVITÄTEN                          ║
+╚═══════════════════════════════════════════════════════╝
+
+  ✗ 09:46  Blutdruck messen GEBMBM  (2m)
+  ✗ 19:27  Wohnung lüften WFLULU  (4m)
+  ✗ 19:31  Wäsche aus Waschmaschine nehmen LEKLWM  (10m)
+  ✗ 20:03  Ausmachen Arzttermine GEMRNA  (4m)
+  ✗ 20:07  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 20:15  Bearbeitung Aufgaben zu Papa's Pflege (1  (8m)
+  ✗ 20:26  Bearbeitung Aufgaben zu Papa's Pflege (1  (2m)
+  ✗ 20:28  Bearb. Geldbörse FIBGGB  (10m)
+  ✗ 20:38  Kommunikation mit Judith (Abrechnung Ren  (6m)
+  ✗ 20:44  Bearb. Ohrwürmer (durchgenommene) RWOWDU  (5m)
+  ✗ 20:49  Bearb. Essensplan (Einlesen Einkaufslist  (9m)
+  ✗ 20:58  Bearbeitung Buch Champion's Mindset GELI  (2m)
+  ✗ 21:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 21:08  Bearbeitung Buch Champion's Mindset GELI  (9m)
+  ✗ 21:17  Bearb. Ohrwürmer (Nachfassen aus alten C  (10m)
+  ✗ 21:27  Führung Tagebuch, um schmerzhafte Situat  (10m)
+  ✗ 21:37  Papiersortierung (hereingekommene Papier  (9m)
+  ✗ 21:46  Übersiedeln (Mitteilung Adresswechsel) W  (9m)
+  ✗ 21:55  Bearbeitung Börsenkurse / Aktienhandel F  (5m)
+  ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
+  ✗ 22:08  Bearbeitung Börsenkurse / Aktienhandel F  (5m)
+  ✗ 22:13  Bearb. Essensplan (Nährwerte) LEEPGE  (5m)
+
+=================================================================

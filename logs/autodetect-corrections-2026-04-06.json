@@ -1,0 +1,576 @@
+[
+  {
+    "ts": "2026-04-06T07:59:19",
+    "start": "07:24",
+    "end": "07:24",
+    "original": "Diskussion OpenClaw Aufräumen Memory.md INOCDI",
+    "corrected": "Diskussion Vortag mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-06T07:59:38",
+    "start": "07:34",
+    "end": "07:34",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T07:59:51",
+    "start": "07:41",
+    "end": "07:41",
+    "original": "Einkauf (BILLA Ederg.) / Laufen LEEKBI",
+    "corrected": "Diskussion Vortag mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-06T08:00:10",
+    "start": "07:57",
+    "end": "07:57",
+    "original": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T08:00:18",
+    "start": "07:57",
+    "end": "07:57",
+    "original": "Aufstehen, Rasierer fasssen LEMTAU",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T08:00:21",
+    "start": "07:57",
+    "end": "07:58",
+    "original": "Rasieren, dabei Planung + Vortagesreview (Reaktiver Planer), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T09:04:24",
+    "start": "08:10",
+    "end": "08:10",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T09:04:29",
+    "start": "08:11",
+    "end": "08:11",
+    "original": "Einkauf (BILLA Ederg.) / Laufen LEEKBI",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T09:04:33",
+    "start": "08:11",
+    "end": "08:11",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T09:04:43",
+    "start": "08:12",
+    "end": "08:12",
+    "original": "Dateiverwaltung (logs)",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T09:04:49",
+    "start": "08:12",
+    "end": "08:12",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T09:04:54",
+    "start": "08:14",
+    "end": "08:16",
+    "original": "Anhören RW-Prg. mit Sati Ersoy RWMPSE",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T09:05:47",
+    "start": "08:17",
+    "end": "08:20",
+    "original": "Scan Radio Würmchen KI RASCRW",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:06:13",
+    "start": "08:22",
+    "end": "08:23",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:06:18",
+    "start": "08:23",
+    "end": "08:23",
+    "original": "Dateiverwaltung (radio-wuermchen)",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:06:29",
+    "start": "08:23",
+    "end": "08:23",
+    "original": "Scan Radio Würmchen RASCRW",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:06:37",
+    "start": "08:23",
+    "end": "08:23",
+    "original": "Radio Würmchen",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:06:41",
+    "start": "08:24",
+    "end": "08:24",
+    "original": "Scan  RASC",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:06:56",
+    "start": "08:38",
+    "end": "08:38",
+    "original": "Scan Radio Würmchen KI RASCRW",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:07:17",
+    "start": "08:42",
+    "end": "08:43",
+    "original": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:07:27",
+    "start": "08:52",
+    "end": "08:52",
+    "original": "Scan Radio Würmchen RASCRW (Keine Rückmeldung)",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:07:31",
+    "start": "08:53",
+    "end": "08:53",
+    "original": "Anhören Musik (Winamp) RWMPMP",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:07:42",
+    "start": "08:54",
+    "end": "08:54",
+    "original": "Radio Würmchen",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:07:45",
+    "start": "08:54",
+    "end": "08:54",
+    "original": "Anhören Musik (Winamp) RWMPMP",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:07:49",
+    "start": "08:55",
+    "end": "08:55",
+    "original": "Anhören Musik (Winamp) RWMPMP",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:07:54",
+    "start": "08:55",
+    "end": "08:55",
+    "original": "Anhören Musik (Winamp) RWMPMP",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T09:08:16",
+    "start": "08:59",
+    "end": "08:59",
+    "original": "Einpacken Musik für Fahrt inkl. Player + Akkus RWRUEP",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T09:14:01",
+    "start": "09:09",
+    "end": "09:09",
+    "original": "Erfassung Ablauf KSPLEA",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T09:14:07",
+    "start": "09:09",
+    "end": "09:09",
+    "original": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T09:14:12",
+    "start": "09:09",
+    "end": "09:09",
+    "original": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T09:14:20",
+    "start": "09:09",
+    "end": "09:09",
+    "original": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T09:14:29",
+    "start": "09:10",
+    "end": "09:10",
+    "original": "Radio Würmchen",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T09:29:44",
+    "start": "09:23",
+    "end": "09:23",
+    "original": "Bearb. Essensplan (Automatisierung Regenerierung Kollegenbeziehungen) LEEPLS",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP"
+  },
+  {
+    "ts": "2026-04-06T09:29:47",
+    "start": "09:23",
+    "end": "09:23",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP"
+  },
+  {
+    "ts": "2026-04-06T09:29:52",
+    "start": "09:24",
+    "end": "09:24",
+    "original": "Bearb. Essensplan (Update Wärme / Gewicht) LEEPUW",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP"
+  },
+  {
+    "ts": "2026-04-06T09:30:11",
+    "start": "09:25",
+    "end": "09:26",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T09:53:05",
+    "start": "09:49",
+    "end": "09:50",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T09:53:23",
+    "start": "09:51",
+    "end": "09:51",
+    "original": "Feinschliff bei der Rasur LEMTFR",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T10:09:20",
+    "start": "10:03",
+    "end": "10:04",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T10:50:46",
+    "start": "10:38",
+    "end": "10:39",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T10:50:57",
+    "start": "10:39",
+    "end": "10:39",
+    "original": "Einpacken Musik für Fahrt inkl. Player + Akkus RWRUEP",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T10:52:13",
+    "start": "10:45",
+    "end": "10:45",
+    "original": "Tweet an Thinking Frequencies RWMPAR",
+    "corrected": "Tweets @sbs580810 (Andon FM) RAAFKO"
+  },
+  {
+    "ts": "2026-04-06T10:52:46",
+    "start": "10:49",
+    "end": "10:49",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Tweets @sbs580810 (Andon FM) RAAFKO"
+  },
+  {
+    "ts": "2026-04-06T11:20:54",
+    "start": "11:16",
+    "end": "11:17",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T11:21:18",
+    "start": "11:19",
+    "end": "11:19",
+    "original": "Tweet an Grok'n Roll RWMPAR",
+    "corrected": "Tweets @sbs580810 (Andon FM) RAAFKO"
+  },
+  {
+    "ts": "2026-04-06T11:58:49",
+    "start": "11:21",
+    "end": "11:22",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T12:01:50",
+    "start": "11:25",
+    "end": "11:27",
+    "original": "Sonstige PC-Nutzung",
+    "corrected": "Surfen Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-04-06T12:59:59",
+    "start": "12:18",
+    "end": "12:18",
+    "original": "Mailprüfung INMAPR",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T13:00:31",
+    "start": "12:20",
+    "end": "12:20",
+    "original": "Durchsehen weitere potentielle Issues für Tagesplaner KSPLPL",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN"
+  },
+  {
+    "ts": "2026-04-06T13:00:49",
+    "start": "12:20",
+    "end": "12:20",
+    "original": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "corrected": "Arbeit an Tagesplanung / Planer-Entwicklung mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-04-06T15:21:45",
+    "start": "13:05",
+    "end": "13:07",
+    "original": "Bearbeitung in VS Code PCOCIN",
+    "corrected": "Lesen Memories von OpenClaw INOCMM"
+  },
+  {
+    "ts": "2026-04-06T15:26:35",
+    "start": "15:16",
+    "end": "15:17",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-04-06T18:31:31",
+    "start": "15:25",
+    "end": "15:28",
+    "original": "Nacherfassung Ablauf KSPLNA",
+    "corrected": "Mailprüfung INMAPR"
+  },
+  {
+    "ts": "2026-04-06T18:31:39",
+    "start": "15:25",
+    "end": "15:28",
+    "original": "Mailprüfung INMAPR",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T18:31:48",
+    "start": "15:28",
+    "end": "15:28",
+    "original": "Nacherfassung Ablauf KSPLNA",
+    "corrected": "Mailprüfung INMAPR"
+  },
+  {
+    "ts": "2026-04-06T18:32:33",
+    "start": "15:43",
+    "end": "15:44",
+    "original": "Dateiverwaltung (Lebenserhaltung)",
+    "corrected": "Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE"
+  },
+  {
+    "ts": "2026-04-06T18:34:41",
+    "start": "16:30",
+    "end": "16:30",
+    "original": "Scan Radio Würmchen RASCRW",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T18:35:30",
+    "start": "16:37",
+    "end": "16:37",
+    "original": "Radio Würmchen",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T18:40:15",
+    "start": "17:11",
+    "end": "17:12",
+    "original": "Verbesserung Tagesplaner mit OpenClaw / Anpassen Window Logger an Off-PC-Anzeige KSPLAW",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T18:40:39",
+    "start": "17:13",
+    "end": "17:14",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T18:41:07",
+    "start": "17:14",
+    "end": "17:14",
+    "original": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-04-06T18:41:22",
+    "start": "17:13",
+    "end": "17:13",
+    "original": "Anhören Musik (Winamp) RWMPMP",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T18:41:54",
+    "start": "16:50",
+    "end": "17:12",
+    "original": "Ansehen Youtube-Videos RAYTYT",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T18:42:34",
+    "start": "17:15",
+    "end": "17:15",
+    "original": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-04-06T20:09:07",
+    "start": "18:11",
+    "end": "18:11",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T20:09:14",
+    "start": "18:14",
+    "end": "18:14",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T20:33:21",
+    "start": "20:27",
+    "end": "20:28",
+    "original": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-06T22:33:20",
+    "start": "21:33",
+    "end": "21:34",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T22:34:01",
+    "start": "21:34",
+    "end": "21:35",
+    "original": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN",
+    "corrected": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO"
+  },
+  {
+    "ts": "2026-04-06T22:34:54",
+    "start": "21:34",
+    "end": "21:35",
+    "original": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T22:36:21",
+    "start": "21:51",
+    "end": "21:52",
+    "original": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T22:36:29",
+    "start": "21:51",
+    "end": "21:52",
+    "original": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN",
+    "corrected": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO"
+  },
+  {
+    "ts": "2026-04-06T22:36:44",
+    "start": "21:51",
+    "end": "21:51",
+    "original": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T22:38:07",
+    "start": "21:31",
+    "end": "21:31",
+    "original": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "corrected": "Bearb. Essensplan (Update Händlerangebote) LEEPUH"
+  },
+  {
+    "ts": "2026-04-06T22:38:21",
+    "start": "21:34",
+    "end": "21:35",
+    "original": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO",
+    "corrected": "Bearb. Essensplan (Update Händlerangebote) LEEPUH"
+  },
+  {
+    "ts": "2026-04-06T22:41:53",
+    "start": "22:13",
+    "end": "22:15",
+    "original": "Bearb. Essensprotokoll LEEPEP",
+    "corrected": "Bearb. Essensplan (Update Händlerangebote) LEEPUH"
+  },
+  {
+    "ts": "2026-04-06T22:43:53",
+    "start": "22:24",
+    "end": "22:25",
+    "original": "Dateiverwaltung (Lebenserhaltung)",
+    "corrected": "Bearb. Essensplan (Update Händlerangebote) LEEPUH"
+  },
+  {
+    "ts": "2026-04-06T22:44:39",
+    "start": "22:31",
+    "end": "22:31",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-06T23:55:33",
+    "start": "22:48",
+    "end": "22:52",
+    "original": "Analyse DJ Break Thinking Frequencies RAAFAN",
+    "corrected": "Analyse Google API Keys für OpenClaw INOCAP"
+  },
+  {
+    "ts": "2026-04-06T23:56:25",
+    "start": "23:38",
+    "end": "23:46",
+    "original": "Dateiverwaltung (radio-wuermchen)",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-06T23:57:15",
+    "start": "23:46",
+    "end": "23:47",
+    "original": "Einpacken Musik für Fahrt inkl. Player + Akkus RWRUEP",
+    "corrected": "Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC"
+  },
+  {
+    "ts": "2026-04-06T23:57:28",
+    "start": "23:47",
+    "end": "23:47",
+    "original": "Radio Würmchen",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  }
+]

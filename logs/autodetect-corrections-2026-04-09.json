@@ -1,0 +1,30 @@
+[
+  {
+    "ts": "2026-04-09T08:30:30",
+    "start": "08:22",
+    "end": "08:22",
+    "original": "Bearbeitung Planungsaktivitäten KSPLEN",
+    "corrected": "Korrektur Planungsaktivitäten KSPLPL"
+  },
+  {
+    "ts": "2026-04-09T10:43:13",
+    "start": "08:57",
+    "end": "08:57",
+    "original": "Analyse Andon FM RWPLAF",
+    "corrected": "Surfen X (Timeline) INSUXX"
+  },
+  {
+    "ts": "2026-04-09T10:51:25",
+    "start": "09:28",
+    "end": "09:28",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-04-09T10:54:32",
+    "start": "10:25",
+    "end": "10:25",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen X (Timeline) INSUXX"
+  }
+]

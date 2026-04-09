@@ -187,5 +187,75 @@
     "end": "20:38",
     "original": "div. Surfen INSUSU",
     "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-04-01T23:12:14",
+    "start": "21:11",
+    "end": "21:12",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Surfen Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-04-01T23:12:32",
+    "start": "21:11",
+    "end": "21:11",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T23:12:58",
+    "start": "21:12",
+    "end": "21:12",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Surfen Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-04-01T23:13:03",
+    "start": "21:13",
+    "end": "21:13",
+    "original": "Einrichtung Issues für Tagesplaner KSPLPL",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-01T23:13:45",
+    "start": "21:35",
+    "end": "21:35",
+    "original": "Neustart ngrok-Tunnel RWKIAD",
+    "corrected": "Überprüfung ngrok-Tunnel RWKIAD"
+  },
+  {
+    "ts": "2026-04-01T23:15:38",
+    "start": "21:42",
+    "end": "21:42",
+    "original": "Liste_nach_Heimkunft — Auspacken Essensplan LEEPAU",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-01T23:16:41",
+    "start": "21:45",
+    "end": "21:52",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Diskussion Radio Würmchen KI mit OpenClaw RWKIDI"
+  },
+  {
+    "ts": "2026-04-01T23:20:52",
+    "start": "22:34",
+    "end": "22:37",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Zähne putzen LEAZZP"
+  },
+  {
+    "ts": "2026-04-01T23:21:25",
+    "start": "22:37",
+    "end": "22:39",
+    "original": "Zähne putzen LEAZZP",
+    "corrected": "Versuch PicoClaw (Andrew Pappas) RWANEX"
+  },
+  {
+    "ts": "2026-04-01T23:23:06",
+    "start": "22:46",
+    "end": "22:47",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Tweet an Backlink Broadcast RWMPAR"
   }
 ]

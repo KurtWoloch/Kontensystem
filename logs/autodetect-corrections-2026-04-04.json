@@ -1,0 +1,233 @@
+[
+  {
+    "ts": "2026-04-04T07:13:53",
+    "start": "06:31",
+    "end": "06:31",
+    "original": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO",
+    "corrected": "Bearb. Essensplan (Änderung Sollwerte) LEEPUH"
+  },
+  {
+    "ts": "2026-04-04T07:14:17",
+    "start": "06:31",
+    "end": "06:31",
+    "original": "Radio Würmchen",
+    "corrected": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP"
+  },
+  {
+    "ts": "2026-04-04T07:14:26",
+    "start": "06:31",
+    "end": "06:31",
+    "original": "Scan Radio Würmchen RASCRW",
+    "corrected": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP"
+  },
+  {
+    "ts": "2026-04-04T07:14:41",
+    "start": "06:32",
+    "end": "06:32",
+    "original": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "corrected": "Bearb. Essensplan (Änderung Sollwerte) LEEPUH"
+  },
+  {
+    "ts": "2026-04-04T07:16:08",
+    "start": "07:06",
+    "end": "07:06",
+    "original": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "corrected": "Bearb. Essensplan (Änderung Sollwerte) LEEPUH"
+  },
+  {
+    "ts": "2026-04-04T12:23:41",
+    "start": "09:18",
+    "end": "09:19",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP"
+  },
+  {
+    "ts": "2026-04-04T12:24:19",
+    "start": "09:26",
+    "end": "09:28",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Claude-Account PCOCSU"
+  },
+  {
+    "ts": "2026-04-04T12:26:23",
+    "start": "09:41",
+    "end": "09:43",
+    "original": "Bearb. Essensplan LEEPEP",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP"
+  },
+  {
+    "ts": "2026-04-04T12:26:50",
+    "start": "09:43",
+    "end": "09:45",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Diskussion Vortag mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-04T12:27:25",
+    "start": "09:45",
+    "end": "09:45",
+    "original": "Bearb. Github PCENGH",
+    "corrected": "Durchsehen weitere potentielle Issues für Tagesplaner KSPLPL"
+  },
+  {
+    "ts": "2026-04-04T12:28:07",
+    "start": "09:53",
+    "end": "09:53",
+    "original": "Surfen Claude-Account PCOCSU",
+    "corrected": "Durchsehen weitere potentielle Issues für Tagesplaner KSPLPL"
+  },
+  {
+    "ts": "2026-04-04T12:28:32",
+    "start": "09:57",
+    "end": "09:58",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-04-04T12:29:26",
+    "start": "10:31",
+    "end": "10:32",
+    "original": "Bearb. Essensplan (Änderung Sollwerte) LEEPUH",
+    "corrected": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP"
+  },
+  {
+    "ts": "2026-04-04T12:29:44",
+    "start": "10:32",
+    "end": "10:33",
+    "original": "Diskussion Vortag mit OpenClaw KSPLAW",
+    "corrected": "Diskussion Papa mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-04T13:42:48",
+    "start": "11:36",
+    "end": "11:40",
+    "original": "Bearbeitung in VS Code PCOCIN",
+    "corrected": "Diskussion Papa mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-04T13:58:26",
+    "start": "13:20",
+    "end": "13:20",
+    "original": "Diskussion Papa mit OpenClaw KSPLAW",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-04T17:00:59",
+    "start": "16:17",
+    "end": "16:22",
+    "original": "Bearbeitung in VS Code PCOCIN",
+    "corrected": "Versuch Debugging Andon FM-Scraper RWAFAN"
+  },
+  {
+    "ts": "2026-04-04T17:03:25",
+    "start": "16:43",
+    "end": "16:45",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Korrektur Andon FM-Scraper RWAFAN"
+  },
+  {
+    "ts": "2026-04-04T17:03:51",
+    "start": "16:46",
+    "end": "16:48",
+    "original": "Anhören Radiosender (Live365) RWMPMP",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-04-04T18:24:00",
+    "start": "17:08",
+    "end": "17:08",
+    "original": "Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-04T18:26:56",
+    "start": "17:28",
+    "end": "17:40",
+    "original": "Bearbeitung in VS Code PCOCIN",
+    "corrected": "Lesen OpenClaw memory.md PCOCSU"
+  },
+  {
+    "ts": "2026-04-04T18:28:17",
+    "start": "17:46",
+    "end": "17:49",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Spielen Kreuzungs-FGPA CSEXKF"
+  },
+  {
+    "ts": "2026-04-04T18:28:43",
+    "start": "17:49",
+    "end": "17:50",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Surfen Karaoke-Titel KASUSU"
+  },
+  {
+    "ts": "2026-04-04T18:29:56",
+    "start": "17:51",
+    "end": "17:51",
+    "original": "Scan Radio Würmchen RASCRW",
+    "corrected": "Scan Thinking Frequencies RWMPMP"
+  },
+  {
+    "ts": "2026-04-04T18:30:32",
+    "start": "17:53",
+    "end": "17:54",
+    "original": "Spielen Kreuzungs-FGPA CSEXKF",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-04-04T18:30:50",
+    "start": "17:54",
+    "end": "17:55",
+    "original": "Dateiverwaltung (Radio Fernsehen)",
+    "corrected": "Scan Thinking Frequencies RWMPMP"
+  },
+  {
+    "ts": "2026-04-04T18:31:34",
+    "start": "18:03",
+    "end": "18:03",
+    "original": "Surfen Karaoke-Titel KASUSU",
+    "corrected": "Scan Thinking Frequencies RWMPMP"
+  },
+  {
+    "ts": "2026-04-04T18:32:02",
+    "start": "18:06",
+    "end": "18:06",
+    "original": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-04-04T18:32:13",
+    "start": "18:08",
+    "end": "18:09",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Thinking Frequencies RWMPMP"
+  },
+  {
+    "ts": "2026-04-04T21:29:08",
+    "start": "19:37",
+    "end": "19:37",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Diskussion Ohrwurm-Projekt mit OpenClaw RWDOOC"
+  },
+  {
+    "ts": "2026-04-04T21:30:12",
+    "start": "20:16",
+    "end": "20:16",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Diskussion Ohrwurm-Projekt mit OpenClaw RWDOOC"
+  },
+  {
+    "ts": "2026-04-04T21:31:38",
+    "start": "21:24",
+    "end": "21:27",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Div. Surfen INSUSU"
+  },
+  {
+    "ts": "2026-04-04T21:31:58",
+    "start": "21:24",
+    "end": "21:26",
+    "original": "Div. Surfen INSUSU",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  }
+]

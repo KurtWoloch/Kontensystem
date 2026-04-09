@@ -1,0 +1,149 @@
+[
+  {
+    "ts": "2026-04-03T07:07:34",
+    "start": "06:58",
+    "end": "06:58",
+    "original": "Diskussion Meta-Harness mit OpenClaw PCOCDI",
+    "corrected": "Diskussion Vortag mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-03T07:07:51",
+    "start": "07:04",
+    "end": "07:05",
+    "original": "Bearbeitung Planungsaktivitäten KSPLEN",
+    "corrected": "Korrektur Planungsaktivitäten KSPLPL"
+  },
+  {
+    "ts": "2026-04-03T08:05:02",
+    "start": "07:24",
+    "end": "07:30",
+    "original": "Feinschliff bei der Rasur LEMTFR",
+    "corrected": "Diskussion Vortag mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-03T08:05:18",
+    "start": "07:24",
+    "end": "07:30",
+    "original": "Diskussion Vortag mit OpenClaw KSPLAW",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-03T08:06:05",
+    "start": "08:02",
+    "end": "08:03",
+    "original": "Radio Würmchen",
+    "corrected": "Verbess"
+  },
+  {
+    "ts": "2026-04-03T13:57:44",
+    "start": "12:45",
+    "end": "12:46",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-03T13:59:01",
+    "start": "12:52",
+    "end": "13:00",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-03T13:59:20",
+    "start": "12:52",
+    "end": "13:00",
+    "original": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "corrected": "Surfen Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-04-03T13:59:51",
+    "start": "12:52",
+    "end": "12:52",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-03T14:00:08",
+    "start": "12:56",
+    "end": "13:00",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "div. Surfen INSUSU"
+  },
+  {
+    "ts": "2026-04-03T14:16:35",
+    "start": "14:15",
+    "end": "14:16",
+    "original": "Off-PC — Scan",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-03T19:06:57",
+    "start": "18:00",
+    "end": "18:02",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Bearb. Essensplan LEEPEP"
+  },
+  {
+    "ts": "2026-04-03T19:09:16",
+    "start": "18:53",
+    "end": "18:53",
+    "original": "Bearbeitung Planungsaktivitäten KSPLEN",
+    "corrected": "Surfen / Analyse Andon FM RAAFSU"
+  },
+  {
+    "ts": "2026-04-03T21:05:47",
+    "start": "20:07",
+    "end": "20:07",
+    "original": "Diskussion Vortag mit OpenClaw KSPLAW",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-03T21:07:40",
+    "start": "20:36",
+    "end": "20:36",
+    "original": "Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-03T21:09:23",
+    "start": "20:41",
+    "end": "20:41",
+    "original": "Scan Radio Würmchen RASCRW",
+    "corrected": "Nacherfassug OpenAIR RASCOA"
+  },
+  {
+    "ts": "2026-04-03T21:09:48",
+    "start": "20:44",
+    "end": "20:45",
+    "original": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO",
+    "corrected": "Nacherfassug OpenAIR RASCOA"
+  },
+  {
+    "ts": "2026-04-03T21:10:11",
+    "start": "20:44",
+    "end": "20:44",
+    "original": "Diskussion Vortag mit OpenClaw KSPLAW",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  },
+  {
+    "ts": "2026-04-03T22:02:12",
+    "start": "21:59",
+    "end": "22:00",
+    "original": "Nacherfassug OpenAIR RASCOA",
+    "corrected": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO"
+  },
+  {
+    "ts": "2026-04-03T22:43:33",
+    "start": "22:04",
+    "end": "22:05",
+    "original": "Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATATA",
+    "corrected": "Surfen Wortstatistik Untersuchung der Prioritätenliste KSSUSU"
+  },
+  {
+    "ts": "2026-04-03T22:43:56",
+    "start": "22:09",
+    "end": "22:09",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Verbesserung Tagesplaner mit OpenClaw KSPLAW"
+  }
+]

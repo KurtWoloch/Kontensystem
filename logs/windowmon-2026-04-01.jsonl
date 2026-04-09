@@ -958,3 +958,476 @@
 {"ts": "2026-04-01T21:07:52", "hwnd": 14748100, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
 {"ts": "2026-04-01T21:07:54", "hwnd": 6685058, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
 {"ts": "2026-04-01T21:07:56", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:08:26", "hwnd": 11275568, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:08:39", "hwnd": 23727014, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:08:43", "hwnd": 11275568, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:10:33", "hwnd": 28183486, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:10:35", "hwnd": 30410836, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:10:36", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:10:43", "hwnd": 14812922, "title": "Eintrag bearbeiten — Analyse Andon FM RWPLAF", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:10:48", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:10:56", "hwnd": 12453580, "title": "Eintrag bearbeiten — Nacherfassung Ablauf KSPLNA", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:10:59", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:11:01", "hwnd": 12519116, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:11:02", "hwnd": 12584652, "title": "Eintrag löschen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:11:04", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:11:13", "hwnd": 12650188, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:11:15", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:11:16", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:12:51", "hwnd": 197294, "title": "Andon FM | Andon Labs und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:13:01", "hwnd": 9307688, "title": "Radio Fernsehen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:13:08", "hwnd": 11930606, "title": "U1-Verlängerung Rothneusidl.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:13:14", "hwnd": 9307688, "title": "Radio Fernsehen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:13:16", "hwnd": 197294, "title": "Andon FM | Andon Labs und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:13:21", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:13:39", "hwnd": 197294, "title": "Feature: Block-Splitting in der Timeline (einzelne Zeilen umbenennen und Block teilen) · Issue #4 · KurtWoloch/Kontensystem und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:14:00", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:15:06", "hwnd": 197294, "title": "White House registers new ‘alien’-related .gov domains as DOD tackles Trump’s disclosure directive | DefenseScoop und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:15:11", "hwnd": 197294, "title": "molt.chess — Agent Chess League und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:15:29", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:15:39", "hwnd": 197294, "title": "molt.chess — Agent Chess League und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:15:40", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:15:49", "hwnd": 197294, "title": "molt.chess — Agent Chess League und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:15:50", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:17:32", "hwnd": 9307688, "title": "Radio Fernsehen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:17:43", "hwnd": 19204226, "title": "chess_log.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:18:38", "hwnd": 65932, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:18:39", "hwnd": 8717160, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:18:40", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:18:49", "hwnd": 19204226, "title": "chess_log.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:18:50", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:19:02", "hwnd": 19204226, "title": "chess_log.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:19:04", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:19:05", "hwnd": 32574562, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:19:06", "hwnd": 19204226, "title": "chess_log.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:19:10", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:25:58", "hwnd": 66092, "title": "Suche", "process": "SearchApp.exe", "browser": ""}
+{"ts": "2026-04-01T21:26:07", "hwnd": 65908, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:26:09", "hwnd": 8457692, "title": "Aufgabenplanung", "process": "mmc.exe", "browser": ""}
+{"ts": "2026-04-01T21:26:32", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:26:45", "hwnd": 11603022, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:26:48", "hwnd": 9307688, "title": "workspace", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:26:51", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:29:40", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:29:51", "hwnd": 65932, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:29:52", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:29:59", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:30:06", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:30:17", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:30:32", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:30:36", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:30:50", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:30:54", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:30:58", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:31:04", "hwnd": 65932, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:31:05", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:31:09", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:31:11", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:31:19", "hwnd": 65932, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:31:20", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:31:27", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:31:30", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:31:39", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:31:41", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:31:48", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:31:56", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:32:00", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:32:16", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:32:23", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:35:16", "hwnd": 9307688, "title": "workspace", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:35:29", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:35:39", "hwnd": 3015046, "title": "ngrok Tunnel - ngrok  http 8001", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-04-01T21:35:46", "hwnd": 197294, "title": "OpenClaw Control und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:35:48", "hwnd": 197294, "title": "Google Übersetzer und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:35:50", "hwnd": 197294, "title": "ngrok und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:35:51", "hwnd": 197294, "title": "ngrok - Inspect und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:35:56", "hwnd": 197294, "title": "Unbenannt und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:35:57", "hwnd": 197294, "title": "ngrok Log in — Manage Tunnels, Domains & API Gateways und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:36:09", "hwnd": 197294, "title": "ngrok - Inspect und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:36:12", "hwnd": 197294, "title": "ngrok - Status und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:36:17", "hwnd": 197294, "title": "Unbenannt und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:36:18", "hwnd": 197294, "title": "ngrok Log in — Manage Tunnels, Domains & API Gateways und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:36:26", "hwnd": 9307688, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:36:29", "hwnd": 8457692, "title": "Aufgabenplanung", "process": "mmc.exe", "browser": ""}
+{"ts": "2026-04-01T21:36:31", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:36:33", "hwnd": 10882482, "title": "chess_real_games_archive.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:36:36", "hwnd": 8457692, "title": "Aufgabenplanung", "process": "mmc.exe", "browser": ""}
+{"ts": "2026-04-01T21:36:38", "hwnd": 197294, "title": "ngrok Log in — Manage Tunnels, Domains & API Gateways und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:36:43", "hwnd": 9307688, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:37:09", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:37:11", "hwnd": 9307688, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:37:46", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:37:49", "hwnd": 20187344, "title": "Aufgabe erledigt — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:38:03", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-04-01T21:38:03", "hwnd": 6293048, "title": "Aufgabe erledigt — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:41:01", "hwnd": 11734320, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:41:02", "hwnd": 20187344, "title": "Aufgabe erledigt — Off-PC — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:41:53", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 229, "idle_start": "2026-04-01T21:38:03"}
+{"ts": "2026-04-01T21:41:53", "hwnd": 6293048, "title": "Aufgabe erledigt — Off-PC — Nachtmahl fassen LENANA", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:42:00", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:42:02", "hwnd": 31066884, "title": "Vorgezogene Aktivität erfassen — Liste_nach_Heimkunft — Auspacken Essensplan LEEPAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:42:23", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-04-01T21:42:23", "hwnd": 34736458, "title": "Vorgezogene Aktivität erfassen — Liste_nach_Heimkunft — Auspacken Essensplan LEEPAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:42:44", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 20, "idle_start": "2026-04-01T21:42:23"}
+{"ts": "2026-04-01T21:42:44", "hwnd": 34736458, "title": "Vorgezogene Aktivität erfassen — Off-PC — Liste_nach_Heimkunft — Auspacken Essensplan LEEPAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T21:42:50", "hwnd": 6489656, "title": "Explorer", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:43:01", "hwnd": 8457692, "title": "Aufgabenplanung", "process": "mmc.exe", "browser": ""}
+{"ts": "2026-04-01T21:43:07", "hwnd": 6489656, "title": "USB-STICK (F:)", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:43:09", "hwnd": 197294, "title": "ngrok Log in — Manage Tunnels, Domains & API Gateways und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:43:12", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:43:13", "hwnd": 9307688, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:43:19", "hwnd": 8324576, "title": "Open Database - KeepassKurtPrivat.kdbx", "process": "KeePass.exe", "browser": ""}
+{"ts": "2026-04-01T21:43:29", "hwnd": 13830892, "title": "KeepassKurtPrivat.kdbx - KeePass", "process": "KeePass.exe", "browser": ""}
+{"ts": "2026-04-01T21:43:30", "hwnd": 9375440, "title": "Update Check - KeePass", "process": "KeePass.exe", "browser": ""}
+{"ts": "2026-04-01T21:43:32", "hwnd": 13830892, "title": "KeepassKurtPrivat.kdbx - KeePass", "process": "KeePass.exe", "browser": ""}
+{"ts": "2026-04-01T21:43:39", "hwnd": 197294, "title": "ngrok Log in — Manage Tunnels, Domains & API Gateways und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:43:45", "hwnd": 197294, "title": "ngrok - Online in One Line und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:43:54", "hwnd": 197294, "title": "Traffic Inspector - ngrok und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:44:36", "hwnd": 197294, "title": "Billing — Manage Invoices, Plans & Payments | ngrok und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:44:56", "hwnd": 197294, "title": "ngrok - Online in One Line und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:44:58", "hwnd": 197294, "title": "Usage - ngrok und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:45:44", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:46:14", "hwnd": 197294, "title": "Arena | Benchmark & Compare the Best AI Models und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:46:19", "hwnd": 197294, "title": "Andon FM | Andon Labs und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:46:32", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:48:33", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:48:34", "hwnd": 9307688, "title": "USB-STICK (F:)", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:48:56", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:49:32", "hwnd": 12584272, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:49:34", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:49:39", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:49:40", "hwnd": 65932, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:49:41", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:50:10", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:50:18", "hwnd": 65932, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:50:19", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:50:25", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:50:42", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:50:47", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:51:01", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:51:03", "hwnd": 20515740, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:51:04", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:51:16", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:51:21", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:51:29", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:51:31", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:51:40", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:51:42", "hwnd": 65932, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:51:43", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:52:16", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:52:18", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:52:28", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:52:30", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:52:42", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:53:04", "hwnd": 1966964, "title": "dj_history.json - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:54:17", "hwnd": 21432600, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:54:18", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:55:03", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:55:06", "hwnd": 658894, "title": "Eingabeaufforderung", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-04-01T21:55:08", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:55:17", "hwnd": 460526, "title": "Listener Server - python  listener_server.py", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-04-01T21:55:18", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:55:19", "hwnd": 197294, "title": "Arena | Benchmark & Compare the Best AI Models und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:55:21", "hwnd": 197294, "title": "* 518Wh Tragbare Stromstation, Leichter & Kompakter Solar Generator, AC-Ausgänge/Sinuswelle, Notstromgenerator für */Camping/Alltagsenergie/Emergency - Suchen Shopping und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:55:25", "hwnd": 197294, "title": "localhost:8001 und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:55:26", "hwnd": 197294, "title": "Radio Würmchen und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:55:39", "hwnd": 23857130, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:55:41", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:55:57", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:56:03", "hwnd": 9307688, "title": "radio-wuermchen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:56:29", "hwnd": 4195580, "title": "listener_requests.log - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:56:34", "hwnd": 10947384, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:56:35", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:57:48", "hwnd": 4195580, "title": "listener_requests.log - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:57:50", "hwnd": 22416246, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:57:51", "hwnd": 9307688, "title": "radio-wuermchen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:58:17", "hwnd": 11143992, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:58:18", "hwnd": 4195580, "title": "listener_requests.log - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:58:19", "hwnd": 11209528, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:58:20", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:58:35", "hwnd": 4195580, "title": "listener_requests.log - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:58:36", "hwnd": 14354508, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:58:37", "hwnd": 9307688, "title": "radio-wuermchen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:58:50", "hwnd": 6096694, "title": "listener_requests.log - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T21:58:53", "hwnd": 9307688, "title": "radio-wuermchen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:58:56", "hwnd": 14485580, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:58:57", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T21:59:45", "hwnd": 20712348, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T21:59:46", "hwnd": 9307688, "title": "radio-wuermchen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:00:02", "hwnd": 11864622, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:00:03", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:11:00", "hwnd": 8916136, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:11:02", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:14:25", "hwnd": 591636, "title": "C:\\WINDOWS\\py.exe", "process": "py.exe", "browser": ""}
+{"ts": "2026-04-01T22:15:22", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:15:24", "hwnd": 591636, "title": "C:\\WINDOWS\\py.exe", "process": "py.exe", "browser": ""}
+{"ts": "2026-04-01T22:15:26", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:15:27", "hwnd": 31066884, "title": "Vorgezogene Aktivität erfassen — Liste_nach_Heimkunft — Auspacken Essensplan LEEPAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:15:30", "hwnd": 591636, "title": "C:\\WINDOWS\\py.exe", "process": "py.exe", "browser": ""}
+{"ts": "2026-04-01T22:15:31", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:15:48", "hwnd": 31132420, "title": "Vorgezogene Aktivität erfassen — Liste_Morgentoilette — Teller waschen / Getränk fassen LEMTTW", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:16:02", "hwnd": 1051082, "title": "Sprungliste für Editor", "process": "ShellExperienceHost.exe", "browser": ""}
+{"ts": "2026-04-01T22:16:06", "hwnd": 17892682, "title": "Unbenannt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T22:21:50", "hwnd": 197294, "title": "OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:21:59", "hwnd": 393704, "title": "KS - Diskussion mit OpenClaw (Tagesplanung) KSPLOC: OpenClaw Control und 8 weitere Seiten - Persönlich – Microsoft? Edge", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-04-01T22:22:06", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:22:07", "hwnd": 31132420, "title": "Vorgezogene Aktivität erfassen — Liste_Morgentoilette — Teller waschen / Getränk fassen LEMTTW", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:22:24", "hwnd": 393704, "title": "KS - Diskussion mit OpenClaw (Tagesplanung) KSPLOC: Vorgezogene Aktivität erfassen — Liste_Morgentoilette — Teller waschen / Getränk fassen LEMTTW", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-04-01T22:22:26", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:22:39", "hwnd": 31263492, "title": "Aufgabe erledigt — Medikament fassen GEMEFA", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:22:43", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Versorgung Mitbringsel LEPOPO", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:22:46", "hwnd": 6685320, "title": "Aufgabe erledigt — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:22:59", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-04-01T22:22:59", "hwnd": 31329028, "title": "Aufgabe erledigt — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:24:32", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 92, "idle_start": "2026-04-01T22:22:59"}
+{"ts": "2026-04-01T22:24:32", "hwnd": 31329028, "title": "Aufgabe erledigt — Off-PC — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:24:35", "hwnd": 197294, "title": "Andon FM | Andon Labs und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:28:52", "hwnd": 197294, "title": "Feature: Block-Splitting in der Timeline (einzelne Zeilen umbenennen und Block teilen) · Issue #4 · KurtWoloch/Kontensystem und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:31:26", "hwnd": 197294, "title": "X und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:31:29", "hwnd": 197294, "title": "Andon FM | Andon Labs und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:31:40", "hwnd": 197294, "title": "Unbenannt und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:31:41", "hwnd": 197294, "title": "x.com/intent/tweet?text=%40grok_androll und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:31:43", "hwnd": 197294, "title": "X und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:31:44", "hwnd": 197294, "title": "Home / X und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:32:13", "hwnd": 197294, "title": "Andon FM | Andon Labs und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:32:15", "hwnd": 197294, "title": "Home / X und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:32:20", "hwnd": 197294, "title": "Andon FM | Andon Labs und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:32:24", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:32:25", "hwnd": 9307688, "title": "logs", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:32:30", "hwnd": 10945896, "title": "Andon FM Station logs.txt.shows.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T22:32:53", "hwnd": 17500120, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:32:56", "hwnd": 197294, "title": "Home / X und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:33:08", "hwnd": 15731904, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:33:09", "hwnd": 10945896, "title": "Andon FM Station logs.txt.shows.txt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T22:33:11", "hwnd": 197294, "title": "Home / X und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:34:26", "hwnd": 197294, "title": "PikoClaw — Knowledge Extraction Agent und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:37:10", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:37:11", "hwnd": 9307688, "title": "Radio Fernsehen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:37:34", "hwnd": 197294, "title": "PikoClaw — Knowledge Extraction Agent und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:37:36", "hwnd": 7079636, "title": "Öffnen", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:37:55", "hwnd": 197294, "title": "PikoClaw — Knowledge Extraction Agent und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:38:04", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:38:05", "hwnd": 9307688, "title": "Internet", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:38:14", "hwnd": 12978734, "title": "Komprimieren...", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:38:16", "hwnd": 9307688, "title": "Internet", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T22:38:20", "hwnd": 197294, "title": "PikoClaw — Knowledge Extraction Agent und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:38:23", "hwnd": 23529152, "title": "Öffnen", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:38:25", "hwnd": 197294, "title": "PikoClaw — Knowledge Extraction Agent und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:39:38", "hwnd": 197294, "title": "Andon FM | Andon Labs und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:41:01", "hwnd": 21105564, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T22:41:02", "hwnd": 197294, "title": "Andon FM | Andon Labs und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:46:35", "hwnd": 197294, "title": "molt.chess — Agent Chess League und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:46:40", "hwnd": 197294, "title": "translate.google.com und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:46:41", "hwnd": 197294, "title": "Google Übersetzer und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:46:52", "hwnd": 197294, "title": "Andon FM | Andon Labs und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:47:00", "hwnd": 197294, "title": "Unbenannt und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:47:01", "hwnd": 197294, "title": "x.com/intent/tweet?text=%40BacklinkRadio und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:47:03", "hwnd": 197294, "title": "X und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:47:04", "hwnd": 197294, "title": "Home / X und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:50:42", "hwnd": 197294, "title": "X und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:58:33", "hwnd": 197294, "title": "(1) X und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:59:43", "hwnd": 197294, "title": "(1) Notifications / X und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T22:59:44", "hwnd": 197294, "title": "Notifications / X und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:11:01", "hwnd": 13700486, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:11:02", "hwnd": 197294, "title": "Notifications / X und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:11:07", "hwnd": 591636, "title": "C:\\WINDOWS\\py.exe", "process": "py.exe", "browser": ""}
+{"ts": "2026-04-01T23:11:23", "hwnd": 13830892, "title": "KeepassKurtPrivat.kdbx - KeePass", "process": "KeePass.exe", "browser": ""}
+{"ts": "2026-04-01T23:11:25", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:11:26", "hwnd": 6685320, "title": "Aufgabe erledigt — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:11:31", "hwnd": 13830892, "title": "KeepassKurtPrivat.kdbx - KeePass", "process": "KeePass.exe", "browser": ""}
+{"ts": "2026-04-01T23:11:34", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:11:46", "hwnd": 23137142, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:12:07", "hwnd": 23072004, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:12:15", "hwnd": 23137142, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:12:20", "hwnd": 3018562, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:12:32", "hwnd": 23137142, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:12:46", "hwnd": 8915704, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:12:47", "hwnd": 23137142, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:12:49", "hwnd": 17631532, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:12:59", "hwnd": 23137142, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:13:02", "hwnd": 23334148, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:13:04", "hwnd": 23137142, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:13:39", "hwnd": 22154698, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:13:46", "hwnd": 23137142, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:14:00", "hwnd": 14945322, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:14:03", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:14:05", "hwnd": 23137142, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:14:15", "hwnd": 15076394, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:14:16", "hwnd": 22351306, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:14:18", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:14:29", "hwnd": 12125112, "title": "Eintrag bearbeiten — Verbesserung Tagesplaner mit OpenClaw KSPLAW", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:14:32", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:14:33", "hwnd": 11471890, "title": "Eintrag bearbeiten — Surfen Andon FM RAAFSU", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:14:37", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:15:22", "hwnd": 23399286, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:15:36", "hwnd": 17828140, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:15:39", "hwnd": 23399286, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:16:20", "hwnd": 5768198, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:16:41", "hwnd": 23399286, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:17:22", "hwnd": 9899528, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:17:24", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:17:25", "hwnd": 23399286, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:17:36", "hwnd": 10030600, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:17:37", "hwnd": 5964806, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:17:39", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:17:46", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-04-01T23:17:46", "hwnd": 16845182, "title": "Tagesplanung — Off-PC — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:18:24", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 38, "idle_start": "2026-04-01T23:17:46"}
+{"ts": "2026-04-01T23:18:24", "hwnd": 16845182, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:18:46", "hwnd": 11602962, "title": "Aufgabe erledigt — Zähne putzen LEAZZP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:18:54", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:19:05", "hwnd": 197294, "title": "Notifications / X und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:19:08", "hwnd": 197294, "title": "Andon FM | Andon Labs und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:19:19", "hwnd": 6095878, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:19:21", "hwnd": 197294, "title": "Notifications / X und 11 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:19:23", "hwnd": 6161414, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:19:24", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:19:39", "hwnd": 5574322, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:19:40", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:19:41", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:19:42", "hwnd": 9243784, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:19:58", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:20:04", "hwnd": 27790268, "title": "Aufgabe erledigt — Zähne putzen LEAZZP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:20:12", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:20:21", "hwnd": 21629968, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:20:48", "hwnd": 5705394, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:20:52", "hwnd": 21629968, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:21:08", "hwnd": 13567406, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:21:26", "hwnd": 21629968, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:21:44", "hwnd": 6491714, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:21:46", "hwnd": 21629968, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:22:04", "hwnd": 11996178, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:22:06", "hwnd": 21499082, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:22:07", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:22:16", "hwnd": 16844876, "title": "Eintrag bearbeiten — Zähne putzen LEAZZP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:22:23", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:22:25", "hwnd": 15731564, "title": "Eintrag bearbeiten — Zähne putzen LEAZZP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:22:32", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:22:40", "hwnd": 2622332, "title": "Aufgabe erledigt — Anwendung der Zwischenraumzahnbürste LEAZZZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:22:45", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:22:54", "hwnd": 10355560, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:23:02", "hwnd": 5902002, "title": "Block reklassifizieren", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:23:07", "hwnd": 10355560, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:23:16", "hwnd": 5967538, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:23:17", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:23:26", "hwnd": 8783572, "title": "Eintrag bearbeiten — Surfen X (Timeline) INSUXX", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:23:30", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:23:40", "hwnd": 16124780, "title": "Eintrag bearbeiten — Anwendung der Zwischenraumzahnbürste LEAZZZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:23:46", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:23:53", "hwnd": 13304760, "title": "Aufgabe erledigt — Anwendung Zahnseide LEAZZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:23:58", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:24:01", "hwnd": 12455346, "title": "Aufgabe erledigt — Reinigung Zahnputzutensilien, Hände waschen LEAZHW", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:24:05", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:24:26", "hwnd": 16386924, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:24:43", "hwnd": 6164146, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:24:44", "hwnd": 6229682, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:24:45", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:24:52", "hwnd": 8061576, "title": "Aufgabe erledigt — Bett machen LEAZHW", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:25:04", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-04-01T23:25:04", "hwnd": 12651954, "title": "Aufgabe erledigt — Bett machen LEAZHW", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:26:57", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 113, "idle_start": "2026-04-01T23:25:04"}
+{"ts": "2026-04-01T23:26:57", "hwnd": 12651954, "title": "Aufgabe erledigt — Off-PC — Bett machen LEAZHW", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:27:00", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:27:07", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:27:08", "hwnd": 3605800, "title": "Microsoft Excel - Statistik_heute.csv", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:27:09", "hwnd": 15142278, "title": "", "process": "AGENTSVR.EXE", "browser": ""}
+{"ts": "2026-04-01T23:27:12", "hwnd": 3605800, "title": "Microsoft Excel - Statistik Sender Andon FM ab 1.4.2026.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:27:14", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:27:15", "hwnd": 9307688, "title": "Internet", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:27:21", "hwnd": 17893336, "title": "C:\\WINDOWS\\system32\\cmd.exe", "process": "cmd.exe", "browser": ""}
+{"ts": "2026-04-01T23:27:22", "hwnd": 9307688, "title": "Radio Fernsehen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:27:50", "hwnd": 3605800, "title": "Microsoft Excel - Statistik Sender Andon FM ab 1.4.2026.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:27:57", "hwnd": 65712, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:27:58", "hwnd": 3605800, "title": "Microsoft Excel - Statistik_heute.csv", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:28:02", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:28:04", "hwnd": 3605800, "title": "Microsoft Excel - Statistik Sender Andon FM ab 1.4.2026.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:28:17", "hwnd": 8389256, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:28:18", "hwnd": 3605800, "title": "Microsoft Excel - Statistik_heute.csv", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:28:20", "hwnd": 8454792, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:28:21", "hwnd": 3605800, "title": "Microsoft Excel - Statistik Sender Andon FM ab 1.4.2026.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:28:31", "hwnd": 33032964, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:28:32", "hwnd": 3605800, "title": "Microsoft Excel - Statistik_heute.csv", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:28:34", "hwnd": 3605800, "title": "Microsoft Excel - Statistik Sender Andon FM ab 1.4.2026.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:28:40", "hwnd": 33164036, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:28:41", "hwnd": 3605800, "title": "Microsoft Excel - Statistik_heute.csv", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:28:43", "hwnd": 33229572, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:28:44", "hwnd": 3605800, "title": "Microsoft Excel - Statistik Sender Andon FM ab 1.4.2026.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:28:50", "hwnd": 3605800, "title": "Microsoft Excel - Statistik_heute.csv", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:28:52", "hwnd": 33360644, "title": "Programmumschaltung", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:28:53", "hwnd": 3605800, "title": "Microsoft Excel - Statistik Sender Andon FM ab 1.4.2026.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:29:52", "hwnd": 10814714, "title": "Rechner", "process": "ApplicationFrameHost.exe", "browser": ""}
+{"ts": "2026-04-01T23:30:09", "hwnd": 3605800, "title": "Microsoft Excel - Statistik Sender Andon FM ab 1.4.2026.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:31:20", "hwnd": 10814714, "title": "Rechner", "process": "ApplicationFrameHost.exe", "browser": ""}
+{"ts": "2026-04-01T23:33:24", "hwnd": 3605800, "title": "Microsoft Excel - Statistik Sender Andon FM ab 1.4.2026.xls", "process": "EXCEL.EXE", "browser": "Excel"}
+{"ts": "2026-04-01T23:33:29", "hwnd": 10814714, "title": "Rechner", "process": "ApplicationFrameHost.exe", "browser": ""}
+{"ts": "2026-04-01T23:33:31", "hwnd": 9307688, "title": "Radio Fernsehen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:33:34", "hwnd": 393704, "title": "KS - Planung: idle", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-04-01T23:33:15", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-04-01T23:33:15", "hwnd": 16845182, "title": "Tagesplanung — Off-PC — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:33:36", "hwnd": 5768214, "title": "Tagesplanung — Off-PC — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:33:37", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 21, "idle_start": "2026-04-01T23:33:15"}
+{"ts": "2026-04-01T23:33:37", "hwnd": 16845182, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:33:39", "hwnd": 16518186, "title": "Aufgabe erledigt — Ausziehen LEAZAU", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:33:46", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:33:56", "hwnd": 7275946, "title": "Timeline Nacherfassung — 2026-04-01", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:33:58", "hwnd": 26348676, "title": "Import bestätigen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:34:00", "hwnd": 26414212, "title": "Import abgeschlossen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:34:01", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:34:13", "hwnd": 7407018, "title": "Aufgabe überspringen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:34:21", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:34:23", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:34:24", "hwnd": 9307688, "title": "Radio Fernsehen", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:34:29", "hwnd": 24250454, "title": "Unbenannt - Editor", "process": "notepad.exe", "browser": ""}
+{"ts": "2026-04-01T23:35:46", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:35:50", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:36:00", "hwnd": 3933480, "title": "Aufgabe erledigt — Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:36:01", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:36:04", "hwnd": 23136464, "title": "Aufgabe erledigt — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:36:14", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-04-01T23:36:14", "hwnd": 3999016, "title": "Aufgabe erledigt — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:00", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 105, "idle_start": "2026-04-01T23:36:14"}
+{"ts": "2026-04-01T23:38:00", "hwnd": 3999016, "title": "Aufgabe erledigt — Off-PC — Einschmieren GEAZES", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:02", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:05", "hwnd": 26544106, "title": "Aufgabe erledigt — WC LEAZWC", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:09", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:13", "hwnd": 4130088, "title": "Aufgabe überspringen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:21", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:24", "hwnd": 17172232, "title": "Aufgabe erledigt — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:26", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:28", "hwnd": 6294056, "title": "Aufgabe erledigt — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:48", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:38:55", "hwnd": 65712, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:39:01", "hwnd": 197294, "title": "Andon FM | Andon Labs und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:39:02", "hwnd": 8717550, "title": "Website verlassen?", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:39:03", "hwnd": 197294, "title": "Home / X und 10 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:39:04", "hwnd": 197294, "title": "PikoClaw — Knowledge Extraction Agent und 9 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:39:05", "hwnd": 197294, "title": "ngrok - Status und 8 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:39:06", "hwnd": 197294, "title": "Usage - ngrok und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:39:09", "hwnd": 197294, "title": "Arena | Benchmark & Compare the Best AI Models und 7 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:39:55", "hwnd": 197294, "title": "Google Übersetzer und 6 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:39:56", "hwnd": 197294, "title": "Radio Würmchen und 5 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:40:02", "hwnd": 197294, "title": "Usage - ngrok und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:40:05", "hwnd": 197294, "title": "Andon FM | Andon Labs und 4 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:40:09", "hwnd": 197294, "title": "X und 3 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:40:12", "hwnd": 197294, "title": "Usage - ngrok und 2 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:40:13", "hwnd": 197294, "title": "Feature: Block-Splitting in der Timeline (einzelne Zeilen umbenennen und Block teilen) · Issue #4 · KurtWoloch/Kontensystem und 2 weitere Seiten - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:40:15", "hwnd": 197294, "title": "Usage - ngrok und 1 weitere Seite - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:40:16", "hwnd": 197294, "title": "OpenClaw Control und 1 weitere Seite - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:40:20", "hwnd": 13830892, "title": "KeepassKurtPrivat.kdbx - KeePass", "process": "KeePass.exe", "browser": ""}
+{"ts": "2026-04-01T23:40:22", "hwnd": 65712, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:40:33", "hwnd": 197294, "title": "OpenClaw Control und 1 weitere Seite - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:40:42", "hwnd": 9506430, "title": " Unbenanntes Projekt [HD 720p 30 fps] - OpenShot Video Editor", "process": "openshot-qt.exe", "browser": ""}
+{"ts": "2026-04-01T23:40:45", "hwnd": 65712, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:40:48", "hwnd": 393704, "title": "?? - Bearbeitung  Unbenanntes Projekt [HD 720p 30 fps] - OpenShot Video Editor: ", "process": "Window logger.exe", "browser": ""}
+{"ts": "2026-04-01T23:40:52", "hwnd": 197294, "title": "OpenClaw Control und 1 weitere Seite - Persönlich – Microsoft​ Edge", "process": "msedge.exe", "browser": "Edge"}
+{"ts": "2026-04-01T23:40:54", "hwnd": 65870, "title": "", "process": "explorer.exe", "browser": ""}
+{"ts": "2026-04-01T23:40:35", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-04-01T23:40:35", "hwnd": 17237768, "title": "Aufgabe erledigt — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:40:55", "hwnd": 6294056, "title": "Aufgabe erledigt — Off-PC — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:40:56", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 21, "idle_start": "2026-04-01T23:40:35"}
+{"ts": "2026-04-01T23:40:56", "hwnd": 17237768, "title": "Aufgabe erledigt — Off-PC — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:41:00", "hwnd": 4394808, "title": "C:\\Program Files\\Python311\\python.exe", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:41:01", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:41:06", "hwnd": 10555238, "title": "Aufgabe erledigt — im Bett", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:41:09", "hwnd": 5768214, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (gegessen, zu essen) LEEPEP", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-01T23:41:12", "hwnd": 10620774, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}

@@ -1,0 +1,135 @@
+[
+  {
+    "ts": "2026-04-07T08:43:50",
+    "start": "08:38",
+    "end": "08:39",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Wü"
+  },
+  {
+    "ts": "2026-04-07T08:43:56",
+    "start": "08:38",
+    "end": "08:39",
+    "original": "Scan Radio Wü",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-07T08:44:05",
+    "start": "08:40",
+    "end": "08:40",
+    "original": "Radio Würmchen",
+    "corrected": "Scan Radio Würmchen KI RASCRW"
+  },
+  {
+    "ts": "2026-04-07T08:53:31",
+    "start": "08:48",
+    "end": "08:49",
+    "original": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "corrected": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN"
+  },
+  {
+    "ts": "2026-04-07T22:52:28",
+    "start": "21:11",
+    "end": "21:11",
+    "original": "Papiersortierung WFPAPA",
+    "corrected": "Restart ngrok-Tunnel für Radio Würmchen KI RWKIRN"
+  },
+  {
+    "ts": "2026-04-07T22:52:40",
+    "start": "21:12",
+    "end": "21:24",
+    "original": "Dateiverwaltung (radio-wuermchen)",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-04-07T22:53:12",
+    "start": "21:24",
+    "end": "21:32",
+    "original": "Ansehen YouTube-Videos RAYTYT",
+    "corrected": "Div. Surfen INSUSU"
+  },
+  {
+    "ts": "2026-04-07T22:53:31",
+    "start": "21:24",
+    "end": "21:28",
+    "original": "Div. Surfen INSUSU",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-04-07T22:53:51",
+    "start": "21:28",
+    "end": "21:32",
+    "original": "Div. Surfen INSUSU",
+    "corrected": "Begutachtung Status Ngrok RWKIVE"
+  },
+  {
+    "ts": "2026-04-07T22:53:58",
+    "start": "21:28",
+    "end": "21:32",
+    "original": "Begutachtung Status Ngrok RWKIVE",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-04-07T22:54:16",
+    "start": "21:28",
+    "end": "21:32",
+    "original": "Ansehen Youtube-Videos RAYTYT",
+    "corrected": "Begutachtung Status Ngrok RWKIVE"
+  },
+  {
+    "ts": "2026-04-07T22:54:27",
+    "start": "21:29",
+    "end": "21:32",
+    "original": "Begutachtung Status Ngrok RWKIVE",
+    "corrected": "Ansehen Youtube-Videos RAYTYT"
+  },
+  {
+    "ts": "2026-04-07T22:56:01",
+    "start": "21:34",
+    "end": "21:37",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Versuch Fixen M76 Joe Talker auf Arena AI CSSUAI"
+  },
+  {
+    "ts": "2026-04-07T22:56:37",
+    "start": "21:43",
+    "end": "21:43",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Restart ngrok-Tunnel für Radio Würmchen KI RWKIRN"
+  },
+  {
+    "ts": "2026-04-07T22:57:26",
+    "start": "21:45",
+    "end": "21:48",
+    "original": "div. Surfen INSUSU",
+    "corrected": "Versuch Fixen M76 Joe Talker auf Arena AI CSSUAI"
+  },
+  {
+    "ts": "2026-04-07T23:09:04",
+    "start": "21:59",
+    "end": "22:00",
+    "original": "Radio Würmchen",
+    "corrected": "Versuch Fixen M76 Joe Talker auf Arena AI CSSUAI"
+  },
+  {
+    "ts": "2026-04-07T23:09:24",
+    "start": "22:05",
+    "end": "22:05",
+    "original": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
+  },
+  {
+    "ts": "2026-04-07T23:10:03",
+    "start": "22:09",
+    "end": "22:09",
+    "original": "Radio Würmchen",
+    "corrected": "Versuch Fixen M76 Joe Talker auf Arena AI CSSUAI"
+  },
+  {
+    "ts": "2026-04-07T23:10:36",
+    "start": "22:14",
+    "end": "22:15",
+    "original": "Surfen Andon FM RAAFSU",
+    "corrected": "Analyse Andon FM RWPLAF"
+  }
+]
