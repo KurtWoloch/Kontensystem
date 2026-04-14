@@ -172,7 +172,7 @@ class TimelineModel:
                 logged_act = self._logged_activity_at(ts)
                 if logged_act:
                     # Extract account from task code in logged activity
-                    m = re.search(r'\s([A-Z]{6})(?:\s*\(Fs\.\))?\s*$', logged_act)
+                    m = re.search(r'\s([A-ZÄÖÜß]{6})(?:\s*\(Fs\.\))?\s*$', logged_act)
                     acct = m.group(1)[:2] if m else "??"
                     act = logged_act
                 else:
@@ -746,7 +746,7 @@ def _reclassify_dialog(parent: tk.Widget, block: TLBlock,
             lbl_err.config(text="Aktivität darf nicht leer sein!")
             return
         # Extract account from 6-char task code
-        m = re.search(r'\s([A-Z]{6})(?:\s*\(Fs\.\))?\s*$', new_act)
+        m = re.search(r'\s([A-ZÄÖÜß]{6})(?:\s*\(Fs\.\))?\s*$', new_act)
         new_acct = m.group(1)[:2] if m else block.account
         result["value"] = (new_act, new_acct, mode_var.get())
         dlg.destroy()

@@ -62,7 +62,7 @@ def extract_task_code(activity_name):
     words = activity_name.split()
     if words:
         last = words[-1]
-        if re.match(r'^[A-Z]{4,6}$', last):
+        if re.match(r'^[A-ZÄÖÜß]{4,6}$', last):
             return last
     return None
 

@@ -125,7 +125,7 @@ class ConfidenceStore:
     @staticmethod
     def _extract_account(activity):
         """Extract account prefix from task code in activity name."""
-        code_match = re.search(r'\s([A-Z]{4,6})\s*$', activity)
+        code_match = re.search(r'\s([A-ZÄÖÜß]{4,6})\s*$', activity)
         if code_match:
             return code_match.group(1)[:2]
         return "_UNCLASSIFIABLE"
@@ -911,7 +911,7 @@ def _extract_offpc_activity(title: str) -> Tuple[str, str]:
         return "LE", "Off-PC (unbekannt)"
 
     # Try to extract task code (6 chars at end)
-    task_code_match = re.search(r'\s([A-Z]{6})$', activity)
+    task_code_match = re.search(r'\s([A-ZÄÖÜß]{6})$', activity)
     if task_code_match:
         code = task_code_match.group(1)
         account = code[:2]
@@ -1024,7 +1024,7 @@ def _extract_dialog_activity(title: str) -> Tuple[str, str]:
         return "KS", "Erfassung Ablauf KSPLEA"
 
     # Try to extract task code (6 chars at end, optionally with (Fs.))
-    task_code_match = re.search(r'\s([A-Z]{6})(?:\s*\(Fs\.\))?\s*$', activity)
+    task_code_match = re.search(r'\s([A-ZÄÖÜß]{6})(?:\s*\(Fs\.\))?\s*$', activity)
     if task_code_match:
         code = task_code_match.group(1)
         account = code[:2]

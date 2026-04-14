@@ -72,7 +72,7 @@ def find_planner_gaps(completed: List[CompletedItem],
 
 def _task_code(activity: str) -> str:
     """Extract trailing 6-char task code, or '' if none."""
-    m = re.search(r'\s([A-Z]{6})(?:\s*\(Fs\.\))?\s*$', activity)
+    m = re.search(r'\s([A-ZÄÖÜß]{6})(?:\s*\(Fs\.\))?\s*$', activity)
     return m.group(1) if m else ""
 
 
@@ -350,7 +350,7 @@ def _find_planner_context(completed: List, gap_start: datetime
     def _extract_info(item):
         """Extract account/activity/code from a CompletedItem."""
         task_code = ""
-        code_match = re.search(r'\s([A-Z]{6})(?:\s*\(Fs\.\))?\s*$',
+        code_match = re.search(r'\s([A-ZÄÖÜß]{6})(?:\s*\(Fs\.\))?\s*$',
                                item.activity)
         if code_match:
             task_code = code_match.group(1)
@@ -444,7 +444,7 @@ def _process_gap(gap_start: datetime, gap_end: datetime,
         original_activity = activity
         if activity in day_overrides:
             activity = day_overrides[activity]
-            code_match = re.search(r'\s([A-Z]{6})$', activity)
+            code_match = re.search(r'\s([A-ZÄÖÜß]{6})$', activity)
             if code_match:
                 account = code_match.group(1)[:2]
 
@@ -454,7 +454,7 @@ def _process_gap(gap_start: datetime, gap_end: datetime,
             planner_ctx_synth = _find_planner_context(completed, gap_start)
             if (planner_ctx_synth and planner_ctx_synth["account"] and
                     account == planner_ctx_synth["account"] and
-                    not re.search(r'\s[A-Z]{6}(?:\s|$)', activity)):
+                    not re.search(r'\s[A-ZÄÖÜß]{6}(?:\s|$)', activity)):
                 activity = planner_ctx_synth["activity"]
                 planner_override = True
 
@@ -489,7 +489,7 @@ def _process_gap(gap_start: datetime, gap_end: datetime,
 
         planner_override = False
         block_has_specific_code = bool(
-            re.search(r'\s[A-Z]{6}(?:\s|$)', activity)
+            re.search(r'\s[A-ZÄÖÜß]{6}(?:\s|$)', activity)
         )
         if (planner_ctx and planner_ctx["account"] and
                 account == planner_ctx["account"]
@@ -501,7 +501,7 @@ def _process_gap(gap_start: datetime, gap_end: datetime,
         if not planner_override and activity in day_overrides:
             activity = day_overrides[activity]
             override_applied = True
-            code_match = re.search(r'\s([A-Z]{6})$', activity)
+            code_match = re.search(r'\s([A-ZÄÖÜß]{6})$', activity)
             if code_match:
                 account = code_match.group(1)[:2]
 
@@ -573,7 +573,7 @@ def _process_gap(gap_start: datetime, gap_end: datetime,
                 sg_original = sg_activity
                 if sg_activity in day_overrides:
                     sg_activity = day_overrides[sg_activity]
-                    cm = re.search(r'\s([A-Z]{6})$', sg_activity)
+                    cm = re.search(r'\s([A-ZÄÖÜß]{6})$', sg_activity)
                     if cm:
                         sg_account = cm.group(1)[:2]
                 proposals.append({
