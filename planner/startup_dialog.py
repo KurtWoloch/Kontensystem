@@ -12,6 +12,7 @@ import re
 
 from day_context import DayContext
 from yaml_loader import load_exceptions_for_date
+from holidays import is_austrian_holiday, get_holiday_name
 
 GERMAN_DAYS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag",
                "Freitag", "Samstag", "Sonntag"]
@@ -118,6 +119,12 @@ class StartupDialog:
         )
         self.lbl_yaml_dto.pack(padx=20, pady=(2, 0))
 
+        self.lbl_auto_holiday = tk.Label(
+            self.win, text="", font=("Segoe UI", 9, "bold"),
+            bg=COLOR_BG, fg="#a6e3a1"  # green for auto-detected
+        )
+        self.lbl_auto_holiday.pack(padx=20, pady=(2, 0))
+
         # Date validation error label
         self.lbl_date_error = tk.Label(
             self.win, text="", font=("Segoe UI", 8, "bold"),
@@ -220,13 +227,25 @@ class StartupDialog:
         return "auto"
 
     def _load_yaml_for_date(self, d: date):
-        """Load YAML overrides for the given date and set prefill values."""
+        """Load YAML overrides for the given date and set prefill values.
+        Also auto-detects Austrian public holidays."""
         self.yaml_overrides = load_exceptions_for_date(d)
         yaml_dto = self.yaml_overrides.get("dayTypeOverride")
         self.yaml_putztag = self.yaml_overrides.get("putztag")
 
         self._prefill_urlaubstag = (yaml_dto == "Urlaubstag")
-        self._prefill_feiertag = (yaml_dto == "Feiertag")
+
+        # Auto-detect holiday: YAML override takes precedence, then
+        # automatic detection via the holiday calendar.
+        if yaml_dto == "Feiertag":
+            self._prefill_feiertag = True
+        elif yaml_dto is None:
+            self._prefill_feiertag = is_austrian_holiday(d)
+        else:
+            self._prefill_feiertag = False
+
+        self.auto_holiday_name = get_holiday_name(d) if self._prefill_feiertag else None
+
         if yaml_dto in ("Bürotag", "Teleworking"):
             self._prefill_work_type = yaml_dto
         else:
@@ -265,6 +284,18 @@ class StartupDialog:
             if yaml_early else "")
         self.lbl_yaml_dto.config(
             text=f"(Aus YAML: {yaml_dto})" if yaml_dto else "")
+
+        # Auto-detected holiday info
+        if self.auto_holiday_name:
+            yaml_override = yaml_dto == "Feiertag"
+            if yaml_override:
+                self.lbl_auto_holiday.config(
+                    text=f"🎉 {self.auto_holiday_name} (aus YAML)")
+            else:
+                self.lbl_auto_holiday.config(
+                    text=f"🎉 {self.auto_holiday_name} (automatisch erkannt)")
+        else:
+            self.lbl_auto_holiday.config(text="")
 
         self.lbl_date_error.config(text="")
 
