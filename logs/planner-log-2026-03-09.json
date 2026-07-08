@@ -47,9 +47,20 @@
     "activity": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
-    "minutes": 4,
+    "minutes": 5,
     "started_at": "07:21:00",
-    "completed_at": "07:25:00",
+    "completed_at": "07:26:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Entwickllung Tagesplanung mit OpenClaw KSPLEN",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 14,
+    "started_at": "07:26:00",
+    "completed_at": "07:40:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -71,17 +82,6 @@
     "priority": 1.84,
     "minutes": 6,
     "started_at": "07:41:00",
-    "completed_at": "07:45:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Diskussion mit OpenClaw über Tagesablauf / Entwicklung Log-Editing KSPLPL",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 2,
-    "started_at": "07:45:00",
     "completed_at": "07:47:00",
     "skipped": false,
     "original_activity": "",
@@ -363,17 +363,6 @@
     "comment": ""
   },
   {
-    "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
-    "list": "Lebenserhaltung",
-    "priority": 1.844,
-    "minutes": 2,
-    "started_at": "08:58:00",
-    "completed_at": "09:00:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "PC herunterfahren PCHFAR",
     "list": "Liste_Arbeit",
     "priority": 1.84,
@@ -383,6 +372,17 @@
     "skipped": true,
     "original_activity": "",
     "comment": "läuft für Radio Würmchen KI weiter"
+  },
+  {
+    "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 1,
+    "started_at": "08:59:00",
+    "completed_at": "09:00:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Fahrt BRZG BRFAFA",
@@ -465,8 +465,8 @@
     "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
     "list": "Liste_Arbeit",
     "priority": 1.845,
-    "minutes": 261,
-    "started_at": "12:40:00",
+    "minutes": 257,
+    "started_at": "13:30:00",
     "completed_at": "17:47:00",
     "skipped": false,
     "original_activity": "",
@@ -1175,5 +1175,16 @@
     "skipped": true,
     "original_activity": "",
     "comment": "wird nicht heruntergefahren wg. RW KI-Radio"
+  },
+  {
+    "activity": "Auspacken / Aufstellen BRZ BREPAP",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 18,
+    "started_at": "09:42:00",
+    "completed_at": "10:00:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   }
 ]

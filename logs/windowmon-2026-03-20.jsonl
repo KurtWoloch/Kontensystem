@@ -1366,3 +1366,7 @@
 {"ts": "2026-03-20T23:13:08", "hwnd": 24317150, "title": "Aufgabe erledigt — im Bett", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-20T23:13:10", "hwnd": 16517628, "title": "Tagesplanung — Reaktiver Planer — Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-20T23:13:13", "hwnd": 24382686, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-09T21:19:07", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-04-09T21:19:07", "hwnd": 4327530, "title": "Timeline Nacherfassung — 2026-03-20", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-09T21:19:29", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 21, "idle_start": "2026-04-09T21:19:07"}
+{"ts": "2026-04-09T21:19:29", "hwnd": 4327530, "title": "Timeline Nacherfassung — Off-PC — 2026-03-20", "process": "python.exe", "browser": ""}

@@ -22,7 +22,7 @@
     "comment": ""
   },
   {
-    "activity": "Erweiterung Planungstool (Hinzufügung Automation und Editor dafür) mit OpenClaw",
+    "activity": "Erweiterung Planungstool (Hinzufügung Automation und Editor dafür) mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 7,
@@ -33,7 +33,7 @@
     "comment": "sollte Code von Erstellung Planungstool übernehmen"
   },
   {
-    "activity": "Erweiterung Planungsprogramm (Hinzufügen Button für Übernahme ganzen Tasktext)",
+    "activity": "Erweiterung Planungsprogramm (Hinzufügen Button für Übernahme ganzen Tasktext) KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 9,
@@ -44,7 +44,7 @@
     "comment": ""
   },
   {
-    "activity": "Bugfixing Planungstool",
+    "activity": "Bugfixing Planungstool KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -66,7 +66,7 @@
     "comment": "nach langer Zeit wieder normales Radio-Würmchen-Programm gestartet"
   },
   {
-    "activity": "KS - Durchsehen Tagesbericht von gestern und Frage nach Verbesserungen",
+    "activity": "Durchsehen Tagesbericht von gestern und Frage nach Verbesserungen KSPLTB",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 13,
@@ -352,17 +352,6 @@
     "comment": "Zerlegung CD+G-Ordner, das meiste davon wird in neuen kleinen KA-Ordner gegeben, da in Haupt-KA-Ordner zuwenig Platz dafür"
   },
   {
-    "activity": "Papiersortierung WFPAPA",
-    "list": "Liste_untertags",
-    "priority": 1.835,
-    "minutes": 15,
-    "started_at": "09:08:00",
-    "completed_at": "09:38:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "Zerlegung CD+G-Ordner (das meiste davon kommt in neuen kleinen Karaoke-Ordner)"
-  },
-  {
     "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
@@ -473,11 +462,11 @@
     "comment": ""
   },
   {
-    "activity": "Start Teleworking BRZG BRTWGF",
-    "list": "Liste_Arbeit",
-    "priority": 1.842,
-    "minutes": 12,
-    "started_at": "10:56:00",
+    "activity": "Blutdruck messen GEBMBM",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "10:55:00",
     "completed_at": "10:57:00",
     "skipped": false,
     "original_activity": "",
@@ -495,12 +484,12 @@
     "comment": "RW KI läuft weiter"
   },
   {
-    "activity": "Blutdruck messen GEBMBM",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 0,
+    "activity": "Start Teleworking BRZG BRTWGF",
+    "list": "Liste_Arbeit",
+    "priority": 1.842,
+    "minutes": 3,
     "started_at": "10:57:00",
-    "completed_at": "10:57:00",
+    "completed_at": "11:00:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -608,9 +597,9 @@
     "activity": "Mittagessen (von Sati gekocht) LEMESE",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 39,
+    "minutes": 37,
     "started_at": "12:17:00",
-    "completed_at": "12:56:00",
+    "completed_at": "12:54:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -671,7 +660,7 @@
     "comment": ""
   },
   {
-    "activity": "div. Surfen (News)",
+    "activity": "div. Surfen (News) INSUNE",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 3,
@@ -682,7 +671,7 @@
     "comment": ""
   },
   {
-    "activity": "Ausrasten",
+    "activity": "Ausrasten LEARAR",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 114,
@@ -762,9 +751,9 @@
     "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 180,
+    "minutes": 120,
     "started_at": "16:36:00",
-    "completed_at": "19:36:00",
+    "completed_at": "18:36:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1219,5 +1208,16 @@
     "skipped": true,
     "original_activity": "",
     "comment": "wird nicht heruntergefahren, RW-KI Radio + Schachspiel läuft weiter"
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "20:32:00",
+    "completed_at": "20:34:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   }
 ]

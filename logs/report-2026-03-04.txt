@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      119
   Geplante Gesamtzeit:         17h 20m
 
-  ✓ Erledigt (geplant):       62  (   10h 52m)  = 62.7%
+  ✓ Erledigt (geplant):       71  (   11h 42m)  = 67.5%
   ⏭ Übersprungen:              5  (       19m)  = 1.8%
-  ✗ Nicht erreicht:           52  (    6h 09m)  = 35.5%
+  ✗ Nicht erreicht:           43  (    5h 19m)  = 30.7%
 
-  📝 Ungeplante Aktivitäten:  72  (    5h 14m)
-  ⏱  Tatsächliche Arbeitszeit:    11h 46m
+  📝 Ungeplante Aktivitäten:  97  (    8h 13m)
+  ⏱  Plan-Ausführungszeit:        9h 56m
+  ⏱  Tatsächliche Arbeitszeit:    18h 09m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -22,12 +29,13 @@
 
   Aktivität                           Geplant Tatsächl.    Drift
   ─────────────────────────────────── ─────── ───────── ────────
-  Mailprüfung INMAPR                    07:53     19:20 +11h 27m
-  Wohnung lüften WFLULU                 17:49     08:59  -8h 50m
+  Bearb.Ohrwürmer (durchzunehmende au   23:06     00:00 -23h 06m
   Teller waschen / Getränk + Biovital   16:33     12:40  -3h 53m
-  Der Außentemperatur entsprechend an   12:28     09:58  -2h 30m
+  WC BREPWC                             12:19     09:19  -3h 00m
   Bearb. Essensplan (Update Händleran   17:53     19:46  +1h 53m
   Bearb. Essensplan (Kontrolle / zu e   17:39     19:30  +1h 51m
+  Wohnung lüften WFLULU                 17:49     19:36  +1h 47m
+  WC LEMTWC                             08:22     09:55  +1h 33m
   WC BREPWC                             13:30     12:00  -1h 30m
   Ausziehen LEMTAZ                      06:38     08:07  +1h 29m
   WC LEMTWC                             06:39     08:08  +1h 29m
@@ -36,8 +44,86 @@
   Ausputzen Rasierer LEMTAR             06:33     07:59  +1h 26m
   Abwiegen LEMTAW                       06:44     08:10  +1h 26m
   Reinigung Waschmuschel LEMTRW         06:45     08:11  +1h 26m
-  Starten Youtube-Playlist MUOWSP       06:46     08:12  +1h 26m
-  ... und 47 weitere
+  ... und 54 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Arbeitszeit absolvieren (Nachmittag) BRE   2h 30m
+  Arbeit an Tagesplaner mit OpenClaw KSPLE   1h 21m
+  Mittagspause BRZG  LEMEBR                     54m
+  Arbeitszeit absolvieren (Vormittag) BREP      39m
+  Bearb. Essensplan LEEPEP                      39m
+  Fahrt BRZG BRFAFA                             38m
+  Arbeitszeit absolvieren (Nachmittag) BRE      32m
+  Heimfahrt vom BRZ inkl. Laufen BRFAHF         30m
+  Versorgung Mitbringsel LEPOPO (Verlänger      29m
+  Nacherfassung Ablauf KSPLNA                   28m
+  Nacherfassung Ablauf ca. 20:00-22:33 (in      23m
+  Duschen LEMTDU                                20m
+  Bearb. Essensplan im BRZ BREPGM (Verläng      20m
+  Lesen OpenClaw memories / Moltbook posti      20m
+  WC BREPWC                                     18m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Rasieren, dabei Planung (C#-Programm), B      15m
+  Frühstücken, dabei Vorbereitung Candeblo      15m
+  Abhalten BKDD Standup Meeting BREPGM          15m
+  Scan Radio Arabella RASCRA                    13m
+  ... und 104 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  BREPDZ         3h 44m
+  KSPLEN         1h 30m
+  LEEPEP         1h 21m
+  BREPGM            55m
+  LEMEBR            54m
+  KSPLNA            51m
+  BRFAFA            38m
+  LEPOPO            38m
+  INOCMB            33m
+  BRFAHF            30m
+  LEMTRA            27m
+  RAAFKO            24m
+  LEMTFR            22m
+  LEMTDU            22m
+  RWMPAR            21m
+  RAAFSU            20m
+  BREPWC            18m
+  LEAZZZ            16m
+  KSPLOC            16m
+  LEAZWC            15m
+  ... und 50 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  BR         6h 42m
+  LE         6h 16m
+  KS         2h 38m
+  RA         1h 00m
+  IN            42m
+  RW            40m
+  GE             9m
+  WF             7m
+  MU             1m
+  PC             0m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -45,10 +131,10 @@
 
   ⏭ Bearb.Ohrwürmer(durchgenommen) MUOWDU
     Grund: (kein Grund)
-  ⏭ Teller waschen / Getränk fassen LEMTTW
-    Grund: nach Jause im BRZ Teller nicht gewaschen
   ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
     Grund: nichts durchzunehmen
+  ⏭ Teller waschen / Getränk fassen LEMTTW
+    Grund: nach Jause im BRZ Teller nicht gewaschen
   ⏭ Einkauf Brot/Weckerln/süße Stücke (Der Mann W
     Grund: heute nichts in Einkaufsliste (Nußbrot noch vorhanden)
   ⏭ Auspacken Essensplan LEEPAU
@@ -58,78 +144,72 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 06:23–06:58  Bearbeitung Tagesplaner mit OpenClaw
-  📝 06:58–07:11  Bugfixing Tagesplanung mit OpenClaw
-  📝 07:11–07:24  Bugfixing Tagesplanung mit OpenClaw
-  📝 07:32–07:40  Arbeit an Tagesplaner mit OpenClaw
-  📝 07:40–07:42  Scan Radio Arabella
-  📝 07:42–07:50  Korr. Tagesplanung mit OpenClaw
-  📝 07:50–07:51  Scan Radio Arabella
-  📝 07:51–07:52  Scan Radio Arabella
-  📝 08:02–08:03  Scan Radio Arabella
-  📝 08:03–08:07  Arbeit an Tagesplaner mit OpenClaw (Komm
-  📝 09:03–09:05  Modifizierung Tagesplanung (Stoppung Lis
-  📝 09:05–09:08  Verbesserung Tagesplanung (Supprt Anmerk
-  📝 09:15–09:17  Mailprüfung  — Mails zum Unsubscriben in Junk-Mails: smava Kredit, Informationen zum Immo...
-  📝 09:19–09:19  WC  — muss noch nicht, vor Abgang noch einmal probieren
-  📝 09:19–09:21  Scan Radio Arabella
-  📝 09:46–09:48  Bearb. Essensplan / Getränk fassen
-  📝 18:10–18:12  div. Surfen (News)
-  📝 18:12–18:17  Auspacken Essensplan / Herunterfahren La
-  📝 19:00–19:20  Lesen OpenClaw memories / Moltbook posti  — interessantes Posting: https://www.moltbook.com/post/e4392ceb-8274-4281-9417-7974d7f029ad (Kostenreduktion Crons / Heartbeats)
-  📝 19:23–19:28  Absetzen Moltbook-Message für Heartbeat-  — interessantes Posting: https://www.moltbook.com/post/e4392ceb-8274-4281-9417-7974d7f029ad
-  📝 19:39–19:46  LE - Zubereitung Earl-Gray-Tee / Mini Sc  — 5-Uhr-Tee, verspätet
-  📝 19:55–19:57  Teller waschen / Tee fassen
-  📝 19:57–20:03  Bearb. Essensplan (Händlerangebote / Unt  — hier nacherfasst
-  📝 20:03–20:04  Mailprüfung
-  📝 20:04–20:12  Bearb. Essensplan (Fs.)
-  📝 20:12–20:15  Konversation mit Andrew Pappas / Thinkin  — Thinking Frequencies stellt seinen Broadcast in Frage und fragt, ob das nützlich ist
-  📝 20:15–20:18  Surfen Andon FM / OpenClaw
-  📝 20:18–20:19  Bearb. Essensplan (Fs.)
-  📝 20:19–20:21  Surfen Andon FM / Start Andon Scraper
-  📝 20:21–20:23  Bearb. Essensplan
-  📝 20:23–20:29  Tweet an Thinking Frequencies / Andrew P
-  📝 20:29–20:30  Bearb. Essensplan
-  📝 20:30–20:31  Mailprüfung
-  📝 20:31–20:39  Konversation mit Andrew Pappas / Thinkin
-  📝 20:39–20:43  Surfen Moltbook
-  📝 20:43–20:46  Bearb. Essensplan
-  📝 20:46–20:47  Surfen Andon FM
-  📝 20:49–20:50  Surfen Andon FM
-  📝 20:50–20:52  Prüfung Nachricht für Agent (Moltbook)  — Nachricht wurde wieder gelöscht
-  📝 20:52–20:54  Konversation mit Andrew Pappas / Thinkin
-  📝 20:59–21:05  Bearb. Essensplan
-  📝 21:05–21:06  Surfen Thinking Frequencies
-  📝 21:06–21:07  Bearb. Essensplan
-  📝 21:07–21:15  Surfen Andon FM / Tweet Thinking Frequen
-  📝 21:15–21:19  Teller waschen / Soja-Drink fassen
-  📝 21:19–21:22  Bearb. Essensplan
-  📝 21:22–21:24  Surfen Andon FM / Live365 Scraper
-  📝 21:24–21:29  Bearb. Essensplan / Surfen Spaghetti in   — war gestern komisches Rezept von Sati (nur Spahetti als Hauptspeise?!)
-  📝 21:29–21:31  Tweet an Thinking Frequenceis
-  📝 21:31–21:35  Bearb. Essensplan
-  📝 21:35–21:36  Surfen Andon Labs
-  📝 21:36–21:42  Bearb. Essensplan
-  📝 21:42–21:43  Bearb. Essensplan
-  📝 21:43–21:45  Generierung konventioneller Tagesplan
-  📝 21:45–21:49  Bearb. Essensplan
-  📝 21:49–21:50  Surfen Andon FM
-  📝 21:50–21:51  Bearb. Essensplan
-  📝 21:51–21:53  Bearb. Essensplan
-  📝 21:53–21:54  Bearb. Tagesplanung (konventionell)
-  📝 21:54–21:58  Tweet an Thinking Frequencies
-  📝 21:58–21:59  Bearb. Essensplan
-  📝 21:59–22:04  Konversation mit Thinking Frequencies / 
-  📝 22:04–22:06  Surfen Moltbook
-  📝 22:06–22:08  Tweet / Surfen Andon FM
-  📝 22:08–22:12  Bearb. Essensplan
-  📝 22:12–22:14  Diskussion Openclaw Differenz Planung / 
-  📝 22:14–22:15  Surfen Andon FM
-  📝 22:15–22:26  Diskussion mit OpenClaw / Bauen Tagesaus
-  📝 22:26–22:28  Surfen X (Thinking Frequencies)
-  📝 22:28–22:33  Diskussion mit OpenClaw (Umschreiben Pla
-  📝 22:33–22:56  Nacherfassung Ablauf ca. 20:00-22:33 (in
-  📝 22:56–23:00  Tweet an Thinking Frequencies (AI radio 
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Arbeit an Tagesplaner mit OpenClaw KSPLEN       1h 21m      4 06:23–08:07  
+  Bearb. Essensplan LEEPEP                           39m     12 20:21–22:12  
+  Arbeitszeit absolvieren (Nachmittag) BREPDZ (      32m      1 16:02–16:55  
+  Versorgung Mitbringsel LEPOPO (Verlängerung)       29m      1 18:21–18:59  
+  Nacherfassung Ablauf KSPLNA                        28m      7 00:04–19:00  
+  Nacherfassung Ablauf ca. 20:00-22:33 (in neue      23m      1 22:33–22:56  
+  Bearb. Essensplan im BRZ BREPGM (Verlängerung      20m      1 11:15–11:45  
+  Lesen OpenClaw memories / Moltbook postings I      20m      1 19:00–19:20  
+  Konversation mit Andrew Pappas / Thinking Fre      13m      3 20:12–20:54  
+  Tweet an Thinking Frequencies RWMPAR               12m      3 00:05–23:00  
+  Rasieren, dabei Planung (C#-Programm), Bearb.      12m      1 05:56–06:23  
+  Bearb. Essensplan (gegessen, zu essen) LEEPEP      11m      1 10:17–10:32  
+  Diskussion mit OpenClaw / Bauen Tagesauswertu      11m      1 22:15–22:26  
+  WC LEAZWC (Verlängerung)                           10m      1 23:44–23:59  
+  Bearb. Essensplan (Fs.) LEEPEP                      9m      2 20:04–20:19  
+  Scan Radio Arabella RASCRA                          8m      5 07:40–09:28  
+  Herunterfahren, Einpacken, Anziehen BRALAB (V       8m      1 17:08–17:22  
+  Surfen Andon FM / Tweet Thinking Frequencies        8m      1 21:07–21:15  
+  Zubereitung Earl-Gray-Tee / Mini Schokokekse        7m      1 19:39–19:46  
+  Bearb. Essensplan (Händlerangebote / Untersuc       6m      1 19:57–20:03  
+  Tweet an Thinking Frequencies / Andrew Pappas       6m      1 20:23–20:29  
+  Surfen Moltbook INOCMB                              6m      2 20:39–22:06  
+  Auspacken Essensplan / Herunterfahren Laptop        5m      1 18:12–18:17  
+  Mailprüfung INMAPR (Verlängerung)                   5m      3 19:20–20:31  
+  Absetzen Moltbook-Message für Heartbeat-Agent       5m      1 19:23–19:28  
+  Bearb. Essensplan / Surfen Spaghetti in Butte       5m      1 21:24–21:29  
+  Konversation mit Thinking Frequencies / Andon       5m      1 21:59–22:04  
+  Diskussion mit OpenClaw (Umschreiben Planung)       5m      1 22:28–22:33  
+  Surfen Andon FM RAAFSU                              4m      4 20:46–22:15  
+  Teller waschen / Soja-Drink fassen LENATW           4m      1 21:15–21:19  
+  Verbesserung Tagesplanung (Supprt Anmerkung f       3m      1 09:05–09:08  
+  Arbeitszeit absolvieren (Vormittag) BREPDZ (V       3m      1 12:42–12:48  
+  Surfen Andon FM / OpenClaw RAAFSU                   3m      1 20:15–20:18  
+  Bearb.Ohrwürmer (durchzunehmende aus Charts)        2m      1 00:00–00:04  
+  Duschen LEMTDU (Verlängerung)                       2m      1 08:13–08:35  
+  Modifizierung Tagesplanung (Stoppung Liste un       2m      1 09:03–09:05  
+  Termine in Kalender prüfen LEMTTP (Verlängeru       2m      1 09:12–09:15  
+  Bearb. Essensplan / Getränk fassen LEEPEP           2m      1 09:46–09:48  
+  Der Außentemperatur entsprechend anziehen LEA       2m      1 17:06–17:08  
+  Begutachtung Status Ngrok RWKIVE                    2m      1 18:08–18:10  
+  div. Surfen (News) INSUNE                           2m      1 18:10–18:12  
+  Teller waschen / Tee fassen LENATW                  2m      1 19:55–19:57  
+  Surfen Andon FM / Start Andon Scraper RAAFSU        2m      1 20:19–20:21  
+  Prüfung Nachricht für Agent (Moltbook) INOCMB       2m      1 20:50–20:52  
+  Surfen Andon FM / Live365 Scraper RAAFSU            2m      1 21:22–21:24  
+  Konversation Andon FM / Thinking Frequencies        2m      1 21:29–21:31  
+  Generierung konventioneller Tagesplan KSPLEN        2m      1 21:43–21:45  
+  Tweet / Surfen Andon FM RAAFKO                      2m      1 22:06–22:08  
+  Diskussion Openclaw Differenz Planung / Ablau       2m      1 22:12–22:14  
+  Surfen X (Thinking Frequencies) RAAFKO              2m      1 22:26–22:28  
+  Medikament fassen GEMEFA                            2m      1 23:34–23:36  
+  Bearb. Essensplan (Start Korrekturlauf) LEEPE       1m      1 00:09–00:10  
+  Im Bett                                             1m      1 00:11–00:12  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       1m      1 07:52–07:59  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            1m      1 07:59–08:02  
+  Einpacken Musik für Fahrt inkl. Player + Akku       1m      1 09:21–09:27  
+  Blutdruck messen GEBMBM (Verlängerung)              1m      1 09:43–09:46  
+  Einpacken BRZ-Laptop, RW-Prg. / Essensplan /        1m      1 09:48–09:52  
+  Teller waschen / Getränk + Medikament fassen        1m      1 20:54–20:59  
+  Surfen Thinking Frequencies RAAFSU                  1m      1 21:05–21:06  
+  Surfen Andon Labs RAAFSI                            1m      1 21:35–21:36  
+  Bearb. Tagesplanung (konventionell) KSPLPL          1m      1 21:53–21:54  
+
+  Gesamt ungeplant: 8h 13m über 97 Einträge / 62 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
@@ -175,15 +255,6 @@
   ✗ 22:00  Anhören Radiosender / Tonträger / Ansehe  (8m)
   ✗ 22:08  Bearb. Geldbörse FIBGGB (Fs.)  (4m)
   ✗ 22:12  Papiersortierung (gelesene Werbeprospekt  (8m)
-  ✗ 22:25  Zähne putzen LEAZZP  (12m)
-  ✗ 22:37  Anwendung der Zwischenraumzahnbürste LEA  (16m)
-  ✗ 22:53  Anwendung Zahnseide LEAZZS  (5m)
-  ✗ 22:58  Reinigung Zahnputzutensilien, Hände wasc  (2m)
-  ✗ 23:00  Bett machen LEAZHW  (2m)
-  ✗ 23:02  Ausziehen LEAZAU  (4m)
-  ✗ 23:06  Bearb.Ohrwürmer (durchzunehmende aus Cha  (2m)
-  ✗ 23:08  Einschmieren GEAZES  (2m)
-  ✗ 23:10  WC LEAZWC  (5m)
   ✗ 23:15  Bearb.Ohrwürmer (durchzunehmende aus Lis  (2m)
   ✗ 23:17  PC herunterfahren LEAZHF  (1m)
   ✗ 23:18  im Bett  (1m)

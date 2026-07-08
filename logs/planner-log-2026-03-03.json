@@ -4,170 +4,253 @@
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
     "minutes": 1,
-    "started_at": "06:32:00",
+    "started_at": "06:31:00",
     "completed_at": "06:32:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Rasieren, dabei Planung (Diskussion mit OpenClaw) LEMTRA",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
-    "minutes": 15,
-    "started_at": "06:46:00",
+    "minutes": 14,
+    "started_at": "06:32:00",
     "completed_at": "06:46:00",
     "skipped": false,
-    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA"
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
-    "activity": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
-    "list": "Liste_Morgentoilette",
-    "priority": 1.835,
-    "minutes": 4,
-    "started_at": "12:24:00",
-    "completed_at": "12:24:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
-    "minutes": 4,
-    "started_at": "12:56:00",
-    "completed_at": "12:56:00",
+    "minutes": 29,
+    "started_at": "06:46:00",
+    "completed_at": "07:15:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
-    "activity": "Vorbereitung Playlist für Hören unter der Dusche RWYTPL",
-    "list": "Liste_Morgentoilette",
-    "priority": 1.838,
-    "minutes": 8,
-    "started_at": "08:52:00",
-    "completed_at": "08:52:00",
+    "activity": "Termine in Kalender prüfen LEMTTP",
+    "list": "Liste_untertags",
+    "priority": 1.832,
+    "minutes": 1,
+    "started_at": "07:15:00",
+    "completed_at": "07:16:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 49,
+    "started_at": "07:16:00",
+    "completed_at": "08:05:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Feinschliff bei der Rasur LEMTFR",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
-    "minutes": 6,
-    "started_at": "08:10:00",
+    "minutes": 5,
+    "started_at": "08:05:00",
     "completed_at": "08:10:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 6,
+    "started_at": "08:10:00",
+    "completed_at": "08:16:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Ausputzen Rasierer LEMTAR",
     "list": "Liste_Morgentoilette",
     "priority": 1.846,
     "minutes": 2,
-    "started_at": "08:18:00",
+    "started_at": "08:16:00",
     "completed_at": "08:18:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
-    "activity": "Bearb.Ohrwürmer(durchgenommen) MUOWDU",
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
-    "minutes": 3,
-    "started_at": "13:00:21",
-    "completed_at": "22:03:39",
-    "skipped": true,
-    "original_activity": ""
+    "minutes": 5,
+    "started_at": "08:18:00",
+    "completed_at": "08:23:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Ausziehen LEMTAZ",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
-    "minutes": 1,
-    "started_at": "08:31:00",
+    "minutes": 8,
+    "started_at": "08:23:00",
     "completed_at": "08:31:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 6,
+    "started_at": "08:31:00",
+    "completed_at": "08:37:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "WC LEMTWC",
     "list": "Liste_Morgentoilette",
     "priority": 1.839,
-    "minutes": 5,
-    "started_at": "08:40:00",
+    "minutes": 3,
+    "started_at": "08:37:00",
     "completed_at": "08:40:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "08:40:00",
+    "completed_at": "08:43:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Abwiegen LEMTAW",
     "list": "Liste_Morgentoilette",
-    "priority": 1.84,
+    "priority": 1.839,
     "minutes": 1,
-    "started_at": "13:01:21",
-    "completed_at": "22:03:39",
-    "skipped": true,
-    "original_activity": ""
+    "started_at": "08:43:00",
+    "completed_at": "08:44:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 6,
+    "started_at": "08:44:00",
+    "completed_at": "08:50:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Reinigung Waschmuschel LEMTRW",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 1,
-    "started_at": "08:43:00",
-    "completed_at": "08:43:00",
+    "started_at": "08:50:00",
+    "completed_at": "08:51:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
-    "activity": "Starten Youtube-Playlist MUOWSP",
+    "activity": "Vorbereitung Playlist für Hören unter der Dusche RWYTPL",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.838,
+    "minutes": 1,
+    "started_at": "08:51:00",
+    "completed_at": "08:52:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
-    "minutes": 1,
-    "started_at": "13:01:49",
-    "completed_at": "22:03:39",
-    "skipped": true,
-    "original_activity": ""
+    "minutes": 3,
+    "started_at": "08:52:00",
+    "completed_at": "08:55:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Duschen LEMTDU",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
-    "minutes": 20,
-    "started_at": "09:11:00",
+    "minutes": 16,
+    "started_at": "08:55:00",
     "completed_at": "09:11:00",
     "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Einschmieren GEMTES",
-    "list": "Liste_Morgentoilette",
-    "priority": 1.841,
-    "minutes": 2,
-    "started_at": "13:03:00",
-    "completed_at": "13:03:00",
-    "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Anziehen LEMTAN",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
-    "minutes": 3,
-    "started_at": "09:15:00",
+    "minutes": 4,
+    "started_at": "09:11:00",
     "completed_at": "09:15:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 5,
+    "started_at": "09:15:00",
+    "completed_at": "09:20:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Bett machen LEMTBM",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
-    "minutes": 3,
-    "started_at": "09:22:00",
+    "minutes": 2,
+    "started_at": "09:20:00",
     "completed_at": "09:22:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "09:22:00",
+    "completed_at": "09:25:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Vorbereitung Playlist für Hören beim Frühstück RWYTPL",
@@ -177,77 +260,19 @@
     "started_at": "09:25:00",
     "completed_at": "09:25:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte, Einlass Sati (9:28) LEMTFR",
     "list": "Liste_Morgentoilette",
     "priority": 1.845,
-    "minutes": 25,
-    "started_at": "09:41:00",
-    "completed_at": "09:41:00",
+    "minutes": 3,
+    "started_at": "09:25:00",
+    "completed_at": "09:28:00",
     "skipped": false,
-    "original_activity": "Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFR"
-  },
-  {
-    "activity": "Mund spülen LEMTMS",
-    "list": "Nach_Fruehstueck",
-    "priority": 1.845,
-    "minutes": 2,
-    "started_at": "10:18:00",
-    "completed_at": "10:20:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Häferl waschen / Hustenbonbon fassen LEMTHW",
-    "list": "Nach_Fruehstueck",
-    "priority": 1.845,
-    "minutes": 2,
-    "started_at": "10:20:00",
-    "completed_at": "10:21:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Papiersortierung WFPAPA",
-    "list": "Liste_untertags",
-    "priority": 1.835,
-    "minutes": 15,
-    "started_at": "10:41:00",
-    "completed_at": "10:41:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Termine in Kalender prüfen LEMTTP",
-    "list": "Liste_untertags",
-    "priority": 1.832,
-    "minutes": 1,
-    "started_at": "07:15:00",
-    "completed_at": "07:15:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Mailprüfung -> zu unsubscriben aus Junk-Mail-Ordner: LOTTO GLÜCKSKARTE, EDWAR ACHAPUMA CHO..., Max von smava, Ihre goldene Karte, Ihr Darlehen, NordVPN Team INMAPR",
-    "list": "Liste_untertags",
-    "priority": 1.832,
-    "minutes": 2,
-    "started_at": "13:08:00",
-    "completed_at": "13:08:00",
-    "skipped": false,
-    "original_activity": "Mailprüfung INMAPR"
-  },
-  {
-    "activity": "Blutdruck messen GEBMBM",
-    "list": "Nach_Fruehstueck",
-    "priority": 1.849,
-    "minutes": 2,
-    "started_at": "21:16:00",
-    "completed_at": "21:18:00",
-    "skipped": false,
-    "original_activity": ""
+    "original_activity": "Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFR",
+    "comment": ""
   },
   {
     "activity": "Einlass / Koordination Sati Ersoy WFPUEL",
@@ -257,67 +282,30 @@
     "started_at": "09:28:00",
     "completed_at": "09:30:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
-    "activity": "Mittagessen (von Sati gekocht) LEMESE",
-    "list": "Lebenserhaltung",
+    "activity": "Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte, Einlass Sati (9:28) LEMTFR",
+    "list": "Liste_Morgentoilette",
     "priority": 1.845,
-    "minutes": 60,
-    "started_at": "12:10:00",
-    "completed_at": "12:38:00",
+    "minutes": 15,
+    "started_at": "09:30:00",
+    "completed_at": "09:45:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "Frühstücken, dabei Vorbereitung Candeblo, Tee machen, Bearb. Werbeprospekte LEMTFR",
+    "comment": ""
   },
   {
-    "activity": "Geschirr abwaschen LEMEGA",
-    "list": "Lebenserhaltung",
-    "priority": 1.844,
-    "minutes": 5,
-    "started_at": "12:36:00",
-    "completed_at": "12:38:00",
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 17,
+    "started_at": "09:45:00",
+    "completed_at": "10:02:00",
     "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Nachtmahl fassen LENANA",
-    "list": "Lebenserhaltung",
-    "priority": 1.845,
-    "minutes": 3,
-    "started_at": "21:36:00",
-    "completed_at": "21:40:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Teller waschen / Getränk + Medikament fassen LENATW",
-    "list": "Lebenserhaltung",
-    "priority": 1.844,
-    "minutes": 4,
-    "started_at": "22:07:00",
-    "completed_at": "22:09:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "WC BREPWC",
-    "list": "Liste_mittags",
-    "priority": 1.843,
-    "minutes": 9,
-    "started_at": "20:37:00",
-    "completed_at": "20:41:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Einlass / Koordination Sati Ersoy WFPUEL",
-    "list": "Liste_Putzen",
-    "priority": 1.841,
-    "minutes": 10,
-    "started_at": "12:04:00",
-    "completed_at": "12:08:00",
-    "skipped": false,
-    "original_activity": ""
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Anhören RW-Prg. mit Sati Ersoy RWMPSE",
@@ -327,7 +315,19 @@
     "started_at": "10:02:00",
     "completed_at": "10:03:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 14,
+    "started_at": "10:03:00",
+    "completed_at": "10:17:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Anhören RW-Prg. mit Sati Ersoy RWMPSE",
@@ -337,87 +337,52 @@
     "started_at": "10:17:00",
     "completed_at": "10:18:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
-    "activity": "Verabschiedung / Zahlung Sati Ersoy WFPUZA",
-    "list": "Liste_Putzen",
-    "priority": 1.84,
-    "minutes": 8,
-    "started_at": "12:10:00",
-    "completed_at": "12:12:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
-    "list": "Liste_mittags",
-    "priority": 1.84,
+    "activity": "Mund spülen LEMTMS",
+    "list": "Nach_Fruehstueck",
+    "priority": 1.845,
     "minutes": 2,
-    "started_at": "20:41:00",
-    "completed_at": "20:43:00",
+    "started_at": "10:18:00",
+    "completed_at": "10:20:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
-    "activity": "Laufen / Scooter- und E-Bike-Suche (von Jugendlichen bewacht) GEGYLS",
-    "list": "Liste_mittags",
-    "priority": 1.841,
-    "minutes": 34,
-    "started_at": "20:37:00",
-    "completed_at": "21:18:00",
+    "activity": "Häferl waschen / Hustenbonbon fassen LEMTHW",
+    "list": "Nach_Fruehstueck",
+    "priority": 1.845,
+    "minutes": 2,
+    "started_at": "10:20:00",
+    "completed_at": "10:21:00",
     "skipped": false,
-    "original_activity": "Laufen / Scootersuche GEGYLS"
+    "original_activity": "",
+    "comment": ""
   },
   {
-    "activity": "Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi) BREPZE",
-    "list": "Liste_mittags",
-    "priority": 1.84,
-    "minutes": 6,
-    "started_at": "22:12:59",
-    "completed_at": "22:12:59",
-    "skipped": true,
-    "original_activity": ""
-  },
-  {
-    "activity": "Versorgung Mitbringsel LEPOPO",
-    "list": "Liste_mittags",
-    "priority": 1.84,
-    "minutes": 9,
-    "started_at": "22:12:00",
-    "completed_at": "22:17:00",
+    "activity": "Papiersortierung WFPAPA",
+    "list": "Liste_untertags",
+    "priority": 1.835,
+    "minutes": 25,
+    "started_at": "10:21:00",
+    "completed_at": "10:46:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
-    "activity": "WC LEMTWC",
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
     "list": "Liste_Morgentoilette",
-    "priority": 1.839,
-    "minutes": 6,
-    "started_at": "17:25:00",
-    "completed_at": "17:26:00",
-    "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Bearb. Ohrwürmer (durchzunehmende) RWOWDN",
-    "list": "Liste_Arbeit",
-    "priority": 1.836,
-    "minutes": 5,
-    "started_at": "22:18:23",
-    "completed_at": "22:18:23",
-    "skipped": true,
-    "original_activity": ""
-  },
-  {
-    "activity": "PC herunterfahren PCHFAR",
-    "list": "Liste_Arbeit",
     "priority": 1.84,
-    "minutes": 2,
-    "started_at": "22:18:25",
-    "completed_at": "22:18:25",
-    "skipped": true,
-    "original_activity": ""
+    "minutes": 11,
+    "started_at": "10:46:00",
+    "completed_at": "10:57:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Start Teleworking BRZG BRTWGF",
@@ -427,7 +392,8 @@
     "started_at": "10:57:00",
     "completed_at": "11:00:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Abhalten BKDD Standup Meeting BREPGM",
@@ -437,7 +403,294 @@
     "started_at": "11:00:00",
     "completed_at": "11:41:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 6,
+    "started_at": "11:41:00",
+    "completed_at": "11:47:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "11:47:00",
+    "completed_at": "11:48:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "11:48:00",
+    "completed_at": "11:50:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Teller waschen / Getränk fassen LENATW",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 5,
+    "started_at": "11:50:00",
+    "completed_at": "11:55:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 8,
+    "started_at": "11:55:00",
+    "completed_at": "12:03:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Untersuchung Geburtstage Sati+Familie WFPUGE",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "12:03:00",
+    "completed_at": "12:04:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Einlass / Koordination Sati Ersoy WFPUEL",
+    "list": "Liste_Putzen",
+    "priority": 1.841,
+    "minutes": 10,
+    "started_at": "12:04:00",
+    "completed_at": "12:08:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "12:08:00",
+    "completed_at": "12:10:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Verabschiedung / Zahlung Sati Ersoy WFPUZA",
+    "list": "Liste_Putzen",
+    "priority": 1.84,
+    "minutes": 8,
+    "started_at": "12:10:00",
+    "completed_at": "12:12:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.835,
+    "minutes": 1,
+    "started_at": "12:12:00",
+    "completed_at": "12:13:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Mittagessen (von Sati gekocht) LEMESE",
+    "list": "Lebenserhaltung",
+    "priority": 1.845,
+    "minutes": 23,
+    "started_at": "12:13:00",
+    "completed_at": "12:36:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Geschirr abwaschen LEMEGA",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 5,
+    "started_at": "12:36:00",
+    "completed_at": "12:38:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 5,
+    "started_at": "12:38:00",
+    "completed_at": "12:43:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen, zu essen, Start Korrekturlauf) LEEPEP",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 13,
+    "started_at": "12:43:00",
+    "completed_at": "12:56:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 6,
+    "started_at": "12:56:00",
+    "completed_at": "13:02:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb.Ohrwürmer(durchgenommen) MUOWDU",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "13:00:21",
+    "completed_at": "22:03:39",
+    "skipped": true,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Abwiegen LEMTAW",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "13:01:21",
+    "completed_at": "22:03:39",
+    "skipped": true,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Starten Youtube-Playlist MUOWSP",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "13:01:49",
+    "completed_at": "22:03:39",
+    "skipped": true,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Einschmieren GEMTES",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.841,
+    "minutes": 1,
+    "started_at": "13:02:00",
+    "completed_at": "13:03:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "13:03:00",
+    "completed_at": "13:06:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Mailprüfung -> zu unsubscriben aus Junk-Mail-Ordner: LOTTO GLÜCKSKARTE, EDWAR ACHAPUMA CHO..., Max von smava, Ihre goldene Karte, Ihr Darlehen, NordVPN Team INMAPR",
+    "list": "Liste_untertags",
+    "priority": 1.832,
+    "minutes": 2,
+    "started_at": "13:06:00",
+    "completed_at": "13:08:00",
+    "skipped": false,
+    "original_activity": "Mailprüfung INMAPR",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "13:08:00",
+    "completed_at": "13:09:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Mailprüfung INMAPR",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "13:09:00",
+    "completed_at": "13:10:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 20,
+    "started_at": "13:10:00",
+    "completed_at": "13:30:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Geschirr abwaschen LEMEGA",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 2,
+    "started_at": "13:30:00",
+    "completed_at": "13:32:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 35,
+    "started_at": "13:32:00",
+    "completed_at": "14:07:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Planung BRZ BREPGM",
@@ -447,57 +700,195 @@
     "started_at": "14:07:00",
     "completed_at": "14:17:00",
     "skipped": false,
-    "original_activity": ""
-  },
-  {
-    "activity": "Arbeitszeit absolvieren (Vormittag) BREPDZ",
-    "list": "Liste_Arbeit",
-    "priority": 1.845,
-    "minutes": 51,
-    "started_at": "22:19:30",
-    "completed_at": "22:19:30",
-    "skipped": true,
-    "original_activity": ""
-  },
-  {
-    "activity": "WC BREPWC",
-    "list": "Liste_Arbeit",
-    "priority": 1.839,
-    "minutes": 9,
-    "started_at": "17:25:00",
-    "completed_at": "17:26:00",
-    "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
     "list": "Liste_Arbeit",
     "priority": 1.845,
-    "minutes": 252,
-    "started_at": "14:11:00",
+    "minutes": 32,
+    "started_at": "14:17:00",
+    "completed_at": "14:49:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "14:49:00",
+    "completed_at": "14:51:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 8,
+    "started_at": "14:51:00",
+    "completed_at": "14:59:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "14:59:00",
+    "completed_at": "15:00:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 24,
+    "started_at": "15:00:00",
+    "completed_at": "15:24:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 10,
+    "started_at": "15:24:00",
+    "completed_at": "15:34:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 16,
+    "started_at": "15:34:00",
+    "completed_at": "15:50:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 3,
+    "started_at": "15:50:00",
+    "completed_at": "15:53:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 91,
+    "started_at": "15:53:00",
+    "completed_at": "17:24:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "WC BREPWC",
+    "list": "Liste_Arbeit",
+    "priority": 1.839,
+    "minutes": 2,
+    "started_at": "17:24:00",
+    "completed_at": "17:26:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 12,
+    "started_at": "17:26:00",
+    "completed_at": "17:38:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "17:38:00",
+    "completed_at": "17:39:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 84,
+    "started_at": "17:39:00",
     "completed_at": "19:03:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 4,
+    "started_at": "19:03:00",
+    "completed_at": "19:07:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Zeiten sammeln BREPZS",
     "list": "Liste_Arbeit",
     "priority": 1.84,
-    "minutes": 7,
-    "started_at": "19:54:00",
-    "completed_at": "20:01:00",
+    "minutes": 9,
+    "started_at": "19:07:00",
+    "completed_at": "19:16:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 38,
+    "started_at": "19:16:00",
+    "completed_at": "19:54:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Eingabe Zeiterfassung SAP BREPZE",
     "list": "Liste_Arbeit",
     "priority": 1.843,
-    "minutes": 4,
-    "started_at": "20:01:00",
+    "minutes": 11,
+    "started_at": "19:54:00",
     "completed_at": "20:05:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Eingabe Teleworking SAP BREPZE",
@@ -507,77 +898,382 @@
     "started_at": "20:05:00",
     "completed_at": "20:09:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Abschluss BRALAB",
     "list": "Liste_Arbeit",
     "priority": 1.84,
-    "minutes": 2,
+    "minutes": 15,
     "started_at": "20:09:00",
-    "completed_at": "20:11:00",
+    "completed_at": "20:24:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "20:24:00",
+    "completed_at": "20:26:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "WC BRALWC",
     "list": "Liste_Arbeit",
     "priority": 1.84,
-    "minutes": 9,
+    "minutes": 7,
     "started_at": "20:26:00",
-    "completed_at": "20:29:00",
+    "completed_at": "20:33:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 1,
+    "started_at": "20:33:00",
+    "completed_at": "20:34:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 3,
+    "started_at": "20:34:00",
+    "completed_at": "20:37:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "list": "Liste_mittags",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "20:37:00",
+    "completed_at": "20:39:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Laufen / Scooter- und E-Bike-Suche (von Jugendlichen bewacht) GEGYLS",
+    "list": "Liste_mittags",
+    "priority": 1.841,
+    "minutes": 37,
+    "started_at": "20:39:00",
+    "completed_at": "21:16:00",
+    "skipped": false,
+    "original_activity": "Laufen / Scootersuche GEGYLS",
+    "comment": ""
+  },
+  {
+    "activity": "Blutdruck messen GEBMBM",
+    "list": "Nach_Fruehstueck",
+    "priority": 1.849,
+    "minutes": 2,
+    "started_at": "21:16:00",
+    "completed_at": "21:18:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "21:18:00",
+    "completed_at": "21:20:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt) KSAEEG",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "21:20:00",
+    "completed_at": "21:22:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Befragung Arena.AI heutige RW-Playlist RWPLPL",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "21:22:00",
+    "completed_at": "21:23:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "21:23:00",
+    "completed_at": "21:25:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt) KSAEEG",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 6,
+    "started_at": "21:25:00",
+    "completed_at": "21:31:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen Youtube-Videos RAYTYT",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "21:31:00",
+    "completed_at": "21:34:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt) KSAEEG",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "21:34:00",
+    "completed_at": "21:35:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "21:35:00",
+    "completed_at": "21:36:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Nachtmahl fassen LENANA",
+    "list": "Lebenserhaltung",
+    "priority": 1.845,
+    "minutes": 3,
+    "started_at": "21:36:00",
+    "completed_at": "21:40:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ermittlung Gesamtzeiten (wenn nicht am Montag erledigt) KSAEEG",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 14,
+    "started_at": "21:40:00",
+    "completed_at": "21:54:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 13,
+    "started_at": "21:54:00",
+    "completed_at": "22:07:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
+  },
+  {
+    "activity": "Teller waschen / Getränk + Medikament fassen LENATW",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 4,
+    "started_at": "22:07:00",
+    "completed_at": "22:09:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 4,
+    "started_at": "22:09:00",
+    "completed_at": "22:13:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi) BREPZE",
+    "list": "Liste_mittags",
+    "priority": 1.84,
+    "minutes": 6,
+    "started_at": "22:12:59",
+    "completed_at": "22:12:59",
+    "skipped": true,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Versorgung Mitbringsel LEPOPO",
+    "list": "Liste_mittags",
+    "priority": 1.84,
+    "minutes": 4,
+    "started_at": "22:13:00",
+    "completed_at": "22:17:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 7,
+    "started_at": "22:17:00",
+    "completed_at": "22:24:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Ohrwürmer (durchzunehmende) RWOWDN",
+    "list": "Liste_Arbeit",
+    "priority": 1.836,
+    "minutes": 5,
+    "started_at": "22:18:23",
+    "completed_at": "22:18:23",
+    "skipped": true,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "PC herunterfahren PCHFAR",
+    "list": "Liste_Arbeit",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "22:18:25",
+    "completed_at": "22:18:25",
+    "skipped": true,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Vormittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 51,
+    "started_at": "22:19:30",
+    "completed_at": "22:19:30",
+    "skipped": true,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Vorbereitung Zähne putzen LEAZVZ",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
-    "minutes": 5,
-    "started_at": "22:20:00",
-    "completed_at": "22:22:00",
+    "minutes": 3,
+    "started_at": "22:24:00",
+    "completed_at": "22:27:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 1,
+    "started_at": "22:27:00",
+    "completed_at": "22:28:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Zähne putzen LEAZZP",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
-    "minutes": 12,
-    "started_at": "22:22:00",
-    "completed_at": "22:37:00",
+    "minutes": 8,
+    "started_at": "22:28:00",
+    "completed_at": "22:36:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeit an Tagesplanung / Planer-Entwicklung KSPLEN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 4,
+    "started_at": "22:36:00",
+    "completed_at": "22:40:00",
+    "skipped": false,
+    "original_activity": "Rasieren, dabei Planung (C#-Programm), Bearb. Ohrwürmer (durchgenommen) LEMTRA",
+    "comment": ""
   },
   {
     "activity": "Anwendung der Zwischenraumzahnbürste LEAZZZ",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
     "minutes": 16,
-    "started_at": "22:37:00",
-    "completed_at": "22:49:00",
+    "started_at": "22:40:00",
+    "completed_at": "22:56:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Anwendung Zahnseide LEAZZS",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
     "minutes": 5,
-    "started_at": "22:49:00",
-    "completed_at": "22:54:00",
+    "started_at": "22:56:00",
+    "completed_at": "23:01:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Reinigung Zahnputzutensilien, Hände waschen LEAZHW",
     "list": "Liste_Abendzeremonie",
     "priority": 1.834,
-    "minutes": 2,
-    "started_at": "22:54:00",
+    "minutes": 14,
+    "started_at": "23:01:00",
     "completed_at": "23:15:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Bett machen LEAZHW",
@@ -587,7 +1283,8 @@
     "started_at": "23:15:00",
     "completed_at": "23:17:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Ausziehen LEAZAU",
@@ -597,7 +1294,19 @@
     "started_at": "23:17:00",
     "completed_at": "23:19:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Einschmieren GEAZES",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 1,
+    "started_at": "23:19:00",
+    "completed_at": "23:20:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC",
@@ -607,27 +1316,30 @@
     "started_at": "23:19:30",
     "completed_at": "23:19:30",
     "skipped": true,
-    "original_activity": ""
-  },
-  {
-    "activity": "Einschmieren GEAZES",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.835,
-    "minutes": 2,
-    "started_at": "23:19:00",
-    "completed_at": "23:21:00",
-    "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "WC LEAZWC",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
-    "minutes": 5,
-    "started_at": "23:21:00",
-    "completed_at": "23:23:00",
+    "minutes": 1,
+    "started_at": "23:20:00",
+    "completed_at": "23:21:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 3,
+    "started_at": "23:21:00",
+    "completed_at": "23:24:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL",
@@ -637,7 +1349,8 @@
     "started_at": "23:23:09",
     "completed_at": "23:23:09",
     "skipped": true,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "PC herunterfahren LEAZHF",
@@ -647,16 +1360,18 @@
     "started_at": "23:23:12",
     "completed_at": "23:23:12",
     "skipped": true,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "im Bett",
     "list": "Liste_Abendzeremonie",
     "priority": 1.834,
     "minutes": 1,
-    "started_at": "23:23:00",
+    "started_at": "23:24:00",
     "completed_at": "23:25:00",
     "skipped": false,
-    "original_activity": ""
+    "original_activity": "",
+    "comment": ""
   }
 ]

@@ -43,6 +43,13 @@
       "exclude_contains": "Off-PC",
       "min_confidence": 0.35,
       "note": "Planer-Bedienung = Planer-Arbeit (KSPLNA), aber Off-PC = tatsaechliche Aktivitaet"
+    },
+    {
+      "process": "msedge.exe",
+      "pattern": "Home / X",
+      "match_type": "exact",
+      "min_confidence": 0.25,
+      "note": "Home / X timeline usually means Analyse Andon FM (corrected and averages ~45% confidence)"
     }
   ]
 }

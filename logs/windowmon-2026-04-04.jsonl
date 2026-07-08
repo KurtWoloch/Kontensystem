@@ -3005,3 +3005,7 @@
 {"ts": "2026-04-04T23:12:01", "hwnd": 263842, "title": "Tagesplanung — Reaktiver Planer — Bearb.Ohrwürmer (Nachfassen aus alten Charts) RWOWTT", "process": "python.exe", "browser": ""}
 {"ts": "2026-04-04T23:12:07", "hwnd": 3278580, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
 {"ts": "2026-04-04T23:12:08", "hwnd": 263842, "title": "Tagesplanung — Reaktiver Planer — Bearb.Ohrwürmer (Nachfassen aus alten Charts) RWOWTT", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-18T19:14:33", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-04-18T19:14:33", "hwnd": 6490084, "title": "Tagesplanung — Off-PC — Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE", "process": "python.exe", "browser": ""}
+{"ts": "2026-04-18T19:14:53", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 20, "idle_start": "2026-04-18T19:14:33"}
+{"ts": "2026-04-18T19:14:53", "hwnd": 6490084, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE", "process": "python.exe", "browser": ""}

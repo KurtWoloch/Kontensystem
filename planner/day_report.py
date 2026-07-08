@@ -59,12 +59,99 @@ def extract_task_code(activity_name):
     """
     if not activity_name:
         return None
-    words = activity_name.split()
+    name = activity_name.strip()
+    if name.endswith(" (Verlängerung)"):
+        name = name[:-15].strip()
+    if name.endswith(" (Fs.)"):
+        name = name[:-6].strip()
+        
+    words = name.strip().split()
     if words:
         last = words[-1]
         if re.match(r'^[A-ZÄÖÜß]{4,6}$', last):
             return last
     return None
+
+
+def is_wenn_dialog(activity: str) -> bool:
+    """Check if this is a conditional dialog entry (auto-generated, 0 duration)."""
+    return activity.strip().startswith("Wenn ")
+
+
+def is_im_bett(activity: str) -> bool:
+    return activity.strip().lower().startswith("im bett")
+
+
+def is_aufstehen(activity: str) -> bool:
+    return "aufstehen" in activity.strip().lower()
+
+
+def find_gaps_and_overlaps(log_data):
+    real_entries = []
+    for e in log_data:
+        started = e.get("started_at", "")
+        completed = e.get("completed_at", "")
+        skipped = e.get("skipped", False)
+        activity = e.get("activity", "")
+
+        if not started or not completed:
+            continue
+
+        if is_wenn_dialog(activity):
+            continue
+
+        if skipped and started == completed:
+            continue
+
+        start_m = parse_time(started)
+        end_m = parse_time(completed)
+        if start_m is None or end_m is None:
+            continue
+
+        if skipped and start_m == end_m:
+            continue
+
+        real_entries.append({
+            "activity": activity,
+            "start": start_m,
+            "end": end_m,
+            "started_str": started[:5],
+            "completed_str": completed[:5],
+            "skipped": skipped
+        })
+
+    real_entries.sort(key=lambda x: (x["start"], x["end"]))
+
+    gaps = []
+    overlaps = []
+    
+    for i in range(len(real_entries) - 1):
+        curr = real_entries[i]
+        nxt = real_entries[i + 1]
+
+        gap_minutes = nxt["start"] - curr["end"]
+
+        if is_im_bett(curr["activity"]) and is_aufstehen(nxt["activity"]):
+            continue
+
+        if gap_minutes > 1:
+            gaps.append({
+                "minutes": gap_minutes,
+                "after": f'{curr["activity"]} (bis {curr["completed_str"]})',
+                "before": f'{nxt["activity"]} (ab {nxt["started_str"]})',
+            })
+        elif gap_minutes < 0:
+            overlap = abs(gap_minutes)
+            if curr["skipped"] or nxt["skipped"]:
+                continue
+            if overlap > 0:
+                overlaps.append({
+                    "minutes": overlap,
+                    "entry1": f'{curr["activity"]} ({curr["started_str"]}–{curr["completed_str"]})',
+                    "entry2": f'{nxt["activity"]} ({nxt["started_str"]}–{nxt["completed_str"]})',
+                })
+                
+    return gaps, overlaps
 
 
 def _generate_projection_for_date(date_str, log_data):
@@ -195,12 +282,76 @@ def generate_report(date_str):
         })
 
     # Actual items (from log)
-    actual_done = []
+    # Classification (new 2026-04-29):
+    #   - skipped     : entry.skipped == True
+    #   - planned     : activity name matches a projection entry, OR original_activity
+    #                   is set and that name matches a projection entry
+    #   - unplanned   : everything else (incl. timeline_import entries that don't
+    #                   match anything in projection)
+    # PLUS: per-activity overflow detection. If the SUM of logged minutes for a
+    # given (matched) activity name exceeds the SUM of planned minutes for that
+    # name, the overflow part is reclassified as unplanned with a "(Verlängerung)"
+    # marker. This catches cases where a planned activity was extended via
+    # timeline_import / extra log entries.
     actual_skipped = []
+
+    # Step 1: Build the set of activity names known to the projection.
+    # We strip " (Fs.)" suffix because continuations share the base activity
+    # in the planning sense.
+    def _base_name(name):
+        if name and name.endswith(" (Fs.)"):
+            return name[:-6]
+        return name
+
+    planned_names = set()
+    planned_minutes_by_name = defaultdict(int)
+    for p in planned:
+        bn = _base_name(p['activity'])
+        planned_names.add(bn)
+        planned_minutes_by_name[bn] += p['minutes']
+
+    # Step 2: Compute logged minutes per (resolved) activity name. For each
+    # log entry that has original_activity set we resolve to that name.
+    def _resolved_name(entry):
+        orig = entry.get('original_activity', '') or ''
+        if orig:
+            return _base_name(orig)
+        return _base_name(entry.get('activity', ''))
+
+    def _entry_duration(entry):
+        start = parse_time(entry.get('started_at', ''))
+        end = parse_time(entry.get('completed_at', ''))
+        if start is not None and end is not None:
+            return max(0, end - start)
+        return 0
+
+    logged_minutes_by_name = defaultdict(int)
+    for entry in log_data:
+        if entry.get('skipped'):
+            continue
+        name = _resolved_name(entry)
+        if name in planned_names:
+            logged_minutes_by_name[name] += _entry_duration(entry)
+
+    # Step 3: Determine per-activity "planned budget remaining". We walk log
+    # entries in chronological order. For each entry whose name matches a
+    # planned name, the first minutes consume the planned budget; once a name's
+    # budget is exhausted, further entries (or the trailing portion of an
+    # entry that crosses the boundary) are reclassified as unplanned with a
+    # "(Verlängerung)" marker. Entries whose name has no planned counterpart
+    # are always fully unplanned.
+    actual_done = []
     actual_unplanned = []
 
-    for entry in log_data:
-        item = {
+    log_chrono = sorted(
+        [e for e in log_data if not e.get('skipped')],
+        key=lambda e: parse_time(e.get('started_at', '')) or 0
+    )
+
+    planned_budget_remaining = dict(planned_minutes_by_name)
+
+    def _make_item(entry):
+        return {
             'activity': entry['activity'],
             'list': entry.get('list', ''),
             'minutes': entry.get('minutes', 0),
@@ -209,12 +360,45 @@ def generate_report(date_str):
             'comment': entry.get('comment', ''),
             'original': entry.get('original_activity', ''),
         }
-        if entry.get('skipped'):
-            actual_skipped.append(item)
-        elif item['list'] == 'ungeplant':
+
+    for entry in log_chrono:
+        name = _resolved_name(entry)
+        dur = _entry_duration(entry)
+        item = _make_item(entry)
+
+        if name not in planned_names:
             actual_unplanned.append(item)
-        else:
+            continue
+
+        budget = planned_budget_remaining.get(name, 0)
+        if budget >= dur:
+            # Entry fits entirely in planned budget.
+            planned_budget_remaining[name] = budget - dur
             actual_done.append(item)
+        elif budget > 0:
+            # Entry partially fits. Split: first `budget` mins planned, rest
+            # unplanned. We don't synthesize fake start/end times — the
+            # planned half keeps the original times (so drift analysis still
+            # finds it) and the extension entry gets a marker plus its share
+            # of minutes via `minutes` field.
+            planned_item = dict(item)
+            actual_done.append(planned_item)
+
+            ext_item = dict(item)
+            ext_item['activity'] = item['activity'] + " (Verlängerung)"
+            ext_item['_overflow_minutes'] = dur - budget
+            actual_unplanned.append(ext_item)
+            planned_budget_remaining[name] = 0
+        else:
+            # No budget left — entire entry is overflow.
+            ext_item = dict(item)
+            ext_item['activity'] = item['activity'] + " (Verlängerung)"
+            ext_item['_overflow_minutes'] = dur
+            actual_unplanned.append(ext_item)
+
+    for entry in log_data:
+        if entry.get('skipped'):
+            actual_skipped.append(_make_item(entry))
 
     # --- Match planned items to actual ---
 
@@ -258,20 +442,36 @@ def generate_report(date_str):
     skipped_mins = sum(p['minutes'] for p in skipped_planned)
     missing_mins = sum(p['minutes'] for p in missing_planned)
 
-    # Actual time spent (from log, done items only)
-    actual_total_mins = 0
-    for item in actual_done:
+    # Actual time spent. We compute these *before* item_duration is defined
+    # (see below) by inlining the same logic; for the summary we just need
+    # totals. actual_total_mins = clock-time of done entries minus overflow
+    # siblings. unplanned_mins = clock-time of unplanned entries (for items
+    # carrying _overflow_minutes use that value).
+    def _entry_clock(item):
         start = parse_time(item['started_at'])
         end = parse_time(item['completed_at'])
         if start is not None and end is not None:
-            actual_total_mins += max(0, end - start)
+            return max(0, end - start)
+        return 0
+
+    overflow_total = sum(
+        u['_overflow_minutes']
+        for u in actual_unplanned if '_overflow_minutes' in u
+    )
+    # Plan-execution time: clock-time of done entries minus overflow siblings.
+    # This is what was *actually used* on planned activities.
+    plan_execution_mins = sum(_entry_clock(item) for item in actual_done) - overflow_total
 
     unplanned_mins = 0
-    for item in actual_unplanned:
-        start = parse_time(item['started_at'])
-        end = parse_time(item['completed_at'])
-        if start is not None and end is not None:
-            unplanned_mins += max(0, end - start)
+    for u in actual_unplanned:
+        if '_overflow_minutes' in u:
+            unplanned_mins += u['_overflow_minutes']
+        else:
+            unplanned_mins += _entry_clock(u)
+
+    # Total clock time = plan_execution + unplanned (no double-counting because
+    # we already split entries into done + extension).
+    actual_total_mins = plan_execution_mins + unplanned_mins
 
     # --- Coverage metrics ---
 
@@ -303,7 +503,35 @@ def generate_report(date_str):
     lines.append("")
     lines.append(f"  📝 Ungeplante Aktivitäten: {len(actual_unplanned):>3}  "
                  f"({fmt_minutes(unplanned_mins):>10})")
+    lines.append(f"  ⏱  Plan-Ausführungszeit:    {fmt_minutes(plan_execution_mins):>10}")
     lines.append(f"  ⏱  Tatsächliche Arbeitszeit: {fmt_minutes(actual_total_mins):>10}")
+    lines.append("")
+
+    # --- Log Gaps & Overlaps ---
+
+    gaps, overlaps = find_gaps_and_overlaps(log_data)
+
+    lines.append("╔═══════════════════════════════════════════════════════╗")
+    lines.append("║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║")
+    lines.append("╚═══════════════════════════════════════════════════════╝")
+    lines.append("")
+    if not gaps and not overlaps:
+        lines.append("  (keine Lücken oder Überschneidungen gefunden - hervorragend!)")
+    else:
+        if gaps:
+            lines.append(f"  Lücken ({len(gaps)}):")
+            for g in gaps:
+                lines.append(f"    • {g['minutes']} min Lücke")
+                lines.append(f"      nach: {g['after']}")
+                lines.append(f"      vor:  {g['before']}")
+            lines.append("")
+        if overlaps:
+            lines.append(f"  Überschneidungen ({len(overlaps)}):")
+            for o in overlaps:
+                lines.append(f"    • {o['minutes']} min Überschneidung")
+                lines.append(f"      zwischen: {o['entry1']}")
+                lines.append(f"      und:      {o['entry2']}")
+            lines.append("")
     lines.append("")
 
     # --- Drift analysis ---
@@ -379,12 +607,30 @@ def generate_report(date_str):
     # Collect all logged entries (done + unplanned, not skipped)
     all_logged = actual_done + actual_unplanned
 
-    # Helper: compute duration in minutes from a log item
+    # Helper: compute duration in minutes from a log item.
+    # Synthesized "(Verlängerung)" entries carry _overflow_minutes; normal
+    # entries are measured by clock-time delta. When a log entry was split
+    # (the entry kept its full clock-time in actual_done plus a Verlängerung
+    # sibling in actual_unplanned), we subtract the overflow from the
+    # done-side entry to avoid double counting in per-activity aggregates.
+    overflow_to_subtract = defaultdict(int)
+    for u in actual_unplanned:
+        if '_overflow_minutes' in u:
+            # Match by activity-id approximation: same start time + base name.
+            base = u['activity']
+            if base.endswith(" (Verlängerung)"):
+                base = base[:-len(" (Verlängerung)")]
+            overflow_to_subtract[(base, u['started_at'])] += u['_overflow_minutes']
+
     def item_duration(item):
+        if '_overflow_minutes' in item:
+            return item['_overflow_minutes']
         start = parse_time(item['started_at'])
         end = parse_time(item['completed_at'])
         if start is not None and end is not None:
-            return max(0, end - start)
+            dur = max(0, end - start)
+            sub = overflow_to_subtract.get((item['activity'], item['started_at']), 0)
+            return max(0, dur - sub)
         return 0
 
     # --- ZEITVERBRAUCH NACH AKTIVITÄT ---
@@ -395,6 +641,8 @@ def generate_report(date_str):
 
     by_activity = defaultdict(int)
     for item in all_logged:
+        if is_wenn_dialog(item['activity']) or is_im_bett(item['activity']):
+            continue
         by_activity[item['activity']] += item_duration(item)
 
     sorted_by_activity = sorted(by_activity.items(), key=lambda x: x[1], reverse=True)
@@ -420,6 +668,8 @@ def generate_report(date_str):
 
     by_code = defaultdict(int)
     for item in all_logged:
+        if is_wenn_dialog(item['activity']) or is_im_bett(item['activity']):
+            continue
         code = extract_task_code(item['activity']) or "(kein Kürzel)"
         by_code[code] += item_duration(item)
 
@@ -445,6 +695,8 @@ def generate_report(date_str):
 
     by_area = defaultdict(int)
     for item in all_logged:
+        if is_wenn_dialog(item['activity']) or is_im_bett(item['activity']):
+            continue
         code = extract_task_code(item['activity'])
         if code and len(code) >= 2:
             area = code[:2]
@@ -462,6 +714,35 @@ def generate_report(date_str):
     else:
         lines.append("  (keine Daten)")
 
+    lines.append("")
+
+    # --- AKTIVITÄTEN OHNE TASK-KÜRZEL ---
+    no_code_activities = []
+    for item in all_logged:
+        if is_wenn_dialog(item['activity']):
+            continue
+        if is_im_bett(item['activity']):
+            continue
+        code = extract_task_code(item['activity'])
+        if not code:
+            no_code_activities.append(item)
+
+    no_code_activities.sort(key=lambda x: parse_time(x['started_at']) or 0)
+
+    lines.append("╔═══════════════════════════════════════════════════════╗")
+    lines.append("║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║")
+    lines.append("╚═══════════════════════════════════════════════════════╝")
+    lines.append("")
+    if not no_code_activities:
+        lines.append("  (alle Aktivitäten haben ein gültiges Task-Kürzel!)")
+    else:
+        lines.append(f"  Gefunden: {len(no_code_activities)} Einträge ohne Kürzel")
+        lines.append("")
+        for item in no_code_activities:
+            start_str = item['started_at'][:5] if item['started_at'] else "??:??"
+            end_str = item['completed_at'][:5] if item['completed_at'] else "??:??"
+            dur = item_duration(item)
+            lines.append(f"  • [{start_str}–{end_str}] {item['activity']} ({dur}m)")
     lines.append("")
 
     # --- Skipped items with reasons ---
@@ -484,11 +765,40 @@ def generate_report(date_str):
         lines.append("║  UNGEPLANTE AKTIVITÄTEN                               ║")
         lines.append("╚═══════════════════════════════════════════════════════╝")
         lines.append("")
+        # New 2026-04-29: aggregate by activity name (timeline_import
+        # produces many 1-min fragments of the same activity). Sort by
+        # total minutes descending.
+        unp_agg = defaultdict(lambda: {'minutes': 0, 'count': 0,
+                                        'first_start': None, 'last_end': None})
         for item in actual_unplanned:
-            start = item['started_at'][:5] if item['started_at'] else '?'
-            end = item['completed_at'][:5] if item['completed_at'] else '?'
-            comment = f"  — {item['comment']}" if item['comment'] else ""
-            lines.append(f"  📝 {start}–{end}  {item['activity'][:40]}{comment}")
+            key = item['activity']
+            mins = item_duration(item)
+            agg = unp_agg[key]
+            agg['minutes'] += mins
+            agg['count'] += 1
+            s = item['started_at'][:5] if item['started_at'] else None
+            e = item['completed_at'][:5] if item['completed_at'] else None
+            if s and (agg['first_start'] is None or s < agg['first_start']):
+                agg['first_start'] = s
+            if e and (agg['last_end'] is None or e > agg['last_end']):
+                agg['last_end'] = e
+
+        sorted_unp = sorted(unp_agg.items(), key=lambda x: -x[1]['minutes'])
+        total_unp = sum(d['minutes'] for _, d in sorted_unp)
+        total_sessions = sum(d['count'] for _, d in sorted_unp)
+
+        lines.append(f"  {'Aktivität':<45} {'Zeit':>8} {'Sess.':>6} {'Range':<13}")
+        lines.append(f"  {'─'*45} {'─'*8} {'─'*6} {'─'*13}")
+        for name, d in sorted_unp:
+            display = name[:45]
+            zeit = fmt_minutes(d['minutes'])
+            cnt = d['count']
+            rng = f"{d['first_start'] or '?'}–{d['last_end'] or '?'}"
+            lines.append(f"  {display:<45} {zeit:>8} {cnt:>6} {rng:<13}")
+        lines.append("")
+        lines.append(f"  Gesamt ungeplant: {fmt_minutes(total_unp)} über "
+                     f"{total_sessions} Einträge / "
+                     f"{len(sorted_unp)} verschiedene Aktivitäten")
         lines.append("")
 
     # --- Not reached items ---

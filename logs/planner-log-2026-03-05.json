@@ -22,7 +22,7 @@
     "comment": ""
   },
   {
-    "activity": "Verbesserung Tagesplaner mit OpenClaw",
+    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 23,
@@ -33,7 +33,7 @@
     "comment": "unterbrochen von WC"
   },
   {
-    "activity": "Rasieren",
+    "activity": "Rasieren LEMTRA",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -44,40 +44,40 @@
     "comment": ""
   },
   {
-    "activity": "Erweiterung Tagesplanung mit OpenClaw",
+    "activity": "Erweiterung Tagesplanung mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 38,
+    "minutes": 35,
     "started_at": "07:29:00",
-    "completed_at": "08:07:00",
+    "completed_at": "08:04:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
   },
   {
-    "activity": "Anhören div. Andon Labs-Stationen",
+    "activity": "Anhören div. Andon Labs-Stationen RAAFAN",
     "list": "Liste_Morgentoilette",
     "priority": 1.835,
-    "minutes": 4,
+    "minutes": 1,
     "started_at": "08:04:00",
-    "completed_at": "08:09:00",
+    "completed_at": "08:05:00",
     "skipped": false,
     "original_activity": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
     "comment": ""
   },
   {
-    "activity": "Erweiterung Tagesplaner mit OpenClaw",
+    "activity": "Erweiterung Tagesplaner mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 14,
-    "started_at": "08:09:00",
+    "minutes": 18,
+    "started_at": "08:05:00",
     "completed_at": "08:23:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
   },
   {
-    "activity": "Wasser fassen",
+    "activity": "Wasser fassen LEMTGA",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -141,6 +141,17 @@
     "skipped": false,
     "original_activity": "",
     "comment": ""
+  },
+  {
+    "activity": "Bearb.Ohrwürmer(durchgenommen) MUOWDU",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "08:54:20",
+    "completed_at": "20:51:29",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "nichts durchgenommen (keine offenen vorhanden)"
   },
   {
     "activity": "WC LEMTWC",
@@ -231,6 +242,17 @@
     "comment": ""
   },
   {
+    "activity": "Anziehen LEMTAN",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.841,
+    "minutes": 3,
+    "started_at": "09:22:54",
+    "completed_at": "20:51:29",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "wurde versehentlich vor Einschmieren erledigt"
+  },
+  {
     "activity": "Start Radio Arabella für Hören beim Frühstück RWYTPL",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
@@ -275,7 +297,7 @@
     "comment": "wegen Musikwunsch-März (1 Wunsch vor jeder vollen Stunde)"
   },
   {
-    "activity": "Arbeit mit OpenClaw an Moltbook-Bug (New Followers) in Heartbeat-Skript",
+    "activity": "Arbeit mit OpenClaw an Moltbook-Bug (New Followers) in Heartbeat-Skript INOCMB",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 10,
@@ -286,7 +308,7 @@
     "comment": ""
   },
   {
-    "activity": "Arbeit mit OpenClaw an Planner",
+    "activity": "Arbeit mit OpenClaw an Planner KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -297,7 +319,7 @@
     "comment": ""
   },
   {
-    "activity": "Scan Radio Arabella",
+    "activity": "Scan Radio Arabella RASCRA",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -352,7 +374,7 @@
     "comment": ""
   },
   {
-    "activity": "Begutachtung Tagesbericht / Vorschläge an OpenClaw",
+    "activity": "Begutachtung Tagesbericht / Vorschläge an OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 12,
@@ -363,7 +385,7 @@
     "comment": ""
   },
   {
-    "activity": "Scan Radio Arabella",
+    "activity": "Scan Radio Arabella RASCRA",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -374,7 +396,7 @@
     "comment": ""
   },
   {
-    "activity": "Arbeit an Dokumentation u.a. mit OpenClaw",
+    "activity": "Arbeit an Dokumentation u.a. mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 26,
@@ -421,20 +443,31 @@
     "activity": "Jause fassen LEMTJF",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 4,
-    "started_at": "10:56:00",
+    "minutes": 3,
+    "started_at": "10:57:00",
     "completed_at": "11:00:00",
     "skipped": false,
     "original_activity": "",
     "comment": "nur Getränk"
   },
   {
-    "activity": "Weiterentwicklung Planungstool mit OpenClaw",
+    "activity": "Weiterentwicklung Planungstool mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 49,
     "started_at": "11:14:00",
     "completed_at": "12:03:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "12:39:00",
+    "completed_at": "12:41:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -451,11 +484,11 @@
     "comment": ""
   },
   {
-    "activity": "Nacherfassung Aufwand",
+    "activity": "Nacherfassung Ablauf KSPLNA",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 8,
-    "started_at": "12:39:00",
+    "minutes": 4,
+    "started_at": "12:43:00",
     "completed_at": "12:47:00",
     "skipped": false,
     "original_activity": "",
@@ -495,6 +528,17 @@
     "comment": "+ Start Korrekturlauf"
   },
   {
+    "activity": "Jause fassen LEMTJF",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "13:01:13",
+    "completed_at": "20:51:29",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "schon erledigt"
+  },
+  {
     "activity": "Arbeit an Tagesplanung KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
@@ -517,6 +561,17 @@
     "comment": ""
   },
   {
+    "activity": "Planung / Begutachtung Doc_Ref_Report KSPLPL",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 9,
+    "started_at": "13:41:00",
+    "completed_at": "13:50:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
     "list": "Liste_mittags",
     "priority": 1.84,
@@ -528,11 +583,11 @@
     "comment": ""
   },
   {
-    "activity": "Mittagessen (Pizzeria Dominous)",
+    "activity": "Mittagessen (Pizzeria Dominous) LEMEPD",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 55,
-    "started_at": "13:50:00",
+    "minutes": 53,
+    "started_at": "13:52:00",
     "completed_at": "14:45:00",
     "skipped": false,
     "original_activity": "",
@@ -572,17 +627,6 @@
     "comment": ""
   },
   {
-    "activity": "Planung / Begutachtung Doc_Ref_Report KSPLPL",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 129,
-    "started_at": "13:41:00",
-    "completed_at": "15:50:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Bearb. Tagesplan (Cross-Referencing undokumentierte Aktivitäten) KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
@@ -603,116 +647,6 @@
     "skipped": false,
     "original_activity": "",
     "comment": ""
-  },
-  {
-    "activity": "Einplanung Dokumentenreview BRZG KSBRDR",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 5,
-    "started_at": "16:10:00",
-    "completed_at": "16:15:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "Dokumentenreview ist selbst ungeplant"
-  },
-  {
-    "activity": "Planung: Lesen Report Unterschied KS-Dokumentation KSPLPL",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 16,
-    "started_at": "19:44:00",
-    "completed_at": "20:00:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "keine Unterschiede, was Planung betrifft"
-  },
-  {
-    "activity": "Nacherfassung Ablauf KSPLNA",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 11,
-    "started_at": "20:15:00",
-    "completed_at": "20:26:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Nachtmahl fassen LENANA",
-    "list": "Lebenserhaltung",
-    "priority": 1.845,
-    "minutes": 3,
-    "started_at": "20:26:00",
-    "completed_at": "20:31:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "nur Wasser (noch kein Hunger)"
-  },
-  {
-    "activity": "Mailprüfung INMAPR",
-    "list": "Liste_untertags",
-    "priority": 1.832,
-    "minutes": 2,
-    "started_at": "20:36:00",
-    "completed_at": "20:36:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "neu in Junk-Mails zum Unsubscriben: Sandra von Finanzcheck, Zur Auszahlung"
-  },
-  {
-    "activity": "Prüfung Bewässerung Terrasse WFTEBE",
-    "list": "Liste_untertags",
-    "priority": 1.83,
-    "minutes": 5,
-    "started_at": "20:36:00",
-    "completed_at": "20:39:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "Überlaufbehälter ausgeleert, verwelkte Blumen brauchen nicht gegossen zu werden"
-  },
-  {
-    "activity": "Bearb. Liste auswendig singbarer Titel MUOWAS",
-    "list": "Liste_untertags",
-    "priority": 1.829,
-    "minutes": 5,
-    "started_at": "20:39:00",
-    "completed_at": "20:42:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "unter Dusche gesungene Titel eingetragen"
-  },
-  {
-    "activity": "Bearb.Ohrwürmer(durchgenommen) MUOWDU",
-    "list": "Liste_Morgentoilette",
-    "priority": 1.84,
-    "minutes": 3,
-    "started_at": "08:54:20",
-    "completed_at": "20:51:29",
-    "skipped": true,
-    "original_activity": "",
-    "comment": "nichts durchgenommen (keine offenen vorhanden)"
-  },
-  {
-    "activity": "Anziehen LEMTAN",
-    "list": "Liste_Morgentoilette",
-    "priority": 1.841,
-    "minutes": 3,
-    "started_at": "09:22:54",
-    "completed_at": "20:51:29",
-    "skipped": true,
-    "original_activity": "",
-    "comment": "wurde versehentlich vor Einschmieren erledigt"
-  },
-  {
-    "activity": "Jause fassen LEMTJF",
-    "list": "Liste_Morgentoilette",
-    "priority": 1.84,
-    "minutes": 3,
-    "started_at": "13:01:13",
-    "completed_at": "20:51:29",
-    "skipped": true,
-    "original_activity": "",
-    "comment": "schon erledigt"
   },
   {
     "activity": "Teller waschen / Getränk fassen LEMTTW",
@@ -759,17 +693,6 @@
     "comment": "heute nichts eingekauft"
   },
   {
-    "activity": "Teller waschen / Getränk + Biovital fassen LENATW",
-    "list": "Lebenserhaltung",
-    "priority": 1.844,
-    "minutes": 4,
-    "started_at": "20:26:48",
-    "completed_at": "20:51:29",
-    "skipped": true,
-    "original_activity": "",
-    "comment": "während Arbeitszeit erledigt"
-  },
-  {
     "activity": "Einkauf Brot/Weckerln/süße Stücke (Ströck / Der Mann Obi) BREPZE",
     "list": "Liste_mittags",
     "priority": 1.84,
@@ -779,6 +702,50 @@
     "skipped": true,
     "original_activity": "",
     "comment": "heute nichts eingekauft"
+  },
+  {
+    "activity": "Einplanung Dokumentenreview BRZG KSBRDR",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 5,
+    "started_at": "16:10:00",
+    "completed_at": "16:15:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Dokumentenreview ist selbst ungeplant"
+  },
+  {
+    "activity": "Entwickllung Tagesplanung mit OpenClaw (Erklärung Keyboard-Gutschein) KSPLEN",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "17:04:00",
+    "completed_at": "17:06:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Planung: Lesen Report Unterschied KS-Dokumentation KSPLPL",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 16,
+    "started_at": "19:44:00",
+    "completed_at": "20:00:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "keine Unterschiede, was Planung betrifft"
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 11,
+    "started_at": "20:15:00",
+    "completed_at": "20:26:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Ansehen ZiB 1 + Wetter RATVZI",
@@ -792,6 +759,72 @@
     "comment": "heute nicht angesehen, da noch Teleworking"
   },
   {
+    "activity": "Nachtmahl fassen LENANA",
+    "list": "Lebenserhaltung",
+    "priority": 1.845,
+    "minutes": 3,
+    "started_at": "20:26:00",
+    "completed_at": "20:31:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "nur Wasser (noch kein Hunger)"
+  },
+  {
+    "activity": "Teller waschen / Getränk + Biovital fassen LENATW",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 4,
+    "started_at": "20:26:48",
+    "completed_at": "20:51:29",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "während Arbeitszeit erledigt"
+  },
+  {
+    "activity": "Mailprüfung INMAPR",
+    "list": "Liste_untertags",
+    "priority": 1.832,
+    "minutes": 2,
+    "started_at": "20:36:00",
+    "completed_at": "20:36:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "neu in Junk-Mails zum Unsubscriben: Sandra von Finanzcheck, Zur Auszahlung"
+  },
+  {
+    "activity": "Prüfung Bewässerung Terrasse WFTEBE",
+    "list": "Liste_untertags",
+    "priority": 1.83,
+    "minutes": 5,
+    "started_at": "20:36:00",
+    "completed_at": "20:39:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Überlaufbehälter ausgeleert, verwelkte Blumen brauchen nicht gegossen zu werden"
+  },
+  {
+    "activity": "Bearb. Liste auswendig singbarer Titel MUOWAS",
+    "list": "Liste_untertags",
+    "priority": 1.829,
+    "minutes": 5,
+    "started_at": "20:39:00",
+    "completed_at": "20:42:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "unter Dusche gesungene Titel eingetragen"
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 9,
+    "started_at": "20:42:00",
+    "completed_at": "20:51:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Review Dokumentation BRZG KSBRDR",
     "list": "Liste_Arbeit",
     "priority": 1.84,
@@ -801,6 +834,17 @@
     "skipped": false,
     "original_activity": "",
     "comment": "noch nicht fertig (Ablauf bis vor Details von Aktivitäten auf Fahrt festgelegt)"
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "22:23:00",
+    "completed_at": "22:25:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Teller waschen / Getränk + Medikament fassen LENATW",
@@ -856,6 +900,17 @@
     "skipped": true,
     "original_activity": "",
     "comment": "wurde schon eingetragen"
+  },
+  {
+    "activity": "Vorbereitung Zähne putzen LEAZVZ",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 5,
+    "started_at": "22:25:00",
+    "completed_at": "22:27:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Planung BRZ BREPGM",
@@ -957,17 +1012,6 @@
     "comment": "muss im Moment nicht"
   },
   {
-    "activity": "Vorbereitung Zähne putzen LEAZVZ",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.835,
-    "minutes": 5,
-    "started_at": "22:25:00",
-    "completed_at": "22:27:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Zähne putzen LEAZZP",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
@@ -1034,17 +1078,6 @@
     "comment": ""
   },
   {
-    "activity": "Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.834,
-    "minutes": 2,
-    "started_at": "23:10:24",
-    "completed_at": "23:10:24",
-    "skipped": true,
-    "original_activity": "",
-    "comment": "nichts durchzunehmen"
-  },
-  {
     "activity": "Einschmieren GEAZES",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
@@ -1056,6 +1089,17 @@
     "comment": ""
   },
   {
+    "activity": "Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.834,
+    "minutes": 2,
+    "started_at": "23:10:24",
+    "completed_at": "23:10:24",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "nichts durchzunehmen"
+  },
+  {
     "activity": "WC LEAZWC",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
@@ -1065,6 +1109,17 @@
     "skipped": false,
     "original_activity": "",
     "comment": "muss nicht"
+  },
+  {
+    "activity": "im Bett",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.834,
+    "minutes": 1,
+    "started_at": "23:13:00",
+    "completed_at": "23:13:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Bearb.Ohrwürmer (durchzunehmende aus Liste) RWOWDL",
@@ -1089,12 +1144,199 @@
     "comment": "wird nicht heruntergefahren (RW-KI läuft weiter)"
   },
   {
-    "activity": "im Bett",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.834,
+    "activity": "Abhalten BKDD Standup Meeting BRZ BREPGM",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 14,
+    "started_at": "11:00:00",
+    "completed_at": "11:14:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Vormittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 36,
+    "started_at": "12:03:00",
+    "completed_at": "12:39:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Scan Radio Arabella RASCRA",
+    "list": "ungeplant",
+    "priority": 0.0,
     "minutes": 1,
-    "started_at": "23:13:00",
-    "completed_at": "23:13:00",
+    "started_at": "16:15:00",
+    "completed_at": "16:16:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 36,
+    "started_at": "16:16:00",
+    "completed_at": "16:52:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Surfen Molt.chess CSSUMC",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "16:52:00",
+    "completed_at": "16:54:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 10,
+    "started_at": "16:54:00",
+    "completed_at": "17:04:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "17:06:00",
+    "completed_at": "17:10:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Surfen Molt.chess CSSUMC",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "17:10:00",
+    "completed_at": "17:11:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 35,
+    "started_at": "17:11:00",
+    "completed_at": "17:46:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Radio Würmchen KI RARWKI",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "17:46:00",
+    "completed_at": "17:47:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 26,
+    "started_at": "17:47:00",
+    "completed_at": "18:13:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Radio Würmchen KI RARWKI",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "18:13:00",
+    "completed_at": "18:14:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 59,
+    "started_at": "18:14:00",
+    "completed_at": "19:13:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Radio Würmchen KI RARWKI",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "19:13:00",
+    "completed_at": "19:14:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 30,
+    "started_at": "19:14:00",
+    "completed_at": "19:44:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Analyse Andon FM RWPLAF",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "20:00:00",
+    "completed_at": "20:01:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Mailprüfung INMAPR",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "20:01:00",
+    "completed_at": "20:02:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 13,
+    "started_at": "20:02:00",
+    "completed_at": "20:15:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

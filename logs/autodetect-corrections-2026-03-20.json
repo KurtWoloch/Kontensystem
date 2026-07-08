@@ -117,5 +117,19 @@
     "end": "23:00",
     "original": "Bearb. Planer-Dateien",
     "corrected": "Suche Python-Skript Andon FM / Radio-Würmchen-Vergleich RWAFVG"
+  },
+  {
+    "ts": "2026-04-09T21:18:33",
+    "start": "11:33",
+    "end": "11:33",
+    "original": "Dateiverwaltung (Explorer)",
+    "corrected": "Analyse Andon FM RWPLAF"
+  },
+  {
+    "ts": "2026-04-09T21:26:30",
+    "start": "15:41",
+    "end": "15:42",
+    "original": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "corrected": "Nacherfassung Ablauf KSPLNA"
   }
 ]

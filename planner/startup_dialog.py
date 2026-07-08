@@ -309,19 +309,21 @@ class StartupDialog:
 
         self._update_preview()
 
-    def _apply_date_from_entry(self):
+    def _apply_date_from_entry(self) -> bool:
         """Parse the date entry field and update selected_date."""
         raw = self.var_date.get().strip()
         m = re.match(r'^(\d{1,2})\.(\d{1,2})\.(\d{4})$', raw)
         if not m:
             self.lbl_date_error.config(text="Ungültiges Format (TT.MM.JJJJ)")
-            return
+            return False
         try:
             d = date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
         except ValueError:
             self.lbl_date_error.config(text="Ungültiges Datum")
-            return
-        self._set_date(d)
+            return False
+        if d != self.selected_date:
+            self._set_date(d)
+        return True
 
     def _date_prev(self):
         self._set_date(self.selected_date - timedelta(days=1))
@@ -353,7 +355,8 @@ class StartupDialog:
 
     def _on_start(self):
         # Apply any pending date entry
-        self._apply_date_from_entry()
+        if not self._apply_date_from_entry():
+            return
         self.result = DayContext.from_date(
             self.selected_date,
             is_feiertag=self.var_feiertag.get(),

@@ -126,12 +126,18 @@ def normalize_title(process, title):
     # Remove zero-width spaces that Edge inserts between "Microsoft" and "Edge"
     result = title.replace("\u200b", "")
 
+    # Strip notification prefixes like "(1) ", "(25) ", etc.
+    result = re.sub(r'^\(\d+\)\s+', '', result)
+
     if process and process.lower() == "msedge.exe":
         for pattern in _EDGE_SUFFIX_PATTERNS:
             result = pattern.sub("", result)
 
     if process and process.lower() == "winamp.exe":
         result = "(Winamp playback)"
+
+    if process and process.lower() == "radio würmchen.exe":
+        result = re.sub(r'Radio W\u00fcrmchen\s+\d+\.\d+\.\d+', 'Radio W\u00fcrmchen', result)
 
     result = _KEINE_RUECKMELDUNG.sub("", result)
     result = result.rstrip()
@@ -305,6 +311,9 @@ def process_day(date_str, observations, transitions):
         if title in SKIP_TITLES:
             continue
         if process in SKIP_PROCESSES:
+            continue
+        # Skip learning for planner meta-windows (Tagesplanung / Reaktiver Planer / Off-PC in python.exe)
+        if process.lower() == "python.exe" and ("Tagesplanung" in title or "Reaktiver Planer" in title or "Off-PC" in title):
             continue
         dt = parse_dt(e.get("ts", ""))
         filtered.append((dt, process, title))

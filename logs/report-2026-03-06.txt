@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      114
   Geplante Gesamtzeit:         17h 09m
 
-  ✓ Erledigt (geplant):       49  (    6h 12m)  = 36.2%
-  ⏭ Übersprungen:             24  (    5h 44m)  = 33.4%
-  ✗ Nicht erreicht:           41  (    5h 13m)  = 30.4%
+  ✓ Erledigt (geplant):       56  (    9h 58m)  = 58.1%
+  ⏭ Übersprungen:             16  (    1h 43m)  = 10.0%
+  ✗ Nicht erreicht:           42  (    5h 28m)  = 31.9%
 
-  📝 Ungeplante Aktivitäten:  40  (   12h 43m)
-  ⏱  Tatsächliche Arbeitszeit:     5h 45m
+  📝 Ungeplante Aktivitäten:  42  (    9h 02m)
+  ⏱  Plan-Ausführungszeit:        8h 00m
+  ⏱  Tatsächliche Arbeitszeit:    17h 02m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -22,22 +29,101 @@
 
   Aktivität                           Geplant Tatsächl.    Drift
   ─────────────────────────────────── ─────── ───────── ────────
+  Mailprüfung INMAPR (Fs.)              08:21     22:18 +13h 57m
   Mailprüfung INMAPR                    08:16     22:04 +13h 48m
-  Mailprüfung INMAPR (Fs.)              08:21     22:04 +13h 43m
   Wohnung lüften WFLULU                 17:50     08:58  -8h 52m
-  Anhören RW-Prg. / Tonträger / Radio   18:07     10:38  -7h 29m
   Der Außentemperatur entsprechend an   13:32     20:34  +7h 02m
   Laufen / Scootersuche GEGYLS          13:34     20:36  +7h 02m
+  WC BREPWC (Fs.)                       13:30     20:24  +6h 54m
   Teller waschen / Getränk fassen LEM   10:40     16:19  +5h 39m
   Termine in Kalender prüfen LEMTTP     08:15     11:33  +3h 18m
   WC BREPWC                             12:23     15:00  +2h 37m
   Mund spülen LEMTMS                    08:17     10:32  +2h 15m
   Häferl waschen / Hustenbonbon fasse   08:19     10:34  +2h 15m
-  Nachtmahl fassen LENANA               20:00     22:10  +2h 10m
-  Anhören RW-Prg. / Tonträger / Radio   08:54     10:38  +1h 44m
-  Bearb. Essensplan (gegessen, zu ess   10:17     11:50  +1h 33m
-  Jause fassen LEMTJF                   10:21     11:53  +1h 32m
-  ... und 34 weitere
+  WC LEMTWC                             08:48     10:36  +1h 48m
+  Blutdruck messen GEBMBM               09:07     10:55  +1h 48m
+  Eingabe Zeiterfassung SAP BREPZE      17:19     19:07  +1h 48m
+  Eingabe Teleworking SAP BREPZE        17:23     19:11  +1h 48m
+  ... und 39 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Arbeitszeit absolvieren (Nachmittag) BRE   2h 40m
+  Ausrasten LEARAR                           1h 54m
+  Arbeit an Tagesplanung / Planer-Entwickl   1h 12m
+  Diskussion und Implementierung Schwimmba      40m
+  Mittagessen (von Sati gekocht) LEMESE         37m
+  Ermittlung Mittagessen-Zeiten Sati / Aus      35m
+  Laufen / Scootersuche GEGYLS                  34m
+  Konversation Andon FM / Thinking Frequen      34m
+  Papiersortierung KAPSCG                       30m
+  Arbeitszeit absolvieren (Nachmittag) BRE      29m
+  Review Dokumentation BRZG KSBRDR              27m
+  Abhalten BKDD Standup Meeting BREPGM          20m
+  Surfen Ö3 Austria Top 40 u.a. RWMPAR          20m
+  Duschen LEMTDU                                19m
+  Frühstücken, dabei Vorbereitung Candeblo      17m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Termine in Kalender prüfen LEMTTP (Verlä      16m
+  Scan Radio Arabella RASCRA                    13m
+  Durchsehen Tagesbericht von gestern und       13m
+  Abhalten BKDD Standup Meeting BREPGM (Ve      13m
+  ... und 70 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  BREPDZ         3h 09m
+  LEARAR         1h 54m
+  KSPLEN         1h 32m
+  KSPLPL            58m
+  RAAFKO            49m
+  BREPGM            40m
+  LEMESE            37m
+  GEGYLS            36m
+  KSAEEG            35m
+  KAPSCG            30m
+  KSBRDR            27m
+  LEAZZZ            25m
+  LEMTFR            23m
+  RWMPAR            20m
+  LEMTDU            19m
+  LEMTTP            17m
+  RASCRA            13m
+  KSPLTB            13m
+  LEMTRA            12m
+  LEMTWC            12m
+  ... und 39 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  LE         5h 45m
+  BR         4h 19m
+  KS         3h 50m
+  RA         1h 02m
+  GE            41m
+  KA            30m
+  RW            22m
+  IN            19m
+  WF            14m
+  MU             0m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -94,51 +180,54 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 06:21–06:28  Erweiterung Planungstool (Hinzufügung Au  — sollte Code von Erstellung Planungstool übernehmen
-  📝 06:28–06:37  Erweiterung Planungsprogramm (Hinzufügen
-  📝 06:37–06:41  Bugfixing Planungstool  — Fehler beim Schließen der Automation Editors)
-  📝 06:42–06:55  KS - Durchsehen Tagesbericht von gestern
-  📝 07:07–07:38  Arbeit an Tagesplanung / Planer-Entwickl  — Überprüfung übersprungene Teleworking-Aktivitäten von gestern -> Einbau zusätzliche Anzeige der bereits passierten Aktivitäten
-  📝 07:46–07:52  Arbeit an Tagesplanung / Planer-Entwickl  — Hinzufügen weiteres Fenster für abvolvierte Tasks
-  📝 07:57–08:14  Arbeit an Tagesplanung / Planer-Entwickl  — Änderung CSV-File für Freitag wg. Sati
-  📝 08:33–08:36  Anziehen LEMTAN
-  📝 08:36–08:39  Bett machen LEMTBM
-  📝 08:39–08:39  Einschalten Radio Arabella RWMPMP
-  📝 09:02–09:08  Begutachtung / Konversation Andon FM / T  — Musikwunsch für Street Fighting Man (davor noch derzeitige Moderationenabwarten)
-  📝 09:08–09:38  Papiersortierung KAPSCG  — Zerlegung CD+G-Ordner, das meiste davon wird in neuen kleinen KA-Ordner gegeben, da in Haupt-KA-Ordner zuwenig Platz dafür
-  📝 09:38–09:56  Arbeit an Tagesplanung / Planer-Entwickl  — Verhindern, dass aktueller Task automatisch von zeitgesteuertem Task überschrieben wird
-  📝 09:56–10:05  Konversation mit Andrew Pappas / Prüfung  — Zahlungen erlauben nur max. 255 Zeichen an Texten vs. 288 Zeichen für Tweets
-  📝 10:51–10:53  Jause fassen LEMTJF  — Mini Schokokekse
-  📝 10:53–10:55  WC (vergeblich) LEMTWC
-  📝 10:57–10:57  Blutdruck messen GEBMBM
-  📝 11:54–11:55  WC (vergeblich) LEMTWC  — muss noch nicht
-  📝 11:55–12:04  Verbesserung Planungstool (YAML-Exceptio
-  📝 12:17–12:56  Mittagessen (von Sati gekocht) LEMESE
-  📝 12:56–12:59  Nacherfassung Ablauf / Neustart Planungs
-  📝 12:59–13:03  Aufschreiben Bezahlung Sati Ersoy WFPUEL
-  📝 13:03–13:06  div. Surfen (News)
-  📝 13:06–15:00  Ausrasten
-  📝 15:04–15:10  Div. Surfen (News) INSUSU
-  📝 15:10–16:19  Arbeitszeit absolvieren (Nachmittag) BRE
-  📝 16:24–16:29  WC LEMTWC
-  📝 16:29–16:36  Diskussion mit OpenClaw über Schachspiel
-  📝 16:36–19:36  Arbeitszeit absolvieren (Nachmittag) BRE
-  📝 18:36–18:43  Zeiten sammeln BREPZS
-  📝 18:43–19:03  Surfen Ö3 Austria Top 40 u.a. RWMPAR
-  📝 19:03–19:07  Getränk fassen LENATW
-  📝 19:07–19:11  Eingabe Zeiterfassung SAP BREPZE
-  📝 19:11–19:15  Eingabe Teleworking SAP BREPZE
-  📝 19:15–19:50  Ermittlung Mittagessen-Zeiten Sati / Aus  — Durchschnittszeit: Di. 12:07-12:08, Fr. 12:05
-  📝 19:50–20:24  Konversation Andon FM / Thinking Frequen  — etwas getrödelt
-  📝 21:13–21:15  Nachtmahl fassen LENANA  — Mini Schokokekse ohne Zuckerzusatz
-  📝 21:15–21:55  Diskussion und Implementierung Schwimmba
-  📝 21:55–22:04  PLanung (Arbeit an Tool für YAML-Inserti
-  📝 22:05–22:09  Teller waschen / Getränk fassen LENATW  — Kokosmilch Drink
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Ausrasten LEARAR                                1h 54m      1 13:06–15:00  
+  Arbeit an Tagesplanung / Planer-Entwicklung K   1h 12m      4 07:07–09:56  
+  Diskussion und Implementierung Schwimmbad-Aus      40m      1 21:15–21:55  
+  Ermittlung Mittagessen-Zeiten Sati / Ausbesse      35m      1 19:15–19:50  
+  Konversation Andon FM / Thinking Frequencies       34m      1 19:50–20:24  
+  Papiersortierung KAPSCG                            30m      1 09:08–09:38  
+  Arbeitszeit absolvieren (Nachmittag) BREPDZ (      29m      1 16:36–18:36  
+  Surfen Ö3 Austria Top 40 u.a. RWMPAR               20m      1 18:43–19:03  
+  Termine in Kalender prüfen LEMTTP (Verlängeru      16m      1 11:33–11:50  
+  Durchsehen Tagesbericht von gestern und Frage      13m      1 06:42–06:55  
+  Abhalten BKDD Standup Meeting BREPGM (Verläng      13m      1 11:00–11:33  
+  Erweiterung Planungsprogramm (Hinzufügen Butt       9m      1 06:28–06:37  
+  Konversation mit Andrew Pappas / Prüfung Zahl       9m      1 09:56–10:05  
+  Verbesserung Planungstool (YAML-Exceptions Ur       9m      1 11:55–12:04  
+  PLanung (Arbeit an Tool für YAML-Insertions)        9m      1 21:55–22:04  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       9m      1 22:32–22:57  
+  Erweiterung Planungstool (Hinzufügung Automat       7m      1 06:21–06:28  
+  Diskussion mit OpenClaw über Schachspiele INO       7m      1 16:29–16:36  
+  Medikament fassen / Ausräumen Geschirrspüler        7m      1 22:10–22:18  
+  Begutachtung / Konversation Andon FM / Thinki       6m      1 09:02–09:08  
+  Einlass / Koordination / Verabschiedung Sati        6m      1 12:11–12:17  
+  Div. Surfen (News) INSUSU                           6m      1 15:04–15:10  
+  Ausziehen LEAZAU (Verlängerung)                     6m      1 23:06–23:16  
+  Bugfixing Planungstool KSPLEN                       4m      1 06:37–06:41  
+  Aufschreiben Bezahlung Sati Ersoy WFPUEL            4m      1 12:59–13:03  
+  Getränk fassen LENATW                               4m      1 19:03–19:07  
+  Teller waschen / Getränk fassen LENATW              4m      1 22:05–22:09  
+  WC (vergeblich) LEMTWC                              3m      2 10:53–11:55  
+  Nacherfassung Ablauf / Neustart Planungstool        3m      1 12:56–12:59  
+  div. Surfen (News) INSUNE                           3m      1 13:03–13:06  
+  Getränk fassen (Soja-Drink) LEMTTW (Verlänger       2m      1 16:19–16:24  
+  Eingabe Teleworking SAP BREPZE (Verlängerung)       2m      1 19:11–19:15  
+  Nacherfassung Ablauf KSPLNA                         2m      1 20:32–20:34  
+  Laufen / Scootersuche GEGYLS (Verlängerung)         2m      1 20:36–21:12  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:07–06:09  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            1m      1 07:04–07:07  
+  Mailprüfung INMAPR (Verlängerung)                   1m      1 22:18–22:20  
+  Einschalten Radio Arabella RWMPMP                   0m      1 08:39–08:39  
+
+  Gesamt ungeplant: 9h 02m über 42 Einträge / 38 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
 ╚═══════════════════════════════════════════════════════╝
 
+  ✗ 08:00  Papiersortierung WFPAPA  (15m)
   ✗ 08:22  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (7m)
   ✗ 08:30  Einlass / Koordination Sati Ersoy WFPUEL  (10m)
   ✗ 08:40  Anhören RW-Prg. mit Sati Ersoy RWMPSE  (8m)

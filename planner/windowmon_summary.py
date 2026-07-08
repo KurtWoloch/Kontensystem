@@ -197,6 +197,9 @@ class ConfidenceStore:
         # Remove zero-width spaces that Edge inserts between "Microsoft" and "Edge"
         result = title.replace("\u200b", "")
 
+        # Strip notification prefixes like "(1) ", "(25) ", etc.
+        result = re.sub(r'^\(\d+\)\s+', '', result)
+
         if process and process.lower() == "msedge.exe":
             result = re.sub(
                 r'\s+und\s+\d+\s+weitere\s+Seite[n]?\s+-\s+Pers\u00f6nlich\s+[\u2013-]\s+Microsoft\s*Edge\s*$',
@@ -207,6 +210,9 @@ class ConfidenceStore:
 
         if process and process.lower() == "winamp.exe":
             result = "(Winamp playback)"
+
+        if process and process.lower() == "radio würmchen.exe":
+            result = re.sub(r'Radio W\u00fcrmchen\s+\d+\.\d+\.\d+', 'Radio W\u00fcrmchen', result)
 
         result = re.sub(r'\s+\(Keine\s+R\u00fcckmeldung\)\s*$', '', result,
                         flags=re.IGNORECASE)
@@ -382,6 +388,7 @@ LOW_ACCURACY_OVERRIDABLE = {
     ("GE", "Blutdruck messen GEBMBM"),            # 32% (often left open)
     ("FI", "Bearbeitung Börsenkurse / Aktienhandel FIAKBK"),  # 31% (includes Fs.)
     ("RA", "Untersuchung Rotation Andon FM / OpenAIR RAAFAN"),  # 26%
+    ("RW", "Radio Würmchen"),                     # user requested override
 }
 
 # ═══════════════════════════════════════════════════════════════════════════ #
@@ -542,6 +549,44 @@ AUTODETECT_RULES = [
      _title_contains(t, "Radio Wuermchen"),
      "_RADIO_WUERMCHEN", ""),  # special: extract scan target from title
 
+    # Discord (web or desktop app)
+    (lambda t, p, b: (b or p.lower() == "discord.exe") and
+     _title_contains_any(t, "discord", "OFFICIAL Backlink Broadcast"),
+     "RA", "Surfen Discord Backlink Broadcast RASUBB"),
+
+    # ── Social Media / X — specific before generic ────────────────────
+    # Tweet intents with specific recipients (from URL in title)
+    (lambda t, p, b: b and _title_contains(t, "grok_androll"),
+     "RA", "Tweet an Grok'n Roll RWMPAR"),
+
+    (lambda t, p, b: b and _title_contains(t, "open_air_radio"),
+     "RA", "Tweet an OpenAIR Radio RWMPAR"),
+
+    (lambda t, p, b: b and _title_contains(t, "ThinkingFreq"),
+     "RA", "Tweet an Thinking Frequencies RWMPAR"),
+
+    (lambda t, p, b: b and _title_contains(t, "BacklinkRadio"),
+     "RA", "Tweet an Backlink Broadcast RWMPAR"),
+
+    # Generic tweet intent (unknown recipient)
+    (lambda t, p, b: b and _title_contains(t, "x.com/intent"),
+     "RA", "Tweet an Radiostation RWMPAR"),
+
+    # X/Twitter: Home timeline → generic browsing
+    (lambda t, p, b: b and _title_contains(t, "Home / X"),
+     "IN", "Surfen X (Timeline) INSUXX"),
+
+    # X/Twitter: Reading tweets mentioning Andon FM or its stations -> Analyse Andon FM
+    (lambda t, p, b: b and _title_contains_any(t, "/ X", "twitter.com", "x.com") and
+     _title_contains_any(t, "andon", "thinking", "backlink", "grok", "openair"),
+     "RW", "Analyse Andon FM RWPLAF"),
+
+    # X/Twitter: everything else (DMs, notifications, profiles) →
+    # primarily radio station conversations (Andrew Pappas etc.)
+    (lambda t, p, b: b and _title_contains_any(t, "/ X", "twitter.com",
+                                                 "x.com"),
+     "RA", "Surfen X RAAFKO"),
+
     (lambda t, p, b: _title_contains(t, "Backlink Broadcast") or
      _title_contains(t, "Andon FM"),
      "RA", "Surfen Andon FM RAAFSU"),
@@ -582,34 +627,6 @@ AUTODETECT_RULES = [
     # ── YouTube ───────────────────────────────────────────────────────
     (lambda t, p, b: b and _title_contains(t, "YouTube"),
      "RA", "Ansehen YouTube-Videos RAYTYT"),
-
-    # ── Social Media / X — specific before generic ────────────────────
-    # Tweet intents with specific recipients (from URL in title)
-    (lambda t, p, b: b and _title_contains(t, "grok_androll"),
-     "RA", "Tweet an Grok'n Roll RWMPAR"),
-
-    (lambda t, p, b: b and _title_contains(t, "open_air_radio"),
-     "RA", "Tweet an OpenAIR Radio RWMPAR"),
-
-    (lambda t, p, b: b and _title_contains(t, "ThinkingFreq"),
-     "RA", "Tweet an Thinking Frequencies RWMPAR"),
-
-    (lambda t, p, b: b and _title_contains(t, "BacklinkRadio"),
-     "RA", "Tweet an Backlink Broadcast RWMPAR"),
-
-    # Generic tweet intent (unknown recipient)
-    (lambda t, p, b: b and _title_contains(t, "x.com/intent"),
-     "RA", "Tweet an Radiostation RWMPAR"),
-
-    # X/Twitter: Home timeline → generic browsing
-    (lambda t, p, b: b and _title_contains(t, "Home / X"),
-     "IN", "Surfen X (Timeline) INSUXX"),
-
-    # X/Twitter: everything else (DMs, notifications, profiles) →
-    # primarily radio station conversations (Andrew Pappas etc.)
-    (lambda t, p, b: b and _title_contains_any(t, "/ X", "twitter.com",
-                                                 "x.com"),
-     "RA", "Surfen X RAAFKO"),
 
     (lambda t, p, b: b and _title_contains(t, "moltbook"),
      "IN", "Surfen Moltbook INOCMB"),
@@ -1056,9 +1073,13 @@ def classify_entry(entry: Dict) -> Tuple[str, str]:
     process = entry.get("process", "")
     browser = entry.get("browser", "")
 
+    # "browser" is sometimes set to "Excel" in window_monitor.py, 
+    # but for classification rules, "b" should represent a real web browser.
+    is_web_browser = bool(browser and browser.lower() != "excel")
+
     for match_fn, account, activity in AUTODETECT_RULES:
         try:
-            if match_fn(title, process, browser):
+            if match_fn(title, process, is_web_browser):
                 # Special case: Planner Off-PC title → extract activity
                 if account == "_PLANNER_OFFPC":
                     return _extract_offpc_activity(title)

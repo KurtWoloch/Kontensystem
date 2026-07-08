@@ -22,7 +22,7 @@
     "comment": ""
   },
   {
-    "activity": "Besprechung Vortagsergebnis (viele Skips + ungeplantes) mit OpenClaw",
+    "activity": "Besprechung Vortagsergebnis (viele Skips + ungeplantes) mit OpenClaw KSPLBV",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 22,
@@ -55,7 +55,7 @@
     "comment": ""
   },
   {
-    "activity": "WC",
+    "activity": "WC BREPWC",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -66,7 +66,7 @@
     "comment": "Task-Kürzel wurde nicht vorgeschlagen!"
   },
   {
-    "activity": "Arbeit an Planungstool mit OpenClaw",
+    "activity": "Arbeit an Planungstool mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 15,
@@ -176,6 +176,17 @@
     "comment": "noch keine vorhanden"
   },
   {
+    "activity": "Besuch Schwimmbad GEGYSB",
+    "list": "Liste_Schwimmbad",
+    "priority": 1.846,
+    "minutes": 57,
+    "started_at": "07:49:00",
+    "completed_at": "08:46:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "PC herunterfahren PCHFHF",
     "list": "Liste_Schwimmbad",
     "priority": 1.846,
@@ -185,17 +196,6 @@
     "skipped": true,
     "original_activity": "",
     "comment": "bleibt an für molt.chess und Radio Würmchen KI"
-  },
-  {
-    "activity": "Besuch Schwimmbad GEGYSB",
-    "list": "Liste_Schwimmbad",
-    "priority": 1.846,
-    "minutes": 60,
-    "started_at": "08:46:00",
-    "completed_at": "08:47:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
   },
   {
     "activity": "Aufhängen Badewäsche GEGYAB",
@@ -433,7 +433,7 @@
     "list": "Nach_Fruehstueck",
     "priority": 1.845,
     "minutes": 12,
-    "started_at": "10:49:00",
+    "started_at": "10:51:00",
     "completed_at": "11:03:00",
     "skipped": false,
     "original_activity": "",
@@ -663,9 +663,9 @@
     "activity": "Diskussion fehlende Taskcodes und unpassende Zuordnungen mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 36,
+    "minutes": 38,
     "started_at": "14:18:00",
-    "completed_at": "14:54:00",
+    "completed_at": "14:56:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -751,8 +751,8 @@
     "activity": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO",
     "list": "Liste_nachmittags",
     "priority": 1.83,
-    "minutes": 10,
-    "started_at": "15:44:00",
+    "minutes": 3,
+    "started_at": "15:42:00",
     "completed_at": "15:45:00",
     "skipped": false,
     "original_activity": "",
@@ -798,6 +798,28 @@
     "minutes": 8,
     "started_at": "15:51:00",
     "completed_at": "15:59:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO",
+    "list": "Liste_nachmittags",
+    "priority": 1.83,
+    "minutes": 11,
+    "started_at": "16:00:00",
+    "completed_at": "16:11:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (Update Händlerangebote) LEEPUH",
+    "list": "Liste_nachmittags",
+    "priority": 1.83,
+    "minutes": 16,
+    "started_at": "16:12:00",
+    "completed_at": "16:28:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1224,22 +1246,143 @@
     "activity": "im Bett",
     "list": "Liste_Abendzeremonie",
     "priority": 1.834,
+    "minutes": 0,
+    "started_at": "23:20:00",
+    "completed_at": "23:20:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
     "minutes": 1,
-    "started_at": "23:19:00",
-    "completed_at": "23:19:00",
+    "started_at": "07:48:00",
+    "completed_at": "07:49:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "12:32:00",
+    "completed_at": "12:36:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 12,
+    "started_at": "13:51:00",
+    "completed_at": "14:03:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen Youtube-Videos RAYTYT",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "15:39:00",
+    "completed_at": "15:40:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "15:40:00",
+    "completed_at": "15:42:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen Youtube-Videos RAYTYT",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "15:59:00",
+    "completed_at": "16:00:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen Youtube-Videos RAYTYT",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "16:11:00",
+    "completed_at": "16:12:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "16:28:00",
+    "completed_at": "16:29:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "div. Surfen INSUSU",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 5,
+    "started_at": "16:42:00",
+    "completed_at": "16:47:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen Youtube-Videos RAYTYT",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "16:47:00",
+    "completed_at": "16:48:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "16:48:00",
+    "completed_at": "16:51:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
   },
   {
     "activity": "PC herunterfahren LEAZHF",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.834,
-    "minutes": 1,
-    "started_at": "23:19:26",
-    "completed_at": "23:19:26",
-    "skipped": true,
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "23:17:00",
+    "completed_at": "23:20:00",
+    "skipped": false,
     "original_activity": "",
-    "comment": "wird nicht heruntergefahren wg. Radio Würmchen KI"
+    "comment": "wird nicht heruntergefahren, nur unnötige Tabs und Fenster schließen"
   }
 ]

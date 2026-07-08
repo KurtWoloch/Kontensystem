@@ -22,43 +22,21 @@
     "comment": ""
   },
   {
-    "activity": "Bearbeitung Tagesplaner mit OpenClaw",
+    "activity": "Arbeit an Tagesplaner mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 35,
+    "minutes": 61,
     "started_at": "06:23:00",
-    "completed_at": "06:58:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Bugfixing Tagesplanung mit OpenClaw",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 13,
-    "started_at": "06:58:00",
-    "completed_at": "07:11:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Bugfixing Tagesplanung mit OpenClaw",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 13,
-    "started_at": "07:11:00",
     "completed_at": "07:24:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
   },
   {
-    "activity": "Scan Radio Arabella",
+    "activity": "Scan Radio Arabella RASCRA",
     "list": "Liste_Morgentoilette",
     "priority": 1.835,
-    "minutes": 4,
+    "minutes": 3,
     "started_at": "07:24:00",
     "completed_at": "07:27:00",
     "skipped": false,
@@ -88,7 +66,7 @@
     "comment": ""
   },
   {
-    "activity": "Arbeit an Tagesplaner mit OpenClaw",
+    "activity": "Arbeit an Tagesplaner mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 8,
@@ -99,7 +77,7 @@
     "comment": ""
   },
   {
-    "activity": "Scan Radio Arabella",
+    "activity": "Scan Radio Arabella RASCRA",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -110,7 +88,7 @@
     "comment": ""
   },
   {
-    "activity": "Korr. Tagesplanung mit OpenClaw",
+    "activity": "Arbeit an Tagesplaner mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 8,
@@ -121,22 +99,11 @@
     "comment": ""
   },
   {
-    "activity": "Scan Radio Arabella",
+    "activity": "Scan Radio Arabella RASCRA",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 1,
+    "minutes": 2,
     "started_at": "07:50:00",
-    "completed_at": "07:51:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Scan Radio Arabella",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "07:51:00",
     "completed_at": "07:52:00",
     "skipped": false,
     "original_activity": "",
@@ -165,7 +132,7 @@
     "comment": ""
   },
   {
-    "activity": "Scan Radio Arabella",
+    "activity": "Scan Radio Arabella RASCRA",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -176,7 +143,7 @@
     "comment": ""
   },
   {
-    "activity": "Arbeit an Tagesplaner mit OpenClaw (Kommentarfeld)",
+    "activity": "Arbeit an Tagesplaner mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -194,6 +161,17 @@
     "started_at": "08:07:00",
     "completed_at": "08:08:00",
     "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb.Ohrwürmer(durchgenommen) MUOWDU",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "08:07:49",
+    "completed_at": "22:33:28",
+    "skipped": true,
     "original_activity": "",
     "comment": ""
   },
@@ -286,10 +264,10 @@
     "comment": ""
   },
   {
-    "activity": "Scan Radio Arabella",
+    "activity": "Scan Radio Arabella RASCRA",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
-    "minutes": 6,
+    "minutes": 2,
     "started_at": "08:42:00",
     "completed_at": "08:44:00",
     "skipped": false,
@@ -319,7 +297,7 @@
     "comment": ""
   },
   {
-    "activity": "Modifizierung Tagesplanung (Stoppung Liste untertags während im BRZ)",
+    "activity": "Modifizierung Tagesplanung (Stoppung Liste untertags während im BRZ) KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -330,7 +308,7 @@
     "comment": ""
   },
   {
-    "activity": "Verbesserung Tagesplanung (Supprt Anmerkung für ungeplante und unterbrechende Aktivitäten)",
+    "activity": "Verbesserung Tagesplanung (Supprt Anmerkung für ungeplante und unterbrechende Aktivitäten) KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 3,
@@ -352,6 +330,28 @@
     "comment": ""
   },
   {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "09:10:00",
+    "completed_at": "09:11:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Scan Radio Arabella RWMPAR",
+    "list": "Radio",
+    "priority": 1.833,
+    "minutes": 1,
+    "started_at": "09:11:00",
+    "completed_at": "09:12:00",
+    "skipped": false,
+    "original_activity": "Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR",
+    "comment": ""
+  },
+  {
     "activity": "Termine in Kalender prüfen LEMTTP",
     "list": "Liste_untertags",
     "priority": 1.832,
@@ -363,7 +363,7 @@
     "comment": "nichts los, nächster Termin ist 19.3.2026 14:30-16:00: CoP Operations Management"
   },
   {
-    "activity": "Mailprüfung",
+    "activity": "Mailprüfung INMAPR",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -372,17 +372,6 @@
     "skipped": false,
     "original_activity": "",
     "comment": "Mails zum Unsubscriben in Junk-Mails: smava Kredit, Informationen zum Immo..."
-  },
-  {
-    "activity": "WC",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 0,
-    "started_at": "09:19:00",
-    "completed_at": "09:19:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "muss noch nicht, vor Abgang noch einmal probieren"
   },
   {
     "activity": "Mund spülen LEMTMS",
@@ -396,6 +385,17 @@
     "comment": ""
   },
   {
+    "activity": "WC BREPWC",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 0,
+    "started_at": "09:19:00",
+    "completed_at": "09:19:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "muss noch nicht, vor Abgang noch einmal probieren"
+  },
+  {
     "activity": "Häferl waschen / Hustenbonbon fassen LEMTHW",
     "list": "Nach_Fruehstueck",
     "priority": 1.845,
@@ -407,7 +407,7 @@
     "comment": ""
   },
   {
-    "activity": "Scan Radio Arabella",
+    "activity": "Scan Radio Arabella RASCRA",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -421,12 +421,45 @@
     "activity": "Einpacken Musik für Fahrt inkl. Player + Akkus RWRUEP (Fs.)",
     "list": "Liste_Arbeit",
     "priority": 1.84,
-    "minutes": 5,
-    "started_at": "09:19:00",
+    "minutes": 6,
+    "started_at": "09:21:00",
     "completed_at": "09:27:00",
     "skipped": false,
     "original_activity": "Einpacken Musik für Fahrt inkl. Player + Akkus RWRUEP",
     "comment": "inkl. Wechsel der Ohrhörer, ab nun Verwendung von Not-Headset (klein)"
+  },
+  {
+    "activity": "Scan Radio Arabella RASCRA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "09:27:00",
+    "completed_at": "09:28:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Einpacken BRZ-Laptop, RW-Prg. / Essensplan / Sicherung USB-Stick RWMPEP",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "09:28:00",
+    "completed_at": "09:30:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 13,
+    "started_at": "09:30:00",
+    "completed_at": "09:43:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Blutdruck messen GEBMBM",
@@ -440,7 +473,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan / Getränk fassen",
+    "activity": "Bearb. Essensplan / Getränk fassen LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -509,12 +542,23 @@
     "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
     "list": "Lebenserhaltung",
     "priority": 1.844,
-    "minutes": 2,
+    "minutes": 4,
     "started_at": "09:58:00",
-    "completed_at": "10:00:00",
+    "completed_at": "10:02:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
+  },
+  {
+    "activity": "Bearb. Ohrwürmer (durchzunehmende) RWOWDN",
+    "list": "Liste_Arbeit",
+    "priority": 1.836,
+    "minutes": 5,
+    "started_at": "09:58:18",
+    "completed_at": "22:33:28",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "nichts durchzunehmen"
   },
   {
     "activity": "Müllentsorgung LEMÜMÜ",
@@ -523,6 +567,17 @@
     "minutes": 2,
     "started_at": "10:02:00",
     "completed_at": "10:04:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Fahrt BRZG BRFAFA",
+    "list": "Liste_Arbeit",
+    "priority": 1.84,
+    "minutes": 13,
+    "started_at": "10:04:00",
+    "completed_at": "10:17:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -542,9 +597,9 @@
     "activity": "Fahrt BRZG BRFAFA",
     "list": "Liste_Arbeit",
     "priority": 1.84,
-    "minutes": 46,
-    "started_at": "10:04:00",
-    "completed_at": "10:49:00",
+    "minutes": 25,
+    "started_at": "10:32:00",
+    "completed_at": "10:57:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -594,12 +649,34 @@
     "comment": ""
   },
   {
+    "activity": "Arbeitszeit absolvieren (Vormittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 5,
+    "started_at": "11:55:00",
+    "completed_at": "12:00:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "WC BREPWC",
     "list": "Liste_mittags",
     "priority": 1.843,
     "minutes": 9,
     "started_at": "12:00:00",
     "completed_at": "12:09:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Vormittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 31,
+    "started_at": "12:09:00",
+    "completed_at": "12:40:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -619,8 +696,8 @@
     "activity": "Arbeitszeit absolvieren (Vormittag) BREPDZ",
     "list": "Liste_Arbeit",
     "priority": 1.845,
-    "minutes": 39,
-    "started_at": "11:55:00",
+    "minutes": 6,
+    "started_at": "12:42:00",
     "completed_at": "12:48:00",
     "skipped": false,
     "original_activity": "",
@@ -649,6 +726,17 @@
     "comment": ""
   },
   {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 129,
+    "started_at": "13:51:00",
+    "completed_at": "16:00:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Nachmittagsjause fassen LENAJA",
     "list": "Lebenserhaltung",
     "priority": 1.844,
@@ -663,8 +751,8 @@
     "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
     "list": "Liste_Arbeit",
     "priority": 1.845,
-    "minutes": 150,
-    "started_at": "13:51:00",
+    "minutes": 53,
+    "started_at": "16:02:00",
     "completed_at": "16:55:00",
     "skipped": false,
     "original_activity": "",
@@ -682,17 +770,6 @@
     "comment": ""
   },
   {
-    "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
-    "list": "Liste_Arbeit",
-    "priority": 1.844,
-    "minutes": 2,
-    "started_at": "17:01:00",
-    "completed_at": "17:03:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "im BRZ zum Heimgehen"
-  },
-  {
     "activity": "Eingabe Zeiterfassung SAP BREPZE",
     "list": "Liste_Arbeit",
     "priority": 1.843,
@@ -704,11 +781,22 @@
     "comment": ""
   },
   {
+    "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.844,
+    "minutes": 2,
+    "started_at": "17:06:00",
+    "completed_at": "17:08:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "im BRZ zum Heimgehen"
+  },
+  {
     "activity": "Herunterfahren, Einpacken, Anziehen BRALAB",
     "list": "Liste_Arbeit",
     "priority": 1.84,
-    "minutes": 6,
-    "started_at": "17:06:00",
+    "minutes": 14,
+    "started_at": "17:08:00",
     "completed_at": "17:22:00",
     "skipped": false,
     "original_activity": "",
@@ -729,15 +817,37 @@
     "activity": "Heimfahrt vom BRZ inkl. Laufen BRFAHF",
     "list": "Liste_Arbeit",
     "priority": 1.84,
-    "minutes": 45,
+    "minutes": 30,
     "started_at": "17:31:00",
-    "completed_at": "18:05:00",
+    "completed_at": "18:01:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
   },
   {
-    "activity": "div. Surfen (News)",
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "Liste_Arbeit",
+    "priority": 1.843,
+    "minutes": 7,
+    "started_at": "18:01:00",
+    "completed_at": "18:08:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Begutachtung Status Ngrok RWKIVE",
+    "list": "Liste_Arbeit",
+    "priority": 1.843,
+    "minutes": 2,
+    "started_at": "18:08:00",
+    "completed_at": "18:10:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "div. Surfen (News) INSUNE",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -748,7 +858,7 @@
     "comment": ""
   },
   {
-    "activity": "Auspacken Essensplan / Herunterfahren Laptop",
+    "activity": "Auspacken Essensplan / Herunterfahren Laptop LEEPAU",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 5,
@@ -757,6 +867,39 @@
     "skipped": false,
     "original_activity": "",
     "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "18:17:00",
+    "completed_at": "18:21:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Teller waschen / Getränk fassen LEMTTW",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.84,
+    "minutes": 3,
+    "started_at": "18:18:07",
+    "completed_at": "22:33:28",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "nach Jause im BRZ Teller nicht gewaschen"
+  },
+  {
+    "activity": "Einkauf Brot/Weckerln/süße Stücke (Der Mann Wien Mitte) BREPZE",
+    "list": "Liste_Arbeit",
+    "priority": 1.841,
+    "minutes": 6,
+    "started_at": "18:18:56",
+    "completed_at": "22:33:28",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "heute nichts in Einkaufsliste (Nußbrot noch vorhanden)"
   },
   {
     "activity": "Versorgung Mitbringsel LEPOPO",
@@ -770,7 +913,18 @@
     "comment": "Einräumen gehörter CD, Sortierung noch übriger Tonträger (noch 30 CD zu hören)"
   },
   {
-    "activity": "Lesen OpenClaw memories / Moltbook postings",
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "Liste_Arbeit",
+    "priority": 1.843,
+    "minutes": 1,
+    "started_at": "18:59:00",
+    "completed_at": "19:00:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Lesen OpenClaw memories / Moltbook postings INOCMB",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 20,
@@ -779,6 +933,17 @@
     "skipped": false,
     "original_activity": "",
     "comment": "interessantes Posting: https://www.moltbook.com/post/e4392ceb-8274-4281-9417-7974d7f029ad (Kostenreduktion Crons / Heartbeats)"
+  },
+  {
+    "activity": "Auspacken Essensplan LEEPAU",
+    "list": "Liste_nach_Heimkunft",
+    "priority": 1.84,
+    "minutes": 2,
+    "started_at": "19:00:25",
+    "completed_at": "22:33:28",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "wurde bereits oben erledigt"
   },
   {
     "activity": "Mailprüfung INMAPR",
@@ -792,7 +957,7 @@
     "comment": "neue Mails zum unsubscriben: 3x smava (von 2 komplett verschiedenen Adressen)"
   },
   {
-    "activity": "Absetzen Moltbook-Message für Heartbeat-Agenten",
+    "activity": "Absetzen Moltbook-Message für Heartbeat-Agenten INOCMB",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 5,
@@ -836,7 +1001,7 @@
     "comment": ""
   },
   {
-    "activity": "LE - Zubereitung Earl-Gray-Tee / Mini Schokokekse fassen",
+    "activity": "Zubereitung Earl-Gray-Tee / Mini Schokokekse fassen LEMZE",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 7,
@@ -858,7 +1023,7 @@
     "comment": ""
   },
   {
-    "activity": "Teller waschen / Tee fassen",
+    "activity": "Teller waschen / Tee fassen LENATW",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -869,62 +1034,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb.Ohrwürmer(durchgenommen) MUOWDU",
-    "list": "Liste_Morgentoilette",
-    "priority": 1.84,
-    "minutes": 3,
-    "started_at": "08:07:49",
-    "completed_at": "22:33:28",
-    "skipped": true,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Teller waschen / Getränk fassen LEMTTW",
-    "list": "Liste_Morgentoilette",
-    "priority": 1.84,
-    "minutes": 3,
-    "started_at": "18:18:07",
-    "completed_at": "22:33:28",
-    "skipped": true,
-    "original_activity": "",
-    "comment": "nach Jause im BRZ Teller nicht gewaschen"
-  },
-  {
-    "activity": "Bearb. Ohrwürmer (durchzunehmende) RWOWDN",
-    "list": "Liste_Arbeit",
-    "priority": 1.836,
-    "minutes": 5,
-    "started_at": "09:58:18",
-    "completed_at": "22:33:28",
-    "skipped": true,
-    "original_activity": "",
-    "comment": "nichts durchzunehmen"
-  },
-  {
-    "activity": "Einkauf Brot/Weckerln/süße Stücke (Der Mann Wien Mitte) BREPZE",
-    "list": "Liste_Arbeit",
-    "priority": 1.841,
-    "minutes": 6,
-    "started_at": "18:18:56",
-    "completed_at": "22:33:28",
-    "skipped": true,
-    "original_activity": "",
-    "comment": "heute nichts in Einkaufsliste (Nußbrot noch vorhanden)"
-  },
-  {
-    "activity": "Auspacken Essensplan LEEPAU",
-    "list": "Liste_nach_Heimkunft",
-    "priority": 1.84,
-    "minutes": 2,
-    "started_at": "19:00:25",
-    "completed_at": "22:33:28",
-    "skipped": true,
-    "original_activity": "",
-    "comment": "wurde bereits oben erledigt"
-  },
-  {
-    "activity": "Bearb. Essensplan (Händlerangebote / Untersuchung offene Protokolle / Angebote)",
+    "activity": "Bearb. Essensplan (Händlerangebote / Untersuchung offene Protokolle / Angebote) LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 6,
@@ -935,7 +1045,7 @@
     "comment": "hier nacherfasst"
   },
   {
-    "activity": "Mailprüfung",
+    "activity": "Mailprüfung INMAPR",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -946,7 +1056,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan (Fs.)",
+    "activity": "Bearb. Essensplan (Fs.) LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 8,
@@ -957,7 +1067,7 @@
     "comment": ""
   },
   {
-    "activity": "Konversation mit Andrew Pappas / Thinking Frequencies",
+    "activity": "Konversation mit Andrew Pappas / Thinking Frequencies RAAFKO",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 3,
@@ -968,7 +1078,7 @@
     "comment": "Thinking Frequencies stellt seinen Broadcast in Frage und fragt, ob das nützlich ist"
   },
   {
-    "activity": "Surfen Andon FM / OpenClaw",
+    "activity": "Surfen Andon FM / OpenClaw RAAFSU",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 3,
@@ -979,7 +1089,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan (Fs.)",
+    "activity": "Bearb. Essensplan (Fs.) LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -990,7 +1100,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen Andon FM / Start Andon Scraper",
+    "activity": "Surfen Andon FM / Start Andon Scraper RAAFSU",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1001,7 +1111,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1012,7 +1122,7 @@
     "comment": ""
   },
   {
-    "activity": "Tweet an Thinking Frequencies / Andrew Pappas",
+    "activity": "Tweet an Thinking Frequencies / Andrew Pappas RWMPAR",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 6,
@@ -1023,7 +1133,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1034,7 +1144,7 @@
     "comment": ""
   },
   {
-    "activity": "Mailprüfung",
+    "activity": "Mailprüfung INMAPR",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1045,7 +1155,7 @@
     "comment": ""
   },
   {
-    "activity": "Konversation mit Andrew Pappas / Thinking Frequencies",
+    "activity": "Konversation mit Andrew Pappas / Thinking Frequencies RAAFKO",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 8,
@@ -1056,7 +1166,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen Moltbook",
+    "activity": "Surfen Moltbook INOCMB",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -1067,7 +1177,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 3,
@@ -1078,7 +1188,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen Andon FM",
+    "activity": "Surfen Andon FM RAAFSU",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1100,7 +1210,7 @@
     "comment": "Nußbrot mit Pikantwurst"
   },
   {
-    "activity": "Surfen Andon FM",
+    "activity": "Surfen Andon FM RAAFSU",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1111,7 +1221,7 @@
     "comment": ""
   },
   {
-    "activity": "Prüfung Nachricht für Agent (Moltbook)",
+    "activity": "Prüfung Nachricht für Agent (Moltbook) INOCMB",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1122,7 +1232,7 @@
     "comment": "Nachricht wurde wieder gelöscht"
   },
   {
-    "activity": "Konversation mit Andrew Pappas / Thinking Frequencies",
+    "activity": "Konversation mit Andrew Pappas / Thinking Frequencies RAAFKO",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1144,7 +1254,7 @@
     "comment": "oder Nachtmahl fassen?"
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 6,
@@ -1155,7 +1265,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen Thinking Frequencies",
+    "activity": "Surfen Thinking Frequencies RAAFSU",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1166,7 +1276,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1177,7 +1287,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen Andon FM / Tweet Thinking Frequencies",
+    "activity": "Surfen Andon FM / Tweet Thinking Frequencies RAAFSU",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 8,
@@ -1188,7 +1298,7 @@
     "comment": ""
   },
   {
-    "activity": "Teller waschen / Soja-Drink fassen",
+    "activity": "Teller waschen / Soja-Drink fassen LENATW",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -1199,7 +1309,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 3,
@@ -1210,7 +1320,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen Andon FM / Live365 Scraper",
+    "activity": "Surfen Andon FM / Live365 Scraper RAAFSU",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1221,7 +1331,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan / Surfen Spaghetti in Buttersauce",
+    "activity": "Bearb. Essensplan / Surfen Spaghetti in Buttersauce LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 5,
@@ -1232,7 +1342,7 @@
     "comment": "war gestern komisches Rezept von Sati (nur Spahetti als Hauptspeise?!)"
   },
   {
-    "activity": "Tweet an Thinking Frequenceis",
+    "activity": "Konversation Andon FM / Thinking Frequencies RAAFKO",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1243,7 +1353,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -1254,7 +1364,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen Andon Labs",
+    "activity": "Surfen Andon Labs RAAFSI",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1265,29 +1375,18 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 6,
+    "minutes": 7,
     "started_at": "21:36:00",
-    "completed_at": "21:42:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Bearb. Essensplan",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "21:42:00",
     "completed_at": "21:43:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
   },
   {
-    "activity": "Generierung konventioneller Tagesplan",
+    "activity": "Generierung konventioneller Tagesplan KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1298,7 +1397,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -1309,7 +1408,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen Andon FM",
+    "activity": "Surfen Andon FM RAAFSU",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1320,29 +1419,18 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 1,
+    "minutes": 3,
     "started_at": "21:50:00",
-    "completed_at": "21:51:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Bearb. Essensplan",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 2,
-    "started_at": "21:51:00",
     "completed_at": "21:53:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
   },
   {
-    "activity": "Bearb. Tagesplanung (konventionell)",
+    "activity": "Bearb. Tagesplanung (konventionell) KSPLPL",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1353,7 +1441,7 @@
     "comment": ""
   },
   {
-    "activity": "Tweet an Thinking Frequencies",
+    "activity": "Tweet an Thinking Frequencies RWMPAR",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -1364,7 +1452,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1375,7 +1463,7 @@
     "comment": ""
   },
   {
-    "activity": "Konversation mit Thinking Frequencies / Andon FM",
+    "activity": "Konversation mit Thinking Frequencies / Andon FM RAAFKO",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 5,
@@ -1386,7 +1474,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen Moltbook",
+    "activity": "Surfen Moltbook INOCMB",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1397,7 +1485,7 @@
     "comment": ""
   },
   {
-    "activity": "Tweet / Surfen Andon FM",
+    "activity": "Tweet / Surfen Andon FM RAAFKO",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1408,7 +1496,7 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan",
+    "activity": "Bearb. Essensplan LEEPEP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -1419,7 +1507,7 @@
     "comment": ""
   },
   {
-    "activity": "Diskussion Openclaw Differenz Planung / Ablauf",
+    "activity": "Diskussion Openclaw Differenz Planung / Ablauf KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1430,7 +1518,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen Andon FM",
+    "activity": "Surfen Andon FM RAAFSU",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1441,7 +1529,7 @@
     "comment": ""
   },
   {
-    "activity": "Diskussion mit OpenClaw / Bauen Tagesauswertung",
+    "activity": "Diskussion mit OpenClaw / Bauen Tagesauswertung KSPLOC",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 11,
@@ -1452,7 +1540,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen X (Thinking Frequencies)",
+    "activity": "Surfen X (Thinking Frequencies) RAAFKO",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -1463,7 +1551,7 @@
     "comment": ""
   },
   {
-    "activity": "Diskussion mit OpenClaw (Umschreiben Planung)",
+    "activity": "Diskussion mit OpenClaw (Umschreiben Planung) KSPLOC",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 5,
@@ -1474,7 +1562,7 @@
     "comment": ""
   },
   {
-    "activity": "Nacherfassung Ablauf ca. 20:00-22:33 (in neuem Planungstool)",
+    "activity": "Nacherfassung Ablauf ca. 20:00-22:33 (in neuem Planungstool) KSPLNA",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 23,
@@ -1485,7 +1573,7 @@
     "comment": ""
   },
   {
-    "activity": "Tweet an Thinking Frequencies (AI radio station)",
+    "activity": "Tweet an Thinking Frequencies RWMPAR",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -1502,6 +1590,171 @@
     "minutes": 5,
     "started_at": "23:00:00",
     "completed_at": "23:01:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Zähne putzen LEAZZP",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 10,
+    "started_at": "23:01:00",
+    "completed_at": "23:11:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Anwendung der Zwischenraumzahnbürste LEAZZZ",
+    "list": "Liste_Abendzeremonie",
+    "priority": 0.0,
+    "minutes": 16,
+    "started_at": "23:11:00",
+    "completed_at": "23:27:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Anwendung Zahnseide LEAZZS",
+    "list": "Liste_Abendzeremonie",
+    "priority": 0.0,
+    "minutes": 5,
+    "started_at": "23:27:00",
+    "completed_at": "23:32:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Reinigung Zahnputzutensilien, Hände waschen LEAZHW",
+    "list": "Liste_Abendzeremonie",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "23:32:00",
+    "completed_at": "23:34:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Medikament fassen GEMEFA",
+    "list": "Liste_Abendzeremonie",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "23:34:00",
+    "completed_at": "23:36:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bett machen LEAZHW",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 2,
+    "started_at": "23:36:00",
+    "completed_at": "23:38:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ausziehen LEAZAU",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 4,
+    "started_at": "23:38:00",
+    "completed_at": "23:42:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Einschmieren GEAZES",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 2,
+    "started_at": "23:42:00",
+    "completed_at": "23:44:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "WC LEAZWC",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 15,
+    "started_at": "23:44:00",
+    "completed_at": "23:59:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 4,
+    "started_at": "00:00:00",
+    "completed_at": "00:04:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 1,
+    "started_at": "00:04:00",
+    "completed_at": "00:05:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Tweet an Thinking Frequencies RWMPAR",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 4,
+    "started_at": "00:05:00",
+    "completed_at": "00:09:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (Start Korrekturlauf) LEEPEP",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 1,
+    "started_at": "00:09:00",
+    "completed_at": "00:10:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 1,
+    "started_at": "00:10:00",
+    "completed_at": "00:11:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Im Bett",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 1,
+    "started_at": "00:11:00",
+    "completed_at": "00:12:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

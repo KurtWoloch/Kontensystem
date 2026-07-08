@@ -9,12 +9,23 @@
   Geplante Aktivitäten:       97
   Geplante Gesamtzeit:         15h 59m
 
-  ✓ Erledigt (geplant):       58  (   11h 12m)  = 70.1%
-  ⏭ Übersprungen:             10  (    1h 14m)  = 7.7%
+  ✓ Erledigt (geplant):       59  (   11h 13m)  = 70.2%
+  ⏭ Übersprungen:              9  (    1h 13m)  = 7.6%
   ✗ Nicht erreicht:           29  (    3h 33m)  = 22.2%
 
-  📝 Ungeplante Aktivitäten:   0  (        0m)
-  ⏱  Tatsächliche Arbeitszeit:     8h 56m
+  📝 Ungeplante Aktivitäten:  66  (    8h 08m)
+  ⏱  Plan-Ausführungszeit:        3h 15m
+  ⏱  Tatsächliche Arbeitszeit:    11h 23m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  Überschneidungen (1):
+    • 1 min Überschneidung
+      zwischen: WC LEMTWC (17:24–17:26)
+      und:      WC BREPWC (17:25–17:26)
+
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -23,21 +34,99 @@
   Aktivität                           Geplant Tatsächl.    Drift
   ─────────────────────────────────── ─────── ───────── ────────
   Blutdruck messen GEBMBM               09:28     21:16 +11h 48m
-  WC BREPWC                             12:21     20:37  +8h 16m
-  WC BREPWC (Fs.)                       12:30     20:37  +8h 07m
-  Der Außentemperatur entsprechend an   12:34     20:41  +8h 07m
-  Laufen / Scootersuche GEGYLS          12:36     20:37  +8h 01m
-  WC BREPWC                             14:21     20:37  +6h 16m
-  Bearb. Essensplan (gegessen, zu ess   06:52     12:56  +6h 04m
-  Anhören Radiosender / Radio Würmche   06:48     12:24  +5h 36m
-  Einschmieren GEMTES                   07:44     13:03  +5h 19m
-  Mailprüfung INMAPR                    09:15     13:08  +3h 53m
-  Einlass / Koordination Sati Ersoy W   12:26     09:28  -2h 58m
+  WC LEMTWC                             08:53     17:24  +8h 31m
+  Der Außentemperatur entsprechend an   12:34     20:37  +8h 03m
+  Laufen / Scootersuche GEGYLS          12:36     20:39  +8h 03m
+  Bearb. Essensplan (gegessen, zu ess   06:52     12:43  +5h 51m
+  Anhören Radiosender / Radio Würmche   06:48     12:12  +5h 24m
+  Einschmieren GEMTES                   07:44     13:02  +5h 18m
+  WC BREPWC                             12:21     17:25  +5h 04m
+  Mailprüfung INMAPR                    09:15     13:06  +3h 51m
   Planung BRZ BREPGM                    11:20     14:07  +2h 47m
   Verabschiedung / Zahlung Sati Ersoy   09:38     12:10  +2h 32m
-  Papiersortierung WFPAPA               08:23     10:41  +2h 18m
   Termine in Kalender prüfen LEMTTP     09:14     07:15  -1h 59m
-  ... und 43 weitere
+  Papiersortierung WFPAPA               08:23     10:21  +1h 58m
+  Vorbereitung Playlist für Hören unt   06:56     08:51  +1h 55m
+  Teller waschen / Getränk + Medikame   20:23     22:07  +1h 44m
+  ... und 40 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Arbeit an Tagesplanung / Planer-Entwickl   5h 23m
+  Arbeitszeit absolvieren (Nachmittag) BRE   4h 12m
+  Laufen / Scooter- und E-Bike-Suche (von       34m
+  Mittagessen (von Sati gekocht) LEMESE         23m
+  Ermittlung Gesamtzeiten (wenn nicht am M      23m
+  Abhalten BKDD Standup Meeting BREPGM (Ve      21m
+  Abhalten BKDD Standup Meeting BREPGM          20m
+  Frühstücken, dabei Vorbereitung Candeblo      18m
+  Nacherfassung Ablauf KSPLNA                   17m
+  Duschen LEMTDU                                16m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Papiersortierung WFPAPA                       15m
+  Arbeitszeit absolvieren (Nachmittag) BRE      15m
+  Rasieren, dabei Planung (Diskussion mit       14m
+  Abschluss BRALAB (Verlängerung)               13m
+  Reinigung Zahnputzutensilien, Hände wasc      12m
+  Planung BRZ BREPGM                            10m
+  Papiersortierung WFPAPA (Verlängerung)        10m
+  Bearb. Essensplan (gegessen, zu essen, S       9m
+  Zähne putzen LEAZZP                            8m
+  ... und 58 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  KSPLEN         5h 24m
+  BREPDZ         4h 27m
+  BREPGM            51m
+  GEGYLS            37m
+  WFPAPA            25m
+  LEMTFR            23m
+  LEMESE            23m
+  KSAEEG            23m
+  KSPLNA            19m
+  LEMTDU            16m
+  LEAZZZ            16m
+  LEAZHW            16m
+  BREPZE            15m
+  BRALAB            15m
+  LEMTRA            14m
+  LEEPEP            13m
+  BREPZS             9m
+  LEMTAZ             8m
+  LEAZZP             8m
+  BRALWC             7m
+  ... und 36 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  BR         6h 08m
+  KS         6h 06m
+  LE         3h 14m
+  GE            41m
+  WF            34m
+  RW             5m
+  IN             3m
+  RA             3m
+  (–)            1m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -63,6 +152,40 @@
     Grund: (kein Grund)
   ⏭ PC herunterfahren LEAZHF
     Grund: (kein Grund)
+
+╔═══════════════════════════════════════════════════════╗
+║  UNGEPLANTE AKTIVITÄTEN                               ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Arbeit an Tagesplanung / Planer-Entwicklung K   5h 23m     35 06:46–22:40  
+  Ermittlung Gesamtzeiten (wenn nicht am Montag      23m      4 21:20–21:54  
+  Abhalten BKDD Standup Meeting BREPGM (Verläng      21m      1 11:00–11:41  
+  Nacherfassung Ablauf KSPLNA                        17m      4 20:34–23:24  
+  Arbeitszeit absolvieren (Nachmittag) BREPDZ (      15m      1 17:39–19:03  
+  Abschluss BRALAB (Verlängerung)                    13m      1 20:09–20:24  
+  Reinigung Zahnputzutensilien, Hände waschen L      12m      1 23:01–23:15  
+  Papiersortierung WFPAPA (Verlängerung)             10m      1 10:21–10:46  
+  Bearb. Essensplan (gegessen, zu essen, Start        9m      1 12:43–12:56  
+  Ausziehen LEMTAZ (Verlängerung)                     7m      1 08:23–08:31  
+  Eingabe Zeiterfassung SAP BREPZE (Verlängerun       7m      1 19:54–20:05  
+  Teller waschen / Getränk fassen LENATW (Verlä       5m      1 11:50–11:55  
+  Bearb. Essensplan (gegessen / Lokalsuche / Ko       4m      2 15:50–20:34  
+  Versorgung Mitbringsel LEPOPO                       4m      1 22:13–22:17  
+  Laufen / Scooter- und E-Bike-Suche (von Jugen       3m      1 20:39–21:16  
+  Ansehen Youtube-Videos RAYTYT (Verlängerung)        3m      1 21:31–21:34  
+  Nacherfassung Ablauf KSPLNA (Verlängerung)          2m      1 12:08–12:10  
+  Zeiten sammeln BREPZS (Verlängerung)                2m      1 19:07–19:16  
+  Eingabe Teleworking SAP BREPZE (Verlängerung)       2m      1 20:05–20:09  
+  Anziehen LEMTAN (Verlängerung)                      1m      1 09:11–09:15  
+  Bearb. Essensplan (Kontrolle / zu essen / Kor       1m      1 11:47–11:48  
+  Untersuchung Geburtstage Sati+Familie WFPUGE        1m      1 12:03–12:04  
+  Mailprüfung INMAPR (Verlängerung)                   1m      1 13:09–13:10  
+  Befragung Arena.AI heutige RW-Playlist RWPLPL       1m      1 21:22–21:23  
+  Nachtmahl fassen LENANA (Verlängerung)              1m      1 21:36–21:40  
+
+  Gesamt ungeplant: 8h 08m über 66 Einträge / 25 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

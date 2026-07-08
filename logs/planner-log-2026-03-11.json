@@ -77,7 +77,7 @@
     "comment": ""
   },
   {
-    "activity": "Untersuchung Andon FM",
+    "activity": "Analyse Andon FM RWPLAF",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -99,7 +99,7 @@
     "comment": ""
   },
   {
-    "activity": "Untersuchung Andon FM",
+    "activity": "Analyse Andon FM RWPLAF",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
@@ -110,7 +110,7 @@
     "comment": "Backlink Broadcast hat $3,50 Funding dazu bekommen"
   },
   {
-    "activity": "Review Album Achtung Baby (U2)",
+    "activity": "Review Album Achtung Baby (U2) TVAFAN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -1221,6 +1221,50 @@
     "comment": "Holundersaft zuckerfrei + Medikament"
   },
   {
+    "activity": "Analyse Andon FM RWPLAF",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "20:59:00",
+    "completed_at": "21:01:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Tweet an Backlink Broadcast RWMPAR",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "21:01:00",
+    "completed_at": "21:03:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw (Tagesereignisse) INOCDT",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 7,
+    "started_at": "21:03:00",
+    "completed_at": "21:10:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "21:10:00",
+    "completed_at": "21:11:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Teller waschen / Getränk + Medikament fassen LENATW",
     "list": "Lebenserhaltung",
     "priority": 1.844,
@@ -1276,6 +1320,17 @@
     "comment": ""
   },
   {
+    "activity": "Diskussion OpenClaw (Tagesereignisse) INOCDT",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 6,
+    "started_at": "21:30:00",
+    "completed_at": "21:36:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Bearb. Library Andon FM RWPLAF",
     "list": "ungeplant",
     "priority": 0.0,
@@ -1304,6 +1359,61 @@
     "minutes": 2,
     "started_at": "22:21:00",
     "completed_at": "22:23:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw (Tagesereignisse) INOCDT",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "22:23:00",
+    "completed_at": "22:24:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "22:24:00",
+    "completed_at": "22:25:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw (Tagesereignisse) INOCDT",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "22:25:00",
+    "completed_at": "22:26:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "22:26:00",
+    "completed_at": "22:28:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw (Tagesereignisse) INOCDT",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "22:28:00",
+    "completed_at": "22:30:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1491,6 +1601,72 @@
     "minutes": 5,
     "started_at": "23:39:00",
     "completed_at": "23:41:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen YouTube-Videos RAYTYT",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:41:00",
+    "completed_at": "23:42:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Diskussion OpenClaw (Tagesereignisse) INOCDT",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "23:42:00",
+    "completed_at": "23:44:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen YouTube-Videos RAYTYT",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:44:00",
+    "completed_at": "23:45:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "div. Surfen (News) INSUNE",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:45:00",
+    "completed_at": "23:46:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Div. Surfen INSUSU",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:46:00",
+    "completed_at": "23:47:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Ansehen YouTube-Videos RAYTYT",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:47:00",
+    "completed_at": "23:48:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

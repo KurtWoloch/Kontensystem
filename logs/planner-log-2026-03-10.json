@@ -132,6 +132,17 @@
     "comment": ""
   },
   {
+    "activity": "Analyse Andon FM RWPLAF",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "06:42:00",
+    "completed_at": "06:45:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Analyse Thinking Frequencies RWMPMP",
     "list": "ungeplant",
     "priority": 0.0,
@@ -1722,6 +1733,61 @@
     "minutes": 2,
     "started_at": "23:25:00",
     "completed_at": "23:25:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan LEEPEP",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 3,
+    "started_at": "23:25:00",
+    "completed_at": "23:28:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Korrektur / Test Andon FM-Scraper RWAFAN",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:28:00",
+    "completed_at": "23:29:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan LEEPEP",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:29:00",
+    "completed_at": "23:30:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Mail Ewigen Speiseplan an Michael Kainz LEPLES",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:30:00",
+    "completed_at": "23:31:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Analyse Andon FM RWPLAF",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:31:00",
+    "completed_at": "23:32:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

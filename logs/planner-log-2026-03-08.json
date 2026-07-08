@@ -715,7 +715,7 @@
     "comment": "bis Seite 3 gekommen (Vorgeschichte bis Anfang der Systematisierung)"
   },
   {
-    "activity": "Diskussion mit OpenClaw über Sicherung der Planungs-Logs",
+    "activity": "Diskussion mit OpenClaw über Sicherung der Planungs-Logs KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 13,
@@ -902,17 +902,6 @@
     "comment": ""
   },
   {
-    "activity": "Begutach",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 223,
-    "started_at": "17:56:00",
-    "completed_at": "21:39:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Konversation Andon FM / Thinking Frequencies RAAFKO",
     "list": "ungeplant",
     "priority": 0.0,
@@ -946,17 +935,6 @@
     "comment": ""
   },
   {
-    "activity": "Beguta",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "18:30:00",
-    "completed_at": "18:31:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Begutachtung PLanung-Logs KSPLPL",
     "list": "ungeplant",
     "priority": 0.0,
@@ -968,34 +946,12 @@
     "comment": ""
   },
   {
-    "activity": "Begu",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 194,
-    "started_at": "18:30:00",
-    "completed_at": "21:44:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Scan Thinking Frequencies RWMPMP",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
     "started_at": "18:31:00",
     "completed_at": "18:32:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Scan Thin",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 193,
-    "started_at": "18:31:00",
-    "completed_at": "21:44:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1144,7 +1100,7 @@
     "comment": ""
   },
   {
-    "activity": "Begutachtung Master Task List",
+    "activity": "Begutachtung Master Task List KSPLMT",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 3,
@@ -1573,10 +1529,10 @@
     "comment": ""
   },
   {
-    "activity": "Nacherfassung Ablauf",
+    "activity": "Nacherfassung Ablauf KSPLNA",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
-    "minutes": 5,
+    "minutes": 4,
     "started_at": "21:37:00",
     "completed_at": "21:41:00",
     "skipped": false,
@@ -1848,6 +1804,28 @@
     "comment": ""
   },
   {
+    "activity": "Mund ausspülen LEAZMA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "23:50:00",
+    "completed_at": "23:52:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "WC LEAZWC",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 7,
+    "started_at": "23:52:00",
+    "completed_at": "23:59:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Bearb.Ohrwürmer (durchzunehmende aus Charts) RWOWDC",
     "list": "Liste_Abendzeremonie",
     "priority": 1.834,
@@ -1923,27 +1901,5 @@
     "skipped": true,
     "original_activity": "",
     "comment": "wird nicht heruntergefahren wg. RW KI"
-  },
-  {
-    "activity": "WC LEAZWC",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 9,
-    "started_at": "23:50:00",
-    "completed_at": "23:59:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Mund ausspülen LEAZMA",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 2,
-    "started_at": "23:50:00",
-    "completed_at": "23:52:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
   }
 ]

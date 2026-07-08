@@ -2279,3 +2279,7 @@
 {"ts": "2026-03-10T23:32:33", "hwnd": 2295198, "title": "Tagesplanung — Reaktiver Planer", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-10T23:32:36", "hwnd": 11208128, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-10T23:32:41", "hwnd": 2295198, "title": "", "process": "", "browser": ""}
+{"ts": "2026-07-04T15:01:32", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-04T15:01:32", "hwnd": 23134650, "title": "Timeline Nacherfassung — 2026-03-10", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-04T15:02:14", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 42, "idle_start": "2026-07-04T15:01:32"}
+{"ts": "2026-07-04T15:02:14", "hwnd": 23134650, "title": "Timeline Nacherfassung — Off-PC — 2026-03-10", "process": "python.exe", "browser": ""}

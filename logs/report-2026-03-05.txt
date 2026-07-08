@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      101
   Geplante Gesamtzeit:         14h 26m
 
-  ✓ Erledigt (geplant):       48  (    4h 42m)  = 32.6%
-  ⏭ Übersprungen:             27  (    6h 32m)  = 45.3%
+  ✓ Erledigt (geplant):       53  (    8h 30m)  = 58.9%
+  ⏭ Übersprungen:             22  (    2h 44m)  = 18.9%
   ✗ Nicht erreicht:           26  (    3h 12m)  = 22.2%
 
-  📝 Ungeplante Aktivitäten:  29  (    8h 31m)
-  ⏱  Tatsächliche Arbeitszeit:     5h 09m
+  📝 Ungeplante Aktivitäten:  49  (    9h 28m)
+  ⏱  Plan-Ausführungszeit:        6h 06m
+  ⏱  Tatsächliche Arbeitszeit:    15h 34m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -22,22 +29,102 @@
 
   Aktivität                           Geplant Tatsächl.    Drift
   ─────────────────────────────────── ─────── ───────── ────────
-  Mailprüfung INMAPR                    08:51     20:36 +11h 45m
   Mailprüfung INMAPR (Fs.)              09:00     20:36 +11h 36m
   Prüfung Bewässerung Terrasse WFTEBE   09:01     20:36 +11h 35m
-  Prüfung Bewässerung Terrasse WFTEBE   09:07     20:36 +11h 29m
   Bearb. Liste auswendig singbarer Ti   09:10     20:39 +11h 29m
+  Mailprüfung INMAPR                    08:51     20:01 +11h 10m
   Blutdruck messen GEBMBM               09:49     12:41  +2h 52m
   Bearb. Essensplan (gegessen, zu ess   10:24     12:58  +2h 34m
+  Bearb. Essensplan (gegessen / Lokal   10:31     12:51  +2h 20m
   Mund spülen LEMTMS                    09:03     10:50  +1h 47m
   Häferl waschen / Hustenbonbon fasse   09:05     10:51  +1h 46m
-  WC BREPWC                             14:21     12:47  -1h 34m
+  Arbeitszeit absolvieren (Nachmittag   14:30     16:16  +1h 46m
+  WC LEMTWC                             09:20     10:53  +1h 33m
   Geschirr abwaschen LEMEGA             14:16     15:43  +1h 27m
   Bearb. Essensplan (gegessen, zu ess   07:03     08:25  +1h 22m
   Vorbereitung Playlist für Singen un   07:07     08:28  +1h 21m
   Ausputzen Rasierer LEMTAR             07:33     08:51  +1h 18m
-  Termine in Kalender prüfen LEMTTP     08:50     10:08  +1h 18m
-  ... und 33 weitere
+  ... und 34 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Arbeitszeit absolvieren (Nachmittag) BRE   2h 40m
+  Review Dokumentation BRZG KSBRDR           1h 32m
+  Mittagessen (Pizzeria Dominous) LEMEPD        53m
+  Arbeitszeit absolvieren (Nachmittag) BRE      53m
+  Weiterentwicklung Planungstool mit OpenC      49m
+  Nacherfassung Ablauf KSPLNA                   37m
+  Arbeitszeit absolvieren (Vormittag) BREP      36m
+  Erweiterung Tagesplanung mit OpenClaw KS      35m
+  Arbeit an Tagesplanung KSPLEN                 35m
+  Laufen / Scootersuche GEGYLS                  32m
+  Entwickllung Tagesplanung mit OpenClaw (      28m
+  Arbeit an Dokumentation u.a. mit OpenCla      26m
+  Verbesserung Tagesplaner mit OpenClaw KS      23m
+  Duschen LEMTDU                                20m
+  Erweiterung Tagesplaner mit OpenClaw KSP      18m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Planung: Lesen Report Unterschied KS-Dok      16m
+  Rasieren, dabei Planung (Bugfixing mit O      15m
+  Vorbereitung Playlist für Singen unter d      14m
+  Frühstücken, dabei Vorbereitung Candeblo      14m
+  ... und 60 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  BREPDZ         4h 09m
+  KSPLEN         3h 39m
+  KSBRDR         1h 37m
+  LEMEPD            53m
+  KSPLNA            37m
+  GEGYLS            32m
+  KSPLPL            28m
+  LEMTFR            23m
+  KSPLAW            23m
+  LEMTRA            21m
+  LEMTDU            20m
+  LEAZZZ            19m
+  MUOWPL            14m
+  BREPGM            14m
+  LEAZZP            10m
+  INOCMB            10m
+  LEMTWC             8m
+  LEEPLS             7m
+  LEAZHW             6m
+  RASCRA             6m
+  ... und 35 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  KS         6h 44m
+  BR         4h 27m
+  LE         3h 36m
+  GE            36m
+  MU            17m
+  IN            11m
+  RA            10m
+  WF             6m
+  TV             5m
+  CS             3m
+  RW             2m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -57,12 +144,12 @@
     Grund: schon erfasst
   ⏭ Nachmittagsjause fassen LENAJA
     Grund: heute nichts eingekauft
-  ⏭ Teller waschen / Getränk + Biovital fassen LE
-    Grund: während Arbeitszeit erledigt
   ⏭ Einkauf Brot/Weckerln/süße Stücke (Ströck / D
     Grund: heute nichts eingekauft
   ⏭ Ansehen ZiB 1 + Wetter RATVZI
     Grund: heute nicht angesehen, da noch Teleworking
+  ⏭ Teller waschen / Getränk + Biovital fassen LE
+    Grund: während Arbeitszeit erledigt
   ⏭ Teller waschen / Getränk + Medikament fassen 
     Grund: schon durchgeführt
   ⏭ Bearb. Ohrwürmer (durchzunehmende) RWOWDN
@@ -102,35 +189,44 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 07:04–07:27  Verbesserung Tagesplaner mit OpenClaw  — unterbrochen von WC
-  📝 07:27–07:29  Rasieren
-  📝 07:29–08:07  Erweiterung Tagesplanung mit OpenClaw
-  📝 08:09–08:23  Erweiterung Tagesplaner mit OpenClaw
-  📝 08:23–08:25  Wasser fassen
-  📝 09:18–09:21  Anziehen LEMTAN
-  📝 09:49–09:59  Arbeit mit OpenClaw an Moltbook-Bug (New
-  📝 09:59–10:03  Arbeit mit OpenClaw an Planner
-  📝 10:03–10:05  Scan Radio Arabella
-  📝 10:05–10:07  Planung KSPLPL
-  📝 10:07–10:08  Scan Radio Arabella RASCRA
-  📝 10:09–10:10  Planung KSPLPL
-  📝 10:10–10:22  Begutachtung Tagesbericht / Vorschläge a
-  📝 10:22–10:24  Scan Radio Arabella
-  📝 10:24–10:50  Arbeit an Dokumentation u.a. mit OpenCla
-  📝 10:56–11:00  Jause fassen LEMTJF  — nur Getränk
-  📝 11:14–12:03  Weiterentwicklung Planungstool mit OpenC
-  📝 12:39–12:47  Nacherfassung Aufwand
-  📝 12:51–12:58  Bearb. Essensplan (gegessen / Lokalsuche  — -> Pizzeria Dominous, Pizza Frutti di mare + Eistee (Händlerangebote aktualisieren!), nichts einzukaufen (Pumpernickel spreizen, Holundersirup fehlt)
-  📝 13:03–13:38  Arbeit an Tagesplanung KSPLEN  — Vorschläge zur Verarbeitung der Dokumentationen und Korrektur Kontenkürzel
-  📝 13:38–13:41  WC LEMTWC
-  📝 13:50–14:45  Mittagessen (Pizzeria Dominous)  — Ausgaben: Pizza Frutti di Mare + Realmix Eistee = € 10,- (?!) + Tg. = € 11,-
-  📝 15:17–15:43  Entwickllung Tagesplanung mit OpenClaw (
-  📝 13:41–15:50  Planung / Begutachtung Doc_Ref_Report KS
-  📝 15:45–15:57  Bearb. Tagesplan (Cross-Referencing undo  — längste Aktivitiät = Arbeit im / für BRZ
-  📝 15:57–16:06  Nacherfassung Ablauf KSPLNA
-  📝 16:10–16:15  Einplanung Dokumentenreview BRZG KSBRDR  — Dokumentenreview ist selbst ungeplant
-  📝 19:44–20:00  Planung: Lesen Report Unterschied KS-Dok  — keine Unterschiede, was Planung betrifft
-  📝 20:15–20:26  Nacherfassung Ablauf KSPLNA
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Review Dokumentation BRZG KSBRDR                1h 32m      1 20:51–22:23  
+  Mittagessen (Pizzeria Dominous) LEMEPD             53m      1 13:52–14:45  
+  Arbeitszeit absolvieren (Nachmittag) BREPDZ (      53m      3 18:14–20:15  
+  Weiterentwicklung Planungstool mit OpenClaw K      49m      1 11:14–12:03  
+  Nacherfassung Ablauf KSPLNA                        37m      6 12:39–22:25  
+  Erweiterung Tagesplanung mit OpenClaw KSPLEN       35m      1 07:29–08:04  
+  Arbeit an Tagesplanung KSPLEN                      35m      1 13:03–13:38  
+  Entwickllung Tagesplanung mit OpenClaw (Erklä      28m      2 15:17–17:06  
+  Arbeit an Dokumentation u.a. mit OpenClaw KSP      26m      1 10:24–10:50  
+  Verbesserung Tagesplaner mit OpenClaw KSPLAW       23m      1 07:04–07:27  
+  Erweiterung Tagesplaner mit OpenClaw KSPLEN        18m      1 08:05–08:23  
+  Planung: Lesen Report Unterschied KS-Dokument      16m      1 19:44–20:00  
+  Abhalten BKDD Standup Meeting BRZ BREPGM           14m      1 11:00–11:14  
+  Begutachtung Tagesbericht / Vorschläge an Ope      12m      1 10:10–10:22  
+  Bearb. Tagesplan (Cross-Referencing undokumen      12m      1 15:45–15:57  
+  Arbeit mit OpenClaw an Moltbook-Bug (New Foll      10m      1 09:49–09:59  
+  Planung / Begutachtung Doc_Ref_Report KSPLPL        9m      1 13:41–13:50  
+  Scan Radio Arabella RASCRA                          6m      4 10:03–16:16  
+  Einplanung Dokumentenreview BRZG KSBRDR             5m      1 16:10–16:15  
+  Rasieren, dabei Planung (Bugfixing mit OpenCl       4m      1 06:45–07:04  
+  Arbeit mit OpenClaw an Planner KSPLEN               4m      1 09:59–10:03  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       3m      1 08:42–08:51  
+  Planung KSPLPL                                      3m      2 10:05–10:10  
+  Surfen Molt.chess CSSUMC                            3m      2 16:52–17:11  
+  Bearb. Radio Würmchen KI RARWKI                     3m      3 17:46–19:14  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       3m      1 22:37–22:56  
+  Rasieren LEMTRA                                     2m      1 07:27–07:29  
+  Wasser fassen LEMTGA                                2m      1 08:23–08:25  
+  Nachtmahl fassen LENANA (Verlängerung)              2m      1 20:26–20:31  
+  Reinigung Zahnputzutensilien, Hände waschen L       2m      1 23:01–23:05  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:43–06:45  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            1m      1 08:51–08:54  
+  Bett machen LEMTBM (Verlängerung)                   1m      1 09:22–09:26  
+  Analyse Andon FM RWPLAF                             1m      1 20:00–20:01  
+
+  Gesamt ungeplant: 9h 28m über 49 Einträge / 34 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

@@ -618,3 +618,19 @@
 {"ts": "2026-03-09T23:26:30", "hwnd": 1183588, "title": "Aufgabe erledigt", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-09T23:26:32", "hwnd": 13502576, "title": "Tagesplanung — Reaktiver Planer", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-09T23:26:35", "hwnd": 1249124, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-04T14:51:47", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-04T14:51:47", "hwnd": 14487252, "title": "Tagesplanung — Off-PC — Zeiten sammeln / Eingabe Zeiterfassung SAP BREPZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-04T14:52:21", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 34, "idle_start": "2026-07-04T14:51:47"}
+{"ts": "2026-07-04T14:52:21", "hwnd": 4067196, "title": "Tagesbericht — Off-PC — 2026-03-09", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-04T14:54:38", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-04T14:54:38", "hwnd": 14487252, "title": "Tagesplanung — Off-PC — Zeiten sammeln / Eingabe Zeiterfassung SAP BREPZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-04T14:55:05", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 26, "idle_start": "2026-07-04T14:54:38"}
+{"ts": "2026-07-04T14:55:05", "hwnd": 14487252, "title": "Tagesplanung — Reaktiver Planer — Zeiten sammeln / Eingabe Zeiterfassung SAP BREPZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-04T14:55:43", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-04T14:55:43", "hwnd": 14487252, "title": "Tagesplanung — Off-PC — Zeiten sammeln / Eingabe Zeiterfassung SAP BREPZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-04T14:56:15", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 32, "idle_start": "2026-07-04T14:55:43"}
+{"ts": "2026-07-04T14:56:15", "hwnd": 14487252, "title": "Tagesplanung — Reaktiver Planer — Zeiten sammeln / Eingabe Zeiterfassung SAP BREPZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-04T14:56:28", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-04T14:56:28", "hwnd": 14487252, "title": "Tagesplanung — Off-PC — Zeiten sammeln / Eingabe Zeiterfassung SAP BREPZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-04T14:57:13", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 45, "idle_start": "2026-07-04T14:56:28"}
+{"ts": "2026-07-04T14:57:13", "hwnd": 14487252, "title": "Tagesplanung — Reaktiver Planer — Zeiten sammeln / Eingabe Zeiterfassung SAP BREPZS", "process": "python.exe", "browser": ""}

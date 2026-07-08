@@ -61,5 +61,12 @@
     "end": "22:22",
     "original": "Diskussion OpenClaw KSPLEN",
     "corrected": "Diskussion Planer mit OpenClaw KSPLEN"
+  },
+  {
+    "ts": "2026-04-09T21:33:00",
+    "start": "12:17",
+    "end": "12:18",
+    "original": "Blutdruck messen GEBMBM",
+    "corrected": "Analysen in Arena AI INSUAI"
   }
 ]
