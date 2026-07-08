@@ -645,6 +645,10 @@ AUTODETECT_RULES = [
      _title_contains_any(t, "Kontensystem", "Konten"),
      "KS", "Bearb. Kontensystem (Access) KSAAKO"),
 
+    (lambda t, p, b: p.lower() == "msaccess.exe" and
+     _title_contains_any(t, "Titel", "Scan", "Wunsch", "Wuensch", "Hörgeschichte", "Hoergeschichte", "rw_verknuepfung", "Andon", "Ohrwurm", "Ohrwürmer", "Ohrwuerm", "Musik", "Aehnlich"),
+     "RW", "Analyse Andon FM RWPLAF"),
+
     # Unknown Access DB → almost always Essensplan
     # Same name as Notepad Essensplan rule so adjacent blocks merge
     (lambda t, p, b: p.lower() == "msaccess.exe",
