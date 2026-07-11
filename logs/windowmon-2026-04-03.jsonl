@@ -1963,3 +1963,7 @@
 {"ts": "2026-04-03T23:37:21", "hwnd": 4260890, "title": "Aufgabe erledigt — im Bett", "process": "python.exe", "browser": ""}
 {"ts": "2026-04-03T23:37:25", "hwnd": 21433566, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Tonträger / Ansehen Youtube-Videos RWMPMP", "process": "python.exe", "browser": ""}
 {"ts": "2026-04-03T23:37:29", "hwnd": 9045636, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T21:22:02", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-09T21:22:02", "hwnd": 15339050, "title": "Tagesplanung — Off-PC — Zeiten sammeln / Eingabe Zeiterfassung SAP BREPZS", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T21:23:00", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 58, "idle_start": "2026-07-09T21:22:02"}
+{"ts": "2026-07-09T21:23:00", "hwnd": 15339050, "title": "Tagesplanung — Reaktiver Planer — Zeiten sammeln / Eingabe Zeiterfassung SAP BREPZS", "process": "python.exe", "browser": ""}

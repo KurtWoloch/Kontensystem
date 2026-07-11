@@ -3373,3 +3373,11 @@
 {"ts": "2026-03-25T23:59:55", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 315, "idle_start": "2026-03-25T23:54:40"}
 {"ts": "2026-03-25T23:59:55", "hwnd": 17565908, "title": "Tagesplanung — Reaktiver Planer — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-25T23:59:56", "hwnd": 36571686, "title": "Aufgabe erledigt — Vorbereitung Zähne putzen LEAZVZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T17:48:41", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-09T17:48:41", "hwnd": 18547166, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T17:49:24", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 43, "idle_start": "2026-07-09T17:48:41"}
+{"ts": "2026-07-09T17:49:24", "hwnd": 18547166, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T17:51:21", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-09T17:51:21", "hwnd": 18547166, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T17:53:07", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 105, "idle_start": "2026-07-09T17:51:21"}
+{"ts": "2026-07-09T17:53:07", "hwnd": 18547166, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger RWMPMP", "process": "python.exe", "browser": ""}

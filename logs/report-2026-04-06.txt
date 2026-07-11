@@ -13,8 +13,15 @@
   ⏭ Übersprungen:              8  (       28m)  = 2.9%
   ✗ Nicht erreicht:           53  (    8h 18m)  = 51.2%
 
-  📝 Ungeplante Aktivitäten:   9  (       26m)
-  ⏱  Tatsächliche Arbeitszeit:    16h 37m
+  📝 Ungeplante Aktivitäten: 136  (   12h 17m)
+  ⏱  Plan-Ausführungszeit:        4h 03m
+  ⏱  Tatsächliche Arbeitszeit:    16h 20m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -29,15 +36,15 @@
   Ermittlung Gesamtzeiten KSAEEG        09:34     20:41 +11h 07m
   Bearb. Essensplan (Kontrolle / zu e   10:02     21:01 +10h 59m
   Ermittlung Gesamtzeiten KSAEEG (Fs.   09:50     20:47 +10h 57m
-  WC LEMTWC                             09:11     16:43  +7h 32m
+  WC LEMTWC                             09:51     16:43  +6h 52m
+  WC LEMTWC (Fs.)                       09:21     15:25  +6h 04m
   Wohnung lüften WFLULU                 15:39     21:28  +5h 49m
   Bearb. Essensplan (Update Händleran   15:58     21:31  +5h 33m
   Bearb. Essensplan (Update Händleran   16:04     21:34  +5h 30m
+  WC LEMTWC                             09:11     13:31  +4h 20m
   Wohnung lüften WFLULU                 08:57     12:06  +3h 09m
   Mailprüfung INMAPR                    09:32     12:14  +2h 42m
-  Termine in Kalender prüfen LEMTTP     09:31     12:12  +2h 41m
-  Bearb. Essensplan (gegessen, zu ess   09:01     11:36  +2h 35m
-  ... und 41 weitere
+  ... und 43 weitere
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
@@ -45,27 +52,27 @@
 
   Aktivität                                    Zeit
   ──────────────────────────────────────── ────────
-  Weiterentwicklung Radio Würmchen KI (Gem   3h 59m
+  Weiterentwicklung Radio Würmchen KI (Gem   4h 00m
   Nacherfassung Ablauf KSPLNA                1h 56m
-  Geschirr abwaschen LEMEGA                  1h 04m
-  Laufen / Scootersuche GEGYLS                  47m
+  Geschirr abwaschen LEMEGA (Verlängerung)      59m
   Diskussion Vortag mit OpenClaw KSPLAW         46m
-  Bearb. Essensplan (Update Händlerangebot      44m
   Scan Radio Würmchen KI RASCRW                 42m
   Arbeit an Tagesplanung / Planer-Entwickl      37m
-  Bearb. Essensplan (gegessen, zu essen, S      34m
+  Laufen / Scootersuche GEGYLS                  34m
+  Bearb. Essensplan (Update Händlerangebot      33m
   Mittagessen (selbst kochen / kalt) LEMES      28m
-  Surfen Andon FM RAAFSU                        26m
-  Duschen LEMTDU                                23m
+  Surfen Andon FM RAAFSU                        25m
   Lesen Memories von OpenClaw INOCMM            21m
+  Duschen LEMTDU                                20m
   Frühstücken, dabei Vorbereitung Candeblo      20m
-  Ermittlung Gesamtzeiten KSAEEG                19m
-  Rasieren, dabei Planung + Vortagesreview      18m
+  Bearb. Essensplan (gegessen, zu essen, S      20m
   WC LEMTWC                                     17m
   Anwendung der Zwischenraumzahnbürste LEA      16m
-  Feinschliff bei der Rasur LEMTFR              14m
-  Zähne putzen LEAZZP                           10m
-  ... und 46 weitere Aktivitäten
+  Rasieren, dabei Planung + Vortagesreview      15m
+  Bearb. Essensplan (gegessen, zu essen, S      14m
+  Laufen / Scootersuche GEGYLS (Verlängeru      13m
+  Bearb. Essensplan (Update Händlerangebot      11m
+  ... und 62 weitere Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
@@ -73,7 +80,7 @@
 
   Kürzel           Zeit
   ──────────── ────────
-  RWKIEN         3h 59m
+  RWKIEN         4h 00m
   KSPLNA         1h 56m
   LEMEGA         1h 04m
   GEGYLS            47m
@@ -83,7 +90,7 @@
   KSPLEN            37m
   LEEPEP            34m
   LEMESK            28m
-  RAAFSU            26m
+  RAAFSU            25m
   LEMTDU            23m
   INOCMM            21m
   LEMTFS            20m
@@ -93,7 +100,7 @@
   LEAZZZ            16m
   RAYTYT            15m
   LEMTFR            14m
-  ... und 41 weitere Kürzel
+  ... und 40 weitere Kürzel
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
@@ -102,15 +109,20 @@
   Bereich      Zeit
   ──────── ────────
   LE         5h 55m
-  RW         4h 11m
+  RW         4h 12m
   KS         3h 38m
-  RA         1h 31m
+  RA         1h 30m
   GE            55m
   IN            35m
   WF             7m
   MU             5m
   PC             4m
-  (–)            2m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -135,15 +147,43 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 09:03–09:10  Nacherfassung Ablauf KSPLNA
-  📝 09:13–09:15  Nacherfassung Ablauf KSPLNA
-  📝 11:20–11:21  Nacherfassung Ablauf KSPLNA
-  📝 12:01–12:06  Nacherfassung Ablauf KSPLNA
-  📝 13:31–13:37  WC LEMTWC
-  📝 15:25–15:25  WC LEMTWC
-  📝 16:43–16:43  WC LEMTWC
-  📝 19:33–19:34  Ansehen ZiB 1 + Wetter RATVZI
-  📝 23:54–23:58  Scan Radio Würmchen KI RASCRW
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Weiterentwicklung Radio Würmchen KI (Gemma) m   4h 00m     23 08:12–23:53  
+  Nacherfassung Ablauf KSPLNA                     1h 56m     25 07:57–23:54  
+  Geschirr abwaschen LEMEGA (Verlängerung)           59m      1 14:06–15:10  
+  Diskussion Vortag mit OpenClaw KSPLAW              46m      7 07:24–13:25  
+  Scan Radio Würmchen KI RASCRW                      42m     21 07:33–23:58  
+  Arbeit an Tagesplanung / Planer-Entwicklung m      37m      1 12:20–12:57  
+  Bearb. Essensplan (Update Händlerangebote) LE      33m      4 21:45–22:25  
+  Surfen Andon FM RAAFSU                             25m      9 10:05–19:36  
+  Lesen Memories von OpenClaw INOCMM                 21m      3 13:05–13:28  
+  Bearb. Essensplan (gegessen, zu essen, Start       20m      5 11:36–21:19  
+  Laufen / Scootersuche GEGYLS (Verlängerung)        13m      1 17:24–18:11  
+  Ermittlung Gesamtzeiten KSAEEG (Verlängerung)       9m      1 20:47–21:01  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       8m      1 09:33–09:47  
+  Ansehen YouTube-Videos RAYTYT                       8m      5 11:34–15:19  
+  Tweets @sbs580810 (Andon FM) RAAFKO                 7m      3 10:43–11:20  
+  Ansehen Youtube-Videos RAYTYT                       7m      5 17:15–20:20  
+  PC herunterfahren LEAZHF (Verlängerung)             6m      1 00:00–00:07  
+  Nachtmahl fassen LENANA (Verlängerung)              5m      1 21:19–21:27  
+  Analyse Google API Keys für OpenClaw INOCAP         5m      1 22:48–22:53  
+  div. Surfen INSUSU                                  4m      3 20:00–20:47  
+  Ausziehen LEAZAU (Verlängerung)                     4m      1 23:30–23:38  
+  Rasieren, dabei Planung + Vortagesreview (Rea       3m      1 07:06–07:24  
+  Duschen LEMTDU (Verlängerung)                       3m      1 10:11–10:34  
+  Mailprüfung INMAPR (Verlängerung)                   3m      3 12:17–15:29  
+  Bett machen LEMTBM (Verlängerung)                   2m      1 10:50–10:55  
+  PC herunterfahren PCHFHF (Verlängerung)             2m      1 17:18–17:22  
+  Anhören Radiosender / Radio Würmchen / Tonträ       2m      1 20:34–20:40  
+  Medikament fassen GEMEFA (Verlängerung)             2m      1 22:46–22:48  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 07:04–07:06  
+  Starten Youtube-Playlist MUOWSP (Verlängerung       1m      1 10:09–10:11  
+  Termine in Kalender prüfen LEMTTP (Verlängeru       1m      1 12:12–12:14  
+  Analyse Andon FM RWPLAF                             1m      1 15:16–15:17  
+  Ansehen ZiB 1 + Wetter RATVZI                       1m      1 19:33–19:34  
+
+  Gesamt ungeplant: 12h 17m über 136 Einträge / 33 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

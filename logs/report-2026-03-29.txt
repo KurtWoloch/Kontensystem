@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      108
   Geplante Gesamtzeit:         16h 23m
 
-  ✓ Erledigt (geplant):       59  (    8h 41m)  = 53.0%
+  ✓ Erledigt (geplant):       55  (    5h 54m)  = 36.0%
   ⏭ Übersprungen:              5  (       19m)  = 1.9%
-  ✗ Nicht erreicht:           44  (    7h 23m)  = 45.1%
+  ✗ Nicht erreicht:           48  (   10h 10m)  = 62.1%
 
-  📝 Ungeplante Aktivitäten:   6  (       17m)
-  ⏱  Tatsächliche Arbeitszeit:    16h 28m
+  📝 Ungeplante Aktivitäten: 121  (   13h 28m)
+  ⏱  Plan-Ausführungszeit:        3h 17m
+  ⏱  Tatsächliche Arbeitszeit:    16h 45m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -34,10 +41,10 @@
   Bearb. Essensplan (Ereignisse / geg   18:00     20:56  +2h 56m
   Mund spülen LEMTMS                    08:47     11:38  +2h 51m
   Häferl waschen / Hustenbonbon fasse   08:49     11:39  +2h 50m
+  WC LEMTWC                             10:54     13:34  +2h 40m
   Vorbereitung Playlist für Hören bei   07:57     10:19  +2h 22m
   Nachtmahl fassen LENANA               20:00     22:17  +2h 17m
-  Frühstücken, dabei Vorbereitung Can   08:05     10:19  +2h 14m
-  ... und 37 weitere
+  ... und 34 weitere
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
@@ -48,24 +55,24 @@
   Nacherfassung Ablauf KSPLNA                2h 10m
   Arbeit an Tagesplanung / Planer-Entwickl   2h 00m
   Mittagessen (externes Lokal) LEMEEX        1h 01m
-  Schwimmen (externes Bad)                      59m
+  Schwimmen (externes Bad) GESCEX               59m
+  Scan Thinking Frequencies RASCTF              53m
   Tweet an Thinking Frequencies RWMPAR          42m
-  Scan Thinking Frequencies RASCTF              37m
   Abgang + Fahrt mit Voi-Scooter zum Schwi      35m
-  Rückfahrt mit Voi-Scooter + Heimweg           28m
-  Duschen LEMTDU                                27m
+  Rückfahrt mit Voi-Scooter + Heimweg FZVA      28m
   Diskussion Vortag / Issues in Planer mit      25m
-  Anwendung der Zwischenraumzahnbürste LEA      21m
+  Duschen LEMTDU                                20m
   Analyse Thinking Frequencies RAAFAN           20m
   Arbeit an Tagesplanung / Planer-Entwickl      19m
   Diskussion Issues in Planer mit OpenClaw      19m
-  Abduschen + Umziehen                          19m
+  Abduschen + Umziehen GESCEX                   19m
   Surfen / Analyse Andon FM RAAFSU              18m
   Durchsehen weitere potentielle Issues fü      18m
-  Mittagessen im Schwimmbad / Restaurant        17m
-  Scan Thinking Frequencies                     16m
+  Mittagessen im Schwimmbad / Restaurant L      17m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
   Rasieren, dabei Planung + Vortagesreview      15m
-  ... und 63 weitere Aktivitäten
+  Frühstücken, dabei Vorbereitung Candeblo      15m
+  ... und 71 weitere Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
@@ -74,26 +81,26 @@
   Kürzel           Zeit
   ──────────── ────────
   KSPLEN         3h 12m
-  (kein Kürzel)   2h 55m
   KSPLNA         2h 10m
+  GESCEX         1h 18m
   LEMEEX         1h 01m
+  RASCTF            53m
   RWMPAR            42m
-  RASCTF            37m
+  GESBFA            35m
   LEMTFR            30m
+  FZVAVO            28m
   LEMTDU            27m
   RAAFSU            22m
   RAAFAN            22m
   KSPLPL            22m
   LEAZZZ            21m
+  LEMEGA            17m
   LEMTRA            15m
   RWPLAF            15m
   LEEPGE            11m
   LEMTWC            10m
   GEMTZP            10m
-  LEAZZP            10m
-  KSPLTA             8m
-  LEAZHW             8m
-  ... und 43 weitere Kürzel
+  ... und 46 weitere Kürzel
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
@@ -102,16 +109,22 @@
   Bereich      Zeit
   ──────── ────────
   KS         5h 52m
-  LE         4h 25m
-  (–)        2h 55m
-  RA         1h 39m
+  LE         4h 42m
+  GE         2h 18m
+  RA         1h 55m
   RW         1h 01m
-  GE            25m
+  FZ            28m
   IN            11m
   CS             8m
-  PC             3m
   MU             3m
   WF             3m
+  PC             3m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -132,12 +145,55 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 08:48–08:50  Tweet an Thinking Frequencies RWMPAR  — Kauf "So what" (Miles Davis)
-  📝 08:52–08:55  Tweet an Thinking Frequencies RWMPAR  — Kauf "So what" (Miles Davis)... failed: "Payment button missing... do you have enough funds?"
-  📝 08:56–08:57  Abwiegen LEMTAW
-  📝 12:34–12:37  Jause fassen LEMTJF  — nur Wasser
-  📝 13:34–13:37  WC LEMTWC
-  📝 17:39–17:44  WC LEMTWC
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Nacherfassung Ablauf KSPLNA                     2h 10m     26 07:45–23:09  
+  Arbeit an Tagesplanung / Planer-Entwicklung K   2h 00m     11 10:41–18:59  
+  Mittagessen (externes Lokal) LEMEEX             1h 01m      1 14:45–15:46  
+  Schwimmen (externes Bad) GESCEX                    59m      1 15:46–16:45  
+  Scan Thinking Frequencies RASCTF                   53m     13 07:55–22:03  
+  Tweet an Thinking Frequencies RWMPAR               42m     12 07:49–13:04  
+  Abgang + Fahrt mit Voi-Scooter zum Schwimmbad      35m      1 13:53–14:28  
+  Rückfahrt mit Voi-Scooter + Heimweg FZVAVO         28m      1 17:04–17:32  
+  Diskussion Vortag / Issues in Planer mit Open      25m      4 07:13–07:45  
+  Analyse Thinking Frequencies RAAFAN                20m      2 08:09–20:40  
+  Arbeit an Tagesplanung / Planer-Entwicklung m      19m      3 10:12–12:04  
+  Diskussion Issues in Planer mit OpenClaw KSPL      19m      4 11:42–19:11  
+  Abduschen + Umziehen GESCEX                        19m      1 16:45–17:04  
+  Surfen / Analyse Andon FM RAAFSU                   18m      6 07:20–22:06  
+  Durchsehen weitere potentielle Issues für Tag      18m      1 10:52–11:10  
+  Mittagessen im Schwimmbad / Restaurant LEMEGA      17m      1 14:28–14:45  
+  Analyse Andon FM RWPLAF                            13m      2 10:34–12:19  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       9m      1 08:29–08:44  
+  Diskussion Tagesablauf + Planer mit OpenClaw        9m      1 20:11–20:20  
+  Diskussion Tagesablauf mit OpenClaw KSPLTA          8m      1 21:18–21:26  
+  Duschen LEMTDU (Verlängerung)                       7m      1 08:57–09:24  
+  Vorbereitug Fahrt Großfeldsiedlungsbad GEBBVB       7m      1 13:07–13:14  
+  Scan OpenAIR RASCOA                                 7m      1 21:51–21:58  
+  Tweet an Lukas Petersson / Thinking Frequenci       6m      1 12:04–12:10  
+  Bearb. Essensplan (Ereignisse / gegessen / zu       6m      1 20:56–21:07  
+  Surfen Atariage INSAAA                              6m      1 23:09–23:15  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       5m      1 22:31–22:52  
+  Surfen Andon FM RAAFSU                              4m      3 08:21–20:02  
+  Der Außentemperatur entsprechend anziehen LEA       4m      1 13:47–13:53  
+  Aufnahme Issue #23 (nicht übernehmbare Vorsch       4m      1 19:39–19:43  
+  Ansehen YouTube-Videos RAYTYT                       4m      2 20:53–22:07  
+  Lesen Memories OpenClaw INOCME                      4m      1 21:26–21:30  
+  Bearb. Github PCENGH                                3m      1 08:03–08:06  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       2m      1 06:55–06:58  
+  Untersuchung Rotation Andon FM / OpenAIR RAAF       2m      1 11:36–11:38  
+  Analyse Tagging Take Five / Just like heaven        2m      1 19:23–19:25  
+  Anwendung Zahnseide LEAZZS (Verlängerung)           2m      1 22:52–22:59  
+  Bett machen LEAZHW (Verlängerung)                   2m      1 23:04–23:08  
+  Reinigung Zahnputzutensilien, Hände waschen L       2m      1 23:23–23:27  
+  PC herunterfahren LEAZHF (Verlängerung)             2m      1 23:39–23:42  
+  div. Surfen INSUSU                                  1m      1 07:56–07:57  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            1m      1 08:44–08:47  
+  Abwiegen LEMTAW                                     1m      1 08:56–08:57  
+  Analyse Thinking Frequencies Song-Tagging RWM       1m      1 12:59–13:00  
+  Bearb. Essensplan (Start Korrekturlauf) LEEPE       1m      1 20:40–20:41  
+
+  Gesamt ungeplant: 13h 28m über 121 Einträge / 45 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
@@ -149,7 +205,6 @@
   ✗ 09:42  Mailprüfung INMAPR  (2m)
   ✗ 09:44  Dokumentation Ohrwurm-Projekt RWOWDO  (60m)
   ✗ 10:44  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (10m)
-  ✗ 10:59  Jause fassen LEMTJF  (3m)
   ✗ 11:11  Prüfung Bewässerung Terrasse WFTEBE  (5m)
   ✗ 11:21  Bearb. Essensplan (Kontrolle / zu essen   (10m)
   ✗ 11:31  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (1m)
@@ -161,6 +216,11 @@
   ✗ 12:06  Bearbeitung Aufgaben zu Papa's Pflege (1  (10m)
   ✗ 12:16  Bearb. Geldbörse FIBGGB  (10m)
   ✗ 12:26  Kommunikation mit Judith (Abrechnung Ren  (3m)
+  ✗ 13:45  Abgang + Fahrt mit Voi-Scooter zum Schwi  (30m)
+  ✗ 14:15  Mittagessen im Schwimmbad / Restaurant  (40m)
+  ✗ 14:55  Schwimmen (externes Bad)  (50m)
+  ✗ 15:45  Abduschen + Umziehen  (15m)
+  ✗ 16:00  Rückfahrt mit Voi-Scooter + Heimweg  (35m)
   ✗ 16:35  Mittagessen (selbst kochen / kalt)  (60m)
   ✗ 17:51  WC LENJWC  (9m)
   ✗ 18:13  Bearb. Liste Scooterfahrten  (10m)

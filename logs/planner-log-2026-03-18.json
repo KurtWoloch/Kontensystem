@@ -88,23 +88,23 @@
     "comment": ""
   },
   {
-    "activity": "WC LEMTWC",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 2,
-    "started_at": "07:46:00",
-    "completed_at": "07:48:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Ausziehen LEMTAZ",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
     "minutes": 1,
     "started_at": "07:46:00",
     "completed_at": "07:46:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "WC LEMTWC",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "07:46:00",
+    "completed_at": "07:48:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -152,17 +152,6 @@
     "skipped": false,
     "original_activity": "",
     "comment": "Fix im Planer sollte über mir bisher unbekannte ACP-Sitzung abgewickelt werden, ich soll dafür relevante, mir unbekannte Code-Module und Dateien benennen, während Fixes gestern direkt im Workspace durchgeführt wurden"
-  },
-  {
-    "activity": "WC LEMTWC",
-    "list": "Liste_Morgentoilette",
-    "priority": 1.839,
-    "minutes": 5,
-    "started_at": "08:00:00",
-    "completed_at": "08:44:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "muss nicht"
   },
   {
     "activity": "Untersuchung nicht gespielte Titel Andon FM RAAFSU",
@@ -242,12 +231,23 @@
     "comment": "Radio Würmchen wurde schon vorbereitet"
   },
   {
+    "activity": "WC LEMTWC",
+    "list": "Liste_Morgentoilette",
+    "priority": 1.839,
+    "minutes": 1,
+    "started_at": "08:38:00",
+    "completed_at": "08:39:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "muss nicht"
+  },
+  {
     "activity": "Bearb.Ohrwürmer (durchgenommen) MUOWDU",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
-    "minutes": 3,
+    "minutes": 5,
     "started_at": "08:39:00",
-    "completed_at": "08:40:00",
+    "completed_at": "08:44:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -663,8 +663,8 @@
     "activity": "Diskussion ACP-Sitzungen / Subagents mit OpenClaw KSPLEN",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 56,
-    "started_at": "18:24:00",
+    "minutes": 47,
+    "started_at": "18:33:00",
     "completed_at": "19:20:00",
     "skipped": false,
     "original_activity": "",
@@ -759,7 +759,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen AI Arena moltchess",
+    "activity": "Surfen AI Arena moltchess INSUSU",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 17,
@@ -847,17 +847,6 @@
     "comment": ""
   },
   {
-    "activity": "div. Surfen INSUSU",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "21:10:00",
-    "completed_at": "21:11:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Ansehen YouTube-Videos RAYTYT",
     "list": "windowmon_import",
     "priority": 0.0,
@@ -913,7 +902,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen X",
+    "activity": "Surfen X RAAFKO",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 4,
@@ -935,12 +924,12 @@
     "comment": ""
   },
   {
-    "activity": "Surfen AI Arena moltchess",
+    "activity": "Surfen AI Arena moltchess INSUSU",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 0,
-    "started_at": "21:29:56",
-    "completed_at": "21:30:39",
+    "minutes": 1,
+    "started_at": "21:29:00",
+    "completed_at": "21:30:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -960,9 +949,9 @@
     "activity": "Teller waschen / Getränk fassen LENATW",
     "list": "Lebenserhaltung",
     "priority": 1.844,
-    "minutes": 3,
+    "minutes": 2,
     "started_at": "21:38:00",
-    "completed_at": "21:41:00",
+    "completed_at": "21:40:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -971,8 +960,8 @@
     "activity": "WC LEMTWC",
     "list": "Liste_Morgentoilette",
     "priority": 1.839,
-    "minutes": 6,
-    "started_at": "21:38:00",
+    "minutes": 1,
+    "started_at": "21:40:00",
     "completed_at": "21:41:00",
     "skipped": false,
     "original_activity": "",
@@ -1232,6 +1221,61 @@
     "comment": ""
   },
   {
+    "activity": "Vorbereitung Zähne putzen LEAZVZ",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 5,
+    "started_at": "23:22:00",
+    "completed_at": "23:24:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Zähne putzen LEAZZP",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 12,
+    "started_at": "23:24:00",
+    "completed_at": "23:34:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Anwendung der Zwischenraumzahnbürste LEAZZZ",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 16,
+    "started_at": "23:34:00",
+    "completed_at": "23:50:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Anwendung Zahnseide LEAZZS",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 5,
+    "started_at": "23:50:00",
+    "completed_at": "23:55:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Reinigung Zahnputzutensilien, Hände waschen LEAZHW",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.834,
+    "minutes": 2,
+    "started_at": "23:55:00",
+    "completed_at": "23:59:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Bett machen LEAZHW",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
@@ -1315,61 +1359,6 @@
     "minutes": 1,
     "started_at": "00:16:00",
     "completed_at": "00:17:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Vorbereitung Zähne putzen LEAZVZ",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.835,
-    "minutes": 5,
-    "started_at": "23:22:00",
-    "completed_at": "23:24:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Zähne putzen LEAZZP",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.835,
-    "minutes": 12,
-    "started_at": "23:24:00",
-    "completed_at": "23:34:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Anwendung der Zwischenraumzahnbürste LEAZZZ",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.835,
-    "minutes": 16,
-    "started_at": "23:34:00",
-    "completed_at": "23:50:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Anwendung Zahnseide LEAZZS",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.835,
-    "minutes": 5,
-    "started_at": "23:50:00",
-    "completed_at": "23:55:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Reinigung Zahnputzutensilien, Hände waschen LEAZHW",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.834,
-    "minutes": 2,
-    "started_at": "23:55:00",
-    "completed_at": "23:59:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

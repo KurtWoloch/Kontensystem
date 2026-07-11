@@ -1,16 +1,5 @@
 [
   {
-    "activity": "PC herunterfahren LEAZHF",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.834,
-    "minutes": 1,
-    "started_at": "00:00:00",
-    "completed_at": "00:07:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "nur unnötige Tabs und Fenster schließen"
-  },
-  {
     "activity": "Aufstehen, Rasierer fasssen LEMTAU",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
@@ -1026,41 +1015,8 @@
     "activity": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 47,
+    "minutes": 59,
     "started_at": "15:44:00",
-    "completed_at": "16:31:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Surfen Andon FM RAAFSU",
-    "list": "timeline_import",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "16:29:00",
-    "completed_at": "16:30:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN",
-    "list": "timeline_import",
-    "priority": 0.0,
-    "minutes": 12,
-    "started_at": "16:31:00",
-    "completed_at": "16:43:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "WC LEMTWC",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 0,
-    "started_at": "16:43:00",
     "completed_at": "16:43:00",
     "skipped": false,
     "original_activity": "",
@@ -1540,22 +1496,11 @@
     "comment": ""
   },
   {
-    "activity": "Radio Würmchen",
-    "list": "timeline_import",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "21:03:00",
-    "completed_at": "21:04:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Weiterentwicklung Radio Würmchen KI (Gemma) mit OpenClaw RWKIEN",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 2,
-    "started_at": "21:04:00",
+    "minutes": 3,
+    "started_at": "21:03:00",
     "completed_at": "21:06:00",
     "skipped": false,
     "original_activity": "",
@@ -2088,6 +2033,17 @@
     "skipped": true,
     "original_activity": "",
     "comment": "wird wg. Unrentabilität gestrichen"
+  },
+  {
+    "activity": "PC herunterfahren LEAZHF",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.834,
+    "minutes": 1,
+    "started_at": "00:00:00",
+    "completed_at": "00:07:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "nur unnötige Tabs und Fenster schließen"
   },
   {
     "activity": "im Bett",

@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      129
   Geplante Gesamtzeit:         17h 11m
 
-  ✓ Erledigt (geplant):       67  (    9h 07m)  = 53.1%
+  ✓ Erledigt (geplant):       64  (    6h 27m)  = 37.5%
   ⏭ Übersprungen:             15  (    2h 00m)  = 11.6%
-  ✗ Nicht erreicht:           47  (    6h 04m)  = 35.3%
+  ✗ Nicht erreicht:           50  (    8h 44m)  = 50.8%
 
-  📝 Ungeplante Aktivitäten:   7  (    2h 00m)
-  ⏱  Tatsächliche Arbeitszeit:    16h 33m
+  📝 Ungeplante Aktivitäten: 131  (   15h 04m)
+  ⏱  Plan-Ausführungszeit:        3h 20m
+  ⏱  Tatsächliche Arbeitszeit:    18h 24m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -31,13 +38,94 @@
   Anwendung Zahnseide LEAZZS            22:53     00:29 -22h 24m
   Bett machen LEAZHW                    23:00     00:36 -22h 24m
   Ausziehen LEAZAU                      23:02     00:38 -22h 24m
-  WC LEMTWC                             21:36     07:19 -14h 17m
   Blutdruck messen GEBMBM               09:10     23:24 +14h 14m
   Wenn ("Gehst Du heute zum Essen rau   12:59     23:29 +10h 30m
+  WC LEMTWC (Fs.)                       08:19     17:43  +9h 24m
   Bearb. Essensplan (Ereignisse / geg   15:05     23:50  +8h 45m
   Bearb. Essensplan (gegessen, zu ess   15:10     23:29  +8h 19m
   Versorgung Mitbringsel LEPOPO         15:17     23:35  +8h 18m
-  ... und 52 weitere
+  ... und 40 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Analyse Andon FM RWPLAF                    4h 20m
+  Nacherfassung Ablauf KSPLNA                1h 49m
+  Rückfahrt + ggf. Mittagessen unterwegs V   1h 34m
+  Heimfahrt mit WienMobil E-Bike FZFAEB      1h 18m
+  Abgang + Fahrt S-Bahn Siemensstr. (09:53   1h 01m
+  Ansehen YouTube-Videos RAYTYT                 56m
+  Mittagessen (Kebapdiele Station Hernals       47m
+  Termin Grabpflege Südwestfriedhof (Großv      46m
+  Frühstücken, dabei Vorbereitung Candeblo      23m
+  Untersuchung Playlist Andon FM / Thinkin      22m
+  Duschen LEMTDU                                20m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Rasieren, dabei Planung + Vortagesreview      15m
+  Einpacken Musik für Fahrt inkl. Player +      15m
+  Surfen Amazon Powerbanks FZSUAM               14m
+  WC LEMTWC                                     12m
+  Tweet an Lukas Petersson / Thinking Freq       9m
+  Anwendung der Zwischenraumzahnbürste LEA       8m
+  Anhören Radiosender / Radio Würmchen / T       8m
+  Scan Thinking Frequencies RWMPMP               7m
+  ... und 72 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  RWPLAF         4h 20m
+  VEGPFA         2h 35m
+  KSPLNA         1h 49m
+  FZFAEB         1h 18m
+  RAYTYT            58m
+  LEMEGA            47m
+  VAGPTG            46m
+  RAAFAN            26m
+  LEAZZZ            24m
+  LEMTDU            23m
+  LEMTFS            23m
+  LEMTRA            22m
+  RWMPMP            20m
+  RWRUEP            20m
+  LEEPEP            17m
+  FZSUAM            14m
+  LEMTWC            12m
+  RAAFKO            10m
+  LEMTAN             8m
+  LEMTFR             7m
+  ... und 43 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  RW         5h 08m
+  LE         4h 11m
+  VE         2h 35m
+  KS         1h 49m
+  FZ         1h 45m
+  RA         1h 42m
+  VA            46m
+  IN            17m
+  GE             9m
+  BR             5m
+  WF             3m
+  PC             2m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -84,13 +172,52 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 06:30–06:52  Untersuchung Playlist Andon FM / Thinkin  — OpenAIR hat neuen Titel gekauft, kauft während Untersuchung weiteren
-  📝 09:03–09:07  WC LEMTWC
-  📝 14:06–15:24  Heimfahrt mit WienMobil E-Bike FZFAEB  — Fahrt 14:06-15:10 zu WienMobil-Station Kantnerg., Rest Heimweg zu Fuß
-  📝 16:14–16:15  Analyse Andon FM RWPLAF
-  📝 17:30–17:31  Auspacken Essensplan LEEPAU
-  📝 17:43–17:48  WC LEMTWC
-  📝 23:41–23:50  Tweet an Lukas Petersson / Thinking Freq
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Analyse Andon FM RWPLAF                         4h 20m     38 15:39–23:13  
+  Nacherfassung Ablauf KSPLNA                     1h 49m     18 08:33–23:24  
+  Rückfahrt + ggf. Mittagessen unterwegs VEGPFA   1h 34m      1 11:40–13:14  
+  Heimfahrt mit WienMobil E-Bike FZFAEB           1h 18m      1 14:06–15:24  
+  Abgang + Fahrt S-Bahn Siemensstr. (09:53) → H   1h 01m      1 09:46–10:47  
+  Ansehen YouTube-Videos RAYTYT                      56m     21 08:28–21:44  
+  Mittagessen (Kebapdiele Station Hernals S) LE      47m      1 13:19–14:06  
+  Termin Grabpflege Südwestfriedhof (Großvater)      46m      1 10:54–11:40  
+  Untersuchung Playlist Andon FM / Thinking Fre      22m      1 06:30–06:52  
+  Einpacken Musik für Fahrt inkl. Player + Akku      15m      1 09:14–09:34  
+  Surfen Amazon Powerbanks FZSUAM                    14m      5 15:56–20:48  
+  Tweet an Lukas Petersson / Thinking Frequenci       9m      1 23:41–23:50  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       8m      1 00:05–00:29  
+  Anhören Radiosender / Radio Würmchen / Tonträ       8m      1 06:58–07:06  
+  Rasieren, dabei Planung + Vortagesreview (Rea       7m      1 06:08–06:30  
+  Surfen X (Timeline) INSUXX                          7m      3 21:29–23:16  
+  Bearb. Essensplan LEEPEP                            6m      2 08:54–09:01  
+  Anziehen LEMTAN (Verlängerung)                      5m      1 07:53–08:01  
+  Surfen Andon FM RAAFSU                              5m      3 08:48–15:29  
+  div. Surfen INSUSU                                  4m      3 07:25–08:54  
+  Untersuchung Rotation Andon FM / OpenAIR RAAF       4m      1 08:29–08:33  
+  div. Surfen (News) INSUNE                           4m      2 15:52–16:41  
+  PC herunterfahren LEAZHF (Verlängerung)             3m      1 00:44–00:48  
+  Duschen LEMTDU (Verlängerung)                       3m      1 07:29–07:52  
+  Scan Thinking Frequencies RASCTF                    3m      1 08:50–08:53  
+  Auspacken Essensplan LEEPAU                         3m      2 15:24–17:31  
+  Surfen Fahrtstrecke von Südwestfriedhof heim        3m      1 18:18–18:21  
+  Surfen Fahrtstrecke vom Südwestfriedhof heim        3m      2 20:42–20:47  
+  div. Surfen (News) INSUSU                           2m      1 16:46–16:48  
+  Ansehen Youtube-Videos RAYTYT                       2m      2 19:59–20:54  
+  Blutdruck messen GEBMBM (Verlängerung)              2m      1 23:24–23:28  
+  Reinigung Zahnputzutensilien, Hände waschen L       1m      1 00:33–00:36  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:06–06:08  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       1m      1 07:09–07:16  
+  Reinigung Waschmuschel LEMTRW (Verlängerung)        1m      1 07:23–07:25  
+  Starten Radio-Würmchen-Programm RWMPSP (Verlä       1m      1 07:27–07:29  
+  Surfen X RAAFKO                                     1m      1 08:27–08:28  
+  Termine in Kalender prüfen LEMTTP (Verlängeru       1m      1 08:46–08:48  
+  Analyse Thinking Frequencies RWMPMP                 1m      1 16:53–16:54  
+  Teller waschen / Getränk fassen LEMTTW (Verlä       1m      1 19:52–19:56  
+  Bearb. Essensplan (gegessen, zu essen) LEEPEP       1m      1 23:29–23:34  
+  Medikament fassen GEMEFA (Verlängerung)             1m      1 23:38–23:41  
+
+  Gesamt ungeplant: 15h 04m über 131 Einträge / 42 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
@@ -99,6 +226,9 @@
   ✗ 08:22  Mailprüfung INMAPR  (2m)
   ✗ 08:24  Bearb. Essensplan (Kontrolle / zu essen   (10m)
   ✗ 08:34  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (5m)
+  ✗ 09:42  Abgang + Fahrt S-Bahn Siemensstr. (09:53  (47m)
+  ✗ 10:45  Termin Grabpflege Südwestfriedhof (Großv  (48m)
+  ✗ 11:54  Rückfahrt + ggf. Mittagessen unterwegs  (65m)
   ✗ 15:58  Bearb. Essensplan (Update Händlerangebot  (2m)
   ✗ 16:04  Bearb. Essensplan (Update Händlerangebot  (9m)
   ✗ 16:13  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (5m)

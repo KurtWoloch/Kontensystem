@@ -935,7 +935,7 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
     "minutes": 59,
@@ -968,7 +968,7 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
     "minutes": 3,
@@ -1001,12 +1001,12 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 0,
-    "started_at": "14:20:22",
-    "completed_at": "14:21:13",
+    "minutes": 1,
+    "started_at": "14:20:00",
+    "completed_at": "14:21:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1045,12 +1045,12 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 1,
-    "started_at": "14:37:51",
-    "completed_at": "14:39:18",
+    "minutes": 2,
+    "started_at": "14:37:00",
+    "completed_at": "14:39:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1067,11 +1067,11 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 0,
-    "started_at": "14:43:55",
+    "minutes": 1,
+    "started_at": "14:43:00",
     "completed_at": "14:44:00",
     "skipped": false,
     "original_activity": "",
@@ -1092,9 +1092,9 @@
     "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 0,
-    "started_at": "14:57:34",
-    "completed_at": "14:58:08",
+    "minutes": 1,
+    "started_at": "14:57:00",
+    "completed_at": "14:58:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1133,11 +1133,11 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 0,
-    "started_at": "15:09:02",
+    "minutes": 1,
+    "started_at": "15:09:00",
     "completed_at": "15:10:00",
     "skipped": false,
     "original_activity": "",
@@ -1177,12 +1177,12 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
     "minutes": 1,
-    "started_at": "15:20:25",
-    "completed_at": "15:21:48",
+    "started_at": "15:20:00",
+    "completed_at": "15:21:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1215,17 +1215,6 @@
     "priority": 1.844,
     "minutes": 2,
     "started_at": "15:26:00",
-    "completed_at": "15:34:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
-    "list": "Vorbereitung_Fortgehen",
-    "priority": 1.84,
-    "minutes": 2,
-    "started_at": "15:34:00",
     "completed_at": "15:34:00",
     "skipped": false,
     "original_activity": "",
@@ -1265,12 +1254,12 @@
     "comment": ""
   },
   {
-    "activity": "Mittagessen (selbst kochen / kalt)",
+    "activity": "Mittagessen (selbst kochen / kalt) LEMESK",
     "list": "Liste_Mittagessen_zuhause",
     "priority": 1.845,
-    "minutes": 4,
+    "minutes": 6,
     "started_at": "16:21:00",
-    "completed_at": "16:25:00",
+    "completed_at": "16:27:00",
     "skipped": false,
     "original_activity": "",
     "comment": "kalt: Nußbrot mit Pikantwurst + Soja-Drink"
@@ -1320,12 +1309,12 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 0,
-    "started_at": "16:33:27",
-    "completed_at": "16:34:25",
+    "minutes": 1,
+    "started_at": "16:33:00",
+    "completed_at": "16:34:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1364,12 +1353,12 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 0,
-    "started_at": "16:44:49",
-    "completed_at": "16:45:09",
+    "minutes": 1,
+    "started_at": "16:44:00",
+    "completed_at": "16:45:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1419,12 +1408,12 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 1,
-    "started_at": "16:54:11",
-    "completed_at": "16:56:06",
+    "minutes": 2,
+    "started_at": "16:54:00",
+    "completed_at": "16:56:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1441,12 +1430,12 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "timeline_import",
     "priority": 0.0,
     "minutes": 3,
-    "started_at": "17:03:16",
-    "completed_at": "17:06:35",
+    "started_at": "17:03:00",
+    "completed_at": "17:06:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1848,12 +1837,12 @@
     "comment": "Nacherfassung gehörte Titel auf Thinking Frequencies / Grok'n Roll"
   },
   {
-    "activity": "Scan Grok'n Roll",
+    "activity": "Scan Grok'n Roll RASCGR",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 1,
-    "started_at": "21:54:27",
-    "completed_at": "21:56:25",
+    "minutes": 2,
+    "started_at": "21:54:00",
+    "completed_at": "21:56:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1870,12 +1859,12 @@
     "comment": "Korrekturlesen (bis S. 5)"
   },
   {
-    "activity": "Scan OpenAIR",
+    "activity": "Scan OpenAIR RASCOA",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 2,
-    "started_at": "22:18:52",
-    "completed_at": "22:21:10",
+    "minutes": 3,
+    "started_at": "22:18:00",
+    "completed_at": "22:21:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -2013,7 +2002,7 @@
     "comment": ""
   },
   {
-    "activity": "Scan OpenAIR",
+    "activity": "Scan OpenAIR RASCOA",
     "list": "timeline_import",
     "priority": 0.0,
     "minutes": 4,

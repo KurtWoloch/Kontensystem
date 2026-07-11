@@ -2147,3 +2147,19 @@
 {"ts": "2026-04-21T22:19:42", "hwnd": 6161738, "title": "Timeline Nacherfassung — 2026-04-09", "process": "python.exe", "browser": ""}
 {"ts": "2026-04-21T22:29:02", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 560, "idle_start": "2026-04-21T22:19:42"}
 {"ts": "2026-04-21T22:29:02", "hwnd": 6161738, "title": "Timeline Nacherfassung — Off-PC — 2026-04-09", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-10T20:18:00", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-10T20:18:00", "hwnd": 29758080, "title": "Tagesplanung — Off-PC — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-10T20:18:23", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 23, "idle_start": "2026-07-10T20:18:00"}
+{"ts": "2026-07-10T20:18:23", "hwnd": 29758080, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-10T20:20:33", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-10T20:20:33", "hwnd": 29758080, "title": "Tagesplanung — Off-PC — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-10T20:20:54", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 21, "idle_start": "2026-07-10T20:20:33"}
+{"ts": "2026-07-10T20:20:54", "hwnd": 29758080, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-10T20:33:46", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-10T20:33:46", "hwnd": 29758080, "title": "Tagesplanung — Off-PC — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-10T20:34:06", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 20, "idle_start": "2026-07-10T20:33:46"}
+{"ts": "2026-07-10T20:34:06", "hwnd": 29758080, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-10T20:45:07", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-10T20:45:07", "hwnd": 29758080, "title": "Tagesplanung — Off-PC — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-10T20:45:28", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 20, "idle_start": "2026-07-10T20:45:07"}
+{"ts": "2026-07-10T20:45:28", "hwnd": 29758080, "title": "Tagesplanung — Reaktiver Planer — Review Dokumentation BRZG KSBRDR", "process": "python.exe", "browser": ""}

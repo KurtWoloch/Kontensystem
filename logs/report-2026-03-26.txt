@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      122
   Geplante Gesamtzeit:         15h 35m
 
-  ✓ Erledigt (geplant):       61  (    7h 19m)  = 47.0%
+  ✓ Erledigt (geplant):       60  (    6h 19m)  = 40.5%
   ⏭ Übersprungen:              9  (    1h 35m)  = 10.2%
-  ✗ Nicht erreicht:           52  (    6h 41m)  = 42.9%
+  ✗ Nicht erreicht:           53  (    7h 41m)  = 49.3%
 
-  📝 Ungeplante Aktivitäten:  33  (    1h 43m)
-  ⏱  Tatsächliche Arbeitszeit:    14h 13m
+  📝 Ungeplante Aktivitäten: 181  (   12h 17m)
+  ⏱  Plan-Ausführungszeit:        3h 25m
+  ⏱  Tatsächliche Arbeitszeit:    15h 42m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -22,22 +29,102 @@
 
   Aktivität                           Geplant Tatsächl.    Drift
   ─────────────────────────────────── ─────── ───────── ────────
-  WC LEMTWC                             21:22     11:25  -9h 57m
+  WC LEMTWC                             10:38     20:37  +9h 59m
   Termine in Kalender prüfen LEMTTP     10:11     18:44  +8h 33m
   Mailprüfung INMAPR                    10:12     18:06  +7h 54m
   Anhören RW-Prg. / Tonträger / Radio   09:59     17:06  +7h 07m
   Mund spülen / Teller waschen / Getr   11:39     18:41  +7h 02m
-  Anhören RW-Prg. / Tonträger / Radio   10:06     17:06  +7h 00m
+  Bearb. Essensplan (gegessen, zu ess   09:49     15:35  +5h 46m
   Blutdruck messen GEBMBM               11:05     16:45  +5h 40m
   Mund spülen LEMTMS                    10:02     15:22  +5h 20m
   Häferl waschen / Hustenbonbon fasse   10:04     15:24  +5h 20m
   Zähne putzen GEMTZP                   10:26     15:43  +5h 17m
-  Teller waschen / Getränk fassen LEN   20:23     17:03  -3h 20m
   Bearb. Essensplan (gegessen, zu ess   08:02     11:20  +3h 18m
   Reinigung Waschmuschel LEMTRW         08:44     11:59  +3h 15m
   Starten Youtube-Playlist MUOWSP       08:45     12:00  +3h 15m
   Abwiegen LEMTAW                       08:43     11:56  +3h 13m
-  ... und 46 weitere
+  Anhören Radiosender / Radio Würmche   07:58     11:10  +3h 12m
+  ... und 39 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Nacherfassung Ablauf KSPLNA                2h 49m
+  Analyse Thinking Frequencies Song-Taggin   2h 10m
+  Diskussion Vortag mit OpenClaw KSPLDI         46m
+  Mittagessen (selbst kochen / kalt) LEMES      43m
+  Analyse Thinking Frequencies Classic Roc      42m
+  Essen / Geschirr abwaschen LEMEGA             39m
+  Laufen / Scootersuche GEGYLS                  34m
+  Anmeldung Sozialbau gemeinschaftliche Ph      33m
+  Begutachtung Angebote Bepflanzung Friedh      30m
+  Diskussion mit OpenClaw über Analyse Thi      26m
+  Duschen LEMTDU                                20m
+  Diskussion Vortag mit OpenClaw KSPLAW         20m
+  Analyse Thinking Frequencies Song-Taggin      19m
+  Diskussion mit OpenClaw über Tagesablauf      16m
+  Anwendung der Zwischenraumzahnbürste LEA      15m
+  Diskussion mit OpenClaw über Tagesablauf      15m
+  Lesen Sozialbau gemeinschaftliche Photov      15m
+  Rasieren, dabei Update OpenClaw, Vortage      13m
+  Frühstücken, dabei Vorbereitung Candeblo      12m
+  Test Powerbank / Lichterkette zum Laden       11m
+  ... und 70 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  RWMPMP         2h 58m
+  KSPLNA         2h 49m
+  KSPLDI            46m
+  LEMESK            43m
+  GEGYLS            42m
+  LEMEGA            39m
+  WFSBAD            33m
+  KSPLPL            31m
+  VEGPBA            30m
+  RAAFAN            27m
+  LEMTDU            26m
+  RAAFDI            26m
+  KSPLAW            20m
+  LEEPEP            15m
+  LEAZZZ            15m
+  WFSBKO            15m
+  LEMTRA            13m
+  LEMTFS            12m
+  FZEXPB            11m
+  GEMTZP            10m
+  ... und 45 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  KS         4h 26m
+  LE         4h 20m
+  RW         3h 00m
+  RA         1h 03m
+  GE         1h 01m
+  WF            51m
+  VE            30m
+  IN            15m
+  FZ            11m
+  MU             7m
+  PC             7m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -60,39 +147,52 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 07:23–07:25  Aufstehen, Update + Neustart OpenClaw Ga  — inkl. PC
-  📝 07:55–07:56  Analyse Thinking Frequencies Song-Taggin
-  📝 09:34–09:35  Start Live365-Scraper
-  📝 09:39–09:40  Analyse Thinking Frequencies Song-Taggin
-  📝 11:27–11:30  Konversation Andon FM / Thinking Frequen  — Tweet "Kill Bill" an Thinking Frequencies
-  📝 12:24–12:29  Test Powerbank / Lichterkette zum Laden 
-  📝 12:32–12:34  Test Powerbank / Lichterkette zum Laden 
-  📝 12:34–12:39  Vorbereitung Mittagessen
-  📝 14:35–14:36  Test Powerbank / Lichterkette zum Laden 
-  📝 14:52–14:53  Test Powerbank / Lichterkette zum Laden   — Nachsurfen Wirkungsgrad Handyladung mit Powerbank
-  📝 17:08–17:23  Lesen Sozialbau gemeinschaftliche Photov
-  📝 17:23–17:33  Anmeldung Sozialbau gemeinschaftliche Ph  — inkl. Suche Jahresabrechnung
-  📝 17:34–17:39  Anmeldung Sozialbau gemeinschaftliche Ph  — inkl. Suche Jahresabrechnung
-  📝 17:42–17:44  Anmeldung Sozialbau gemeinschaftliche Ph  — inkl. Suche Jahresabrechnung
-  📝 17:47–17:52  Anmeldung Sozialbau gemeinschaftliche Ph  — inkl. Suche Jahresabrechnung
-  📝 17:55–17:56  Anmeldung Sozialbau gemeinschaftliche Ph  — inkl. Suche Jahresabrechnung
-  📝 18:03–18:05  Anmeldung Sozialbau gemeinschaftliche Ph  — Mail an Sozialbau
-  📝 18:22–18:24  Anmeldung Sozialbau gemeinschaftliche Ph  — Mail an Sozialbau
-  📝 18:25–18:29  Anmeldung Sozialbau gemeinschaftliche Ph  — Mail an Sozialbau
-  📝 18:31–18:32  Anmeldung Sozialbau gemeinschaftliche Ph  — Mail an Sozialbau
-  📝 18:36–18:37  Anmeldung Sozialbau gemeinschaftliche Ph  — Mail an Sozialbau
-  📝 19:32–19:34  Begutachtung Angebote Bepflanzung Friedh
-  📝 19:36–19:42  Begutachtung Angebote Bepflanzung Friedh
-  📝 19:43–19:46  Begutachtung Angebote Bepflanzung Friedh
-  📝 19:49–19:51  Begutachtung Angebote Bepflanzung Friedh
-  📝 19:52–19:55  Begutachtung Angebote Bepflanzung Friedh
-  📝 19:56–19:59  Begutachtung Angebote Bepflanzung Friedh
-  📝 20:02–20:04  Begutachtung Angebote Bepflanzung Friedh  — inkl. Annahme des Angebotes
-  📝 20:06–20:08  Begutachtung Angebote Bepflanzung Friedh  — inkl. Annahme des Angebotes
-  📝 20:10–20:13  Begutachtung Angebote Bepflanzung Friedh  — inkl. Annahme des Angebotes
-  📝 20:15–20:19  Begutachtung Angebote Bepflanzung Friedh  — inkl. Annahme des Angebotes
-  📝 20:37–20:38  WC LEMTWC
-  📝 21:00–21:02  Teller waschen / Getränk fassen LENATW  — Holundersaft zuckerfrei
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Nacherfassung Ablauf KSPLNA                     2h 49m     35 07:40–22:23  
+  Analyse Thinking Frequencies Song-Tagging RWM   2h 10m     57 07:55–20:48  
+  Diskussion Vortag mit OpenClaw KSPLDI              46m      7 07:50–09:01  
+  Mittagessen (selbst kochen / kalt) LEMESK          43m      1 12:42–13:25  
+  Analyse Thinking Frequencies Classic Rock-Blo      42m      1 21:07–21:49  
+  Essen / Geschirr abwaschen LEMEGA                  39m      1 13:32–14:11  
+  Anmeldung Sozialbau gemeinschaftliche Photovo      33m     10 17:23–18:37  
+  Begutachtung Angebote Bepflanzung Friedhof VE      30m     10 19:32–20:19  
+  Diskussion mit OpenClaw über Analyse Thinking      26m      3 21:49–23:11  
+  Diskussion Vortag mit OpenClaw KSPLAW              20m      2 09:07–09:34  
+  Analyse Thinking Frequencies Song-Tagging RAA      19m      5 07:43–22:17  
+  Diskussion mit OpenClaw über Tagesablauf / Na      16m      2 10:18–10:35  
+  Diskussion mit OpenClaw über Tagesablauf KSPL      15m      4 09:02–10:04  
+  Lesen Sozialbau gemeinschaftliche Photovoltai      15m      1 17:08–17:23  
+  Test Powerbank / Lichterkette zum Laden von i      11m      5 12:24–14:53  
+  Laufen / Scootersuche GEGYLS (Verlängerung)         8m      1 16:03–16:45  
+  Konversation Andon FM / Thinking Frequencies        7m      2 11:27–22:12  
+  Duschen LEMTDU (Verlängerung)                       6m      1 11:30–11:56  
+  Surfen X (Timeline) INSUXX                          6m      3 14:16–14:28  
+  Bearb. Essensplan LEEPEP                            6m      4 14:34–20:25  
+  Vorbereitung Mittagessen LEMEME                     5m      1 12:34–12:39  
+  Mitsingen Ben&Ben - Leaves MUSISI                   5m      1 14:58–15:03  
+  Analyse Thinking Frequencies Song Tagging RWM       4m      1 08:31–08:35  
+  Prüfung auf mögliche Wünsche für Thinking Fre       4m      1 12:00–12:05  
+  Mailprüfung INMAPR (Verlängerung)                   4m      3 18:10–18:20  
+  Termine in Kalender prüfen LEMTTP (Verlängeru       4m      2 18:46–18:53  
+  Untersuchung Rotation Andon FM / OpenAIR RAAF       3m      2 14:19–14:46  
+  PC herunterfahren PCHFHF (Verlängerung)             3m      1 15:56–16:01  
+  Div. Surfen INSUSU                                  3m      1 17:58–18:01  
+  Aufstehen, Update + Neustart OpenClaw Gateway       2m      1 07:23–07:25  
+  Abwiegen LEMTAW (Verlängerung)                      2m      1 11:56–11:59  
+  Rasierer fasssen LEMTAU (Verlängerung)              1m      1 07:25–07:27  
+  Analyse Thinking Frequencies Song-Taggine RWM       1m      1 07:51–07:52  
+  Start Live365-Scraper RAAFSS                        1m      1 09:34–09:35  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       1m      1 09:49–09:56  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            1m      1 10:01–10:02  
+  Surfen X RAAFKO                                     1m      1 14:33–14:34  
+  Blutdruck messen GEBMBM (Verlängerung)              1m      1 16:45–16:48  
+  Liste_Morgentoilette — Mund spülen / Teller w       1m      1 18:37–18:38  
+  Medikament fassen GEMEFA (Verlängerung)             1m      1 22:24–22:27  
+  Bett machen LEAZHW (Verlängerung)                   1m      1 23:03–23:06  
+  PC herunterfahren LEAZHF (Verlängerung)             1m      1 23:17–23:19  
+
+  Gesamt ungeplant: 12h 17m über 181 Einträge / 42 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
@@ -105,6 +205,7 @@
   ✗ 12:18  Bearb. Essensplan (gegessen, zu essen) L  (4m)
   ✗ 12:22  Jause fassen LEMTJF  (3m)
   ✗ 12:25  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (4m)
+  ✗ 13:30  Mittagessen (selbst kochen / kalt)  (60m)
   ✗ 14:30  Geschirr abwaschen LEMEGA  (5m)
   ✗ 14:41  Teller waschen / Getränk fassen LEMTTW  (3m)
   ✗ 15:46  Bearb. Essensplan (Update Händlerangebot  (11m)

@@ -1,16 +1,5 @@
 [
   {
-    "activity": "Scan Radio Würmchen KI RASCRW",
-    "list": "timeline_import",
-    "priority": 0.0,
-    "minutes": 10,
-    "started_at": "00:08:00",
-    "completed_at": "00:18:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Aufstehen, Rasierer fasssen LEMTAU",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
@@ -157,8 +146,8 @@
     "activity": "WC LEMTWC",
     "list": "Liste_Morgentoilette",
     "priority": 1.839,
-    "minutes": 5,
-    "started_at": "07:04:00",
+    "minutes": 2,
+    "started_at": "07:05:00",
     "completed_at": "07:07:00",
     "skipped": false,
     "original_activity": "",
@@ -718,9 +707,9 @@
     "activity": "Mittagessen (externes Lokal) LEMEEX",
     "list": "Liste_Mittagessen_extern",
     "priority": 1.84,
-    "minutes": 70,
+    "minutes": 60,
     "started_at": "13:44:00",
-    "completed_at": "14:54:00",
+    "completed_at": "14:44:00",
     "skipped": false,
     "original_activity": "",
     "comment": "Pizzeria Dominous, Pizza Frutti di Mare / Eistee Zitrone (€ 12,-, Vorsprung € 10,81)"
@@ -1595,6 +1584,17 @@
     "comment": ""
   },
   {
+    "activity": "Anhören RW-Prg. / Tonträger / Radiosender RWMPAR",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "21:55:00",
+    "completed_at": "21:57:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Mailprüfung INMAPR",
     "list": "timeline_import",
     "priority": 0.0,
@@ -1749,12 +1749,45 @@
     "comment": ""
   },
   {
+    "activity": "Eintragen Zeiten Atariage CSAAZE",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.82,
+    "minutes": 20,
+    "started_at": "23:48:00",
+    "completed_at": "23:54:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 5,
+    "started_at": "23:54:00",
+    "completed_at": "23:59:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Nacherfassung Ablauf KSPLNA",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 8,
     "started_at": "00:00:00",
     "completed_at": "00:08:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Scan Radio Würmchen KI RASCRW",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 10,
+    "started_at": "00:08:00",
+    "completed_at": "00:18:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1865,28 +1898,6 @@
     "minutes": 1,
     "started_at": "00:33:00",
     "completed_at": "00:34:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Eintragen Zeiten Atariage CSAAZE",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.82,
-    "minutes": 20,
-    "started_at": "23:48:00",
-    "completed_at": "23:54:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Nacherfassung Ablauf KSPLNA",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 5,
-    "started_at": "23:54:00",
-    "completed_at": "23:59:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

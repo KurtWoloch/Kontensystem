@@ -3258,3 +3258,11 @@
 {"ts": "2026-03-26T23:19:58", "hwnd": 5311464, "title": "Aufgabe erledigt — im Bett", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-26T23:19:59", "hwnd": 132882, "title": "Tagesplanung — Reaktiver Planer — Prüfung Bewässerung Terrasse WFTEBE", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-26T23:20:03", "hwnd": 5377000, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T18:56:10", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-09T18:56:10", "hwnd": 8719954, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T18:56:30", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 20, "idle_start": "2026-07-09T18:56:10"}
+{"ts": "2026-07-09T18:56:30", "hwnd": 8719954, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T19:01:11", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-09T19:01:11", "hwnd": 8719954, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T19:01:33", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 22, "idle_start": "2026-07-09T19:01:11"}
+{"ts": "2026-07-09T19:01:33", "hwnd": 8719954, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger RWMPMP", "process": "python.exe", "browser": ""}

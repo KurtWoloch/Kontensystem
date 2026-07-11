@@ -4611,3 +4611,7 @@
 {"ts": "2026-04-06T23:59:40", "hwnd": 2494168, "title": "Aufgabe überspringen", "process": "python.exe", "browser": ""}
 {"ts": "2026-04-06T23:59:46", "hwnd": 8062318, "title": "Tagesplanung — Reaktiver Planer — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
 {"ts": "2026-04-06T23:59:50", "hwnd": 2887416, "title": "Aufgabe erledigt — PC herunterfahren LEAZHF", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T21:48:06", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-09T21:48:06", "hwnd": 15208064, "title": "Tagesplanung — Off-PC — Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T21:49:05", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 59, "idle_start": "2026-07-09T21:48:06"}
+{"ts": "2026-07-09T21:49:05", "hwnd": 15208064, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (Ereignisse / gegessen / zu essen) LEEPGE", "process": "python.exe", "browser": ""}

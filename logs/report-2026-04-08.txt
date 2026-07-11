@@ -13,8 +13,15 @@
   ⏭ Übersprungen:              9  (    1h 02m)  = 6.3%
   ✗ Nicht erreicht:           42  (    5h 07m)  = 31.3%
 
-  📝 Ungeplante Aktivitäten:  10  (    3h 14m)
-  ⏱  Tatsächliche Arbeitszeit:    13h 56m
+  📝 Ungeplante Aktivitäten:  55  (   10h 01m)
+  ⏱  Plan-Ausführungszeit:        7h 07m
+  ⏱  Tatsächliche Arbeitszeit:    17h 08m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -45,27 +52,27 @@
 
   Aktivität                                    Zeit
   ──────────────────────────────────────── ────────
-  Nachmittagsjause fassen LENAJA             3h 42m
-  Mittagspause BRZG  LEMEBR                  1h 27m
+  Nachmittagsjause fassen LENAJA (Verlänge   3h 38m
   Reparatur Windows 11-Installation Laptop   1h 13m
+  Mittagspause BRZG  LEMEBR                  1h 00m
   Mundhygiene (Dr. Salbrechter) GEZAMH          55m
-  Heimfahrt vom BRZ inkl. Laufen BRFAHF         48m
   Diskussion Planungsfehler mit OpenClaw K      47m
-  Nacherfassung Ablauf KSPLNA                   42m
+  Heimfahrt vom BRZ inkl. Laufen BRFAHF         45m
   Fahrt BRZG BRFAFA                             42m
+  Nacherfassung Ablauf KSPLNA                   42m
   Arbeitszeit absolvieren (Nachmittag) BRE      41m
-  Duschen LEMTDU                                26m
+  Mittagspause BRZG  LEMEBR (Verlängerung)      25m
   Fahrt zu Mundhygiene GEMHFA                   23m
-  Bearb. Essensplan im BRZ BREPGM               22m
+  Duschen LEMTDU                                20m
   Frühstücken, dabei Vorbereitung Candeblo      18m
   Abhalten BKDD Standup Meeting BREPGM          16m
-  Feinschliff bei der Rasur LEMTFR              15m
   Anwendung der Zwischenraumzahnbürste LEA      15m
   Rasieren, dabei Planung + Vortagesreview      13m
   Tweet an Thinking Frequencies RWMPAR          12m
+  Bearb. Essensplan im BRZ BREPGM (Verläng      12m
+  Bearb. Essensplan im BRZ BREPGM               10m
   Planung BRZ BREPGM                            10m
-  Einpacken BRZ-Laptop, RW-Prg. / Essenspl       9m
-  ... und 51 weitere Aktivitäten
+  ... und 70 weitere Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
@@ -74,14 +81,14 @@
   Kürzel           Zeit
   ──────────── ────────
   LENAJA         3h 42m
-  LEMEBR         1h 27m
+  LEMEBR         1h 25m
   PCADWI         1h 13m
   GEZAMH            55m
   BREPGM            48m
   BRFAHF            48m
   KSPLEN            47m
-  KSPLNA            42m
   BRFAFA            42m
+  KSPLNA            42m
   BREPDZ            41m
   LEMTDU            26m
   GEMHFA            23m
@@ -93,7 +100,7 @@
   RWMPAR            12m
   RWMPMP            11m
   RAAFAN            11m
-  ... und 43 weitere Kürzel
+  ... und 42 weitere Kürzel
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
@@ -101,7 +108,7 @@
 
   Bereich      Zeit
   ──────── ────────
-  LE         7h 46m
+  LE         7h 44m
   BR         3h 34m
   KS         1h 29m
   GE         1h 28m
@@ -111,7 +118,12 @@
   IN            16m
   MU            10m
   WF             2m
-  (–)            1m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -140,16 +152,46 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 07:01–07:08  Untersuchung Playlist Andon FM / Thinkin  — Frage Arena AI wieviele Beatles-Songs nicht Deep Cuts sind (Antwort 50+ / 25 (Gemini))
-  📝 07:48–07:50  Scan Thinking Frequencies RWMPMP
-  📝 09:30–09:34  Analyse Thinking Frequencies RAAFAN  — Suche Matching Indie Pop Alternative Dreams zu Tagging
-  📝 09:52–10:15  Fahrt zu Mundhygiene GEMHFA  — zu Taxistandplatz, kein Taxi dort -> mit VOI-Scooter (10:00-10:14)
-  📝 10:15–11:10  Mundhygiene (Dr. Salbrechter) GEZAMH  — verspätet, inkl. Bezahlen
-  📝 13:57–15:10  Reparatur Windows 11-Installation Laptop
-  📝 22:18–22:21  Nacherfassung Ablauf KSPLNA
-  📝 22:24–22:31  Nacherfassung Ablauf KSPLNA
-  📝 22:33–22:38  Nacherfassung Ablauf KSPLNA
-  📝 22:47–23:02  Nacherfassung Ablauf KSPLNA
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Nachmittagsjause fassen LENAJA (Verlängerung)   3h 38m      1 16:12–19:52  
+  Reparatur Windows 11-Installation Laptop PCAD   1h 13m      1 13:57–15:10  
+  Mundhygiene (Dr. Salbrechter) GEZAMH               55m      1 10:15–11:10  
+  Diskussion Planungsfehler mit OpenClaw KSPLEN      47m      2 21:27–22:15  
+  Nacherfassung Ablauf KSPLNA                        42m      9 07:25–23:02  
+  Mittagspause BRZG  LEMEBR (Verlängerung)           25m      1 12:32–13:57  
+  Fahrt zu Mundhygiene GEMHFA                        23m      1 09:52–10:15  
+  Tweet an Thinking Frequencies RWMPAR               12m      3 08:05–23:05  
+  Bearb. Essensplan im BRZ BREPGM (Verlängerung      12m      1 12:08–12:30  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       9m      1 07:50–08:05  
+  div. Surfen INSUSU                                  8m      4 07:12–21:15  
+  Div. Surfen INSUSU                                  8m      3 21:10–22:14  
+  Untersuchung Playlist Andon FM / Thinking Fre       7m      1 07:01–07:08  
+  Analyse Andon FM RWPLAF                             7m      3 07:08–21:17  
+  Konversation mit Andrew Pappas RAAFKO               7m      2 07:14–07:42  
+  Duschen LEMTDU (Verlängerung)                       6m      1 08:31–08:57  
+  Starten Youtube-Playlist MUOWSP (Verlängerung       4m      1 08:26–08:31  
+  Analyse Thinking Frequencies RAAFAN                 4m      1 09:30–09:34  
+  Einpacken BRZ-Laptop, RW-Prg. / Essensplan /        4m      1 09:37–09:46  
+  Anhören Radiosender / Radio Würmchen / Tonträ       3m      1 07:30–07:37  
+  Weiterentwicklung Radio Würmchen KI (Gemma) m       3m      1 07:42–07:45  
+  Herunterfahren, Einpacken, Anziehen BRALAB (V       3m      1 20:08–20:17  
+  Heimfahrt vom BRZ inkl. Laufen BRFAHF (Verlän       3m      1 20:17–21:05  
+  Surfen Andon FM RAAFSU                              2m      1 07:19–07:21  
+  Scan Thinking Frequencies RWMPMP                    2m      1 07:48–07:50  
+  Bearb.Ohrwürmer (durchgenommen) MUOWDU (Verlä       2m      1 08:15–08:20  
+  Eingabe Zeiterfassung SAP BREPZE (Verlängerun       2m      1 20:02–20:08  
+  Analyse Thinking Frequencies Song-Tagging RWM       2m      1 21:25–21:27  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:46–06:48  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            1m      1 08:12–08:15  
+  Reinigung Waschmuschel LEMTRW (Verlängerung)        1m      1 08:24–08:26  
+  Bett machen LEMTBM (Verlängerung)                   1m      1 09:04–09:08  
+  Blutdruck messen GEBMBM (Verlängerung)              1m      1 22:21–22:24  
+  Medikament fassen GEMEFA (Verlängerung)             1m      1 23:05–23:08  
+  Ausziehen LEAZAU (Verlängerung)                     1m      1 23:41–23:46  
+  PC herunterfahren LEAZHF (Verlängerung)             1m      1 23:51–23:53  
+
+  Gesamt ungeplant: 10h 01m über 55 Einträge / 36 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      121
   Geplante Gesamtzeit:         16h 39m
 
-  ✓ Erledigt (geplant):       69  (    9h 40m)  = 58.1%
+  ✓ Erledigt (geplant):       68  (    8h 40m)  = 52.1%
   ⏭ Übersprungen:              5  (       47m)  = 4.7%
-  ✗ Nicht erreicht:           47  (    6h 12m)  = 37.2%
+  ✗ Nicht erreicht:           48  (    7h 12m)  = 43.2%
 
-  📝 Ungeplante Aktivitäten:  12  (    1h 26m)
-  ⏱  Tatsächliche Arbeitszeit:    15h 13m
+  📝 Ungeplante Aktivitäten: 126  (   11h 41m)
+  ⏱  Plan-Ausführungszeit:        4h 59m
+  ⏱  Tatsächliche Arbeitszeit:    16h 40m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -37,7 +44,7 @@
   Wenn ("Gehst Du heute zum Essen rau   12:30     15:34  +3h 04m
   Der Außentemperatur entsprechend an   12:28     15:26  +2h 58m
   Mund spülen LEMTMS                    09:04     11:59  +2h 55m
-  ... und 45 weitere
+  ... und 44 weitere
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
@@ -46,26 +53,26 @@
   Aktivität                                    Zeit
   ──────────────────────────────────────── ────────
   Nacherfassung Ablauf KSPLNA                1h 52m
-  Scan Thinking Frequencies                  1h 15m
+  Scan Thinking Frequencies RASCTF           1h 16m
   Diskussion Issues in Planer mit OpenClaw   1h 15m
   Durchsehen weitere potentielle Issues fü   1h 07m
   Arbeit an Tagesplanung / Planer-Entwickl   1h 06m
   Diskussion Tagesablauf + Planer mit Open   1h 04m
   Einkauf (BILLA Ederg.) / Laufen LEEKBI        45m
   Einrichtung Issues für Tagesplaner KSPLP      30m
-  Duschen LEMTDU                                26m
-  Anhören RW-Prg. / Tonträger / Radiosende      25m
   Dokumentation Ohrwurm-Projekt RWOWDO          22m
-  Bearb. Essensplan (gegessen / Lokalsuche      20m
-  Anwendung der Zwischenraumzahnbürste LEA      19m
-  Bearb. Essensplan (Änderung Sollwerte) L      16m
+  Duschen LEMTDU                                20m
+  Anhören RW-Prg. / Tonträger / Radiosende      16m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
   Surfen / Auswertung Andon FM RAAFSU           16m
-  Feinschliff bei der Rasur LEMTFR              15m
   Rasieren, dabei Planung + Vortagesreview      14m
   Zähne putzen GEMTZP                           12m
+  Bearb. Essensplan (Änderung Sollwerte) L      11m
   Frühstücken, dabei Vorbereitung Candeblo      11m
+  Bearb. Essensplan (gegessen / Lokalsuche      11m
   Untersuchung Rotation Andon FM / OpenAIR      10m
-  ... und 72 weitere Aktivitäten
+  Zähne putzen LEAZZP                            9m
+  ... und 83 weitere Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
@@ -76,7 +83,7 @@
   KSPLEN         3h 30m
   KSPLNA         1h 52m
   KSPLPL         1h 45m
-  (kein Kürzel)   1h 31m
+  RASCTF         1h 16m
   RWMPAR            50m
   RAAFSU            47m
   LEEKBI            45m
@@ -91,9 +98,9 @@
   LEEPEP            12m
   GEMTZP            12m
   LEMTFS            11m
-  RWKIRN             9m
   LEAZZP             9m
-  ... und 47 weitere Kürzel
+  RWKIRN             9m
+  ... und 50 weitere Kürzel
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
@@ -102,14 +109,19 @@
   Bereich      Zeit
   ──────── ────────
   KS         7h 10m
-  LE         4h 35m
+  LE         4h 43m
+  RA         2h 35m
   RW         1h 36m
-  (–)        1h 31m
-  RA         1h 11m
   GE            25m
   IN             8m
   WF             2m
   MU             1m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -132,18 +144,59 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 06:53–07:21  Diskussion Tagesablauf + Planer mit Open
-  📝 07:23–07:32  Diskussion Tagesablauf + Planer mit Open
-  📝 07:35–07:39  Diskussion Tagesablauf + Planer mit Open
-  📝 07:40–08:03  Diskussion Tagesablauf + Planer mit Open
-  📝 08:36–08:38  Nacherfassung Ablauf KSPLNA
-  📝 10:19–10:25  Statistik Andon FM (Rotation Grok'n Roll  — neue Abfrage für gehörte Titel nach letztem Hördatum
-  📝 10:26–10:28  WC LEMTWC
-  📝 12:57–12:58  Wasser fassen LEMTGA
-  📝 14:09–14:12  WC LEEKWC
-  📝 15:12–15:14  Nacherfassung Ablauf KSPLNA
-  📝 15:34–15:36  Müllentsorgung LEMÜMÜ
-  📝 19:54–19:58  WC LENJWC
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Nacherfassung Ablauf KSPLNA                     1h 52m     21 08:36–21:29  
+  Scan Thinking Frequencies RASCTF                1h 16m     12 13:10–17:06  
+  Diskussion Issues in Planer mit OpenClaw KSPL   1h 15m      1 17:54–19:09  
+  Durchsehen weitere potentielle Issues für Tag   1h 07m      5 08:53–17:37  
+  Arbeit an Tagesplanung / Planer-Entwicklung K   1h 06m     10 19:09–20:59  
+  Diskussion Tagesablauf + Planer mit OpenClaw    1h 04m      4 06:53–08:03  
+  Einrichtung Issues für Tagesplaner KSPLPL          30m      2 08:04–08:36  
+  Surfen / Auswertung Andon FM RAAFSU                16m      3 11:19–11:59  
+  Untersuchung Rotation Andon FM / OpenAIR RAAF      10m      3 12:46–13:10  
+  Untersuchung Playlist Andon FM RAAFSU               9m      5 07:21–08:15  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       9m      1 09:59–10:14  
+  Bearb. Essensplan (gegessen / Lokalsuche / Ko       9m      2 11:33–11:51  
+  Restart Radio Würmchen KI RWKIRN                    9m      1 17:41–17:50  
+  Spende + Tweet an Grok'n Roll RWMPAR                9m      1 20:14–20:23  
+  Anhören RW-Prg. / Tonträger / Radiosender / O       9m      1 21:29–21:54  
+  Tweet an Thinking Frequencies RWMPAR                8m      5 09:52–17:41  
+  Surfen Andon FM RAAFSU                              8m      6 11:31–20:58  
+  Surfen / Analyse Andon FM RAAFSU                    8m      2 12:01–12:39  
+  Durchsehen Issues für Tagesplaner KSPLPL            8m      2 16:56–17:07  
+  Tweet / Spende an OpenAIR RWAFTW                    7m      1 12:09–12:16  
+  Tweet an Grok'n Roll RWMPAR                         7m      3 20:27–20:39  
+  Scan OpenAIR RASCOA                                 7m      2 22:18–23:18  
+  Statistik Andon FM (Rotation Grok'n Roll) RAA       6m      1 10:19–10:25  
+  Duschen LEMTDU (Verlängerung)                       6m      1 10:31–10:57  
+  Mittagessen (selbst kochen / kalt) LEMESK           6m      1 16:21–16:27  
+  Bearb. Essensplan (Änderung Sollwerte) LEEPUH       5m      1 09:28–09:42  
+  Bearb. Essensplan LEEPEP                            5m      2 12:05–20:25  
+  Diskussion OpenClaw KSPLEN                          5m      1 20:46–20:51  
+  Analyse Thinking Frequencies RAAFAN                 4m      2 09:26–17:39  
+  Der Außentemperatur entsprechend anziehen LEA       4m      1 15:26–15:34  
+  Konversation Andon FM / Thinking Frequencies        4m      1 17:50–17:54  
+  Medikament fassen GEMEFA (Verlängerung)             4m      1 22:21–22:27  
+  Surfen X (Timeline) INSUXX                          3m      3 11:27–17:10  
+  Erfassung Ablauf KSPLEA                             3m      3 12:16–13:05  
+  Restart Radio Würmchen KI RWMPKI                    3m      1 12:43–12:46  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       3m      1 22:38–22:57  
+  Müllentsorgung LEMÜMÜ                               2m      1 15:34–15:36  
+  div. Surfen INSUSU                                  2m      1 16:31–16:33  
+  Konversation mit Andrew Pappas RAAFKO               2m      1 20:36–20:38  
+  Scan Grok'n Roll RASCGR                             2m      1 21:54–21:56  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            1m      1 10:14–10:17  
+  Reinigung Waschmuschel LEMTRW (Verlängerung)        1m      1 10:29–10:31  
+  Tweet an Thinking Frequencies (Kauf I can see       1m      1 12:50–12:51  
+  Surfen X RAAFKO                                     1m      1 12:51–12:52  
+  Wasser fassen LEMTGA                                1m      1 12:57–12:58  
+  Mailprüfung INMAPR (Verlängerung)                   1m      1 16:50–16:53  
+  Bett machen LEAZHW (Verlängerung)                   1m      1 23:04–23:07  
+  Einschmieren GEAZES (Verlängerung)                  1m      1 23:09–23:12  
+  PC herunterfahren LEAZHF (Verlängerung)             1m      1 23:18–23:20  
+
+  Gesamt ungeplant: 11h 41m über 126 Einträge / 49 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
@@ -159,6 +212,7 @@
   ✗ 11:53  Bearb. Liste Scooterfahrten FZSCLI  (9m)
   ✗ 12:10  Bearbeitung Aufgaben zu Papa's Pflege (1  (2m)
   ✗ 12:26  Bearbeitung Aufgaben zu Papa's Pflege (1  (2m)
+  ✗ 13:30  Mittagessen (selbst kochen / kalt)  (60m)
   ✗ 16:48  Bearb. Essensplan (Update Händlerangebot  (11m)
   ✗ 16:59  Bearb. Essensplan (Update Wärme / Gewich  (5m)
   ✗ 17:08  Bearb. Essensplan (Update Wärme / Gewich  (5m)

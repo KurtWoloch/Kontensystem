@@ -649,7 +649,7 @@
     "comment": ""
   },
   {
-    "activity": "Eintragung Entschuldung Sati",
+    "activity": "Eintragung Entschuldung Sati WFSAVS",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 1,
@@ -902,17 +902,6 @@
     "comment": ""
   },
   {
-    "activity": "Laufen / Scootersuche GEGYLS",
-    "list": "Liste_Laufen",
-    "priority": 1.84,
-    "minutes": 34,
-    "started_at": "19:25:00",
-    "completed_at": "20:07:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Abhalten BKDD Standup Meeting BREPGM",
     "list": "Liste_Arbeit",
     "priority": 1.845,
@@ -944,6 +933,17 @@
     "skipped": true,
     "original_activity": "",
     "comment": "doppelt geplant"
+  },
+  {
+    "activity": "Laufen / Scootersuche GEGYLS",
+    "list": "Liste_Laufen",
+    "priority": 1.84,
+    "minutes": 40,
+    "started_at": "19:27:00",
+    "completed_at": "20:07:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "div. Surfen INSUSU",
@@ -1392,17 +1392,6 @@
     "minutes": 1,
     "started_at": "22:33:00",
     "completed_at": "22:34:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Bearbeitung Aufgaben zu Papa's Pflege (10' +) PATATA",
-    "list": "timeline_import",
-    "priority": 0.0,
-    "minutes": 7,
-    "started_at": "22:34:00",
-    "completed_at": "22:41:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

@@ -13,8 +13,15 @@
   ⏭ Übersprungen:              3  (        9m)  = 0.9%
   ✗ Nicht erreicht:           54  (    9h 14m)  = 53.4%
 
-  📝 Ungeplante Aktivitäten:   7  (       28m)
-  ⏱  Tatsächliche Arbeitszeit:    18h 18m
+  📝 Ungeplante Aktivitäten: 113  (   13h 51m)
+  ⏱  Plan-Ausführungszeit:        4h 17m
+  ⏱  Tatsächliche Arbeitszeit:    18h 08m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -37,7 +44,7 @@
   Blutdruck messen GEBMBM               07:57     10:58  +3h 01m
   Einschmieren GEMTES                   07:17     09:12  +1h 55m
   WC LENJWC                             15:27     13:34  -1h 53m
-  ... und 45 weitere
+  ... und 46 weitere
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
@@ -47,25 +54,25 @@
   ──────────────────────────────────────── ────────
   Weiterentwicklung Radio Würmchen KI (Gem   5h 38m
   Diskussion OpenClaw Aufräumen Memory.md    1h 20m
-  Diskussion Ohrwürmer / Liederketten mit    1h 16m
-  Mittagessen (externes Lokal) LEMEEX        1h 10m
   Nacherfassung Ablauf KSPLNA                1h 09m
   Surfen Moltbook INOCMB                     1h 09m
-  Besuch Schwimmbad GEGYSB                   1h 08m
+  Besuch Schwimmbad GEGYSB                   1h 00m
+  Mittagessen (externes Lokal) LEMEEX        1h 00m
   Scan Radio Würmchen KI RASCRW                 59m
-  Bearb. Essensplan (gegessen, zu essen, S      16m
+  Diskussion Ohrwürmer / Liederketten mit       49m
+  Diskussion Ohrwürmer / Liederketten mit       27m
   Anwendung der Zwischenraumzahnbürste LEA      16m
   Rasieren, dabei Planung + Vortagesreview      15m
-  Zähne putzen LEAZZP                           13m
+  Bearb. Essensplan (gegessen, zu essen, S      14m
   Frühstücken, dabei Vorbereitung Candeblo      12m
-  Feinschliff bei der Rasur LEMTFR              11m
-  Bearb. Ohrwürmer (durchzunehmende) RWOWD      11m
+  Zähne putzen LEAZZP                           12m
+  Bearb. Ohrwürmer (durchzunehmende) RWOWD      10m
   Zähne putzen GEMTZP                           10m
-  WC LENJWC                                     10m
   Laufen / Scootersuche GEGYLS                  10m
+  WC LENJWC                                      9m
   Konversation Andon FM / OpenAIR / Andrew       9m
-  Zähne fluoridieren LEAZZF                      9m
-  ... und 53 weitere Aktivitäten
+  Besuch Schwimmbad GEGYSB (Verlängerung)        8m
+  ... und 67 weitere Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
@@ -76,24 +83,24 @@
   RWKIEN         5h 38m
   INOCDI         1h 20m
   RWDOOC         1h 16m
-  LEMEEX         1h 10m
   KSPLNA         1h 09m
   INOCMB         1h 09m
   GEGYSB         1h 08m
+  LEMEEX         1h 00m
   RASCRW            59m
   LEEPEP            23m
   LEMTFR            23m
   LEAZZZ            16m
   LEMTRA            15m
   LEAZZP            13m
+  RWMPAR            12m
   RWOWDN            11m
   GEMTZP            10m
   LENJWC            10m
   GEGYLS            10m
-  RWMPAR            10m
   LENATW             9m
-  RAAFKO             9m
-  ... und 46 weitere Kürzel
+  LEAZZF             9m
+  ... und 45 weitere Kürzel
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
@@ -101,8 +108,8 @@
 
   Bereich      Zeit
   ──────── ────────
-  RW         7h 26m
-  LE         4h 22m
+  RW         7h 28m
+  LE         4h 11m
   IN         2h 35m
   GE         1h 41m
   RA         1h 18m
@@ -111,7 +118,12 @@
   WF             4m
   PC             3m
   MU             1m
-  (–)            1m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -128,13 +140,43 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 06:43–06:47  Ansehen Youtube-Videos RAYTYT
-  📝 07:00–07:02  Ansehen Youtube-Videos RAYTYT
-  📝 07:03–07:04  Ansehen Youtube-Videos RAYTYT
-  📝 10:04–10:08  WC LEMTWC
-  📝 21:47–21:51  WC LENJWC
-  📝 00:00–00:08  Nacherfassung Ablauf KSPLNA
-  📝 23:54–23:59  Nacherfassung Ablauf KSPLNA
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Weiterentwicklung Radio Würmchen KI (Gemma) m   5h 38m     39 10:02–23:47  
+  Diskussion OpenClaw Aufräumen Memory.md INOCD   1h 20m      9 19:51–23:48  
+  Nacherfassung Ablauf KSPLNA                     1h 09m     11 00:00–23:59  
+  Surfen Moltbook INOCMB                          1h 09m      4 18:27–19:51  
+  Mittagessen (externes Lokal) LEMEEX             1h 00m      1 13:44–14:44  
+  Scan Radio Würmchen KI RASCRW                      59m      9 00:08–22:21  
+  Diskussion Ohrwürmer / Liederketten mit OpenC      45m      1 09:17–10:02  
+  Diskussion Ohrwürmer / Liederketten mit OpenC      27m      2 06:14–07:39  
+  Konversation Andon FM / OpenAIR / Andrew Papp       9m      1 19:38–19:47  
+  Besuch Schwimmbad GEGYSB (Verlängerung)             8m      1 07:52–09:00  
+  Ansehen Youtube-Videos RAYTYT                       7m      3 06:43–07:04  
+  Bearb. Essensplan LEEPEP                            7m      5 11:27–21:23  
+  Zähne fluoridieren LEAZZF (Verlängerung)            7m      2 23:36–23:46  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       5m      1 06:47–06:58  
+  Analyse Andon FM RWPLAF                             5m      1 16:42–16:47  
+  Tweet an OpenAIR Radio RWMPAR                       5m      3 20:04–20:18  
+  PC herunterfahren LEAZHF (Verlängerung)             3m      1 00:29–00:33  
+  Bearb. Essensplan (Vorschläge Strake) LEEPVO        3m      1 07:39–07:47  
+  Sichtung Radio-Würmchen-Programmstatistiken R       3m      1 16:39–16:42  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       2m      1 05:56–05:59  
+  div. Surfen INSUSU                                  2m      2 12:21–17:53  
+  Surfen Andon FM RAAFSU                              2m      2 12:50–15:28  
+  Getränk fassen LENATW                               2m      1 15:40–15:42  
+  Bearb. Essensplan (gegessen, zu essen, Start        2m      1 16:48–16:50  
+  Tweet an Grok'n Roll RWMPAR                         2m      1 21:20–21:22  
+  Mailprüfung INMAPR (Verlängerung)                   2m      2 21:53–21:58  
+  Anhören RW-Prg. / Tonträger / Radiosender RWM       2m      1 21:55–21:57  
+  Blutdruck messen GEBMBM (Verlängerung)              1m      1 10:58–11:01  
+  Bearb. Ohrwürmer (durchzunehmende) RWOWDN (Ve       1m      1 15:01–15:11  
+  Termine in Kalender prüfen LEMTTP (Verlängeru       1m      1 18:00–18:02  
+  Nachtmahl fassen LENANA (Verlängerung)              1m      1 21:23–21:27  
+  WC LENJWC (Verlängerung)                            1m      1 21:47–21:51  
+  Zähne putzen LEAZZP (Verlängerung)                  1m      1 23:00–23:13  
+
+  Gesamt ungeplant: 13h 51m über 113 Einträge / 33 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

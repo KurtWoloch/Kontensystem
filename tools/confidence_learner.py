@@ -59,6 +59,10 @@ def _is_teleworking(activity):
     """Return True if the activity matches any teleworking filter substring."""
     return any(f in activity for f in TELEWORKING_FILTERS)
 
+def _has_valid_task_code(activity):
+    """Return True if the activity ends with a valid task code of 4-6 uppercase letters (optional (Fs.) suffix)."""
+    return re.search(r'\s([A-ZÄÖÜß]{4,6})(?:\s*\(Fs\.\))?\s*$', activity) is not None
+
 # EMA parameters
 EMA_OLD = 0.80
 EMA_NEW = 0.20
@@ -360,6 +364,8 @@ def process_day(date_str, observations, transitions):
         if _is_teleworking(activity):
             teleworking_filtered += 1
             continue
+        if not _has_valid_task_code(activity):
+            continue
         matched_count += 1
         if store_key not in observations:
             observations[store_key] = defaultdict(int)
@@ -367,9 +373,9 @@ def process_day(date_str, observations, transitions):
 
     # ── Transition computation ─────────────────────────────────────────────
     # Build matched_events list: (store_key, activity) for events with activities
-    # Also exclude teleworking activities from transitions
+    # Also exclude teleworking activities and uncoded activities from transitions
     matched_events = [(sk, act) for sk, act, _ in event_data
-                      if act is not None and not _is_teleworking(act)]
+                      if act is not None and not _is_teleworking(act) and _has_valid_task_code(act)]
     n = len(matched_events)
 
     if n > 0:

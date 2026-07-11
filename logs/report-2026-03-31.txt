@@ -13,8 +13,15 @@
   ⏭ Übersprungen:              8  (    1h 21m)  = 7.8%
   ✗ Nicht erreicht:           39  (    4h 27m)  = 25.7%
 
-  📝 Ungeplante Aktivitäten:  11  (    1h 00m)
-  ⏱  Tatsächliche Arbeitszeit:    16h 39m
+  📝 Ungeplante Aktivitäten: 133  (    8h 44m)
+  ⏱  Plan-Ausführungszeit:        9h 07m
+  ⏱  Tatsächliche Arbeitszeit:    17h 51m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -35,9 +42,9 @@
   Mund spülen LEMTMS                    08:06     10:18  +2h 12m
   Häferl waschen / Hustenbonbon fasse   08:08     10:19  +2h 11m
   Ausziehen LEMTAZ                      06:41     08:51  +2h 10m
+  Teller waschen / Getränk fassen LEN   20:23     18:13  -2h 10m
   Einschmieren GEMTES                   07:10     09:19  +2h 09m
-  Anziehen LEMTAN                       07:12     09:21  +2h 09m
-  ... und 41 weitere
+  ... und 43 weitere
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
@@ -47,25 +54,25 @@
   ──────────────────────────────────────── ────────
   Arbeitszeit absolvieren (Nachmittag) BRE   2h 17m
   Arbeitszeit absolvieren (Nachmittag) BRE   1h 37m
-  Nacherfassung Ablauf KSPLNA                1h 28m
-  Zähne putzen LEAZZP                        1h 02m
+  Nacherfassung Ablauf KSPLNA                1h 30m
   Verbesserung Tagesplaner mit OpenClaw KS      50m
-  Analyse Andon FM RWPLAF                       41m
+  Analyse Andon FM RWPLAF                       49m
   Arbeitszeit absolvieren (Vormittag) BREP      41m
   Surfen Las Vegas Tesla Loop FZSUEV            39m
   Scan Backlink Broadcast RASCBB                38m
-  Laufen / Scootersuche GEGYLS                  38m
+  Laufen / Scootersuche GEGYLS                  34m
   Papiersortierung WFPAPA                       29m
   Mittagessen (von Sati gekocht) LEMESE         27m
   Untersuchung SXSW Festival Lineup RAAFSU      25m
-  Duschen LEMTDU                                22m
+  Zähne putzen LEAZZP (Verlängerung)            25m
+  Duschen LEMTDU                                20m
   Diskussion Tagesplanung mit OpenClaw KSP      19m
-  Planung BRZ BREPGM                            18m
   Abhalten BKDD Standup Meeting BREPGM          17m
   WC BREPWC                                     16m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Surfen X RAAFKO                               16m
   div. Surfen (News) INSUNE                     16m
-  Tweet an Backlink Broadcast RAAFKO            15m
-  ... und 64 weitere Aktivitäten
+  ... und 75 weitere Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
@@ -73,27 +80,27 @@
 
   Kürzel           Zeit
   ──────────── ────────
-  BREPDZ         2h 58m
-  (kein Kürzel)   1h 37m
-  KSPLNA         1h 28m
+  BREPDZ         4h 35m
+  KSPLNA         1h 30m
   KSPLAW         1h 11m
-  LEAZZP         1h 02m
-  RWPLAF            41m
+  RWPLAF            49m
   FZSUEV            39m
-  RASCBB            38m
   GEGYLS            38m
+  RASCBB            38m
+  LEAZZP            37m
   BREPGM            35m
   RAAFSU            34m
+  RAAFKO            32m
   WFPAPA            29m
   LEMESE            27m
-  RAAFKO            26m
   LEMTDU            22m
   RWMPAR            19m
   BREPWC            16m
+  LEAZZZ            16m
   INSUNE            16m
   WFPUEL            13m
   RWMPSE            12m
-  ... und 48 weitere Kürzel
+  ... und 47 weitere Kürzel
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
@@ -101,12 +108,11 @@
 
   Bereich      Zeit
   ──────── ────────
-  BR         4h 08m
-  LE         3h 17m
-  KS         2h 47m
-  RA         1h 40m
-  (–)        1h 37m
-  RW         1h 19m
+  BR         5h 45m
+  LE         3h 15m
+  KS         2h 49m
+  RA         1h 46m
+  RW         1h 27m
   GE            49m
   WF            44m
   FZ            39m
@@ -114,6 +120,12 @@
   PC            10m
   CS             4m
   MU             1m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -140,17 +152,51 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 07:58–08:03  Surfen Andon FM RAAFSU
-  📝 09:27–09:35  Bearb. Essensplan (gegessen / neuer Plan
-  📝 10:21–10:50  Papiersortierung WFPAPA
-  📝 11:02–11:02  Verabschiedung / Zahlung Sati Ersoy WFPU
-  📝 15:21–15:24  WC BREPWC
-  📝 15:24–15:28  Getränk fassen LENATW  — Holundersaft zuckerfrei
-  📝 17:45–17:47  Nachmittagsjause fassen LENAJA
-  📝 18:13–18:15  Teller waschen / Getränk fassen LENATW
-  📝 18:56–18:59  WC BREPWC
-  📝 20:08–20:11  WC BREPWC
-  📝 20:12–20:13  Entwurf Küchengebühren WFLEKG
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Nacherfassung Ablauf KSPLNA                     1h 30m     20 06:46–22:22  
+  Verbesserung Tagesplaner mit OpenClaw KSPLAW       50m     18 06:51–20:47  
+  Analyse Andon FM RWPLAF                            49m     15 06:22–22:35  
+  Surfen Las Vegas Tesla Loop FZSUEV                 39m      7 13:05–21:00  
+  Scan Backlink Broadcast RASCBB                     38m      8 08:03–20:45  
+  Papiersortierung WFPAPA                            29m      1 10:21–10:50  
+  Untersuchung SXSW Festival Lineup RAAFSU           25m      1 13:30–13:55  
+  Zähne putzen LEAZZP (Verlängerung)                 25m      1 22:43–23:20  
+  Diskussion Tagesplanung mit OpenClaw KSPLAW        19m      2 06:25–06:45  
+  Surfen X RAAFKO                                    16m      8 06:19–22:37  
+  div. Surfen (News) INSUNE                          16m      5 14:26–22:19  
+  Tweet an Backlink Broadcast RAAFKO                 15m      4 06:56–09:50  
+  Anhören RW-Prg. mit Sati Ersoy RWMPSE              12m      6 09:50–11:02  
+  Tweet an Backlink Broadcast RWMPAR                 11m      4 06:17–14:43  
+  Surfen Andon FM RAAFSU                              9m      3 06:53–19:33  
+  Arbeit an Tagesplanung / Planer-Entwicklung K       8m      1 07:04–07:12  
+  Bearb. Essensplan (gegessen / neuer Plan) LEE       8m      1 09:27–09:35  
+  Planung BRZ BREPGM (Verlängerung)                   8m      1 11:19–11:37  
+  PC herunterfahren PCHFHF (Verlängerung)             8m      1 21:10–21:20  
+  Einlass / Koordination Sati Ersoy WFPUEL            7m      2 09:38–09:47  
+  div. Surfen INSUSU                                  6m      3 06:45–10:10  
+  Surfen Atariage (Nachlesen Rydeen) CSSUAA           4m      1 14:56–15:00  
+  Getränk fassen LENATW                               4m      1 15:24–15:28  
+  Laufen / Scootersuche GEGYLS (Verlängerung)         4m      1 21:22–22:00  
+  Anhören Radiosender / Radio Würmchen / Tonträ       2m      1 06:11–06:17  
+  Diskussion Tagesplan mit OpenClaw KSPLAW            2m      1 06:20–06:22  
+  Reinigung Waschmuschel LEMTRW (Verlängerung)        2m      1 08:53–08:56  
+  Duschen LEMTDU (Verlängerung)                       2m      1 08:57–09:19  
+  Blutdruck messen GEBMBM (Verlängerung)              2m      1 13:57–13:59  
+  Nachmittagsjause fassen LENAJA                      2m      1 17:45–17:47  
+  Ansehen YouTube-Videos RAYTYT                       2m      1 20:01–20:03  
+  Entwurf Küchengebühren WFLEKG                       2m      2 20:12–20:28  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 05:59–06:01  
+  Konversation mit Andrew Pappas RAAFKO               1m      1 06:18–06:19  
+  Surfen X (Timeline) INSUXX                          1m      1 09:51–09:52  
+  Bearb. Essensplan LEEPEP                            1m      1 10:55–10:56  
+  Teller waschen / Getränk fassen LENATW (Verlä       1m      1 20:47–20:49  
+  Medikament fassen GEMEFA (Verlängerung)             1m      1 22:38–22:41  
+  Bett machen LEAZHW (Verlängerung)                   1m      1 23:43–23:46  
+  PC herunterfahren LEAZHF (Verlängerung)             1m      1 23:53–23:55  
+  Verabschiedung / Zahlung Sati Ersoy WFPUZA          0m      1 11:02–11:02  
+
+  Gesamt ungeplant: 8h 44m über 133 Einträge / 41 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

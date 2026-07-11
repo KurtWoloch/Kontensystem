@@ -9,12 +9,19 @@
   Geplante Aktivitäten:       93
   Geplante Gesamtzeit:         14h 32m
 
-  ✓ Erledigt (geplant):       64  (   11h 15m)  = 77.4%
+  ✓ Erledigt (geplant):       63  (   10h 15m)  = 70.5%
   ⏭ Übersprungen:             11  (    1h 31m)  = 10.4%
-  ✗ Nicht erreicht:           18  (    1h 46m)  = 12.2%
+  ✗ Nicht erreicht:           19  (    2h 46m)  = 19.0%
 
-  📝 Ungeplante Aktivitäten:   1  (       11m)
-  ⏱  Tatsächliche Arbeitszeit:    15h 40m
+  📝 Ungeplante Aktivitäten:  59  (    9h 16m)
+  ⏱  Plan-Ausführungszeit:        7h 02m
+  ⏱  Tatsächliche Arbeitszeit:    16h 18m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -22,22 +29,102 @@
 
   Aktivität                           Geplant Tatsächl.    Drift
   ─────────────────────────────────── ─────── ───────── ────────
+  WC LEMTWC                             10:17     21:17 +11h 00m
   Blutdruck messen GEBMBM               10:36     21:02 +10h 26m
   Wohnung lüften WFLULU                 08:44     15:21  +6h 37m
   Bearb. Essensplan (gegessen, zu ess   14:36     21:08  +6h 32m
-  Wohnung lüften WFLULU                 21:01     15:21  -5h 40m
-  Bearb. Ohrwürmer (durchzunehmende)    21:00     15:35  -5h 25m
-  WC BREPWC                             19:55     15:19  -4h 36m
   Mund spülen LEMTMS                    09:01     13:27  +4h 26m
   Häferl waschen / Hustenbonbon fasse   09:03     13:29  +4h 26m
   Abhalten BKDD Standup Meeting BREPG   15:10     11:00  -4h 10m
   Start Teleworking BRZG BRTWGF         14:58     10:49  -4h 09m
-  Planung BRZ BREPGM                    15:30     11:25  -4h 05m
-  Arbeitszeit absolvieren (Vormittag)   15:40     11:35  -4h 05m
-  Arbeitszeit absolvieren (Nachmittag   19:32     15:36  -3h 56m
+  WC BREPWC                             16:35     12:39  -3h 56m
+  Arbeitszeit absolvieren (Nachmittag   19:32     15:44  -3h 48m
+  Planung BRZ BREPGM                    15:30     12:02  -3h 28m
+  Arbeitszeit absolvieren (Vormittag)   15:40     12:27  -3h 13m
   Vorbereitung Playlist für Hören bei   08:13     10:41  +2h 28m
   Einschmieren GEMTES                   08:05     10:32  +2h 27m
-  ... und 49 weitere
+  Anziehen LEMTAN                       08:07     10:34  +2h 27m
+  ... und 44 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Arbeitszeit absolvieren (Nachmittag) BRE   2h 40m
+  Arbeitszeit absolvieren (Nachmittag) BRE   2h 25m
+  Diskussion OpenClaw über Tagesplaner u.a   1h 55m
+  Arbeit an Tagesplaner mit OpenClaw KSPLE   1h 17m
+  Mittagessen (selbst kochen / kalt) LEMES      41m
+  Nacherfassung Ablauf KSPLNA                   36m
+  Laufen / Scootersuche GEGYLS                  34m
+  Bearb. Essensplan (gegessen / Lokalsuche      26m
+  Diskussion Planungsfehler mit OpenClaw K      23m
+  Duschen LEMTDU                                20m
+  Abhalten BKDD Standup Meeting BREPGM          20m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Rasieren, dabei Planung + Vortagesreview      15m
+  Korrektur Ablauf 19.3.2026 (Wegstreichen      15m
+  WC BREPWC                                     11m
+  Bearb. Essensplan (gegessen / Lokalsuche      11m
+  Heimfahrt mit Voi-Scooter FZVAVO              11m
+  Planung BRZ BREPGM                            10m
+  Surfen Andon FM RAAFSU                         9m
+  WC LEMTWC                                      8m
+  ... und 64 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  BREPDZ         5h 13m
+  KSPLEN         3h 40m
+  LEMESK            41m
+  LEEPLS            37m
+  GEGYLS            37m
+  KSPLNA            36m
+  BREPGM            35m
+  LEMTDU            22m
+  LEAZZZ            18m
+  LEMTRA            15m
+  BREPKO            15m
+  RAAFSU            12m
+  BREPWC            11m
+  FZVAVO            11m
+  LEEPEP             9m
+  LEMTFR             9m
+  LEMTWC             8m
+  LEMTFS             8m
+  LEAZZP             8m
+  RWYTPL             7m
+  ... und 38 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  BR         6h 33m
+  KS         4h 16m
+  LE         3h 37m
+  GE            48m
+  RW            28m
+  RA            13m
+  FZ            11m
+  PC             6m
+  WF             5m
+  MU             2m
+  IN             2m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -68,7 +155,41 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 22:00–22:11  Heimfahrt mit Voi-Scooter FZVAVO  — 5 Minuten
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Arbeitszeit absolvieren (Nachmittag) BREPDZ (   2h 25m      1 15:44–20:47  
+  Diskussion OpenClaw über Tagesplaner u.a. KSP   1h 55m      2 07:06–09:02  
+  Arbeit an Tagesplaner mit OpenClaw KSPLEN       1h 17m     13 09:03–15:12  
+  Mittagessen (selbst kochen / kalt) LEMESK          41m      1 13:31–14:12  
+  Nacherfassung Ablauf KSPLNA                        36m     12 09:02–23:14  
+  Bearb. Essensplan (gegessen / Lokalsuche / Ko      26m      1 12:50–13:27  
+  Diskussion Planungsfehler mit OpenClaw KSPLEN      23m      2 11:43–12:37  
+  Korrektur Ablauf 19.3.2026 (Wegstreichen priv      15m      1 12:12–12:27  
+  Heimfahrt mit Voi-Scooter FZVAVO                   11m      1 22:00–22:11  
+  Surfen Andon FM RAAFSU                              9m      2 15:04–15:30  
+  Scan Grok'n Roll RWRSGR                             7m      1 14:47–14:54  
+  Abhalten BKDD Standup Meeting BREPGM (Verläng       5m      1 11:00–11:25  
+  Entwicklung Tagesplanung (VS Code) KSPLEN           5m      1 11:37–11:42  
+  Analyse Andon FM RWPLAF                             4m      1 11:33–11:37  
+  Bearb. Essensprotokoll LEEPEP                       4m      2 15:12–15:18  
+  PC herunterfahren PCHFHF (Verlängerung)             4m      1 21:11–21:17  
+  Statistik Andon FM RAAFSU                           3m      2 08:08–15:15  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       3m      1 09:46–09:55  
+  Blutdruck messen GEBMBM (Verlängerung)              3m      1 21:02–21:07  
+  Laufen / Scootersuche GEGYLS (Verlängerung)         3m      1 22:11–22:14  
+  Suche Python-Skript Andon FM / Radio-Würmchen       3m      1 22:57–23:00  
+  Aufstehen, WC, Rasierer fasssen LEMTAU (Verlä       2m      1 06:48–06:51  
+  Duschen LEMTDU (Verlängerung)                       2m      1 10:10–10:32  
+  Surfen Chat-GPT Memories INSUSU                     2m      1 15:42–15:44  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       2m      1 22:31–22:49  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            1m      1 09:55–09:58  
+  Bett machen LEMTBM (Verlängerung)                   1m      1 10:37–10:41  
+  Surfen X RAAFKO                                     1m      1 11:42–11:43  
+  Bett machen LEAZHW (Verlängerung)                   1m      1 23:00–23:03  
+  Bearb.Ohrwürmer (durchzunehmende aus Charts)        1m      1 23:05–23:08  
+  PC herunterfahren LEAZHF (Verlängerung)             1m      1 23:11–23:13  
+
+  Gesamt ungeplant: 9h 16m über 59 Einträge / 31 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
@@ -81,6 +202,7 @@
   ✗ 09:05  Bearb. Essensplan (Kontrolle / zu essen   (9m)
   ✗ 09:14  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (2m)
   ✗ 10:23  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (8m)
+  ✗ 13:30  Mittagessen (selbst kochen / kalt)  (60m)
   ✗ 14:30  Geschirr abwaschen LEMEGA  (5m)
   ✗ 21:05  Bearb. Essensplan (Update Händlerangebot  (11m)
   ✗ 21:16  Bearb. Liste Scooterfahrten FZSCLI  (4m)

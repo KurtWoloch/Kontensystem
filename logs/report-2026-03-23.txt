@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      126
   Geplante Gesamtzeit:         17h 13m
 
-  ✓ Erledigt (geplant):       89  (   10h 36m)  = 61.6%
+  ✓ Erledigt (geplant):       88  (    9h 36m)  = 55.8%
   ⏭ Übersprungen:             14  (    1h 13m)  = 7.1%
-  ✗ Nicht erreicht:           23  (    5h 24m)  = 31.4%
+  ✗ Nicht erreicht:           24  (    6h 24m)  = 37.2%
 
-  📝 Ungeplante Aktivitäten:  26  (    2h 48m)
-  ⏱  Tatsächliche Arbeitszeit:    14h 53m
+  📝 Ungeplante Aktivitäten:  81  (   11h 20m)
+  ⏱  Plan-Ausführungszeit:        5h 24m
+  ⏱  Tatsächliche Arbeitszeit:    16h 44m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -22,22 +29,104 @@
 
   Aktivität                           Geplant Tatsächl.    Drift
   ─────────────────────────────────── ─────── ───────── ────────
-  WC LEMTWC (Fs.)                       20:11     06:52 -13h 19m
-  WC LEMTWC                             19:59     06:52 -13h 07m
-  Anhören Radiosender / Tonträger / A   20:03     11:11  -8h 52m
   Bearbeitung Buch Champion's Mindset   11:48     19:52  +8h 04m
   Papiersortierung (hereingekommene P   12:17     20:09  +7h 52m
-  Anhören Radiosender / Tonträger / A   19:00     11:11  -7h 49m
-  Bearb. Geldbörse FIBGGB               19:40     12:16  -7h 24m
-  Wohnung lüften WFLULU                 15:39     08:20  -7h 19m
-  Anhören Radiosender / Tonträger / A   18:00     11:11  -6h 49m
-  Anhören Radiosender / Tonträger / A   17:00     11:11  -5h 49m
-  Anhören Radiosender / Tonträger / A   16:06     11:11  -4h 55m
+  WC LEMTWC                             09:48     14:26  +4h 38m
   Spielen Kreuzungs-FGPA CSEXKF         17:20     21:09  +3h 49m
   Bearb. Ohrwürmer (durchgenommene) R   16:19     19:47  +3h 28m
   Bearbeitung Börsenkurse / Aktienhan   17:10     20:10  +3h 00m
-  WC LEMTWC                             09:48     06:52  -2h 56m
-  ... und 74 weitere
+  Bearb. Essensplan (Protokoll) LEEPP   15:54     12:58  -2h 56m
+  WC LEMTWC (Fs.)                       09:46     12:28  +2h 42m
+  WC LEMTWC                             19:59     22:36  +2h 37m
+  Bearb. Essensplan (Protokoll) LEEPP   16:04     13:28  -2h 36m
+  Bearb. Essensplan (Eintragen Protok   16:14     18:27  +2h 13m
+  Wohnung lüften WFLULU                 15:39     17:40  +2h 01m
+  Bearb. Essensplan (Update Händleran   15:43     17:42  +1h 59m
+  Bearb. Essensplan (Ereignisse / geg   14:36     16:22  +1h 46m
+  Termine in Kalender prüfen LEMTTP     10:02     08:26  -1h 36m
+  ... und 62 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Ansehen Youtube-Videos RAYTYT              1h 24m
+  Dokumentation Ohrwurm-Projekt RWOWDO       1h 11m
+  Spielen Kreuzungs-FGPA CSEXKF (Verlänger   1h 10m
+  Bearbeitung Börsenkurse / Aktienhandel F      49m
+  Bearb. Essensplan (Protokoll) LEEPPR (Ve      40m
+  Bearbeitung Aufgaben zu Papa's Pflege (1      37m
+  Nacherfassung Ablauf KSPLNA                   35m
+  Laufen / Scootersuche GEGYLS                  34m
+  Ansehen YouTube-Videos RAYTYT                 29m
+  Fahrt E-Bike (WienMobil) FZFAEB               27m
+  WC LEMTWC                                     25m
+  Frühstücken, dabei Vorbereitung Candeblo      25m
+  Diskussion Planungsfehler mit OpenClaw K      25m
+  Diskussion Vortag mit OpenClaw KSPLAW         24m
+  Nachlesen Convert_886 V3.asm CSSUSU (Ver      21m
+  Duschen LEMTDU                                20m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Geschirr abwaschen LEMEGA (Verlängerung)      16m
+  Bearb. Essensplan (Update Händlerangebot      15m
+  Rasieren, dabei Planung + Vortagesreview      14m
+  ... und 89 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  RAYTYT         1h 53m
+  CSEXKF         1h 20m
+  RWOWDO         1h 11m
+  FIAKBK            59m
+  LEEPPR            48m
+  PATATA            47m
+  GEGYLS            38m
+  KSPLNA            35m
+  CSSUSU            31m
+  KSPLEN            29m
+  LEMTWC            28m
+  FZFAEB            27m
+  LEEPEP            26m
+  LEEPUH            26m
+  LEMTFS            25m
+  LEAZZZ            25m
+  KSPLAW            24m
+  LEMTDU            23m
+  LEMEGA            21m
+  RWMPAR            20m
+  ... und 53 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  LE         5h 39m
+  RA         2h 07m
+  RW         2h 04m
+  CS         1h 51m
+  KS         1h 35m
+  GE         1h 20m
+  FI         1h 11m
+  PA         1h 01m
+  FZ            27m
+  IN            17m
+  WF             6m
+  MU             3m
+  PC             2m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -68,32 +157,52 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 07:10–07:13  Ansehen Youtube-Videos RAYTYT  — Aussuchen eines Videos
-  📝 08:17–08:20  PLanung KSPLPL  — Planungskorrektur (Review BRZG nur an Teleworking-Tagen)
-  📝 09:41–09:45  WC LEMTWC
-  📝 09:45–09:49  PLanung KSPLPL  — Korrektur Priorisierung Ohrwurm-Aktivitäten (Texte und Auswendig-Liste hinter Kontensystem)
-  📝 11:53–11:54  Ansehen Youtube-Videos RAYTYT
-  📝 12:08–12:12  Ansehen Youtube-Videos RAYTYT
-  📝 12:12–12:14  Nacherfassung Ablauf KSPLNA
-  📝 12:28–12:34  WC LEMTWC
-  📝 12:58–13:03  Bearb. Essensplan (Protokoll) LEEPPR  — Protokoll Mittagessen
-  📝 13:28–13:29  Bearb. Essensplan (Protokoll) LEEPPR  — Protokoll Mittagessen
-  📝 13:32–13:41  Ansehen Youtube-Videos RAYTYT
-  📝 13:41–13:46  Bearb. Essensplan (Start Korrekturlauf) 
-  📝 13:46–14:22  Ansehen Youtube-Videos RAYTYT
-  📝 14:23–14:26  Nacherfassung Ablauf KSPLNA
-  📝 14:26–14:35  WC LEMTWC
-  📝 15:26–15:53  Fahrt E-Bike (WienMobil) FZFAEB  — 26' mit Steigungstests
-  📝 16:14–16:17  Nacherfassung Ablauf KSPLNA
-  📝 17:45–17:47  Ansehen Youtube-Videos RAYTYT
-  📝 17:58–17:59  Ansehen Youtube-Videos RAYTYT
-  📝 18:10–18:12  Ansehen Youtube-Videos RAYTYT
-  📝 18:13–18:15  Nacherfassung Ablauf KSPLNA
-  📝 18:24–18:27  Ansehen Youtube-Videos RAYTYT
-  📝 18:36–18:39  Ansehen Youtube-Videos RAYTYT
-  📝 19:12–19:31  Ansehen Youtube-Videos RAYTYT
-  📝 19:43–19:47  Wasser fassen  — + Häferl + Becher waschen
-  📝 22:36–22:43  WC LEMTWC
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Ansehen Youtube-Videos RAYTYT                   1h 24m     12 07:10–19:31  
+  Dokumentation Ohrwurm-Projekt RWOWDO            1h 11m      1 08:29–09:40  
+  Spielen Kreuzungs-FGPA CSEXKF (Verlängerung)    1h 10m      1 21:09–22:29  
+  Bearbeitung Börsenkurse / Aktienhandel FIAKBK      49m      1 20:10–21:09  
+  Bearb. Essensplan (Protokoll) LEEPPR (Verläng      40m      2 18:15–19:12  
+  Bearbeitung Aufgaben zu Papa's Pflege (10' +)      37m      2 11:20–12:08  
+  Nacherfassung Ablauf KSPLNA                        35m     10 12:12–23:32  
+  Ansehen YouTube-Videos RAYTYT                      29m      9 15:58–17:33  
+  Fahrt E-Bike (WienMobil) FZFAEB                    27m      1 15:26–15:53  
+  Diskussion Planungsfehler mit OpenClaw KSPLEN      25m      3 16:52–19:43  
+  Diskussion Vortag mit OpenClaw KSPLAW              24m      1 06:16–06:40  
+  Nachlesen Convert_886 V3.asm CSSUSU (Verlänge      21m      1 10:21–10:52  
+  Geschirr abwaschen LEMEGA (Verlängerung)           16m      1 13:03–13:24  
+  Bearb. Essensplan (Update Händlerangebote) LE      15m      3 17:47–18:13  
+  div. Surfen INSUSU                                 14m      5 14:35–16:51  
+  Analyse DJ Break Thinking Frequencies RAAFAN       14m      1 16:33–16:47  
+  Anhören RW-Prg. / Tonträger / Radiosender / O      12m      1 09:49–10:09  
+  Mittagessen (selbst kochen / kalt) LEMESK          10m      1 12:48–12:58  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       9m      1 22:55–23:20  
+  Kommunikation mit Judith (Abrechnung Renovier       8m      1 12:34–12:48  
+  PLanung KSPLPL                                      7m      2 08:17–09:49  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       5m      1 06:54–07:05  
+  Bearb. Essensplan (Start Korrekturlauf) LEEPE       5m      1 13:41–13:46  
+  Medikament fassen GEMEFA (Verlängerung)             5m      1 22:29–22:36  
+  PC herunterfahren LEAZHF (Verlängerung)             5m      1 23:42–23:48  
+  Blutdruck messen GEBMBM (Verlängerung)              4m      1 10:55–11:01  
+  Laufen / Scootersuche GEGYLS (Verlängerung)         4m      1 14:48–15:26  
+  Reparatur Planungsfehler mit OpenClaw KSPLEN        4m      1 17:16–17:20  
+  Wasser fassen LEMTGA                                4m      1 19:43–19:47  
+  Ansehen div. Bilder und Videos RWMPMP               4m      1 23:25–23:29  
+  Duschen LEMTDU (Verlängerung)                       3m      1 07:18–07:41  
+  Bearb. Essensplan LEEPEP                            3m      1 14:38–14:41  
+  Bearb. Essensplan (Eintragen Protokoll) LEEPE       3m      1 18:27–18:35  
+  WC LEMTWC (Verlängerung)                            3m      1 22:36–22:43  
+  Befragung Arena.AI INSUSU                           2m      1 15:54–15:56  
+  Nachmittagsjause fassen LENAJA (Verlängerung)       2m      1 16:23–16:29  
+  Bearbeitung Buch Champion's Mindset GELICM (V       2m      1 19:52–20:05  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:00–06:02  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            1m      1 07:05–07:08  
+  Abwiegen LEMTAW (Verlängerung)                      1m      1 07:14–07:16  
+  Termine in Kalender prüfen LEMTTP (Verlängeru       1m      1 08:26–08:28  
+  Bett machen LEAZHW (Verlängerung)                   1m      1 23:32–23:35  
+
+  Gesamt ungeplant: 11h 20m über 81 Einträge / 42 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
@@ -104,6 +213,7 @@
   ✗ 09:29  Herunterfahren, Einpacken, Anziehen BRAL  (5m)
   ✗ 09:36  Herunterfahren, Einpacken, Anziehen BRAL  (1m)
   ✗ 09:37  WC BREPWC  (9m)
+  ✗ 13:30  Mittagessen (selbst kochen / kalt)  (60m)
   ✗ 16:37  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
   ✗ 16:42  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
   ✗ 17:30  Bearb. Essensplan (Nährwerte) LEEPGE  (11m)

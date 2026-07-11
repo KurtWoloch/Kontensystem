@@ -2446,3 +2446,7 @@
 {"ts": "2026-03-29T23:43:16", "hwnd": 3278348, "title": "Aufgabe erledigt — im Bett", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-29T23:43:19", "hwnd": 8390452, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-29T23:43:22", "hwnd": 3343884, "title": "Ungespeicherte Änderungen", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T19:47:38", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-09T19:47:38", "hwnd": 51579190, "title": "Tagesplanung — Off-PC — Der Außentemperatur entsprechend anziehen GEGYAZ", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T19:49:23", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 104, "idle_start": "2026-07-09T19:47:38"}
+{"ts": "2026-07-09T19:49:23", "hwnd": 51579190, "title": "Tagesplanung — Reaktiver Planer — Der Außentemperatur entsprechend anziehen GEGYAZ", "process": "python.exe", "browser": ""}

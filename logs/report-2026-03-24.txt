@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      129
   Geplante Gesamtzeit:         16h 45m
 
-  ✓ Erledigt (geplant):       81  (    8h 47m)  = 52.4%
-  ⏭ Übersprungen:              9  (    1h 02m)  = 6.2%
-  ✗ Nicht erreicht:           39  (    6h 56m)  = 41.4%
+  ✓ Erledigt (geplant):       84  (    9h 10m)  = 54.7%
+  ⏭ Übersprungen:              8  (       59m)  = 5.9%
+  ✗ Nicht erreicht:           37  (    6h 36m)  = 39.4%
 
-  📝 Ungeplante Aktivitäten:  18  (    1h 28m)
-  ⏱  Tatsächliche Arbeitszeit:    15h 36m
+  📝 Ungeplante Aktivitäten: 106  (   10h 57m)
+  ⏱  Plan-Ausführungszeit:        5h 54m
+  ⏱  Tatsächliche Arbeitszeit:    16h 51m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -25,19 +32,102 @@
   Bearb. Essensplan (gegessen, zu ess   10:24     22:21 +11h 57m
   Mund spülen / Teller waschen / Getr   09:45     21:37 +11h 52m
   Anhören Radiosender / Tonträger / A   11:07     22:19 +11h 12m
-  Anhören Radiosender / Tonträger / A   12:00     22:19 +10h 19m
-  WC LEMTWC                             18:52     08:39 -10h 13m
+  Bearb. Geldbörse FIBGGB               11:25     22:01 +10h 36m
+  Dokumentation Ohrwurm-Projekt RWOWD   09:16     18:08  +8h 52m
   Bearb.Ohrwürmer (Nachfassen aus alt   10:44     19:26  +8h 42m
+  Dokumentation Ohrwurm-Projekt RWOWD   09:00     17:40  +8h 40m
   Bearb. Essensplan (Kontrolle / zu e   10:18     18:56  +8h 38m
   Bearb. Liste Scooterfahrten FZSCLI    10:54     19:31  +8h 37m
   Bearbeitung Aufgaben zu Papa's Pfle   11:15     19:49  +8h 34m
   Ermittlung Gesamtzeiten (wenn nicht   10:35     19:03  +8h 28m
+  Dokumentation Ohrwurm-Projekt RWOWD   08:49     17:16  +8h 27m
   Termine in Kalender prüfen LEMTTP     08:33     16:59  +8h 26m
   Mailprüfung INMAPR                    08:34     17:00  +8h 26m
-  Bearb. Essensplan (Kontrolle / zu e   10:31     18:56  +8h 25m
-  Anhören Radiosender / Tonträger / A   14:35     22:19  +7h 44m
-  Anhören Radiosender / Tonträger / A   14:37     22:19  +7h 42m
-  ... und 66 weitere
+  WC LEMTWC                             09:19     16:02  +6h 43m
+  ... und 53 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Nacherfassung Ablauf KSPLNA                1h 20m
+  Untersuchung Rotation Andon FM RAAFAN      1h 11m
+  Dokumentation Ohrwurm-Projekt RWOWDO       1h 00m
+  Mittagessen (Pizzeria da Contessa mit E.   1h 00m
+  Diskussion OpenClaw (Fahrzeugskonto) FZD      56m
+  Diskussion OpenClaw (Plan SW-Friedhof 25      56m
+  Ansehen Fahrzeugvideos FZVIYT                 46m
+  Konversation Andon FM / Thinking Frequen      42m
+  Mittagessen (Pizzeria da Contessa mit E.      31m
+  Untersuchung DJ Break Grok'n Roll RAAFAN      24m
+  Ansehen Youtube-Videos RAYTYT                 21m
+  Bearb. Essensplan (gegessen / Lokalsuche      20m
+  Duschen LEMTDU                                19m
+  WC / Windeltest LEMTWC                        19m
+  Bearbeitung Aufgaben zu Papa's Pflege (1      18m
+  Ermittlung Gesamtzeiten (wenn nicht am M      17m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Rasieren, dabei Planung + Vortagesreview      15m
+  Bearb. Essensplan (gegessen, zu essen, S      14m
+  WC LEMTWC                                     14m
+  ... und 84 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  RAAFAN         1h 42m
+  LEMEPC         1h 31m
+  KSPLNA         1h 20m
+  RWOWDO         1h 09m
+  VEPLPL            59m
+  FZDIOC            56m
+  FZVIYT            46m
+  RAAFKO            42m
+  LEMTWC            33m
+  PATATA            28m
+  LEMTRA            24m
+  KSAEEG            23m
+  RAYTYT            22m
+  LEAZZZ            21m
+  LEEPLS            20m
+  LEMTDU            19m
+  LEEPEP            18m
+  LEMTJF            15m
+  FZSCLI            15m
+  VESUFA            13m
+  ... und 56 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  LE         6h 11m
+  RA         2h 50m
+  FZ         1h 59m
+  KS         1h 43m
+  VE         1h 19m
+  RW         1h 18m
+  PA            28m
+  GE            18m
+  WF            17m
+  FI            12m
+  IN            11m
+  PC            10m
+  MU             4m
+  CS             2m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -66,30 +156,62 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 09:10–09:17  Telefonat mit Friedhofsgärtnerei VEFBAD  — Termin für morgen 11:00 beim Grab Südwestfriedhof wg. Grabbetreuung
-  📝 09:38–09:41  Anruf E. Strake Mittagessen Pizzeria LEP  — heute 12:30 Treffen, dann Pizzeria Da Contessa
-  📝 09:45–09:47  Rückmeldung E. Strake Mittagessen Pizzer  — heute 12:30 Treffen, dann Pizzeria Da Contessa
-  📝 09:55–09:57  Anhören RW-Prg. mit Sati Ersoy RWMPSE
-  📝 10:07–10:20  Papiersortierung WFPAPA
-  📝 10:31–10:38  Jause fassen LEMTJF  — Doppelkeks (Reihenfolge vertauscht, hier hätte Hustenbonbon kommen sollen)
-  📝 11:59–12:05  Getränk fassen LEMTJF  — Holundersaft zuckerfrei (in weißem Becher, ausgeschüttet)
-  📝 12:18–12:22  WC LEMTWC
-  📝 12:36–12:37  Anruf E. Strake Mittagessen Pizzeria LEP
-  📝 16:02–16:06  WC LEMTWC
-  📝 16:06–16:08  Getränk fassen LEMTJF
-  📝 17:04–17:16  Bearb. Essensplan (neuer Plan) LEEPNP
-  📝 18:07–18:08  Bearb. Essensplan (gegessen / Lokalsuche
-  📝 18:52–18:56  WC LEMTWC
-  📝 19:27–19:31  Untersuchung DJ Break Grok'n Roll RAAFAN
-  📝 19:46–19:49  Nacherfassung Ablauf KSPLNA
-  📝 21:11–21:12  Ansehen Youtube-Videos RAYTYT
-  📝 22:01–22:13  Bearb. Geldbörse FIBGGB
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Nacherfassung Ablauf KSPLNA                     1h 20m     15 08:07–22:37  
+  Untersuchung Rotation Andon FM RAAFAN           1h 11m      3 07:03–15:31  
+  Diskussion OpenClaw (Fahrzeugskonto) FZDIOC        56m      2 07:11–18:36  
+  Diskussion OpenClaw (Plan SW-Friedhof 25.3.)       56m      5 09:35–11:49  
+  Ansehen Fahrzeugvideos FZVIYT                      46m     10 14:17–21:36  
+  Konversation Andon FM / Thinking Frequencies       42m      3 20:14–21:14  
+  Mittagessen (Pizzeria da Contessa mit E. Stra      31m      1 12:40–14:11  
+  Untersuchung DJ Break Grok'n Roll RAAFAN           24m      4 18:36–20:14  
+  Bearb. Essensplan (gegessen / Lokalsuche / Ko      20m      7 12:25–21:27  
+  WC / Windeltest LEMTWC                             19m      3 06:25–08:35  
+  Bearbeitung Aufgaben zu Papa's Pflege (10' +)      18m      2 21:02–21:25  
+  Ermittlung Gesamtzeiten (wenn nicht am Montag      17m      1 19:03–19:26  
+  Ansehen Youtube-Videos RAYTYT                      16m      7 14:26–22:01  
+  Prüfung Fahrt SW-Friedhof 25.3. VESUFA             13m      3 09:28–09:59  
+  Papiersortierung WFPAPA                            13m      1 10:07–10:20  
+  vor PC eingeschlafen LESCPC                        13m      1 22:22–22:35  
+  Bearb. Essensplan (neuer Plan) LEEPNP              12m      1 17:04–17:16  
+  Nachlesen Memories PCOCNM                          10m      1 11:49–11:59  
+  Rasieren, dabei Planung + Vortagesreview (Rea       9m      1 06:33–06:57  
+  Dokumentation Ohrwurm-Projekt RWOWDO (Verläng       9m      1 18:08–18:23  
+  Getränk fassen LEMTJF                               8m      2 11:59–16:08  
+  Untersuchung Rotation Andon FM / OpenAIR RAAF       7m      3 08:05–15:47  
+  Telefonat mit Friedhofsgärtnerei VEFBAD             7m      1 09:10–09:17  
+  div. Surfen INSUSU                                  6m      1 14:11–14:17  
+  Bearb. Liste Scooterfahrten FZSCLI (Verlänger       6m      1 19:31–19:46  
+  Anhören RW-Prg. mit Sati Ersoy RWMPSE               5m      2 09:55–10:02  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       5m      1 22:49–23:10  
+  Surfen Andon FM RAAFSU                              4m      3 09:27–22:15  
+  Anruf E. Strake Mittagessen Pizzeria LEPLST         4m      2 09:38–12:37  
+  Jause fassen LEMTJF (Verlängerung)                  4m      1 10:31–10:38  
+  Plan SW-Friedhof 25.3. VEPLPL                       3m      1 09:41–09:44  
+  Bearb. Essensplan (gegessen, zu essen, Start        3m      1 12:05–12:18  
+  Rückmeldung E. Strake Mittagessen Pizzeria LE       2m      1 09:45–09:47  
+  Fahrt mit E-Quad FZFACT                             2m      1 15:52–15:54  
+  Surfen Molt.chess CSSUMC                            2m      1 16:43–16:45  
+  Mailprüfung INMAPR (Verlängerung)                   2m      1 17:00–17:04  
+  PC herunterfahren LEAZHF (Verlängerung)             2m      1 23:28–23:31  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:31–06:33  
+  Ansehen Youtube-Videos RAYTYT (Verlängerung)        1m      1 08:10–08:15  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       1m      1 08:19–08:26  
+  Einlass / Koordination Sati Ersoy WFPUEL            1m      1 09:44–09:45  
+  Häferl waschen / Hustenbonbon fassen LEMTHW (       1m      1 11:19–11:22  
+  Blutdruck messen GEBMBM (Verlängerung)              1m      1 12:22–12:25  
+  Geschirr abwaschen LEMEGA (Verlängerung)            1m      1 16:08–16:14  
+  Bearb. Essensplan (Ereignisse / gegessen / zu       1m      1 16:20–16:26  
+  Bearbeitung Mails INMBMB                            1m      1 18:41–18:42  
+  Anwendung Zahnseide LEAZZS (Verlängerung)           1m      1 23:10–23:16  
+
+  Gesamt ungeplant: 10h 57m über 106 Einträge / 47 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
 ╚═══════════════════════════════════════════════════════╝
 
-  ✗ 11:25  Bearb. Geldbörse FIBGGB  (10m)
   ✗ 11:35  Kommunikation mit Judith (Abrechnung Ren  (6m)
   ✗ 11:41  Bearbeitung Buch Champion's Mindset GELI  (11m)
   ✗ 11:52  Führung Tagebuch, um schmerzhafte Situat  (7m)
@@ -117,7 +239,6 @@
   ✗ 18:43  Papiersortierung (gelesene Werbeprospekt  (9m)
   ✗ 19:01  Bearb. Ohrwürmer (Texte) MUOWTE  (5m)
   ✗ 19:06  Bearb. Ohrwürmer (Liste auswendig singba  (5m)
-  ✗ 19:11  Bearb. Geldbörse FIBGGB  (10m)
   ✗ 19:21  Papiersortierung PAA1SU  (22m)
   ✗ 19:43  Analyse Disassembly Tour de France CSGAU  (10m)
   ✗ 19:53  Papiersortierung PAA1SU (Fs.)  (7m)

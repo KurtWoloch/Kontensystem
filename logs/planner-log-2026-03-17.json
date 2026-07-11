@@ -388,9 +388,9 @@
     "activity": "Verabschiedung Sati Ersoy WFPUZA",
     "list": "Liste_Putzen",
     "priority": 1.84,
-    "minutes": 8,
-    "started_at": "10:29:00",
-    "completed_at": "10:29:00",
+    "minutes": 0,
+    "started_at": "10:30:00",
+    "completed_at": "10:30:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -993,9 +993,9 @@
     "activity": "Nacherfassung Ablauf KSPLNA",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 3,
-    "started_at": "15:10:01",
-    "completed_at": "15:13:17",
+    "minutes": 5,
+    "started_at": "15:10:00",
+    "completed_at": "15:15:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1276,7 +1276,7 @@
     "comment": ""
   },
   {
-    "activity": "Surfen X",
+    "activity": "Surfen X RAAFKO",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 4,

@@ -13,8 +13,15 @@
   ⏭ Übersprungen:             13  (    1h 13m)  = 7.0%
   ✗ Nicht erreicht:           26  (    5h 36m)  = 32.2%
 
-  📝 Ungeplante Aktivitäten:  11  (       48m)
-  ⏱  Tatsächliche Arbeitszeit:    17h 20m
+  📝 Ungeplante Aktivitäten: 118  (   11h 02m)
+  ⏱  Plan-Ausführungszeit:        6h 28m
+  ⏱  Tatsächliche Arbeitszeit:    17h 30m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -25,19 +32,102 @@
   PC herunterfahren LEAZHF              23:17     00:00 -23h 17m
   im Bett                               23:18     00:02 -23h 16m
   Bearbeitung Buch Champion's Mindset   11:10     21:13 +10h 03m
-  WC LEMTWC                             18:21     08:24  -9h 57m
   Kommunikation mit Judith (Abrechnun   10:56     20:52  +9h 56m
   Papiersortierung (hereingekommene P   11:31     21:23  +9h 52m
   Bearb. Geldbörse FIBGGB               10:46     20:37  +9h 51m
   Bearbeitung Börsenkurse / Aktienhan   11:49     21:32  +9h 43m
   Teller waschen / Getränk fassen LEM   10:36     20:02  +9h 26m
   Bearbeitung Aufgaben zu Papa's Pfle   10:33     19:44  +9h 11m
-  Bearbeitung Aufgaben zu Papa's Pfle   10:39     19:44  +9h 05m
+  Dokumentation Ohrwurm-Projekt RWOWD   09:02     17:58  +8h 56m
   Bearb. Liste Scooterfahrten FZSCLI    10:05     18:59  +8h 54m
   Dokumentation Ohrwurm-Projekt RWOWD   08:07     16:40  +8h 33m
   Bearb. Essensplan (gegessen, zu ess   10:19     18:52  +8h 33m
   Bearb. Essensplan (Kontrolle / zu e   09:45     18:14  +8h 29m
-  ... und 77 weitere
+  Anhören Radiosender / Tonträger / A   11:02     19:26  +8h 24m
+  ... und 60 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Diskussion Redesign Nacherfassung mit Op   2h 07m
+  Redesign Nacherfassung mit OpenClaw KSPL   2h 06m
+  Nacherfassung Ablauf KSPLNA                2h 03m
+  Dokumentation Ohrwurm-Projekt RWOWDO       1h 00m
+  Spielen Kreuzungs-FGPA CSEXKF (Verlänger      49m
+  Bearbeitung Aufgaben zu Papa's Pflege (1      38m
+  Laufen / Scootersuche GEGYLS                  32m
+  Mittagessen (von Sati gekocht) LEMESE         29m
+  Analyse Grok'n Roll RWPLAF                    29m
+  Untersuchung Rotation Andon FM / OpenAIR      24m
+  Duschen LEMTDU                                20m
+  Lesen Vertrag / Überweisung Rechnung Fri      19m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Rasieren, dabei Planung + Vortagesreview      15m
+  Bearb. Geldbörse FIBGGB                       15m
+  Ansehen YouTube-Videos RAYTYT                 14m
+  Bearb. Liste Scooterfahrten FZSCLI (Verl      14m
+  Anhören Radiosender / Tonträger / Ansehe      13m
+  Zähne putzen GEMTZP                           12m
+  Bearb. Essensplan LEEPEP                      11m
+  ... und 82 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  KSPLEN         4h 13m
+  KSPLNA         2h 03m
+  RWOWDO         1h 02m
+  CSEXKF            59m
+  PATATA            48m
+  GEGYLS            32m
+  RWPLAF            30m
+  LEMESE            29m
+  RAAFAN            29m
+  LEEPEP            25m
+  FZSCLI            23m
+  LEMTDU            20m
+  FIAKBK            20m
+  VEFBAD            19m
+  LEAZZZ            18m
+  LEMTRA            15m
+  LEEPKO            15m
+  FIBGGB            15m
+  PAWFAF            14m
+  RAYTYT            14m
+  ... und 53 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  KS         6h 18m
+  LE         3h 46m
+  RW         1h 58m
+  GE         1h 06m
+  PA         1h 02m
+  CS            59m
+  RA            57m
+  FI            35m
+  FZ            23m
+  WF            22m
+  VE            19m
+  IN            18m
+  MU             1m
+  PC             0m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -72,17 +162,47 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 10:01–10:05  Nacherfassung Ablauf KSPLNA
-  📝 10:31–10:36  Nacherfassung Ablauf KSPLNA
-  📝 10:50–10:52  Getränk fassen LEMTJF  — Soja-Drink (wg. Rückstand in Morgenroutine)
-  📝 10:55–10:56  WC LEMTWC
-  📝 11:42–11:44  Nacherfassung Ablauf KSPLNA
-  📝 13:03–13:04  WC LEMTWC
-  📝 15:59–16:18  Lesen Vertrag / Überweisung Rechnung Fri
-  📝 16:53–16:56  WC LEMTWC
-  📝 17:58–18:03  Dokumentation Ohrwurm-Projekt RWOWDO  — Korrekturlesen
-  📝 20:34–20:37  Nacherfassung Ablauf KSPLNA
-  📝 23:11–23:14  WC LEMTWC
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Diskussion Redesign Nacherfassung mit OpenCla   2h 07m      6 06:11–08:31  
+  Redesign Nacherfassung mit OpenClaw KSPLEN      2h 06m     12 08:37–13:00  
+  Nacherfassung Ablauf KSPLNA                     2h 03m     27 08:01–23:11  
+  Spielen Kreuzungs-FGPA CSEXKF (Verlängerung)       49m      1 21:53–22:52  
+  Bearbeitung Aufgaben zu Papa's Pflege (10' +)      38m      2 19:44–20:33  
+  Analyse Grok'n Roll RWPLAF                         29m     10 12:47–21:13  
+  Untersuchung Rotation Andon FM / OpenAIR RAAF      24m      5 13:00–23:02  
+  Lesen Vertrag / Überweisung Rechnung Friedhof      19m      1 15:59–16:18  
+  Ansehen YouTube-Videos RAYTYT                      14m      9 15:14–23:05  
+  Bearb. Liste Scooterfahrten FZSCLI (Verlänger      14m      1 18:59–19:22  
+  Bearb. Essensplan LEEPEP                           11m      4 11:39–15:13  
+  Bearbeitung Börsenkurse / Aktienhandel FIAKBK      10m      1 21:34–21:53  
+  Mailprüfung INMAPR (Verlängerung)                   8m      1 15:40–15:50  
+  Kommunikation mit Judith (Abrechnung Renovier       8m      1 20:52–21:06  
+  Surfen Andon FM RAAFSU                              6m      4 11:48–16:21  
+  Nachmittagsjause fassen LENAJA (Verlängerung)       6m      1 16:28–16:38  
+  Analyse Thinking Frequencies RAAFAN                 5m      5 06:10–08:51  
+  div. Surfen INSUSU                                  5m      3 14:06–15:59  
+  Konversation mit Andrew Pappas RAAFKO               5m      1 18:05–18:10  
+  Bearb. Essensplan (Kontrolle / zu essen / Kor       5m      3 18:30–18:40  
+  Tweet an Grok'n Roll RWMPAR                         3m      2 13:01–21:34  
+  Surfen X (Timeline) INSUXX                          3m      2 18:13–22:54  
+  Medikament fassen GEMEFA (Verlängerung)             3m      1 23:14–23:19  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       2m      1 09:27–09:35  
+  Getränk fassen LEMTJF                               2m      1 10:50–10:52  
+  Erfassung Ablauf KSPLEA                             2m      2 15:00–21:32  
+  Getränk fassen LENATW                               2m      1 15:03–15:05  
+  Geschirr abwaschen LEMEGA (Verlängerung)            2m      1 15:50–15:57  
+  Dokumentation Ohrwurm-Projekt RWOWDO (Verläng       2m      1 17:58–18:03  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       2m      1 23:28–23:46  
+  PC herunterfahren LEAZHF (Verlängerung)             1m      1 00:00–00:02  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 05:53–05:55  
+  Einschmieren GEMTES (Verlängerung)                  1m      1 11:19–11:22  
+  Analyse Andon FM RWPLAF                             1m      1 12:06–12:07  
+  Analyse Grok'n Roll RAAFGR                          1m      1 12:54–12:55  
+  Blutdruck messen GEBMBM (Verlängerung)              1m      1 15:20–15:23  
+  Termine in Kalender prüfen LEMTTP (Verlängeru       1m      1 15:38–15:40  
+
+  Gesamt ungeplant: 11h 02m über 118 Einträge / 37 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

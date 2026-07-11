@@ -234,8 +234,8 @@
     "activity": "Reinigung Waschmuschel LEMTRW",
     "list": "Liste_Morgentoilette",
     "priority": 0.0,
-    "minutes": 2,
-    "started_at": "10:01:00",
+    "minutes": 1,
+    "started_at": "10:02:00",
     "completed_at": "10:03:00",
     "skipped": false,
     "original_activity": "",
@@ -550,7 +550,7 @@
     "comment": "Bulk-Complete (Restplan)"
   },
   {
-    "activity": "Mittagessen (selbst kochen / kalt)",
+    "activity": "Mittagessen (selbst kochen / kalt) LEMESK",
     "list": "Liste_Mittagessen_zuhause",
     "priority": 1.845,
     "minutes": 41,
@@ -704,12 +704,12 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensprotokoll",
+    "activity": "Bearb. Essensprotokoll LEEPEP",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 0,
-    "started_at": "15:12:35",
-    "completed_at": "15:13:11",
+    "minutes": 1,
+    "started_at": "15:12:00",
+    "completed_at": "15:13:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -726,12 +726,12 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensprotokoll",
+    "activity": "Bearb. Essensprotokoll LEEPEP",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 3,
-    "started_at": "15:15:25",
-    "completed_at": "15:18:51",
+    "started_at": "15:15:00",
+    "completed_at": "15:18:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1235,20 +1235,31 @@
     "activity": "PC herunterfahren LEAZHF",
     "list": "Liste_Abendzeremonie",
     "priority": 1.834,
-    "minutes": 1,
+    "minutes": 2,
     "started_at": "23:11:00",
-    "completed_at": "23:12:00",
+    "completed_at": "23:13:00",
     "skipped": false,
     "original_activity": "",
     "comment": "wird wg. Radio-Würmchen-Prg. KI nicht heruntergefahren, nur Tabs und Dateien schließen"
   },
   {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:13:00",
+    "completed_at": "23:14:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "im Bett",
     "list": "Liste_Abendzeremonie",
     "priority": 1.834,
-    "minutes": 1,
-    "started_at": "23:12:00",
-    "completed_at": "23:13:00",
+    "minutes": 0,
+    "started_at": "23:14:00",
+    "completed_at": "23:14:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

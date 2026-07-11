@@ -66,17 +66,6 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan LEEPEP",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 2,
-    "started_at": "06:47:00",
-    "completed_at": "06:49:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "Vergleich Bewertung Sati Ersoy mit Vorwochenbewertung (gestiegen)"
-  },
-  {
     "activity": "Bearb. Essensplan (gegessen, zu essen) LEEPEP",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
@@ -355,9 +344,9 @@
     "activity": "Besuch Schwimmbad GEGYSB",
     "list": "Liste_Schwimmbad",
     "priority": 0.0,
-    "minutes": 57,
+    "minutes": 56,
     "started_at": "07:55:00",
-    "completed_at": "08:52:00",
+    "completed_at": "08:51:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -366,9 +355,9 @@
     "activity": "Aufhängen Badewäsche GEGYAB",
     "list": "Liste_Schwimmbad",
     "priority": 1.846,
-    "minutes": 2,
-    "started_at": "08:40:00",
-    "completed_at": "08:41:00",
+    "minutes": 1,
+    "started_at": "08:51:00",
+    "completed_at": "08:52:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -671,17 +660,6 @@
     "comment": ""
   },
   {
-    "activity": "Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS (Fs.)",
-    "list": "Lebenserhaltung",
-    "priority": 1.844,
-    "minutes": 11,
-    "started_at": "11:45:00",
-    "completed_at": "12:29:00",
-    "skipped": false,
-    "original_activity": "Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS",
-    "comment": ""
-  },
-  {
     "activity": "Jause fassen LEMTJF",
     "list": "Liste_Morgentoilette",
     "priority": 1.84,
@@ -690,6 +668,17 @@
     "completed_at": "11:45:00",
     "skipped": false,
     "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS (Fs.)",
+    "list": "Lebenserhaltung",
+    "priority": 1.844,
+    "minutes": 11,
+    "started_at": "11:45:00",
+    "completed_at": "12:29:00",
+    "skipped": false,
+    "original_activity": "Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS",
     "comment": ""
   },
   {
@@ -924,10 +913,10 @@
     "comment": ""
   },
   {
-    "activity": "Mittagessen (selbst kochen / kalt)",
+    "activity": "Mittagessen (kalt) LEMESK",
     "list": "Liste_Mittagessen_zuhause",
     "priority": 1.845,
-    "minutes": 60,
+    "minutes": 3,
     "started_at": "15:30:00",
     "completed_at": "15:33:00",
     "skipped": false,
@@ -1334,9 +1323,9 @@
     "activity": "Bearb. Essensplan (Protokoll) LEEPPR",
     "list": "Liste_nachmittags",
     "priority": 1.827,
-    "minutes": 8,
-    "started_at": "20:47:00",
-    "completed_at": "21:11:00",
+    "minutes": 11,
+    "started_at": "20:55:00",
+    "completed_at": "21:06:00",
     "skipped": false,
     "original_activity": "",
     "comment": "to be continued"
@@ -1346,8 +1335,8 @@
     "list": "Lebenserhaltung",
     "priority": 1.845,
     "minutes": 5,
-    "started_at": "20:55:00",
-    "completed_at": "21:00:00",
+    "started_at": "21:06:00",
+    "completed_at": "21:11:00",
     "skipped": false,
     "original_activity": "",
     "comment": "2. Teil: Dinkelbrot mit Pikantwurst (gestoppt)"

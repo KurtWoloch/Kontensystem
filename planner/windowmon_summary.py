@@ -44,7 +44,7 @@ class ConfidenceStore:
     MIN_CONFIDENCE = 0.50
     # If p_same_before AND p_same_after are above this, the title is a
     # "Durchreicher" (noise) and the previous activity should continue.
-    DURCHREICHER_THRESHOLD = 0.85
+    DURCHREICHER_THRESHOLD = 0.80
 
     @classmethod
     def get(cls):
@@ -250,6 +250,11 @@ class ConfidenceStore:
         for b in blocks:
             activity = b.activity
             if not activity:
+                continue
+
+            # Only learn if the activity is a real, coded activity (ends with 4-6 uppercase letters/umlauts, optional (Fs.) suffix)
+            import re
+            if not re.search(r'\s([A-ZÄÖÜß]{4,6})(?:\s*\(Fs\.\))?\s*$', activity):
                 continue
 
             # Collect (process, title, duration_seconds) for each entry in block
@@ -482,19 +487,20 @@ AUTODETECT_RULES = [
     # ── Planner dialog with activity in title ──────────────────────────
     # When a dialog like "Aufgabe erledigt — WC LEMTWC" is left open
     # during Off-PC, extract the activity part after the em-dash.
+    # We only extract for completion/interruption or explicit Off-PC dialogs.
+    # "Eintrag bearbeiten" is always retroactive (Nacherfassung), so we NEVER extract from it.
     # This rule MUST come before the generic dialog rule below.
-    (lambda t, p, b: p == "python.exe" and " \u2014 " in t and
-     _title_contains_any(t, "Aufgabe erledigt", "Eintrag bearbeiten",
-                         "Ungeplante Aktivit\u00e4t", "Vorgezogene Aktivit\u00e4t",
-                         "Aufgabe unterbrechen"),
+    (lambda t, p, b: p == "python.exe" and " \u2014 " in t and (
+         _title_contains_any(t, "Aufgabe erledigt", "Aufgabe unterbrechen") or
+         (_title_contains_any(t, "Ungeplante Aktivit\u00e4t", "Vorgezogene Aktivit\u00e4t") and "Off-PC" in t)
+     ),
      "_PLANNER_DIALOG_ACTIVITY", ""),  # special: extract from title
 
     # ── Planner app — distinguish phantom vs real usage ────────────────
-    # "Aufgabe erledigt" or "Eintrag bearbeiten" dialogs WITHOUT activity
+    # "Aufgabe erledigt" or "Ungeplante Aktivität" dialogs WITHOUT activity
     # in title (short focus = phantom click, or legacy title format)
     (lambda t, p, b: p == "python.exe" and
-     _title_contains_any(t, "Aufgabe erledigt", "Eintrag bearbeiten",
-                         "Ungeplante Aktivit\u00e4t"),
+     _title_contains_any(t, "Aufgabe erledigt", "Ungeplante Aktivit\u00e4t"),
      "KS", "Erfassung Ablauf KSPLEA"),
 
     # Planner Off-PC title → use activity from title
@@ -509,7 +515,8 @@ AUTODETECT_RULES = [
                           "Vorschlag bearbeiten",
                           "Block reklassifizieren",
                           "Zusammengefasst",
-                          "Import bestätigen", "Import abgeschlossen"),
+                          "Import bestätigen", "Import abgeschlossen",
+                          "Eintrag bearbeiten"),
      "KS", "Nacherfassung Ablauf KSPLNA"),
 
     # ── CMOL-FPGA Placer (Learner: 100%, 21x) ────────────────────────
@@ -575,6 +582,12 @@ AUTODETECT_RULES = [
     # X/Twitter: Home timeline → generic browsing
     (lambda t, p, b: b and _title_contains(t, "Home / X"),
      "IN", "Surfen X (Timeline) INSUXX"),
+
+    # X/Twitter: Direct Messages, Notifications, or generic tab group "X" (unambiguous DM/Notification signatures) -> Surfen X RAAFKO
+    (lambda t, p, b: b and (
+        ConfidenceStore._normalize_title(p, t) in ("X", "Notifications / X", "Messages / X", "Direct Messages / X")
+     ),
+     "RA", "Surfen X RAAFKO"),
 
     # X/Twitter: Reading tweets mentioning Andon FM or its stations -> Analyse Andon FM
     (lambda t, p, b: b and _title_contains_any(t, "/ X", "twitter.com", "x.com") and
@@ -1102,7 +1115,7 @@ def classify_entry(entry: Dict) -> Tuple[str, str]:
                     scan_target = _parse_radio_wuermchen_title(title)
                     if scan_target:
                         return "RW", scan_target
-                    return "RW", "Radio Würmchen"
+                    return "RW", "Anhören RW-Prg. / Tonträger / Radiosender RWMPAR"
 
                 # When a hardcoded rule yields _UNCLASSIFIABLE, try the
                 # confidence store before giving up.

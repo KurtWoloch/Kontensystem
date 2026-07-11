@@ -176,6 +176,17 @@
     "comment": ""
   },
   {
+    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 6,
+    "started_at": "07:22:00",
+    "completed_at": "07:28:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "div. Surfen (News) INSUNE",
     "list": "ungeplant",
     "priority": 0.0,
@@ -297,67 +308,23 @@
     "comment": ""
   },
   {
-    "activity": "Ansehen YouTube-Videos",
+    "activity": "Ansehen Youtube-Videos RAYTYT",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 1,
-    "started_at": "08:50:55",
-    "completed_at": "08:52:31",
+    "minutes": 2,
+    "started_at": "08:50:00",
+    "completed_at": "08:52:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
   },
   {
-    "activity": "Diskussion OpenClaw",
-    "list": "windowmon_import",
+    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "list": "ungeplant",
     "priority": 0.0,
-    "minutes": 1,
-    "started_at": "08:52:31",
-    "completed_at": "08:54:10",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Planer-Bedienung (Dialog)",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "08:54:10",
-    "completed_at": "08:55:16",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Diskussion OpenClaw",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "08:55:16",
-    "completed_at": "08:56:22",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Planer-Bedienung (Dialog)",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 0,
-    "started_at": "08:56:22",
-    "completed_at": "08:57:01",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Diskussion OpenClaw",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 14,
-    "started_at": "08:57:01",
-    "completed_at": "09:11:57",
+    "minutes": 19,
+    "started_at": "08:52:00",
+    "completed_at": "09:11:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -515,17 +482,6 @@
     "skipped": true,
     "original_activity": "",
     "comment": "schon eingetragen"
-  },
-  {
-    "activity": "Planer-Bedienung (Dialog)",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 0,
-    "started_at": "09:59:51",
-    "completed_at": "10:00:16",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
   },
   {
     "activity": "Vorbereitung Playlist für Hören beim Frühstück RWYTPL",
@@ -759,7 +715,7 @@
     "comment": ""
   },
   {
-    "activity": "Diskussion OpenClaw",
+    "activity": "Entwickllung Tagesplanung mit OpenClaw KSPLEN",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 1,
@@ -880,10 +836,10 @@
     "comment": ""
   },
   {
-    "activity": "Mittagessen (selbst kochen)",
+    "activity": "Mittagessen LEMEGA",
     "list": "Liste_Mittagessen_zuhause",
     "priority": 1.845,
-    "minutes": 60,
+    "minutes": 9,
     "started_at": "12:49:00",
     "completed_at": "12:58:00",
     "skipped": false,
@@ -990,17 +946,6 @@
     "comment": ""
   },
   {
-    "activity": "Nacherfassung Ablauf KSPLNA",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 2,
-    "started_at": "13:57:00",
-    "completed_at": "13:59:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Arbeitszeit absolvieren (Vormittag) BREPDZ",
     "list": "Liste_Arbeit",
     "priority": 1.845,
@@ -1015,8 +960,8 @@
     "activity": "Nacherfassung Ablauf KSPLNA",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 6,
-    "started_at": "13:59:00",
+    "minutes": 3,
+    "started_at": "14:02:00",
     "completed_at": "14:05:00",
     "skipped": false,
     "original_activity": "",
@@ -1026,19 +971,8 @@
     "activity": "Diskussion Planung / Mikrowelle mit OpenClaw KSPLAW",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 3,
-    "started_at": "14:03:00",
-    "completed_at": "14:06:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Diskussion Planung / Mikrowelle mit OpenClaw KSPLAW",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 15,
-    "started_at": "14:06:00",
+    "minutes": 16,
+    "started_at": "14:05:00",
     "completed_at": "14:21:00",
     "skipped": false,
     "original_activity": "",
@@ -1342,11 +1276,11 @@
     "comment": ""
   },
   {
-    "activity": "Ansehen YouTube-Videos",
+    "activity": "Ansehen Youtube-Videos RAYTYT",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 1,
-    "started_at": "18:41:21",
+    "minutes": 2,
+    "started_at": "18:41:00",
     "completed_at": "18:43:00",
     "skipped": false,
     "original_activity": "",
@@ -1395,17 +1329,6 @@
     "skipped": false,
     "original_activity": "",
     "comment": "Entscheidung: Nein → Start Liste: Liste_Spaziergang"
-  },
-  {
-    "activity": "Erfassung Ablauf KSPLEA",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 129,
-    "started_at": "19:02:54",
-    "completed_at": "21:12:45",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
   },
   {
     "activity": "Sichtung Radio-Würmchen-Programmstatistiken RWKIAN",
@@ -1590,28 +1513,6 @@
     "minutes": 7,
     "started_at": "20:40:00",
     "completed_at": "20:47:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Begutachtung Windowmon-Summary KSPLAN",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "20:43:00",
-    "completed_at": "20:44:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Diskussion OpenClaw (Mängel in Planer) KSPLEN",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 2,
-    "started_at": "20:44:58",
-    "completed_at": "20:47:32",
     "skipped": false,
     "original_activity": "",
     "comment": ""

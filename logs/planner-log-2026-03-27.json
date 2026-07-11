@@ -1,16 +1,5 @@
 [
   {
-    "activity": "PC herunterfahren LEAZHF",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.834,
-    "minutes": 1,
-    "started_at": "00:00:00",
-    "completed_at": "00:02:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": "Schließen unnötiger Dateien und Tabs"
-  },
-  {
     "activity": "Aufstehen, Rasierer fasssen LEMTAU",
     "list": "Liste_Morgentoilette",
     "priority": 1.841,
@@ -1529,17 +1518,6 @@
     "comment": ""
   },
   {
-    "activity": "Wohnung lüften WFLULU",
-    "list": "Liste_nachmittags",
-    "priority": 1.83,
-    "minutes": 4,
-    "started_at": "18:34:00",
-    "completed_at": "18:38:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Bearb. Essensplan (Kontrolle / zu essen / Korrektur) LEEPKO",
     "list": "timeline_import",
     "priority": 0.0,
@@ -1551,12 +1529,12 @@
     "comment": ""
   },
   {
-    "activity": "Nacherfassung Ablauf KSPLNA",
-    "list": "timeline_import",
-    "priority": 0.0,
-    "minutes": 2,
+    "activity": "Wohnung lüften WFLULU",
+    "list": "Liste_nachmittags",
+    "priority": 1.83,
+    "minutes": 3,
     "started_at": "18:35:00",
-    "completed_at": "18:37:00",
+    "completed_at": "18:38:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -2132,6 +2110,17 @@
     "skipped": true,
     "original_activity": "",
     "comment": "wegen Unrentabilität gestrichen"
+  },
+  {
+    "activity": "PC herunterfahren LEAZHF",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.834,
+    "minutes": 1,
+    "started_at": "00:00:00",
+    "completed_at": "00:02:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": "Schließen unnötiger Dateien und Tabs"
   },
   {
     "activity": "im Bett",

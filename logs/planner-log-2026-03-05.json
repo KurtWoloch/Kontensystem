@@ -451,12 +451,34 @@
     "comment": "nur Getränk"
   },
   {
+    "activity": "Abhalten BKDD Standup Meeting BRZ BREPGM",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 14,
+    "started_at": "11:00:00",
+    "completed_at": "11:14:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Weiterentwicklung Planungstool mit OpenClaw KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 49,
     "started_at": "11:14:00",
     "completed_at": "12:03:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Vormittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 36,
+    "started_at": "12:03:00",
+    "completed_at": "12:39:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -660,6 +682,17 @@
     "comment": "zu Morgentoilette nicht mehr nötig"
   },
   {
+    "activity": "Mittagessen LEMEME",
+    "list": "Lebenserhaltung",
+    "priority": 1.845,
+    "minutes": 0,
+    "started_at": "16:01:00",
+    "completed_at": "16:01:00",
+    "skipped": true,
+    "original_activity": "",
+    "comment": "schon erfasst"
+  },
+  {
     "activity": "Bearb. Essensplan (gegessen / Lokalsuche / Konsumation / Einkaufsliste) LEEPLS",
     "list": "Lebenserhaltung",
     "priority": 1.84,
@@ -669,17 +702,6 @@
     "skipped": true,
     "original_activity": "",
     "comment": "schon vorhin durchgeführt"
-  },
-  {
-    "activity": "Mittagessen (?)",
-    "list": "Lebenserhaltung",
-    "priority": 1.845,
-    "minutes": 60,
-    "started_at": "16:01:44",
-    "completed_at": "20:51:29",
-    "skipped": true,
-    "original_activity": "",
-    "comment": "schon erfasst"
   },
   {
     "activity": "Nachmittagsjause fassen LENAJA",
@@ -715,12 +737,155 @@
     "comment": "Dokumentenreview ist selbst ungeplant"
   },
   {
+    "activity": "Scan Radio Arabella RASCRA",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "16:15:00",
+    "completed_at": "16:16:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 36,
+    "started_at": "16:16:00",
+    "completed_at": "16:52:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Surfen Molt.chess CSSUMC",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 2,
+    "started_at": "16:52:00",
+    "completed_at": "16:54:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 10,
+    "started_at": "16:54:00",
+    "completed_at": "17:04:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Entwickllung Tagesplanung mit OpenClaw (Erklärung Keyboard-Gutschein) KSPLEN",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 2,
     "started_at": "17:04:00",
     "completed_at": "17:06:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 4,
+    "started_at": "17:06:00",
+    "completed_at": "17:10:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Surfen Molt.chess CSSUMC",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "17:10:00",
+    "completed_at": "17:11:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 35,
+    "started_at": "17:11:00",
+    "completed_at": "17:46:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Radio Würmchen KI RARWKI",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "17:46:00",
+    "completed_at": "17:47:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 26,
+    "started_at": "17:47:00",
+    "completed_at": "18:13:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Radio Würmchen KI RARWKI",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "18:13:00",
+    "completed_at": "18:14:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 59,
+    "started_at": "18:14:00",
+    "completed_at": "19:13:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Bearb. Radio Würmchen KI RARWKI",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "19:13:00",
+    "completed_at": "19:14:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 30,
+    "started_at": "19:14:00",
+    "completed_at": "19:44:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -735,6 +900,39 @@
     "skipped": false,
     "original_activity": "",
     "comment": "keine Unterschiede, was Planung betrifft"
+  },
+  {
+    "activity": "Analyse Andon FM RWPLAF",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "20:00:00",
+    "completed_at": "20:01:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Mailprüfung INMAPR",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "20:01:00",
+    "completed_at": "20:02:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "ungeplant",
+    "priority": 0.0,
+    "minutes": 13,
+    "started_at": "20:02:00",
+    "completed_at": "20:15:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Nacherfassung Ablauf KSPLNA",
@@ -1142,203 +1340,5 @@
     "skipped": true,
     "original_activity": "",
     "comment": "wird nicht heruntergefahren (RW-KI läuft weiter)"
-  },
-  {
-    "activity": "Abhalten BKDD Standup Meeting BRZ BREPGM",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 14,
-    "started_at": "11:00:00",
-    "completed_at": "11:14:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Arbeitszeit absolvieren (Vormittag) BREPDZ",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 36,
-    "started_at": "12:03:00",
-    "completed_at": "12:39:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Scan Radio Arabella RASCRA",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "16:15:00",
-    "completed_at": "16:16:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 36,
-    "started_at": "16:16:00",
-    "completed_at": "16:52:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Surfen Molt.chess CSSUMC",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 2,
-    "started_at": "16:52:00",
-    "completed_at": "16:54:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 10,
-    "started_at": "16:54:00",
-    "completed_at": "17:04:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 4,
-    "started_at": "17:06:00",
-    "completed_at": "17:10:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Surfen Molt.chess CSSUMC",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "17:10:00",
-    "completed_at": "17:11:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 35,
-    "started_at": "17:11:00",
-    "completed_at": "17:46:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Bearb. Radio Würmchen KI RARWKI",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "17:46:00",
-    "completed_at": "17:47:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 26,
-    "started_at": "17:47:00",
-    "completed_at": "18:13:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Bearb. Radio Würmchen KI RARWKI",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "18:13:00",
-    "completed_at": "18:14:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 59,
-    "started_at": "18:14:00",
-    "completed_at": "19:13:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Bearb. Radio Würmchen KI RARWKI",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "19:13:00",
-    "completed_at": "19:14:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 30,
-    "started_at": "19:14:00",
-    "completed_at": "19:44:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Analyse Andon FM RWPLAF",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "20:00:00",
-    "completed_at": "20:01:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Mailprüfung INMAPR",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 1,
-    "started_at": "20:01:00",
-    "completed_at": "20:02:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
-    "list": "ungeplant",
-    "priority": 0.0,
-    "minutes": 13,
-    "started_at": "20:02:00",
-    "completed_at": "20:15:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
   }
 ]

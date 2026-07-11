@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      110
   Geplante Gesamtzeit:         16h 50m
 
-  ✓ Erledigt (geplant):       73  (   12h 18m)  = 73.1%
+  ✓ Erledigt (geplant):       72  (   11h 18m)  = 67.1%
   ⏭ Übersprungen:              8  (    1h 22m)  = 8.1%
-  ✗ Nicht erreicht:           29  (    3h 10m)  = 18.8%
+  ✗ Nicht erreicht:           30  (    4h 10m)  = 24.8%
 
-  📝 Ungeplante Aktivitäten:   5  (       15m)
-  ⏱  Tatsächliche Arbeitszeit:    17h 11m
+  📝 Ungeplante Aktivitäten:  93  (    9h 42m)
+  ⏱  Plan-Ausführungszeit:        7h 31m
+  ⏱  Tatsächliche Arbeitszeit:    17h 13m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -24,20 +31,20 @@
   ─────────────────────────────────── ─────── ───────── ────────
   Bearb. Essensplan (gegessen, zu ess   11:21     21:41 +10h 20m
   Wenn ("Musst Du heute etwas erledig   14:35     21:40  +7h 05m
+  WC BREPWC                             14:47     21:35  +6h 48m
   Bearb. Essensplan (Update Händleran   19:06     12:34  -6h 32m
   Blutdruck messen GEBMBM               10:22     16:42  +6h 20m
   Wenn ("Gehst Du heute zum Essen rau   12:30     17:15  +4h 45m
   WC BREPWC                             12:29     17:11  +4h 42m
   Bearb. Essensplan (Protokoll) LEEPP   19:38     15:18  -4h 20m
+  WC BREPWC (Fs.)                       14:36     18:36  +4h 00m
   Wenn "Warst Du heute schon draußen?   17:55     21:50  +3h 55m
   Versorgung Mitbringsel LEPOPO         18:49     22:43  +3h 54m
   Der Außentemperatur entsprechend an   18:07     21:54  +3h 47m
   Laufen / Scootersuche GEGYLS          18:09     21:56  +3h 47m
   PC herunterfahren PCHFHF              18:05     21:50  +3h 45m
   Zeiten sammeln BREPZS                 17:40     20:59  +3h 19m
-  Eingabe Zeiterfassung SAP BREPZE      17:47     21:06  +3h 19m
-  Eingabe Teleworking SAP BREPZE        17:51     21:10  +3h 19m
-  ... und 52 weitere
+  ... und 53 weitere
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
@@ -46,26 +53,26 @@
   Aktivität                                    Zeit
   ──────────────────────────────────────── ────────
   Diskussion Meta-Harness mit OpenClaw PCO   3h 02m
-  Arbeitszeit absolvieren (Nachmittag) BRE   2h 49m
-  Mittagessen (selbst kochen / kalt)         1h 11m
+  Arbeitszeit absolvieren (Nachmittag) BRE   2h 40m
+  Mittagessen (selbst kochen / kalt) LEMES   1h 11m
   Nacherfassung Ablauf KSPLNA                1h 10m
-  Bearb. Essensplan (Kontrolle / zu essen       54m
-  Analyse Andon FM RWPLAF                       44m
-  Laufen / Scootersuche GEGYLS                  43m
-  Abhalten BKDD Standup Meeting BREPGM          31m
+  Analyse Andon FM RWPLAF                       45m
+  Bearb. Essensplan (Kontrolle / zu essen       44m
+  Laufen / Scootersuche GEGYLS                  34m
   Bearb. Essensplan LEEPEP                      25m
-  Bearb. Essensplan (gegessen / Lokalsuche      25m
-  Planung BRZ BREPGM                            24m
-  Rasieren, dabei Planung + Vortagesreview      20m
+  Analyse Thinking Frequencies RAAFAN           21m
+  Abhalten BKDD Standup Meeting BREPGM          20m
   Duschen LEMTDU                                19m
-  Anwendung der Zwischenraumzahnbürste LEA      19m
-  Analyse Thinking Frequencies RAAFAN           18m
   Frühstücken, dabei Vorbereitung Candeblo      16m
-  Bearb. Essensplan (Update Händlerangebot      12m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Rasieren, dabei Planung + Vortagesreview      15m
+  Bearb. Essensplan (gegessen / Lokalsuche      14m
+  Planung BRZ BREPGM (Verlängerung)             14m
+  Bearb. Essensplan (gegessen / Lokalsuche      11m
+  Bearb. Essensplan (Update Händlerangebot      11m
   WC BREPWC                                     11m
-  WC LEMTWC                                     10m
-  Vorbereitung Playlist für Singen unter d       8m
-  ... und 63 weitere Aktivitäten
+  Abhalten BKDD Standup Meeting BREPGM (Ve      11m
+  ... und 78 weitere Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
@@ -75,25 +82,25 @@
   ──────────── ────────
   PCOCDI         3h 02m
   BREPDZ         2h 51m
-  (kein Kürzel)   1h 12m
+  LEMESK         1h 11m
   KSPLNA         1h 10m
   BREPGM            55m
   LEEPKO            54m
-  RWPLAF            44m
+  RWPLAF            45m
   GEGYLS            43m
   LEEPEP            36m
   LEEPLS            25m
+  RAAFAN            21m
   LEMTRA            20m
   LEMTDU            19m
   LEAZZZ            19m
-  RAAFAN            18m
   LEMTFS            16m
   LEEPUH            12m
   BREPWC            11m
   LEMTWC            10m
   INSUSU             9m
   MUOWPL             8m
-  ... und 49 weitere Kürzel
+  ... und 50 weitere Kürzel
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
@@ -101,18 +108,23 @@
 
   Bereich      Zeit
   ──────── ────────
-  LE         4h 45m
+  LE         5h 56m
   BR         4h 16m
   PC         3h 06m
-  (–)        1h 12m
-  KS         1h 10m
+  KS         1h 11m
   GE         1h 00m
-  RW            52m
-  RA            30m
+  RW            53m
+  RA            33m
   IN            13m
   MU            10m
   WF             6m
   KA             6m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -139,11 +151,47 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 10:00–10:02  WC LEMTWC  — musste nicht
-  📝 13:18–13:21  WC LEMTWC
-  📝 18:36–18:40  WC BREPWC
-  📝 21:35–21:38  WC BREPWC
-  📝 21:38–21:41  Nacherfassung Ablauf KSPLNA
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Diskussion Meta-Harness mit OpenClaw PCOCDI     3h 02m     15 09:48–20:28  
+  Mittagessen (selbst kochen / kalt) LEMESK       1h 11m      1 13:54–15:05  
+  Nacherfassung Ablauf KSPLNA                     1h 10m     14 06:56–23:45  
+  Analyse Andon FM RWPLAF                            45m      7 06:51–23:56  
+  Bearb. Essensplan (Kontrolle / zu essen / Kor      44m      4 08:47–09:53  
+  Bearb. Essensplan LEEPEP                           25m      9 07:12–20:44  
+  Analyse Thinking Frequencies RAAFAN                21m      3 15:10–20:56  
+  Bearb. Essensplan (gegessen / Lokalsuche / Ko      14m      3 11:52–13:06  
+  Planung BRZ BREPGM (Verlängerung)                  14m      1 12:11–12:32  
+  Abhalten BKDD Standup Meeting BREPGM (Verläng      11m      1 11:00–11:31  
+  Arbeitszeit absolvieren (Nachmittag) BREPDZ (       9m      2 20:32–20:48  
+  Laufen / Scootersuche GEGYLS (Verlängerung)         9m      1 21:56–22:39  
+  div. Surfen (AI Self Evolution) INSUSU              7m      2 08:05–09:46  
+  Surfen Karaoke-Titel KASUSU                         6m      3 09:33–16:03  
+  Rasieren, dabei Planung + Vortagesreview (Rea       5m      1 06:28–06:48  
+  Surfen Andon FM RAAFSU                              5m      3 08:10–10:03  
+  Medikament fassen GEMEFA (Verlängerung)             5m      1 22:45–22:52  
+  Tweet an Thinking Frequencies RWMPAR                4m      1 08:28–08:32  
+  Blutdruck messen GEBMBM (Verlängerung)              4m      1 16:42–16:48  
+  Ansehen YouTube-Videos RAYTYT                       3m      1 06:48–06:51  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       3m      1 23:02–23:21  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       2m      1 06:25–06:28  
+  Auspacken Essensplan LEEPAU                         2m      1 06:54–06:56  
+  Anhören Grok'n Roll (Live365) RAAFSU                2m      1 09:35–09:37  
+  Bearbeitung Mails INMBMB                            2m      1 10:19–10:21  
+  div. Surfen INSUSU                                  2m      2 16:03–22:42  
+  Bearb. Essensplan (gegessen, zu essen) LEEPEP       2m      1 21:41–21:47  
+  PC herunterfahren PCHFHF (Verlängerung)             2m      1 21:50–21:54  
+  Diskussion ChatGPT RAAFDI                           2m      2 22:42–22:53  
+  Ausziehen LEAZAU (Verlängerung)                     2m      1 23:45–23:51  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            1m      1 07:22–07:25  
+  Abwiegen LEMTAW (Verlängerung)                      1m      1 07:32–07:34  
+  Reinigung Waschmuschel LEMTRW (Verlängerung)        1m      1 07:34–07:36  
+  Bearb. Essensplan (Update Händlerangebote) LE       1m      1 12:34–12:46  
+  Bearb. Essensprotokoll LEEPEP                       1m      1 13:53–13:54  
+  Tweet an Grok'n Roll RWMPAR                         1m      1 20:48–20:49  
+  Verbesserung Tagesplaner mit OpenClaw KSPLAW        1m      1 23:56–23:57  
+
+  Gesamt ungeplant: 9h 42m über 93 Einträge / 37 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
@@ -154,6 +202,7 @@
   ✗ 10:17  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (5m)
   ✗ 10:24  Bearb.Ohrwürmer (Nachfassen aus alten Ch  (5m)
   ✗ 10:29  Bearb. Liste Scooterfahrten FZSCLI  (2m)
+  ✗ 13:30  Mittagessen (selbst kochen / kalt)  (60m)
   ✗ 19:17  Bearb. Liste Scooterfahrten FZSCLI (Fs.)  (7m)
   ✗ 19:24  Anhören RW-Prg. / Tonträger / Radiosende  (6m)
   ✗ 19:32  Anhören RW-Prg. / Tonträger / Radiosende  (2m)

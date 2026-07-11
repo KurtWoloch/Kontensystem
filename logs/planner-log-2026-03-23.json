@@ -583,10 +583,10 @@
     "comment": "Abschnitt Testament fertiggestellt"
   },
   {
-    "activity": "Mittagessen (selbst kochen / kalt)",
+    "activity": "Mittagessen (selbst kochen / kalt) LEMESK",
     "list": "Liste_Mittagessen_zuhause",
     "priority": 1.845,
-    "minutes": 60,
+    "minutes": 10,
     "started_at": "12:48:00",
     "completed_at": "12:58:00",
     "skipped": false,
@@ -1309,7 +1309,7 @@
     "comment": "Fixen mehrfach hintereinander auftretende Nacherfassungsblöcke"
   },
   {
-    "activity": "Wasser fassen",
+    "activity": "Wasser fassen LEMTGA",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 4,
@@ -1325,7 +1325,7 @@
     "priority": 1.826,
     "minutes": 5,
     "started_at": "19:47:00",
-    "completed_at": "19:50:00",
+    "completed_at": "19:52:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1507,7 +1507,7 @@
     "comment": ""
   },
   {
-    "activity": "Ansehen div. Bilder und Videos",
+    "activity": "Ansehen div. Bilder und Videos RWMPMP",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 4,

@@ -9,12 +9,19 @@
   Geplante Aktivitäten:       95
   Geplante Gesamtzeit:         14h 59m
 
-  ✓ Erledigt (geplant):       67  (   12h 17m)  = 82.0%
-  ⏭ Übersprungen:             12  (       36m)  = 4.0%
+  ✓ Erledigt (geplant):       70  (   12h 27m)  = 83.1%
+  ⏭ Übersprungen:              9  (       26m)  = 2.9%
   ✗ Nicht erreicht:           16  (    2h 06m)  = 14.0%
 
-  📝 Ungeplante Aktivitäten:  35  (    2h 44m)
-  ⏱  Tatsächliche Arbeitszeit:    16h 16m
+  📝 Ungeplante Aktivitäten:  97  (    8h 53m)
+  ⏱  Plan-Ausführungszeit:        7h 51m
+  ⏱  Tatsächliche Arbeitszeit:    16h 44m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -27,17 +34,98 @@
   Mailprüfung INMAPR                    08:39     21:29 +12h 50m
   Termine in Kalender prüfen LEMTTP     08:38     21:25 +12h 47m
   Bearb. Essensplan (Kontrolle / zu e   08:46     21:33 +12h 47m
-  Bearb. Essensplan (Kontrolle / zu e   09:03     21:33 +12h 30m
-  Bearb. Liste auswendig singbarer Ti   10:17     22:16 +11h 59m
+  WC LEMTWC                             09:08     20:28 +11h 20m
   Wohnung lüften WFLULU                 08:34     18:59 +10h 25m
   Bearb. Essensplan (gegessen, zu ess   14:36     23:02  +8h 26m
-  WC BREPWC                             19:50     13:38  -6h 12m
   Planung BRZ BREPGM                    15:25     11:20  -4h 05m
   Abhalten BKDD Standup Meeting BREPG   15:02     11:00  -4h 02m
   Start Teleworking BRZG BRTWGF         14:50     10:50  -4h 00m
   Arbeitszeit absolvieren (Vormittag)   15:35     11:55  -3h 40m
-  WC BREPWC                             16:39     13:38  -3h 01m
+  Mund spülen LEMTMS                    08:51     11:50  +2h 59m
+  Häferl waschen / Hustenbonbon fasse   08:53     11:52  +2h 59m
+  WC BREPWC                             16:30     13:38  -2h 52m
   ... und 52 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Arbeitszeit absolvieren (Nachmittag) BRE   2h 18m
+  Nacherfassung Ablauf KSPLNA                1h 02m
+  Verbesserung Tagesplaner mit OpenClaw KS      53m
+  Diskussion OpenClaw (Mängel in Planer) K      51m
+  Arbeitszeit absolvieren (Vormittag) BREP      48m
+  Laufen / E-Bike-Suche GEGYLS                  42m
+  Verbesserung Tagesplaner mit OpenClaw /       35m
+  Umdisponieren / Anrichten / Essen Mittag      24m
+  Arbeitszeit absolvieren (Nachmittag) BRE      22m
+  Duschen LEMTDU                                19m
+  Abhalten BKDD Standup Meeting BREPGM          19m
+  Bearb. Essensplan (Update Händlerangebot      19m
+  Nacherfassung Ablauf (nach Stromausfall       18m
+  Planung BRZ BREPGM (Verlängerung)             17m
+  Diskussion Planung / Mikrowelle mit Open      17m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Arbeitszeit absolvieren (Nachmittag) BRE      16m
+  Rasieren, dabei Planung + Vortagesreview      15m
+  Untersuchung Playlist Andon FM (Rotation      15m
+  Konversation mit Andrew Pappas RAAFKO         14m
+  ... und 102 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  BREPDZ         3h 44m
+  KSPLAW         1h 53m
+  KSPLNA         1h 03m
+  KSPLEN            58m
+  BREPGM            46m
+  GEGYLS            42m
+  LEMEGA            41m
+  LEEPUH            30m
+  RAAFKO            29m
+  LEAZZZ            25m
+  LEMTDU            19m
+  KWPLNA            18m
+  LEMTRA            17m
+  LEEPLS            16m
+  RAAFAN            16m
+  LEMTFS            13m
+  WFLEMH            13m
+  RWPLAF            12m
+  BREPWC            11m
+  LEEPEP             9m
+  ... und 60 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  BR         5h 03m
+  LE         4h 13m
+  KS         4h 13m
+  RA         1h 00m
+  GE            48m
+  KW            24m
+  WF            20m
+  RW            16m
+  MU            14m
+  IN             9m
+  PC             3m
+  FZ             1m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -78,41 +166,72 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 06:31–06:32  Start Tagessplaner KSPLPL
-  📝 06:32–06:33  Bearb. Essensplan (gegessen / zu essen) 
-  📝 06:33–06:34  Untersuchung Andon FM RAAFSU
-  📝 06:51–06:52  Diskussion Vortag mit OpenClaw KSPLAW
-  📝 06:52–06:59  Untersuchung Playlist Andon FM (Rotation
-  📝 06:59–07:02  Surfen X (Peter Steinberger) RAAFKO
-  📝 07:02–07:03  Untersuchung Playlist Andon FM (Rotation
-  📝 07:03–07:07  Surfen X (Peter Steinberger) RAAFKO
-  📝 07:07–07:09  Diskussion Vortag mit OpenClaw KSPLAW
-  📝 07:09–07:10  Surfen E-Roller-Boom in Hamburg FZINSU
-  📝 07:10–07:13  Untersuchung Playlist Andon FM (Rotation
-  📝 07:13–07:16  Untersuchung Playlist Andon FM (Rotation
-  📝 07:16–07:21  Diskussion Vortag mit OpenClaw KSPLAW
-  📝 07:21–07:22  Untersuchung Playlist Andon FM (Rotation
-  📝 07:28–07:30  div. Surfen (News) INSUNE
-  📝 07:30–07:36  Verbesserung Tagesplaner mit OpenClaw KS
-  📝 07:36–07:42  Nacherfassung Ablauf KSPLNA
-  📝 07:42–08:17  Verbesserung Tagesplaner mit OpenClaw / 
-  📝 08:18–08:20  Verbesserung Tagesplaner mit OpenClaw KS
-  📝 08:21–08:41  Verbesserung Tagesplaner mit OpenClaw KS
-  📝 08:42–08:46  Nacherfassung Ablauf KSPLNA
-  📝 09:54–09:57  Anziehen LEMTAN
-  📝 09:59–10:02  Bett machen LEMTBM
-  📝 10:25–10:31  Begutachtung Logs aus Planung (Änderung 
-  📝 12:58–12:59  Bearb. Protokoll Mohnnudeln (1. Versuch)  — Abbruch, weil Stromausfall (Mikrowelle kaputt)
-  📝 12:59–13:08  Schadensaufnahme Mikrowellenherd / Strom  — Sicherung ist rausgeflogen, fliegt auch bei nur eingestecktem, ausgeschaltetem Mikrowellenherd raus
-  📝 13:37–13:38  Hochfahren PC / Update OpenClaw / Neusta
-  📝 13:42–13:44  Div. Surfen INSUSU
-  📝 15:08–15:11  Getränk fassen LEMTTW
-  📝 15:27–15:29  Bearb. Essensplan (gegessen) LEEPGE
-  📝 19:14–19:18  Nacherfassung Ablauf KSPLNA
-  📝 20:22–20:28  Arbeit an Tagesplanung / Planer-Entwickl  — Suche nach "Planer-Bedienung" im Source Code (nicht gefunden)
-  📝 20:30–20:34  Nacherfassung Ablauf KSPLNA
-  📝 20:35–20:40  Nacherfassung Ablauf KSPLNA
-  📝 21:37–21:43  Teller waschen / Getränk + Medikament fa
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Nacherfassung Ablauf KSPLNA                     1h 02m     15 07:36–20:40  
+  Verbesserung Tagesplaner mit OpenClaw KSPLAW       53m      5 07:22–09:11  
+  Diskussion OpenClaw (Mängel in Planer) KSPLEN      51m      5 20:05–21:25  
+  Laufen / E-Bike-Suche GEGYLS                       42m      1 19:23–20:05  
+  Verbesserung Tagesplaner mit OpenClaw / Anpas      35m      1 07:42–08:17  
+  Umdisponieren / Anrichten / Essen Mittagessen      24m      1 13:08–13:37  
+  Bearb. Essensplan (Update Händlerangebote) LE      19m      1 21:46–22:16  
+  Nacherfassung Ablauf (nach Stromausfall wg. M      18m      1 13:44–14:02  
+  Planung BRZ BREPGM (Verlängerung)                  17m      1 11:31–11:50  
+  Diskussion Planung / Mikrowelle mit OpenClaw       17m      2 14:05–14:24  
+  Arbeitszeit absolvieren (Nachmittag) BREPDZ (      16m      1 15:29–17:47  
+  Untersuchung Playlist Andon FM (Rotationen) R      15m      5 06:52–07:22  
+  Konversation mit Andrew Pappas RAAFKO              14m      2 18:07–18:41  
+  Analyse Andon FM RWPLAF                            12m      1 18:18–18:30  
+  Schadensaufnahme Mikrowellenherd / Stromausfa       9m      1 12:59–13:08  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       9m      1 22:30–22:55  
+  Diskussion Vortag mit OpenClaw KSPLAW               8m      3 06:51–07:21  
+  Konversation Andon FM / Thinking Frequencies        8m      1 18:30–18:38  
+  Surfen X (Peter Steinberger) RAAFKO                 7m      2 06:59–07:07  
+  Erfassung Ablauf KSPLEA                             7m      1 21:07–21:14  
+  Scan Kronehit RASCKH                                6m      4 10:16–10:49  
+  Begutachtung Logs aus Planung (Änderung vorge       6m      1 10:25–10:31  
+  Arbeit an Tagesplanung / Planer-Entwicklung K       6m      1 20:22–20:28  
+  Ansehen Youtube-Videos RAYTYT                       4m      2 08:50–18:43  
+  Bearb. Essensplan (gegessen / Lokalsuche / Ko       4m      1 10:33–10:48  
+  Bearb. Dokumentation BRZ (Entwicklungsdokumen       4m      1 10:54–10:58  
+  Bearb. Essensplan (gegessen) LEEPEP                 4m      1 14:36–14:40  
+  Wasser fassen LEMEGA                                3m      1 12:17–12:20  
+  Getränk fassen LEMTTW                               3m      1 15:08–15:11  
+  Termine in Kalender prüfen LEMTTP (Verlängeru       3m      1 21:25–21:29  
+  PC herunterfahren LEAZHF (Verlängerung)             3m      1 23:11–23:15  
+  Rasieren, dabei Planung + Vortagesreview (Rea       2m      1 06:34–06:51  
+  div. Surfen (News) INSUNE                           2m      1 07:28–07:30  
+  Ausputzen Rasierer LEMTAR (Verlängerung)            2m      1 09:25–09:29  
+  Div. Surfen INSUSU                                  2m      1 13:42–13:44  
+  div. Surfen (Mikrowellenherde bei Media Markt       2m      1 14:21–14:23  
+  Begutachtung Fix Tagesplaner KSPLPL                 2m      1 14:24–14:26  
+  div. Surfen (Mikrowellenherde bei Media Markt       2m      1 14:26–14:28  
+  Bearb. Essensplan (gegessen) LEEPGE                 2m      1 15:27–15:29  
+  Sichtung Radio-Würmchen-Programmstatistiken R       2m      1 19:07–19:09  
+  Surfen X INSUXX                                     2m      1 19:10–19:12  
+  Diskussion OpenClaw (doppelt gesendete Nachri       2m      1 19:12–19:14  
+  Begutachtung Windowmon-Summary KSPLAN               2m      1 20:47–20:49  
+  Teller waschen / Getränk + Medikament fassen        2m      1 21:37–21:43  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:28–06:30  
+  Start Tagessplaner KSPLPL                           1m      1 06:31–06:32  
+  Bearb. Essensplan (gegessen / zu essen) LEEPL       1m      1 06:32–06:33  
+  Untersuchung Andon FM RAAFSU                        1m      1 06:33–06:34  
+  Surfen E-Roller-Boom in Hamburg FZINSU              1m      1 07:09–07:10  
+  Scan Radio Arabella RASCRA                          1m      1 10:53–10:54  
+  Entwickllung Tagesplanung mit OpenClaw KSPLEN       1m      1 11:19–11:20  
+  Blutdruck messen GEBMBM (Verlängerung)              1m      1 12:46–12:49  
+  Bearb. Protokoll Mohnnudeln (1. Versuch) LEME       1m      1 12:58–12:59  
+  Hochfahren PC / Update OpenClaw / Neustart Pl       1m      1 13:37–13:38  
+  Nacherfassung Ablauf (nach Stromausfall wg. M       1m      1 13:41–13:42  
+  Diskussion OpenClaw (Einchecken Planer) KSPLE       1m      1 14:41–14:42  
+  Befragung Arena AI zu Thinking Frequencies RA       1m      1 18:06–18:07  
+  Neustart ngrok-Tunnel RWKIAD                        1m      1 19:09–19:10  
+  PC herunterfahren PCHFHF (Fs.) (Verlängerung)       1m      1 19:18–19:21  
+  Begutachtung Autodetect-Corrections KSPLAN          1m      1 21:01–21:02  
+  Mailprüfung INMAPR (Verlängerung)                   1m      1 21:29–21:32  
+  Bett machen LEAZHW (Verlängerung)                   1m      1 23:03–23:06  
+
+  Gesamt ungeplant: 8h 53m über 97 Einträge / 62 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

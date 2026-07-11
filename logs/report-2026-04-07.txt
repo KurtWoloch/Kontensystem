@@ -13,8 +13,15 @@
   ⏭ Übersprungen:              6  (       22m)  = 2.3%
   ✗ Nicht erreicht:           22  (    2h 28m)  = 15.3%
 
-  📝 Ungeplante Aktivitäten:   1  (        1m)
-  ⏱  Tatsächliche Arbeitszeit:    17h 25m
+  📝 Ungeplante Aktivitäten:  59  (    5h 31m)
+  ⏱  Plan-Ausführungszeit:       11h 53m
+  ⏱  Tatsächliche Arbeitszeit:    17h 24m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -45,27 +52,27 @@
 
   Aktivität                                    Zeit
   ──────────────────────────────────────── ────────
-  Arbeitszeit absolvieren (Nachmittag) BRE   5h 58m
+  Arbeitszeit absolvieren (Nachmittag) BRE   4h 21m
+  Arbeitszeit absolvieren (Nachmittag) BRE   1h 37m
   Mittagspause BRZG  LEMEBR                  1h 00m
-  Planung BRZ BREPGM                         1h 00m
-  Arbeitszeit absolvieren (Vormittag) BREP      57m
-  Fahrt BRZG BRFAFA                             48m
+  Planung BRZ BREPGM (Verlängerung)             50m
+  Fahrt BRZG BRFAFA                             46m
   Heimfahrt vom BRZ inkl. Laufen BRFAHF         45m
+  Arbeitszeit absolvieren (Vormittag) BREP      39m
   Nacherfassung Ablauf KSPLNA                   30m
   Frühstücken, dabei Vorbereitung Candeblo      23m
-  Anwendung der Zwischenraumzahnbürste LEA      22m
-  Duschen LEMTDU                                21m
   Versuch Fixen M76 Joe Talker auf Arena A      21m
+  Duschen LEMTDU                                20m
   Abhalten PKT Projekt Jour Fixe BREPGM         20m
+  Arbeitszeit absolvieren (Vormittag) BREP      18m
   Analyse Andon FM RWPLAF                       17m
-  Bearb. Essensplan im BRZ BREPGM               15m
-  Geschirr abwaschen LEMEGA                     14m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
   Rasieren, dabei Planung + Vortagesreview      12m
-  Feinschliff bei der Rasur LEMTFR              12m
-  Einpacken BRZ-Laptop, RW-Prg. / Essenspl      10m
+  Bearb. Essensplan im BRZ BREPGM               10m
+  Planung BRZ BREPGM                            10m
   Zähne putzen LEAZZP                           10m
   WC BREPWC                                      9m
-  ... und 58 weitere Aktivitäten
+  ... und 79 weitere Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
@@ -84,8 +91,8 @@
   LEMTDU            21m
   CSSUAI            21m
   RWPLAF            17m
-  RAYTYT            14m
   LEMEGA            14m
+  RAYTYT            14m
   LEMTRA            12m
   LEMTFR            12m
   BREPZE            12m
@@ -102,7 +109,7 @@
   Bereich      Zeit
   ──────── ────────
   BR        10h 45m
-  LE         4h 07m
+  LE         4h 09m
   RW            53m
   KS            30m
   RA            23m
@@ -110,9 +117,14 @@
   MU            11m
   GE             7m
   IN             4m
-  (–)            3m
   FZ             1m
   PC             1m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -135,7 +147,47 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 08:43–08:44  Nacherfassung Ablauf KSPLNA
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Arbeitszeit absolvieren (Nachmittag) BREPDZ (   1h 37m      1 16:09–20:04  
+  Planung BRZ BREPGM (Verlängerung)                  50m      1 12:57–13:57  
+  Nacherfassung Ablauf KSPLNA                        30m      6 08:43–23:16  
+  Versuch Fixen M76 Joe Talker auf Arena AI CSS      21m      5 21:34–22:14  
+  Arbeitszeit absolvieren (Vormittag) BREPDZ (V      18m      1 11:00–11:57  
+  Analyse Andon FM RWPLAF                            17m      5 21:12–22:18  
+  Geschirr abwaschen LEMEGA (Verlängerung)            9m      1 22:26–22:40  
+  Ansehen Youtube-Videos RAYTYT                       8m      3 21:24–21:34  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       6m      1 07:02–07:14  
+  Ansehen YouTube-Videos RAYTYT                       6m      3 21:55–22:12  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       6m      1 23:29–23:51  
+  Einpacken BRZ-Laptop, RW-Prg. / Essensplan /        5m      1 09:08–09:18  
+  Bearb. Essensplan im BRZ BREPGM (Verlängerung       5m      1 10:45–11:00  
+  Surfen X RAAFKO                                     5m      2 22:20–22:50  
+  Bearb.Ohrwürmer (durchgenommen) MUOWDU (Verlä       4m      1 07:16–07:23  
+  Termine in Kalender prüfen LEMTTP (Verlängeru       4m      2 08:34–08:43  
+  Ausziehen LEAZAU (Verlängerung)                     3m      1 00:00–00:07  
+  Starten Youtube-Playlist MUOWSP (Verlängerung       3m      1 07:29–07:33  
+  Weiterentwicklung Radio Würmchen KI (Gemma) m       3m      1 08:48–08:51  
+  Herunterfahren, Einpacken, Anziehen BRALAB (V       3m      1 20:17–20:26  
+  Restart ngrok-Tunnel für Radio Würmchen KI RW       3m      2 21:11–21:45  
+  div. Surfen INSUSU                                  3m      2 21:32–23:05  
+  Surfen Andon FM RAAFSU                              3m      2 22:23–22:48  
+  PC herunterfahren LEAZHF (Verlängerung)             2m      1 00:10–00:13  
+  Häferl waschen / Hustenbonbon fassen LEMTHW (       2m      1 09:04–09:08  
+  Fahrt BRZG BRFAFA (Verlängerung)                    2m      1 09:31–10:19  
+  Eingabe Zeiterfassung SAP BREPZE (Verlängerun       2m      1 20:11–20:17  
+  Tweet an Backlink Broadcast RWMPAR                  2m      1 22:18–22:20  
+  Einschmieren GEAZES (Verlängerung)                  1m      1 00:07–00:10  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:46–06:48  
+  Duschen LEMTDU (Verlängerung)                       1m      1 07:33–07:54  
+  Bett machen LEMTBM (Verlängerung)                   1m      1 08:01–08:05  
+  Scan Radio Würmchen KI RASCRW                       1m      1 08:38–08:39  
+  Bearb. Essensplan LEEPEP                            1m      1 08:39–08:40  
+  Überprüfung ngrok-Tunnel RWKIAD                     1m      1 08:40–08:41  
+  Begutachtung Status Ngrok RWKIVE                    1m      1 21:28–21:29  
+  Nachtmahl fassen LENANA (Verlängerung)              1m      1 21:50–21:54  
+
+  Gesamt ungeplant: 5h 31m über 59 Einträge / 37 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      112
   Geplante Gesamtzeit:         16h 32m
 
-  ✓ Erledigt (geplant):       66  (   10h 55m)  = 66.0%
-  ⏭ Übersprungen:              7  (       40m)  = 4.0%
+  ✓ Erledigt (geplant):       68  (   11h 03m)  = 66.8%
+  ⏭ Übersprungen:              5  (       32m)  = 3.2%
   ✗ Nicht erreicht:           39  (    4h 57m)  = 29.9%
 
-  📝 Ungeplante Aktivitäten:   5  (       26m)
-  ⏱  Tatsächliche Arbeitszeit:    18h 14m
+  📝 Ungeplante Aktivitäten:  65  (    8h 51m)
+  ⏱  Plan-Ausführungszeit:        8h 55m
+  ⏱  Tatsächliche Arbeitszeit:    17h 46m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -35,9 +42,88 @@
   Mailprüfung INMAPR                    08:30     22:11 +13h 41m
   Bearb. Essensplan (gegessen, zu ess   10:51     23:15 +12h 24m
   Bearb. Essensplan (Kontrolle / zu e   08:32     19:20 +10h 48m
-  Wohnung lüften WFLULU                 17:39     23:13  +5h 34m
   Versorgung Mitbringsel LEPOPO         17:28     22:06  +4h 38m
-  ... und 51 weitere
+  WC BREPWC                             13:30     17:27  +3h 57m
+  ... und 49 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Arbeitszeit absolvieren (Nachmittag) BRE   2h 30m
+  Arbeitszeit absolvieren (Nachmittag) BRE   1h 38m
+  Nacherfassung Ablauf KSPLNA                1h 09m
+  Diskussion OpenClaw KSPLEN                 1h 03m
+  Mittagspause BRZG  LEMEBR                  1h 00m
+  Diskussion ACP-Sitzungen / Subagents mit      52m
+  Fahrt BRZG BRFAFA                             45m
+  Heimfahrt vom BRZ inkl. Laufen BRFAHF         45m
+  Surfen Chat-GPT Memories INSUSU               35m
+  Duschen LEMTDU                                20m
+  Mittagspause BRZG  LEMEBR (Verlängerung)      20m
+  Frühstücken, dabei Vorbereitung Candeblo      19m
+  Surfen AI Arena moltchess INSUSU              18m
+  Tweet an Thinking Frequencies (Boney M.       18m
+  Bearb. Essensplan im BRZ BREPGM (Verläng      17m
+  Anwendung der Zwischenraumzahnbürste LEA      16m
+  Rasieren, dabei Planung + Diskussion übe      15m
+  vor PC eingeschlafen LESCPC                   14m
+  Bearb. Essensplan LEEPEP                      13m
+  Ansehen Youtube-Videos RAYTYT                 13m
+  ... und 84 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  BREPDZ         4h 13m
+  KSPLEN         2h 00m
+  LEMEBR         1h 20m
+  KSPLNA         1h 09m
+  INSUSU            58m
+  BRFAFA            45m
+  BRFAHF            45m
+  BREPGM            34m
+  LEEPEP            25m
+  LEMTDU            20m
+  LEMTFS            19m
+  RWMPAR            18m
+  LEMTRA            17m
+  LEAZZZ            16m
+  RAAFSU            16m
+  RAYTYT            16m
+  LESCPC            14m
+  LEMTAN            11m
+  BRALAB            11m
+  RAAFAN            11m
+  ... und 49 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  BR         6h 57m
+  LE         4h 42m
+  KS         3h 10m
+  IN            59m
+  RA            50m
+  RW            42m
+  PC            12m
+  GE             8m
+  MU             5m
+  WF             2m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -64,11 +150,52 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 07:37–07:42  Feinschliff bei der Rasur LEMTFR
-  📝 07:42–07:44  Ausputzen Rasierer LEMTAR
-  📝 07:46–07:48  WC LEMTWC
-  📝 22:53–23:07  vor PC eingeschlafen LESCPC
-  📝 23:10–23:13  WC LEMTWC
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Arbeitszeit absolvieren (Nachmittag) BREPDZ (   1h 38m      1 12:57–17:05  
+  Nacherfassung Ablauf KSPLNA                     1h 09m      8 08:16–23:10  
+  Diskussion OpenClaw KSPLEN                      1h 03m      3 06:46–08:09  
+  Diskussion ACP-Sitzungen / Subagents mit Open      52m      2 18:33–20:19  
+  Surfen Chat-GPT Memories INSUSU                    35m      1 19:39–20:14  
+  Mittagspause BRZG  LEMEBR (Verlängerung)           20m      1 11:37–12:57  
+  Surfen AI Arena moltchess INSUSU                   18m      2 20:19–21:30  
+  Tweet an Thinking Frequencies (Boney M. in Di      18m      1 20:50–21:08  
+  Bearb. Essensplan im BRZ BREPGM (Verlängerung      17m      1 11:03–11:30  
+  vor PC eingeschlafen LESCPC                        14m      1 22:53–23:07  
+  Bearb. Essensplan LEEPEP                           13m      2 08:11–21:38  
+  Ansehen Youtube-Videos RAYTYT                      13m      4 21:41–22:02  
+  Untersuchung Playlist Andon FM RAAFSU              12m      3 19:27–20:41  
+  Research ACP-Sitzungen für OpenClaw PCOCAC         10m      1 18:23–18:33  
+  Bau Abfrage für Musikrichtungen in Andon FM-L      10m      2 20:43–21:17  
+  Anziehen LEMTAN (Verlängerung)                      6m      1 09:08–09:19  
+  div. Surfen INSUSU                                  5m      2 07:50–20:43  
+  Herunterfahren, Einpacken, Anziehen BRALAB (V       5m      1 17:16–17:27  
+  Diskussion Planer mit OpenClaw KSPLEN               5m      2 21:12–21:51  
+  Untersuchung nicht gespielte Titel Andon FM R       4m      3 07:48–08:06  
+  Bearb. Essensplan (gegessen, zu essen, Start        4m      1 08:30–08:38  
+  Prüfung Radio Würmchen KI-Programm RWMPMP           4m      1 20:36–20:40  
+  Surfen X RAAFKO                                     4m      1 21:24–21:28  
+  Ansehen YouTube-Videos RAYTYT                       3m      2 21:11–21:19  
+  Medikament fassen GEMEFA                            3m      1 23:19–23:22  
+  Bett machen LEAZHW (Verlängerung)                   2m      1 00:00–00:04  
+  PC herunterfahren LEAZHF (Verlängerung)             2m      1 00:13–00:16  
+  Rasieren, dabei Planung + Diskussion über neu       2m      1 06:29–06:46  
+  Bearb.Ohrwürmer (durchgenommen) MUOWDU (Verlä       2m      1 08:39–08:44  
+  Der Außentemperatur entsprechend anziehen LEA       2m      1 11:35–11:37  
+  Lesen TOOLS.md in VS Code PCOCIN                    2m      1 19:21–19:23  
+  Tweet an Thinking Frequencies RAAFKO                2m      1 21:09–21:11  
+  Nachtmahl fassen LENANA (Verlängerung)              2m      1 21:19–21:24  
+  Reinigung Zahnputzutensilien, Hände waschen L       2m      1 23:55–23:59  
+  Einschmieren GEAZES (Verlängerung)                  1m      1 00:09–00:12  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:27–06:29  
+  Untersuchung Playlist Andon FM / OpenAIR RAAF       1m      1 07:35–07:36  
+  Anhören Radiosender / Radio Würmchen / Tonträ       1m      1 08:09–08:11  
+  Abwiegen LEMTAW (Verlängerung)                      1m      1 08:44–08:46  
+  Einpacken BRZ-Laptop, RW-Prg. / Essensplan /        1m      1 09:44–09:50  
+  Diskussion mit OpenClaw KSPLAW                      1m      1 21:08–21:09  
+  Teller waschen / Getränk fassen LENATW (Verlä       1m      1 21:38–21:40  
+
+  Gesamt ungeplant: 8h 51m über 65 Einträge / 42 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

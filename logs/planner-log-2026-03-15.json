@@ -88,12 +88,12 @@
     "comment": ""
   },
   {
-    "activity": "Andon FM / Backlink Broadcast",
+    "activity": "Analyse Andon FM RWPLAF",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 1,
-    "started_at": "07:07:03",
-    "completed_at": "07:08:38",
+    "started_at": "07:07:00",
+    "completed_at": "07:08:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -110,12 +110,12 @@
     "comment": ""
   },
   {
-    "activity": "Anhören Musik (Winamp)",
+    "activity": "Anhören Radiosender / Radio Würmchen / Tonträger / Ohrwürmer RWMPMP",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 1,
-    "started_at": "07:09:25",
-    "completed_at": "07:10:47",
+    "started_at": "07:09:00",
+    "completed_at": "07:10:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -825,7 +825,7 @@
     "comment": ""
   },
   {
-    "activity": "Mittagessen (selbst kochen / kalt)",
+    "activity": "Mittagessen (selbst kochen / kalt) LEMESK",
     "list": "ungeplant",
     "priority": 0.0,
     "minutes": 24,
@@ -1169,20 +1169,9 @@
     "activity": "Surfen Andon FM RAAFSU",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 1,
-    "started_at": "17:28:48",
-    "completed_at": "17:29:49",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Surfen X",
-    "list": "windowmon_import",
-    "priority": 0.0,
-    "minutes": 0,
-    "started_at": "17:29:49",
-    "completed_at": "17:30:26",
+    "minutes": 2,
+    "started_at": "17:28:00",
+    "completed_at": "17:30:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1521,8 +1510,8 @@
     "activity": "Nachsurfen Win the tiger / Theme from the Exorcist RAAFSU",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 11,
-    "started_at": "19:34:00",
+    "minutes": 8,
+    "started_at": "19:37:00",
     "completed_at": "19:45:00",
     "skipped": false,
     "original_activity": "",

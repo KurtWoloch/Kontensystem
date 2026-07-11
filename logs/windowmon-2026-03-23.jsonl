@@ -3207,3 +3207,7 @@
 {"ts": "2026-03-23T23:48:59", "hwnd": 18811040, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (Nährwerte) LEEPGE", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-23T23:49:03", "hwnd": 21498886, "title": "Log gespeichert", "process": "python.exe", "browser": ""}
 {"ts": "2026-03-23T23:49:04", "hwnd": 18811040, "title": "Tagesplanung — Reaktiver Planer — Bearb. Essensplan (Nährwerte) LEEPGE", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T17:42:28", "type": "idle_start", "hwnd": 0, "title": "", "process": "planner_idle", "browser": ""}
+{"ts": "2026-07-09T17:42:28", "hwnd": 18875056, "title": "Tagesplanung — Off-PC — Anhören Radiosender / Radio Würmchen / Tonträger RWMPMP", "process": "python.exe", "browser": ""}
+{"ts": "2026-07-09T17:43:15", "type": "idle_end", "hwnd": 0, "title": "", "process": "planner_idle", "browser": "", "idle_duration_s": 47, "idle_start": "2026-07-09T17:42:28"}
+{"ts": "2026-07-09T17:43:15", "hwnd": 18875056, "title": "Tagesplanung — Reaktiver Planer — Anhören Radiosender / Radio Würmchen / Tonträger RWMPMP", "process": "python.exe", "browser": ""}

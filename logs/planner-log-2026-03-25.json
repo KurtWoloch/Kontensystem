@@ -352,12 +352,12 @@
     "comment": ""
   },
   {
-    "activity": "Scan Thinking Frequencies",
+    "activity": "Scan Thinking Frequencies RASCTF",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 3,
-    "started_at": "08:50:25",
-    "completed_at": "08:53:32",
+    "started_at": "08:50:00",
+    "completed_at": "08:53:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -561,10 +561,10 @@
     "comment": ""
   },
   {
-    "activity": "Abgang + Fahrt S-Bahn Siemensstr. (09:53) → Hetzendorf (10:26)",
+    "activity": "Abgang + Fahrt S-Bahn Siemensstr. (09:53) → Hetzendorf (10:26) VEGPFA",
     "list": "Liste_YAML",
     "priority": 1.85,
-    "minutes": 47,
+    "minutes": 61,
     "started_at": "09:46:00",
     "completed_at": "10:47:00",
     "skipped": false,
@@ -583,10 +583,10 @@
     "comment": "Voi-Scooter, Fahrt 10:49-10:54"
   },
   {
-    "activity": "Termin Grabpflege Südwestfriedhof (Großvater)",
+    "activity": "Termin Grabpflege Südwestfriedhof (Großvater) VAGPTG",
     "list": "Liste_YAML",
     "priority": 1.85,
-    "minutes": 48,
+    "minutes": 46,
     "started_at": "10:54:00",
     "completed_at": "11:40:00",
     "skipped": false,
@@ -594,7 +594,7 @@
     "comment": "Gespräch 10:57-11:30, danach noch E-Kerze ausgesetzt + gebetet"
   },
   {
-    "activity": "Rückfahrt + ggf. Mittagessen unterwegs",
+    "activity": "Rückfahrt + ggf. Mittagessen unterwegs VEGPFA",
     "list": "Liste_YAML",
     "priority": 0.0,
     "minutes": 94,
@@ -616,7 +616,7 @@
     "comment": "Prüfung Konsumation unterwegs"
   },
   {
-    "activity": "Mittagessen (Kebapdiele Station Hernals S)",
+    "activity": "Mittagessen (Kebapdiele Station Hernals S) LEMEGA",
     "list": "Liste_Mittagessen_zuhause",
     "priority": 0.0,
     "minutes": 47,
@@ -1243,7 +1243,7 @@
     "comment": ""
   },
   {
-    "activity": "Analyse Andon FM",
+    "activity": "Analyse Andon FM RWPLAF",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 5,
@@ -1276,12 +1276,12 @@
     "comment": ""
   },
   {
-    "activity": "Analyse Andon FM",
+    "activity": "Analyse Andon FM RWPLAF",
     "list": "windowmon_import",
     "priority": 0.0,
-    "minutes": 4,
+    "minutes": 3,
     "started_at": "18:32:00",
-    "completed_at": "18:36:00",
+    "completed_at": "18:35:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1298,12 +1298,12 @@
     "comment": ""
   },
   {
-    "activity": "Analyse Andon FM",
+    "activity": "Analyse Andon FM RWPLAF",
     "list": "windowmon_import",
     "priority": 0.0,
     "minutes": 14,
-    "started_at": "18:37:12",
-    "completed_at": "18:51:12",
+    "started_at": "18:37:00",
+    "completed_at": "18:51:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1936,6 +1936,17 @@
     "comment": ""
   },
   {
+    "activity": "Zähne putzen LEAZZP",
+    "list": "Liste_Abendzeremonie",
+    "priority": 1.835,
+    "minutes": 12,
+    "started_at": "23:54:00",
+    "completed_at": "23:59:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Anwendung der Zwischenraumzahnbürste LEAZZZ",
     "list": "Liste_Abendzeremonie",
     "priority": 1.835,
@@ -2052,17 +2063,6 @@
     "minutes": 1,
     "started_at": "00:48:00",
     "completed_at": "00:48:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
-    "activity": "Zähne putzen LEAZZP",
-    "list": "Liste_Abendzeremonie",
-    "priority": 1.835,
-    "minutes": 12,
-    "started_at": "23:54:00",
-    "completed_at": "23:59:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

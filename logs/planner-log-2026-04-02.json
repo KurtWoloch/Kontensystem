@@ -836,7 +836,7 @@
     "comment": ""
   },
   {
-    "activity": "Mittagessen (selbst kochen / kalt)",
+    "activity": "Mittagessen (selbst kochen / kalt) LEMESK",
     "list": "Liste_Mittagessen_zuhause",
     "priority": 0.0,
     "minutes": 71,
@@ -1257,9 +1257,9 @@
     "activity": "Analyse Thinking Frequencies RAAFAN",
     "list": "timeline_import",
     "priority": 0.0,
-    "minutes": 4,
+    "minutes": 7,
     "started_at": "20:49:00",
-    "completed_at": "20:53:00",
+    "completed_at": "20:56:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
@@ -1656,6 +1656,28 @@
     "minutes": 5,
     "started_at": "23:53:00",
     "completed_at": "23:55:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Analyse Andon FM RWPLAF",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:55:00",
+    "completed_at": "23:56:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Verbesserung Tagesplaner mit OpenClaw KSPLAW",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:56:00",
+    "completed_at": "23:57:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

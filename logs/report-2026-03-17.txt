@@ -9,12 +9,19 @@
   Geplante Aktivitäten:       99
   Geplante Gesamtzeit:         16h 48m
 
-  ✓ Erledigt (geplant):       52  (   11h 00m)  = 65.5%
-  ⏭ Übersprungen:             21  (    3h 03m)  = 18.2%
+  ✓ Erledigt (geplant):       63  (   12h 24m)  = 73.8%
+  ⏭ Übersprungen:             10  (    1h 39m)  = 9.8%
   ✗ Nicht erreicht:           26  (    2h 45m)  = 16.4%
 
-  📝 Ungeplante Aktivitäten:  21  (    1h 33m)
-  ⏱  Tatsächliche Arbeitszeit:    15h 51m
+  📝 Ungeplante Aktivitäten:  80  (    9h 37m)
+  ⏱  Plan-Ausführungszeit:        7h 49m
+  ⏱  Tatsächliche Arbeitszeit:    17h 26m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -26,18 +33,97 @@
   Mailprüfung INMAPR                    08:21     14:37  +6h 16m
   WC BREPWC                             14:10     20:21  +6h 11m
   Geschirr abwaschen LEMEGA             14:04     20:10  +6h 06m
-  WC BREPWC                             14:25     20:21  +5h 56m
   Bearb.Ohrwürmer (durchgenommen) MUO   07:09     10:49  +3h 40m
   Einschmieren GEMTES                   07:41     10:51  +3h 10m
-  Planung BRZ BREPGM (Fs.)              14:19     11:42  -2h 37m
   Mund spülen LEMTMS                    08:37     10:57  +2h 20m
   Häferl waschen / Hustenbonbon fasse   08:39     10:58  +2h 19m
   Vorbereitung Playlist für Hören unt   06:53     09:09  +2h 16m
   Blutdruck messen GEBMBM               09:21     11:32  +2h 11m
-  Versorgung Mitbringsel LEPOPO         19:55     21:29  +1h 34m
-  Der Außentemperatur entsprechend an   19:13     20:38  +1h 25m
-  Laufen / Scootersuche GEGYLS          19:15     20:40  +1h 25m
-  ... und 37 weitere
+  Ausputzen Rasierer LEMTAR             07:07     09:06  +1h 59m
+  Ausziehen LEMTAZ                      07:12     09:07  +1h 55m
+  Feinschliff bei der Rasur LEMTFR      07:01     08:54  +1h 53m
+  Abwiegen LEMTAW                       07:18     09:09  +1h 51m
+  Duschen LEMTDU                        07:21     09:11  +1h 50m
+  ... und 45 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Arbeitszeit absolvieren (Nachmittag) BRE   2h 45m
+  Diskussion Planer mit OpenClaw KSPLEN      2h 24m
+  Untersuchung nicht gespielte Titel Andon   1h 25m
+  Nacherfassung Ablauf KSPLNA                1h 06m
+  Diskussion Playlist Andon FM mit OpenCla      44m
+  Laufen / Scootersuche GEGYLS                  34m
+  Vor PC eingeschlafen LESCPC                   34m
+  Diskussion Planer / Tagesablauf mit Open      33m
+  Papiersortierung WFPAPA                       28m
+  Mittagessen (von Sati gekocht) LEMESE         27m
+  Abhalten BKDD Standup Meeting BREPGM          20m
+  Untersuchung Rotation Andon FM / OpenAIR      17m
+  Ausprobieren Autodetect Audit KSPLEN          16m
+  Rasieren, dabei Planung + Vortagesreview      15m
+  Duschen LEMTDU                                14m
+  Mail an Bengt (Andon Labs) wg. Buy songs      13m
+  Arbeitszeit absolvieren (Vormittag) BREP      12m
+  Anwendung der Zwischenraumzahnbürste LEA      12m
+  Konversation Andon FM / Thinking Frequen      11m
+  Bearb. Essensplan LEEPEP                      11m
+  ... und 76 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  KSPLEN         3h 26m
+  BREPDZ         2h 57m
+  RAAFSU         1h 30m
+  RAAFKO         1h 27m
+  KSPLNA         1h 10m
+  GEGYLS            45m
+  BREPGM            35m
+  LESCPC            34m
+  WFPAPA            28m
+  LEMESE            27m
+  RAAFAN            17m
+  LEMTRA            16m
+  LEEPEP            14m
+  LEMTDU            14m
+  LEAZZZ            12m
+  RWMPSE            10m
+  GEBMBM            10m
+  LEAZZP            10m
+  LEMTFS            10m
+  RAAFZA             8m
+  ... und 44 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  KS         4h 41m
+  BR         3h 54m
+  RA         3h 23m
+  LE         3h 21m
+  GE            57m
+  WF            35m
+  RW            21m
+  PC             7m
+  IN             6m
+  MU             1m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -94,27 +180,51 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 07:33–07:36  Nacherfassung Ablauf KSPLNA
-  📝 07:38–07:40  WC LEMTWC
-  📝 08:54–09:00  Feinschliff bei der Rasur LEMTFR
-  📝 09:06–09:07  Ausputzen Rasierer LEMTAR
-  📝 09:07–09:08  Ausziehen LEMTAZ
-  📝 09:08–09:09  WC LEMTWC
-  📝 09:09–09:09  Abwiegen LEMTAW
-  📝 09:11–09:25  Duschen LEMTDU
-  📝 09:25–09:27  Anziehen LEMTAN
-  📝 09:27–09:29  Vorbereitung Playlist für Hören beim Frü
-  📝 09:29–09:36  Frühstücken, dabei Vorbereitung Candeblo
-  📝 09:37–09:40  Frühstücken, dabei Vorbereitung Candeblo
-  📝 09:59–10:27  Papiersortierung WFPAPA
-  📝 11:29–11:31  Nacherfassung Ablauf KSPLNA
-  📝 11:31–11:32  Wasser fassen LEMTGA
-  📝 18:00–18:02  Nachmittagsjause fassen LENAJA
-  📝 20:06–20:10  Nacherfassung Ablauf KSPLNA
-  📝 20:29–20:33  Lesen / Surfen OpenClaw / Moltbook INOCM  — noch etwas wegen Spenden an Andon Labs Stationen klarzustellen
-  📝 20:33–20:38  Teller waschen / Getränk + Medikament fa
-  📝 23:38–23:41  Diskussion Planner mit OpenClaw KSPLPL
-  📝 23:51–23:53  Analyse Andon FM RWPLAF
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Diskussion Planer mit OpenClaw KSPLEN           2h 24m     11 07:43–13:57  
+  Untersuchung nicht gespielte Titel Andon FM R   1h 25m      3 14:39–19:33  
+  Nacherfassung Ablauf KSPLNA                     1h 06m     14 07:33–23:38  
+  Diskussion Playlist Andon FM mit OpenClaw RAA      44m      3 19:33–22:01  
+  Vor PC eingeschlafen LESCPC                        34m      1 22:14–22:48  
+  Diskussion Planer / Tagesablauf mit OpenClaw       33m      1 07:00–07:33  
+  Untersuchung Rotation Andon FM / OpenAIR RAAF      17m      3 10:41–18:47  
+  Ausprobieren Autodetect Audit KSPLEN               16m      2 13:57–14:13  
+  Mail an Bengt (Andon Labs) wg. Buy songs-Fehl      13m      1 06:47–07:00  
+  Konversation Andon FM / Thinking Frequencies       11m      4 14:38–22:14  
+  Bearb. Essensplan LEEPEP                           11m      1 18:29–18:40  
+  Laufen / Scootersuche GEGYLS (Verlängerung)        11m      1 20:40–21:25  
+  Frühstücken, dabei Vorbereitung Candeblo, Bea      10m      2 09:29–09:40  
+  Bearbeitung Planungsaktivitäten KSPLEN             10m      1 13:10–13:20  
+  Mail an Axel Wennström (Purchase Agent down)       10m      2 21:57–22:08  
+  Blutdruck messen GEBMBM (Verlängerung)              8m      1 11:32–11:42  
+  Untersuchung Andon FM RAAFSU                        5m      3 07:47–10:32  
+  Planung BRZ BREPGM (Verlängerung)                   4m      1 11:42–11:56  
+  PC herunterfahren PCHFHF (Verlängerung)             4m      2 20:25–23:56  
+  Lesen / Surfen OpenClaw / Moltbook INOCMB           4m      1 20:29–20:33  
+  Surfen X RAAFKO                                     4m      1 21:25–21:29  
+  Versuch Nacherfassung Ablauf KSPLNA                 4m      1 22:48–22:52  
+  Tweet an Grok'n Roll RAAFKO                         3m      2 06:45–13:10  
+  Diskussion Planer-Fehler mit OpenClaw KSPLEN        3m      1 22:52–22:55  
+  Diskussion Planner mit OpenClaw KSPLPL              3m      1 23:38–23:41  
+  Nachmittagsjause fassen LENAJA                      2m      1 18:00–18:02  
+  Konversation mit Andrew Pappas RAAFKO               2m      1 18:47–18:49  
+  Geschirr abwaschen LEMEGA (Verlängerung)            2m      1 20:10–20:17  
+  Analyse Andon FM RWPLAF                             2m      1 23:51–23:53  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:27–06:29  
+  Rasieren, dabei Planung + Vortagesreview (Rea       1m      1 06:29–06:45  
+  Häferl waschen / Hustenbonbon fassen LEMTHW (       1m      1 10:58–11:01  
+  Abhalten BKDD Standup Meeting BREPGM (Verläng       1m      1 11:01–11:22  
+  Wasser fassen LEMTGA                                1m      1 11:31–11:32  
+  Lesen Nacherfassung-improvements KSPLAN             1m      1 13:20–13:21  
+  Surfen Andon FM RASUAF                              1m      1 13:28–13:29  
+  Lesen Nacherfassung-improvement KSPLAN              1m      1 13:30–13:31  
+  div. Surfen INSUSU                                  1m      1 13:32–13:33  
+  Nachtmahl fassen LENANA (Verlängerung)              1m      1 20:17–20:21  
+  Teller waschen / Getränk + Medikament fassen        1m      1 20:33–20:38  
+  Anwendung Zahnseide LEAZZS (Verlängerung)           1m      1 23:19–23:25  
+
+  Gesamt ungeplant: 9h 37m über 80 Einträge / 41 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║

@@ -9,12 +9,19 @@
   Geplante Aktivitäten:      121
   Geplante Gesamtzeit:         16h 50m
 
-  ✓ Erledigt (geplant):       59  (    8h 33m)  = 50.8%
-  ⏭ Übersprungen:             14  (    1h 29m)  = 8.8%
-  ✗ Nicht erreicht:           48  (    6h 48m)  = 40.4%
+  ✓ Erledigt (geplant):       62  (    8h 52m)  = 52.7%
+  ⏭ Übersprungen:             12  (    1h 13m)  = 7.2%
+  ✗ Nicht erreicht:           47  (    6h 45m)  = 40.1%
 
-  📝 Ungeplante Aktivitäten:  22  (    4h 17m)
-  ⏱  Tatsächliche Arbeitszeit:    13h 41m
+  📝 Ungeplante Aktivitäten:  81  (   10h 49m)
+  ⏱  Plan-Ausführungszeit:        5h 45m
+  ⏱  Tatsächliche Arbeitszeit:    16h 34m
+
+╔═══════════════════════════════════════════════════════╗
+║  LOG-LÜCKEN UND ÜBERSCHNEIDUNGEN                      ║
+╚═══════════════════════════════════════════════════════╝
+
+  (keine Lücken oder Überschneidungen gefunden - hervorragend!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  DRIFT-ANALYSE                                        ║
@@ -23,21 +30,97 @@
   Aktivität                           Geplant Tatsächl.    Drift
   ─────────────────────────────────── ─────── ───────── ────────
   Anhören RW-Prg. / Tonträger / Radio   09:39     20:38 +10h 59m
-  Anhören RW-Prg. / Tonträger / Radio   09:56     20:38 +10h 42m
   Dokumentation Ohrwurm-Projekt RWOWD   10:04     20:46 +10h 42m
   Termine in Kalender prüfen LEMTTP     09:59     20:39 +10h 40m
   Mailprüfung INMAPR                    10:00     20:40 +10h 40m
-  Mailprüfung INMAPR (Fs.)              10:03     20:40 +10h 37m
-  Dokumentation Ohrwurm-Projekt RWOWD   11:32     20:46  +9h 14m
+  Dokumentation Ohrwurm-Projekt RWOWD   11:32     21:01  +9h 29m
   Wenn ("Gehst Du heute zum Essen rau   12:30     18:36  +6h 06m
+  Bearb. Essensplan (gegessen, zu ess   09:29     15:12  +5h 43m
   Blutdruck messen GEBMBM               10:01     15:03  +5h 02m
-  WC LEMTWC                             11:46     07:12  -4h 34m
   Versorgung Mitbringsel LEPOPO         15:27     19:43  +4h 16m
   Einpacken für Einkauf (Essensdatenb   11:11     15:21  +4h 10m
   Vorbereitung Einkaufsliste LEEKEL     11:21     15:31  +4h 10m
   WC LENJWC                             15:36     19:05  +3h 29m
   Teller waschen / Getränk fassen LEN   17:14     20:37  +3h 23m
-  ... und 44 weitere
+  WC LEEKWC                             12:12     15:31  +3h 19m
+  Der Außentemperatur entsprechend an   12:28     15:35  +3h 07m
+  ... und 42 weitere
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH AKTIVITÄT                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  Aktivität                                    Zeit
+  ──────────────────────────────────────── ────────
+  Diskussion mit OpenClaw über Tagesplaner   2h 04m
+  Diskussion Tagesplaner mit OpenClaw KSPL   1h 52m
+  Nacherfassung Ablauf KSPLNA                1h 06m
+  Dokumentation Ohrwurm-Projekt RWOWDO          59m
+  Besuch Schwimmbad GEGYSB                      56m
+  Neukauf Mikrowelle (Media Markt Floridsd      55m
+  Einkauf (BILLA Ederg.) / Laufen LEEKBI        51m
+  Bearb. Essensplan (gegessen / Lokalsuche      42m
+  Diskussion Tagesplanung mit OpenClaw / L      31m
+  Mittagessen (Limon Kebap, Parkplatz Medi      26m
+  Neukauf Mikrowelle (Media Markt Floridsd      24m
+  Frühstücken, dabei Vorbereitung Candeblo      21m
+  Versorgung Mitbringsel (Lesen Anleitung       19m
+  Versorgung Mitbringsel (Reinigung neuer       18m
+  Rasieren, dabei Planung + Vortagesreview      15m
+  Surfen / Ansehen YouTube-Videos Take Fiv      13m
+  Bearb. Essensplan (gegessen / Lokalsuche      11m
+  div. Surfen (Take five ursprüngliche Tak      11m
+  Bearb. Essensplan (Änderung Sollwerte) L      10m
+  Einpacken für Einkauf (Essensdatenbank,       10m
+  ... und 74 weitere Aktivitäten
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH TASK-KÜRZEL                       ║
+╚═══════════════════════════════════════════════════════╝
+
+  Kürzel           Zeit
+  ──────────── ────────
+  KSPLPL         2h 10m
+  KSPLEN         1h 57m
+  WFLEKA         1h 23m
+  KSPLNA         1h 06m
+  RWOWDO            59m
+  GEGYSB            56m
+  WFLEMH            54m
+  LEEPLS            53m
+  LEEKBI            51m
+  KSPLAW            31m
+  LEMEGA            26m
+  INSUSU            25m
+  LEMTRA            21m
+  LEMTFS            21m
+  LEAZZZ            21m
+  LEEPEP            18m
+  RWMPAR            12m
+  LEEPUH            10m
+  LEEKEP            10m
+  LEEPGE            10m
+  ... und 45 weitere Kürzel
+
+╔═══════════════════════════════════════════════════════╗
+║  ZEITVERBRAUCH NACH KONTENBEREICH                     ║
+╚═══════════════════════════════════════════════════════╝
+
+  Bereich      Zeit
+  ──────── ────────
+  KS         5h 51m
+  LE         5h 40m
+  WF         2h 17m
+  RW         1h 36m
+  GE         1h 10m
+  IN            27m
+  RA             9m
+
+╔═══════════════════════════════════════════════════════╗
+║  AKTIVITÄTEN OHNE TASK-KÜRZEL                         ║
+╚═══════════════════════════════════════════════════════╝
+
+  (alle Aktivitäten haben ein gültiges Task-Kürzel!)
 
 ╔═══════════════════════════════════════════════════════╗
 ║  ÜBERSPRUNGENE AKTIVITÄTEN                            ║
@@ -78,28 +161,52 @@
 ║  UNGEPLANTE AKTIVITÄTEN                               ║
 ╚═══════════════════════════════════════════════════════╝
 
-  📝 06:49–06:55  Bearb. Essensplan (Änderung Sollwerte) L
-  📝 11:06–11:15  Zähne putzen GEMTZP
-  📝 11:25–11:27  Jause fassen LEMTJF
-  📝 12:07–12:10  Nacherfassung Ablauf KSPLNA
-  📝 13:03–13:05  WC LEMTWC
-  📝 13:05–13:09  Vorbereitung Neukauf Mikrowelle WFLEKA
-  📝 13:09–13:33  Neukauf Mikrowelle (Media Markt Floridsd
-  📝 13:33–13:59  Mittagessen (Limon Kebap, Parkplatz Medi
-  📝 13:59–14:54  Neukauf Mikrowelle (Media Markt Floridsd
-  📝 14:54–14:57  Getränk fassen LEMTTW
-  📝 15:18–15:21  Untersuchung passende Titel für OpenAIR   — ähnlich zu Songbird: Lily was here, Against all odds, Pipeline (Alan Parsons Project), She's like the wind u.a.)
-  📝 17:03–17:04  Surfen Andon FM RWYTPL
-  📝 18:27–18:28  Surfen Andon FM RWYTPL
-  📝 19:13–19:16  Nachmittagsjause fassen LENAJA
-  📝 19:25–19:27  Teller waschen / Wasser fassen LENATW
-  📝 21:50–22:55  WC LEMTWC
-  📝 21:57–21:58  Ansehen Youtube-Videos RAYTYT
-  📝 21:58–22:25  Diskussion Tagesplanung mit OpenClaw / L
-  📝 22:25–22:37  Nacherfassung Ablauf KSPLNA
-  📝 22:37–22:41  Diskussion Tagesplanung mit OpenClaw / L
-  📝 22:58–23:00  Tweet an OpenAIR RWMPAR
-  📝 23:22–23:24  Nacherfassung Ablauf KSPLNA
+  Aktivität                                         Zeit  Sess. Range        
+  ───────────────────────────────────────────── ──────── ────── ─────────────
+  Diskussion mit OpenClaw über Tagesplaner KSPL   2h 04m      4 16:29–18:36  
+  Diskussion Tagesplaner mit OpenClaw KSPLEN      1h 52m      8 09:07–11:40  
+  Nacherfassung Ablauf KSPLNA                     1h 06m     13 11:21–23:24  
+  Neukauf Mikrowelle (Media Markt Floridsdorf)       55m      1 13:59–14:54  
+  Bearb. Essensplan (gegessen / Lokalsuche / Ko      42m      1 12:10–13:03  
+  Diskussion Tagesplanung mit OpenClaw / Lesen       31m      2 21:58–22:41  
+  Mittagessen (Limon Kebap, Parkplatz Media Mar      26m      1 13:33–13:59  
+  Neukauf Mikrowelle (Media Markt Floridsdorf)       24m      1 13:09–13:33  
+  Versorgung Mitbringsel (Lesen Anleitung neuer      19m      1 19:57–20:16  
+  Versorgung Mitbringsel (Reinigung neuer Mikro      18m      1 20:19–20:37  
+  Surfen / Ansehen YouTube-Videos Take Five Out      13m      1 18:52–19:05  
+  div. Surfen (Take five ursprüngliche Takes) I      11m      2 18:43–19:22  
+  Untersuchung Rotation Andon FM / OpenAIR RWPL      10m      3 08:53–18:43  
+  Bearb. Essensplan LEEPEP                           10m      3 08:58–11:18  
+  Tweet an OpenAIR RWMPAR                            10m      7 09:59–23:00  
+  Rasieren, dabei Planung + Vortagesreview (Rea       6m      1 06:28–06:49  
+  Surfen Andon FM RWAFSU                              6m      3 09:10–20:18  
+  Erfassung Ablauf KSPLEA                             6m      2 10:48–11:01  
+  Diskussion mit OpenClaw über Tagesplaner / Pu       6m      1 12:01–12:07  
+  Diskussion OpenClaw KSPLEN                          5m      1 11:01–11:06  
+  Bearb. Essensplan (Ereignisse / gegessen / zu       5m      1 19:32–19:42  
+  Versorgung Mitbringsel (Auspacken neuen Mikro       5m      1 19:43–19:57  
+  Anwendung der Zwischenraumzahnbürste LEAZZZ (       5m      1 23:00–23:13  
+  Vorbereitung Neukauf Mikrowelle WFLEKA              4m      1 13:05–13:09  
+  Getränk fassen LEMTTW                               3m      1 14:54–14:57  
+  Nachrechnen Kreditzinsen (für Mikrowellenherd       3m      1 15:05–15:08  
+  Untersuchung passende Titel für OpenAIR RAAFA       3m      1 15:18–15:21  
+  Feinschliff bei der Rasur LEMTFR (Verlängerun       2m      1 07:01–07:09  
+  Tweet an Grok'n Roll RWMPAR                         2m      2 08:50–09:03  
+  Surfen X RAAFSU                                     2m      1 08:56–08:58  
+  Surfen Andon FM RWYTPL                              2m      2 17:03–18:28  
+  Teller waschen / Wasser fassen LENATW               2m      1 19:25–19:27  
+  PC herunterfahren LEAZHF (Verlängerung)             2m      1 23:35–23:38  
+  Aufstehen, Rasierer fasssen LEMTAU (Verlänger       1m      1 06:26–06:28  
+  Anziehen LEMTAN (Verlängerung)                      1m      1 07:15–07:19  
+  Bett machen LEMTBM (Verlängerung)                   1m      1 07:19–07:23  
+  Div. Surfen (News) INSUSU                           1m      1 08:51–08:52  
+  Tweet an OpenAIR RAAFKO                             1m      1 08:52–08:53  
+  Erfassung Ablauf (Ansehen Tagesbericht) KSPLE       1m      1 09:06–09:07  
+  Dateiverwaltung (Lebenserhaltung) LEEPEP            1m      1 09:16–09:17  
+  Nachtmahl fassen LENANA (Verlängerung)              1m      1 20:42–20:46  
+  Ansehen Youtube-Videos RAYTYT                       1m      1 21:57–21:58  
+
+  Gesamt ungeplant: 10h 49m über 81 Einträge / 42 verschiedene Aktivitäten
 
 ╔═══════════════════════════════════════════════════════╗
 ║  NICHT ERREICHTE AKTIVITÄTEN                          ║
@@ -107,7 +214,6 @@
 
   ✗ 09:25  Wohnung lüften WFLULU  (4m)
   ✗ 11:36  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (10m)
-  ✗ 11:51  Jause fassen LEMTJF  (3m)
   ✗ 11:59  Bearb. Essensplan (Kontrolle / zu essen   (10m)
   ✗ 12:09  Bearb.Ohrwürmer(Nachfassen aus alten Cha  (3m)
   ✗ 13:30  Mittagessen (selbst kochen / kalt)  (60m)

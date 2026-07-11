@@ -1397,23 +1397,23 @@
     "comment": ""
   },
   {
-    "activity": "Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR",
-    "list": "Radio",
-    "priority": 1.833,
-    "minutes": 8,
-    "started_at": "17:08:00",
-    "completed_at": "17:12:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Nacherfassung Ablauf KSPLNA",
     "list": "timeline_import",
     "priority": 0.0,
     "minutes": 2,
     "started_at": "17:08:00",
     "completed_at": "17:10:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Anhören RW-Prg. / Tonträger / Radiosender / Ohrwürmer RWMPAR",
+    "list": "Radio",
+    "priority": 1.833,
+    "minutes": 2,
+    "started_at": "17:10:00",
+    "completed_at": "17:12:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

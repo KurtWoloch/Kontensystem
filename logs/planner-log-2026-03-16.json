@@ -495,17 +495,6 @@
     "comment": ""
   },
   {
-    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
-    "list": "Liste_Arbeit",
-    "priority": 1.845,
-    "minutes": 261,
-    "started_at": "12:51:00",
-    "completed_at": "17:00:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Mittagspause BRZG  LEMEBR",
     "list": "Lebenserhaltung",
     "priority": 1.845,
@@ -515,6 +504,17 @@
     "skipped": false,
     "original_activity": "",
     "comment": "Abholung von McDonalds (Alleine)"
+  },
+  {
+    "activity": "Arbeitszeit absolvieren (Nachmittag) BREPDZ",
+    "list": "Liste_Arbeit",
+    "priority": 1.845,
+    "minutes": 168,
+    "started_at": "14:12:00",
+    "completed_at": "17:00:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
   },
   {
     "activity": "Zeiten sammeln BREPZS",
@@ -1353,6 +1353,17 @@
     "comment": ""
   },
   {
+    "activity": "Tweet an Thinking Frequencies RWMPAR",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 5,
+    "started_at": "23:20:00",
+    "completed_at": "23:25:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "Einschmieren GEAZES",
     "list": "ungeplant",
     "priority": 0.0,
@@ -1441,12 +1452,23 @@
     "comment": "nur Abspeichern unwichtiger Dateien, PC läuft weiter wg. RW-KI-Prg."
   },
   {
+    "activity": "Nacherfassung Ablauf KSPLNA",
+    "list": "timeline_import",
+    "priority": 0.0,
+    "minutes": 1,
+    "started_at": "23:53:00",
+    "completed_at": "23:54:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
     "activity": "im Bett",
     "list": "Liste_Abendzeremonie",
     "priority": 1.834,
-    "minutes": 1,
-    "started_at": "23:53:00",
-    "completed_at": "23:53:00",
+    "minutes": 0,
+    "started_at": "23:54:00",
+    "completed_at": "23:54:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""

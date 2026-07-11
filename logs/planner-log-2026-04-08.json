@@ -495,23 +495,23 @@
     "comment": ""
   },
   {
-    "activity": "Mittagspause BRZG  LEMEBR",
-    "list": "Lebenserhaltung",
-    "priority": 1.845,
-    "minutes": 60,
-    "started_at": "12:30:00",
-    "completed_at": "13:57:00",
-    "skipped": false,
-    "original_activity": "",
-    "comment": ""
-  },
-  {
     "activity": "Der Außentemperatur entsprechend anziehen LEAUAZ",
     "list": "Liste_Arbeit",
     "priority": 1.844,
     "minutes": 2,
     "started_at": "12:30:00",
     "completed_at": "12:32:00",
+    "skipped": false,
+    "original_activity": "",
+    "comment": ""
+  },
+  {
+    "activity": "Mittagspause BRZG  LEMEBR",
+    "list": "Lebenserhaltung",
+    "priority": 1.845,
+    "minutes": 85,
+    "started_at": "12:32:00",
+    "completed_at": "13:57:00",
     "skipped": false,
     "original_activity": "",
     "comment": ""
