@@ -177,7 +177,7 @@ class TimelineModel:
                     act = logged_act
                 else:
                     # 3) Auto-detect from window title
-                    acct, act = classify_entry(e)
+                    acct, act = classify_entry(e, prev_activity=prev_act)
                     # Resolve special codes
                     if acct in ("_UNCLASSIFIABLE", "_WINLOGGER"):
                         if prev_acct and not prev_acct.startswith("_"):

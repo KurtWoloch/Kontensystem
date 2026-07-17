@@ -368,6 +368,7 @@ LOW_ACCURACY_OVERRIDABLE = {
     ("RA", "Ansehen YouTube-Videos RAYTYT"),       # 20.2% accuracy, 9.5h
     ("LE", "Bearb. Essensdatenbank (Access) LEEPEP"),  # generic Access
     ("RA", "Surfen X RAAFKO"),                    # generic X browsing
+    ("RA", "Konversation mit Diana Particle RAAFKO"),
     ("IN", "Surfen X (Timeline) INSUXX"),         # 8.8% accuracy, 2.4h
     ("IN", "Analysen in Arena AI INSUAI"),        # 1.8% accuracy, 3.6h
     ("RW", "Anhören Musik (Winamp) RWMPMP"),      # 0% accuracy, 1.8h
@@ -583,19 +584,27 @@ AUTODETECT_RULES = [
     (lambda t, p, b: b and _title_contains(t, "Home / X"),
      "IN", "Surfen X (Timeline) INSUXX"),
 
-    # X/Twitter: Direct Messages, Notifications, or generic tab group "X" (unambiguous DM/Notification signatures) -> Surfen X RAAFKO
+    # X/Twitter: Refined conditional Andon FM / Surfen X pages (status, on X:, Notifications)
     (lambda t, p, b: b and (
-        ConfidenceStore._normalize_title(p, t) in ("X", "Notifications / X", "Messages / X", "Direct Messages / X")
+        re.search(r'(?:x|twitter)\.com/[^/]+/status/\d+', t, re.IGNORECASE) or
+        re.search(r'\bon\s+X:', t, re.IGNORECASE) or
+        re.search(r'(?:\(\d+\)\s*)?Notifications\s*/\s*X', t, re.IGNORECASE)
      ),
-     "RA", "Surfen X RAAFKO"),
+     "_X_CONDITIONAL", ""),
+
+    # X/Twitter: Refined Chat / Conversation (Direct Messages, x.com/i/chat/<id>, or Normalized title is "X")
+    (lambda t, p, b: b and (
+        ConfidenceStore._normalize_title(p, t) == "X" or
+        _title_contains_any(t, "x.com/i/chat", "twitter.com/i/chat", "Messages / X", "Direct Messages / X")
+     ),
+     "_X_CONVERSATION", ""),
 
     # X/Twitter: Reading tweets mentioning Andon FM or its stations -> Analyse Andon FM
     (lambda t, p, b: b and _title_contains_any(t, "/ X", "twitter.com", "x.com") and
      _title_contains_any(t, "andon", "thinking", "backlink", "grok", "openair"),
      "RW", "Analyse Andon FM RWPLAF"),
 
-    # X/Twitter: everything else (DMs, notifications, profiles) →
-    # primarily radio station conversations (Andrew Pappas etc.)
+    # X/Twitter: everything else (profiles, other pages) → generic browsing
     (lambda t, p, b: b and _title_contains_any(t, "/ X", "twitter.com",
                                                  "x.com"),
      "RA", "Surfen X RAAFKO"),
@@ -1068,7 +1077,7 @@ def _extract_dialog_activity(title: str) -> Tuple[str, str]:
     return "KS", activity
 
 
-def classify_entry(entry: Dict) -> Tuple[str, str]:
+def classify_entry(entry: Dict, prev_activity: Optional[str] = None) -> Tuple[str, str]:
     """Apply AutoDetect rules to classify a windowmon entry.
 
     Returns (account, activity).
@@ -1094,6 +1103,10 @@ def classify_entry(entry: Dict) -> Tuple[str, str]:
     # but for classification rules, "b" should represent a real web browser.
     is_web_browser = bool(browser and browser.lower() != "excel")
 
+    # Browser window with empty title → treat as unclassifiable to continue previous activity
+    if is_web_browser and not title.strip():
+        return "_UNCLASSIFIABLE", ""
+
     for match_fn, account, activity in AUTODETECT_RULES:
         try:
             if match_fn(title, process, is_web_browser):
@@ -1116,6 +1129,22 @@ def classify_entry(entry: Dict) -> Tuple[str, str]:
                     if scan_target:
                         return "RW", scan_target
                     return "RW", "Anhören RW-Prg. / Tonträger / Radiosender RWMPAR"
+
+                # Special case: X Conditional Page (status, on X:, Notifications)
+                if account == "_X_CONDITIONAL":
+                    if prev_activity and prev_activity.startswith("Surfen X"):
+                        return "RA", "Surfen X RAAFKO"
+                    return "RW", "Analyse Andon FM RWPLAF"
+
+                # Special case: X Conversation / Chat (Direct Messages, x.com/i/chat/<id>, or Normalized title is "X")
+                if account == "_X_CONVERSATION":
+                    # Look up in confidence store first to allow override of Diana Particle
+                    store_result = ConfidenceStore.get().lookup(process, title)
+                    if store_result is not None:
+                        s_account, s_activity, s_conf, s_durch = store_result
+                        if not s_durch:
+                            return s_account, s_activity
+                    return "RA", "Konversation mit Diana Particle RAAFKO"
 
                 # When a hardcoded rule yields _UNCLASSIFIABLE, try the
                 # confidence store before giving up.
@@ -1186,15 +1215,19 @@ def build_activity_blocks(entries: List[Dict],
 
     blocks = []
     current_block = None
+    prev_activity = None
 
     for entry in entries:
         ts = entry["_ts"]
-        account, activity = classify_entry(entry)
+        account, activity = classify_entry(entry, prev_activity=prev_activity)
         title = entry.get("title", "")
 
         # Skip idle markers as separate entries (they're info-only)
         if entry.get("type") in ("idle_start", "idle_end"):
             continue
+
+        if not account.startswith("_"):
+            prev_activity = activity
 
         # ── Special: Window Logger idle → continue previous ───────────
         if account == "_WINLOGGER" and current_block:

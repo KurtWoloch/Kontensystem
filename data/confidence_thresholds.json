@@ -62,36 +62,8 @@
       "process": "msedge.exe",
       "pattern": "Home / X",
       "match_type": "exact",
-      "min_confidence": 0.25,
-      "note": "Home / X timeline usually means Analyse Andon FM (corrected and averages ~45% confidence)"
-    },
-    {
-      "process": "msedge.exe",
-      "pattern": "X",
-      "match_type": "exact",
-      "force_activity": "Surfen X RAAFKO",
-      "note": "X tab-only title is unambiguous DM / conversation focus (#25)"
-    },
-    {
-      "process": "msedge.exe",
-      "pattern": "Notifications / X",
-      "match_type": "exact",
-      "force_activity": "Surfen X RAAFKO",
-      "note": "X Notifications is generic surf / messaging focus (#25)"
-    },
-    {
-      "process": "msedge.exe",
-      "pattern": "Messages / X",
-      "match_type": "exact",
-      "force_activity": "Surfen X RAAFKO",
-      "note": "X Direct Messages is unambiguous messaging focus (#25)"
-    },
-    {
-      "process": "msedge.exe",
-      "pattern": "Direct Messages / X",
-      "match_type": "exact",
-      "force_activity": "Surfen X RAAFKO",
-      "note": "X Direct Messages is unambiguous messaging focus (#25)"
+      "force_activity": "Surfen X (Timeline) INSUXX",
+      "note": "Home / X timeline is always generic timeline browsing"
     }
   ]
 }
