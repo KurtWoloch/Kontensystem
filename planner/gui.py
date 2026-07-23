@@ -717,7 +717,8 @@ class PlannerGUI:
             # Use the monitor's log writer directly
             from window_monitor import WindowEvent, LOG_DIR
             import json as _json
-            day_str = self.engine.session_date.strftime("%Y-%m-%d")
+            day_date = ts.date() if ts.hour >= 5 else (ts - timedelta(days=1)).date()
+            day_str = day_date.strftime("%Y-%m-%d")
             os.makedirs(LOG_DIR, exist_ok=True)
             path = os.path.join(LOG_DIR, f"windowmon-{day_str}.jsonl")
             with open(path, "a", encoding="utf-8") as f:
@@ -766,7 +767,8 @@ class PlannerGUI:
                 "process": "python.exe",
                 "browser": "",
             }
-            day_str = self.engine.session_date.strftime("%Y-%m-%d")
+            day_date = ts.date() if ts.hour >= 5 else (ts - timedelta(days=1)).date()
+            day_str = day_date.strftime("%Y-%m-%d")
             os.makedirs(LOG_DIR, exist_ok=True)
             path = os.path.join(LOG_DIR, f"windowmon-{day_str}.jsonl")
             with open(path, "a", encoding="utf-8") as f:
@@ -1531,7 +1533,10 @@ class PlannerGUI:
                 _update_suggestion()
 
         # ── Time fields ────────────────────────────────────────────────
-        now = datetime.now()
+        session_date = self.engine.session_date
+        now = (datetime.combine(session_date, datetime.now().time())
+               if session_date < datetime.now().date()
+               else datetime.now())
         start_h_var = start_m_var = end_h_var = end_m_var = None
         default_start = now
         if cfg["show_times"]:
@@ -1665,26 +1670,26 @@ class PlannerGUI:
             # Parse times
             start_time = end_time = None
             if cfg["show_times"]:
+                def _make_dt(h, m):
+                    base = session_date + timedelta(days=1) if h < 5 else session_date
+                    return datetime.combine(base, datetime.min.time()).replace(hour=h, minute=m)
+
                 try:
                     sh = int(start_h_var.get())
                     sm = int(start_m_var.get())
-                    start_time = now.replace(hour=sh, minute=sm,
-                                             second=0, microsecond=0)
+                    start_time = _make_dt(sh, sm)
                 except ValueError:
                     start_time = default_start
 
                 try:
                     eh = int(end_h_var.get())
                     em = int(end_m_var.get())
-                    end_time = now.replace(hour=eh, minute=em,
-                                           second=0, microsecond=0)
+                    end_time = _make_dt(eh, em)
                 except ValueError:
                     end_time = now
 
-                if end_time < start_time:
-                    lbl_error.config(
-                        text="⚠ Ende darf nicht vor dem Beginn liegen!")
-                    return
+                if end_time <= start_time:
+                    end_time += timedelta(days=1)
 
             dlg.destroy()
             comment = comment_var.get().strip()
@@ -1920,7 +1925,10 @@ class PlannerGUI:
     def _show_bulk_complete_dialog(self, items_to_log):
         """V10: Dialog for Bulk-Complete with multi-select and time shift."""
         count = len(items_to_log)
-        now = datetime.now()
+        session_date = self.engine.session_date
+        now = (datetime.combine(session_date, datetime.now().time())
+               if session_date < datetime.now().date()
+               else datetime.now())
 
         dlg = tk.Toplevel(self.root)
         dlg.title("Bis hierher erledigt")
@@ -2107,13 +2115,16 @@ class PlannerGUI:
             selected = _get_selected_items()
             dlg.destroy()
 
+            def _make_dt(h, m):
+                base = session_date + timedelta(days=1) if h < 5 else session_date
+                return datetime.combine(base, datetime.min.time()).replace(hour=h, minute=m)
+
             if time_mode.get() == "shift":
                 # Shifted: sequential from the given start time
                 try:
                     h = int(shift_h.get())
                     m = int(shift_m.get())
-                    cursor = now.replace(hour=h, minute=m,
-                                         second=0, microsecond=0)
+                    cursor = _make_dt(h, m)
                 except ValueError:
                     cursor = now
 
@@ -2142,9 +2153,7 @@ class PlannerGUI:
                     try:
                         if isinstance(est_start_str, str) and est_start_str:
                             t = datetime.strptime(est_start_str, "%H:%M")
-                            start_dt = now.replace(
-                                hour=t.hour, minute=t.minute,
-                                second=0, microsecond=0)
+                            start_dt = _make_dt(t.hour, t.minute)
                         else:
                             start_dt = now
                     except ValueError:
@@ -2153,9 +2162,7 @@ class PlannerGUI:
                     try:
                         if isinstance(est_end_str, str) and est_end_str:
                             t = datetime.strptime(est_end_str, "%H:%M")
-                            end_dt = now.replace(
-                                hour=t.hour, minute=t.minute,
-                                second=0, microsecond=0)
+                            end_dt = _make_dt(t.hour, t.minute)
                         else:
                             end_dt = start_dt + timedelta(minutes=mins)
                     except ValueError:
@@ -2445,26 +2452,26 @@ class PlannerGUI:
         # ── Helper: parse times from spinboxes ─────────────────────────
         def _parse_times():
             """Parse start/end times. Returns (start_dt, end_dt) or None on error."""
+            base_date = item.started_at.replace(
+                hour=0, minute=0, second=0, microsecond=0)
             try:
                 sh = int(start_h_var.get())
                 sm = int(start_m_var.get())
-                start_dt = item.started_at.replace(
-                    hour=sh, minute=sm, second=0, microsecond=0)
+                start_dt = base_date.replace(
+                    hour=sh, minute=sm)
             except ValueError:
                 lbl_error.config(text="⚠ Ungültige Startzeit!")
                 return None
             try:
                 eh = int(end_h_var.get())
                 em = int(end_m_var.get())
-                end_dt = item.completed_at.replace(
-                    hour=eh, minute=em, second=0, microsecond=0)
+                end_dt = base_date.replace(
+                    hour=eh, minute=em)
             except ValueError:
                 lbl_error.config(text="⚠ Ungültige Endzeit!")
                 return None
-            if end_dt < start_dt:
-                lbl_error.config(
-                    text="⚠ Ende darf nicht vor dem Beginn liegen!")
-                return None
+            if end_dt <= start_dt:
+                end_dt += timedelta(days=1)
             return start_dt, end_dt
 
         # ── Buttons ────────────────────────────────────────────────────

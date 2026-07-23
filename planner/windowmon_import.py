@@ -15,7 +15,7 @@ Workflow:
 """
 import tkinter as tk
 from tkinter import ttk, messagebox
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 
 from windowmon_logic import find_planner_gaps, get_windowmon_proposals, log_correction
@@ -253,13 +253,11 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
             sm = int(start_m.get())
             eh = int(end_h.get())
             em = int(end_m.get())
-            new_start = proposal["start"].replace(hour=sh, minute=sm,
-                                                   second=0)
-            new_end = proposal["end"].replace(hour=eh, minute=em,
-                                               second=0)
+            base_date = proposal["start"].replace(hour=0, minute=0, second=0, microsecond=0)
+            new_start = base_date.replace(hour=sh, minute=sm, second=0)
+            new_end = base_date.replace(hour=eh, minute=em, second=0)
             if new_end <= new_start:
-                lbl_error.config(text="Ende muss nach Beginn liegen!")
-                return
+                new_end += timedelta(days=1)
         except ValueError:
             lbl_error.config(text="Ungültige Zeitangabe!")
             return

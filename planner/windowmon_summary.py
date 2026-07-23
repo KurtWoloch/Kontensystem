@@ -903,11 +903,19 @@ LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 
 
 def load_windowmon(date_str: str) -> List[Dict]:
-    """Load and parse a day's windowmon JSONL file."""
+    """Load and parse a day's windowmon JSONL file (filtered to session window 05:00..05:00)."""
     path = os.path.join(LOG_DIR, f"windowmon-{date_str}.jsonl")
     if not os.path.exists(path):
         print(f"Datei nicht gefunden: {path}")
         return []
+
+    try:
+        session_dt = datetime.strptime(date_str, "%Y-%m-%d")
+        win_start = session_dt.replace(hour=5, minute=0, second=0, microsecond=0)
+        win_end = win_start + timedelta(days=1)
+    except ValueError:
+        win_start = win_end = None
+
     entries = []
     with open(path, "r", encoding="utf-8") as f:
         for line_no, line in enumerate(f, 1):
@@ -916,8 +924,11 @@ def load_windowmon(date_str: str) -> List[Dict]:
                 continue
             try:
                 entry = json.loads(line)
-                entry["_ts"] = datetime.strptime(entry["ts"],
-                                                  "%Y-%m-%dT%H:%M:%S")
+                ts = datetime.strptime(entry["ts"], "%Y-%m-%dT%H:%M:%S")
+                if win_start and win_end:
+                    if ts < win_start or ts >= win_end:
+                        continue
+                entry["_ts"] = ts
                 entries.append(entry)
             except (json.JSONDecodeError, KeyError, ValueError) as e:
                 print(f"  Warnung: Zeile {line_no} übersprungen: {e}")

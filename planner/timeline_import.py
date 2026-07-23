@@ -1339,8 +1339,7 @@ def open_timeline_dialog(root: tk.Tk, engine,
         new_start = date_dt.replace(hour=sh, minute=sm)
         new_end   = date_dt.replace(hour=eh, minute=em)
         if new_end <= new_start:
-            messagebox.showwarning("Ungültig", "Ende muss nach Beginn liegen.")
-            return
+            new_end += timedelta(days=1)
         model.update_interval(new_start, new_end)
         timeline_widget.refresh()
 
@@ -1448,6 +1447,24 @@ def open_timeline_dialog(root: tk.Tk, engine,
                 "Keine neuen Blöcke zum Importieren\n"
                 "(alle sub-minütig oder bereits geloggt).")
             return
+
+        # ── Step 2b: Extend last segment to interval_end if needed ───
+        # When no windowmon events occur near the end of the interval,
+        # the last raw segment ends at the last windowmon timestamp + 1m.
+        # Extend the last segment to interval_end unless bounded by an
+        # already-logged activity.
+        target_end = model.interval_end.replace(second=0, microsecond=0)
+        last_seg = merged[-1]
+        if last_seg['end'] < target_end:
+            max_end = target_end
+            if model.completed:
+                for c in model.completed:
+                    if c.started_at >= last_seg['end']:
+                        max_end = min(max_end, c.started_at)
+                    elif c.completed_at > last_seg['end']:
+                        max_end = last_seg['end']
+            if max_end > last_seg['end']:
+                last_seg['end'] = max_end
 
         # ── Step 3: Confirm ───────────────────────────────────────────
         n_merged = len(raw_segments) - len(merged)
