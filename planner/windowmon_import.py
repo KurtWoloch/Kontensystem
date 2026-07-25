@@ -256,7 +256,7 @@ def edit_proposal(parent: tk.Toplevel, proposal: Dict,
             base_date = proposal["start"].replace(hour=0, minute=0, second=0, microsecond=0)
             new_start = base_date.replace(hour=sh, minute=sm, second=0)
             new_end = base_date.replace(hour=eh, minute=em, second=0)
-            if new_end <= new_start:
+            if new_end < new_start:
                 new_end += timedelta(days=1)
         except ValueError:
             lbl_error.config(text="Ungültige Zeitangabe!")

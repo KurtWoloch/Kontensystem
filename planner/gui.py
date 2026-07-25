@@ -1688,7 +1688,7 @@ class PlannerGUI:
                 except ValueError:
                     end_time = now
 
-                if end_time <= start_time:
+                if end_time < start_time:
                     end_time += timedelta(days=1)
 
             dlg.destroy()
@@ -2470,7 +2470,7 @@ class PlannerGUI:
             except ValueError:
                 lbl_error.config(text="⚠ Ungültige Endzeit!")
                 return None
-            if end_dt <= start_dt:
+            if end_dt < start_dt:
                 end_dt += timedelta(days=1)
             return start_dt, end_dt
 

@@ -196,7 +196,7 @@ class TimelineModel:
                             acct, act = prev_acct or "??", prev_act or "Dateiverwaltung"
                     elif acct.startswith("_"):
                         acct = "??"
-            if not acct.startswith("_"):
+            if not acct.startswith("_") and not self._logged_activity_at(ts):
                 prev_acct, prev_act = acct, act
             classified.append((acct, act))
 
@@ -206,9 +206,13 @@ class TimelineModel:
         cur_id:   int = -1
         cur_acct: str = ""
         cur_act:  str = ""
+        cur_is_logged: Optional[bool] = None
 
         for i, (e, (acct, act)) in enumerate(zip(filtered, classified)):
-            if acct != cur_acct or act != cur_act:
+            log_act = self._logged_activity_at(e["_ts"]) or ""
+            is_logged = bool(log_act)
+
+            if acct != cur_acct or act != cur_act or is_logged != cur_is_logged:
                 bid = self._new_id()
                 blocks.append(TLBlock(
                     block_id  = bid,
@@ -220,6 +224,7 @@ class TimelineModel:
                 cur_id   = bid
                 cur_acct = acct
                 cur_act  = act
+                cur_is_logged = is_logged
             else:
                 blocks[-1].end_idx = i
 
@@ -229,7 +234,7 @@ class TimelineModel:
                 process  = e.get("process", ""),
                 browser  = e.get("browser", ""),
                 block_id = cur_id,
-                logged_activity = self._logged_activity_at(e["_ts"]) or "",
+                logged_activity = log_act,
             ))
 
         self.entries = entries
@@ -1338,7 +1343,7 @@ def open_timeline_dialog(root: tk.Tk, engine,
         date_dt = default_start.replace(hour=0, minute=0, second=0, microsecond=0)
         new_start = date_dt.replace(hour=sh, minute=sm)
         new_end   = date_dt.replace(hour=eh, minute=em)
-        if new_end <= new_start:
+        if new_end < new_start:
             new_end += timedelta(days=1)
         model.update_interval(new_start, new_end)
         timeline_widget.refresh()
