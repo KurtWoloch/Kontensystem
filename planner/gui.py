@@ -2452,12 +2452,12 @@ class PlannerGUI:
         # ── Helper: parse times from spinboxes ─────────────────────────
         def _parse_times():
             """Parse start/end times. Returns (start_dt, end_dt) or None on error."""
-            base_date = item.started_at.replace(
-                hour=0, minute=0, second=0, microsecond=0)
+            session_date = item.started_at.date() if item.started_at.hour >= 5 else item.started_at.date() - timedelta(days=1)
             try:
                 sh = int(start_h_var.get())
                 sm = int(start_m_var.get())
-                start_dt = base_date.replace(
+                start_base = session_date + timedelta(days=1) if sh < 5 else session_date
+                start_dt = datetime.combine(start_base, datetime.min.time()).replace(
                     hour=sh, minute=sm)
             except ValueError:
                 lbl_error.config(text="⚠ Ungültige Startzeit!")
@@ -2465,12 +2465,13 @@ class PlannerGUI:
             try:
                 eh = int(end_h_var.get())
                 em = int(end_m_var.get())
-                end_dt = base_date.replace(
+                end_base = session_date + timedelta(days=1) if eh < 5 else session_date
+                end_dt = datetime.combine(end_base, datetime.min.time()).replace(
                     hour=eh, minute=em)
             except ValueError:
                 lbl_error.config(text="⚠ Ungültige Endzeit!")
                 return None
-            if end_dt < start_dt:
+            if end_dt <= start_dt:
                 end_dt += timedelta(days=1)
             return start_dt, end_dt
 

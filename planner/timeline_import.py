@@ -1200,6 +1200,8 @@ def open_timeline_dialog(root: tk.Tk, engine,
     if date_str is None:
         date_str = engine.session_date.strftime("%Y-%m-%d")
 
+    session_date_dt = datetime.strptime(date_str, "%Y-%m-%d").date()
+
     # ── Load raw entries ─────────────────────────────────────────────────
     raw_entries = load_windowmon(date_str)
     if not raw_entries:
@@ -1340,11 +1342,16 @@ def open_timeline_dialog(root: tk.Tk, engine,
             messagebox.showwarning("Ungültige Zeitangabe",
                                    "Bitte gültige Stunden/Minuten eingeben.")
             return
-        date_dt = default_start.replace(hour=0, minute=0, second=0, microsecond=0)
-        new_start = date_dt.replace(hour=sh, minute=sm)
-        new_end   = date_dt.replace(hour=eh, minute=em)
-        if new_end < new_start:
+
+        start_base = session_date_dt + timedelta(days=1) if sh < 5 else session_date_dt
+        new_start = datetime.combine(start_base, datetime.min.time()).replace(hour=sh, minute=sm)
+
+        end_base = session_date_dt + timedelta(days=1) if eh < 5 else session_date_dt
+        new_end = datetime.combine(end_base, datetime.min.time()).replace(hour=eh, minute=em)
+
+        if new_end <= new_start:
             new_end += timedelta(days=1)
+
         model.update_interval(new_start, new_end)
         timeline_widget.refresh()
 
